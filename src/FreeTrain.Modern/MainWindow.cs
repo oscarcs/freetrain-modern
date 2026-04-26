@@ -41,22 +41,14 @@ public sealed class MainWindow : Window
     private Border terrainContextPanel = null!;
     private Border eraseContextPanel = null!;
     private TextBlock hudCashValue = null!;
+    private TextBlock hudWorldValue = null!;
     private TextBlock hudDateValue = null!;
     private TextBlock hudSpeedValue = null!;
     private TextBlock hudTrafficValue = null!;
     private TextBlock hudEntitiesValue = null!;
     private TextBlock hudDiagnosticsValue = null!;
-    private TextBlock worldNameValue = null!;
-    private TextBlock selectedValue = null!;
-    private TextBlock hoverValue = null!;
-    private TextBlock anchorValue = null!;
-    private TextBlock toolValue = null!;
-    private TextBlock roadValue = null!;
-    private TextBlock displayValue = null!;
-    private TextBlock transportValue = null!;
-    private TextBlock zoomValue = null!;
-    private TextBlock messageValue = null!;
     private TextBlock bottomStatusText = null!;
+    private TextBlock bottomDetailText = null!;
 
     private bool developerModeVisible;
     private bool simulationRunning;
@@ -134,30 +126,27 @@ public sealed class MainWindow : Window
 
         Grid shell = new()
         {
-            ColumnDefinitions = new ColumnDefinitions("292,*,0"),
+            ColumnDefinitions = new ColumnDefinitions("*,0"),
             RowDefinitions = new RowDefinitions("Auto,Auto,*,Auto")
         };
-        developerColumn = shell.ColumnDefinitions[2];
+        developerColumn = shell.ColumnDefinitions[1];
 
         Control hud = BuildHud();
-        Grid.SetColumnSpan(hud, 3);
+        Grid.SetColumnSpan(hud, 2);
         shell.Children.Add(hud);
 
-        Control inspector = BuildInspector();
-        Grid.SetRow(inspector, 1);
-        Grid.SetRowSpan(inspector, 3);
-        shell.Children.Add(inspector);
-
         Control toolbar = BuildMapToolbar();
-        Grid.SetColumn(toolbar, 1);
         Grid.SetRow(toolbar, 1);
         shell.Children.Add(toolbar);
 
         Control mapSurface = BuildMapSurface();
-        Grid.SetColumn(mapSurface, 1);
         Grid.SetRow(mapSurface, 2);
         shell.Children.Add(mapSurface);
 
+        Grid statusContent = new()
+        {
+            ColumnDefinitions = new ColumnDefinitions("*,Auto")
+        };
         bottomStatusText = new TextBlock
         {
             Foreground = DarkMutedTextBrush,
@@ -165,18 +154,31 @@ public sealed class MainWindow : Window
             TextTrimming = TextTrimming.CharacterEllipsis,
             Margin = new Thickness(14, 7)
         };
+        statusContent.Children.Add(bottomStatusText);
+
+        bottomDetailText = new TextBlock
+        {
+            Foreground = DarkMutedTextBrush,
+            FontWeight = FontWeight.SemiBold,
+            VerticalAlignment = VerticalAlignment.Center,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            Margin = new Thickness(12, 7, 14, 7),
+            MaxWidth = 720
+        };
+        Grid.SetColumn(bottomDetailText, 1);
+        statusContent.Children.Add(bottomDetailText);
+
         Border statusBar = new()
         {
             Background = Brushes.White,
-            Child = bottomStatusText
+            Child = statusContent
         };
-        Grid.SetColumn(statusBar, 1);
         Grid.SetRow(statusBar, 3);
         shell.Children.Add(statusBar);
 
         developerDrawer = BuildDeveloperDrawer();
         developerDrawer.IsVisible = false;
-        Grid.SetColumn(developerDrawer, 2);
+        Grid.SetColumn(developerDrawer, 1);
         Grid.SetRow(developerDrawer, 1);
         Grid.SetRowSpan(developerDrawer, 3);
         shell.Children.Add(developerDrawer);
@@ -270,6 +272,7 @@ public sealed class MainWindow : Window
         };
 
         hudCashValue = CreateHudMetric(metrics, "Cash", "JPY 0", emphasize: true);
+        hudWorldValue = CreateHudMetric(metrics, "World", "");
         hudDateValue = CreateHudMetric(metrics, "Date", "");
         hudSpeedValue = CreateHudMetric(metrics, "Speed", "");
         hudTrafficValue = CreateHudMetric(metrics, "Traffic", "");
@@ -354,126 +357,6 @@ public sealed class MainWindow : Window
         };
         metric.Children.Add(valueBlock);
         parent.Children.Add(metric);
-        return valueBlock;
-    }
-
-    private Control BuildInspector()
-    {
-        Border border = new()
-        {
-            Background = ChromeBrush,
-            Padding = new Thickness(16, 14),
-            BorderBrush = new SolidColorBrush(Color.FromRgb(50, 57, 63)),
-            BorderThickness = new Thickness(0, 0, 1, 0)
-        };
-
-        StackPanel stack = new()
-        {
-            Spacing = 14
-        };
-
-        stack.Children.Add(new TextBlock
-        {
-            Text = "FreeTrain Modern",
-            Foreground = TextBrush,
-            FontSize = 22,
-            FontWeight = FontWeight.Bold
-        });
-        worldNameValue = new TextBlock
-        {
-            Foreground = MutedTextBrush,
-            TextWrapping = TextWrapping.Wrap
-        };
-        stack.Children.Add(worldNameValue);
-
-        stack.Children.Add(BuildInspectorSection("Selection",
-            CreateInfoRow("Selected", out selectedValue),
-            CreateInfoRow("Hover", out hoverValue),
-            CreateInfoRow("Anchor", out anchorValue)));
-
-        stack.Children.Add(BuildInspectorSection("Tool",
-            CreateInfoRow("Mode", out toolValue),
-            CreateInfoRow("Road", out roadValue),
-            CreateInfoRow("Display", out displayValue),
-            CreateInfoRow("Zoom", out zoomValue)));
-
-        stack.Children.Add(BuildInspectorSection("Network",
-            CreateInfoRow("Transport", out transportValue)));
-
-        stack.Children.Add(BuildInspectorSection("Message",
-            CreateMessageBlock(out messageValue)));
-
-        border.Child = new ScrollViewer
-        {
-            Content = stack,
-            HorizontalScrollBarVisibility = ScrollBarVisibility.Disabled,
-            VerticalScrollBarVisibility = ScrollBarVisibility.Auto
-        };
-        return border;
-    }
-
-    private static Border BuildInspectorSection(string title, params Control[] children)
-    {
-        StackPanel stack = new()
-        {
-            Spacing = 8
-        };
-        stack.Children.Add(new TextBlock
-        {
-            Text = title,
-            Foreground = TextBrush,
-            FontSize = 13,
-            FontWeight = FontWeight.Bold
-        });
-        foreach (Control child in children)
-        {
-            stack.Children.Add(child);
-        }
-
-        return new Border
-        {
-            Background = ChromeRaisedBrush,
-            CornerRadius = new CornerRadius(6),
-            Padding = new Thickness(12),
-            Child = stack
-        };
-    }
-
-    private static Control CreateInfoRow(string label, out TextBlock valueBlock)
-    {
-        Grid row = new()
-        {
-            ColumnDefinitions = new ColumnDefinitions("82,*")
-        };
-        row.Children.Add(new TextBlock
-        {
-            Text = label,
-            Foreground = MutedTextBrush,
-            FontSize = 12,
-            VerticalAlignment = VerticalAlignment.Top
-        });
-
-        valueBlock = new TextBlock
-        {
-            Foreground = TextBrush,
-            FontSize = 13,
-            FontWeight = FontWeight.SemiBold,
-            TextWrapping = TextWrapping.Wrap
-        };
-        Grid.SetColumn(valueBlock, 1);
-        row.Children.Add(valueBlock);
-        return row;
-    }
-
-    private static Control CreateMessageBlock(out TextBlock valueBlock)
-    {
-        valueBlock = new TextBlock
-        {
-            Foreground = TextBrush,
-            FontSize = 13,
-            TextWrapping = TextWrapping.Wrap,
-            LineHeight = 18
-        };
         return valueBlock;
     }
 
@@ -1267,21 +1150,13 @@ public sealed class MainWindow : Window
     private void ApplyStatus(MapViewportStatus status)
     {
         hudCashValue.Text = FormatMoney(status.Cash);
+        hudWorldValue.Text = status.WorldName;
         hudDateValue.Text = status.Clock.Format(ModernTextLanguage.English);
         hudTrafficValue.Text = status.TrafficCount.ToString("N0");
         hudEntitiesValue.Text = status.EntityCount.ToString("N0");
         hudDiagnosticsValue.Text = $"{plugins.ErrorCount} plugin errors";
-        worldNameValue.Text = status.WorldName;
-        selectedValue.Text = FormatLocation(status.SelectedLocation);
-        hoverValue.Text = FormatLocation(status.HoverLocation);
-        anchorValue.Text = FormatLocation(status.BuildAnchorLocation);
-        toolValue.Text = status.EditMode.ToString();
-        roadValue.Text = status.ActiveRoadName;
-        displayValue.Text = $"Grid {(status.ShowGrid ? "on" : "off")}, night {(status.UseNightView ? "on" : "off")}, height cut {status.MaxVisibleLevel}/{status.WorldMaxHeightCutLevel}";
-        transportValue.Text = $"{status.RailTileCount:N0} rail tiles, {status.RoadTileCount:N0} road tiles, {status.CarCount:N0} cars";
-        zoomValue.Text = $"{status.Zoom:0.##}x";
-        messageValue.Text = $"{status.InteractionHint}\n{status.LastMessage}";
-        bottomStatusText.Text = $"{FormatLocation(status.HoverLocation)} | {status.InteractionHint}";
+        bottomStatusText.Text = $"{status.InteractionHint} {status.LastMessage}";
+        bottomDetailText.Text = CreateStatusDetails(status);
 
         if (Math.Abs(heightCutSlider.Value - status.MaxVisibleLevel) > 0.001)
         {
@@ -1373,11 +1248,19 @@ public sealed class MainWindow : Window
         developerToggleButton.Content = visible ? "Hide Developer" : "Developer";
     }
 
-    private static string FormatLocation(TileLocation? location)
+    private static string FormatCompactLocation(TileLocation? location)
     {
         return location is { } tile
-            ? $"H {tile.H}, V {tile.V}, Z {tile.Z}, {tile.Corner}"
-            : "None";
+            ? $"{tile.H},{tile.V},{tile.Z} {tile.Corner}"
+            : "-";
+    }
+
+    private static string CreateStatusDetails(MapViewportStatus status)
+    {
+        string anchor = status.BuildAnchorLocation is null
+            ? ""
+            : $" | Anchor {FormatCompactLocation(status.BuildAnchorLocation)}";
+        return $"Hover {FormatCompactLocation(status.HoverLocation)} | Selected {FormatCompactLocation(status.SelectedLocation)}{anchor} | {status.EditMode} | Road {status.ActiveRoadName} | Zoom {status.Zoom:0.##}x | Cut {status.MaxVisibleLevel}/{status.WorldMaxHeightCutLevel} | Rail {status.RailTileCount:N0} Road {status.RoadTileCount:N0}";
     }
 
     private static string FormatMoney(long amount)
@@ -1467,7 +1350,6 @@ public sealed class MainWindow : Window
 
     private void ShowMessage(string message)
     {
-        messageValue.Text = message;
         bottomStatusText.Text = message;
     }
 
