@@ -32,8 +32,8 @@ public sealed class MainWindow : Window
     private Button developerToggleButton = null!;
     private Button playPauseButton = null!;
     private TextBlock simulationStepValue = null!;
-    private CheckBox gridCheckBox = null!;
-    private CheckBox nightCheckBox = null!;
+    private ToggleButton gridToggleButton = null!;
+    private ToggleButton nightToggleButton = null!;
     private Slider heightCutSlider = null!;
     private Border selectContextPanel = null!;
     private Border railContextPanel = null!;
@@ -288,7 +288,9 @@ public sealed class MainWindow : Window
             Foreground = TextBrush,
             Padding = new Thickness(12, 7),
             Margin = new Thickness(8, 10, 14, 10),
-            VerticalAlignment = VerticalAlignment.Center
+            VerticalAlignment = VerticalAlignment.Stretch,
+            VerticalContentAlignment = VerticalAlignment.Center,
+            HorizontalContentAlignment = HorizontalAlignment.Center
         };
         developerToggleButton.Click += (_, _) => ToggleDeveloperMode();
         ToolTip.SetTip(developerToggleButton, "Show assets, pictures, sprites, roads, and plugin diagnostics.");
@@ -479,7 +481,7 @@ public sealed class MainWindow : Window
     {
         Grid toolbar = new()
         {
-            ColumnDefinitions = new ColumnDefinitions("Auto,*"),
+            ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
             Background = PanelBrush,
             MinHeight = 72
         };
@@ -500,7 +502,8 @@ public sealed class MainWindow : Window
 
         Grid contextGrid = new()
         {
-            Margin = new Thickness(10, 8, 12, 8)
+            Margin = new Thickness(10, 8, 8, 8),
+            VerticalAlignment = VerticalAlignment.Stretch
         };
         Grid.SetColumn(contextGrid, 1);
         selectContextPanel = ContextPanel("Selection", new TextBlock
@@ -537,6 +540,10 @@ public sealed class MainWindow : Window
         contextGrid.Children.Add(eraseContextPanel);
         toolbar.Children.Add(contextGrid);
 
+        Control viewToolbar = BuildViewToolbar();
+        Grid.SetColumn(viewToolbar, 2);
+        toolbar.Children.Add(viewToolbar);
+
         return new Border
         {
             Background = PanelBrush,
@@ -552,7 +559,7 @@ public sealed class MainWindow : Window
         {
             Orientation = Orientation.Horizontal,
             Spacing = 8,
-            VerticalAlignment = VerticalAlignment.Center
+            VerticalAlignment = VerticalAlignment.Stretch
         };
         row.Children.Add(new TextBlock
         {
@@ -572,6 +579,7 @@ public sealed class MainWindow : Window
         return new Border
         {
             Background = Brushes.Transparent,
+            VerticalAlignment = VerticalAlignment.Stretch,
             Child = row
         };
     }
@@ -583,9 +591,12 @@ public sealed class MainWindow : Window
             Content = content,
             Background = Brushes.White,
             Foreground = DarkTextBrush,
-            MinWidth = 34,
-            MinHeight = 30,
-            Padding = new Thickness(10, 4)
+            MinWidth = 42,
+            MinHeight = 36,
+            Padding = new Thickness(12, 6),
+            VerticalAlignment = VerticalAlignment.Stretch,
+            VerticalContentAlignment = VerticalAlignment.Center,
+            HorizontalContentAlignment = HorizontalAlignment.Center
         };
         button.Click += click;
         ToolTip.SetTip(button, tip);
@@ -601,7 +612,10 @@ public sealed class MainWindow : Window
             Foreground = DarkTextBrush,
             Width = 68,
             Height = 56,
-            Padding = new Thickness(4)
+            Padding = new Thickness(4),
+            VerticalAlignment = VerticalAlignment.Center,
+            VerticalContentAlignment = VerticalAlignment.Center,
+            HorizontalContentAlignment = HorizontalAlignment.Center
         };
         button.Click += (_, _) => mapViewport.EditMode = mode;
         ToolTip.SetTip(button, tip);
@@ -653,9 +667,11 @@ public sealed class MainWindow : Window
             Background = ChromeRaisedBrush,
             Foreground = TextBrush,
             MinWidth = 34,
-            MinHeight = 30,
-            Padding = new Thickness(9, 3),
-            VerticalAlignment = VerticalAlignment.Center
+            MinHeight = 36,
+            Padding = new Thickness(9, 5),
+            VerticalAlignment = VerticalAlignment.Stretch,
+            VerticalContentAlignment = VerticalAlignment.Center,
+            HorizontalContentAlignment = HorizontalAlignment.Center
         };
         button.Click += click;
         ToolTip.SetTip(button, tip);
@@ -667,7 +683,7 @@ public sealed class MainWindow : Window
         StackPanel row = new()
         {
             Orientation = Orientation.Horizontal,
-            Spacing = 6,
+            Spacing = 8,
             VerticalAlignment = VerticalAlignment.Center
         };
         row.Children.Add(new TextBlock
@@ -683,7 +699,7 @@ public sealed class MainWindow : Window
             Minimum = 0,
             Maximum = mapViewport.WorldMaxHeightCutLevel,
             Value = mapViewport.MaxVisibleLevel,
-            Width = 118,
+            Width = 128,
             TickFrequency = 1,
             IsSnapToTickEnabled = true,
             VerticalAlignment = VerticalAlignment.Center
@@ -705,77 +721,85 @@ public sealed class MainWindow : Window
         return playPauseButton;
     }
 
-    private CheckBox GridToggle()
+    private ToggleButton GridToggle()
     {
-        gridCheckBox = new CheckBox
-        {
-            Content = "Grid",
-            IsChecked = mapViewport.ShowGrid,
-            Foreground = DarkTextBrush,
-            VerticalAlignment = VerticalAlignment.Center
-        };
-        gridCheckBox.IsCheckedChanged += (_, _) => mapViewport.ShowGrid = gridCheckBox.IsChecked == true;
-        ToolTip.SetTip(gridCheckBox, "Show the map grid.");
-        return gridCheckBox;
+        gridToggleButton = ViewToggleButton("Grid", "Show the map grid.");
+        gridToggleButton.IsChecked = mapViewport.ShowGrid;
+        gridToggleButton.Click += (_, _) => mapViewport.ShowGrid = gridToggleButton.IsChecked == true;
+        return gridToggleButton;
     }
 
-    private CheckBox NightModeButton()
+    private ToggleButton NightModeButton()
     {
         Control icon = dayNightIconStrip is null
             ? new ToolGlyph(ToolGlyphKind.Night, 16)
-            : new StripIcon(dayNightIconStrip, 2, 16, 15, 22);
-        nightCheckBox = new CheckBox
+            : new StripIcon(dayNightIconStrip, 2, 16, 15, 18);
+        nightToggleButton = ViewToggleButton(IconLabel(icon, "Night"), "Preview the night overlay.");
+        nightToggleButton.IsChecked = mapViewport.UseNightView;
+        nightToggleButton.Click += (_, _) => mapViewport.UseNightView = nightToggleButton.IsChecked == true;
+        return nightToggleButton;
+    }
+
+    private static ToggleButton ViewToggleButton(object content, string tip)
+    {
+        ToggleButton button = new()
         {
-            Content = IconLabel(icon, "Night"),
-            IsChecked = mapViewport.UseNightView,
+            Content = content,
+            Background = Brushes.White,
             Foreground = DarkTextBrush,
-            VerticalAlignment = VerticalAlignment.Center
+            MinWidth = 48,
+            MinHeight = 36,
+            Padding = new Thickness(10, 5),
+            VerticalAlignment = VerticalAlignment.Stretch,
+            VerticalContentAlignment = VerticalAlignment.Center,
+            HorizontalContentAlignment = HorizontalAlignment.Center
         };
-        nightCheckBox.IsCheckedChanged += (_, _) => mapViewport.UseNightView = nightCheckBox.IsChecked == true;
-        ToolTip.SetTip(nightCheckBox, "Preview the night overlay.");
-        return nightCheckBox;
+        ToolTip.SetTip(button, tip);
+        return button;
     }
 
     private Control BuildMapSurface()
     {
-        Grid mapLayer = new();
-        mapLayer.Children.Add(new ScrollViewer
+        ScrollViewer scroller = new()
         {
             Content = mapViewport,
             HorizontalScrollBarVisibility = ScrollBarVisibility.Auto,
             VerticalScrollBarVisibility = ScrollBarVisibility.Auto
-        });
-
-        Border viewOverlay = new()
-        {
-            Background = new SolidColorBrush(Color.FromArgb(232, 246, 248, 249)),
-            BorderBrush = new SolidColorBrush(Color.FromRgb(207, 214, 218)),
-            BorderThickness = new Thickness(1),
-            CornerRadius = new CornerRadius(6),
-            Padding = new Thickness(8),
-            Margin = new Thickness(0, 12, 12, 0),
-            HorizontalAlignment = HorizontalAlignment.Right,
-            VerticalAlignment = VerticalAlignment.Top,
-            Child = BuildMapViewOverlay()
         };
-        mapLayer.Children.Add(viewOverlay);
+
+        void UpdateViewport()
+        {
+            mapViewport.SetVisibleContentViewport(scroller.Offset, scroller.Viewport);
+        }
+
+        scroller.ScrollChanged += (_, _) => UpdateViewport();
+        scroller.SizeChanged += (_, _) => UpdateViewport();
+        mapViewport.PropertyChanged += (_, e) =>
+        {
+            if (e.Property == BoundsProperty)
+            {
+                UpdateViewport();
+            }
+        };
+        Dispatcher.UIThread.Post(UpdateViewport, DispatcherPriority.Loaded);
 
         return new Border
         {
             Background = new SolidColorBrush(Color.FromRgb(92, 162, 182)),
             BorderBrush = new SolidColorBrush(Color.FromRgb(16, 19, 22)),
             BorderThickness = new Thickness(0),
-            Child = mapLayer
+            Child = scroller
         };
     }
 
-    private Control BuildMapViewOverlay()
+    private Control BuildViewToolbar()
     {
         StackPanel panel = new()
         {
             Orientation = Orientation.Horizontal,
-            Spacing = 7,
-            VerticalAlignment = VerticalAlignment.Center
+            Spacing = 8,
+            Margin = new Thickness(8, 8, 12, 8),
+            VerticalAlignment = VerticalAlignment.Stretch
         };
 
         panel.Children.Add(new TextBlock
@@ -785,9 +809,9 @@ public sealed class MainWindow : Window
             FontWeight = FontWeight.Bold,
             VerticalAlignment = VerticalAlignment.Center
         });
-        panel.Children.Add(OverlayButton(IconOnly(ToolGlyphKind.ZoomOut), (_, _) => mapViewport.Zoom -= 0.25, "Zoom out"));
-        panel.Children.Add(OverlayButton(IconOnly(ToolGlyphKind.ZoomIn), (_, _) => mapViewport.Zoom += 0.25, "Zoom in"));
-        panel.Children.Add(OverlayButton("1:1", (_, _) => mapViewport.Zoom = 1.0, "Reset zoom"));
+        panel.Children.Add(ViewButton(IconOnly(ToolGlyphKind.ZoomOut), (_, _) => mapViewport.Zoom -= 0.25, "Zoom out"));
+        panel.Children.Add(ViewButton(IconOnly(ToolGlyphKind.ZoomIn), (_, _) => mapViewport.Zoom += 0.25, "Zoom in"));
+        panel.Children.Add(ViewButton("1:1", (_, _) => mapViewport.Zoom = 1.0, "Reset zoom"));
         panel.Children.Add(GridToggle());
         panel.Children.Add(NightModeButton());
         panel.Children.Add(HeightCutControl());
@@ -795,17 +819,19 @@ public sealed class MainWindow : Window
         return panel;
     }
 
-    private static Button OverlayButton(object content, EventHandler<RoutedEventArgs> click, string tip)
+    private static Button ViewButton(object content, EventHandler<RoutedEventArgs> click, string tip)
     {
         Button button = new()
         {
             Content = content,
             Background = Brushes.White,
             Foreground = DarkTextBrush,
-            MinWidth = 30,
-            MinHeight = 28,
-            Padding = new Thickness(7, 3),
-            VerticalAlignment = VerticalAlignment.Center
+            MinWidth = 36,
+            MinHeight = 36,
+            Padding = new Thickness(8, 5),
+            VerticalAlignment = VerticalAlignment.Stretch,
+            VerticalContentAlignment = VerticalAlignment.Center,
+            HorizontalContentAlignment = HorizontalAlignment.Center
         };
         button.Click += click;
         ToolTip.SetTip(button, tip);
@@ -839,7 +865,10 @@ public sealed class MainWindow : Window
             Background = ChromeRaisedBrush,
             Foreground = TextBrush,
             Padding = new Thickness(10, 4),
-            Margin = new Thickness(8, 8, 12, 8)
+            Margin = new Thickness(8, 8, 12, 8),
+            VerticalAlignment = VerticalAlignment.Stretch,
+            VerticalContentAlignment = VerticalAlignment.Center,
+            HorizontalContentAlignment = HorizontalAlignment.Center
         };
         close.Click += (_, _) => SetDeveloperMode(false);
         Grid.SetColumn(close, 1);
@@ -1259,8 +1288,10 @@ public sealed class MainWindow : Window
             heightCutSlider.Value = status.MaxVisibleLevel;
         }
 
-        gridCheckBox.IsChecked = status.ShowGrid;
-        nightCheckBox.IsChecked = status.UseNightView;
+        gridToggleButton.IsChecked = status.ShowGrid;
+        gridToggleButton.Background = status.ShowGrid ? ActiveToolBrush : Brushes.White;
+        nightToggleButton.IsChecked = status.UseNightView;
+        nightToggleButton.Background = status.UseNightView ? ActiveToolBrush : Brushes.White;
         UpdateModeButtons(status.EditMode);
         UpdateContextPanels(status.EditMode);
         UpdateSimulationText();

@@ -25,6 +25,7 @@ public sealed class MapViewport : Control, IDisposable
     private readonly Bitmap railBitmap;
     private readonly IBrush background = new SolidColorBrush(Color.FromRgb(219, 232, 226));
     private readonly IBrush waterBrush = new SolidColorBrush(Color.FromRgb(107, 156, 178));
+    private readonly IBrush waterTileBrush = new SolidColorBrush(Color.FromRgb(81, 148, 181));
     private readonly IBrush nightBrush = new SolidColorBrush(Color.FromArgb(82, 15, 28, 54));
     private readonly Pen hoverPen = new(new SolidColorBrush(Color.FromRgb(255, 247, 153)), 2);
     private readonly Pen selectionPen = new(new SolidColorBrush(Color.FromRgb(255, 112, 88)), 2.4);
@@ -58,6 +59,8 @@ public sealed class MapViewport : Control, IDisposable
     private MapEditMode editMode = MapEditMode.Select;
     private int activeRoadIndex;
     private string lastMessage = "Ready.";
+    private Rect visibleContentBounds;
+    private bool hasVisibleContentBounds;
 
     public MapViewport(LegacyAssetCatalog assets, PluginManifestCatalog plugins)
     {
@@ -186,6 +189,25 @@ public sealed class MapViewport : Control, IDisposable
 
     public MapViewportStatus CurrentStatus => CreateStatus();
 
+    public void SetVisibleContentViewport(Vector offset, Size viewport)
+    {
+        if (viewport.Width <= 0 || viewport.Height <= 0)
+        {
+            hasVisibleContentBounds = false;
+            return;
+        }
+
+        Rect next = new(offset.X, offset.Y, viewport.Width, viewport.Height);
+        if (hasVisibleContentBounds && AreClose(visibleContentBounds, next))
+        {
+            return;
+        }
+
+        visibleContentBounds = next;
+        hasVisibleContentBounds = true;
+        InvalidateVisual();
+    }
+
     public ModernWorldSnapshot CreateWorldSnapshot()
     {
         return world.ToSnapshot();
@@ -240,24 +262,26 @@ public sealed class MapViewport : Control, IDisposable
     {
         base.Render(context);
 
-        context.FillRectangle(background, Bounds);
+        Rect visibleMapRect = VisibleMapRect;
+        Rect expandedVisibleMapRect = ExpandRect(visibleMapRect, 96, 160);
+        context.FillRectangle(background, hasVisibleContentBounds ? visibleContentBounds : Bounds);
 
         using (context.PushRenderOptions(pixelArtRenderOptions))
         using (context.PushTransform(Matrix.CreateScale(Zoom, Zoom)))
         {
-            RenderWater(context);
-            RenderGround(context);
-            RenderLandObjects(context);
-            RenderRoadObjects(context);
-            RenderRailRoadCrossings(context, behindRail: true);
-            RenderRailObjects(context);
-            RenderRailRoadCrossings(context, behindRail: false);
-            RenderMapObjects(context);
+            RenderWater(context, expandedVisibleMapRect);
+            RenderGround(context, expandedVisibleMapRect);
+            RenderLandObjects(context, expandedVisibleMapRect);
+            RenderRoadObjects(context, expandedVisibleMapRect);
+            RenderRailRoadCrossings(context, behindRail: true, expandedVisibleMapRect);
+            RenderRailObjects(context, expandedVisibleMapRect);
+            RenderRailRoadCrossings(context, behindRail: false, expandedVisibleMapRect);
+            RenderMapObjects(context, expandedVisibleMapRect);
             RenderMapMarkers(context);
 
             if (UseNightView)
             {
-                context.FillRectangle(nightBrush, new Rect(0, 0, Bounds.Width / Zoom, Bounds.Height / Zoom));
+                context.FillRectangle(nightBrush, visibleMapRect);
             }
         }
     }
@@ -269,76 +293,75 @@ public sealed class MapViewport : Control, IDisposable
         return new Size(width, height);
     }
 
-    private void RenderWater(DrawingContext context)
+    private Rect VisibleMapRect
     {
-        double width = (world.Width + world.Height) * 16 + 160;
-        double height = (world.Width + world.Height) * 8 + 160;
-        context.FillRectangle(waterBrush, new Rect(0, 0, width, height));
-    }
-
-    private void RenderGround(DrawingContext context)
-    {
-        bool noHeightCut = MaxVisibleLevel == world.MaxHeightCutLevel;
-        int initialLevel = noHeightCut ? world.WaterLevel : 0;
-
-        for (int v = 0; v < world.Height; v++)
+        get
         {
-            for (int h = 0; h < world.Width; h++)
+            if (hasVisibleContentBounds)
             {
-                TerrainTilePreview terrain = world.GetTerrainTile(h, v);
-                int groundLevel = terrain.SurfaceLevel;
-
-                for (int z = initialLevel; z <= MaxVisibleLevel; z++)
-                {
-                    bool drawLand = z == terrain.BaseLevel && groundLevel <= MaxVisibleLevel;
-                    bool drawWater = noHeightCut && z == world.WaterLevel && groundLevel < world.WaterLevel;
-                    bool drawHeightCut = z == MaxVisibleLevel && MaxVisibleLevel < terrain.BaseLevel;
-
-                    if (!drawLand && !drawWater && !drawHeightCut)
-                    {
-                        continue;
-                    }
-
-                    Point p = FromHvzToScreen(h, v, z);
-
-                    if (drawHeightCut)
-                    {
-                        groundTiles.DrawTile(context, 3, p);
-                    }
-                    else if (drawWater)
-                    {
-                        groundTiles.DrawTile(context, 2, p);
-                        if (ShowGrid)
-                        {
-                            terrainRenderer.DrawDiamond(context, p, terrainRenderer.CoastPen);
-                        }
-                    }
-                    else
-                    {
-                        if (terrain.IsFlat && terrain.BaseLevel < world.WaterLevel)
-                        {
-                            groundTiles.DrawTile(context, 2, p);
-                            if (ShowGrid)
-                            {
-                                terrainRenderer.DrawDiamond(context, p, terrainRenderer.CoastPen);
-                            }
-                        }
-                        else
-                        {
-                            terrainRenderer.DrawTerrainTile(context, world, groundTiles, h, v, p, terrain, ShowGrid);
-                        }
-                    }
-                }
+                return new Rect(
+                    visibleContentBounds.X / Zoom,
+                    visibleContentBounds.Y / Zoom,
+                    visibleContentBounds.Width / Zoom,
+                    visibleContentBounds.Height / Zoom);
             }
+
+            return new Rect(0, 0, Math.Max(1, Bounds.Width / Zoom), Math.Max(1, Bounds.Height / Zoom));
         }
     }
 
-    private void RenderMapObjects(DrawingContext context)
+    private static bool AreClose(Rect left, Rect right)
+    {
+        return Math.Abs(left.X - right.X) < 0.1
+            && Math.Abs(left.Y - right.Y) < 0.1
+            && Math.Abs(left.Width - right.Width) < 0.1
+            && Math.Abs(left.Height - right.Height) < 0.1;
+    }
+
+    private static Rect ExpandRect(Rect rect, double horizontal, double vertical)
+    {
+        return new Rect(
+            rect.X - horizontal,
+            rect.Y - vertical,
+            rect.Width + horizontal * 2,
+            rect.Height + vertical * 2);
+    }
+
+    private void RenderWater(DrawingContext context, Rect visibleMapRect)
+    {
+        context.FillRectangle(waterBrush, visibleMapRect);
+    }
+
+    private void RenderGround(DrawingContext context, Rect visibleMapRect)
+    {
+        foreach ((int h, int v) in EnumerateVisibleTiles(visibleMapRect, 64, 96))
+        {
+            TerrainTilePreview terrain = world.GetTerrainTile(h, v);
+            int visualLevel = GetTerrainVisualLevel(terrain);
+            Point p = FromHvzToScreen(h, v, visualLevel);
+
+            if (MaxVisibleLevel < terrain.BaseLevel)
+            {
+                groundTiles.DrawTile(context, 3, p);
+                continue;
+            }
+
+            if (terrain.BaseLevel < world.WaterLevel && MaxVisibleLevel >= world.WaterLevel)
+            {
+                DrawWaterTile(context, p);
+                continue;
+            }
+
+            terrainRenderer.DrawTerrainTile(context, world, groundTiles, h, v, p, terrain, ShowGrid);
+        }
+    }
+
+    private void RenderMapObjects(DrawingContext context, Rect visibleMapRect)
     {
         foreach (ModernPlacedEntity mapObject in world.StructureEntities.OrderBy(obj => obj.H + obj.V).ThenBy(obj => obj.V))
         {
             int z = world.GetTerrainTile(mapObject.H, mapObject.V).SurfaceLevel;
-            if (z > MaxVisibleLevel)
+            if (z > MaxVisibleLevel || !IsTilePotentiallyVisible(mapObject.H, mapObject.V, z, visibleMapRect, 320, 560, 160, 120))
             {
                 continue;
             }
@@ -355,13 +378,13 @@ public sealed class MapViewport : Control, IDisposable
         }
     }
 
-    private void RenderLandObjects(DrawingContext context)
+    private void RenderLandObjects(DrawingContext context, Rect visibleMapRect)
     {
         foreach (ModernPlacedEntity landObject in world.LandEntities.OrderBy(obj => obj.H + obj.V).ThenBy(obj => obj.V))
         {
             TerrainTilePreview terrain = world.GetTerrainTile(landObject.H, landObject.V);
             int z = terrain.SurfaceLevel;
-            if (z > MaxVisibleLevel)
+            if (z > MaxVisibleLevel || !IsTilePotentiallyVisible(landObject.H, landObject.V, z, visibleMapRect, 96, 160, 96, 96))
             {
                 continue;
             }
@@ -396,13 +419,13 @@ public sealed class MapViewport : Control, IDisposable
         }
     }
 
-    private void RenderRailObjects(DrawingContext context)
+    private void RenderRailObjects(DrawingContext context, Rect visibleMapRect)
     {
         foreach (MapRailObject railObject in world.CreateRailObjects().OrderBy(obj => obj.H + obj.V).ThenBy(obj => obj.V))
         {
             TerrainTilePreview terrain = world.GetTerrainTile(railObject.H, railObject.V);
             int z = terrain.SurfaceLevel;
-            if (z > MaxVisibleLevel)
+            if (z > MaxVisibleLevel || !IsTilePotentiallyVisible(railObject.H, railObject.V, z, visibleMapRect, 48, 48, 48, 48))
             {
                 continue;
             }
@@ -416,13 +439,15 @@ public sealed class MapViewport : Control, IDisposable
         }
     }
 
-    private void RenderRoadObjects(DrawingContext context)
+    private void RenderRoadObjects(DrawingContext context, Rect visibleMapRect)
     {
         foreach (MapRoadObject roadObject in world.CreateRoadObjects().OrderBy(obj => obj.H + obj.V).ThenBy(obj => obj.V))
         {
             TerrainTilePreview terrain = world.GetTerrainTile(roadObject.H, roadObject.V);
             int z = terrain.SurfaceLevel;
-            if (z > MaxVisibleLevel || roadObject.Frame is not { } frame)
+            if (z > MaxVisibleLevel
+                || roadObject.Frame is not { } frame
+                || !IsTilePotentiallyVisible(roadObject.H, roadObject.V, z, visibleMapRect, 64, 64, 64, 64))
             {
                 continue;
             }
@@ -431,7 +456,7 @@ public sealed class MapViewport : Control, IDisposable
         }
     }
 
-    private void RenderRailRoadCrossings(DrawingContext context, bool behindRail)
+    private void RenderRailRoadCrossings(DrawingContext context, bool behindRail, Rect visibleMapRect)
     {
         if (railRoadCrossingPath is null)
         {
@@ -446,7 +471,9 @@ public sealed class MapViewport : Control, IDisposable
             int h = traffic.Location.H;
             int v = traffic.Location.V;
             int z = traffic.Location.Z;
-            if (z > MaxVisibleLevel || traffic.Accessory?.CrossingOrientation is not { } orientation)
+            if (z > MaxVisibleLevel
+                || traffic.Accessory?.CrossingOrientation is not { } orientation
+                || !IsTilePotentiallyVisible(h, v, z, visibleMapRect, 64, 80, 64, 64))
             {
                 continue;
             }
@@ -479,7 +506,7 @@ public sealed class MapViewport : Control, IDisposable
 
         if (selectedLocation is { } selected && selected.Z <= MaxVisibleLevel)
         {
-            DrawDiamondFill(context, FromHvzToScreen(selected.H, selected.V, selected.Z), selectionFill, selectionPen);
+            DrawLocationMarker(context, selected, selectionFill, selectionPen);
         }
 
         if (buildAnchorLocation is { } anchor && anchor.Z <= MaxVisibleLevel)
@@ -489,8 +516,19 @@ public sealed class MapViewport : Control, IDisposable
 
         if (hoverLocation is { } hover && hover.Z <= MaxVisibleLevel)
         {
-            DrawDiamondFill(context, FromHvzToScreen(hover.H, hover.V, hover.Z), hoverFill, hoverPen);
+            DrawLocationMarker(context, hover, hoverFill, hoverPen);
         }
+    }
+
+    private void DrawLocationMarker(DrawingContext context, TileLocation location, IBrush fill, Pen outline)
+    {
+        if (EditMode == MapEditMode.Terrain)
+        {
+            DrawCornerMarker(context, location, fill, outline);
+            return;
+        }
+
+        DrawDiamondFill(context, FromHvzToScreen(location.H, location.V, location.Z), fill, outline);
     }
 
     private static void DrawDiamondFill(DrawingContext context, Point p, IBrush fill, Pen outline)
@@ -508,6 +546,29 @@ public sealed class MapViewport : Control, IDisposable
         context.DrawGeometry(fill, outline, geometry);
     }
 
+    private void DrawWaterTile(DrawingContext context, Point p)
+    {
+        StreamGeometry geometry = new();
+        using (StreamGeometryContext path = geometry.Open())
+        {
+            path.BeginFigure(new Point(p.X + 16, p.Y), true);
+            path.LineTo(new Point(p.X + 32, p.Y + 8));
+            path.LineTo(new Point(p.X + 16, p.Y + 16));
+            path.LineTo(new Point(p.X, p.Y + 8));
+            path.EndFigure(true);
+        }
+
+        context.DrawGeometry(waterTileBrush, null, geometry);
+    }
+
+    private void DrawCornerMarker(DrawingContext context, TileLocation location, IBrush fill, Pen outline)
+    {
+        Point p = GetTerrainCornerScreenPoint(location);
+        context.DrawEllipse(fill, outline, p, 4.5, 4.5);
+        context.DrawLine(outline, new Point(p.X - 7, p.Y), new Point(p.X + 7, p.Y));
+        context.DrawLine(outline, new Point(p.X, p.Y - 7), new Point(p.X, p.Y + 7));
+    }
+
     public void RaiseSelectedTerrain()
     {
         if (selectedLocation is not { } selected)
@@ -515,11 +576,11 @@ public sealed class MapViewport : Control, IDisposable
             return;
         }
 
-        if (world.GetTerrainTile(selected.H, selected.V).SurfaceLevel == selected.Z
-            && world.RaiseCorner(selected.H, selected.V, selected.Corner))
+        if (world.RaiseCorner(selected.H, selected.V, selected.Corner))
         {
-            maxVisibleLevel = Math.Max(maxVisibleLevel, world.GetTerrainTile(selected.H, selected.V).SurfaceLevel);
-            selectedLocation = selected with { Z = world.GetTerrainTile(selected.H, selected.V).SurfaceLevel };
+            TerrainTilePreview terrain = world.GetTerrainTile(selected.H, selected.V);
+            maxVisibleLevel = Math.Max(maxVisibleLevel, terrain.SurfaceLevel);
+            selectedLocation = selected with { Z = GetTerrainVisualLevel(terrain) };
             InvalidateMeasure();
             InvalidateVisual();
             PublishStatus();
@@ -533,10 +594,9 @@ public sealed class MapViewport : Control, IDisposable
             return;
         }
 
-        if (world.GetTerrainTile(selected.H, selected.V).SurfaceLevel == selected.Z
-            && world.LowerCorner(selected.H, selected.V, selected.Corner))
+        if (world.LowerCorner(selected.H, selected.V, selected.Corner))
         {
-            selectedLocation = selected with { Z = world.GetTerrainTile(selected.H, selected.V).SurfaceLevel };
+            selectedLocation = selected with { Z = GetTerrainVisualLevel(world.GetTerrainTile(selected.H, selected.V)) };
             InvalidateMeasure();
             InvalidateVisual();
             PublishStatus();
@@ -1100,6 +1160,56 @@ public sealed class MapViewport : Control, IDisposable
         return new Point(MapOriginX + 16 * (2 * h + (projectedV & 1)), MapOriginY + 8 * projectedV);
     }
 
+    private int GetTerrainVisualLevel(TerrainTilePreview terrain)
+    {
+        if (MaxVisibleLevel < terrain.BaseLevel)
+        {
+            return MaxVisibleLevel;
+        }
+
+        if (terrain.BaseLevel < world.WaterLevel && MaxVisibleLevel >= world.WaterLevel)
+        {
+            return world.WaterLevel;
+        }
+
+        return terrain.BaseLevel;
+    }
+
+    private IEnumerable<(int H, int V)> EnumerateVisibleTiles(Rect visibleMapRect, double horizontalMargin, double verticalMargin)
+    {
+        Rect rect = ExpandRect(visibleMapRect, horizontalMargin, verticalMargin);
+        int maxRenderLevel = Math.Max(MaxVisibleLevel, MaxVisibleLevel >= world.WaterLevel ? world.WaterLevel : 0);
+        int minH = Math.Max(0, (int)Math.Floor((rect.Left - MapOriginX - 32) / 32) - 1);
+        int maxH = Math.Min(world.Width - 1, (int)Math.Ceiling((rect.Right - MapOriginX + 32) / 32) + 1);
+        int minV = Math.Max(0, (int)Math.Floor((rect.Top - MapOriginY) / 8) - 2);
+        int maxV = Math.Min(world.Height - 1, (int)Math.Ceiling((rect.Bottom - MapOriginY) / 8) + maxRenderLevel * 2 + 2);
+
+        for (int v = minV; v <= maxV; v++)
+        {
+            for (int h = minH; h <= maxH; h++)
+            {
+                yield return (h, v);
+            }
+        }
+    }
+
+    private bool IsTilePotentiallyVisible(
+        int h,
+        int v,
+        int z,
+        Rect visibleMapRect,
+        double leftMargin,
+        double topMargin,
+        double rightMargin,
+        double bottomMargin)
+    {
+        Point p = FromHvzToScreen(h, v, z);
+        return p.X >= visibleMapRect.Left - leftMargin
+            && p.X <= visibleMapRect.Right + rightMargin
+            && p.Y >= visibleMapRect.Top - topMargin
+            && p.Y <= visibleMapRect.Bottom + bottomMargin;
+    }
+
     protected override void OnPointerMoved(PointerEventArgs e)
     {
         base.OnPointerMoved(e);
@@ -1166,81 +1276,120 @@ public sealed class MapViewport : Control, IDisposable
     private TileLocation? PickTile(Point controlPoint)
     {
         Point mapPoint = new(controlPoint.X / Zoom, controlPoint.Y / Zoom);
-        Point ab = new(mapPoint.X - MapOriginX, mapPoint.Y - MapOriginY);
-        TileLocation? ground = PickGroundLocationFromAb(ab);
-        return ground is null ? null : SelectMountainCorner(ground.Value, ab);
+        TileLocation? ground = PickRenderedTile(mapPoint);
+        return ground is null ? null : SelectNearestTerrainCorner(ground.Value, mapPoint);
     }
 
-    private TileLocation? PickGroundLocationFromAb(Point ab)
+    private TileLocation? PickRenderedTile(Point mapPoint)
     {
-        int a = (int)Math.Floor(ab.X);
-        int b = (int)Math.Floor(ab.Y);
-        int t = 2 * b - 16;
-        int x = (a - t) >> 5;
-        int y = (a + t) >> 5;
-        x += (world.Height - 1) / 2;
+        TileLocation? best = null;
+        int bestDrawOrder = int.MinValue;
+        int maxPickLevel = Math.Max(MaxVisibleLevel, MaxVisibleLevel >= world.WaterLevel ? world.WaterLevel : 0);
 
-        for (int z = MaxVisibleLevel; z >= 0; z--)
+        for (int z = maxPickLevel; z >= 0; z--)
         {
-            int locX = x - z;
-            int locY = y + z;
-            if (!TryXyToHv(locX, locY, out int h, out int v))
+            double vAtPoint = (mapPoint.Y - MapOriginY) / 8.0 + z * 2;
+            int centerV = (int)Math.Floor(vAtPoint);
+            for (int v = centerV - 2; v <= centerV + 2; v++)
             {
-                continue;
-            }
+                if (v < 0 || v >= world.Height)
+                {
+                    continue;
+                }
 
-            if (world.GetTerrainTile(h, v).SurfaceLevel == z)
+                int projectedV = v - z * 2;
+                double hAtPoint = (mapPoint.X - MapOriginX - ((projectedV & 1) != 0 ? 16 : 0)) / 32.0;
+                int centerH = (int)Math.Floor(hAtPoint);
+                for (int h = centerH - 1; h <= centerH + 1; h++)
+                {
+                    if (!world.IsInside(h, v))
+                    {
+                        continue;
+                    }
+
+                    TerrainTilePreview terrain = world.GetTerrainTile(h, v);
+                    int visualLevel = GetTerrainVisualLevel(terrain);
+                    if (visualLevel != z)
+                    {
+                        continue;
+                    }
+
+                    Point tilePoint = FromHvzToScreen(h, v, visualLevel);
+                    if (!ContainsDiamond(mapPoint, tilePoint))
+                    {
+                        continue;
+                    }
+
+                    int drawOrder = v * world.Width + h;
+                    if (drawOrder > bestDrawOrder)
+                    {
+                        bestDrawOrder = drawOrder;
+                        best = new TileLocation(h, v, visualLevel);
+                    }
+                }
+            }
+        }
+
+        return best;
+    }
+
+    private static bool ContainsDiamond(Point point, Point tilePoint)
+    {
+        double dx = Math.Abs(point.X - (tilePoint.X + 16));
+        double dy = Math.Abs(point.Y - (tilePoint.Y + 8));
+        return dx / 16.0 + dy / 8.0 <= 1.0;
+    }
+
+    private TileLocation SelectNearestTerrainCorner(TileLocation selected, Point mapPoint)
+    {
+        TerrainCorner bestCorner = TerrainCorner.Top;
+        double bestDistance = double.MaxValue;
+        foreach (TerrainCorner corner in Enum.GetValues<TerrainCorner>())
+        {
+            Point cornerPoint = GetTerrainCornerScreenPoint(selected with { Corner = corner });
+            double dx = cornerPoint.X - mapPoint.X;
+            double dy = cornerPoint.Y - mapPoint.Y;
+            double distance = dx * dx + dy * dy;
+            if (distance < bestDistance)
             {
-                return new TileLocation(h, v, z);
+                bestDistance = distance;
+                bestCorner = corner;
             }
         }
 
-        return null;
+        return selected with { Corner = bestCorner };
     }
 
-    private TileLocation SelectMountainCorner(TileLocation selected, Point ab)
+    private Point GetTerrainCornerScreenPoint(TileLocation location)
     {
-        TerrainTilePreview terrain = world.GetTerrainTile(selected.H, selected.V);
-        (int x, int y) = HvToXy(selected.H, selected.V);
-        Point tileAb = new(FromHvzToScreen(selected.H, selected.V, selected.Z).X - MapOriginX, FromHvzToScreen(selected.H, selected.V, selected.Z).Y - MapOriginY);
-        Point offset = new(ab.X - tileAb.X, ab.Y - tileAb.Y);
+        TerrainTilePreview terrain = world.GetTerrainTile(location.H, location.V);
+        int visualLevel = GetTerrainVisualLevel(terrain);
+        Point p = FromHvzToScreen(location.H, location.V, visualLevel);
+        bool usesTerrainProfile = visualLevel == terrain.BaseLevel && terrain.BaseLevel >= world.WaterLevel;
+        int cornerHeight = usesTerrainProfile ? GetCornerHeight(terrain, location.Corner) : 0;
 
-        if (offset.X < 8)
+        Point basePoint = location.Corner switch
         {
-            x--;
-        }
-        else if (offset.X >= 24)
-        {
-            y++;
-        }
-        else if (offset.Y >= (16 - (terrain.Top + terrain.Bottom) * 4) / 2.0)
-        {
-            x--;
-            y++;
-        }
+            TerrainCorner.Top => new Point(p.X + 16, p.Y),
+            TerrainCorner.Right => new Point(p.X + 32, p.Y + 8),
+            TerrainCorner.Bottom => new Point(p.X + 16, p.Y + 16),
+            TerrainCorner.Left => new Point(p.X, p.Y + 8),
+            _ => new Point(p.X + 16, p.Y)
+        };
 
-        if (!TryXyToHv(x, y, out int h, out int v))
-        {
-            return selected;
-        }
-
-        TerrainTilePreview pickedTerrain = world.GetTerrainTile(h, v);
-        return new TileLocation(h, v, pickedTerrain.SurfaceLevel);
+        return new Point(basePoint.X, basePoint.Y - cornerHeight * 4);
     }
 
-    private (int X, int Y) HvToXy(int h, int v)
+    private static int GetCornerHeight(TerrainTilePreview terrain, TerrainCorner corner)
     {
-        int x = h - v / 2 + (world.Height - 1) / 2;
-        int y = h + (v + 1) / 2;
-        return (x, y);
-    }
-
-    private bool TryXyToHv(int x, int y, out int h, out int v)
-    {
-        int xx = x - (world.Height - 1) / 2;
-        h = (xx + y) >> 1;
-        v = y - xx;
-        return h >= 0 && h < world.Width && v >= 0 && v < world.Height;
+        return corner switch
+        {
+            TerrainCorner.Top => terrain.Top,
+            TerrainCorner.Right => terrain.Right,
+            TerrainCorner.Bottom => terrain.Bottom,
+            TerrainCorner.Left => terrain.Left,
+            _ => terrain.Top
+        };
     }
 
     private void PublishStatus()
