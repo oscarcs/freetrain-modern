@@ -6,227 +6,227 @@
     {
       "key": "plugin.title",
       "source": "東京地下鉄補完計画その1",
-      "translation": ""
+      "translation": "Tokyo Metro Complementary Project Part 1"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-91-EIDAN01-W}.name",
       "source": "銀座線",
-      "translation": ""
+      "translation": "Ginza Line"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-91-EIDAN01-W}.company",
       "source": "帝都高速度交通営団",
-      "translation": ""
+      "translation": "Teito Rapid Transit Authority"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-91-EIDAN01-W}.type",
       "source": "01系",
-      "translation": ""
+      "translation": "01 Series"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-91-EIDAN01-W}.description",
       "source": "旧型車置き換えのために登場した銀座線車両。",
-      "translation": ""
+      "translation": "Ginza Line rolling stock introduced to replace old models."
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-91-EIDAN02-W}.name",
       "source": "丸の内線",
-      "translation": ""
+      "translation": "Marunouchi Line"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-91-EIDAN02-W}.company",
       "source": "帝都高速度交通営団",
-      "translation": ""
+      "translation": "Teito Rapid Transit Authority"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-91-EIDAN02-W}.type",
       "source": "02系",
-      "translation": ""
+      "translation": "02 Series"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-91-EIDAN02-W}.description",
       "source": "旧型車置き換えのために登場した丸の内線車両。",
-      "translation": ""
+      "translation": "Marunouchi Line rolling stock introduced to replace old models."
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-91-EIDAN03-W}.name",
       "source": "日比谷線",
-      "translation": ""
+      "translation": "Hibiya Line"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-91-EIDAN03-W}.company",
       "source": "帝都高速度交通営団",
-      "translation": ""
+      "translation": "Teito Rapid Transit Authority"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-91-EIDAN03-W}.type",
       "source": "03系",
-      "translation": ""
+      "translation": "03 Series"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-91-EIDAN03-W}.description",
       "source": "旧式化した3000系置き換えのために導入された新型車両。生産時期によって動力機器やドア配置に違いがある。",
-      "translation": ""
+      "translation": "New rolling stock introduced to replace the aging 3000 Series. There are differences in power equipment and door arrangements depending on the production period."
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-EIDAN03-5D-W}.name",
       "source": "日比谷線",
-      "translation": ""
+      "translation": "Hibiya Line"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-EIDAN03-5D-W}.company",
       "source": "帝都高速度交通営団",
-      "translation": ""
+      "translation": "Teito Rapid Transit Authority"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-EIDAN03-5D-W}.type",
       "source": "03系5ドア車",
-      "translation": ""
+      "translation": "03 Series 5-Door Car"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-EIDAN03-5D-W}.description",
       "source": "03系のバリエーション。両端2車を5ドアにしたタイプ。しかし生産は再び3ドアに戻るなど混乱を見せた。",
-      "translation": ""
+      "translation": "A variation of the 03 Series. This type featured 5 doors on the two cars at each end. However, production later reverted to 3-door cars, indicating some confusion."
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-99-EIDAN05-W}.name",
       "source": "東西線",
-      "translation": ""
+      "translation": "Tōzai Line"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-99-EIDAN05-W}.company",
       "source": "帝都高速度交通営団",
-      "translation": ""
+      "translation": "Teito Rapid Transit Authority"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-99-EIDAN05-W}.type",
       "source": "05系(旧)",
-      "translation": ""
+      "translation": "05 Series (Old)"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-99-EIDAN05-W}.description",
       "source": "旧式化した5000系置き換えのために導入された新型車両。1～4次車はこのような保守的なデザインだったが、5次車以降は斬新なスタイルへと大幅に変化した。",
-      "translation": ""
+      "translation": "New rolling stock introduced to replace the aging 5000 Series. While the 1st to 4th generation cars had a conservative design, the 5th generation and later saw a significant change to an innovative style."
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-91-EIDAN06-W}.name",
       "source": "千代田線",
-      "translation": ""
+      "translation": "Chiyoda Line"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-91-EIDAN06-W}.company",
       "source": "帝都高速度交通営団",
-      "translation": ""
+      "translation": "Teito Rapid Transit Authority"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-91-EIDAN06-W}.type",
       "source": "06系",
-      "translation": ""
+      "translation": "06 Series"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-91-EIDAN06-W}.description",
       "source": "輸送力増強のために千代田線に一編成のみ導入された新車。その後増備はされていない。",
-      "translation": ""
+      "translation": "A new train introduced to the Chiyoda Line as a single set to increase transport capacity. No further units have been added since."
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-91-EIDAN07-W}.name",
       "source": "有楽町線",
-      "translation": ""
+      "translation": "Yurakucho Line"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-91-EIDAN07-W}.company",
       "source": "帝都高速度交通営団",
-      "translation": ""
+      "translation": "Teito Rapid Transit Authority"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-91-EIDAN07-W}.type",
       "source": "07系",
-      "translation": ""
+      "translation": "07 Series"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-91-EIDAN07-W}.description",
       "source": "輸送力増強のために有楽町線に導入された新車。06系と違い、数編成が増備され活躍していた。\n副都心線開通に伴い、ホームドア対応の関係で全編成東西線に転属した。",
-      "translation": ""
+      "translation": "A new train introduced to the Yurakucho Line to increase transport capacity. Unlike the 06 Series, several sets were added and were active. With the opening of the Fukutoshin Line, all sets were transferred to the Tozai Line due to platform door compatibility."
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-91-EIDAN07T-W}.name",
       "source": "東西線",
-      "translation": ""
+      "translation": "Tōzai Line"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-91-EIDAN07T-W}.company",
       "source": "帝都高速度交通営団",
-      "translation": ""
+      "translation": "Teito Rapid Transit Authority"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-91-EIDAN07T-W}.type",
       "source": "07系",
-      "translation": ""
+      "translation": "07 Series"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-91-EIDAN07T-W}.description",
       "source": "副都心線開業に伴う有楽町線のホームドア設置に対応できないため、07系は東西線へ移籍した。",
-      "translation": ""
+      "translation": "The 07 Series was transferred to the Tozai Line because it could not accommodate the platform door installation on the Yurakucho Line due to the opening of the Fukutoshin Line."
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-91-EIDAN7000F-W}.name",
       "source": "副都心線",
-      "translation": ""
+      "translation": "Fukutoshin Line"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-91-EIDAN7000F-W}.company",
       "source": "帝都高速度交通営団",
-      "translation": ""
+      "translation": "Teito Rapid Transit Authority"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-91-EIDAN7000F-W}.type",
       "source": "7000系",
-      "translation": ""
+      "translation": "7000 Series"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-91-EIDAN7000F-W}.description",
       "source": "有楽町線の7000系は、その一部編成が組み換えなどののち副都心線乗り入れに対応した。",
-      "translation": ""
+      "translation": "Some 7000 Series sets on the Yurakucho Line were modified, including re-formation, to support through-service on the Fukutoshin Line."
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-9-TOYO2000-W}.name",
       "source": "東葉高速線",
-      "translation": ""
+      "translation": "Toyo Rapid Railway Line"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-9-TOYO2000-W}.company",
       "source": "東葉高速鉄道",
-      "translation": ""
+      "translation": "Toyo Rapid Railway"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-9-TOYO2000-W}.type",
       "source": "2000系",
-      "translation": ""
+      "translation": "2000 Series"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-9-TOYO2000-W}.description",
       "source": "旧式化した1000系(旧営団5000系)を置き換えるために登場。ベースは05系7次車である。",
-      "translation": ""
+      "translation": "Introduced to replace the aging 1000 Series (former Eidan 5000 Series). It is based on the 05 Series 7th generation."
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-9-TM10000}.name",
       "source": "有楽町・副都心線",
-      "translation": ""
+      "translation": "Yurakucho / Fukutoshin Line"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-9-TM10000}.company",
       "source": "東京メトロ",
-      "translation": ""
+      "translation": "Tokyo Metro"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-9-TM10000}.type",
       "source": "10000系",
-      "translation": ""
+      "translation": "10000 Series"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-9-TM10000}.description",
       "source": "東京メトロ副都心線開業に先立ち、2006年に導入が開始された車両。有楽町線でも運用されている。",
-      "translation": ""
+      "translation": "Rolling stock introduced in 2006 prior to the opening of the Tokyo Metro Fukutoshin Line. Also operated on the Yurakucho Line."
     }
   ]
 }

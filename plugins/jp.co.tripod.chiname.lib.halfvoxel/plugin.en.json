@@ -6,12 +6,12 @@
     {
       "key": "plugin.title",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{COLORLIB-HIGHLIGHT}.name",
       "source": "ハイライト",
-      "translation": ""
+      "translation": "Highlight"
     }
   ]
 }

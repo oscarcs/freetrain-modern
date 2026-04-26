@@ -6,67 +6,67 @@
     {
       "key": "plugin.title",
       "source": "列車(JR東日本)",
-      "translation": ""
+      "translation": "Train (JR East)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-700-LocalTrein-50}.name",
       "source": "700番台 普通列車(50系)",
-      "translation": ""
+      "translation": "700 sub-series local train (50 Series)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-700-LocalTrein-50}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-700-LocalTrein-50}.description",
       "source": "電気機関車ED75-700番台が牽引する、50系(オハ50、オハフ50)客車普通列車です。",
-      "translation": ""
+      "translation": "This is a 50 Series (Oha 50, Ohafu 50) passenger coach local train pulled by the ED75-700 sub-series electric locomotive."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-hokuto-LocalTrein-50}.name",
       "source": "北斗星色 普通列車(50系)",
-      "translation": ""
+      "translation": "Hokutosei Livery Local Train (50 Series)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-hokuto-LocalTrein-50}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-hokuto-LocalTrein-50}.description",
       "source": "電気機関車EF81(北斗星塗装)が牽引する、50系(オハ50、オハフ50)客車普通列車です。",
-      "translation": ""
+      "translation": "This is a 50 Series (Oha 50, Ohafu 50) passenger coach local train pulled by the EF81 electric locomotive (Hokutosei livery)."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-Cassiopeia-1}.name",
       "source": "カシオペア",
-      "translation": ""
+      "translation": "Cassiopeia"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-Cassiopeia-1}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-Cassiopeia-1}.description",
       "source": "電気機関車EF81(カシオペア塗装)が牽引する、オール2階建寝台列車です。",
-      "translation": ""
+      "translation": "This is an all-double-decker sleeper train pulled by the EF81 electric locomotive (Cassiopeia livery)."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-Cassiopeia-2}.name",
       "source": "カシオペア(予備)",
-      "translation": ""
+      "translation": "Cassiopeia (reserve)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-Cassiopeia-2}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-Cassiopeia-2}.description",
       "source": "電気機関車EF81(カシオペア塗装)が牽引する、オール2階建寝台列車です。電源車は予備のカヤ２７です。",
-      "translation": ""
+      "translation": "This is an all-double-decker sleeper train pulled by the EF81 electric locomotive (Cassiopeia livery). The power car is the spare Kaya 27."
     }
   ]
 }

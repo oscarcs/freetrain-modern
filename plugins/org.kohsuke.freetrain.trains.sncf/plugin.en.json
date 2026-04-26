@@ -6,47 +6,47 @@
     {
       "key": "plugin.title",
       "source": "フランス国鉄車両キット",
-      "translation": ""
+      "translation": "French National Railways Rolling Stock Kit"
     },
     {
       "key": "contribution.{E732E738-5151-423A-B214-012F94C029C0}.company",
       "source": "フランス国鉄",
-      "translation": ""
+      "translation": "SNCF"
     },
     {
       "key": "contribution.{E732E738-5151-423A-B214-012F94C029C0}.description",
       "source": "1996年登場のワインレッドの美しいTGV型車両タリス。最高速度300km。\nフランス、ベルギー、オランダ、ドイツが協力した国際高速車両。\nこれはフランス国鉄所有のTGV-R型のタリス。基本編成：機関車+客車8両+機関車",
-      "translation": ""
+      "translation": "The beautiful wine-red TGV-type Thalys train, introduced in 1996. Top speed 300 km/h. An international high-speed train developed in cooperation by France, Belgium, the Netherlands, and Germany. This is a TGV-R type Thalys owned by SNCF. Standard formation: locomotive + 8 passenger coaches + locomotive."
     },
     {
       "key": "contribution.{EA733861-452A-4FAC-80D3-D8274FB6FE7A}.name",
       "source": "大西洋線",
-      "translation": ""
+      "translation": "Atlantic Line"
     },
     {
       "key": "contribution.{EA733861-452A-4FAC-80D3-D8274FB6FE7A}.company",
       "source": "フランス国鉄",
-      "translation": ""
+      "translation": "SNCF"
     },
     {
       "key": "contribution.{EA733861-452A-4FAC-80D3-D8274FB6FE7A}.description",
       "source": "1989年に最高速度300kmで大西洋線にて営業運転を開始したフランスの高速鉄道。\n外装がオレンジから銀色へと変更され、現在の主流となる。\n1990年5月18日、試験線＆特別車両にて粘着式鉄道世界最高速度515.3kmを達成。基本編成：機関車+客車10両+機関車",
-      "translation": ""
+      "translation": "A French high-speed railway that began commercial operation on the Atlantic Line in 1989 with a top speed of 300 km/h. Its exterior was changed from orange to silver, becoming the current mainstream. On May 18, 1990, it achieved the world's highest speed for adhesion railways at 515.3 km/h on a test track with special vehicles. Standard formation: locomotive + 10 passenger coaches + locomotive."
     },
     {
       "key": "contribution.{8DAA8764-10A7-4F32-A8E0-6154ECBCFC01}.name",
       "source": "南東線",
-      "translation": ""
+      "translation": "Southeast Line"
     },
     {
       "key": "contribution.{8DAA8764-10A7-4F32-A8E0-6154ECBCFC01}.company",
       "source": "フランス国鉄",
-      "translation": ""
+      "translation": "SNCF"
     },
     {
       "key": "contribution.{8DAA8764-10A7-4F32-A8E0-6154ECBCFC01}.description",
       "source": "1981年に最高速度270kmで南東線にて営業運転を開始したフランスの高速鉄道。\n経年による更新工事により最高速度300kmが可能になった。と同時に外装も銀色へと塗り替えられる。基本編成：機関車+客車8両+機関車",
-      "translation": ""
+      "translation": "A French high-speed railway that began commercial operation on the Southeast Line in 1981 with a top speed of 270 km/h. Refurbishment due to aging allowed for a top speed of 300 km/h. At the same time, the exterior was repainted silver. Standard formation: locomotive + 8 passenger coaches + locomotive."
     }
   ]
 }

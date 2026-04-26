@@ -6,47 +6,47 @@
     {
       "key": "plugin.title",
       "source": "愛環線車両詰め合わせ",
-      "translation": ""
+      "translation": "Aikan Line Vehicle Assortment"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD12200}.name",
       "source": "愛知環状鉄道線",
-      "translation": ""
+      "translation": "Aichi Loop Railway Line"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD12200}.company",
       "source": "愛知環状鉄道",
-      "translation": ""
+      "translation": "Aichi Loop Railway"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD12200}.type",
       "source": "2000系",
-      "translation": ""
+      "translation": "2000 Series"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD12200}.description",
       "source": "愛知環状鉄道線、通称「愛環」に2003年から導入された新型車両です。\nJR東海313系をベースに製造されました。",
-      "translation": ""
+      "translation": "These are new vehicles introduced to the Aichi Loop Railway Line, commonly known as 'Aikan', starting in 2003. They were manufactured based on the JR Central 313 Series."
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD10100}.name",
       "source": "愛知環状鉄道線",
-      "translation": ""
+      "translation": "Aichi Loop Railway Line"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD10100}.company",
       "source": "愛知環状鉄道",
-      "translation": ""
+      "translation": "Aichi Loop Railway"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD10100}.type",
       "source": "100系",
-      "translation": ""
+      "translation": "100 Series"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD10100}.description",
       "source": "愛知環状鉄道線、通称「愛環」に1988年の開業から導入された車両です。\n2005年の愛・地球博開催と同時に引退しました。",
-      "translation": ""
+      "translation": "These vehicles were introduced to the Aichi Loop Railway Line, commonly known as 'Aikan', from its opening in 1988. They were retired in 2005, coinciding with the Aichi Expo."
     }
   ]
 }

@@ -6,27 +6,27 @@
     {
       "key": "plugin.title",
       "source": "駅舎プラグイン",
-      "translation": ""
+      "translation": "Station Building Plugin"
     },
     {
       "key": "contribution.{474B8BFD-rk001-eki003-001}.group",
       "source": "高架駅舎02(本体)",
-      "translation": ""
+      "translation": "Elevated station building 02 (main)"
     },
     {
       "key": "contribution.{474B8BFD-rk001-eki003-002}.group",
       "source": "高架駅舎02(本体)",
-      "translation": ""
+      "translation": "Elevated station building 02 (main)"
     },
     {
       "key": "contribution.{474B8BFD-rk001-eki003-kandan-001}.name",
       "source": "広告看板",
-      "translation": ""
+      "translation": "Advertising Signboards"
     },
     {
       "key": "contribution.{474B8BFD-rk001-eki003-kandan-001}.group",
       "source": "高架駅舎(階段)",
-      "translation": ""
+      "translation": "Elevated Station Building (Stairs)"
     }
   ]
 }

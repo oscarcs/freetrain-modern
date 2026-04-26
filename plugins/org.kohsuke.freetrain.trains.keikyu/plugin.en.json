@@ -6,72 +6,72 @@
     {
       "key": "contribution.{600-keikyu-iw200309301107}.name",
       "source": "京急600形",
-      "translation": ""
+      "translation": "Keikyu 600 Series"
     },
     {
       "key": "contribution.{600-keikyu-iw200309301107}.company",
       "source": "京浜急行電鉄",
-      "translation": ""
+      "translation": "Keikyu Corporation"
     },
     {
       "key": "contribution.{600-keikyu-iw200309301107}.type",
       "source": "600形",
-      "translation": ""
+      "translation": "Type 600"
     },
     {
       "key": "contribution.{600-keikyu-iw200309301107}.description",
       "source": "いろいろな形で使われている電車。",
-      "translation": ""
+      "translation": "An electric train used in various forms."
     },
     {
       "key": "contribution.{8684A084-CCC1-4a80-ACA0-7F8E038C54C8}.company",
       "source": "京浜急行電鉄",
-      "translation": ""
+      "translation": "Keikyu Corporation"
     },
     {
       "key": "contribution.{8684A084-CCC1-4a80-ACA0-7F8E038C54C8}.type",
       "source": "快特タイプ",
-      "translation": ""
+      "translation": "Rapid Limited Express type"
     },
     {
       "key": "contribution.{8684A084-CCC1-4a80-ACA0-7F8E038C54C8}.description",
       "source": "京急の快特タイプ。",
-      "translation": ""
+      "translation": "Keikyu Limited Express type."
     },
     {
       "key": "contribution.{D89A6A3E-2972-441b-8468-24C4289EC5FA}.company",
       "source": "京浜急行電鉄",
-      "translation": ""
+      "translation": "Keikyu Corporation"
     },
     {
       "key": "contribution.{D89A6A3E-2972-441b-8468-24C4289EC5FA}.type",
       "source": "2100系",
-      "translation": ""
+      "translation": "2100 Series"
     },
     {
       "key": "contribution.{D89A6A3E-2972-441b-8468-24C4289EC5FA}.description",
       "source": "1998年に製造された京急の快特用車両で、居住性の向上を第一にコストおよびメンテナンス低減を図り、外国製品を多々導入している。運転最高速度は時速120kmだが高速化を見込み時速130kmでも均衡できるようになっている。8両固定編成で主に快特に運用されている。",
-      "translation": ""
+      "translation": "Keikyu Limited Express vehicles manufactured in 1998, prioritizing improved comfort, cost reduction, and maintenance reduction, and incorporating many foreign products. The maximum operating speed is 120 km/h, but it is designed to balance at 130 km/h in anticipation of higher speeds. It is mainly operated as an 8-car fixed formation for Limited Express services."
     },
     {
       "key": "contribution.{0405301938}ljkyl5374632.name",
       "source": "京急1000形",
-      "translation": ""
+      "translation": "Keikyu 1000 Series"
     },
     {
       "key": "contribution.{0405301938}ljkyl5374632.company",
       "source": "京浜急行電鉄",
-      "translation": ""
+      "translation": "Keikyu Corporation"
     },
     {
       "key": "contribution.{0405301938}ljkyl5374632.type",
       "source": "1000形",
-      "translation": ""
+      "translation": "1000 series"
     },
     {
       "key": "contribution.{0405301938}ljkyl5374632.description",
       "source": "京急を代表する形式で、2、4、6、8両の各固定編成を組み普通から快速特急まで幅広く使用されている車両。",
-      "translation": ""
+      "translation": "A representative Keikyu series, forming fixed formations of 2, 4, 6, and 8 cars, it is widely used for services from local to rapid limited express."
     }
   ]
 }

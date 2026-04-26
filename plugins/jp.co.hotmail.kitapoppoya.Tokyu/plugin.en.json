@@ -6,47 +6,47 @@
     {
       "key": "plugin.title",
       "source": "109パック",
-      "translation": ""
+      "translation": "109 Pack"
     },
     {
       "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-8500}.company",
       "source": "東京急行電鉄",
-      "translation": ""
+      "translation": "Tokyu Corporation"
     },
     {
       "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-8500}.type",
       "source": "8500系",
-      "translation": ""
+      "translation": "8500 Series"
     },
     {
       "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-8090}.company",
       "source": "東京急行電鉄",
-      "translation": ""
+      "translation": "Tokyu Corporation"
     },
     {
       "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-8090}.type",
       "source": "8090系",
-      "translation": ""
+      "translation": "8090 Series"
     },
     {
       "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-8590}.company",
       "source": "東京急行電鉄",
-      "translation": ""
+      "translation": "Tokyu Corporation"
     },
     {
       "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-8590}.type",
       "source": "8590系",
-      "translation": ""
+      "translation": "8590 Series"
     },
     {
       "key": "contribution.{5ACFD81E-6A4E-4981-AE-YTB3000}.company",
       "source": "横浜市営地下鉄",
-      "translation": ""
+      "translation": "Yokohama Municipal Subway"
     },
     {
       "key": "contribution.{5ACFD81E-6A4E-4981-AE-YTB3000}.type",
       "source": "3000系",
-      "translation": ""
+      "translation": "3000 Series"
     }
   ]
 }

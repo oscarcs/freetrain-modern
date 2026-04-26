@@ -6,17 +6,17 @@
     {
       "key": "plugin.title",
       "source": "鉄道施設プラグイン",
-      "translation": ""
+      "translation": "Railway Facility Plugin"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-AmarubeBridge-1}.group",
       "source": "餘部鉄橋",
-      "translation": ""
+      "translation": "Amarube Viaduct"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-AmarubeBridge-2}.group",
       "source": "餘部鉄橋",
-      "translation": ""
+      "translation": "Amarube Viaduct"
     }
   ]
 }

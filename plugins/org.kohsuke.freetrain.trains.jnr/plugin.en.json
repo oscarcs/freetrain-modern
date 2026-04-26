@@ -6,97 +6,97 @@
     {
       "key": "contribution.{8B8C5CB2-F81D-43a5-A287-4528788BF74E}.name",
       "source": "湘南電車(2枚窓タイプ)",
-      "translation": ""
+      "translation": "Shonan Electric Train (2-window type)"
     },
     {
       "key": "contribution.{8B8C5CB2-F81D-43a5-A287-4528788BF74E}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{8B8C5CB2-F81D-43a5-A287-4528788BF74E}.type",
       "source": "80系",
-      "translation": ""
+      "translation": "80 Series"
     },
     {
       "key": "contribution.{8B8C5CB2-F81D-43a5-A287-4528788BF74E}.description",
       "source": "国鉄が製作した最初の長距離電車。途中から製作された2枚窓のスタイルは私鉄を中心にブームになった。",
-      "translation": ""
+      "translation": "The first long-distance electric train manufactured by JNR. The two-window style, introduced partway through production, became popular, especially among private railways."
     },
     {
       "key": "contribution.{82C533CE-FAB1-4bcb-B3D2-415F760ED605}.name",
       "source": "ゲタ電",
-      "translation": ""
+      "translation": "Geta-den"
     },
     {
       "key": "contribution.{82C533CE-FAB1-4bcb-B3D2-415F760ED605}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{82C533CE-FAB1-4bcb-B3D2-415F760ED605}.type",
       "source": "72／73形",
-      "translation": ""
+      "translation": "Type 72/73"
     },
     {
       "key": "contribution.{82C533CE-FAB1-4bcb-B3D2-415F760ED605}.description",
       "source": "戦時中に製造された63型を桜木町火災事故をきっかけとして改造され誕生した。戦後の通勤輸送で大きな役割を果たした。",
-      "translation": ""
+      "translation": "Born from the modification of the Type 63, manufactured during the war, following the Sakuragicho fire accident. It played a significant role in post-war commuter transport."
     },
     {
       "key": "contribution.{C8F663B1-0016-43dd-80AB-FBD44E9AEF85}.name",
       "source": "ゲタ電(淀)",
-      "translation": ""
+      "translation": "Geta-den (Yodo)"
     },
     {
       "key": "contribution.{C8F663B1-0016-43dd-80AB-FBD44E9AEF85}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{C8F663B1-0016-43dd-80AB-FBD44E9AEF85}.type",
       "source": "72／73形",
-      "translation": ""
+      "translation": "Type 72/73"
     },
     {
       "key": "contribution.{C8F663B1-0016-43dd-80AB-FBD44E9AEF85}.description",
       "source": "淀川電車区に配属された73形はオレンジ色に塗られ大阪環状線、桜島線、片町線で活躍した。後に阪和線にも採用され、異色の存在となっていた。",
-      "translation": ""
+      "translation": "The 73 Series assigned to the Yodogawa Train Depot were painted orange and were active on the Osaka Loop Line, Sakurajima Line, and Katamachi Line. Later, they were also adopted on the Hanwa Line, becoming a unique presence."
     },
     {
       "key": "contribution.{67705E9E-4ED1-49b2-92FD-FE45DAC33699}.name",
       "source": "ゲタ電(横)",
-      "translation": ""
+      "translation": "Geta-den (side)"
     },
     {
       "key": "contribution.{67705E9E-4ED1-49b2-92FD-FE45DAC33699}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{67705E9E-4ED1-49b2-92FD-FE45DAC33699}.type",
       "source": "72／73形",
-      "translation": ""
+      "translation": "Type 72/73"
     },
     {
       "key": "contribution.{67705E9E-4ED1-49b2-92FD-FE45DAC33699}.description",
       "source": "御殿場線の電化完成に伴いスカ色に変更されて投入された。1979年秋、新性能車に置き換えられるまで使用された。",
-      "translation": ""
+      "translation": "Introduced with the completion of electrification of the Gotemba Line, painted in 'Suka' livery. It was used until autumn 1979, when it was replaced by new performance trains."
     },
     {
       "key": "contribution.{7E51D8D7-2CD4-4593-85C0-42D2FC515438}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{7E51D8D7-2CD4-4593-85C0-42D2FC515438}.type",
       "source": "キハ181系",
-      "translation": ""
+      "translation": "Kiha 181 Series"
     },
     {
       "key": "contribution.{7E51D8D7-2CD4-4593-85C0-42D2FC515438}.description",
       "source": "大馬力エンジンを搭載した国鉄の特急型気動車。\n中間車の屋根上に載ってる放熱器が目立つ。",
-      "translation": ""
+      "translation": "JNR limited express diesel railcar equipped with a high-horsepower engine. The heat sinks on the roof of the intermediate cars are prominent."
     }
   ]
 }

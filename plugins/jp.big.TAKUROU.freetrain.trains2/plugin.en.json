@@ -6,222 +6,222 @@
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-B}.name",
       "source": "7000番台阪和色(旧新快速色)",
-      "translation": ""
+      "translation": "7000 sub-series Hanwa Line color (former Special Rapid Service color)"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-B}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-B}.type",
       "source": "113系",
-      "translation": ""
+      "translation": "113 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-B}.description",
       "source": "最高速度110km/h対応の改造に伴い7000番代となった。\n塗装も阪和線快速色と呼ばれるものです。国鉄時代から存在したこの塗装も、最近では東海道線系統からの湘南色での転属車もあり、\n今後注目すべきものかもしれない。阪和線やきのくに(紀勢西)線で活躍。かつては阪和線新快速にも使われていた。",
-      "translation": ""
+      "translation": "It became the 7000 series following modifications to support a maximum speed of 110 km/h. The livery is also known as the Hanwa Line Rapid color. This livery, which existed since the JNR era, might be noteworthy in the future, as there are recently transferred cars from the Tokaido Line system with the Shonan color. Active on the Hanwa Line and Kinokuni (Kisei West) Line. It was once used for the Hanwa Line Special Rapid."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW105-H}.name",
       "source": "広島地区対応色",
-      "translation": ""
+      "translation": "Hiroshima Area Compatible Livery"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW105-H}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW105-H}.type",
       "source": "105系",
-      "translation": ""
+      "translation": "105 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW105-H}.description",
       "source": "新性能電車は電動車2両ユニットが原則であったが、地方線区は輸送量の少ない所が多く、MMユニット方式では全電動車となって性能過剰となってしまう。\nこのため福塩線や宇部線・小野田線の新性能化の際、1M方式の105系が製造された。\n新製車は鋼製３扉ロングシート車である。",
-      "translation": ""
+      "translation": "While new performance electric trains were generally based on 2-car motor units, many local lines had low transport volumes, and the MM unit system would result in all-motor cars with excessive performance. For this reason, when modernizing lines like the Fukuen Line, Ube Line, and Onoda Line, the 105 Series with a 1M system was manufactured. Newly built cars were steel-bodied, 3-door, long-seat cars."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-F}.name",
       "source": "福知山色",
-      "translation": ""
+      "translation": "Fukuchiyama Color"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-F}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-F}.type",
       "source": "115系",
-      "translation": ""
+      "translation": "115 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-F}.description",
       "source": "115系は、当初1995(平成７)年の阪神淡路大震災後、阪神間の輸送力増強用として広島区より網干区に転入したもので、その後福知山区が借入した。\nその時に福知山色に塗色変更している｡\n当初115系６連貫通編成として運転。その後クハ111が1995(平成７)年10月改造落成し編成を組んだ。",
-      "translation": ""
+      "translation": "The 115 Series was initially transferred from the Hiroshima depot to the Aboshi depot to increase transport capacity between Hanshin after the Great Hanshin-Awaji Earthquake in 1995 (Heisei 7), and was later leased by the Fukuchiyama depot. At that time, its livery was changed to Fukuchiyama color. Initially, it operated as a 6-car through formation of the 115 Series. Later, Kuha 111 was modified and completed in October 1995 (Heisei 7) to form a new trainset."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ113-Y}.name",
       "source": "800番台旧福知山線色",
-      "translation": ""
+      "translation": "800 sub-series former Fukuchiyama Line color"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ113-Y}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ113-Y}.type",
       "source": "113系",
-      "translation": ""
+      "translation": "113 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ113-Y}.description",
       "source": "1986(昭和61)年の城崎電化に際して、当時の国鉄財政状況から新車投入は見合わされ、\n各地の各地より捻出した113系０番台を降雪地帯の運用もあるため、耐寒耐雪改造を施した113系800番台となりました。\n後に岡山運転所から転属した115系があります。",
-      "translation": ""
+      "translation": "With the electrification of Kinosaki in 1986 (Showa 61), the introduction of new trains was postponed due to JNR's financial situation at the time, and 113 Series 0-series cars, sourced from various locations, were modified for cold and snow resistance to become 113 Series 800-series, also for use in snowy regions. Later, there were 115 Series cars transferred from the Okayama depot."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-R}.name",
       "source": "春日色(旧関西本線快速)",
-      "translation": ""
+      "translation": "Kasuga Livery (Former Kansai Main Line Rapid)"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-R}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-R}.type",
       "source": "113系",
-      "translation": ""
+      "translation": "113 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-R}.description",
       "source": "1972(昭和47)年に関西本線(湊町～奈良間)の電化によって投入された。\n以降、桜井・和歌山・奈良線が電化されると４両編成が誕生した。ＪＲ化後の1989(平成元)年に221系が投入されて、\n大阪環状線直通列車(現大和路快速)から撤退。奈良地区の普通列車も103・105系が投入されて、現在では消滅。",
-      "translation": ""
+      "translation": "Introduced in 1972 (Showa 47) with the electrification of the Kansai Main Line (Minatomachi-Nara section). Subsequently, 4-car formations were introduced when the Sakurai, Wakayama, and Nara Lines were electrified. After JR privatization, the 221 Series was introduced in 1989 (Heisei 1), and it was withdrawn from Osaka Loop Line through services (now Yamatoji Rapid). Local trains in the Nara area were also replaced by the 103 and 105 Series, and it has now disappeared."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW105-Y}.name",
       "source": "福塩線色",
-      "translation": ""
+      "translation": "Fukuen Line Livery"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW105-Y}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW105-Y}.type",
       "source": "105系",
-      "translation": ""
+      "translation": "105 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW105-Y}.description",
       "source": "新性能電車は電動車2両ユニットが原則であったが、地方線区は輸送量の少ない所が多く、MMユニット方式では全電動車となって性能過剰となってしまう。\nこのため福塩線や宇部線・小野田線の新性能化の際、1M方式の105系が製造された。\n新製車は鋼製３扉ロングシート車である。",
-      "translation": ""
+      "translation": "While new performance electric trains were generally based on 2-car motor units, many local lines had low transport volumes, and the MM unit system would result in all-motor cars with excessive performance. For this reason, when modernizing lines like the Fukuen Line, Ube Line, and Onoda Line, the 105 Series with a 1M system was manufactured. Newly built cars were steel-bodied, 3-door, long-seat cars."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW115-H}.name",
       "source": "山陽色",
-      "translation": ""
+      "translation": "Sanyo livery"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW115-H}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW115-H}.type",
       "source": "115系",
-      "translation": ""
+      "translation": "115 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW115-H}.description",
       "source": "主に山陽本線の、広島・山口県を走る電車。揺れるわトイレがない車両があるわ・・・。",
-      "translation": ""
+      "translation": "An electric train primarily operating on the Sanyo Main Line in Hiroshima and Yamaguchi prefectures. It's known for its rough ride, and some cars lack restrooms."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW115_3000-S}.name",
       "source": "山陽シティライナー",
-      "translation": ""
+      "translation": "Sanyo City Liner"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW115_3000-S}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW115_3000-S}.type",
       "source": "115系",
-      "translation": ""
+      "translation": "115 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW115_3000-S}.description",
       "source": "1982(昭和57)年のダイヤ改正で広島地区の輸送改善の一貫として投入された。\n113系ベースでありながら、117系と同様のシートや２扉の設計がされてある。関西地区での転属で中間車を先頭化させ、\n４両編成を基本としている。1993(平成5)年に下関運転所から広島運転所に転属して、現在の瀬戸内カラーに変更した。",
-      "translation": ""
+      "translation": "Introduced as part of transport improvements in the Hiroshima area with the timetable revision in 1982 (Showa 57). Although based on the 113 Series, it features seats similar to the 117 Series and a two-door design. Transfers to the Kansai area involved converting intermediate cars into lead cars, forming a basic 4-car formation. In 1993 (Heisei 5), it was transferred from the Shimonoseki depot to the Hiroshima depot and changed to the current Setouchi color."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-W}.name",
       "source": "湘南色",
-      "translation": ""
+      "translation": "Shonan color"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-W}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-W}.type",
       "source": "113系",
-      "translation": ""
+      "translation": "113 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-W}.description",
       "source": "関西圏で活躍する113系関西圏は比較的古い型の113系が多い。\n特に京阪神地区は私鉄とのスピード輸送サービスで110km/h対応に改造されている。\n京阪神地区で快速電車として親しまれていたが､223系が新快速車として量産され、221系が快速運用するようになり、\n113系は徐々に他線区への転属が多くなり東海道山陽本線から引退する傾向にある。",
-      "translation": ""
+      "translation": "The 113 Series active in the Kansai region often consists of relatively older models. Particularly in the Keihanshin area, they were modified to support 110 km/h for rapid transport services against private railways. While popular as rapid trains in the Keihanshin area, with the mass production of the 223 Series as Special Rapid trains and the 221 Series taking over rapid services, the 113 Series gradually transferred to other lines and tends to be retired from the Tokaido-Sanyo Main Line."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-N}.name",
       "source": "N40リニューアル車",
-      "translation": ""
+      "translation": "N40 Renovated Car"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-N}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-N}.type",
       "source": "113系",
-      "translation": ""
+      "translation": "113 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-N}.description",
       "source": "ＪＲ西日本で他車種にわたって行われているリニューアル更新車が登場している。\nカラーも湘南色からアーバンネットワークカラーに変更されて113系の面影が半減した。\n現在、東海道山陽本線快速運用(一部湘南色と混編成有り)や湖西・草津線などにも登場している。",
-      "translation": ""
+      "translation": "Renovated rolling stock, part of JR West's multi-model renewal program, has appeared. The livery has also changed from Shonan color to Urban Network color, reducing the resemblance to the original 113 Series by half. Currently, they are also appearing on the Tokaido-Sanyo Main Line rapid services (with some mixed formations including Shonan color) and the Kosei and Kusatsu Lines."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW115-N}.name",
       "source": "N40リニューアル車",
-      "translation": ""
+      "translation": "N40 Renovated Car"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW115-N}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW115-N}.type",
       "source": "115系",
-      "translation": ""
+      "translation": "115 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW115-N}.description",
       "source": "ＪＲ西日本では新製車の投入を進める一方、在来車でまだ活躍が見込める車両についてリニューアル改造を行い新車同様に活躍出来るよう、\nハイ・ローミックスの体制で車両サービスの向上を図っています。\n115系も大幅なリニューアルが図られ、関西地区に登場したN40改造車と同じ規模の改善が図られています。関西のものとはクリーム色の部分がより白いものとなっています。",
-      "translation": ""
+      "translation": "JR West is promoting the introduction of new rolling stock while also renovating existing cars that are still expected to be active, aiming to improve rolling stock services with a high-low mix system, allowing them to perform like new cars. The 115 Series has also undergone extensive renovation, with improvements on the same scale as the N40 modified cars introduced in the Kansai region. The cream-colored parts are whiter than those in Kansai."
     }
   ]
 }

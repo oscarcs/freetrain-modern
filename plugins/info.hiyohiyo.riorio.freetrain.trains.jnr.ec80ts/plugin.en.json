@@ -5,88 +5,88 @@
   "texts": [
     {
       "key": "plugin.title",
-      "source": "列車プラグイン\u3000国鉄80系電車サロつき",
-      "translation": ""
+      "source": "列車プラグイン　国鉄80系電車サロつき",
+      "translation": "Train Plugin JNR 80 Series Electric Train with Saro Car"
     },
     {
       "key": "contribution.{riorio-hima-jnr80ec-A287-4528788BF74E}.name",
       "source": "湘南電車(2枚窓タイプ) サロ入り",
-      "translation": ""
+      "translation": "Shonan Electric Train (2-window type) with SaRo"
     },
     {
       "key": "contribution.{riorio-hima-jnr80ec-A287-4528788BF74E}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{riorio-hima-jnr80ec-A287-4528788BF74E}.type",
       "source": "80系",
-      "translation": ""
+      "translation": "80 Series"
     },
     {
       "key": "contribution.{riorio-hima-jnr80ec-A287-4528788BF74E}.description",
       "source": "国鉄が製作した最初の長距離電車。途中から製作された2枚窓のスタイルは私鉄を中心にブームになった。7両～15両ではグリーン車の入った編成を組めます。6,11,16両のときには荷物車がつきます。",
-      "translation": ""
+      "translation": "The first long-distance electric train manufactured by JNR. The two-window style, introduced partway through production, became popular, especially among private railways. Formations of 7 to 15 cars can include Green Cars. Baggage cars are included in 6, 11, and 16-car formations."
     },
     {
       "key": "contribution.{riorio-hima-jnr80l-BE61-BDC769FD2320}.name",
       "source": "荷物電車",
-      "translation": ""
+      "translation": "Baggage electric train"
     },
     {
       "key": "contribution.{riorio-hima-jnr80l-BE61-BDC769FD2320}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{riorio-hima-jnr80l-BE61-BDC769FD2320}.type",
       "source": "80系",
-      "translation": ""
+      "translation": "80 Series"
     },
     {
       "key": "contribution.{riorio-hima-jnr80l-BE61-BDC769FD2320}.description",
       "source": "国鉄が製作した最初の長距離電車。荷物車のみで構成された荷物電車です。",
-      "translation": ""
+      "translation": "The first long-distance electric train manufactured by JNR. It is a baggage electric train composed solely of baggage cars."
     },
     {
       "key": "contribution.{riorio-hima-jnr70ec-9F12-057EAC3DBB72}.name",
       "source": "横須賀線 サロ入り",
-      "translation": ""
+      "translation": "Yokosuka Line with SaRo car"
     },
     {
       "key": "contribution.{riorio-hima-jnr70ec-9F12-057EAC3DBB72}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{riorio-hima-jnr70ec-9F12-057EAC3DBB72}.type",
       "source": "70系",
-      "translation": ""
+      "translation": "70 Series"
     },
     {
       "key": "contribution.{riorio-hima-jnr70ec-9F12-057EAC3DBB72}.description",
       "source": "国鉄が80系をベースに横須賀線向けとして３扉で製作した電車。いわゆるスカ色に塗り分けられています。6両以上ではグリーン車の入った編成を組めます。",
-      "translation": ""
+      "translation": "An electric train manufactured by JNR with three doors, based on the 80 Series, for the Yokosuka Line. It is painted in the so-called \"Suka-iro\" livery. Formations of 6 cars or more can include Green Cars."
     },
     {
       "key": "contribution.{riorio-hima-jnr70niigata-8D76-9F18C7E15FC3}.name",
       "source": "新潟色",
-      "translation": ""
+      "translation": "Niigata Color"
     },
     {
       "key": "contribution.{riorio-hima-jnr70niigata-8D76-9F18C7E15FC3}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{riorio-hima-jnr70niigata-8D76-9F18C7E15FC3}.type",
       "source": "70系",
-      "translation": ""
+      "translation": "70 Series"
     },
     {
       "key": "contribution.{riorio-hima-jnr70niigata-8D76-9F18C7E15FC3}.description",
       "source": "国鉄が80系をベースに横須賀線向けとして３扉で製作した電車。横須賀線に113系が投入されるようになると新潟地区に転出し、金太郎塗りと呼ばれた赤と黄色のツートンに塗り替えられました。4,6,8両編成を組みます。",
-      "translation": ""
+      "translation": "An electric train manufactured by JNR with three doors, based on the 80 Series, for the Yokosuka Line. When the 113 Series was introduced to the Yokosuka Line, these trains were transferred to the Niigata area and repainted in a red and yellow two-tone livery, known as \"Kintaro-nuri.\" They form 4, 6, or 8-car formations."
     }
   ]
 }

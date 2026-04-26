@@ -6,82 +6,82 @@
     {
       "key": "plugin.title",
       "source": "東京モノレール700形・1000形",
-      "translation": ""
+      "translation": "Tokyo Monorail 700 Series / 1000 Series"
     },
     {
       "key": "contribution.{riorio-train-tokyomonorail-0700-8AF2-087BD82FFB9C}.company",
       "source": "東京モノレール",
-      "translation": ""
+      "translation": "Tokyo Monorail"
     },
     {
       "key": "contribution.{riorio-train-tokyomonorail-0700-8AF2-087BD82FFB9C}.type",
       "source": "700形",
-      "translation": ""
+      "translation": "700 Type"
     },
     {
       "key": "contribution.{riorio-train-tokyomonorail-0700-8AF2-087BD82FFB9C}.description",
       "source": "1982年から製造された15ｍ級アルミ車体のモノレール車両。東京モノレール・浜松町～羽田空港間で運転された。後継の1000形・2000形の増備により、1998年に全車廃車となった。",
-      "translation": ""
+      "translation": "15m-class aluminum-bodied monorail vehicles manufactured from 1982. Operated on the Tokyo Monorail between Hamamatsucho and Haneda Airport. Due to the introduction of successor Type 1000 and Type 2000 vehicles, all units were retired in 1998."
     },
     {
       "key": "contribution.{riorio-train-tokyomonorail-1000-4C69-6F2A830DD954}.name",
       "source": "グリーンガム",
-      "translation": ""
+      "translation": "Green Gum"
     },
     {
       "key": "contribution.{riorio-train-tokyomonorail-1000-4C69-6F2A830DD954}.company",
       "source": "東京モノレール",
-      "translation": ""
+      "translation": "Tokyo Monorail"
     },
     {
       "key": "contribution.{riorio-train-tokyomonorail-1000-4C69-6F2A830DD954}.type",
       "source": "1000系",
-      "translation": ""
+      "translation": "1000 Series"
     },
     {
       "key": "contribution.{riorio-train-tokyomonorail-1000-4C69-6F2A830DD954}.description",
       "source": "1989年から使用されている、現在の主力車両。ロッテの全面広告車となった編成があり、うち1編成はグリーンガムのパッケージカラーにペイントされている。",
-      "translation": ""
+      "translation": "The current main vehicles in use since 1989. Some formations have become full-wrap advertising trains for Lotte, with one formation painted in the package color of Green Gum."
     },
     {
       "key": "contribution.{riorio-train-tokyomonorail-1000-BC00-BB48C20F18B8}.name",
       "source": "クールミントガム",
-      "translation": ""
+      "translation": "Cool Mint Gum"
     },
     {
       "key": "contribution.{riorio-train-tokyomonorail-1000-BC00-BB48C20F18B8}.company",
       "source": "東京モノレール",
-      "translation": ""
+      "translation": "Tokyo Monorail"
     },
     {
       "key": "contribution.{riorio-train-tokyomonorail-1000-BC00-BB48C20F18B8}.type",
       "source": "1000系",
-      "translation": ""
+      "translation": "1000 Series"
     },
     {
       "key": "contribution.{riorio-train-tokyomonorail-1000-BC00-BB48C20F18B8}.description",
       "source": "1989年から使用されている、現在の主力車両。ロッテの全面広告車となった編成があり、うち1編成はクールミントガムのパッケージカラーにペイントされている。",
-      "translation": ""
+      "translation": "The current main vehicles in use since 1989. Some formations have become full-wrap advertising trains for Lotte, with one formation painted in the package color of Cool Mint Gum."
     },
     {
       "key": "contribution.{riorio-train-tokyomonorail-1000-9525-13507227E2DD}.name",
       "source": "復刻塗装",
-      "translation": ""
+      "translation": "Retro Livery"
     },
     {
       "key": "contribution.{riorio-train-tokyomonorail-1000-9525-13507227E2DD}.company",
       "source": "東京モノレール",
-      "translation": ""
+      "translation": "Tokyo Monorail"
     },
     {
       "key": "contribution.{riorio-train-tokyomonorail-1000-9525-13507227E2DD}.type",
       "source": "1000系",
-      "translation": ""
+      "translation": "1000 Series"
     },
     {
       "key": "contribution.{riorio-train-tokyomonorail-1000-9525-13507227E2DD}.description",
       "source": "1989年から使用されている、現在の主力車両。うち1編成は、東京モノレール開業時に走っていた100形の復刻カラーにペイントされている。",
-      "translation": ""
+      "translation": "The current main vehicles in use since 1989. One formation is painted in the revival livery of the Type 100, which ran when the Tokyo Monorail opened."
     }
   ]
 }

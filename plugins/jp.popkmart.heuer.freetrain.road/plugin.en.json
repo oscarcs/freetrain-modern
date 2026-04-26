@@ -6,667 +6,667 @@
     {
       "key": "plugin.title",
       "source": "FreeTrainExAVer用道路プラグイン",
-      "translation": ""
+      "translation": "FreeTrainExAVer Road Plugin"
     },
     {
       "key": "contribution.{ROAD0001-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "農道/未舗装/盛土・花",
-      "translation": ""
+      "translation": "Farm Road / Unpaved / Embankment - Flowers"
     },
     {
       "key": "contribution.{ROAD0001-8058-11D7-BB78-0090FE1AB959}.description",
       "source": "農道(未舗装)",
-      "translation": ""
+      "translation": "Farm Road (Unpaved)"
     },
     {
       "key": "contribution.{ROAD0002-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "農道/未舗装/盛土・芝",
-      "translation": ""
+      "translation": "Farm Road / Unpaved / Embankment - Grass"
     },
     {
       "key": "contribution.{ROAD0002-8058-11D7-BB78-0090FE1AB959}.description",
       "source": "農道(未舗装)",
-      "translation": ""
+      "translation": "Farm Road (Unpaved)"
     },
     {
       "key": "contribution.{ROAD1001-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "生活道路/無灯",
-      "translation": ""
+      "translation": "Residential Road / Unlit"
     },
     {
       "key": "contribution.{ROAD1001-8058-11D7-BB78-0090FE1AB959}.description",
       "source": "生活道路(無灯)",
-      "translation": ""
+      "translation": "Residential road (unlit)"
     },
     {
       "key": "contribution.{ROAD1101-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "アスファルト",
-      "translation": ""
+      "translation": "Asphalt"
     },
     {
       "key": "contribution.{ROAD1101-8058-11D7-BB78-0090FE1AB959}.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{ROAD1102-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "アスファルト(側溝付)",
-      "translation": ""
+      "translation": "Asphalt (with Gutter)"
     },
     {
       "key": "contribution.{ROAD1102-8058-11D7-BB78-0090FE1AB959}.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{ROAD1103-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "タイル舗装",
-      "translation": ""
+      "translation": "Tile paving"
     },
     {
       "key": "contribution.{ROAD1103-8058-11D7-BB78-0090FE1AB959}.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{ROAD1103-8058-11D7-BB78-0090FE1AB960}.name",
       "source": "タイル舗装/アスファルト",
-      "translation": ""
+      "translation": "Tile paving / Asphalt"
     },
     {
       "key": "contribution.{ROAD1103-8058-11D7-BB78-0090FE1AB960}.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{ROAD1103-8058-11D7-BB78-0090FE1AB961}.name",
       "source": "タイル舗装/一車線道路",
-      "translation": ""
+      "translation": "Tile paving / Single-lane road"
     },
     {
       "key": "contribution.{ROAD1103-8058-11D7-BB78-0090FE1AB961}.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{ROAD1103-8059-11D7-BB78-0090FE1AB959}.name",
       "source": "タイル舗装(植栽)",
-      "translation": ""
+      "translation": "Tile paving (with planting)"
     },
     {
       "key": "contribution.{ROAD1103-8059-11D7-BB78-0090FE1AB959}.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{ROAD1103-8060-11D7-BB78-0090FE1AB959}.name",
       "source": "タイル舗装(植栽)",
-      "translation": ""
+      "translation": "Tile paving (with planting)"
     },
     {
       "key": "contribution.{ROAD1103-8060-11D7-BB78-0090FE1AB959}.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{ROAD1103-8061-11D7-BB78-0090FE1AB959}.name",
       "source": "タイル舗装(植栽)",
-      "translation": ""
+      "translation": "Tile paving (with planting)"
     },
     {
       "key": "contribution.{ROAD1103-8061-11D7-BB78-0090FE1AB959}.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{ROAD1103-8062-11D7-BB78-0090FE1AB959}.name",
       "source": "タイル舗装(植栽)",
-      "translation": ""
+      "translation": "Tile paving (with planting)"
     },
     {
       "key": "contribution.{ROAD1103-8062-11D7-BB78-0090FE1AB959}.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{ROAD1104-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "直線",
-      "translation": ""
+      "translation": "Straight"
     },
     {
       "key": "contribution.{ROAD1104-8058-11D7-BB78-0090FE1AB959}.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{ROAD1105-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "直線/短",
-      "translation": ""
+      "translation": "Straight/Short"
     },
     {
       "key": "contribution.{ROAD1105-8058-11D7-BB78-0090FE1AB959}.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{ROAD1105-8059-11D7-BB78-0090FE1AB959}.name",
       "source": "直線/短/水路",
-      "translation": ""
+      "translation": "Straight/Short/Waterway"
     },
     {
       "key": "contribution.{ROAD1105-8059-11D7-BB78-0090FE1AB959}.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{ROAD1105-8060-11D7-BB78-0090FE1AB959}.name",
       "source": "直線/短/水路",
-      "translation": ""
+      "translation": "Straight/Short/Waterway"
     },
     {
       "key": "contribution.{ROAD1105-8060-11D7-BB78-0090FE1AB959}.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{ROAD1106-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "カーブ",
-      "translation": ""
+      "translation": "Curve"
     },
     {
       "key": "contribution.{ROAD1106-8058-11D7-BB78-0090FE1AB959}.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{ROAD1107-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "カーブ",
-      "translation": ""
+      "translation": "Curve"
     },
     {
       "key": "contribution.{ROAD1107-8058-11D7-BB78-0090FE1AB959}.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{ROAD1107-8059-11D7-BB78-0090FE1AB959}.name",
       "source": "カーブ/短",
-      "translation": ""
+      "translation": "Curve / Short"
     },
     {
       "key": "contribution.{ROAD1107-8059-11D7-BB78-0090FE1AB959}.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{ROAD1107-8060-11D7-BB78-0090FE1AB959}.name",
       "source": "カーブ/短",
-      "translation": ""
+      "translation": "Curve / Short"
     },
     {
       "key": "contribution.{ROAD1107-8060-11D7-BB78-0090FE1AB959}.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{ROAD1108-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "三叉路",
-      "translation": ""
+      "translation": "Three-Way Intersection"
     },
     {
       "key": "contribution.{ROAD1108-8058-11D7-BB78-0090FE1AB959}.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{ROAD1109-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "三叉路",
-      "translation": ""
+      "translation": "Three-Way Intersection"
     },
     {
       "key": "contribution.{ROAD1109-8058-11D7-BB78-0090FE1AB959}.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{ROAD1110-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "十字路",
-      "translation": ""
+      "translation": "Intersection"
     },
     {
       "key": "contribution.{ROAD1110-8058-11D7-BB78-0090FE1AB959}.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{ROAD1121-8059-11D7-BB78-0090FE1AB959}.name",
       "source": "直線",
-      "translation": ""
+      "translation": "Straight"
     },
     {
       "key": "contribution.{ROAD1121-8059-11D7-BB78-0090FE1AB959}.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{ROAD1122-8059-11D7-BB78-0090FE1AB959}.name",
       "source": "直線/短",
-      "translation": ""
+      "translation": "Straight/Short"
     },
     {
       "key": "contribution.{ROAD1122-8059-11D7-BB78-0090FE1AB959}.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{ROAD1123-8059-11D7-BB78-0090FE1AB959}.name",
       "source": "カーブ",
-      "translation": ""
+      "translation": "Curve"
     },
     {
       "key": "contribution.{ROAD1123-8059-11D7-BB78-0090FE1AB959}.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{ROAD1124-8059-11D7-BB78-0090FE1AB959}.name",
       "source": "カーブ",
-      "translation": ""
+      "translation": "Curve"
     },
     {
       "key": "contribution.{ROAD1124-8059-11D7-BB78-0090FE1AB959}.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{ROAD1125-8059-11D7-BB78-0090FE1AB959}.name",
       "source": "カーブ/短",
-      "translation": ""
+      "translation": "Curve / Short"
     },
     {
       "key": "contribution.{ROAD1125-8059-11D7-BB78-0090FE1AB959}.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{ROAD1126-8059-11D7-BB78-0090FE1AB959}.name",
       "source": "カーブ/短",
-      "translation": ""
+      "translation": "Curve / Short"
     },
     {
       "key": "contribution.{ROAD1126-8059-11D7-BB78-0090FE1AB959}.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{ROAD1127-8059-11D7-BB78-0090FE1AB959}.name",
       "source": "三叉路",
-      "translation": ""
+      "translation": "Three-Way Intersection"
     },
     {
       "key": "contribution.{ROAD1127-8059-11D7-BB78-0090FE1AB959}.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{ROAD1128-8059-11D7-BB78-0090FE1AB959}.name",
       "source": "三叉路",
-      "translation": ""
+      "translation": "Three-Way Intersection"
     },
     {
       "key": "contribution.{ROAD1128-8059-11D7-BB78-0090FE1AB959}.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{ROAD1129-8059-11D7-BB78-0090FE1AB959}.name",
       "source": "十字路",
-      "translation": ""
+      "translation": "Intersection"
     },
     {
       "key": "contribution.{ROAD1129-8059-11D7-BB78-0090FE1AB959}.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{ROAD2001-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "二車線道路/白破線/街灯A",
-      "translation": ""
+      "translation": "Two-lane Road / Broken White Line / Streetlight A"
     },
     {
       "key": "contribution.{ROAD2001-8058-11D7-BB78-0090FE1AB959}.description",
       "source": "白破線二車線道路",
-      "translation": ""
+      "translation": "Two-lane road with white dashed line"
     },
     {
       "key": "contribution.{ROAD2001-8058-11D7-BB78-0090FE1AB960}.name",
       "source": "二車線道路/白破線/街灯B",
-      "translation": ""
+      "translation": "Two-lane Road / Broken White Line / Streetlight B"
     },
     {
       "key": "contribution.{ROAD2001-8058-11D7-BB78-0090FE1AB960}.description",
       "source": "白破線二車線道路",
-      "translation": ""
+      "translation": "Two-lane road with white dashed line"
     },
     {
       "key": "contribution.{ROAD2001-8058-11D7-BB78-0090FE1AB959A}.name",
       "source": "二車線道路/白破線/無灯",
-      "translation": ""
+      "translation": "Two-lane Road / Broken White Line / No Lights"
     },
     {
       "key": "contribution.{ROAD2001-8058-11D7-BB78-0090FE1AB959A}.description",
       "source": "白破線二車線道路",
-      "translation": ""
+      "translation": "Two-lane road with white dashed line"
     },
     {
       "key": "contribution.{ROAD2002-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "二車線道路/白実線/街灯A",
-      "translation": ""
+      "translation": "Two-lane Road / Solid White Line / Streetlight A"
     },
     {
       "key": "contribution.{ROAD2002-8058-11D7-BB78-0090FE1AB959}.description",
       "source": "白実線二車線道路",
-      "translation": ""
+      "translation": "Two-lane road with solid white lines"
     },
     {
       "key": "contribution.{ROAD2002-8058-11D7-BB78-0090FE1AB960}.name",
       "source": "二車線道路/白実線/街灯B",
-      "translation": ""
+      "translation": "Two-lane Road / Solid White Line / Streetlight B"
     },
     {
       "key": "contribution.{ROAD2002-8058-11D7-BB78-0090FE1AB960}.description",
       "source": "白実線二車線道路",
-      "translation": ""
+      "translation": "Two-lane road with solid white lines"
     },
     {
       "key": "contribution.{ROAD2002-8058-11D7-BB78-0090FE1AB959A}.name",
       "source": "二車線道路/白実線/無灯",
-      "translation": ""
+      "translation": "Two-lane Road / Solid White Line / No Lights"
     },
     {
       "key": "contribution.{ROAD2002-8058-11D7-BB78-0090FE1AB959A}.description",
       "source": "白実線二車線道路",
-      "translation": ""
+      "translation": "Two-lane road with solid white lines"
     },
     {
       "key": "contribution.{ROAD2003-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "二車線道路/橙実線/街灯A",
-      "translation": ""
+      "translation": "Two-lane Road / Solid Orange Line / Streetlight A"
     },
     {
       "key": "contribution.{ROAD2003-8058-11D7-BB78-0090FE1AB959}.description",
       "source": "橙実線二車線道路",
-      "translation": ""
+      "translation": "Orange Solid Line Two-Lane Road"
     },
     {
       "key": "contribution.{ROAD2003-8058-11D7-BB78-0090FE1AB960}.name",
       "source": "二車線道路/橙実線/街灯B",
-      "translation": ""
+      "translation": "Two-lane Road / Solid Orange Line / Streetlight B"
     },
     {
       "key": "contribution.{ROAD2003-8058-11D7-BB78-0090FE1AB960}.description",
       "source": "橙実線二車線道路",
-      "translation": ""
+      "translation": "Orange Solid Line Two-Lane Road"
     },
     {
       "key": "contribution.{ROAD2003-8058-11D7-BB78-0090FE1AB959A}.name",
       "source": "二車線道路/橙実線/無灯",
-      "translation": ""
+      "translation": "Two-lane Road / Solid Orange Line / No Lights"
     },
     {
       "key": "contribution.{ROAD2003-8058-11D7-BB78-0090FE1AB959A}.description",
       "source": "白実線二車線道路",
-      "translation": ""
+      "translation": "Two-lane road with solid white lines"
     },
     {
       "key": "contribution.{ROAD2501-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "三車線道路/左破線右実線/街灯A",
-      "translation": ""
+      "translation": "Three-lane road / Dashed left, solid right / Streetlight A"
     },
     {
       "key": "contribution.{ROAD2501-8058-11D7-BB78-0090FE1AB959}.description",
       "source": "白線三車線道路",
-      "translation": ""
+      "translation": "Three-lane Road with White Lines"
     },
     {
       "key": "contribution.{ROAD2501-8058-11D7-BB78-0090FE1AB960}.name",
       "source": "三車線道路/左破線右実線/街灯B",
-      "translation": ""
+      "translation": "Three-lane road / Dashed left, solid right / Streetlight B"
     },
     {
       "key": "contribution.{ROAD2501-8058-11D7-BB78-0090FE1AB960}.description",
       "source": "白線三車線道路",
-      "translation": ""
+      "translation": "Three-lane Road with White Lines"
     },
     {
       "key": "contribution.{ROAD2501-8058-11D7-BB78-0090FE1AB959A}.name",
       "source": "三車線道路/左破線右実線/無灯",
-      "translation": ""
+      "translation": "Three-lane road / Dashed left, solid right / No lights"
     },
     {
       "key": "contribution.{ROAD2501-8058-11D7-BB78-0090FE1AB959A}.description",
       "source": "白線三車線道路",
-      "translation": ""
+      "translation": "Three-lane Road with White Lines"
     },
     {
       "key": "contribution.{ROAD2502-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "三車線道路/左実線右破線/街灯A",
-      "translation": ""
+      "translation": "Three-lane road / Solid left, dashed right / Streetlight A"
     },
     {
       "key": "contribution.{ROAD2502-8058-11D7-BB78-0090FE1AB959}.description",
       "source": "白線三車線道路",
-      "translation": ""
+      "translation": "Three-lane Road with White Lines"
     },
     {
       "key": "contribution.{ROAD2502-8058-11D7-BB78-0090FE1AB960}.name",
       "source": "三車線道路/左実線右破線/街灯B",
-      "translation": ""
+      "translation": "Three-lane road / Solid left, dashed right / Streetlight B"
     },
     {
       "key": "contribution.{ROAD2502-8058-11D7-BB78-0090FE1AB960}.description",
       "source": "白線三車線道路",
-      "translation": ""
+      "translation": "Three-lane Road with White Lines"
     },
     {
       "key": "contribution.{ROAD2502-8058-11D7-BB78-0090FE1AB959A}.name",
       "source": "三車線道路/左実線右破線/無灯",
-      "translation": ""
+      "translation": "Three-lane road / Solid left, dashed right / No lights"
     },
     {
       "key": "contribution.{ROAD2502-8058-11D7-BB78-0090FE1AB959A}.description",
       "source": "白線三車線道路",
-      "translation": ""
+      "translation": "Three-lane Road with White Lines"
     },
     {
       "key": "contribution.{ROAD2503-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "三車線道路/白実線/街灯A",
-      "translation": ""
+      "translation": "Three-lane road / White solid line / Streetlight A"
     },
     {
       "key": "contribution.{ROAD2503-8058-11D7-BB78-0090FE1AB959}.description",
       "source": "白線三車線道路",
-      "translation": ""
+      "translation": "Three-lane Road with White Lines"
     },
     {
       "key": "contribution.{ROAD2503-8058-11D7-BB78-0090FE1AB960}.name",
       "source": "三車線道路/白実線/街灯B",
-      "translation": ""
+      "translation": "Three-lane road / White solid line / Streetlight B"
     },
     {
       "key": "contribution.{ROAD2503-8058-11D7-BB78-0090FE1AB960}.description",
       "source": "白線三車線道路",
-      "translation": ""
+      "translation": "Three-lane Road with White Lines"
     },
     {
       "key": "contribution.{ROAD2503-8058-11D7-BB78-0090FE1AB959A}.name",
       "source": "三車線道路/白実線/無灯",
-      "translation": ""
+      "translation": "Three-lane road / White solid line / No lights"
     },
     {
       "key": "contribution.{ROAD2503-8058-11D7-BB78-0090FE1AB959A}.description",
       "source": "白線三車線道路",
-      "translation": ""
+      "translation": "Three-lane Road with White Lines"
     },
     {
       "key": "contribution.{ROAD2504-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "三車線道路/白破線A/街灯A",
-      "translation": ""
+      "translation": "Three-lane road / White dashed line A / Streetlight A"
     },
     {
       "key": "contribution.{ROAD2504-8058-11D7-BB78-0090FE1AB959}.description",
       "source": "白線三車線道路",
-      "translation": ""
+      "translation": "Three-lane Road with White Lines"
     },
     {
       "key": "contribution.{ROAD2504-8058-11D7-BB78-0090FE1AB960}.name",
       "source": "三車線道路/白破線A/街灯B",
-      "translation": ""
+      "translation": "Three-lane road / White dashed line A / Streetlight B"
     },
     {
       "key": "contribution.{ROAD2504-8058-11D7-BB78-0090FE1AB960}.description",
       "source": "白線三車線道路",
-      "translation": ""
+      "translation": "Three-lane Road with White Lines"
     },
     {
       "key": "contribution.{ROAD2504-8058-11D7-BB78-0090FE1AB959A}.name",
       "source": "三車線道路/白破線A/無灯",
-      "translation": ""
+      "translation": "Three-lane road / White dashed line A / No lights"
     },
     {
       "key": "contribution.{ROAD2504-8058-11D7-BB78-0090FE1AB959A}.description",
       "source": "白線三車線道路",
-      "translation": ""
+      "translation": "Three-lane Road with White Lines"
     },
     {
       "key": "contribution.{ROAD2505-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "三車線道路/白破線B/街灯A",
-      "translation": ""
+      "translation": "Three-lane road / White dashed line B / Streetlight A"
     },
     {
       "key": "contribution.{ROAD2505-8058-11D7-BB78-0090FE1AB959}.description",
       "source": "白線三車線道路",
-      "translation": ""
+      "translation": "Three-lane Road with White Lines"
     },
     {
       "key": "contribution.{ROAD2505-8058-11D7-BB78-0090FE1AB960}.name",
       "source": "三車線道路/白破線B/街灯B",
-      "translation": ""
+      "translation": "Three-lane road / White dashed line B / Streetlight B"
     },
     {
       "key": "contribution.{ROAD2505-8058-11D7-BB78-0090FE1AB960}.description",
       "source": "白線三車線道路",
-      "translation": ""
+      "translation": "Three-lane Road with White Lines"
     },
     {
       "key": "contribution.{ROAD2505-8058-11D7-BB78-0090FE1AB959A}.name",
       "source": "三車線道路/白破線B/無灯",
-      "translation": ""
+      "translation": "Three-lane road / White dashed line B / No lights"
     },
     {
       "key": "contribution.{ROAD2505-8058-11D7-BB78-0090FE1AB959A}.description",
       "source": "白線三車線道路",
-      "translation": ""
+      "translation": "Three-lane Road with White Lines"
     },
     {
       "key": "contribution.{ROAD3001-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "高速道路(白破線)",
-      "translation": ""
+      "translation": "Expressway (White Dashed Line)"
     },
     {
       "key": "contribution.{ROAD3001-8058-11D7-BB78-0090FE1AB959}.description",
       "source": "白破線高速道路",
-      "translation": ""
+      "translation": "Broken White Line Expressway"
     },
     {
       "key": "contribution.{ROAD3002-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "高速道路(単線左)",
-      "translation": ""
+      "translation": "Expressway (Single Lane Left)"
     },
     {
       "key": "contribution.{ROAD3002-8058-11D7-BB78-0090FE1AB959}.description",
       "source": "単線左高速道路",
-      "translation": ""
+      "translation": "Single Track Left Expressway"
     },
     {
       "key": "contribution.{ROAD3003-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "高速道路(単線右)",
-      "translation": ""
+      "translation": "Expressway (Single Lane Right)"
     },
     {
       "key": "contribution.{ROAD3003-8058-11D7-BB78-0090FE1AB959}.description",
       "source": "単線右高速道路",
-      "translation": ""
+      "translation": "Single Track Right Expressway"
     },
     {
       "key": "contribution.{ROAD3004-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "高速道路(複線左)",
-      "translation": ""
+      "translation": "Expressway (Double Lane Left)"
     },
     {
       "key": "contribution.{ROAD3004-8058-11D7-BB78-0090FE1AB959}.description",
       "source": "複線左高速道路",
-      "translation": ""
+      "translation": "Double Track Left Expressway"
     },
     {
       "key": "contribution.{ROAD3005-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "高速道路(複線右)",
-      "translation": ""
+      "translation": "Expressway (Double Lane Right)"
     },
     {
       "key": "contribution.{ROAD3005-8058-11D7-BB78-0090FE1AB959}.description",
       "source": "複線右高速道路",
-      "translation": ""
+      "translation": "Double Track Right Expressway"
     },
     {
       "key": "contribution.{ROAD3006-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "高速道路(対面通行)",
-      "translation": ""
+      "translation": "Expressway (Two-Way Traffic)"
     },
     {
       "key": "contribution.{ROAD3006-8058-11D7-BB78-0090FE1AB959}.description",
       "source": "対面通行高速道路",
-      "translation": ""
+      "translation": "Two-Way Expressway"
     },
     {
       "key": "contribution.{ROAD4001-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "交差点/ゼブラゾーン",
-      "translation": ""
+      "translation": "Intersection / Zebra zone"
     },
     {
       "key": "contribution.{ROAD4001-8058-11D7-BB78-0090FE1AB959}.description",
       "source": "ゼブラゾーン",
-      "translation": ""
+      "translation": "Zebra zone"
     },
     {
       "key": "contribution.{ROAD4002-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "交差点/横断歩道/スクランブル",
-      "translation": ""
+      "translation": "Intersection / Crosswalk / Scramble"
     },
     {
       "key": "contribution.{ROAD4002-8058-11D7-BB78-0090FE1AB959}.description",
       "source": "スクランブル",
-      "translation": ""
+      "translation": "Scramble"
     },
     {
       "key": "contribution.{ROAD4003-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "交差点/横断歩道/通常",
-      "translation": ""
+      "translation": "Intersection / Crosswalk / Standard"
     },
     {
       "key": "contribution.{ROAD4003-8058-11D7-BB78-0090FE1AB959}.description",
       "source": "横断歩道",
-      "translation": ""
+      "translation": "Crosswalk"
     },
     {
       "key": "contribution.{ROAD4004-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "交差点/横断歩道/ゼブラ付",
-      "translation": ""
+      "translation": "Intersection / Crosswalk / With zebra stripes"
     },
     {
       "key": "contribution.{ROAD4004-8058-11D7-BB78-0090FE1AB959}.description",
       "source": "横断歩道ゼブラ付",
-      "translation": ""
+      "translation": "Crosswalk with zebra stripes"
     }
   ]
 }

@@ -6,132 +6,132 @@
     {
       "key": "plugin.title",
       "source": "田畑",
-      "translation": ""
+      "translation": "Farmland"
     },
     {
       "key": "contribution.{168C94A9-1D5B-4160-BBD8-21C830DCB752}-0,0.group",
       "source": "畑",
-      "translation": ""
+      "translation": "Field"
     },
     {
       "key": "contribution.{168C94A9-1D5B-4160-BBD8-21C830DCB752}-1,0.group",
       "source": "畑",
-      "translation": ""
+      "translation": "Field"
     },
     {
       "key": "contribution.{168C94A9-1D5B-4160-BBD8-21C830DCB752}-2,0.group",
       "source": "畑",
-      "translation": ""
+      "translation": "Field"
     },
     {
       "key": "contribution.{168C94A9-1D5B-4160-BBD8-21C830DCB752}-3,0.group",
       "source": "畑",
-      "translation": ""
+      "translation": "Field"
     },
     {
       "key": "contribution.{168C94A9-1D5B-4160-BBD8-21C830DCB752}-0,1.group",
       "source": "畑",
-      "translation": ""
+      "translation": "Field"
     },
     {
       "key": "contribution.{168C94A9-1D5B-4160-BBD8-21C830DCB752}-1,1.group",
       "source": "畑",
-      "translation": ""
+      "translation": "Field"
     },
     {
       "key": "contribution.{168C94A9-1D5B-4160-BBD8-21C830DCB752}-2,1.group",
       "source": "畑",
-      "translation": ""
+      "translation": "Field"
     },
     {
       "key": "contribution.{168C94A9-1D5B-4160-BBD8-21C830DCB752}-3,1.group",
       "source": "畑",
-      "translation": ""
+      "translation": "Field"
     },
     {
       "key": "contribution.{168C94A9-1D5B-4160-BBD8-21C830DCB752}-0,2.group",
       "source": "畑",
-      "translation": ""
+      "translation": "Field"
     },
     {
       "key": "contribution.{168C94A9-1D5B-4160-BBD8-21C830DCB752}-1,2.group",
       "source": "畑",
-      "translation": ""
+      "translation": "Field"
     },
     {
       "key": "contribution.{168C94A9-1D5B-4160-BBD8-21C830DCB752}-2,2.group",
       "source": "畑",
-      "translation": ""
+      "translation": "Field"
     },
     {
       "key": "contribution.{168C94A9-1D5B-4160-BBD8-21C830DCB752}-3,2.group",
       "source": "畑",
-      "translation": ""
+      "translation": "Field"
     },
     {
       "key": "contribution.{168C94A9-1D5B-4160-BBD8-21C830DCB752}-0,3.group",
       "source": "畑",
-      "translation": ""
+      "translation": "Field"
     },
     {
       "key": "contribution.{168C94A9-1D5B-4160-BBD8-21C830DCB752}-1,3.group",
       "source": "畑",
-      "translation": ""
+      "translation": "Field"
     },
     {
       "key": "contribution.{168C94A9-1D5B-4160-BBD8-21C830DCB752}-2,3.group",
       "source": "畑",
-      "translation": ""
+      "translation": "Field"
     },
     {
       "key": "contribution.{168C94A9-1D5B-4160-BBD8-21C830DCB752}-3,3.group",
       "source": "畑",
-      "translation": ""
+      "translation": "Field"
     },
     {
       "key": "contribution.{168C94A9-1D5B-4160-BBD8-21C830DCB752}-0,4.group",
       "source": "畑",
-      "translation": ""
+      "translation": "Field"
     },
     {
       "key": "contribution.{168C94A9-1D5B-4160-BBD8-21C830DCB752}-1,4.group",
       "source": "畑",
-      "translation": ""
+      "translation": "Field"
     },
     {
       "key": "contribution.{168C94A9-1D5B-4160-BBD8-21C830DCB752}-2,4.group",
       "source": "畑",
-      "translation": ""
+      "translation": "Field"
     },
     {
       "key": "contribution.{168C94A9-1D5B-4160-BBD8-21C830DCB752}-3,4.group",
       "source": "畑",
-      "translation": ""
+      "translation": "Field"
     },
     {
       "key": "contribution.{A70C51A0-B495-4F78-AA50-E4A2D2F7A7DA}.group",
       "source": "畑mix",
-      "translation": ""
+      "translation": "Mixed fields"
     },
     {
       "key": "contribution.{276DF16D-2D58-40DC-8CC2-8E56DA8B6BF4}.group",
       "source": "畑mix",
-      "translation": ""
+      "translation": "Mixed fields"
     },
     {
       "key": "contribution.{5E37A96E-1111-44E0-B598-7F11BBB08083}.group",
       "source": "畑mix",
-      "translation": ""
+      "translation": "Mixed fields"
     },
     {
       "key": "contribution.{A0D4BEC6-FB32-410E-ABF9-C0DBBA548685}.group",
       "source": "畑mix",
-      "translation": ""
+      "translation": "Mixed fields"
     },
     {
       "key": "contribution.{8622BFD2-70AB-4867-8FB6-EC3340530F71}.group",
       "source": "畑mix",
-      "translation": ""
+      "translation": "Mixed fields"
     }
   ]
 }

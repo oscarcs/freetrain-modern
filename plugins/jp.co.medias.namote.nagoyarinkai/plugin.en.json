@@ -6,27 +6,27 @@
     {
       "key": "plugin.title",
       "source": "名古屋臨海高速鉄道",
-      "translation": ""
+      "translation": "Nagoya Rinkai Rapid Transit"
     },
     {
       "key": "contribution.{DD0220E0-7998-4E8B-A17D-C6116089B1CF}.name",
       "source": "あおなみ線",
-      "translation": ""
+      "translation": "Aonami Line"
     },
     {
       "key": "contribution.{DD0220E0-7998-4E8B-A17D-C6116089B1CF}.company",
       "source": "名古屋臨海高速鉄道",
-      "translation": ""
+      "translation": "Nagoya Rinkai Rapid Transit"
     },
     {
       "key": "contribution.{DD0220E0-7998-4E8B-A17D-C6116089B1CF}.type",
       "source": "1000形",
-      "translation": ""
+      "translation": "1000 series"
     },
     {
       "key": "contribution.{DD0220E0-7998-4E8B-A17D-C6116089B1CF}.description",
       "source": "国際港湾・名古屋港と名古屋都心部を直結する路線として、平成16年10月6日、全線開業いたしました。",
-      "translation": ""
+      "translation": "The entire line, directly connecting the international port of Nagoya and the central Nagoya urban area, opened on October 6, 2004."
     }
   ]
 }

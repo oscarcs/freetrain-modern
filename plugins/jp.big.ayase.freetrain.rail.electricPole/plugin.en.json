@@ -6,22 +6,22 @@
     {
       "key": "plugin.title",
       "source": "架線柱",
-      "translation": ""
+      "translation": "Catenary Pole"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-Kasen-1-Left}.name",
       "source": "複線用(左)",
-      "translation": ""
+      "translation": "For Double Track (Left)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-Kasen-1-Center}.name",
       "source": "複線用(中)",
-      "translation": ""
+      "translation": "For Double Track (Center)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-Kasen-1-Right}.name",
       "source": "複線用(右)",
-      "translation": ""
+      "translation": "For Double Track (Right)"
     }
   ]
 }

@@ -5,33 +5,33 @@
   "texts": [
     {
       "key": "plugin.title",
-      "source": "建物総合コンバート\u3000花菱烈火\u3000漁港",
-      "translation": ""
+      "source": "建物総合コンバート　花菱烈火　漁港",
+      "translation": "Building General Convert: Hanabishi Rekka - Fishing Port"
     },
     {
       "key": "contribution.{rk-minato-n001}-gs.group",
       "source": "港",
-      "translation": ""
+      "translation": "Port"
     },
     {
       "key": "contribution.{rk-minato-n003}-gs.group",
       "source": "港",
-      "translation": ""
+      "translation": "Port"
     },
     {
       "key": "contribution.{rk-minato-n005}-gs.group",
       "source": "港",
-      "translation": ""
+      "translation": "Port"
     },
     {
       "key": "contribution.{rk-minato-n007}-gs.group",
       "source": "港",
-      "translation": ""
+      "translation": "Port"
     },
     {
       "key": "contribution.{rk-minato-n010}-gs.group",
       "source": "港",
-      "translation": ""
+      "translation": "Port"
     }
   ]
 }

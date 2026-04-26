@@ -6,17 +6,17 @@
     {
       "key": "plugin.title",
       "source": "建物セット",
-      "translation": ""
+      "translation": "Building Set"
     },
     {
       "key": "contribution.{8361A9CC-DC1D-4432-8E21-7FB3564FA5CF}.name",
       "source": "分譲マンション",
-      "translation": ""
+      "translation": "Condominium"
     },
     {
       "key": "contribution.{9DEDC549-A1A8-4a14-A7A5-D18F388BE975}.name",
       "source": "公園",
-      "translation": ""
+      "translation": "Park"
     }
   ]
 }

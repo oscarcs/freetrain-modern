@@ -6,87 +6,87 @@
     {
       "key": "plugin.title",
       "source": "ジェットコースター",
-      "translation": ""
+      "translation": "Roller Coaster"
     },
     {
       "key": "contribution.{4208F565-4799-4FCE-C477-116FD3755F84}.group",
       "source": "コースター(完成品)",
-      "translation": ""
+      "translation": "Roller coaster (completed)"
     },
     {
       "key": "contribution.{A98B0FD5-C9FD-4800-C477-4750BBA17CA1}.group",
       "source": "コースター(完成品)",
-      "translation": ""
+      "translation": "Roller coaster (completed)"
     },
     {
       "key": "contribution.{AEF3C1A8-53AB-4CC3-C477-645328980ABE}-str.group",
       "source": "コースターA(直線・坂)",
-      "translation": ""
+      "translation": "Roller coaster A (straight, slope)"
     },
     {
       "key": "contribution.{AEF3C1A8-53AB-4CC3-C477-645328980ABE}-slp.group",
       "source": "コースターA(直線・坂)",
-      "translation": ""
+      "translation": "Roller coaster A (straight, slope)"
     },
     {
       "key": "contribution.{AEF3C1A8-53AB-4CC3-C477-645328980ABE}-top.group",
       "source": "コースターA(直線・坂)",
-      "translation": ""
+      "translation": "Roller coaster A (straight, slope)"
     },
     {
       "key": "contribution.{AEF3C1A8-53AB-4CC3-C477-645328980ABE}-btm.group",
       "source": "コースターA(直線・坂)",
-      "translation": ""
+      "translation": "Roller coaster A (straight, slope)"
     },
     {
       "key": "contribution.{AEF3C1A8-53AB-4CC3-C477-645328980ABE}-vlp.group",
       "source": "コースターA(特殊)",
-      "translation": ""
+      "translation": "Coaster A (Special)"
     },
     {
       "key": "contribution.{AEF3C1A8-53AB-4CC3-C477-645328980ABE}-csw.group",
       "source": "コースターA(特殊)",
-      "translation": ""
+      "translation": "Coaster A (Special)"
     },
     {
       "key": "contribution.{AEF3C1A8-53AB-4CC3-C477-645328980ABE}-scv.group",
       "source": "コースターA(カーブ)",
-      "translation": ""
+      "translation": "Coaster A (Curve)"
     },
     {
       "key": "contribution.{AEF3C1A8-53AB-4CC3-C477-645328980ABE}-lcv.group",
       "source": "コースターA(カーブ)",
-      "translation": ""
+      "translation": "Coaster A (Curve)"
     },
     {
       "key": "contribution.{AEF3C1A8-53AB-4CC3-C477-645328980ABE}-S.group",
       "source": "コースターA(カーブ)",
-      "translation": ""
+      "translation": "Coaster A (Curve)"
     },
     {
       "key": "contribution.{AEF3C1A8-53AB-4CC3-C477-645328980ABE}-1tL.group",
       "source": "コースターA(カーブ)",
-      "translation": ""
+      "translation": "Coaster A (Curve)"
     },
     {
       "key": "contribution.{AEF3C1A8-53AB-4CC3-C477-645328980ABE}-1tR.group",
       "source": "コースターA(カーブ)",
-      "translation": ""
+      "translation": "Coaster A (Curve)"
     },
     {
       "key": "contribution.{AEF3C1A8-53AB-4CC3-C477-645328980ABE}-1.5tL.group",
       "source": "コースターA(カーブ)",
-      "translation": ""
+      "translation": "Coaster A (Curve)"
     },
     {
       "key": "contribution.{AEF3C1A8-53AB-4CC3-C477-645328980ABE}-1.5tR.group",
       "source": "コースターA(カーブ)",
-      "translation": ""
+      "translation": "Coaster A (Curve)"
     },
     {
       "key": "contribution.{36CA7352-20C2-43DD-C477-80CC7BDB509E}.group",
       "source": "コースター乗り場",
-      "translation": ""
+      "translation": "Coaster boarding area"
     }
   ]
 }

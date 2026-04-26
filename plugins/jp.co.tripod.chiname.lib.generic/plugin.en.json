@@ -6,12 +6,12 @@
     {
       "key": "plugin.title",
       "source": "汎用プラグイン",
-      "translation": ""
+      "translation": "General Purpose Plugin"
     },
     {
       "key": "contribution.{C7E08038-DADA-46FD-C477-AEB5A4112B1C}.name",
       "source": "建物類別一覧",
-      "translation": ""
+      "translation": "Building Category List"
     }
   ]
 }

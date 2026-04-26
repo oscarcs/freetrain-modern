@@ -6,27 +6,27 @@
     {
       "key": "plugin.title",
       "source": "キハ30久留里線",
-      "translation": ""
+      "translation": "KiHa 30 Kururi Line"
     },
     {
       "key": "contribution.{09D6B15A-6DAD-47DF-B8E1-kiha30-kururi}.name",
       "source": "キハ30久留里線",
-      "translation": ""
+      "translation": "KiHa 30 Kururi Line"
     },
     {
       "key": "contribution.{09D6B15A-6DAD-47DF-B8E1-kiha30-kururi}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{09D6B15A-6DAD-47DF-B8E1-kiha30-kururi}.type",
       "source": "キハ30系",
-      "translation": ""
+      "translation": "Kiha 30 Series"
     },
     {
       "key": "contribution.{09D6B15A-6DAD-47DF-B8E1-kiha30-kururi}.description",
       "source": "木更津～上総亀山を走る日本有数の(？)ローカル線、久留里線の車両です。\n数年前に現在の、沿線自治体をイメージした塗装に変更されました。\n通常２～4両編成で運行します。",
-      "translation": ""
+      "translation": "This is a train of the Kururi Line, one of Japan's leading (?) local lines, running between Kisarazu and Kazusa-Kameyama. A few years ago, its livery was changed to the current design, inspired by the municipalities along the line. It usually operates in 2 to 4-car formations."
     }
   ]
 }

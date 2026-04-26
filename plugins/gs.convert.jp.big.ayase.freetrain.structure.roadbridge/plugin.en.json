@@ -5,28 +5,28 @@
   "texts": [
     {
       "key": "plugin.title",
-      "source": "建物総合コンバート\u3000綾瀬ヒロ",
-      "translation": ""
+      "source": "建物総合コンバート　綾瀬ヒロ",
+      "translation": "Building General Conversion Ayase Hiro"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-hashi-01a}-gs.group",
       "source": "道路橋",
-      "translation": ""
+      "translation": "Road bridge"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-hashi-02a}-gs.group",
       "source": "道路橋",
-      "translation": ""
+      "translation": "Road bridge"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-hashi-03a}-gs.group",
       "source": "道路橋",
-      "translation": ""
+      "translation": "Road bridge"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-hashi-04a}-gs.group",
       "source": "道路橋",
-      "translation": ""
+      "translation": "Road bridge"
     }
   ]
 }

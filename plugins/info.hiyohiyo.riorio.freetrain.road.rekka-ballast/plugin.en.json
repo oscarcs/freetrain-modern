@@ -6,17 +6,17 @@
     {
       "key": "plugin.title",
       "source": "道路plugin線路バラスト",
-      "translation": ""
+      "translation": "Road Plugin Track Ballast"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-Road-ballast-silver}.name",
       "source": "線路敷石/灰色",
-      "translation": ""
+      "translation": "Track Paving Stones / Grey"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-Road-ballast-silver}.description",
       "source": "線路敷石",
-      "translation": ""
+      "translation": "Track Ballast"
     }
   ]
 }

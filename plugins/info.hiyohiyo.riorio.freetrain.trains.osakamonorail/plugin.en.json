@@ -6,187 +6,187 @@
     {
       "key": "plugin.title",
       "source": "モノレールせっと",
-      "translation": ""
+      "translation": "Monorail Set"
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-2000-011-5367E9746B40}.name",
       "source": "一次車",
-      "translation": ""
+      "translation": "First Batch Car"
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-2000-011-5367E9746B40}.company",
       "source": "大阪高速鉄道",
-      "translation": ""
+      "translation": "Osaka Monorail"
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-2000-011-5367E9746B40}.type",
       "source": "2000系",
-      "translation": ""
+      "translation": "2000 Series"
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-2000-011-5367E9746B40}.description",
       "source": "2001年から製造された大阪高速鉄道のモノレール車両。大阪高速鉄道は総延長世界一のモノレール事業者である。11～16編成まではアルミ車体にブルーの帯、前面にアザレアパープルの塗装がされている。\n現在は4両固定編成で運転されている2000系だが、将来的には6両編成も可能となっている。",
-      "translation": ""
+      "translation": "Osaka Monorail vehicles manufactured from 2001. Osaka Monorail is the world's longest monorail operator. Formations 11 to 16 have an aluminum body with a blue stripe and an azalea purple paint on the front. The 2000 Series currently operates in 4-car fixed formations, but 6-car formations will be possible in the future."
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-2000-017-8A68E620E3D3}.name",
       "source": "二次車",
-      "translation": ""
+      "translation": "Second Batch Car"
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-2000-017-8A68E620E3D3}.company",
       "source": "大阪高速鉄道",
-      "translation": ""
+      "translation": "Osaka Monorail"
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-2000-017-8A68E620E3D3}.type",
       "source": "2000系",
-      "translation": ""
+      "translation": "2000 Series"
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-2000-017-8A68E620E3D3}.description",
       "source": "2001年から製造された大阪高速鉄道のモノレール車両。大阪高速鉄道は総延長世界一のモノレール事業者である。17編成のみ、アルミ車体にブルーの帯、前面にイエローの塗装がされている。\n現在は4両固定編成で運転されている2000系だが、将来的には6両編成も可能となっている。",
-      "translation": ""
+      "translation": "Osaka Monorail vehicles manufactured from 2001. Osaka Monorail is the world's longest monorail operator. Only formation 17 has an aluminum body with a blue stripe and yellow paint on the front. The 2000 Series currently operates in 4-car fixed formations, but 6-car formations will be possible in the future."
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-1000-001-5A18DDCECF08}.name",
       "source": "一次車",
-      "translation": ""
+      "translation": "First Batch Car"
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-1000-001-5A18DDCECF08}.company",
       "source": "大阪高速鉄道",
-      "translation": ""
+      "translation": "Osaka Monorail"
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-1000-001-5A18DDCECF08}.type",
       "source": "1000系",
-      "translation": ""
+      "translation": "1000 Series"
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-1000-001-5A18DDCECF08}.description",
       "source": "1989年から製造された大阪高速鉄道のモノレール車両。大阪高速鉄道は総延長世界一のモノレール事業者である。01～06編成まではアルミ車体にブルーの帯3本の塗装がされていた。\n現在は4両固定編成で運転されている1000系だが、将来的には6両編成も可能となっている。",
-      "translation": ""
+      "translation": "Monorail vehicles of Osaka Monorail, manufactured from 1989. Osaka Monorail is the monorail operator with the longest total length in the world. Formations 01-06 were painted with three blue stripes on an aluminum body. Currently, the 1000 Series operates in 4-car fixed formations, but 6-car formations are also possible in the future."
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-1000-004-E05B993F1557}.name",
       "source": "イオン号",
-      "translation": ""
+      "translation": "Aeon-go"
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-1000-004-E05B993F1557}.company",
       "source": "大阪高速鉄道",
-      "translation": ""
+      "translation": "Osaka Monorail"
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-1000-004-E05B993F1557}.type",
       "source": "1000系",
-      "translation": ""
+      "translation": "1000 Series"
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-1000-004-E05B993F1557}.description",
       "source": "1989年から製造された大阪高速鉄道のモノレール車両。大阪高速鉄道は総延長世界一のモノレール事業者である。大阪モノレール1000系は全面ラッピング広告されている車両が多いのも特徴で、04編成はイオンの広告車となっている。\n4両固定編成。",
-      "translation": ""
+      "translation": "Monorail vehicles of Osaka Monorail, manufactured from 1989. Osaka Monorail is the monorail operator with the longest total length in the world. A characteristic of the Osaka Monorail 1000 Series is that many vehicles feature full-wrap advertising, with formation 04 being an AEON advertisement train. 4-car fixed formation."
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-1000-006-B30E537BE764}.name",
       "source": "全農号",
-      "translation": ""
+      "translation": "Zennoh-go"
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-1000-006-B30E537BE764}.company",
       "source": "大阪高速鉄道",
-      "translation": ""
+      "translation": "Osaka Monorail"
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-1000-006-B30E537BE764}.type",
       "source": "1000系",
-      "translation": ""
+      "translation": "1000 Series"
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-1000-006-B30E537BE764}.description",
       "source": "1989年から製造された大阪高速鉄道のモノレール車両。大阪高速鉄道は総延長世界一のモノレール事業者である。大阪モノレール1000系は全面ラッピング広告されている車両が多いのも特徴で、06編成は全農の広告車となっている。\n4両固定編成。",
-      "translation": ""
+      "translation": "Monorail vehicles of Osaka Monorail, manufactured from 1989. Osaka Monorail is the monorail operator with the longest total length in the world. A characteristic of the Osaka Monorail 1000 Series is that many vehicles feature full-wrap advertising, with formation 06 being a Zen-Noh advertisement train. 4-car fixed formation."
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-1000-031-C37E1A011BF0}.name",
       "source": "住宅センター号",
-      "translation": ""
+      "translation": "Housing Center"
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-1000-031-C37E1A011BF0}.company",
       "source": "大阪高速鉄道",
-      "translation": ""
+      "translation": "Osaka Monorail"
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-1000-031-C37E1A011BF0}.type",
       "source": "1000系",
-      "translation": ""
+      "translation": "1000 Series"
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-1000-031-C37E1A011BF0}.description",
       "source": "1989年から製造された大阪高速鉄道のモノレール車両。大阪高速鉄道は総延長世界一のモノレール事業者である。大阪モノレール1000系は全面ラッピング広告されている車両が多いのも特徴で、31編成は大阪住宅センターの広告車となっている。\n4両固定編成。",
-      "translation": ""
+      "translation": "Monorail vehicles of Osaka Monorail, manufactured from 1989. Osaka Monorail is the monorail operator with the longest total length in the world. A characteristic of the Osaka Monorail 1000 Series is that many vehicles feature full-wrap advertising, with formation 31 being an Osaka Housing Center advertisement train. 4-car fixed formation."
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-1000-032-ED1D3687D346}.name",
       "source": "オール電化号",
-      "translation": ""
+      "translation": "All-Electric Train"
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-1000-032-ED1D3687D346}.company",
       "source": "大阪高速鉄道",
-      "translation": ""
+      "translation": "Osaka Monorail"
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-1000-032-ED1D3687D346}.type",
       "source": "1000系",
-      "translation": ""
+      "translation": "1000 Series"
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-1000-032-ED1D3687D346}.description",
       "source": "1989年から製造された大阪高速鉄道のモノレール車両。大阪高速鉄道は総延長世界一のモノレール事業者である。大阪モノレール1000系は全面ラッピング広告されている車両が多いのも特徴で、32編成はオール電化の広告車となっている。\n現在は4両固定編成で運転されている1000系だが、将来的には6両編成も可能となっている。",
-      "translation": ""
+      "translation": "Monorail vehicles of Osaka Monorail, manufactured from 1989. Osaka Monorail is the monorail operator with the longest total length in the world. A characteristic of the Osaka Monorail 1000 Series is that many vehicles feature full-wrap advertising, with formation 32 being an All-Electric advertisement train. Currently, the 1000 Series operates in 4-car fixed formations, but 6-car formations are also possible in the future."
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-1000-021-9C0CD2D51F62}.name",
       "source": "りそな号",
-      "translation": ""
+      "translation": "Resona-go"
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-1000-021-9C0CD2D51F62}.company",
       "source": "大阪高速鉄道",
-      "translation": ""
+      "translation": "Osaka Monorail"
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-1000-021-9C0CD2D51F62}.type",
       "source": "1000系",
-      "translation": ""
+      "translation": "1000 Series"
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-1000-021-9C0CD2D51F62}.description",
       "source": "1989年から製造された大阪高速鉄道のモノレール車両。大阪高速鉄道は総延長世界一のモノレール事業者である。大阪モノレール1000系は全面ラッピング広告されている車両が多いのも特徴で、21編成はりそな銀行の広告車となっている。\n4両固定編成。",
-      "translation": ""
+      "translation": "Monorail vehicles of Osaka Monorail, manufactured from 1989. Osaka Monorail is the monorail operator with the longest total length in the world. A characteristic of the Osaka Monorail 1000 Series is that many vehicles feature full-wrap advertising, with formation 21 being a Resona Bank advertisement train. 4-car fixed formation."
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-1000-023-7DEE6FB25A5B}.name",
       "source": "チキンラーメン号",
-      "translation": ""
+      "translation": "Chicken Ramen-go"
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-1000-023-7DEE6FB25A5B}.company",
       "source": "大阪高速鉄道",
-      "translation": ""
+      "translation": "Osaka Monorail"
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-1000-023-7DEE6FB25A5B}.type",
       "source": "1000系",
-      "translation": ""
+      "translation": "1000 Series"
     },
     {
       "key": "contribution.{riorio-train-osakakosokumonorail-1000-023-7DEE6FB25A5B}.description",
       "source": "1989年から製造された大阪高速鉄道のモノレール車両。大阪高速鉄道は総延長世界一のモノレール事業者である。大阪モノレール1000系は全面ラッピング広告されている車両が多いのも特徴で、23編成はチキンラーメンの広告車となっている。\n現在は4両固定編成で運転されている1000系だが、将来的には6両編成も可能となっている。",
-      "translation": ""
+      "translation": "Monorail vehicles of Osaka Monorail, manufactured from 1989. Osaka Monorail is the monorail operator with the longest total length in the world. A characteristic of the Osaka Monorail 1000 Series is that many vehicles feature full-wrap advertising, with formation 23 being a Chicken Ramen advertisement train. Currently, the 1000 Series operates in 4-car fixed formations, but 6-car formations are also possible in the future."
     }
   ]
 }

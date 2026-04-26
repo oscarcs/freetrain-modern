@@ -5,13 +5,13 @@
   "texts": [
     {
       "key": "plugin.title",
-      "source": "建物総合コンバート\u3000しの",
-      "translation": ""
+      "source": "建物総合コンバート　しの",
+      "translation": "Building general conversion: Shino"
     },
     {
       "key": "contribution.{S5776500-E8E5-4D5E-B30A-A0036A6ECDEB}-gs.group",
       "source": "国際展示場",
-      "translation": ""
+      "translation": "International Exhibition Center"
     }
   ]
 }

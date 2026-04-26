@@ -6,27 +6,27 @@
     {
       "key": "plugin.title",
       "source": "柵type高架橋壁",
-      "translation": ""
+      "translation": "Fence Type Elevated Bridge Wall"
     },
     {
       "key": "contribution.{landfence-riorio-kokakyo-0001-a3c212b354}.name",
       "source": "柵",
-      "translation": ""
+      "translation": "Fence"
     },
     {
       "key": "contribution.{landfence-riorio-kokakyo-0001-a3c212b354}.group",
       "source": "高架橋壁",
-      "translation": ""
+      "translation": "Elevated bridge wall"
     },
     {
       "key": "contribution.{landfence-riorio-kokakyo-0002-45c321a321b}.name",
       "source": "柵 新",
-      "translation": ""
+      "translation": "Fence New"
     },
     {
       "key": "contribution.{landfence-riorio-kokakyo-0002-45c321a321b}.group",
       "source": "高架橋壁",
-      "translation": ""
+      "translation": "Elevated bridge wall"
     }
   ]
 }

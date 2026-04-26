@@ -6,87 +6,87 @@
     {
       "key": "plugin.title",
       "source": "建物",
-      "translation": ""
+      "translation": "Buildings"
     },
     {
       "key": "contribution.{A5BD857C-F2A1-4218-936C-C61EA4D28084-1}.group",
       "source": "サークルK",
-      "translation": ""
+      "translation": "Circle K"
     },
     {
       "key": "contribution.{A5BD857C-F2A1-4218-936C-C61EA4D28084-2}.group",
       "source": "サークルK",
-      "translation": ""
+      "translation": "Circle K"
     },
     {
       "key": "contribution.{A5BD857C-F2A1-4218-936C-C61EA4D28085-1}.group",
       "source": "美富士食堂",
-      "translation": ""
+      "translation": "Mifuji Diner"
     },
     {
       "key": "contribution.{A5BD857C-F2A1-4218-936C-C61EA4D28085-2}.group",
       "source": "美富士食堂",
-      "translation": ""
+      "translation": "Mifuji Diner"
     },
     {
       "key": "contribution.{FD978351-73CE-442E-8816-76DBA52E8875-1}.group",
       "source": "小型ショッピングセンター",
-      "translation": ""
+      "translation": "Small shopping center"
     },
     {
       "key": "contribution.{FD978351-73CE-442E-8816-76DBA52E8875-2}.group",
       "source": "小型ショッピングセンター",
-      "translation": ""
+      "translation": "Small shopping center"
     },
     {
       "key": "contribution.{FD978351-73CE-442E-8816-76DBA52E8875-3}.group",
       "source": "小型ショッピングセンター",
-      "translation": ""
+      "translation": "Small shopping center"
     },
     {
       "key": "contribution.{FD978351-73CE-442E-8816-76DBA52E8875-4}.group",
       "source": "小型ショッピングセンター",
-      "translation": ""
+      "translation": "Small shopping center"
     },
     {
       "key": "contribution.{FD978351-73CE-442E-8816-76DBA52E8875-5}.group",
       "source": "小型ショッピングセンター",
-      "translation": ""
+      "translation": "Small shopping center"
     },
     {
       "key": "contribution.{FD978351-73CE-442E-8816-76DBA52E8875-6}.group",
       "source": "小型ショッピングセンター",
-      "translation": ""
+      "translation": "Small shopping center"
     },
     {
       "key": "contribution.{FD978351-73CE-442E-8816-76DBA52E8877-1}.group",
       "source": "中型ショッピングセンター",
-      "translation": ""
+      "translation": "Medium shopping center"
     },
     {
       "key": "contribution.{FD978351-73CE-442E-8816-76DBA52E8877-2}.group",
       "source": "中型ショッピングセンター",
-      "translation": ""
+      "translation": "Medium shopping center"
     },
     {
       "key": "contribution.{FD978351-73CE-442E-8816-76DBA52E8877-3}.group",
       "source": "中型ショッピングセンター",
-      "translation": ""
+      "translation": "Medium shopping center"
     },
     {
       "key": "contribution.{FD978351-73CE-442E-8816-76DBA52E8877-4}.group",
       "source": "中型ショッピングセンター",
-      "translation": ""
+      "translation": "Medium shopping center"
     },
     {
       "key": "contribution.{FD978351-73CE-442E-8816-76DBA52E8877-5}.group",
       "source": "中型ショッピングセンター",
-      "translation": ""
+      "translation": "Medium shopping center"
     },
     {
       "key": "contribution.{FD978351-73CE-442E-8816-76DBA52E8877-6}.group",
       "source": "中型ショッピングセンター",
-      "translation": ""
+      "translation": "Medium shopping center"
     }
   ]
 }

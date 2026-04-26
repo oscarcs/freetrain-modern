@@ -6,17 +6,17 @@
     {
       "key": "plugin.title",
       "source": "道路",
-      "translation": ""
+      "translation": "Road"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-Airport}.name",
       "source": "空港用滑走路",
-      "translation": ""
+      "translation": "Airport Runway"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-Airport}.description",
       "source": "滑走路",
-      "translation": ""
+      "translation": "Runway"
     }
   ]
 }

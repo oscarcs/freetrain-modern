@@ -6,17 +6,17 @@
     {
       "key": "plugin.title",
       "source": "砲台",
-      "translation": ""
+      "translation": "Turret"
     },
     {
       "key": "contribution.{mogami-buildingi-building-yousaihou-C5EC9E5936B8}-0.group",
       "source": "砲台・機関砲",
-      "translation": ""
+      "translation": "Turret - Autocannon"
     },
     {
       "key": "contribution.{mogami-buildingi-building-yousaihou-C5EC9E5936B8}-1.group",
       "source": "砲台・墳進砲",
-      "translation": ""
+      "translation": "Turret - Rocket launcher"
     }
   ]
 }

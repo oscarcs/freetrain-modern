@@ -6,67 +6,67 @@
     {
       "key": "plugin.title",
       "source": "415系1900番台 りくわいあーどQua_Ra氏415系1500番台",
-      "translation": ""
+      "translation": "415 Series 1900 series (Required: Qua_Ra's 415 Series 1500 series)"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC3-B-4151901H}.name",
       "source": "常磐線1901番台先頭",
-      "translation": ""
+      "translation": "Joban Line 1901 sub-series lead car"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC3-B-4151901H}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC3-B-4151901H}.type",
       "source": "415系1500番台",
-      "translation": ""
+      "translation": "415 Series 1500 sub-series"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC3-B-4151901H}.description",
       "source": "急増する常磐線の通勤客に対応し、なおかつ着席通勤率を向上させるために一両だけ生産された415系のダブルデッカー車を組み込む編成。",
-      "translation": ""
+      "translation": "A formation incorporating a double-decker car of the 415 Series, of which only one was produced to cope with the rapidly increasing number of commuters on the Joban Line and to improve the seated commuting rate."
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC3-B-4151901T}.name",
       "source": "常磐線1901番台最後尾",
-      "translation": ""
+      "translation": "Joban Line 1901 sub-series rear car"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC3-B-4151901T}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC3-B-4151901T}.type",
       "source": "415系1500番台",
-      "translation": ""
+      "translation": "415 Series 1500 sub-series"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC3-B-4151901T}.description",
       "source": "急増する常磐線の通勤客に対応し、なおかつ着席通勤率を向上させるために一両だけ生産された415系のダブルデッカー車を組み込む編成。最後尾に連結したい場合はこちらをどうぞ。",
-      "translation": ""
+      "translation": "A formation incorporating a double-decker car of the 415 Series, of which only one was produced to cope with the rapidly increasing number of commuters on the Joban Line and to improve the seated commuting rate. Use this if you want to couple it at the rear."
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC3-B-4151900}.name",
       "source": "常磐線",
-      "translation": ""
+      "translation": "Joban Line"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC3-B-4151900}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC3-B-4151900}.type",
       "source": "415系1900番台",
-      "translation": ""
+      "translation": "415 Series 1900 series"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC3-B-4151900}.description",
       "source": "おふざけが過ぎました・・・orz。電装機器はどこへｲｯﾁﾏｯﾀﾝﾀﾞ・・・？",
-      "translation": ""
+      "translation": "I went too far with the jokes...orz. Where did the electrical equipment go...?"
     }
   ]
 }

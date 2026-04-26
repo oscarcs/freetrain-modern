@@ -6,67 +6,67 @@
     {
       "key": "plugin.title",
       "source": "鉄道施設プラグイン",
-      "translation": ""
+      "translation": "Railway Facility Plugin"
     },
     {
       "key": "contribution.{2CF891C2-5789-454F-947C-B672F9BCD4BC}.group",
       "source": "車止め(駅)",
-      "translation": ""
+      "translation": "Buffer stop (station)"
     },
     {
       "key": "contribution.{90CD13F6-F9C7-4081-8A78-E210C221EEC1}.group",
       "source": "車止め(駅)",
-      "translation": ""
+      "translation": "Buffer stop (station)"
     },
     {
       "key": "contribution.{6E3B5FC7-9294-4171-92EE-F717AD4E356C}.group",
       "source": "車止め(駅)",
-      "translation": ""
+      "translation": "Buffer stop (station)"
     },
     {
       "key": "contribution.{0CA2C73B-BBC9-4785-8ED6-B5E6ECD94124}.group",
       "source": "車止め(駅)",
-      "translation": ""
+      "translation": "Buffer stop (station)"
     },
     {
       "key": "contribution.{E9A0A382-EC6E-4B73-AD55-51B580FBEE4D}.group",
       "source": "車止め(駅)",
-      "translation": ""
+      "translation": "Buffer stop (station)"
     },
     {
       "key": "contribution.{651EC2AB-72DC-4E7B-82BF-D5CCF104BE4C}.group",
       "source": "車止め(駅)",
-      "translation": ""
+      "translation": "Buffer stop (station)"
     },
     {
       "key": "contribution.{1F35F6A9-F160-4546-8BB8-186CD660011F}.group",
       "source": "車止め(駅)",
-      "translation": ""
+      "translation": "Buffer stop (station)"
     },
     {
       "key": "contribution.{450876F7-2A56-4187-90FB-E725B2058DA6}.group",
       "source": "車止め(駅)",
-      "translation": ""
+      "translation": "Buffer stop (station)"
     },
     {
       "key": "contribution.{66D8CEFC-B0A5-44E9-BA8E-53F2986E3D8F}.group",
       "source": "車止め(一般)",
-      "translation": ""
+      "translation": "Buffer Stop (General)"
     },
     {
       "key": "contribution.{60EA6394-DDD7-4C97-822C-1B06458D42B4}.group",
       "source": "車止め(一般)",
-      "translation": ""
+      "translation": "Buffer Stop (General)"
     },
     {
       "key": "contribution.{988C4797-0124-478F-BB3D-34F1E1ACD2D5}.group",
       "source": "車止め(一般)",
-      "translation": ""
+      "translation": "Buffer Stop (General)"
     },
     {
       "key": "contribution.{5A9F67BA-3696-4248-A6AA-FE2CFBA0C76F}.group",
       "source": "車止め(一般)",
-      "translation": ""
+      "translation": "Buffer Stop (General)"
     }
   ]
 }

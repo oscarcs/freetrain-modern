@@ -6,37 +6,37 @@
     {
       "key": "plugin.title",
       "source": "道路",
-      "translation": ""
+      "translation": "Road"
     },
     {
       "key": "contribution.{Tomonori-road-gb-ballast}.name",
       "source": "軌道/灰色+茶色",
-      "translation": ""
+      "translation": "Track / Gray + Brown"
     },
     {
       "key": "contribution.{Tomonori-road-gb-ballast}.description",
       "source": "軌道用石",
-      "translation": ""
+      "translation": "Track ballast"
     },
     {
       "key": "contribution.{Tomonori-road-ob-ballast}.name",
       "source": "軌道/黄土色+茶色",
-      "translation": ""
+      "translation": "Track / Ocher + Brown"
     },
     {
       "key": "contribution.{Tomonori-road-ob-ballast}.description",
       "source": "軌道用石",
-      "translation": ""
+      "translation": "Track ballast"
     },
     {
       "key": "contribution.{Tomonori-road-brown-ballast}.name",
       "source": "軌道/茶色",
-      "translation": ""
+      "translation": "Track / Brown"
     },
     {
       "key": "contribution.{Tomonori-road-brown-ballast}.description",
       "source": "軌道用石",
-      "translation": ""
+      "translation": "Track ballast"
     }
   ]
 }

@@ -5,33 +5,33 @@
   "texts": [
     {
       "key": "plugin.title",
-      "source": "建物総合コンバート\u3000TAKUROU",
-      "translation": ""
+      "source": "建物総合コンバート　TAKUROU",
+      "translation": "Building General Convert: TAKUROU"
     },
     {
       "key": "contribution.{88FE76FB-7343-11D7-A4B7-A959391A9B37}-gs.group",
       "source": "ドラッグストアー",
-      "translation": ""
+      "translation": "Drugstore"
     },
     {
       "key": "contribution.{88FE76FF-7343-11D7-A4B7-A959391A9B37}-gs.group",
       "source": "ドラッグストアー",
-      "translation": ""
+      "translation": "Drugstore"
     },
     {
       "key": "contribution.{88FE7702-7343-11D7-A4B7-A959391A9B37}-gs.group",
       "source": "スーパーマーケット（中型店）",
-      "translation": ""
+      "translation": "Supermarket (medium size)"
     },
     {
       "key": "contribution.{88FE7704-7343-11D7-A4B7-A959391A9B37}-gs.group",
       "source": "スーパーマーケット（中型店）",
-      "translation": ""
+      "translation": "Supermarket (medium size)"
     },
     {
       "key": "contribution.{88FE7706-7343-11D7-A4B7-A959391A9B37}-gs.group",
       "source": "スーパーマーケット（中型店）",
-      "translation": ""
+      "translation": "Supermarket (medium size)"
     }
   ]
 }

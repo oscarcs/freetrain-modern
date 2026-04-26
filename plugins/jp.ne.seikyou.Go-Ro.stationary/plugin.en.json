@@ -6,1177 +6,1177 @@
     {
       "key": "plugin.title",
       "source": "鉄道施設（FreeTrain-想作館）",
-      "translation": ""
+      "translation": "Railway Facilities (FreeTrain-Sousakukan)"
     },
     {
       "key": "contribution.{electricPole_001-electricPole-C000-0000-4C8B212DD67q}.name",
       "source": "重層高架橋脚",
-      "translation": ""
+      "translation": "Multi-Layered Elevated Bridge Pier"
     },
     {
       "key": "contribution.{electricPole_002-electricPole-C000-0000-4C8B212Dharu}.name",
       "source": "連絡通路",
-      "translation": ""
+      "translation": "Connecting passage"
     },
     {
       "key": "contribution.{station_001-station-C001-000a-4C8B212Dharu}.name",
       "source": "近郊駅(右)[サーモン]",
-      "translation": ""
+      "translation": "Suburban Station (Right) [Salmon]"
     },
     {
       "key": "contribution.{station_001-station-C001-000a-4C8B212Dharu}.group",
       "source": "近郊駅(右)",
-      "translation": ""
+      "translation": "Suburban Station (Right)"
     },
     {
       "key": "contribution.{station_001-station-C001-000b-4C8B212Dharu}.name",
       "source": "近郊駅(右)[サーモン]",
-      "translation": ""
+      "translation": "Suburban Station (Right) [Salmon]"
     },
     {
       "key": "contribution.{station_001-station-C001-000b-4C8B212Dharu}.group",
       "source": "近郊駅(右)",
-      "translation": ""
+      "translation": "Suburban Station (Right)"
     },
     {
       "key": "contribution.{station_001-station-C001-000c-4C8B212Dharu}.name",
       "source": "近郊駅(右)[サーモン]",
-      "translation": ""
+      "translation": "Suburban Station (Right) [Salmon]"
     },
     {
       "key": "contribution.{station_001-station-C001-000c-4C8B212Dharu}.group",
       "source": "近郊駅(右)",
-      "translation": ""
+      "translation": "Suburban Station (Right)"
     },
     {
       "key": "contribution.{station_001-station-C001-000d-4C8B212Dharu}.name",
       "source": "近郊駅(右)[サーモン]",
-      "translation": ""
+      "translation": "Suburban Station (Right) [Salmon]"
     },
     {
       "key": "contribution.{station_001-station-C001-000d-4C8B212Dharu}.group",
       "source": "近郊駅(右)",
-      "translation": ""
+      "translation": "Suburban Station (Right)"
     },
     {
       "key": "contribution.{station_001-station-C001-000e-4C8B212Dharu}.name",
       "source": "近郊駅(左)[サーモン]",
-      "translation": ""
+      "translation": "Suburban Station (Left) [Salmon]"
     },
     {
       "key": "contribution.{station_001-station-C001-000e-4C8B212Dharu}.group",
       "source": "近郊駅(左)",
-      "translation": ""
+      "translation": "Suburban Station (Left)"
     },
     {
       "key": "contribution.{station_001-station-C001-000f-4C8B212Dharu}.name",
       "source": "近郊駅(左)[サーモン]",
-      "translation": ""
+      "translation": "Suburban Station (Left) [Salmon]"
     },
     {
       "key": "contribution.{station_001-station-C001-000f-4C8B212Dharu}.group",
       "source": "近郊駅(左)",
-      "translation": ""
+      "translation": "Suburban Station (Left)"
     },
     {
       "key": "contribution.{station_001-station-C001-000g-4C8B212Dharu}.name",
       "source": "近郊駅(左)[サーモン]",
-      "translation": ""
+      "translation": "Suburban Station (Left) [Salmon]"
     },
     {
       "key": "contribution.{station_001-station-C001-000g-4C8B212Dharu}.group",
       "source": "近郊駅(左)",
-      "translation": ""
+      "translation": "Suburban Station (Left)"
     },
     {
       "key": "contribution.{station_001-station-C001-000h-4C8B212Dharu}.name",
       "source": "近郊駅(左)[サーモン]",
-      "translation": ""
+      "translation": "Suburban Station (Left) [Salmon]"
     },
     {
       "key": "contribution.{station_001-station-C001-000h-4C8B212Dharu}.group",
       "source": "近郊駅(左)",
-      "translation": ""
+      "translation": "Suburban Station (Left)"
     },
     {
       "key": "contribution.{station_001-station-C002-000a-4C8B212Dharu}.name",
       "source": "近郊駅(右)[灰青]",
-      "translation": ""
+      "translation": "Suburban station (right) [gray-blue]"
     },
     {
       "key": "contribution.{station_001-station-C002-000a-4C8B212Dharu}.group",
       "source": "近郊駅(右)",
-      "translation": ""
+      "translation": "Suburban Station (Right)"
     },
     {
       "key": "contribution.{station_001-station-C002-000b-4C8B212Dharu}.name",
       "source": "近郊駅(右)灰青]",
-      "translation": ""
+      "translation": "Suburban Station (right) gray-blue"
     },
     {
       "key": "contribution.{station_001-station-C002-000b-4C8B212Dharu}.group",
       "source": "近郊駅(右)",
-      "translation": ""
+      "translation": "Suburban Station (Right)"
     },
     {
       "key": "contribution.{station_001-station-C002-000c-4C8B212Dharu}.name",
       "source": "近郊駅(右)[灰青]",
-      "translation": ""
+      "translation": "Suburban station (right) [gray-blue]"
     },
     {
       "key": "contribution.{station_001-station-C002-000c-4C8B212Dharu}.group",
       "source": "近郊駅(右)",
-      "translation": ""
+      "translation": "Suburban Station (Right)"
     },
     {
       "key": "contribution.{station_001-station-C002-000d-4C8B212Dharu}.name",
       "source": "近郊駅(右)[灰青]",
-      "translation": ""
+      "translation": "Suburban station (right) [gray-blue]"
     },
     {
       "key": "contribution.{station_001-station-C002-000d-4C8B212Dharu}.group",
       "source": "近郊駅(右)",
-      "translation": ""
+      "translation": "Suburban Station (Right)"
     },
     {
       "key": "contribution.{station_001-station-C002-000e-4C8B212Dharu}.name",
       "source": "近郊駅(左)[灰青]",
-      "translation": ""
+      "translation": "Suburban Station (Left) [Grayish Blue]"
     },
     {
       "key": "contribution.{station_001-station-C002-000e-4C8B212Dharu}.group",
       "source": "近郊駅(左)",
-      "translation": ""
+      "translation": "Suburban Station (Left)"
     },
     {
       "key": "contribution.{station_001-station-C002-000f-4C8B212Dharu}.name",
       "source": "近郊駅(左)[灰青]",
-      "translation": ""
+      "translation": "Suburban Station (Left) [Grayish Blue]"
     },
     {
       "key": "contribution.{station_001-station-C002-000f-4C8B212Dharu}.group",
       "source": "近郊駅(左)",
-      "translation": ""
+      "translation": "Suburban Station (Left)"
     },
     {
       "key": "contribution.{station_001-station-C002-000g-4C8B212Dharu}.name",
       "source": "近郊駅(左)[灰青]",
-      "translation": ""
+      "translation": "Suburban Station (Left) [Grayish Blue]"
     },
     {
       "key": "contribution.{station_001-station-C002-000g-4C8B212Dharu}.group",
       "source": "近郊駅(左)",
-      "translation": ""
+      "translation": "Suburban Station (Left)"
     },
     {
       "key": "contribution.{station_001-station-C002-000h-4C8B212Dharu}.name",
       "source": "近郊駅(左)[灰青]",
-      "translation": ""
+      "translation": "Suburban Station (Left) [Grayish Blue]"
     },
     {
       "key": "contribution.{station_001-station-C002-000h-4C8B212Dharu}.group",
       "source": "近郊駅(左)",
-      "translation": ""
+      "translation": "Suburban Station (Left)"
     },
     {
       "key": "contribution.{station_001-station-C003-000a-4C8B212Dharu}.name",
       "source": "近郊駅(右)[ターメリック]",
-      "translation": ""
+      "translation": "Suburban Station (Right) [Turmeric]"
     },
     {
       "key": "contribution.{station_001-station-C003-000a-4C8B212Dharu}.group",
       "source": "近郊駅(右)",
-      "translation": ""
+      "translation": "Suburban Station (Right)"
     },
     {
       "key": "contribution.{station_001-station-C003-000b-4C8B212Dharu}.name",
       "source": "近郊駅(右)[ターメリック]",
-      "translation": ""
+      "translation": "Suburban Station (Right) [Turmeric]"
     },
     {
       "key": "contribution.{station_001-station-C003-000b-4C8B212Dharu}.group",
       "source": "近郊駅(右)",
-      "translation": ""
+      "translation": "Suburban Station (Right)"
     },
     {
       "key": "contribution.{station_001-station-C003-000c-4C8B212Dharu}.name",
       "source": "近郊駅(右)[ターメリック]",
-      "translation": ""
+      "translation": "Suburban Station (Right) [Turmeric]"
     },
     {
       "key": "contribution.{station_001-station-C003-000c-4C8B212Dharu}.group",
       "source": "近郊駅(右)",
-      "translation": ""
+      "translation": "Suburban Station (Right)"
     },
     {
       "key": "contribution.{station_001-station-C003-000d-4C8B212Dharu}.name",
       "source": "近郊駅(右)[ターメリック]",
-      "translation": ""
+      "translation": "Suburban Station (Right) [Turmeric]"
     },
     {
       "key": "contribution.{station_001-station-C003-000d-4C8B212Dharu}.group",
       "source": "近郊駅(右)",
-      "translation": ""
+      "translation": "Suburban Station (Right)"
     },
     {
       "key": "contribution.{station_001-station-C003-000e-4C8B212Dharu}.name",
       "source": "近郊駅(左)[ターメリック]",
-      "translation": ""
+      "translation": "Suburban Station (Left) [Turmeric]"
     },
     {
       "key": "contribution.{station_001-station-C003-000e-4C8B212Dharu}.group",
       "source": "近郊駅(左)",
-      "translation": ""
+      "translation": "Suburban Station (Left)"
     },
     {
       "key": "contribution.{station_001-station-C003-000f-4C8B212Dharu}.name",
       "source": "近郊駅(左)[ターメリック]",
-      "translation": ""
+      "translation": "Suburban Station (Left) [Turmeric]"
     },
     {
       "key": "contribution.{station_001-station-C003-000f-4C8B212Dharu}.group",
       "source": "近郊駅(左)",
-      "translation": ""
+      "translation": "Suburban Station (Left)"
     },
     {
       "key": "contribution.{station_001-station-C003-000g-4C8B212Dharu}.name",
       "source": "近郊駅(左)[ターメリック]",
-      "translation": ""
+      "translation": "Suburban Station (Left) [Turmeric]"
     },
     {
       "key": "contribution.{station_001-station-C003-000g-4C8B212Dharu}.group",
       "source": "近郊駅(左)",
-      "translation": ""
+      "translation": "Suburban Station (Left)"
     },
     {
       "key": "contribution.{station_001-station-C003-000h-4C8B212Dharu}.name",
       "source": "近郊駅(左)[ターメリック]",
-      "translation": ""
+      "translation": "Suburban Station (Left) [Turmeric]"
     },
     {
       "key": "contribution.{station_001-station-C003-000h-4C8B212Dharu}.group",
       "source": "近郊駅(左)",
-      "translation": ""
+      "translation": "Suburban Station (Left)"
     },
     {
       "key": "contribution.{station_001-station-C004-000a-4C8B212Dharu}.name",
       "source": "近郊駅(右)[赤茶]",
-      "translation": ""
+      "translation": "Suburban Station (Right) [Reddish Brown]"
     },
     {
       "key": "contribution.{station_001-station-C004-000a-4C8B212Dharu}.group",
       "source": "近郊駅(右)",
-      "translation": ""
+      "translation": "Suburban Station (Right)"
     },
     {
       "key": "contribution.{station_001-station-C004-000b-4C8B212Dharu}.name",
       "source": "近郊駅(右)[赤茶]",
-      "translation": ""
+      "translation": "Suburban Station (Right) [Reddish Brown]"
     },
     {
       "key": "contribution.{station_001-station-C004-000b-4C8B212Dharu}.group",
       "source": "近郊駅(右)",
-      "translation": ""
+      "translation": "Suburban Station (Right)"
     },
     {
       "key": "contribution.{station_001-station-C004-000c-4C8B212Dharu}.name",
       "source": "近郊駅(右)[赤茶]",
-      "translation": ""
+      "translation": "Suburban Station (Right) [Reddish Brown]"
     },
     {
       "key": "contribution.{station_001-station-C004-000c-4C8B212Dharu}.group",
       "source": "近郊駅(右)",
-      "translation": ""
+      "translation": "Suburban Station (Right)"
     },
     {
       "key": "contribution.{station_001-station-C004-000d-4C8B212Dharu}.name",
       "source": "近郊駅(右)[赤茶]",
-      "translation": ""
+      "translation": "Suburban Station (Right) [Reddish Brown]"
     },
     {
       "key": "contribution.{station_001-station-C004-000d-4C8B212Dharu}.group",
       "source": "近郊駅(右)",
-      "translation": ""
+      "translation": "Suburban Station (Right)"
     },
     {
       "key": "contribution.{station_001-station-C004-000e-4C8B212Dharu}.name",
       "source": "近郊駅(左)[赤茶]",
-      "translation": ""
+      "translation": "Suburban Station (Left) [Reddish Brown]"
     },
     {
       "key": "contribution.{station_001-station-C004-000e-4C8B212Dharu}.group",
       "source": "近郊駅(左)",
-      "translation": ""
+      "translation": "Suburban Station (Left)"
     },
     {
       "key": "contribution.{station_001-station-C004-000f-4C8B212Dharu}.name",
       "source": "近郊駅(左)[赤茶]",
-      "translation": ""
+      "translation": "Suburban Station (Left) [Reddish Brown]"
     },
     {
       "key": "contribution.{station_001-station-C004-000f-4C8B212Dharu}.group",
       "source": "近郊駅(左)",
-      "translation": ""
+      "translation": "Suburban Station (Left)"
     },
     {
       "key": "contribution.{station_001-station-C004-000g-4C8B212Dharu}.name",
       "source": "近郊駅(左)[赤茶]",
-      "translation": ""
+      "translation": "Suburban Station (Left) [Reddish Brown]"
     },
     {
       "key": "contribution.{station_001-station-C004-000g-4C8B212Dharu}.group",
       "source": "近郊駅(左)",
-      "translation": ""
+      "translation": "Suburban Station (Left)"
     },
     {
       "key": "contribution.{station_001-station-C004-000h-4C8B212Dharu}.name",
       "source": "近郊駅(左)[赤茶]",
-      "translation": ""
+      "translation": "Suburban Station (Left) [Reddish Brown]"
     },
     {
       "key": "contribution.{station_001-station-C004-000h-4C8B212Dharu}.group",
       "source": "近郊駅(左)",
-      "translation": ""
+      "translation": "Suburban Station (Left)"
     },
     {
       "key": "contribution.{station_002-station-C001-000a-4C8B212Dharu}.name",
       "source": "地上駅舎2(赤)",
-      "translation": ""
+      "translation": "Ground-level Station Building 2 (Red)"
     },
     {
       "key": "contribution.{station_002-station-C001-000a-4C8B212Dharu}.group",
       "source": "地上駅舎2",
-      "translation": ""
+      "translation": "Ground Level Station Building 2"
     },
     {
       "key": "contribution.{station_002-station-C001-000b-4C8B212Dharu}.name",
       "source": "地上駅舎2(赤)",
-      "translation": ""
+      "translation": "Ground-level Station Building 2 (Red)"
     },
     {
       "key": "contribution.{station_002-station-C001-000b-4C8B212Dharu}.group",
       "source": "地上駅舎2",
-      "translation": ""
+      "translation": "Ground Level Station Building 2"
     },
     {
       "key": "contribution.{station_002-station-C001-000c-4C8B212Dharu}.name",
       "source": "地上駅舎2(赤)",
-      "translation": ""
+      "translation": "Ground-level Station Building 2 (Red)"
     },
     {
       "key": "contribution.{station_002-station-C001-000c-4C8B212Dharu}.group",
       "source": "地上駅舎2",
-      "translation": ""
+      "translation": "Ground Level Station Building 2"
     },
     {
       "key": "contribution.{station_002-station-C001-000d-4C8B212Dharu}.name",
       "source": "地上駅舎2(赤)",
-      "translation": ""
+      "translation": "Ground-level Station Building 2 (Red)"
     },
     {
       "key": "contribution.{station_002-station-C001-000d-4C8B212Dharu}.group",
       "source": "地上駅舎2",
-      "translation": ""
+      "translation": "Ground Level Station Building 2"
     },
     {
       "key": "contribution.{station_002-station-C002-000a-4C8B212Dharu}.name",
       "source": "地上駅舎2(青)",
-      "translation": ""
+      "translation": "Ground-level Station Building 2 (Blue)"
     },
     {
       "key": "contribution.{station_002-station-C002-000a-4C8B212Dharu}.group",
       "source": "地上駅舎2",
-      "translation": ""
+      "translation": "Ground Level Station Building 2"
     },
     {
       "key": "contribution.{station_002-station-C002-000b-4C8B212Dharu}.name",
       "source": "地上駅舎2(青)",
-      "translation": ""
+      "translation": "Ground-level Station Building 2 (Blue)"
     },
     {
       "key": "contribution.{station_002-station-C002-000b-4C8B212Dharu}.group",
       "source": "地上駅舎2",
-      "translation": ""
+      "translation": "Ground Level Station Building 2"
     },
     {
       "key": "contribution.{station_002-station-C002-000c-4C8B212Dharu}.name",
       "source": "地上駅舎2(青)",
-      "translation": ""
+      "translation": "Ground-level Station Building 2 (Blue)"
     },
     {
       "key": "contribution.{station_002-station-C002-000c-4C8B212Dharu}.group",
       "source": "地上駅舎2",
-      "translation": ""
+      "translation": "Ground Level Station Building 2"
     },
     {
       "key": "contribution.{station_002-station-C002-000d-4C8B212Dharu}.name",
       "source": "地上駅舎2(青)",
-      "translation": ""
+      "translation": "Ground-level Station Building 2 (Blue)"
     },
     {
       "key": "contribution.{station_002-station-C002-000d-4C8B212Dharu}.group",
       "source": "地上駅舎2",
-      "translation": ""
+      "translation": "Ground Level Station Building 2"
     },
     {
       "key": "contribution.{station_002-station-C003-000a-4C8B212Dharu}.name",
       "source": "地上駅舎2(黄)",
-      "translation": ""
+      "translation": "Ground-level Station Building 2 (Yellow)"
     },
     {
       "key": "contribution.{station_002-station-C003-000a-4C8B212Dharu}.group",
       "source": "地上駅舎2",
-      "translation": ""
+      "translation": "Ground Level Station Building 2"
     },
     {
       "key": "contribution.{station_002-station-C003-000b-4C8B212Dharu}.name",
       "source": "地上駅舎2(黄)",
-      "translation": ""
+      "translation": "Ground-level Station Building 2 (Yellow)"
     },
     {
       "key": "contribution.{station_002-station-C003-000b-4C8B212Dharu}.group",
       "source": "地上駅舎2",
-      "translation": ""
+      "translation": "Ground Level Station Building 2"
     },
     {
       "key": "contribution.{station_002-station-C003-000c-4C8B212Dharu}.name",
       "source": "地上駅舎2(黄)",
-      "translation": ""
+      "translation": "Ground-level Station Building 2 (Yellow)"
     },
     {
       "key": "contribution.{station_002-station-C003-000c-4C8B212Dharu}.group",
       "source": "地上駅舎2",
-      "translation": ""
+      "translation": "Ground Level Station Building 2"
     },
     {
       "key": "contribution.{station_002-station-C003-000d-4C8B212Dharu}.name",
       "source": "地上駅舎2(黄)",
-      "translation": ""
+      "translation": "Ground-level Station Building 2 (Yellow)"
     },
     {
       "key": "contribution.{station_002-station-C003-000d-4C8B212Dharu}.group",
       "source": "地上駅舎2",
-      "translation": ""
+      "translation": "Ground Level Station Building 2"
     },
     {
       "key": "contribution.{station_002-station-C004-000a-4C8B212Dharu}.name",
       "source": "地上駅舎2(緑)",
-      "translation": ""
+      "translation": "Ground-level Station Building 2 (Green)"
     },
     {
       "key": "contribution.{station_002-station-C004-000a-4C8B212Dharu}.group",
       "source": "地上駅舎2",
-      "translation": ""
+      "translation": "Ground Level Station Building 2"
     },
     {
       "key": "contribution.{station_002-station-C004-000b-4C8B212Dharu}.name",
       "source": "地上駅舎2(緑)",
-      "translation": ""
+      "translation": "Ground-level Station Building 2 (Green)"
     },
     {
       "key": "contribution.{station_002-station-C004-000b-4C8B212Dharu}.group",
       "source": "地上駅舎2",
-      "translation": ""
+      "translation": "Ground Level Station Building 2"
     },
     {
       "key": "contribution.{station_002-station-C004-000c-4C8B212Dharu}.name",
       "source": "地上駅舎2(緑)",
-      "translation": ""
+      "translation": "Ground-level Station Building 2 (Green)"
     },
     {
       "key": "contribution.{station_002-station-C004-000c-4C8B212Dharu}.group",
       "source": "地上駅舎2",
-      "translation": ""
+      "translation": "Ground Level Station Building 2"
     },
     {
       "key": "contribution.{station_002-station-C004-000d-4C8B212Dharu}.name",
       "source": "地上駅舎2(緑)",
-      "translation": ""
+      "translation": "Ground-level Station Building 2 (Green)"
     },
     {
       "key": "contribution.{station_002-station-C004-000d-4C8B212Dharu}.group",
       "source": "地上駅舎2",
-      "translation": ""
+      "translation": "Ground Level Station Building 2"
     },
     {
       "key": "contribution.{station_002-station-C005-000a-4C8B212Dharu}.name",
       "source": "地上駅舎2(プラム)",
-      "translation": ""
+      "translation": "Ground-level Station Building 2 (Plum)"
     },
     {
       "key": "contribution.{station_002-station-C005-000a-4C8B212Dharu}.group",
       "source": "地上駅舎2",
-      "translation": ""
+      "translation": "Ground Level Station Building 2"
     },
     {
       "key": "contribution.{station_002-station-C005-000b-4C8B212Dharu}.name",
       "source": "地上駅舎2(プラム)",
-      "translation": ""
+      "translation": "Ground-level Station Building 2 (Plum)"
     },
     {
       "key": "contribution.{station_002-station-C005-000b-4C8B212Dharu}.group",
       "source": "地上駅舎2",
-      "translation": ""
+      "translation": "Ground Level Station Building 2"
     },
     {
       "key": "contribution.{station_002-station-C005-000c-4C8B212Dharu}.name",
       "source": "地上駅舎2(プラム)",
-      "translation": ""
+      "translation": "Ground-level Station Building 2 (Plum)"
     },
     {
       "key": "contribution.{station_002-station-C005-000c-4C8B212Dharu}.group",
       "source": "地上駅舎2",
-      "translation": ""
+      "translation": "Ground Level Station Building 2"
     },
     {
       "key": "contribution.{station_002-station-C005-000d-4C8B212Dharu}.name",
       "source": "地上駅舎2(プラム)",
-      "translation": ""
+      "translation": "Ground-level Station Building 2 (Plum)"
     },
     {
       "key": "contribution.{station_002-station-C005-000d-4C8B212Dharu}.group",
       "source": "地上駅舎2",
-      "translation": ""
+      "translation": "Ground Level Station Building 2"
     },
     {
       "key": "contribution.{station_002-station-C006-000a-4C8B212Dharu}.name",
       "source": "地上駅舎2(茶)",
-      "translation": ""
+      "translation": "Ground-level Station Building 2 (Brown)"
     },
     {
       "key": "contribution.{station_002-station-C006-000a-4C8B212Dharu}.group",
       "source": "地上駅舎2",
-      "translation": ""
+      "translation": "Ground Level Station Building 2"
     },
     {
       "key": "contribution.{station_002-station-C006-000b-4C8B212Dharu}.name",
       "source": "地上駅舎2(茶)",
-      "translation": ""
+      "translation": "Ground-level Station Building 2 (Brown)"
     },
     {
       "key": "contribution.{station_002-station-C006-000b-4C8B212Dharu}.group",
       "source": "地上駅舎2",
-      "translation": ""
+      "translation": "Ground Level Station Building 2"
     },
     {
       "key": "contribution.{station_002-station-C006-000c-4C8B212Dharu}.name",
       "source": "地上駅舎2(茶)",
-      "translation": ""
+      "translation": "Ground-level Station Building 2 (Brown)"
     },
     {
       "key": "contribution.{station_002-station-C006-000c-4C8B212Dharu}.group",
       "source": "地上駅舎2",
-      "translation": ""
+      "translation": "Ground Level Station Building 2"
     },
     {
       "key": "contribution.{station_002-station-C006-000d-4C8B212Dharu}.name",
       "source": "地上駅舎2(茶)",
-      "translation": ""
+      "translation": "Ground-level Station Building 2 (Brown)"
     },
     {
       "key": "contribution.{station_002-station-C006-000d-4C8B212Dharu}.group",
       "source": "地上駅舎2",
-      "translation": ""
+      "translation": "Ground Level Station Building 2"
     },
     {
       "key": "contribution.{station_003-station-C001-000a-4C8B212Dharu}.name",
       "source": "地上駅舎3(wine)",
-      "translation": ""
+      "translation": "Ground-level Station Building 3 (Wine)"
     },
     {
       "key": "contribution.{station_003-station-C001-000a-4C8B212Dharu}.group",
       "source": "地上駅舎3",
-      "translation": ""
+      "translation": "Ground Level Station Building 3"
     },
     {
       "key": "contribution.{station_003-station-C001-000b-4C8B212Dharu}.name",
       "source": "地上駅舎3(wine)",
-      "translation": ""
+      "translation": "Ground-level Station Building 3 (Wine)"
     },
     {
       "key": "contribution.{station_003-station-C001-000b-4C8B212Dharu}.group",
       "source": "地上駅舎3",
-      "translation": ""
+      "translation": "Ground Level Station Building 3"
     },
     {
       "key": "contribution.{station_003-station-C001-000c-4C8B212Dharu}.name",
       "source": "地上駅舎3(wine)",
-      "translation": ""
+      "translation": "Ground-level Station Building 3 (Wine)"
     },
     {
       "key": "contribution.{station_003-station-C001-000c-4C8B212Dharu}.group",
       "source": "地上駅舎3",
-      "translation": ""
+      "translation": "Ground Level Station Building 3"
     },
     {
       "key": "contribution.{station_003-station-C001-000d-4C8B212Dharu}.name",
       "source": "地上駅舎3(wine)",
-      "translation": ""
+      "translation": "Ground-level Station Building 3 (Wine)"
     },
     {
       "key": "contribution.{station_003-station-C001-000d-4C8B212Dharu}.group",
       "source": "地上駅舎3",
-      "translation": ""
+      "translation": "Ground Level Station Building 3"
     },
     {
       "key": "contribution.{station_003-station-C002-000a-4C8B212Dharu}.name",
       "source": "地上駅舎3(peacock blue)",
-      "translation": ""
+      "translation": "Ground-level Station Building 3 (Peacock Blue)"
     },
     {
       "key": "contribution.{station_003-station-C002-000a-4C8B212Dharu}.group",
       "source": "地上駅舎3",
-      "translation": ""
+      "translation": "Ground Level Station Building 3"
     },
     {
       "key": "contribution.{station_003-station-C002-000b-4C8B212Dharu}.name",
       "source": "地上駅舎3(peacock blue)",
-      "translation": ""
+      "translation": "Ground-level Station Building 3 (Peacock Blue)"
     },
     {
       "key": "contribution.{station_003-station-C002-000b-4C8B212Dharu}.group",
       "source": "地上駅舎3",
-      "translation": ""
+      "translation": "Ground Level Station Building 3"
     },
     {
       "key": "contribution.{station_003-station-C002-000c-4C8B212Dharu}.name",
       "source": "地上駅舎3(peacock blue)",
-      "translation": ""
+      "translation": "Ground-level Station Building 3 (Peacock Blue)"
     },
     {
       "key": "contribution.{station_003-station-C002-000c-4C8B212Dharu}.group",
       "source": "地上駅舎3",
-      "translation": ""
+      "translation": "Ground Level Station Building 3"
     },
     {
       "key": "contribution.{station_003-station-C002-000d-4C8B212Dharu}.name",
       "source": "地上駅舎3(peacock blue)",
-      "translation": ""
+      "translation": "Ground-level Station Building 3 (Peacock Blue)"
     },
     {
       "key": "contribution.{station_003-station-C002-000d-4C8B212Dharu}.group",
       "source": "地上駅舎3",
-      "translation": ""
+      "translation": "Ground Level Station Building 3"
     },
     {
       "key": "contribution.{station_003-station-C003-000a-4C8B212Dharu}.name",
       "source": "地上駅舎3(teal green)",
-      "translation": ""
+      "translation": "Ground-level Station Building 3 (Teal Green)"
     },
     {
       "key": "contribution.{station_003-station-C003-000a-4C8B212Dharu}.group",
       "source": "地上駅舎3",
-      "translation": ""
+      "translation": "Ground Level Station Building 3"
     },
     {
       "key": "contribution.{station_003-station-C003-000b-4C8B212Dharu}.name",
       "source": "地上駅舎3(teal green)",
-      "translation": ""
+      "translation": "Ground-level Station Building 3 (Teal Green)"
     },
     {
       "key": "contribution.{station_003-station-C003-000b-4C8B212Dharu}.group",
       "source": "地上駅舎3",
-      "translation": ""
+      "translation": "Ground Level Station Building 3"
     },
     {
       "key": "contribution.{station_003-station-C003-000c-4C8B212Dharu}.name",
       "source": "地上駅舎3(teal green)",
-      "translation": ""
+      "translation": "Ground-level Station Building 3 (Teal Green)"
     },
     {
       "key": "contribution.{station_003-station-C003-000c-4C8B212Dharu}.group",
       "source": "地上駅舎3",
-      "translation": ""
+      "translation": "Ground Level Station Building 3"
     },
     {
       "key": "contribution.{station_003-station-C003-000d-4C8B212Dharu}.name",
       "source": "地上駅舎3(teal green)",
-      "translation": ""
+      "translation": "Ground-level Station Building 3 (Teal Green)"
     },
     {
       "key": "contribution.{station_003-station-C003-000d-4C8B212Dharu}.group",
       "source": "地上駅舎3",
-      "translation": ""
+      "translation": "Ground Level Station Building 3"
     },
     {
       "key": "contribution.{station_003-station-C004-000a-4C8B212Dharu}.name",
       "source": "地上駅舎3(sepia)",
-      "translation": ""
+      "translation": "Ground-level Station Building 3 (Sepia)"
     },
     {
       "key": "contribution.{station_003-station-C004-000a-4C8B212Dharu}.group",
       "source": "地上駅舎3",
-      "translation": ""
+      "translation": "Ground Level Station Building 3"
     },
     {
       "key": "contribution.{station_003-station-C004-000b-4C8B212Dharu}.name",
       "source": "地上駅舎3(sepia)",
-      "translation": ""
+      "translation": "Ground-level Station Building 3 (Sepia)"
     },
     {
       "key": "contribution.{station_003-station-C004-000b-4C8B212Dharu}.group",
       "source": "地上駅舎3",
-      "translation": ""
+      "translation": "Ground Level Station Building 3"
     },
     {
       "key": "contribution.{station_003-station-C004-000c-4C8B212Dharu}.name",
       "source": "地上駅舎3(sepia)",
-      "translation": ""
+      "translation": "Ground-level Station Building 3 (Sepia)"
     },
     {
       "key": "contribution.{station_003-station-C004-000c-4C8B212Dharu}.group",
       "source": "地上駅舎3",
-      "translation": ""
+      "translation": "Ground Level Station Building 3"
     },
     {
       "key": "contribution.{station_003-station-C004-000d-4C8B212Dharu}.name",
       "source": "地上駅舎3(sepia)",
-      "translation": ""
+      "translation": "Ground-level Station Building 3 (Sepia)"
     },
     {
       "key": "contribution.{station_003-station-C004-000d-4C8B212Dharu}.group",
       "source": "地上駅舎3",
-      "translation": ""
+      "translation": "Ground Level Station Building 3"
     },
     {
       "key": "contribution.{station_003-station-C005-000a-4C8B212Dharu}.name",
       "source": "地上駅舎3(red)",
-      "translation": ""
+      "translation": "Ground-level Station Building 3 (Red)"
     },
     {
       "key": "contribution.{station_003-station-C005-000a-4C8B212Dharu}.group",
       "source": "地上駅舎3",
-      "translation": ""
+      "translation": "Ground Level Station Building 3"
     },
     {
       "key": "contribution.{station_003-station-C005-000b-4C8B212Dharu}.name",
       "source": "地上駅舎3(red)",
-      "translation": ""
+      "translation": "Ground-level Station Building 3 (Red)"
     },
     {
       "key": "contribution.{station_003-station-C005-000b-4C8B212Dharu}.group",
       "source": "地上駅舎3",
-      "translation": ""
+      "translation": "Ground Level Station Building 3"
     },
     {
       "key": "contribution.{station_003-station-C005-000c-4C8B212Dharu}.name",
       "source": "地上駅舎3(red)",
-      "translation": ""
+      "translation": "Ground-level Station Building 3 (Red)"
     },
     {
       "key": "contribution.{station_003-station-C005-000c-4C8B212Dharu}.group",
       "source": "地上駅舎3",
-      "translation": ""
+      "translation": "Ground Level Station Building 3"
     },
     {
       "key": "contribution.{station_003-station-C005-000d-4C8B212Dharu}.name",
       "source": "地上駅舎3(red)",
-      "translation": ""
+      "translation": "Ground-level Station Building 3 (Red)"
     },
     {
       "key": "contribution.{station_003-station-C005-000d-4C8B212Dharu}.group",
       "source": "地上駅舎3",
-      "translation": ""
+      "translation": "Ground Level Station Building 3"
     },
     {
       "key": "contribution.{station_003-station-C006-000a-4C8B212Dharu}.name",
       "source": "地上駅舎3(mint blue)",
-      "translation": ""
+      "translation": "Ground-level Station Building 3 (Mint Blue)"
     },
     {
       "key": "contribution.{station_003-station-C006-000a-4C8B212Dharu}.group",
       "source": "地上駅舎3",
-      "translation": ""
+      "translation": "Ground Level Station Building 3"
     },
     {
       "key": "contribution.{station_003-station-C006-000b-4C8B212Dharu}.name",
       "source": "地上駅舎3(mint blue)",
-      "translation": ""
+      "translation": "Ground-level Station Building 3 (Mint Blue)"
     },
     {
       "key": "contribution.{station_003-station-C006-000b-4C8B212Dharu}.group",
       "source": "地上駅舎3",
-      "translation": ""
+      "translation": "Ground Level Station Building 3"
     },
     {
       "key": "contribution.{station_003-station-C006-000c-4C8B212Dharu}.name",
       "source": "地上駅舎3(mint blue)",
-      "translation": ""
+      "translation": "Ground-level Station Building 3 (Mint Blue)"
     },
     {
       "key": "contribution.{station_003-station-C006-000c-4C8B212Dharu}.group",
       "source": "地上駅舎3",
-      "translation": ""
+      "translation": "Ground Level Station Building 3"
     },
     {
       "key": "contribution.{station_003-station-C006-000d-4C8B212Dharu}.name",
       "source": "地上駅舎3(mint blue)",
-      "translation": ""
+      "translation": "Ground-level Station Building 3 (Mint Blue)"
     },
     {
       "key": "contribution.{station_003-station-C006-000d-4C8B212Dharu}.group",
       "source": "地上駅舎3",
-      "translation": ""
+      "translation": "Ground Level Station Building 3"
     },
     {
       "key": "contribution.{station_003-station-C007-000a-4C8B212Dharu}.name",
       "source": "地上駅舎3(yellow ocher)",
-      "translation": ""
+      "translation": "Ground-level Station Building 3 (Yellow Ocher)"
     },
     {
       "key": "contribution.{station_003-station-C007-000a-4C8B212Dharu}.group",
       "source": "地上駅舎3",
-      "translation": ""
+      "translation": "Ground Level Station Building 3"
     },
     {
       "key": "contribution.{station_003-station-C007-000b-4C8B212Dharu}.name",
       "source": "地上駅舎3(yellow ocher)",
-      "translation": ""
+      "translation": "Ground-level Station Building 3 (Yellow Ocher)"
     },
     {
       "key": "contribution.{station_003-station-C007-000b-4C8B212Dharu}.group",
       "source": "地上駅舎3",
-      "translation": ""
+      "translation": "Ground Level Station Building 3"
     },
     {
       "key": "contribution.{station_003-station-C007-000c-4C8B212Dharu}.name",
       "source": "地上駅舎3(yellow ocher)",
-      "translation": ""
+      "translation": "Ground-level Station Building 3 (Yellow Ocher)"
     },
     {
       "key": "contribution.{station_003-station-C007-000c-4C8B212Dharu}.group",
       "source": "地上駅舎3",
-      "translation": ""
+      "translation": "Ground Level Station Building 3"
     },
     {
       "key": "contribution.{station_003-station-C007-000d-4C8B212Dharu}.name",
       "source": "地上駅舎3(yellow ocher)",
-      "translation": ""
+      "translation": "Ground-level Station Building 3 (Yellow Ocher)"
     },
     {
       "key": "contribution.{station_003-station-C007-000d-4C8B212Dharu}.group",
       "source": "地上駅舎3",
-      "translation": ""
+      "translation": "Ground Level Station Building 3"
     },
     {
       "key": "contribution.{station_003-station-C008-000a-4C8B212Dharu}.name",
       "source": "地上駅舎3(olive green)",
-      "translation": ""
+      "translation": "Ground-level Station Building 3 (Olive Green)"
     },
     {
       "key": "contribution.{station_003-station-C008-000a-4C8B212Dharu}.group",
       "source": "地上駅舎3",
-      "translation": ""
+      "translation": "Ground Level Station Building 3"
     },
     {
       "key": "contribution.{station_003-station-C008-000b-4C8B212Dharu}.name",
       "source": "地上駅舎3(olive green)",
-      "translation": ""
+      "translation": "Ground-level Station Building 3 (Olive Green)"
     },
     {
       "key": "contribution.{station_003-station-C008-000b-4C8B212Dharu}.group",
       "source": "地上駅舎3",
-      "translation": ""
+      "translation": "Ground Level Station Building 3"
     },
     {
       "key": "contribution.{station_003-station-C008-000c-4C8B212Dharu}.name",
       "source": "地上駅舎3(olive green)",
-      "translation": ""
+      "translation": "Ground-level Station Building 3 (Olive Green)"
     },
     {
       "key": "contribution.{station_003-station-C008-000c-4C8B212Dharu}.group",
       "source": "地上駅舎3",
-      "translation": ""
+      "translation": "Ground Level Station Building 3"
     },
     {
       "key": "contribution.{station_003-station-C008-000d-4C8B212Dharu}.name",
       "source": "地上駅舎3(olive green)",
-      "translation": ""
+      "translation": "Ground-level Station Building 3 (Olive Green)"
     },
     {
       "key": "contribution.{station_003-station-C008-000d-4C8B212Dharu}.group",
       "source": "地上駅舎3",
-      "translation": ""
+      "translation": "Ground Level Station Building 3"
     },
     {
       "key": "contribution.{station_004-station-C001-000a-4C8B212Dharu}.name",
       "source": "地上駅舎4(茶)",
-      "translation": ""
+      "translation": "Ground-level Station Building 4 (Brown)"
     },
     {
       "key": "contribution.{station_004-station-C001-000a-4C8B212Dharu}.group",
       "source": "地上駅舎4",
-      "translation": ""
+      "translation": "Ground Level Station Building 4"
     },
     {
       "key": "contribution.{station_004-station-C001-000b-4C8B212Dharu}.name",
       "source": "地上駅舎4(茶)",
-      "translation": ""
+      "translation": "Ground-level Station Building 4 (Brown)"
     },
     {
       "key": "contribution.{station_004-station-C001-000b-4C8B212Dharu}.group",
       "source": "地上駅舎4",
-      "translation": ""
+      "translation": "Ground Level Station Building 4"
     },
     {
       "key": "contribution.{station_004-station-C001-000c-4C8B212Dharu}.name",
       "source": "地上駅舎4(茶)",
-      "translation": ""
+      "translation": "Ground-level Station Building 4 (Brown)"
     },
     {
       "key": "contribution.{station_004-station-C001-000c-4C8B212Dharu}.group",
       "source": "地上駅舎4",
-      "translation": ""
+      "translation": "Ground Level Station Building 4"
     },
     {
       "key": "contribution.{station_004-station-C001-000d-4C8B212Dharu}.name",
       "source": "地上駅舎4(茶)",
-      "translation": ""
+      "translation": "Ground-level Station Building 4 (Brown)"
     },
     {
       "key": "contribution.{station_004-station-C001-000d-4C8B212Dharu}.group",
       "source": "地上駅舎4",
-      "translation": ""
+      "translation": "Ground Level Station Building 4"
     },
     {
       "key": "contribution.{station_004-station-C002-000a-4C8B212Dharu}.name",
       "source": "地上駅舎4(北海道)",
-      "translation": ""
+      "translation": "Ground-level Station Building 4 (Hokkaido)"
     },
     {
       "key": "contribution.{station_004-station-C002-000a-4C8B212Dharu}.group",
       "source": "地上駅舎4",
-      "translation": ""
+      "translation": "Ground Level Station Building 4"
     },
     {
       "key": "contribution.{station_004-station-C002-000b-4C8B212Dharu}.name",
       "source": "地上駅舎4(北海道)",
-      "translation": ""
+      "translation": "Ground-level Station Building 4 (Hokkaido)"
     },
     {
       "key": "contribution.{station_004-station-C002-000b-4C8B212Dharu}.group",
       "source": "地上駅舎4",
-      "translation": ""
+      "translation": "Ground Level Station Building 4"
     },
     {
       "key": "contribution.{station_004-station-C002-000c-4C8B212Dharu}.name",
       "source": "地上駅舎4(北海道)",
-      "translation": ""
+      "translation": "Ground-level Station Building 4 (Hokkaido)"
     },
     {
       "key": "contribution.{station_004-station-C002-000c-4C8B212Dharu}.group",
       "source": "地上駅舎4",
-      "translation": ""
+      "translation": "Ground Level Station Building 4"
     },
     {
       "key": "contribution.{station_004-station-C002-000d-4C8B212Dharu}.name",
       "source": "地上駅舎4(北海道)",
-      "translation": ""
+      "translation": "Ground-level Station Building 4 (Hokkaido)"
     },
     {
       "key": "contribution.{station_004-station-C002-000d-4C8B212Dharu}.group",
       "source": "地上駅舎4",
-      "translation": ""
+      "translation": "Ground Level Station Building 4"
     },
     {
       "key": "contribution.{station_004-station-C003-000a-4C8B212Dharu}.name",
       "source": "地上駅舎4(東日本)",
-      "translation": ""
+      "translation": "Ground-level Station Building 4 (East Japan)"
     },
     {
       "key": "contribution.{station_004-station-C003-000a-4C8B212Dharu}.group",
       "source": "地上駅舎4",
-      "translation": ""
+      "translation": "Ground Level Station Building 4"
     },
     {
       "key": "contribution.{station_004-station-C003-000b-4C8B212Dharu}.name",
       "source": "地上駅舎4(東日本)",
-      "translation": ""
+      "translation": "Ground-level Station Building 4 (East Japan)"
     },
     {
       "key": "contribution.{station_004-station-C003-000b-4C8B212Dharu}.group",
       "source": "地上駅舎4",
-      "translation": ""
+      "translation": "Ground Level Station Building 4"
     },
     {
       "key": "contribution.{station_004-station-C003-000c-4C8B212Dharu}.name",
       "source": "地上駅舎4(東日本)",
-      "translation": ""
+      "translation": "Ground-level Station Building 4 (East Japan)"
     },
     {
       "key": "contribution.{station_004-station-C003-000c-4C8B212Dharu}.group",
       "source": "地上駅舎4",
-      "translation": ""
+      "translation": "Ground Level Station Building 4"
     },
     {
       "key": "contribution.{station_004-station-C003-000d-4C8B212Dharu}.name",
       "source": "地上駅舎4(東日本)",
-      "translation": ""
+      "translation": "Ground-level Station Building 4 (East Japan)"
     },
     {
       "key": "contribution.{station_004-station-C003-000d-4C8B212Dharu}.group",
       "source": "地上駅舎4",
-      "translation": ""
+      "translation": "Ground Level Station Building 4"
     },
     {
       "key": "contribution.{station_004-station-C004-000a-4C8B212Dharu}.name",
       "source": "地上駅舎4(東海)",
-      "translation": ""
+      "translation": "Ground-level Station Building 4 (Tokai)"
     },
     {
       "key": "contribution.{station_004-station-C004-000a-4C8B212Dharu}.group",
       "source": "地上駅舎4",
-      "translation": ""
+      "translation": "Ground Level Station Building 4"
     },
     {
       "key": "contribution.{station_004-station-C004-000b-4C8B212Dharu}.name",
       "source": "地上駅舎4(東海)",
-      "translation": ""
+      "translation": "Ground-level Station Building 4 (Tokai)"
     },
     {
       "key": "contribution.{station_004-station-C004-000b-4C8B212Dharu}.group",
       "source": "地上駅舎4",
-      "translation": ""
+      "translation": "Ground Level Station Building 4"
     },
     {
       "key": "contribution.{station_004-station-C004-000c-4C8B212Dharu}.name",
       "source": "地上駅舎4(東海)",
-      "translation": ""
+      "translation": "Ground-level Station Building 4 (Tokai)"
     },
     {
       "key": "contribution.{station_004-station-C004-000c-4C8B212Dharu}.group",
       "source": "地上駅舎4",
-      "translation": ""
+      "translation": "Ground Level Station Building 4"
     },
     {
       "key": "contribution.{station_004-station-C004-000d-4C8B212Dharu}.name",
       "source": "地上駅舎4(東海)",
-      "translation": ""
+      "translation": "Ground-level Station Building 4 (Tokai)"
     },
     {
       "key": "contribution.{station_004-station-C004-000d-4C8B212Dharu}.group",
       "source": "地上駅舎4",
-      "translation": ""
+      "translation": "Ground Level Station Building 4"
     },
     {
       "key": "contribution.{station_004-station-C005-000a-4C8B212Dharu}.name",
       "source": "地上駅舎4(西日本)",
-      "translation": ""
+      "translation": "Ground-level Station Building 4 (West Japan)"
     },
     {
       "key": "contribution.{station_004-station-C005-000a-4C8B212Dharu}.group",
       "source": "地上駅舎4",
-      "translation": ""
+      "translation": "Ground Level Station Building 4"
     },
     {
       "key": "contribution.{station_004-station-C005-000b-4C8B212Dharu}.name",
       "source": "地上駅舎4(西日本)",
-      "translation": ""
+      "translation": "Ground-level Station Building 4 (West Japan)"
     },
     {
       "key": "contribution.{station_004-station-C005-000b-4C8B212Dharu}.group",
       "source": "地上駅舎4",
-      "translation": ""
+      "translation": "Ground Level Station Building 4"
     },
     {
       "key": "contribution.{station_004-station-C005-000c-4C8B212Dharu}.name",
       "source": "地上駅舎4(西日本)",
-      "translation": ""
+      "translation": "Ground-level Station Building 4 (West Japan)"
     },
     {
       "key": "contribution.{station_004-station-C005-000c-4C8B212Dharu}.group",
       "source": "地上駅舎4",
-      "translation": ""
+      "translation": "Ground Level Station Building 4"
     },
     {
       "key": "contribution.{station_004-station-C005-000d-4C8B212Dharu}.name",
       "source": "地上駅舎4(西日本)",
-      "translation": ""
+      "translation": "Ground-level Station Building 4 (West Japan)"
     },
     {
       "key": "contribution.{station_004-station-C005-000d-4C8B212Dharu}.group",
       "source": "地上駅舎4",
-      "translation": ""
+      "translation": "Ground Level Station Building 4"
     },
     {
       "key": "contribution.{station_004-station-C006-000a-4C8B212Dharu}.name",
       "source": "地上駅舎4(四国)",
-      "translation": ""
+      "translation": "Ground-level Station Building 4 (Shikoku)"
     },
     {
       "key": "contribution.{station_004-station-C006-000a-4C8B212Dharu}.group",
       "source": "地上駅舎4",
-      "translation": ""
+      "translation": "Ground Level Station Building 4"
     },
     {
       "key": "contribution.{station_004-station-C006-000b-4C8B212Dharu}.name",
       "source": "地上駅舎4(四国)",
-      "translation": ""
+      "translation": "Ground-level Station Building 4 (Shikoku)"
     },
     {
       "key": "contribution.{station_004-station-C006-000b-4C8B212Dharu}.group",
       "source": "地上駅舎4",
-      "translation": ""
+      "translation": "Ground Level Station Building 4"
     },
     {
       "key": "contribution.{station_004-station-C006-000c-4C8B212Dharu}.name",
       "source": "地上駅舎4(四国)",
-      "translation": ""
+      "translation": "Ground-level Station Building 4 (Shikoku)"
     },
     {
       "key": "contribution.{station_004-station-C006-000c-4C8B212Dharu}.group",
       "source": "地上駅舎4",
-      "translation": ""
+      "translation": "Ground Level Station Building 4"
     },
     {
       "key": "contribution.{station_004-station-C006-000d-4C8B212Dharu}.name",
       "source": "地上駅舎4(四国)",
-      "translation": ""
+      "translation": "Ground-level Station Building 4 (Shikoku)"
     },
     {
       "key": "contribution.{station_004-station-C006-000d-4C8B212Dharu}.group",
       "source": "地上駅舎4",
-      "translation": ""
+      "translation": "Ground Level Station Building 4"
     },
     {
       "key": "contribution.{station_004-station-C007-000a-4C8B212Dharu}.name",
       "source": "地上駅舎4(九州)",
-      "translation": ""
+      "translation": "Ground-level Station Building 4 (Kyushu)"
     },
     {
       "key": "contribution.{station_004-station-C007-000a-4C8B212Dharu}.group",
       "source": "地上駅舎4",
-      "translation": ""
+      "translation": "Ground Level Station Building 4"
     },
     {
       "key": "contribution.{station_004-station-C007-000b-4C8B212Dharu}.name",
       "source": "地上駅舎4(九州)",
-      "translation": ""
+      "translation": "Ground-level Station Building 4 (Kyushu)"
     },
     {
       "key": "contribution.{station_004-station-C007-000b-4C8B212Dharu}.group",
       "source": "地上駅舎4",
-      "translation": ""
+      "translation": "Ground Level Station Building 4"
     },
     {
       "key": "contribution.{station_004-station-C007-000c-4C8B212Dharu}.name",
       "source": "地上駅舎4(九州)",
-      "translation": ""
+      "translation": "Ground-level Station Building 4 (Kyushu)"
     },
     {
       "key": "contribution.{station_004-station-C007-000c-4C8B212Dharu}.group",
       "source": "地上駅舎4",
-      "translation": ""
+      "translation": "Ground Level Station Building 4"
     },
     {
       "key": "contribution.{station_004-station-C007-000d-4C8B212Dharu}.name",
       "source": "地上駅舎4(九州)",
-      "translation": ""
+      "translation": "Ground-level Station Building 4 (Kyushu)"
     },
     {
       "key": "contribution.{station_004-station-C007-000d-4C8B212Dharu}.group",
       "source": "地上駅舎4",
-      "translation": ""
+      "translation": "Ground Level Station Building 4"
     }
   ]
 }

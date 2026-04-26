@@ -6,447 +6,447 @@
     {
       "key": "plugin.title",
       "source": "ガソリンスタンド・コンビニ他",
-      "translation": ""
+      "translation": "Gas Station, Convenience Store, etc."
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-GSS1-94478B392AE7}-A.name",
       "source": "新日本石油 SS(左)",
-      "translation": ""
+      "translation": "Nippon Oil SS (left)"
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-GSS1-94478B392AE7}-A.group",
       "source": "ガソリンスタンド",
-      "translation": ""
+      "translation": "Gas Station"
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-GSS1-94478B392AE7}-B.name",
       "source": "新日本石油 SS(右)",
-      "translation": ""
+      "translation": "Nippon Oil SS (right)"
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-GSS1-94478B392AE7}-B.group",
       "source": "ガソリンスタンド",
-      "translation": ""
+      "translation": "Gas Station"
     },
     {
       "key": "contribution.{AE1549EB-F7F9-433F-GSS2-1E2A913013FF}-A.name",
       "source": "JOMO SS(左)",
-      "translation": ""
+      "translation": "JOMO SS (left)"
     },
     {
       "key": "contribution.{AE1549EB-F7F9-433F-GSS2-1E2A913013FF}-A.group",
       "source": "ガソリンスタンド",
-      "translation": ""
+      "translation": "Gas Station"
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-GSS2-94478B392AE7}-B.name",
       "source": "JOMO SS(右)",
-      "translation": ""
+      "translation": "JOMO SS (right)"
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-GSS2-94478B392AE7}-B.group",
       "source": "ガソリンスタンド",
-      "translation": ""
+      "translation": "Gas Station"
     },
     {
       "key": "contribution.{52B9BF4A-7AB7-4828-GSS3-249A1A149A24}-A.group",
       "source": "ガソリンスタンド",
-      "translation": ""
+      "translation": "Gas Station"
     },
     {
       "key": "contribution.{52B9BF4A-7AB7-4828-GSS3-249A1A149A24}-B.group",
       "source": "ガソリンスタンド",
-      "translation": ""
+      "translation": "Gas Station"
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-GSS4-94478B392AE7}-A.name",
       "source": "コスモ石油 SS(左)",
-      "translation": ""
+      "translation": "Cosmo Oil SS (left)"
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-GSS4-94478B392AE7}-A.group",
       "source": "ガソリンスタンド",
-      "translation": ""
+      "translation": "Gas Station"
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-GSS4-94478B392AE7}-B.name",
       "source": "コスモ石油 SS(右)",
-      "translation": ""
+      "translation": "Cosmo Oil SS (right)"
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-GSS4-94478B392AE7}-B.group",
       "source": "ガソリンスタンド",
-      "translation": ""
+      "translation": "Gas Station"
     },
     {
       "key": "contribution.{52B9BF4A-7AB7-4828-GSS5-249A1A149A24}-A.group",
       "source": "ガソリンスタンド",
-      "translation": ""
+      "translation": "Gas Station"
     },
     {
       "key": "contribution.{52B9BF4A-7AB7-4828-GSS5-249A1A149A24}-B.group",
       "source": "ガソリンスタンド",
-      "translation": ""
+      "translation": "Gas Station"
     },
     {
       "key": "contribution.{7EDDCD3E-C592-4692-CDR1-9603E8E6CF18}-A.name",
       "source": "自動車販売会社(赤左)",
-      "translation": ""
+      "translation": "Car Dealership (Red Left)"
     },
     {
       "key": "contribution.{7EDDCD3E-C592-4692-CDR1-9603E8E6CF18}-A.group",
       "source": "自動車販売会社",
-      "translation": ""
+      "translation": "Car dealership"
     },
     {
       "key": "contribution.{7EDDCD3E-C592-4692-CDR1-9603E8E6CF18}-B.name",
       "source": "自動車販売会社(赤右)",
-      "translation": ""
+      "translation": "Car Dealership (Red Right)"
     },
     {
       "key": "contribution.{7EDDCD3E-C592-4692-CDR1-9603E8E6CF18}-B.group",
       "source": "自動車販売会社",
-      "translation": ""
+      "translation": "Car dealership"
     },
     {
       "key": "contribution.{7EDDCD3E-C592-4692-CDR2-9603E8E6CF18}-A.name",
       "source": "自動車販売会社(紺左)",
-      "translation": ""
+      "translation": "Car Dealership (Navy Left)"
     },
     {
       "key": "contribution.{7EDDCD3E-C592-4692-CDR2-9603E8E6CF18}-A.group",
       "source": "自動車販売会社",
-      "translation": ""
+      "translation": "Car dealership"
     },
     {
       "key": "contribution.{7EDDCD3E-C592-4692-CDR2-9603E8E6CF18}-B.name",
       "source": "自動車販売会社(紺右)",
-      "translation": ""
+      "translation": "Car Dealership (Navy Right)"
     },
     {
       "key": "contribution.{7EDDCD3E-C592-4692-CDR2-9603E8E6CF18}-B.group",
       "source": "自動車販売会社",
-      "translation": ""
+      "translation": "Car dealership"
     },
     {
       "key": "contribution.{7EDDCD3E-C592-4692-CDR3-9603E8E6CF18}-A.name",
       "source": "自動車販売会社(緑左)",
-      "translation": ""
+      "translation": "Car Dealership (Green Left)"
     },
     {
       "key": "contribution.{7EDDCD3E-C592-4692-CDR3-9603E8E6CF18}-A.group",
       "source": "自動車販売会社",
-      "translation": ""
+      "translation": "Car dealership"
     },
     {
       "key": "contribution.{7EDDCD3E-C592-4692-CDR3-9603E8E6CF18}-B.name",
       "source": "自動車販売会社(緑右)",
-      "translation": ""
+      "translation": "Car Dealership (Green Right)"
     },
     {
       "key": "contribution.{7EDDCD3E-C592-4692-CDR3-9603E8E6CF18}-B.group",
       "source": "自動車販売会社",
-      "translation": ""
+      "translation": "Car dealership"
     },
     {
       "key": "contribution.{7EDDCD3E-C592-4692-CDR4-9603E8E6CF18}-A.name",
       "source": "自動車販売会社(青左)",
-      "translation": ""
+      "translation": "Car Dealership (Blue Left)"
     },
     {
       "key": "contribution.{7EDDCD3E-C592-4692-CDR4-9603E8E6CF18}-A.group",
       "source": "自動車販売会社",
-      "translation": ""
+      "translation": "Car dealership"
     },
     {
       "key": "contribution.{7EDDCD3E-C592-4692-CDR4-9603E8E6CF18}-B.name",
       "source": "自動車販売会社(青右)",
-      "translation": ""
+      "translation": "Car Dealership (Blue Right)"
     },
     {
       "key": "contribution.{7EDDCD3E-C592-4692-CDR4-9603E8E6CF18}-B.group",
       "source": "自動車販売会社",
-      "translation": ""
+      "translation": "Car dealership"
     },
     {
       "key": "contribution.{C193B660-3BFC-4F7C-BF2F-449BCED5AE9E}-A.name",
       "source": "郵便局(小)(左)",
-      "translation": ""
+      "translation": "Post office (small) (left)"
     },
     {
       "key": "contribution.{C193B660-3BFC-4F7C-BF2F-449BCED5AE9E}-A.group",
       "source": "郵便局",
-      "translation": ""
+      "translation": "Post office"
     },
     {
       "key": "contribution.{C193B660-3BFC-4F7C-BF2F-449BCED5AE9E}-B.name",
       "source": "郵便局(小)(右)",
-      "translation": ""
+      "translation": "Post office (small) (right)"
     },
     {
       "key": "contribution.{C193B660-3BFC-4F7C-BF2F-449BCED5AE9E}-B.group",
       "source": "郵便局",
-      "translation": ""
+      "translation": "Post office"
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-YUB2-94478B392AE7}-A.name",
       "source": "郵便局大(左)",
-      "translation": ""
+      "translation": "Post office (large) (left)"
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-YUB2-94478B392AE7}-A.group",
       "source": "郵便局",
-      "translation": ""
+      "translation": "Post office"
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-YUB2-94478B392AE7}-B.name",
       "source": "郵便局大(右)",
-      "translation": ""
+      "translation": "Post office (large) (right)"
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-YUB2-94478B392AE7}-B.group",
       "source": "郵便局",
-      "translation": ""
+      "translation": "Post office"
     },
     {
       "key": "contribution.{568195AB-CEB3-42E9-CON2-5422C86D4DE9}-A.name",
       "source": "ローソン(左向き)",
-      "translation": ""
+      "translation": "Lawson (Left-facing)"
     },
     {
       "key": "contribution.{568195AB-CEB3-42E9-CON2-5422C86D4DE9}-A.group",
       "source": "コンビニ(他７種)",
-      "translation": ""
+      "translation": "Convenience Store (7 other types)"
     },
     {
       "key": "contribution.{568195AB-CEB3-42E9-CON2-5422C86D4DE9}-B.name",
       "source": "ローソン(右向き)",
-      "translation": ""
+      "translation": "Lawson (Right-facing)"
     },
     {
       "key": "contribution.{568195AB-CEB3-42E9-CON2-5422C86D4DE9}-B.group",
       "source": "コンビニ(他７種)",
-      "translation": ""
+      "translation": "Convenience Store (7 other types)"
     },
     {
       "key": "contribution.{EA3F5C47-D1EF-41A9-CON1-641E6CFEE22B}-A.name",
       "source": "スリーエフ(左向き)",
-      "translation": ""
+      "translation": "Three F (left-facing)"
     },
     {
       "key": "contribution.{EA3F5C47-D1EF-41A9-CON1-641E6CFEE22B}-A.group",
       "source": "コンビニ(他７種)",
-      "translation": ""
+      "translation": "Convenience Store (7 other types)"
     },
     {
       "key": "contribution.{EA3F5C47-D1EF-41A9-CON1-641E6CFEE22B}-B.name",
       "source": "スリーエフ(右向き)",
-      "translation": ""
+      "translation": "Three F (right-facing)"
     },
     {
       "key": "contribution.{EA3F5C47-D1EF-41A9-CON1-641E6CFEE22B}-B.group",
       "source": "コンビニ(他７種)",
-      "translation": ""
+      "translation": "Convenience Store (7 other types)"
     },
     {
       "key": "contribution.{578195AB-CEB3-42E9-CON6-5422C86D4DC5}-A.name",
       "source": "ａｍｐｍ(左向き)",
-      "translation": ""
+      "translation": "ampm (facing left)"
     },
     {
       "key": "contribution.{578195AB-CEB3-42E9-CON6-5422C86D4DC5}-A.group",
       "source": "コンビニ(他７種)",
-      "translation": ""
+      "translation": "Convenience Store (7 other types)"
     },
     {
       "key": "contribution.{578195AB-CEB3-42E9-CON6-5422C86D4DC5}-B.name",
       "source": "ａｍｐｍ(右向き)",
-      "translation": ""
+      "translation": "ampm (facing right)"
     },
     {
       "key": "contribution.{578195AB-CEB3-42E9-CON6-5422C86D4DC5}-B.group",
       "source": "コンビニ(他７種)",
-      "translation": ""
+      "translation": "Convenience Store (7 other types)"
     },
     {
       "key": "contribution.{578195AB-CEB3-42E9-CON4-5422C86D4DC5}-A.name",
       "source": "ミニストップ(左向き)",
-      "translation": ""
+      "translation": "Ministop (Left-facing)"
     },
     {
       "key": "contribution.{578195AB-CEB3-42E9-CON4-5422C86D4DC5}-A.group",
       "source": "コンビニ(他７種)",
-      "translation": ""
+      "translation": "Convenience Store (7 other types)"
     },
     {
       "key": "contribution.{578195AB-CEB3-42E9-CON4-5422C86D4DC5}-B.name",
       "source": "ミニストップ(右向き)",
-      "translation": ""
+      "translation": "Ministop (Right-facing)"
     },
     {
       "key": "contribution.{578195AB-CEB3-42E9-CON4-5422C86D4DC5}-B.group",
       "source": "コンビニ(他７種)",
-      "translation": ""
+      "translation": "Convenience Store (7 other types)"
     },
     {
       "key": "contribution.{578195AB-CEB3-42E9-CON5-5422C86D4DC5}-A.name",
       "source": "サークルＫ(左向き)",
-      "translation": ""
+      "translation": "Circle K (left-facing)"
     },
     {
       "key": "contribution.{578195AB-CEB3-42E9-CON5-5422C86D4DC5}-A.group",
       "source": "コンビニ(他７種)",
-      "translation": ""
+      "translation": "Convenience Store (7 other types)"
     },
     {
       "key": "contribution.{578195AB-CEB3-42E9-CON5-5422C86D4DC5}-B.name",
       "source": "サークルＫ(右向き)",
-      "translation": ""
+      "translation": "Circle K (right-facing)"
     },
     {
       "key": "contribution.{578195AB-CEB3-42E9-CON5-5422C86D4DC5}-B.group",
       "source": "コンビニ(他７種)",
-      "translation": ""
+      "translation": "Convenience Store (7 other types)"
     },
     {
       "key": "contribution.{568195AB-CEB3-42E9-CON3-5422C86D4DC5}-A.name",
       "source": "サンクス(左向き)",
-      "translation": ""
+      "translation": "Sunkus (left-facing)"
     },
     {
       "key": "contribution.{568195AB-CEB3-42E9-CON3-5422C86D4DC5}-A.group",
       "source": "コンビニ(他７種)",
-      "translation": ""
+      "translation": "Convenience Store (7 other types)"
     },
     {
       "key": "contribution.{568195AB-CEB3-42E9-CON3-5422C86D4DC5}-B.name",
       "source": "サンクス(右向き)",
-      "translation": ""
+      "translation": "Sunkus (right-facing)"
     },
     {
       "key": "contribution.{568195AB-CEB3-42E9-CON3-5422C86D4DC5}-B.group",
       "source": "コンビニ(他７種)",
-      "translation": ""
+      "translation": "Convenience Store (7 other types)"
     },
     {
       "key": "contribution.{578195AB-CEB3-42E9-CON7-5422C86D4DC5}-A.name",
       "source": "デイリーヤマザキ(左向き)",
-      "translation": ""
+      "translation": "Daily Yamazaki (facing left)"
     },
     {
       "key": "contribution.{578195AB-CEB3-42E9-CON7-5422C86D4DC5}-A.group",
       "source": "コンビニ(他７種)",
-      "translation": ""
+      "translation": "Convenience Store (7 other types)"
     },
     {
       "key": "contribution.{578195AB-CEB3-42E9-CON7-5422C86D4DC5}-B.name",
       "source": "デイリーヤマザキ(右向き)",
-      "translation": ""
+      "translation": "Daily Yamazaki (facing right)"
     },
     {
       "key": "contribution.{578195AB-CEB3-42E9-CON7-5422C86D4DC5}-B.group",
       "source": "コンビニ(他７種)",
-      "translation": ""
+      "translation": "Convenience Store (7 other types)"
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-RES1-94478B392AE7}-A.name",
       "source": "レストラン(左)",
-      "translation": ""
+      "translation": "Restaurant (Left)"
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-RES1-94478B392AE7}-A.group",
       "source": "レストラン",
-      "translation": ""
+      "translation": "Restaurant"
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-RES1-94478B392AE7}-B.name",
       "source": "レストラン(右)",
-      "translation": ""
+      "translation": "Restaurant (Right)"
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-RES1-94478B392AE7}-B.group",
       "source": "レストラン",
-      "translation": ""
+      "translation": "Restaurant"
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-MES1-94478B392AE7}-A.name",
       "source": "メッセ1(左)",
-      "translation": ""
+      "translation": "Messe 1 (Left)"
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-MES1-94478B392AE7}-A.group",
       "source": "展示場ホール",
-      "translation": ""
+      "translation": "Exhibition Hall"
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-MES1-94478B392AE7}-B.name",
       "source": "メッセ2(右)",
-      "translation": ""
+      "translation": "Messe 2 (Right)"
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-MES1-94478B392AE7}-B.group",
       "source": "展示場ホール",
-      "translation": ""
+      "translation": "Exhibition Hall"
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-MES1-94478B392AE7}-C.name",
       "source": "メッセ3(左)",
-      "translation": ""
+      "translation": "Messe 3 (Left)"
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-MES1-94478B392AE7}-C.group",
       "source": "展示場ホール",
-      "translation": ""
+      "translation": "Exhibition Hall"
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-MES1-94478B392AE7}-D.name",
       "source": "メッセ4(右)",
-      "translation": ""
+      "translation": "Messe 4 (Right)"
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-MES1-94478B392AE7}-D.group",
       "source": "展示場ホール",
-      "translation": ""
+      "translation": "Exhibition Hall"
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-MES1-94478B392AE7}-E.name",
       "source": "メッセ5(左)",
-      "translation": ""
+      "translation": "Messe 5 (Left)"
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-MES1-94478B392AE7}-E.group",
       "source": "展示場ホール",
-      "translation": ""
+      "translation": "Exhibition Hall"
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-MES1-94478B392AE7}-F.name",
       "source": "メッセ6(右)",
-      "translation": ""
+      "translation": "Messe 6 (Right)"
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-MES1-94478B392AE7}-F.group",
       "source": "展示場ホール",
-      "translation": ""
+      "translation": "Exhibition Hall"
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-MES1-94478B392AE7}-G.name",
       "source": "メッセ7(左)",
-      "translation": ""
+      "translation": "Messe 7 (Left)"
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-MES1-94478B392AE7}-G.group",
       "source": "展示場ホール",
-      "translation": ""
+      "translation": "Exhibition Hall"
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-MES1-94478B392AE7}-H.name",
       "source": "メッセ8(右)",
-      "translation": ""
+      "translation": "Messe 8 (Right)"
     },
     {
       "key": "contribution.{3AAB6C26-8C58-4C8C-MES1-94478B392AE7}-H.group",
       "source": "展示場ホール",
-      "translation": ""
+      "translation": "Exhibition Hall"
     }
   ]
 }

@@ -6,187 +6,187 @@
     {
       "key": "plugin.title",
       "source": "東京地下鉄補完計画その2",
-      "translation": ""
+      "translation": "Tokyo Metro Complementary Project Part 2"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOEI6300}.name",
       "source": "三田線",
-      "translation": ""
+      "translation": "Mita Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOEI6300}.company",
       "source": "東京都交通局",
-      "translation": ""
+      "translation": "Tokyo Metropolitan Bureau of Transportation"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOEI6300}.type",
       "source": "6300系",
-      "translation": ""
+      "translation": "6300 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOEI6300}.description",
       "source": "旧式化した6000系置き換えと、東急目黒線相互乗り入れを目的に導入された車両。",
-      "translation": ""
+      "translation": "Rolling stock introduced to replace the aging 6000 Series and for mutual through-service with the Tokyu Meguro Line."
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOKYU3000}.name",
       "source": "目黒線",
-      "translation": ""
+      "translation": "Meguro Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOKYU3000}.company",
       "source": "東京急行電鉄",
-      "translation": ""
+      "translation": "Tokyu Corporation"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOKYU3000}.type",
       "source": "3000系",
-      "translation": ""
+      "translation": "3000 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOKYU3000}.description",
       "source": "都営三田線・東京メトロ南北線乗り入れに際し導入された車両。",
-      "translation": ""
+      "translation": "A train introduced for through service on the Toei Mita Line and Tokyo Metro Namboku Line."
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOEI10000}.name",
       "source": "新宿線",
-      "translation": ""
+      "translation": "Shinjuku Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOEI10000}.company",
       "source": "東京都交通局(KP)",
-      "translation": ""
+      "translation": "Tokyo Metropolitan Bureau of Transportation (KP)"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOEI10000}.type",
       "source": "10-000系(KP)",
-      "translation": ""
+      "translation": "10-000 Series (KP)"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOEI10000}.description",
       "source": "都営新宿線の主力車両。",
-      "translation": ""
+      "translation": "The main train type on the Toei Shinjuku Line."
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOEI10270}.name",
       "source": "新宿線",
-      "translation": ""
+      "translation": "Shinjuku Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOEI10270}.company",
       "source": "東京都交通局(KP)",
-      "translation": ""
+      "translation": "Tokyo Metropolitan Bureau of Transportation (KP)"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOEI10270}.type",
       "source": "10-270系(KP)",
-      "translation": ""
+      "translation": "10-270 Series (KP)"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOEI10270}.description",
       "source": "都営新宿線10-000系のマイナーチェンジ車両。前面の意匠などが異なっている。",
-      "translation": ""
+      "translation": "A minor change version of the Toei Shinjuku Line 10-000 Series. The front design and other features are different."
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOEI10300}.name",
       "source": "新宿線",
-      "translation": ""
+      "translation": "Shinjuku Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOEI10300}.company",
       "source": "東京都交通局",
-      "translation": ""
+      "translation": "Tokyo Metropolitan Bureau of Transportation"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOEI10300}.type",
       "source": "10-300系",
-      "translation": ""
+      "translation": "10-300 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOEI10300}.description",
       "source": "老朽化した10-000系一部編成の置き換えのため登場した車両。",
-      "translation": ""
+      "translation": "A train introduced to replace some aging 10-000 Series sets."
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOEI10300R}.name",
       "source": "新宿線",
-      "translation": ""
+      "translation": "Shinjuku Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOEI10300R}.company",
       "source": "東京都交通局",
-      "translation": ""
+      "translation": "Tokyo Metropolitan Bureau of Transportation"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOEI10300R}.type",
       "source": "10-300R系",
-      "translation": ""
+      "translation": "10-300R Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOEI10300R}.description",
       "source": "老朽化した10-000系編成のうち、経年の激しい先頭車のみを10-300系と同系の車両に交換したもの。",
-      "translation": ""
+      "translation": "Among the aging 10-000 Series sets, only the heavily deteriorated lead cars were replaced with vehicles of the same series as the 10-300 Series."
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOEI12000E}.name",
       "source": "大江戸線",
-      "translation": ""
+      "translation": "Oedo Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOEI12000E}.company",
       "source": "東京都交通局",
-      "translation": ""
+      "translation": "Tokyo Metropolitan Bureau of Transportation"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOEI12000E}.type",
       "source": "12-000系(初期型)",
-      "translation": ""
+      "translation": "12-000 Series (Early Model)"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOEI12000E}.description",
       "source": "都営大江戸線のうち、練馬-光が丘間の部分開業時に製造された車両。",
-      "translation": ""
+      "translation": "A train manufactured for the Toei Oedo Line during the partial opening of the Nerima-Hikarigaoka section."
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOEI12000L}.name",
       "source": "大江戸線",
-      "translation": ""
+      "translation": "Oedo Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOEI12000L}.company",
       "source": "東京都交通局",
-      "translation": ""
+      "translation": "Tokyo Metropolitan Bureau of Transportation"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOEI12000L}.type",
       "source": "12-000系",
-      "translation": ""
+      "translation": "12-000 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOEI12000L}.description",
       "source": "都営大江戸線の車両。初期型と違い無塗装車体である。",
-      "translation": ""
+      "translation": "A Toei Oedo Line train. Unlike the initial model, it has an unpainted car body."
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOEI5300}.name",
       "source": "浅草線",
-      "translation": ""
+      "translation": "Asakusa Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOEI5300}.company",
       "source": "東京都交通局",
-      "translation": ""
+      "translation": "Tokyo Metropolitan Bureau of Transportation"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOEI5300}.type",
       "source": "5300系",
-      "translation": ""
+      "translation": "5300 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TOEI5300}.description",
       "source": "都営浅草線の旧型車置き換え・冷房化を目的として導入された車両。空港間連絡列車などにも利用される。",
-      "translation": ""
+      "translation": "A train introduced to replace older cars and provide air conditioning on the Toei Asakusa Line. Also used for airport connecting trains."
     }
   ]
 }

@@ -6,147 +6,147 @@
     {
       "key": "plugin.title",
       "source": "道路(勾配道路)",
-      "translation": ""
+      "translation": "Road (Sloped Road)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-roadslope-woodlandpath-001}.name",
       "source": "勾配道路",
-      "translation": ""
+      "translation": "Sloped Road"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-roadslope-woodlandpath-001}.group",
       "source": "道路関連物",
-      "translation": ""
+      "translation": "Road Related Objects"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-roadslope-woodlandpath-002}.name",
       "source": "勾配道路",
-      "translation": ""
+      "translation": "Sloped Road"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-roadslope-woodlandpath-002}.group",
       "source": "道路関連物",
-      "translation": ""
+      "translation": "Road Related Objects"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-staircase-concrete-001-up}.name",
       "source": "階段",
-      "translation": ""
+      "translation": "Stairs"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-staircase-concrete-001-up}.group",
       "source": "道路関連物",
-      "translation": ""
+      "translation": "Road Related Objects"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-staircase-concrete-001-up-banister}.name",
       "source": "階段",
-      "translation": ""
+      "translation": "Stairs"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-staircase-concrete-001-up-banister}.group",
       "source": "道路関連物",
-      "translation": ""
+      "translation": "Road Related Objects"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-staircase-concrete-001-down}.name",
       "source": "階段",
-      "translation": ""
+      "translation": "Stairs"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-staircase-concrete-001-down}.group",
       "source": "道路関連物",
-      "translation": ""
+      "translation": "Road Related Objects"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-staircase-concrete-001-down-banister}.name",
       "source": "階段",
-      "translation": ""
+      "translation": "Stairs"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-staircase-concrete-001-down-banister}.group",
       "source": "道路関連物",
-      "translation": ""
+      "translation": "Road Related Objects"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-staircase-stonesteps-001-up}.name",
       "source": "階段",
-      "translation": ""
+      "translation": "Stairs"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-staircase-stonesteps-001-up}.group",
       "source": "道路関連物",
-      "translation": ""
+      "translation": "Road Related Objects"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-staircase-stonesteps-001-up-banister}.name",
       "source": "階段",
-      "translation": ""
+      "translation": "Stairs"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-staircase-stonesteps-001-up-banister}.group",
       "source": "道路関連物",
-      "translation": ""
+      "translation": "Road Related Objects"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-staircase-stonesteps-001-down}.name",
       "source": "階段",
-      "translation": ""
+      "translation": "Stairs"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-staircase-stonesteps-001-down}.group",
       "source": "道路関連物",
-      "translation": ""
+      "translation": "Road Related Objects"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-staircase-stonesteps-001-down-banister}.name",
       "source": "階段",
-      "translation": ""
+      "translation": "Stairs"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-staircase-stonesteps-001-down-banister}.group",
       "source": "道路関連物",
-      "translation": ""
+      "translation": "Road Related Objects"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-staircase-stonesteps-grey-001-up}.name",
       "source": "階段",
-      "translation": ""
+      "translation": "Stairs"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-staircase-stonesteps-grey-001-up}.group",
       "source": "道路関連物",
-      "translation": ""
+      "translation": "Road Related Objects"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-staircase-stonesteps-grey-001-up-banister}.name",
       "source": "階段",
-      "translation": ""
+      "translation": "Stairs"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-staircase-stonesteps-grey-001-up-banister}.group",
       "source": "道路関連物",
-      "translation": ""
+      "translation": "Road Related Objects"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-staircase-stonesteps-grey-001-down}.name",
       "source": "階段",
-      "translation": ""
+      "translation": "Stairs"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-staircase-stonesteps-grey-001-down}.group",
       "source": "道路関連物",
-      "translation": ""
+      "translation": "Road Related Objects"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-staircase-stonesteps-grey-001-down-banister}.name",
       "source": "階段",
-      "translation": ""
+      "translation": "Stairs"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-staircase-stonesteps-grey-001-down-banister}.group",
       "source": "道路関連物",
-      "translation": ""
+      "translation": "Road Related Objects"
     }
   ]
 }

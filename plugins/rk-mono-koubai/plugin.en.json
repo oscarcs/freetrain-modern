@@ -6,107 +6,107 @@
     {
       "key": "plugin.title",
       "source": "地表",
-      "translation": ""
+      "translation": "Ground surface"
     },
     {
       "key": "contribution.{rk-MONO-001-001a}.name",
       "source": "モノレール(レール)",
-      "translation": ""
+      "translation": "Monorail (Rail)"
     },
     {
       "key": "contribution.{rk-MONO-001-001a}.description",
       "source": "モノレール",
-      "translation": ""
+      "translation": "Monorail"
     },
     {
       "key": "contribution.{rk-m00A009-FENCE-PICTURE-1001}.name",
       "source": "モノレール(車止め)",
-      "translation": ""
+      "translation": "Monorail (Buffer Stop)"
     },
     {
       "key": "contribution.{rk-m00A009-FENCE-PICTURE-1001}.description",
       "source": "モノレール",
-      "translation": ""
+      "translation": "Monorail"
     },
     {
       "key": "contribution.{rk-m00A001-FENCE-PICTURE-1001}.name",
       "source": "勾配01",
-      "translation": ""
+      "translation": "Slope 01"
     },
     {
       "key": "contribution.{rk-m00A001-FENCE-PICTURE-1001}.group",
       "source": "モノレール勾配",
-      "translation": ""
+      "translation": "Monorail slope"
     },
     {
       "key": "contribution.{rk-m00A002-FENCE-PICTURE-1001}.name",
       "source": "勾配02",
-      "translation": ""
+      "translation": "Slope 02"
     },
     {
       "key": "contribution.{rk-m00A002-FENCE-PICTURE-1001}.group",
       "source": "モノレール勾配",
-      "translation": ""
+      "translation": "Monorail slope"
     },
     {
       "key": "contribution.{rk-m00A003-FENCE-PICTURE-1001}.name",
       "source": "勾配03",
-      "translation": ""
+      "translation": "Slope 03"
     },
     {
       "key": "contribution.{rk-m00A003-FENCE-PICTURE-1001}.group",
       "source": "モノレール勾配",
-      "translation": ""
+      "translation": "Monorail slope"
     },
     {
       "key": "contribution.{rk-m00A004-FENCE-PICTURE-1001}.name",
       "source": "勾配04",
-      "translation": ""
+      "translation": "Slope 04"
     },
     {
       "key": "contribution.{rk-m00A004-FENCE-PICTURE-1001}.group",
       "source": "モノレール勾配",
-      "translation": ""
+      "translation": "Monorail slope"
     },
     {
       "key": "contribution.{rk-m00A005-FENCE-PICTURE-1001}.name",
       "source": "勾配01",
-      "translation": ""
+      "translation": "Slope 01"
     },
     {
       "key": "contribution.{rk-m00A005-FENCE-PICTURE-1001}.group",
       "source": "モノレール勾配",
-      "translation": ""
+      "translation": "Monorail slope"
     },
     {
       "key": "contribution.{rk-m00A006-FENCE-PICTURE-1001}.name",
       "source": "勾配02",
-      "translation": ""
+      "translation": "Slope 02"
     },
     {
       "key": "contribution.{rk-m00A006-FENCE-PICTURE-1001}.group",
       "source": "モノレール勾配",
-      "translation": ""
+      "translation": "Monorail slope"
     },
     {
       "key": "contribution.{rk-m00A007-FENCE-PICTURE-1001}.name",
       "source": "勾配03",
-      "translation": ""
+      "translation": "Slope 03"
     },
     {
       "key": "contribution.{rk-m00A007-FENCE-PICTURE-1001}.group",
       "source": "モノレール勾配",
-      "translation": ""
+      "translation": "Monorail slope"
     },
     {
       "key": "contribution.{rk-m00A008-FENCE-PICTURE-1001}.name",
       "source": "勾配08",
-      "translation": ""
+      "translation": "Slope 08"
     },
     {
       "key": "contribution.{rk-m00A008-FENCE-PICTURE-1001}.group",
       "source": "モノレール勾配",
-      "translation": ""
+      "translation": "Monorail slope"
     }
   ]
 }

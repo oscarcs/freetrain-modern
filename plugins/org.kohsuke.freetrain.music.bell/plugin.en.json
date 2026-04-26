@@ -6,27 +6,27 @@
     {
       "key": "plugin.title",
       "source": "発車ベルセット",
-      "translation": ""
+      "translation": "Departure Bell Set"
     },
     {
       "key": "contribution.{607AA03D-4203-459E-A835-F4067A32E4B6}.name",
       "source": "ピリリリ",
-      "translation": ""
+      "translation": "Piririri"
     },
     {
       "key": "contribution.{96B8B6EC-1793-445D-98B3-7F9330438CF9}.name",
       "source": "ポロロロ",
-      "translation": ""
+      "translation": "Porororo"
     },
     {
       "key": "contribution.{3528F039-4F73-4592-BE7A-624877DB135A}.name",
       "source": "プー",
-      "translation": ""
+      "translation": "Poo"
     },
     {
       "key": "contribution.{FC3471E1-D104-4C31-9055-FC3B5B83B97F}.name",
       "source": "ピー",
-      "translation": ""
+      "translation": "Pee"
     }
   ]
 }

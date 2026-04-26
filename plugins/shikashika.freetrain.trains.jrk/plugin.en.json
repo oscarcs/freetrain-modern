@@ -6,37 +6,37 @@
     {
       "key": "plugin.title",
       "source": "列車(JR九州)",
-      "translation": ""
+      "translation": "Train (JR Kyushu)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-LocalTrein-50}.name",
       "source": "普通列車(50系)",
-      "translation": ""
+      "translation": "Local Train (50 Series)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-LocalTrein-50}.company",
       "source": "JR九州",
-      "translation": ""
+      "translation": "JR Kyushu"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-LocalTrein-50}.description",
       "source": "液体式ディーゼル機関車DD51が牽引する、50系(オハ50、オハフ50)客車普通列車です。",
-      "translation": ""
+      "translation": "This is a local passenger train pulled by a DD51 liquid-cooled diesel locomotive, consisting of 50 Series passenger coaches (Oha 50, OhaFu 50)."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-LocalTrein-50-12}.name",
       "source": "普通列車(50系+12系)",
-      "translation": ""
+      "translation": "Local Train (50 Series + 12 Series)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-LocalTrein-50-12}.company",
       "source": "JR九州",
-      "translation": ""
+      "translation": "JR Kyushu"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-LocalTrein-50-12}.description",
       "source": "液体式ディーゼル機関車DD51が牽引する、冷房化された50系1000番台(オハ50、オハフ50)と12系(スハフ12)の客車普通列車です。",
-      "translation": ""
+      "translation": "This is a local passenger train pulled by a DD51 liquid-cooled diesel locomotive, consisting of air-conditioned 50 Series 1000 subseries (Oha 50, OhaFu 50) and 12 Series (SuHaFu 12) passenger coaches."
     }
   ]
 }

@@ -6,67 +6,67 @@
     {
       "key": "plugin.title",
       "source": "札幌市交地下鉄セット",
-      "translation": ""
+      "translation": "Sapporo Municipal Subway Set"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-ST5000}.name",
       "source": "南北線",
-      "translation": ""
+      "translation": "Namboku Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-ST5000}.company",
       "source": "札幌市交通局",
-      "translation": ""
+      "translation": "Sapporo Transportation Bureau"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-ST5000}.type",
       "source": "5000系",
-      "translation": ""
+      "translation": "5000 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-ST8000}.name",
       "source": "東西線",
-      "translation": ""
+      "translation": "Tōzai Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-ST8000}.company",
       "source": "札幌市交通局",
-      "translation": ""
+      "translation": "Sapporo Transportation Bureau"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-ST8000}.type",
       "source": "8000系",
-      "translation": ""
+      "translation": "8000 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-ST7000K}.name",
       "source": "東豊線",
-      "translation": ""
+      "translation": "Toho Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-ST7000K}.company",
       "source": "札幌市交通局",
-      "translation": ""
+      "translation": "Sapporo Transportation Bureau"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-ST7000K}.type",
       "source": "7000系(旧塗装)",
-      "translation": ""
+      "translation": "7000 Series (old livery)"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-ST7000N}.name",
       "source": "東豊線",
-      "translation": ""
+      "translation": "Toho Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-ST7000N}.company",
       "source": "札幌市交通局",
-      "translation": ""
+      "translation": "Sapporo Transportation Bureau"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-ST7000N}.type",
       "source": "7000系(新塗装)",
-      "translation": ""
+      "translation": "7000 Series (New Livery)"
     }
   ]
 }

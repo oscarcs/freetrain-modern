@@ -6,22 +6,22 @@
     {
       "key": "plugin.title",
       "source": "700T型",
-      "translation": ""
+      "translation": "700T Type"
     },
     {
       "key": "contribution.{tyousen-121-700T-train-projectZ}.company",
       "source": "台湾高速鉄道",
-      "translation": ""
+      "translation": "Taiwan High-Speed Rail"
     },
     {
       "key": "contribution.{tyousen-121-700T-train-projectZ}.type",
       "source": "700T型",
-      "translation": ""
+      "translation": "700T Type"
     },
     {
       "key": "contribution.{tyousen-121-700T-train-projectZ}.description",
       "source": "初の輸出用新幹線車両として、700系新幹線車両をベースに製造された。\n700系の編成に対し、700T型は12両編成である。",
-      "translation": ""
+      "translation": "Manufactured as the first Shinkansen vehicle for export, based on the 700 Series Shinkansen. Compared to the 700 Series formation, the 700T type is a 12-car formation."
     }
   ]
 }

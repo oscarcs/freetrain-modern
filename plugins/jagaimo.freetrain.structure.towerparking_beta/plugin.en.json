@@ -6,32 +6,32 @@
     {
       "key": "plugin.title",
       "source": "タワーパーキング",
-      "translation": ""
+      "translation": "Tower Parking"
     },
     {
       "key": "contribution.{jagaimo-structure-towerparking-a}-1.group",
       "source": "タワーパーキング",
-      "translation": ""
+      "translation": "Tower Parking"
     },
     {
       "key": "contribution.{jagaimo-structure-towerparking-a}-2.group",
       "source": "タワーパーキング",
-      "translation": ""
+      "translation": "Tower Parking"
     },
     {
       "key": "contribution.{jagaimo-structure-towerparking-a}-3.group",
       "source": "タワーパーキング",
-      "translation": ""
+      "translation": "Tower Parking"
     },
     {
       "key": "contribution.{jagaimo-structure-towerparking-b}-1.name",
       "source": "タワーパーキング",
-      "translation": ""
+      "translation": "Tower Parking"
     },
     {
       "key": "contribution.{jagaimo-structure-towerparking-b}-1.group",
       "source": "タワーパーキング",
-      "translation": ""
+      "translation": "Tower Parking"
     }
   ]
 }

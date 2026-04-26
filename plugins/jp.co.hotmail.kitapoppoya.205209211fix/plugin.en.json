@@ -6,82 +6,82 @@
     {
       "key": "plugin.title",
       "source": "205系・209系・211系FIXEDver",
-      "translation": ""
+      "translation": "205 Series, 209 Series, 211 Series FIXEDver"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-205TSURUMI}.name",
       "source": "1000番台 鶴見線",
-      "translation": ""
+      "translation": "1000 Series Tsurumi Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-205TSURUMI}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-205TSURUMI}.type",
       "source": "205系",
-      "translation": ""
+      "translation": "205 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-205KEIYOYT}.name",
-      "source": "京葉線\u3000転入車",
-      "translation": ""
+      "source": "京葉線　転入車",
+      "translation": "Keiyo Line transferred car"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-205KEIYOYT}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-205KEIYOYT}.type",
       "source": "205系",
-      "translation": ""
+      "translation": "205 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-2092100}.name",
-      "source": "2100番台\u3000内房線・外房線",
-      "translation": ""
+      "source": "2100番台　内房線・外房線",
+      "translation": "2100 series Uchibo Line / Sotobo Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-2092100}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-2092100}.type",
       "source": "209系",
-      "translation": ""
+      "translation": "209 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-7567-211BOSO}.name",
       "source": "内房線",
-      "translation": ""
+      "translation": "Uchibo Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-7567-211BOSO}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-7567-211BOSO}.type",
       "source": "211系",
-      "translation": ""
+      "translation": "211 Series"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-211SUKA}.name",
       "source": "横須賀線(ｳｿ電)",
-      "translation": ""
+      "translation": "Yokosuka Line (Usoden)"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-211SUKA}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-211SUKA}.type",
       "source": "211系",
-      "translation": ""
+      "translation": "211 Series"
     }
   ]
 }

@@ -6,67 +6,67 @@
     {
       "key": "plugin.title",
       "source": "架線柱壁つき",
-      "translation": ""
+      "translation": "Catenary Pole with Wall"
     },
     {
       "key": "contribution.{riorio-AYASE-Hiro-RailStructure-epwall-dual1-Left}.name",
       "source": "壁複線用(左)",
-      "translation": ""
+      "translation": "Wall for double track (left)"
     },
     {
       "key": "contribution.{riorio-AYASE-Hiro-RailStructure-epwall-dual1-Right}.name",
       "source": "壁複線用(右)",
-      "translation": ""
+      "translation": "Wall for double track (right)"
     },
     {
       "key": "contribution.{riorio-AYASE-Hiro-RailStructure-epwall-single1-0001}.name",
       "source": "壁単両柱1",
-      "translation": ""
+      "translation": "Wall single pole (double) 1"
     },
     {
       "key": "contribution.{riorio-AYASE-Hiro-RailStructure-epwall-single2-0002}.name",
       "source": "壁単両柱2",
-      "translation": ""
+      "translation": "Wall single pole (double) 2"
     },
     {
       "key": "contribution.{riorio-AYASE-Hiro-RailStructure-epwall-single3-0003}.name",
       "source": "壁単片柱1",
-      "translation": ""
+      "translation": "Wall single catenary pole 1"
     },
     {
       "key": "contribution.{riorio-AYASE-Hiro-RailStructure-epwall-single4-0004}.name",
       "source": "壁単片柱2",
-      "translation": ""
+      "translation": "Wall single catenary pole 2"
     },
     {
       "key": "contribution.{riorio-AYASE-Hiro-RailStructure-epwall-single3-0033}.name",
       "source": "壁単片柱1'",
-      "translation": ""
+      "translation": "Wall single catenary pole 1'"
     },
     {
       "key": "contribution.{riorio-AYASE-Hiro-RailStructure-epwall-single4-0044}.name",
       "source": "壁単片柱2'",
-      "translation": ""
+      "translation": "Wall single catenary pole 2'"
     },
     {
       "key": "contribution.{riorio-AYASE-Hiro-RailStructure-epwall-dual3-0003}.name",
       "source": "壁複片柱1",
-      "translation": ""
+      "translation": "Wall double track single catenary pole 1"
     },
     {
       "key": "contribution.{riorio-AYASE-Hiro-RailStructure-epwall-dual4-0004}.name",
       "source": "壁複片柱2",
-      "translation": ""
+      "translation": "Wall double track single catenary pole 2"
     },
     {
       "key": "contribution.{riorio-AYASE-Hiro-RailStructure-epwall-dual3-0033}.name",
       "source": "壁複片柱1'",
-      "translation": ""
+      "translation": "Wall double track single catenary pole 1'"
     },
     {
       "key": "contribution.{riorio-AYASE-Hiro-RailStructure-epwall-dual4-0044}.name",
       "source": "壁複片柱2'",
-      "translation": ""
+      "translation": "Wall double track single catenary pole 2'"
     }
   ]
 }

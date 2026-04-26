@@ -5,13 +5,13 @@
   "texts": [
     {
       "key": "plugin.title",
-      "source": "建物総合コンバート\u3000モガミ",
-      "translation": ""
+      "source": "建物総合コンバート　モガミ",
+      "translation": "Building General Conversion Mogami"
     },
     {
       "key": "contribution.{8753CB0B-6B55-4508-8A01-14763E0C38D5}-gs.group",
       "source": "神風財閥ビル",
-      "translation": ""
+      "translation": "Kamikaze Zaibatsu Building"
     }
   ]
 }

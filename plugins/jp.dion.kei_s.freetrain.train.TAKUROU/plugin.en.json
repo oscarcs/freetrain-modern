@@ -6,787 +6,787 @@
     {
       "key": "plugin.title",
       "source": "列車セット",
-      "translation": ""
+      "translation": "Train Set"
     },
     {
       "key": "contribution.{AD070315-7653-11D7-A4B7-444553540000}.name",
       "source": "0番台（秋田）",
-      "translation": ""
+      "translation": "0 Series (Akita)"
     },
     {
       "key": "contribution.{AD070315-7653-11D7-A4B7-444553540000}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{AD070315-7653-11D7-A4B7-444553540000}.type",
       "source": "701系",
-      "translation": ""
+      "translation": "701 Series"
     },
     {
       "key": "contribution.{AD070315-7653-11D7-A4B7-444553540000}.description",
       "source": "1993年、東北地区に残っていた客車列車の置換えとワンマン運転実施により\n効率化を図るために登場した交流専用の3扉ロングシート車。羽越線酒田以北、奥羽線青森近郊や津軽線も乗り入れる。",
-      "translation": ""
+      "translation": "An AC-only 3-door long-seat car introduced in 1993 to replace remaining passenger trains in the Tohoku region and improve efficiency through one-man operation. It also operates on the Uetsu Line north of Sakata, near Aomori on the Ou Line, and the Tsugaru Line."
     },
     {
       "key": "contribution.{C1C4ED5F-7662-11D7-A4B7-8B95A9BCF237}.name",
       "source": "100番台/3両編成（秋田）",
-      "translation": ""
+      "translation": "100 Series / 3-car formation (Akita)"
     },
     {
       "key": "contribution.{C1C4ED5F-7662-11D7-A4B7-8B95A9BCF237}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{C1C4ED5F-7662-11D7-A4B7-8B95A9BCF237}.type",
       "source": "701系",
-      "translation": ""
+      "translation": "701 Series"
     },
     {
       "key": "contribution.{C1C4ED5F-7662-11D7-A4B7-8B95A9BCF237}.description",
       "source": "1993年、東北地区に残っていた客車列車の置換えとワンマン運転実施により\n効率化を図るために登場した交流専用の3扉ロングシート車。補助電源装置をMGからSIVに変更した94年に登場。\n山形新幹線新庄延長時に仙台電車区に転属された。",
-      "translation": ""
+      "translation": "An AC-only 3-door long-seat car introduced in 1993 to replace remaining passenger trains in the Tohoku region and improve efficiency through one-man operation. Appeared in 1994 with auxiliary power units changed from MG to SIV. It was transferred to the Sendai train depot when the Yamagata Shinkansen was extended to Shinjo."
     },
     {
       "key": "contribution.{C1C4ED5A-7662-11D7-A4B7-8B95A9BCF237}.name",
       "source": "1000番台(仙台 /2両編成)",
-      "translation": ""
+      "translation": "1000 Series (Sendai / 2-car formation)"
     },
     {
       "key": "contribution.{C1C4ED5A-7662-11D7-A4B7-8B95A9BCF237}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{C1C4ED5A-7662-11D7-A4B7-8B95A9BCF237}.type",
       "source": "701系",
-      "translation": ""
+      "translation": "701 Series"
     },
     {
       "key": "contribution.{C1C4ED5A-7662-11D7-A4B7-8B95A9BCF237}.description",
       "source": "仙台地区では、715系や455系を置き換えとして701系電車が投入された。\n（クハ700＋クモハ701）と4両編成（クハ700＋モハ701＋サハ700＋クモハ701）があり、\n2両編成はワンマン運転設備を持つのに対し、4両編成は，ワンマン運転の設備を持たずドアチャイムもない。",
-      "translation": ""
+      "translation": "In the Sendai area, 701 Series electric trains were introduced to replace the 715 Series and 455 Series. There are 2-car formations (Kuha 700 + Kumoha 701) and 4-car formations (Kuha 700 + Moha 701 + Saha 700 + Kumoha 701). The 2-car formations are equipped for one-man operation, while the 4-car formations are not equipped for one-man operation and do not have door chimes."
     },
     {
       "key": "contribution.{C1C4ED5B-7662-11D7-A4B7-8B95A9BCF237}.name",
       "source": "1000番台（仙台/4両編成）",
-      "translation": ""
+      "translation": "1000 Series (Sendai / 4-car formation)"
     },
     {
       "key": "contribution.{C1C4ED5B-7662-11D7-A4B7-8B95A9BCF237}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{C1C4ED5B-7662-11D7-A4B7-8B95A9BCF237}.type",
       "source": "701系",
-      "translation": ""
+      "translation": "701 Series"
     },
     {
       "key": "contribution.{C1C4ED5B-7662-11D7-A4B7-8B95A9BCF237}.description",
       "source": "仙台地区では、715系や455系を置き換えとして701系電車が投入された。\n（クハ700＋クモハ701）と4両編成（クハ700＋モハ701＋サハ700＋クモハ701）があり、\n4両編成は，ワンマン運転の設備を持たずドアチャイムもない。一ノ関－白石間に運用が限定される。",
-      "translation": ""
+      "translation": "In the Sendai area, 701 Series electric trains were introduced to replace the 715 Series and 455 Series. There are 2-car formations (Kuha 700 + Kumoha 701) and 4-car formations (Kuha 700 + Moha 701 + Saha 700 + Kumoha 701). The 4-car formations are not equipped for one-man operation and do not have door chimes. Their operation is limited to the Ichinoseki - Shiroishi section."
     },
     {
       "key": "contribution.{C1C4ED75-7662-11D7-A4B7-8B95A9BCF237}.name",
       "source": "5000番台（田沢湖線）",
-      "translation": ""
+      "translation": "5000 series (Tazawako Line)"
     },
     {
       "key": "contribution.{C1C4ED75-7662-11D7-A4B7-8B95A9BCF237}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{C1C4ED75-7662-11D7-A4B7-8B95A9BCF237}.type",
       "source": "701系",
-      "translation": ""
+      "translation": "701 Series"
     },
     {
       "key": "contribution.{C1C4ED75-7662-11D7-A4B7-8B95A9BCF237}.description",
       "source": "秋田新幹線開業に伴い，改軌された田沢湖線に投入されたのが標準軌車。\n田沢湖線でのみ営業運転される。（大曲－秋田間は回送だが，大曲花火大会の臨時列車で営業運転されることもある）",
-      "translation": ""
+      "translation": "With the opening of the Akita Shinkansen, standard gauge cars were introduced to the regauged Tazawako Line. It operates commercially only on the Tazawako Line (the Ōmagari-Akita section is a deadhead, but it may operate commercially as a special train for the Ōmagari Fireworks Festival)."
     },
     {
       "key": "contribution.{B92219D6-7650-11D7-A4B7-D7D370C4F037}.name",
       "source": "5500番台（山形）",
-      "translation": ""
+      "translation": "5500 series (Yamagata)"
     },
     {
       "key": "contribution.{B92219D6-7650-11D7-A4B7-D7D370C4F037}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{B92219D6-7650-11D7-A4B7-D7D370C4F037}.type",
       "source": "701系",
-      "translation": ""
+      "translation": "701 Series"
     },
     {
       "key": "contribution.{B92219D6-7650-11D7-A4B7-D7D370C4F037}.description",
       "source": "１９９３年に、奥羽・羽越本線の客車列車淘汰を目的につくられた電車。\n以降、東北各地区に投入される。5500番台は、山形新幹線新庄延長時に標準軌用普通電車として登場。",
-      "translation": ""
+      "translation": "Electric train manufactured in 1993 with the aim of eliminating passenger trains on the Ou and Uetsu Main Lines. Subsequently introduced in various Tohoku regions. The 5500 Series appeared as a standard gauge local electric train when the Yamagata Shinkansen was extended to Shinjo."
     },
     {
       "key": "contribution.{C1C4ED4A-7662-11D7-A4B7-8B95A9BCF237}.name",
       "source": "第三セクター鉄道",
-      "translation": ""
+      "translation": "Third sector railway"
     },
     {
       "key": "contribution.{C1C4ED4A-7662-11D7-A4B7-8B95A9BCF237}.company",
       "source": "青い森鉄道",
-      "translation": ""
+      "translation": "Aoimori Railway"
     },
     {
       "key": "contribution.{C1C4ED4A-7662-11D7-A4B7-8B95A9BCF237}.type",
       "source": "701系",
-      "translation": ""
+      "translation": "701 Series"
     },
     {
       "key": "contribution.{C1C4ED4A-7662-11D7-A4B7-8B95A9BCF237}.description",
       "source": "東北新幹線盛岡～八戸間延伸に伴うJR在来線区間第三セクター化により誕生。\n車両の基本構造はJR701系と同じだが、車内はセミクロスシートを採用した。いわて銀河鉄道と共用運転。",
-      "translation": ""
+      "translation": "Born from the third-sector conversion of JR conventional lines due to the extension of the Tohoku Shinkansen between Morioka and Hachinohe. The basic structure of the rolling stock is the same as the JR 701 Series, but the interior features semi-cross seats. Operated jointly with Iwate Galaxy Railway."
     },
     {
       "key": "contribution.{C1C4ED4B-7662-11D7-A4B7-8B95A9BCF237}.name",
       "source": "第三セクター鉄道",
-      "translation": ""
+      "translation": "Third sector railway"
     },
     {
       "key": "contribution.{C1C4ED4B-7662-11D7-A4B7-8B95A9BCF237}.company",
       "source": "いわて銀河鉄道",
-      "translation": ""
+      "translation": "Iwate Galaxy Railway"
     },
     {
       "key": "contribution.{C1C4ED4B-7662-11D7-A4B7-8B95A9BCF237}.type",
       "source": "IGR7000系",
-      "translation": ""
+      "translation": "IGR7000 Series"
     },
     {
       "key": "contribution.{C1C4ED4B-7662-11D7-A4B7-8B95A9BCF237}.description",
       "source": "東北新幹線盛岡～八戸間延伸に伴うJR在来線区間第三セクター化により誕生。\n車両の基本構造はJR701系と同じだが、車内はセミクロスシートでトイレが設置されている。青い森鉄道と共用運転。",
-      "translation": ""
+      "translation": "Born from the third-sector conversion of JR conventional lines due to the extension of the Tohoku Shinkansen between Morioka and Hachinohe. The basic structure of the rolling stock is the same as the JR 701 Series, but the interior features semi-cross seats and toilets. Operated jointly with Aoimori Railway."
     },
     {
       "key": "contribution.{C1C4ED65-7662-11D7-A4B7-8B95A9BCF237}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{C1C4ED65-7662-11D7-A4B7-8B95A9BCF237}.type",
       "source": "E127系",
-      "translation": ""
+      "translation": "E127 Series"
     },
     {
       "key": "contribution.{C1C4ED65-7662-11D7-A4B7-8B95A9BCF237}.description",
       "source": "新潟近郊のローカル輸送の一部は165系を使っていたが、老朽化が進み、\nまた２扉デッキ付きでラッシュ時の乗り降りが不便であるため、置換え用に製造された。\n701系の直流版というべき車両で、ステンレス製の3扉ロングシート、VVVFインパータ制御車である。\n主に新潟近郊を運転。",
-      "translation": ""
+      "translation": "Some local transport in the Niigata suburbs used the 165 series, but due to aging and inconvenient boarding/alighting during rush hours with its two doors and decks, it was manufactured as a replacement. It is essentially a DC version of the 701 series, featuring a stainless steel body, three doors, long seats, and VVVF inverter control. It mainly operates in the Niigata suburbs."
     },
     {
       "key": "contribution.{CBAF5396-76A7-11D7-A4B7-E675BA55FD37}.name",
       "source": "大糸線色",
-      "translation": ""
+      "translation": "Ōito Line color"
     },
     {
       "key": "contribution.{CBAF5396-76A7-11D7-A4B7-E675BA55FD37}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{CBAF5396-76A7-11D7-A4B7-E675BA55FD37}.type",
       "source": "E127系",
-      "translation": ""
+      "translation": "E127 Series"
     },
     {
       "key": "contribution.{CBAF5396-76A7-11D7-A4B7-E675BA55FD37}.description",
       "source": "車体には軽量ステンレスを使用し、VVVFインバータ制御などの新技術を導入、省エネ化と\n保守の省力化を図っている。車体は３ドア構造で、室内は片側が（ボックス型）、もう片方が（ロングシート形）となっています。\n編成は２両編成が基本で98年12月から導入された。",
-      "translation": ""
+      "translation": "The car body uses lightweight stainless steel, and new technologies such as VVVF inverter control have been introduced to achieve energy savings and reduced maintenance. The car body has a 3-door structure, with one side of the interior being box-type seating and the other side long-seat type. The basic formation is two cars, introduced from December 1998."
     },
     {
       "key": "contribution.{D772F862-76A0-11D7-A4B7-E675BA55FD37}.name",
       "source": "近郊形電車",
-      "translation": ""
+      "translation": "Suburban electric train"
     },
     {
       "key": "contribution.{D772F862-76A0-11D7-A4B7-E675BA55FD37}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{D772F862-76A0-11D7-A4B7-E675BA55FD37}.type",
       "source": "125系",
-      "translation": ""
+      "translation": "125 Series"
     },
     {
       "key": "contribution.{D772F862-76A0-11D7-A4B7-E675BA55FD37}.description",
       "source": "2003年3月、JR西日本小浜線(東舞鶴～敦賀)の電化開業により登場。\n１形式クモハ１２５のみで、単行＆ワンマン運転が可能。最高速度は120km/h（小浜線内での最高速度は85km/h）。",
-      "translation": ""
+      "translation": "Introduced in March 2003 with the electrification of the JR West Obama Line (Higashi-Maizuru to Tsuruga). Only the KuMoHa 125 type exists, capable of single-car and one-man operation. Maximum speed is 120km/h (maximum speed within the Obama Line is 85km/h)."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECE165-M}.name",
       "source": "急行ムーンライトえちご",
-      "translation": ""
+      "translation": "Express Moonlight Echigo"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECE165-M}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECE165-M}.type",
       "source": "165系",
-      "translation": ""
+      "translation": "165 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECE165-M}.description",
       "source": "上沼垂区１６５系Ｍ編成は新宿～新潟・村上菅野夜行快速「ムーンライトえちご号」として運転されている。\nまた、間合い運用として「フェアウェイ号(新宿～黒磯)」としても運転されている。",
-      "translation": ""
+      "translation": "The Kamisuppara Depot 165 series M formation operates as the Shinjuku-Niigata/Murakami-Sugano overnight rapid 'Moonlight Echigo'. It also operates as the 'Fairway' (Shinjuku-Kuroiso) during off-peak hours."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECE455-S}.name",
       "source": "快速仙台シティラビット",
-      "translation": ""
+      "translation": "Rapid Sendai City Rabbit"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECE455-S}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECE455-S}.type",
       "source": "455系",
-      "translation": ""
+      "translation": "455 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECE455-S}.description",
       "source": "かつて急行「まつしま」「ざおう」などで活躍していた455系もいまは車内を近郊形改造され3両編成でローカル運用に就いている。\n昭和63年から平成3年までの間、若番車を中心に一部の車両は車体更新工事が行われた。東北本線の黒磯－仙台－利府・一ノ関間、常磐線の仙台－水戸間、\n磐越西線で運用される。常磐線では堂々の9両編成が見られる。\n下り快速「仙台シティラビット」として福島→仙台間で運転されるが、これは現在唯一の快速運用である。",
-      "translation": ""
+      "translation": "The 455 Series, once active on express services like \"Matsushima\" and \"Zaō\", now operates in local services with 3-car formations after undergoing suburban-type interior modifications. Between 1988 and 1991, some cars, mainly those with lower numbers, underwent body renovation. They operate on the Tohoku Main Line between Kuroiso, Sendai, Rifu, and Ichinoseki, the Joban Line between Sendai and Mito, and the Ban'etsu West Line. On the Joban Line, a magnificent 9-car formation can be seen. It operates as the outbound rapid \"Sendai City Rabbit\" between Fukushima and Sendai, which is currently its only rapid service."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECE455-Ｙ}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECE455-Ｙ}.type",
       "source": "455系",
-      "translation": ""
+      "translation": "455 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECE455-Ｙ}.description",
       "source": "'97年10月14日から仙山線で営業運転を開始。\nイメージアップのために塗色を青をベースに蔵王の雪景色をイメージした白に6編成が変更された。",
-      "translation": ""
+      "translation": "Commercial operation began on the Senzan Line on October 14, 1997. To improve its image, six formations were repainted with a blue base and white accents, inspired by the snowy landscape of Zao."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECE455-Ｂ}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECE455-Ｂ}.type",
       "source": "455系",
-      "translation": ""
+      "translation": "455 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECE455-Ｂ}.description",
       "source": "平成8年から磐越西線の活性化を図るために塗色変更車が登場した。\n全7編成が磐越西線の郡山－喜多方間で運用に就いている。塗色変更車はすべて車体更新車。\n'99年12月改正で廃止となり、現在では仙台周辺で不定期に運用されている。",
-      "translation": ""
+      "translation": "From 1996, repainted cars appeared to revitalize the Ban'etsu West Line. All 7 sets are in service between Koriyama and Kitakata on the Ban'etsu West Line. All repainted cars are refurbished. They were abolished in the December 1999 revision and are currently used irregularly around Sendai."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECE169-H}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECE169-H}.type",
       "source": "169系",
-      "translation": ""
+      "translation": "169 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECE169-H}.description",
       "source": "長野地区にＥ１２７系が投入され、三鷹区の１６９系を置き換えるために転属。\n同車は新幹線リレー号、ホリデー快速、大垣救済臨などの運用に入り、中央快速線を９両（ホリデー快速ピクニック）で走る姿は\n塗装こそ違うが、往年の１６９系を彷彿させる。",
-      "translation": ""
+      "translation": "The E127 Series was introduced in the Nagano area and transferred to replace the 169 Series at Mitaka Depot. These trains are used for services such as the Shinkansen Relay, Holiday Rapid, and Ogaki Relief trains. Their appearance running on the Chuo Rapid Line in 9-car formations (Holiday Rapid Picnic) evokes the former 169 Series, despite the different livery."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECE169-S}.name",
       "source": "長野色",
-      "translation": ""
+      "translation": "Nagano livery"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECE169-S}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECE169-S}.type",
       "source": "169系",
-      "translation": ""
+      "translation": "169 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECE169-S}.description",
       "source": "長野冬季五輪に合わせ、長野支社管内車両のイメージアップを図るため、\n'93年(平成５年)頃から長野・松本両区に所属する115・165・169系に採用された塗装。\nこれは車内アコモデーションに関わりなく塗色変更が行われた。",
-      "translation": ""
+      "translation": "This livery was adopted around 1993 (Heisei 5) for the 115, 165, and 169 Series trains belonging to the Nagano and Matsumoto depots, to improve the image of vehicles within the Nagano Branch's jurisdiction in conjunction with the Nagano Winter Olympics. This color change was implemented regardless of the interior accommodation."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECE169-M}.name",
       "source": "みすず色",
-      "translation": ""
+      "translation": "Misuzu Color"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECE169-M}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECE169-M}.type",
       "source": "169系",
-      "translation": ""
+      "translation": "169 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECE169-M}.description",
       "source": "車両は信越本線で使用された長野運転所の169系３両編成の中間にサハ165系を挟んだ４両編成。\n外観はＮストライプと呼ばれるアイボリーの車体にグリーンのＮをあしらったデザイン。\n車内も廃車となった新幹線のリクライニングシートを使用して、室内サービスの向上を図った。",
-      "translation": ""
+      "translation": "The train is a 4-car formation, consisting of a 3-car 169 Series formation from Nagano Depot, used on the Shin'etsu Main Line, with a Saha 165 Series car inserted in the middle. The exterior features an ivory body with a green 'N' design, known as the N-stripe. The interior also uses reclining seats from retired Shinkansen trains to improve in-car service."
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DCC75}.name",
       "source": "汎用型気動車",
-      "translation": ""
+      "translation": "General-purpose diesel railcar"
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DCC75}.company",
       "source": "JR東海",
-      "translation": ""
+      "translation": "JR Central"
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DCC75}.type",
       "source": "キハ75系",
-      "translation": ""
+      "translation": "Kiha 75 Series"
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DCC75}.description",
-      "source": "老朽化したキハ58系などの置換え用として製造された。エンジンなどの下回りはキハ85系と同等で、出力350ps、最高速度120km/hである。ステンレス車体の３扉車で、転換クロスシートである。\n\u3000快速みえ、急行かすが、武豊線で使われている。",
-      "translation": ""
+      "source": "老朽化したキハ58系などの置換え用として製造された。エンジンなどの下回りはキハ85系と同等で、出力350ps、最高速度120km/hである。ステンレス車体の３扉車で、転換クロスシートである。\n　快速みえ、急行かすが、武豊線で使われている。",
+      "translation": "Manufactured to replace aging Kiha 58 Series and similar trains. The undercarriage, including the engine, is equivalent to the Kiha 85 Series, with an output of 350ps and a maximum speed of 120 km/h. It is a 3-door train with a stainless steel body and convertible cross-seats. It is used on the Rapid Mie, Express Kasuga, and Taketoyo Line."
     },
     {
       "key": "contribution.{6CAFE163-74FE-11D7-A4B7-444553540000}.name",
       "source": "近郊形気動車",
-      "translation": ""
+      "translation": "Suburban diesel railcar"
     },
     {
       "key": "contribution.{6CAFE163-74FE-11D7-A4B7-444553540000}.company",
       "source": "JR東海",
-      "translation": ""
+      "translation": "JR Central"
     },
     {
       "key": "contribution.{6CAFE163-74FE-11D7-A4B7-444553540000}.type",
       "source": "キハ11系",
-      "translation": ""
+      "translation": "Kiha 11 Series"
     },
     {
       "key": "contribution.{6CAFE163-74FE-11D7-A4B7-444553540000}.description",
       "source": "近距離近郊型車輛として投入した新型ディーゼル車輛。一部が東海交通事業所(城北線)から借り入れている。",
-      "translation": ""
+      "translation": "New diesel railcars introduced for short-distance suburban services. Some are leased from Tokai Transport Service (Johoku Line)."
     },
     {
       "key": "contribution.{6CAFE167-74FE-11D7-A4B7-444553540000}.name",
       "source": "特急型気動車",
-      "translation": ""
+      "translation": "Limited Express Diesel Railcar"
     },
     {
       "key": "contribution.{6CAFE167-74FE-11D7-A4B7-444553540000}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{6CAFE167-74FE-11D7-A4B7-444553540000}.type",
       "source": "キハ187系",
-      "translation": ""
+      "translation": "Kiha 187 Series"
     },
     {
       "key": "contribution.{6CAFE167-74FE-11D7-A4B7-444553540000}.description",
       "source": "山陰本線西部の高速化に向けに造られた、新型特急気動車。今後も鳥取方面に投入予定。",
-      "translation": ""
+      "translation": "A new limited express diesel railcar built for high-speed operation on the western San'in Main Line. Scheduled for future deployment towards Tottori."
     },
     {
       "key": "contribution.{6CAFE16A-74FE-11D7-A4B7-444553540000}.name",
       "source": "近郊形気動車（YDC125）",
-      "translation": ""
+      "translation": "Suburban Diesel Railcar (YDC125)"
     },
     {
       "key": "contribution.{6CAFE16A-74FE-11D7-A4B7-444553540000}.company",
       "source": "JR九州",
-      "translation": ""
+      "translation": "JR Kyushu"
     },
     {
       "key": "contribution.{6CAFE16A-74FE-11D7-A4B7-444553540000}.type",
       "source": "キハ125系",
-      "translation": ""
+      "translation": "Kiha 125 Series"
     },
     {
       "key": "contribution.{6CAFE16A-74FE-11D7-A4B7-444553540000}.description",
       "source": "大型のキハ200では輸送力が過剰な路線があり、それに合わせて小型のキハ125が作られた。\n車体は新潟鉄工製作のレールバス（ＮＤＣ）規格。\n内装と外部の塗装はドーンデザイン研究所の水戸岡鋭冶氏によるもの。",
-      "translation": ""
+      "translation": "Some lines had excessive transport capacity with the large Kiha 200, so the smaller Kiha 125 was created to match. The body is based on Niigata Transys's railbus (NDC) standard. The interior and exterior paint were designed by Eiji Mitooka of Don Design Associates."
     },
     {
       "key": "contribution.{6CAFE16E-74FE-11D7-A4B7-444553540000}.name",
       "source": "近郊形気動車",
-      "translation": ""
+      "translation": "Suburban diesel railcar"
     },
     {
       "key": "contribution.{6CAFE16E-74FE-11D7-A4B7-444553540000}.company",
       "source": "JR九州",
-      "translation": ""
+      "translation": "JR Kyushu"
     },
     {
       "key": "contribution.{6CAFE16E-74FE-11D7-A4B7-444553540000}.type",
       "source": "キハ31系",
-      "translation": ""
+      "translation": "KiHa 31 Series"
     },
     {
       "key": "contribution.{6CAFE16E-74FE-11D7-A4B7-444553540000}.description",
       "source": "国鉄最後の新形式、ステンレス車体で転換クロスシート装備。豊肥・久大・肥薩線に運用。",
-      "translation": ""
+      "translation": "JNR's last new model, featuring a stainless steel body and convertible cross-seats. Operates on the Hohi, Kyudai, and Hisatsu Lines."
     },
     {
       "key": "contribution.{6CAFE173-74FE-11D7-A4B7-444553540000}.name",
       "source": "関西線色",
-      "translation": ""
+      "translation": "Kansai Line color"
     },
     {
       "key": "contribution.{6CAFE173-74FE-11D7-A4B7-444553540000}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{6CAFE173-74FE-11D7-A4B7-444553540000}.type",
       "source": "キハ120系",
-      "translation": ""
+      "translation": "Kiha 120 Series"
     },
     {
       "key": "contribution.{6CAFE173-74FE-11D7-A4B7-444553540000}.description",
       "source": "JR西日本発足後の初の新製軽快気動車。エンジンが３３０PSに変更された０番台。ロングシートの編成。",
-      "translation": ""
+      "translation": "The first newly built light diesel railcar after the establishment of JR West. The 0 sub-series with an engine changed to 330 PS. A long-seat formation."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECE185-M}.name",
       "source": "新特急電車",
-      "translation": ""
+      "translation": "New Limited Express Electric Train"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECE185-M}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECE185-M}.type",
       "source": "185系",
-      "translation": ""
+      "translation": "185 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECE185-M}.description",
       "source": "新幹線上野開業後に在来線特急への転用を考慮し、185系0番代を耐寒・耐雪構造として\n1982(昭和57)年に185系200番代が新製された。\n200番台は165系との併結が考慮され、碓氷峠の通過に備えて横軽対策車となっている。\nリニューアル工事が行われ、普通車のリクライニングシート化が完了した。",
-      "translation": ""
+      "translation": "Considering conversion to conventional line limited express services after the opening of the Shinkansen to Ueno, the 185 series 200 sub-series was newly manufactured in 1982 (Showa 57) with a cold- and snow-resistant structure, based on the 185 series 0 sub-series. The 200 sub-series was designed for coupling with the 165 series and is equipped with Yokokaru measures for passing through the Usui Pass. Renovation work has been carried out, and the conversion of ordinary cars to reclining seats has been completed."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ185-J}.name",
       "source": "伊豆特急「踊り子」",
-      "translation": ""
+      "translation": "Izu Limited Express 'Odoriko'"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ185-J}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ185-J}.type",
       "source": "185系",
-      "translation": ""
+      "translation": "185 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ185-J}.description",
       "source": "東京と伊豆を結ぶ優等列車として急行伊豆の特急化を前提に、\n153系と同様に普通列車への間合運用を考慮した特急形電車として、1981(昭和56)年に新製されたのが185系0番代である。\n185系は関西地区で新快速用として使用されていた117系近郊形直流電車を基本とし、順次置換予定の153系とも併結可能な構造としている。",
-      "translation": ""
+      "translation": "The 185 Series 0 subclass was newly built in 1981 (Showa 56) as a limited express electric train, designed for inter-service operation on local trains, similar to the 153 Series, and intended for the conversion of the Express Izu to a limited express connecting Tokyo and Izu. The 185 Series is based on the 117 Series suburban DC electric train used for New Rapid services in the Kansai region, and is designed to be connectable with the 153 Series, which it was scheduled to replace."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECE185-T}.name",
       "source": "伊豆特急「踊り子」",
-      "translation": ""
+      "translation": "Izu Limited Express 'Odoriko'"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECE185-T}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECE185-T}.type",
       "source": "185系",
-      "translation": ""
+      "translation": "185 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECE185-T}.description",
       "source": "東京と伊豆を結ぶ優等列車として急行伊豆の特急化を前提に、\n153系と同様に普通列車への間合運用を考慮した特急形電車として、1981(昭和56)年に新製されたのが185系0番代である。\n185系は関西地区で新快速用として使用されていた117系近郊形直流電車を基本とし、順次置換予定の153系とも併結可能な構造としている。\n現在はリニューアル工事が行われ、白地に湘南色を配した外部色への変更、普通車のリクライニングシート化が完了した。",
-      "translation": ""
+      "translation": "The 185 Series 0 subclass was newly built in 1981 (Showa 56) as a limited express electric train, designed for inter-service operation on local trains, similar to the 153 Series, and intended for the conversion of the Express Izu to a limited express connecting Tokyo and Izu. The 185 Series is based on the 117 Series suburban DC electric train used for New Rapid services in the Kansai region, and is designed to be connectable with the 153 Series, which it was scheduled to replace. It has since undergone renovation, including a change to an exterior color of Shonan livery on a white base, and the installation of reclining seats in ordinary cars."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ185-I}.name",
       "source": "急行「伊豆」混編成",
-      "translation": ""
+      "translation": "Express \"Izu\" mixed formation"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ185-I}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ185-I}.type",
       "source": "185系＆153系",
-      "translation": ""
+      "translation": "185 Series & 153 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ185-I}.description",
       "source": "１８５系登場当時に見られた、１５３系との併結編成。基本１０両と付属５両がそれぞれ１８５系だったり１５３系だったりと、組み合わせいろいろ。\n特急「踊り子」運転開始前の急行「伊豆」や普通列車の運用に充当されていました。",
-      "translation": ""
+      "translation": "A combined formation with the 153 Series, seen when the 185 Series first appeared. Various combinations existed, with the basic 10-car and attached 5-car formations being either 185 Series or 153 Series. It was used for Express \"Izu\" and local train services before the start of Limited Express \"Odoriko\" operations."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ157-A}.name",
       "source": "特急「あまぎ」「白根」編成",
-      "translation": ""
+      "translation": "Limited Express \"Amagi\", \"Shirane\" Formation"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ157-A}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ157-A}.type",
       "source": "157系",
-      "translation": ""
+      "translation": "157 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ157-A}.description",
       "source": "157系は今でいうところのリゾートＥｘｐｒｅｓｓとして首都圏を中心に運転されるとともに、\nご静養などで那須や伊豆の御用邸へ往復される際のお召列車としても活躍。\n特急並みの設備を有するDX準急 … という登場時の車両コンセプトゆえに、通勤電車から特急電車に至る国鉄電車の\n体系からやや外れたポジションにあったことも157系の魅力であった。昭和51年に特急あまぎ運用から降り、最後まで残った\nお召し列車編成も183系に譲って、昭和57年に廃車となった。",
-      "translation": ""
+      "translation": "The 157 Series operated mainly in the Tokyo metropolitan area as what would now be called a Resort Express, and also served as an Imperial Train for round trips to Imperial villas in Nasu and Izu for recuperation. Due to its initial concept as a \"DX Semi-Express\" with Limited Express-level facilities, its position somewhat outside the JNR electric train system, ranging from commuter to limited express trains, was also part of the 157 Series' appeal. It was withdrawn from Limited Express Amagi service in Showa 51 (1976), and the last remaining Imperial Train formation was replaced by the 183 Series and retired in Showa 57 (1982)."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ153-S}.name",
       "source": "湘南急行電車",
-      "translation": ""
+      "translation": "Shonan Express Electric Train"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ153-S}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ153-S}.type",
       "source": "153系",
-      "translation": ""
+      "translation": "153 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ165-S}.name",
       "source": "湘南急行電車(HMあり)",
-      "translation": ""
+      "translation": "Shonan Express Electric Train (with headmark)"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ165-S}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ165-S}.type",
       "source": "165系",
-      "translation": ""
+      "translation": "165 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ164-S}.name",
       "source": "湘南急行電車(HMなし)",
-      "translation": ""
+      "translation": "Shonan Express Electric Train (without headmark)"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ164-S}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ164-S}.type",
       "source": "165系",
-      "translation": ""
+      "translation": "165 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ455-K}.name",
       "source": "東北急行電車",
-      "translation": ""
+      "translation": "Tohoku Express Electric Train"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ455-K}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ455-K}.type",
       "source": "455系",
-      "translation": ""
+      "translation": "455 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ475-K}.name",
       "source": "北陸急行電車",
-      "translation": ""
+      "translation": "Hokuriku Express Electric Train"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ475-K}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ475-K}.type",
       "source": "475系",
-      "translation": ""
+      "translation": "475 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ475-K}.description",
       "source": "６０Hzの北陸本線に登場した４７１系統で、抑速ブレーキ付となり勾配区間がある線区で活躍するようになった。\n数々の急行列車で活躍し、次第に特急化されるにつれ、普通列車にも使われるようになった。",
-      "translation": ""
+      "translation": "The 471 Series debuted on the 60Hz Hokuriku Main Line, equipped with dynamic brakes, making it active on lines with steep gradients. It served on numerous express trains and gradually, as limited express services increased, it also came to be used for local trains."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ153-B}.name",
       "source": "ブルーライナー",
-      "translation": ""
+      "translation": "Blue Liner"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ153-B}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ153-B}.type",
       "source": "153系",
-      "translation": ""
+      "translation": "153 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ153-B}.description",
       "source": "昭和47年に新幹線が岡山まで延長されると、急行用153系の捻出が可能となり、冷房化、スピードアップを含め、\n空気バネつき台車の乗り心地良さ、また列車ダイヤのネット化・増発などにより新快速電車として登場した。しかし、私鉄との競合という地域の特殊性から、\n列車の陳腐化なども重なり、ついに後継の座を117系に譲った。",
-      "translation": ""
+      "translation": "When the Shinkansen was extended to Okayama in 1972, 153 series express trains became available. It appeared as a New Rapid train, featuring air conditioning, increased speed, comfortable ride with air-spring bogies, and an optimized and increased train schedule. However, due to the unique regional competition with private railways and the aging of the trains, it eventually ceded its role to the 117 series."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ117-S}.name",
       "source": "シティーライナー",
-      "translation": ""
+      "translation": "City Liner"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ117-S}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ117-S}.type",
       "source": "117系",
-      "translation": ""
+      "translation": "117 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ117-S}.description",
       "source": "昭和55年から私鉄と競合する京阪神間でのスピードアップやリクライニングシートを導入して快適さ、\n流線型の先頭車など独特なスタイルで、陳腐化した153系ブルーライナーに変って新快速の役割を担った。\nまた、二年後には関西圏だけでなく名鉄と競合する中京地区でも東海ライナーとして投入された。",
-      "translation": ""
+      "translation": "From 1980, it took on the role of a New Rapid train, replacing the aging 153 series Blue Liner, with its unique style featuring increased speed and reclining seats for comfort on the Keihanshin route, competing with private railways, and streamlined lead cars. Two years later, it was also introduced as the Tokai Liner in the Chūkyō region, competing with Meitetsu, not just in the Kansai area."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECC117-C}.name",
       "source": "東海ライナー",
-      "translation": ""
+      "translation": "Tokai Liner"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECC117-C}.company",
       "source": "JR東海",
-      "translation": ""
+      "translation": "JR Central"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECC117-C}.type",
       "source": "117系",
-      "translation": ""
+      "translation": "117 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECC117-C}.description",
       "source": "関西圏に続き名古屋圏でも昭和57年から東海ライナーという愛称で暫定投入され、153系・165系の快速から置き換えられた。\n昭和61年から、中央西線にも投入される事になり６連から４連に組み返られ、以降211系などと活躍したが、平成元年から311系が新製されて快速の運用から外れた。\nこの時から会社のコーポレートカラーに塗り替えられた。1992年度で一部の車両が車端部ロングシート化改造を受けている。",
-      "translation": ""
+      "translation": "Following the Kansai region, these were temporarily introduced in the Nagoya region from 1982 (Showa 57) under the nickname Tokai Liner, replacing the 153 and 165 Series rapid trains. From 1986 (Showa 61), they were also introduced on the Chuo West Line, reorganized from 6-car to 4-car formations, and operated alongside the 211 Series and others. However, with the introduction of the 311 Series in 1989 (Heisei 1), they were removed from rapid services. From this time, they were repainted in the company's corporate colors. In fiscal year 1992, some cars underwent modifications to have long seats at the car ends."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW117-F}.name",
       "source": "300番台福知山色",
-      "translation": ""
+      "translation": "300 series Fukuchiyama color"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW117-F}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW117-F}.type",
       "source": "117系",
-      "translation": ""
+      "translation": "117 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW117-F}.description",
       "source": "福知山線向けに改造された１１７系の中でも３００番台に分類される編成。\n色は白地にグリーンのカラーリングで、塗り分けは東海色のようだが、ライト周りまで及んでいない。\nまた、３００番台は、ドアから中より２シート分をロングシートに改造してあり、乗降口の混雑緩和を図っている。",
-      "translation": ""
+      "translation": "A 117 Series formation classified as the 300 subclass, modified for the Fukuchiyama Line. The color scheme is green on a white base, similar to the Tokai livery, but it does not extend to the area around the lights. Additionally, the 300 subclass has two seats from the door converted to long seats to alleviate congestion at entrances and exits."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW117-O}.name",
       "source": "サンライナー",
-      "translation": ""
+      "translation": "Sunliner"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW117-O}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW117-O}.type",
       "source": "117系",
-      "translation": ""
+      "translation": "117 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW117-O}.description",
       "source": "平成4年3月改正に117系の中間車を115系3500番台(岡山電車区・広島運転所)に改造され、\n残りの４連が同改正から30分ヘッドとなった岡山～福山間快速「サンライナー」に投入された。\n岡山地区の普通運用や平成６年には臨時快速「三都ライナー」として京都まで乗り入れた。\n三都ライナー廃止後の翌年から福山～広島間のホリデー快速「スーパーラビット」の運用に就く（Ｈ14年廃止）。\n現在ではワンマン運転に改造されている。",
-      "translation": ""
+      "translation": "In the March 1992 revision, 117 Series intermediate cars were converted to 115 Series 3500 sub-series (Okayama Train Depot, Hiroshima Operations Center), and the remaining 4-car sets were introduced to the Okayama-Fukuyama 'Sunliner' rapid service, which became a 30-minute interval service from the same revision. It was used for local services in the Okayama area and, in 1994, operated as far as Kyoto as the temporary 'Santo Liner' rapid service. After the Santo Liner was abolished, from the following year, it was used for the Fukuyama-Hiroshima 'Super Rabbit' holiday rapid service (abolished in 2002). Currently, it has been modified for one-person operation."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW117-W}.name",
       "source": "オーシャン色",
-      "translation": ""
+      "translation": "Ocean Livery"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW117-W}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW117-W}.type",
       "source": "117系",
-      "translation": ""
+      "translation": "117 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW117-W}.description",
       "source": "平成13年末から和歌山地区（きのくに線、和歌山線）向けに０・300番台がワンマン改造されて投入された。\n塗装は同地区を通過する南紀特急オーシャンアロー車（285系）のカラーを採用。",
-      "translation": ""
+      "translation": "From late 2001 (Heisei 13), the 0 and 300 subclasses were modified for one-man operation and introduced to the Wakayama area (Kinokuni Line, Wakayama Line). The livery adopted the colors of the Nanki Limited Express Ocean Arrow (285 Series) that passes through the same area."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW117-S}.name",
       "source": "混色新快速",
-      "translation": ""
+      "translation": "Mixed Livery Special Rapid"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW117-S}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW117-S}.type",
       "source": "117系",
-      "translation": ""
+      "translation": "117 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW117-S}.description",
       "source": "221系新快速の補完として、朝夕のみ新快速として投入された。",
-      "translation": ""
+      "translation": "Introduced as a Special Rapid Service only during morning and evening to supplement the 221 Series Special Rapid Service."
     }
   ]
 }

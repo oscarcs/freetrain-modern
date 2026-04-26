@@ -6,142 +6,142 @@
     {
       "key": "plugin.title",
       "source": "JR東日本 車両セット",
-      "translation": ""
+      "translation": "JR East Rolling Stock Set"
     },
     {
       "key": "contribution.{005BDC20-4885-11D8-968B-0800460222F0-titech-485K60}.name",
       "source": "勝田区K60編成",
-      "translation": ""
+      "translation": "Katsuta Depot K60 Formation"
     },
     {
       "key": "contribution.{005BDC20-4885-11D8-968B-0800460222F0-titech-485K60}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{005BDC20-4885-11D8-968B-0800460222F0-titech-485K60}.type",
       "source": "485系",
-      "translation": ""
+      "translation": "485 Series"
     },
     {
       "key": "contribution.{005BDC20-4885-11D8-968B-0800460222F0-titech-485K60}.description",
       "source": "勝田電車区の臨時・団臨用485系",
-      "translation": ""
+      "translation": "485 Series for temporary and group charter services at Katsuta Rolling Stock Center."
     },
     {
       "key": "contribution.{9AD58640-3D5C-11D8-968B-0800460222F0-titech-e926}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{9AD58640-3D5C-11D8-968B-0800460222F0-titech-e926}.type",
       "source": "E926形",
-      "translation": ""
+      "translation": "E926 Series"
     },
     {
       "key": "contribution.{9AD58640-3D5C-11D8-968B-0800460222F0-titech-e926}.description",
       "source": "JR東日本のフル規格・ミニ新幹線全線区における\n架線・線路の検査を行う新幹線電気軌道総合試験車",
-      "translation": ""
+      "translation": "Shinkansen comprehensive inspection train for overhead lines and tracks on all JR East full-standard and mini-Shinkansen lines"
     },
     {
       "key": "contribution.{9AD58641-3D5C-11D8-968B-0800460222F0-titech-e2-hayate}.name",
       "source": "はやて(ピンク帯)",
-      "translation": ""
+      "translation": "Hayate (pink stripe)"
     },
     {
       "key": "contribution.{9AD58641-3D5C-11D8-968B-0800460222F0-titech-e2-hayate}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{9AD58641-3D5C-11D8-968B-0800460222F0-titech-e2-hayate}.type",
       "source": "E2系",
-      "translation": ""
+      "translation": "E2 Series"
     },
     {
       "key": "contribution.{9AD58641-3D5C-11D8-968B-0800460222F0-titech-e2-hayate}.description",
       "source": "東北新幹線八戸開業時に登場した\nピンク帯のE2系です。",
-      "translation": ""
+      "translation": "This is the E2 Series with a pink stripe that appeared when the Tohoku Shinkansen opened to Hachinohe."
     },
     {
       "key": "contribution.{8773C1E0-3EDB-11D8-968B-0800460222F0-titech-e3-tsubasa}.name",
       "source": "つばさ",
-      "translation": ""
+      "translation": "Tsubasa"
     },
     {
       "key": "contribution.{8773C1E0-3EDB-11D8-968B-0800460222F0-titech-e3-tsubasa}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{8773C1E0-3EDB-11D8-968B-0800460222F0-titech-e3-tsubasa}.type",
       "source": "E3系",
-      "translation": ""
+      "translation": "E3 Series"
     },
     {
       "key": "contribution.{8773C1E0-3EDB-11D8-968B-0800460222F0-titech-e3-tsubasa}.description",
       "source": "山形新幹線新庄延伸にともなう増備車は400系ではなく\"こまち\"と同型のE3系となった。\n銀色の車体に緑色の帯という塗色は後に400系でも採用されている。",
-      "translation": ""
+      "translation": "The additional cars for the Yamagata Shinkansen Shinjō extension were not 400 Series but E3 Series, the same type as 'Komachi'. The silver body with a green stripe livery was later adopted for the 400 Series as well."
     },
     {
       "key": "contribution.{8773C1E9-3EDB-11D8-968B-0800460222F0-titech-e1-renewal}.name",
       "source": "Max リニューアル",
-      "translation": ""
+      "translation": "Max Renewal"
     },
     {
       "key": "contribution.{8773C1E9-3EDB-11D8-968B-0800460222F0-titech-e1-renewal}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{8773C1E9-3EDB-11D8-968B-0800460222F0-titech-e1-renewal}.type",
       "source": "E1系",
-      "translation": ""
+      "translation": "E1 Series"
     },
     {
       "key": "contribution.{8773C1E9-3EDB-11D8-968B-0800460222F0-titech-e1-renewal}.description",
       "source": "平成15年末に登場したE1系Maxのリニューアル車。\n塗色がE4系と同様の塗り分けとなったが、帯の色は朱鷺色になっている。",
-      "translation": ""
+      "translation": "A renewed E1 Series Max that appeared in late 2003. The livery adopted the same color scheme as the E4 Series, but the stripe color is Toki (crested ibis) pink."
     },
     {
       "key": "contribution.{9AD58642-3D5C-11D8-968B-0800460222F0-hyate-plus-komachi}.name",
       "source": "はやて+こまち",
-      "translation": ""
+      "translation": "Hayate + Komachi"
     },
     {
       "key": "contribution.{9AD58642-3D5C-11D8-968B-0800460222F0-hyate-plus-komachi}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{9AD58642-3D5C-11D8-968B-0800460222F0-hyate-plus-komachi}.type",
       "source": "E2系+E3系",
-      "translation": ""
+      "translation": "E2 Series + E3 Series"
     },
     {
       "key": "contribution.{9AD58642-3D5C-11D8-968B-0800460222F0-hyate-plus-komachi}.description",
       "source": "E2系\"はやて\"とE3系\"こまち\"を併結した16両編成です。",
-      "translation": ""
+      "translation": "A 16-car formation combining the E2 Series 'Hayate' and E3 Series 'Komachi'."
     },
     {
       "key": "contribution.{8773C1E0-3EDB-11D8-968B-0800460222F0-e3pluse4}.name",
       "source": "つばさ+Maxやまびこ",
-      "translation": ""
+      "translation": "Tsubasa + Max Yamabiko"
     },
     {
       "key": "contribution.{8773C1E0-3EDB-11D8-968B-0800460222F0-e3pluse4}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{8773C1E0-3EDB-11D8-968B-0800460222F0-e3pluse4}.type",
       "source": "E3系+E4系",
-      "translation": ""
+      "translation": "E3 Series + E4 Series"
     },
     {
       "key": "contribution.{8773C1E0-3EDB-11D8-968B-0800460222F0-e3pluse4}.description",
       "source": "東京～福島間で見られる\"つばさ\"と\"Maxやまびこ\"の併結編成",
-      "translation": ""
+      "translation": "Combined \"Tsubasa\" and \"Max Yamabiko\" train seen between Tokyo and Fukushima."
     }
   ]
 }

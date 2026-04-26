@@ -6,122 +6,122 @@
     {
       "key": "contribution.{kiha200-kyushu-ibusuki-kashii-200309301100}.name",
       "source": "香椎線/指宿枕崎線",
-      "translation": ""
+      "translation": "Kashii Line / Ibusuki Makurazaki Line"
     },
     {
       "key": "contribution.{kiha200-kyushu-ibusuki-kashii-200309301100}.company",
       "source": "JR九州",
-      "translation": ""
+      "translation": "JR Kyushu"
     },
     {
       "key": "contribution.{kiha200-kyushu-ibusuki-kashii-200309301100}.type",
       "source": "キハ200系",
-      "translation": ""
+      "translation": "Kiha 200 Series"
     },
     {
       "key": "contribution.{kiha200-kyushu-ibusuki-kashii-200309301100}.description",
       "source": "九州で走っている、気動車です。",
-      "translation": ""
+      "translation": "A diesel railcar running in Kyushu."
     },
     {
       "key": "contribution.{4E5FD73B-4F93-49f4-9FE8-9E8AE5FE2127}.name",
       "source": "前面ボンネット無・みどり、かもめ等",
-      "translation": ""
+      "translation": "No front bonnet - for Midori, Kamome, etc."
     },
     {
       "key": "contribution.{4E5FD73B-4F93-49f4-9FE8-9E8AE5FE2127}.company",
       "source": "JR九州",
-      "translation": ""
+      "translation": "JR Kyushu"
     },
     {
       "key": "contribution.{4E5FD73B-4F93-49f4-9FE8-9E8AE5FE2127}.type",
       "source": "485系",
-      "translation": ""
+      "translation": "485 Series"
     },
     {
       "key": "contribution.{4E5FD73B-4F93-49f4-9FE8-9E8AE5FE2127}.description",
       "source": "昭和43年に登場した交直両用特急電車。登場以来数々の特急の代名詞となった。赤くなってみたり緑になってみたりしている。",
-      "translation": ""
+      "translation": "An AC/DC limited express electric train that appeared in 1968. Since its debut, it has become synonymous with many limited express trains. It has appeared in various colors, including red and green."
     },
     {
       "key": "contribution.{7E0F257B-57AF-4eda-8E9A-FE51C3734BCF}.name",
       "source": "標準色",
-      "translation": ""
+      "translation": "Standard livery"
     },
     {
       "key": "contribution.{7E0F257B-57AF-4eda-8E9A-FE51C3734BCF}.company",
       "source": "JR九州",
-      "translation": ""
+      "translation": "JR Kyushu"
     },
     {
       "key": "contribution.{7E0F257B-57AF-4eda-8E9A-FE51C3734BCF}.type",
       "source": "415系",
-      "translation": ""
+      "translation": "415 Series"
     },
     {
       "key": "contribution.{7E0F257B-57AF-4eda-8E9A-FE51C3734BCF}.description",
       "source": "主に鹿児島本線を走る電車。交直流区間を走ることができるので、下関方面乗り入れに使われる。",
-      "translation": ""
+      "translation": "An electric train mainly running on the Kagoshima Main Line. It can run on both AC and DC sections, so it is used for through service to Shimonoseki."
     },
     {
       "key": "contribution.{23CAB2B9-D540-456f-B02F-671BC2ED03A5}.name",
       "source": "基本色",
-      "translation": ""
+      "translation": "Basic color"
     },
     {
       "key": "contribution.{23CAB2B9-D540-456f-B02F-671BC2ED03A5}.company",
       "source": "JR九州",
-      "translation": ""
+      "translation": "JR Kyushu"
     },
     {
       "key": "contribution.{23CAB2B9-D540-456f-B02F-671BC2ED03A5}.type",
       "source": "811系",
-      "translation": ""
+      "translation": "811 Series"
     },
     {
       "key": "contribution.{23CAB2B9-D540-456f-B02F-671BC2ED03A5}.description",
       "source": "主に福岡地区で活躍する通勤電車。４両で構成される。",
-      "translation": ""
+      "translation": "Commuter trains mainly active in the Fukuoka area. Consists of 4 cars."
     },
     {
       "key": "contribution.{B8FF8145-9108-4165-BBD5-46B647D75E2B}.name",
       "source": "基本色",
-      "translation": ""
+      "translation": "Basic color"
     },
     {
       "key": "contribution.{B8FF8145-9108-4165-BBD5-46B647D75E2B}.company",
       "source": "JR九州",
-      "translation": ""
+      "translation": "JR Kyushu"
     },
     {
       "key": "contribution.{B8FF8145-9108-4165-BBD5-46B647D75E2B}.type",
       "source": "813系",
-      "translation": ""
+      "translation": "813 Series"
     },
     {
       "key": "contribution.{B8FF8145-9108-4165-BBD5-46B647D75E2B}.description",
       "source": "主に福岡・大分・長崎地区で活躍する通勤電車。2両若しくは3両で構成される。",
-      "translation": ""
+      "translation": "Commuter trains mainly active in the Fukuoka, Oita, and Nagasaki areas. Consists of 2 or 3 cars."
     },
     {
       "key": "contribution.{973A230D-8289-440d-800C-81464AB0FE2A}.name",
       "source": "ゆふいんの森",
-      "translation": ""
+      "translation": "Yufuin no Mori"
     },
     {
       "key": "contribution.{973A230D-8289-440d-800C-81464AB0FE2A}.company",
       "source": "JR九州",
-      "translation": ""
+      "translation": "JR Kyushu"
     },
     {
       "key": "contribution.{973A230D-8289-440d-800C-81464AB0FE2A}.type",
-      "source": "キハ\u300071系",
-      "translation": ""
+      "source": "キハ　71系",
+      "translation": "Kiha 71 Series"
     },
     {
       "key": "contribution.{973A230D-8289-440d-800C-81464AB0FE2A}.description",
       "source": "博多～由布院～別府を結ぶ観光特急。４両編成１日２往復。\nほぼ毎日運行されているのに季節列車扱いで、車内には鉄道車両としては珍しく木材が使われている暖かみのある車両です。",
-      "translation": ""
+      "translation": "A sightseeing limited express connecting Hakata, Yufuin, and Beppu. A 4-car train running two round trips daily. Although it operates almost every day, it is treated as a seasonal train. The interior is warm, featuring wood, which is rare for railway rolling stock."
     }
   ]
 }

@@ -6,17 +6,17 @@
     {
       "key": "plugin.title",
       "source": "架線柱",
-      "translation": ""
+      "translation": "Catenary Pole"
     },
     {
       "key": "contribution.{riorio-ayasehiro-4ba7-BFE8-ABFBDF5DFA0A}.name",
       "source": "片柱(1)'",
-      "translation": ""
+      "translation": "Single catenary pole (1)'"
     },
     {
       "key": "contribution.{riorio-ayasehiro-41af-9185-4891B983E2A4}.name",
       "source": "片柱(2)'",
-      "translation": ""
+      "translation": "Single catenary pole (2)'"
     }
   ]
 }

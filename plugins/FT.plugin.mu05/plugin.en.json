@@ -6,27 +6,27 @@
     {
       "key": "plugin.title",
       "source": "駅の屋根",
-      "translation": ""
+      "translation": "Station Roof"
     },
     {
       "key": "contribution.{umafsu27-1532-8315-mu05-plugins00101-front}-1.name",
       "source": "現代っぽい壁(前)",
-      "translation": ""
+      "translation": "Modern-style wall (front)"
     },
     {
       "key": "contribution.{umafsu27-1532-8315-mu05-plugins00102-rear}-2.name",
       "source": "現代っぽい壁(後)",
-      "translation": ""
+      "translation": "Modern-style wall (rear)"
     },
     {
       "key": "contribution.{umafsu27-1532-8315-mu05-plugins00103-roof1}-3.name",
       "source": "現代っぽい屋根1",
-      "translation": ""
+      "translation": "Modern-style roof 1"
     },
     {
       "key": "contribution.{umafsu27-1532-8315-mu05-plugins00104-roof2}-4.name",
       "source": "現代っぽい屋根2",
-      "translation": ""
+      "translation": "Modern-style roof 2"
     }
   ]
 }

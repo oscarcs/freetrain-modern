@@ -6,67 +6,67 @@
     {
       "key": "plugin.title",
       "source": "JR北海道",
-      "translation": ""
+      "translation": "JR Hokkaido"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-hokuto-Cassiopeia-1}.name",
       "source": "カシオペア",
-      "translation": ""
+      "translation": "Cassiopeia"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-hokuto-Cassiopeia-1}.company",
       "source": "JR北海道",
-      "translation": ""
+      "translation": "JR Hokkaido"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-hokuto-Cassiopeia-1}.description",
       "source": "ディーゼル機関車DD51(北斗星色)が牽引する、オール2階建寝台列車です。",
-      "translation": ""
+      "translation": "This is an all-double-decker sleeper train pulled by a DD51 diesel locomotive (Hokutosei livery)."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-hokuto-Cassiopeia-2}.name",
       "source": "カシオペア(予備)",
-      "translation": ""
+      "translation": "Cassiopeia (reserve)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-hokuto-Cassiopeia-2}.company",
       "source": "JR北海道",
-      "translation": ""
+      "translation": "JR Hokkaido"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-hokuto-Cassiopeia-2}.description",
       "source": "ディーゼル機関車DD51(北斗星色)が牽引する、オール2階建寝台列車です。電源車は予備のカヤ２７です。",
-      "translation": ""
+      "translation": "This is an all-double-decker sleeper train pulled by a DD51 diesel locomotive (Hokutosei livery). The power car is the spare Kaya 27."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED79-0-Cassiopeia-1}.name",
       "source": "カシオペア",
-      "translation": ""
+      "translation": "Cassiopeia"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED79-0-Cassiopeia-1}.company",
       "source": "JR北海道",
-      "translation": ""
+      "translation": "JR Hokkaido"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED79-0-Cassiopeia-1}.description",
       "source": "津軽海峡線用の交流用電気機関車ED79が牽引する、オール2階建寝台列車です。",
-      "translation": ""
+      "translation": "This is an all-double-decker sleeper train pulled by the ED79 AC electric locomotive for the Tsugaru Kaikyo Line."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED79-0-Cassiopeia-2}.name",
       "source": "カシオペア(予備)",
-      "translation": ""
+      "translation": "Cassiopeia (reserve)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED79-0-Cassiopeia-2}.company",
       "source": "JR北海道",
-      "translation": ""
+      "translation": "JR Hokkaido"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED79-0-Cassiopeia-2}.description",
       "source": "津軽海峡線用の交流用電気機関車ED79が牽引する、オール2階建寝台列車です。電源車は予備のカヤ２７です。",
-      "translation": ""
+      "translation": "This is an all-double-decker sleeper train pulled by the ED79 AC electric locomotive for the Tsugaru Kaikyo Line. The power car is the spare Kaya 27."
     }
   ]
 }

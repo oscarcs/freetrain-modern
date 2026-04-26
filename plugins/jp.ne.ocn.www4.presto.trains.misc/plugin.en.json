@@ -6,87 +6,87 @@
     {
       "key": "plugin.title",
       "source": "車両プラグイン by HITNO その他",
-      "translation": ""
+      "translation": "Vehicle Plugin by HITNO Others"
     },
     {
       "key": "contribution.{E34523C0-5447-11D8-968B-444553540000-titech-eidan9000}.name",
       "source": "南北線",
-      "translation": ""
+      "translation": "Namboku Line"
     },
     {
       "key": "contribution.{E34523C0-5447-11D8-968B-444553540000-titech-eidan9000}.company",
       "source": "帝都高速度交通営団",
-      "translation": ""
+      "translation": "Teito Rapid Transit Authority"
     },
     {
       "key": "contribution.{E34523C0-5447-11D8-968B-444553540000-titech-eidan9000}.type",
       "source": "9000系",
-      "translation": ""
+      "translation": "9000 Series"
     },
     {
       "key": "contribution.{E34523C0-5447-11D8-968B-444553540001-titech-eidan08}.name",
       "source": "半蔵門線",
-      "translation": ""
+      "translation": "Hanzomon Line"
     },
     {
       "key": "contribution.{E34523C0-5447-11D8-968B-444553540001-titech-eidan08}.company",
       "source": "帝都高速度交通営団",
-      "translation": ""
+      "translation": "Teito Rapid Transit Authority"
     },
     {
       "key": "contribution.{E34523C0-5447-11D8-968B-444553540001-titech-eidan08}.type",
       "source": "08系",
-      "translation": ""
+      "translation": "08 Series"
     },
     {
       "key": "contribution.{E34523C0-5447-11D8-968B-444553540002-titech-eidan05n}.name",
       "source": "東西線",
-      "translation": ""
+      "translation": "Tōzai Line"
     },
     {
       "key": "contribution.{E34523C0-5447-11D8-968B-444553540002-titech-eidan05n}.company",
       "source": "帝都高速度交通営団",
-      "translation": ""
+      "translation": "Teito Rapid Transit Authority"
     },
     {
       "key": "contribution.{E34523C0-5447-11D8-968B-444553540002-titech-eidan05n}.type",
       "source": "05系",
-      "translation": ""
+      "translation": "05 Series"
     },
     {
       "key": "contribution.{E34523C0-5447-11D8-968B-444553540003-titech-mlrv1000}.company",
       "source": "万葉線",
-      "translation": ""
+      "translation": "Manyo Line"
     },
     {
       "key": "contribution.{E34523C0-5447-11D8-968B-444553540003-titech-mlrv1000}.description",
       "source": "加越能鉄道を引き継いだ第三セクター万葉線のMLRV1000形は2003年12月に登場した超低床電車です。\n\t\t\t基本的な部分は岡山電軌のMOMOと共通ですが、真っ赤な車体が印象的です。\n\t\t\tちなみにデザインは工業デザイナーの佐藤康三氏によるものです。",
-      "translation": ""
+      "translation": "The Manyo Line MLRV1000 Series, a third-sector railway that succeeded the Kaetsuno Railway, is an ultra-low-floor tram that appeared in December 2003. Its basic components are shared with Okayama Electric Tramway's MOMO, but its bright red body is striking. The design is by industrial designer Kozo Sato."
     },
     {
       "key": "contribution.{E34523C0-5447-11D8-968B-444553540002-titech-kantetsu-kiha300}.company",
       "source": "関東鉄道",
-      "translation": ""
+      "translation": "Kanto Railway"
     },
     {
       "key": "contribution.{E34523C0-5447-11D8-968B-444553540002-titech-kantetsu-kiha300}.type",
       "source": "キハ300",
-      "translation": ""
+      "translation": "Kiha 300"
     },
     {
       "key": "contribution.{E34523C0-5447-11D8-968B-444553540002-titech-kantetsu-kiha100-jt}.name",
       "source": "常総筑波鉄道色",
-      "translation": ""
+      "translation": "Joso Tsukuba Railway Color"
     },
     {
       "key": "contribution.{E34523C0-5447-11D8-968B-444553540002-titech-kantetsu-kiha100-jt}.company",
       "source": "関東鉄道",
-      "translation": ""
+      "translation": "Kanto Railway"
     },
     {
       "key": "contribution.{E34523C0-5447-11D8-968B-444553540002-titech-kantetsu-kiha100-jt}.type",
       "source": "キハ100",
-      "translation": ""
+      "translation": "Kiha 100"
     }
   ]
 }

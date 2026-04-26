@@ -6,17 +6,17 @@
     {
       "key": "plugin.title",
       "source": "ファミマ＆ヤマダ電気",
-      "translation": ""
+      "translation": "FamilyMart & Yamada Denki"
     },
     {
       "key": "contribution.{487900B6-EBCA-4c98-9E28-194050E9706D}-gs.group",
       "source": "コンビニ",
-      "translation": ""
+      "translation": "Convenience store"
     },
     {
       "key": "contribution.{D6DED1EF-FA6F-4734-A4CA-46D217A1EC1F}-gs.group",
       "source": "家電量販店",
-      "translation": ""
+      "translation": "Electronics Retailer"
     }
   ]
 }

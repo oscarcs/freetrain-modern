@@ -6,67 +6,67 @@
     {
       "key": "plugin.title",
       "source": "フェリー",
-      "translation": ""
+      "translation": "Ferry"
     },
     {
       "key": "contribution.{FreeTrain-Ship-PassengerShip-Boat-BlueShuttle}.name",
       "source": "ブルーシャトル",
-      "translation": ""
+      "translation": "Blue Shuttle"
     },
     {
       "key": "contribution.{FreeTrain-Ship-PassengerShip-Boat-BlueShuttle}.company",
       "source": "松大観光船",
-      "translation": ""
+      "translation": "Matsudai Sightseeing Ship"
     },
     {
       "key": "contribution.{FreeTrain-Ship-PassengerShip-Boat-BlueShuttle}.type",
       "source": "高速船",
-      "translation": ""
+      "translation": "High-Speed Ferry"
     },
     {
       "key": "contribution.{FreeTrain-Ship-PassengerShip-Boat-BlueShuttle}.description",
       "source": "19トン、定員94名、座席68席。",
-      "translation": ""
+      "translation": "19 tons, capacity 94 passengers, 68 seats."
     },
     {
       "key": "contribution.{FreeTrain-Ship-PassengerShip-Ferry-itukushima}.name",
       "source": "厳島",
-      "translation": ""
+      "translation": "Itsukushima"
     },
     {
       "key": "contribution.{FreeTrain-Ship-PassengerShip-Ferry-itukushima}.company",
       "source": "松大観光船",
-      "translation": ""
+      "translation": "Matsudai Sightseeing Ship"
     },
     {
       "key": "contribution.{FreeTrain-Ship-PassengerShip-Ferry-itukushima}.type",
       "source": "フェリー",
-      "translation": ""
+      "translation": "Ferry"
     },
     {
       "key": "contribution.{FreeTrain-Ship-PassengerShip-Ferry-itukushima}.description",
       "source": "神原造船製造。197トン、定員350名、小型乗用車10台。",
-      "translation": ""
+      "translation": "Manufactured by Kanbara Shipbuilding. 197 tons, capacity 350 passengers, 10 small passenger cars."
     },
     {
       "key": "contribution.{FreeTrain-Ship-PassengerShip-Ferry-mishenmaru}.name",
       "source": "みせん丸",
-      "translation": ""
+      "translation": "Misen Maru"
     },
     {
       "key": "contribution.{FreeTrain-Ship-PassengerShip-Ferry-mishenmaru}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{FreeTrain-Ship-PassengerShip-Ferry-mishenmaru}.type",
       "source": "フェリー",
-      "translation": ""
+      "translation": "Ferry"
     },
     {
       "key": "contribution.{FreeTrain-Ship-PassengerShip-Ferry-mishenmaru}.description",
       "source": "内海造船製造。218トン、定員460名。",
-      "translation": ""
+      "translation": "Built by Naikai Shipbuilding. 218 tons, capacity 460 people."
     }
   ]
 }

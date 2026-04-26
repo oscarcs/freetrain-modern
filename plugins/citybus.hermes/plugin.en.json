@@ -6,107 +6,107 @@
     {
       "key": "plugin.title",
       "source": "公営バスセット",
-      "translation": ""
+      "translation": "Municipal Bus Set"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD1Y002}.name",
       "source": "横浜市営バス(前)",
-      "translation": ""
+      "translation": "Yokohama Municipal Bus (front)"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD1Y003}.name",
       "source": "横浜市営バス(後)",
-      "translation": ""
+      "translation": "Yokohama Municipal Bus (rear)"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD4Y004}.name",
       "source": "横浜市営バス(前)*",
-      "translation": ""
+      "translation": "Yokohama Municipal Bus (front)*"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD4Y005}.name",
       "source": "横浜市営バス(後)*",
-      "translation": ""
+      "translation": "Yokohama Municipal Bus (rear)*"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD1T002}.name",
       "source": "東京都営バス(前)",
-      "translation": ""
+      "translation": "Toei Bus (front)"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD1T003}.name",
       "source": "東京都営バス(後)",
-      "translation": ""
+      "translation": "Toei Bus (rear)"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD4T004}.name",
       "source": "東京都営バス(前)*",
-      "translation": ""
+      "translation": "Toei Bus (front)*"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD4T005}.name",
       "source": "東京都営バス(後)*",
-      "translation": ""
+      "translation": "Toei Bus (rear)*"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD1N002}.name",
       "source": "名古屋市営バス(前)",
-      "translation": ""
+      "translation": "Nagoya Municipal Bus (front)"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD1N003}.name",
       "source": "名古屋市営バス(後)",
-      "translation": ""
+      "translation": "Nagoya Municipal Bus (rear)"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD4N004}.name",
       "source": "名古屋市営バス(前)*",
-      "translation": ""
+      "translation": "Nagoya Municipal Bus (front)*"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD4N005}.name",
       "source": "名古屋市営バス(後)*",
-      "translation": ""
+      "translation": "Nagoya Municipal Bus (rear)*"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD1K002}.name",
       "source": "京都市営バス(前)",
-      "translation": ""
+      "translation": "Kyoto Municipal Bus (front)"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD1K003}.name",
       "source": "京都市営バス(後)",
-      "translation": ""
+      "translation": "Kyoto Municipal Bus (rear)"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD4K004}.name",
       "source": "京都市営バス(前)*",
-      "translation": ""
+      "translation": "Kyoto Municipal Bus (front)*"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD4K005}.name",
       "source": "京都市営バス(後)*",
-      "translation": ""
+      "translation": "Kyoto Municipal Bus (rear)*"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD1S002}.name",
       "source": "仙台市営バス(前)",
-      "translation": ""
+      "translation": "Sendai Municipal Bus (front)"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD1S003}.name",
       "source": "仙台市営バス(後)",
-      "translation": ""
+      "translation": "Sendai Municipal Bus (rear)"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD4S004}.name",
       "source": "仙台市営バス(前)*",
-      "translation": ""
+      "translation": "Sendai Municipal Bus (front)*"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD4S005}.name",
       "source": "仙台市営バス(後)*",
-      "translation": ""
+      "translation": "Sendai Municipal Bus (rear)*"
     }
   ]
 }

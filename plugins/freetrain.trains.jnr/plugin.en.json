@@ -6,187 +6,187 @@
     {
       "key": "plugin.title",
       "source": "国電プラグイン",
-      "translation": ""
+      "translation": "JNR Electric Train Plugin"
     },
     {
       "key": "contribution.{8B8C5CB2-T80-43a5-ooito-4528788BF74E}.name",
       "source": "80系大糸線色",
-      "translation": ""
+      "translation": "80 Series Ōito Line color"
     },
     {
       "key": "contribution.{8B8C5CB2-T80-43a5-ooito-4528788BF74E}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{8B8C5CB2-T80-43a5-ooito-4528788BF74E}.type",
       "source": "80系電車",
-      "translation": ""
+      "translation": "80 Series electric train"
     },
     {
       "key": "contribution.{8B8C5CB2-T80-43a5-ooito-4528788BF74E}.description",
       "source": "80系の大糸線で使われていたスカイブルーの塗装です。\n\t\t\t実際は大糸線の80系はクモユニ810003のみの在籍で、旧型電車と共に運行されていました。",
-      "translation": ""
+      "translation": "This is the sky blue livery used by the 80 Series on the Ōito Line. In reality, only Kumoyuni 810003 of the 80 Series was assigned to the Ōito Line, operating alongside older electric trains."
     },
     {
       "key": "contribution.{8B8C5CB2-T80-43a5-kansai-4528788BF74E}.name",
       "source": "マーブル色",
-      "translation": ""
+      "translation": "Marble Color"
     },
     {
       "key": "contribution.{8B8C5CB2-T80-43a5-kansai-4528788BF74E}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{8B8C5CB2-T80-43a5-kansai-4528788BF74E}.type",
       "source": "80系電車",
-      "translation": ""
+      "translation": "80 Series electric train"
     },
     {
       "key": "contribution.{8B8C5CB2-T80-43a5-kansai-4528788BF74E}.description",
       "source": "関西地方の80系はクリーム色とぶどう色に塗られて活躍しました。",
-      "translation": ""
+      "translation": "The 80 Series in the Kansai region were active, painted in cream and grape colors."
     },
     {
       "key": "contribution.{8B8C5CB2-T80-43a5-kansaiEX-4528788BF74E}.name",
       "source": "関西急電",
-      "translation": ""
+      "translation": "Kansai Express Electric"
     },
     {
       "key": "contribution.{8B8C5CB2-T80-43a5-kansaiEX-4528788BF74E}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{8B8C5CB2-T80-43a5-kansaiEX-4528788BF74E}.type",
       "source": "80系電車",
-      "translation": ""
+      "translation": "80 Series electric train"
     },
     {
       "key": "contribution.{8B8C5CB2-T80-43a5-kansaiEX-4528788BF74E}.description",
       "source": "関西地方で急マークのヘッドマークをつけて快速として走行してました。",
-      "translation": ""
+      "translation": "It operated as a rapid train in the Kansai region, displaying a \"Kyuko\" (Express) headmark."
     },
     {
       "key": "contribution.{67705E9E-4ED1-T63-duralumin-FE45DAC33699}.name",
       "source": "900番台ジュラ電",
-      "translation": ""
+      "translation": "900 sub-series Jura-den"
     },
     {
       "key": "contribution.{67705E9E-4ED1-T63-duralumin-FE45DAC33699}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{67705E9E-4ED1-T63-duralumin-FE45DAC33699}.type",
       "source": "62/63系",
-      "translation": ""
+      "translation": "62/63 Series"
     },
     {
       "key": "contribution.{67705E9E-4ED1-T63-duralumin-FE45DAC33699}.description",
       "source": "63形900番台はジュラルミンで車体を作られ、\n\t\t\t通称ジュラ電といわれましたが無塗装ため腐食が激しく\n\t\t\t一般車両のように塗装され、最終的には鋼体車体に改造されました。",
-      "translation": ""
+      "translation": "The 63 Series 900 sub-series, nicknamed 'Jura-den' (duralumin train), had duralumin bodies. Due to being unpainted, they suffered severe corrosion and were eventually painted like regular rolling stock, ultimately being rebuilt with steel bodies."
     },
     {
       "key": "contribution.{67705E9E-4ED1-T63-budou-FE45DAC33699}.name",
       "source": "ぶどう色",
-      "translation": ""
+      "translation": "Grape color"
     },
     {
       "key": "contribution.{67705E9E-4ED1-T63-budou-FE45DAC33699}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{67705E9E-4ED1-T63-budou-FE45DAC33699}.type",
       "source": "62/63系",
-      "translation": ""
+      "translation": "62/63 Series"
     },
     {
       "key": "contribution.{67705E9E-4ED1-T63-budou-FE45DAC33699}.description",
       "source": "初期は戦時中に作られた電車で、戦後になると電車不足から大量に増備去れました。\n\t\t\t鋼体車、半鋼体車のほか、ジュラルミンでつくられたジュラ電などがありました。",
-      "translation": ""
+      "translation": "Initially, these electric trains were built during the war, and after the war, they were mass-produced due to a shortage of trains. In addition to steel-bodied and semi-steel-bodied cars, there were also 'Jura-den' made of duralumin."
     },
     {
       "key": "contribution.{67705E9E-4ED1-T63A-budou-FE45DAC33699}.name",
       "source": "ぶどう色(2扉・クロスシート)",
-      "translation": ""
+      "translation": "Grape color (2 doors, cross-seat)"
     },
     {
       "key": "contribution.{67705E9E-4ED1-T63A-budou-FE45DAC33699}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{67705E9E-4ED1-T63A-budou-FE45DAC33699}.type",
       "source": "62/63系",
-      "translation": ""
+      "translation": "62/63 Series"
     },
     {
       "key": "contribution.{67705E9E-4ED1-T63A-budou-FE45DAC33699}.description",
       "source": "ローカル専用にクロスシート化および、2扉化されたタイプ。",
-      "translation": ""
+      "translation": "A type converted to cross-seating and 2-door configuration for local service."
     },
     {
       "key": "contribution.{67705E9E-4ED1-T63-bd-FE45DAC33699}.name",
       "source": "ぶどう色+ジュラ電",
-      "translation": ""
+      "translation": "Grape color + Jura train"
     },
     {
       "key": "contribution.{67705E9E-4ED1-T63-bd-FE45DAC33699}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{67705E9E-4ED1-T63-bd-FE45DAC33699}.type",
       "source": "62/63系",
-      "translation": ""
+      "translation": "62/63 Series"
     },
     {
       "key": "contribution.{67705E9E-4ED1-T63-bd-FE45DAC33699}.description",
       "source": "一般車+ジュラ電の編成です",
-      "translation": ""
+      "translation": "This is a formation of standard cars + Jura electric trains."
     },
     {
       "key": "contribution.{3991CE43-T101-4923-JNR-9DA7803AW}.name",
       "source": "オレンジ",
-      "translation": ""
+      "translation": "Orange"
     },
     {
       "key": "contribution.{3991CE43-T101-4923-JNR-9DA7803AW}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{3991CE43-T101-4923-JNR-9DA7803AW}.type",
       "source": "101系",
-      "translation": ""
+      "translation": "101 Series"
     },
     {
       "key": "contribution.{3991CE43-T101-4923-JNR-9DA7803AW}.description",
       "source": "老朽化した72系電車を置き換えるために作られたのが101系。\n\t\t\t当初はオールM車であったが、電力設備の能力を超えたため最終的には6M4Tに変更された。",
-      "translation": ""
+      "translation": "The 101 Series was created to replace the aging 72 Series electric trains. Initially, all cars were motor cars (M cars), but due to exceeding the capacity of the power facilities, it was eventually changed to 6M4T."
     },
     {
       "key": "contribution.{3991CE43-T101-4923-JRE-9DA7803A}.name",
       "source": "南武支線",
-      "translation": ""
+      "translation": "Nambu Branch Line"
     },
     {
       "key": "contribution.{3991CE43-T101-4923-JRE-9DA7803A}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{3991CE43-T101-4923-JRE-9DA7803A}.type",
       "source": "101系",
-      "translation": ""
+      "translation": "101 Series"
     },
     {
       "key": "contribution.{3991CE43-T101-4923-JRE-9DA7803A}.description",
       "source": "南武の浜川崎支線で使われたいた塗装です。\n\t\t\t浜川崎支線は最後の101系の活躍の場であったが、2003年12月を最後に205系に置き換われ引退しました。",
-      "translation": ""
+      "translation": "This is the livery used on the Nambu Line's Hama-Kawasaki Branch Line. The Hama-Kawasaki Branch Line was the last active area for the 101 Series, but it was replaced by the 205 Series and retired in December 2003."
     }
   ]
 }

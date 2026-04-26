@@ -6,47 +6,47 @@
     {
       "key": "plugin.title",
       "source": "列車",
-      "translation": ""
+      "translation": "Train"
     },
     {
       "key": "contribution.{C9FC390D-64A1-42bf-A456-F8D8A95867B2}.name",
       "source": "キハ54-500のみ",
-      "translation": ""
+      "translation": "Kiha 54-500 only"
     },
     {
       "key": "contribution.{C9FC390D-64A1-42bf-A456-F8D8A95867B2}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{C9FC390D-64A1-42bf-A456-F8D8A95867B2}.type",
       "source": "キハ54系500番台",
-      "translation": ""
+      "translation": "Kiha 54 Series 500 Subseries"
     },
     {
       "key": "contribution.{C9FC390D-64A1-42bf-A456-F8D8A95867B2}.description",
       "source": "キハ54-500のみの編成",
-      "translation": ""
+      "translation": "Formation with only Kiha 54-500"
     },
     {
       "key": "contribution.{2111E09F-6C00-48d7-AE20-7EC1E4910E6E}.name",
       "source": "キハ53-500のみ",
-      "translation": ""
+      "translation": "Kiha 53-500 only"
     },
     {
       "key": "contribution.{2111E09F-6C00-48d7-AE20-7EC1E4910E6E}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{2111E09F-6C00-48d7-AE20-7EC1E4910E6E}.type",
       "source": "キハ53系500番台",
-      "translation": ""
+      "translation": "Kiha 53 Series 500 Subseries"
     },
     {
       "key": "contribution.{2111E09F-6C00-48d7-AE20-7EC1E4910E6E}.description",
       "source": "キハ53-500のみの編成",
-      "translation": ""
+      "translation": "Formation with only Kiha 53-500"
     }
   ]
 }

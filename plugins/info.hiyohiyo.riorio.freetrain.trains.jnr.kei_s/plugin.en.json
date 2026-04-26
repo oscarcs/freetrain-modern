@@ -6,27 +6,27 @@
     {
       "key": "plugin.title",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{riorio-freetrain-KeiH-TrainHensei-kiha30only}.name",
       "source": "一般色",
-      "translation": ""
+      "translation": "Standard Color"
     },
     {
       "key": "contribution.{riorio-freetrain-KeiH-TrainHensei-kiha30only}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{riorio-freetrain-KeiH-TrainHensei-kiha30only}.type",
       "source": "キハ30系",
-      "translation": ""
+      "translation": "Kiha 30 Series"
     },
     {
       "key": "contribution.{riorio-freetrain-KeiH-TrainHensei-kiha30only}.description",
       "source": "一般色に塗装されたキハ30系のみで編成された列車。",
-      "translation": ""
+      "translation": "A train formed only of KiHa 30 Series painted in standard colors."
     }
   ]
 }

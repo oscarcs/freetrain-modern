@@ -6,12 +6,12 @@
     {
       "key": "plugin.title",
       "source": "保線車両",
-      "translation": ""
+      "translation": "Maintenance-of-Way Vehicle"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E403}.name",
       "source": "レール運搬用トロッコ",
-      "translation": ""
+      "translation": "Rail transport trolley"
     }
   ]
 }

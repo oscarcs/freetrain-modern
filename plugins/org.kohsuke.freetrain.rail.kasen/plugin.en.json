@@ -6,57 +6,57 @@
     {
       "key": "plugin.title",
       "source": "鉄道施設プラグイン",
-      "translation": ""
+      "translation": "Railway Facility Plugin"
     },
     {
       "key": "contribution.{DD1224B0-2F1B-4c26-9E66-4E604F3342C8}.group",
       "source": "下線1",
-      "translation": ""
+      "translation": "Catenary Line 1"
     },
     {
       "key": "contribution.{DD1224B1-2F1C-4c27-9E67-4E604F3342C9}.group",
       "source": "下線2",
-      "translation": ""
+      "translation": "Catenary Line 2"
     },
     {
       "key": "contribution.{DD1224B4-2F1C-4c29-9E69-4E604F3342CB}.group",
       "source": "下線3",
-      "translation": ""
+      "translation": "Catenary Line 3"
     },
     {
       "key": "contribution.{DD1224B5-2F1C-4c29-9E69-4E604F3342CB}.group",
       "source": "下線4",
-      "translation": ""
+      "translation": "Catenary Line 4"
     },
     {
       "key": "contribution.{AA1224B5-2F1C-4c29-9E69-4E604F3342CB}.group",
       "source": "下線5",
-      "translation": ""
+      "translation": "Catenary Line 5"
     },
     {
       "key": "contribution.{AA1224B5-2F1C-4c29-9E70-4E604F3342CB}.group",
       "source": "下線6",
-      "translation": ""
+      "translation": "Catenary Line 6"
     },
     {
       "key": "contribution.{DD1224B2-2F1D-4c28-9E68-4E604F3342CA}.group",
       "source": "下線無し1",
-      "translation": ""
+      "translation": "No catenary 1"
     },
     {
       "key": "contribution.{DD1224B3-2F1C-4c29-9E69-4E604F3342CB}.group",
       "source": "下線無し2",
-      "translation": ""
+      "translation": "No catenary 2"
     },
     {
       "key": "contribution.{DD1224B2-2F1D-4c30-9E68-4E604F3342CA}.group",
       "source": "下線無し3",
-      "translation": ""
+      "translation": "No catenary 3"
     },
     {
       "key": "contribution.{DD1224B3-2F1C-4c31-9E69-4E604F3342CB}.group",
       "source": "下線無し4",
-      "translation": ""
+      "translation": "No catenary 4"
     }
   ]
 }

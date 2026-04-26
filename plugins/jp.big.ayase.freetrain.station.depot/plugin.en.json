@@ -6,17 +6,17 @@
     {
       "key": "plugin.title",
       "source": "架線柱",
-      "translation": ""
+      "translation": "Catenary Pole"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-StationDepot-01a}.name",
       "source": "検修庫",
-      "translation": ""
+      "translation": "Maintenance shed"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-StationDepot-01b}.name",
       "source": "検修庫",
-      "translation": ""
+      "translation": "Maintenance shed"
     }
   ]
 }

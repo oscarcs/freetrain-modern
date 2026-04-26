@@ -6,92 +6,92 @@
     {
       "key": "plugin.title",
       "source": "基本駅舎キット",
-      "translation": ""
+      "translation": "Basic Station Building Kit"
     },
     {
       "key": "contribution.{E1C41DF8-6C9B-465d-A798-2624551AC4FD}.name",
       "source": "ローカル駅舎1(L)",
-      "translation": ""
+      "translation": "Local Station Building 1 (L)"
     },
     {
       "key": "contribution.{E1C41DF8-6C9B-465d-A798-2624551AC4FD}.group",
       "source": "ローカル駅舎",
-      "translation": ""
+      "translation": "Local station building"
     },
     {
       "key": "contribution.{1F332AE9-97B7-42eb-A434-03F4F952081A}.name",
       "source": "ローカル駅舎1(R)",
-      "translation": ""
+      "translation": "Local Station Building 1 (R)"
     },
     {
       "key": "contribution.{1F332AE9-97B7-42eb-A434-03F4F952081A}.group",
       "source": "ローカル駅舎",
-      "translation": ""
+      "translation": "Local station building"
     },
     {
       "key": "contribution.{723092AA-BC86-4fca-BA98-42B60B7D4151}.name",
       "source": "ローカル駅舎2(L)",
-      "translation": ""
+      "translation": "Local Station Building 2 (L)"
     },
     {
       "key": "contribution.{723092AA-BC86-4fca-BA98-42B60B7D4151}.group",
       "source": "ローカル駅舎",
-      "translation": ""
+      "translation": "Local station building"
     },
     {
       "key": "contribution.{6F5B56E6-F21E-41ba-89FC-B037E5EB0BE7}.name",
       "source": "ローカル駅舎2(R)",
-      "translation": ""
+      "translation": "Local Station Building 2 (R)"
     },
     {
       "key": "contribution.{6F5B56E6-F21E-41ba-89FC-B037E5EB0BE7}.group",
       "source": "ローカル駅舎",
-      "translation": ""
+      "translation": "Local station building"
     },
     {
       "key": "contribution.{DFF22973-08DB-4064-8CD6-26BAB537C0F0}.name",
       "source": "都会型駅舎(L)",
-      "translation": ""
+      "translation": "Urban Station Building (L)"
     },
     {
       "key": "contribution.{DFF22973-08DB-4064-8CD6-26BAB537C0F0}.group",
       "source": "都会型駅舎",
-      "translation": ""
+      "translation": "Urban-style station building"
     },
     {
       "key": "contribution.{F9508B52-B25C-439e-811C-82B5A259676A}.name",
       "source": "都会型駅舎(R)",
-      "translation": ""
+      "translation": "Urban Station Building (R)"
     },
     {
       "key": "contribution.{F9508B52-B25C-439e-811C-82B5A259676A}.group",
       "source": "都会型駅舎",
-      "translation": ""
+      "translation": "Urban-style station building"
     },
     {
       "key": "contribution.{351D49DD-8682-4c4a-8BC3-1B8560CD7FE9}.name",
       "source": "高架下駅舎(L)",
-      "translation": ""
+      "translation": "Under-Elevated Station Building (L)"
     },
     {
       "key": "contribution.{351D49DD-8682-4c4a-8BC3-1B8560CD7FE9}.group",
       "source": "高架下駅舎",
-      "translation": ""
+      "translation": "Under-elevated station building"
     },
     {
       "key": "contribution.{A8392557-3054-4017-8948-F3FC22A71D0E}.name",
       "source": "高架下駅舎(R)",
-      "translation": ""
+      "translation": "Under-Elevated Station Building (R)"
     },
     {
       "key": "contribution.{A8392557-3054-4017-8948-F3FC22A71D0E}.group",
       "source": "高架下駅舎",
-      "translation": ""
+      "translation": "Under-elevated station building"
     },
     {
       "key": "contribution.{3D64E31D-0579-4d37-920A-5A5201A8C984}.name",
       "source": "函館駅",
-      "translation": ""
+      "translation": "Hakodate Station"
     }
   ]
 }

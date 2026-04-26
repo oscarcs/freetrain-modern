@@ -6,27 +6,27 @@
     {
       "key": "plugin.title",
       "source": "架線柱",
-      "translation": ""
+      "translation": "Catenary Pole"
     },
     {
       "key": "contribution.{DDF7F835-8100-45fd-8AE7-EC498796D387}.name",
       "source": "両柱(1)",
-      "translation": ""
+      "translation": "Double catenary pole (1)"
     },
     {
       "key": "contribution.{DD7D4548-5E0E-48e4-AB6E-64A443C240F7}.name",
       "source": "両柱(2)",
-      "translation": ""
+      "translation": "Double catenary pole (2)"
     },
     {
       "key": "contribution.{86E56A60-19DF-4ba7-BFE8-ABFBDF5DFA0A}.name",
       "source": "片柱(1)",
-      "translation": ""
+      "translation": "Single catenary pole (1)"
     },
     {
       "key": "contribution.{FD1635C1-05BF-41af-9185-4891B983E2A4}.name",
       "source": "片柱(2)",
-      "translation": ""
+      "translation": "Single catenary pole (2)"
     }
   ]
 }

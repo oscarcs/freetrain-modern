@@ -6,497 +6,497 @@
     {
       "key": "plugin.title",
       "source": "列車プラグイン",
-      "translation": ""
+      "translation": "Train Plugin"
     },
     {
       "key": "contribution.{freetrain-tomy-20050530-jnr415}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{freetrain-tomy-20050530-jnr415}.type",
       "source": "415系",
-      "translation": ""
+      "translation": "415 Series"
     },
     {
       "key": "contribution.{freetrain-tomy-20050530-jnr415}.description",
       "source": "1971年に登場した交流50/60Hz両用の整流器を搭載し、かつ直流との切替えができる｢三電気方式｣の近郊形電車",
-      "translation": ""
+      "translation": "Introduced in 1971, a suburban electric train with a \"three-power system\" equipped with rectifiers for both AC 50/60Hz and capable of switching to DC."
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050531-jre251}.name",
       "source": "スーパービュー踊り子(新)",
-      "translation": ""
+      "translation": "Super View Odoriko (new)"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050531-jre251}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050531-jre251}.type",
       "source": "251系",
-      "translation": ""
+      "translation": "251 Series"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050531-jre251}.description",
       "source": "1990年,伊豆への行楽用に登場した特急型電車。見晴らしの良いハイデッカーとダブルデッカーの豪華な編成。2002年から,座席や塗装のリフレッシュが順次行われた。",
-      "translation": ""
+      "translation": "Limited express electric train introduced in 1990 for leisure trips to Izu. A luxurious formation with high-decker and double-decker cars offering excellent views. From 2002, seats and livery were progressively refreshed."
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050531-jre251o}.name",
       "source": "スーパービュー踊り子(旧)",
-      "translation": ""
+      "translation": "Super View Odoriko (old)"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050531-jre251o}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050531-jre251o}.type",
       "source": "251系",
-      "translation": ""
+      "translation": "251 Series"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050531-jre251o}.description",
       "source": "1990年,伊豆への行楽用に登場した特急型電車。見晴らしの良いハイデッカーとダブルデッカーの豪華な編成。",
-      "translation": ""
+      "translation": "Limited express electric train introduced in 1990 for leisure trips to Izu. A luxurious formation with high-decker and double-decker cars offering excellent views."
     },
     {
       "key": "contribution.{freetrain-tomy-train-20051005-jreE233}.name",
       "source": "中央線(快速)",
-      "translation": ""
+      "translation": "Chuo Line (Rapid)"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20051005-jreE233}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20051005-jreE233}.type",
       "source": "E233系",
-      "translation": ""
+      "translation": "E233 Series"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20051005-jreE233}.description",
       "source": "201系の後継列車として2006年に登場する新型車輌。E231系を基に設計され、最高速度は120km/h、車体はステンレス製4扉(半自動機能付),主回路装置はVVVFインバータ,列車情報管理装置(TIMS),LED式車内案内表示機等が装備される。",
-      "translation": ""
+      "translation": "New model vehicle introduced in 2006 as the successor to the 201 Series. Designed based on the E231 Series, it has a maximum speed of 120km/h. The body is stainless steel with 4 doors (with semi-automatic function), the main circuit device is a VVVF inverter, and it is equipped with a Train Information Management System (TIMS) and LED in-car information displays."
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050531-jreE531}.name",
       "source": "常磐線",
-      "translation": ""
+      "translation": "Joban Line"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050531-jreE531}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050531-jreE531}.type",
       "source": "E531系",
-      "translation": ""
+      "translation": "E531 Series"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050531-jreE531}.description",
       "source": "2005年開通の｢つくばエクスプレス｣に対抗するために,403,415系の置換え用として登場する新型の交直流車輌。車体はステンレス製4扉(半自動機能付),主回路装置はVVVFインバータ,列車情報管理装置(TIMS),LED式車内案内表示機等が装備される。E217,E501,E231系の最高速度は120km/hであったが,本車輌は130km/hと特急列車並になっている。",
-      "translation": ""
+      "translation": "New AC/DC vehicle introduced to counter the 'Tsukuba Express' which opened in 2005, replacing the 403 and 415 Series. The body is stainless steel with 4 doors (with semi-automatic function), the main circuit device is a VVVF inverter, and it is equipped with a Train Information Management System (TIMS) and LED in-car information displays. While the E217, E501, and E231 Series had a maximum speed of 120km/h, this vehicle reaches 130km/h, comparable to limited express trains."
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050531-jreE993}.name",
       "source": "ＡＣトレイン",
-      "translation": ""
+      "translation": "AC Train"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050531-jreE993}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050531-jreE993}.type",
       "source": "E993系",
-      "translation": ""
+      "translation": "E993 Series"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050531-jreE993}.description",
       "source": "次世代通勤車両を目指して技術開発を行っている試験用車輌。扉は客室空間の拡大を狙った外吊り式。JRでは初の連接台車を採用し,メンテナンスの省力化と騒音減少効果を狙っている。中間車は特急タイプの内装が施され,パソコン用電源やモニター画面が装備されている。埼京線の川越電車区を本拠地に,試験走行が埼京線や中央線で随時行われている。",
-      "translation": ""
+      "translation": "A test vehicle undergoing technological development with the aim of becoming a next-generation commuter train. The doors are external-hanging type, designed to expand passenger cabin space. It is the first JR train to adopt articulated bogies, aiming for reduced maintenance and noise. Intermediate cars feature limited express-type interiors, equipped with power outlets for PCs and monitor screens. Based at Kawagoe Rolling Stock Center on the Saikyō Line, test runs are periodically conducted on the Saikyō and Chūō Lines."
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrwK120etumi}.name",
       "source": "越美北線",
-      "translation": ""
+      "translation": "Etsumi-Hoku Line"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrwK120etumi}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrwK120etumi}.type",
       "source": "キハ120系",
-      "translation": ""
+      "translation": "Kiha 120 Series"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrwK120etumi}.description",
       "source": "JR西日本発足後の初の新製軽快気動車。",
-      "translation": ""
+      "translation": "The first new light diesel railcar after JR West's establishment."
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrwK120fukuen}.name",
       "source": "福塩線",
-      "translation": ""
+      "translation": "Fukuen Line"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrwK120fukuen}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrwK120fukuen}.type",
       "source": "キハ120系",
-      "translation": ""
+      "translation": "Kiha 120 Series"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrwK120fukuen}.description",
       "source": "JR西日本発足後の初の新製軽快気動車。",
-      "translation": ""
+      "translation": "The first new light diesel railcar after JR West's establishment."
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrwK120mine}.name",
       "source": "美祢線",
-      "translation": ""
+      "translation": "Mine Line"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrwK120mine}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrwK120mine}.type",
       "source": "キハ120系",
-      "translation": ""
+      "translation": "Kiha 120 Series"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrwK120mine}.description",
       "source": "JR西日本発足後の初の新製軽快気動車。",
-      "translation": ""
+      "translation": "The first new light diesel railcar after JR West's establishment."
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrwK120sanko}.name",
       "source": "三江線",
-      "translation": ""
+      "translation": "Sankō Line"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrwK120sanko}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrwK120sanko}.type",
       "source": "キハ120系",
-      "translation": ""
+      "translation": "Kiha 120 Series"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrwK120sanko}.description",
       "source": "JR西日本発足後の初の新製軽快気動車。",
-      "translation": ""
+      "translation": "The first new light diesel railcar after JR West's establishment."
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrwK120takayama-b}.name",
       "source": "高山本線(青)",
-      "translation": ""
+      "translation": "Takayama Main Line (Blue)"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrwK120takayama-b}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrwK120takayama-b}.type",
       "source": "キハ120系",
-      "translation": ""
+      "translation": "Kiha 120 Series"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrwK120takayama-b}.description",
       "source": "JR西日本発足後の初の新製軽快気動車。",
-      "translation": ""
+      "translation": "The first new light diesel railcar after JR West's establishment."
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrwK120takayama-r}.name",
       "source": "高山本線(赤)",
-      "translation": ""
+      "translation": "Takayama Main Line (Red)"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrwK120takayama-r}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrwK120takayama-r}.type",
       "source": "キハ120系",
-      "translation": ""
+      "translation": "Kiha 120 Series"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrwK120takayama-r}.description",
       "source": "JR西日本発足後の初の新製軽快気動車。",
-      "translation": ""
+      "translation": "The first new light diesel railcar after JR West's establishment."
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrwK120tuyama}.name",
       "source": "津山線",
-      "translation": ""
+      "translation": "Tsuyama Line"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrwK120tuyama}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrwK120tuyama}.type",
       "source": "キハ120系",
-      "translation": ""
+      "translation": "Kiha 120 Series"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrwK120tuyama}.description",
       "source": "JR西日本発足後の初の新製軽快気動車。",
-      "translation": ""
+      "translation": "The first new light diesel railcar after JR West's establishment."
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrwK126sanin}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrwK126sanin}.type",
       "source": "キハ126系",
-      "translation": ""
+      "translation": "Kiha 126 Series"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrwK126sanin}.description",
       "source": "2001年の山陰本線(安来～益田間)高速化工事にともなって登場した車輌。ワンマン運転に対応し,最高速度は100km/h。",
-      "translation": ""
+      "translation": "Vehicle introduced in 2001 due to the speed-up project on the San'in Main Line (between Yasugi and Masuda). Supports one-man operation, with a maximum speed of 100km/h."
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrq457}.company",
       "source": "JR九州",
-      "translation": ""
+      "translation": "JR Kyushu"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrq457}.type",
       "source": "457系",
-      "translation": ""
+      "translation": "457 Series"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrq457}.description",
       "source": "国鉄時代に交直流用急行型電車として登場したが,現在では鹿児島本線のローカル線として運用。",
-      "translation": ""
+      "translation": "Introduced during the JNR era as an AC/DC express electric train, it now operates as a local train on the Kagoshima Main Line."
     },
     {
       "key": "contribution.{freetrain-20050325-train-811green}.name",
       "source": "グリーンランド",
-      "translation": ""
+      "translation": "Greenland"
     },
     {
       "key": "contribution.{freetrain-20050325-train-811green}.company",
       "source": "JR九州",
-      "translation": ""
+      "translation": "JR Kyushu"
     },
     {
       "key": "contribution.{freetrain-20050325-train-811green}.type",
       "source": "811系",
-      "translation": ""
+      "translation": "811 Series"
     },
     {
       "key": "contribution.{freetrain-20050325-train-811green}.description",
       "source": "福岡･北九州都市圏の輸送改善のため421系等の置換え用として1989年に登場した。4両編成を基本とし813系との混結もできる。ステンレス車体のサイリスタ位相制御で最高速度は120km/h。",
-      "translation": ""
+      "translation": "Introduced in 1989 to improve transportation in the Fukuoka/Kitakyushu metropolitan area, replacing trains like the 421 Series. Based on a 4-car formation, it can also be coupled with 813 Series trains. Features a stainless steel body and thyristor phase control, with a top speed of 120 km/h."
     },
     {
       "key": "contribution.{freetrain-20050325-train-811space}.name",
       "source": "スペースワールド",
-      "translation": ""
+      "translation": "Space World"
     },
     {
       "key": "contribution.{freetrain-20050325-train-811space}.company",
       "source": "JR九州",
-      "translation": ""
+      "translation": "JR Kyushu"
     },
     {
       "key": "contribution.{freetrain-20050325-train-811space}.type",
       "source": "811系",
-      "translation": ""
+      "translation": "811 Series"
     },
     {
       "key": "contribution.{freetrain-20050325-train-811space}.description",
       "source": "福岡･北九州都市圏の輸送改善のため421系等の置換え用として1989年に登場した。4両編成を基本とし813系との混結もできる。ステンレス車体のサイリスタ位相制御で最高速度は120km/h。",
-      "translation": ""
+      "translation": "Introduced in 1989 to improve transportation in the Fukuoka/Kitakyushu metropolitan area, replacing trains like the 421 Series. Based on a 4-car formation, it can also be coupled with 813 Series trains. Features a stainless steel body and thyristor phase control, with a top speed of 120 km/h."
     },
     {
       "key": "contribution.{freetrain-20050325-train815}.company",
       "source": "JR九州",
-      "translation": ""
+      "translation": "JR Kyushu"
     },
     {
       "key": "contribution.{freetrain-20050325-train815}.type",
       "source": "815系",
-      "translation": ""
+      "translation": "815 Series"
     },
     {
       "key": "contribution.{freetrain-20050325-train815}.description",
       "source": "1999年の豊肥本線(熊本－肥後大津間)の電化開業に合わせて登場したワンマン運転対応電車。基本は2両編成で811系や813系とも併結が可能である。軽量化や機器の向上により大幅な省エネルギー化を達成している。",
-      "translation": ""
+      "translation": "One-man operated electric train introduced with the electrification of the Hohi Main Line (Kumamoto-Higo-Ozu section) in 1999. It is basically a 2-car formation and can be coupled with the 811 Series and 813 Series. Significant energy savings have been achieved through weight reduction and improved equipment."
     },
     {
       "key": "contribution.{freetrain-20050325-train817}.company",
       "source": "JR九州",
-      "translation": ""
+      "translation": "JR Kyushu"
     },
     {
       "key": "contribution.{freetrain-20050325-train817}.type",
       "source": "817系",
-      "translation": ""
+      "translation": "817 Series"
     },
     {
       "key": "contribution.{freetrain-20050325-train817}.description",
       "source": "2001年の筑豊本線･篠栗線の電化開業に合わせて製造された通勤型電車。基本的には815系の流れを汲んでいるが座席はクロスシートで木と本皮を組み合わせたものになっているなど従来の通勤電車のイメージを一新したものになっている。",
-      "translation": ""
+      "translation": "Commuter electric train manufactured in 2001 to coincide with the electrification of the Chikuhō Main Line and Sasaguri Line. While generally following the design of the 815 Series, it features cross-seats combining wood and genuine leather, completely renewing the image of conventional commuter trains."
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrqk31}.company",
       "source": "JR九州",
-      "translation": ""
+      "translation": "JR Kyushu"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrqk31}.type",
       "source": "キハ31系",
-      "translation": ""
+      "translation": "KiHa 31 Series"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050530-jrqk31}.description",
       "source": "1987年の国鉄分割民営化に先立ち,経営が厳しい地方路線に登場。ステンレス製車体で動力以外は廃車品を転用。肥薩線,三角線,日南線などで運用。",
-      "translation": ""
+      "translation": "Introduced on financially struggling local lines prior to the JNR privatization in 1987. It featured a stainless steel body, reusing retired parts except for the power system. Operated on the Hisatsu Line, Misumi Line, Nichinan Line, etc."
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050601-jrq800}.name",
       "source": "つばめ",
-      "translation": ""
+      "translation": "Tsubame"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050601-jrq800}.company",
       "source": "JR九州",
-      "translation": ""
+      "translation": "JR Kyushu"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050601-jrq800}.type",
       "source": "800系",
-      "translation": ""
+      "translation": "800 Series"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050601-jrq800}.description",
       "source": "2004年,九州新幹線開業と供に登場。全通開通になると鹿児島～博多間の運用となる。700系を基に設計され,室内は｢和｣と｢木のぬくもり｣を強調した内装となっている。",
-      "translation": ""
+      "translation": "Introduced in 2004 with the opening of the Kyushu Shinkansen. When fully opened, it will operate between Kagoshima and Hakata. Designed based on the 700 Series, the interior emphasizes 'Japanese style' and 'the warmth of wood'."
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050603-jrs121}.company",
       "source": "JR四国",
-      "translation": ""
+      "translation": "JR Shikoku"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050603-jrs121}.type",
       "source": "121系",
-      "translation": ""
+      "translation": "121 Series"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050603-jrs121}.description",
       "source": "国鉄末期の1986年に登場。205系を基に設計された車輌で,分割民営後の四国では独自に4桁カタカナ無しの型式番号となり,3桁型式は本車輌が最後である。予讃･土讃線で運用。",
-      "translation": ""
+      "translation": "Appeared in 1986, at the end of the JNR era. It is a vehicle designed based on the 205 Series. In Shikoku after privatization, it received a unique 4-digit model number without Katakana, and this vehicle was the last with a 3-digit model number. Operates on the Yosan and Dosan Lines."
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050603-jrs5000}.name",
       "source": "マリンライナー",
-      "translation": ""
+      "translation": "Marine Liner"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050603-jrs5000}.company",
       "source": "JR四国",
-      "translation": ""
+      "translation": "JR Shikoku"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050603-jrs5000}.type",
       "source": "5000系",
-      "translation": ""
+      "translation": "5000 Series"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050603-jrs5000}.description",
       "source": "2003年に本四備讃線(瀬戸大橋線)の輸送改善を目的とし,213系の置換え用として登場した直流近郊形電車。平屋車輌は223系を,2階建て車輌はE217系を基に設計されており,狭小トンネルがある予讃線箕浦駅以遠への乗入れは考慮されていない。",
-      "translation": ""
+      "translation": "DC suburban electric train introduced in 2003 to improve transport on the Honshi-Bisan Line (Seto-Ohashi Line), replacing the 213 Series. The single-deck cars are designed based on the 223 Series, and the double-deck cars are based on the E217 Series. Through-service beyond Minoura Station on the Yosan Line, which has narrow tunnels, is not considered."
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050603-jrs7000}.company",
       "source": "JR四国",
-      "translation": ""
+      "translation": "JR Shikoku"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050603-jrs7000}.type",
       "source": "7000系",
-      "translation": ""
+      "translation": "7000 Series"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050603-jrs7000}.description",
       "source": "1990年の松山地区電化開業(予讃線･土讃線)に伴い登場した直流近郊形電車。トイレが設置されていないため本四備讃線(瀬戸大橋線)での運用はない。",
-      "translation": ""
+      "translation": "DC suburban electric train introduced with the electrification of the Matsuyama area (Yosan Line, Dosan Line) in 1990. Since no toilets are installed, it is not operated on the Honshi-Bisan Line (Seto-Ohashi Line)."
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050603-jrs8000}.name",
       "source": "しおかぜ",
-      "translation": ""
+      "translation": "Shiokaze"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050603-jrs8000}.company",
       "source": "JR四国",
-      "translation": ""
+      "translation": "JR Shikoku"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050603-jrs8000}.type",
       "source": "8000系",
-      "translation": ""
+      "translation": "8000 Series"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050603-jrs8000}.description",
       "source": "1993年の新居浜駅～今治駅間電化開業に伴い登場した特急型直流電車。VVVFインバータ制御装置,制御付振り子装置,架線追従装置を装備。塗装面では,橙は指定席,赤はグリーン席,青は自由席と判別しやすくしている。",
-      "translation": ""
+      "translation": "DC limited express electric train introduced with the electrification of the Niihama-Imabari section in 1993. Equipped with VVVF inverter control, controlled pendulum system, and pantograph tracking device. In terms of livery, orange indicates reserved seats, red indicates Green Car seats, and blue indicates non-reserved seats for easy identification."
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050603-jrsK185}.company",
       "source": "JR四国",
-      "translation": ""
+      "translation": "JR Shikoku"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050603-jrsK185}.type",
       "source": "キハ185系",
-      "translation": ""
+      "translation": "KiHa 185 Series"
     },
     {
       "key": "contribution.{freetrain-tomy-train-20050603-jrsK185}.description",
       "source": "国鉄末期の1986年に分割民営化後の経営を考慮し,四国用特急型気動車として登場。気動車としては初のステンレス製車体となった。",
-      "translation": ""
+      "translation": "Appeared in 1986, at the end of the JNR era, considering management after privatization. Introduced as a limited express diesel railcar for Shikoku, it was the first diesel railcar with a stainless steel body."
     },
     {
       "key": "contribution.{freetrain-20050407-jrh-k183-0}.company",
       "source": "JR北海道",
-      "translation": ""
+      "translation": "JR Hokkaido"
     },
     {
       "key": "contribution.{freetrain-20050407-jrh-k183-0}.type",
       "source": "キハ183系",
-      "translation": ""
+      "translation": "KiHa 183 Series"
     },
     {
       "key": "contribution.{freetrain-20050407-jrh-k183-0}.description",
       "source": "老朽化した80系気動車の置換え用として投入された特急型気動車",
-      "translation": ""
+      "translation": "A limited express diesel railcar introduced to replace the aging 80 Series diesel railcars."
     }
   ]
 }

@@ -6,162 +6,162 @@
     {
       "key": "plugin.title",
       "source": "架線柱",
-      "translation": ""
+      "translation": "Catenary Pole"
     },
     {
       "key": "contribution.{357BF062-3812-rk01-kura-0001}.name",
       "source": "倉Ａ01",
-      "translation": ""
+      "translation": "Kura A01"
     },
     {
       "key": "contribution.{357BF062-3812-rk01-kura-0002}.name",
       "source": "倉Ａ02",
-      "translation": ""
+      "translation": "Kura A02"
     },
     {
       "key": "contribution.{357BF062-3812-rk01-kura-0003}.name",
       "source": "倉Ａ03",
-      "translation": ""
+      "translation": "Kura A03"
     },
     {
       "key": "contribution.{357BF062-3812-rk01-kura-0004}.name",
       "source": "倉Ａ04",
-      "translation": ""
+      "translation": "Kura A04"
     },
     {
       "key": "contribution.{357BF062-3812-rk01-kura-0005}.name",
       "source": "倉Ａ05",
-      "translation": ""
+      "translation": "Kura A05"
     },
     {
       "key": "contribution.{357BF062-3812-rk01-kura-0006}.name",
       "source": "倉Ａ06",
-      "translation": ""
+      "translation": "Kura A06"
     },
     {
       "key": "contribution.{357BF062-3812-rk01-kura-0009}.name",
       "source": "倉Ａ07",
-      "translation": ""
+      "translation": "Kura A07"
     },
     {
       "key": "contribution.{357BF062-3812-rk01-kura-0010}.name",
       "source": "倉Ａ08",
-      "translation": ""
+      "translation": "Kura A08"
     },
     {
       "key": "contribution.{357BF062-3812-rk01-kura-0011}.name",
       "source": "倉Ａ09",
-      "translation": ""
+      "translation": "Kura A09"
     },
     {
       "key": "contribution.{357BF062-3812-rk01-kura-0007}.name",
       "source": "倉Ａ10",
-      "translation": ""
+      "translation": "Kura A10"
     },
     {
       "key": "contribution.{357BF062-3812-rk01-kura-0008}.name",
       "source": "倉Ａ11",
-      "translation": ""
+      "translation": "Kura A11"
     },
     {
       "key": "contribution.{rk-ken0001-FENCE-1001}.name",
       "source": "列車庫（三角屋根01）",
-      "translation": ""
+      "translation": "Train depot (gable roof 01)"
     },
     {
       "key": "contribution.{rk-ken0001-FENCE-1001}.description",
       "source": "列車庫",
-      "translation": ""
+      "translation": "Train depot"
     },
     {
       "key": "contribution.{rk-ken0001-FENCE-1002}.name",
       "source": "列車庫（三角屋根02）",
-      "translation": ""
+      "translation": "Train depot (gable roof 02)"
     },
     {
       "key": "contribution.{rk-ken0001-FENCE-1002}.description",
       "source": "列車庫",
-      "translation": ""
+      "translation": "Train depot"
     },
     {
       "key": "contribution.{rk-ken0001-FENCE-1003}.name",
       "source": "列車庫（三角屋根03）",
-      "translation": ""
+      "translation": "Train depot (gable roof 03)"
     },
     {
       "key": "contribution.{rk-ken0001-FENCE-1003}.description",
       "source": "列車庫",
-      "translation": ""
+      "translation": "Train depot"
     },
     {
       "key": "contribution.{rk-ken0001-FENCE-1004}.name",
       "source": "列車庫（三角屋根04）",
-      "translation": ""
+      "translation": "Train depot (gable roof 04)"
     },
     {
       "key": "contribution.{rk-ken0001-FENCE-1004}.description",
       "source": "列車庫",
-      "translation": ""
+      "translation": "Train depot"
     },
     {
       "key": "contribution.{rk-ken0001-FENCE-1005}.name",
       "source": "列車庫（三角屋根05）",
-      "translation": ""
+      "translation": "Train depot (gable roof 05)"
     },
     {
       "key": "contribution.{rk-ken0001-FENCE-1005}.description",
       "source": "列車庫",
-      "translation": ""
+      "translation": "Train depot"
     },
     {
       "key": "contribution.{FreeTrain-rk-torabasa-001}.group",
       "source": "トラバーサー",
-      "translation": ""
+      "translation": "Traverser"
     },
     {
       "key": "contribution.{FreeTrain-rk-torabasa-002}.group",
       "source": "トラバーサー",
-      "translation": ""
+      "translation": "Traverser"
     },
     {
       "key": "contribution.{FreeTrain-rk-torabasa-003}.group",
       "source": "トラバーサー",
-      "translation": ""
+      "translation": "Traverser"
     },
     {
       "key": "contribution.{FreeTrain-rk-torabasa-004}.group",
       "source": "トラバーサー",
-      "translation": ""
+      "translation": "Traverser"
     },
     {
       "key": "contribution.{FreeTrain-rk-torabasa-005}.group",
       "source": "トラバーサー",
-      "translation": ""
+      "translation": "Traverser"
     },
     {
       "key": "contribution.{FreeTrain-rk-torabasa-006}.group",
       "source": "トラバーサー",
-      "translation": ""
+      "translation": "Traverser"
     },
     {
       "key": "contribution.{FreeTrain-rk-torabasa-007}.group",
       "source": "トラバーサー",
-      "translation": ""
+      "translation": "Traverser"
     },
     {
       "key": "contribution.{FreeTrain-rk-torabasa-008}.group",
       "source": "トラバーサー",
-      "translation": ""
+      "translation": "Traverser"
     },
     {
       "key": "contribution.{FreeTrain-rk-torabasa-009}.group",
       "source": "トラバーサー",
-      "translation": ""
+      "translation": "Traverser"
     },
     {
       "key": "contribution.{FreeTrain-rk-torabasa-010}.group",
       "source": "トラバーサー",
-      "translation": ""
+      "translation": "Traverser"
     }
   ]
 }

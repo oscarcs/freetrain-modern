@@ -6,187 +6,187 @@
     {
       "key": "plugin.title",
       "source": "森林",
-      "translation": ""
+      "translation": "Forest"
     },
     {
       "key": "contribution.{FBD0CD06-016A-4037-AB15-02040218CBAA}.name",
       "source": "杉",
-      "translation": ""
+      "translation": "Cedar tree"
     },
     {
       "key": "contribution.{FBD0CD06-016A-4037-AB15-02040218CBAA}.group",
       "source": "森林",
-      "translation": ""
+      "translation": "Forest"
     },
     {
       "key": "contribution.{4B732903-B207-4693-9CF7-19AED4E42604}.name",
       "source": "松",
-      "translation": ""
+      "translation": "Pine tree"
     },
     {
       "key": "contribution.{4B732903-B207-4693-9CF7-19AED4E42604}.group",
       "source": "森林",
-      "translation": ""
+      "translation": "Forest"
     },
     {
       "key": "contribution.{CE18E96E-336B-4C8A-80E6-F149DAEFD6E4}.name",
       "source": "楠",
-      "translation": ""
+      "translation": "Camphor tree"
     },
     {
       "key": "contribution.{CE18E96E-336B-4C8A-80E6-F149DAEFD6E4}.group",
       "source": "森林",
-      "translation": ""
+      "translation": "Forest"
     },
     {
       "key": "contribution.{88868086-3B45-46B5-A3F1-8D0E735DBD1C}.name",
       "source": "楓",
-      "translation": ""
+      "translation": "Maple tree"
     },
     {
       "key": "contribution.{88868086-3B45-46B5-A3F1-8D0E735DBD1C}.group",
       "source": "森林",
-      "translation": ""
+      "translation": "Forest"
     },
     {
       "key": "contribution.{77961EC1-0406-42C7-A5F5-ADEC3555400E}.name",
       "source": "銀杏",
-      "translation": ""
+      "translation": "Ginkgo"
     },
     {
       "key": "contribution.{77961EC1-0406-42C7-A5F5-ADEC3555400E}.group",
       "source": "森林",
-      "translation": ""
+      "translation": "Forest"
     },
     {
       "key": "contribution.{DF43FB52-E197-451D-B4A3-1114BBFF69D9}.name",
       "source": "ブナ",
-      "translation": ""
+      "translation": "Beech"
     },
     {
       "key": "contribution.{DF43FB52-E197-451D-B4A3-1114BBFF69D9}.group",
       "source": "森林",
-      "translation": ""
+      "translation": "Forest"
     },
     {
       "key": "contribution.{FBD0CD06-016A-4037-AB15-02040218CBAA}-m.name",
       "source": "杉",
-      "translation": ""
+      "translation": "Cedar tree"
     },
     {
       "key": "contribution.{FBD0CD06-016A-4037-AB15-02040218CBAA}-m.group",
       "source": "森林(山肌)",
-      "translation": ""
+      "translation": "Forest (Mountainside)"
     },
     {
       "key": "contribution.{4B732903-B207-4693-9CF7-19AED4E42604}-m.name",
       "source": "松",
-      "translation": ""
+      "translation": "Pine tree"
     },
     {
       "key": "contribution.{4B732903-B207-4693-9CF7-19AED4E42604}-m.group",
       "source": "森林(山肌)",
-      "translation": ""
+      "translation": "Forest (Mountainside)"
     },
     {
       "key": "contribution.{CE18E96E-336B-4C8A-80E6-F149DAEFD6E4}-m.name",
       "source": "楠",
-      "translation": ""
+      "translation": "Camphor tree"
     },
     {
       "key": "contribution.{CE18E96E-336B-4C8A-80E6-F149DAEFD6E4}-m.group",
       "source": "森林(山肌)",
-      "translation": ""
+      "translation": "Forest (Mountainside)"
     },
     {
       "key": "contribution.{88868086-3B45-46B5-A3F1-8D0E735DBD1C}-m.name",
       "source": "楓",
-      "translation": ""
+      "translation": "Maple tree"
     },
     {
       "key": "contribution.{88868086-3B45-46B5-A3F1-8D0E735DBD1C}-m.group",
       "source": "森林(山肌)",
-      "translation": ""
+      "translation": "Forest (Mountainside)"
     },
     {
       "key": "contribution.{77961EC1-0406-42C7-A5F5-ADEC3555400E}-m.name",
       "source": "銀杏",
-      "translation": ""
+      "translation": "Ginkgo"
     },
     {
       "key": "contribution.{77961EC1-0406-42C7-A5F5-ADEC3555400E}-m.group",
       "source": "森林(山肌)",
-      "translation": ""
+      "translation": "Forest (Mountainside)"
     },
     {
       "key": "contribution.{DF43FB52-E197-451D-B4A3-1114BBFF69D9}-m.name",
       "source": "ブナ",
-      "translation": ""
+      "translation": "Beech"
     },
     {
       "key": "contribution.{DF43FB52-E197-451D-B4A3-1114BBFF69D9}-m.group",
       "source": "森林(山肌)",
-      "translation": ""
+      "translation": "Forest (Mountainside)"
     },
     {
       "key": "contribution.{FBD0CD06-016A-4037-AB15-02040218CBAA}-g.name",
       "source": "杉",
-      "translation": ""
+      "translation": "Cedar tree"
     },
     {
       "key": "contribution.{FBD0CD06-016A-4037-AB15-02040218CBAA}-g.group",
       "source": "森林(草原)",
-      "translation": ""
+      "translation": "Forest (Grassland)"
     },
     {
       "key": "contribution.{4B732903-B207-4693-9CF7-19AED4E42604}-g.name",
       "source": "松",
-      "translation": ""
+      "translation": "Pine tree"
     },
     {
       "key": "contribution.{4B732903-B207-4693-9CF7-19AED4E42604}-g.group",
       "source": "森林(草原)",
-      "translation": ""
+      "translation": "Forest (Grassland)"
     },
     {
       "key": "contribution.{CE18E96E-336B-4C8A-80E6-F149DAEFD6E4}-g.name",
       "source": "楠",
-      "translation": ""
+      "translation": "Camphor tree"
     },
     {
       "key": "contribution.{CE18E96E-336B-4C8A-80E6-F149DAEFD6E4}-g.group",
       "source": "森林(草原)",
-      "translation": ""
+      "translation": "Forest (Grassland)"
     },
     {
       "key": "contribution.{88868086-3B45-46B5-A3F1-8D0E735DBD1C}-g.name",
       "source": "楓",
-      "translation": ""
+      "translation": "Maple tree"
     },
     {
       "key": "contribution.{88868086-3B45-46B5-A3F1-8D0E735DBD1C}-g.group",
       "source": "森林(草原)",
-      "translation": ""
+      "translation": "Forest (Grassland)"
     },
     {
       "key": "contribution.{77961EC1-0406-42C7-A5F5-ADEC3555400E}-g.name",
       "source": "銀杏",
-      "translation": ""
+      "translation": "Ginkgo"
     },
     {
       "key": "contribution.{77961EC1-0406-42C7-A5F5-ADEC3555400E}-g.group",
       "source": "森林(草原)",
-      "translation": ""
+      "translation": "Forest (Grassland)"
     },
     {
       "key": "contribution.{DF43FB52-E197-451D-B4A3-1114BBFF69D9}-g.name",
       "source": "ブナ",
-      "translation": ""
+      "translation": "Beech"
     },
     {
       "key": "contribution.{DF43FB52-E197-451D-B4A3-1114BBFF69D9}-g.group",
       "source": "森林(草原)",
-      "translation": ""
+      "translation": "Forest (Grassland)"
     }
   ]
 }

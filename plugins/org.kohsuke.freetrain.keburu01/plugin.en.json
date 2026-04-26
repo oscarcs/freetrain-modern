@@ -6,37 +6,37 @@
     {
       "key": "plugin.title",
       "source": "ケーブルカー",
-      "translation": ""
+      "translation": "Cable car"
     },
     {
       "key": "contribution.{474B8BFD-K001-0010-HRE-D0EA1049D201}.group",
       "source": "ケーブルカー線路",
-      "translation": ""
+      "translation": "Cable Car Track"
     },
     {
       "key": "contribution.{474B8BFD-K001-0011-HRE-D0EA1049D202}.group",
       "source": "ケーブルカー線路",
-      "translation": ""
+      "translation": "Cable Car Track"
     },
     {
       "key": "contribution.{474B8BFD-K001-0012-HRE-D0EA1049D201}.group",
       "source": "ケーブルカー駅舎",
-      "translation": ""
+      "translation": "Cable Car Station Building"
     },
     {
       "key": "contribution.{474B8BFD-K001-0013-HRE-D0EA1049D202}.group",
       "source": "ケーブルカー駅舎",
-      "translation": ""
+      "translation": "Cable Car Station Building"
     },
     {
       "key": "contribution.{474B8BFD-K001-0014-HRE-D0EA1049D201}.group",
       "source": "ケーブルカー",
-      "translation": ""
+      "translation": "Cable car"
     },
     {
       "key": "contribution.{474B8BFD-K001-0015-HRE-D0EA1049D202}.group",
       "source": "ケーブルカー",
-      "translation": ""
+      "translation": "Cable car"
     }
   ]
 }

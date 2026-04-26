@@ -6,12 +6,12 @@
     {
       "key": "plugin.title",
       "source": "架線柱",
-      "translation": ""
+      "translation": "Catenary Pole"
     },
     {
       "key": "contribution.{357BF062-3812-44D7-B46C-6CEE9FF2CFA6}.name",
       "source": "非電化電信柱",
-      "translation": ""
+      "translation": "Non-electrified Utility Pole"
     }
   ]
 }

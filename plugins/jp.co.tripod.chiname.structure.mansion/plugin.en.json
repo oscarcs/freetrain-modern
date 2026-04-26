@@ -6,17 +6,17 @@
     {
       "key": "plugin.title",
       "source": "分譲マンション",
-      "translation": ""
+      "translation": "Condominium"
     },
     {
       "key": "contribution.{0B1A4A3C-0BA0-418F-C477-6207429BA639}.group",
       "source": "分譲マンション(4x2)",
-      "translation": ""
+      "translation": "Condominium (4x2)"
     },
     {
       "key": "contribution.{1F0EDC38-0EB4-4354-C477-A40FEF387758}.group",
       "source": "分譲マンション(2x2)",
-      "translation": ""
+      "translation": "Condominium (2x2)"
     }
   ]
 }

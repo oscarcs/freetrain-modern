@@ -6,57 +6,57 @@
     {
       "key": "plugin.title",
       "source": "架線柱タイプ地下鉄区間壁",
-      "translation": ""
+      "translation": "Catenary Pole Type Subway Section Wall"
     },
     {
       "key": "contribution.{riorio-ep-subwaywall-object-0001-7F2AE70CF695}.name",
       "source": "地下駅壁駅名板",
-      "translation": ""
+      "translation": "Underground Station Wall Station Name Board"
     },
     {
       "key": "contribution.{riorio-ep-subwaywall-object-0002-7F2AE70CF695}.name",
       "source": "地下駅壁路線図",
-      "translation": ""
+      "translation": "Underground Station Wall Route Map"
     },
     {
       "key": "contribution.{riorio-ep-subwaywall-object-0003-7F2AE70CF695}.name",
       "source": "地下駅壁",
-      "translation": ""
+      "translation": "Underground Station Wall"
     },
     {
       "key": "contribution.{riorio-ep-subwaywall-object-0004-7F2AE70CF695}.name",
       "source": "地下鉄中柱",
-      "translation": ""
+      "translation": "Subway Middle Pillar"
     },
     {
       "key": "contribution.{riorio-ep-subwaywall-object-0005-7F2AE70CF695}.name",
       "source": "地下鉄壁",
-      "translation": ""
+      "translation": "Subway Wall"
     },
     {
       "key": "contribution.{riorio-ep-subwaywall-platform-0001-7F2AE70CF695}.name",
       "source": "地下ホーム駅名板",
-      "translation": ""
+      "translation": "Underground Platform Station Name Board"
     },
     {
       "key": "contribution.{riorio-ep-subwaywall-platform-0002-7F2AE70CF695}.name",
       "source": "地下ホーム路線図",
-      "translation": ""
+      "translation": "Underground Platform Route Map"
     },
     {
       "key": "contribution.{riorio-ep-subwaywall-platform-0003-7F2AE70CF695}.name",
       "source": "地下ホーム",
-      "translation": ""
+      "translation": "Underground Platform"
     },
     {
       "key": "contribution.{riorio-ep-subwaywall-platform-0004-7F2AE70CF695}.name",
       "source": "地下鉄中柱・ホーム",
-      "translation": ""
+      "translation": "Subway Middle Pillar and Platform"
     },
     {
       "key": "contribution.{riorio-ep-subwaywall-platform-0006-7F2AE70CF695}.name",
       "source": "地下鉄中柱無ホーム",
-      "translation": ""
+      "translation": "Subway Pillarless Platform"
     }
   ]
 }

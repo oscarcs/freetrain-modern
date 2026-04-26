@@ -6,47 +6,47 @@
     {
       "key": "plugin.title",
       "source": "建物セット",
-      "translation": ""
+      "translation": "Building Set"
     },
     {
       "key": "contribution.{kaden-js01d1-1001201801}.name",
       "source": "ジョーシンtype1",
-      "translation": ""
+      "translation": "Joshin type1"
     },
     {
       "key": "contribution.{kaden-js01d1-1001201801}.group",
       "source": "家電量販店",
-      "translation": ""
+      "translation": "Electronics Retailer"
     },
     {
       "key": "contribution.{kaden-md01d1-1001242203}.name",
       "source": "ミドリ電化type1",
-      "translation": ""
+      "translation": "Midori Denka Type 1"
     },
     {
       "key": "contribution.{kaden-md01d1-1001242203}.group",
       "source": "家電量販店",
-      "translation": ""
+      "translation": "Electronics Retailer"
     },
     {
       "key": "contribution.{diy-kn01d1-1001302235}.name",
       "source": "コーナンtype1",
-      "translation": ""
+      "translation": "Kohnan type1"
     },
     {
       "key": "contribution.{diy-kn01d1-1001302235}.group",
       "source": "日曜大工店",
-      "translation": ""
+      "translation": "DIY Store"
     },
     {
       "key": "contribution.{DIY-km01d1-1001311926}.name",
       "source": "コメリtype1",
-      "translation": ""
+      "translation": "Komeri type1"
     },
     {
       "key": "contribution.{DIY-km01d1-1001311926}.group",
       "source": "日曜大工店",
-      "translation": ""
+      "translation": "DIY Store"
     }
   ]
 }

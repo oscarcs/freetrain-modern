@@ -6,47 +6,47 @@
     {
       "key": "plugin.title",
       "source": "道路",
-      "translation": ""
+      "translation": "Road"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-hashi-01a}.group",
       "source": "道路橋",
-      "translation": ""
+      "translation": "Road bridge"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-hashi-01b}.group",
       "source": "道路橋",
-      "translation": ""
+      "translation": "Road bridge"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-hashi-02a}.group",
       "source": "道路橋",
-      "translation": ""
+      "translation": "Road bridge"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-hashi-02b}.group",
       "source": "道路橋",
-      "translation": ""
+      "translation": "Road bridge"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-hashi-03a}.group",
       "source": "道路橋",
-      "translation": ""
+      "translation": "Road bridge"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-hashi-03b}.group",
       "source": "道路橋",
-      "translation": ""
+      "translation": "Road bridge"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-hashi-04a}.group",
       "source": "道路橋",
-      "translation": ""
+      "translation": "Road bridge"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-hashi-04b}.group",
       "source": "道路橋",
-      "translation": ""
+      "translation": "Road bridge"
     }
   ]
 }

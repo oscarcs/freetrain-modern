@@ -6,37 +6,37 @@
     {
       "key": "plugin.title",
       "source": "架線柱",
-      "translation": ""
+      "translation": "Catenary Pole"
     },
     {
       "key": "contribution.{874B8BFD-1EF4-1001-1000-D0EA1049D28D}.name",
       "source": "場内信号機1",
-      "translation": ""
+      "translation": "Home signal 1"
     },
     {
       "key": "contribution.{874B8BFD-1EF4-1002-1000-D0EA1049D28D}.name",
       "source": "場内信号機2",
-      "translation": ""
+      "translation": "Home signal 2"
     },
     {
       "key": "contribution.{874B8BFD-1EF4-1003-1000-D0EA1049D28D}.name",
       "source": "場内信号機3",
-      "translation": ""
+      "translation": "Home signal 3"
     },
     {
       "key": "contribution.{874B8BFD-1EF4-1004-1000-D0EA1049D28D}.name",
       "source": "場内信号機4",
-      "translation": ""
+      "translation": "Home signal 4"
     },
     {
       "key": "contribution.{874B8BFD-1EF4-1005-1000-D0EA1049D28D}.name",
       "source": "場内信号機5",
-      "translation": ""
+      "translation": "Home signal 5"
     },
     {
       "key": "contribution.{874B8BFD-1EF4-1006-1000-D0EA1049D28D}.name",
       "source": "場内信号機6",
-      "translation": ""
+      "translation": "Home signal 6"
     }
   ]
 }

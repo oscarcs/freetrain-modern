@@ -6,12 +6,12 @@
     {
       "key": "plugin.title",
       "source": "建物セット",
-      "translation": ""
+      "translation": "Building Set"
     },
     {
       "key": "contribution.{D50BA778-25F4-465B-8A73-4C15F8772362}.name",
       "source": "消防署",
-      "translation": ""
+      "translation": "Fire station"
     }
   ]
 }

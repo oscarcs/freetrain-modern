@@ -6,22 +6,22 @@
     {
       "key": "plugin.title",
       "source": "ミラービル＆工場",
-      "translation": ""
+      "translation": "Mirror Building & Factory"
     },
     {
       "key": "contribution.{C6ECBE6F-7034-4d94-8F00-E89BAF06D3A2}-gs.name",
       "source": "ミラービル",
-      "translation": ""
+      "translation": "Mirror building"
     },
     {
       "key": "contribution.{AD825AF4-A4C9-438a-8F0C-B2DD581F2192}-gs.name",
       "source": "ミラービル",
-      "translation": ""
+      "translation": "Mirror building"
     },
     {
       "key": "contribution.{235CBE6F-7AD4-4334-8FFB-E54B2F0643A2}-gs.group",
       "source": "工場",
-      "translation": ""
+      "translation": "Factory"
     }
   ]
 }

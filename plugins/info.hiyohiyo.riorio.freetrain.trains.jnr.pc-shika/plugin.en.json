@@ -6,37 +6,37 @@
     {
       "key": "plugin.title",
       "source": "列車(旧日本国有鉄道)",
-      "translation": ""
+      "translation": "Train (former JNR)"
     },
     {
       "key": "contribution.{FreeTrain-riorio-shikashika-TrainHensei-EF58boxbrown-laggageonly}.name",
       "source": "茶 荷物列車",
-      "translation": ""
+      "translation": "Brown Baggage Train"
     },
     {
       "key": "contribution.{FreeTrain-riorio-shikashika-TrainHensei-EF58boxbrown-laggageonly}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-riorio-shikashika-TrainHensei-EF58boxbrown-laggageonly}.description",
       "source": "荷物列車。牽引はEF58の茶。",
-      "translation": ""
+      "translation": "Baggage train. Pulled by a brown EF58."
     },
     {
       "key": "contribution.{FreeTrain-riorio-shikashika-TrainHensei-EF58boxbrown-pcexpress}.name",
       "source": "茶 急行列車",
-      "translation": ""
+      "translation": "Brown Express Train"
     },
     {
       "key": "contribution.{FreeTrain-riorio-shikashika-TrainHensei-EF58boxbrown-pcexpress}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-riorio-shikashika-TrainHensei-EF58boxbrown-pcexpress}.description",
       "source": "急行列車。牽引はEF58の茶。",
-      "translation": ""
+      "translation": "Express train. Pulled by a brown EF58."
     }
   ]
 }

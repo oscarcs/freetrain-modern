@@ -6,172 +6,172 @@
     {
       "key": "plugin.title",
       "source": "京王電鉄車両プラグイン",
-      "translation": ""
+      "translation": "Keio Corporation Rolling Stock Plugin"
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-KEO10A006000}.name",
       "source": "京王線,相模原線など",
-      "translation": ""
+      "translation": "Keio Line, Sagamihara Line, etc."
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-KEO10A006000}.company",
       "source": "京王電鉄",
-      "translation": ""
+      "translation": "Keio Electric Railway"
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-KEO10A006000}.type",
       "source": "6000系",
-      "translation": ""
+      "translation": "6000 Series"
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-KEO10A006000}.description",
       "source": "京王電鉄初の20ｍ車として1972年に登場。ワンハンドルマスコンの採用や都営新宿線直通を考慮した設計で、1次車は抵抗制御、2次車以降は界磁チョッパを採用している。5扉車や都営線乗り入れ車などもあり、最大304両の大所帯だったが、9000系と入れ替わるように徐々に廃車が進んでいる。",
-      "translation": ""
+      "translation": "Appeared in 1972 as Keio Corporation's first 20m car. Designed with a single-handle master controller and for direct service on the Toei Shinjuku Line, the first batch used resistance control, while subsequent batches adopted field chopper control. With 5-door cars and Toei Line through-service cars, it was a large fleet of up to 304 cars, but is gradually being retired as it is replaced by the 9000 Series."
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-KEO14A006000}.name",
       "source": "京王線など",
-      "translation": ""
+      "translation": "Keio Line, etc."
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-KEO14A006000}.company",
       "source": "京王電鉄",
-      "translation": ""
+      "translation": "Keio Electric Railway"
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-KEO14A006000}.type",
       "source": "6000系(新塗装)",
-      "translation": ""
+      "translation": "6000 Series (new livery)"
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-KEO14A006000}.description",
       "source": "2002年度中に全車が従来のエンジ帯から赤青2色帯に変更された。再塗装されたものとシールを貼り付けたものの2種類がある。",
-      "translation": ""
+      "translation": "By fiscal year 2002, all cars were changed from the conventional engine-colored stripe to a red and blue two-color stripe. There are two types: repainted and stickered."
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-KEO10B007000}.name",
       "source": "京王線,相模原線など",
-      "translation": ""
+      "translation": "Keio Line, Sagamihara Line, etc."
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-KEO10B007000}.company",
       "source": "京王電鉄",
-      "translation": ""
+      "translation": "Keio Electric Railway"
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-KEO10B007000}.type",
       "source": "7000系",
-      "translation": ""
+      "translation": "7000 Series"
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-KEO10B007000}.description",
       "source": "1984年に登場。足回りなど基本的に6000系と同じ界磁チョッパで、ステンレス車体を採用して軽量化した。無塗装の銀色前面だったが、視認性向上のためアイボリーに塗られた。コルゲート車体からビートプレスに変更されスマートになった20番台(7020系)が後に登場。現在は2、4、6、8、10連が揃っている。",
-      "translation": ""
+      "translation": "Introduced in 1984. Its underframe and other components are basically the same field chopper as the 6000 Series, and it adopted a stainless steel body for weight reduction. It initially had an unpainted silver front, but was later painted ivory for improved visibility. The 20 Series (7020 Series), which became sleeker with a change from corrugated to beat-pressed body, appeared later. Currently, 2, 4, 6, 8, and 10-car formations are available."
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-KEO14B007000}.name",
       "source": "京王線など",
-      "translation": ""
+      "translation": "Keio Line, etc."
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-KEO14B007000}.company",
       "source": "京王電鉄",
-      "translation": ""
+      "translation": "Keio Electric Railway"
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-KEO14B007000}.type",
       "source": "7000系(新塗装)",
-      "translation": ""
+      "translation": "7000 Series (New Livery)"
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-KEO14B007000}.description",
       "source": "2001年から初期の車両を中心に内外装の更新工事を実施、従来のエンジ帯から赤青2色帯に変更された。追って未更新の車両にも同様の塗色変更が行なわれた。",
-      "translation": ""
+      "translation": "From 2001, interior and exterior renovation work was carried out, mainly on early models, changing the conventional engine-colored stripe to a red and blue two-color stripe. Subsequently, unrenovated vehicles also underwent the same color change."
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-KEO10C008000}.name",
       "source": "京王線,相模原線,高尾線",
-      "translation": ""
+      "translation": "Keio Line, Sagamihara Line, Takao Line"
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-KEO10C008000}.company",
       "source": "京王電鉄",
-      "translation": ""
+      "translation": "Keio Electric Railway"
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-KEO10C008000}.type",
       "source": "8000系",
-      "translation": ""
+      "translation": "8000 Series"
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-KEO10C008000}.description",
       "source": "1992年に登場した京王初のGTO-VVVF車。新たなコーポレートカラーであるチェリーレッド、インディゴブルーの帯を巻き、90年代の京王のイメージリーダーとなった。6連＋4連、8連がある。都営新宿線内乗り入れには使われない。",
-      "translation": ""
+      "translation": "Keio's first GTO-VVVF train, introduced in 1992. Adorned with new corporate colors of cherry red and indigo blue stripes, it became Keio's image leader in the 1990s. 6-car + 4-car and 8-car formations are available. Not used for through service on the Toei Shinjuku Line."
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-KEO20C008000}.company",
       "source": "京王電鉄",
-      "translation": ""
+      "translation": "Keio Electric Railway"
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-KEO20C008000}.type",
       "source": "8000系(6連＋4連)",
-      "translation": ""
+      "translation": "8000 Series (6-car + 4-car)"
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-KEO20C008000}.description",
       "source": "6連＋4連の10両編成を再現。(10両編成のみ購入可能)",
-      "translation": ""
+      "translation": "Reproduces a 10-car formation of 6+4 cars. (Only 10-car formations are available for purchase)."
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-KEO10D009000}.name",
       "source": "京王線,相模原線,高尾線",
-      "translation": ""
+      "translation": "Keio Line, Sagamihara Line, Takao Line"
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-KEO10D009000}.company",
       "source": "京王電鉄",
-      "translation": ""
+      "translation": "Keio Electric Railway"
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-KEO10D009000}.type",
       "source": "9000系",
-      "translation": ""
+      "translation": "9000 Series"
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-KEO10D009000}.description",
       "source": "2000年に登場した京王の最新鋭車両。IGBT-VVVFや片持ち式シートを採用、8000系に比べて特にバリアフリーを強化している。都営新宿線乗り入れにも対応するが、都合によりまだ運用されていない。8両編成のみのため、10連運用するときは6000系または7000系2連を増結する。",
-      "translation": ""
+      "translation": "Keio's latest model vehicle, introduced in 2000. It adopts IGBT-VVVF and cantilever seats, with particularly enhanced barrier-free features compared to the 8000 Series. Although it supports through service to the Toei Shinjuku Line, it is not yet in operation due to circumstances. Since only 8-car formations exist, a 2-car formation of the 6000 Series or 7000 Series is added for 10-car operations."
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-KEO20D009000}.company",
       "source": "京王電鉄",
-      "translation": ""
+      "translation": "Keio Electric Railway"
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-KEO20D009000}.type",
       "source": "9000系＋6000系",
-      "translation": ""
+      "translation": "9000 Series + 6000 Series"
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-KEO20D009000}.description",
       "source": "「特急」など優等列車として運用される時は主に6000系2連を増結し10両編成となる。(10両編成のみ購入可能)",
-      "translation": ""
+      "translation": "When operated as an express or other superior train service, it primarily couples with two 6000 Series cars to form a 10-car train. (Available only as a 10-car formation)"
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-KEO30D009000}.company",
       "source": "京王電鉄",
-      "translation": ""
+      "translation": "Keio Electric Railway"
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-KEO30D009000}.type",
       "source": "9000系＋7000系",
-      "translation": ""
+      "translation": "9000 Series + 7000 Series"
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-KEO30D009000}.description",
       "source": "ごく稀に7000系2連を増結することもある。(10両編成のみ購入可能)",
-      "translation": ""
+      "translation": "Occasionally, a 2-car 7000 series may be added. (Only 10-car formations can be purchased)"
     }
   ]
 }

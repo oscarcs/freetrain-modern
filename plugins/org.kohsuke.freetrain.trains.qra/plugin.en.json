@@ -6,1247 +6,1247 @@
     {
       "key": "plugin.title",
       "source": "車両ぷらぐいん",
-      "translation": ""
+      "translation": "Vehicle Plugin"
     },
     {
       "key": "contribution.{001D31EE-F3A2-4CD6-A820-54200A6EF537}.name",
       "source": "国鉄特急色",
-      "translation": ""
+      "translation": "JNR Limited Express Livery"
     },
     {
       "key": "contribution.{001D31EE-F3A2-4CD6-A820-54200A6EF537}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{001D31EE-F3A2-4CD6-A820-54200A6EF537}.type",
       "source": "183系0番台",
-      "translation": ""
+      "translation": "183 Series 0"
     },
     {
       "key": "contribution.{001D31EE-F3A2-4CD6-A820-54200A6EF537}.description",
       "source": "内房線，外房線の電化と、総武線の東京地下駅へ乗入れるため製造された車両。",
-      "translation": ""
+      "translation": "Rolling stock manufactured for the electrification of the Uchibo and Sotobo Lines and for through-service to the Tokyo underground station on the Sobu Line."
     },
     {
       "key": "contribution.{002D31EE-F3A2-4CD6-A820-54200A6EF537}.name",
       "source": "国鉄特急色",
-      "translation": ""
+      "translation": "JNR Limited Express Livery"
     },
     {
       "key": "contribution.{002D31EE-F3A2-4CD6-A820-54200A6EF537}.company",
       "source": "JR東海",
-      "translation": ""
+      "translation": "JR Central"
     },
     {
       "key": "contribution.{002D31EE-F3A2-4CD6-A820-54200A6EF537}.type",
       "source": "381系",
-      "translation": ""
+      "translation": "381 Series"
     },
     {
       "key": "contribution.{002D31EE-F3A2-4CD6-A820-54200A6EF537}.description",
       "source": "カーブの多い区間での到達時間短縮を図るために製造された自然振り子式電車。\n重心を下げるためクーラーが床下に搭載されており、屋根上が非常にすっきりしている。\n「しなの」「くろしお」「やくも」に投入された。",
-      "translation": ""
+      "translation": "A natural pendulum-type electric train manufactured to shorten travel times on winding sections. To lower the center of gravity, the air conditioner is mounted under the floor, leaving the roof very clean. Introduced on the 'Shinano', 'Kuroshio', and 'Yakumo' services."
     },
     {
       "key": "contribution.{002D31EF-F3A2-4CD6-A820-54200A6EF537}.name",
       "source": "国鉄特急色",
-      "translation": ""
+      "translation": "JNR Limited Express Livery"
     },
     {
       "key": "contribution.{002D31EF-F3A2-4CD6-A820-54200A6EF537}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{002D31EF-F3A2-4CD6-A820-54200A6EF537}.type",
       "source": "381系",
-      "translation": ""
+      "translation": "381 Series"
     },
     {
       "key": "contribution.{002D31EF-F3A2-4CD6-A820-54200A6EF537}.description",
       "source": "カーブの多い区間での到達時間短縮を図るために製造された自然振り子式電車。\n重心を下げるためクーラーが床下に搭載されており、屋根上が非常にすっきりしている。\n「しなの」「くろしお」「やくも」に投入された。",
-      "translation": ""
+      "translation": "A natural pendulum-type electric train manufactured to shorten travel times on winding sections. To lower the center of gravity, the air conditioner is mounted under the floor, leaving the roof very clean. Introduced on the 'Shinano', 'Kuroshio', and 'Yakumo' services."
     },
     {
       "key": "contribution.{003D31EE-F3A2-4CD6-A820-54200A6EF537}.name",
       "source": "くろしお色",
-      "translation": ""
+      "translation": "Kuroshio livery"
     },
     {
       "key": "contribution.{003D31EE-F3A2-4CD6-A820-54200A6EF537}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{003D31EE-F3A2-4CD6-A820-54200A6EF537}.type",
       "source": "381系",
-      "translation": ""
+      "translation": "381 Series"
     },
     {
       "key": "contribution.{003D31EE-F3A2-4CD6-A820-54200A6EF537}.description",
       "source": "「くろしお」用の381系は、283系「オーシャンアロー」にあわせた塗色に変更されている。",
-      "translation": ""
+      "translation": "The 381 Series for 'Kuroshio' has been repainted to match the 283 Series 'Ocean Arrow' livery."
     },
     {
       "key": "contribution.{004D31EE-F3A2-4CD6-A820-54200A6EF537}.name",
       "source": "やくも色",
-      "translation": ""
+      "translation": "Yakumo Color"
     },
     {
       "key": "contribution.{004D31EE-F3A2-4CD6-A820-54200A6EF537}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{004D31EE-F3A2-4CD6-A820-54200A6EF537}.type",
       "source": "381系",
-      "translation": ""
+      "translation": "381 Series"
     },
     {
       "key": "contribution.{004D31EE-F3A2-4CD6-A820-54200A6EF537}.description",
       "source": "「やくも」用の381系グレードアップ車。伯備線の陰陽連絡特急である「やくも」は、「スーパーやくも」を含め本数は多いが、中には3両編成の運転もある。",
-      "translation": ""
+      "translation": "The 381 Series upgraded cars for 'Yakumo'. The 'Yakumo' limited express, connecting San'in and Sanyo regions via the Hakubi Line, has many services including 'Super Yakumo', with some operating as 3-car formations."
     },
     {
       "key": "contribution.{005D31EE-F3A2-4CD6-A820-54200A6EF537}.name",
       "source": "あさま色",
-      "translation": ""
+      "translation": "Asama Livery"
     },
     {
       "key": "contribution.{005D31EE-F3A2-4CD6-A820-54200A6EF537}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{005D31EE-F3A2-4CD6-A820-54200A6EF537}.type",
       "source": "189系",
-      "translation": ""
+      "translation": "189 Series"
     },
     {
       "key": "contribution.{005D31EE-F3A2-4CD6-A820-54200A6EF537}.description",
       "source": "新幹線になる前の「あさま」で使用されていた車両。189系は碓氷峠で機関車との協調運転が可能な形式である。",
-      "translation": ""
+      "translation": "Vehicles used for the 'Asama' before the Shinkansen era. The 189 series is a type capable of cooperative operation with locomotives on the Usui Pass."
     },
     {
       "key": "contribution.{006D31EE-F3A2-4CD6-A820-54200A6EF537}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{006D31EE-F3A2-4CD6-A820-54200A6EF537}.type",
       "source": "183系800番台",
-      "translation": ""
+      "translation": "183 Series 800"
     },
     {
       "key": "contribution.{006D31EE-F3A2-4CD6-A820-54200A6EF537}.description",
       "source": "京都、大阪方面と、近畿北部を結ぶ、「北近畿」等に使われている車両。\nもともとは485系で交流機器を撤去し183系になった。",
-      "translation": ""
+      "translation": "Rolling stock used for \"Kitakinki\" and other services connecting Kyoto and Osaka with northern Kinki. Originally 485 Series, they became 183 Series after AC equipment was removed."
     },
     {
       "key": "contribution.{007D31EE-F3A2-4CD6-A820-54200A6EF537}.name",
       "source": "あずさ色",
-      "translation": ""
+      "translation": "Azusa Livery"
     },
     {
       "key": "contribution.{007D31EE-F3A2-4CD6-A820-54200A6EF537}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{007D31EE-F3A2-4CD6-A820-54200A6EF537}.type",
       "source": "183系1000番台",
-      "translation": ""
+      "translation": "183 Series 1000"
     },
     {
       "key": "contribution.{FBEAD280-1069-11D7-AA41-000740323A8D}.name",
       "source": "（スラントノーズタイプ）",
-      "translation": ""
+      "translation": "(Slant Nose Type)"
     },
     {
       "key": "contribution.{FBEAD280-1069-11D7-AA41-000740323A8D}.company",
       "source": "JR北海道",
-      "translation": ""
+      "translation": "JR Hokkaido"
     },
     {
       "key": "contribution.{FBEAD280-1069-11D7-AA41-000740323A8D}.type",
       "source": "キハ183-0番台",
-      "translation": ""
+      "translation": "Kiha 183-0 Series"
     },
     {
       "key": "contribution.{FBEAD280-1069-11D7-AA41-000740323A8D}.description",
       "source": "北海道用として製造された特急型気動車。\n現在は〈オホーツク〉などで使用されている。",
-      "translation": ""
+      "translation": "A limited express diesel railcar manufactured for use in Hokkaido. Currently used for services such as the 'Okhotsk'."
     },
     {
       "key": "contribution.{FBEAD281-1069-11D7-AA41-000740323A8D}.name",
       "source": "南風等",
-      "translation": ""
+      "translation": "Nanpu, etc."
     },
     {
       "key": "contribution.{FBEAD281-1069-11D7-AA41-000740323A8D}.company",
       "source": "JR四国",
-      "translation": ""
+      "translation": "JR Shikoku"
     },
     {
       "key": "contribution.{FBEAD281-1069-11D7-AA41-000740323A8D}.type",
       "source": "2000系",
-      "translation": ""
+      "translation": "2000 Series"
     },
     {
       "key": "contribution.{FBEAD281-1069-11D7-AA41-000740323A8D}.description",
       "source": "世界初の振子式気動車であり、日本初の制御付振子車両。\nこの車両の開発で完成された技術が各地の列車の高速化に貢献している。",
-      "translation": ""
+      "translation": "The world's first tilting diesel railcar and Japan's first controlled-tilt vehicle. The technology perfected in the development of this vehicle has contributed to the high-speed operation of trains in various regions."
     },
     {
       "key": "contribution.{FBEAD282-1069-11D7-AA41-000740323A8D}.name",
       "source": "サンライズエクスプレス",
-      "translation": ""
+      "translation": "Sunrise Express"
     },
     {
       "key": "contribution.{FBEAD282-1069-11D7-AA41-000740323A8D}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{FBEAD282-1069-11D7-AA41-000740323A8D}.type",
       "source": "285系",
-      "translation": ""
+      "translation": "285 Series"
     },
     {
       "key": "contribution.{FBEAD282-1069-11D7-AA41-000740323A8D}.description",
       "source": "1998年、〈出雲〉と〈瀬戸〉に登場した寝台特急電車。\n寝台設備はすべて個室となっている。",
-      "translation": ""
+      "translation": "A limited express sleeper electric train introduced in 1998 for the Izumo and Seto services. All sleeping accommodations are private rooms."
     },
     {
       "key": "contribution.{FBEAD283-1069-11D7-AA41-000740323A8D}.name",
       "source": "サンライズエクスプレス",
-      "translation": ""
+      "translation": "Sunrise Express"
     },
     {
       "key": "contribution.{FBEAD283-1069-11D7-AA41-000740323A8D}.company",
       "source": "JR東海",
-      "translation": ""
+      "translation": "JR Central"
     },
     {
       "key": "contribution.{FBEAD283-1069-11D7-AA41-000740323A8D}.type",
       "source": "285系",
-      "translation": ""
+      "translation": "285 Series"
     },
     {
       "key": "contribution.{FBEAD283-1069-11D7-AA41-000740323A8D}.description",
       "source": "1998年、〈出雲〉と〈瀬戸〉に登場した寝台特急電車。\n寝台設備はすべて個室となっている。",
-      "translation": ""
+      "translation": "A limited express sleeper electric train introduced in 1998 for the Izumo and Seto services. All sleeping accommodations are private rooms."
     },
     {
       "key": "contribution.{FBEAD284-1069-11D7-AA41-000740323A8D}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{FBEAD284-1069-11D7-AA41-000740323A8D}.type",
       "source": "300系",
-      "translation": ""
+      "translation": "300 Series"
     },
     {
       "key": "contribution.{FBEAD284-1069-11D7-AA41-000740323A8D}.description",
       "source": "最高速度270km/h、東京－新大阪を2時間半で走る〈のぞみ〉の運転開始に向けてJR東海が開発した車両。\nJR東海のJ編成16両61本と、JR西日本のF編成16両9本が存在する。",
-      "translation": ""
+      "translation": "A train developed by JR Central for the start of the <Nozomi> service, running at a maximum speed of 270 km/h and connecting Tokyo and Shin-Osaka in 2.5 hours. There are 61 J-sets of 16 cars from JR Central and 9 F-sets of 16 cars from JR West."
     },
     {
       "key": "contribution.{FBEAD285-1069-11D7-AA41-000740323A8D}.company",
       "source": "JR東海",
-      "translation": ""
+      "translation": "JR Central"
     },
     {
       "key": "contribution.{FBEAD285-1069-11D7-AA41-000740323A8D}.type",
       "source": "300系",
-      "translation": ""
+      "translation": "300 Series"
     },
     {
       "key": "contribution.{FBEAD285-1069-11D7-AA41-000740323A8D}.description",
       "source": "最高速度270km/h、東京－新大阪を2時間半で走る〈のぞみ〉の運転開始に向けてJR東海が開発した車両。\nJR東海のJ編成16両61本と、JR西日本のF編成16両9本が存在する。",
-      "translation": ""
+      "translation": "A train developed by JR Central for the start of the <Nozomi> service, running at a maximum speed of 270 km/h and connecting Tokyo and Shin-Osaka in 2.5 hours. There are 61 J-sets of 16 cars from JR Central and 9 F-sets of 16 cars from JR West."
     },
     {
       "key": "contribution.{FBEAD286-1069-11D7-AA41-000740323A8D}.name",
       "source": "成田エクスプレス",
-      "translation": ""
+      "translation": "Narita Express"
     },
     {
       "key": "contribution.{FBEAD286-1069-11D7-AA41-000740323A8D}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{FBEAD286-1069-11D7-AA41-000740323A8D}.type",
       "source": "253系",
-      "translation": ""
+      "translation": "253 Series"
     },
     {
       "key": "contribution.{FBEAD286-1069-11D7-AA41-000740323A8D}.description",
       "source": "成田空港と都心を結ぶ特急〈成田エクスプレス〉専用車両。\n当初基本編成は3両だったが、後に需要に合わせて6両編成も登場している。",
-      "translation": ""
+      "translation": "Dedicated limited express train for the Narita Express, connecting Narita Airport and the city center. Initially, the basic formation was 3 cars, but later 6-car formations also appeared to meet demand."
     },
     {
       "key": "contribution.{FBEAD293-1069-11D7-AA41-000740323A8D}.name",
       "source": "首都圏色",
-      "translation": ""
+      "translation": "Metropolitan Area Color"
     },
     {
       "key": "contribution.{FBEAD293-1069-11D7-AA41-000740323A8D}.company",
       "source": "JR北海道",
-      "translation": ""
+      "translation": "JR Hokkaido"
     },
     {
       "key": "contribution.{FBEAD293-1069-11D7-AA41-000740323A8D}.type",
       "source": "キハ40形",
-      "translation": ""
+      "translation": "Kiha 40 series"
     },
     {
       "key": "contribution.{FBEAD293-1069-11D7-AA41-000740323A8D}.description",
       "source": "老朽車両置き換えのため昭和５２年に登場した近郊形気動車。",
-      "translation": ""
+      "translation": "Suburban diesel railcar introduced in Showa 52 (1977) to replace aging rolling stock."
     },
     {
       "key": "contribution.{FBEAD288-1069-11D7-AA41-000740323A8D}.name",
       "source": "首都圏色",
-      "translation": ""
+      "translation": "Metropolitan Area Color"
     },
     {
       "key": "contribution.{FBEAD288-1069-11D7-AA41-000740323A8D}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{FBEAD288-1069-11D7-AA41-000740323A8D}.type",
       "source": "キハ40形",
-      "translation": ""
+      "translation": "Kiha 40 series"
     },
     {
       "key": "contribution.{FBEAD288-1069-11D7-AA41-000740323A8D}.description",
       "source": "老朽車両置き換えのため昭和５２年に登場した近郊形気動車。",
-      "translation": ""
+      "translation": "Suburban diesel railcar introduced in Showa 52 (1977) to replace aging rolling stock."
     },
     {
       "key": "contribution.{FBEAD289-1069-11D7-AA41-000740323A8D}.name",
       "source": "首都圏色",
-      "translation": ""
+      "translation": "Metropolitan Area Color"
     },
     {
       "key": "contribution.{FBEAD289-1069-11D7-AA41-000740323A8D}.company",
       "source": "JR東海",
-      "translation": ""
+      "translation": "JR Central"
     },
     {
       "key": "contribution.{FBEAD289-1069-11D7-AA41-000740323A8D}.type",
       "source": "キハ40形",
-      "translation": ""
+      "translation": "Kiha 40 series"
     },
     {
       "key": "contribution.{FBEAD289-1069-11D7-AA41-000740323A8D}.description",
       "source": "老朽車両置き換えのため昭和５２年に登場した近郊形気動車。",
-      "translation": ""
+      "translation": "Suburban diesel railcar introduced in Showa 52 (1977) to replace aging rolling stock."
     },
     {
       "key": "contribution.{FBEAD290-1069-11D7-AA41-000740323A8D}.name",
       "source": "首都圏色",
-      "translation": ""
+      "translation": "Metropolitan Area Color"
     },
     {
       "key": "contribution.{FBEAD290-1069-11D7-AA41-000740323A8D}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{FBEAD290-1069-11D7-AA41-000740323A8D}.type",
       "source": "キハ40形",
-      "translation": ""
+      "translation": "Kiha 40 series"
     },
     {
       "key": "contribution.{FBEAD290-1069-11D7-AA41-000740323A8D}.description",
       "source": "老朽車両置き換えのため昭和５２年に登場した近郊形気動車。",
-      "translation": ""
+      "translation": "Suburban diesel railcar introduced in Showa 52 (1977) to replace aging rolling stock."
     },
     {
       "key": "contribution.{FBEAD291-1069-11D7-AA41-000740323A8D}.name",
       "source": "首都圏色",
-      "translation": ""
+      "translation": "Metropolitan Area Color"
     },
     {
       "key": "contribution.{FBEAD291-1069-11D7-AA41-000740323A8D}.company",
       "source": "JR四国",
-      "translation": ""
+      "translation": "JR Shikoku"
     },
     {
       "key": "contribution.{FBEAD291-1069-11D7-AA41-000740323A8D}.type",
       "source": "キハ40形",
-      "translation": ""
+      "translation": "Kiha 40 series"
     },
     {
       "key": "contribution.{FBEAD291-1069-11D7-AA41-000740323A8D}.description",
       "source": "老朽車両置き換えのため昭和５２年に登場した近郊形気動車。",
-      "translation": ""
+      "translation": "Suburban diesel railcar introduced in Showa 52 (1977) to replace aging rolling stock."
     },
     {
       "key": "contribution.{FBEAD292-1069-11D7-AA41-000740323A8D}.name",
       "source": "首都圏色",
-      "translation": ""
+      "translation": "Metropolitan Area Color"
     },
     {
       "key": "contribution.{FBEAD292-1069-11D7-AA41-000740323A8D}.company",
       "source": "JR九州",
-      "translation": ""
+      "translation": "JR Kyushu"
     },
     {
       "key": "contribution.{FBEAD292-1069-11D7-AA41-000740323A8D}.type",
       "source": "キハ40形",
-      "translation": ""
+      "translation": "Kiha 40 series"
     },
     {
       "key": "contribution.{FBEAD292-1069-11D7-AA41-000740323A8D}.description",
       "source": "老朽車両置き換えのため昭和５２年に登場した近郊形気動車。",
-      "translation": ""
+      "translation": "Suburban diesel railcar introduced in Showa 52 (1977) to replace aging rolling stock."
     },
     {
       "key": "contribution.{15ED3147-F3A2-4C96-A620-54CD0A6EF500}.name",
       "source": "宗谷、サロベツ",
-      "translation": ""
+      "translation": "Sōya, Sarobetsu"
     },
     {
       "key": "contribution.{15ED3147-F3A2-4C96-A620-54CD0A6EF500}.company",
       "source": "JR北海道",
-      "translation": ""
+      "translation": "JR Hokkaido"
     },
     {
       "key": "contribution.{15ED3147-F3A2-4C96-A620-54CD0A6EF500}.type",
       "source": "キハ400形",
-      "translation": ""
+      "translation": "Kiha 400 Series"
     },
     {
       "key": "contribution.{15ED3147-F3A2-4C96-A620-54CD0A6EF500}.description",
       "source": "宗谷線の急行用にキハ40形を改造した形式。\n「宗谷」「サロベツ」「利尻」に使用されていたが、すべて特急に格上げされ、\nその際この形式での運転も終了した。",
-      "translation": ""
+      "translation": "A model modified from the Kiha 40 Series for express services on the Sōya Line. It was used for 'Sōya', 'Sarobetsu', and 'Rishiri' services, but all were upgraded to limited express, and operation with this model ceased at that time."
     },
     {
       "key": "contribution.{15ED3147-F3A2-4C96-A620-54CD0A6EF501}.name",
       "source": "盛岡色（ワンマン対応）",
-      "translation": ""
+      "translation": "Morioka color (one-man operation compatible)"
     },
     {
       "key": "contribution.{15ED3147-F3A2-4C96-A620-54CD0A6EF501}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{15ED3147-F3A2-4C96-A620-54CD0A6EF501}.type",
       "source": "キハ40形",
-      "translation": ""
+      "translation": "Kiha 40 series"
     },
     {
       "key": "contribution.{15ED3147-F3A2-4C96-A620-54CD0A6EF501}.description",
       "source": "ワンマン対応車両の盛岡色です。「赤鬼」と呼ばれています。",
-      "translation": ""
+      "translation": "This is a Morioka-colored vehicle compatible with one-man operation. It is nicknamed 'Red Oni'."
     },
     {
       "key": "contribution.{15ED3147-F3A2-4C96-A620-54CD0A6EF502}.name",
       "source": "仙台色",
-      "translation": ""
+      "translation": "Sendai color"
     },
     {
       "key": "contribution.{15ED3147-F3A2-4C96-A620-54CD0A6EF502}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{15ED3147-F3A2-4C96-A620-54CD0A6EF502}.type",
       "source": "キハ40形",
-      "translation": ""
+      "translation": "Kiha 40 series"
     },
     {
       "key": "contribution.{15ED3147-F3A2-4C96-A620-54CD0A6EF503}.name",
       "source": "盛岡色",
-      "translation": ""
+      "translation": "Morioka color"
     },
     {
       "key": "contribution.{15ED3147-F3A2-4C96-A620-54CD0A6EF503}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{15ED3147-F3A2-4C96-A620-54CD0A6EF503}.type",
       "source": "キハ40形",
-      "translation": ""
+      "translation": "Kiha 40 series"
     },
     {
       "key": "contribution.{15ED3147-F3A2-4C96-A620-54CD0A6EF504}.name",
       "source": "北海道色",
-      "translation": ""
+      "translation": "Hokkaido Color"
     },
     {
       "key": "contribution.{15ED3147-F3A2-4C96-A620-54CD0A6EF504}.company",
       "source": "JR北海道",
-      "translation": ""
+      "translation": "JR Hokkaido"
     },
     {
       "key": "contribution.{15ED3147-F3A2-4C96-A620-54CD0A6EF504}.type",
       "source": "キハ40形",
-      "translation": ""
+      "translation": "Kiha 40 series"
     },
     {
       "key": "contribution.{15ED3147-F3A2-4C96-A620-54CD0A6EF504}.description",
       "source": "キハ40の北海道色です。全道の非電化区間で活躍しています。",
-      "translation": ""
+      "translation": "This is the Hokkaido livery of the Kiha 40. It is active on non-electrified sections throughout Hokkaido."
     },
     {
       "key": "contribution.{15ED3147-F3A2-4C96-A620-54CD0A6EF506}.name",
       "source": "広島色",
-      "translation": ""
+      "translation": "Hiroshima Color"
     },
     {
       "key": "contribution.{15ED3147-F3A2-4C96-A620-54CD0A6EF506}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{15ED3147-F3A2-4C96-A620-54CD0A6EF506}.type",
       "source": "キハ40形",
-      "translation": ""
+      "translation": "Kiha 40 series"
     },
     {
       "key": "contribution.{15ED3147-F3A2-4C96-A620-54CD0A6EF507}.name",
       "source": "四国色",
-      "translation": ""
+      "translation": "Shikoku livery"
     },
     {
       "key": "contribution.{15ED3147-F3A2-4C96-A620-54CD0A6EF507}.company",
       "source": "JR四国",
-      "translation": ""
+      "translation": "JR Shikoku"
     },
     {
       "key": "contribution.{15ED3147-F3A2-4C96-A620-54CD0A6EF507}.type",
       "source": "キハ40形",
-      "translation": ""
+      "translation": "Kiha 40 series"
     },
     {
       "key": "contribution.{15ED3147-F3A2-4C96-A620-54CD0A6EF508}.name",
       "source": "九州色",
-      "translation": ""
+      "translation": "Kyushu livery"
     },
     {
       "key": "contribution.{15ED3147-F3A2-4C96-A620-54CD0A6EF508}.company",
       "source": "JR九州",
-      "translation": ""
+      "translation": "JR Kyushu"
     },
     {
       "key": "contribution.{15ED3147-F3A2-4C96-A620-54CD0A6EF508}.type",
       "source": "キハ40形",
-      "translation": ""
+      "translation": "Kiha 40 series"
     },
     {
       "key": "contribution.{15ED3147-F3A2-4C96-A620-54CD0A6EF508}.description",
       "source": "九州色です。現在のJR九州の流れとは違って、落ち着いた塗装です。",
-      "translation": ""
+      "translation": "This is the Kyushu livery. Unlike current JR Kyushu trends, it features a subdued paint scheme."
     },
     {
       "key": "contribution.{FBEAD294-1069-11D7-AA41-000740323A8D}.name",
       "source": "スノーラビットエクスプレス",
-      "translation": ""
+      "translation": "Snow Rabbit Express"
     },
     {
       "key": "contribution.{FBEAD294-1069-11D7-AA41-000740323A8D}.company",
       "source": "北越急行",
-      "translation": ""
+      "translation": "Hokuetsu Express"
     },
     {
       "key": "contribution.{FBEAD294-1069-11D7-AA41-000740323A8D}.type",
       "source": "681系",
-      "translation": ""
+      "translation": "681 Series"
     },
     {
       "key": "contribution.{FBEAD294-1069-11D7-AA41-000740323A8D}.description",
       "source": "（実車は9両編成です。22両以上は設定できません。）",
-      "translation": ""
+      "translation": "(The actual train is a 9-car formation. Cannot set more than 22 cars.)"
     },
     {
       "key": "contribution.{FBEAE294-1069-11D7-AA41-000740323A8D}.name",
       "source": "サンダーバード、はくたか",
-      "translation": ""
+      "translation": "Thunderbird, Hakutaka"
     },
     {
       "key": "contribution.{FBEAE294-1069-11D7-AA41-000740323A8D}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{FBEAE294-1069-11D7-AA41-000740323A8D}.type",
       "source": "681系",
-      "translation": ""
+      "translation": "681 Series"
     },
     {
       "key": "contribution.{FBEAE294-1069-11D7-AA41-000740323A8D}.description",
       "source": "（22両以上は設定できません。）",
-      "translation": ""
+      "translation": "(Cannot set more than 22 cars.)"
     },
     {
       "key": "contribution.{15ED31EE-F3A2-4C96-A821-54CD0A6EF537}.company",
       "source": "阪急電鉄",
-      "translation": ""
+      "translation": "Hankyu Corporation"
     },
     {
       "key": "contribution.{15ED31EE-F3A2-4C96-A821-54CD0A6EF537}.type",
       "source": "8000系タイプ",
-      "translation": ""
+      "translation": "8000 Series type"
     },
     {
       "key": "contribution.{15ED31EE-F3A2-4C96-A821-54CD0A6EF537}.description",
       "source": "フロントが額縁タイプの車両です。神戸・宝塚線用の8000系と京都線用の8300系があります。",
-      "translation": ""
+      "translation": "This is a vehicle with a frame-type front. There are 8000 Series for the Kobe/Takarazuka Line and 8300 Series for the Kyoto Line."
     },
     {
       "key": "contribution.{15ED32EE-F3A2-4C96-A821-54CD0A6EF537}.company",
       "source": "阪急電鉄",
-      "translation": ""
+      "translation": "Hankyu Corporation"
     },
     {
       "key": "contribution.{15ED32EE-F3A2-4C96-A821-54CD0A6EF537}.type",
       "source": "7000系タイプ",
-      "translation": ""
+      "translation": "7000 Series type"
     },
     {
       "key": "contribution.{15ED32EE-F3A2-4C96-A821-54CD0A6EF537}.description",
       "source": "説明募集中",
-      "translation": ""
+      "translation": "Description wanted"
     },
     {
       "key": "contribution.{15ED33EE-F3A2-4C96-A821-54CD0A6EF537}.company",
       "source": "阪急電鉄",
-      "translation": ""
+      "translation": "Hankyu Corporation"
     },
     {
       "key": "contribution.{15ED33EE-F3A2-4C96-A821-54CD0A6EF537}.type",
       "source": "5000系更新車タイプ",
-      "translation": ""
+      "translation": "5000 Series refurbished type"
     },
     {
       "key": "contribution.{15ED33EE-F3A2-4C96-A821-54CD0A6EF537}.description",
       "source": "説明募集中",
-      "translation": ""
+      "translation": "Description wanted"
     },
     {
       "key": "contribution.{15ED34EE-F3A2-4C96-A821-54CD0A6EF537}.name",
       "source": "京都線特急",
-      "translation": ""
+      "translation": "Kyoto Line Limited Express"
     },
     {
       "key": "contribution.{15ED34EE-F3A2-4C96-A821-54CD0A6EF537}.company",
       "source": "阪急電鉄",
-      "translation": ""
+      "translation": "Hankyu Corporation"
     },
     {
       "key": "contribution.{15ED34EE-F3A2-4C96-A821-54CD0A6EF537}.type",
       "source": "6300系",
-      "translation": ""
+      "translation": "6300 Series"
     },
     {
       "key": "contribution.{15ED34EE-F3A2-4C96-A821-54CD0A6EF537}.description",
       "source": "京都線の特急、快速急行を中心に使用されている車両。両開き二扉間に転換クロスシートが並ぶ。昭和59年デビュー。",
-      "translation": ""
+      "translation": "Rolling stock primarily used for limited express and rapid express services on the Kyoto Line. Convertible cross-seats are arranged between the two double-leaf doors. Debuted in Showa 59 (1984)."
     },
     {
       "key": "contribution.{15ED35EE-F3A2-4C96-A821-54CD0A6EF537}.company",
       "source": "阪急電鉄",
-      "translation": ""
+      "translation": "Hankyu Corporation"
     },
     {
       "key": "contribution.{15ED35EE-F3A2-4C96-A821-54CD0A6EF537}.type",
       "source": "3000系タイプ",
-      "translation": ""
+      "translation": "3000 Series type"
     },
     {
       "key": "contribution.{15ED37EE-F3A2-4C96-A821-54CD0A6EF537}.company",
       "source": "阪急電鉄",
-      "translation": ""
+      "translation": "Hankyu Corporation"
     },
     {
       "key": "contribution.{15ED37EE-F3A2-4C96-A821-54CD0A6EF537}.type",
       "source": "2000系タイプ",
-      "translation": ""
+      "translation": "2000 Series Type"
     },
     {
       "key": "contribution.{15ED37EE-F3A2-4C96-A821-54CD0A6EF537}.description",
       "source": "フロントガラス下にライトがないタイプです。",
-      "translation": ""
+      "translation": "This type has no lights below the windshield."
     },
     {
       "key": "contribution.{25ED31EE-F3A2-4C96-A821-54CD0A6EF537}.company",
       "source": "能勢電鉄",
-      "translation": ""
+      "translation": "Nose Electric Railway"
     },
     {
       "key": "contribution.{25ED31EE-F3A2-4C96-A821-54CD0A6EF537}.type",
       "source": "3100系",
-      "translation": ""
+      "translation": "3100 Series"
     },
     {
       "key": "contribution.{25ED31EE-F3A2-4C96-A821-54CD0A6EF537}.description",
       "source": "実車は４両編成です。",
-      "translation": ""
+      "translation": "The actual train consists of 4 cars."
     },
     {
       "key": "contribution.{15ED38EE-F3A2-4C96-A821-54CD0A6EF537}.company",
       "source": "能勢電鉄",
-      "translation": ""
+      "translation": "Nose Electric Railway"
     },
     {
       "key": "contribution.{15ED38EE-F3A2-4C96-A821-54CD0A6EF537}.type",
       "source": "1700系",
-      "translation": ""
+      "translation": "1700 Series"
     },
     {
       "key": "contribution.{15ED38EE-F3A2-4C96-A821-54CD0A6EF537}.description",
       "source": "実車は４両編成です。",
-      "translation": ""
+      "translation": "The actual train consists of 4 cars."
     },
     {
       "key": "contribution.{FBEAD2A2-1069-11D7-AA41-000740323A8D}.company",
       "source": "阪神電気鉄道",
-      "translation": ""
+      "translation": "Hanshin Electric Railway"
     },
     {
       "key": "contribution.{FBEAD2A2-1069-11D7-AA41-000740323A8D}.type",
       "source": "8000系",
-      "translation": ""
+      "translation": "8000 Series"
     },
     {
       "key": "contribution.{FBEAD2A2-1069-11D7-AA41-000740323A8D}.description",
       "source": "急行用車両",
-      "translation": ""
+      "translation": "Express Rolling Stock"
     },
     {
       "key": "contribution.{FBEAD2A3-1069-11D7-AA41-000740323A8D}.company",
       "source": "阪神電気鉄道",
-      "translation": ""
+      "translation": "Hanshin Electric Railway"
     },
     {
       "key": "contribution.{FBEAD2A3-1069-11D7-AA41-000740323A8D}.type",
       "source": "5500系",
-      "translation": ""
+      "translation": "5500 Series"
     },
     {
       "key": "contribution.{FBEAD2A3-1069-11D7-AA41-000740323A8D}.description",
       "source": "普通用車両",
-      "translation": ""
+      "translation": "Local Service Rolling Stock"
     },
     {
       "key": "contribution.{FBEAD2A4-1069-11D7-AA41-000740323A8D}.company",
       "source": "阪神電気鉄道",
-      "translation": ""
+      "translation": "Hanshin Electric Railway"
     },
     {
       "key": "contribution.{FBEAD2A4-1069-11D7-AA41-000740323A8D}.type",
       "source": "9000系",
-      "translation": ""
+      "translation": "9000 Series"
     },
     {
       "key": "contribution.{FBEAD2A4-1069-11D7-AA41-000740323A8D}.description",
       "source": "ステンレス車体の急行用車両。震災後、車両不足を補うために製造された。",
-      "translation": ""
+      "translation": "Express train car with a stainless steel body. Manufactured to compensate for vehicle shortages after the earthquake."
     },
     {
       "key": "contribution.{FBEAD2A5-1069-11D7-AA41-000740323A8D}.company",
       "source": "阪神電気鉄道",
-      "translation": ""
+      "translation": "Hanshin Electric Railway"
     },
     {
       "key": "contribution.{FBEAD2A5-1069-11D7-AA41-000740323A8D}.type",
       "source": "9300系",
-      "translation": ""
+      "translation": "9300 Series"
     },
     {
       "key": "contribution.{FBEAD2A5-1069-11D7-AA41-000740323A8D}.description",
       "source": "主に直通特急に使われる車両\n区間は\n山陽姫路＞阪神梅田\nである",
-      "translation": ""
+      "translation": "Vehicles mainly used for direct limited express services. The route is Sanyo Himeji > Hanshin Umeda."
     },
     {
       "key": "contribution.{ABE582A2-1069-11D7-AA41-697740001A8D}.name",
       "source": "千代田線",
-      "translation": ""
+      "translation": "Chiyoda Line"
     },
     {
       "key": "contribution.{ABE582A2-1069-11D7-AA41-697740001A8D}.company",
       "source": "帝都高速度交通営団",
-      "translation": ""
+      "translation": "Teito Rapid Transit Authority"
     },
     {
       "key": "contribution.{ABE582A2-1069-11D7-AA41-697740001A8D}.type",
       "source": "6000系",
-      "translation": ""
+      "translation": "6000 Series"
     },
     {
       "key": "contribution.{ABE582A2-1069-11D7-AA41-697740002A8D}.name",
       "source": "有楽町線",
-      "translation": ""
+      "translation": "Yurakucho Line"
     },
     {
       "key": "contribution.{ABE582A2-1069-11D7-AA41-697740002A8D}.company",
       "source": "帝都高速度交通営団",
-      "translation": ""
+      "translation": "Teito Rapid Transit Authority"
     },
     {
       "key": "contribution.{ABE582A2-1069-11D7-AA41-697740002A8D}.type",
       "source": "7000系",
-      "translation": ""
+      "translation": "7000 Series"
     },
     {
       "key": "contribution.{001D31EE-F3A2-4CD6-A820-542DEA6EF537}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{001D31EE-F3A2-4CD6-A820-542DEA6EF537}.type",
       "source": "211系",
-      "translation": ""
+      "translation": "211 Series"
     },
     {
       "key": "contribution.{001D31EE-F3A2-4CD6-A820-542DEA6EF537}.description",
       "source": "（7両以上でグリーン車が連結されます。23両以上は設定できません。）",
-      "translation": ""
+      "translation": "(Green Cars are coupled in formations of 7 or more cars. Cannot set more than 23 cars.)"
     },
     {
       "key": "contribution.{005D31EE-F3A2-4CD6-A820-542DEA6EF537}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{005D31EE-F3A2-4CD6-A820-542DEA6EF537}.type",
       "source": "415系1500番台",
-      "translation": ""
+      "translation": "415 Series 1500 sub-series"
     },
     {
       "key": "contribution.{006D31EE-F3A2-4CD6-A820-542DEA6EF537}.company",
       "source": "JR四国",
-      "translation": ""
+      "translation": "JR Shikoku"
     },
     {
       "key": "contribution.{006D31EE-F3A2-4CD6-A820-542DEA6EF537}.type",
       "source": "6000系",
-      "translation": ""
+      "translation": "6000 Series"
     },
     {
       "key": "contribution.{007D31EE-F3A2-4CD6-A820-542DEA6EF537}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{007D31EE-F3A2-4CD6-A820-542DEA6EF537}.type",
       "source": "719系",
-      "translation": ""
+      "translation": "719 Series"
     },
     {
       "key": "contribution.{009D31EE-F3A2-4CD6-A820-542DEA6EF537}.company",
       "source": "JR九州",
-      "translation": ""
+      "translation": "JR Kyushu"
     },
     {
       "key": "contribution.{009D31EE-F3A2-4CD6-A820-542DEA6EF537}.type",
       "source": "415系1500番台",
-      "translation": ""
+      "translation": "415 Series 1500 sub-series"
     },
     {
       "key": "contribution.{002D31EE-F3A2-4CD6-A820-542DEA6EF537}.company",
       "source": "JR東海",
-      "translation": ""
+      "translation": "JR Central"
     },
     {
       "key": "contribution.{002D31EE-F3A2-4CD6-A820-542DEA6EF537}.type",
       "source": "211系5000番台",
-      "translation": ""
+      "translation": "211 Series 5000 series"
     },
     {
       "key": "contribution.{003D31EE-F3A2-4CD6-A820-542DEA6EF537}.company",
       "source": "JR東海",
-      "translation": ""
+      "translation": "JR Central"
     },
     {
       "key": "contribution.{003D31EE-F3A2-4CD6-A820-542DEA6EF537}.type",
       "source": "213系5000番台",
-      "translation": ""
+      "translation": "213 Series 5000 series"
     },
     {
       "key": "contribution.{004D31EE-F3A2-4CD6-A820-542DEA6EF537}.company",
       "source": "JR東海",
-      "translation": ""
+      "translation": "JR Central"
     },
     {
       "key": "contribution.{004D31EE-F3A2-4CD6-A820-542DEA6EF537}.type",
       "source": "311系",
-      "translation": ""
+      "translation": "311 Series"
     },
     {
       "key": "contribution.{008D31EE-F3A2-4CD6-A820-542DEA6EF537}.company",
       "source": "JR九州",
-      "translation": ""
+      "translation": "JR Kyushu"
     },
     {
       "key": "contribution.{008D31EE-F3A2-4CD6-A820-542DEA6EF537}.type",
       "source": "キハ200形",
-      "translation": ""
+      "translation": "KiHa 200 Type"
     },
     {
       "key": "contribution.{ADF87135-9F9C-051A-9B45-04F846A0479D}.company",
       "source": "岡山電気軌道",
-      "translation": ""
+      "translation": "Okayama Electric Tramway"
     },
     {
       "key": "contribution.{ADF87135-9F9C-051A-9B45-04F846A0479D}.type",
       "source": "9200形",
-      "translation": ""
+      "translation": "9200 Series"
     },
     {
       "key": "contribution.{ADF87135-9F9C-051A-9B45-04F846A0479D}.description",
       "source": "ドイツの技術を採用し100%低床化を実現した、超低床路面電車。\n特殊な構造の他にも、車内外のデザインや、市民グループが大きく関った導入経緯も、この車両の特徴である。\n公募により「MOMO」の愛称が付けられた。\n（実車の姿にするには2両に設定してください）",
-      "translation": ""
+      "translation": "An ultra-low-floor tram that achieved 100% low-floor design using German technology. In addition to its special structure, the interior and exterior design and the involvement of citizen groups in its introduction are also characteristics of this vehicle. It was given the nickname 'MOMO' through public solicitation. (Set to 2 cars to match the actual vehicle's appearance)"
     },
     {
       "key": "contribution.{BDEFADEA-5581-8000-75CF-885D7EDE8000}.name",
       "source": "軌道線",
-      "translation": ""
+      "translation": "Tram Line"
     },
     {
       "key": "contribution.{BDEFADEA-5581-8000-75CF-885D7EDE8000}.company",
       "source": "富山地方鉄道",
-      "translation": ""
+      "translation": "Toyama Chihou Railway"
     },
     {
       "key": "contribution.{BDEFADEA-5581-8000-75CF-885D7EDE8000}.type",
       "source": "デ8000形",
-      "translation": ""
+      "translation": "De 8000 series"
     },
     {
       "key": "contribution.{BDEFADEA-5581-8000-75CF-885D7EDE8000}.description",
       "source": "平成5年、軌道線の非冷房車を置き換えるため5両新造された、VVVFインバータ制御車両。",
-      "translation": ""
+      "translation": "In 1993, 5 new VVVF inverter controlled cars were built to replace non-air-conditioned cars on the tram line."
     },
     {
       "key": "contribution.{001D31EE-F3A2-4CD6-A820-542DEA6E6537}.name",
       "source": "山手線",
-      "translation": ""
+      "translation": "Yamanote Line"
     },
     {
       "key": "contribution.{001D31EE-F3A2-4CD6-A820-542DEA6E6537}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{001D31EE-F3A2-4CD6-A820-542DEA6E6537}.type",
       "source": "205系",
-      "translation": ""
+      "translation": "205 Series"
     },
     {
       "key": "contribution.{001D31EE-F3A2-4CD6-A820-542DEA6E6537}.description",
       "source": "製造費を抑えつつ省エネルギー化を目指した通勤型電車。ステンレス車体やボルスタレス台車の採用により軽量化が図られている。",
-      "translation": ""
+      "translation": "Commuter electric train designed for energy saving while suppressing manufacturing costs. Lightweighting achieved through the adoption of stainless steel car bodies and bolsterless bogies."
     },
     {
       "key": "contribution.{002D31EE-F3A2-4CD6-A820-542DEA6E6537}.name",
       "source": "南武線",
-      "translation": ""
+      "translation": "Nambu Line"
     },
     {
       "key": "contribution.{002D31EE-F3A2-4CD6-A820-542DEA6E6537}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{002D31EE-F3A2-4CD6-A820-542DEA6E6537}.type",
       "source": "205系",
-      "translation": ""
+      "translation": "205 Series"
     },
     {
       "key": "contribution.{002D31EE-F3A2-4CD6-A820-542DEA6E6537}.description",
       "source": "製造費を抑えつつ省エネルギー化を目指した通勤型電車。ステンレス車体やボルスタレス台車の採用により軽量化が図られている。",
-      "translation": ""
+      "translation": "Commuter electric train designed for energy saving while suppressing manufacturing costs. Lightweighting achieved through the adoption of stainless steel car bodies and bolsterless bogies."
     },
     {
       "key": "contribution.{003D31EE-F3A2-4CD6-A820-542DEA6E6537}.name",
       "source": "総武線",
-      "translation": ""
+      "translation": "Sobu Line"
     },
     {
       "key": "contribution.{003D31EE-F3A2-4CD6-A820-542DEA6E6537}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{003D31EE-F3A2-4CD6-A820-542DEA6E6537}.type",
       "source": "201系",
-      "translation": ""
+      "translation": "201 Series"
     },
     {
       "key": "contribution.{003D31EE-F3A2-4CD6-A820-542DEA6E6537}.description",
       "source": "103系の後継車両として開発された通勤型電車。様々な新機軸が積極的に取り入れられ、大幅な省エネルギー化が図られたが、その結果、製造コストが高くつくことになった。",
-      "translation": ""
+      "translation": "A commuter electric train developed as a successor to the 103 Series. Various new features were actively incorporated, achieving significant energy savings, but as a result, manufacturing costs became high."
     },
     {
       "key": "contribution.{004D31EE-F3A2-4CD6-A820-542DEA6E6537}.name",
       "source": "中央線",
-      "translation": ""
+      "translation": "Chuo Line"
     },
     {
       "key": "contribution.{004D31EE-F3A2-4CD6-A820-542DEA6E6537}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{004D31EE-F3A2-4CD6-A820-542DEA6E6537}.type",
       "source": "201系",
-      "translation": ""
+      "translation": "201 Series"
     },
     {
       "key": "contribution.{004D31EE-F3A2-4CD6-A820-542DEA6E6537}.description",
       "source": "103系の後継車両として開発された通勤型電車。様々な新機軸が積極的に取り入れられ、大幅な省エネルギー化が図られたが、その結果、製造コストが高くつくことになった。",
-      "translation": ""
+      "translation": "A commuter electric train developed as a successor to the 103 Series. Various new features were actively incorporated, achieving significant energy savings, but as a result, manufacturing costs became high."
     },
     {
       "key": "contribution.{005D31EE-F3A2-4CD6-A820-542DEA6E6537}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{005D31EE-F3A2-4CD6-A820-542DEA6E6537}.type",
       "source": "201系",
-      "translation": ""
+      "translation": "201 Series"
     },
     {
       "key": "contribution.{005D31EE-F3A2-4CD6-A820-542DEA6E6537}.description",
       "source": "103系の後継車両として開発された通勤型電車。様々な新機軸が積極的に取り入れられ、大幅な省エネルギー化が図られたが、その結果、製造コストが高くつくことになった。",
-      "translation": ""
+      "translation": "A commuter electric train developed as a successor to the 103 Series. Various new features were actively incorporated, achieving significant energy savings, but as a result, manufacturing costs became high."
     },
     {
       "key": "contribution.{105D31EE-F3A2-4CD6-A820-542DEA6E6537}.name",
       "source": "京葉線",
-      "translation": ""
+      "translation": "Keiyo Line"
     },
     {
       "key": "contribution.{105D31EE-F3A2-4CD6-A820-542DEA6E6537}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{105D31EE-F3A2-4CD6-A820-542DEA6E6537}.type",
       "source": "201系",
-      "translation": ""
+      "translation": "201 Series"
     },
     {
       "key": "contribution.{105D31EE-F3A2-4CD6-A820-542DEA6E6537}.description",
       "source": "103系の後継車両として開発された通勤型電車。様々な新機軸が積極的に取り入れられ、大幅な省エネルギー化が図られたが、その結果、製造コストが高くつくことになった。",
-      "translation": ""
+      "translation": "A commuter electric train developed as a successor to the 103 Series. Various new features were actively incorporated, achieving significant energy savings, but as a result, manufacturing costs became high."
     },
     {
       "key": "contribution.{006D31EE-F3A2-4CD6-A820-542DEA6E6537}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{006D31EE-F3A2-4CD6-A820-542DEA6E6537}.type",
       "source": "205系",
-      "translation": ""
+      "translation": "205 Series"
     },
     {
       "key": "contribution.{006D31EE-F3A2-4CD6-A820-542DEA6E6537}.description",
       "source": "製造費を抑えつつ省エネルギー化を目指した通勤型電車。ステンレス車体やボルスタレス台車の採用により軽量化が図られている。",
-      "translation": ""
+      "translation": "Commuter electric train designed for energy saving while suppressing manufacturing costs. Lightweighting achieved through the adoption of stainless steel car bodies and bolsterless bogies."
     },
     {
       "key": "contribution.{106D31EE-F3A2-4CD6-A820-542DEA6E6537}.name",
       "source": "京浜東北線",
-      "translation": ""
+      "translation": "Keihin-Tohoku Line"
     },
     {
       "key": "contribution.{106D31EE-F3A2-4CD6-A820-542DEA6E6537}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{106D31EE-F3A2-4CD6-A820-542DEA6E6537}.type",
       "source": "205系",
-      "translation": ""
+      "translation": "205 Series"
     },
     {
       "key": "contribution.{106D31EE-F3A2-4CD6-A820-542DEA6E6537}.description",
       "source": "製造費を抑えつつ省エネルギー化を目指した通勤型電車。ステンレス車体やボルスタレス台車の採用により軽量化が図られている。",
-      "translation": ""
+      "translation": "Commuter electric train designed for energy saving while suppressing manufacturing costs. Lightweighting achieved through the adoption of stainless steel car bodies and bolsterless bogies."
     },
     {
       "key": "contribution.{007D31EE-F3A2-4CD6-A820-542DEA6E6537}.name",
       "source": "横浜線",
-      "translation": ""
+      "translation": "Yokohama Line"
     },
     {
       "key": "contribution.{007D31EE-F3A2-4CD6-A820-542DEA6E6537}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{007D31EE-F3A2-4CD6-A820-542DEA6E6537}.type",
       "source": "205系",
-      "translation": ""
+      "translation": "205 Series"
     },
     {
       "key": "contribution.{007D31EE-F3A2-4CD6-A820-542DEA6E6537}.description",
       "source": "製造費を抑えつつ省エネルギー化を目指した通勤型電車。ステンレス車体やボルスタレス台車の採用により軽量化が図られている。",
-      "translation": ""
+      "translation": "Commuter electric train designed for energy saving while suppressing manufacturing costs. Lightweighting achieved through the adoption of stainless steel car bodies and bolsterless bogies."
     },
     {
       "key": "contribution.{008D31EE-F3A2-4CD6-A820-542DEA6E6537}.name",
       "source": "総武線",
-      "translation": ""
+      "translation": "Sobu Line"
     },
     {
       "key": "contribution.{008D31EE-F3A2-4CD6-A820-542DEA6E6537}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{008D31EE-F3A2-4CD6-A820-542DEA6E6537}.type",
       "source": "205系",
-      "translation": ""
+      "translation": "205 Series"
     },
     {
       "key": "contribution.{008D31EE-F3A2-4CD6-A820-542DEA6E6537}.description",
       "source": "製造費を抑えつつ省エネルギー化を目指した通勤型電車。ステンレス車体やボルスタレス台車の採用により軽量化が図られている。",
-      "translation": ""
+      "translation": "Commuter electric train designed for energy saving while suppressing manufacturing costs. Lightweighting achieved through the adoption of stainless steel car bodies and bolsterless bogies."
     },
     {
       "key": "contribution.{009D31EE-F3A2-4CD6-A820-542DEA6E6537}.name",
       "source": "埼京線",
-      "translation": ""
+      "translation": "Saikyo Line"
     },
     {
       "key": "contribution.{009D31EE-F3A2-4CD6-A820-542DEA6E6537}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{009D31EE-F3A2-4CD6-A820-542DEA6E6537}.type",
       "source": "205系",
-      "translation": ""
+      "translation": "205 Series"
     },
     {
       "key": "contribution.{009D31EE-F3A2-4CD6-A820-542DEA6E6537}.description",
       "source": "製造費を抑えつつ省エネルギー化を目指した通勤型電車。ステンレス車体やボルスタレス台車の採用により軽量化が図られている。",
-      "translation": ""
+      "translation": "Commuter electric train designed for energy saving while suppressing manufacturing costs. Lightweighting achieved through the adoption of stainless steel car bodies and bolsterless bogies."
     },
     {
       "key": "contribution.{010D31EE-F3A2-4CD6-A820-542DEA6E6537}.name",
       "source": "武蔵野線",
-      "translation": ""
+      "translation": "Musashino Line"
     },
     {
       "key": "contribution.{010D31EE-F3A2-4CD6-A820-542DEA6E6537}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{010D31EE-F3A2-4CD6-A820-542DEA6E6537}.type",
       "source": "205系",
-      "translation": ""
+      "translation": "205 Series"
     },
     {
       "key": "contribution.{010D31EE-F3A2-4CD6-A820-542DEA6E6537}.description",
       "source": "製造費を抑えつつ省エネルギー化を目指した通勤型電車。ステンレス車体やボルスタレス台車の採用により軽量化が図られている。",
-      "translation": ""
+      "translation": "Commuter electric train designed for energy saving while suppressing manufacturing costs. Lightweighting achieved through the adoption of stainless steel car bodies and bolsterless bogies."
     },
     {
       "key": "contribution.{ADF87135-8F9C-1C24-9B45-04F846A0479D}.name",
       "source": "北斗星",
-      "translation": ""
+      "translation": "Hokutosei"
     },
     {
       "key": "contribution.{ADF87135-8F9C-1C24-9B45-04F846A0479D}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{ADF87135-8F9C-1C24-9B45-04F846A0479D}.type",
       "source": "EF81+24系",
-      "translation": ""
+      "translation": "EF81 + 24 Series"
     },
     {
       "key": "contribution.{ADF87135-8F9C-1C24-9B45-04F846A0479D}.description",
       "source": "1988年3月、青函トンネルの開通により、上野～札幌間に設定された寝台特急。個室寝台が設けられたほか、食堂車やロビーカーも連結されている。上野～青森間は、交流・直流兼用のEF81が牽引する。",
-      "translation": ""
+      "translation": "A sleeper limited express established between Ueno and Sapporo with the opening of the Seikan Tunnel in March 1988. In addition to private compartments, dining cars and lounge cars are also connected. Between Ueno and Aomori, it is hauled by the EF81, which supports both AC and DC."
     },
     {
       "key": "contribution.{DC183AAA-1069-11D7-AA41-000740323A8D}.name",
       "source": "オホーツク9,10号",
-      "translation": ""
+      "translation": "Okhotsk 9, 10"
     },
     {
       "key": "contribution.{DC183AAA-1069-11D7-AA41-000740323A8D}.company",
       "source": "JR北海道",
-      "translation": ""
+      "translation": "JR Hokkaido"
     },
     {
       "key": "contribution.{DC183AAA-1069-11D7-AA41-000740323A8D}.type",
       "source": "キハ183-0番台+スハネフ14",
-      "translation": ""
+      "translation": "Kiha 183-0 Series + Suhanefu 14"
     },
     {
       "key": "contribution.{DC183AAA-1069-11D7-AA41-000740323A8D}.description",
       "source": "夜行特急オホーツク9,10号にはキハ183系気動車に挟まれて、スハネフ14形寝台客車が連結されている。",
-      "translation": ""
+      "translation": "Suhanev 14 Series sleeper coaches are coupled between Kiha 183 Series diesel railcars on the overnight Limited Express Okhotsk Nos. 9 and 10."
     },
     {
       "key": "contribution.{15ED3147-F3B2-4C96-A620-54CD0A6EF500}.name",
       "source": "利尻",
-      "translation": ""
+      "translation": "Rishiri"
     },
     {
       "key": "contribution.{15ED3147-F3B2-4C96-A620-54CD0A6EF500}.company",
       "source": "JR北海道",
-      "translation": ""
+      "translation": "JR Hokkaido"
     },
     {
       "key": "contribution.{15ED3147-F3B2-4C96-A620-54CD0A6EF500}.type",
       "source": "キハ400形+スハネフ14",
-      "translation": ""
+      "translation": "Kiha 400 Series + Suhanefu 14"
     },
     {
       "key": "contribution.{15ED3147-F3B2-4C96-A620-54CD0A6EF500}.description",
       "source": "宗谷線の急行にキハ400形が使用される際、夜行列車の「利尻」にはスハネフ14形寝台客車が編成中間に連結された。",
-      "translation": ""
+      "translation": "When Kiha 400 Series was used for express services on the Sōya Line, a Suhanev 14 Series sleeper coach was coupled in the middle of the 'Rishiri' night train formation."
     },
     {
       "key": "contribution.{ADF87135-9F9C-058A-9B45-04F846A0479D}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{ADF87135-9F9C-058A-9B45-04F846A0479D}.type",
       "source": "キハ58系",
-      "translation": ""
+      "translation": "Kiha 58 Series"
     },
     {
       "key": "contribution.{ADF87135-9F9C-058A-9B45-04F846A0479D}.description",
       "source": "国鉄の急行型気動車。大量に生産されローカル輸送にも広く活躍した。全国の非電化区間で見る事が出来たが、老朽化で数が減っている。",
-      "translation": ""
+      "translation": "JNR express diesel railcar. Produced in large quantities, it was widely active in local transport. It could be seen on non-electrified sections nationwide, but its numbers are decreasing due to aging."
     },
     {
       "key": "contribution.{ADF87135-9F9C-065A-9B45-04F846A0479D}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{ADF87135-9F9C-065A-9B45-04F846A0479D}.type",
       "source": "キハ58系+キハ65系",
-      "translation": ""
+      "translation": "Kiha 58 Series + Kiha 65 Series"
     },
     {
       "key": "contribution.{ADF87135-9F9C-065A-9B45-04F846A0479D}.description",
       "source": "キハ65形はキハ181系の流れをくむ大出力エンジン１台と冷房用の電源を搭載している。キハ58系の編成にこの車両を組み込むことで山岳路線など大出力を必要とする列車の冷房化が行われた。",
-      "translation": ""
+      "translation": "The Kiha 65 is equipped with a high-output engine and a power source for air conditioning, derived from the Kiha 181 series. By incorporating this car into Kiha 58 series formations, air conditioning was introduced for trains requiring high output, such as on mountain routes."
     }
   ]
 }

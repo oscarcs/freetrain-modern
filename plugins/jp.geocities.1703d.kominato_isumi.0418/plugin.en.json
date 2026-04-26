@@ -6,42 +6,42 @@
     {
       "key": "plugin.title",
       "source": "小湊鐵道・いすみ鉄道車両プラグイン",
-      "translation": ""
+      "translation": "Kominato Railway / Isumi Railway Rolling Stock Plugin"
     },
     {
       "key": "contribution.{cyber-express-1703d-040417-isumi200}.name",
       "source": "いすみ線",
-      "translation": ""
+      "translation": "Isumi Line"
     },
     {
       "key": "contribution.{cyber-express-1703d-040417-isumi200}.company",
       "source": "いすみ鉄道",
-      "translation": ""
+      "translation": "Isumi Railway"
     },
     {
       "key": "contribution.{cyber-express-1703d-040417-isumi200}.type",
       "source": "いすみ200形",
-      "translation": ""
+      "translation": "Isumi 200 Series"
     },
     {
       "key": "contribution.{cyber-express-1703d-040417-isumi200}.description",
       "source": "千葉県の大原～上総中野を結ぶ第三セクター、いすみ鉄道の車両です。",
-      "translation": ""
+      "translation": "Vehicles of the Isumi Railway, a third-sector railway connecting Ōhara and Kazusa-Nakano in Chiba Prefecture."
     },
     {
       "key": "contribution.{cyber-express-1703d-040417-kominato200}.company",
       "source": "小湊鐵道",
-      "translation": ""
+      "translation": "Kominato Railway"
     },
     {
       "key": "contribution.{cyber-express-1703d-040417-kominato200}.type",
       "source": "キハ200形",
-      "translation": ""
+      "translation": "KiHa 200 Type"
     },
     {
       "key": "contribution.{cyber-express-1703d-040417-kominato200}.description",
       "source": "千葉県の五井～上総中野を結ぶ私鉄、小湊鐵道の車両。\n国鉄への乗入れを考慮し国鉄キハ20形に準じて製作された車両で、以前は国鉄千葉駅へ乗入れていたが現在は設定されていない。\n編成両数は1両から5両。全14両が製作され現在も活躍中である。",
-      "translation": ""
+      "translation": "Vehicles of the Kominato Railway, a private railway connecting Goi and Kazusa-Nakano in Chiba Prefecture. These vehicles were manufactured in accordance with JNR Kiha 20 Series for interoperability with JNR, and previously operated into JNR Chiba Station, but this service is no longer available. Formations range from 1 to 5 cars. All 14 manufactured cars are still active."
     }
   ]
 }

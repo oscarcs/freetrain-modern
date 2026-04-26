@@ -6,102 +6,102 @@
     {
       "key": "plugin.title",
       "source": "お寺",
-      "translation": ""
+      "translation": "Temple"
     },
     {
       "key": "contribution.{628C6F59-9B1A-48a8-8815-48AC0D15765E}.name",
       "source": "お寺",
-      "translation": ""
+      "translation": "Temple"
     },
     {
       "key": "contribution.{DD8340A1-BD1A-4E2E-B42D-F162D6D6CE65}.name",
       "source": "民家(小)",
-      "translation": ""
+      "translation": "Small House"
     },
     {
       "key": "contribution.{22532C5A-CE0B-4C4D-9DC8-C7FC7C5A3FE5}.name",
       "source": "民家(小)",
-      "translation": ""
+      "translation": "Small House"
     },
     {
       "key": "contribution.{15D9C4FA-0F6E-4915-B19F-CDBB19C29AB4}.name",
       "source": "民家(小)",
-      "translation": ""
+      "translation": "Small House"
     },
     {
       "key": "contribution.{FA1FDEDE-6E4E-48F2-A45C-DFEA3979D1D3}.name",
       "source": "民家(小)",
-      "translation": ""
+      "translation": "Small House"
     },
     {
       "key": "contribution.{0C468024-EB7E-44BE-8026-326FC3F09539}.name",
       "source": "民家(小)",
-      "translation": ""
+      "translation": "Small House"
     },
     {
       "key": "contribution.{924FBFF1-69E4-49C6-9067-86D915638A9A}.name",
       "source": "民家(小)",
-      "translation": ""
+      "translation": "Small House"
     },
     {
       "key": "contribution.{26601128-3116-4EFA-AB8E-233BC566D031}.name",
       "source": "民家(小)",
-      "translation": ""
+      "translation": "Small House"
     },
     {
       "key": "contribution.{91857E01-6499-40CE-8825-6D52247F80C9}.name",
       "source": "民家(小)",
-      "translation": ""
+      "translation": "Small House"
     },
     {
       "key": "contribution.{4A00A798-AC00-437e-A888-D89BA53AE521}.group",
       "source": "貸しビル(B)",
-      "translation": ""
+      "translation": "Rental Building (B)"
     },
     {
       "key": "contribution.{8CA77980-AF45-4ee6-9835-05AE2265DE02}.group",
       "source": "貸しビル(B)",
-      "translation": ""
+      "translation": "Rental Building (B)"
     },
     {
       "key": "contribution.{B33B8F45-ABEE-4c88-AD85-F37B06D1C0FB}.group",
       "source": "貸しビル(B)",
-      "translation": ""
+      "translation": "Rental Building (B)"
     },
     {
       "key": "contribution.{042F75D2-0C64-4e42-8A94-1F0245304F8B}.group",
       "source": "貸しビル(B)",
-      "translation": ""
+      "translation": "Rental Building (B)"
     },
     {
       "key": "contribution.{A39D0D3D-DEE7-4492-9EBC-678D331F3A52}.group",
       "source": "貸しビル(B)",
-      "translation": ""
+      "translation": "Rental Building (B)"
     },
     {
       "key": "contribution.{ABD65D7D-DBFB-41A1-838C-F633CE2BF928}.group",
       "source": "貸しビル(B)",
-      "translation": ""
+      "translation": "Rental Building (B)"
     },
     {
       "key": "contribution.{AD743C11-C9A9-4E76-AD68-178CFA9F6E3E}.group",
       "source": "貸しビル(B)",
-      "translation": ""
+      "translation": "Rental Building (B)"
     },
     {
       "key": "contribution.{9ECE312F-DB6A-415a-880A-E62FCE9AEB00}.group",
       "source": "貸しビル(2x2)",
-      "translation": ""
+      "translation": "Rental Building (2x2)"
     },
     {
       "key": "contribution.{87F5416D-BEC0-4712-A6CB-B8E3E77EBB83}.group",
       "source": "貸しビル(2x2)",
-      "translation": ""
+      "translation": "Rental Building (2x2)"
     },
     {
       "key": "contribution.{01C78302-65B7-473B-9426-A1BAB8F413BB}.group",
       "source": "貸しビル(2x2)",
-      "translation": ""
+      "translation": "Rental Building (2x2)"
     }
   ]
 }

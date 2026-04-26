@@ -6,67 +6,67 @@
     {
       "key": "plugin.title",
       "source": "半ボクセル住宅",
-      "translation": ""
+      "translation": "Half-voxel house"
     },
     {
       "key": "contribution.{2A8208CD-67C7-46A6-C477-830F25C8F3D2}-0.name",
       "source": "切妻三階建てA",
-      "translation": ""
+      "translation": "Gable Roof Three-Story A"
     },
     {
       "key": "contribution.{2A8208CD-67C7-46A6-C477-830F25C8F3D2}-0.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{2A8208CD-67C7-46A6-C477-830F25C8F3D2}-1.name",
       "source": "切妻三階建てB",
-      "translation": ""
+      "translation": "Gable Roof Three-Story B"
     },
     {
       "key": "contribution.{2A8208CD-67C7-46A6-C477-830F25C8F3D2}-1.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{2A8208CD-67C7-46A6-C477-830F25C8F3D2}-2.name",
       "source": "車庫付切妻三階建てA",
-      "translation": ""
+      "translation": "Three-Story Gable Roof House with Garage A"
     },
     {
       "key": "contribution.{2A8208CD-67C7-46A6-C477-830F25C8F3D2}-2.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{2A8208CD-67C7-46A6-C477-830F25C8F3D2}-3.name",
       "source": "車庫付切妻三階建てB",
-      "translation": ""
+      "translation": "Three-Story Gable Roof House with Garage B"
     },
     {
       "key": "contribution.{2A8208CD-67C7-46A6-C477-830F25C8F3D2}-3.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{2A8208CD-67C7-46A6-C477-830F25C8F3D2}-4.name",
       "source": "車庫付切妻三階建てC",
-      "translation": ""
+      "translation": "Three-Story Gable Roof House with Garage C"
     },
     {
       "key": "contribution.{2A8208CD-67C7-46A6-C477-830F25C8F3D2}-4.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{2A8208CD-67C7-46A6-C477-830F25C8F3D2}-5.name",
       "source": "寄棟三階建て",
-      "translation": ""
+      "translation": "Hip Roof Three-Story House"
     },
     {
       "key": "contribution.{2A8208CD-67C7-46A6-C477-830F25C8F3D2}-5.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     }
   ]
 }

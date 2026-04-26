@@ -6,37 +6,37 @@
     {
       "key": "plugin.title",
       "source": "東京地下鉄保管計画その3",
-      "translation": ""
+      "translation": "Tokyo Metro Preservation Project Part 3"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TM15000}.name",
       "source": "東西線",
-      "translation": ""
+      "translation": "Tōzai Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TM15000}.company",
       "source": "東京メトロ",
-      "translation": ""
+      "translation": "Tokyo Metro"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TM15000}.type",
       "source": "15000系",
-      "translation": ""
+      "translation": "15000 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TM16000}.name",
       "source": "千代田線",
-      "translation": ""
+      "translation": "Chiyoda Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TM16000}.company",
       "source": "東京メトロ",
-      "translation": ""
+      "translation": "Tokyo Metro"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TM16000}.type",
       "source": "16000系",
-      "translation": ""
+      "translation": "16000 Series"
     }
   ]
 }

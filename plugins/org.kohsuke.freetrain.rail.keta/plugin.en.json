@@ -6,27 +6,27 @@
     {
       "key": "plugin.title",
       "source": "架線柱",
-      "translation": ""
+      "translation": "Catenary Pole"
     },
     {
       "key": "contribution.{874B8BFD-1EF4-5000-9C5A-D0EA1049D28D}.name",
       "source": "橋桁(下)",
-      "translation": ""
+      "translation": "Bridge Girder (lower)"
     },
     {
       "key": "contribution.{874B8BFD-1EF4-5001-9C5A-D0EA1049D28D}.name",
       "source": "橋桁(上)",
-      "translation": ""
+      "translation": "Bridge Girder (upper)"
     },
     {
       "key": "contribution.{874B8BFD-1EF4-5002-9C5A-D0EA1049D28D}.name",
       "source": "橋桁(無)",
-      "translation": ""
+      "translation": "Bridge Girder (plain)"
     },
     {
       "key": "contribution.{874B8BFD-1EF4-5003-9C5A-D0EA1049D28D}.name",
       "source": "橋桁(土手)",
-      "translation": ""
+      "translation": "Bridge Girder (embankment)"
     }
   ]
 }

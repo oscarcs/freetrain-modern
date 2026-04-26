@@ -6,57 +6,57 @@
     {
       "key": "plugin.title",
       "source": "道路（FreeTrain-想作館）",
-      "translation": ""
+      "translation": "Road (FreeTrain-Sosakukan)"
     },
     {
       "key": "contribution.{9257AF06-6515-6BC1-8160-5336FDF6FB6B}.name",
       "source": "アーケード",
-      "translation": ""
+      "translation": "Arcade"
     },
     {
       "key": "contribution.{9257AF06-6515-6BC1-8160-5336FDF6FB6B}.description",
       "source": "アーケード",
-      "translation": ""
+      "translation": "Arcade"
     },
     {
       "key": "contribution.{road_001-road-C000-0000-4C8B212DD67q}.name",
       "source": "生活道路",
-      "translation": ""
+      "translation": "Residential road"
     },
     {
       "key": "contribution.{road_001-road-C000-0000-4C8B212DD67q}.description",
       "source": "生活道路",
-      "translation": ""
+      "translation": "Residential road"
     },
     {
       "key": "contribution.{road_002-road-C000-0000-4C8B212DD67q}.name",
       "source": "橋脚（重層高架対応）",
-      "translation": ""
+      "translation": "Bridge pier (multi-level elevated compatible)"
     },
     {
       "key": "contribution.{road_002-road-C000-0000-4C8B212DD67q}.description",
       "source": "橋脚（重層高架対応）",
-      "translation": ""
+      "translation": "Bridge pier (multi-level elevated compatible)"
     },
     {
       "key": "contribution.{road_003-road-C000-0000-4C8B212DD67q}.name",
       "source": "高架橋桁",
-      "translation": ""
+      "translation": "Elevated bridge girder"
     },
     {
       "key": "contribution.{road_003-road-C000-0000-4C8B212DD67q}.description",
       "source": "高架橋桁",
-      "translation": ""
+      "translation": "Elevated bridge girder"
     },
     {
       "key": "contribution.{sidewalk_001-road-C000-0000-4C8B212DD67q}.name",
       "source": "けやき並木の歩道",
-      "translation": ""
+      "translation": "Zelkova Tree-lined Sidewalk"
     },
     {
       "key": "contribution.{sidewalk_001-road-C000-0000-4C8B212DD67q}.description",
       "source": "けやき並木の歩道",
-      "translation": ""
+      "translation": "Zelkova Tree-lined Sidewalk"
     }
   ]
 }

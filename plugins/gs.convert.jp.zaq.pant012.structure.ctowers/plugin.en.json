@@ -5,13 +5,13 @@
   "texts": [
     {
       "key": "plugin.title",
-      "source": "建物総合コンバート\u3000ては",
-      "translation": ""
+      "source": "建物総合コンバート　ては",
+      "translation": "Building general conversion: Teha"
     },
     {
       "key": "contribution.{F5776500-E8E5-4D5E-B30A-A0036A6ECDEB}-gs.group",
       "source": "セントラルタワーズ",
-      "translation": ""
+      "translation": "Central Towers"
     }
   ]
 }

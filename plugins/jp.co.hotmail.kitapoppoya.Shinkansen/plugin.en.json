@@ -6,112 +6,112 @@
     {
       "key": "plugin.title",
       "source": "新幹線セット",
-      "translation": ""
+      "translation": "Shinkansen Set"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-N700CE}.name",
       "source": "のぞみ",
-      "translation": ""
+      "translation": "Nozomi"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-N700CE}.company",
       "source": "JR東海",
-      "translation": ""
+      "translation": "JR Central"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-N700CE}.type",
       "source": "N700系",
-      "translation": ""
+      "translation": "N700 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-N700WE}.name",
       "source": "のぞみ",
-      "translation": ""
+      "translation": "Nozomi"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-N700WE}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-N700WE}.type",
       "source": "N700系",
-      "translation": ""
+      "translation": "N700 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-N700WS}.name",
       "source": "さくら･みずほ",
-      "translation": ""
+      "translation": "Sakura/Mizuho"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-N700WS}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-N700WS}.type",
       "source": "N700系7000番台",
-      "translation": ""
+      "translation": "N700 Series 7000 subseries"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-N700KS}.name",
       "source": "さくら･みずほ",
-      "translation": ""
+      "translation": "Sakura/Mizuho"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-N700KS}.company",
       "source": "JR九州",
-      "translation": ""
+      "translation": "JR Kyushu"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-N700KS}.type",
       "source": "N700系7000番台",
-      "translation": ""
+      "translation": "N700 Series 7000 subseries"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-E5}.name",
       "source": "はやぶさ",
-      "translation": ""
+      "translation": "Hayabusa"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-E5}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-E5}.type",
       "source": "E5系",
-      "translation": ""
+      "translation": "E5 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-E6}.name",
       "source": "こまち",
-      "translation": ""
+      "translation": "Komachi"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-E6}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-E6}.type",
       "source": "E6系",
-      "translation": ""
+      "translation": "E6 Series"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-E5E6}.name",
       "source": "はやぶさ+こまち",
-      "translation": ""
+      "translation": "Hayabusa + Komachi"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-E5E6}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-E5E6}.type",
       "source": "E5系+E6系",
-      "translation": ""
+      "translation": "E5 Series + E6 Series"
     }
   ]
 }

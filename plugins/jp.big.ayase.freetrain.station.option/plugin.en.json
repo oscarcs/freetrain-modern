@@ -6,57 +6,57 @@
     {
       "key": "plugin.title",
       "source": "架線柱",
-      "translation": ""
+      "translation": "Catenary Pole"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-StationOption-01a}.name",
       "source": "橋上駅（通路用）",
-      "translation": ""
+      "translation": "Overhead Station (for passage)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-StationOption-01b}.name",
       "source": "橋上駅（右階段）",
-      "translation": ""
+      "translation": "Overhead Station (right stairs)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-StationOption-01c}.name",
       "source": "橋上駅（左階段）",
-      "translation": ""
+      "translation": "Overhead Station (left stairs)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-StationOption-01d}.name",
       "source": "橋上駅（右階段奥）",
-      "translation": ""
+      "translation": "Overhead Station (right stairs, rear)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-StationOption-01e}.name",
       "source": "橋上駅（左階段奥）",
-      "translation": ""
+      "translation": "Overhead Station (left stairs, rear)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-StationOption-01f}.name",
       "source": "橋上駅（通路用側壁あり）",
-      "translation": ""
+      "translation": "Overhead Station (for passage, with side walls)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-StationOption-02a}.name",
       "source": "ホーム屋根A1",
-      "translation": ""
+      "translation": "Platform Roof A1"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-StationOption-02b}.name",
       "source": "ホーム屋根A2",
-      "translation": ""
+      "translation": "Platform Roof A2"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-StationOption-02c}.name",
       "source": "ホーム屋根B1",
-      "translation": ""
+      "translation": "Platform Roof B1"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-StationOption-02d}.name",
       "source": "ホーム屋根B2",
-      "translation": ""
+      "translation": "Platform Roof B2"
     }
   ]
 }

@@ -6,27 +6,27 @@
     {
       "key": "plugin.title",
       "source": "トランスファークレーン",
-      "translation": ""
+      "translation": "Transfer Crane"
     },
     {
       "key": "contribution.{mogami-building-transfercrane-6626CC7B95F1}-0.group",
       "source": "トランスファークレーン",
-      "translation": ""
+      "translation": "Transfer Crane"
     },
     {
       "key": "contribution.{mogami-building-transfercrane-6626CC7B95F1}-1.group",
       "source": "トランスファークレーン",
-      "translation": ""
+      "translation": "Transfer Crane"
     },
     {
       "key": "contribution.{mogami-building-transfercrane-6626CC7B95F1}-2.group",
       "source": "トランスファークレーン",
-      "translation": ""
+      "translation": "Transfer Crane"
     },
     {
       "key": "contribution.{mogami-building-transfercrane-6626CC7B95F1}-3.group",
       "source": "トランスファークレーン",
-      "translation": ""
+      "translation": "Transfer Crane"
     }
   ]
 }

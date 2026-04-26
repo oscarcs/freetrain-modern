@@ -5,48 +5,48 @@
   "texts": [
     {
       "key": "plugin.title",
-      "source": "建物総合コンバート\u3000綾瀬ヒロ",
-      "translation": ""
+      "source": "建物総合コンバート　綾瀬ヒロ",
+      "translation": "Building General Conversion Ayase Hiro"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-ganpeki-01}-gs.group",
       "source": "岸壁",
-      "translation": ""
+      "translation": "Wharf"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-ganpeki-02}-gs.group",
       "source": "岸壁",
-      "translation": ""
+      "translation": "Wharf"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-ganpeki-03}-gs.group",
       "source": "岸壁",
-      "translation": ""
+      "translation": "Wharf"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-ganpeki-04}-gs.group",
       "source": "岸壁",
-      "translation": ""
+      "translation": "Wharf"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-ganpeki-05}-gs.group",
       "source": "岸壁",
-      "translation": ""
+      "translation": "Wharf"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-ganpeki-06}-gs.group",
       "source": "岸壁",
-      "translation": ""
+      "translation": "Wharf"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-ganpeki-07}-gs.group",
       "source": "岸壁",
-      "translation": ""
+      "translation": "Wharf"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-ganpeki-08}-gs.group",
       "source": "岸壁",
-      "translation": ""
+      "translation": "Wharf"
     }
   ]
 }

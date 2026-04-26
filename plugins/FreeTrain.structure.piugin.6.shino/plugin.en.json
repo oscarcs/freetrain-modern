@@ -6,67 +6,67 @@
     {
       "key": "plugin.title",
       "source": "建物プラグイン",
-      "translation": ""
+      "translation": "Building plugin"
     },
     {
       "key": "contribution.{839D3127-4BB0-4E62-A014-5286DC362A21}.group",
       "source": "貸しビル(2x2)",
-      "translation": ""
+      "translation": "Rental Building (2x2)"
     },
     {
       "key": "contribution.{C77698B4-A388-4461-A61F-D4B113B5E470}.group",
       "source": "貸しビル(2x2)",
-      "translation": ""
+      "translation": "Rental Building (2x2)"
     },
     {
       "key": "contribution.{683D1CB6-5726-4B5D-9087-3858B7DEC20C}.group",
       "source": "貸しビル(3x3)",
-      "translation": ""
+      "translation": "Rental Building (3x3)"
     },
     {
       "key": "contribution.{32255C46-93EE-46A7-A539-DDEDF486205A}.group",
       "source": "貸しビル(3x3)",
-      "translation": ""
+      "translation": "Rental Building (3x3)"
     },
     {
       "key": "contribution.{62AB9A74-9C2B-4D68-A9EE-2D2BB707CF74}.group",
       "source": "貸しビル(3x3)",
-      "translation": ""
+      "translation": "Rental Building (3x3)"
     },
     {
       "key": "contribution.{3BAAFAD2-F764-4804-A52E-F5C1CE82C79F}.group",
       "source": "貸しビル(3x3)",
-      "translation": ""
+      "translation": "Rental Building (3x3)"
     },
     {
       "key": "contribution.{2DECFAE6-7B81-4B07-9C1C-1E419DF7FAB8}.group",
       "source": "貸しビル(3x3)",
-      "translation": ""
+      "translation": "Rental Building (3x3)"
     },
     {
       "key": "contribution.{95D1C7A1-0818-44BB-9469-3167E9E1213B}.group",
       "source": "貸しビル(3x3)",
-      "translation": ""
+      "translation": "Rental Building (3x3)"
     },
     {
       "key": "contribution.{E102FC0C-6DDD-430C-A3E1-1AF80C83FACA}.group",
       "source": "中型ホテル",
-      "translation": ""
+      "translation": "Medium Hotel"
     },
     {
       "key": "contribution.{4147F53A-98ED-44EF-ADF8-C405372AEE1A}.group",
       "source": "中型ホテル",
-      "translation": ""
+      "translation": "Medium Hotel"
     },
     {
       "key": "contribution.{BB16D01A-8231-4B02-AEAE-1F17CF43CF89}.group",
       "source": "中型ホテル",
-      "translation": ""
+      "translation": "Medium Hotel"
     },
     {
       "key": "contribution.{4F944FE5-7024-4E0D-B7FC-A14062CA3D77}.group",
       "source": "中型ホテル",
-      "translation": ""
+      "translation": "Medium Hotel"
     }
   ]
 }

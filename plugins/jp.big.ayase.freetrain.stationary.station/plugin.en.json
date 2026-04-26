@@ -6,17 +6,17 @@
     {
       "key": "plugin.title",
       "source": "橋脚プラグイン",
-      "translation": ""
+      "translation": "Pier Plugin"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-Station-03a}.group",
       "source": "駅下橋脚",
-      "translation": ""
+      "translation": "Station Underpass Pier"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-Station-03b}.group",
       "source": "駅下橋脚",
-      "translation": ""
+      "translation": "Station Underpass Pier"
     }
   ]
 }

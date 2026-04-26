@@ -5,13 +5,13 @@
   "texts": [
     {
       "key": "plugin.title",
-      "source": "建物総合コンバート\u3000モガミ",
-      "translation": ""
+      "source": "建物総合コンバート　モガミ",
+      "translation": "Building General Conversion Mogami"
     },
     {
       "key": "contribution.{062B8F4A-F404-4B74-B40E-D8F44124A050}-gs.group",
       "source": "5×3高層マンション",
-      "translation": ""
+      "translation": "5x3 high-rise apartment building"
     }
   ]
 }

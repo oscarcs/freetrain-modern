@@ -6,2107 +6,2107 @@
     {
       "key": "plugin.title",
       "source": "FreeTrainExAVer用建物総合(道路)",
-      "translation": ""
+      "translation": "FreeTrainExAVer General Buildings (Roads)"
     },
     {
       "key": "contribution.{HEUER-1001-SR-STRUCTURE-1101}.name",
       "source": "勾配道路(一般)一車線道路用",
-      "translation": ""
+      "translation": "Sloped road (general) for single-lane road"
     },
     {
       "key": "contribution.{HEUER-1001-SR-STRUCTURE-1102}.name",
       "source": "勾配道路(一般)一車線道路用",
-      "translation": ""
+      "translation": "Sloped road (general) for single-lane road"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1101}.name",
       "source": "勾配道路B/一車線",
-      "translation": ""
+      "translation": "Sloped Road B / One Lane"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1102}.name",
       "source": "勾配道路B/一車線",
-      "translation": ""
+      "translation": "Sloped Road B / One Lane"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1103}.name",
       "source": "勾配道路B/一車線",
-      "translation": ""
+      "translation": "Sloped Road B / One Lane"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1111}.name",
       "source": "勾配道路B/一車線",
-      "translation": ""
+      "translation": "Sloped Road B / One Lane"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1112}.name",
       "source": "勾配道路B/一車線",
-      "translation": ""
+      "translation": "Sloped Road B / One Lane"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1113}.name",
       "source": "勾配道路B/一車線",
-      "translation": ""
+      "translation": "Sloped Road B / One Lane"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1121}.name",
       "source": "勾配道路B/一車線",
-      "translation": ""
+      "translation": "Sloped Road B / One Lane"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1122}.name",
       "source": "勾配道路B/一車線",
-      "translation": ""
+      "translation": "Sloped Road B / One Lane"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1123}.name",
       "source": "勾配道路B/一車線",
-      "translation": ""
+      "translation": "Sloped Road B / One Lane"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1131}.name",
       "source": "勾配道路B/一車線",
-      "translation": ""
+      "translation": "Sloped Road B / One Lane"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1132}.name",
       "source": "勾配道路B/一車線",
-      "translation": ""
+      "translation": "Sloped Road B / One Lane"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1133}.name",
       "source": "勾配道路B/一車線",
-      "translation": ""
+      "translation": "Sloped Road B / One Lane"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1134}.name",
       "source": "勾配道路B/一車線",
-      "translation": ""
+      "translation": "Sloped Road B / One Lane"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1141}.name",
       "source": "勾配道路B/一車線",
-      "translation": ""
+      "translation": "Sloped Road B / One Lane"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1142}.name",
       "source": "勾配道路B/一車線",
-      "translation": ""
+      "translation": "Sloped Road B / One Lane"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1143}.name",
       "source": "勾配道路B/一車線",
-      "translation": ""
+      "translation": "Sloped Road B / One Lane"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1101l}.name",
       "source": "勾配道路B/一車線/街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / One Lane / with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1102l}.name",
       "source": "勾配道路B/一車線/街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / One Lane / with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1103l}.name",
       "source": "勾配道路B/一車線/街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / One Lane / with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1111l}.name",
       "source": "勾配道路B/一車線/街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / One Lane / with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1112l}.name",
       "source": "勾配道路B/一車線/街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / One Lane / with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1113l}.name",
       "source": "勾配道路B/一車線/街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / One Lane / with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1121l}.name",
       "source": "勾配道路B/一車線/街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / One Lane / with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1122l}.name",
       "source": "勾配道路B/一車線/街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / One Lane / with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1123l}.name",
       "source": "勾配道路B/一車線/街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / One Lane / with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1131l}.name",
       "source": "勾配道路B/一車線/街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / One Lane / with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1132l}.name",
       "source": "勾配道路B/一車線/街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / One Lane / with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1133l}.name",
       "source": "勾配道路B/一車線/街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / One Lane / with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1134l}.name",
       "source": "勾配道路B/一車線/街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / One Lane / with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1141l}.name",
       "source": "勾配道路B/一車線/街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / One Lane / with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1142l}.name",
       "source": "勾配道路B/一車線/街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / One Lane / with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1143l}.name",
       "source": "勾配道路B/一車線/街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / One Lane / with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SR-STRUCTURE-1204}.name",
       "source": "勾配道路(一般)二車線道路用",
-      "translation": ""
+      "translation": "Sloped Road (General) for Two-lane Roads"
     },
     {
       "key": "contribution.{HEUER-1001-SR-STRUCTURE-1202}.name",
       "source": "勾配道路(一般)二車線道路用",
-      "translation": ""
+      "translation": "Sloped Road (General) for Two-lane Roads"
     },
     {
       "key": "contribution.{HEUER-1001-SR-STRUCTURE-1202B}.name",
       "source": "勾配道路(一般)二車線道路用",
-      "translation": ""
+      "translation": "Sloped Road (General) for Two-lane Roads"
     },
     {
       "key": "contribution.{HEUER-1001-SR-STRUCTURE-1202A}.name",
       "source": "勾配道路(一般)二車線道路用",
-      "translation": ""
+      "translation": "Sloped Road (General) for Two-lane Roads"
     },
     {
       "key": "contribution.{HEUER-1001-SR-STRUCTURE-1202D}.name",
       "source": "勾配道路(一般)二車線道路用",
-      "translation": ""
+      "translation": "Sloped Road (General) for Two-lane Roads"
     },
     {
       "key": "contribution.{HEUER-1001-SR-STRUCTURE-1202C}.name",
       "source": "勾配道路(一般)二車線道路用",
-      "translation": ""
+      "translation": "Sloped Road (General) for Two-lane Roads"
     },
     {
       "key": "contribution.{HEUER-1001-SR-STRUCTURE-1203}.name",
       "source": "勾配道路(一般)二車線道路用",
-      "translation": ""
+      "translation": "Sloped Road (General) for Two-lane Roads"
     },
     {
       "key": "contribution.{HEUER-1001-SR-STRUCTURE-1201}.name",
       "source": "勾配道路(一般)二車線道路用",
-      "translation": ""
+      "translation": "Sloped Road (General) for Two-lane Roads"
     },
     {
       "key": "contribution.{HEUER-1001-SR-STRUCTURE-1201B}.name",
       "source": "勾配道路(一般)二車線道路用",
-      "translation": ""
+      "translation": "Sloped Road (General) for Two-lane Roads"
     },
     {
       "key": "contribution.{HEUER-1001-SR-STRUCTURE-1201A}.name",
       "source": "勾配道路(一般)二車線道路用",
-      "translation": ""
+      "translation": "Sloped Road (General) for Two-lane Roads"
     },
     {
       "key": "contribution.{HEUER-1001-SR-STRUCTURE-1201D}.name",
       "source": "勾配道路(一般)二車線道路用",
-      "translation": ""
+      "translation": "Sloped Road (General) for Two-lane Roads"
     },
     {
       "key": "contribution.{HEUER-1001-SR-STRUCTURE-1201C}.name",
       "source": "勾配道路(一般)二車線道路用",
-      "translation": ""
+      "translation": "Sloped Road (General) for Two-lane Roads"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1201}.name",
       "source": "勾配道路B/二車線/白破線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Dashed Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1202}.name",
       "source": "勾配道路B/二車線/白破線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Dashed Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1203}.name",
       "source": "勾配道路B/二車線/白破線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Dashed Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1211}.name",
       "source": "勾配道路B/二車線/白破線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Dashed Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1212}.name",
       "source": "勾配道路B/二車線/白破線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Dashed Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1213}.name",
       "source": "勾配道路B/二車線/白破線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Dashed Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1221}.name",
       "source": "勾配道路B/二車線/白破線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Dashed Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1222}.name",
       "source": "勾配道路B/二車線/白破線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Dashed Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1223}.name",
       "source": "勾配道路B/二車線/白破線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Dashed Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1231}.name",
       "source": "勾配道路B/二車線/白破線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Dashed Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1232}.name",
       "source": "勾配道路B/二車線/白破線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Dashed Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1233}.name",
       "source": "勾配道路B/二車線/白破線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Dashed Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1234}.name",
       "source": "勾配道路B/二車線/白破線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Dashed Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1301}.name",
       "source": "勾配道路B/二車線/白実線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Solid Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1302}.name",
       "source": "勾配道路B/二車線/白実線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Solid Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1303}.name",
       "source": "勾配道路B/二車線/白実線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Solid Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1311}.name",
       "source": "勾配道路B/二車線/白実線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Solid Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1312}.name",
       "source": "勾配道路B/二車線/白実線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Solid Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1313}.name",
       "source": "勾配道路B/二車線/白実線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Solid Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1321}.name",
       "source": "勾配道路B/二車線/白実線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Solid Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1322}.name",
       "source": "勾配道路B/二車線/白実線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Solid Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1323}.name",
       "source": "勾配道路B/二車線/白実線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Solid Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1331}.name",
       "source": "勾配道路B/二車線/白実線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Solid Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1332}.name",
       "source": "勾配道路B/二車線/白実線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Solid Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1333}.name",
       "source": "勾配道路B/二車線/白実線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Solid Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1334}.name",
       "source": "勾配道路B/二車線/白実線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Solid Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1401}.name",
       "source": "勾配道路B/二車線/橙実線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / Orange Solid Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1402}.name",
       "source": "勾配道路B/二車線/橙実線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / Orange Solid Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1403}.name",
       "source": "勾配道路B/二車線/橙実線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / Orange Solid Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1411}.name",
       "source": "勾配道路B/二車線/橙実線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / Orange Solid Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1412}.name",
       "source": "勾配道路B/二車線/橙実線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / Orange Solid Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1413}.name",
       "source": "勾配道路B/二車線/橙実線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / Orange Solid Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1421}.name",
       "source": "勾配道路B/二車線/橙実線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / Orange Solid Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1422}.name",
       "source": "勾配道路B/二車線/橙実線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / Orange Solid Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1423}.name",
       "source": "勾配道路B/二車線/橙実線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / Orange Solid Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1431}.name",
       "source": "勾配道路B/二車線/橙実線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / Orange Solid Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1432}.name",
       "source": "勾配道路B/二車線/橙実線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / Orange Solid Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1433}.name",
       "source": "勾配道路B/二車線/橙実線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / Orange Solid Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1434}.name",
       "source": "勾配道路B/二車線/橙実線",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / Orange Solid Line"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1201l}.name",
       "source": "勾配道路B/二車線/白破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1202l}.name",
       "source": "勾配道路B/二車線/白破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1203l}.name",
       "source": "勾配道路B/二車線/白破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1211l}.name",
       "source": "勾配道路B/二車線/白破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1212l}.name",
       "source": "勾配道路B/二車線/白破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1213l}.name",
       "source": "勾配道路B/二車線/白破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1221l}.name",
       "source": "勾配道路B/二車線/白破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1222l}.name",
       "source": "勾配道路B/二車線/白破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1223l}.name",
       "source": "勾配道路B/二車線/白破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1231l}.name",
       "source": "勾配道路B/二車線/白破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1232l}.name",
       "source": "勾配道路B/二車線/白破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1233l}.name",
       "source": "勾配道路B/二車線/白破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1234l}.name",
       "source": "勾配道路B/二車線/白破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1301l}.name",
       "source": "勾配道路B/二車線/白実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1302l}.name",
       "source": "勾配道路B/二車線/白実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1303l}.name",
       "source": "勾配道路B/二車線/白実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1311l}.name",
       "source": "勾配道路B/二車線/白実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1312l}.name",
       "source": "勾配道路B/二車線/白実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1313l}.name",
       "source": "勾配道路B/二車線/白実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1321l}.name",
       "source": "勾配道路B/二車線/白実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1322l}.name",
       "source": "勾配道路B/二車線/白実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1323l}.name",
       "source": "勾配道路B/二車線/白実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1331l}.name",
       "source": "勾配道路B/二車線/白実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1332l}.name",
       "source": "勾配道路B/二車線/白実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1333l}.name",
       "source": "勾配道路B/二車線/白実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1334l}.name",
       "source": "勾配道路B/二車線/白実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / White Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1401l}.name",
       "source": "勾配道路B/二車線/橙実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / Orange Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1402l}.name",
       "source": "勾配道路B/二車線/橙実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / Orange Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1403l}.name",
       "source": "勾配道路B/二車線/橙実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / Orange Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1411l}.name",
       "source": "勾配道路B/二車線/橙実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / Orange Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1412l}.name",
       "source": "勾配道路B/二車線/橙実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / Orange Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1413l}.name",
       "source": "勾配道路B/二車線/橙実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / Orange Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1421l}.name",
       "source": "勾配道路B/二車線/橙実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / Orange Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1422l}.name",
       "source": "勾配道路B/二車線/橙実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / Orange Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1423l}.name",
       "source": "勾配道路B/二車線/橙実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / Orange Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1431l}.name",
       "source": "勾配道路B/二車線/橙実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / Orange Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1432l}.name",
       "source": "勾配道路B/二車線/橙実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / Orange Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1433l}.name",
       "source": "勾配道路B/二車線/橙実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / Orange Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SRB-STRUCTURE-1434l}.name",
       "source": "勾配道路B/二車線/橙実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Two-lane / Orange Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1301A}.name",
       "source": "勾配道路B/三車線/白破線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Dashed Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1302A}.name",
       "source": "勾配道路B/三車線/白破線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Dashed Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1303A}.name",
       "source": "勾配道路B/三車線/白破線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Dashed Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1311A}.name",
       "source": "勾配道路B/三車線/白破線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Dashed Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1312A}.name",
       "source": "勾配道路B/三車線/白破線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Dashed Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1313A}.name",
       "source": "勾配道路B/三車線/白破線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Dashed Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1321A}.name",
       "source": "勾配道路B/三車線/白破線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Dashed Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1322A}.name",
       "source": "勾配道路B/三車線/白破線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Dashed Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1323A}.name",
       "source": "勾配道路B/三車線/白破線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Dashed Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1331A}.name",
       "source": "勾配道路B/三車線/白破線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Dashed Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1332A}.name",
       "source": "勾配道路B/三車線/白破線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Dashed Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1333A}.name",
       "source": "勾配道路B/三車線/白破線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Dashed Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1334A}.name",
       "source": "勾配道路B/三車線/白破線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Dashed Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1301B}.name",
       "source": "勾配道路B/三車線/白実線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1302B}.name",
       "source": "勾配道路B/三車線/白実線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1303B}.name",
       "source": "勾配道路B/三車線/白実線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1311B}.name",
       "source": "勾配道路B/三車線/白実線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1312B}.name",
       "source": "勾配道路B/三車線/白実線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1313B}.name",
       "source": "勾配道路B/三車線/白実線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1321B}.name",
       "source": "勾配道路B/三車線/白実線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1322B}.name",
       "source": "勾配道路B/三車線/白実線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1323B}.name",
       "source": "勾配道路B/三車線/白実線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1331B}.name",
       "source": "勾配道路B/三車線/白実線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1332B}.name",
       "source": "勾配道路B/三車線/白実線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1333B}.name",
       "source": "勾配道路B/三車線/白実線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1334B}.name",
       "source": "勾配道路B/三車線/白実線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1301C}.name",
       "source": "勾配道路B/三車線/白実破線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid-Dashed Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1302C}.name",
       "source": "勾配道路B/三車線/白実破線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid-Dashed Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1303C}.name",
       "source": "勾配道路B/三車線/白実破線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid-Dashed Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1311C}.name",
       "source": "勾配道路B/三車線/白実破線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid-Dashed Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1312C}.name",
       "source": "勾配道路B/三車線/白実破線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid-Dashed Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1313C}.name",
       "source": "勾配道路B/三車線/白実破線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid-Dashed Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1321C}.name",
       "source": "勾配道路B/三車線/白実破線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid-Dashed Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1322C}.name",
       "source": "勾配道路B/三車線/白実破線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid-Dashed Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1323C}.name",
       "source": "勾配道路B/三車線/白実破線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid-Dashed Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1331C}.name",
       "source": "勾配道路B/三車線/白実破線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid-Dashed Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1332C}.name",
       "source": "勾配道路B/三車線/白実破線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid-Dashed Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1333C}.name",
       "source": "勾配道路B/三車線/白実破線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid-Dashed Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1334C}.name",
       "source": "勾配道路B/三車線/白実破線",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid-Dashed Line"
     },
     {
       "key": "contribution.{HEUER-SRB-S1301D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1302D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1303D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1304D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1305D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1306D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1307D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1308D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1309D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1310D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1311D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1312D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1331D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1332D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1333D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1334D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1335D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1336D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1337D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1338D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1339D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1340D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1341D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1342D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1343D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1344D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1345D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1346D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1347D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1348D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1349D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1350D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1351D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1352D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1353D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1354D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1355D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1356D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1357D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1358D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1359D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1360D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1361D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1362D}.name",
       "source": "勾配道路B/三車線/分合流",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge"
     },
     {
       "key": "contribution.{HEUER-SRB-S1301AL}.name",
       "source": "勾配道路B/三車線/白破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1302AL}.name",
       "source": "勾配道路B/三車線/白破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1303AL}.name",
       "source": "勾配道路B/三車線/白破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1311AL}.name",
       "source": "勾配道路B/三車線/白破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1312AL}.name",
       "source": "勾配道路B/三車線/白破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1313AL}.name",
       "source": "勾配道路B/三車線/白破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1321AL}.name",
       "source": "勾配道路B/三車線/白破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1322AL}.name",
       "source": "勾配道路B/三車線/白破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1323AL}.name",
       "source": "勾配道路B/三車線/白破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1331AL}.name",
       "source": "勾配道路B/三車線/白破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1332AL}.name",
       "source": "勾配道路B/三車線/白破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1333AL}.name",
       "source": "勾配道路B/三車線/白破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1334AL}.name",
       "source": "勾配道路B/三車線/白破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1301BL}.name",
       "source": "勾配道路B/三車線/白実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1302BL}.name",
       "source": "勾配道路B/三車線/白実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1303BL}.name",
       "source": "勾配道路B/三車線/白実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1311BL}.name",
       "source": "勾配道路B/三車線/白実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1312BL}.name",
       "source": "勾配道路B/三車線/白実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1313BL}.name",
       "source": "勾配道路B/三車線/白実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1321BL}.name",
       "source": "勾配道路B/三車線/白実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1322BL}.name",
       "source": "勾配道路B/三車線/白実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1323BL}.name",
       "source": "勾配道路B/三車線/白実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1331BL}.name",
       "source": "勾配道路B/三車線/白実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1332BL}.name",
       "source": "勾配道路B/三車線/白実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1333BL}.name",
       "source": "勾配道路B/三車線/白実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1334BL}.name",
       "source": "勾配道路B/三車線/白実街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1301CL}.name",
       "source": "勾配道路B/三車線/白実破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid-Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1302CL}.name",
       "source": "勾配道路B/三車線/白実破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid-Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1303CL}.name",
       "source": "勾配道路B/三車線/白実破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid-Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1311CL}.name",
       "source": "勾配道路B/三車線/白実破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid-Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1312CL}.name",
       "source": "勾配道路B/三車線/白実破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid-Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1313CL}.name",
       "source": "勾配道路B/三車線/白実破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid-Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1321CL}.name",
       "source": "勾配道路B/三車線/白実破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid-Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1322CL}.name",
       "source": "勾配道路B/三車線/白実破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid-Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1323CL}.name",
       "source": "勾配道路B/三車線/白実破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid-Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1331CL}.name",
       "source": "勾配道路B/三車線/白実破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid-Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1332CL}.name",
       "source": "勾配道路B/三車線/白実破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid-Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1333CL}.name",
       "source": "勾配道路B/三車線/白実破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid-Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1334CL}.name",
       "source": "勾配道路B/三車線/白実破街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three-lane / White Solid-Dashed Line with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1301DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1302DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1303DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1304DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1305DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1306DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1307DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1308DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1309DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1310DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1311DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1312DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1331DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1332DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1333DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1334DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1335DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1336DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1337DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1338DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1339DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1340DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1341DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1342DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1343DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1344DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1345DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1346DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1347DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1348DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1349DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1350DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1351DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1352DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1353DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1354DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1355DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1356DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1357DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1358DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1359DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1360DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1361DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-SRB-S1362DL}.name",
       "source": "勾配道路B/三車線/分合流街灯付",
-      "translation": ""
+      "translation": "Sloped Road B / Three Lanes / Merge/Diverge with Streetlights"
     },
     {
       "key": "contribution.{HEUER-1001-SR-STRUCTURE-2101B}.name",
       "source": "勾配道路(高速)一車線道路用",
-      "translation": ""
+      "translation": "Sloped Road (Highway) for Single Lane Road"
     },
     {
       "key": "contribution.{HEUER-1001-SR-STRUCTURE-2101A}.name",
       "source": "勾配道路(高速)一車線道路用",
-      "translation": ""
+      "translation": "Sloped Road (Highway) for Single Lane Road"
     },
     {
       "key": "contribution.{HEUER-1001-SR-STRUCTURE-2102B}.name",
       "source": "勾配道路(高速)一車線道路用",
-      "translation": ""
+      "translation": "Sloped Road (Highway) for Single Lane Road"
     },
     {
       "key": "contribution.{HEUER-1001-SR-STRUCTURE-2102A}.name",
       "source": "勾配道路(高速)一車線道路用",
-      "translation": ""
+      "translation": "Sloped Road (Highway) for Single Lane Road"
     },
     {
       "key": "contribution.{HEUER-1001-SR-STRUCTURE-2202B}.name",
       "source": "勾配道路(高速)二車線道路用",
-      "translation": ""
+      "translation": "Sloped road (expressway) for two-lane roads"
     },
     {
       "key": "contribution.{HEUER-1001-SR-STRUCTURE-2202A}.name",
       "source": "勾配道路(高速)二車線道路用",
-      "translation": ""
+      "translation": "Sloped road (expressway) for two-lane roads"
     },
     {
       "key": "contribution.{HEUER-1001-SR-STRUCTURE-2201B}.name",
       "source": "勾配道路(高速)二車線道路用",
-      "translation": ""
+      "translation": "Sloped road (expressway) for two-lane roads"
     },
     {
       "key": "contribution.{HEUER-1001-SR-STRUCTURE-2201A}.name",
       "source": "勾配道路(高速)二車線道路用",
-      "translation": ""
+      "translation": "Sloped road (expressway) for two-lane roads"
     },
     {
       "key": "contribution.{HEUER-1001-SR-STRUCTURE-2203}.name",
       "source": "勾配道路(高速)二車線道路用",
-      "translation": ""
+      "translation": "Sloped road (expressway) for two-lane roads"
     },
     {
       "key": "contribution.{HEUER-1001-SR-STRUCTURE-2204B}.name",
       "source": "勾配道路(高速)二車線道路用",
-      "translation": ""
+      "translation": "Sloped road (expressway) for two-lane roads"
     },
     {
       "key": "contribution.{HEUER-1001-SR-STRUCTURE-2204A}.name",
       "source": "勾配道路(高速)二車線道路用",
-      "translation": ""
+      "translation": "Sloped road (expressway) for two-lane roads"
     },
     {
       "key": "contribution.{HEUER-1001-SR-STRUCTURE-2205B}.name",
       "source": "勾配道路(高速)二車線道路用",
-      "translation": ""
+      "translation": "Sloped road (expressway) for two-lane roads"
     },
     {
       "key": "contribution.{HEUER-1001-SR-STRUCTURE-2205A}.name",
       "source": "勾配道路(高速)二車線道路用",
-      "translation": ""
+      "translation": "Sloped road (expressway) for two-lane roads"
     },
     {
       "key": "contribution.{HEUER-1001-SR-STRUCTURE-2301A}.name",
       "source": "勾配道路(高速)三車線道路用",
-      "translation": ""
+      "translation": "Sloped road (expressway) for three-lane road"
     },
     {
       "key": "contribution.{HEUER-1001-SR-STRUCTURE-2301B}.name",
       "source": "勾配道路(高速)三車線道路用",
-      "translation": ""
+      "translation": "Sloped road (expressway) for three-lane road"
     },
     {
       "key": "contribution.{HEUER-1002-TG-STRUCTURE-1001A}.name",
       "source": "料金所",
-      "translation": ""
+      "translation": "Toll Booth"
     },
     {
       "key": "contribution.{HEUER-1002-TG-STRUCTURE-1001B}.name",
       "source": "料金所",
-      "translation": ""
+      "translation": "Toll Booth"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1101}.name",
       "source": "信号(右奥表)",
-      "translation": ""
+      "translation": "Signal (rear right, front side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1102}.name",
       "source": "信号(右奥裏)",
-      "translation": ""
+      "translation": "Signal (rear right, back side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1103}.name",
       "source": "信号(右前表)",
-      "translation": ""
+      "translation": "Signal (front right, front side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1104}.name",
       "source": "信号(右前裏)",
-      "translation": ""
+      "translation": "Signal (front right, back side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1105}.name",
       "source": "信号(右中表)",
-      "translation": ""
+      "translation": "Signal (middle right, front side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1106}.name",
       "source": "信号(右中裏)",
-      "translation": ""
+      "translation": "Signal (middle right, back side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1107}.name",
       "source": "信号(左奥表)",
-      "translation": ""
+      "translation": "Signal (rear left, front side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1108}.name",
       "source": "信号(左奥裏)",
-      "translation": ""
+      "translation": "Signal (rear left, back side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1109}.name",
       "source": "信号(左前表)",
-      "translation": ""
+      "translation": "Signal (front left, front side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1110}.name",
       "source": "信号(左前裏)",
-      "translation": ""
+      "translation": "Signal (front left, back side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1111}.name",
       "source": "信号(左中表)",
-      "translation": ""
+      "translation": "Signal (middle left, front side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1112}.name",
       "source": "信号(左中裏)",
-      "translation": ""
+      "translation": "Signal (middle left, back side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1121}.name",
       "source": "信号(中右奥表)",
-      "translation": ""
+      "translation": "Signal (center right, rear, front side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1122}.name",
       "source": "信号(中右奥裏)",
-      "translation": ""
+      "translation": "Signal (center right, rear, back side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1123}.name",
       "source": "信号(中右前表)",
-      "translation": ""
+      "translation": "Signal (center right, front, front side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1124}.name",
       "source": "信号(中右前裏)",
-      "translation": ""
+      "translation": "Signal (center right, front, back side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1125}.name",
       "source": "信号(中右中表)",
-      "translation": ""
+      "translation": "Signal (center right, middle, front side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1126}.name",
       "source": "信号(中右中裏)",
-      "translation": ""
+      "translation": "Signal (center right, middle, back side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1127}.name",
       "source": "信号(中左奥表)",
-      "translation": ""
+      "translation": "Signal (center left, rear, front side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1128}.name",
       "source": "信号(中左奥裏)",
-      "translation": ""
+      "translation": "Signal (center left, rear, back side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1129}.name",
       "source": "信号(中左前表)",
-      "translation": ""
+      "translation": "Signal (center left, front, front side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1130}.name",
       "source": "信号(中左前裏)",
-      "translation": ""
+      "translation": "Signal (center left, front, back side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1131}.name",
       "source": "信号(中左中表)",
-      "translation": ""
+      "translation": "Signal (center left, middle, front side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1132}.name",
       "source": "信号(中左中裏)",
-      "translation": ""
+      "translation": "Signal (center left, middle, back side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1201}.name",
       "source": "信号茶(右奥表)",
-      "translation": ""
+      "translation": "Brown Signal (rear right, front side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1202}.name",
       "source": "信号茶(右奥裏)",
-      "translation": ""
+      "translation": "Brown Signal (rear right, back side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1203}.name",
       "source": "信号茶(右前表)",
-      "translation": ""
+      "translation": "Brown Signal (front right, front side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1204}.name",
       "source": "信号茶(右前裏)",
-      "translation": ""
+      "translation": "Brown Signal (front right, back side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1205}.name",
       "source": "信号茶(右中表)",
-      "translation": ""
+      "translation": "Brown Signal (middle right, front side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1206}.name",
       "source": "信号茶(右中裏)",
-      "translation": ""
+      "translation": "Brown Signal (middle right, back side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1207}.name",
       "source": "信号茶(左奥表)",
-      "translation": ""
+      "translation": "Brown Signal (rear left, front side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1208}.name",
       "source": "信号茶(左奥裏)",
-      "translation": ""
+      "translation": "Brown Signal (rear left, back side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1209}.name",
       "source": "信号茶(左前表)",
-      "translation": ""
+      "translation": "Brown Signal (front left, front side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1210}.name",
       "source": "信号茶(左前裏)",
-      "translation": ""
+      "translation": "Brown Signal (front left, back side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1211}.name",
       "source": "信号茶(左中表)",
-      "translation": ""
+      "translation": "Brown Signal (middle left, front side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1212}.name",
       "source": "信号茶(左中裏)",
-      "translation": ""
+      "translation": "Brown Signal (middle left, back side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1221}.name",
       "source": "信号茶(中右奥表)",
-      "translation": ""
+      "translation": "Brown Signal (center right, rear, front side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1222}.name",
       "source": "信号茶(中右奥裏)",
-      "translation": ""
+      "translation": "Brown Signal (center right, rear, back side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1223}.name",
       "source": "信号茶(中右前表)",
-      "translation": ""
+      "translation": "Brown Signal (center right, front, front side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1224}.name",
       "source": "信号茶(中右前裏)",
-      "translation": ""
+      "translation": "Brown Signal (center right, front, back side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1225}.name",
       "source": "信号茶(中右中表)",
-      "translation": ""
+      "translation": "Brown Signal (center right, middle, front side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1226}.name",
       "source": "信号茶(中右中裏)",
-      "translation": ""
+      "translation": "Brown Signal (center right, middle, back side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1227}.name",
       "source": "信号茶(中左奥表)",
-      "translation": ""
+      "translation": "Brown Signal (center left, rear, front side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1228}.name",
       "source": "信号茶(中左奥裏)",
-      "translation": ""
+      "translation": "Brown Signal (center left, rear, back side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1229}.name",
       "source": "信号茶(中左前表)",
-      "translation": ""
+      "translation": "Brown Signal (center left, front, front side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1230}.name",
       "source": "信号茶(中左前裏)",
-      "translation": ""
+      "translation": "Brown Signal (center left, front, back side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1231}.name",
       "source": "信号茶(中左中表)",
-      "translation": ""
+      "translation": "Brown Signal (center left, middle, front side)"
     },
     {
       "key": "contribution.{HEUER-1001-SN-RA-1232}.name",
       "source": "信号茶(中左中裏)",
-      "translation": ""
+      "translation": "Brown Signal (center left, middle, back side)"
     },
     {
       "key": "contribution.{HEUER-1001-DS-RA-1201}.name",
       "source": "停止禁止部分",
-      "translation": ""
+      "translation": "No Stopping Zone"
     },
     {
       "key": "contribution.{HEUER-1001-CW-RA-1201}.name",
       "source": "横断歩道(奥中)",
-      "translation": ""
+      "translation": "Crosswalk (back center)"
     },
     {
       "key": "contribution.{HEUER-1001-CW-RA-1202}.name",
       "source": "横断歩道(前中)",
-      "translation": ""
+      "translation": "Crosswalk (front center)"
     },
     {
       "key": "contribution.{HEUER-1001-CW-RA-1203}.name",
       "source": "横断歩道(奥右)",
-      "translation": ""
+      "translation": "Crosswalk (back right)"
     },
     {
       "key": "contribution.{HEUER-1001-CW-RA-1204}.name",
       "source": "横断歩道(奥左)",
-      "translation": ""
+      "translation": "Crosswalk (back left)"
     },
     {
       "key": "contribution.{HEUER-1001-CW-RA-1205}.name",
       "source": "横断歩道(前右)",
-      "translation": ""
+      "translation": "Crosswalk (front right)"
     },
     {
       "key": "contribution.{HEUER-1001-CW-RA-1206}.name",
       "source": "横断歩道(前左)",
-      "translation": ""
+      "translation": "Crosswalk (front left)"
     },
     {
       "key": "contribution.{HEUER-1001-CW-RA-1207}.name",
       "source": "横断歩道(奥)",
-      "translation": ""
+      "translation": "Crosswalk (back)"
     },
     {
       "key": "contribution.{HEUER-1001-CW-RA-1208}.name",
       "source": "横断歩道(前)",
-      "translation": ""
+      "translation": "Crosswalk (front)"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1001}.name",
       "source": "事故処理車(前)",
-      "translation": ""
+      "translation": "Accident Response Vehicle (Front)"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1002}.name",
       "source": "事故処理車(後)",
-      "translation": ""
+      "translation": "Accident Response Vehicle (Rear)"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1003}.name",
       "source": "パトカー(前)",
-      "translation": ""
+      "translation": "Police car (front)"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1004}.name",
       "source": "パトカー(後)",
-      "translation": ""
+      "translation": "Police car (rear)"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1005}.name",
       "source": "ミニパトカー(前)",
-      "translation": ""
+      "translation": "Mini Patrol Car (Front)"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1006}.name",
       "source": "ミニパトカー(後)",
-      "translation": ""
+      "translation": "Mini Patrol Car (Rear)"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1007}.name",
       "source": "機動隊バス(前)",
-      "translation": ""
+      "translation": "Riot Police Bus (front)"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1008}.name",
       "source": "機動隊バス(後)",
-      "translation": ""
+      "translation": "Riot Police Bus (rear)"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1011}.name",
       "source": "事故処理車(前)*",
-      "translation": ""
+      "translation": "Accident Response Vehicle (Front)*"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1012}.name",
       "source": "事故処理車(後)*",
-      "translation": ""
+      "translation": "Accident Response Vehicle (Rear)*"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1013}.name",
       "source": "パトカー(前)*",
-      "translation": ""
+      "translation": "Police car (front)*"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1014}.name",
       "source": "パトカー(後)*",
-      "translation": ""
+      "translation": "Police car (rear)*"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1015}.name",
       "source": "ミニパトカー(前)*",
-      "translation": ""
+      "translation": "Mini Patrol Car (Front)*"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1016}.name",
       "source": "ミニパトカー(後)*",
-      "translation": ""
+      "translation": "Mini Patrol Car (Rear)*"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1017}.name",
       "source": "機動隊バス(前)*",
-      "translation": ""
+      "translation": "Riot Police Bus (front)*"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1018}.name",
       "source": "機動隊バス(後)*",
-      "translation": ""
+      "translation": "Riot Police Bus (rear)*"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1101}.name",
       "source": "救急車(前)",
-      "translation": ""
+      "translation": "Ambulance (front)"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1102}.name",
       "source": "救急車(後)",
-      "translation": ""
+      "translation": "Ambulance (rear)"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1103}.name",
       "source": "消防指揮車(前)",
-      "translation": ""
+      "translation": "Fire command vehicle (front)"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1104}.name",
       "source": "消防指揮車(後)",
-      "translation": ""
+      "translation": "Fire command vehicle (rear)"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1105}.name",
       "source": "はしご車(前)",
-      "translation": ""
+      "translation": "Ladder truck (front)"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1106}.name",
       "source": "はしご車(後)",
-      "translation": ""
+      "translation": "Ladder truck (rear)"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1107}.name",
       "source": "ポンプ車(前)",
-      "translation": ""
+      "translation": "Pumper Truck (Front)"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1108}.name",
       "source": "ポンプ車(後)",
-      "translation": ""
+      "translation": "Pumper Truck (Rear)"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1111}.name",
       "source": "救急車(前)*",
-      "translation": ""
+      "translation": "Ambulance (front)*"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1112}.name",
       "source": "救急車(後)*",
-      "translation": ""
+      "translation": "Ambulance (rear)*"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1113}.name",
       "source": "消防指揮車(前)*",
-      "translation": ""
+      "translation": "Fire command vehicle (front)*"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1114}.name",
       "source": "消防指揮車(後)*",
-      "translation": ""
+      "translation": "Fire command vehicle (rear)*"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1115}.name",
       "source": "はしご車(前)*",
-      "translation": ""
+      "translation": "Ladder truck (front)*"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1116}.name",
       "source": "はしご車(後)*",
-      "translation": ""
+      "translation": "Ladder truck (rear)*"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1117}.name",
       "source": "ポンプ車(前)*",
-      "translation": ""
+      "translation": "Pumper Truck (Front)*"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1118}.name",
       "source": "ポンプ車(後)*",
-      "translation": ""
+      "translation": "Pumper Truck (Rear)*"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1201}.name",
       "source": "ダンプカー[空](前)",
-      "translation": ""
+      "translation": "Dump truck [empty] (front)"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1202}.name",
       "source": "ダンプカー[空](後)",
-      "translation": ""
+      "translation": "Dump truck [empty] (rear)"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1211}.name",
       "source": "ダンプカー[空](前)*",
-      "translation": ""
+      "translation": "Dump truck [empty] (front)*"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1212}.name",
       "source": "ダンプカー[空](後)*",
-      "translation": ""
+      "translation": "Dump truck [empty] (rear)*"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1203}.name",
       "source": "ダンプカー[積](前)",
-      "translation": ""
+      "translation": "Dump truck [loaded] (front)"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1204}.name",
       "source": "ダンプカー[積](後)",
-      "translation": ""
+      "translation": "Dump truck [loaded] (rear)"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1213}.name",
       "source": "ダンプカー[積](前)*",
-      "translation": ""
+      "translation": "Dump truck [loaded] (front)*"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1214}.name",
       "source": "ダンプカー[積](後)*",
-      "translation": ""
+      "translation": "Dump truck [loaded] (rear)*"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1205}.name",
       "source": "ショベルカー(前)",
-      "translation": ""
+      "translation": "Excavator (front)"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1206}.name",
       "source": "ショベルカー(後)",
-      "translation": ""
+      "translation": "Excavator (rear)"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1215}.name",
       "source": "ショベルカー(前)*",
-      "translation": ""
+      "translation": "Excavator (front)*"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1216}.name",
       "source": "ショベルカー(後)*",
-      "translation": ""
+      "translation": "Excavator (rear)*"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1207}.name",
       "source": "ブルドーザー(前)",
-      "translation": ""
+      "translation": "Bulldozer (front)"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1208}.name",
       "source": "ブルドーザー(後)",
-      "translation": ""
+      "translation": "Bulldozer (rear)"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1217}.name",
       "source": "ブルドーザー(前)*",
-      "translation": ""
+      "translation": "Bulldozer (front)*"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1218}.name",
       "source": "ブルドーザー(後)*",
-      "translation": ""
+      "translation": "Bulldozer (rear)*"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1221}.name",
       "source": "クレーン車(前)",
-      "translation": ""
+      "translation": "Crane truck (front)"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1222}.name",
       "source": "クレーン車(後)",
-      "translation": ""
+      "translation": "Crane truck (rear)"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1231}.name",
       "source": "クレーン車(前)*",
-      "translation": ""
+      "translation": "Crane truck (front)*"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1232}.name",
       "source": "クレーン車(後)*",
-      "translation": ""
+      "translation": "Crane truck (rear)*"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1223}.name",
       "source": "クレーン車[伸](前)",
-      "translation": ""
+      "translation": "Crane truck [extended] (front)"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1224}.name",
       "source": "クレーン車[伸](後)",
-      "translation": ""
+      "translation": "Crane truck [extended] (rear)"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1233}.name",
       "source": "クレーン車[伸](前)*",
-      "translation": ""
+      "translation": "Crane truck [extended] (front)*"
     },
     {
       "key": "contribution.{HEUER-1001-CAR-STRUCTURE-1234}.name",
       "source": "クレーン車[伸](後)*",
-      "translation": ""
+      "translation": "Crane truck [extended] (rear)*"
     }
   ]
 }

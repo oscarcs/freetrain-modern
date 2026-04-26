@@ -6,202 +6,202 @@
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-DCH183-H}.name",
       "source": "HET183 北斗",
-      "translation": ""
+      "translation": "HET183 Hokuto"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-DCH183-H}.company",
       "source": "JR北海道",
-      "translation": ""
+      "translation": "JR Hokkaido"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-DCH183-H}.type",
       "source": "キハ183系",
-      "translation": ""
+      "translation": "KiHa 183 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-DCH183-H}.description",
       "source": "「スーパー北斗」の登場に併せて、従来からの「北斗」も大幅なリニューアルが施されました。\n車輌そのものは130km/hの高速運転が可能なように機器類の改造が行われ、室内インテリアも「スーパー北斗」に準じたものになっています。\nグリーン車は２+１配列ハイデッカー車両を併結。",
-      "translation": ""
+      "translation": "With the introduction of the 'Super Hokuto', the conventional 'Hokuto' also underwent significant renewal. The vehicles themselves were modified with equipment for high-speed operation at 130 km/h, and the interior design was made to conform to that of the 'Super Hokuto'. Green Cars are coupled with 2+1 seating high-decker vehicles."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-DCQ185-Q}.name",
       "source": "特急「あそ｣「ゆふ」",
-      "translation": ""
+      "translation": "Limited Express \"Aso\", \"Yufu\""
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-DCQ185-Q}.company",
       "source": "JR九州",
-      "translation": ""
+      "translation": "JR Kyushu"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-DCQ185-Q}.type",
       "source": "キハ185系",
-      "translation": ""
+      "translation": "KiHa 185 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-DCQ185-Q}.description",
       "source": "国鉄末期に四国島内向けの新性能気動車として投入されたが、ＪＲ四国発足以後に後継の特急車が\n誕生した事で余剰となり、一方で自社内での急行格上げによる特急設定の為、気動車を必要としたＪＲ九州が四国から購入してコーポトレートカラーに\n塗り替えて投入した。当初あそ・ゆふともに独自の塗装をしていたが、車両の共通化により共用の塗装に変った。",
-      "translation": ""
+      "translation": "Introduced in the late JNR era as a new-performance diesel railcar for Shikoku. It became surplus after JR Shikoku's establishment due to the introduction of successor limited express trains. Meanwhile, JR Kyushu, needing diesel railcars for its own limited express services (upgraded from express), purchased them from Shikoku and introduced them in its corporate colors. Initially, both Aso and Yufu had their own liveries, but they were changed to a common livery for vehicle standardization."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-DCS1000-S}.name",
       "source": "一般形気動車",
-      "translation": ""
+      "translation": "General-Purpose Diesel Railcar"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-DCS1000-S}.company",
       "source": "JR四国",
-      "translation": ""
+      "translation": "JR Shikoku"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-DCS1000-S}.type",
       "source": "1000形",
-      "translation": ""
+      "translation": "1000 series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-DCS1000-S}.description",
       "source": "車内は7000形電車と同様の、車両の片側がロングシート、反対側がクロスシートとなっている「千鳥配置」。\n車両の中央部に両開きの扉があるが、ワンマン運転の時には締め切り、前後の片開き扉からの乗り降りとなる。\n軽快タイプの３扉大型車で400PSエンジンを搭載。徳島・高知方面で活躍。",
-      "translation": ""
+      "translation": "The interior features 'staggered seating' similar to the 7000 Series electric train, with long seats on one side and cross seats on the other. There are double doors in the center of the car, but they are closed during one-man operation, with boarding and alighting from the single doors at the front and rear. A lightweight 3-door large car equipped with a 400PS engine. Active in the Tokushima and Kōchi areas."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW221}.name",
       "source": "汎用形近郊電車",
-      "translation": ""
+      "translation": "General-Purpose Suburban Electric Train"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW221}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW221}.type",
       "source": "221系",
-      "translation": ""
+      "translation": "221 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW221}.description",
       "source": "新快速用117系の置換え、及び老朽化した113系の置換え用として製造された。\n制御方式は211系に準じた添加励磁制御で、2両、4両、6両、8両のどの編成でもMT比を1:1とするためユニット方式車と1M車がある。\n車体は鋼製で３扉転換クロスシートである。\n投入当初は東海道・山陽線新快速、関西線に投入されたが、新快速の130km/h化に伴い新快速からは撤退し、東海道・山陽快速、関西線、奈良線、福知山線など近畿圏で広く使われている。",
-      "translation": ""
+      "translation": "Manufactured to replace the 117 series for New Rapid service and the aging 113 series. The control system is additive excitation control, similar to the 211 series, and includes both unit-type cars and 1M cars to maintain a 1:1 MT ratio in any 2-car, 4-car, 6-car, or 8-car formation. The body is steel with three doors and convertible cross-seats. Initially introduced on the Tokaido/Sanyo Line New Rapid and Kansai Line, it was withdrawn from New Rapid service due to the speed increase to 130 km/h, and is now widely used in the Kinki region on Tokaido/Sanyo Rapid, Kansai Line, Nara Line, Fukuchiyama Line, etc."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECC313}.name",
       "source": "汎用形近郊電車",
-      "translation": ""
+      "translation": "General-Purpose Suburban Electric Train"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECC313}.company",
       "source": "JR東海",
-      "translation": ""
+      "translation": "JR Central"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECC313}.type",
       "source": "313系",
-      "translation": ""
+      "translation": "313 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECC313}.description",
       "source": "1999年から合計187両が製造されたＪＲ東海の次世代一般型車両です。\n通勤形からローカル形まで外観など共通化を図っています。\nVVVFインバータ制御による185kW大出力モーターで最高運転速度は120km/h（130km/h対応工事準備）、起動加速度2.6km/h/sという高性能を誇ります。\n車椅子対応座席や車椅子対応トイレなどのバリアフリー設計は共通しています。\nまた一方で古タイヤリサイクル床材やポリウレタン座席など低コスト化や低騒音化も図っています。\nドア開閉チャイムや電光表示もあります。2両編成、3両編成、4両編成とバラエティーに富んだ編成になっている。",
-      "translation": ""
+      "translation": "JR Central's next-generation general-purpose vehicles, with a total of 187 cars manufactured from 1999. They feature a common exterior design for both commuter and local types. They boast high performance with 185kW high-output motors controlled by VVVF inverters, a maximum operating speed of 120 km/h (with preparations for 130 km/h operation), and an acceleration of 2.6 km/h/s. Barrier-free designs, such as wheelchair-accessible seats and toilets, are common. Meanwhile, efforts have also been made to reduce costs and noise, using recycled tire flooring and polyurethane seats. Door opening/closing chimes and electronic displays are also included. They come in a variety of formations: 2-car, 3-car, and 4-car."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW223_2000}.name",
       "source": "2000番台近郊電車",
-      "translation": ""
+      "translation": "2000 series suburban train"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW223_2000}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW223_2000}.type",
       "source": "223系",
-      "translation": ""
+      "translation": "223 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECW223_2000}.description",
       "source": "阪神大震災後のＪＲの早期復興で他鉄道からの旅客の流入による乗客増に備えて新快速などが増発される事となり、223系1000番台が新製された。\n続いて増備された2000･3000番台では、さらにコストを抑え、必要最小限の機器構成となっている。 \nまた，座席の簡素化および日除けカーテンの廃止なども実施されている。\n新快速の高速化により130km/ｈ対応可能の性能になった。",
-      "translation": ""
+      "translation": "In preparation for increased passengers due to an influx from other railways during JR's rapid recovery after the Great Hanshin Earthquake, Special Rapid services were increased, and the 223 Series 1000 sub-series was newly manufactured. The subsequent 2000 and 3000 sub-series further reduced costs and featured a minimal equipment configuration. Additionally, seat simplification and the abolition of sunshade curtains were implemented. With the increased speed of the Special Rapid, it achieved performance capable of 130 km/h."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-DCE110_300A}.name",
       "source": "300番台秋田ﾘﾚｰ号",
-      "translation": ""
+      "translation": "300 series Akita Relay"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-DCE110_300A}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-DCE110_300A}.type",
       "source": "キハ111･112系",
-      "translation": ""
+      "translation": "Kiha 111/112 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-DCE110_300A}.description",
       "source": "特急秋田リレー号は新鋭キハ110型気動車を使用した列車で、特急たざわ号のピンチヒッターとして北上線経由で秋田駅から東北新幹線の北上駅までを結んでいた。\n役目を終えたリレー号の気動車であるが廃車されるようなことはなく、車体は飯山線に、内装の転換クロスシートは東海道線の２階建てグリーン車などへの転用された。",
-      "translation": ""
+      "translation": "The Limited Express Akita Relay was a train using the new Kiha 110 Series diesel railcars, connecting Akita Station to Kitakami Station on the Tohoku Shinkansen via the Kitakami Line, serving as a substitute for the Limited Express Tazawako. Although the Relay's diesel railcars completed their service, they were not scrapped; their bodies were transferred to the Iiyama Line, and their convertible cross-seats were repurposed for double-decker Green Cars on the Tokaido Line, among others."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECC373-C}.name",
       "source": "ワイドビュー特急電車",
-      "translation": ""
+      "translation": "Wide View Limited Express Electric Train"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECC373-C}.company",
       "source": "JR東海",
-      "translation": ""
+      "translation": "JR Central"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECC373-C}.type",
       "source": "373系",
-      "translation": ""
+      "translation": "373 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-ECC373-C}.description",
       "source": "急行東海・富士川の特急化に際して新造された直流用特急車輌。\n普通列車に転用できるようにドアは両開き・大型となっていて、デッキと客室を区切る扉はない。\nまた車体は軽量ステンレス製とし、動力車を３両中１両としていることも特徴として挙げられる。\n現在は特急「東海」「富士川」「伊那路」の他、東京ー大垣間を結ぶ夜行快速「ムーンライトながら」、さらには間合い運用で「セントラルライナー」にも投入されている。",
-      "translation": ""
+      "translation": "DC limited express rolling stock newly built when the Express Tokai and Fujikawa were upgraded to limited express services. The doors are wide double-sliding to allow for conversion to local trains, and there are no doors separating the deck from the passenger compartment. Other features include a lightweight stainless steel body and one motor car out of three. Currently, in addition to the Limited Express \"Tokai,\" \"Fujikawa,\" and \"Inaji,\" it is also used for the overnight rapid \"Moonlight Nagara\" connecting Tokyo and Ogaki, and even for \"Central Liner\" services during off-peak hours."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-DCE110-E}.name",
       "source": "汎用型気動車",
-      "translation": ""
+      "translation": "General-purpose diesel railcar"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-DCE110-E}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-DCE110-E}.type",
       "source": "キハ110系",
-      "translation": ""
+      "translation": "KiHa 110 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-DCE110-E}.description",
       "source": "ローカル線のサービス改善を図るため、ＪＲ東日本が開発した気動車。\n車体の長さ、両運転台または片運転台などで多彩な車両があり、路線条件に応じて使われている。\n1両または、2両編成となっていて、これらを組み合わせて、3～6両で運転できる様になっている。\nキハ100、110系は電車並みの加速性能を持っているため、ローカル線のスピードアップに大きく寄与したほか、釜石線で走行している車両はリクライニングシート、飯山線の車両は展望式の座席配置となっているなど、様々なバリエーションがある。",
-      "translation": ""
+      "translation": "Diesel railcars developed by JR East to improve services on local lines. There are various types of vehicles with different body lengths, single or double cabs, used according to route conditions. They are formed into 1-car or 2-car sets, which can be combined to operate in 3- to 6-car formations. The KiHa 100 and 110 series have acceleration performance comparable to electric trains, greatly contributing to speeding up local lines. Additionally, there are various variations, such as vehicles running on the Kamaishi Line equipped with reclining seats, and Iiyama Line vehicles featuring observation-style seating."
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-DCE110_200E}.name",
       "source": "汎用型気動車",
-      "translation": ""
+      "translation": "General-purpose diesel railcar"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-DCE110_200E}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-DCE110_200E}.type",
       "source": "キハ111･112系",
-      "translation": ""
+      "translation": "Kiha 111/112 Series"
     },
     {
       "key": "contribution.{AD070310-7653-11D7-A4B7-DCE110_200E}.description",
       "source": "ローカル線のサービス改善を図るため、ＪＲ東日本が開発した気動車。\n車体の長さ、両運転台または片運転台などで多彩な車両があり、路線条件に応じて使われている。\n1両または、2両編成となっていて、これらを組み合わせて、3～6両で運転できる様になっている。\nキハ100、110系は電車並みの加速性能を持っているため、ローカル線のスピードアップに大きく寄与したほか、釜石線で走行している車両はリクライニングシート、飯山線の車両は展望式の座席配置となっているなど、様々なバリエーションがある。",
-      "translation": ""
+      "translation": "Diesel railcars developed by JR East to improve services on local lines. There are various types of vehicles with different body lengths, single or double cabs, used according to route conditions. They are formed into 1-car or 2-car sets, which can be combined to operate in 3- to 6-car formations. The KiHa 100 and 110 series have acceleration performance comparable to electric trains, greatly contributing to speeding up local lines. Additionally, there are various variations, such as vehicles running on the Kamaishi Line equipped with reclining seats, and Iiyama Line vehicles featuring observation-style seating."
     }
   ]
 }

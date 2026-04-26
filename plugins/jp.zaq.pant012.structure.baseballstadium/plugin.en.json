@@ -6,17 +6,17 @@
     {
       "key": "plugin.title",
       "source": "野球場",
-      "translation": ""
+      "translation": "Baseball stadium"
     },
     {
       "key": "contribution.{hanshin-yuusyou-mezasite-gangare}.group",
       "source": "野球場",
-      "translation": ""
+      "translation": "Baseball stadium"
     },
     {
       "key": "contribution.{nekoneko-nyanyanya-ground-overridtest}.name",
       "source": "多目的グラウンド",
-      "translation": ""
+      "translation": "Multi-purpose ground"
     }
   ]
 }

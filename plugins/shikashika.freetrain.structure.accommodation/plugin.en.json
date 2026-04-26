@@ -6,247 +6,247 @@
     {
       "key": "plugin.title",
       "source": "建物(宿泊)",
-      "translation": ""
+      "translation": "Building (Accommodation)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-camp-tent1-001}.name",
       "source": "キャンプ場(1x1)",
-      "translation": ""
+      "translation": "Campsite (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-camp-tent1-001}.group",
       "source": "宿泊",
-      "translation": ""
+      "translation": "Accommodation"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-camp-tent2-001}.name",
       "source": "キャンプ場(1x1)",
-      "translation": ""
+      "translation": "Campsite (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-camp-tent2-001}.group",
       "source": "宿泊",
-      "translation": ""
+      "translation": "Accommodation"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-camp-bungalow-001}.name",
       "source": "キャンプ場(1x1)",
-      "translation": ""
+      "translation": "Campsite (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-camp-bungalow-001}.group",
       "source": "宿泊",
-      "translation": ""
+      "translation": "Accommodation"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-camp-cabin-001}.name",
       "source": "キャンプ場(1x1)",
-      "translation": ""
+      "translation": "Campsite (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-camp-cabin-001}.group",
       "source": "宿泊",
-      "translation": ""
+      "translation": "Accommodation"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-camp-publicbathhouse-002}.name",
       "source": "キャンプ場(1x1)",
-      "translation": ""
+      "translation": "Campsite (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-camp-publicbathhouse-002}.group",
       "source": "宿泊",
-      "translation": ""
+      "translation": "Accommodation"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-camp-cookhouse-002}.name",
       "source": "キャンプ場(1x1)",
-      "translation": ""
+      "translation": "Campsite (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-camp-cookhouse-002}.group",
       "source": "宿泊",
-      "translation": ""
+      "translation": "Accommodation"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-camp-campfire-002}.name",
       "source": "キャンプ場(1x1)",
-      "translation": ""
+      "translation": "Campsite (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-camp-campfire-002}.group",
       "source": "宿泊",
-      "translation": ""
+      "translation": "Accommodation"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-camp-informationoffice-002}.name",
       "source": "キャンプ場(1x1)",
-      "translation": ""
+      "translation": "Campsite (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-camp-informationoffice-002}.group",
       "source": "宿泊",
-      "translation": ""
+      "translation": "Accommodation"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-camp-firtree-003}.name",
       "source": "キャンプ場(1x1)",
-      "translation": ""
+      "translation": "Campsite (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-camp-firtree-003}.group",
       "source": "宿泊",
-      "translation": ""
+      "translation": "Accommodation"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-camp-pond-003}.name",
       "source": "キャンプ場(1x1)",
-      "translation": ""
+      "translation": "Campsite (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-camp-pond-003}.group",
       "source": "宿泊",
-      "translation": ""
+      "translation": "Accommodation"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-structure-hotel-ryokan-001-a}.name",
       "source": "旅館(1x1)",
-      "translation": ""
+      "translation": "Ryokan (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-structure-hotel-ryokan-001-a}.group",
       "source": "宿泊",
-      "translation": ""
+      "translation": "Accommodation"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-structure-hotel-ryokan-001-b}.name",
       "source": "旅館(1x1)",
-      "translation": ""
+      "translation": "Ryokan (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-structure-hotel-ryokan-001-b}.group",
       "source": "宿泊",
-      "translation": ""
+      "translation": "Accommodation"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-structure-hotel-ryokan-001-c}.name",
       "source": "旅館(1x1)",
-      "translation": ""
+      "translation": "Ryokan (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-structure-hotel-ryokan-001-c}.group",
       "source": "宿泊",
-      "translation": ""
+      "translation": "Accommodation"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-structure-hotel-ryokan-001-d}.name",
       "source": "旅館(1x1)",
-      "translation": ""
+      "translation": "Ryokan (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-structure-hotel-ryokan-001-d}.group",
       "source": "宿泊",
-      "translation": ""
+      "translation": "Accommodation"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-structure-hotel-ryokan-002-a}.name",
       "source": "旅館(1x1)",
-      "translation": ""
+      "translation": "Ryokan (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-structure-hotel-ryokan-002-a}.group",
       "source": "宿泊",
-      "translation": ""
+      "translation": "Accommodation"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-structure-hotel-ryokan-002-b}.name",
       "source": "旅館(1x1)",
-      "translation": ""
+      "translation": "Ryokan (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-structure-hotel-ryokan-002-b}.group",
       "source": "宿泊",
-      "translation": ""
+      "translation": "Accommodation"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-structure-hotel-ryokan-002-c}.name",
       "source": "旅館(1x1)",
-      "translation": ""
+      "translation": "Ryokan (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-structure-hotel-ryokan-002-c}.group",
       "source": "宿泊",
-      "translation": ""
+      "translation": "Accommodation"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-structure-hotel-ryokan-002-d}.name",
       "source": "旅館(1x1)",
-      "translation": ""
+      "translation": "Ryokan (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-structure-hotel-ryokan-002-d}.group",
       "source": "宿泊",
-      "translation": ""
+      "translation": "Accommodation"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-structure-hotel-ryokan-003-e}.name",
       "source": "旅館(1x1)",
-      "translation": ""
+      "translation": "Ryokan (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-structure-hotel-ryokan-003-e}.group",
       "source": "宿泊",
-      "translation": ""
+      "translation": "Accommodation"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-structure-hotel-ryokan-003-f}.name",
       "source": "旅館(1x1)",
-      "translation": ""
+      "translation": "Ryokan (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-structure-hotel-ryokan-003-f}.group",
       "source": "宿泊",
-      "translation": ""
+      "translation": "Accommodation"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-structure-hotel-ryokan-003-g}.name",
       "source": "旅館(1x1)",
-      "translation": ""
+      "translation": "Ryokan (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-structure-hotel-ryokan-003-g}.group",
       "source": "宿泊",
-      "translation": ""
+      "translation": "Accommodation"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-structure-hotel-ryokan-003-h}.name",
       "source": "旅館(1x1)",
-      "translation": ""
+      "translation": "Ryokan (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-structure-hotel-ryokan-003-h}.group",
       "source": "宿泊",
-      "translation": ""
+      "translation": "Accommodation"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-structure-hotel-ryokan-004-a}.name",
       "source": "旅館(2x2)",
-      "translation": ""
+      "translation": "Ryokan (2x2)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-structure-hotel-ryokan-004-a}.group",
       "source": "宿泊",
-      "translation": ""
+      "translation": "Accommodation"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-structure-hotel-ryokan-004-b}.name",
       "source": "旅館(2x2)",
-      "translation": ""
+      "translation": "Ryokan (2x2)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-structure-hotel-ryokan-004-b}.group",
       "source": "宿泊",
-      "translation": ""
+      "translation": "Accommodation"
     }
   ]
 }

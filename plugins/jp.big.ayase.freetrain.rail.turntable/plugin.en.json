@@ -6,12 +6,12 @@
     {
       "key": "plugin.title",
       "source": "鉄道施設プラグイン",
-      "translation": ""
+      "translation": "Railway Facility Plugin"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-TurnTable-1}.group",
       "source": "転車台",
-      "translation": ""
+      "translation": "Turntable"
     }
   ]
 }

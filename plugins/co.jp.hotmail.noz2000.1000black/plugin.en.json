@@ -6,67 +6,67 @@
     {
       "key": "plugin.title",
       "source": "京急旧1000形（黒幕車）",
-      "translation": ""
+      "translation": "Keikyu former 1000 Series (black curtain car)"
     },
     {
       "key": "contribution.{8482AE3A-8EC8-44B8-9D8A-7F9846E19F0C}.name",
       "source": "京急線",
-      "translation": ""
+      "translation": "Keikyu Line"
     },
     {
       "key": "contribution.{8482AE3A-8EC8-44B8-9D8A-7F9846E19F0C}.company",
       "source": "京浜急行電鉄",
-      "translation": ""
+      "translation": "Keikyu Corporation"
     },
     {
       "key": "contribution.{8482AE3A-8EC8-44B8-9D8A-7F9846E19F0C}.type",
       "source": "1000形黒幕車(高)",
-      "translation": ""
+      "translation": "1000 Series Black Shutter Car (High)"
     },
     {
       "key": "contribution.{8482AE3A-8EC8-44B8-9D8A-7F9846E19F0C}.description",
       "source": "1959年に登場した車両。このFグループは1971年から1978年にかけて製造されたものです。この車両は高速です。2、4、6、8、12（8+4）編成を用意しています。",
-      "translation": ""
+      "translation": "Vehicles introduced in 1959. This F group was manufactured from 1971 to 1978. These vehicles are high-speed. 2, 4, 6, 8, and 12 (8+4) car formations are available."
     },
     {
       "key": "contribution.{962B65D1-DE97-4DF1-B147-000542B29262}.name",
       "source": "京急線",
-      "translation": ""
+      "translation": "Keikyu Line"
     },
     {
       "key": "contribution.{962B65D1-DE97-4DF1-B147-000542B29262}.company",
       "source": "京浜急行電鉄",
-      "translation": ""
+      "translation": "Keikyu Corporation"
     },
     {
       "key": "contribution.{962B65D1-DE97-4DF1-B147-000542B29262}.type",
       "source": "1000形黒幕車(中)",
-      "translation": ""
+      "translation": "1000 Series Black Shutter Car (Medium)"
     },
     {
       "key": "contribution.{962B65D1-DE97-4DF1-B147-000542B29262}.description",
       "source": "1959年に登場した車両。このFグループは1971年から1978年にかけて製造されたものです。この車両は中速です。2、4、6、8、12（8+4）編成を用意しています。",
-      "translation": ""
+      "translation": "Vehicles introduced in 1959. This F group was manufactured from 1971 to 1978. These vehicles are medium-speed. 2, 4, 6, 8, and 12 (8+4) car formations are available."
     },
     {
       "key": "contribution.{1BFDB80B-FD4C-4DFD-BD51-0D05E2A21B79}.name",
       "source": "京急線",
-      "translation": ""
+      "translation": "Keikyu Line"
     },
     {
       "key": "contribution.{1BFDB80B-FD4C-4DFD-BD51-0D05E2A21B79}.company",
       "source": "京浜急行電鉄",
-      "translation": ""
+      "translation": "Keikyu Corporation"
     },
     {
       "key": "contribution.{1BFDB80B-FD4C-4DFD-BD51-0D05E2A21B79}.type",
       "source": "1000形黒幕車(低)",
-      "translation": ""
+      "translation": "1000 Series Black Shutter Car (Low)"
     },
     {
       "key": "contribution.{1BFDB80B-FD4C-4DFD-BD51-0D05E2A21B79}.description",
       "source": "1959年に登場した車両。このFグループは1971年から1978年にかけて製造されたものです。この車両は低速です。2、4、6、8、12（8+4）編成を用意しています。",
-      "translation": ""
+      "translation": "Vehicles introduced in 1959. This F group was manufactured from 1971 to 1978. These vehicles are low-speed. 2, 4, 6, 8, and 12 (8+4) car formations are available."
     }
   ]
 }

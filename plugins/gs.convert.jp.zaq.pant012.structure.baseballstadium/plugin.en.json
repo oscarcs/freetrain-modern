@@ -5,18 +5,18 @@
   "texts": [
     {
       "key": "plugin.title",
-      "source": "建物総合コンバート\u3000ては",
-      "translation": ""
+      "source": "建物総合コンバート　ては",
+      "translation": "Building general conversion: Teha"
     },
     {
       "key": "contribution.{hanshin-yuusyou-mezasite-gangare}-gs.group",
       "source": "野球場",
-      "translation": ""
+      "translation": "Baseball stadium"
     },
     {
       "key": "contribution.{nekoneko-nyanyanya-ground-overridtest}-gs.name",
       "source": "多目的グラウンド",
-      "translation": ""
+      "translation": "Multi-purpose ground"
     }
   ]
 }

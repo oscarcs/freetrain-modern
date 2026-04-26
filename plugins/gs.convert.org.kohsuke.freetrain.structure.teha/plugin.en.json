@@ -5,153 +5,153 @@
   "texts": [
     {
       "key": "plugin.title",
-      "source": "建物総合コンバート\u3000ては",
-      "translation": ""
+      "source": "建物総合コンバート　ては",
+      "translation": "Building general conversion: Teha"
     },
     {
       "key": "contribution.{B7330314-2AB8-48CB-842A-083088D1E239}-gs.group",
       "source": "カーフェリー(近海用)",
-      "translation": ""
+      "translation": "Car ferry (coastal)"
     },
     {
       "key": "contribution.{E1346B3F-4B69-4831-9433-5B82F3C83324}-gs.name",
       "source": "貨物船",
-      "translation": ""
+      "translation": "Cargo Ship"
     },
     {
       "key": "contribution.{B14C68C1-22CC-4BD1-B5B9-0429106E1B01}-gs.group",
       "source": "宇高連絡船",
-      "translation": ""
+      "translation": "Uko Ferry"
     },
     {
       "key": "contribution.{13C1C973-27E8-40B3-AE37-139F39D68B89}-gs.name",
       "source": "アパート",
-      "translation": ""
+      "translation": "Apartment building"
     },
     {
       "key": "contribution.{DFE65244-99FE-48B4-A8A7-C3AE17178798}-gs.group",
       "source": "工場",
-      "translation": ""
+      "translation": "Factory"
     },
     {
       "key": "contribution.{2679B42F-D747-488A-B327-6CF0CD2577DC}-gs.group",
       "source": "工場",
-      "translation": ""
+      "translation": "Factory"
     },
     {
       "key": "contribution.{E24C700F-40D3-4397-B4B3-6C9C98ECA774}-gs.name",
       "source": "梅田スカイビル",
-      "translation": ""
+      "translation": "Umeda Sky Building"
     },
     {
       "key": "contribution.{619F301B-EB53-4FA9-8B69-6A80E9C3DD42}-gs.name",
       "source": "大阪タワー",
-      "translation": ""
+      "translation": "Osaka Tower"
     },
     {
       "key": "contribution.{5FF50C0C-BECF-4AFD-AA82-EEBE3D609BA8}-gs.name",
       "source": "学校",
-      "translation": ""
+      "translation": "School"
     },
     {
       "key": "contribution.{F5B4222A-3EA0-4F98-BECD-1F32B5E64932}-gs.name",
       "source": "シャア専用ザク",
-      "translation": ""
+      "translation": "Char's Zaku"
     },
     {
       "key": "contribution.{2EAF3250-AA84-4B86-9F79-02D2A3DD931E}-gs.name",
       "source": "ショッピングセンター",
-      "translation": ""
+      "translation": "Shopping Center"
     },
     {
       "key": "contribution.{1A87615B-4B76-443F-8417-728D6BF0361A}-gs.name",
       "source": "ダム湖",
-      "translation": ""
+      "translation": "Dam Lake"
     },
     {
       "key": "contribution.{7D039D58-B250-4A93-AE83-DD81BA77B757}-gs.name",
       "source": "水(レベル3)",
-      "translation": ""
+      "translation": "Water (level 3)"
     },
     {
       "key": "contribution.{CC6A8B66-BE28-4863-B5E5-18F238938B00}-gs.name",
       "source": "滝",
-      "translation": ""
+      "translation": "Waterfall"
     },
     {
       "key": "contribution.{7225141D-052F-4642-A084-8583DFE3484F}-gs.name",
       "source": "ダム",
-      "translation": ""
+      "translation": "Dam"
     },
     {
       "key": "contribution.{FBDDC8DC-8E9D-422B-AD97-B7E9157D3D62}-gs.name",
       "source": "魔城ガッデム",
-      "translation": ""
+      "translation": "Demon Castle Goddem"
     },
     {
       "key": "contribution.{6323EA1B-3D1E-4E7D-BEB9-1D6E6ED2E1A1}-gs.name",
       "source": "運命の塔",
-      "translation": ""
+      "translation": "Tower of Destiny"
     },
     {
       "key": "contribution.{A9823026-15C6-4836-905D-9DFE38E119A1}-gs.name",
       "source": "工作船",
-      "translation": ""
+      "translation": "Workboat"
     },
     {
       "key": "contribution.{F752307B-C840-4162-9307-316389B29CF8}-gs.name",
       "source": "巡視船",
-      "translation": ""
+      "translation": "Patrol boat"
     },
     {
       "key": "contribution.{189F360B-CC55-4ACA-B406-1DD689F9D2E6}-gs.name",
       "source": "フェリーターミナル",
-      "translation": ""
+      "translation": "Ferry Terminal"
     },
     {
       "key": "contribution.{947753DE-3568-440D-9D66-02D405001C32}-0gs.group",
       "source": "岸壁",
-      "translation": ""
+      "translation": "Wharf"
     },
     {
       "key": "contribution.{947753DE-3568-440D-9D66-02D405001C32}-4gs.group",
       "source": "岸壁",
-      "translation": ""
+      "translation": "Wharf"
     },
     {
       "key": "contribution.{53134BEE-9DE4-4660-9966-01764EC731D0}-gs.name",
       "source": "さんふらわあ",
-      "translation": ""
+      "translation": "Sunflower"
     },
     {
       "key": "contribution.{61CD8A5D-6A2D-4EC6-A1AA-99319C83EC2E}-gs.name",
       "source": "カーフェリー(遠洋)",
-      "translation": ""
+      "translation": "Car Ferry (Ocean-going)"
     },
     {
       "key": "contribution.{C4A9FCAA-2754-409B-ABE3-573EF5DE92E6}-gs.name",
       "source": "水(レベル1)",
-      "translation": ""
+      "translation": "Water (level 1)"
     },
     {
       "key": "contribution.{DFBD51DE-E6D1-4CE0-BD2F-5C0E1CBC61FE}-gs.name",
       "source": "静岡放送東京支社",
-      "translation": ""
+      "translation": "Shizuoka Broadcasting Tokyo Branch"
     },
     {
       "key": "contribution.{F34E2C0D-9ECE-4590-A25A-3203BA9184C8}-gs.name",
       "source": "中銀カプセルタワービル",
-      "translation": ""
+      "translation": "Nakagin Capsule Tower Building"
     },
     {
       "key": "contribution.{5C13B5F3-7CDF-44A4-9C59-3D359E4DB6FE}-gs.name",
       "source": "ソニータワー",
-      "translation": ""
+      "translation": "Sony Tower"
     },
     {
       "key": "contribution.{54A932D2-12BE-44BF-8E63-B517E93354F8}-gs.name",
       "source": "アクティ大阪",
-      "translation": ""
+      "translation": "Acty Osaka"
     }
   ]
 }

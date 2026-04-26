@@ -6,12 +6,12 @@
     {
       "key": "plugin.title",
       "source": "駅一覧ウィンドウ",
-      "translation": ""
+      "translation": "Station List Window"
     },
     {
       "key": "contribution.{6DC3BD54-6282-4522-A157-C4E15FFF21CE}.name",
       "source": "駅一覧",
-      "translation": ""
+      "translation": "Station List"
     }
   ]
 }

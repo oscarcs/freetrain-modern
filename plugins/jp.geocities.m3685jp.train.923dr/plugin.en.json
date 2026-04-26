@@ -6,37 +6,37 @@
     {
       "key": "plugin.title",
       "source": "700T型",
-      "translation": ""
+      "translation": "700T Type"
     },
     {
       "key": "contribution.{tyousen-121-923w-train-projectZ}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{tyousen-121-923w-train-projectZ}.type",
       "source": "923形",
-      "translation": ""
+      "translation": "923 Type"
     },
     {
       "key": "contribution.{tyousen-121-923w-train-projectZ}.description",
       "source": "700系をベースにした車両。\n7両のT5編成だが、\n車両はほぼ同一。\n車体中央に監視カメラが、\n設置されている。",
-      "translation": ""
+      "translation": "A train based on the 700 Series. It is a 7-car T5 formation, but the cars are almost identical. Surveillance cameras are installed in the center of the car body."
     },
     {
       "key": "contribution.{tyousen-121-923w-train-projectX}.company",
       "source": "JR東海",
-      "translation": ""
+      "translation": "JR Central"
     },
     {
       "key": "contribution.{tyousen-121-923w-train-projectX}.type",
       "source": "923形",
-      "translation": ""
+      "translation": "923 Type"
     },
     {
       "key": "contribution.{tyousen-121-923w-train-projectX}.description",
       "source": "700系をベースにした車両。\n7両のT4編成だが、\n車両はほぼ同一。\n車体中央に監視カメラが、\n設置されている。",
-      "translation": ""
+      "translation": "A train based on the 700 Series. It is a 7-car T4 formation, but the cars are almost identical. Surveillance cameras are installed in the center of the car body."
     }
   ]
 }

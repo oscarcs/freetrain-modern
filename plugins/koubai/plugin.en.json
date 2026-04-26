@@ -6,1437 +6,1437 @@
     {
       "key": "plugin.title",
       "source": "地表",
-      "translation": ""
+      "translation": "Ground surface"
     },
     {
       "key": "contribution.{rk-00A1-FENCE-PICTURE-1001}.name",
       "source": "勾配01",
-      "translation": ""
+      "translation": "Slope 01"
     },
     {
       "key": "contribution.{rk-00A1-FENCE-PICTURE-1001}.group",
       "source": "勾配単線",
-      "translation": ""
+      "translation": "Sloped Single Track"
     },
     {
       "key": "contribution.{rk-00A1-FENCE-PICTURE-1002}.name",
       "source": "勾配02",
-      "translation": ""
+      "translation": "Slope 02"
     },
     {
       "key": "contribution.{rk-00A1-FENCE-PICTURE-1002}.group",
       "source": "勾配単線",
-      "translation": ""
+      "translation": "Sloped Single Track"
     },
     {
       "key": "contribution.{rk-00A1-FENCE-PICTURE-1003}.name",
       "source": "勾配03",
-      "translation": ""
+      "translation": "Slope 03"
     },
     {
       "key": "contribution.{rk-00A1-FENCE-PICTURE-1003}.group",
       "source": "勾配単線",
-      "translation": ""
+      "translation": "Sloped Single Track"
     },
     {
       "key": "contribution.{rk-00A1-FENCE-PICTURE-1004}.name",
       "source": "勾配04",
-      "translation": ""
+      "translation": "Slope 04"
     },
     {
       "key": "contribution.{rk-00A1-FENCE-PICTURE-1004}.group",
       "source": "勾配単線",
-      "translation": ""
+      "translation": "Sloped Single Track"
     },
     {
       "key": "contribution.{rk-00A5-FENCE-PICTURE-1004}.name",
       "source": "勾配05",
-      "translation": ""
+      "translation": "Gradient 05"
     },
     {
       "key": "contribution.{rk-00A5-FENCE-PICTURE-1004}.group",
       "source": "勾配単線",
-      "translation": ""
+      "translation": "Sloped Single Track"
     },
     {
       "key": "contribution.{rk-00A6-FENCE-PICTURE-1004}.name",
       "source": "勾配06",
-      "translation": ""
+      "translation": "Gradient 06"
     },
     {
       "key": "contribution.{rk-00A6-FENCE-PICTURE-1004}.group",
       "source": "勾配単線",
-      "translation": ""
+      "translation": "Sloped Single Track"
     },
     {
       "key": "contribution.{rk-00A7-FENCE-PICTURE-1004}.name",
       "source": "勾配07",
-      "translation": ""
+      "translation": "Gradient 07"
     },
     {
       "key": "contribution.{rk-00A7-FENCE-PICTURE-1004}.group",
       "source": "勾配単線",
-      "translation": ""
+      "translation": "Sloped Single Track"
     },
     {
       "key": "contribution.{rk-00A8-FENCE-PICTURE-1004}.name",
       "source": "勾配08",
-      "translation": ""
+      "translation": "Slope 08"
     },
     {
       "key": "contribution.{rk-00A8-FENCE-PICTURE-1004}.group",
       "source": "勾配単線",
-      "translation": ""
+      "translation": "Sloped Single Track"
     },
     {
       "key": "contribution.{rk-00A9-FENCE-PICTURE-1004}.name",
       "source": "勾配09",
-      "translation": ""
+      "translation": "Slope 09"
     },
     {
       "key": "contribution.{rk-00A9-FENCE-PICTURE-1004}.group",
       "source": "勾配複線１",
-      "translation": ""
+      "translation": "Sloped Double Track 1"
     },
     {
       "key": "contribution.{rk-00A10-FENCE-PICTURE-1004}.name",
       "source": "勾配10",
-      "translation": ""
+      "translation": "Slope 10"
     },
     {
       "key": "contribution.{rk-00A10-FENCE-PICTURE-1004}.group",
       "source": "勾配複線１",
-      "translation": ""
+      "translation": "Sloped Double Track 1"
     },
     {
       "key": "contribution.{rk-00A11-FENCE-PICTURE-1004}.name",
       "source": "勾配11",
-      "translation": ""
+      "translation": "Slope 11"
     },
     {
       "key": "contribution.{rk-00A11-FENCE-PICTURE-1004}.group",
       "source": "勾配複線１",
-      "translation": ""
+      "translation": "Sloped Double Track 1"
     },
     {
       "key": "contribution.{rk-00A12-FENCE-PICTURE-1004}.name",
       "source": "勾配12",
-      "translation": ""
+      "translation": "Slope 12"
     },
     {
       "key": "contribution.{rk-00A12-FENCE-PICTURE-1004}.group",
       "source": "勾配複線１",
-      "translation": ""
+      "translation": "Sloped Double Track 1"
     },
     {
       "key": "contribution.{rk-00A17-FENCE-PICTURE-1004}.name",
       "source": "勾配09",
-      "translation": ""
+      "translation": "Slope 09"
     },
     {
       "key": "contribution.{rk-00A17-FENCE-PICTURE-1004}.group",
       "source": "勾配複線１",
-      "translation": ""
+      "translation": "Sloped Double Track 1"
     },
     {
       "key": "contribution.{rk-00A18-FENCE-PICTURE-1004}.name",
       "source": "勾配10",
-      "translation": ""
+      "translation": "Slope 10"
     },
     {
       "key": "contribution.{rk-00A18-FENCE-PICTURE-1004}.group",
       "source": "勾配複線１",
-      "translation": ""
+      "translation": "Sloped Double Track 1"
     },
     {
       "key": "contribution.{rk-00A19-FENCE-PICTURE-1004}.name",
       "source": "勾配11",
-      "translation": ""
+      "translation": "Slope 11"
     },
     {
       "key": "contribution.{rk-00A19-FENCE-PICTURE-1004}.group",
       "source": "勾配複線１",
-      "translation": ""
+      "translation": "Sloped Double Track 1"
     },
     {
       "key": "contribution.{rk-00A20-FENCE-PICTURE-1004}.name",
       "source": "勾配12",
-      "translation": ""
+      "translation": "Slope 12"
     },
     {
       "key": "contribution.{rk-00A20-FENCE-PICTURE-1004}.group",
       "source": "勾配複線１",
-      "translation": ""
+      "translation": "Sloped Double Track 1"
     },
     {
       "key": "contribution.{rk-00A13-FENCE-PICTURE-1004}.name",
       "source": "勾配09",
-      "translation": ""
+      "translation": "Slope 09"
     },
     {
       "key": "contribution.{rk-00A13-FENCE-PICTURE-1004}.group",
       "source": "勾配複線２",
-      "translation": ""
+      "translation": "Sloped Double Track 2"
     },
     {
       "key": "contribution.{rk-00A14-FENCE-PICTURE-1004}.name",
       "source": "勾配10",
-      "translation": ""
+      "translation": "Slope 10"
     },
     {
       "key": "contribution.{rk-00A14-FENCE-PICTURE-1004}.group",
       "source": "勾配複線２",
-      "translation": ""
+      "translation": "Sloped Double Track 2"
     },
     {
       "key": "contribution.{rk-00A15-FENCE-PICTURE-1004}.name",
       "source": "勾配11",
-      "translation": ""
+      "translation": "Slope 11"
     },
     {
       "key": "contribution.{rk-00A15-FENCE-PICTURE-1004}.group",
       "source": "勾配複線２",
-      "translation": ""
+      "translation": "Sloped Double Track 2"
     },
     {
       "key": "contribution.{rk-00A16-FENCE-PICTURE-1004}.name",
       "source": "勾配12",
-      "translation": ""
+      "translation": "Slope 12"
     },
     {
       "key": "contribution.{rk-00A16-FENCE-PICTURE-1004}.group",
       "source": "勾配複線２",
-      "translation": ""
+      "translation": "Sloped Double Track 2"
     },
     {
       "key": "contribution.{rk-00A21-FENCE-PICTURE-1004}.name",
       "source": "勾配21",
-      "translation": ""
+      "translation": "Gradient 21"
     },
     {
       "key": "contribution.{rk-00A21-FENCE-PICTURE-1004}.group",
       "source": "勾配複線２",
-      "translation": ""
+      "translation": "Sloped Double Track 2"
     },
     {
       "key": "contribution.{rk-00A22-FENCE-PICTURE-1004}.name",
       "source": "勾配22",
-      "translation": ""
+      "translation": "Gradient 22"
     },
     {
       "key": "contribution.{rk-00A22-FENCE-PICTURE-1004}.group",
       "source": "勾配複線２",
-      "translation": ""
+      "translation": "Sloped Double Track 2"
     },
     {
       "key": "contribution.{rk-00A23-FENCE-PICTURE-1004}.name",
       "source": "勾配23",
-      "translation": ""
+      "translation": "Gradient 23"
     },
     {
       "key": "contribution.{rk-00A23-FENCE-PICTURE-1004}.group",
       "source": "勾配複線２",
-      "translation": ""
+      "translation": "Sloped Double Track 2"
     },
     {
       "key": "contribution.{rk-00A24-FENCE-PICTURE-1004}.name",
       "source": "勾配24",
-      "translation": ""
+      "translation": "Gradient 24"
     },
     {
       "key": "contribution.{rk-00A24-FENCE-PICTURE-1004}.group",
       "source": "勾配複線２",
-      "translation": ""
+      "translation": "Sloped Double Track 2"
     },
     {
       "key": "contribution.{rk-00A101-FENCE-PICTURE-1004}.name",
       "source": "勾配101",
-      "translation": ""
+      "translation": "Slope 101"
     },
     {
       "key": "contribution.{rk-00A101-FENCE-PICTURE-1004}.group",
       "source": "勾配単線盛土",
-      "translation": ""
+      "translation": "Slope single track embankment"
     },
     {
       "key": "contribution.{rk-00A102-FENCE-PICTURE-1004}.name",
       "source": "勾配102",
-      "translation": ""
+      "translation": "Slope 102"
     },
     {
       "key": "contribution.{rk-00A102-FENCE-PICTURE-1004}.group",
       "source": "勾配単線盛土",
-      "translation": ""
+      "translation": "Slope single track embankment"
     },
     {
       "key": "contribution.{rk-00A103-FENCE-PICTURE-1004}.name",
       "source": "勾配103",
-      "translation": ""
+      "translation": "Slope 103"
     },
     {
       "key": "contribution.{rk-00A103-FENCE-PICTURE-1004}.group",
       "source": "勾配単線盛土",
-      "translation": ""
+      "translation": "Slope single track embankment"
     },
     {
       "key": "contribution.{rk-00A104-FENCE-PICTURE-1004}.name",
       "source": "勾配104",
-      "translation": ""
+      "translation": "Slope 104"
     },
     {
       "key": "contribution.{rk-00A104-FENCE-PICTURE-1004}.group",
       "source": "勾配単線盛土",
-      "translation": ""
+      "translation": "Slope single track embankment"
     },
     {
       "key": "contribution.{rk-00A129-FENCE-PICTURE-1004}.name",
       "source": "勾配129",
-      "translation": ""
+      "translation": "Slope 129"
     },
     {
       "key": "contribution.{rk-00A129-FENCE-PICTURE-1004}.group",
       "source": "勾配単線盛土",
-      "translation": ""
+      "translation": "Slope single track embankment"
     },
     {
       "key": "contribution.{rk-00A130-FENCE-PICTURE-1004}.name",
       "source": "勾配130",
-      "translation": ""
+      "translation": "Slope 130"
     },
     {
       "key": "contribution.{rk-00A130-FENCE-PICTURE-1004}.group",
       "source": "勾配単線盛土",
-      "translation": ""
+      "translation": "Slope single track embankment"
     },
     {
       "key": "contribution.{rk-00A131-FENCE-PICTURE-1004}.name",
       "source": "勾配131",
-      "translation": ""
+      "translation": "Slope 131"
     },
     {
       "key": "contribution.{rk-00A131-FENCE-PICTURE-1004}.group",
       "source": "勾配単線盛土",
-      "translation": ""
+      "translation": "Slope single track embankment"
     },
     {
       "key": "contribution.{rk-00A132-FENCE-PICTURE-1004}.name",
       "source": "勾配132",
-      "translation": ""
+      "translation": "Slope 132"
     },
     {
       "key": "contribution.{rk-00A132-FENCE-PICTURE-1004}.group",
       "source": "勾配単線盛土",
-      "translation": ""
+      "translation": "Slope single track embankment"
     },
     {
       "key": "contribution.{rk-00A109-FENCE-PICTURE-1004}.name",
       "source": "勾配109",
-      "translation": ""
+      "translation": "Gradient 109"
     },
     {
       "key": "contribution.{rk-00A109-FENCE-PICTURE-1004}.group",
       "source": "勾配複線盛土１",
-      "translation": ""
+      "translation": "Sloped Double Track Embankment 1"
     },
     {
       "key": "contribution.{rk-00A110-FENCE-PICTURE-1004}.name",
       "source": "勾配110",
-      "translation": ""
+      "translation": "Gradient 110"
     },
     {
       "key": "contribution.{rk-00A110-FENCE-PICTURE-1004}.group",
       "source": "勾配複線盛土１",
-      "translation": ""
+      "translation": "Sloped Double Track Embankment 1"
     },
     {
       "key": "contribution.{rk-00A111-FENCE-PICTURE-1004}.name",
       "source": "勾配111",
-      "translation": ""
+      "translation": "Gradient 111"
     },
     {
       "key": "contribution.{rk-00A111-FENCE-PICTURE-1004}.group",
       "source": "勾配複線盛土１",
-      "translation": ""
+      "translation": "Sloped Double Track Embankment 1"
     },
     {
       "key": "contribution.{rk-00A112-FENCE-PICTURE-1004}.name",
       "source": "勾配112",
-      "translation": ""
+      "translation": "Gradient 112"
     },
     {
       "key": "contribution.{rk-00A112-FENCE-PICTURE-1004}.group",
       "source": "勾配複線盛土１",
-      "translation": ""
+      "translation": "Sloped Double Track Embankment 1"
     },
     {
       "key": "contribution.{rk-00A125-FENCE-PICTURE-1004}.name",
       "source": "勾配125",
-      "translation": ""
+      "translation": "Gradient 125"
     },
     {
       "key": "contribution.{rk-00A125-FENCE-PICTURE-1004}.group",
       "source": "勾配複線盛土１",
-      "translation": ""
+      "translation": "Sloped Double Track Embankment 1"
     },
     {
       "key": "contribution.{rk-00A126-FENCE-PICTURE-1004}.name",
       "source": "勾配126",
-      "translation": ""
+      "translation": "Gradient 126"
     },
     {
       "key": "contribution.{rk-00A126-FENCE-PICTURE-1004}.group",
       "source": "勾配複線盛土１",
-      "translation": ""
+      "translation": "Sloped Double Track Embankment 1"
     },
     {
       "key": "contribution.{rk-00A127-FENCE-PICTURE-1004}.name",
       "source": "勾配127",
-      "translation": ""
+      "translation": "Gradient 127"
     },
     {
       "key": "contribution.{rk-00A127-FENCE-PICTURE-1004}.group",
       "source": "勾配複線盛土１",
-      "translation": ""
+      "translation": "Sloped Double Track Embankment 1"
     },
     {
       "key": "contribution.{rk-00A128-FENCE-PICTURE-1004}.name",
       "source": "勾配128",
-      "translation": ""
+      "translation": "Gradient 128"
     },
     {
       "key": "contribution.{rk-00A128-FENCE-PICTURE-1004}.group",
       "source": "勾配複線盛土１",
-      "translation": ""
+      "translation": "Sloped Double Track Embankment 1"
     },
     {
       "key": "contribution.{rk-00A113-FENCE-PICTURE-1004}.name",
       "source": "勾配113",
-      "translation": ""
+      "translation": "Gradient 113"
     },
     {
       "key": "contribution.{rk-00A113-FENCE-PICTURE-1004}.group",
       "source": "勾配複線盛土２",
-      "translation": ""
+      "translation": "Sloped Double Track Embankment 2"
     },
     {
       "key": "contribution.{rk-00A114-FENCE-PICTURE-1004}.name",
       "source": "勾配114",
-      "translation": ""
+      "translation": "Gradient 114"
     },
     {
       "key": "contribution.{rk-00A114-FENCE-PICTURE-1004}.group",
       "source": "勾配複線盛土２",
-      "translation": ""
+      "translation": "Sloped Double Track Embankment 2"
     },
     {
       "key": "contribution.{rk-00A115-FENCE-PICTURE-1004}.name",
       "source": "勾配115",
-      "translation": ""
+      "translation": "Gradient 115"
     },
     {
       "key": "contribution.{rk-00A115-FENCE-PICTURE-1004}.group",
       "source": "勾配複線盛土２",
-      "translation": ""
+      "translation": "Sloped Double Track Embankment 2"
     },
     {
       "key": "contribution.{rk-00A116-FENCE-PICTURE-1004}.name",
       "source": "勾配116",
-      "translation": ""
+      "translation": "Gradient 116"
     },
     {
       "key": "contribution.{rk-00A116-FENCE-PICTURE-1004}.group",
       "source": "勾配複線盛土２",
-      "translation": ""
+      "translation": "Sloped Double Track Embankment 2"
     },
     {
       "key": "contribution.{rk-00A133-FENCE-PICTURE-1004}.name",
       "source": "勾配133",
-      "translation": ""
+      "translation": "Gradient 133"
     },
     {
       "key": "contribution.{rk-00A133-FENCE-PICTURE-1004}.group",
       "source": "勾配複線盛土２",
-      "translation": ""
+      "translation": "Sloped Double Track Embankment 2"
     },
     {
       "key": "contribution.{rk-00A134-FENCE-PICTURE-1004}.name",
       "source": "勾配134",
-      "translation": ""
+      "translation": "Gradient 134"
     },
     {
       "key": "contribution.{rk-00A134-FENCE-PICTURE-1004}.group",
       "source": "勾配複線盛土２",
-      "translation": ""
+      "translation": "Sloped Double Track Embankment 2"
     },
     {
       "key": "contribution.{rk-00A135-FENCE-PICTURE-1004}.name",
       "source": "勾配135",
-      "translation": ""
+      "translation": "Gradient 135"
     },
     {
       "key": "contribution.{rk-00A135-FENCE-PICTURE-1004}.group",
       "source": "勾配複線盛土２",
-      "translation": ""
+      "translation": "Sloped Double Track Embankment 2"
     },
     {
       "key": "contribution.{rk-00A136-FENCE-PICTURE-1004}.name",
       "source": "勾配136",
-      "translation": ""
+      "translation": "Gradient 136"
     },
     {
       "key": "contribution.{rk-00A136-FENCE-PICTURE-1004}.group",
       "source": "勾配複線盛土２",
-      "translation": ""
+      "translation": "Sloped Double Track Embankment 2"
     },
     {
       "key": "contribution.{rk-00A117-FENCE-PICTURE-1004}.name",
       "source": "勾配117",
-      "translation": ""
+      "translation": "Gradient 117"
     },
     {
       "key": "contribution.{rk-00A117-FENCE-PICTURE-1004}.group",
       "source": "勾配複線盛土中",
-      "translation": ""
+      "translation": "Sloped Double Track Embankment Middle"
     },
     {
       "key": "contribution.{rk-00A118-FENCE-PICTURE-1004}.name",
       "source": "勾配118",
-      "translation": ""
+      "translation": "Gradient 118"
     },
     {
       "key": "contribution.{rk-00A118-FENCE-PICTURE-1004}.group",
       "source": "勾配複線盛土中",
-      "translation": ""
+      "translation": "Sloped Double Track Embankment Middle"
     },
     {
       "key": "contribution.{rk-00A119-FENCE-PICTURE-1004}.name",
       "source": "勾配119",
-      "translation": ""
+      "translation": "Gradient 119"
     },
     {
       "key": "contribution.{rk-00A119-FENCE-PICTURE-1004}.group",
       "source": "勾配複線盛土中",
-      "translation": ""
+      "translation": "Sloped Double Track Embankment Middle"
     },
     {
       "key": "contribution.{rk-00A120-FENCE-PICTURE-1004}.name",
       "source": "勾配120",
-      "translation": ""
+      "translation": "Gradient 120"
     },
     {
       "key": "contribution.{rk-00A120-FENCE-PICTURE-1004}.group",
       "source": "勾配複線盛土中",
-      "translation": ""
+      "translation": "Sloped Double Track Embankment Middle"
     },
     {
       "key": "contribution.{rk-00A121-FENCE-PICTURE-1004}.name",
       "source": "勾配121",
-      "translation": ""
+      "translation": "Gradient 121"
     },
     {
       "key": "contribution.{rk-00A121-FENCE-PICTURE-1004}.group",
       "source": "勾配複線盛土中",
-      "translation": ""
+      "translation": "Sloped Double Track Embankment Middle"
     },
     {
       "key": "contribution.{rk-00A122-FENCE-PICTURE-1004}.name",
       "source": "勾配122",
-      "translation": ""
+      "translation": "Gradient 122"
     },
     {
       "key": "contribution.{rk-00A122-FENCE-PICTURE-1004}.group",
       "source": "勾配複線盛土中",
-      "translation": ""
+      "translation": "Sloped Double Track Embankment Middle"
     },
     {
       "key": "contribution.{rk-00A123-FENCE-PICTURE-1004}.name",
       "source": "勾配123",
-      "translation": ""
+      "translation": "Gradient 123"
     },
     {
       "key": "contribution.{rk-00A123-FENCE-PICTURE-1004}.group",
       "source": "勾配複線盛土中",
-      "translation": ""
+      "translation": "Sloped Double Track Embankment Middle"
     },
     {
       "key": "contribution.{rk-00A124-FENCE-PICTURE-1004}.name",
       "source": "勾配124",
-      "translation": ""
+      "translation": "Gradient 124"
     },
     {
       "key": "contribution.{rk-00A124-FENCE-PICTURE-1004}.group",
       "source": "勾配複線盛土中",
-      "translation": ""
+      "translation": "Sloped Double Track Embankment Middle"
     },
     {
       "key": "contribution.{rk-00A201-FENCE-PICTURE-1001}.name",
       "source": "勾配201",
-      "translation": ""
+      "translation": "Gradient 201"
     },
     {
       "key": "contribution.{rk-00A201-FENCE-PICTURE-1001}.group",
       "source": "勾配単線RC",
-      "translation": ""
+      "translation": "Sloped Single Track RC"
     },
     {
       "key": "contribution.{rk-00A202-FENCE-PICTURE-1002}.name",
       "source": "勾配202",
-      "translation": ""
+      "translation": "Gradient 202"
     },
     {
       "key": "contribution.{rk-00A202-FENCE-PICTURE-1002}.group",
       "source": "勾配単線RC",
-      "translation": ""
+      "translation": "Sloped Single Track RC"
     },
     {
       "key": "contribution.{rk-00A203-FENCE-PICTURE-1003}.name",
       "source": "勾配203",
-      "translation": ""
+      "translation": "Gradient 203"
     },
     {
       "key": "contribution.{rk-00A203-FENCE-PICTURE-1003}.group",
       "source": "勾配単線RC",
-      "translation": ""
+      "translation": "Sloped Single Track RC"
     },
     {
       "key": "contribution.{rk-00A204-FENCE-PICTURE-1004}.name",
       "source": "勾配204",
-      "translation": ""
+      "translation": "Gradient 204"
     },
     {
       "key": "contribution.{rk-00A204-FENCE-PICTURE-1004}.group",
       "source": "勾配単線RC",
-      "translation": ""
+      "translation": "Sloped Single Track RC"
     },
     {
       "key": "contribution.{rk-00A205-FENCE-PICTURE-1001}.name",
       "source": "勾配205",
-      "translation": ""
+      "translation": "Gradient 205"
     },
     {
       "key": "contribution.{rk-00A205-FENCE-PICTURE-1001}.group",
       "source": "勾配単線RC",
-      "translation": ""
+      "translation": "Sloped Single Track RC"
     },
     {
       "key": "contribution.{rk-00A206-FENCE-PICTURE-1002}.name",
       "source": "勾配206",
-      "translation": ""
+      "translation": "Gradient 206"
     },
     {
       "key": "contribution.{rk-00A206-FENCE-PICTURE-1002}.group",
       "source": "勾配単線RC",
-      "translation": ""
+      "translation": "Sloped Single Track RC"
     },
     {
       "key": "contribution.{rk-00A207-FENCE-PICTURE-1003}.name",
       "source": "勾配207",
-      "translation": ""
+      "translation": "Gradient 207"
     },
     {
       "key": "contribution.{rk-00A207-FENCE-PICTURE-1003}.group",
       "source": "勾配単線RC",
-      "translation": ""
+      "translation": "Sloped Single Track RC"
     },
     {
       "key": "contribution.{rk-00A208-FENCE-PICTURE-1004}.name",
       "source": "勾配208",
-      "translation": ""
+      "translation": "Gradient 208"
     },
     {
       "key": "contribution.{rk-00A208-FENCE-PICTURE-1004}.group",
       "source": "勾配単線RC",
-      "translation": ""
+      "translation": "Sloped Single Track RC"
     },
     {
       "key": "contribution.{rk-00A209-FENCE-PICTURE-1001}.name",
       "source": "勾配209",
-      "translation": ""
+      "translation": "Gradient 209"
     },
     {
       "key": "contribution.{rk-00A209-FENCE-PICTURE-1001}.group",
       "source": "勾配複線RC１",
-      "translation": ""
+      "translation": "Sloped Double Track RC 1"
     },
     {
       "key": "contribution.{rk-00A210-FENCE-PICTURE-1002}.name",
       "source": "勾配210",
-      "translation": ""
+      "translation": "Gradient 210"
     },
     {
       "key": "contribution.{rk-00A210-FENCE-PICTURE-1002}.group",
       "source": "勾配複線RC１",
-      "translation": ""
+      "translation": "Sloped Double Track RC 1"
     },
     {
       "key": "contribution.{rk-00A211-FENCE-PICTURE-1003}.name",
       "source": "勾配211",
-      "translation": ""
+      "translation": "Gradient 211"
     },
     {
       "key": "contribution.{rk-00A211-FENCE-PICTURE-1003}.group",
       "source": "勾配複線RC１",
-      "translation": ""
+      "translation": "Sloped Double Track RC 1"
     },
     {
       "key": "contribution.{rk-00A212-FENCE-PICTURE-1004}.name",
       "source": "勾配212",
-      "translation": ""
+      "translation": "Gradient 212"
     },
     {
       "key": "contribution.{rk-00A212-FENCE-PICTURE-1004}.group",
       "source": "勾配複線RC１",
-      "translation": ""
+      "translation": "Sloped Double Track RC 1"
     },
     {
       "key": "contribution.{rk-00A213-FENCE-PICTURE-1001}.name",
       "source": "勾配213",
-      "translation": ""
+      "translation": "Gradient 213"
     },
     {
       "key": "contribution.{rk-00A213-FENCE-PICTURE-1001}.group",
       "source": "勾配複線RC１",
-      "translation": ""
+      "translation": "Sloped Double Track RC 1"
     },
     {
       "key": "contribution.{rk-00A214-FENCE-PICTURE-1002}.name",
       "source": "勾配214",
-      "translation": ""
+      "translation": "Gradient 214"
     },
     {
       "key": "contribution.{rk-00A214-FENCE-PICTURE-1002}.group",
       "source": "勾配複線RC１",
-      "translation": ""
+      "translation": "Sloped Double Track RC 1"
     },
     {
       "key": "contribution.{rk-00A215-FENCE-PICTURE-1003}.name",
       "source": "勾配215",
-      "translation": ""
+      "translation": "Gradient 215"
     },
     {
       "key": "contribution.{rk-00A215-FENCE-PICTURE-1003}.group",
       "source": "勾配複線RC１",
-      "translation": ""
+      "translation": "Sloped Double Track RC 1"
     },
     {
       "key": "contribution.{rk-00A216-FENCE-PICTURE-1004}.name",
       "source": "勾配216",
-      "translation": ""
+      "translation": "Gradient 216"
     },
     {
       "key": "contribution.{rk-00A216-FENCE-PICTURE-1004}.group",
       "source": "勾配複線RC１",
-      "translation": ""
+      "translation": "Sloped Double Track RC 1"
     },
     {
       "key": "contribution.{rk-00A217-FENCE-PICTURE-1003}.name",
       "source": "勾配217",
-      "translation": ""
+      "translation": "Gradient 217"
     },
     {
       "key": "contribution.{rk-00A217-FENCE-PICTURE-1003}.group",
       "source": "勾配複線RC２",
-      "translation": ""
+      "translation": "Sloped Double Track RC 2"
     },
     {
       "key": "contribution.{rk-00A218-FENCE-PICTURE-1003}.name",
       "source": "勾配218",
-      "translation": ""
+      "translation": "Gradient 218"
     },
     {
       "key": "contribution.{rk-00A218-FENCE-PICTURE-1003}.group",
       "source": "勾配複線RC２",
-      "translation": ""
+      "translation": "Sloped Double Track RC 2"
     },
     {
       "key": "contribution.{rk-00A219-FENCE-PICTURE-1003}.name",
       "source": "勾配219",
-      "translation": ""
+      "translation": "Gradient 219"
     },
     {
       "key": "contribution.{rk-00A219-FENCE-PICTURE-1003}.group",
       "source": "勾配複線RC２",
-      "translation": ""
+      "translation": "Sloped Double Track RC 2"
     },
     {
       "key": "contribution.{rk-00A220-FENCE-PICTURE-1004}.name",
       "source": "勾配220",
-      "translation": ""
+      "translation": "Gradient 220"
     },
     {
       "key": "contribution.{rk-00A220-FENCE-PICTURE-1004}.group",
       "source": "勾配複線RC２",
-      "translation": ""
+      "translation": "Sloped Double Track RC 2"
     },
     {
       "key": "contribution.{rk-00A221-FENCE-PICTURE-1003}.name",
       "source": "勾配221",
-      "translation": ""
+      "translation": "Gradient 221"
     },
     {
       "key": "contribution.{rk-00A221-FENCE-PICTURE-1003}.group",
       "source": "勾配複線RC２",
-      "translation": ""
+      "translation": "Sloped Double Track RC 2"
     },
     {
       "key": "contribution.{rk-00A222-FENCE-PICTURE-1003}.name",
       "source": "勾配222",
-      "translation": ""
+      "translation": "Gradient 222"
     },
     {
       "key": "contribution.{rk-00A222-FENCE-PICTURE-1003}.group",
       "source": "勾配複線RC２",
-      "translation": ""
+      "translation": "Sloped Double Track RC 2"
     },
     {
       "key": "contribution.{rk-00A223-FENCE-PICTURE-1003}.name",
       "source": "勾配223",
-      "translation": ""
+      "translation": "Gradient 223"
     },
     {
       "key": "contribution.{rk-00A223-FENCE-PICTURE-1003}.group",
       "source": "勾配複線RC２",
-      "translation": ""
+      "translation": "Sloped Double Track RC 2"
     },
     {
       "key": "contribution.{rk-00A224-FENCE-PICTURE-1004}.name",
       "source": "勾配224",
-      "translation": ""
+      "translation": "Gradient 224"
     },
     {
       "key": "contribution.{rk-00A224-FENCE-PICTURE-1004}.group",
       "source": "勾配複線RC２",
-      "translation": ""
+      "translation": "Sloped Double Track RC 2"
     },
     {
       "key": "contribution.{rk-00A225-FENCE-PICTURE-1001}.name",
       "source": "勾配225",
-      "translation": ""
+      "translation": "Gradient 225"
     },
     {
       "key": "contribution.{rk-00A225-FENCE-PICTURE-1001}.group",
       "source": "勾配単線Ｔ",
-      "translation": ""
+      "translation": "Sloped Single Track T"
     },
     {
       "key": "contribution.{rk-00A226-FENCE-PICTURE-1002}.name",
       "source": "勾配226",
-      "translation": ""
+      "translation": "Gradient 226"
     },
     {
       "key": "contribution.{rk-00A226-FENCE-PICTURE-1002}.group",
       "source": "勾配単線Ｔ",
-      "translation": ""
+      "translation": "Sloped Single Track T"
     },
     {
       "key": "contribution.{rk-00A227-FENCE-PICTURE-1003}.name",
       "source": "勾配227",
-      "translation": ""
+      "translation": "Gradient 227"
     },
     {
       "key": "contribution.{rk-00A227-FENCE-PICTURE-1003}.group",
       "source": "勾配単線Ｔ",
-      "translation": ""
+      "translation": "Sloped Single Track T"
     },
     {
       "key": "contribution.{rk-00A228-FENCE-PICTURE-1004}.name",
       "source": "勾配228",
-      "translation": ""
+      "translation": "Gradient 228"
     },
     {
       "key": "contribution.{rk-00A228-FENCE-PICTURE-1004}.group",
       "source": "勾配単線Ｔ",
-      "translation": ""
+      "translation": "Sloped Single Track T"
     },
     {
       "key": "contribution.{rk-00A229-FENCE-PICTURE-1001}.name",
       "source": "勾配229",
-      "translation": ""
+      "translation": "Gradient 229"
     },
     {
       "key": "contribution.{rk-00A229-FENCE-PICTURE-1001}.group",
       "source": "勾配単線Ｔ",
-      "translation": ""
+      "translation": "Sloped Single Track T"
     },
     {
       "key": "contribution.{rk-00A230-FENCE-PICTURE-1002}.name",
       "source": "勾配230",
-      "translation": ""
+      "translation": "Gradient 230"
     },
     {
       "key": "contribution.{rk-00A230-FENCE-PICTURE-1002}.group",
       "source": "勾配単線Ｔ",
-      "translation": ""
+      "translation": "Sloped Single Track T"
     },
     {
       "key": "contribution.{rk-00A231-FENCE-PICTURE-1003}.name",
       "source": "勾配231",
-      "translation": ""
+      "translation": "Gradient 231"
     },
     {
       "key": "contribution.{rk-00A231-FENCE-PICTURE-1003}.group",
       "source": "勾配単線Ｔ",
-      "translation": ""
+      "translation": "Sloped Single Track T"
     },
     {
       "key": "contribution.{rk-00A232-FENCE-PICTURE-1004}.name",
       "source": "勾配0232",
-      "translation": ""
+      "translation": "Slope 0232"
     },
     {
       "key": "contribution.{rk-00A232-FENCE-PICTURE-1004}.group",
       "source": "勾配単線Ｔ",
-      "translation": ""
+      "translation": "Sloped Single Track T"
     },
     {
       "key": "contribution.{rk-00A233-FENCE-PICTURE-1001}.name",
       "source": "勾配233",
-      "translation": ""
+      "translation": "Gradient 233"
     },
     {
       "key": "contribution.{rk-00A233-FENCE-PICTURE-1001}.group",
       "source": "勾配複線Ｔ１",
-      "translation": ""
+      "translation": "Sloped Double Track T 1"
     },
     {
       "key": "contribution.{rk-00A234-FENCE-PICTURE-1002}.name",
       "source": "勾配234",
-      "translation": ""
+      "translation": "Gradient 234"
     },
     {
       "key": "contribution.{rk-00A234-FENCE-PICTURE-1002}.group",
       "source": "勾配複線Ｔ１",
-      "translation": ""
+      "translation": "Sloped Double Track T 1"
     },
     {
       "key": "contribution.{rk-00A235-FENCE-PICTURE-1003}.name",
       "source": "勾配235",
-      "translation": ""
+      "translation": "Gradient 235"
     },
     {
       "key": "contribution.{rk-00A235-FENCE-PICTURE-1003}.group",
       "source": "勾配複線Ｔ１",
-      "translation": ""
+      "translation": "Sloped Double Track T 1"
     },
     {
       "key": "contribution.{rk-00A236-FENCE-PICTURE-1004}.name",
       "source": "勾配0236",
-      "translation": ""
+      "translation": "Slope 0236"
     },
     {
       "key": "contribution.{rk-00A236-FENCE-PICTURE-1004}.group",
       "source": "勾配複線Ｔ１",
-      "translation": ""
+      "translation": "Sloped Double Track T 1"
     },
     {
       "key": "contribution.{rk-00A237-FENCE-PICTURE-1001}.name",
       "source": "勾配237",
-      "translation": ""
+      "translation": "Gradient 237"
     },
     {
       "key": "contribution.{rk-00A237-FENCE-PICTURE-1001}.group",
       "source": "勾配複線Ｔ１",
-      "translation": ""
+      "translation": "Sloped Double Track T 1"
     },
     {
       "key": "contribution.{rk-00A238-FENCE-PICTURE-1002}.name",
       "source": "勾配238",
-      "translation": ""
+      "translation": "Gradient 238"
     },
     {
       "key": "contribution.{rk-00A238-FENCE-PICTURE-1002}.group",
       "source": "勾配複線Ｔ１",
-      "translation": ""
+      "translation": "Sloped Double Track T 1"
     },
     {
       "key": "contribution.{rk-00A239-FENCE-PICTURE-1003}.name",
       "source": "勾配239",
-      "translation": ""
+      "translation": "Gradient 239"
     },
     {
       "key": "contribution.{rk-00A239-FENCE-PICTURE-1003}.group",
       "source": "勾配複線Ｔ１",
-      "translation": ""
+      "translation": "Sloped Double Track T 1"
     },
     {
       "key": "contribution.{rk-00A240-FENCE-PICTURE-1004}.name",
       "source": "勾配0240",
-      "translation": ""
+      "translation": "Slope 0240"
     },
     {
       "key": "contribution.{rk-00A240-FENCE-PICTURE-1004}.group",
       "source": "勾配複線Ｔ１",
-      "translation": ""
+      "translation": "Sloped Double Track T 1"
     },
     {
       "key": "contribution.{rk-00A241-FENCE-PICTURE-1001}.name",
       "source": "勾配241",
-      "translation": ""
+      "translation": "Gradient 241"
     },
     {
       "key": "contribution.{rk-00A241-FENCE-PICTURE-1001}.group",
       "source": "勾配複線Ｔ２",
-      "translation": ""
+      "translation": "Sloped Double Track T 2"
     },
     {
       "key": "contribution.{rk-00A242-FENCE-PICTURE-1002}.name",
       "source": "勾配242",
-      "translation": ""
+      "translation": "Gradient 242"
     },
     {
       "key": "contribution.{rk-00A242-FENCE-PICTURE-1002}.group",
       "source": "勾配複線Ｔ２",
-      "translation": ""
+      "translation": "Sloped Double Track T 2"
     },
     {
       "key": "contribution.{rk-00A243-FENCE-PICTURE-1003}.name",
       "source": "勾配243",
-      "translation": ""
+      "translation": "Gradient 243"
     },
     {
       "key": "contribution.{rk-00A243-FENCE-PICTURE-1003}.group",
       "source": "勾配複線Ｔ２",
-      "translation": ""
+      "translation": "Sloped Double Track T 2"
     },
     {
       "key": "contribution.{rk-00A244-FENCE-PICTURE-1004}.name",
       "source": "勾配0244",
-      "translation": ""
+      "translation": "Slope 0244"
     },
     {
       "key": "contribution.{rk-00A244-FENCE-PICTURE-1004}.group",
       "source": "勾配複線Ｔ２",
-      "translation": ""
+      "translation": "Sloped Double Track T 2"
     },
     {
       "key": "contribution.{rk-00A245-FENCE-PICTURE-1001}.name",
       "source": "勾配245",
-      "translation": ""
+      "translation": "Gradient 245"
     },
     {
       "key": "contribution.{rk-00A245-FENCE-PICTURE-1001}.group",
       "source": "勾配複線Ｔ２",
-      "translation": ""
+      "translation": "Sloped Double Track T 2"
     },
     {
       "key": "contribution.{rk-00A246-FENCE-PICTURE-1002}.name",
       "source": "勾配246",
-      "translation": ""
+      "translation": "Gradient 246"
     },
     {
       "key": "contribution.{rk-00A246-FENCE-PICTURE-1002}.group",
       "source": "勾配複線Ｔ２",
-      "translation": ""
+      "translation": "Sloped Double Track T 2"
     },
     {
       "key": "contribution.{rk-00A247-FENCE-PICTURE-1003}.name",
       "source": "勾配247",
-      "translation": ""
+      "translation": "Gradient 247"
     },
     {
       "key": "contribution.{rk-00A247-FENCE-PICTURE-1003}.group",
       "source": "勾配複線Ｔ２",
-      "translation": ""
+      "translation": "Sloped Double Track T 2"
     },
     {
       "key": "contribution.{rk-00A248-FENCE-PICTURE-1004}.name",
       "source": "勾配0248",
-      "translation": ""
+      "translation": "Gradient 0248"
     },
     {
       "key": "contribution.{rk-00A248-FENCE-PICTURE-1004}.group",
       "source": "勾配複線Ｔ２",
-      "translation": ""
+      "translation": "Sloped Double Track T 2"
     },
     {
       "key": "contribution.{rk-00A249-FENCE-PICTURE-1002}.name",
       "source": "勾配249",
-      "translation": ""
+      "translation": "Gradient 249"
     },
     {
       "key": "contribution.{rk-00A249-FENCE-PICTURE-1002}.group",
       "source": "勾配複線Ｔ中１",
-      "translation": ""
+      "translation": "Sloped Double Track T Middle 1"
     },
     {
       "key": "contribution.{rk-00A250-FENCE-PICTURE-1002}.name",
       "source": "勾配250",
-      "translation": ""
+      "translation": "Gradient 250"
     },
     {
       "key": "contribution.{rk-00A250-FENCE-PICTURE-1002}.group",
       "source": "勾配複線Ｔ中１",
-      "translation": ""
+      "translation": "Sloped Double Track T Middle 1"
     },
     {
       "key": "contribution.{rk-00A251-FENCE-PICTURE-1003}.name",
       "source": "勾配251",
-      "translation": ""
+      "translation": "Gradient 251"
     },
     {
       "key": "contribution.{rk-00A251-FENCE-PICTURE-1003}.group",
       "source": "勾配複線Ｔ中１",
-      "translation": ""
+      "translation": "Sloped Double Track T Middle 1"
     },
     {
       "key": "contribution.{rk-00A252-FENCE-PICTURE-1004}.name",
       "source": "勾配0252",
-      "translation": ""
+      "translation": "Gradient 0252"
     },
     {
       "key": "contribution.{rk-00A252-FENCE-PICTURE-1004}.group",
       "source": "勾配複線Ｔ中１",
-      "translation": ""
+      "translation": "Sloped Double Track T Middle 1"
     },
     {
       "key": "contribution.{rk-00A253-FENCE-PICTURE-1002}.name",
       "source": "勾配253",
-      "translation": ""
+      "translation": "Gradient 253"
     },
     {
       "key": "contribution.{rk-00A253-FENCE-PICTURE-1002}.group",
       "source": "勾配複線Ｔ中１",
-      "translation": ""
+      "translation": "Sloped Double Track T Middle 1"
     },
     {
       "key": "contribution.{rk-00A254-FENCE-PICTURE-1002}.name",
       "source": "勾配254",
-      "translation": ""
+      "translation": "Gradient 254"
     },
     {
       "key": "contribution.{rk-00A254-FENCE-PICTURE-1002}.group",
       "source": "勾配複線Ｔ中１",
-      "translation": ""
+      "translation": "Sloped Double Track T Middle 1"
     },
     {
       "key": "contribution.{rk-00A255-FENCE-PICTURE-1003}.name",
       "source": "勾配255",
-      "translation": ""
+      "translation": "Gradient 255"
     },
     {
       "key": "contribution.{rk-00A255-FENCE-PICTURE-1003}.group",
       "source": "勾配複線Ｔ中１",
-      "translation": ""
+      "translation": "Sloped Double Track T Middle 1"
     },
     {
       "key": "contribution.{rk-00A256-FENCE-PICTURE-1004}.name",
       "source": "勾配0256",
-      "translation": ""
+      "translation": "Gradient 0256"
     },
     {
       "key": "contribution.{rk-00A256-FENCE-PICTURE-1004}.group",
       "source": "勾配複線Ｔ中１",
-      "translation": ""
+      "translation": "Sloped Double Track T Middle 1"
     },
     {
       "key": "contribution.{rk-00A257-FENCE-PICTURE-1004}.name",
       "source": "勾配0257",
-      "translation": ""
+      "translation": "Gradient 0257"
     },
     {
       "key": "contribution.{rk-00A257-FENCE-PICTURE-1004}.group",
       "source": "勾配複線Ｔ中２",
-      "translation": ""
+      "translation": "Sloped double track T middle 2"
     },
     {
       "key": "contribution.{rk-00A258-FENCE-PICTURE-1004}.name",
       "source": "勾配0258",
-      "translation": ""
+      "translation": "Gradient 0258"
     },
     {
       "key": "contribution.{rk-00A258-FENCE-PICTURE-1004}.group",
       "source": "勾配複線Ｔ中３",
-      "translation": ""
+      "translation": "Sloped double track T middle 3"
     },
     {
       "key": "contribution.{rk-00A300-FENCE-PICTURE-1001}.name",
       "source": "勾配300",
-      "translation": ""
+      "translation": "Gradient 300"
     },
     {
       "key": "contribution.{rk-00A300-FENCE-PICTURE-1001}.group",
       "source": "勾配単線丸",
-      "translation": ""
+      "translation": "Sloped Single Track Round"
     },
     {
       "key": "contribution.{rk-00A301-FENCE-PICTURE-1002}.name",
       "source": "勾配301",
-      "translation": ""
+      "translation": "Gradient 301"
     },
     {
       "key": "contribution.{rk-00A301-FENCE-PICTURE-1002}.group",
       "source": "勾配単線丸",
-      "translation": ""
+      "translation": "Sloped Single Track Round"
     },
     {
       "key": "contribution.{rk-00A302-FENCE-PICTURE-1003}.name",
       "source": "勾配302",
-      "translation": ""
+      "translation": "Gradient 302"
     },
     {
       "key": "contribution.{rk-00A302-FENCE-PICTURE-1003}.group",
       "source": "勾配単線丸",
-      "translation": ""
+      "translation": "Sloped Single Track Round"
     },
     {
       "key": "contribution.{rk-00A303-FENCE-PICTURE-1004}.name",
       "source": "勾配303",
-      "translation": ""
+      "translation": "Gradient 303"
     },
     {
       "key": "contribution.{rk-00A303-FENCE-PICTURE-1004}.group",
       "source": "勾配単線丸",
-      "translation": ""
+      "translation": "Sloped Single Track Round"
     },
     {
       "key": "contribution.{rk-00A304-FENCE-PICTURE-1001}.name",
       "source": "勾配304",
-      "translation": ""
+      "translation": "Gradient 304"
     },
     {
       "key": "contribution.{rk-00A304-FENCE-PICTURE-1001}.group",
       "source": "勾配単線丸",
-      "translation": ""
+      "translation": "Sloped Single Track Round"
     },
     {
       "key": "contribution.{rk-00A305-FENCE-PICTURE-1002}.name",
       "source": "勾配305",
-      "translation": ""
+      "translation": "Slope 305"
     },
     {
       "key": "contribution.{rk-00A305-FENCE-PICTURE-1002}.group",
       "source": "勾配単線丸",
-      "translation": ""
+      "translation": "Sloped Single Track Round"
     },
     {
       "key": "contribution.{rk-00A306-FENCE-PICTURE-1003}.name",
       "source": "勾配306",
-      "translation": ""
+      "translation": "Slope 306"
     },
     {
       "key": "contribution.{rk-00A306-FENCE-PICTURE-1003}.group",
       "source": "勾配単線丸",
-      "translation": ""
+      "translation": "Sloped Single Track Round"
     },
     {
       "key": "contribution.{rk-00A307-FENCE-PICTURE-1004}.name",
       "source": "勾配307",
-      "translation": ""
+      "translation": "Slope 307"
     },
     {
       "key": "contribution.{rk-00A307-FENCE-PICTURE-1004}.group",
       "source": "勾配単線丸",
-      "translation": ""
+      "translation": "Sloped Single Track Round"
     },
     {
       "key": "contribution.{rk-00A308-FENCE-PICTURE-1001}.name",
       "source": "勾配308",
-      "translation": ""
+      "translation": "Slope 308"
     },
     {
       "key": "contribution.{rk-00A308-FENCE-PICTURE-1001}.group",
       "source": "勾配複線丸１",
-      "translation": ""
+      "translation": "Sloped Double Track Round 1"
     },
     {
       "key": "contribution.{rk-00A309-FENCE-PICTURE-1002}.name",
       "source": "勾配309",
-      "translation": ""
+      "translation": "Slope 309"
     },
     {
       "key": "contribution.{rk-00A309-FENCE-PICTURE-1002}.group",
       "source": "勾配複線丸１",
-      "translation": ""
+      "translation": "Sloped Double Track Round 1"
     },
     {
       "key": "contribution.{rk-00A310-FENCE-PICTURE-1003}.name",
       "source": "勾配310",
-      "translation": ""
+      "translation": "Slope 310"
     },
     {
       "key": "contribution.{rk-00A310-FENCE-PICTURE-1003}.group",
       "source": "勾配複線丸１",
-      "translation": ""
+      "translation": "Sloped Double Track Round 1"
     },
     {
       "key": "contribution.{rk-00A311-FENCE-PICTURE-1004}.name",
       "source": "勾配311",
-      "translation": ""
+      "translation": "Slope 311"
     },
     {
       "key": "contribution.{rk-00A311-FENCE-PICTURE-1004}.group",
       "source": "勾配複線丸１",
-      "translation": ""
+      "translation": "Sloped Double Track Round 1"
     },
     {
       "key": "contribution.{rk-00A312-FENCE-PICTURE-1001}.name",
       "source": "勾配312",
-      "translation": ""
+      "translation": "Slope 312"
     },
     {
       "key": "contribution.{rk-00A312-FENCE-PICTURE-1001}.group",
       "source": "勾配複線丸１",
-      "translation": ""
+      "translation": "Sloped Double Track Round 1"
     },
     {
       "key": "contribution.{rk-00A313-FENCE-PICTURE-1002}.name",
       "source": "勾配313",
-      "translation": ""
+      "translation": "Slope 313"
     },
     {
       "key": "contribution.{rk-00A313-FENCE-PICTURE-1002}.group",
       "source": "勾配複線丸１",
-      "translation": ""
+      "translation": "Sloped Double Track Round 1"
     },
     {
       "key": "contribution.{rk-00A314-FENCE-PICTURE-1003}.name",
       "source": "勾配314",
-      "translation": ""
+      "translation": "Slope 314"
     },
     {
       "key": "contribution.{rk-00A314-FENCE-PICTURE-1003}.group",
       "source": "勾配複線丸１",
-      "translation": ""
+      "translation": "Sloped Double Track Round 1"
     },
     {
       "key": "contribution.{rk-00A315-FENCE-PICTURE-1004}.name",
       "source": "勾配315",
-      "translation": ""
+      "translation": "Slope 315"
     },
     {
       "key": "contribution.{rk-00A315-FENCE-PICTURE-1004}.group",
       "source": "勾配複線丸１",
-      "translation": ""
+      "translation": "Sloped Double Track Round 1"
     },
     {
       "key": "contribution.{rk-00A316-FENCE-PICTURE-1001}.name",
       "source": "勾配316",
-      "translation": ""
+      "translation": "Slope 316"
     },
     {
       "key": "contribution.{rk-00A316-FENCE-PICTURE-1001}.group",
       "source": "勾配複線丸２",
-      "translation": ""
+      "translation": "Sloped Double Track Round 2"
     },
     {
       "key": "contribution.{rk-00A317-FENCE-PICTURE-1002}.name",
       "source": "勾配317",
-      "translation": ""
+      "translation": "Slope 317"
     },
     {
       "key": "contribution.{rk-00A317-FENCE-PICTURE-1002}.group",
       "source": "勾配複線丸２",
-      "translation": ""
+      "translation": "Sloped Double Track Round 2"
     },
     {
       "key": "contribution.{rk-00A318-FENCE-PICTURE-1003}.name",
       "source": "勾配318",
-      "translation": ""
+      "translation": "Slope 318"
     },
     {
       "key": "contribution.{rk-00A318-FENCE-PICTURE-1003}.group",
       "source": "勾配複線丸２",
-      "translation": ""
+      "translation": "Sloped Double Track Round 2"
     },
     {
       "key": "contribution.{rk-00A319-FENCE-PICTURE-1004}.name",
       "source": "勾配319",
-      "translation": ""
+      "translation": "Slope 319"
     },
     {
       "key": "contribution.{rk-00A319-FENCE-PICTURE-1004}.group",
       "source": "勾配複線丸２",
-      "translation": ""
+      "translation": "Sloped Double Track Round 2"
     },
     {
       "key": "contribution.{rk-00A320-FENCE-PICTURE-1001}.name",
       "source": "勾配320",
-      "translation": ""
+      "translation": "Slope 320"
     },
     {
       "key": "contribution.{rk-00A320-FENCE-PICTURE-1001}.group",
       "source": "勾配複線丸２",
-      "translation": ""
+      "translation": "Sloped Double Track Round 2"
     },
     {
       "key": "contribution.{rk-00A321-FENCE-PICTURE-1002}.name",
       "source": "勾配321",
-      "translation": ""
+      "translation": "Slope 321"
     },
     {
       "key": "contribution.{rk-00A321-FENCE-PICTURE-1002}.group",
       "source": "勾配複線丸２",
-      "translation": ""
+      "translation": "Sloped Double Track Round 2"
     },
     {
       "key": "contribution.{rk-00A322-FENCE-PICTURE-1003}.name",
       "source": "勾配322",
-      "translation": ""
+      "translation": "Slope 322"
     },
     {
       "key": "contribution.{rk-00A322-FENCE-PICTURE-1003}.group",
       "source": "勾配複線丸２",
-      "translation": ""
+      "translation": "Sloped Double Track Round 2"
     },
     {
       "key": "contribution.{rk-00A323-FENCE-PICTURE-1004}.name",
       "source": "勾配323",
-      "translation": ""
+      "translation": "Slope 323"
     },
     {
       "key": "contribution.{rk-00A323-FENCE-PICTURE-1004}.group",
       "source": "勾配複線丸２",
-      "translation": ""
+      "translation": "Sloped Double Track Round 2"
     },
     {
       "key": "contribution.{rk-00A350-FENCE-PICTURE-1004}.name",
       "source": "勾配350",
-      "translation": ""
+      "translation": "Slope 350"
     },
     {
       "key": "contribution.{rk-00A350-FENCE-PICTURE-1004}.group",
       "source": "勾配その他丸",
-      "translation": ""
+      "translation": "Slope and Other Round"
     },
     {
       "key": "contribution.{rk-00A351-FENCE-PICTURE-1003}.name",
       "source": "勾配351",
-      "translation": ""
+      "translation": "Slope 351"
     },
     {
       "key": "contribution.{rk-00A351-FENCE-PICTURE-1003}.group",
       "source": "勾配その他丸",
-      "translation": ""
+      "translation": "Slope and Other Round"
     },
     {
       "key": "contribution.{rk-00A352-FENCE-PICTURE-1003}.name",
       "source": "勾配351",
-      "translation": ""
+      "translation": "Slope 351"
     },
     {
       "key": "contribution.{rk-00A352-FENCE-PICTURE-1003}.group",
       "source": "勾配その他丸",
-      "translation": ""
+      "translation": "Slope and Other Round"
     },
     {
       "key": "contribution.{rk-00A353-FENCE-PICTURE-1003}.name",
       "source": "勾配353",
-      "translation": ""
+      "translation": "Slope 353"
     },
     {
       "key": "contribution.{rk-00A353-FENCE-PICTURE-1003}.group",
       "source": "勾配その他丸",
-      "translation": ""
+      "translation": "Slope and Other Round"
     },
     {
       "key": "contribution.{rk-00A354-FENCE-PICTURE-1003}.name",
       "source": "勾配354",
-      "translation": ""
+      "translation": "Slope 354"
     },
     {
       "key": "contribution.{rk-00A354-FENCE-PICTURE-1003}.group",
       "source": "勾配その他丸",
-      "translation": ""
+      "translation": "Slope and Other Round"
     }
   ]
 }

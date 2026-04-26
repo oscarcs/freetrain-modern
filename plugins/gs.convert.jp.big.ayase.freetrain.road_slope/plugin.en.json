@@ -5,18 +5,18 @@
   "texts": [
     {
       "key": "plugin.title",
-      "source": "建物総合コンバート\u3000綾瀬ヒロ",
-      "translation": ""
+      "source": "建物総合コンバート　綾瀬ヒロ",
+      "translation": "Building General Conversion Ayase Hiro"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-SlopeN}-gs.group",
       "source": "勾配道路(一般)",
-      "translation": ""
+      "translation": "Sloped Road (General)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-Slope2N}-gs.group",
       "source": "勾配道路(高速)",
-      "translation": ""
+      "translation": "Sloped Road (Expressway)"
     }
   ]
 }

@@ -5,508 +5,508 @@
   "texts": [
     {
       "key": "plugin.title",
-      "source": "旧日本国有鉄道型\u3000旧式車両",
-      "translation": ""
+      "source": "旧日本国有鉄道型　旧式車両",
+      "translation": "Former JNR type old-style rolling stock"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K01-01}.name",
       "source": "パレット貨物列車",
-      "translation": ""
+      "translation": "Pallet freight train"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K01-01}.company",
       "source": "JR貨物",
-      "translation": ""
+      "translation": "JR Freight"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K01-01}.description",
       "source": "パレットを搭載することを目的とした貨物列車。牽引はEF64単機または重連。",
-      "translation": ""
+      "translation": "A freight train designed to carry pallets. Pulled by a single EF64 or a double-headed EF64."
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K01-02}.name",
       "source": "パレット貨物列車",
-      "translation": ""
+      "translation": "Pallet freight train"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K01-02}.company",
       "source": "JR貨物",
-      "translation": ""
+      "translation": "JR Freight"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K01-02}.description",
       "source": "パレットを搭載することを目的とした貨物列車。牽引はEF71単機または重連。",
-      "translation": ""
+      "translation": "A freight train designed to carry pallets. Pulled by a single EF71 or a double-headed EF71."
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K01-03}.name",
       "source": "パレット貨物列車",
-      "translation": ""
+      "translation": "Pallet freight train"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K01-03}.company",
       "source": "JR貨物",
-      "translation": ""
+      "translation": "JR Freight"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K01-03}.description",
       "source": "パレットを搭載することを目的とした貨物列車。牽引はDD51単機または重連。",
-      "translation": ""
+      "translation": "A freight train designed to carry pallets. Pulled by a single DD51 or a double-headed DD51."
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K01-04}.name",
       "source": "パレット貨物列車",
-      "translation": ""
+      "translation": "Pallet freight train"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K01-04}.company",
       "source": "JR貨物",
-      "translation": ""
+      "translation": "JR Freight"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K01-04}.type",
       "source": "EF 65 特急色",
-      "translation": ""
+      "translation": "EF 65 Limited Express Livery"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K01-04}.description",
       "source": "パレットを搭載することを目的とした貨物列車。牽引はEF65単機または重連。",
-      "translation": ""
+      "translation": "Freight train designed to carry pallets. Hauled by a single EF65 or double-headed EF65."
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K02-01}.name",
       "source": "ガソリン輸送貨物列車",
-      "translation": ""
+      "translation": "Gasoline Freight Train"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K02-01}.company",
       "source": "JR貨物",
-      "translation": ""
+      "translation": "JR Freight"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K02-01}.description",
       "source": "ガソリン等揮発油輸送を目的とした貨物列車。牽引はDD51単機または重連。",
-      "translation": ""
+      "translation": "A freight train for transporting gasoline and other volatile oils. Hauled by a single DD51 or a double-headed DD51."
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K02-02}.name",
       "source": "ガソリン輸送貨物列車",
-      "translation": ""
+      "translation": "Gasoline Freight Train"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K02-02}.company",
       "source": "JR貨物",
-      "translation": ""
+      "translation": "JR Freight"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K02-02}.description",
       "source": "ガソリン等揮発油輸送を目的とした貨物列車。牽引はEF64単機または重連。",
-      "translation": ""
+      "translation": "Freight train for transporting gasoline and other volatile oils. Hauled by a single EF64 or double-headed EF64."
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K02-03}.name",
       "source": "ガソリン輸送貨物列車",
-      "translation": ""
+      "translation": "Gasoline Freight Train"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K02-03}.company",
       "source": "JR貨物",
-      "translation": ""
+      "translation": "JR Freight"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K02-03}.description",
       "source": "ガソリン等揮発油輸送を目的とした貨物列車。牽引はEF71単機または重連。",
-      "translation": ""
+      "translation": "A freight train for transporting gasoline and other volatile oils. Hauled by a single EF71 or a double-headed EF71."
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K02-04}.name",
       "source": "ガソリン輸送貨物列車",
-      "translation": ""
+      "translation": "Gasoline Freight Train"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K02-04}.company",
       "source": "JR貨物",
-      "translation": ""
+      "translation": "JR Freight"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K02-04}.description",
       "source": "ガソリン等揮発油輸送を目的とした貨物列車。牽引はEF15単機または重連。",
-      "translation": ""
+      "translation": "A freight train for transporting gasoline and other volatile oils. Hauled by a single EF15 or a double-headed EF15."
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K02-05}.name",
       "source": "ガソリン輸送貨物列車",
-      "translation": ""
+      "translation": "Gasoline Freight Train"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K02-05}.company",
       "source": "JR貨物",
-      "translation": ""
+      "translation": "JR Freight"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K02-05}.type",
       "source": "EF 65 特急色",
-      "translation": ""
+      "translation": "EF 65 Limited Express Livery"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K02-05}.description",
       "source": "ガソリン等揮発油輸送を目的とした貨物列車。牽引はEF65単機または重連。",
-      "translation": ""
+      "translation": "Freight train for transporting gasoline and other volatile oils. Hauled by a single EF65 or double-headed EF65."
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K03-01}.name",
       "source": "コンテナ貨物列車",
-      "translation": ""
+      "translation": "Container freight train"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K03-01}.company",
       "source": "JR貨物",
-      "translation": ""
+      "translation": "JR Freight"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K03-01}.description",
       "source": "コンテナ輸送を目的とした貨物列車。牽引はEF64単機または重連。",
-      "translation": ""
+      "translation": "Freight train for container transport. Hauled by a single EF64 or a double-header."
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K03-02}.name",
       "source": "コンテナ貨物列車",
-      "translation": ""
+      "translation": "Container freight train"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K03-02}.company",
       "source": "JR貨物",
-      "translation": ""
+      "translation": "JR Freight"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K03-02}.description",
       "source": "コンテナ輸送を目的とした貨物列車。牽引はDD51単機または重連。",
-      "translation": ""
+      "translation": "Freight train for container transport. Hauled by a single DD51 or a double-header."
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K03-03}.name",
       "source": "コンテナ貨物列車",
-      "translation": ""
+      "translation": "Container freight train"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K03-03}.company",
       "source": "JR貨物",
-      "translation": ""
+      "translation": "JR Freight"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K03-03}.type",
       "source": "EF 65 特急色",
-      "translation": ""
+      "translation": "EF 65 Limited Express Livery"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K03-03}.description",
       "source": "コンテナ輸送を目的とした貨物列車。牽引はEF65単機または重連。",
-      "translation": ""
+      "translation": "Freight train for container transport. Hauled by a single EF65 or a double-header."
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K03-04}.name",
       "source": "コンテナ貨物列車",
-      "translation": ""
+      "translation": "Container freight train"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K03-04}.company",
       "source": "JR貨物",
-      "translation": ""
+      "translation": "JR Freight"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K03-04}.description",
       "source": "コンテナ輸送を目的とした貨物列車。牽引はEF15単機または重連。",
-      "translation": ""
+      "translation": "Freight train for container transport. Hauled by a single EF15 or a double-header."
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K04-01}.name",
       "source": "スーパーレールカーゴ",
-      "translation": ""
+      "translation": "Super Rail Cargo"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K04-01}.company",
       "source": "JR貨物",
-      "translation": ""
+      "translation": "JR Freight"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K04-01}.type",
       "source": "貨物電車",
-      "translation": ""
+      "translation": "Freight electric train"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K04-01}.description",
       "source": "高速コンテナ輸送を目的とした貨物電車。世界初の動力分散型列車による貨物輸送である。",
-      "translation": ""
+      "translation": "A freight electric train designed for high-speed container transport. It is the world's first freight transport by a distributed power train."
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K05-01}.name",
       "source": "混結貨物列車",
-      "translation": ""
+      "translation": "Mixed Freight Train"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K05-01}.company",
       "source": "JR貨物",
-      "translation": ""
+      "translation": "JR Freight"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-K05-01}.description",
       "source": "パレットを搭載することを目的とした貨物列車。牽引はEF65単機または重連。",
-      "translation": ""
+      "translation": "Freight train designed to carry pallets. Hauled by a single EF65 or double-headed EF65."
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R01-01.name",
       "source": "旧客普通列車（青）",
-      "translation": ""
+      "translation": "Old Passenger Local Train (Blue)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R01-01.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R01-01.description",
       "source": "旧式客車で編成された普通列車。荷物車も併結する。",
-      "translation": ""
+      "translation": "Local train formed by old-style passenger coaches. Also coupled with baggage cars."
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R01-02.name",
       "source": "旧客普通列車（青）",
-      "translation": ""
+      "translation": "Old Passenger Local Train (Blue)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R01-02.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R01-02.description",
       "source": "旧式客車で編成された普通列車。荷物車も併結する。",
-      "translation": ""
+      "translation": "Local train formed by old-style passenger coaches. Also coupled with baggage cars."
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R01-03.name",
       "source": "旧客普通列車（青）",
-      "translation": ""
+      "translation": "Old Passenger Local Train (Blue)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R01-03.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R01-03.description",
       "source": "旧式客車で編成された普通列車。荷物車も併結する。",
-      "translation": ""
+      "translation": "Local train formed by old-style passenger coaches. Also coupled with baggage cars."
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R01-04.name",
       "source": "旧客普通列車（青）",
-      "translation": ""
+      "translation": "Old Passenger Local Train (Blue)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R01-04.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R01-04.description",
       "source": "旧式客車で編成された普通列車。荷物車も併結する。",
-      "translation": ""
+      "translation": "Local train formed by old-style passenger coaches. Also coupled with baggage cars."
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R02-01.name",
       "source": "旧客普通列車（茶）",
-      "translation": ""
+      "translation": "Old Passenger Local Train (Brown)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R02-01.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R02-01.description",
       "source": "旧式客車で編成された普通列車。荷物車も併結する。",
-      "translation": ""
+      "translation": "Local train formed by old-style passenger coaches. Also coupled with baggage cars."
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R02-02.name",
       "source": "旧客普通列車（茶）",
-      "translation": ""
+      "translation": "Old Passenger Local Train (Brown)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R02-02.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R02-02.description",
       "source": "旧式客車で編成された普通列車。荷物車も併結する。",
-      "translation": ""
+      "translation": "Local train formed by old-style passenger coaches. Also coupled with baggage cars."
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R02-03.name",
       "source": "旧客普通列車（茶）",
-      "translation": ""
+      "translation": "Old Passenger Local Train (Brown)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R02-03.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R02-03.description",
       "source": "旧式客車で編成された普通列車。荷物車も併結する。",
-      "translation": ""
+      "translation": "Local train formed by old-style passenger coaches. Also coupled with baggage cars."
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R02-04.name",
       "source": "旧客普通列車（茶）",
-      "translation": ""
+      "translation": "Old Passenger Local Train (Brown)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R02-04.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R02-04.description",
       "source": "旧式客車で編成された普通列車。荷物車も併結する。",
-      "translation": ""
+      "translation": "Local train formed by old-style passenger coaches. Also coupled with baggage cars."
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R03-01.name",
       "source": "旧客急行荷物列車",
-      "translation": ""
+      "translation": "Former Passenger Express Baggage Train"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R03-01.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R03-01.description",
       "source": "旧式客車で編成された郵便・荷物列車。",
-      "translation": ""
+      "translation": "Mail and baggage train formed with old-style passenger coaches."
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R03-02.name",
       "source": "旧客急行荷物列車",
-      "translation": ""
+      "translation": "Former Passenger Express Baggage Train"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R03-02.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R03-02.description",
       "source": "旧式客車で編成された郵便・荷物列車。",
-      "translation": ""
+      "translation": "Mail and baggage train formed with old-style passenger coaches."
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R03-03.name",
       "source": "旧客急行荷物列車",
-      "translation": ""
+      "translation": "Former Passenger Express Baggage Train"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R03-03.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R03-03.description",
       "source": "旧式客車で編成された郵便・荷物列車。",
-      "translation": ""
+      "translation": "Mail and baggage train formed with old-style passenger coaches."
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R03-04.name",
       "source": "旧客急行荷物列車",
-      "translation": ""
+      "translation": "Former Passenger Express Baggage Train"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R03-04.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R03-04.description",
       "source": "旧式客車で編成された郵便・荷物列車。",
-      "translation": ""
+      "translation": "Mail and baggage train formed with old-style passenger coaches."
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R03-05.name",
       "source": "旧客急行荷物列車",
-      "translation": ""
+      "translation": "Former Passenger Express Baggage Train"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R03-05.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R03-05.description",
       "source": "旧式客車で編成された郵便・荷物列車。",
-      "translation": ""
+      "translation": "Mail and baggage train formed with old-style passenger coaches."
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R04-01.name",
       "source": "20系ブルートレイン",
-      "translation": ""
+      "translation": "20 Series Blue Train"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R04-01.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R04-01.description",
       "source": "走るホテルと絶賛された初代ブルートレイン車両による往年の夜行特急列車。",
-      "translation": ""
+      "translation": "A classic overnight limited express train, praised as a 'hotel on wheels,' featuring the first-generation Blue Train rolling stock."
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R04-02.name",
       "source": "20系ブルートレイン",
-      "translation": ""
+      "translation": "20 Series Blue Train"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R04-02.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R04-02.description",
       "source": "走るホテルと絶賛された初代ブルートレイン車両による往年の夜行特急列車。",
-      "translation": ""
+      "translation": "A classic overnight limited express train, praised as a 'hotel on wheels,' featuring the first-generation Blue Train rolling stock."
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R04-03.name",
       "source": "20系ブルートレイン",
-      "translation": ""
+      "translation": "20 Series Blue Train"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R04-03.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-R04-03.description",
       "source": "走るホテルと絶賛された初代ブルートレイン車両による往年の夜行特急列車。",
-      "translation": ""
+      "translation": "A classic overnight limited express train, praised as a 'hotel on wheels,' featuring the first-generation Blue Train rolling stock."
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-Z01-01.name",
       "source": "特雪",
-      "translation": ""
+      "translation": "Special Snowplow"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-Z01-01.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-Z01-01.description",
       "source": "簡易線区用に導入されたラッセル車。本機の前後にラッセルヘッドを持っている。",
-      "translation": ""
+      "translation": "A Russell snowplow introduced for simple line sections. This unit has snowplow heads at both the front and rear."
     }
   ]
 }

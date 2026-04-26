@@ -6,167 +6,167 @@
     {
       "key": "plugin.title",
       "source": "E231系・E217系FIXEDver",
-      "translation": ""
+      "translation": "E231 Series / E217 Series FIXEDver"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-209500SOUBU}.name",
       "source": "中央・総武線（緩行）",
-      "translation": ""
+      "translation": "Chuo-Sobu Line (Local)"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-209500SOUBU}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-209500SOUBU}.type",
       "source": "209系500番台",
-      "translation": ""
+      "translation": "209 Series 500 sub-series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-209500SOUBU}.description",
       "source": "旧式化した初期型103系置き換えのため登場。同線のE231とは前面が少し違う。",
-      "translation": ""
+      "translation": "Introduced to replace the aging early model 103 Series. The front design is slightly different from the E231 Series on the same line."
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-209500KEHIN}.name",
       "source": "京浜東北線",
-      "translation": ""
+      "translation": "Keihin-Tohoku Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-209500KEHIN}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-209500KEHIN}.type",
       "source": "209系500番台",
-      "translation": ""
+      "translation": "209 Series 500 sub-series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-209500KEHIN}.description",
       "source": "中央・総武緩行線に導入された209系500番台のうち、新型ATCのﾃｽﾄのため、ニ編成が京浜東北線に移籍した。先任の209系と同じ青い帯を巻いて活躍中。",
-      "translation": ""
+      "translation": "Of the 209 Series 500 sub-series introduced on the Chuo-Sobu Local Line, two sets were transferred to the Keihin-Tohoku Line for testing a new ATC system. They are currently in service, sporting the same blue stripe as the preceding 209 Series."
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-7567-E231SOUBU}.name",
       "source": "中央・総武線（緩行）",
-      "translation": ""
+      "translation": "Chuo-Sobu Line (Local)"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-7567-E231SOUBU}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-7567-E231SOUBU}.type",
       "source": "E231系(fixed by kitapoppoya)",
-      "translation": ""
+      "translation": "E231 Series (fixed by kitapoppoya)"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-7567-E231SOUBU}.description",
       "source": "209系500番台導入後、残された高運転台103系と205系の置き換えのため登場。209系500番代とは車体は共通。",
-      "translation": ""
+      "translation": "Introduced to replace the remaining high-cab 103 Series and 205 Series after the introduction of the 209 Series 500 series. The body is common with the 209 Series 500 series."
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-7567-E231JOBAN}.name",
       "source": "常磐快速線",
-      "translation": ""
+      "translation": "Joban Rapid Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-7567-E231JOBAN}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-7567-E231JOBAN}.type",
       "source": "E231系(fixed by kitapoppoya)",
-      "translation": ""
+      "translation": "E231 Series (fixed by kitapoppoya)"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-7567-E231JOBAN}.description",
       "source": "取手以南の103系置き換えのため導入が開始された。無論、直流区間でしか走行できない。",
-      "translation": ""
+      "translation": "Introduced to replace the 103 Series south of Toride. Naturally, it can only operate on DC sections."
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-7567-E231500}.name",
       "source": "山手線",
-      "translation": ""
+      "translation": "Yamanote Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-7567-E231500}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-7567-E231500}.type",
       "source": "E231系500番台(fixed by kitapoppoya)",
-      "translation": ""
+      "translation": "E231 Series 500 sub-series (fixed by kitapoppoya)"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-7567-E231500}.description",
       "source": "山手線のサービス向上と経年化した205系の他線区への捻出を目的として製造された車両。",
-      "translation": ""
+      "translation": "Vehicles manufactured to improve Yamanote Line service and to reallocate aging 205 Series trains to other lines."
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-E231TOKAIDO}.name",
       "source": "宇都宮・高崎線",
-      "translation": ""
+      "translation": "Utsunomiya / Takasaki Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-E231TOKAIDO}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-E231TOKAIDO}.type",
       "source": "E231系(fixed by kitapoppoya)",
-      "translation": ""
+      "translation": "E231 Series (fixed by kitapoppoya)"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-E231TOKAIDO}.description",
       "source": "113･115系置き換えのために登場した、E231系初の近郊型。こちらはWデッカーグリーン車を挟まない。",
-      "translation": ""
+      "translation": "The E231 Series, the first suburban type, appeared to replace the 113 and 115 Series. This variant does not include double-decker Green Cars."
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-E231TOKAIDO}.name",
       "source": "東海道線",
-      "translation": ""
+      "translation": "Tokaido Line"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-E231TOKAIDO}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-E231TOKAIDO}.type",
       "source": "E231系(fixed by kitapoppoya)",
-      "translation": ""
+      "translation": "E231 Series (fixed by kitapoppoya)"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-E231TOKAIDO}.description",
       "source": "113･115系置き換えのために登場した、E231系初の近郊型。東海道口の車両にはWデッカーのグリーン車が二両組み込まれている。",
-      "translation": ""
+      "translation": "The E231 Series, the first suburban type, appeared to replace the 113 and 115 Series. Vehicles on the Tokaido Line include two double-decker Green Cars."
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-E217TOKAIDO}.name",
       "source": "東海道線",
-      "translation": ""
+      "translation": "Tokaido Line"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-E217TOKAIDO}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-E217TOKAIDO}.type",
       "source": "E217系",
-      "translation": ""
+      "translation": "E217 Series"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-E217TOKAIDO}.description",
       "source": "東海道線に移籍したE217系。最初はおふざけで作ったつもりだったんだけど、まさか現実になろうとは・・・。",
-      "translation": ""
+      "translation": "The E217 Series transferred to the Tokaido Line. I initially made it as a joke, but I never thought it would become a reality..."
     }
   ]
 }

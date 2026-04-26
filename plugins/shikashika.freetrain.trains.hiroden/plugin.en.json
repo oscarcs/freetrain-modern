@@ -6,717 +6,717 @@
     {
       "key": "plugin.title",
       "source": "路面電車",
-      "translation": ""
+      "translation": "Tram"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-51}.name",
       "source": "無蓋貨車",
-      "translation": ""
+      "translation": "Open-top freight car"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-51}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-51}.type",
       "source": "貨50形",
-      "translation": ""
+      "translation": "Ka 50 Type"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-51}.description",
       "source": "昭和4年梅鉢鉄工所･富永田造船所製造の元大阪市電の1600型で、昭和40年に広電に移籍し750形となり、昭和55年に無蓋貨車として改造され貨50形となりました。花電車としてフラワーフェスティバルや交通安全運動、カープなどの優勝パレードに運用されています。",
-      "translation": ""
+      "translation": "Originally Osaka Municipal Tram's 1600 series, manufactured in 1929 by Umebachi Iron Works and Tominagata Shipyard. It was transferred to Hiroden in 1965, becoming the 750 series, and then converted into an open-top freight car, the Ka 50 series, in 1980. It is operated as a flower tram for events such as the Flower Festival, traffic safety campaigns, and Carp championship parades."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-52}.name",
       "source": "無蓋貨車(テント屋根付き)",
-      "translation": ""
+      "translation": "Open-top freight car (with tent roof)"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-52}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-52}.type",
       "source": "貨50形",
-      "translation": ""
+      "translation": "Ka 50 Type"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-52}.description",
       "source": "昭和4年梅鉢鉄工所･富永田造船所製造の元大阪市電の1600型で、昭和40年に広電に移籍し750形となり、昭和54年に無蓋貨車として改造され貨50形となりました。花電車としてフラワーフェスティバルや交通安全運動、カープなどの優勝パレードに運用されています。",
-      "translation": ""
+      "translation": "Originally Osaka Municipal Tram's 1600 series, manufactured in 1929 by Umebachi Iron Works and Tominagata Shipyard. It was transferred to Hiroden in 1965, becoming the 750 series, and then converted into an open-top freight car, the Ka 50 series, in 1979. It is operated as a flower tram for events such as the Flower Festival, traffic safety campaigns, and Carp championship parades."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-76}.name",
       "source": "元ドルトムント都市事業(銀)",
-      "translation": ""
+      "translation": "Former Dortmund Stadtwerke (Silver)"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-76}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-76}.type",
       "source": "70形",
-      "translation": ""
+      "translation": "70 Type"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-76}.description",
       "source": "元西ドイツのドルトムント市のドルトムント都市事業のＧＴ－８形です。昭和34年デュワグ社製造で、アルナ工機で改造されて昭和56年に広電に移籍しています。76号は車体が銀色です。",
-      "translation": ""
+      "translation": "This is the GT-8 Series from Dortmund Stadtwerke in former West Germany. Manufactured by Duewag in Showa 34 (1959), it was modified by Arna Koki and transferred to Hiroden in Showa 56 (1981). Car No. 76 has a silver body."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-77}.name",
       "source": "元ドルトムント都市事業(茶)",
-      "translation": ""
+      "translation": "Former Dortmund Stadtwerke (Brown)"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-77}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-77}.type",
       "source": "70形",
-      "translation": ""
+      "translation": "70 Type"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-77}.description",
       "source": "元西ドイツのドルトムント市のドルトムント都市事業のＧＴ－８形です。昭和34年デュワグ社製造で、アルナ工機で改造されて昭和56年に広電に移籍しています。77号は車体が茶色です。",
-      "translation": ""
+      "translation": "This is the GT-8 Series from Dortmund Stadtwerke in former West Germany. Manufactured by Duewag in Showa 34 (1959), it was modified by Arna Koki and transferred to Hiroden in Showa 56 (1981). Car No. 77 has a brown body."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-101}.name",
       "source": "大正電車",
-      "translation": ""
+      "translation": "Taisho Era Electric Train"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-101}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-101}.type",
       "source": "100形",
-      "translation": ""
+      "translation": "Type 100"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-101}.description",
       "source": "大正1年の｢広島電気軌道株式会社｣の開業時に走っていた、明治45年製造の2重屋根単車A形101号を復元したものです。車両は、大正14年梅鉢鉄工所製造で昭和46年に廃車となり交通公園に展示されていた被爆電車の157をベースにして、昭和59年に大阪車両で改造したものです。",
-      "translation": ""
+      "translation": "This is a restored version of the double-roof single car Type A No. 101, manufactured in Meiji 45 (1912), which ran at the opening of 'Hiroshima Electric Railway Co., Ltd.' in Taisho 1 (1912). The vehicle was modified in Showa 59 (1984) at Osaka Sharyo, based on the atomic bomb-damaged tram 157, manufactured by Umebachi Iron Works in Taisho 14 (1925), which was scrapped in Showa 46 (1971) and displayed in a traffic park."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-156}.name",
       "source": "被爆電車",
-      "translation": ""
+      "translation": "Atomic Bomb Survivor Tram"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-156}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-156}.type",
       "source": "150形",
-      "translation": ""
+      "translation": "Type 150"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-156}.description",
       "source": "大正14年梅鉢鉄工所製造。昭和46年に一度廃車にされましたが、昭和62年に改良され車籍が復活しました。",
-      "translation": ""
+      "translation": "Manufactured by Umebachi Iron Works in Taisho 14 (1925). It was once scrapped in Showa 46 (1971), but was improved and had its registration revived in Showa 62 (1987)."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-238}.name",
       "source": "元ハノーバー交通事業",
-      "translation": ""
+      "translation": "Former Hanover Transport Authority"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-238}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-238}.type",
       "source": "200形",
-      "translation": ""
+      "translation": "200 Type"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-238}.description",
       "source": "元西ドイツのハノーバー市のハノーバー交通事業の路面電車です。昭和3年製造ですが第２次大戦で被災し、昭和25年にデュワグ社で再生、昭和51年には廃車となりハノーバー市市電博物館で保存されていました。広島市とハノーバー市の姉妹都市提携5周年を記念して、平成1年に贈与されたものです(ちなみに広島市からは昭和63年に茶室を贈呈、その返礼)。",
-      "translation": ""
+      "translation": "This is a tram from Hanover Transport Authority in former West Germany. Manufactured in Showa 3 (1928), it was damaged in World War II, rebuilt by Duewag in Showa 25 (1950), and retired in Showa 51 (1976), then preserved at the Hanover City Tram Museum. It was donated in Heisei 1 (1989) to commemorate the 5th anniversary of the sister city agreement between Hiroshima and Hanover (Hiroshima presented a tea house in Showa 63 (1988) in return)."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-238x}.name",
       "source": "クリスマス電車",
-      "translation": ""
+      "translation": "Christmas Tram"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-238x}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-238x}.type",
       "source": "200形",
-      "translation": ""
+      "translation": "200 Type"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-238x}.description",
       "source": "元西ドイツのハノーバー市のハノーバー交通事業の路面電車です。クリスマスになると電飾で飾られ、大量のサンタを乗せて(お客は乗せません)市内を巡回します。電飾のイルミネーションが綺麗です。",
-      "translation": ""
+      "translation": "This is a tram from Hanover Transport Authority in former West Germany. During Christmas, it is decorated with illuminations and tours the city carrying many Santas (no passengers). The illuminated decorations are beautiful."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-351}.name",
       "source": "路面電車",
-      "translation": ""
+      "translation": "Tram"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-351}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-351}.type",
       "source": "350形",
-      "translation": ""
+      "translation": "350 type"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-351}.description",
       "source": "昭和33年ナニワ工機製造。当初は850形で、昭和37年には宮島線直通運転用として直通色(オリエントピーチ)に塗られていましが、昭和46年に350形に改番され、市内線色にされました。乙種免許の教習車としても使用されています。",
-      "translation": ""
+      "translation": "Manufactured in 1958 by Naniwa Koki. Initially the 850 series, it was painted in the through-service color (Orient Peach) in 1962 for direct operation on the Miyajima Line, but was renumbered to the 350 series in 1971 and given the city line color. It is also used as a training vehicle for Class B licenses."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-551}.name",
       "source": "路面電車",
-      "translation": ""
+      "translation": "Tram"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-551}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-551}.type",
       "source": "550形",
-      "translation": ""
+      "translation": "550 Series"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-551}.description",
       "source": "昭和30年ナニワ工機製造で、広電初の全金属製電車です。市内線としては初めてパンタグラフを装備しました。また、車体側面の広告は、半透明アクリル板で裏側から蛍光灯で照らし出す｢照明広告｣でしたが、現在は全車撤去されています。",
-      "translation": ""
+      "translation": "Manufactured in 1955 by Naniwa Koki, it was Hiroden's first all-metal electric train. It was the first city line vehicle to be equipped with a pantograph. Also, the advertisements on the side of the car body were 'illuminated advertisements' lit by fluorescent lamps from behind a translucent acrylic panel, but these have now been removed from all cars."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-571}.name",
       "source": "元神戸市電",
-      "translation": ""
+      "translation": "Former Kobe Municipal Tram"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-571}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-571}.type",
       "source": "570形",
-      "translation": ""
+      "translation": "570 Series"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-571}.description",
       "source": "昭和35年大阪車輌製造。元神戸市電の500形で、昭和46年に広電に移籍しています。",
-      "translation": ""
+      "translation": "Manufactured in 1960 by Osaka Sharyo. Originally Kobe Municipal Tram's 500 series, it was transferred to Hiroden in 1971."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-601}.name",
       "source": "元西日本鉄道福岡市内線",
-      "translation": ""
+      "translation": "Former Nishi-Nippon Railroad Fukuoka City Line"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-601}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-601}.type",
       "source": "600形",
-      "translation": ""
+      "translation": "Type 600"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-601}.description",
       "source": "昭和23年汽車会社製造。元西鉄の500形で、昭和51年に広電に移籍しています。",
-      "translation": ""
+      "translation": "Manufactured in 1948 by Kisha Kaisha. Originally Nishitetsu's 500 series, it was transferred to Hiroden in 1976."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-651}.name",
       "source": "被爆電車",
-      "translation": ""
+      "translation": "Atomic Bomb Survivor Tram"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-651}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-651}.type",
       "source": "650形",
-      "translation": ""
+      "translation": "650 Series"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-651}.description",
       "source": "昭和17年木南車輌製造。昭和20年に全5両被爆しながらも、同年8月中に652号が、他3両も翌年の3月までには復旧、爆心地に近く全焼だった655も昭和23年11月には復旧しました。残念なことに655号は昭和42年に事故に遭い廃車となっています。速度はゆっくりで年代を感じさせます…。",
-      "translation": ""
+      "translation": "Manufactured in 1942 by Kinan Sharyo. Although all five cars were exposed to the atomic bombing in 1945, car 652 was restored by August of the same year, and the other three cars by March of the following year. Car 655, which was completely burned near the hypocenter, was also restored by November 1948. Unfortunately, car 655 was involved in an accident in 1967 and was scrapped. Its slow speed gives a sense of its age..."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-701}.name",
       "source": "軽快電車",
-      "translation": ""
+      "translation": "Light rail vehicle"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-701}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-701}.type",
       "source": "700形",
-      "translation": ""
+      "translation": "700 Type"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-701}.description",
       "source": "昭和57年アルナ工機製造。省エネルギー・低騒音の軽快電車です。パンタフラフが菱形になっています。",
-      "translation": ""
+      "translation": "Manufactured in 1982 by Aruna Koki. It is an energy-saving, low-noise light rail vehicle. The pantograph is diamond-shaped."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-801}.name",
       "source": "路面電車",
-      "translation": ""
+      "translation": "Tram"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-801}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-801}.type",
       "source": "800形(旧)",
-      "translation": ""
+      "translation": "800 Series (old)"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-801}.description",
       "source": "昭和26年ナニワ工機製造の旧800形です。元々は前後扉でしたが、昭和51年に803号は中扉増設と後扉封鎖の改造がなされ、801号に改番されました。",
-      "translation": ""
+      "translation": "The former 800 series, manufactured in 1951 by Naniwa Koki. Originally, it had front and rear doors, but in 1976, car 803 was modified with an additional middle door and the rear door sealed, then renumbered 801."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-802}.name",
       "source": "軽快電車",
-      "translation": ""
+      "translation": "Light rail vehicle"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-802}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-802}.type",
       "source": "800形",
-      "translation": ""
+      "translation": "800 Type"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-802}.description",
       "source": "昭和58年アルナ工機製造。省エネルギー・低騒音の軽快電車です。",
-      "translation": ""
+      "translation": "Manufactured in 1983 by Aruna Koki. It is an energy-saving, low-noise light rail vehicle."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-803}.name",
       "source": "軽快電車2次～",
-      "translation": ""
+      "translation": "Light Rail Vehicle 2nd Series~"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-803}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-803}.type",
       "source": "800形",
-      "translation": ""
+      "translation": "800 Type"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-803}.description",
       "source": "昭和62年アルナ工機製造。省エネルギー・低騒音の軽快電車です。801と前面のデザインなどが変更されています。",
-      "translation": ""
+      "translation": "Manufactured in 1987 by Aruna Koki. It is an energy-saving, low-noise light rail vehicle. The front design and other features have been changed from the 801."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-901}.name",
       "source": "元大阪市電",
-      "translation": ""
+      "translation": "Former Osaka City Tram"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-901}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-901}.type",
       "source": "900形",
-      "translation": ""
+      "translation": "900 Series"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-901}.description",
       "source": "昭和32年大阪車両製造。元大阪市電の2600形で、昭和44年に広電に移籍しています。",
-      "translation": ""
+      "translation": "Manufactured in 1957 by Osaka Sharyo. Originally Osaka Municipal Tram's 2600 series, it was transferred to Hiroden in 1969."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-1103}.name",
       "source": "元神戸市電",
-      "translation": ""
+      "translation": "Former Kobe Municipal Tram"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-1103}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-1103}.type",
       "source": "1100形",
-      "translation": ""
+      "translation": "Type 1100"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-1103}.description",
       "source": "昭和29年川崎車輌製造。元神戸市電の1100形で、昭和46年に広電に移籍しています。",
-      "translation": ""
+      "translation": "Manufactured in 1954 by Kawasaki Sharyo. Originally Kobe Municipal Tram's 1100 series, it was transferred to Hiroden in 1971."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-1901}.name",
       "source": "元京都市電",
-      "translation": ""
+      "translation": "Former Kyoto City Tram"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-1901}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-1901}.type",
       "source": "1900形",
-      "translation": ""
+      "translation": "Type 1900"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-1901}.description",
       "source": "昭和32年ナニワ工機製造。元京都市電の1900形で、昭和52～53年に広電に移籍しています。",
-      "translation": ""
+      "translation": "Manufactured in 1957 by Naniwa Koki. Originally Kyoto Municipal Tram's 1900 series, it was transferred to Hiroden between 1977 and 1978."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-2001}.name",
       "source": "直通色",
-      "translation": ""
+      "translation": "Through-Service Livery"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-2001}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-2001}.type",
       "source": "2000形",
-      "translation": ""
+      "translation": "2000 type"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-2001}.description",
       "source": "昭和35年ナニワ工機製造。もともとは単車両でしたが、昭和49年に広電で片側運転台を撤去して2連接車化する改造がされています。",
-      "translation": ""
+      "translation": "Manufactured in 1960 by Naniwa Koki. Originally a single car, it was modified by Hiroden in 1974 to remove one driver's cab and become a two-car articulated unit."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-3001}.name",
       "source": "元西日本鉄道福岡市内線",
-      "translation": ""
+      "translation": "Former Nishi-Nippon Railroad Fukuoka City Line"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-3001}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-3001}.type",
       "source": "3000形",
-      "translation": ""
+      "translation": "3000 Type"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-3001}.description",
       "source": "昭和38年日立製作所と汽車製造製造の西鉄の1100,1200,1300形を昭和54年～58年に大阪車両で3連接車両に改造したものです。",
-      "translation": ""
+      "translation": "Nishitetsu's 1100, 1200, and 1300 series, manufactured in 1963 by Hitachi, Ltd. and Kisha Seizo. These were converted into 3-car articulated units by Osaka Sharyo between 1979 and 1983."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-3001x}.name",
       "source": "イルミネーション電飾電車",
-      "translation": ""
+      "translation": "Illuminated Electric Train"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-3001x}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-3001x}.type",
       "source": "3000形",
-      "translation": ""
+      "translation": "3000 Type"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-3001x}.description",
       "source": "3006号(旧西鉄福岡市内電車)です。ライトアップ事業の一環として、冬場に電飾で飾られ運行されます。一般客も乗車できます。",
-      "translation": ""
+      "translation": "This is Unit 3006 (formerly Nishitetsu Fukuoka City Tram). As part of a light-up project, it is decorated with illuminations and operates during winter. General passengers can also ride it."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-3101}.name",
       "source": "ぐりーんらいなー",
-      "translation": ""
+      "translation": "Green Liner"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-3101}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-3101}.type",
       "source": "3100形",
-      "translation": ""
+      "translation": "3100 type"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-3101}.description",
       "source": "元々は昭和36年ナニワ工機製造の2500形２連接車であったものを、昭和60年に大阪車両で３連接車に改造したものです。昔はオリエントピーチに塗られていましたが、ぐりーんらいなー色に塗り替えられました。",
-      "translation": ""
+      "translation": "Originally a 2-car articulated 2500 Series manufactured by Naniwa Koki in Showa 36 (1961), it was converted into a 3-car articulated train by Osaka Sharyo in Showa 60 (1985). It was formerly painted Orient Peach but was repainted in Green Liner livery."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-3501}.name",
       "source": "ぐりーんらいなー",
-      "translation": ""
+      "translation": "Green Liner"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-3501}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-3501}.type",
       "source": "3500形",
-      "translation": ""
+      "translation": "3500 type"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-3501}.description",
       "source": "日本鉄道技術協会が開発した日本初の軽快電車で、昭和55年アルナ工機と川崎重工製造。1編成のみ試作されました。宮島線･市内線直通用のぐりーんらいなーです。3連接車で、本当は中間車がもっと短いです。",
-      "translation": ""
+      "translation": "Japan's first light rail vehicle developed by the Japan Railway Technical Association, manufactured in 1980 (Showa 55) by Alna Koki and Kawasaki Heavy Industries. Only one prototype set was produced. It is a \"Green Liner\" for through-service on the Miyajima Line and city lines. It's a 3-car articulated train, but the intermediate car is actually shorter."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-3701}.name",
       "source": "ぐりーんらいなー",
-      "translation": ""
+      "translation": "Green Liner"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-3701}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-3701}.type",
       "source": "3700形",
-      "translation": ""
+      "translation": "3700 Type"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-3701}.description",
       "source": "昭和59年アルナ工機製造。宮島線･市内線直通用のぐりーんらいなーです。3連接車で、本当は中間車がもっと短いです。",
-      "translation": ""
+      "translation": "Manufactured in 1984 by Aruna Koki. It is a Green Liner for through service on the Miyajima Line and city lines. It is a 3-car articulated unit, but the intermediate cars are actually shorter."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-3801}.name",
       "source": "ぐりーんらいなー",
-      "translation": ""
+      "translation": "Green Liner"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-3801}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-3801}.type",
       "source": "3800形",
-      "translation": ""
+      "translation": "3800 type"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-3801}.description",
       "source": "昭和62年アルナ工機製造。広電初のVVVFインバータ制御の3連接車で、本当は中間車がもっと短いです。",
-      "translation": ""
+      "translation": "Manufactured in 1987 by Aruna Koki. It is Hiroden's first VVVF inverter-controlled 3-car articulated unit, but the intermediate cars are actually shorter."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-3901}.name",
       "source": "ぐりーんらいなー",
-      "translation": ""
+      "translation": "Green Liner"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-3901}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-3901}.type",
       "source": "3900形",
-      "translation": ""
+      "translation": "3900 type"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-3901}.description",
       "source": "平成2年アルナ工機製造。VVVFインバータ制御の3連接車で、本当は中間車がもっと短いです。",
-      "translation": ""
+      "translation": "Manufactured by Alna Koki in 1990. This is a 3-car articulated train with VVVF inverter control; the intermediate cars are actually much shorter."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-3951}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-3951}.type",
       "source": "3950形",
-      "translation": ""
+      "translation": "3950 type"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-3951}.description",
       "source": "平成09年アルナ工機製造。車両デザインはデザイン総研広島です。3連接車で、本当は中間車がもっと短いです。",
-      "translation": ""
+      "translation": "Manufactured by Alna Koki in 1997 (Heisei 09). Vehicle design by Design Soken Hiroshima. It is a 3-car articulated train, but the intermediate car is actually shorter."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-5000}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-5000}.type",
       "source": "5000形",
-      "translation": ""
+      "translation": "5000 type"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-5000}.description",
       "source": "平成11年デュワグ(独)とアルナ工機製造。車両設計はシーメンス(独)、車両デザインはデザイン総研広島です。広電初、日本でも2番目の超低床電車です。本当は5連接車ですが、真ん中の1両に中間車3両分を無理矢理まとめて表現してるのでかなり無理が…。1999年グッドデザイン賞、ユニバーサルデザイン賞、2000年ローレル賞を受賞しています。",
-      "translation": ""
+      "translation": "Manufactured in 1999 (Heisei 11) by Duewag (Germany) and Alna Koki. Vehicle design by Siemens (Germany), car body design by Design Soken Hiroshima. It is Hiroden's first, and Japan's second, ultra-low-floor tram. Although it is actually a 5-car articulated train, the middle car is forcibly represented as three intermediate cars, which is quite a stretch... It received the Good Design Award and Universal Design Award in 1999, and the Laurel Prize in 2000."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-1030}.name",
       "source": "高床車",
-      "translation": ""
+      "translation": "High-floor car"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-1030}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-1030}.type",
       "source": "1030形",
-      "translation": ""
+      "translation": "Type 1030"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-1030}.description",
       "source": "昭和5年宮島線の開業に伴い川崎車輌と藤永田造船所で製造された半鋼製車の高床車です。当時はH形でしたが昭和14年に1030形に改番されました。",
-      "translation": ""
+      "translation": "A semi-steel high-floor car manufactured in 1930 by Kawasaki Sharyo and Fujinagata Shipyard, coinciding with the opening of the Miyajima Line. At the time, it was the H-type, but it was renumbered to the 1030 series in 1939."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-1050}.name",
       "source": "元京阪神急行電鉄 高床",
-      "translation": ""
+      "translation": "Former Keihanshin Express Electric Railway high-floor car"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-1050}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-1050}.type",
       "source": "1050形",
-      "translation": ""
+      "translation": "Type 1050"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-1050}.description",
       "source": "元京阪神急行電鉄の木造車100,200型。高床車、宮島線専用車両です。昭和22年に広電に移籍し1050形となり、昭和28年にナニワ工機で全金属製車体に改造されています。昭和54年には2連接化もされましたが、昭和57年に1090形に改番されました。",
-      "translation": ""
+      "translation": "Former Keihanshin Express Electric Railway wooden cars 100 and 200 Series. High-floor cars, exclusively for the Miyajima Line. Transferred to Hiroden in Showa 22 (1947) as the 1050 Series, then converted to all-metal bodies by Naniwa Koki in Showa 28 (1953). It was also converted to a 2-car articulated train in Showa 54 (1979), but was renumbered to 1090 Series in Showa 57 (1982)."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-1060}.name",
       "source": "高床車",
-      "translation": ""
+      "translation": "High-floor car"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-1060}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-1060}.type",
       "source": "1060形",
-      "translation": ""
+      "translation": "Type 1060"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-1060}.description",
       "source": "昭和32年ナニワ工機製造。高床車、宮島線専用車両です。運転台が半室になっていて、残り半分のスペースは車端部まで座席がありました。高性能電車だったのですが1両しか製造されませんでした。",
-      "translation": ""
+      "translation": "Manufactured in 1957 by Naniwa Koki. It is a high-floor car, exclusively for the Miyajima Line. The driver's cab was a half-room, with the remaining half of the space having seats extending to the car end. Although it was a high-performance electric train, only one car was manufactured."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-1070}.name",
       "source": "元阪急電鉄 高床車",
-      "translation": ""
+      "translation": "Former Hankyu Electric Railway high-floor car"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-1070}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-1070}.type",
       "source": "1070形",
-      "translation": ""
+      "translation": "Type 1070"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-1070}.description",
       "source": "昭和13年川崎車輌製造の元阪急電鉄の500形で、昭和42年に広電に移籍しナニワ工機で改造されています。高床車、宮島線専用車両です。",
-      "translation": ""
+      "translation": "Originally Hankyu Electric Railway's 500 series, manufactured in 1938 by Kawasaki Sharyo. It was transferred to Hiroden in 1967 and modified by Naniwa Koki. It is a high-floor car, exclusively for the Miyajima Line."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-1080}.name",
       "source": "元阪急電鉄 高床車",
-      "translation": ""
+      "translation": "Former Hankyu Electric Railway high-floor car"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-1080}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-1080}.type",
       "source": "1080形",
-      "translation": ""
+      "translation": "Type 1080"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-1080}.description",
       "source": "昭和31年ナニワ工機製造の元阪急電鉄の210形で廃車となり、昭和51年に広電に移籍しています。",
-      "translation": ""
+      "translation": "Originally Hankyu Electric Railway's 210 series, manufactured in 1956 by Naniwa Koki, it was scrapped and transferred to Hiroden in 1976."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-1091}.name",
       "source": "元京阪神急行電鉄 高床",
-      "translation": ""
+      "translation": "Former Keihanshin Express Electric Railway high-floor car"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-1091}.company",
       "source": "広島電鉄",
-      "translation": ""
+      "translation": "Hiroshima Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-1091}.type",
       "source": "1090形",
-      "translation": ""
+      "translation": "Type 1090"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-1091}.description",
       "source": "元京阪神急行電鉄の木造車100,200型。高床車、宮島線専用車両です。昭和22年に広電に移籍し1050形となり、昭和57年に自社工場で２連結化し改番され1090形となりました。高床車では、唯一冷房化されています。",
-      "translation": ""
+      "translation": "Former Keihanshin Express Electric Railway wooden cars 100 and 200 Series. High-floor cars, exclusively for the Miyajima Line. Transferred to Hiroden in Showa 22 (1947) as the 1050 Series, then converted to a 2-car articulated train at their own factory and renumbered to 1090 Series in Showa 57 (1982). It is the only high-floor car to be air-conditioned."
     }
   ]
 }

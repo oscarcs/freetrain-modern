@@ -6,47 +6,47 @@
     {
       "key": "plugin.title",
       "source": "一般ビル１（４方向）",
-      "translation": ""
+      "translation": "General Building 1 (4 Directions)"
     },
     {
       "key": "contribution.{toaru-building-ippan2-gs01-E7D95B0D8FCE-1}.name",
       "source": "一般ビル2",
-      "translation": ""
+      "translation": "General Building 2"
     },
     {
       "key": "contribution.{toaru-building-ippan2-gs01-E7D95B0D8FCE-2}.name",
       "source": "一般ビル2",
-      "translation": ""
+      "translation": "General Building 2"
     },
     {
       "key": "contribution.{toaru-building-ippan2-gs01-E7D95B0D8FCE-3}.name",
       "source": "一般ビル2",
-      "translation": ""
+      "translation": "General Building 2"
     },
     {
       "key": "contribution.{toaru-building-ippan2-gs01-E7D95B0D8FCE-4}.name",
       "source": "一般ビル2",
-      "translation": ""
+      "translation": "General Building 2"
     },
     {
       "key": "contribution.{toaru-building-ippan2-gs01-E7D95B0D8FCE-5}.name",
       "source": "一般ビル2",
-      "translation": ""
+      "translation": "General Building 2"
     },
     {
       "key": "contribution.{toaru-building-ippan2-gs01-E7D95B0D8FCE-6}.name",
       "source": "一般ビル１",
-      "translation": ""
+      "translation": "General building 1"
     },
     {
       "key": "contribution.{toaru-building-ippan2-gs01-E7D95B0D8FCE-7}.name",
       "source": "一般ビル2",
-      "translation": ""
+      "translation": "General Building 2"
     },
     {
       "key": "contribution.{toaru-building-ippan2-gs01-E7D95B0D8FCE-8}.name",
       "source": "一般ビル2",
-      "translation": ""
+      "translation": "General Building 2"
     }
   ]
 }

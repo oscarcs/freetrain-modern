@@ -6,97 +6,97 @@
     {
       "key": "plugin.title",
       "source": "JR北海道 車両キット",
-      "translation": ""
+      "translation": "JR Hokkaido Rolling Stock Kit"
     },
     {
       "key": "contribution.{734ED621-D6D6-4F11-8485-12F057F387F0}.company",
       "source": "JR北海道",
-      "translation": ""
+      "translation": "JR Hokkaido"
     },
     {
       "key": "contribution.{734ED621-D6D6-4F11-8485-12F057F387F0}.type",
       "source": "711系",
-      "translation": ""
+      "translation": "711 Series"
     },
     {
       "key": "contribution.{734ED621-D6D6-4F11-8485-12F057F387F0}.description",
       "source": "在来線初の交流専用車。3両で1ユニットを組み、普通列車や快速で運転されている。中には3扉化改造やロングシート化などが図られている車両もある。",
-      "translation": ""
+      "translation": "The first AC-only car on conventional lines. It forms a 3-car unit and operates as local and rapid trains. Some cars have undergone modifications such as conversion to 3 doors and long seats."
     },
     {
       "key": "contribution.{A7AC0005-8FCA-4e60-907C-2EF681CAC9AE}.company",
       "source": "JR北海道",
-      "translation": ""
+      "translation": "JR Hokkaido"
     },
     {
       "key": "contribution.{A7AC0005-8FCA-4e60-907C-2EF681CAC9AE}.type",
       "source": "721系",
-      "translation": ""
+      "translation": "721 Series"
     },
     {
       "key": "contribution.{A7AC0005-8FCA-4e60-907C-2EF681CAC9AE}.description",
       "source": "輸送近代化などのため昭和63年に登場。空港アクセス列車にも使用されるため、大きな荷物を持った乗客に対応できるようになっている。",
-      "translation": ""
+      "translation": "Appeared in 1988 for transport modernization. As it is also used for airport access trains, it is designed to accommodate passengers with large luggage."
     },
     {
       "key": "contribution.{61B9A951-B0B2-4190-B35F-CA83E5B9DC0A}.name",
       "source": "日高線色",
-      "translation": ""
+      "translation": "Hidaka Line Livery"
     },
     {
       "key": "contribution.{61B9A951-B0B2-4190-B35F-CA83E5B9DC0A}.company",
       "source": "JR北海道",
-      "translation": ""
+      "translation": "JR Hokkaido"
     },
     {
       "key": "contribution.{61B9A951-B0B2-4190-B35F-CA83E5B9DC0A}.type",
       "source": "キハ40系",
-      "translation": ""
+      "translation": "Kiha 40 Series"
     },
     {
       "key": "contribution.{61B9A951-B0B2-4190-B35F-CA83E5B9DC0A}.description",
       "source": "北海道の日高線(苫小牧-様似)を走っている列車です。",
-      "translation": ""
+      "translation": "This train runs on Hokkaido's Hidaka Line (Tomakomai - Samani)."
     },
     {
       "key": "contribution.{09503B8F-57FE-44a5-B82A-5109F3044D8D}.name",
       "source": "北海道色",
-      "translation": ""
+      "translation": "Hokkaido Color"
     },
     {
       "key": "contribution.{09503B8F-57FE-44a5-B82A-5109F3044D8D}.company",
       "source": "JR北海道",
-      "translation": ""
+      "translation": "JR Hokkaido"
     },
     {
       "key": "contribution.{09503B8F-57FE-44a5-B82A-5109F3044D8D}.type",
       "source": "キハ40系",
-      "translation": ""
+      "translation": "Kiha 40 Series"
     },
     {
       "key": "contribution.{09503B8F-57FE-44a5-B82A-5109F3044D8D}.description",
       "source": "北海道各地を走る列車です。",
-      "translation": ""
+      "translation": "This train runs in various parts of Hokkaido."
     },
     {
       "key": "contribution.{F74FCD8F-F9D7-4a78-8D09-97A8D6FF05A7}.name",
       "source": "スーパー北斗",
-      "translation": ""
+      "translation": "Super Hokuto"
     },
     {
       "key": "contribution.{F74FCD8F-F9D7-4a78-8D09-97A8D6FF05A7}.company",
       "source": "JR北海道",
-      "translation": ""
+      "translation": "JR Hokkaido"
     },
     {
       "key": "contribution.{F74FCD8F-F9D7-4a78-8D09-97A8D6FF05A7}.type",
       "source": "キハ281系",
-      "translation": ""
+      "translation": "Kiha 281 Series"
     },
     {
       "key": "contribution.{F74FCD8F-F9D7-4a78-8D09-97A8D6FF05A7}.description",
       "source": "札幌-函館間を結ぶ振り子式特急。最高速度130km/h。",
-      "translation": ""
+      "translation": "A tilting limited express connecting Sapporo and Hakodate. Maximum speed 130 km/h."
     }
   ]
 }

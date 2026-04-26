@@ -1,0 +1,16 @@
+{
+  "name": "freetrain-plugin-translator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dedupe": "node translate-plugins.mjs prepare",
+    "cache": "node translate-plugins.mjs cache",
+    "translate": "node translate-plugins.mjs translate",
+    "apply": "node translate-plugins.mjs apply",
+    "status": "node translate-plugins.mjs status"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0"
+  }
+}

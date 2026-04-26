@@ -6,17 +6,17 @@
     {
       "key": "plugin.title",
       "source": "二車線道路(田舎の国道)",
-      "translation": ""
+      "translation": "Two-Lane Road (Rural National Route)"
     },
     {
       "key": "contribution.{7254CD19-38B1-77DB-84E3-88F9A5C88E42}.name",
       "source": "二車線道路(田舎の国道)",
-      "translation": ""
+      "translation": "Two-Lane Road (Rural National Route)"
     },
     {
       "key": "contribution.{7254CD19-38B1-77DB-84E3-88F9A5C88E42}.description",
       "source": "三叉路、曲がり角等を含むニ車線の田舎の国道",
-      "translation": ""
+      "translation": "Two-lane rural national road including three-way intersections and turns."
     }
   ]
 }

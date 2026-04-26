@@ -6,17 +6,17 @@
     {
       "key": "plugin.title",
       "source": "建物セット",
-      "translation": ""
+      "translation": "Building Set"
     },
     {
       "key": "contribution.{DD1224B9-2F1A-4c25-9E65-4E604F3342C7}.group",
       "source": "吉野家",
-      "translation": ""
+      "translation": "Yoshinoya"
     },
     {
       "key": "contribution.{19F42929-9606-4cfb-A2F0-EFE323487DC6}.group",
       "source": "吉野家",
-      "translation": ""
+      "translation": "Yoshinoya"
     }
   ]
 }

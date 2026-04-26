@@ -5,333 +5,333 @@
   "texts": [
     {
       "key": "plugin.title",
-      "source": "車両セット\u30005号車",
-      "translation": ""
+      "source": "車両セット　5号車",
+      "translation": "Vehicle Set Car 5"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A413-8FE0-7567171D3CEF}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A413-8FE0-7567171D3CEF}.type",
       "source": "413系",
-      "translation": ""
+      "translation": "413 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A413-8FE0-7567171D3CEF}.description",
       "source": "1986年から1989年にかけて北陸本線のローカル列車用として、471・473系急行形交直流電車の機器を流用して417系に準じた2扉セミクロスシートの新製車体を組み合わせた車両です。",
-      "translation": ""
+      "translation": "For local trains on the Hokuriku Main Line from 1986 to 1989, these vehicles combined new 2-door semi-cross-seat car bodies, similar to the 417 Series, by reusing equipment from the 471 and 473 Series express AC/DC electric trains."
     },
     {
       "key": "contribution.{57644AE6-7FFA-A205-8FE0-7567171D3CEF}.name",
       "source": "1000番台 南武支線",
-      "translation": ""
+      "translation": "1000 Series Nambu Branch Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A205-8FE0-7567171D3CEF}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A205-8FE0-7567171D3CEF}.type",
       "source": "205系",
-      "translation": ""
+      "translation": "205 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A205-8FE0-7567171D3CEF}.description",
       "source": "(8両までの偶数両のみ編成可)",
-      "translation": ""
+      "translation": "(Can be formed with even number of cars up to 8 cars)"
     },
     {
       "key": "contribution.{57644AE6-7FFA-B205-8FE0-7567171D3CEF}.name",
       "source": "3100番台 仙石線",
-      "translation": ""
+      "translation": "3100 series Senseki Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-B205-8FE0-7567171D3CEF}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{57644AE6-7FFA-B205-8FE0-7567171D3CEF}.type",
       "source": "205系",
-      "translation": ""
+      "translation": "205 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-C205-8FE0-7567171D3CEF}.name",
       "source": "3100番台2wayシート 仙石線",
-      "translation": ""
+      "translation": "3100 series 2-way seat Senseki Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-C205-8FE0-7567171D3CEF}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{57644AE6-7FFA-C205-8FE0-7567171D3CEF}.type",
       "source": "205系",
-      "translation": ""
+      "translation": "205 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-C205-8FE0-7567171D3CEF}.description",
       "source": "(4両、8両のみ編成可)",
-      "translation": ""
+      "translation": "(Formations of 4 or 8 cars only)"
     },
     {
       "key": "contribution.{TYPHOON-JRE-20530K-HENSEI-7567171D3CEF}.name",
       "source": "3000番台 八高線",
-      "translation": ""
+      "translation": "3000 series Hachiko Line"
     },
     {
       "key": "contribution.{TYPHOON-JRE-20530K-HENSEI-7567171D3CEF}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{TYPHOON-JRE-20530K-HENSEI-7567171D3CEF}.type",
       "source": "205系",
-      "translation": ""
+      "translation": "205 Series"
     },
     {
       "key": "contribution.{TYPHOON-JRE-20530K-HENSEI-7567171D3CEF}.description",
       "source": "山手線で使用されていた205系をもとに、サハ2両に運転台取り付け改造を行いクハとしてモハを挟んで生まれた4両編成である。\n半自動ドアボタンの増設なども行われている。",
-      "translation": ""
+      "translation": "A 4-car formation created by modifying two Saha cars of the 205 Series, formerly used on the Yamanote Line, to include driver's cabs, with Moha cars in between, forming Kuha cars. Additional semi-automatic door buttons have also been installed."
     },
     {
       "key": "contribution.{TYPHOON-JRE-20512K-HENSEI-7567171D3CEF}.name",
       "source": "1200番台 南武線",
-      "translation": ""
+      "translation": "1200 Series Nambu Line"
     },
     {
       "key": "contribution.{TYPHOON-JRE-20512K-HENSEI-7567171D3CEF}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{TYPHOON-JRE-20512K-HENSEI-7567171D3CEF}.type",
       "source": "205系",
-      "translation": ""
+      "translation": "205 Series"
     },
     {
       "key": "contribution.{TYPHOON-JRE-20512K-HENSEI-7567171D3CEF}.description",
       "source": "南武線の205系のうち、先頭車両を山手線で使用されていたサハに運転台取り付け改造でまかなったものが1200番台です。",
-      "translation": ""
+      "translation": "Among the Nambu Line's 205 Series, the 1200 subclass refers to those where the lead cars were created by modifying former Yamanote Line Saha cars with driver's cabs."
     },
     {
       "key": "contribution.{57644AE6-7FFA-A883-8FE0-7567171D3CEF}.company",
       "source": "JR九州",
-      "translation": ""
+      "translation": "JR Kyushu"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A883-8FE0-7567171D3CEF}.type",
       "source": "883系",
-      "translation": ""
+      "translation": "883 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A883-8FE0-7567171D3CEF}.description",
       "source": "博多と大分を結ぶ「ソニック」に使用されている特急形列車。制御付き振り子で曲線も高速通過できる。\nこの編成はリニューアル前の姿です。",
-      "translation": ""
+      "translation": "Limited express train used for the 'Sonic' service connecting Hakata and Oita. Equipped with controlled pendulum technology, allowing high-speed cornering. This formation is its pre-renewal appearance."
     },
     {
       "key": "contribution.{57644AE6-7FFA-B883-8FE0-7567171D3CEF}.name",
       "source": "前面白",
-      "translation": ""
+      "translation": "White front"
     },
     {
       "key": "contribution.{57644AE6-7FFA-B883-8FE0-7567171D3CEF}.company",
       "source": "JR九州",
-      "translation": ""
+      "translation": "JR Kyushu"
     },
     {
       "key": "contribution.{57644AE6-7FFA-B883-8FE0-7567171D3CEF}.type",
       "source": "883系",
-      "translation": ""
+      "translation": "883 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-B883-8FE0-7567171D3CEF}.description",
       "source": "博多と大分を結ぶ「ソニック」に使用されている特急形列車。制御付き振り子で曲線も高速通過できる。\nこの編成はリニューアル前の姿です。",
-      "translation": ""
+      "translation": "Limited express train used for the 'Sonic' service connecting Hakata and Oita. Equipped with controlled pendulum technology, allowing high-speed cornering. This formation is its pre-renewal appearance."
     },
     {
       "key": "contribution.{TYPHOON-JRE-651-HENSEI-7567171D3CEF}.name",
       "source": "スーパーひたち",
-      "translation": ""
+      "translation": "Super Hitachi"
     },
     {
       "key": "contribution.{TYPHOON-JRE-651-HENSEI-7567171D3CEF}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{TYPHOON-JRE-651-HENSEI-7567171D3CEF}.type",
       "source": "651系",
-      "translation": ""
+      "translation": "651 Series"
     },
     {
       "key": "contribution.{TYPHOON-JRE-651-HENSEI-7567171D3CEF}.description",
       "source": "1989年から営業を開始した、「スーパーひたち」用特急車両。",
-      "translation": ""
+      "translation": "Limited express vehicles for \"Super Hitachi,\" which began operation in 1989."
     },
     {
       "key": "contribution.{TYPHOON-JRS-113AOMIDO-HENSEI-7567171D3CEF}.name",
       "source": "更新車（青・緑）",
-      "translation": ""
+      "translation": "Renewed Car (Blue/Green)"
     },
     {
       "key": "contribution.{TYPHOON-JRS-113AOMIDO-HENSEI-7567171D3CEF}.company",
       "source": "JR四国",
-      "translation": ""
+      "translation": "JR Shikoku"
     },
     {
       "key": "contribution.{TYPHOON-JRS-113AOMIDO-HENSEI-7567171D3CEF}.type",
       "source": "113系",
-      "translation": ""
+      "translation": "113 Series"
     },
     {
       "key": "contribution.{TYPHOON-JRS-113AOMIDO-HENSEI-7567171D3CEF}.description",
       "source": "JR四国では、JR東日本から譲渡された113系を、転換クロスシートに取り替え塗装も一新するなど更新を行って使用している。",
-      "translation": ""
+      "translation": "JR Shikoku uses 113 Series trains transferred from JR East, which have been updated with convertible cross-seats and a new livery."
     },
     {
       "key": "contribution.{TYPHOON-JRS-113MOAKA-HENSEI-7567171D3CEF}.name",
       "source": "更新車（桃・赤）",
-      "translation": ""
+      "translation": "Renewed Car (Pink/Red)"
     },
     {
       "key": "contribution.{TYPHOON-JRS-113MOAKA-HENSEI-7567171D3CEF}.company",
       "source": "JR四国",
-      "translation": ""
+      "translation": "JR Shikoku"
     },
     {
       "key": "contribution.{TYPHOON-JRS-113MOAKA-HENSEI-7567171D3CEF}.type",
       "source": "113系",
-      "translation": ""
+      "translation": "113 Series"
     },
     {
       "key": "contribution.{TYPHOON-JRS-113MOAKA-HENSEI-7567171D3CEF}.description",
       "source": "JR四国では、JR東日本から譲渡された113系を、転換クロスシートに取り替え塗装も一新するなど更新を行って使用している。",
-      "translation": ""
+      "translation": "JR Shikoku uses 113 Series trains transferred from JR East, which have been updated with convertible cross-seats and a new livery."
     },
     {
       "key": "contribution.{TYPHOON-JRS-113OREKI-HENSEI-7567171D3CEF}.name",
       "source": "更新車（黄・橙）",
-      "translation": ""
+      "translation": "Renewed Car (Yellow/Orange)"
     },
     {
       "key": "contribution.{TYPHOON-JRS-113OREKI-HENSEI-7567171D3CEF}.company",
       "source": "JR四国",
-      "translation": ""
+      "translation": "JR Shikoku"
     },
     {
       "key": "contribution.{TYPHOON-JRS-113OREKI-HENSEI-7567171D3CEF}.type",
       "source": "113系",
-      "translation": ""
+      "translation": "113 Series"
     },
     {
       "key": "contribution.{TYPHOON-JRS-113OREKI-HENSEI-7567171D3CEF}.description",
       "source": "JR四国では、JR東日本から譲渡された113系を、転換クロスシートに取り替え塗装も一新するなど更新を行って使用している。",
-      "translation": ""
+      "translation": "JR Shikoku uses 113 Series trains transferred from JR East, which have been updated with convertible cross-seats and a new livery."
     },
     {
       "key": "contribution.{TYPHOON-KAYA-KIHA083-HENSEI-7567171D3CEF}.company",
       "source": "加悦鉄道",
-      "translation": ""
+      "translation": "Kaya Railway"
     },
     {
       "key": "contribution.{TYPHOON-KAYA-KIHA083-HENSEI-7567171D3CEF}.type",
       "source": "キハ08 3",
-      "translation": ""
+      "translation": "Kiha 08 3"
     },
     {
       "key": "contribution.{TYPHOON-KAYA-KIHA083-HENSEI-7567171D3CEF}.description",
       "source": "国鉄宮津線丹後山田駅から加悦町の加悦駅を結んでいた私鉄が加悦鉄道です。\n国鉄から譲り受けた客車改造気動車のキハ08が走っていました。",
-      "translation": ""
+      "translation": "The Kaya Railway was a private railway that connected Tango-Yamada Station on the JNR Miyazu Line to Kaya Station in Kaya Town. Kiha 08 diesel railcars, converted from passenger coaches acquired from JNR, operated on this line."
     },
     {
       "key": "contribution.{TYPHOON-KEISEI-3000-HENSEI-7567171D3CEF}.company",
       "source": "京成電鉄",
-      "translation": ""
+      "translation": "Keisei Electric Railway"
     },
     {
       "key": "contribution.{TYPHOON-KEISEI-3000-HENSEI-7567171D3CEF}.type",
       "source": "3000系",
-      "translation": ""
+      "translation": "3000 Series"
     },
     {
       "key": "contribution.{TYPHOON-KEISEI-3000-HENSEI-7567171D3CEF}.description",
       "source": "2003年から営業している京成電鉄の通勤電車です。都営浅草線・京急線へも直通運転しています。",
-      "translation": ""
+      "translation": "Keisei Electric Railway commuter train operating since 2003. It also provides through-service to the Toei Asakusa Line and Keikyu Line."
     },
     {
       "key": "contribution.{TYPHOON-KEISEI-3400-HENSEI-7567171D3CEF}.company",
       "source": "京成電鉄",
-      "translation": ""
+      "translation": "Keisei Electric Railway"
     },
     {
       "key": "contribution.{TYPHOON-KEISEI-3400-HENSEI-7567171D3CEF}.type",
       "source": "3400系",
-      "translation": ""
+      "translation": "3400 Series"
     },
     {
       "key": "contribution.{TYPHOON-KEISEI-3400-HENSEI-7567171D3CEF}.description",
       "source": "1993年に営業を開始した京成電鉄の通勤型電車です。初代AE形スカイライナーの走行機器を流用し、新造した車体をのせました。",
-      "translation": ""
+      "translation": "A commuter electric train of Keisei Electric Railway that began operation in 1993. It reused the running gear of the first-generation AE Series Skyliner and was fitted with a newly built car body."
     },
     {
       "key": "contribution.{TYPHOON-KEISEI-3700-HENSEI-7567171D3CEF}.company",
       "source": "京成電鉄",
-      "translation": ""
+      "translation": "Keisei Electric Railway"
     },
     {
       "key": "contribution.{TYPHOON-KEISEI-3700-HENSEI-7567171D3CEF}.type",
       "source": "3700系",
-      "translation": ""
+      "translation": "3700 Series"
     },
     {
       "key": "contribution.{TYPHOON-KEISEI-3700-HENSEI-7567171D3CEF}.description",
       "source": "1991年に営業開始した通勤型電車で、京成電鉄の通勤車では初のVVVF制御を採用した。",
-      "translation": ""
+      "translation": "A commuter electric train that began operation in 1991, and was the first Keisei Electric Railway commuter car to adopt VVVF control."
     },
     {
       "key": "contribution.{TYPHOON-JNR-211CK-HENSEI-7567171D3CEF}.name",
       "source": "中京色",
-      "translation": ""
+      "translation": "Chukyo Livery"
     },
     {
       "key": "contribution.{TYPHOON-JNR-211CK-HENSEI-7567171D3CEF}.company",
       "source": "JR東海",
-      "translation": ""
+      "translation": "JR Central"
     },
     {
       "key": "contribution.{TYPHOON-JNR-211CK-HENSEI-7567171D3CEF}.type",
       "source": "211系",
-      "translation": ""
+      "translation": "211 Series"
     },
     {
       "key": "contribution.{TYPHOON-JNR-211CK-HENSEI-7567171D3CEF}.description",
       "source": "1986年に名古屋地区向けに2編成投入された211系は、ここ独自のブルーのラインの外観で登場した。",
-      "translation": ""
+      "translation": "The 211 Series, with two formations introduced for the Nagoya area in 1986, appeared with its unique blue line exterior."
     },
     {
       "key": "contribution.{TYPHOON-JRE-E257500-HENSEI-7567171D3CEF}.name",
-      "source": "500番台\u3000さざなみ・わかしお",
-      "translation": ""
+      "source": "500番台　さざなみ・わかしお",
+      "translation": "500 series Sazanami / Wakashio"
     },
     {
       "key": "contribution.{TYPHOON-JRE-E257500-HENSEI-7567171D3CEF}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{TYPHOON-JRE-E257500-HENSEI-7567171D3CEF}.type",
       "source": "E257系",
-      "translation": ""
+      "translation": "E257 Series"
     },
     {
       "key": "contribution.{TYPHOON-JRE-E257500-HENSEI-7567171D3CEF}.description",
       "source": "東京から千葉・房総方面へ向かう特急列車に使用されている車両です。",
-      "translation": ""
+      "translation": "This rolling stock is used for limited express trains from Tokyo towards Chiba and Boso."
     }
   ]
 }

@@ -5,28 +5,28 @@
   "texts": [
     {
       "key": "plugin.title",
-      "source": "建物総合コンバート\u3000しの",
-      "translation": ""
+      "source": "建物総合コンバート　しの",
+      "translation": "Building general conversion: Shino"
     },
     {
       "key": "contribution.{E28FF253-365D-49A8-9905-86701E25A1C8}-gs.group",
       "source": "大型デパート",
-      "translation": ""
+      "translation": "Large Department Store"
     },
     {
       "key": "contribution.{9350804F-6BF4-41B1-8DBE-2DF5F209D433}-gs.group",
       "source": "貸しビル(3x3)",
-      "translation": ""
+      "translation": "Rental Building (3x3)"
     },
     {
       "key": "contribution.{8922C35A-6A7C-4335-9A41-1B163E5C963F}-gs.group",
       "source": "貸しビル(3x3)",
-      "translation": ""
+      "translation": "Rental Building (3x3)"
     },
     {
       "key": "contribution.{00E96F34-4797-4D15-AE23-21DA995105F7}-gs.group",
       "source": "貸しビル(3x3)",
-      "translation": ""
+      "translation": "Rental Building (3x3)"
     }
   ]
 }

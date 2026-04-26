@@ -5,48 +5,48 @@
   "texts": [
     {
       "key": "plugin.title",
-      "source": "鉄道施設プラグイン\u3000車止め砂利",
-      "translation": ""
+      "source": "鉄道施設プラグイン　車止め砂利",
+      "translation": "Railway Facilities Plugin: Bumper Gravel"
     },
     {
       "key": "contribution.{66D8CEFC-riorio-HORITAKE-44E9-BA8E-53F2986E3D8F}.group",
       "source": "車止め(砂利)",
-      "translation": ""
+      "translation": "Buffer stop (gravel)"
     },
     {
       "key": "contribution.{60EA6394-riorio-HORITAKE-4C97-822C-1B06458D42B4}.group",
       "source": "車止め(砂利)",
-      "translation": ""
+      "translation": "Buffer stop (gravel)"
     },
     {
       "key": "contribution.{988C4797-riorio-HORITAKE-478F-BB3D-34F1E1ACD2D5}.group",
       "source": "車止め(砂利)",
-      "translation": ""
+      "translation": "Buffer stop (gravel)"
     },
     {
       "key": "contribution.{5A9F67BA-riorio-HORITAKE-4248-A6AA-FE2CFBA0C76F}.group",
       "source": "車止め(砂利)",
-      "translation": ""
+      "translation": "Buffer stop (gravel)"
     },
     {
       "key": "contribution.{riorio-AYASE-RailStructure-stoprail-1B9F9EACA126}-01.group",
       "source": "車止め(砂利)",
-      "translation": ""
+      "translation": "Buffer stop (gravel)"
     },
     {
       "key": "contribution.{riorio-AYASE-RailStructure-stoprail-1B9F9EACA126}-02.group",
       "source": "車止め(砂利)",
-      "translation": ""
+      "translation": "Buffer stop (gravel)"
     },
     {
       "key": "contribution.{riorio-AYASE-RailStructure-stoprail-1B9F9EACA126}-03.group",
       "source": "車止め(砂利)",
-      "translation": ""
+      "translation": "Buffer stop (gravel)"
     },
     {
       "key": "contribution.{riorio-AYASE-RailStructure-stoprail-1B9F9EACA126}-04.group",
       "source": "車止め(砂利)",
-      "translation": ""
+      "translation": "Buffer stop (gravel)"
     }
   ]
 }

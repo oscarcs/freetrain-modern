@@ -6,47 +6,47 @@
     {
       "key": "plugin.title",
       "source": "道路",
-      "translation": ""
+      "translation": "Road"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-ganpeki-01}.group",
       "source": "岸壁",
-      "translation": ""
+      "translation": "Wharf"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-ganpeki-02}.group",
       "source": "岸壁",
-      "translation": ""
+      "translation": "Wharf"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-ganpeki-03}.group",
       "source": "岸壁",
-      "translation": ""
+      "translation": "Wharf"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-ganpeki-04}.group",
       "source": "岸壁",
-      "translation": ""
+      "translation": "Wharf"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-ganpeki-05}.group",
       "source": "岸壁",
-      "translation": ""
+      "translation": "Wharf"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-ganpeki-06}.group",
       "source": "岸壁",
-      "translation": ""
+      "translation": "Wharf"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-ganpeki-07}.group",
       "source": "岸壁",
-      "translation": ""
+      "translation": "Wharf"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-ganpeki-08}.group",
       "source": "岸壁",
-      "translation": ""
+      "translation": "Wharf"
     }
   ]
 }

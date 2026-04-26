@@ -6,27 +6,27 @@
     {
       "key": "plugin.title",
       "source": "鉄骨架線柱",
-      "translation": ""
+      "translation": "Steel Catenary Pole"
     },
     {
       "key": "contribution.{200305100047-0001}.name",
       "source": "鉄骨架線柱単線用",
-      "translation": ""
+      "translation": "Steel Catenary Pole for Single Track"
     },
     {
       "key": "contribution.{200305100047-0002}.name",
       "source": "鉄骨架線柱複線用左",
-      "translation": ""
+      "translation": "Steel Catenary Pole for Double Track (Left)"
     },
     {
       "key": "contribution.{200305100047-0003}.name",
       "source": "鉄骨架線柱複線用中央",
-      "translation": ""
+      "translation": "Steel Catenary Pole for Double Track (Center)"
     },
     {
       "key": "contribution.{200305100047-0004}.name",
       "source": "鉄骨架線柱複線用右",
-      "translation": ""
+      "translation": "Steel Catenary Pole for Double Track (Right)"
     }
   ]
 }

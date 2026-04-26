@@ -6,17 +6,17 @@
     {
       "key": "plugin.title",
       "source": "建物プラグイン",
-      "translation": ""
+      "translation": "Building plugin"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-Patlabor01a}.group",
       "source": "特車２課棟",
-      "translation": ""
+      "translation": "Special Vehicles Section 2 Building"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-Patlabor01b}.group",
       "source": "特車２課棟",
-      "translation": ""
+      "translation": "Special Vehicles Section 2 Building"
     }
   ]
 }

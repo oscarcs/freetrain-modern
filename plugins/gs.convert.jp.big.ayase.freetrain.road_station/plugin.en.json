@@ -5,78 +5,78 @@
   "texts": [
     {
       "key": "plugin.title",
-      "source": "建物総合コンバート\u3000綾瀬ヒロ",
-      "translation": ""
+      "source": "建物総合コンバート　綾瀬ヒロ",
+      "translation": "Building General Conversion Ayase Hiro"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-StationImpl01a1}-gs.group",
       "source": "駅前広場(端その１)",
-      "translation": ""
+      "translation": "Station plaza (end 1)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-StationImpl01a2}-gs.group",
       "source": "駅前広場(端その１)",
-      "translation": ""
+      "translation": "Station plaza (end 1)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-StationImpl01b1}-gs.group",
       "source": "駅前広場(端その２)",
-      "translation": ""
+      "translation": "Station plaza (end 2)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-StationImpl01b2}-gs.group",
       "source": "駅前広場(端その２)",
-      "translation": ""
+      "translation": "Station plaza (end 2)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-StationImpl01c1}-gs.group",
       "source": "駅前広場(端その３)",
-      "translation": ""
+      "translation": "Station plaza (end 3)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-StationImpl01c2}-gs.group",
       "source": "駅前広場(端その３)",
-      "translation": ""
+      "translation": "Station plaza (end 3)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-StationImpl01d1}-gs.group",
       "source": "駅前広場(端その４)",
-      "translation": ""
+      "translation": "Station plaza (end 4)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-StationImpl01d2}-gs.group",
       "source": "駅前広場(端その４)",
-      "translation": ""
+      "translation": "Station plaza (end 4)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-StationImpl02a1}-gs.group",
       "source": "駅前広場(中その１)",
-      "translation": ""
+      "translation": "Station plaza (middle 1)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-StationImpl02a2}-gs.group",
       "source": "駅前広場(中その１)",
-      "translation": ""
+      "translation": "Station plaza (middle 1)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-StationImpl02b1}-gs.group",
       "source": "駅前広場(中その２)",
-      "translation": ""
+      "translation": "Station plaza (middle 2)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-StationImpl02b2}-gs.group",
       "source": "駅前広場(中その２)",
-      "translation": ""
+      "translation": "Station plaza (middle 2)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-StationImpl02c1}-gs.group",
       "source": "駅前広場(中その３)",
-      "translation": ""
+      "translation": "Station plaza (middle 3)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-StationImpl02c2}-gs.group",
       "source": "駅前広場(中その３)",
-      "translation": ""
+      "translation": "Station plaza (middle 3)"
     }
   ]
 }

@@ -6,57 +6,57 @@
     {
       "key": "plugin.title",
       "source": "水門",
-      "translation": ""
+      "translation": "Sluice Gate"
     },
     {
       "key": "contribution.{rk-miato-n001}.group",
       "source": "港Ａ",
-      "translation": ""
+      "translation": "Port A"
     },
     {
       "key": "contribution.{rk-miato-n002}.group",
       "source": "港Ａ",
-      "translation": ""
+      "translation": "Port A"
     },
     {
       "key": "contribution.{rk-miato-n003}.group",
       "source": "港Ｂ",
-      "translation": ""
+      "translation": "Port B"
     },
     {
       "key": "contribution.{rk-miato-n004}.group",
       "source": "港Ｂ",
-      "translation": ""
+      "translation": "Port B"
     },
     {
       "key": "contribution.{rk-miato-n005}.group",
       "source": "港パーツ",
-      "translation": ""
+      "translation": "Port parts"
     },
     {
       "key": "contribution.{rk-miato-n006}.group",
       "source": "港パーツ",
-      "translation": ""
+      "translation": "Port parts"
     },
     {
       "key": "contribution.{rk-miato-n007}.group",
       "source": "港Ｃ",
-      "translation": ""
+      "translation": "Port C"
     },
     {
       "key": "contribution.{rk-miato-n008}.group",
       "source": "港Ｃ",
-      "translation": ""
+      "translation": "Port C"
     },
     {
       "key": "contribution.{rk-miato-n009}.group",
       "source": "港Ｄ",
-      "translation": ""
+      "translation": "Port D"
     },
     {
       "key": "contribution.{rk-miato-n010}.group",
       "source": "港Ｄ",
-      "translation": ""
+      "translation": "Port D"
     }
   ]
 }

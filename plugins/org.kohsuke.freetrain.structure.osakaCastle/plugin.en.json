@@ -6,27 +6,27 @@
     {
       "key": "plugin.title",
       "source": "大阪城",
-      "translation": ""
+      "translation": "Osaka Castle"
     },
     {
       "key": "contribution.{12CA8CE9-7D92-44CA-BB96-47C4A60A8316}.name",
       "source": "天守閣1",
-      "translation": ""
+      "translation": "Castle Tower 1"
     },
     {
       "key": "contribution.{12CA8CE9-7D92-44CA-BB96-47C4A60A8316}.group",
       "source": "大阪城",
-      "translation": ""
+      "translation": "Osaka Castle"
     },
     {
       "key": "contribution.{6432EFFB-3B00-4E00-B4AD-F3DBBB3DD2B6}.name",
       "source": "天守閣2",
-      "translation": ""
+      "translation": "Castle Tower 2"
     },
     {
       "key": "contribution.{6432EFFB-3B00-4E00-B4AD-F3DBBB3DD2B6}.group",
       "source": "大阪城",
-      "translation": ""
+      "translation": "Osaka Castle"
     }
   ]
 }

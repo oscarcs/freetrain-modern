@@ -6,67 +6,67 @@
     {
       "key": "plugin.title",
       "source": "E721系パック",
-      "translation": ""
+      "translation": "E721 Series Pack"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC-B-E721}.name",
       "source": "東北本線･常磐線など",
-      "translation": ""
+      "translation": "Tohoku Main Line, Joban Line, etc."
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC-B-E721}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC-B-E721}.type",
       "source": "E721系",
-      "translation": ""
+      "translation": "E721 Series"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC-B-E721}.description",
       "source": "旧式化した仙台地区の急行型車両置き換えのため製造された車両。",
-      "translation": ""
+      "translation": "Rolling stock manufactured to replace aging express-type vehicles in the Sendai area."
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC-B-E721500}.name",
       "source": "仙台空港線",
-      "translation": ""
+      "translation": "Sendai Airport Line"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC-B-E721500}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC-B-E721500}.type",
       "source": "E721系500番台",
-      "translation": ""
+      "translation": "E721 Series 500 sub-series"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC-B-E721500}.description",
       "source": "仙台空港線の開業に合わせて製造された車両。0番台に比べ空港アクセス鉄道としてのさまざまな改良が施されている。",
-      "translation": ""
+      "translation": "Vehicles manufactured for the opening of the Sendai Airport Line. Various improvements as airport access trains have been made compared to the 0 sub-series."
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC-B-SAT721}.name",
       "source": "仙台空港線",
-      "translation": ""
+      "translation": "Sendai Airport Line"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC-B-SAT721}.company",
       "source": "仙台空港鉄道",
-      "translation": ""
+      "translation": "Sendai Airport Transit"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC-B-SAT721}.type",
       "source": "SAT721系",
-      "translation": ""
+      "translation": "SAT721 Series"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC-B-SAT721}.description",
       "source": "仙台空港線の開業に合わせて製造された車両。塗装以外はJRのE721系500番台とほぼ同仕様である。",
-      "translation": ""
+      "translation": "Vehicles manufactured for the opening of the Sendai Airport Line. Except for the paint scheme, they are almost identical to JR's E721 Series 500 sub-series."
     }
   ]
 }

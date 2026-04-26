@@ -6,17 +6,17 @@
     {
       "key": "plugin.title",
       "source": "道路",
-      "translation": ""
+      "translation": "Road"
     },
     {
       "key": "contribution.{8DB8AF0F-B615-4BC1-8160-9706FDF6FB6B}.name",
       "source": "二車線道路",
-      "translation": ""
+      "translation": "Two-Lane Road"
     },
     {
       "key": "contribution.{8DB8AF0F-B615-4BC1-8160-9706FDF6FB6B}.description",
       "source": "二車線の道路",
-      "translation": ""
+      "translation": "Two-lane road"
     }
   ]
 }

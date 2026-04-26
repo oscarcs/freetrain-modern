@@ -6,37 +6,37 @@
     {
       "key": "plugin.title",
       "source": "つくばエクスプレス",
-      "translation": ""
+      "translation": "Tsukuba Express"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TX1000}.company",
       "source": "つくばエクスプレス",
-      "translation": ""
+      "translation": "Tsukuba Express"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TX1000}.type",
       "source": "TX1000系",
-      "translation": ""
+      "translation": "TX1000 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TX1000}.description",
       "source": "2005年秋開業したつくばエクスプレス線用の通勤車両。秋葉原から守谷までの直流区間を走行する。",
-      "translation": ""
+      "translation": "Commuter vehicle for the Tsukuba Express Line, which opened in autumn 2005. Operates on the DC section from Akihabara to Moriya."
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TX2000}.company",
       "source": "つくばエクスプレス",
-      "translation": ""
+      "translation": "Tsukuba Express"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TX2000}.type",
       "source": "TX2000系",
-      "translation": ""
+      "translation": "TX2000 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TX2000}.description",
       "source": "2005年秋開業したつくばエクスプレス線用の近郊車両。つくばまで運行する交直流電車。",
-      "translation": ""
+      "translation": "Suburban vehicle for the Tsukuba Express Line, which opened in autumn 2005. An AC/DC electric train operating to Tsukuba."
     }
   ]
 }

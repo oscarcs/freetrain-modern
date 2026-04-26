@@ -6,12 +6,12 @@
     {
       "key": "plugin.title",
       "source": "大型駅ビル",
-      "translation": ""
+      "translation": "Large Station Building"
     },
     {
       "key": "contribution.{555F21B3-142D-40FD-B690-0C67B68BC32F}.name",
       "source": "駅ビル",
-      "translation": ""
+      "translation": "Station Building"
     }
   ]
 }

@@ -6,47 +6,47 @@
     {
       "key": "plugin.title",
       "source": "京急新1000形",
-      "translation": ""
+      "translation": "Keikyu New 1000 Series"
     },
     {
       "key": "contribution.{7755F2D4-F415-4E68-A51F-52F0C63EA2A1}.name",
       "source": "京急線",
-      "translation": ""
+      "translation": "Keikyu Line"
     },
     {
       "key": "contribution.{7755F2D4-F415-4E68-A51F-52F0C63EA2A1}.company",
       "source": "京浜急行電鉄",
-      "translation": ""
+      "translation": "Keikyu Corporation"
     },
     {
       "key": "contribution.{7755F2D4-F415-4E68-A51F-52F0C63EA2A1}.type",
       "source": "新1000形(高)",
-      "translation": ""
+      "translation": "New 1000 series (high)"
     },
     {
       "key": "contribution.{7755F2D4-F415-4E68-A51F-52F0C63EA2A1}.description",
       "source": "2002年に老朽化した1000形と700形の置き換えを目的に登場した車両。この車両は高速です。4、6、8、12編成を用意しています。",
-      "translation": ""
+      "translation": "Vehicles introduced in 2002 to replace the aging 1000 type and 700 type. This vehicle is high-speed. 4, 6, 8, and 12-car formations are available."
     },
     {
       "key": "contribution.{346DFADB-BA65-427A-904F-8A2669871FD8}.name",
       "source": "京急線",
-      "translation": ""
+      "translation": "Keikyu Line"
     },
     {
       "key": "contribution.{346DFADB-BA65-427A-904F-8A2669871FD8}.company",
       "source": "京浜急行電鉄",
-      "translation": ""
+      "translation": "Keikyu Corporation"
     },
     {
       "key": "contribution.{346DFADB-BA65-427A-904F-8A2669871FD8}.type",
       "source": "新1000形(中)",
-      "translation": ""
+      "translation": "New 1000 series (middle)"
     },
     {
       "key": "contribution.{346DFADB-BA65-427A-904F-8A2669871FD8}.description",
       "source": "2002年に老朽化した1000形と700形の置き換えを目的に登場した車両。この車両は中速です。4、6、8、12編成を用意しています。",
-      "translation": ""
+      "translation": "Vehicles introduced in 2002 to replace the aging 1000 type and 700 type. This vehicle is medium-speed. 4, 6, 8, and 12-car formations are available."
     }
   ]
 }

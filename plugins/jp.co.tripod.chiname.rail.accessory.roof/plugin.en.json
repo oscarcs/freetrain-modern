@@ -6,27 +6,27 @@
     {
       "key": "plugin.title",
       "source": "ホーム屋根",
-      "translation": ""
+      "translation": "Platform Roof"
     },
     {
       "key": "contribution.{EB293476-BBDD-4A12-A785-63055A62047B}-1.name",
       "source": "ガラス壁(前)",
-      "translation": ""
+      "translation": "Glass Wall (Front)"
     },
     {
       "key": "contribution.{EB293476-BBDD-4A12-A785-63055A62047B}-2.name",
       "source": "ガラス壁(後)",
-      "translation": ""
+      "translation": "Glass Wall (Rear)"
     },
     {
       "key": "contribution.{EB293476-BBDD-4A12-A785-63055A62047B}-3.name",
       "source": "ガラス屋根A",
-      "translation": ""
+      "translation": "Glass Roof A"
     },
     {
       "key": "contribution.{EB293476-BBDD-4A12-A785-63055A62047B}-4.name",
       "source": "ガラス屋根B",
-      "translation": ""
+      "translation": "Glass Roof B"
     }
   ]
 }

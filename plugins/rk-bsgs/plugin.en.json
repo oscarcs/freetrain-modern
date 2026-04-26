@@ -6,17 +6,17 @@
     {
       "key": "plugin.title",
       "source": "建物セット",
-      "translation": ""
+      "translation": "Building Set"
     },
     {
       "key": "contribution.{rk-tateya-009-001}.name",
       "source": "ハンバーガー店",
-      "translation": ""
+      "translation": "Hamburger Shop"
     },
     {
       "key": "contribution.{rk-tateya-009-002}.name",
       "source": "ハンバーガー店",
-      "translation": ""
+      "translation": "Hamburger Shop"
     }
   ]
 }

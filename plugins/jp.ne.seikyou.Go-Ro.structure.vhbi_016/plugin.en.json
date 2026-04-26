@@ -6,17 +6,17 @@
     {
       "key": "plugin.title",
       "source": "建物\"picture\"(FreeTrain-想作館)",
-      "translation": ""
+      "translation": "Building \"picture\" (FreeTrain-Sousakukan)"
     },
     {
       "key": "contribution.{vhbi_016-GenericStructure-C001-000A-4C8B212Dharu}.name",
       "source": "インテリジェントビル",
-      "translation": ""
+      "translation": "Intelligent building"
     },
     {
       "key": "contribution.{vhbi_016-GenericStructure-C001-000B-4C8B212Dharu}.name",
       "source": "雑居ビル(2x2)",
-      "translation": ""
+      "translation": "Mixed-use building (2x2)"
     }
   ]
 }

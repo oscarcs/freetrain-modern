@@ -6,12 +6,12 @@
     {
       "key": "plugin.title",
       "source": "建物セット",
-      "translation": ""
+      "translation": "Building Set"
     },
     {
       "key": "contribution.{rk-tateya-tutaya006-001}.name",
       "source": "家電屋さん",
-      "translation": ""
+      "translation": "Electronics Store"
     }
   ]
 }

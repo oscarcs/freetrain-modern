@@ -6,57 +6,57 @@
     {
       "key": "plugin.title",
       "source": "建物セット",
-      "translation": ""
+      "translation": "Building Set"
     },
     {
       "key": "contribution.{551BB418-4604-4fca-88AC-5F71068FE04A}.name",
       "source": "マクシスタワー",
-      "translation": ""
+      "translation": "Maxis Tower"
     },
     {
       "key": "contribution.{8BC1629A-BD98-462c-985A-CCD03F1B8C22}.name",
       "source": "八王子再開発ビル",
-      "translation": ""
+      "translation": "Hachioji Redevelopment Building"
     },
     {
       "key": "contribution.{C7536844-7CD0-49e0-8982-2819F5792B32}.group",
       "source": "マンション(小)",
-      "translation": ""
+      "translation": "Apartment building (small)"
     },
     {
       "key": "contribution.{9716E5F8-E2CB-40f9-A9C8-5B599895F32D}.group",
       "source": "マンション(小)",
-      "translation": ""
+      "translation": "Apartment building (small)"
     },
     {
       "key": "contribution.{74915C78-348C-4696-8C19-75B9098FB79C}.group",
       "source": "マンション(小)",
-      "translation": ""
+      "translation": "Apartment building (small)"
     },
     {
       "key": "contribution.{9E4F3766-CC02-4854-89E9-9DAE9020CDBF}.group",
       "source": "マンション(小)",
-      "translation": ""
+      "translation": "Apartment building (small)"
     },
     {
       "key": "contribution.{985CAC71-11BD-44b7-917E-D6D455CE0143}.group",
       "source": "マンション(中)",
-      "translation": ""
+      "translation": "Apartment Building (Medium)"
     },
     {
       "key": "contribution.{4B6D764D-9DB3-490b-B969-CD2CC1B41893}.group",
       "source": "マンション(中)",
-      "translation": ""
+      "translation": "Apartment Building (Medium)"
     },
     {
       "key": "contribution.{712E0D9A-1A79-4fd5-A1A5-B08B3336F047}.group",
       "source": "マンション(大)",
-      "translation": ""
+      "translation": "Apartment Building (Large)"
     },
     {
       "key": "contribution.{C1BFC436-71D9-48ab-B43B-9F56D2D0777E}.group",
       "source": "マンション(大)",
-      "translation": ""
+      "translation": "Apartment Building (Large)"
     }
   ]
 }

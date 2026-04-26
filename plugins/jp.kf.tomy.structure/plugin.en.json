@@ -6,102 +6,102 @@
     {
       "key": "plugin.title",
       "source": "建物プラグイン",
-      "translation": ""
+      "translation": "Building plugin"
     },
     {
       "key": "contribution.{FreeTrain-TOMY-structure-gyosen-20050511-s01}.group",
       "source": "漁船",
-      "translation": ""
+      "translation": "Fishing boat"
     },
     {
       "key": "contribution.{FreeTrain-TOMY-structure-gyosen-20050511-m01}.group",
       "source": "漁船",
-      "translation": ""
+      "translation": "Fishing boat"
     },
     {
       "key": "contribution.{FreeTrain-TOMY-structure-LNGcarriers-20050609-01}.group",
       "source": "運搬船",
-      "translation": ""
+      "translation": "Transport Ship"
     },
     {
       "key": "contribution.{FreeTrain-TOMY-structure-OILcarriers-20050609-01}.group",
       "source": "運搬船",
-      "translation": ""
+      "translation": "Transport Ship"
     },
     {
       "key": "contribution.{FreeTrain-TOMY-structure-navy-20041123-001}.name",
       "source": "海軍",
-      "translation": ""
+      "translation": "Navy"
     },
     {
       "key": "contribution.{FreeTrain-TOMY-structure-navy-20041123-001}.group",
       "source": "軍事施設",
-      "translation": ""
+      "translation": "Military Facility"
     },
     {
       "key": "contribution.{FreeTrain-TOMY-structure-navy-20041123-002}.name",
       "source": "海軍",
-      "translation": ""
+      "translation": "Navy"
     },
     {
       "key": "contribution.{FreeTrain-TOMY-structure-navy-20041123-002}.group",
       "source": "軍事施設",
-      "translation": ""
+      "translation": "Military Facility"
     },
     {
       "key": "contribution.{FreeTrain-TOMY-structure-navy-20041123-003}.name",
       "source": "海軍",
-      "translation": ""
+      "translation": "Navy"
     },
     {
       "key": "contribution.{FreeTrain-TOMY-structure-navy-20041123-003}.group",
       "source": "軍事施設",
-      "translation": ""
+      "translation": "Military Facility"
     },
     {
       "key": "contribution.{FreeTrain-TOMY-structure-navy-20041123-004}.name",
       "source": "海軍",
-      "translation": ""
+      "translation": "Navy"
     },
     {
       "key": "contribution.{FreeTrain-TOMY-structure-navy-20041123-004}.group",
       "source": "軍事施設",
-      "translation": ""
+      "translation": "Military Facility"
     },
     {
       "key": "contribution.{freetrain-tomy-tokyotower-20050606-s001}.group",
       "source": "ランドマーク",
-      "translation": ""
+      "translation": "Landmark"
     },
     {
       "key": "contribution.{freetrain-tomy-porttower-20050615-s001}.group",
       "source": "ランドマーク",
-      "translation": ""
+      "translation": "Landmark"
     },
     {
       "key": "contribution.{freetrain-tomy-DietTemple-20050613-s001}.group",
       "source": "議事堂",
-      "translation": ""
+      "translation": "Diet Building"
     },
     {
       "key": "contribution.{freetrain-tomy-PoliceBox-20050619-s001}.group",
       "source": "警察署",
-      "translation": ""
+      "translation": "Police Station"
     },
     {
       "key": "contribution.{freetrain-tomy-Police-20050621-s001}.group",
       "source": "警察署",
-      "translation": ""
+      "translation": "Police Station"
     },
     {
       "key": "contribution.{freetrain-tomy-firehouse-20050622-s001}.group",
       "source": "消防署",
-      "translation": ""
+      "translation": "Fire station"
     },
     {
       "key": "contribution.{freetrain-tomy-AtomicPowerPlant-20050824-s001}.name",
       "source": "原子力発電所",
-      "translation": ""
+      "translation": "Nuclear Power Plant"
     }
   ]
 }

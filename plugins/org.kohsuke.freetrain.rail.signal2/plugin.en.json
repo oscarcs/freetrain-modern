@@ -6,22 +6,22 @@
     {
       "key": "plugin.title",
       "source": "鉄道用信号機",
-      "translation": ""
+      "translation": "Railway signal"
     },
     {
       "key": "contribution.{6FA55843-E694-4140-A121-0A3D0C613B22}-r.name",
       "source": "停車位置票",
-      "translation": ""
+      "translation": "Stopping Position Marker"
     },
     {
       "key": "contribution.{6FA55844-E695-4141-A122-0A3D0C613B23}-r.name",
       "source": "誘導信号機",
-      "translation": ""
+      "translation": "Shunting signal"
     },
     {
       "key": "contribution.{6FA55844-E695-4141-A133-0A3D0C613B23}-r.name",
       "source": "入換信号機",
-      "translation": ""
+      "translation": "Shunting Signal"
     }
   ]
 }

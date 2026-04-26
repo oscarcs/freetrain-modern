@@ -5,18 +5,18 @@
   "texts": [
     {
       "key": "plugin.title",
-      "source": "建物総合コンバート\u3000綾瀬ヒロ",
-      "translation": ""
+      "source": "建物総合コンバート　綾瀬ヒロ",
+      "translation": "Building General Conversion Ayase Hiro"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-Plants-01a}-gs.group",
       "source": "工場(小)",
-      "translation": ""
+      "translation": "Factory (small)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-Plants-02a}-gs.group",
       "source": "倉庫",
-      "translation": ""
+      "translation": "Warehouse"
     }
   ]
 }

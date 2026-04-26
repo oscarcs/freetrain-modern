@@ -6,17 +6,17 @@
     {
       "key": "plugin.title",
       "source": "駅舎プラグイン",
-      "translation": ""
+      "translation": "Station Building Plugin"
     },
     {
       "key": "contribution.{474B8BFD-2501-1010-8800-D0EA1049D28D}.group",
       "source": "高架下駅舎(tomix)",
-      "translation": ""
+      "translation": "Under-elevated station building (Tomix)"
     },
     {
       "key": "contribution.{474B8BFD-2502-1010-8800-D0EA1049D28D}.group",
       "source": "高架下駅舎(tomix)",
-      "translation": ""
+      "translation": "Under-elevated station building (Tomix)"
     }
   ]
 }

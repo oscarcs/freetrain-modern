@@ -5,353 +5,353 @@
   "texts": [
     {
       "key": "plugin.title",
-      "source": "車両セット\u30003号車",
-      "translation": ""
+      "source": "車両セット　3号車",
+      "translation": "Vehicle Set Car 3"
     },
     {
       "key": "contribution.{57644AE6-7FFA-B209-8FE0-7567171D3CEF}.name",
       "source": "京浜東北線",
-      "translation": ""
+      "translation": "Keihin-Tohoku Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-B209-8FE0-7567171D3CEF}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{57644AE6-7FFA-B209-8FE0-7567171D3CEF}.type",
       "source": "209系",
-      "translation": ""
+      "translation": "209 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-B209-8FE0-7567171D3CEF}.description",
       "source": "水色ラインの京浜東北線用209系。",
-      "translation": ""
+      "translation": "The 209 series for the Keihin-Tohoku Line with a light blue stripe."
     },
     {
       "key": "contribution.{57644AE6-7FFA-C209-8FE0-7567171D3CEF}.name",
       "source": "八高線",
-      "translation": ""
+      "translation": "Hachiko Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-C209-8FE0-7567171D3CEF}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{57644AE6-7FFA-C209-8FE0-7567171D3CEF}.type",
       "source": "209系",
-      "translation": ""
+      "translation": "209 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-C209-8FE0-7567171D3CEF}.description",
       "source": "緑とオレンジのラインの八高線用209系。",
-      "translation": ""
+      "translation": "209 Series for the Hachiko Line with green and orange stripes."
     },
     {
       "key": "contribution.{57644AE6-7FFA-D209-8FE0-7567171D3CEF}.name",
       "source": "南武線",
-      "translation": ""
+      "translation": "Nambu Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-D209-8FE0-7567171D3CEF}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{57644AE6-7FFA-D209-8FE0-7567171D3CEF}.type",
       "source": "209系",
-      "translation": ""
+      "translation": "209 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-D209-8FE0-7567171D3CEF}.description",
       "source": "黄色とオレンジのラインの南武線用209系。",
-      "translation": ""
+      "translation": "209 Series for the Nambu Line with yellow and orange stripes."
     },
     {
       "key": "contribution.{57644AE6-7FFA-A501-8FE0-7567171D3CEF}.name",
       "source": "常磐線",
-      "translation": ""
+      "translation": "Joban Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A501-8FE0-7567171D3CEF}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A501-8FE0-7567171D3CEF}.type",
       "source": "E501系",
-      "translation": ""
+      "translation": "E501 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A501-8FE0-7567171D3CEF}.description",
       "source": "常磐線取手以遠にも投入できるように、209系をベースに交直両用、最高速度120kmとして制作された。",
-      "translation": ""
+      "translation": "Based on the 209 series, it was manufactured as an AC/DC dual-current train with a maximum speed of 120 km/h, so it could be introduced beyond Toride on the Joban Line."
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-7567171D3CEF}.name",
       "source": "中央・総武線（緩行）",
-      "translation": ""
+      "translation": "Chuo-Sobu Line (Local)"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-7567171D3CEF}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-7567171D3CEF}.type",
       "source": "E231系",
-      "translation": ""
+      "translation": "E231 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-7567171D3CEF}.description",
       "source": "黄色のラインの中央・総武線（緩行）用E231系。",
-      "translation": ""
+      "translation": "E231 Series for the Chuo-Sobu Line (Local) with yellow stripes."
     },
     {
       "key": "contribution.{57644AE6-7FFA-B231-8FE0-7567171D3CEF}.name",
       "source": "山手線",
-      "translation": ""
+      "translation": "Yamanote Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-B231-8FE0-7567171D3CEF}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{57644AE6-7FFA-B231-8FE0-7567171D3CEF}.type",
       "source": "E231系",
-      "translation": ""
+      "translation": "E231 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-B231-8FE0-7567171D3CEF}.description",
       "source": "黄緑色のラインのE231系。",
-      "translation": ""
+      "translation": "E231 Series with yellow-green stripes."
     },
     {
       "key": "contribution.{57644AE6-7FFA-C231-8FE0-7567171D3CEF}.name",
       "source": "東北・高崎線",
-      "translation": ""
+      "translation": "Tohoku / Takasaki Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-C231-8FE0-7567171D3CEF}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{57644AE6-7FFA-C231-8FE0-7567171D3CEF}.type",
       "source": "E231系",
-      "translation": ""
+      "translation": "E231 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-C231-8FE0-7567171D3CEF}.description",
       "source": "緑とオレンジの近郊型のE231系。",
-      "translation": ""
+      "translation": "E231 Series suburban type with green and orange."
     },
     {
       "key": "contribution.{57644AE6-7FFA-D231-8FE0-7567171D3CEF}.name",
       "source": "常磐線",
-      "translation": ""
+      "translation": "Joban Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-D231-8FE0-7567171D3CEF}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{57644AE6-7FFA-D231-8FE0-7567171D3CEF}.type",
       "source": "E231系",
-      "translation": ""
+      "translation": "E231 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-D231-8FE0-7567171D3CEF}.description",
       "source": "青緑と緑のE231系。",
-      "translation": ""
+      "translation": "E231 Series in blue-green and green."
     },
     {
       "key": "contribution.{57644AE6-7FFA-E231-8FE0-7567171D3CEF}.name",
       "source": "800番台",
-      "translation": ""
+      "translation": "800 sub-series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-E231-8FE0-7567171D3CEF}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{57644AE6-7FFA-E231-8FE0-7567171D3CEF}.type",
       "source": "E231系",
-      "translation": ""
+      "translation": "E231 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-E231-8FE0-7567171D3CEF}.description",
       "source": "地下鉄東西線に直通する301系、103系1200番台の置き換えとして用として投入された車両。",
-      "translation": ""
+      "translation": "A train introduced to replace the 301 Series and 103 Series 1200 sub-series, which operate through services on the Tozai Subway Line."
     },
     {
       "key": "contribution.{57644AE6-7FFA-K283-8FE0-7567171D3CEF}.name",
       "source": "スーパーおおぞら、スーパーとかち など",
-      "translation": ""
+      "translation": "Super Ozora, Super Tokachi, etc."
     },
     {
       "key": "contribution.{57644AE6-7FFA-K283-8FE0-7567171D3CEF}.company",
       "source": "JR北海道",
-      "translation": ""
+      "translation": "JR Hokkaido"
     },
     {
       "key": "contribution.{57644AE6-7FFA-K283-8FE0-7567171D3CEF}.type",
       "source": "キハ283系",
-      "translation": ""
+      "translation": "Kiha 283 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-K283-8FE0-7567171D3CEF}.description",
       "source": "石勝線、根室本線を高速化するために開発された。キハ281系をベースとした振り子車である。",
-      "translation": ""
+      "translation": "Developed to speed up the Sekishō Line and Nemuro Main Line. It is a tilting train based on the Kiha 281 Series."
     },
     {
       "key": "contribution.{57644AE6-7FFA-K261-8FE0-7567171D3CEF}.name",
       "source": "スーパー宗谷 など",
-      "translation": ""
+      "translation": "Super Soya, etc."
     },
     {
       "key": "contribution.{57644AE6-7FFA-K261-8FE0-7567171D3CEF}.company",
       "source": "JR北海道",
-      "translation": ""
+      "translation": "JR Hokkaido"
     },
     {
       "key": "contribution.{57644AE6-7FFA-K261-8FE0-7567171D3CEF}.type",
       "source": "キハ261系",
-      "translation": ""
+      "translation": "Kiha 261 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-K261-8FE0-7567171D3CEF}.description",
       "source": "宗谷本線旭川～名寄間を高速化するために開発された。外見はキハ281系、キハ283系によく似ている。",
-      "translation": ""
+      "translation": "Developed to increase speed on the Sōya Main Line between Asahikawa and Nayoro. Its appearance is very similar to the Kiha 281 Series and Kiha 283 Series."
     },
     {
       "key": "contribution.{cyber-express-1703d-040105-ec789}.name",
       "source": "スーパー白鳥",
-      "translation": ""
+      "translation": "Super Hakucho"
     },
     {
       "key": "contribution.{cyber-express-1703d-040105-ec789}.company",
       "source": "JR北海道",
-      "translation": ""
+      "translation": "JR Hokkaido"
     },
     {
       "key": "contribution.{cyber-express-1703d-040105-ec789}.type",
       "source": "789系",
-      "translation": ""
+      "translation": "789 Series"
     },
     {
       "key": "contribution.{cyber-express-1703d-040105-ec789}.description",
       "source": "青函トンネル用車両。",
-      "translation": ""
+      "translation": "Vehicle for the Seikan Tunnel."
     },
     {
       "key": "contribution.{57644AE6-7FFA-80KH-8FE0-7567171D3CEF}.name",
       "source": "半蔵門線",
-      "translation": ""
+      "translation": "Hanzomon Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-80KH-8FE0-7567171D3CEF}.company",
       "source": "帝都高速度交通営団",
-      "translation": ""
+      "translation": "Teito Rapid Transit Authority"
     },
     {
       "key": "contribution.{57644AE6-7FFA-80KH-8FE0-7567171D3CEF}.type",
       "source": "8000系",
-      "translation": ""
+      "translation": "8000 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-9KTK-8FE0-7567171D3CEF}.company",
       "source": "東京急行電鉄",
-      "translation": ""
+      "translation": "Tokyu Corporation"
     },
     {
       "key": "contribution.{57644AE6-7FFA-9KTK-8FE0-7567171D3CEF}.type",
       "source": "9000系",
-      "translation": ""
+      "translation": "9000 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-9KTK-8FE0-7567171D3CEF}.description",
       "source": "東急東横線などで使われている9000系です。",
-      "translation": ""
+      "translation": "This is the 9000 Series used on the Tokyu Toyoko Line and other lines."
     },
     {
       "key": "contribution.{57644AE6-7FFA-2KTK-8FE0-7567171D3CEF}.company",
       "source": "東京急行電鉄",
-      "translation": ""
+      "translation": "Tokyu Corporation"
     },
     {
       "key": "contribution.{57644AE6-7FFA-2KTK-8FE0-7567171D3CEF}.type",
       "source": "2000系",
-      "translation": ""
+      "translation": "2000 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-2KTK-8FE0-7567171D3CEF}.description",
       "source": "東急田園都市線で使われている2000系です。3編成しかないので結構レア？",
-      "translation": ""
+      "translation": "This is the 2000 Series used on the Tokyu Den-en-toshi Line. Only 3 sets exist, so it's quite rare?"
     },
     {
       "key": "contribution.{57644AE6-7FFA-1KTK-8FE0-7567171D3CEF}.company",
       "source": "東京急行電鉄",
-      "translation": ""
+      "translation": "Tokyu Corporation"
     },
     {
       "key": "contribution.{57644AE6-7FFA-1KTK-8FE0-7567171D3CEF}.type",
       "source": "1000系",
-      "translation": ""
+      "translation": "1000 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-1KTK-8FE0-7567171D3CEF}.description",
       "source": "東急東横線、池上線などで使われている1000系です。東横線では地下鉄乗り入れ用に、池上線ではワンマン運転用に使われています。9000系との外見の大きな違いはドアとエアコンの室外機が3つなこと。",
-      "translation": ""
+      "translation": "This is the 1000 Series used on the Tokyu Toyoko Line, Ikegami Line, and others. On the Toyoko Line, it's used for subway through-service, and on the Ikegami Line, for one-man operation. The main external differences from the 9000 Series are the doors and having three outdoor air conditioner units."
     },
     {
       "key": "contribution.{57644AE6-7FFA-5KTK-8FE0-7567171D3CEF}.company",
       "source": "東京急行電鉄",
-      "translation": ""
+      "translation": "Tokyu Corporation"
     },
     {
       "key": "contribution.{57644AE6-7FFA-5KTK-8FE0-7567171D3CEF}.type",
       "source": "5000系",
-      "translation": ""
+      "translation": "5000 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-5KTK-8FE0-7567171D3CEF}.description",
       "source": "東急田園都市線で使われている5000系です。",
-      "translation": ""
+      "translation": "This is the 5000 Series used on the Tokyu Den-en-toshi Line."
     },
     {
       "key": "contribution.{TYPHOON-109-5050-HENSEI-7567171D3CEF}.company",
       "source": "東京急行電鉄",
-      "translation": ""
+      "translation": "Tokyu Corporation"
     },
     {
       "key": "contribution.{TYPHOON-109-5050-HENSEI-7567171D3CEF}.type",
       "source": "5050系",
-      "translation": ""
+      "translation": "5050 Series"
     },
     {
       "key": "contribution.{TYPHOON-109-5050-HENSEI-7567171D3CEF}.description",
       "source": "5000系がベースの東横線用5050系です。",
-      "translation": ""
+      "translation": "5050 Series for the Toyoko Line, based on the 5000 Series."
     },
     {
       "key": "contribution.{TYPHOON-109-5080-HENSEI-7567171D3CEF}.company",
       "source": "東京急行電鉄",
-      "translation": ""
+      "translation": "Tokyu Corporation"
     },
     {
       "key": "contribution.{TYPHOON-109-5080-HENSEI-7567171D3CEF}.type",
       "source": "5080系",
-      "translation": ""
+      "translation": "5080 Series"
     },
     {
       "key": "contribution.{TYPHOON-109-5080-HENSEI-7567171D3CEF}.description",
       "source": "5000系がベースの目黒線用5080系です。",
-      "translation": ""
+      "translation": "5080 Series for the Meguro Line, based on the 5000 Series."
     }
   ]
 }

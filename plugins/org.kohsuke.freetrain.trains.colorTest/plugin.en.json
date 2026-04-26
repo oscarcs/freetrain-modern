@@ -6,17 +6,17 @@
     {
       "key": "plugin.title",
       "source": "色試験列車",
-      "translation": ""
+      "translation": "Color Test Train"
     },
     {
       "key": "contribution.{719F0922-EA74-409C-B829-C4950201C226}.name",
       "source": "色設定の試験列車",
-      "translation": ""
+      "translation": "Color Setting Test Train"
     },
     {
       "key": "contribution.{719F0922-EA74-409C-B829-C4950201C226}.description",
       "source": "新しい列車を設計するのに使えます",
-      "translation": ""
+      "translation": "Can be used to design new trains."
     }
   ]
 }

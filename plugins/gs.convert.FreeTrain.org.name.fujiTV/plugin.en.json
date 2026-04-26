@@ -5,13 +5,13 @@
   "texts": [
     {
       "key": "plugin.title",
-      "source": "建物総合コンバート\u3000周",
-      "translation": ""
+      "source": "建物総合コンバート　周",
+      "translation": "Building General Convert: Shu"
     },
     {
       "key": "contribution.{AACA403C-56ED-418C-8444-ED4CB868234C}-gs.name",
       "source": "フジテレビ",
-      "translation": ""
+      "translation": "Fuji TV"
     }
   ]
 }

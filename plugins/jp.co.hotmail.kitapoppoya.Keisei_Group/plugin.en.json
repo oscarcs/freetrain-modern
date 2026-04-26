@@ -6,87 +6,87 @@
     {
       "key": "plugin.title",
       "source": "京成グループ+",
-      "translation": ""
+      "translation": "Keisei Group+"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-9-AE100}.name",
       "source": "スカイライナー",
-      "translation": ""
+      "translation": "Skyliner"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-9-AE100}.company",
       "source": "京成電鉄",
-      "translation": ""
+      "translation": "Keisei Electric Railway"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-9-AE100}.type",
       "source": "AE100系",
-      "translation": ""
+      "translation": "AE100 Series"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-9-AE100}.description",
       "source": "成田空港特急でお馴染みの車両。新高速鉄道の開業時に置き換えが決まっている。",
-      "translation": ""
+      "translation": "A familiar train for Narita Airport limited express services. It is scheduled to be replaced with the opening of the new high-speed railway."
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-HOKUSO7300}.name",
       "source": "北総線",
-      "translation": ""
+      "translation": "Hokuso Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-HOKUSO7300}.company",
       "source": "北総鉄道",
-      "translation": ""
+      "translation": "Hokuso Railway"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-HOKUSO7300}.type",
       "source": "7300系",
-      "translation": ""
+      "translation": "7300 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-HOKUSO7300}.description",
       "source": "京成3700系の姉妹車両。",
-      "translation": ""
+      "translation": "A sister train to the Keisei 3700 Series."
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-HOKUSO7500}.name",
       "source": "北総線",
-      "translation": ""
+      "translation": "Hokuso Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-HOKUSO7500}.company",
       "source": "北総鉄道",
-      "translation": ""
+      "translation": "Hokuso Railway"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-HOKUSO7500}.type",
       "source": "7500系",
-      "translation": ""
+      "translation": "7500 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-HOKUSO7500}.description",
       "source": "京成3000系の姉妹車両。北総線の旧型車置き換えを目的として登場した。",
-      "translation": ""
+      "translation": "A sister train to the Keisei 3000 Series. It was introduced to replace older trains on the Hokuso Line."
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-CNTR9100}.name",
       "source": "北総線",
-      "translation": ""
+      "translation": "Hokuso Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-CNTR9100}.company",
       "source": "千葉ニュータウン鉄道",
-      "translation": ""
+      "translation": "Chiba New Town Railway"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-CNTR9100}.type",
       "source": "9100系",
-      "translation": ""
+      "translation": "9100 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-CNTR9100}.description",
       "source": "もともとは住宅公団の所有車両。奇抜なデザインで知られる。",
-      "translation": ""
+      "translation": "Originally a vehicle owned by the Housing and Urban Development Corporation. Known for its unique design."
     }
   ]
 }

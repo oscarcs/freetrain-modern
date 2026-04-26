@@ -6,37 +6,37 @@
     {
       "key": "plugin.title",
       "source": "架線柱",
-      "translation": ""
+      "translation": "Catenary Pole"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-Tras-Center-Red}.name",
       "source": "鉄橋(赤, 中)",
-      "translation": ""
+      "translation": "Railway Bridge (Red, Center)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-Tras-Left-Red}.name",
       "source": "鉄橋(赤, 左)",
-      "translation": ""
+      "translation": "Railway Bridge (Red, Left)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-Tras-Right-Red}.name",
       "source": "鉄橋(赤, 右)",
-      "translation": ""
+      "translation": "Railway Bridge (Red, Right)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-Tras-Center-Green}.name",
       "source": "鉄橋(緑, 中)",
-      "translation": ""
+      "translation": "Railway Bridge (Green, Center)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-Tras-Left-Green}.name",
       "source": "鉄橋(緑, 左)",
-      "translation": ""
+      "translation": "Railway Bridge (Green, Left)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-Tras-Right-Green}.name",
       "source": "鉄橋(緑, 右)",
-      "translation": ""
+      "translation": "Railway Bridge (Green, Right)"
     }
   ]
 }

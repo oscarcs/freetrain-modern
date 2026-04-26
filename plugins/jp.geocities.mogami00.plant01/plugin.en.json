@@ -6,12 +6,12 @@
     {
       "key": "plugin.title",
       "source": "化学反応塔",
-      "translation": ""
+      "translation": "Chemical Reactor Tower"
     },
     {
       "key": "contribution.{mogami-building-kagakuplant01-E07234000ED8}.group",
       "source": "化学反応塔",
-      "translation": ""
+      "translation": "Chemical Reactor Tower"
     }
   ]
 }

@@ -6,22 +6,22 @@
     {
       "key": "plugin.title",
       "source": "建物セット",
-      "translation": ""
+      "translation": "Building Set"
     },
     {
       "key": "contribution.{487900B6-EBCA-4c98-9E28-194050E9706D}.name",
       "source": "ファミリーマート",
-      "translation": ""
+      "translation": "FamilyMart"
     },
     {
       "key": "contribution.{487900B6-EBCA-4c98-9E28-194050E9706D}.group",
       "source": "コンビニ",
-      "translation": ""
+      "translation": "Convenience store"
     },
     {
       "key": "contribution.{D6DED1EF-FA6F-4734-A4CA-46D217A1EC1F}.name",
       "source": "ヤマダ電機",
-      "translation": ""
+      "translation": "Yamada Denki"
     }
   ]
 }

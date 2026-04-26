@@ -6,22 +6,22 @@
     {
       "key": "plugin.title",
       "source": "団地（４方向）",
-      "translation": ""
+      "translation": "Housing Complex (4 directions)"
     },
     {
       "key": "contribution.{toaru-building-danchi-gs01-E7D95B0D8FCE-1}.name",
       "source": "公団スターハウス",
-      "translation": ""
+      "translation": "Kodan Star House"
     },
     {
       "key": "contribution.{toaru-building-danchi-gs01-E7D95B0D8FCE-2}.name",
       "source": "公団団地１",
-      "translation": ""
+      "translation": "Public housing complex 1"
     },
     {
       "key": "contribution.{toaru-building-danchi-gs01-E7D95B0D8FCE-3}.name",
       "source": "公団団地１",
-      "translation": ""
+      "translation": "Public housing complex 1"
     }
   ]
 }

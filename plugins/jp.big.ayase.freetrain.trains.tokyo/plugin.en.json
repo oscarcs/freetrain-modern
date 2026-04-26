@@ -6,27 +6,27 @@
     {
       "key": "plugin.title",
       "source": "東京都交通局",
-      "translation": ""
+      "translation": "Tokyo Metropolitan Bureau of Transportation"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-T01}.name",
       "source": "7500系",
-      "translation": ""
+      "translation": "7500 Series"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-T01}.company",
       "source": "東京都交通局",
-      "translation": ""
+      "translation": "Tokyo Metropolitan Bureau of Transportation"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-T01}.type",
       "source": "都電",
-      "translation": ""
+      "translation": "Toden Tram"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-T01}.description",
       "source": "東京都交通局の路面電車用車両。通常、単行で運転される。",
-      "translation": ""
+      "translation": "Tokyo Metropolitan Bureau of Transportation tramcar. Usually operated as a single unit."
     }
   ]
 }

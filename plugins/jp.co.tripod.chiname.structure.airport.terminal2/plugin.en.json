@@ -6,22 +6,22 @@
     {
       "key": "plugin.title",
       "source": "空港ターミナルＢ",
-      "translation": ""
+      "translation": "Airport Terminal B"
     },
     {
       "key": "contribution.{DC4BD38D-FA51-4CDC-C477-9D6F5FFC8A34}.group",
       "source": "空港国際線ターミナル",
-      "translation": ""
+      "translation": "Airport international terminal"
     },
     {
       "key": "contribution.{D73E9558-7685-4A09-C477-54902A0FAF7B}.group",
       "source": "空港国際線ターミナル",
-      "translation": ""
+      "translation": "Airport international terminal"
     },
     {
       "key": "contribution.{731CF80D-81C9-41B0-C477-E06FB565850D}.group",
       "source": "空港搭乗口",
-      "translation": ""
+      "translation": "Airport Boarding Gate"
     }
   ]
 }

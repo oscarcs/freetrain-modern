@@ -6,12 +6,12 @@
     {
       "key": "plugin.title",
       "source": "ホテル01",
-      "translation": ""
+      "translation": "Hotel 01"
     },
     {
       "key": "contribution.{mogami-building-hotel01-C51CA251FBZ9}.group",
       "source": "ビジネスホテル（3x3）",
-      "translation": ""
+      "translation": "Business Hotel (3x3)"
     }
   ]
 }

@@ -6,17 +6,17 @@
     {
       "key": "plugin.title",
       "source": "駅舎プラグイン",
-      "translation": ""
+      "translation": "Station Building Plugin"
     },
     {
       "key": "contribution.{BC6D8F1A-D9D5-429F-BD9F-4CF37D2A2A51}.group",
       "source": "高架下駅舎(赤レンガ)",
-      "translation": ""
+      "translation": "Under-elevated station building (red brick)"
     },
     {
       "key": "contribution.{17EB538E-30DD-4473-9BFD-16ACACEDBFDD}.group",
       "source": "高架下駅舎(赤レンガ)",
-      "translation": ""
+      "translation": "Under-elevated station building (red brick)"
     }
   ]
 }

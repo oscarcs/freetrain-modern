@@ -6,142 +6,142 @@
     {
       "key": "plugin.title",
       "source": "システム",
-      "translation": ""
+      "translation": "System"
     },
     {
       "key": "contribution.{COLORLIB-RAINBOW}.name",
       "source": "カラフル",
-      "translation": ""
+      "translation": "Colorful"
     },
     {
       "key": "contribution.{COLORLIB-STONES}.name",
       "source": "石壁",
-      "translation": ""
+      "translation": "Stone Wall"
     },
     {
       "key": "contribution.{COLORLIB-WOODS}.name",
       "source": "木材",
-      "translation": ""
+      "translation": "Wood"
     },
     {
       "key": "contribution.{COLORLIB-METALS}.name",
       "source": "金属",
-      "translation": ""
+      "translation": "Metal"
     },
     {
       "key": "contribution.{COLORLIB-BRICKS}.name",
       "source": "レンガ",
-      "translation": ""
+      "translation": "Bricks"
     },
     {
       "key": "contribution.{COLORLIB-DIRTS}.name",
       "source": "土・コンクリ",
-      "translation": ""
+      "translation": "Earth and Concrete"
     },
     {
       "key": "contribution.{COLORLIB-PASTEL}.name",
       "source": "パステル",
-      "translation": ""
+      "translation": "Pastel"
     },
     {
       "key": "contribution.{COLORLIB-COLPLATE}.name",
       "source": "カラー鉄板屋根",
-      "translation": ""
+      "translation": "Colored Steel Plate Roof"
     },
     {
       "key": "contribution.{COLORLIB-ROOF}.name",
       "source": "瓦・スレート",
-      "translation": ""
+      "translation": "Tile and Slate"
     },
     {
       "key": "contribution.{AC30BB0B-044C-4784-A83D-FCB1F60B3CF2}.name",
       "source": "鉄道",
-      "translation": ""
+      "translation": "Railway"
     },
     {
       "key": "contribution.{CC00A6D1-D078-4D3C-AFB2-EDC6CB9F4CB3}.name",
       "source": "バス",
-      "translation": ""
+      "translation": "Bus"
     },
     {
       "key": "contribution.{2A666F1A-9F40-4F67-98F4-DEAC1E55296D}.name",
       "source": "子会社",
-      "translation": ""
+      "translation": "Subsidiary"
     },
     {
       "key": "contribution.{C0A9ABA5-801F-4AA6-93EA-6FF563C2B407}.name",
       "source": "その他",
-      "translation": ""
+      "translation": "Other"
     },
     {
       "key": "contribution.{9B087AEA-6E9C-48cd-A1F3-1B774500752E}.name",
       "source": "プルルル",
-      "translation": ""
+      "translation": "Purururu"
     },
     {
       "key": "contribution.{87B1BA1B-C18F-4E39-AD50-245255F34388}.name",
       "source": "無音",
-      "translation": ""
+      "translation": "Silent"
     },
     {
       "key": "contribution.{12DB2C30-14B2-426D-B324-639BE17268C5}.name",
       "source": "売上情報",
-      "translation": ""
+      "translation": "Sales Information"
     },
     {
       "key": "contribution.{7A5AE360-0974-4e6a-A7BB-70A3906C406E}.name",
       "source": "子会社売買",
-      "translation": ""
+      "translation": "Subsidiary trading"
     },
     {
       "key": "contribution.{CBB96A74-1201-4A26-82ED-B7A8C71EC5AD}.name",
       "source": "ダイヤ設定",
-      "translation": ""
+      "translation": "Timetable settings"
     },
     {
       "key": "contribution.{533F5EF1-2E97-46aa-A231-49BB0D2A724D}.name",
       "source": "列車情報",
-      "translation": ""
+      "translation": "Train information"
     },
     {
       "key": "contribution.{243D9F53-67FB-432E-B985-3B9B696D8CE0}-1.name",
       "source": "汎用三色細帯",
-      "translation": ""
+      "translation": "General Purpose Three-Color Thin Stripe"
     },
     {
       "key": "contribution.{243D9F53-67FB-432E-B985-3B9B696D8CE0}-2.name",
       "source": "汎用四色太帯",
-      "translation": ""
+      "translation": "General Purpose Four-Color Thick Stripe"
     },
     {
       "key": "contribution.{243D9F53-67FB-432E-B985-3B9B696D8CE0}-3.name",
       "source": "汎用四色細帯",
-      "translation": ""
+      "translation": "General Purpose Four-Color Thin Stripe"
     },
     {
       "key": "contribution.{243D9F53-67FB-432E-B985-3B9B696D8CE0}-4.name",
       "source": "103系風",
-      "translation": ""
+      "translation": "103 Series Style"
     },
     {
       "key": "contribution.{243D9F53-67FB-432E-B985-3B9B696D8CE0}-5.name",
       "source": "205系風",
-      "translation": ""
+      "translation": "205 Series style"
     },
     {
       "key": "contribution.{243D9F53-67FB-432E-B985-3B9B696D8CE0}-6.name",
       "source": "211系風",
-      "translation": ""
+      "translation": "211 Series style"
     },
     {
       "key": "contribution.{243D9F53-67FB-432E-B985-3B9B696D8CE0}-7.name",
       "source": "E231系風",
-      "translation": ""
+      "translation": "E231 Series style"
     },
     {
       "key": "contribution.{develop-config}.name",
       "source": "発展パラメータ調整",
-      "translation": ""
+      "translation": "Development Parameter Adjustment"
     }
   ]
 }

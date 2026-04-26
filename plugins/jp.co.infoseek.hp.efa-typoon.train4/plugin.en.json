@@ -5,263 +5,263 @@
   "texts": [
     {
       "key": "plugin.title",
-      "source": "車両セット\u30001号車",
-      "translation": ""
+      "source": "車両セット　1号車",
+      "translation": "Train set Car 1"
     },
     {
       "key": "contribution.{57644AE6-7FFA-71KN-8FE0-7567171D3CEF}.name",
       "source": "旧塗装",
-      "translation": ""
+      "translation": "Old livery"
     },
     {
       "key": "contribution.{57644AE6-7FFA-71KN-8FE0-7567171D3CEF}.company",
       "source": "南海電鉄",
-      "translation": ""
+      "translation": "Nankai Electric Railway"
     },
     {
       "key": "contribution.{57644AE6-7FFA-71KN-8FE0-7567171D3CEF}.type",
       "source": "7000系",
-      "translation": ""
+      "translation": "7000 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-70KN-8FE0-7567171D3CEF}.company",
       "source": "南海電鉄",
-      "translation": ""
+      "translation": "Nankai Electric Railway"
     },
     {
       "key": "contribution.{57644AE6-7FFA-70KN-8FE0-7567171D3CEF}.type",
       "source": "7000系",
-      "translation": ""
+      "translation": "7000 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-11KN-8FE0-7567171D3CEF}.name",
       "source": "四国など",
-      "translation": ""
+      "translation": "Shikoku, etc."
     },
     {
       "key": "contribution.{57644AE6-7FFA-11KN-8FE0-7567171D3CEF}.company",
       "source": "南海電鉄",
-      "translation": ""
+      "translation": "Nankai Electric Railway"
     },
     {
       "key": "contribution.{57644AE6-7FFA-11KN-8FE0-7567171D3CEF}.type",
       "source": "旧1000系",
-      "translation": ""
+      "translation": "Former 1000 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-20KN-8FE0-7567171D3CEF}.company",
       "source": "南海電鉄",
-      "translation": ""
+      "translation": "Nankai Electric Railway"
     },
     {
       "key": "contribution.{57644AE6-7FFA-20KN-8FE0-7567171D3CEF}.type",
       "source": "2000系",
-      "translation": ""
+      "translation": "2000 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-20KN-8FE0-7567171D3CEF}.description",
       "source": "(12両までの偶数両のみ編成可)",
-      "translation": ""
+      "translation": "(Can only be formed with an even number of cars, up to 12)"
     },
     {
       "key": "contribution.{TYPHOON-NANKAI-NEW10000-HENSEI-7567171D3CEF}.name",
       "source": "サザン",
-      "translation": ""
+      "translation": "Southern"
     },
     {
       "key": "contribution.{TYPHOON-NANKAI-NEW10000-HENSEI-7567171D3CEF}.company",
       "source": "南海電鉄",
-      "translation": ""
+      "translation": "Nankai Electric Railway"
     },
     {
       "key": "contribution.{TYPHOON-NANKAI-NEW10000-HENSEI-7567171D3CEF}.type",
       "source": "10000系",
-      "translation": ""
+      "translation": "10000 Series"
     },
     {
       "key": "contribution.{TYPHOON-NANKAI-NEW10000-HENSEI-7567171D3CEF}.description",
       "source": "(4・8・12両のみ編成可)",
-      "translation": ""
+      "translation": "(Formations of 4, 8, or 12 cars only)"
     },
     {
       "key": "contribution.{TYPHOON-NANKAI-NEW17000-HENSEI-7567171D3CEF}.name",
       "source": "サザン",
-      "translation": ""
+      "translation": "Southern"
     },
     {
       "key": "contribution.{TYPHOON-NANKAI-NEW17000-HENSEI-7567171D3CEF}.company",
       "source": "南海電鉄",
-      "translation": ""
+      "translation": "Nankai Electric Railway"
     },
     {
       "key": "contribution.{TYPHOON-NANKAI-NEW17000-HENSEI-7567171D3CEF}.type",
       "source": "10000系+7000系",
-      "translation": ""
+      "translation": "10000 Series + 7000 Series"
     },
     {
       "key": "contribution.{TYPHOON-NANKAI-NEW17000-HENSEI-7567171D3CEF}.description",
       "source": "(8両のみ編成可)",
-      "translation": ""
+      "translation": "(Formations of 8 cars only)"
     },
     {
       "key": "contribution.{TYPHOON-NANKAI-OLD10000-HENSEI-7567171D3CEF}.name",
-      "source": "旧塗装\u3000サザン",
-      "translation": ""
+      "source": "旧塗装　サザン",
+      "translation": "Old livery Southern"
     },
     {
       "key": "contribution.{TYPHOON-NANKAI-OLD10000-HENSEI-7567171D3CEF}.company",
       "source": "南海電鉄",
-      "translation": ""
+      "translation": "Nankai Electric Railway"
     },
     {
       "key": "contribution.{TYPHOON-NANKAI-OLD10000-HENSEI-7567171D3CEF}.type",
       "source": "10000系",
-      "translation": ""
+      "translation": "10000 Series"
     },
     {
       "key": "contribution.{TYPHOON-NANKAI-OLD10000-HENSEI-7567171D3CEF}.description",
       "source": "(12両までの偶数両のみ編成可)",
-      "translation": ""
+      "translation": "(Can only be formed with an even number of cars, up to 12)"
     },
     {
       "key": "contribution.{TYPHOON-NANKAI-OLD17000-HENSEI-7567171D3CEF}.name",
-      "source": "旧塗装\u3000サザン",
-      "translation": ""
+      "source": "旧塗装　サザン",
+      "translation": "Old livery Southern"
     },
     {
       "key": "contribution.{TYPHOON-NANKAI-OLD17000-HENSEI-7567171D3CEF}.company",
       "source": "南海電鉄",
-      "translation": ""
+      "translation": "Nankai Electric Railway"
     },
     {
       "key": "contribution.{TYPHOON-NANKAI-OLD17000-HENSEI-7567171D3CEF}.type",
       "source": "10000系+7000系",
-      "translation": ""
+      "translation": "10000 Series + 7000 Series"
     },
     {
       "key": "contribution.{TYPHOON-NANKAI-OLD17000-HENSEI-7567171D3CEF}.description",
       "source": "(6両のみ編成可)",
-      "translation": ""
+      "translation": "(Formations of 6 cars only)"
     },
     {
       "key": "contribution.{57644AE6-7FFA-10KN-8FE0-7567171D3CEF}.company",
       "source": "南海電鉄",
-      "translation": ""
+      "translation": "Nankai Electric Railway"
     },
     {
       "key": "contribution.{57644AE6-7FFA-10KN-8FE0-7567171D3CEF}.type",
       "source": "1000系",
-      "translation": ""
+      "translation": "1000 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-10KN-8FE0-7567171D3CEF}.description",
       "source": "(12両までの偶数両のみ編成可)",
-      "translation": ""
+      "translation": "(Can only be formed with an even number of cars, up to 12)"
     },
     {
       "key": "contribution.{57644AE6-7FFA-55MT-8FE0-7567171D3CEF}.company",
       "source": "名古屋鉄道",
-      "translation": ""
+      "translation": "Meitetsu"
     },
     {
       "key": "contribution.{57644AE6-7FFA-55MT-8FE0-7567171D3CEF}.type",
       "source": "5500系",
-      "translation": ""
+      "translation": "5500 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-MT55A-8FE0-7567171D3CEF}.name",
       "source": "スカーレット白帯",
-      "translation": ""
+      "translation": "Scarlet with white stripe"
     },
     {
       "key": "contribution.{57644AE6-7FFA-MT55A-8FE0-7567171D3CEF}.company",
       "source": "名古屋鉄道",
-      "translation": ""
+      "translation": "Meitetsu"
     },
     {
       "key": "contribution.{57644AE6-7FFA-MT55A-8FE0-7567171D3CEF}.type",
       "source": "5500系",
-      "translation": ""
+      "translation": "5500 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-MT55A-8FE0-7567171D3CEF}.description",
       "source": "(8両までの偶数両のみ編成可)",
-      "translation": ""
+      "translation": "(Can be formed with even number of cars up to 8 cars)"
     },
     {
       "key": "contribution.{57644AE6-7FFA-MT55B-8FE0-7567171D3CEF}.name",
       "source": "ストロークリーム赤帯",
-      "translation": ""
+      "translation": "Straw cream with red stripe"
     },
     {
       "key": "contribution.{57644AE6-7FFA-MT55B-8FE0-7567171D3CEF}.company",
       "source": "名古屋鉄道",
-      "translation": ""
+      "translation": "Meitetsu"
     },
     {
       "key": "contribution.{57644AE6-7FFA-MT55B-8FE0-7567171D3CEF}.type",
       "source": "5500系",
-      "translation": ""
+      "translation": "5500 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-MT55B-8FE0-7567171D3CEF}.description",
       "source": "(8両までの偶数両のみ編成可)",
-      "translation": ""
+      "translation": "(Can be formed with even number of cars up to 8 cars)"
     },
     {
       "key": "contribution.{TYPHOON-MEITETSU-CHO5500-HENSEI-7567171D3CEF}.name",
       "source": "チョコレート",
-      "translation": ""
+      "translation": "Chocolate"
     },
     {
       "key": "contribution.{TYPHOON-MEITETSU-CHO5500-HENSEI-7567171D3CEF}.company",
       "source": "名古屋鉄道",
-      "translation": ""
+      "translation": "Meitetsu"
     },
     {
       "key": "contribution.{TYPHOON-MEITETSU-CHO5500-HENSEI-7567171D3CEF}.type",
       "source": "5500系",
-      "translation": ""
+      "translation": "5500 Series"
     },
     {
       "key": "contribution.{TYPHOON-MEITETSU-CHO5500-HENSEI-7567171D3CEF}.description",
       "source": "(8両までの偶数両のみ編成可)",
-      "translation": ""
+      "translation": "(Can be formed with even number of cars up to 8 cars)"
     },
     {
       "key": "contribution.{57644AE6-7FFA-MT55D-8FE0-7567171D3CEF}.name",
       "source": "重連",
-      "translation": ""
+      "translation": "Double-heading"
     },
     {
       "key": "contribution.{57644AE6-7FFA-MT55D-8FE0-7567171D3CEF}.company",
       "source": "名古屋鉄道",
-      "translation": ""
+      "translation": "Meitetsu"
     },
     {
       "key": "contribution.{57644AE6-7FFA-MT55D-8FE0-7567171D3CEF}.type",
       "source": "5500系",
-      "translation": ""
+      "translation": "5500 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-MT55D-8FE0-7567171D3CEF}.description",
       "source": "(6・12両までの偶数両のみ編成可)",
-      "translation": ""
+      "translation": "(Even-numbered formations up to 6 or 12 cars only)"
     },
     {
       "key": "contribution.{TYPHOON-TOBU-30000-HENSEI-7567171D3CEF}.company",
       "source": "東武鉄道",
-      "translation": ""
+      "translation": "Tobu Railway"
     },
     {
       "key": "contribution.{TYPHOON-TOBU-30000-HENSEI-7567171D3CEF}.type",
       "source": "30000系",
-      "translation": ""
+      "translation": "30000 Series"
     },
     {
       "key": "contribution.{TYPHOON-TOBU-30000-HENSEI-7567171D3CEF}.description",
       "source": "半蔵門線、田園都市線直通の電車です。",
-      "translation": ""
+      "translation": "This is an electric train for through-service on the Hanzomon Line and Den-en-toshi Line."
     }
   ]
 }

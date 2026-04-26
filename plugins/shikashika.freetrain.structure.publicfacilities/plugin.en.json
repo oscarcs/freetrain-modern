@@ -6,177 +6,177 @@
     {
       "key": "plugin.title",
       "source": "建物(公共)",
-      "translation": ""
+      "translation": "Building (Public Facilities)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-shrine-shinto-shintoshrine01}.name",
       "source": "神社(3x3)",
-      "translation": ""
+      "translation": "Shinto Shrine (3x3)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-shrine-shinto-shintoshrine01}.group",
       "source": "宗教施設",
-      "translation": ""
+      "translation": "Religious facility"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-shrine-shinto-shintoshrine02a}.name",
       "source": "神社(1x1)",
-      "translation": ""
+      "translation": "Shrine (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-shrine-shinto-shintoshrine02a}.group",
       "source": "宗教施設",
-      "translation": ""
+      "translation": "Religious facility"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-shrine-shinto-shintoshrine02b}.name",
       "source": "神社(1x1)",
-      "translation": ""
+      "translation": "Shrine (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-shrine-shinto-shintoshrine02b}.group",
       "source": "宗教施設",
-      "translation": ""
+      "translation": "Religious facility"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-publicfacilities-postoffice01a}.name",
       "source": "郵便局(1x1)",
-      "translation": ""
+      "translation": "Post office (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-publicfacilities-postoffice01a}.group",
       "source": "郵便局",
-      "translation": ""
+      "translation": "Post office"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-publicfacilities-postoffice01b}.name",
       "source": "郵便局(1x1)",
-      "translation": ""
+      "translation": "Post office (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-publicfacilities-postoffice01b}.group",
       "source": "郵便局",
-      "translation": ""
+      "translation": "Post office"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-publicfacilities-postoffice01c}.name",
       "source": "郵便局(1x1)",
-      "translation": ""
+      "translation": "Post office (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-publicfacilities-postoffice01c}.group",
       "source": "郵便局",
-      "translation": ""
+      "translation": "Post office"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-publicfacilities-postoffice01d}.name",
       "source": "郵便局(1x1)",
-      "translation": ""
+      "translation": "Post office (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-publicfacilities-postoffice01d}.group",
       "source": "郵便局",
-      "translation": ""
+      "translation": "Post office"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-publicoffice-villageoffice01a}.name",
       "source": "村役場(1x1)",
-      "translation": ""
+      "translation": "Village Office (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-publicoffice-villageoffice01a}.group",
       "source": "役所",
-      "translation": ""
+      "translation": "Government office"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-publicoffice-villageoffice01b}.name",
       "source": "村役場(1x1)",
-      "translation": ""
+      "translation": "Village Office (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-publicoffice-villageoffice01b}.group",
       "source": "役所",
-      "translation": ""
+      "translation": "Government office"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-publicoffice-villageoffice01c}.name",
       "source": "村役場(1x1)",
-      "translation": ""
+      "translation": "Village Office (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-publicoffice-villageoffice01c}.group",
       "source": "役所",
-      "translation": ""
+      "translation": "Government office"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-publicoffice-villageoffice01d}.name",
       "source": "村役場(1x1)",
-      "translation": ""
+      "translation": "Village Office (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-publicoffice-villageoffice01d}.group",
       "source": "役所",
-      "translation": ""
+      "translation": "Government office"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-publicoffice-townoffice01a}.name",
       "source": "町役場(1x2)",
-      "translation": ""
+      "translation": "Town Hall (1x2)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-publicoffice-townoffice01a}.group",
       "source": "役所",
-      "translation": ""
+      "translation": "Government office"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-publicoffice-townoffice01b}.name",
       "source": "町役場(1x2)",
-      "translation": ""
+      "translation": "Town Hall (1x2)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-publicoffice-townoffice01b}.group",
       "source": "役所",
-      "translation": ""
+      "translation": "Government office"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-publicoffice-cityoffice01a}.name",
       "source": "市役所(2x2)",
-      "translation": ""
+      "translation": "City Hall (2x2)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-publicoffice-cityoffice01a}.group",
       "source": "役所",
-      "translation": ""
+      "translation": "Government office"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-publicoffice-cityoffice01b}.name",
       "source": "市役所(2x2)",
-      "translation": ""
+      "translation": "City Hall (2x2)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-publicoffice-cityoffice01b}.group",
       "source": "役所",
-      "translation": ""
+      "translation": "Government office"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-publicoffice-prefecturaloffice01}.name",
       "source": "都道府県庁(3x7)",
-      "translation": ""
+      "translation": "Prefectural office (3x7)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-publicoffice-prefecturaloffice01}.group",
       "source": "役所",
-      "translation": ""
+      "translation": "Government office"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-publicoffice-prefecturaloffice02}.name",
       "source": "都道府県庁(3x7)",
-      "translation": ""
+      "translation": "Prefectural office (3x7)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-publicoffice-prefecturaloffice02}.group",
       "source": "役所",
-      "translation": ""
+      "translation": "Government office"
     }
   ]
 }

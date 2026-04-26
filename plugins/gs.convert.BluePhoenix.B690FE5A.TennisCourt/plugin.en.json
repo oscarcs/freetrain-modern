@@ -5,38 +5,38 @@
   "texts": [
     {
       "key": "plugin.title",
-      "source": "建物総合コンバート\u3000狼月楼夜",
-      "translation": ""
+      "source": "建物総合コンバート　狼月楼夜",
+      "translation": "Building General Convert: Rogetsuroya"
     },
     {
       "key": "contribution.{TennisCourt-commercial-C000-000a-B690FE5A-狼月}-gs.name",
       "source": "テニスコート",
-      "translation": ""
+      "translation": "Tennis Court"
     },
     {
       "key": "contribution.{TennisCourt-commercial-C000-000a-B690FE5A-狼月}-gs.group",
       "source": "テニスコート",
-      "translation": ""
+      "translation": "Tennis Court"
     },
     {
       "key": "contribution.{TennisCourt-commercial-C000-000c-B690FE5A-狼月}-gs.name",
       "source": "テニスコート",
-      "translation": ""
+      "translation": "Tennis Court"
     },
     {
       "key": "contribution.{TennisCourt-commercial-C000-000c-B690FE5A-狼月}-gs.group",
       "source": "テニスコート",
-      "translation": ""
+      "translation": "Tennis Court"
     },
     {
       "key": "contribution.{TennisCourt-commercial-C000-000e-B690FE5A-狼月}-gs.name",
       "source": "テニスコート",
-      "translation": ""
+      "translation": "Tennis Court"
     },
     {
       "key": "contribution.{TennisCourt-commercial-C000-000e-B690FE5A-狼月}-gs.group",
       "source": "テニスコート",
-      "translation": ""
+      "translation": "Tennis Court"
     }
   ]
 }

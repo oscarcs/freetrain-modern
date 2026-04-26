@@ -6,27 +6,27 @@
     {
       "key": "plugin.title",
       "source": "遊園地セット３",
-      "translation": ""
+      "translation": "Amusement Park Set 3"
     },
     {
       "key": "contribution.{04D7D6D1-7072-4699-C477-2A92BE0F968E}.name",
       "source": "緑地帯(芝生)",
-      "translation": ""
+      "translation": "Green belt (lawn)"
     },
     {
       "key": "contribution.{04D7D6D1-7072-4699-C477-2A92BE0F968E}.description",
       "source": "グリーンベルト",
-      "translation": ""
+      "translation": "Green Belt"
     },
     {
       "key": "contribution.{419E1E0E-808B-463E-C477-BD718F7BE7A7}.name",
       "source": "緑地帯(並木)",
-      "translation": ""
+      "translation": "Green belt (tree-lined)"
     },
     {
       "key": "contribution.{419E1E0E-808B-463E-C477-BD718F7BE7A7}.description",
       "source": "グリーンベルト",
-      "translation": ""
+      "translation": "Green Belt"
     }
   ]
 }

@@ -6,387 +6,387 @@
     {
       "key": "plugin.title",
       "source": "建物(店舗)",
-      "translation": ""
+      "translation": "Building (Shop)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-travelagent-shika2-01-headoffice}.name",
       "source": "旅行代理店",
-      "translation": ""
+      "translation": "Travel Agency"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-travelagent-shika2-01-headoffice}.group",
       "source": "サービス窓口",
-      "translation": ""
+      "translation": "Service Counter"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-travelagent-shika2-02-branchoffice}.name",
       "source": "旅行代理店",
-      "translation": ""
+      "translation": "Travel Agency"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-travelagent-shika2-02-branchoffice}.group",
       "source": "サービス窓口",
-      "translation": ""
+      "translation": "Service Counter"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-electrical-deo2-01-main}.name",
       "source": "家電量販店",
-      "translation": ""
+      "translation": "Electronics Retailer"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-electrical-deo2-01-main}.group",
       "source": "都市型量販店",
-      "translation": ""
+      "translation": "Urban retail store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-electrical-deo2-02-pc}.name",
       "source": "家電量販店",
-      "translation": ""
+      "translation": "Electronics Retailer"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-electrical-deo2-02-pc}.group",
       "source": "都市型量販店",
-      "translation": ""
+      "translation": "Urban retail store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-electrical-deo2-03-watchcamera}.name",
       "source": "家電量販店",
-      "translation": ""
+      "translation": "Electronics Retailer"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-electrical-deo2-03-watchcamera}.group",
       "source": "都市型量販店",
-      "translation": ""
+      "translation": "Urban retail store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-electrical-deo2-04-suburbs}.name",
       "source": "家電量販店",
-      "translation": ""
+      "translation": "Electronics Retailer"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-electrical-deo2-04-suburbs}.group",
       "source": "郊外型量販店",
-      "translation": ""
+      "translation": "Suburban Mass Retail Store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-bookstore-01-a}.name",
       "source": "本屋(1x1)",
-      "translation": ""
+      "translation": "Bookstore (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-bookstore-01-a}.group",
       "source": "個人日用品店",
-      "translation": ""
+      "translation": "Personal Goods Store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-bookstore-02-a}.name",
       "source": "本屋(1x1)",
-      "translation": ""
+      "translation": "Bookstore (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-bookstore-02-a}.group",
       "source": "個人日用品店",
-      "translation": ""
+      "translation": "Personal Goods Store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-bookstore-01-b}.name",
       "source": "本屋(1x1)",
-      "translation": ""
+      "translation": "Bookstore (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-bookstore-01-b}.group",
       "source": "個人日用品店",
-      "translation": ""
+      "translation": "Personal Goods Store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-bookstore-02-b}.name",
       "source": "本屋(1x1)",
-      "translation": ""
+      "translation": "Bookstore (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-bookstore-02-b}.group",
       "source": "個人日用品店",
-      "translation": ""
+      "translation": "Personal Goods Store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-bookstore-01-c}.name",
       "source": "本屋(1x1)",
-      "translation": ""
+      "translation": "Bookstore (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-bookstore-01-c}.group",
       "source": "個人日用品店",
-      "translation": ""
+      "translation": "Personal Goods Store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-bookstore-02-c}.name",
       "source": "本屋(1x1)",
-      "translation": ""
+      "translation": "Bookstore (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-bookstore-02-c}.group",
       "source": "個人日用品店",
-      "translation": ""
+      "translation": "Personal Goods Store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-vegetablestore-01-a}.name",
       "source": "八百屋(1x1)",
-      "translation": ""
+      "translation": "Greengrocer (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-vegetablestore-01-a}.group",
       "source": "個人日用品店",
-      "translation": ""
+      "translation": "Personal Goods Store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-vegetablestore-02-a}.name",
       "source": "八百屋(1x1)",
-      "translation": ""
+      "translation": "Greengrocer (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-vegetablestore-02-a}.group",
       "source": "個人日用品店",
-      "translation": ""
+      "translation": "Personal Goods Store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-vegetablestore-01-b}.name",
       "source": "八百屋(1x1)",
-      "translation": ""
+      "translation": "Greengrocer (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-vegetablestore-01-b}.group",
       "source": "個人日用品店",
-      "translation": ""
+      "translation": "Personal Goods Store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-vegetablestore-02-b}.name",
       "source": "八百屋(1x1)",
-      "translation": ""
+      "translation": "Greengrocer (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-vegetablestore-02-b}.group",
       "source": "個人日用品店",
-      "translation": ""
+      "translation": "Personal Goods Store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-vegetablestore-01-c}.name",
       "source": "八百屋(1x1)",
-      "translation": ""
+      "translation": "Greengrocer (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-vegetablestore-01-c}.group",
       "source": "個人日用品店",
-      "translation": ""
+      "translation": "Personal Goods Store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-vegetablestore-02-c}.name",
       "source": "八百屋(1x1)",
-      "translation": ""
+      "translation": "Greengrocer (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-vegetablestore-02-c}.group",
       "source": "個人日用品店",
-      "translation": ""
+      "translation": "Personal Goods Store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-meatshop-01-a}.name",
       "source": "肉屋(1x1)",
-      "translation": ""
+      "translation": "Butcher Shop (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-meatshop-01-a}.group",
       "source": "個人日用品店",
-      "translation": ""
+      "translation": "Personal Goods Store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-meatshop-02-a}.name",
       "source": "肉屋(1x1)",
-      "translation": ""
+      "translation": "Butcher Shop (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-meatshop-02-a}.group",
       "source": "個人日用品店",
-      "translation": ""
+      "translation": "Personal Goods Store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-meatshop-01-b}.name",
       "source": "肉屋(1x1)",
-      "translation": ""
+      "translation": "Butcher Shop (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-meatshop-01-b}.group",
       "source": "個人日用品店",
-      "translation": ""
+      "translation": "Personal Goods Store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-meatshop-02-b}.name",
       "source": "肉屋(1x1)",
-      "translation": ""
+      "translation": "Butcher Shop (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-meatshop-02-b}.group",
       "source": "個人日用品店",
-      "translation": ""
+      "translation": "Personal Goods Store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-meatshop-01-c}.name",
       "source": "肉屋(1x1)",
-      "translation": ""
+      "translation": "Butcher Shop (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-meatshop-01-c}.group",
       "source": "個人日用品店",
-      "translation": ""
+      "translation": "Personal Goods Store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-meatshop-02-c}.name",
       "source": "肉屋(1x1)",
-      "translation": ""
+      "translation": "Butcher Shop (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-meatshop-02-c}.group",
       "source": "個人日用品店",
-      "translation": ""
+      "translation": "Personal Goods Store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-fishstore-01-a}.name",
       "source": "魚屋(1x1)",
-      "translation": ""
+      "translation": "Fish Shop (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-fishstore-01-a}.group",
       "source": "個人日用品店",
-      "translation": ""
+      "translation": "Personal Goods Store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-fishstore-02-a}.name",
       "source": "魚屋(1x1)",
-      "translation": ""
+      "translation": "Fish Shop (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-fishstore-02-a}.group",
       "source": "個人日用品店",
-      "translation": ""
+      "translation": "Personal Goods Store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-fishstore-01-b}.name",
       "source": "魚屋(1x1)",
-      "translation": ""
+      "translation": "Fish Shop (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-fishstore-01-b}.group",
       "source": "個人日用品店",
-      "translation": ""
+      "translation": "Personal Goods Store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-fishstore-02-b}.name",
       "source": "魚屋(1x1)",
-      "translation": ""
+      "translation": "Fish Shop (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-fishstore-02-b}.group",
       "source": "個人日用品店",
-      "translation": ""
+      "translation": "Personal Goods Store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-fishstore-01-c}.name",
       "source": "魚屋(1x1)",
-      "translation": ""
+      "translation": "Fish Shop (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-fishstore-01-c}.group",
       "source": "個人日用品店",
-      "translation": ""
+      "translation": "Personal Goods Store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-fishstore-02-c}.name",
       "source": "魚屋(1x1)",
-      "translation": ""
+      "translation": "Fish Shop (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-fishstore-02-c}.group",
       "source": "個人日用品店",
-      "translation": ""
+      "translation": "Personal Goods Store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-souvenirstore-001-a}.name",
       "source": "土産物屋(1x1)",
-      "translation": ""
+      "translation": "Souvenir shop (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-souvenirstore-001-a}.group",
       "source": "個人日用品店",
-      "translation": ""
+      "translation": "Personal Goods Store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-souvenirstore-001-b}.name",
       "source": "土産物屋(1x1)",
-      "translation": ""
+      "translation": "Souvenir shop (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-souvenirstore-001-b}.group",
       "source": "個人日用品店",
-      "translation": ""
+      "translation": "Personal Goods Store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-souvenirstore-001-c}.name",
       "source": "土産物屋(1x1)",
-      "translation": ""
+      "translation": "Souvenir shop (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-souvenirstore-001-c}.group",
       "source": "個人日用品店",
-      "translation": ""
+      "translation": "Personal Goods Store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-souvenirstore-001-d}.name",
       "source": "土産物屋(1x1)",
-      "translation": ""
+      "translation": "Souvenir shop (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-souvenirstore-001-d}.group",
       "source": "個人日用品店",
-      "translation": ""
+      "translation": "Personal Goods Store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-souvenirstore-002-a}.name",
       "source": "土産物屋(1x1)",
-      "translation": ""
+      "translation": "Souvenir shop (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-souvenirstore-002-a}.group",
       "source": "個人日用品店",
-      "translation": ""
+      "translation": "Personal Goods Store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-souvenirstore-002-b}.name",
       "source": "土産物屋(1x1)",
-      "translation": ""
+      "translation": "Souvenir shop (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-souvenirstore-002-b}.group",
       "source": "個人日用品店",
-      "translation": ""
+      "translation": "Personal Goods Store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-souvenirstore-002-c}.name",
       "source": "土産物屋(1x1)",
-      "translation": ""
+      "translation": "Souvenir shop (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-souvenirstore-002-c}.group",
       "source": "個人日用品店",
-      "translation": ""
+      "translation": "Personal Goods Store"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-souvenirstore-002-d}.name",
       "source": "土産物屋(1x1)",
-      "translation": ""
+      "translation": "Souvenir shop (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-building-store-souvenirstore-002-d}.group",
       "source": "個人日用品店",
-      "translation": ""
+      "translation": "Personal Goods Store"
     }
   ]
 }

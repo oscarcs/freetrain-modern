@@ -6,567 +6,567 @@
     {
       "key": "plugin.title",
       "source": "JR東日本 車両キット",
-      "translation": ""
+      "translation": "JR East Rolling Stock Kit"
     },
     {
       "key": "contribution.{E231-east-joban-200309301104}.name",
       "source": "常磐線",
-      "translation": ""
+      "translation": "Joban Line"
     },
     {
       "key": "contribution.{E231-east-joban-200309301104}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{E231-east-joban-200309301104}.type",
       "source": "E231系",
-      "translation": ""
+      "translation": "E231 Series"
     },
     {
       "key": "contribution.{E231-east-joban-200309301104}.description",
       "source": "常磐線の新型列車です。",
-      "translation": ""
+      "translation": "This is a new train for the Joban Line."
     },
     {
       "key": "contribution.{E231-east-yamanote-200309301120}.name",
       "source": "山手線",
-      "translation": ""
+      "translation": "Yamanote Line"
     },
     {
       "key": "contribution.{E231-east-yamanote-200309301120}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{E231-east-yamanote-200309301120}.type",
       "source": "E231系500番台",
-      "translation": ""
+      "translation": "E231 Series 500 sub-series"
     },
     {
       "key": "contribution.{E231-east-yamanote-200309301120}.description",
       "source": "山手線の新型車両です。",
-      "translation": ""
+      "translation": "This is a new train for the Yamanote Line."
     },
     {
       "key": "contribution.{E231-east-tohoku-200309301122}.name",
       "source": "東北本線・高崎線など",
-      "translation": ""
+      "translation": "Tohoku Main Line, Takasaki Line, etc."
     },
     {
       "key": "contribution.{E231-east-tohoku-200309301122}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{E231-east-tohoku-200309301122}.type",
       "source": "E231系台",
-      "translation": ""
+      "translation": "E231 Series type"
     },
     {
       "key": "contribution.{E231-east-tohoku-200309301122}.description",
       "source": "東北本線・高崎線などに使われているＥ２３１系の電車です。",
-      "translation": ""
+      "translation": "This is an E231 Series electric train used on the Tohoku Main Line, Takasaki Line, and other lines."
     },
     {
       "key": "contribution.{103-east-tsurumi-200309301111}.name",
       "source": "鶴見線",
-      "translation": ""
+      "translation": "Tsurumi Line"
     },
     {
       "key": "contribution.{103-east-tsurumi-200309301111}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{103-east-tsurumi-200309301111}.type",
       "source": "103系",
-      "translation": ""
+      "translation": "103 Series"
     },
     {
       "key": "contribution.{103-east-tsurumi-200309301111}.description",
       "source": "鶴見線で走っている、黄色い電車です。",
-      "translation": ""
+      "translation": "This is a yellow electric train running on the Tsurumi Line."
     },
     {
       "key": "contribution.{E2078A95-1BB6-48dd-BF5B-6F3286006F33}.name",
       "source": "仙石線",
-      "translation": ""
+      "translation": "Senseki Line"
     },
     {
       "key": "contribution.{E2078A95-1BB6-48dd-BF5B-6F3286006F33}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{E2078A95-1BB6-48dd-BF5B-6F3286006F33}.type",
       "source": "103系",
-      "translation": ""
+      "translation": "103 Series"
     },
     {
       "key": "contribution.{E2078A95-1BB6-48dd-BF5B-6F3286006F33}.description",
       "source": "国鉄で製作された車両で、JR東日本では淘汰が進んでいる。以前には京浜東北線や山手線にも走った経緯があるが今はその雄姿も見ることが出来ず、残念である。2002年末では武蔵野線、南武線などに残る。",
-      "translation": ""
+      "translation": "Vehicles manufactured by JNR are being phased out by JR East. They previously ran on the Keihin-Tohoku Line and Yamanote Line, but unfortunately, their majestic appearance can no longer be seen. As of late 2002, they remain on lines such as the Musashino Line and Nambu Line."
     },
     {
       "key": "contribution.{1D9D4BD5-7EA5-4571-8074-DF973C3BCC67}.name",
       "source": "カナリア(高運)",
-      "translation": ""
+      "translation": "Canary (High Cab)"
     },
     {
       "key": "contribution.{1D9D4BD5-7EA5-4571-8074-DF973C3BCC67}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{1D9D4BD5-7EA5-4571-8074-DF973C3BCC67}.type",
       "source": "103系",
-      "translation": ""
+      "translation": "103 Series"
     },
     {
       "key": "contribution.{1D9D4BD5-7EA5-4571-8074-DF973C3BCC67}.description",
       "source": "国鉄で製作された車両で、JR東日本では淘汰が進んでいる。以前には京浜東北線や山手線にも走った経緯があるが今はその雄姿も見ることが出来ず、残念である。2002年末では武蔵野線、南武線などに残る。",
-      "translation": ""
+      "translation": "Vehicles manufactured by JNR are being phased out by JR East. They previously ran on the Keihin-Tohoku Line and Yamanote Line, but unfortunately, their majestic appearance can no longer be seen. As of late 2002, they remain on lines such as the Musashino Line and Nambu Line."
     },
     {
       "key": "contribution.{51EEC947-7400-4F09-B6EC-A871E4C2704C}.name",
       "source": "カナリア",
-      "translation": ""
+      "translation": "Canary"
     },
     {
       "key": "contribution.{51EEC947-7400-4F09-B6EC-A871E4C2704C}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{51EEC947-7400-4F09-B6EC-A871E4C2704C}.type",
       "source": "103系",
-      "translation": ""
+      "translation": "103 Series"
     },
     {
       "key": "contribution.{51EEC947-7400-4F09-B6EC-A871E4C2704C}.description",
       "source": "国鉄で製作された車両で、JR東日本では淘汰が進んでいる。以前には京浜東北線や山手線にも走った経緯があるが今はその雄姿も見ることが出来ず、残念である。2002年末では武蔵野線、南武線などに残る。",
-      "translation": ""
+      "translation": "Vehicles manufactured by JNR are being phased out by JR East. They previously ran on the Keihin-Tohoku Line and Yamanote Line, but unfortunately, their majestic appearance can no longer be seen. As of late 2002, they remain on lines such as the Musashino Line and Nambu Line."
     },
     {
       "key": "contribution.{875F3931-2F9D-4CC1-89E2-E2460DFB2483}.name",
       "source": "エメラルドグリーン(高運)",
-      "translation": ""
+      "translation": "Emerald Green (High Cab)"
     },
     {
       "key": "contribution.{875F3931-2F9D-4CC1-89E2-E2460DFB2483}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{875F3931-2F9D-4CC1-89E2-E2460DFB2483}.type",
       "source": "103系",
-      "translation": ""
+      "translation": "103 Series"
     },
     {
       "key": "contribution.{875F3931-2F9D-4CC1-89E2-E2460DFB2483}.description",
       "source": "国鉄で製作された車両で、JR東日本では淘汰が進んでいる。以前には京浜東北線や山手線にも走った経緯があるが今はその雄姿も見ることが出来ず、残念である。2002年末では武蔵野線、南武線などに残る。",
-      "translation": ""
+      "translation": "Vehicles manufactured by JNR are being phased out by JR East. They previously ran on the Keihin-Tohoku Line and Yamanote Line, but unfortunately, their majestic appearance can no longer be seen. As of late 2002, they remain on lines such as the Musashino Line and Nambu Line."
     },
     {
       "key": "contribution.{F0E4FE4D-AB7E-415F-9480-ADE0D767211F}.name",
       "source": "エメラルドグリーン",
-      "translation": ""
+      "translation": "Emerald Green"
     },
     {
       "key": "contribution.{F0E4FE4D-AB7E-415F-9480-ADE0D767211F}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{F0E4FE4D-AB7E-415F-9480-ADE0D767211F}.type",
       "source": "103系",
-      "translation": ""
+      "translation": "103 Series"
     },
     {
       "key": "contribution.{F0E4FE4D-AB7E-415F-9480-ADE0D767211F}.description",
       "source": "国鉄で製作された車両で、JR東日本では淘汰が進んでいる。以前には京浜東北線や山手線にも走った経緯があるが今はその雄姿も見ることが出来ず、残念である。2002年末では武蔵野線、南武線などに残る。",
-      "translation": ""
+      "translation": "Vehicles manufactured by JNR are being phased out by JR East. They previously ran on the Keihin-Tohoku Line and Yamanote Line, but unfortunately, their majestic appearance can no longer be seen. As of late 2002, they remain on lines such as the Musashino Line and Nambu Line."
     },
     {
       "key": "contribution.{DE070299-5E15-4498-9044-3304D78F02E7}.name",
       "source": "スカイブルー(高運)",
-      "translation": ""
+      "translation": "Sky Blue (high cab)"
     },
     {
       "key": "contribution.{DE070299-5E15-4498-9044-3304D78F02E7}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{DE070299-5E15-4498-9044-3304D78F02E7}.type",
       "source": "103系",
-      "translation": ""
+      "translation": "103 Series"
     },
     {
       "key": "contribution.{DE070299-5E15-4498-9044-3304D78F02E7}.description",
       "source": "国鉄で製作された車両で、JR東日本では淘汰が進んでいる。以前には京浜東北線や山手線にも走った経緯があるが今はその雄姿も見ることが出来ず、残念である。2002年末では武蔵野線、南武線などに残る。",
-      "translation": ""
+      "translation": "Vehicles manufactured by JNR are being phased out by JR East. They previously ran on the Keihin-Tohoku Line and Yamanote Line, but unfortunately, their majestic appearance can no longer be seen. As of late 2002, they remain on lines such as the Musashino Line and Nambu Line."
     },
     {
       "key": "contribution.{8BD04DE3-3244-4219-B74B-7C22D27B38F9}.name",
       "source": "スカイブルー",
-      "translation": ""
+      "translation": "Sky Blue"
     },
     {
       "key": "contribution.{8BD04DE3-3244-4219-B74B-7C22D27B38F9}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{8BD04DE3-3244-4219-B74B-7C22D27B38F9}.type",
       "source": "103系",
-      "translation": ""
+      "translation": "103 Series"
     },
     {
       "key": "contribution.{8BD04DE3-3244-4219-B74B-7C22D27B38F9}.description",
       "source": "国鉄で製作された車両で、JR東日本では淘汰が進んでいる。以前には京浜東北線や山手線にも走った経緯があるが今はその雄姿も見ることが出来ず、残念である。2002年末では武蔵野線、南武線などに残る。",
-      "translation": ""
+      "translation": "Vehicles manufactured by JNR are being phased out by JR East. They previously ran on the Keihin-Tohoku Line and Yamanote Line, but unfortunately, their majestic appearance can no longer be seen. As of late 2002, they remain on lines such as the Musashino Line and Nambu Line."
     },
     {
       "key": "contribution.{E645C4DD-E47A-46E3-83AC-B747ED91B4B5}.name",
       "source": "ウグイス",
-      "translation": ""
+      "translation": "Uguisu"
     },
     {
       "key": "contribution.{E645C4DD-E47A-46E3-83AC-B747ED91B4B5}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{E645C4DD-E47A-46E3-83AC-B747ED91B4B5}.type",
       "source": "103系",
-      "translation": ""
+      "translation": "103 Series"
     },
     {
       "key": "contribution.{E645C4DD-E47A-46E3-83AC-B747ED91B4B5}.description",
       "source": "国鉄で製作された車両で、JR東日本では淘汰が進んでいる。以前には京浜東北線や山手線にも走った経緯があるが今はその雄姿も見ることが出来ず、残念である。2002年末では武蔵野線、南武線などに残る。",
-      "translation": ""
+      "translation": "Vehicles manufactured by JNR are being phased out by JR East. They previously ran on the Keihin-Tohoku Line and Yamanote Line, but unfortunately, their majestic appearance can no longer be seen. As of late 2002, they remain on lines such as the Musashino Line and Nambu Line."
     },
     {
       "key": "contribution.{E704683D-1817-43CB-8FCF-12FCB722D641}.name",
       "source": "ウグイス(高運)",
-      "translation": ""
+      "translation": "Uguisu (high cab)"
     },
     {
       "key": "contribution.{E704683D-1817-43CB-8FCF-12FCB722D641}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{E704683D-1817-43CB-8FCF-12FCB722D641}.type",
       "source": "103系",
-      "translation": ""
+      "translation": "103 Series"
     },
     {
       "key": "contribution.{E704683D-1817-43CB-8FCF-12FCB722D641}.description",
       "source": "国鉄で製作された車両で、JR東日本では淘汰が進んでいる。以前には京浜東北線や山手線にも走った経緯があるが今はその雄姿も見ることが出来ず、残念である。2002年末では武蔵野線、南武線などに残る。",
-      "translation": ""
+      "translation": "Vehicles manufactured by JNR are being phased out by JR East. They previously ran on the Keihin-Tohoku Line and Yamanote Line, but unfortunately, their majestic appearance can no longer be seen. As of late 2002, they remain on lines such as the Musashino Line and Nambu Line."
     },
     {
       "key": "contribution.{0FE8DB71-1F57-4593-BF2C-F5D83EC4E11E}.name",
       "source": "オレンジ",
-      "translation": ""
+      "translation": "Orange"
     },
     {
       "key": "contribution.{0FE8DB71-1F57-4593-BF2C-F5D83EC4E11E}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{0FE8DB71-1F57-4593-BF2C-F5D83EC4E11E}.type",
       "source": "103系",
-      "translation": ""
+      "translation": "103 Series"
     },
     {
       "key": "contribution.{0FE8DB71-1F57-4593-BF2C-F5D83EC4E11E}.description",
       "source": "国鉄で製作された車両で、JR東日本では淘汰が進んでいる。以前には京浜東北線や山手線にも走った経緯があるが今はその雄姿も見ることが出来ず、残念である。2002年末では武蔵野線、南武線などに残る。",
-      "translation": ""
+      "translation": "Vehicles manufactured by JNR are being phased out by JR East. They previously ran on the Keihin-Tohoku Line and Yamanote Line, but unfortunately, their majestic appearance can no longer be seen. As of late 2002, they remain on lines such as the Musashino Line and Nambu Line."
     },
     {
       "key": "contribution.{10E751CF-E779-4876-B6F0-567F27232B5B}.name",
       "source": "オレンジ(高運)",
-      "translation": ""
+      "translation": "Orange (high cab)"
     },
     {
       "key": "contribution.{10E751CF-E779-4876-B6F0-567F27232B5B}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{10E751CF-E779-4876-B6F0-567F27232B5B}.type",
       "source": "103系",
-      "translation": ""
+      "translation": "103 Series"
     },
     {
       "key": "contribution.{10E751CF-E779-4876-B6F0-567F27232B5B}.description",
       "source": "国鉄で製作された車両で、JR東日本では淘汰が進んでいる。以前には京浜東北線や山手線にも走った経緯があるが今はその雄姿も見ることが出来ず、残念である。2002年末では武蔵野線、南武線などに残る。",
-      "translation": ""
+      "translation": "Vehicles manufactured by JNR are being phased out by JR East. They previously ran on the Keihin-Tohoku Line and Yamanote Line, but unfortunately, their majestic appearance can no longer be seen. As of late 2002, they remain on lines such as the Musashino Line and Nambu Line."
     },
     {
       "key": "contribution.{D96FC5B6-B763-417b-A563-DD27C2C6740A}.name",
       "source": "標準色",
-      "translation": ""
+      "translation": "Standard livery"
     },
     {
       "key": "contribution.{D96FC5B6-B763-417b-A563-DD27C2C6740A}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{D96FC5B6-B763-417b-A563-DD27C2C6740A}.type",
       "source": "415系",
-      "translation": ""
+      "translation": "415 Series"
     },
     {
       "key": "contribution.{D96FC5B6-B763-417b-A563-DD27C2C6740A}.description",
       "source": "主に常磐線を走る電車。交直流区間を走ることができる。",
-      "translation": ""
+      "translation": "An electric train mainly running on the Jōban Line. It can run on both AC and DC sections."
     },
     {
       "key": "contribution.{C9054F40-A558-4bec-AF88-3FC53F2F858B}.name",
       "source": "やまびこ",
-      "translation": ""
+      "translation": "Yamabiko"
     },
     {
       "key": "contribution.{C9054F40-A558-4bec-AF88-3FC53F2F858B}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{C9054F40-A558-4bec-AF88-3FC53F2F858B}.type",
       "source": "200系",
-      "translation": ""
+      "translation": "200 Series"
     },
     {
       "key": "contribution.{C9054F40-A558-4bec-AF88-3FC53F2F858B}.description",
       "source": "東北・上越新幹線用車両。\n主に10両(K編成),12両(F編成)があります。",
-      "translation": ""
+      "translation": "Rolling stock for the Tohoku and Joetsu Shinkansen lines. Primarily available in 10-car (K formation) and 12-car (F formation) sets."
     },
     {
       "key": "contribution.{98FD607D-4A3F-484c-8557-486E7CF5FE52}.name",
       "source": "湘南色",
-      "translation": ""
+      "translation": "Shonan color"
     },
     {
       "key": "contribution.{98FD607D-4A3F-484c-8557-486E7CF5FE52}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{98FD607D-4A3F-484c-8557-486E7CF5FE52}.type",
       "source": "165系",
-      "translation": ""
+      "translation": "165 Series"
     },
     {
       "key": "contribution.{98FD607D-4A3F-484c-8557-486E7CF5FE52}.description",
       "source": "急行型電車。現在この色での定期運用はないはず。",
-      "translation": ""
+      "translation": "Express electric train. This color scheme should no longer be in regular service."
     },
     {
       "key": "contribution.{D4BBAEE3-7491-445E-B95A-BD4D013CAA02}.name",
       "source": "前面ボンネット無・いなほ等",
-      "translation": ""
+      "translation": "No front bonnet - for Inaho, etc."
     },
     {
       "key": "contribution.{D4BBAEE3-7491-445E-B95A-BD4D013CAA02}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{D4BBAEE3-7491-445E-B95A-BD4D013CAA02}.type",
       "source": "485系",
-      "translation": ""
+      "translation": "485 Series"
     },
     {
       "key": "contribution.{D4BBAEE3-7491-445E-B95A-BD4D013CAA02}.description",
       "source": "昭和43年に登場した交直両用特急電車。登場以来数々の特急の代名詞となった。塗色変更も多数行われ全国で運転されている。",
-      "translation": ""
+      "translation": "An AC/DC limited express electric train that appeared in 1968. Since its debut, it has become synonymous with many limited express trains. It has undergone numerous livery changes and operates nationwide."
     },
     {
       "key": "contribution.{64F236E3-52C9-4f53-9B19-762445E26F5A}.name",
       "source": "横須賀色",
-      "translation": ""
+      "translation": "Yokosuka Livery"
     },
     {
       "key": "contribution.{64F236E3-52C9-4f53-9B19-762445E26F5A}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{64F236E3-52C9-4f53-9B19-762445E26F5A}.type",
       "source": "113系",
-      "translation": ""
+      "translation": "113 Series"
     },
     {
       "key": "contribution.{64F236E3-52C9-4f53-9B19-762445E26F5A}.description",
       "source": "首都圏の各地で見られる車両。111系を出力増強した形式だが、E217系などの登場により活躍の場が減っている。",
-      "translation": ""
+      "translation": "Vehicles seen in various parts of the Tokyo metropolitan area. A model with increased output from the 111 Series, but its active role is diminishing with the appearance of trains like the E217 Series."
     },
     {
       "key": "contribution.{88BB50A2-08DD-48C9-AA4C-3D87EEC7252E}.name",
       "source": "湘南色",
-      "translation": ""
+      "translation": "Shonan color"
     },
     {
       "key": "contribution.{88BB50A2-08DD-48C9-AA4C-3D87EEC7252E}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{88BB50A2-08DD-48C9-AA4C-3D87EEC7252E}.type",
       "source": "113系",
-      "translation": ""
+      "translation": "113 Series"
     },
     {
       "key": "contribution.{88BB50A2-08DD-48C9-AA4C-3D87EEC7252E}.description",
       "source": "JR東日本では主に東海道本線や御殿場線などで使用されている。",
-      "translation": ""
+      "translation": "In JR East, it is mainly used on the Tokaido Main Line and Gotemba Line."
     },
     {
       "key": "contribution.{88BB50A2-08DD-48C9-AA4C-3D87EEC7252E}D.name",
       "source": "湘南色DD",
-      "translation": ""
+      "translation": "Shonan Color DD"
     },
     {
       "key": "contribution.{88BB50A2-08DD-48C9-AA4C-3D87EEC7252E}D.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{88BB50A2-08DD-48C9-AA4C-3D87EEC7252E}D.type",
       "source": "113系",
-      "translation": ""
+      "translation": "113 Series"
     },
     {
       "key": "contribution.{88BB50A2-08DD-48C9-AA4C-3D87EEC7252E}D.description",
       "source": "JR東日本で使用されているうち、中間車の一部をグリーン車とした編成。東海道本線で見られる。",
-      "translation": ""
+      "translation": "Among those used by JR East, this formation has some intermediate cars designated as Green Cars. It can be seen on the Tokaido Main Line."
     },
     {
       "key": "contribution.{46D00257-72FF-4c69-8538-9B2EAC8CF4EB}.name",
       "source": "ドクターイエロー",
-      "translation": ""
+      "translation": "Doctor Yellow"
     },
     {
       "key": "contribution.{46D00257-72FF-4c69-8538-9B2EAC8CF4EB}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{46D00257-72FF-4c69-8538-9B2EAC8CF4EB}.type",
       "source": "925形",
-      "translation": ""
+      "translation": "925 Series"
     },
     {
       "key": "contribution.{46D00257-72FF-4c69-8538-9B2EAC8CF4EB}.description",
       "source": "東北・上越・北陸新幹線用の総合試験車。",
-      "translation": ""
+      "translation": "Comprehensive test train for the Tohoku, Joetsu, and Hokuriku Shinkansen lines."
     },
     {
       "key": "contribution.{377D778C-CEF0-4e4c-9CE0-C1EFA6E1D743}.name",
       "source": "MAXやまびこ",
-      "translation": ""
+      "translation": "MAX Yamabiko"
     },
     {
       "key": "contribution.{377D778C-CEF0-4e4c-9CE0-C1EFA6E1D743}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{377D778C-CEF0-4e4c-9CE0-C1EFA6E1D743}.type",
       "source": "E4系",
-      "translation": ""
+      "translation": "E4 Series"
     },
     {
       "key": "contribution.{377D778C-CEF0-4e4c-9CE0-C1EFA6E1D743}.description",
       "source": "暫定版",
-      "translation": ""
+      "translation": "Provisional version"
     },
     {
       "key": "contribution.{662C0314-6527-41e4-8E18-445EAD9A71B5}.name",
       "source": "はやて、あさま等",
-      "translation": ""
+      "translation": "Hayate, Asama, etc."
     },
     {
       "key": "contribution.{662C0314-6527-41e4-8E18-445EAD9A71B5}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{662C0314-6527-41e4-8E18-445EAD9A71B5}.type",
       "source": "E2系",
-      "translation": ""
+      "translation": "E2 Series"
     },
     {
       "key": "contribution.{662C0314-6527-41e4-8E18-445EAD9A71B5}.description",
       "source": "東北・上越・北陸新幹線用車両。\n主に10両(J編成),8両(N編成)があります。",
-      "translation": ""
+      "translation": "Rolling stock for the Tohoku, Joetsu, and Hokuriku Shinkansen lines. Primarily available in 10-car (J formation) and 8-car (N formation) sets."
     },
     {
       "key": "contribution.{173B58EA-80E6-493b-A447-209ED0DF6622}.name",
       "source": "月光形",
-      "translation": ""
+      "translation": "Gekko type"
     },
     {
       "key": "contribution.{173B58EA-80E6-493b-A447-209ED0DF6622}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{173B58EA-80E6-493b-A447-209ED0DF6622}.type",
       "source": "581/583系",
-      "translation": ""
+      "translation": "581/583 Series"
     },
     {
       "key": "contribution.{173B58EA-80E6-493b-A447-209ED0DF6622}.description",
       "source": "高度経済成長のさなか車両運用の効率化を図るため登場した世界で初めての電車寝台特急。愛称となった「月光」をはじめ、「ゆうづる」や「彗星」など数々の特急として運転された。現在、定期運用されるのは大阪～新潟間の急行「きたぐに」だけである。",
-      "translation": ""
+      "translation": "The world's first electric sleeper limited express train, introduced to improve operational efficiency during Japan's period of rapid economic growth. It operated as various limited express trains, including the nicknamed 'Gekko,' 'Yuzuru,' and 'Suisei.' Currently, only the 'Kitaguni' express between Osaka and Niigata operates on a regular schedule."
     },
     {
       "key": "contribution.{2003-0211-KIGAMI-TrainImg-200-2000}.name",
       "source": "やまびこ・なすの",
-      "translation": ""
+      "translation": "Yamabiko / Nasuno"
     },
     {
       "key": "contribution.{2003-0211-KIGAMI-TrainImg-200-2000}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{2003-0211-KIGAMI-TrainImg-200-2000}.type",
       "source": "200系2000番台",
-      "translation": ""
+      "translation": "200 Series 2000 series"
     },
     {
       "key": "contribution.{2003-0211-KIGAMI-TrainImg-200-2000}.description",
       "source": "東北新幹線用車両。\n2階建てグリーン車の登場当初は13両編成で、後に2階建て車を2両に増やした16両編成で運転された。",
-      "translation": ""
+      "translation": "Rolling stock for the Tohoku Shinkansen. Initially operated as a 13-car train with a double-decker Green Car, later as a 16-car train with two double-decker cars."
     },
     {
       "key": "contribution.{B1F5C25A-4F88-4778-80F7-3CBC83E6D030}.name",
       "source": "中央本線等",
-      "translation": ""
+      "translation": "Chuo Main Line, etc."
     },
     {
       "key": "contribution.{B1F5C25A-4F88-4778-80F7-3CBC83E6D030}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{B1F5C25A-4F88-4778-80F7-3CBC83E6D030}.type",
       "source": "201系",
-      "translation": ""
+      "translation": "201 Series"
     },
     {
       "key": "contribution.{B1F5C25A-4F88-4778-80F7-3CBC83E6D030}.description",
-      "source": "国鉄時代から使われている列車\u3000JR東日本では中央本線や京葉線などで使われている。",
-      "translation": ""
+      "source": "国鉄時代から使われている列車　JR東日本では中央本線や京葉線などで使われている。",
+      "translation": "A train used since the JNR era. In JR East, it is used on the Chuo Main Line, Keiyo Line, and others."
     }
   ]
 }

@@ -6,47 +6,47 @@
     {
       "key": "plugin.title",
       "source": "相模鉄道プラグイン",
-      "translation": ""
+      "translation": "Sagami Railway Plugin"
     },
     {
       "key": "contribution.{0405302000}ljkyl5xldjgul32.name",
       "source": "10000系",
-      "translation": ""
+      "translation": "10000 Series"
     },
     {
       "key": "contribution.{0405302000}ljkyl5xldjgul32.company",
       "source": "相模鉄道",
-      "translation": ""
+      "translation": "Sagami Railway"
     },
     {
       "key": "contribution.{0405302000}ljkyl5xldjgul32.type",
       "source": "10000系",
-      "translation": ""
+      "translation": "10000 Series"
     },
     {
       "key": "contribution.{0405302000}ljkyl5xldjgul32.description",
       "source": "相模鉄道の最新型車輌JR東日本のE231を基本にして作られた",
-      "translation": ""
+      "translation": "Sagami Railway's newest rolling stock, based on JR East's E231 Series."
     },
     {
       "key": "contribution.{0406022228}lja8953jgul32.name",
       "source": "5000系",
-      "translation": ""
+      "translation": "5000 Series"
     },
     {
       "key": "contribution.{0406022228}lja8953jgul32.company",
       "source": "相模鉄道",
-      "translation": ""
+      "translation": "Sagami Railway"
     },
     {
       "key": "contribution.{0406022228}lja8953jgul32.type",
       "source": "5000系",
-      "translation": ""
+      "translation": "5000 Series"
     },
     {
       "key": "contribution.{0406022228}lja8953jgul32.description",
       "source": "相模鉄道初の新造車。VVVFインバーター制御に改造された",
-      "translation": ""
+      "translation": "Sagami Railway's first newly built train. Modified with VVVF inverter control."
     }
   ]
 }

@@ -6,47 +6,47 @@
     {
       "key": "plugin.title",
       "source": "山陽電気鉄道 車両キット",
-      "translation": ""
+      "translation": "Sanyo Electric Railway Vehicle Kit"
     },
     {
       "key": "contribution.{BEF87D95-5D62-4374-A5D2-8613E3C4F6DC}.name",
       "source": "普通",
-      "translation": ""
+      "translation": "Local"
     },
     {
       "key": "contribution.{BEF87D95-5D62-4374-A5D2-8613E3C4F6DC}.company",
       "source": "山陽電気鉄道",
-      "translation": ""
+      "translation": "Sanyo Electric Railway"
     },
     {
       "key": "contribution.{BEF87D95-5D62-4374-A5D2-8613E3C4F6DC}.type",
       "source": "3000系",
-      "translation": ""
+      "translation": "3000 Series"
     },
     {
       "key": "contribution.{BEF87D95-5D62-4374-A5D2-8613E3C4F6DC}.description",
-      "source": "主に普通に使われる車両。\nごくまれに特急として使われる。\n区間は\n\n姫路＞阪神三宮\n\u3000\u3000＞阪急三宮\n\n飾磨＞山陽網干である",
-      "translation": ""
+      "source": "主に普通に使われる車両。\nごくまれに特急として使われる。\n区間は\n\n姫路＞阪神三宮\n　　＞阪急三宮\n\n飾磨＞山陽網干である",
+      "translation": "Vehicles mainly used for local services. Very rarely used as limited express. Routes: Himeji > Hanshin Sannomiya; > Hankyu Sannomiya; Shikama > Sanyo Aboshi."
     },
     {
       "key": "contribution.{1F80A2E8-1A5D-4a8d-8830-CB89AC3B0AA6}.name",
       "source": "特急",
-      "translation": ""
+      "translation": "Limited Express"
     },
     {
       "key": "contribution.{1F80A2E8-1A5D-4a8d-8830-CB89AC3B0AA6}.company",
       "source": "山陽電気鉄道",
-      "translation": ""
+      "translation": "Sanyo Electric Railway"
     },
     {
       "key": "contribution.{1F80A2E8-1A5D-4a8d-8830-CB89AC3B0AA6}.type",
       "source": "5000系",
-      "translation": ""
+      "translation": "5000 Series"
     },
     {
       "key": "contribution.{1F80A2E8-1A5D-4a8d-8830-CB89AC3B0AA6}.description",
       "source": "主に特急、直通特急に使われる車両。\n区間は\n特急\n山陽姫路＞阪神三宮\n直通特急\n山陽姫路＞阪神梅田\nである",
-      "translation": ""
+      "translation": "Vehicles mainly used for limited express and direct limited express services. Routes: Limited Express Sanyo Himeji > Hanshin Sannomiya; Direct Limited Express Sanyo Himeji > Hanshin Umeda."
     }
   ]
 }

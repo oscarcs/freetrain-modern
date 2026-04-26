@@ -6,17 +6,17 @@
     {
       "key": "plugin.title",
       "source": "DC-10型旅客機",
-      "translation": ""
+      "translation": "DC-10 Passenger Aircraft"
     },
     {
       "key": "contribution.{7606EA2B-5FD5-497B-9111-9D34B8F183C0}-00.group",
       "source": "Douglas DC10(大)",
-      "translation": ""
+      "translation": "Douglas DC10 (Large)"
     },
     {
       "key": "contribution.{312FC9AA-6B14-4E6E-86E0-13BB9B4ABFAF}-00.group",
       "source": "Douglas DC10(大)",
-      "translation": ""
+      "translation": "Douglas DC10 (Large)"
     }
   ]
 }

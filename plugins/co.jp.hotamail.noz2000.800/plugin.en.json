@@ -6,67 +6,67 @@
     {
       "key": "plugin.title",
       "source": "京急800形",
-      "translation": ""
+      "translation": "Keikyu 800 Series"
     },
     {
       "key": "contribution.{1699C9F1-DF64-4678-9B60-8C9AAB6C800M}.name",
       "source": "京急線",
-      "translation": ""
+      "translation": "Keikyu Line"
     },
     {
       "key": "contribution.{1699C9F1-DF64-4678-9B60-8C9AAB6C800M}.company",
       "source": "京浜急行電鉄",
-      "translation": ""
+      "translation": "Keikyu Corporation"
     },
     {
       "key": "contribution.{1699C9F1-DF64-4678-9B60-8C9AAB6C800M}.type",
       "source": "800形(中)",
-      "translation": ""
+      "translation": "800 Series (medium)"
     },
     {
       "key": "contribution.{1699C9F1-DF64-4678-9B60-8C9AAB6C800M}.description",
       "source": "1978年、ラッシュ時間帯の優等列車の速度向上を実現するために製造された車両。\nかつてはD急行などでも使われていました。\n1982年に現在の塗装になりました。\n3、6両編成を用意しております。",
-      "translation": ""
+      "translation": "Vehicles manufactured in 1978 to improve the speed of express trains during rush hours. They were once used for D Express and other services. The current livery was adopted in 1982. Available in 3 and 6-car formations."
     },
     {
       "key": "contribution.{1699C9F1-DF64-4678-9B60-8C9AAB6C800S}.name",
       "source": "京急線",
-      "translation": ""
+      "translation": "Keikyu Line"
     },
     {
       "key": "contribution.{1699C9F1-DF64-4678-9B60-8C9AAB6C800S}.company",
       "source": "京浜急行電鉄",
-      "translation": ""
+      "translation": "Keikyu Corporation"
     },
     {
       "key": "contribution.{1699C9F1-DF64-4678-9B60-8C9AAB6C800S}.type",
       "source": "800形(低)",
-      "translation": ""
+      "translation": "800 Series (low)"
     },
     {
       "key": "contribution.{1699C9F1-DF64-4678-9B60-8C9AAB6C800S}.description",
       "source": "1978年、ラッシュ時間帯の優等列車の速度向上を実現するために製造された車両。\nかつてはD急行などでも使われていました。\n1982年に現在の塗装になりました。\n3、6両編成を用意しております。",
-      "translation": ""
+      "translation": "Vehicles manufactured in 1978 to improve the speed of express trains during rush hours. They were once used for D Express and other services. The current livery was adopted in 1982. Available in 3 and 6-car formations."
     },
     {
       "key": "contribution.{1699C9F1-DF64-4678-9B60-8C9AAB6C800F}.name",
       "source": "京急線",
-      "translation": ""
+      "translation": "Keikyu Line"
     },
     {
       "key": "contribution.{1699C9F1-DF64-4678-9B60-8C9AAB6C800F}.company",
       "source": "京浜急行電鉄",
-      "translation": ""
+      "translation": "Keikyu Corporation"
     },
     {
       "key": "contribution.{1699C9F1-DF64-4678-9B60-8C9AAB6C800F}.type",
       "source": "800形(高)",
-      "translation": ""
+      "translation": "800 Series (high)"
     },
     {
       "key": "contribution.{1699C9F1-DF64-4678-9B60-8C9AAB6C800F}.description",
       "source": "1978年、ラッシュ時間帯の優等列車の速度向上を実現するために製造された車両。\nかつてはD急行などでも使われていました。\n1982年に現在の塗装になりました。\n3、6両編成を用意しております。",
-      "translation": ""
+      "translation": "Vehicles manufactured in 1978 to improve the speed of express trains during rush hours. They were once used for D Express and other services. The current livery was adopted in 1982. Available in 3 and 6-car formations."
     }
   ]
 }

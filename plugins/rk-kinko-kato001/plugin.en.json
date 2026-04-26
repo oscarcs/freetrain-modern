@@ -6,217 +6,217 @@
     {
       "key": "plugin.title",
       "source": "駅舎プラグイン",
-      "translation": ""
+      "translation": "Station Building Plugin"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-003}.group",
       "source": "近郊形橋上駅舎(階段)",
-      "translation": ""
+      "translation": "Suburban Overpass Station Building (Stairs)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-004}.group",
       "source": "近郊形橋上駅舎(階段)",
-      "translation": ""
+      "translation": "Suburban Overpass Station Building (Stairs)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-005}.group",
       "source": "近郊形橋上駅舎(階段)",
-      "translation": ""
+      "translation": "Suburban Overpass Station Building (Stairs)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-006}.group",
       "source": "近郊形橋上駅舎(階段)",
-      "translation": ""
+      "translation": "Suburban Overpass Station Building (Stairs)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-007}.group",
       "source": "近郊形橋上駅舎(階段)",
-      "translation": ""
+      "translation": "Suburban Overpass Station Building (Stairs)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-008}.group",
       "source": "近郊形橋上駅舎(階段)",
-      "translation": ""
+      "translation": "Suburban Overpass Station Building (Stairs)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-009}.group",
       "source": "近郊形橋上駅舎(階段)",
-      "translation": ""
+      "translation": "Suburban Overpass Station Building (Stairs)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-010}.group",
       "source": "近郊形橋上駅舎(階段)",
-      "translation": ""
+      "translation": "Suburban Overpass Station Building (Stairs)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-103}.group",
       "source": "近郊形橋上駅舎(階段)",
-      "translation": ""
+      "translation": "Suburban Overpass Station Building (Stairs)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-104}.group",
       "source": "近郊形橋上駅舎(階段)",
-      "translation": ""
+      "translation": "Suburban Overpass Station Building (Stairs)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-105}.group",
       "source": "近郊形橋上駅舎(階段)",
-      "translation": ""
+      "translation": "Suburban Overpass Station Building (Stairs)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-106}.group",
       "source": "近郊形橋上駅舎(階段)",
-      "translation": ""
+      "translation": "Suburban Overpass Station Building (Stairs)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-107}.group",
       "source": "近郊形橋上駅舎(階段)",
-      "translation": ""
+      "translation": "Suburban Overpass Station Building (Stairs)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-108}.group",
       "source": "近郊形橋上駅舎(階段)",
-      "translation": ""
+      "translation": "Suburban Overpass Station Building (Stairs)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-109}.group",
       "source": "近郊形橋上駅舎(階段)",
-      "translation": ""
+      "translation": "Suburban Overpass Station Building (Stairs)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-110}.group",
       "source": "近郊形橋上駅舎(階段)",
-      "translation": ""
+      "translation": "Suburban Overpass Station Building (Stairs)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-013}.name",
       "source": "近郊形橋上駅舎(赤色単体)",
-      "translation": ""
+      "translation": "Suburban overhead station building (red single unit)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-113}.name",
       "source": "近郊形橋上駅舎(灰色単体)",
-      "translation": ""
+      "translation": "Suburban Overhead Station Building (gray, standalone)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-014}.name",
       "source": "近郊形橋上駅舎(赤色通路)",
-      "translation": ""
+      "translation": "Suburban overhead station building (red passage)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-114}.name",
       "source": "近郊形橋上駅舎(灰色通路)",
-      "translation": ""
+      "translation": "Suburban overhead station building (gray passage)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-015}.name",
       "source": "近郊形橋上駅舎(赤色階段)",
-      "translation": ""
+      "translation": "Suburban Overhead Station Building (Red Stairs)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-115}.name",
       "source": "近郊形橋上駅舎(灰色階段)",
-      "translation": ""
+      "translation": "Suburban Overhead Station Building (Gray Stairs)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-016}.name",
       "source": "近郊形橋上駅舎(赤色エレベータ)",
-      "translation": ""
+      "translation": "Suburban overhead station building (red elevator)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-116}.name",
       "source": "近郊形橋上駅舎(灰色エレベータ)",
-      "translation": ""
+      "translation": "Suburban overhead station building (gray elevator)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-017}.name",
       "source": "近郊形橋上駅舎(赤色本体)",
-      "translation": ""
+      "translation": "Suburban Overhead Station Building (Red Main Body)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-018}.name",
       "source": "近郊形橋上駅舎(赤色本体)",
-      "translation": ""
+      "translation": "Suburban Overhead Station Building (Red Main Body)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-019}.name",
       "source": "近郊形橋上駅舎(赤色本体)",
-      "translation": ""
+      "translation": "Suburban Overhead Station Building (Red Main Body)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-020}.name",
       "source": "近郊形橋上駅舎(赤色本体)",
-      "translation": ""
+      "translation": "Suburban Overhead Station Building (Red Main Body)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-117}.name",
       "source": "近郊形橋上駅舎(灰色本体)",
-      "translation": ""
+      "translation": "Suburban Overhead Station Building (Gray Main Body)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-118}.name",
       "source": "近郊形橋上駅舎(灰色本体)",
-      "translation": ""
+      "translation": "Suburban Overhead Station Building (Gray Main Body)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-119}.name",
       "source": "近郊形橋上駅舎(灰色本体)",
-      "translation": ""
+      "translation": "Suburban Overhead Station Building (Gray Main Body)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-120}.name",
       "source": "近郊形橋上駅舎(灰色本体)",
-      "translation": ""
+      "translation": "Suburban Overhead Station Building (Gray Main Body)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-021}.name",
       "source": "近郊形橋上駅舎(赤色通路)",
-      "translation": ""
+      "translation": "Suburban overhead station building (red passage)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-121}.name",
       "source": "近郊形橋上駅舎(灰色通路)",
-      "translation": ""
+      "translation": "Suburban overhead station building (gray passage)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-022}.name",
       "source": "近郊形橋上駅舎(赤色階段)",
-      "translation": ""
+      "translation": "Suburban Overhead Station Building (Red Stairs)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-122}.name",
       "source": "近郊形橋上駅舎(灰色階段)",
-      "translation": ""
+      "translation": "Suburban Overhead Station Building (Gray Stairs)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-023}.name",
       "source": "近郊形橋上駅舎(赤色階段)",
-      "translation": ""
+      "translation": "Suburban Overhead Station Building (Red Stairs)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-123}.name",
       "source": "近郊形橋上駅舎(灰色階段)",
-      "translation": ""
+      "translation": "Suburban Overhead Station Building (Gray Stairs)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-024}.name",
       "source": "近郊形橋上駅舎(赤色階段)",
-      "translation": ""
+      "translation": "Suburban Overhead Station Building (Red Stairs)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-124}.name",
       "source": "近郊形橋上駅舎(灰色階段)",
-      "translation": ""
+      "translation": "Suburban Overhead Station Building (Gray Stairs)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-025}.name",
       "source": "近郊形橋上駅舎(赤色エレベータ)",
-      "translation": ""
+      "translation": "Suburban overhead station building (red elevator)"
     },
     {
       "key": "contribution.{tako-rk002-kinko-1010-125}.name",
       "source": "近郊形橋上駅舎(灰色エレベータ)",
-      "translation": ""
+      "translation": "Suburban overhead station building (gray elevator)"
     }
   ]
 }

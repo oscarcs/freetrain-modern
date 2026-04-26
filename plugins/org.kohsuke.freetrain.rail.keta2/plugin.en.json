@@ -6,62 +6,62 @@
     {
       "key": "plugin.title",
       "source": "架線柱",
-      "translation": ""
+      "translation": "Catenary Pole"
     },
     {
       "key": "contribution.{874B8BFD-1EF4-6000-9C5A-D0EA1049D28D}.name",
       "source": "橋桁(A)",
-      "translation": ""
+      "translation": "Bridge Girder (A)"
     },
     {
       "key": "contribution.{874B8BFD-1EF4-6001-9C5A-D0EA1049D28D}.name",
       "source": "橋桁(B)",
-      "translation": ""
+      "translation": "Bridge Girder (B)"
     },
     {
       "key": "contribution.{874B8BFD-1EF4-6002-9C5A-D0EA1049D28D}.name",
       "source": "橋桁(C)",
-      "translation": ""
+      "translation": "Bridge Girder (C)"
     },
     {
       "key": "contribution.{874B8BFD-1EF4-6003-9C5A-D0EA1049D28D}.name",
       "source": "橋桁(D)",
-      "translation": ""
+      "translation": "Bridge Girder (D)"
     },
     {
       "key": "contribution.{874B8BFD-1EF4-6004-9C5A-D0EA1049D28D}.name",
       "source": "橋桁(E)",
-      "translation": ""
+      "translation": "Bridge Girder (E)"
     },
     {
       "key": "contribution.{874B8BFD-1EF4-6005-9C5A-D0EA1049D28D}.name",
       "source": "橋桁(赤A)",
-      "translation": ""
+      "translation": "Bridge Girder (red A)"
     },
     {
       "key": "contribution.{874B8BFD-1EF4-6006-9C5A-D0EA1049D28D}.name",
       "source": "橋桁(赤B)",
-      "translation": ""
+      "translation": "Bridge Girder (red B)"
     },
     {
       "key": "contribution.{874B8BFD-1EF4-6007-9C5A-D0EA1049D28D}.name",
       "source": "橋桁(赤C)",
-      "translation": ""
+      "translation": "Bridge Girder (red C)"
     },
     {
       "key": "contribution.{874B8BFD-1EF4-6008-9C5A-D0EA1049D28D}.name",
       "source": "橋桁(赤D)",
-      "translation": ""
+      "translation": "Bridge Girder (red D)"
     },
     {
       "key": "contribution.{874B8BFD-1EF4-6009-9C5A-D0EA1049D28D}.name",
       "source": "橋桁(赤E)",
-      "translation": ""
+      "translation": "Bridge Girder (red E)"
     },
     {
       "key": "contribution.{874B8BFD-1EF4-6010-9C5A-D0EA1049D28D}.name",
       "source": "橋桁(赤F)",
-      "translation": ""
+      "translation": "Bridge Girder (red F)"
     }
   ]
 }

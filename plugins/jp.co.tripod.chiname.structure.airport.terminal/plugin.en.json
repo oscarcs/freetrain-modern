@@ -6,72 +6,72 @@
     {
       "key": "plugin.title",
       "source": "空港ターミナルＡ",
-      "translation": ""
+      "translation": "Airport Terminal A"
     },
     {
       "key": "contribution.{B63CD389-C7FA-43D6-C477-74D088277950}.group",
       "source": "空港国際線ターミナル",
-      "translation": ""
+      "translation": "Airport international terminal"
     },
     {
       "key": "contribution.{C307E366-78BE-437E-C477-CA46233A4D78}-1.group",
       "source": "空港搭乗口",
-      "translation": ""
+      "translation": "Airport Boarding Gate"
     },
     {
       "key": "contribution.{C307E366-78BE-437E-C477-CA46233A4D78}-2.group",
       "source": "空港搭乗口",
-      "translation": ""
+      "translation": "Airport Boarding Gate"
     },
     {
       "key": "contribution.{C307E366-78BE-437E-C477-CA46233A4D78}-3.group",
       "source": "空港搭乗口",
-      "translation": ""
+      "translation": "Airport Boarding Gate"
     },
     {
       "key": "contribution.{C307E366-78BE-437E-C477-CA46233A4D78}-4.group",
       "source": "空港搭乗口",
-      "translation": ""
+      "translation": "Airport Boarding Gate"
     },
     {
       "key": "contribution.{38DCF80D-2EA2-45D4-C477-94967CC1522D}-1.group",
       "source": "空港搭乗口",
-      "translation": ""
+      "translation": "Airport Boarding Gate"
     },
     {
       "key": "contribution.{38DCF80D-2EA2-45D4-C477-94967CC1522D}-2.group",
       "source": "空港搭乗口",
-      "translation": ""
+      "translation": "Airport Boarding Gate"
     },
     {
       "key": "contribution.{206632ED-DC73-454D-C477-5EF51383D81A}-1.group",
       "source": "駅前広場",
-      "translation": ""
+      "translation": "Station Plaza"
     },
     {
       "key": "contribution.{206632ED-DC73-454D-C477-5EF51383D81A}-2.group",
       "source": "駅前広場",
-      "translation": ""
+      "translation": "Station Plaza"
     },
     {
       "key": "contribution.{206632ED-DC73-454D-C477-5EF51383D81A}-5.group",
       "source": "駅前広場",
-      "translation": ""
+      "translation": "Station Plaza"
     },
     {
       "key": "contribution.{206632ED-DC73-454D-C477-5EF51383D81A}-6.group",
       "source": "駅前広場",
-      "translation": ""
+      "translation": "Station Plaza"
     },
     {
       "key": "contribution.{206632ED-DC73-454D-C477-5EF51383D81A}-3.group",
       "source": "駅前広場",
-      "translation": ""
+      "translation": "Station Plaza"
     },
     {
       "key": "contribution.{206632ED-DC73-454D-C477-5EF51383D81A}-4.group",
       "source": "駅前広場",
-      "translation": ""
+      "translation": "Station Plaza"
     }
   ]
 }

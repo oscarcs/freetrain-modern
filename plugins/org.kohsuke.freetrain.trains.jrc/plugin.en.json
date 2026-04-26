@@ -6,202 +6,202 @@
     {
       "key": "plugin.title",
       "source": "JR東海 車両キット",
-      "translation": ""
+      "translation": "JR Central Rolling Stock Kit"
     },
     {
       "key": "contribution.{311-tokai-200309291050}.name",
       "source": "東海道本線快速",
-      "translation": ""
+      "translation": "Tokaido Main Line Rapid"
     },
     {
       "key": "contribution.{311-tokai-200309291050}.company",
       "source": "JR東海",
-      "translation": ""
+      "translation": "JR Central"
     },
     {
       "key": "contribution.{311-tokai-200309291050}.type",
       "source": "311系",
-      "translation": ""
+      "translation": "311 Series"
     },
     {
       "key": "contribution.{311-tokai-200309291050}.description",
       "source": "東海道本線などに使われている快速電車です。",
-      "translation": ""
+      "translation": "This is a rapid electric train used on the Tokaido Main Line and other lines."
     },
     {
       "key": "contribution.{7E7B6658-46A4-4e05-AFC3-8F24BE41100A}.name",
       "source": "湘南色",
-      "translation": ""
+      "translation": "Shonan color"
     },
     {
       "key": "contribution.{7E7B6658-46A4-4e05-AFC3-8F24BE41100A}.company",
       "source": "JR東海",
-      "translation": ""
+      "translation": "JR Central"
     },
     {
       "key": "contribution.{7E7B6658-46A4-4e05-AFC3-8F24BE41100A}.type",
       "source": "165系",
-      "translation": ""
+      "translation": "165 Series"
     },
     {
       "key": "contribution.{7E7B6658-46A4-4e05-AFC3-8F24BE41100A}.description",
       "source": "急行型電車。現在この色での定期運用はないはず。",
-      "translation": ""
+      "translation": "Express electric train. This color scheme should no longer be in regular service."
     },
     {
       "key": "contribution.{222426E9-EFD9-4318-8291-2B3EBCA8AAC2}.name",
       "source": "セントラルライナー",
-      "translation": ""
+      "translation": "Central Liner"
     },
     {
       "key": "contribution.{222426E9-EFD9-4318-8291-2B3EBCA8AAC2}.company",
       "source": "JR東海",
-      "translation": ""
+      "translation": "JR Central"
     },
     {
       "key": "contribution.{222426E9-EFD9-4318-8291-2B3EBCA8AAC2}.type",
       "source": "313系8000番台",
-      "translation": ""
+      "translation": "313 Series 8000 subseries"
     },
     {
       "key": "contribution.{222426E9-EFD9-4318-8291-2B3EBCA8AAC2}.description",
       "source": "座席定員制の快速列車「セントラルライナー」用の車両。最高時速は120km/hだが、130km/hでも走行できる性能を持つ。間合いで各駅停車などに使用されることがある。3両編成または6両編成。",
-      "translation": ""
+      "translation": "A train for the \"Central Liner\" rapid train with reserved seating. Its maximum speed is 120 km/h, but it has the performance to run at 130 km/h. It is sometimes used for local trains during off-peak hours. Available in 3-car or 6-car formations."
     },
     {
       "key": "contribution.{1E8B6EF2-78D6-496d-99B2-E761056C4EF2}.name",
       "source": "500系のぞみ",
-      "translation": ""
+      "translation": "500 Series Nozomi"
     },
     {
       "key": "contribution.{1E8B6EF2-78D6-496d-99B2-E761056C4EF2}.company",
       "source": "JR東海",
-      "translation": ""
+      "translation": "JR Central"
     },
     {
       "key": "contribution.{1E8B6EF2-78D6-496d-99B2-E761056C4EF2}.type",
       "source": "500系",
-      "translation": ""
+      "translation": "500 Series"
     },
     {
       "key": "contribution.{1E8B6EF2-78D6-496d-99B2-E761056C4EF2}.description",
       "source": "1997年山陽新幹線でデビューし当時のフランス・TGVと並ぶ世界最高の300㎞／hでの営業運転を開始した\n先頭形状が従来新幹線より超ロングノーズになり、１５／２７ｍもの長さに達する。\n車体断面もよりチューブ化が進み、航空機を思わせる車体形状をしている。\n「グッドデザイン賞」、「1998年ブルーリボン賞」「1998年ブルネル賞奨励賞」を受賞。\n16両編成。",
-      "translation": ""
+      "translation": "Debuted on the Sanyo Shinkansen in 1997, commencing commercial operation at 300 km/h, then the world's fastest alongside France's TGV. Its lead car features an ultra-long nose, reaching lengths of 15/27m, longer than conventional Shinkansen. The car body cross-section is more tubular, resembling an aircraft. Awarded the Good Design Award, 1998 Blue Ribbon Award, and 1998 Brunel Award Commendation. 16-car formation."
     },
     {
       "key": "contribution.{05CB9ED5-D61A-4151-93DA-4E8964438AC2}.name",
       "source": "のぞみ",
-      "translation": ""
+      "translation": "Nozomi"
     },
     {
       "key": "contribution.{05CB9ED5-D61A-4151-93DA-4E8964438AC2}.company",
       "source": "JR東海",
-      "translation": ""
+      "translation": "JR Central"
     },
     {
       "key": "contribution.{05CB9ED5-D61A-4151-93DA-4E8964438AC2}.type",
       "source": "500系",
-      "translation": ""
+      "translation": "500 Series"
     },
     {
       "key": "contribution.{05CB9ED5-D61A-4151-93DA-4E8964438AC2}.description",
       "source": "山陽区間では最高速度300km/hで運転される、まさに超高速な列車。",
-      "translation": ""
+      "translation": "A truly high-speed train, operating at a maximum speed of 300 km/h in the Sanyo section."
     },
     {
       "key": "contribution.{846EE27C-1B58-46b0-BBEB-D96F153DC750}.name",
       "source": "のぞみ",
-      "translation": ""
+      "translation": "Nozomi"
     },
     {
       "key": "contribution.{846EE27C-1B58-46b0-BBEB-D96F153DC750}.company",
       "source": "JR東海",
-      "translation": ""
+      "translation": "JR Central"
     },
     {
       "key": "contribution.{846EE27C-1B58-46b0-BBEB-D96F153DC750}.type",
       "source": "700系",
-      "translation": ""
+      "translation": "700 Series"
     },
     {
       "key": "contribution.{846EE27C-1B58-46b0-BBEB-D96F153DC750}.description",
       "source": "JR東海とJR西日本の共同開発による東海道・山陽新幹線用車両。",
-      "translation": ""
+      "translation": "Rolling stock for Tokaido/Sanyo Shinkansen, jointly developed by JR Central and JR West."
     },
     {
       "key": "contribution.{8106BB92-BC09-4279-A4A8-BEABE1070F6A}.company",
       "source": "JR東海",
-      "translation": ""
+      "translation": "JR Central"
     },
     {
       "key": "contribution.{8106BB92-BC09-4279-A4A8-BEABE1070F6A}.type",
       "source": "922系",
-      "translation": ""
+      "translation": "922 Series"
     },
     {
       "key": "contribution.{8106BB92-BC09-4279-A4A8-BEABE1070F6A}.description",
       "source": "東海道・山陽新幹線用のDr.Yellow",
-      "translation": ""
+      "translation": "Dr. Yellow for Tokaido/Sanyo Shinkansen"
     },
     {
       "key": "contribution.{BAD1975C-42B0-4225-ACF2-800B433CD1C1}.name",
       "source": "ひかり、こだま",
-      "translation": ""
+      "translation": "Hikari, Kodama"
     },
     {
       "key": "contribution.{BAD1975C-42B0-4225-ACF2-800B433CD1C1}.company",
       "source": "JR東海",
-      "translation": ""
+      "translation": "JR Central"
     },
     {
       "key": "contribution.{BAD1975C-42B0-4225-ACF2-800B433CD1C1}.type",
       "source": "0系",
-      "translation": ""
+      "translation": "0 Series"
     },
     {
       "key": "contribution.{BAD1975C-42B0-4225-ACF2-800B433CD1C1}.description",
       "source": "新幹線最初の東海道・山陽新幹線用車両",
-      "translation": ""
+      "translation": "First Shinkansen train for Tokaido and Sanyo Shinkansen lines"
     },
     {
       "key": "contribution.{2003-0211-KIGAMI-TrainImg-100}.name",
       "source": "X編成 ひかり・こだま",
-      "translation": ""
+      "translation": "X Formation Hikari/Kodama"
     },
     {
       "key": "contribution.{2003-0211-KIGAMI-TrainImg-100}.company",
       "source": "JR東海",
-      "translation": ""
+      "translation": "JR Central"
     },
     {
       "key": "contribution.{2003-0211-KIGAMI-TrainImg-100}.type",
       "source": "100系",
-      "translation": ""
+      "translation": "100 Series"
     },
     {
       "key": "contribution.{2003-0211-KIGAMI-TrainImg-100}.description",
       "source": "東海道・山陽新幹線用車両。\n当時0系のみだった新幹線に衝撃を与えた車両。\n16両編成では2階建て車両があり、そこからの景色は格別\nこのX編成は食堂車を連結しています。",
-      "translation": ""
+      "translation": "A train for the Tokaido and Sanyo Shinkansen lines. It was a groundbreaking train for the Shinkansen, which at the time only had the 0 Series. The 16-car formation includes double-decker cars, offering exceptional views. This X formation includes a dining car."
     },
     {
       "key": "contribution.{2003-0211-KIGAMI-TrainImg-100-G}.name",
       "source": "G編成 ひかり・こだま",
-      "translation": ""
+      "translation": "G Formation Hikari/Kodama"
     },
     {
       "key": "contribution.{2003-0211-KIGAMI-TrainImg-100-G}.company",
       "source": "JR東海",
-      "translation": ""
+      "translation": "JR Central"
     },
     {
       "key": "contribution.{2003-0211-KIGAMI-TrainImg-100-G}.type",
       "source": "100系",
-      "translation": ""
+      "translation": "100 Series"
     },
     {
       "key": "contribution.{2003-0211-KIGAMI-TrainImg-100-G}.description",
       "source": "東海道・山陽新幹線用車両。\n当時0系のみだった新幹線に衝撃を与えた車両。\n16両編成では2階建て車両があり、そこからの景色は格別\nこのG編成は主に東海道区間の運用につき、2階建てグリーン車を2両連結しています。",
-      "translation": ""
+      "translation": "A train for the Tokaido and Sanyo Shinkansen lines. It was a groundbreaking train for the Shinkansen, which at the time only had the 0 Series. The 16-car formation includes double-decker cars, offering exceptional views. This G formation is primarily used on the Tokaido section and includes two double-decker Green Cars."
     }
   ]
 }

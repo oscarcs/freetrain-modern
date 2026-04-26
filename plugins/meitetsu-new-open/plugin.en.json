@@ -6,27 +6,27 @@
     {
       "key": "plugin.title",
       "source": "名古屋鉄道",
-      "translation": ""
+      "translation": "Meitetsu"
     },
     {
       "key": "contribution.{sasaki-train-meitetsu5000-5000F-709E989B8B9F}.name",
       "source": "5000系一次車",
-      "translation": ""
+      "translation": "5000 Series 1st production run"
     },
     {
       "key": "contribution.{sasaki-train-meitetsu5000-5000F-709E989B8B9F}.company",
       "source": "名古屋鉄道",
-      "translation": ""
+      "translation": "Meitetsu"
     },
     {
       "key": "contribution.{sasaki-train-meitetsu5000-5000F-709E989B8B9F}.type",
       "source": "5000系",
-      "translation": ""
+      "translation": "5000 Series"
     },
     {
       "key": "contribution.{sasaki-train-meitetsu5000-5000F-709E989B8B9F}.description",
       "source": "特急列車の運行体系見直しにより、\n2000系「ミュースカイ」で運転される中部国際空港アクセス特急以外の列車は\nすべて一般車を連結した一部特別車編成に変更されることとなった。\nこれにより余剰廃車となる1000系の全車特別車編成から主要機器を流用し、\n新規に製造された車体と組み合わせて誕生したのがこの列車である。\n3ドア、オールロングシート、フルカラーLED表示",
-      "translation": ""
+      "translation": "Due to a review of the limited express train operating system, all trains other than the Chubu Centrair International Airport access limited express operated by the 2000 Series \"μ-SKY\" were changed to partially special car formations with general cars connected. This train was born by diverting main equipment from the surplus 1000 Series all-special car formations and combining it with newly manufactured car bodies. Features: 3 doors, all long seats, full-color LED display."
     }
   ]
 }

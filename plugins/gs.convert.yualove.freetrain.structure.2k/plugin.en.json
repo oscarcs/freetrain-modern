@@ -5,13 +5,13 @@
   "texts": [
     {
       "key": "plugin.title",
-      "source": "建物総合コンバート\u3000ゆうあ建設",
-      "translation": ""
+      "source": "建物総合コンバート　ゆうあ建設",
+      "translation": "Building General Convert: Yua Kensetsu"
     },
     {
       "key": "contribution.{D50BA778-25F4-465B-8A73-4C15F8772362}-gs.name",
       "source": "消防署",
-      "translation": ""
+      "translation": "Fire station"
     }
   ]
 }

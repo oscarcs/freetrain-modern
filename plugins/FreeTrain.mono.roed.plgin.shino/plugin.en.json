@@ -6,47 +6,47 @@
     {
       "key": "plugin.title",
       "source": "レール型道路プラグイン",
-      "translation": ""
+      "translation": "Rail-Type Road Plugin"
     },
     {
       "key": "contribution.{1D9E6967-3BDF-4A26-89B0-52179C499E03}-A.name",
       "source": "懸垂式モノレール用レール/レール1",
-      "translation": ""
+      "translation": "Suspended Monorail Rail / Rail 1"
     },
     {
       "key": "contribution.{1D9E6967-3BDF-4A26-89B0-52179C499E03}-A.description",
       "source": "懸垂式モノレール用のレール",
-      "translation": ""
+      "translation": "Rail for suspended monorail"
     },
     {
       "key": "contribution.{1D9E6967-3BDF-4A26-89B0-52179C499E03}-B.name",
       "source": "懸垂式モノレール用レール/レール2",
-      "translation": ""
+      "translation": "Suspended Monorail Rail / Rail 2"
     },
     {
       "key": "contribution.{1D9E6967-3BDF-4A26-89B0-52179C499E03}-B.description",
       "source": "懸垂式モノレール用のレール",
-      "translation": ""
+      "translation": "Rail for suspended monorail"
     },
     {
       "key": "contribution.{1D9E6967-3BDF-4A26-89B0-52179C499E03}-C.name",
       "source": "ゆりかもめ用レール/レール1",
-      "translation": ""
+      "translation": "Yurikamome Rail / Rail 1"
     },
     {
       "key": "contribution.{1D9E6967-3BDF-4A26-89B0-52179C499E03}-C.description",
       "source": "ゆりかもめ用のレール",
-      "translation": ""
+      "translation": "Yurikamome Rail"
     },
     {
       "key": "contribution.{1D9E6967-3BDF-4A26-89B0-52179C499E03}-D.name",
       "source": "ゆりかもめ用レール/レール2",
-      "translation": ""
+      "translation": "Yurikamome Rail / Rail 2"
     },
     {
       "key": "contribution.{1D9E6967-3BDF-4A26-89B0-52179C499E03}-D.description",
       "source": "ゆりかもめ用のレール",
-      "translation": ""
+      "translation": "Yurikamome Rail"
     }
   ]
 }

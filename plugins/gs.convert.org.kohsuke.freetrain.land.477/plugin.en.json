@@ -6,27 +6,27 @@
     {
       "key": "plugin.title",
       "source": "GenericStructureコンバート c477さん農家",
-      "translation": ""
+      "translation": "GenericStructure Convert c477's Farmhouse"
     },
     {
       "key": "contribution.{7775E0B1-AF3E-46A4-A0E6-06AF87989A7E}-gs.name",
       "source": "農家",
-      "translation": ""
+      "translation": "Farmhouse"
     },
     {
       "key": "contribution.{01799382-3860-4BF6-BE11-F2E40DA093E7}-gs.name",
       "source": "農家",
-      "translation": ""
+      "translation": "Farmhouse"
     },
     {
       "key": "contribution.{95F5EF63-1B4D-4EE3-8BF3-4BD5B7AC5311}-gs.name",
       "source": "農家",
-      "translation": ""
+      "translation": "Farmhouse"
     },
     {
       "key": "contribution.{D730EC7C-97BD-471D-A4C1-BB2CCD17EAE7}-gs.name",
       "source": "農家",
-      "translation": ""
+      "translation": "Farmhouse"
     }
   ]
 }

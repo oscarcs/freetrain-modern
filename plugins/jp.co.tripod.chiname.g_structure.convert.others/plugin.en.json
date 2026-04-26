@@ -6,17 +6,17 @@
     {
       "key": "plugin.title",
       "source": "建物セット",
-      "translation": ""
+      "translation": "Building Set"
     },
     {
       "key": "contribution.{B83A15E9-9284-4569-A1BF-266DF9B1560A}-gs.name",
       "source": "弁当屋",
-      "translation": ""
+      "translation": "Bento shop"
     },
     {
       "key": "contribution.{8CE18936-7C28-4a91-8B40-9CCED1F48968}-gs.name",
       "source": "マンション(4x2)",
-      "translation": ""
+      "translation": "Apartment Building (4x2)"
     }
   ]
 }

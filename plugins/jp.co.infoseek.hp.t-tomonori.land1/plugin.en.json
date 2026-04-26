@@ -6,27 +6,27 @@
     {
       "key": "plugin.title",
       "source": "水",
-      "translation": ""
+      "translation": "Water"
     },
     {
       "key": "contribution.{tomonori-water-land-8D86-7FD3B9B26994}.name",
       "source": "水",
-      "translation": ""
+      "translation": "Water"
     },
     {
       "key": "contribution.{tomonori-water-land-8D86-7FD3B9B26994}.group",
       "source": "水",
-      "translation": ""
+      "translation": "Water"
     },
     {
       "key": "contribution.{tomonori-asfa-land-8D86-7FD3B9B26994}.name",
       "source": "アスファルト",
-      "translation": ""
+      "translation": "Asphalt"
     },
     {
       "key": "contribution.{tomonori-asfa-land-8D86-7FD3B9B26994}.group",
       "source": "アスファルト",
-      "translation": ""
+      "translation": "Asphalt"
     }
   ]
 }

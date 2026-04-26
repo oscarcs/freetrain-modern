@@ -6,42 +6,42 @@
     {
       "key": "plugin.title",
       "source": "誘導路",
-      "translation": ""
+      "translation": "Taxiway"
     },
     {
       "key": "contribution.{C307E366-78BE-437E-D477-CA46233A4D78}-0.group",
       "source": "誘導路",
-      "translation": ""
+      "translation": "Taxiway"
     },
     {
       "key": "contribution.{C307E366-78BE-437E-D477-CA46233A4D78}-1.group",
       "source": "誘導路",
-      "translation": ""
+      "translation": "Taxiway"
     },
     {
       "key": "contribution.{C307E366-78BE-437E-D477-CA46233A4D78}-2.group",
       "source": "誘導路",
-      "translation": ""
+      "translation": "Taxiway"
     },
     {
       "key": "contribution.{C307E366-78BE-437E-D477-CA46233A4D78}-3.group",
       "source": "誘導路",
-      "translation": ""
+      "translation": "Taxiway"
     },
     {
       "key": "contribution.{B7DEA32C-106F-461B-C477-36DDCEF0E37C}-0.group",
       "source": "誘導路(4x4)",
-      "translation": ""
+      "translation": "Taxiway (4x4)"
     },
     {
       "key": "contribution.{B7DEA32C-106F-461B-C477-36DDCEF0E37C}-1.group",
       "source": "誘導路(4x4)",
-      "translation": ""
+      "translation": "Taxiway (4x4)"
     },
     {
       "key": "contribution.{B7DEA32C-106F-461B-C477-36DDCEF0E37C}-2.group",
       "source": "誘導路(4x4)",
-      "translation": ""
+      "translation": "Taxiway (4x4)"
     }
   ]
 }

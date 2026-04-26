@@ -6,27 +6,27 @@
     {
       "key": "plugin.title",
       "source": "HIMA駅舎",
-      "translation": ""
+      "translation": "HIMA Station Building"
     },
     {
       "key": "contribution.{0405292143}l3574341.name",
       "source": "小駅用駅舎01",
-      "translation": ""
+      "translation": "Small Station Building 01"
     },
     {
       "key": "contribution.{0405292143}u373241.name",
       "source": "小駅用駅舎01",
-      "translation": ""
+      "translation": "Small Station Building 01"
     },
     {
       "key": "contribution.{0405292143}r6732421.name",
       "source": "小駅用駅舎01",
-      "translation": ""
+      "translation": "Small Station Building 01"
     },
     {
       "key": "contribution.{0405292143}w57341.name",
       "source": "小駅用駅舎01",
-      "translation": ""
+      "translation": "Small Station Building 01"
     }
   ]
 }

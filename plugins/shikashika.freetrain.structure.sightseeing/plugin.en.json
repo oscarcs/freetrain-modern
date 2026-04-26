@@ -6,147 +6,147 @@
     {
       "key": "plugin.title",
       "source": "建物(観光)",
-      "translation": ""
+      "translation": "Building (Sightseeing)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-shrine-shinto-itukushima}.name",
       "source": "厳島神社(3x5)",
-      "translation": ""
+      "translation": "Itsukushima Shrine (3x5)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-shrine-shinto-itukushima}.group",
       "source": "有名寺社",
-      "translation": ""
+      "translation": "Famous temples and shrines"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-lighthouse-01}.name",
       "source": "灯台(1x1)",
-      "translation": ""
+      "translation": "Lighthouse (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-lighthouse-01}.group",
       "source": "ランドマーク",
-      "translation": ""
+      "translation": "Landmark"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-waterfall-001A-left-lower}.name",
       "source": "滝(1x1)",
-      "translation": ""
+      "translation": "Waterfall (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-waterfall-001A-left-lower}.group",
       "source": "景勝地",
-      "translation": ""
+      "translation": "Scenic Spot"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-waterfall-001B-left-lower}.name",
       "source": "滝(1x1)",
-      "translation": ""
+      "translation": "Waterfall (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-waterfall-001B-left-lower}.group",
       "source": "景勝地",
-      "translation": ""
+      "translation": "Scenic Spot"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-waterfall-001A-left-upper}.name",
       "source": "滝(1x1)",
-      "translation": ""
+      "translation": "Waterfall (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-waterfall-001A-left-upper}.group",
       "source": "景勝地",
-      "translation": ""
+      "translation": "Scenic Spot"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-waterfall-001B-left-upper}.name",
       "source": "滝(1x1)",
-      "translation": ""
+      "translation": "Waterfall (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-waterfall-001B-left-upper}.group",
       "source": "景勝地",
-      "translation": ""
+      "translation": "Scenic Spot"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-waterfall-001A-middle-lower}.name",
       "source": "滝(1x1)",
-      "translation": ""
+      "translation": "Waterfall (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-waterfall-001A-middle-lower}.group",
       "source": "景勝地",
-      "translation": ""
+      "translation": "Scenic Spot"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-waterfall-001B-middle-lower}.name",
       "source": "滝(1x1)",
-      "translation": ""
+      "translation": "Waterfall (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-waterfall-001B-middle-lower}.group",
       "source": "景勝地",
-      "translation": ""
+      "translation": "Scenic Spot"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-waterfall-001A-middle-upper}.name",
       "source": "滝(1x1)",
-      "translation": ""
+      "translation": "Waterfall (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-waterfall-001A-middle-upper}.group",
       "source": "景勝地",
-      "translation": ""
+      "translation": "Scenic Spot"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-waterfall-001B-middle-upper}.name",
       "source": "滝(1x1)",
-      "translation": ""
+      "translation": "Waterfall (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-waterfall-001B-middle-upper}.group",
       "source": "景勝地",
-      "translation": ""
+      "translation": "Scenic Spot"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-waterfall-001A-right-lower}.name",
       "source": "滝(1x1)",
-      "translation": ""
+      "translation": "Waterfall (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-waterfall-001A-right-lower}.group",
       "source": "景勝地",
-      "translation": ""
+      "translation": "Scenic Spot"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-waterfall-001B-right-lower}.name",
       "source": "滝(1x1)",
-      "translation": ""
+      "translation": "Waterfall (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-waterfall-001B-right-lower}.group",
       "source": "景勝地",
-      "translation": ""
+      "translation": "Scenic Spot"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-waterfall-001A-right-upper}.name",
       "source": "滝(1x1)",
-      "translation": ""
+      "translation": "Waterfall (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-waterfall-001A-right-upper}.group",
       "source": "景勝地",
-      "translation": ""
+      "translation": "Scenic Spot"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-waterfall-001B-right-upper}.name",
       "source": "滝(1x1)",
-      "translation": ""
+      "translation": "Waterfall (1x1)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-structure-waterfall-001B-right-upper}.group",
       "source": "景勝地",
-      "translation": ""
+      "translation": "Scenic Spot"
     }
   ]
 }

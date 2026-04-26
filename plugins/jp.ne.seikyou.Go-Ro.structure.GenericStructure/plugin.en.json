@@ -6,387 +6,387 @@
     {
       "key": "plugin.title",
       "source": "建物 (FreeTrain-想作館)の建物総合対応",
-      "translation": ""
+      "translation": "Buildings (FreeTrain-Sousakukan) General Building Support"
     },
     {
       "key": "contribution.{vhbi_001-GenericStructure-C000-000a-4C8B212Dharu}.name",
       "source": "テナントビル",
-      "translation": ""
+      "translation": "Tenant building"
     },
     {
       "key": "contribution.{CfeS_001-GenericStructure-C000-000a-4C8B212Dharu}.name",
       "source": "喫茶店",
-      "translation": ""
+      "translation": "Coffee Shop"
     },
     {
       "key": "contribution.{home_001-GenericStructure-C000-000a-4C8B212Dharu}.name",
       "source": "一戸建て住宅",
-      "translation": ""
+      "translation": "Detached House"
     },
     {
       "key": "contribution.{taiyo-GenericStructure-C000-000a-4C8B212Dharu}.name",
       "source": "太陽の塔",
-      "translation": ""
+      "translation": "Tower of the Sun"
     },
     {
       "key": "contribution.{slope_a3road_d-GenericStructure-C000-000a-4C8B212Dharu}.name",
       "source": "勾配道路(一般)二車線道路用",
-      "translation": ""
+      "translation": "Sloped Road (General) for Two-lane Roads"
     },
     {
       "key": "contribution.{Apartment_001-GenericStructure-C000-000a-4C8B212Dharu}.name",
       "source": "アパート",
-      "translation": ""
+      "translation": "Apartment building"
     },
     {
       "key": "contribution.{factory_001-GenericStructure-C000-000A-4C8B212DD67q}.name",
       "source": "町工場",
-      "translation": ""
+      "translation": "Small Factory"
     },
     {
       "key": "contribution.{warehouse_001-GenericStructure-C000-000A-4C8B212DD67q}.name",
       "source": "倉庫",
-      "translation": ""
+      "translation": "Warehouse"
     },
     {
       "key": "contribution.{warehouse_001-GenericStructure-C000-000B-4C8B212DD67q}.name",
       "source": "倉庫",
-      "translation": ""
+      "translation": "Warehouse"
     },
     {
       "key": "contribution.{FarmStr_001-GenericStructure-C000-000A-4C8B212DD67q}.name",
       "source": "牧場",
-      "translation": ""
+      "translation": "Ranch"
     },
     {
       "key": "contribution.{FarmStr_002-GenericStructure-C000-000a-4C8B212DD67q}.name",
       "source": "牧場",
-      "translation": ""
+      "translation": "Ranch"
     },
     {
       "key": "contribution.{FarmStr_003-GenericStructure-C000-000a-4C8B212DD67q}.name",
       "source": "牧場",
-      "translation": ""
+      "translation": "Ranch"
     },
     {
       "key": "contribution.{vhbi_005-GenericStructure-C001-000A-4C8B212DD67q}.name",
       "source": "インテリジェントビル",
-      "translation": ""
+      "translation": "Intelligent building"
     },
     {
       "key": "contribution.{RentalVideoShop_001-GenericStructure-C000-000A-4C8B212DD67q}.name",
       "source": "レンタルビデオチェーン",
-      "translation": ""
+      "translation": "Video Rental Chain"
     },
     {
       "key": "contribution.{CreditA_001-GenericStructure-C000-000A-4C8B212DD67q}.name",
       "source": "信用金庫",
-      "translation": ""
+      "translation": "Credit Union"
     },
     {
       "key": "contribution.{MensWearShop_001-GenericStructure-C000-000A-4C8B212DD67q}.name",
       "source": "紳士服チェーン",
-      "translation": ""
+      "translation": "Men's Clothing Chain"
     },
     {
       "key": "contribution.{supermarket_001-GenericStructure-C001-000A-4C8B212DD67q}.name",
       "source": "大型スーパー",
-      "translation": ""
+      "translation": "Large Supermarket"
     },
     {
       "key": "contribution.{home_002-GenericStructure-C001-000A-4C8B212DD67q}.name",
       "source": "一戸建て住宅",
-      "translation": ""
+      "translation": "Detached House"
     },
     {
       "key": "contribution.{restaurant_001-GenericStructure-C001-000A-4C8B212DD67q}.name",
       "source": "和食処",
-      "translation": ""
+      "translation": "Japanese restaurant"
     },
     {
       "key": "contribution.{DoughnutShop-GenericStructure-C000-000A-4C8B212DD67q}.name",
       "source": "ドーナツチェーン",
-      "translation": ""
+      "translation": "Doughnut Chain"
     },
     {
       "key": "contribution.{vhbi_002-GenericStructure-C001-000A-4C8B212DD67q}.name",
       "source": "テナントビル",
-      "translation": ""
+      "translation": "Tenant building"
     },
     {
       "key": "contribution.{vhbi_004-GenericStructure-C001-000A-4C8B212DD67q}.name",
       "source": "テナントビル",
-      "translation": ""
+      "translation": "Tenant building"
     },
     {
       "key": "contribution.{vhbi_007-GenericStructure-C001-000A-4C8B212DD67q}.name",
       "source": "テナントビル",
-      "translation": ""
+      "translation": "Tenant building"
     },
     {
       "key": "contribution.{vhbi_003-GenericStructure-C001-000A-4C8B212DD67q}.name",
       "source": "賃貸マンション",
-      "translation": ""
+      "translation": "Rental Apartment Building"
     },
     {
       "key": "contribution.{Apartment_002-GenericStructure-C001-000a-4C8B212Dharu}.name",
       "source": "文化住宅",
-      "translation": ""
+      "translation": "Bunka Jutaku (Cultural Housing)"
     },
     {
       "key": "contribution.{bldgVH02-GenericStructure-C001-000a-4C8B212Dharu}.name",
       "source": "ランドマークビル",
-      "translation": ""
+      "translation": "Landmark Building"
     },
     {
       "key": "contribution.{bldgVH02-GenericStructure-C001-000b-4C8B212Dharu}.name",
       "source": "貸しビル(ヘリポート付)",
-      "translation": ""
+      "translation": "Rental Building (with Helipad)"
     },
     {
       "key": "contribution.{vhbi_009-GenericStructure-C001-000A-4C8B212DD67q}.name",
       "source": "ビジネスホテル",
-      "translation": ""
+      "translation": "Business Hotel"
     },
     {
       "key": "contribution.{FarmStr_004-GenericStructure-C001-000a-4C8B212Dharu}.name",
       "source": "鶏舎",
-      "translation": ""
+      "translation": "Chicken coop"
     },
     {
       "key": "contribution.{FarmStr_004-GenericStructure-C001-000b-4C8B212Dharu}.name",
       "source": "鶏舎",
-      "translation": ""
+      "translation": "Chicken coop"
     },
     {
       "key": "contribution.{airport_ControlTower-GenericStructure-C001-000a-4C8B212Dharu}.name",
       "source": "管制塔",
-      "translation": ""
+      "translation": "Control Tower"
     },
     {
       "key": "contribution.{DepartmentStore_001-GenericStructure-C001-000a-4C8B212Dharu}.name",
       "source": "デパート",
-      "translation": ""
+      "translation": "Department Store"
     },
     {
       "key": "contribution.{DepartmentStore_001-GenericStructure-C001-000a-4C8B212Dharu}.group",
       "source": "デパート",
-      "translation": ""
+      "translation": "Department Store"
     },
     {
       "key": "contribution.{home_005-GenericStructure-C001-000a-4C8B212Dharu}.name",
       "source": "一戸建て住宅",
-      "translation": ""
+      "translation": "Detached House"
     },
     {
       "key": "contribution.{home_005-GenericStructure-C001-001a-4C8B212Dharu}.name",
       "source": "一戸建て住宅",
-      "translation": ""
+      "translation": "Detached House"
     },
     {
       "key": "contribution.{home_003-GenericStructure-C001-000a-4C8B212Dharu}.name",
       "source": "一戸建て住宅",
-      "translation": ""
+      "translation": "Detached House"
     },
     {
       "key": "contribution.{home_003-GenericStructure-C001-001a-4C8B212Dharu}.name",
       "source": "一戸建て住宅",
-      "translation": ""
+      "translation": "Detached House"
     },
     {
       "key": "contribution.{home_004-GenericStructure-C001-000a-4C8B212Dharu}.name",
       "source": "一戸建て住宅",
-      "translation": ""
+      "translation": "Detached House"
     },
     {
       "key": "contribution.{home_004-GenericStructure-C001-001a-4C8B212Dharu}.name",
       "source": "一戸建て住宅",
-      "translation": ""
+      "translation": "Detached House"
     },
     {
       "key": "contribution.{home_006-GenericStructure-C001-000a-4C8B212Dharu}.name",
       "source": "一戸建て住宅",
-      "translation": ""
+      "translation": "Detached House"
     },
     {
       "key": "contribution.{home_006-GenericStructure-C001-001a-4C8B212Dharu}.name",
       "source": "一戸建て住宅",
-      "translation": ""
+      "translation": "Detached House"
     },
     {
       "key": "contribution.{home_007-GenericStructure-C001-000a-4C8B212Dharu}.name",
       "source": "一戸建て住宅",
-      "translation": ""
+      "translation": "Detached House"
     },
     {
       "key": "contribution.{home_007-GenericStructure-C001-001a-4C8B212Dharu}.name",
       "source": "一戸建て住宅",
-      "translation": ""
+      "translation": "Detached House"
     },
     {
       "key": "contribution.{restaurant_002-GenericStructure-C001-000a-4C8B212Dharu}.name",
       "source": "ファミレス",
-      "translation": ""
+      "translation": "Family Restaurant"
     },
     {
       "key": "contribution.{vhbi_010-GenericStructure-C001-0000-4C8B212Dharu}.name",
       "source": "角地ビル(1x1)",
-      "translation": ""
+      "translation": "Corner Lot Building (1x1)"
     },
     {
       "key": "contribution.{vhbi_011-GenericStructure-C000-0000-4C8B212Dharu}.name",
       "source": "角地ビル(1x1)",
-      "translation": ""
+      "translation": "Corner Lot Building (1x1)"
     },
     {
       "key": "contribution.{vhbi_012-GenericStructure-C001-0000-4C8B212Dharu}.name",
       "source": "貸しビル(3x4)",
-      "translation": ""
+      "translation": "Rental building (3x4)"
     },
     {
       "key": "contribution.{tokeidai-GenericStructure-C000-0000-4C8B212Dharu}.name",
       "source": "時計台",
-      "translation": ""
+      "translation": "Clock Tower"
     },
     {
       "key": "contribution.{vhbi_013-GenericStructure-C001-0000-4C8B212Dharu}.name",
       "source": "貸しビル(3x3)",
-      "translation": ""
+      "translation": "Rental Building (3x3)"
     },
     {
       "key": "contribution.{ClothingStore_001-GenericStructure-C001-000a-4C8B212Dharu}.name",
       "source": "カジュアル衣料品店",
-      "translation": ""
+      "translation": "Casual clothing store"
     },
     {
       "key": "contribution.{ClothingStore_002-GenericStructure-C001-000a-4C8B212Dharu}.name",
       "source": "カジュアル衣料品店",
-      "translation": ""
+      "translation": "Casual clothing store"
     },
     {
       "key": "contribution.{ClothingStore_003-GenericStructure-C001-000a-4C8B212Dharu}.name",
       "source": "カジュアル衣料品店",
-      "translation": ""
+      "translation": "Casual clothing store"
     },
     {
       "key": "contribution.{ShoesShop_001-GenericStructure-C000-0000-4C8B212Dharu}.name",
       "source": "靴店",
-      "translation": ""
+      "translation": "Shoe store"
     },
     {
       "key": "contribution.{ShoesShop_002-GenericStructure-C000-0000-4C8B212Dharu}.name",
       "source": "靴店",
-      "translation": ""
+      "translation": "Shoe store"
     },
     {
       "key": "contribution.{ampark_BalloonTower_001-GenericStructure-C001-000a-4C8B212Dharu}.name",
       "source": "バルーンタワー",
-      "translation": ""
+      "translation": "Balloon Tower"
     },
     {
       "key": "contribution.{ampark_SpaceShot_001-GenericStructure-C001-000a-4C8B212Dharu}.name",
       "source": "スペースショット",
-      "translation": ""
+      "translation": "Space Shot"
     },
     {
       "key": "contribution.{ampark_entrance_001-GenericStructure-C001-000a-4C8B212Dharu}.name",
       "source": "エントランス",
-      "translation": ""
+      "translation": "Entrance"
     },
     {
       "key": "contribution.{ampark_AstroFighter_001-GenericStructure-C001-000b-4C8B212Dharu}.name",
       "source": "アストロファイター",
-      "translation": ""
+      "translation": "Astro Fighter"
     },
     {
       "key": "contribution.{ampark_AstroFighter_001-GenericStructure-C001-000a-4C8B212Dharu}.name",
       "source": "アストロファイター",
-      "translation": ""
+      "translation": "Astro Fighter"
     },
     {
       "key": "contribution.{ampark_GameCenter_001-GenericStructure-C001-0000-4C8B212Dharu}.name",
       "source": "ゲーム館",
-      "translation": ""
+      "translation": "Game Center"
     },
     {
       "key": "contribution.{ampark_Parasol_001-GenericStructure-C001-001a-4C8B212Dharu}.name",
       "source": "パラソル",
-      "translation": ""
+      "translation": "Parasol"
     },
     {
       "key": "contribution.{ampark_Parasol_001-GenericStructure-C001-001b-4C8B212Dharu}.name",
       "source": "パラソル",
-      "translation": ""
+      "translation": "Parasol"
     },
     {
       "key": "contribution.{ampark_Parasol_001-GenericStructure-C001-001c-4C8B212Dharu}.name",
       "source": "パラソル",
-      "translation": ""
+      "translation": "Parasol"
     },
     {
       "key": "contribution.{ampark_Parasol_001-GenericStructure-C001-002a-4C8B212Dharu}.name",
       "source": "パラソル",
-      "translation": ""
+      "translation": "Parasol"
     },
     {
       "key": "contribution.{ampark_Parasol_001-GenericStructure-C001-002b-4C8B212Dharu}.name",
       "source": "パラソル",
-      "translation": ""
+      "translation": "Parasol"
     },
     {
       "key": "contribution.{ampark_Parasol_001-GenericStructure-C001-002c-4C8B212Dharu}.name",
       "source": "パラソル",
-      "translation": ""
+      "translation": "Parasol"
     },
     {
       "key": "contribution.{ampark_Parasol_001-GenericStructure-C001-002d-4C8B212Dharu}.name",
       "source": "パラソル",
-      "translation": ""
+      "translation": "Parasol"
     },
     {
       "key": "contribution.{ampark_Parasol_001-GenericStructure-C001-003a-4C8B212Dharu}.name",
       "source": "パラソル",
-      "translation": ""
+      "translation": "Parasol"
     },
     {
       "key": "contribution.{ampark_Parasol_001-GenericStructure-C001-003b-4C8B212Dharu}.name",
       "source": "パラソル",
-      "translation": ""
+      "translation": "Parasol"
     },
     {
       "key": "contribution.{ampark_Parasol_001-GenericStructure-C001-003c-4C8B212Dharu}.name",
       "source": "パラソル",
-      "translation": ""
+      "translation": "Parasol"
     },
     {
       "key": "contribution.{ampark_Parasol_001-GenericStructure-C001-004a-4C8B212Dharu}.name",
       "source": "パラソル",
-      "translation": ""
+      "translation": "Parasol"
     },
     {
       "key": "contribution.{ampark_Parasol_001-GenericStructure-C001-004b-4C8B212Dharu}.name",
       "source": "パラソル",
-      "translation": ""
+      "translation": "Parasol"
     },
     {
       "key": "contribution.{ampark_Parasol_001-GenericStructure-C001-004c-4C8B212Dharu}.name",
       "source": "パラソル",
-      "translation": ""
+      "translation": "Parasol"
     },
     {
       "key": "contribution.{ampark_Parasol_001-GenericStructure-C001-005a-4C8B212Dharu}.name",
       "source": "パラソル",
-      "translation": ""
+      "translation": "Parasol"
     },
     {
       "key": "contribution.{square_001-GenericStructure-C000-0000-4C8B212Dharu}.name",
       "source": "噴水広場",
-      "translation": ""
+      "translation": "Fountain Plaza"
     },
     {
       "key": "contribution.{ampark_square_001-GenericStructure-C000-0000-4C8B212Dharu}.name",
       "source": "噴水広場(遊園地舗装)",
-      "translation": ""
+      "translation": "Fountain Plaza (Amusement Park Pavement)"
     }
   ]
 }

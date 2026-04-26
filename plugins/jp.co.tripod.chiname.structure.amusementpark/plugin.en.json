@@ -6,47 +6,47 @@
     {
       "key": "plugin.title",
       "source": "遊園地セット１",
-      "translation": ""
+      "translation": "Amusement Park Set 1"
     },
     {
       "key": "contribution.{83E34DCA-4F85-4B19-C477-08FD870912C7}.group",
       "source": "アトラクション2x2",
-      "translation": ""
+      "translation": "Attraction 2x2"
     },
     {
       "key": "contribution.{EE314C4B-8743-47AC-C477-928BC05F22AE}.group",
       "source": "アトラクション2x2",
-      "translation": ""
+      "translation": "Attraction 2x2"
     },
     {
       "key": "contribution.{F3288563-FB70-409C-C477-037B789C109B}.group",
       "source": "観覧車",
-      "translation": ""
+      "translation": "Ferris Wheel"
     },
     {
       "key": "contribution.{7DCC878C-1D30-49DA-C477-58FAE78FB551}.group",
       "source": "観覧車",
-      "translation": ""
+      "translation": "Ferris Wheel"
     },
     {
       "key": "contribution.{9D70C491-72FA-4562-C477-13E62F2B3545}.name",
       "source": "遊園地舗装(街灯あり)",
-      "translation": ""
+      "translation": "Amusement park pavement (with streetlights)"
     },
     {
       "key": "contribution.{9D70C491-72FA-4562-C477-13E62F2B3545}.description",
       "source": "遊園地内の舗装",
-      "translation": ""
+      "translation": "Amusement park paving"
     },
     {
       "key": "contribution.{BCCD83F5-F857-4055-C477-F042B0CF002C}.name",
       "source": "遊園地舗装(街灯なし)",
-      "translation": ""
+      "translation": "Amusement park pavement (without streetlights)"
     },
     {
       "key": "contribution.{BCCD83F5-F857-4055-C477-F042B0CF002C}.description",
       "source": "遊園地内の舗装",
-      "translation": ""
+      "translation": "Amusement park paving"
     }
   ]
 }

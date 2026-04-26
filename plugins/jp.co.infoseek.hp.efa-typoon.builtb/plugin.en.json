@@ -6,27 +6,27 @@
     {
       "key": "plugin.title",
       "source": "建物セット1号館・拡張セット用",
-      "translation": ""
+      "translation": "Building Set No. 1 - Expansion Set"
     },
     {
       "key": "contribution.{TYPHOON-Military-Rader1B-7567171D3CEF}.name",
       "source": "レーダー",
-      "translation": ""
+      "translation": "Radar"
     },
     {
       "key": "contribution.{TYPHOON-Military-Rader2B-7567171D3CEF}.name",
       "source": "レーダー",
-      "translation": ""
+      "translation": "Radar"
     },
     {
       "key": "contribution.{TYPHOON-Military-Rader3C-7567171D3CEF}.name",
       "source": "レーダー",
-      "translation": ""
+      "translation": "Radar"
     },
     {
       "key": "contribution.{TYPHOON-Military-F-15DJ2B-7567171D3CEF}.name",
       "source": "戦闘機",
-      "translation": ""
+      "translation": "Fighter jet"
     }
   ]
 }

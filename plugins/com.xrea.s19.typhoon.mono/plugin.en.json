@@ -6,32 +6,32 @@
     {
       "key": "plugin.title",
       "source": "モノレールせっと",
-      "translation": ""
+      "translation": "Monorail Set"
     },
     {
       "key": "contribution.{TYPHOON-MONO-ROAD-7567171D3CEF}.name",
       "source": "モノレール用レール",
-      "translation": ""
+      "translation": "Monorail Rail"
     },
     {
       "key": "contribution.{TYPHOON-MONO-ROAD-7567171D3CEF}.description",
       "source": "モノレール用レール",
-      "translation": ""
+      "translation": "Monorail Rail"
     },
     {
       "key": "contribution.{TYPHOON-TAMATOSHI-1000-HENSEI-7567171D3CEF}.company",
       "source": "多摩都市モノレール",
-      "translation": ""
+      "translation": "Tama Toshi Monorail"
     },
     {
       "key": "contribution.{TYPHOON-TAMATOSHI-1000-HENSEI-7567171D3CEF}.type",
       "source": "1000系",
-      "translation": ""
+      "translation": "1000 Series"
     },
     {
       "key": "contribution.{TYPHOON-TAMATOSHI-1000-HENSEI-7567171D3CEF}.description",
       "source": "多摩センターから北上し立川を超えて上北台までを結んでいる多摩都市モノレールで使用されている車両です。14編成が存在します。",
-      "translation": ""
+      "translation": "These vehicles are used on the Tama Toshi Monorail, which connects Tama Center northward, past Tachikawa, to Kamikitadai. 14 formations exist."
     }
   ]
 }

@@ -6,537 +6,537 @@
     {
       "key": "plugin.title",
       "source": "道路",
-      "translation": ""
+      "translation": "Road"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-stonepaved}.name",
       "source": "石畳/軌道/茶",
-      "translation": ""
+      "translation": "Stone Pavement / Track / Brown"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-stonepaved}.description",
       "source": "軌道用石畳",
-      "translation": ""
+      "translation": "Cobblestone for tracks"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-stonepaved-grey}.name",
       "source": "石畳/軌道/灰",
-      "translation": ""
+      "translation": "Stone Pavement / Track / Grey"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-stonepaved-grey}.description",
       "source": "軌道用石畳",
-      "translation": ""
+      "translation": "Cobblestone for tracks"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-stonepaved-entrancepath-ocher}.name",
       "source": "石畳/参道/茶",
-      "translation": ""
+      "translation": "Stone Pavement / Approach Path / Ocher"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-stonepaved-entrancepath-ocher}.description",
       "source": "参道",
-      "translation": ""
+      "translation": "Approach path"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-stonepaved-entrancepath-grey}.name",
       "source": "石畳/参道/灰",
-      "translation": ""
+      "translation": "Stone Pavement / Approach Path / Grey"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-stonepaved-entrancepath-grey}.description",
       "source": "参道",
-      "translation": ""
+      "translation": "Approach path"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-stonepaved-entrancepath-stonelantern-ocher}.name",
       "source": "石畳/灯籠/茶",
-      "translation": ""
+      "translation": "Stone Pavement / Stone Lantern / Ocher"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-stonepaved-entrancepath-stonelantern-ocher}.description",
       "source": "参道(石灯籠付)",
-      "translation": ""
+      "translation": "Approach path (with stone lanterns)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-stonepaved-entrancepath-stonelantern-grey}.name",
       "source": "石畳/灯籠/灰",
-      "translation": ""
+      "translation": "Stone Pavement / Stone Lantern / Grey"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-stonepaved-entrancepath-stonelantern-grey}.description",
       "source": "参道(石灯籠付)",
-      "translation": ""
+      "translation": "Approach path (with stone lanterns)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-woodlandpath-001}.name",
       "source": "林道/未舗装",
-      "translation": ""
+      "translation": "Forest road / Unpaved"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-woodlandpath-001}.description",
       "source": "林道(未舗装)",
-      "translation": ""
+      "translation": "Forest road (unpaved)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-woodlandpath-002}.name",
       "source": "林道/舗装",
-      "translation": ""
+      "translation": "Forest road / Paved"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-woodlandpath-002}.description",
       "source": "林道(舗装)",
-      "translation": ""
+      "translation": "Forest road (paved)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-concrete-right}.name",
       "source": "大街路/無灯/歩道付/コンクリート右",
-      "translation": ""
+      "translation": "Avenue / Unlit / With Sidewalk / Concrete Right"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-concrete-right}.description",
       "source": "コンクリート歩道付道路",
-      "translation": ""
+      "translation": "Road with concrete sidewalk"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-concrete-left}.name",
       "source": "大街路/無灯/歩道付/コンクリート左",
-      "translation": ""
+      "translation": "Avenue / Unlit / With Sidewalk / Concrete Left"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-concrete-left}.description",
       "source": "コンクリート歩道付道路",
-      "translation": ""
+      "translation": "Road with concrete sidewalk"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-walk-right}.name",
       "source": "大街路/無灯/歩道付/駅前歩道右",
-      "translation": ""
+      "translation": "Avenue / Unlit / With Sidewalk / Station Sidewalk Right"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-walk-right}.description",
       "source": "駅前歩道付道路",
-      "translation": ""
+      "translation": "Road with Station Sidewalk"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-walk-left}.name",
       "source": "大街路/無灯/歩道付/駅前歩道左",
-      "translation": ""
+      "translation": "Avenue / Unlit / With Sidewalk / Station Sidewalk Left"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-walk-left}.description",
       "source": "駅前歩道付道路",
-      "translation": ""
+      "translation": "Road with Station Sidewalk"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-entrance-right}.name",
       "source": "大街路/無灯/歩道付/駅前広場右",
-      "translation": ""
+      "translation": "Avenue / Unlit / With Sidewalk / Station Plaza Right"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-entrance-right}.description",
       "source": "駅前広場付道路",
-      "translation": ""
+      "translation": "Road with Station Plaza"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-entrance-left}.name",
       "source": "大街路/無灯/歩道付/駅前広場左",
-      "translation": ""
+      "translation": "Avenue / Unlit / With Sidewalk / Station Plaza Left"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-entrance-left}.description",
       "source": "駅前広場付道路",
-      "translation": ""
+      "translation": "Road with Station Plaza"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-lane-add-add}.name",
       "source": "大街路/無灯/2車線/追加車線",
-      "translation": ""
+      "translation": "Avenue / Unlit / 2-Lane / Additional Lane"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-lane-add-add}.description",
       "source": "追加走行車線",
-      "translation": ""
+      "translation": "Additional Driving Lane"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-passinglane-right}.name",
       "source": "大街路/無灯/2車線/追越右",
-      "translation": ""
+      "translation": "Avenue / Unlit / 2-Lane / Passing Lane Right"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-passinglane-right}.description",
       "source": "追越車線",
-      "translation": ""
+      "translation": "Passing lane"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-passinglane-left}.name",
       "source": "大街路/無灯/2車線/追越左",
-      "translation": ""
+      "translation": "Avenue / Unlit / 2-Lane / Passing Lane Left"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-passinglane-left}.description",
       "source": "追越車線",
-      "translation": ""
+      "translation": "Passing lane"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-passinglane-verge-right}.name",
       "source": "大街路/無灯/2車線/追越植栽付右",
-      "translation": ""
+      "translation": "Avenue / Unlit / 2-Lane / Passing Lane with Landscaping Right"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-passinglane-verge-right}.description",
       "source": "追越車線",
-      "translation": ""
+      "translation": "Passing lane"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-passinglane-verge-left}.name",
       "source": "大街路/無灯/2車線/追越植栽付左",
-      "translation": ""
+      "translation": "Avenue / Unlit / 2-Lane / Passing Lane with Landscaping Left"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-passinglane-verge-left}.description",
       "source": "追越車線",
-      "translation": ""
+      "translation": "Passing lane"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-center-white}.name",
       "source": "大街路/無灯/中央線/白実線",
-      "translation": ""
+      "translation": "Avenue / Unlit / Center Line / Solid White Line"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-center-white}.description",
       "source": "中央線白実線",
-      "translation": ""
+      "translation": "Chuo Line White Solid Line"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-center-orange}.name",
       "source": "大街路/無灯/中央線/橙実線",
-      "translation": ""
+      "translation": "Avenue / Unlit / Center Line / Solid Orange Line"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-center-orange}.description",
       "source": "中央線橙実線",
-      "translation": ""
+      "translation": "Chuo Line Orange Solid Line"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-verge-center}.name",
       "source": "大街路/無灯/中央線/中央分離帯",
-      "translation": ""
+      "translation": "Avenue / Unlit / Center Line / Median Strip"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-verge-center}.description",
       "source": "中央分離帯",
-      "translation": ""
+      "translation": "Central median"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-streetlamp-concrete-right}.name",
       "source": "大街路/街灯/歩道付/コンクリート右",
-      "translation": ""
+      "translation": "Avenue / Streetlight / With Sidewalk / Concrete Right"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-streetlamp-concrete-right}.description",
       "source": "コンクリート歩道付道路",
-      "translation": ""
+      "translation": "Road with concrete sidewalk"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-streetlamp-concrete-left}.name",
       "source": "大街路/街灯/歩道付/コンクリート左",
-      "translation": ""
+      "translation": "Avenue / Streetlight / With Sidewalk / Concrete Left"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-streetlamp-concrete-left}.description",
       "source": "コンクリート歩道付道路",
-      "translation": ""
+      "translation": "Road with concrete sidewalk"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-streetlamp-walk-right}.name",
       "source": "大街路/街灯/歩道付/駅前歩道右",
-      "translation": ""
+      "translation": "Avenue / Streetlight / With Sidewalk / Station Sidewalk Right"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-streetlamp-walk-right}.description",
       "source": "駅前歩道付道路",
-      "translation": ""
+      "translation": "Road with Station Sidewalk"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-streetlamp-walk-left}.name",
       "source": "大街路/街灯/歩道付/駅前歩道左",
-      "translation": ""
+      "translation": "Avenue / Streetlight / With Sidewalk / Station Sidewalk Left"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-streetlamp-walk-left}.description",
       "source": "駅前歩道付道路",
-      "translation": ""
+      "translation": "Road with Station Sidewalk"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-streetlamp-entrance-right}.name",
       "source": "大街路/街灯/歩道付/駅前広場右",
-      "translation": ""
+      "translation": "Avenue / Streetlight / With Sidewalk / Station Plaza Right"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-streetlamp-entrance-right}.description",
       "source": "駅前広場付道路",
-      "translation": ""
+      "translation": "Road with Station Plaza"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-streetlamp-entrance-left}.name",
       "source": "大街路/街灯/歩道付/駅前広場左",
-      "translation": ""
+      "translation": "Avenue / Streetlight / With Sidewalk / Station Plaza Left"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-streetlamp-entrance-left}.description",
       "source": "駅前広場付道路",
-      "translation": ""
+      "translation": "Road with Station Plaza"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-streetlamp-passinglane-right}.name",
       "source": "大街路/街灯/2車線/追越右",
-      "translation": ""
+      "translation": "Avenue / Streetlight / 2-Lane / Passing Lane Right"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-streetlamp-passinglane-right}.description",
       "source": "追越車線",
-      "translation": ""
+      "translation": "Passing lane"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue--streetlamp-passinglane-left}.name",
       "source": "大街路/街灯/2車線/追越左",
-      "translation": ""
+      "translation": "Avenue / Streetlight / 2-Lane / Passing Lane Left"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue--streetlamp-passinglane-left}.description",
       "source": "追越車線",
-      "translation": ""
+      "translation": "Passing lane"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-streetlamp-verge-concrete-right}.name",
       "source": "大街路/植栽/歩道付/コンクリート右",
-      "translation": ""
+      "translation": "Avenue / Landscaping / With Sidewalk / Concrete Right"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-streetlamp-verge-concrete-right}.description",
       "source": "コンクリート歩道付道路",
-      "translation": ""
+      "translation": "Road with concrete sidewalk"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-streetlamp-verge-concrete-left}.name",
       "source": "大街路/植栽/歩道付/コンクリート左",
-      "translation": ""
+      "translation": "Avenue / Landscaping / With Sidewalk / Concrete Left"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-streetlamp-verge-concrete-left}.description",
       "source": "コンクリート歩道付道路",
-      "translation": ""
+      "translation": "Road with concrete sidewalk"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-streetlamp-verge-walk-right}.name",
       "source": "大街路/植栽/歩道付/駅前歩道右",
-      "translation": ""
+      "translation": "Avenue / Landscaping / With Sidewalk / Station Sidewalk Right"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-streetlamp-verge-walk-right}.description",
       "source": "駅前歩道付道路",
-      "translation": ""
+      "translation": "Road with Station Sidewalk"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-streetlamp-verge-walk-left}.name",
       "source": "大街路/植栽/歩道付/駅前歩道左",
-      "translation": ""
+      "translation": "Avenue / Landscaping / With Sidewalk / Station Sidewalk Left"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-streetlamp-verge-walk-left}.description",
       "source": "駅前歩道付道路",
-      "translation": ""
+      "translation": "Road with Station Sidewalk"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-streetlamp-verge-entrance-right}.name",
       "source": "大街路/植栽/歩道付/駅前広場右",
-      "translation": ""
+      "translation": "Avenue / Landscaping / With Sidewalk / Station Plaza Right"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-streetlamp-verge-entrance-right}.description",
       "source": "駅前広場付道路",
-      "translation": ""
+      "translation": "Road with Station Plaza"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-streetlamp-verge-entrance-left}.name",
       "source": "大街路/植栽/歩道付/駅前広場左",
-      "translation": ""
+      "translation": "Avenue / Landscaping / With Sidewalk / Station Plaza Left"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-streetlamp-verge-entrance-left}.description",
       "source": "駅前広場付道路",
-      "translation": ""
+      "translation": "Road with Station Plaza"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-streetlamp-passinglane-verge-right}.name",
       "source": "大街路/植栽/2車線/追越右",
-      "translation": ""
+      "translation": "Avenue / Landscaping / 2-Lane / Passing Lane Right"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-streetlamp-passinglane-verge-right}.description",
       "source": "追越車線",
-      "translation": ""
+      "translation": "Passing lane"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-streetlamp-passinglane-verge-left}.name",
       "source": "大街路/植栽/2車線/追越左",
-      "translation": ""
+      "translation": "Avenue / Landscaping / 2-Lane / Passing Lane Left"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-streetlamp-passinglane-verge-left}.description",
       "source": "追越車線",
-      "translation": ""
+      "translation": "Passing lane"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-streetlamp-verge-center}.name",
       "source": "大街路/植栽/中央線/中央分離帯",
-      "translation": ""
+      "translation": "Avenue / Landscaping / Center Line / Median Strip"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-streetlamp-verge-center}.description",
       "source": "中央分離帯",
-      "translation": ""
+      "translation": "Central median"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-streetlamp-pier-concrete-right}.name",
       "source": "大街路/橋脚/歩道付/コンクリート右",
-      "translation": ""
+      "translation": "Avenue / Bridge Pier / With Sidewalk / Concrete Right"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-streetlamp-pier-concrete-right}.description",
       "source": "コンクリート歩道付道路",
-      "translation": ""
+      "translation": "Road with concrete sidewalk"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-streetlamp-pier-concrete-left}.name",
       "source": "大街路/橋脚/歩道付/コンクリート左",
-      "translation": ""
+      "translation": "Avenue / Bridge Pier / With Sidewalk / Concrete Left"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-sidewalk-streetlamp-pier-concrete-left}.description",
       "source": "コンクリート歩道付道路",
-      "translation": ""
+      "translation": "Road with concrete sidewalk"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-streetlamp-passinglane-verge-pier-right}.name",
       "source": "大街路/橋脚/２車線/追越右",
-      "translation": ""
+      "translation": "Avenue / Bridge Pier / 2-Lane / Passing Lane Right"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-streetlamp-passinglane-verge-pier-right}.description",
       "source": "追越車線",
-      "translation": ""
+      "translation": "Passing lane"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-streetlamp-passinglane-verge-pier-left}.name",
       "source": "大街路/橋脚/２車線/追越左",
-      "translation": ""
+      "translation": "Avenue / Bridge Pier / 2-Lane / Passing Lane Left"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-streetlamp-passinglane-verge-pier-left}.description",
       "source": "追越車線",
-      "translation": ""
+      "translation": "Passing lane"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-streetlamp-verge-pier-center}.name",
       "source": "大街路/橋脚/中央線/中央分離帯",
-      "translation": ""
+      "translation": "Avenue / Bridge Pier / Center Line / Median Strip"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-avenue-streetlamp-verge-pier-center}.description",
       "source": "中央分離帯",
-      "translation": ""
+      "translation": "Central median"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-pier-right}.name",
       "source": "高架下道路/1車線/右",
-      "translation": ""
+      "translation": "Under-Elevated Road / 1 Lane / Right"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-pier-right}.description",
       "source": "高架下道路",
-      "translation": ""
+      "translation": "Road Under Elevated Track"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-pier-left}.name",
       "source": "高架下道路/1車線/左",
-      "translation": ""
+      "translation": "Under-Elevated Road / 1 Lane / Left"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-pier-left}.description",
       "source": "高架下道路",
-      "translation": ""
+      "translation": "Road Under Elevated Track"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-pier}.name",
       "source": "高架下道路/2車線/中",
-      "translation": ""
+      "translation": "Under-Elevated Road / 2 Lanes / Middle"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-pier}.description",
       "source": "高架下道路",
-      "translation": ""
+      "translation": "Road Under Elevated Track"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-pier-lane2-right}.name",
       "source": "高架下道路/2車線/右",
-      "translation": ""
+      "translation": "Under-Elevated Road / 2 Lanes / Right"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-pier-lane2-right}.description",
       "source": "高架下道路",
-      "translation": ""
+      "translation": "Road Under Elevated Track"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-pier-lane2-left}.name",
       "source": "高架下道路/2車線/左",
-      "translation": ""
+      "translation": "Under-Elevated Road / 2 Lanes / Left"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-pier-lane2-left}.description",
       "source": "高架下道路",
-      "translation": ""
+      "translation": "Road Under Elevated Track"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-monorail-right}.name",
       "source": "高架下道路/モノレール下/高架1右",
-      "translation": ""
+      "translation": "Under-Elevated Road / Under Monorail / Elevated 1 Right"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-monorail-right}.description",
       "source": "モノレール下道路1",
-      "translation": ""
+      "translation": "Road Under Monorail 1"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-monorail-left}.name",
       "source": "高架下道路/モノレール下/高架1左",
-      "translation": ""
+      "translation": "Under-Elevated Road / Under Monorail / Elevated 1 Left"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-monorail-left}.description",
       "source": "モノレール下道路1",
-      "translation": ""
+      "translation": "Road Under Monorail 1"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-monorail2-right}.name",
       "source": "高架下道路/モノレール下/高架2右",
-      "translation": ""
+      "translation": "Under-Elevated Road / Under Monorail / Elevated 2 Right"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-monorail2-right}.description",
       "source": "モノレール下道路2",
-      "translation": ""
+      "translation": "Road Under Monorail 2"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-monorail2-left}.name",
       "source": "高架下道路/モノレール下/高架2左",
-      "translation": ""
+      "translation": "Under-Elevated Road / Under Monorail / Elevated 2 Left"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-monorail2-left}.description",
       "source": "モノレール下道路2",
-      "translation": ""
+      "translation": "Road Under Monorail 2"
     }
   ]
 }

@@ -6,17 +6,17 @@
     {
       "key": "plugin.title",
       "source": "架線柱タイプレンガ橋脚",
-      "translation": ""
+      "translation": "Catenary Pole Type Brick Pier"
     },
     {
       "key": "contribution.{riorio-FreeTrain-RailStructureImpl-Base-Left}.name",
       "source": "鉄橋(橋脚, 左)",
-      "translation": ""
+      "translation": "Railway Bridge (Pier, Left)"
     },
     {
       "key": "contribution.{riorio-FreeTrain-AYASE-Hiro-RailStructureImpl-Base-Right-Red}.name",
       "source": "鉄橋(橋脚, 右)",
-      "translation": ""
+      "translation": "Railway Bridge (Pier, Right)"
     }
   ]
 }

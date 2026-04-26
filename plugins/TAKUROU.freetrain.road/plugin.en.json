@@ -6,47 +6,47 @@
     {
       "key": "plugin.title",
       "source": "道路",
-      "translation": ""
+      "translation": "Road"
     },
     {
       "key": "contribution.{FreeTrain-TAKUROU-RoadImg-Isi}.name",
       "source": "線路敷石/敷石1",
-      "translation": ""
+      "translation": "Track Paving Stones / Paving Stone 1"
     },
     {
       "key": "contribution.{FreeTrain-TAKUROU-RoadImg-Isi}.description",
       "source": "線路敷石",
-      "translation": ""
+      "translation": "Track Ballast"
     },
     {
       "key": "contribution.{FreeTrain-TAKUROU-RoadImg-Isi}-2.name",
       "source": "線路敷石/敷石2",
-      "translation": ""
+      "translation": "Track Paving Stones / Paving Stone 2"
     },
     {
       "key": "contribution.{FreeTrain-TAKUROU-RoadImg-Isi}-2.description",
       "source": "線路敷石",
-      "translation": ""
+      "translation": "Track Ballast"
     },
     {
       "key": "contribution.{FreeTrain-TAKUROU-RoadImg-Isi}-3.name",
       "source": "線路敷石/敷石3",
-      "translation": ""
+      "translation": "Track Paving Stones / Paving Stone 3"
     },
     {
       "key": "contribution.{FreeTrain-TAKUROU-RoadImg-Isi}-3.description",
       "source": "線路敷石",
-      "translation": ""
+      "translation": "Track Ballast"
     },
     {
       "key": "contribution.{FreeTrain-TAKUROU-RoadImg-Isi}-4.name",
       "source": "線路敷石/敷石4",
-      "translation": ""
+      "translation": "Track Paving Stones / Paving Stone 4"
     },
     {
       "key": "contribution.{FreeTrain-TAKUROU-RoadImg-Isi}-4.description",
       "source": "線路敷石",
-      "translation": ""
+      "translation": "Track Ballast"
     }
   ]
 }

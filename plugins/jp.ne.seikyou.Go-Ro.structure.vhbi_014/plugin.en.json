@@ -6,12 +6,12 @@
     {
       "key": "plugin.title",
       "source": "建物\"picture\"(FreeTrain-想作館)",
-      "translation": ""
+      "translation": "Building \"picture\" (FreeTrain-Sousakukan)"
     },
     {
       "key": "contribution.{vhbi_014-GenericStructure-C001-0000-4C8B212Dharu}.name",
       "source": "超高層マンション",
-      "translation": ""
+      "translation": "Skyscraper Apartment Building"
     }
   ]
 }

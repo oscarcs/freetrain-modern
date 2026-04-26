@@ -6,57 +6,57 @@
     {
       "key": "plugin.title",
       "source": "架線柱タイプ桁",
-      "translation": ""
+      "translation": "Catenary Pole Type Girder"
     },
     {
       "key": "contribution.{riorio-ep-slice-1EF4-6001-9C5A-D0EA1049D28D}.name",
       "source": "斜橋桁A",
-      "translation": ""
+      "translation": "Skew Bridge Girder A"
     },
     {
       "key": "contribution.{riorio-ep-slice-1EF4-6002-9C5A-D0EA1049D28D}.name",
       "source": "斜橋桁B",
-      "translation": ""
+      "translation": "Skew Bridge Girder B"
     },
     {
       "key": "contribution.{riorio-ep-slice-1EF4-6003-9C5A-D0EA1049D28D}.name",
       "source": "斜橋桁C",
-      "translation": ""
+      "translation": "Skew Bridge Girder C"
     },
     {
       "key": "contribution.{riorio-ep-slice-1EF4-6004-9C5A-D0EA1049D28D}.name",
       "source": "斜橋桁D",
-      "translation": ""
+      "translation": "Skew Bridge Girder D"
     },
     {
       "key": "contribution.{riorio-ep-slice-1EF4-6005-9C5A-D0EA1049D28D}.name",
       "source": "斜橋桁E",
-      "translation": ""
+      "translation": "Skew Bridge Girder E"
     },
     {
       "key": "contribution.{riorio-ep-slice-1EF4-6006-9C5A-D0EA1049D28D}.name",
       "source": "斜橋桁F",
-      "translation": ""
+      "translation": "Skew Bridge Girder F"
     },
     {
       "key": "contribution.{riorio-ep-slice-1EF4-6007-9C5A-D0EA1049D28D}.name",
       "source": "斜橋桁G複",
-      "translation": ""
+      "translation": "Skew Bridge Girder G Double"
     },
     {
       "key": "contribution.{riorio-ep-slice-1EF4-6008-9C5A-D0EA1049D28D}.name",
       "source": "斜橋桁H複",
-      "translation": ""
+      "translation": "Skew Bridge Girder H Double"
     },
     {
       "key": "contribution.{riorio-ep-slice-1EF4-6009-9C5A-D0EA1049D28D}.name",
       "source": "斜橋桁I複",
-      "translation": ""
+      "translation": "Skew Bridge Girder I Double"
     },
     {
       "key": "contribution.{riorio-ep-slice-1EF4-6010-9C5A-D0EA1049D28D}.name",
       "source": "斜橋桁J複",
-      "translation": ""
+      "translation": "Skew Bridge Girder J Double"
     }
   ]
 }

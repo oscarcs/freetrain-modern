@@ -6,37 +6,37 @@
     {
       "key": "plugin.title",
       "source": "JR九州セット",
-      "translation": ""
+      "translation": "JR Kyushu Set"
     },
     {
       "key": "contribution.{7C9C5240-48F0-11D8-968B-0800460222F0-titech-jrq-nanohana}.company",
       "source": "JR九州",
-      "translation": ""
+      "translation": "JR Kyushu"
     },
     {
       "key": "contribution.{7C9C5240-48F0-11D8-968B-0800460222F0-titech-jrq-nanohana}.type",
       "source": "キハ200形 なのはな",
-      "translation": ""
+      "translation": "Kiha 200 Series Nanohana"
     },
     {
       "key": "contribution.{7C9C5240-48F0-11D8-968B-0800460222F1-titech-jrq-nanohanaDX}.company",
       "source": "JR九州",
-      "translation": ""
+      "translation": "JR Kyushu"
     },
     {
       "key": "contribution.{7C9C5240-48F0-11D8-968B-0800460222F1-titech-jrq-nanohanaDX}.type",
       "source": "キハ200形 なのはなDX",
-      "translation": ""
+      "translation": "Kiha 200 Series Nanohana DX"
     },
     {
       "key": "contribution.{7C9C5240-48F0-11D8-968B-0800460222F0-titech-jrq-seeside}.company",
       "source": "JR九州",
-      "translation": ""
+      "translation": "JR Kyushu"
     },
     {
       "key": "contribution.{7C9C5240-48F0-11D8-968B-0800460222F0-titech-jrq-seeside}.type",
       "source": "キハ200形 シーサイドライナー",
-      "translation": ""
+      "translation": "Kiha 200 Series Seaside Liner"
     }
   ]
 }

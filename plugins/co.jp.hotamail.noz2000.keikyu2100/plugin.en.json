@@ -6,107 +6,107 @@
     {
       "key": "plugin.title",
       "source": "京急2100形",
-      "translation": ""
+      "translation": "Keikyu 2100 Series"
     },
     {
       "key": "contribution.{57349167-D397-45AA-A2C5-8422A52F7506}.name",
       "source": "京急線",
-      "translation": ""
+      "translation": "Keikyu Line"
     },
     {
       "key": "contribution.{57349167-D397-45AA-A2C5-8422A52F7506}.company",
       "source": "京浜急行電鉄",
-      "translation": ""
+      "translation": "Keikyu Corporation"
     },
     {
       "key": "contribution.{57349167-D397-45AA-A2C5-8422A52F7506}.type",
       "source": "2100形",
-      "translation": ""
+      "translation": "2100 type"
     },
     {
       "key": "contribution.{57349167-D397-45AA-A2C5-8422A52F7506}.description",
       "source": "1998年に快特で使用されていた2000形の後継車という事で登場した車両。4、8、12両編成を用意しております。",
-      "translation": ""
+      "translation": "Vehicles introduced in 1998 as successors to the Type 2000, which was used for Limited Express services. 4, 8, and 12-car formations are available."
     },
     {
       "key": "contribution.{AD37AE4B-E3EB-4D9D-838E-22EA4E4F82BE}.name",
       "source": "京急線",
-      "translation": ""
+      "translation": "Keikyu Line"
     },
     {
       "key": "contribution.{AD37AE4B-E3EB-4D9D-838E-22EA4E4F82BE}.company",
       "source": "京浜急行電鉄",
-      "translation": ""
+      "translation": "Keikyu Corporation"
     },
     {
       "key": "contribution.{AD37AE4B-E3EB-4D9D-838E-22EA4E4F82BE}.type",
       "source": "2100形+新1000形",
-      "translation": ""
+      "translation": "2100 type + New 1000 type"
     },
     {
       "key": "contribution.{AD37AE4B-E3EB-4D9D-838E-22EA4E4F82BE}.description",
       "source": "2100形8両+新1000形4両の12両編成です。",
-      "translation": ""
+      "translation": "12-car formation of 8x 2100 type + 4x New 1000 type."
     },
     {
       "key": "contribution.{7F280BAD-7AA1-4454-973B-123D9F19DC33}.name",
       "source": "京急線",
-      "translation": ""
+      "translation": "Keikyu Line"
     },
     {
       "key": "contribution.{7F280BAD-7AA1-4454-973B-123D9F19DC33}.company",
       "source": "京浜急行電鉄",
-      "translation": ""
+      "translation": "Keikyu Corporation"
     },
     {
       "key": "contribution.{7F280BAD-7AA1-4454-973B-123D9F19DC33}.type",
       "source": "2100形+600形",
-      "translation": ""
+      "translation": "2100 type + 600 type"
     },
     {
       "key": "contribution.{7F280BAD-7AA1-4454-973B-123D9F19DC33}.description",
       "source": "2100形8両+600形4両の12両編成です。",
-      "translation": ""
+      "translation": "12-car formation of 8x 2100 type + 4x 600 type."
     },
     {
       "key": "contribution.{819C92C0-D19A-448D-9CA6-F66A233617A6}.name",
       "source": "京急線",
-      "translation": ""
+      "translation": "Keikyu Line"
     },
     {
       "key": "contribution.{819C92C0-D19A-448D-9CA6-F66A233617A6}.company",
       "source": "京浜急行電鉄",
-      "translation": ""
+      "translation": "Keikyu Corporation"
     },
     {
       "key": "contribution.{819C92C0-D19A-448D-9CA6-F66A233617A6}.type",
       "source": "2100形+2000形",
-      "translation": ""
+      "translation": "2100 type + 2000 type"
     },
     {
       "key": "contribution.{819C92C0-D19A-448D-9CA6-F66A233617A6}.description",
-      "source": "2100形8両+2000形4両の12両編成です。\u3000＊：2000形は、しの氏の2000形を利用しております。",
-      "translation": ""
+      "source": "2100形8両+2000形4両の12両編成です。　＊：2000形は、しの氏の2000形を利用しております。",
+      "translation": "12-car formation of 8x 2100 type + 4x 2000 type. *: The 2000 type uses Mr. Shino's 2000 type."
     },
     {
       "key": "contribution.{C5360292-02A0-4D4E-8FC8-CF4202E93870}.name",
       "source": "京急線",
-      "translation": ""
+      "translation": "Keikyu Line"
     },
     {
       "key": "contribution.{C5360292-02A0-4D4E-8FC8-CF4202E93870}.company",
       "source": "京浜急行電鉄",
-      "translation": ""
+      "translation": "Keikyu Corporation"
     },
     {
       "key": "contribution.{C5360292-02A0-4D4E-8FC8-CF4202E93870}.type",
       "source": "2100形+1500形",
-      "translation": ""
+      "translation": "2100 type + 1500 type"
     },
     {
       "key": "contribution.{C5360292-02A0-4D4E-8FC8-CF4202E93870}.description",
       "source": "2100形8両+1500形4両の12両編成です。＊：1500形は、しの氏の2000形を利用しております。",
-      "translation": ""
+      "translation": "12-car formation of 8x 2100 type + 4x 1500 type. *: The 1500 type uses Mr. Shino's 2000 type."
     }
   ]
 }

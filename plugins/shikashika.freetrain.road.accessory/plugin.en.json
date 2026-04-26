@@ -6,147 +6,147 @@
     {
       "key": "plugin.title",
       "source": "道路アクセサリ",
-      "translation": ""
+      "translation": "Road Accessories"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-Accessory-footbridge1}.name",
       "source": "歩道橋",
-      "translation": ""
+      "translation": "Pedestrian bridge"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-Accessory-footbridge1l}.name",
       "source": "歩道橋(左)",
-      "translation": ""
+      "translation": "Pedestrian bridge (left)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-Accessory-footbridge1r}.name",
       "source": "歩道橋(右)",
-      "translation": ""
+      "translation": "Pedestrian bridge (right)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-Accessory-footbridge1m}.name",
       "source": "歩道橋(中央)",
-      "translation": ""
+      "translation": "Pedestrian bridge (center)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-Accessory-footbridge2}.name",
       "source": "歩道橋(螺旋)",
-      "translation": ""
+      "translation": "Pedestrian bridge (spiral)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-Accessory-footbridge2l}.name",
       "source": "歩道橋(螺旋左)",
-      "translation": ""
+      "translation": "Pedestrian bridge (spiral left)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-Accessory-footbridge2r}.name",
       "source": "歩道橋(螺旋右)",
-      "translation": ""
+      "translation": "Pedestrian bridge (spiral right)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-Accessory-footbridge1w}.name",
       "source": "歩道橋(白)",
-      "translation": ""
+      "translation": "Pedestrian bridge (white)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-Accessory-footbridge1wl}.name",
       "source": "歩道橋(白,左)",
-      "translation": ""
+      "translation": "Pedestrian bridge (white, left)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-Accessory-footbridge1wr}.name",
       "source": "歩道橋(白,右)",
-      "translation": ""
+      "translation": "Pedestrian bridge (white, right)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-Accessory-footbridge1wm}.name",
       "source": "歩道橋(白,中央)",
-      "translation": ""
+      "translation": "Pedestrian bridge (white, center)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-Accessory-footbridge2w}.name",
       "source": "歩道橋(白,螺旋)",
-      "translation": ""
+      "translation": "Pedestrian bridge (white, spiral)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-Accessory-footbridge2wl}.name",
       "source": "歩道橋(白,螺旋左)",
-      "translation": ""
+      "translation": "Pedestrian bridge (white, spiral left)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-Accessory-footbridge2wr}.name",
       "source": "歩道橋(白,螺旋右)",
-      "translation": ""
+      "translation": "Pedestrian bridge (white, spiral right)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-Accessory-underpass1}.name",
       "source": "地下道入口",
-      "translation": ""
+      "translation": "Underpass Entrance"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-Accessory-underpass1l}.name",
       "source": "地下道入口(左)",
-      "translation": ""
+      "translation": "Underpass Entrance (Left)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-Accessory-underpass1r}.name",
       "source": "地下道入口(右)",
-      "translation": ""
+      "translation": "Underpass Entrance (Right)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-Accessory-subway1}.name",
       "source": "地下鉄入口",
-      "translation": ""
+      "translation": "Subway Entrance"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-Accessory-subway1l}.name",
       "source": "地下鉄入口(左)",
-      "translation": ""
+      "translation": "Subway Entrance (Left)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-Accessory-subway1r}.name",
       "source": "地下鉄入口(右)",
-      "translation": ""
+      "translation": "Subway Entrance (Right)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-Accessory-pier1r-w}.name",
       "source": "橋脚(右)",
-      "translation": ""
+      "translation": "Pier (right)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-Accessory-pier1l-w}.name",
       "source": "橋脚(左)",
-      "translation": ""
+      "translation": "Pier (left)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-Accessory-pier2r-w}.name",
       "source": "橋脚(細,右)",
-      "translation": ""
+      "translation": "Pier (thin, right)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-Accessory-pier2l-w}.name",
       "source": "橋脚(細,左)",
-      "translation": ""
+      "translation": "Pier (thin, left)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-Accessory-torii01-c}.name",
       "source": "鳥居(灰)",
-      "translation": ""
+      "translation": "Torii Gate (Gray)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-Accessory-torii01-v}.name",
       "source": "鳥居(朱)",
-      "translation": ""
+      "translation": "Torii Gate (Vermilion)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-Accessory-torii02-c}.name",
       "source": "鳥居(大,灰)",
-      "translation": ""
+      "translation": "Torii Gate (Large, Gray)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-Accessory-torii02-v}.name",
       "source": "鳥居(大,朱)",
-      "translation": ""
+      "translation": "Torii Gate (Large, Vermilion)"
     }
   ]
 }

@@ -6,27 +6,27 @@
     {
       "key": "plugin.title",
       "source": "プラントパイプライン",
-      "translation": ""
+      "translation": "Plant Pipeline"
     },
     {
       "key": "contribution.{3B7AC01D-FB25-453B-C477-7FBD850FE893}.name",
       "source": "パイプライン(青)",
-      "translation": ""
+      "translation": "Pipeline (blue)"
     },
     {
       "key": "contribution.{3B7AC01D-FB25-453B-C477-7FBD850FE893}.description",
       "source": "ブルー",
-      "translation": ""
+      "translation": "Blue"
     },
     {
       "key": "contribution.{F53F79E8-CCAA-40BD-C477-1F749B1D03B7}.name",
       "source": "パイプライン(銀)",
-      "translation": ""
+      "translation": "Pipeline (silver)"
     },
     {
       "key": "contribution.{F53F79E8-CCAA-40BD-C477-1F749B1D03B7}.description",
       "source": "シルバー",
-      "translation": ""
+      "translation": "Silver"
     }
   ]
 }

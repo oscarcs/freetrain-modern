@@ -6,147 +6,147 @@
     {
       "key": "plugin.title",
       "source": "ＪＲ東日本485系改造ジョイフルトレイン車両プラグインセット",
-      "translation": ""
+      "translation": "JR East 485 Series Modified Joyful Train Rolling Stock Plugin Set"
     },
     {
       "key": "contribution.{cyber-express-1703d-040331-485uetsu}.name",
       "source": "きらきらうえつ",
-      "translation": ""
+      "translation": "Kirakira Uetsu"
     },
     {
       "key": "contribution.{cyber-express-1703d-040331-485uetsu}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{cyber-express-1703d-040331-485uetsu}.type",
       "source": "485系",
-      "translation": ""
+      "translation": "485 Series"
     },
     {
       "key": "contribution.{cyber-express-1703d-040331-485uetsu}.description",
       "source": "羽越線方面を訪れる観光客用として2001年11月に登場した。\n車両は485系特急形電車を改造した4両編成で、先頭車は展望車、2号車はラウンジ車で、茶屋と和風ラウンジスペースが設けられている。\nまた、改造に合わせてバリアフリーに対応した設備に変更した。主に新潟～酒田間で、週末を中心に運転されている。",
-      "translation": ""
+      "translation": "Introduced in November 2001 for tourists visiting the Uetsu Line area. The train is a 4-car formation modified from the 485 Series limited express electric train, with the lead car being an observation car and car No. 2 a lounge car, featuring a tea room and Japanese-style lounge space. In addition, facilities were modified to be barrier-free. It mainly operates between Niigata and Sakata, primarily on weekends."
     },
     {
       "key": "contribution.{cyber-express-1703d-040331-485nnanohana}.name",
       "source": "ニューなのはな",
-      "translation": ""
+      "translation": "New Nanohana"
     },
     {
       "key": "contribution.{cyber-express-1703d-040331-485nnanohana}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{cyber-express-1703d-040331-485nnanohana}.type",
       "source": "485系",
-      "translation": ""
+      "translation": "485 Series"
     },
     {
       "key": "contribution.{cyber-express-1703d-040331-485nnanohana}.description",
       "source": "房総方面へ訪れる観光客用として1998年に登場した。車両は485系特急形電車を改造した6両編成。\n座席は、掘りごたつ付きのお座敷にも4人がけボックスシートにも変更可能な構造となっている。\n千葉県内からの団体列車や、臨時の特急列車等に使用されている。",
-      "translation": ""
+      "translation": "Appeared in 1998 for tourists visiting the Boso area. The train is a 6-car formation, converted from 485 Series limited express electric trains. The seats have a convertible structure, allowing them to be arranged as 'ozashiki' (Japanese-style room with sunken kotatsu) or 4-person box seats. It is used for group trains from Chiba Prefecture and temporary limited express trains."
     },
     {
       "key": "contribution.{cyber-express-1703d-040331-485yamanami}.name",
       "source": "やまなみ",
-      "translation": ""
+      "translation": "Yamanami"
     },
     {
       "key": "contribution.{cyber-express-1703d-040331-485yamanami}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{cyber-express-1703d-040331-485yamanami}.type",
       "source": "485系",
-      "translation": ""
+      "translation": "485 Series"
     },
     {
       "key": "contribution.{cyber-express-1703d-040331-485yamanami}.description",
       "source": "群馬県方面へ訪れる観光客用として1999年に登場した。\n車両は485系特急形電車を改造した4両編成で、掘りごたつ付きのお座敷車両である。\n「せせらぎ」と共に、群馬県内からの団体列車や高崎線・上越線の臨時快速列車として使用されている。",
-      "translation": ""
+      "translation": "Introduced in 1999 for tourists visiting Gunma Prefecture. The train is a 4-car formation, a modified 485 Series limited express electric train, featuring 'ozashiki' (Japanese-style room) cars with horigotatsu (sunken kotatsu). It is used alongside 'Seseragi' for group tours from within Gunma Prefecture and as temporary rapid trains on the Takasaki and Joetsu Lines."
     },
     {
       "key": "contribution.{cyber-express-1703d-040331-485seseragi}.name",
       "source": "せせらぎ",
-      "translation": ""
+      "translation": "Seseragi"
     },
     {
       "key": "contribution.{cyber-express-1703d-040331-485seseragi}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{cyber-express-1703d-040331-485seseragi}.type",
       "source": "485系",
-      "translation": ""
+      "translation": "485 Series"
     },
     {
       "key": "contribution.{cyber-express-1703d-040331-485seseragi}.description",
       "source": "群馬県方面へ訪れる観光客用として2001年に登場した。\n車両は485系特急形電車を改造した4両編成で「やまなみ」とほぼ同じ構造の掘りごたつ付きお座敷車両である。\n「やまなみ」と共に、群馬県内からの団体列車や高崎線・上越線の臨時快速列車として使用されている。",
-      "translation": ""
+      "translation": "Introduced in 2001 for tourists visiting Gunma Prefecture. The train is a 4-car formation, a modified 485 Series limited express electric train, featuring 'ozashiki' cars with horigotatsu, almost identical in structure to 'Yamanami'. It is used alongside 'Yamanami' for group tours from within Gunma Prefecture and as temporary rapid trains on the Takasaki and Joetsu Lines."
     },
     {
       "key": "contribution.{cyber-express-1703d-040331-485yamasese}.name",
       "source": "やまなみ＋せせらぎ",
-      "translation": ""
+      "translation": "Yamanami + Seseragi"
     },
     {
       "key": "contribution.{cyber-express-1703d-040331-485yamasese}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{cyber-express-1703d-040331-485yamasese}.type",
       "source": "485系",
-      "translation": ""
+      "translation": "485 Series"
     },
     {
       "key": "contribution.{cyber-express-1703d-040331-485yamasese}.description",
       "source": "※8両編成のみです。\nそれぞれ4両編成の「やまなみ」「せせらぎ」を併結し、8両編成の「やまなみ・せせらぎ号」として団体列車や臨時快速列車として使用する事もある。",
-      "translation": ""
+      "translation": "*8-car formation only.* The 4-car formations of 'Yamanami' and 'Seseragi' are coupled together to form an 8-car 'Yamanami/Seseragi' train, which is sometimes used for group tours or special rapid services."
     },
     {
       "key": "contribution.{cyber-express-1703d-040331-485utage}.name",
       "source": "宴",
-      "translation": ""
+      "translation": "Utage"
     },
     {
       "key": "contribution.{cyber-express-1703d-040331-485utage}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{cyber-express-1703d-040331-485utage}.type",
       "source": "485系",
-      "translation": ""
+      "translation": "485 Series"
     },
     {
       "key": "contribution.{cyber-express-1703d-040331-485utage}.description",
       "source": "1994年に登場したジョイフルトレイン。\n車両は485系特急形電車を改造した6両編成の掘りごたつ付きお座敷車両である。\nほとんど全ての電化区間の他、ディーゼル機関車と併結して非電化区間も走る事ができる。\n「華」と共に東京、神奈川、山梨方面での団体列車や、東海道線や中央線で臨時快速列車として使用されている。",
-      "translation": ""
+      "translation": "A Joyful Train introduced in 1994. The train consists of 6-car tatami room cars with horigotatsu (sunken kotatsu), modified from the 485 Series limited express electric train. It can operate on almost all electrified sections, and also on non-electrified sections by coupling with a diesel locomotive. Along with \"Hana,\" it is used for group tours to Tokyo, Kanagawa, and Yamanashi, and as a temporary rapid train on the Tokaido and Chuo Lines."
     },
     {
       "key": "contribution.{cyber-express-1703d-040331-485hana}.name",
       "source": "華",
-      "translation": ""
+      "translation": "Hana"
     },
     {
       "key": "contribution.{cyber-express-1703d-040331-485hana}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{cyber-express-1703d-040331-485hana}.type",
       "source": "485系",
-      "translation": ""
+      "translation": "485 Series"
     },
     {
       "key": "contribution.{cyber-express-1703d-040331-485hana}.description",
       "source": "1996年に登場したジョイフルトレイン。\n車両は485系特急形電車を改造した6両編成の掘りごたつ付きお座敷車両である。\nほとんど全ての電化区間の他、ディーゼル機関車と併結して非電化区間も走る事ができる。\n「宴」と共に、東京、神奈川、山梨方面で団体列車や、東海道線や中央線で臨時快速列車として使用されている。",
-      "translation": ""
+      "translation": "A Joyful Train introduced in 1996. The train consists of 6-car tatami room cars with horigotatsu (sunken kotatsu), modified from the 485 Series limited express electric train. It can operate on almost all electrified sections, and also on non-electrified sections by coupling with a diesel locomotive. Along with \"Utage,\" it is used for group tours to Tokyo, Kanagawa, and Yamanashi, and as a temporary rapid train on the Tokaido and Chuo Lines."
     }
   ]
 }

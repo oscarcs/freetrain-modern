@@ -6,37 +6,37 @@
     {
       "key": "plugin.title",
       "source": "京津セット",
-      "translation": ""
+      "translation": "Keishin Set"
     },
     {
       "key": "contribution.{nyaganyaga-k80}.company",
       "source": "京阪電鉄",
-      "translation": ""
+      "translation": "Keihan Electric Railway"
     },
     {
       "key": "contribution.{nyaganyaga-k80}.type",
       "source": "80形",
-      "translation": ""
+      "translation": "80 Series"
     },
     {
       "key": "contribution.{nyaganyaga-k80}.description",
       "source": "京阪三条～浜大津間を結ぶ併用軌道あり、峠越えありの日本でもここだけしか見られなかった路線が京津線です。その京津線を走っていたのが80形と呼ばれる可愛い電車です。ヨーロピアンスタイルの車両に高出力モーターを装備し、京津線の顔として普通運用をしていました。",
-      "translation": ""
+      "translation": "The Keishin Line, which connected Keihan Sanjo and Hamaotsu, was a unique line in Japan, featuring both shared tracks and mountain passes. The charming 80 Series electric train ran on this Keishin Line. Equipped with high-output motors in a European-style body, it served as the face of the Keishin Line for local services."
     },
     {
       "key": "contribution.{nyaganyaga-k800}.company",
       "source": "京阪電鉄",
-      "translation": ""
+      "translation": "Keihan Electric Railway"
     },
     {
       "key": "contribution.{nyaganyaga-k800}.type",
       "source": "800系",
-      "translation": ""
+      "translation": "800 Series"
     },
     {
       "key": "contribution.{nyaganyaga-k800}.description",
       "source": "1997年、京津線三条～御陵間が廃止され、代わって地下鉄東西線への乗入れの為に製作された京津線初の大型4連車。IGBTインバータ(これも京津線初)や先頭固定クロス、中間ロングと変則的なシートを採用、また車体色も京阪標準色と異なった色を採用している。上栄町～浜大津間の併用軌道を大型4連車が走るのは凄い迫力です。",
-      "translation": ""
+      "translation": "In 1997, the Keishin Line's Sanjo-Misasagi section was abolished, and in its place, the Keishin Line's first large 4-car train was manufactured for through service to the Tozai Subway Line. It adopted IGBT inverters (also a first for the Keishin Line), fixed cross-seats at the ends, and long-seats in the middle, using an irregular seating arrangement, and also a car body color different from Keihan's standard livery. It is quite impressive to see the large 4-car train running on the shared track between Kamieichō and Hamaōtsu."
     }
   ]
 }

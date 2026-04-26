@@ -6,72 +6,72 @@
     {
       "key": "plugin.title",
       "source": "遊園地セット２",
-      "translation": ""
+      "translation": "Amusement Park Set 2"
     },
     {
       "key": "contribution.{B0E968D8-BE76-4861-C477-9112FA78C953}-w.name",
       "source": "サイクルモノレール(緑)",
-      "translation": ""
+      "translation": "Cycle monorail (green)"
     },
     {
       "key": "contribution.{B0E968D8-BE76-4861-C477-9112FA78C953}-w.description",
       "source": "サイクルモノレール",
-      "translation": ""
+      "translation": "Cycle Monorail"
     },
     {
       "key": "contribution.{B0E968D8-BE76-4861-C477-9112FA78C953}-g.name",
       "source": "サイクルモノレール(白)",
-      "translation": ""
+      "translation": "Cycle monorail (white)"
     },
     {
       "key": "contribution.{B0E968D8-BE76-4861-C477-9112FA78C953}-g.description",
       "source": "サイクルモノレール",
-      "translation": ""
+      "translation": "Cycle Monorail"
     },
     {
       "key": "contribution.{657DE35E-C898-4BCC-C477-B1A3AA649C1E}.group",
       "source": "売店",
-      "translation": ""
+      "translation": "Shop"
     },
     {
       "key": "contribution.{D5CEA823-5FA3-44CD-C477-A3D638703394}.group",
       "source": "売店",
-      "translation": ""
+      "translation": "Shop"
     },
     {
       "key": "contribution.{2661E02A-78F0-4978-C477-A1A8F32CAC1B}.group",
       "source": "売店",
-      "translation": ""
+      "translation": "Shop"
     },
     {
       "key": "contribution.{5B5843D7-7C58-47A3-C477-F9D24B5F21FD}.group",
       "source": "売店",
-      "translation": ""
+      "translation": "Shop"
     },
     {
       "key": "contribution.{7E1EEEA8-AF6F-4810-C477-88C3AED6DE66}-0.group",
       "source": "遊園地:テーブル",
-      "translation": ""
+      "translation": "Amusement park: Table"
     },
     {
       "key": "contribution.{7E1EEEA8-AF6F-4810-C477-88C3AED6DE66}-1.group",
       "source": "遊園地:テーブル",
-      "translation": ""
+      "translation": "Amusement park: Table"
     },
     {
       "key": "contribution.{7E1EEEA8-AF6F-4810-C477-88C3AED6DE66}-2.group",
       "source": "遊園地:テーブル",
-      "translation": ""
+      "translation": "Amusement park: Table"
     },
     {
       "key": "contribution.{7E1EEEA8-AF6F-4810-C477-88C3AED6DE66}-3.group",
       "source": "遊園地:テーブル",
-      "translation": ""
+      "translation": "Amusement park: Table"
     },
     {
       "key": "contribution.{7E1EEEA8-AF6F-4810-C477-88C3AED6DE66}.group",
       "source": "遊園地:テーブル",
-      "translation": ""
+      "translation": "Amusement park: Table"
     }
   ]
 }

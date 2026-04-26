@@ -6,17 +6,17 @@
     {
       "key": "plugin.title",
       "source": "建物プラグイン",
-      "translation": ""
+      "translation": "Building plugin"
     },
     {
       "key": "contribution.{1EBA4A26-C35D-4209-9C71-AA9B1237C14C}.group",
       "source": "テクノガーデンビル",
-      "translation": ""
+      "translation": "Techno Garden Building"
     },
     {
       "key": "contribution.{1EBA4A26-C35D-4209-9C71-AA9B1237C14A}.group",
       "source": "テクノガーデンビル",
-      "translation": ""
+      "translation": "Techno Garden Building"
     }
   ]
 }

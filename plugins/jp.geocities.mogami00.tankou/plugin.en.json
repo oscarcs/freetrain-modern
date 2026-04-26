@@ -6,37 +6,37 @@
     {
       "key": "plugin.title",
       "source": "炭鉱",
-      "translation": ""
+      "translation": "Coal Mine"
     },
     {
       "key": "contribution.{14B295A3-7EC2-4265-842F-650B3F089A6A}-0.group",
       "source": "炭鉱・事務所",
-      "translation": ""
+      "translation": "Coal Mine / Office"
     },
     {
       "key": "contribution.{14B295A3-7EC2-4265-842F-650B3F089A6A}-1.group",
       "source": "炭坑・竪抗櫓",
-      "translation": ""
+      "translation": "Coal Mine / Headframe"
     },
     {
       "key": "contribution.{14B295A3-7EC2-4265-842F-650B3F089A6A}-2.group",
       "source": "炭坑・ドルシックナー",
-      "translation": ""
+      "translation": "Coal Mine / Dorr Thickener"
     },
     {
       "key": "contribution.{14B295A3-7EC2-4265-842F-650B3F089A6A}-3.group",
       "source": "炭坑・ベルトコンベアー1",
-      "translation": ""
+      "translation": "Coal Mine / Belt Conveyor 1"
     },
     {
       "key": "contribution.{14B295A3-7EC2-4265-842F-650B3F089A6A}-4.group",
       "source": "炭坑・ベルトコンベアー2",
-      "translation": ""
+      "translation": "Coal Mine / Belt Conveyor 2"
     },
     {
       "key": "contribution.{14B295A3-7EC2-4265-842F-650B3F089A6A}-5.group",
       "source": "炭坑・倉庫諸施設",
-      "translation": ""
+      "translation": "Coal Mine / Warehouse Facilities"
     }
   ]
 }

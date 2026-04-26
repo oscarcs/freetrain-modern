@@ -6,317 +6,317 @@
     {
       "key": "plugin.title",
       "source": "鉄道施設",
-      "translation": ""
+      "translation": "Railway facilities"
     },
     {
       "key": "contribution.{E02D2B53-B41A-4071-1703d-D63D20E84534}-A.group",
       "source": "高架橋(側道付)",
-      "translation": ""
+      "translation": "Elevated Bridge (with Side Road)"
     },
     {
       "key": "contribution.{1703d-kokakyoA1-sokudo}-A.group",
       "source": "高架橋(側道付)",
-      "translation": ""
+      "translation": "Elevated Bridge (with Side Road)"
     },
     {
       "key": "contribution.{1703d-kokakyoA1-sokudo}-B.group",
       "source": "高架橋(側道付)",
-      "translation": ""
+      "translation": "Elevated Bridge (with Side Road)"
     },
     {
       "key": "contribution.{1703d-kokakyoA1-sokudo}-C.group",
       "source": "高架橋(側道付)",
-      "translation": ""
+      "translation": "Elevated Bridge (with Side Road)"
     },
     {
       "key": "contribution.{1703d-kokakyoA1-sokudo}-D.group",
       "source": "高架橋(側道付)",
-      "translation": ""
+      "translation": "Elevated Bridge (with Side Road)"
     },
     {
       "key": "contribution.{1703d-kokakyoA1-sokudo}-E.group",
       "source": "高架橋(側道付)",
-      "translation": ""
+      "translation": "Elevated Bridge (with Side Road)"
     },
     {
       "key": "contribution.{1703d-kokakyoA1-sokudo}-F.group",
       "source": "高架橋(側道付)",
-      "translation": ""
+      "translation": "Elevated Bridge (with Side Road)"
     },
     {
       "key": "contribution.{1703d-kokakyoA1-sokudo}-G.group",
       "source": "高架橋(側道付)",
-      "translation": ""
+      "translation": "Elevated Bridge (with Side Road)"
     },
     {
       "key": "contribution.{1703d-kokakyoA1-sokudo}-H.group",
       "source": "高架橋(側道付)",
-      "translation": ""
+      "translation": "Elevated Bridge (with Side Road)"
     },
     {
       "key": "contribution.{D6CED176-6E27-4506-1703d-9952D5C4DEED}-A.group",
       "source": "高架橋(側道付)",
-      "translation": ""
+      "translation": "Elevated Bridge (with Side Road)"
     },
     {
       "key": "contribution.{1703d-kokakyoA2-sokudo}-A.group",
       "source": "高架橋(側道付)",
-      "translation": ""
+      "translation": "Elevated Bridge (with Side Road)"
     },
     {
       "key": "contribution.{1703d-kokakyoA2-sokudo}-B.group",
       "source": "高架橋(側道付)",
-      "translation": ""
+      "translation": "Elevated Bridge (with Side Road)"
     },
     {
       "key": "contribution.{1703d-kokakyoA2-sokudo}-C.group",
       "source": "高架橋(側道付)",
-      "translation": ""
+      "translation": "Elevated Bridge (with Side Road)"
     },
     {
       "key": "contribution.{1703d-kokakyoA2-sokudo}-D.group",
       "source": "高架橋(側道付)",
-      "translation": ""
+      "translation": "Elevated Bridge (with Side Road)"
     },
     {
       "key": "contribution.{1703d-kokakyoA2-sokudo}-E.group",
       "source": "高架橋(側道付)",
-      "translation": ""
+      "translation": "Elevated Bridge (with Side Road)"
     },
     {
       "key": "contribution.{1703d-kokakyoA2-sokudo}-F.group",
       "source": "高架橋(側道付)",
-      "translation": ""
+      "translation": "Elevated Bridge (with Side Road)"
     },
     {
       "key": "contribution.{1703d-kokakyoA2-sokudo}-G.group",
       "source": "高架橋(側道付)",
-      "translation": ""
+      "translation": "Elevated Bridge (with Side Road)"
     },
     {
       "key": "contribution.{1703d-kokakyoA2-sokudo}-H.group",
       "source": "高架橋(側道付)",
-      "translation": ""
+      "translation": "Elevated Bridge (with Side Road)"
     },
     {
       "key": "contribution.{1703d-kokakyoA3-sokudo}-A.group",
       "source": "高架橋(複合)",
-      "translation": ""
+      "translation": "Elevated bridge (composite)"
     },
     {
       "key": "contribution.{1703d-kokakyoA3-sokudo}-B.group",
       "source": "高架橋(複合)",
-      "translation": ""
+      "translation": "Elevated bridge (composite)"
     },
     {
       "key": "contribution.{1703d-kokakyoA3-sokudo}-C.group",
       "source": "高架橋(複合)",
-      "translation": ""
+      "translation": "Elevated bridge (composite)"
     },
     {
       "key": "contribution.{1703d-kokakyoA3-sokudo}-D.group",
       "source": "高架橋(複合)",
-      "translation": ""
+      "translation": "Elevated bridge (composite)"
     },
     {
       "key": "contribution.{1703d-kokakyoA3-sokudo}-E.group",
       "source": "高架橋(複合)",
-      "translation": ""
+      "translation": "Elevated bridge (composite)"
     },
     {
       "key": "contribution.{1703d-kokakyoA3-sokudo}-F.group",
       "source": "高架橋(複合)",
-      "translation": ""
+      "translation": "Elevated bridge (composite)"
     },
     {
       "key": "contribution.{1703d-kokakyoA3-sokudo}-G.group",
       "source": "高架橋(複合)",
-      "translation": ""
+      "translation": "Elevated bridge (composite)"
     },
     {
       "key": "contribution.{1703d-kokakyoA3-sokudo}-H.group",
       "source": "高架橋(複合)",
-      "translation": ""
+      "translation": "Elevated bridge (composite)"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kumi}-A.group",
       "source": "高架橋(組合せ)",
-      "translation": ""
+      "translation": "Elevated bridge (combined)"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kumi}-B.group",
       "source": "高架橋(組合せ)",
-      "translation": ""
+      "translation": "Elevated bridge (combined)"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kumi}-C.group",
       "source": "高架橋(組合せ)",
-      "translation": ""
+      "translation": "Elevated bridge (combined)"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kumi}-D.group",
       "source": "高架橋(組合せ)",
-      "translation": ""
+      "translation": "Elevated bridge (combined)"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kumi}-E.group",
       "source": "高架橋(組合せ)",
-      "translation": ""
+      "translation": "Elevated bridge (combined)"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kumi}-F.group",
       "source": "高架橋(組合せ)",
-      "translation": ""
+      "translation": "Elevated bridge (combined)"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kumi}-G.group",
       "source": "高架橋(組合せ)",
-      "translation": ""
+      "translation": "Elevated bridge (combined)"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kumi}-H.group",
       "source": "高架橋(組合せ)",
-      "translation": ""
+      "translation": "Elevated bridge (combined)"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kumi2}-A.group",
       "source": "高架橋(組合せ)",
-      "translation": ""
+      "translation": "Elevated bridge (combined)"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kumi2}-B.group",
       "source": "高架橋(組合せ)",
-      "translation": ""
+      "translation": "Elevated bridge (combined)"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kan}-A.group",
       "source": "高架橋(新幹線)",
-      "translation": ""
+      "translation": "Elevated bridge (Shinkansen)"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kan}-B.group",
       "source": "高架橋(新幹線)",
-      "translation": ""
+      "translation": "Elevated bridge (Shinkansen)"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kan}-C.group",
       "source": "高架橋(新幹線)",
-      "translation": ""
+      "translation": "Elevated bridge (Shinkansen)"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kan}-D.group",
       "source": "高架橋(新幹線)",
-      "translation": ""
+      "translation": "Elevated bridge (Shinkansen)"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kan}-E.group",
       "source": "高架橋(新幹線)",
-      "translation": ""
+      "translation": "Elevated bridge (Shinkansen)"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kan}-F.group",
       "source": "高架橋(新幹線)",
-      "translation": ""
+      "translation": "Elevated bridge (Shinkansen)"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kan}-G.group",
       "source": "高架橋(新幹線)",
-      "translation": ""
+      "translation": "Elevated bridge (Shinkansen)"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kan}-H.group",
       "source": "高架橋(新幹線)",
-      "translation": ""
+      "translation": "Elevated bridge (Shinkansen)"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kan}-I.group",
       "source": "高架橋(新幹線)",
-      "translation": ""
+      "translation": "Elevated bridge (Shinkansen)"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kan}-J.group",
       "source": "高架橋(新幹線)",
-      "translation": ""
+      "translation": "Elevated bridge (Shinkansen)"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kan2}-A.group",
       "source": "新幹線跨道橋1",
-      "translation": ""
+      "translation": "Shinkansen overpass 1"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kan2}-B.group",
       "source": "新幹線跨道橋1",
-      "translation": ""
+      "translation": "Shinkansen overpass 1"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kan2}-C.group",
       "source": "新幹線跨道橋1",
-      "translation": ""
+      "translation": "Shinkansen overpass 1"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kan2}-D.group",
       "source": "新幹線跨道橋1",
-      "translation": ""
+      "translation": "Shinkansen overpass 1"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kan2}-E.group",
       "source": "新幹線跨道橋1",
-      "translation": ""
+      "translation": "Shinkansen overpass 1"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kan2}-F.group",
       "source": "新幹線跨道橋1",
-      "translation": ""
+      "translation": "Shinkansen overpass 1"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kan2}-G.group",
       "source": "新幹線跨道橋1",
-      "translation": ""
+      "translation": "Shinkansen overpass 1"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kan2}-H.group",
       "source": "新幹線跨道橋1",
-      "translation": ""
+      "translation": "Shinkansen overpass 1"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kan2}-I.group",
       "source": "新幹線跨道橋1",
-      "translation": ""
+      "translation": "Shinkansen overpass 1"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kan2}-J.group",
       "source": "新幹線跨道橋1",
-      "translation": ""
+      "translation": "Shinkansen overpass 1"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kan3}-A.group",
       "source": "新幹線跨道橋2",
-      "translation": ""
+      "translation": "Shinkansen Road Overpass 2"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kan3}-B.group",
       "source": "新幹線跨道橋2",
-      "translation": ""
+      "translation": "Shinkansen Road Overpass 2"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kan3}-C.group",
       "source": "新幹線跨道橋2",
-      "translation": ""
+      "translation": "Shinkansen Road Overpass 2"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kan3}-D.group",
       "source": "新幹線跨道橋2",
-      "translation": ""
+      "translation": "Shinkansen Road Overpass 2"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kan3}-E.group",
       "source": "新幹線跨道橋2",
-      "translation": ""
+      "translation": "Shinkansen Road Overpass 2"
     },
     {
       "key": "contribution.{1703d-kokakyoA-kan3}-F.group",
       "source": "新幹線跨道橋2",
-      "translation": ""
+      "translation": "Shinkansen Road Overpass 2"
     }
   ]
 }

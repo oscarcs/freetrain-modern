@@ -6,42 +6,42 @@
     {
       "key": "plugin.title",
       "source": "架線柱タイプガーター橋",
-      "translation": ""
+      "translation": "Catenary Pole Type Girder Bridge"
     },
     {
       "key": "contribution.{riorio-ep-3000-9C5A-D0EA1049D28D}.name",
       "source": "ガター橋・緑(桁)",
-      "translation": ""
+      "translation": "Gutter Bridge - Green (Girder)"
     },
     {
       "key": "contribution.{riorio-ep-3001-9C5A-D0EA1049D28D}.name",
       "source": "ガター橋・緑(中)",
-      "translation": ""
+      "translation": "Gutter Bridge - Green (Middle)"
     },
     {
       "key": "contribution.{riorio-ep-3002-9C5A-D0EA1049D28D}.name",
       "source": "ガター橋・緑(終A)",
-      "translation": ""
+      "translation": "Gutter Bridge - Green (End A)"
     },
     {
       "key": "contribution.{riorio-ep-3003-9C5A-D0EA1049D28D}.name",
       "source": "ガター橋・緑(終B)",
-      "translation": ""
+      "translation": "Gutter Bridge - Green (End B)"
     },
     {
       "key": "contribution.{riorio-ep-3004-9C5A-D0EA1049D28D}.name",
       "source": "ガター橋・緑(架線台・左)",
-      "translation": ""
+      "translation": "Gutter Bridge - Green (Catenary Support - Left)"
     },
     {
       "key": "contribution.{riorio-ep-3005-9C5A-D0EA1049D28D}.name",
       "source": "ガター橋・緑(架線台・右)",
-      "translation": ""
+      "translation": "Gutter Bridge - Green (Catenary Support - Right)"
     },
     {
       "key": "contribution.{riorio-ep-3006-9C5A-D0EA1049D28D}.name",
       "source": "ガター橋・緑(架線台・左右)",
-      "translation": ""
+      "translation": "Gutter Bridge - Green (Catenary Support - Left/Right)"
     }
   ]
 }

@@ -6,67 +6,67 @@
     {
       "key": "plugin.title",
       "source": "道路",
-      "translation": ""
+      "translation": "Road"
     },
     {
       "key": "contribution.{hana_003-C001-C000-1400-4C8B212DD67q}.name",
       "source": "田一般道(一車線)",
-      "translation": ""
+      "translation": "Rural Road (One Lane)"
     },
     {
       "key": "contribution.{hana_003-C001-C000-1400-4C8B212DD67q}.description",
       "source": "一般道",
-      "translation": ""
+      "translation": "General Road"
     },
     {
       "key": "contribution.{hana_003-C002-C000-1400-4C8B212DD67q}.name",
       "source": "田一般道(二車線)",
-      "translation": ""
+      "translation": "Rural Road (Two Lanes)"
     },
     {
       "key": "contribution.{hana_003-C002-C000-1400-4C8B212DD67q}.description",
       "source": "一般道",
-      "translation": ""
+      "translation": "General Road"
     },
     {
       "key": "contribution.{hana_003-C003-C000-1400-4C8B212DD67q}.name",
       "source": "都一般道(一車線)",
-      "translation": ""
+      "translation": "Metropolitan Road (One Lane)"
     },
     {
       "key": "contribution.{hana_003-C003-C000-1400-4C8B212DD67q}.description",
       "source": "一般道",
-      "translation": ""
+      "translation": "General Road"
     },
     {
       "key": "contribution.{hana_003-C004-C000-1400-4C8B212DD67q}.name",
       "source": "都一般道(二車線)",
-      "translation": ""
+      "translation": "Metropolitan Road (Two Lanes)"
     },
     {
       "key": "contribution.{hana_003-C004-C000-1400-4C8B212DD67q}.description",
       "source": "一般道",
-      "translation": ""
+      "translation": "General Road"
     },
     {
       "key": "contribution.{hana_003-C005-C000-1400-4C8B212DD67q}.name",
       "source": "都無一般道(二車線)",
-      "translation": ""
+      "translation": "Metropolitan Unmarked Road (Two Lanes)"
     },
     {
       "key": "contribution.{hana_003-C005-C000-1400-4C8B212DD67q}.description",
       "source": "一般道",
-      "translation": ""
+      "translation": "General Road"
     },
     {
       "key": "contribution.{hana_003-C006-C000-1400-4C8B212DD67q}.name",
       "source": "都無一般道(一車線)",
-      "translation": ""
+      "translation": "Metropolitan Unmarked Road (One Lane)"
     },
     {
       "key": "contribution.{hana_003-C006-C000-1400-4C8B212DD67q}.description",
       "source": "一般道",
-      "translation": ""
+      "translation": "General Road"
     }
   ]
 }

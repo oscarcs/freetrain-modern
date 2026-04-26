@@ -6,17 +6,17 @@
     {
       "key": "plugin.title",
       "source": "駅舎プラグイン",
-      "translation": ""
+      "translation": "Station Building Plugin"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-Station-02a}.group",
       "source": "高架下駅舎(新幹線)",
-      "translation": ""
+      "translation": "Under-elevated station building (Shinkansen)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-Station-02b}.group",
       "source": "高架下駅舎(新幹線)",
-      "translation": ""
+      "translation": "Under-elevated station building (Shinkansen)"
     }
   ]
 }

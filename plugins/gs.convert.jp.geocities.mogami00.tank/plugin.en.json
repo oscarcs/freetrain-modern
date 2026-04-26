@@ -5,13 +5,13 @@
   "texts": [
     {
       "key": "plugin.title",
-      "source": "建物総合コンバート\u3000モガミ",
-      "translation": ""
+      "source": "建物総合コンバート　モガミ",
+      "translation": "Building General Conversion Mogami"
     },
     {
       "key": "contribution.{FE61055B-ACE7-4E6D-B10F-C73DDA698A2B}-gs.group",
       "source": "戦車",
-      "translation": ""
+      "translation": "Tank"
     }
   ]
 }

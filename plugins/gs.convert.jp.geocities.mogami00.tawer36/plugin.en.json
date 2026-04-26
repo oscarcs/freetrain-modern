@@ -5,13 +5,13 @@
   "texts": [
     {
       "key": "plugin.title",
-      "source": "建物総合コンバート\u3000モガミ",
-      "translation": ""
+      "source": "建物総合コンバート　モガミ",
+      "translation": "Building General Conversion Mogami"
     },
     {
       "key": "contribution.{37DF0EE7-6EA7-4D07-BE5A-FDD33FC9E91A}-gs.group",
       "source": "貸しビル01号",
-      "translation": ""
+      "translation": "Rental building No. 01"
     }
   ]
 }

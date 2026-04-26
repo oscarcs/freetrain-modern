@@ -6,62 +6,62 @@
     {
       "key": "plugin.title",
       "source": "ては",
-      "translation": ""
+      "translation": "Teha"
     },
     {
       "key": "contribution.{0D5E7A3E-FC17-4196-85B2-106A1C6CBBAE}.name",
       "source": "スナックカー",
-      "translation": ""
+      "translation": "Snack Car"
     },
     {
       "key": "contribution.{0D5E7A3E-FC17-4196-85B2-106A1C6CBBAE}.company",
       "source": "近畿日本鉄道",
-      "translation": ""
+      "translation": "Kinki Nippon Railway"
     },
     {
       "key": "contribution.{0D5E7A3E-FC17-4196-85B2-106A1C6CBBAE}.type",
       "source": "12000系",
-      "translation": ""
+      "translation": "12000 Series"
     },
     {
       "key": "contribution.{93CD3ED6-A252-40C0-B9DF-3DA8762FB1D8}.name",
       "source": "ビスタカーIII",
-      "translation": ""
+      "translation": "Vista Car III"
     },
     {
       "key": "contribution.{93CD3ED6-A252-40C0-B9DF-3DA8762FB1D8}.company",
       "source": "近畿日本鉄道",
-      "translation": ""
+      "translation": "Kinki Nippon Railway"
     },
     {
       "key": "contribution.{93CD3ED6-A252-40C0-B9DF-3DA8762FB1D8}.type",
       "source": "30000系",
-      "translation": ""
+      "translation": "30000 Series"
     },
     {
       "key": "contribution.{43F6F375-0F31-41F1-86D0-D367068EAA35}.name",
       "source": "サニーカー",
-      "translation": ""
+      "translation": "Sunny Car"
     },
     {
       "key": "contribution.{43F6F375-0F31-41F1-86D0-D367068EAA35}.company",
       "source": "近畿日本鉄道",
-      "translation": ""
+      "translation": "Kinki Nippon Railway"
     },
     {
       "key": "contribution.{43F6F375-0F31-41F1-86D0-D367068EAA35}.type",
       "source": "12400系",
-      "translation": ""
+      "translation": "12400 Series"
     },
     {
       "key": "contribution.{0845A7E9-7E6D-48C1-BA93-89BB1E5A4F1A}.company",
       "source": "近畿日本鉄道",
-      "translation": ""
+      "translation": "Kinki Nippon Railway"
     },
     {
       "key": "contribution.{0845A7E9-7E6D-48C1-BA93-89BB1E5A4F1A}.type",
       "source": "22000系",
-      "translation": ""
+      "translation": "22000 Series"
     }
   ]
 }

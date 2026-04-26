@@ -6,112 +6,112 @@
     {
       "key": "plugin.title",
       "source": "HIMA道路アクセサリ",
-      "translation": ""
+      "translation": "HIMA Road Accessories"
     },
     {
       "key": "contribution.{0405292252}qw354361.name",
       "source": "バス停赤屋無A",
-      "translation": ""
+      "translation": "Bus stop red roof no A"
     },
     {
       "key": "contribution.{0405292252}qw354362.name",
       "source": "バス停赤屋無B",
-      "translation": ""
+      "translation": "Bus stop red roof no B"
     },
     {
       "key": "contribution.{0405292252}qw354363.name",
       "source": "バス停赤屋無C",
-      "translation": ""
+      "translation": "Bus stop red roof no C"
     },
     {
       "key": "contribution.{0405292252}qw354365.name",
       "source": "バス停青屋無A",
-      "translation": ""
+      "translation": "Bus stop blue roof no A"
     },
     {
       "key": "contribution.{0405292252}qw3543562.name",
       "source": "バス停青屋無B",
-      "translation": ""
+      "translation": "Bus stop blue roof no B"
     },
     {
       "key": "contribution.{0405292252}qw3543563.name",
       "source": "バス停青屋無C",
-      "translation": ""
+      "translation": "Bus stop blue roof no C"
     },
     {
       "key": "contribution.{0405292252}fdgj354365.name",
       "source": "バス停緑屋無A",
-      "translation": ""
+      "translation": "Bus stop green roof no A"
     },
     {
       "key": "contribution.{0405292252}stj3543562.name",
       "source": "バス停緑屋無B",
-      "translation": ""
+      "translation": "Bus stop green roof no B"
     },
     {
       "key": "contribution.{0405292252}3yt3543563.name",
       "source": "バス停緑屋無C",
-      "translation": ""
+      "translation": "Bus stop green roof no C"
     },
     {
       "key": "contribution.{0405300000}qw3453565.name",
       "source": "バス停赤屋有A",
-      "translation": ""
+      "translation": "Bus stop red roof with A"
     },
     {
       "key": "contribution.{0405300000}qw7848562.name",
       "source": "バス停赤屋有B",
-      "translation": ""
+      "translation": "Bus stop red roof with B"
     },
     {
       "key": "contribution.{0405300000}qw1734563.name",
       "source": "バス停赤屋有C",
-      "translation": ""
+      "translation": "Bus stop red roof with C"
     },
     {
       "key": "contribution.{0405300000}qw3564565.name",
       "source": "バス停青屋有A",
-      "translation": ""
+      "translation": "Bus stop blue roof with A"
     },
     {
       "key": "contribution.{0405300000}qw789662.name",
       "source": "バス停青屋有B",
-      "translation": ""
+      "translation": "Bus stop blue roof with B"
     },
     {
       "key": "contribution.{0405300000}qw153563.name",
       "source": "バス停青屋有C",
-      "translation": ""
+      "translation": "Bus stop blue roof with C"
     },
     {
       "key": "contribution.{0405300000}rtj3564565.name",
       "source": "バス停緑屋有A",
-      "translation": ""
+      "translation": "Bus stop green roof with A"
     },
     {
       "key": "contribution.{0405300000}hgk789662.name",
       "source": "バス停緑屋有B",
-      "translation": ""
+      "translation": "Bus stop green roof with B"
     },
     {
       "key": "contribution.{0405300000}te1545163.name",
       "source": "バス停緑屋有C",
-      "translation": ""
+      "translation": "Bus stop green roof with C"
     },
     {
       "key": "contribution.{0405300059}sshf513.name",
       "source": "屋根01A",
-      "translation": ""
+      "translation": "Roof 01A"
     },
     {
       "key": "contribution.{0405300059}sshf51533.name",
       "source": "屋根01B",
-      "translation": ""
+      "translation": "Roof 01B"
     },
     {
       "key": "contribution.{0405300120}sshf48653.name",
       "source": "屋根02",
-      "translation": ""
+      "translation": "Roof 02"
     }
   ]
 }

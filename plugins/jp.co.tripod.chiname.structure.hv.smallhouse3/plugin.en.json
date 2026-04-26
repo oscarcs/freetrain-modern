@@ -6,67 +6,67 @@
     {
       "key": "plugin.title",
       "source": "半ボクセル住宅",
-      "translation": ""
+      "translation": "Half-voxel house"
     },
     {
       "key": "contribution.{0D38E912-C4E3-48DF-C477-2F9C1D332FFE}-0.name",
       "source": "RC造二階建て",
-      "translation": ""
+      "translation": "RC 2-story Building"
     },
     {
       "key": "contribution.{0D38E912-C4E3-48DF-C477-2F9C1D332FFE}-0.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{0D38E912-C4E3-48DF-C477-2F9C1D332FFE}-1.name",
       "source": "RC造三階建A",
-      "translation": ""
+      "translation": "RC 3-story Building A"
     },
     {
       "key": "contribution.{0D38E912-C4E3-48DF-C477-2F9C1D332FFE}-1.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{0D38E912-C4E3-48DF-C477-2F9C1D332FFE}-4.name",
       "source": "RC造三階建てB",
-      "translation": ""
+      "translation": "RC 3-story Building B"
     },
     {
       "key": "contribution.{0D38E912-C4E3-48DF-C477-2F9C1D332FFE}-4.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{0D38E912-C4E3-48DF-C477-2F9C1D332FFE}-2.name",
       "source": "S造三階建てA",
-      "translation": ""
+      "translation": "Steel 3-story Building A"
     },
     {
       "key": "contribution.{0D38E912-C4E3-48DF-C477-2F9C1D332FFE}-2.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{0D38E912-C4E3-48DF-C477-2F9C1D332FFE}-3.name",
       "source": "S造三階建てB",
-      "translation": ""
+      "translation": "Steel 3-story Building B"
     },
     {
       "key": "contribution.{0D38E912-C4E3-48DF-C477-2F9C1D332FFE}-3.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     },
     {
       "key": "contribution.{0D38E912-C4E3-48DF-C477-2F9C1D332FFE}-5.name",
       "source": "平屋根S造三階建てC",
-      "translation": ""
+      "translation": "Flat Roof Steel Frame Three-Story Building C"
     },
     {
       "key": "contribution.{0D38E912-C4E3-48DF-C477-2F9C1D332FFE}-5.group",
       "source": "半ボクセル建築",
-      "translation": ""
+      "translation": "Half-Voxel Architecture"
     }
   ]
 }

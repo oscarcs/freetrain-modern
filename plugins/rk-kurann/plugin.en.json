@@ -6,22 +6,22 @@
     {
       "key": "plugin.title",
       "source": "港クレーン",
-      "translation": ""
+      "translation": "Port crane"
     },
     {
       "key": "contribution.{rk-FreeTrain-FreightCar-TrainCar-kuren}.name",
       "source": "クレーン",
-      "translation": ""
+      "translation": "Crane"
     },
     {
       "key": "contribution.{rk-FreeTrain-FreightCar-TrainCar-kuren}.company",
       "source": "その他",
-      "translation": ""
+      "translation": "Other"
     },
     {
       "key": "contribution.{rk-FreeTrain-FreightCar-TrainCar-kuren}.type",
       "source": "港クレーン",
-      "translation": ""
+      "translation": "Port crane"
     }
   ]
 }

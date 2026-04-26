@@ -6,117 +6,117 @@
     {
       "key": "plugin.title",
       "source": "JR東海車両セット",
-      "translation": ""
+      "translation": "JR Central Rolling Stock Set"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0B1FD3131600}.name",
       "source": "東海色",
-      "translation": ""
+      "translation": "Tōkai color"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0B1FD3131600}.company",
       "source": "JR東海",
-      "translation": ""
+      "translation": "JR Central"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0B1FD3131600}.type",
       "source": "313系1600番台",
-      "translation": ""
+      "translation": "313 Series 1600 series"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0B1FD3131600}.description",
       "source": "JR東海によって1998年から投入が開始された近郊型車両です。",
-      "translation": ""
+      "translation": "A suburban type rolling stock introduced by JR Central starting in 1998."
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0B1FD3138000}.name",
       "source": "東海色",
-      "translation": ""
+      "translation": "Tōkai color"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0B1FD3138000}.company",
       "source": "JR東海",
-      "translation": ""
+      "translation": "JR Central"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0B1FD3138000}.type",
       "source": "313系8000番台",
-      "translation": ""
+      "translation": "313 Series 8000 subseries"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0B1FD3138000}.description",
       "source": "JR東海によって1999年から投入が開始された近郊型車両です。",
-      "translation": ""
+      "translation": "A suburban type rolling stock introduced by JR Central starting in 1999."
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0B1FD3730000}.company",
       "source": "JR東海",
-      "translation": ""
+      "translation": "JR Central"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0B1FD3730000}.type",
       "source": "373系",
-      "translation": ""
+      "translation": "373 Series"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0B1FD3730000}.description",
       "source": "JR東海によって1995年から投入が開始された特急型車両です。",
-      "translation": ""
+      "translation": "A limited express type rolling stock introduced by JR Central starting in 1995."
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0B1FD3830000}.company",
       "source": "JR東海",
-      "translation": ""
+      "translation": "JR Central"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0B1FD3830000}.type",
       "source": "383系",
-      "translation": ""
+      "translation": "383 Series"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0B1FD3830000}.description",
       "source": "JR東海によって1996年から投入が開始された特急型車両です。",
-      "translation": ""
+      "translation": "A limited express type rolling stock introduced by JR Central starting in 1996."
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1BD000DC48}.name",
       "source": "東海色",
-      "translation": ""
+      "translation": "Tōkai color"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1BD000DC48}.company",
       "source": "JR東海",
-      "translation": ""
+      "translation": "JR Central"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1BD000DC48}.type",
       "source": "キハ48形",
-      "translation": ""
+      "translation": "Kiha 48 Series"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1BD000DC48}.description",
       "source": "JR東海の非電化区間で力走するキハ48形です。",
-      "translation": ""
+      "translation": "This is the Kiha 48 Series running powerfully in JR Central's non-electrified sections."
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1BD000DC65}.name",
       "source": "東海色",
-      "translation": ""
+      "translation": "Tōkai color"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1BD000DC65}.company",
       "source": "JR東海",
-      "translation": ""
+      "translation": "JR Central"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1BD000DC65}.type",
       "source": "キハ65形",
-      "translation": ""
+      "translation": "Kiha 65 type"
     },
     {
       "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1BD000DC65}.description",
       "source": "JR東海の非電化区間で走行するキハ65形です。",
-      "translation": ""
+      "translation": "The Kiha 65 Series, operating on JR Central's non-electrified sections."
     }
   ]
 }

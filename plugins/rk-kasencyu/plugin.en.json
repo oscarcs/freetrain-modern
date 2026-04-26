@@ -6,82 +6,82 @@
     {
       "key": "plugin.title",
       "source": "架線柱",
-      "translation": ""
+      "translation": "Catenary Pole"
     },
     {
       "key": "contribution.{rk-kasen-0001}.name",
       "source": "パイプ型01単線",
-      "translation": ""
+      "translation": "Pipe type 01 single track"
     },
     {
       "key": "contribution.{rk-kasen-0002}.name",
       "source": "パイプ型01中央",
-      "translation": ""
+      "translation": "Pipe type 01 center"
     },
     {
       "key": "contribution.{rk-kasen-0003}.name",
       "source": "パイプ型01",
-      "translation": ""
+      "translation": "Pipe Type 01"
     },
     {
       "key": "contribution.{rk-kasen-0004}.name",
       "source": "パイプ型01",
-      "translation": ""
+      "translation": "Pipe Type 01"
     },
     {
       "key": "contribution.{rk-kasen-0005}.name",
       "source": "パイプ型単線02単線",
-      "translation": ""
+      "translation": "Pipe type single track 02 single track"
     },
     {
       "key": "contribution.{rk-kasen-0006}.name",
       "source": "パイプ型単線02中央",
-      "translation": ""
+      "translation": "Pipe type single track 02 center"
     },
     {
       "key": "contribution.{rk-kasen-0007}.name",
       "source": "パイプ型単線02",
-      "translation": ""
+      "translation": "Pipe Type Single Track 02"
     },
     {
       "key": "contribution.{rk-kasen-0008}.name",
       "source": "パイプ型単線02",
-      "translation": ""
+      "translation": "Pipe Type Single Track 02"
     },
     {
       "key": "contribution.{rk-kasen-02a-001-FENCE-PICTURE-2001}.group",
       "source": "架線垂直パイプ",
-      "translation": ""
+      "translation": "Catenary Vertical Pipe"
     },
     {
       "key": "contribution.{rk-kasen-02a-002-FENCE-PICTURE-2001}.group",
       "source": "架線垂直パイプ",
-      "translation": ""
+      "translation": "Catenary Vertical Pipe"
     },
     {
       "key": "contribution.{rk-kasen-02a-011-FENCE-PICTURE-2001}.group",
       "source": "架線垂直パイプ",
-      "translation": ""
+      "translation": "Catenary Vertical Pipe"
     },
     {
       "key": "contribution.{rk-kasen-02a-012-FENCE-PICTURE-2001}.group",
       "source": "架線垂直パイプ",
-      "translation": ""
+      "translation": "Catenary Vertical Pipe"
     },
     {
       "key": "contribution.{rk-kasen-02a-013-FENCE-PICTURE-2001}.group",
       "source": "架線垂直パイプ",
-      "translation": ""
+      "translation": "Catenary Vertical Pipe"
     },
     {
       "key": "contribution.{rk-kasen-02a-0014-FENCE-PICTURE-2001}.group",
       "source": "架線垂直パイプ",
-      "translation": ""
+      "translation": "Catenary Vertical Pipe"
     },
     {
       "key": "contribution.{rk-kasen-02a-0015-FENCE-PICTURE-2001}.group",
       "source": "架線垂直パイプ",
-      "translation": ""
+      "translation": "Catenary Vertical Pipe"
     }
   ]
 }

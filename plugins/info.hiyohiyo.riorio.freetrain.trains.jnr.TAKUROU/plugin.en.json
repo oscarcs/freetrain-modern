@@ -6,27 +6,27 @@
     {
       "key": "plugin.title",
       "source": "列車セット",
-      "translation": ""
+      "translation": "Train Set"
     },
     {
       "key": "contribution.{FreeTrain-riorio-TAKUROURailroadTrain-ECJ157}.name",
       "source": "皇室列車編成",
-      "translation": ""
+      "translation": "Imperial Train Formation"
     },
     {
       "key": "contribution.{FreeTrain-riorio-TAKUROURailroadTrain-ECJ157}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-riorio-TAKUROURailroadTrain-ECJ157}.type",
       "source": "157系",
-      "translation": ""
+      "translation": "157 Series"
     },
     {
       "key": "contribution.{FreeTrain-riorio-TAKUROURailroadTrain-ECJ157}.description",
       "source": "157系は今でいうところのリゾートＥｘｐｒｅｓｓとして首都圏を中心に運転されるとともに、\nご静養などで那須や伊豆の御用邸へ往復される際のお召列車としても活躍。\nお召列車ではクロ157を中央に挟んだ５両編成で運転された。\n最後まで残ったお召し列車編成も183系に譲って、昭和57年に廃車となった。",
-      "translation": ""
+      "translation": "The 157 Series operated mainly in the Tokyo metropolitan area as what would now be called a Resort Express, and also served as an Imperial Train for round trips to Imperial villas in Nasu and Izu for recuperation. As an Imperial Train, it operated in a 5-car formation with KuRo 157 in the center. The last remaining Imperial Train formation was replaced by the 183 Series and retired in Showa 57 (1982)."
     }
   ]
 }

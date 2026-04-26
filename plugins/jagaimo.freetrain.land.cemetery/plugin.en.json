@@ -6,47 +6,47 @@
     {
       "key": "plugin.title",
       "source": "墓地",
-      "translation": ""
+      "translation": "Cemetery"
     },
     {
       "key": "contribution.{jagaimo-freetrain-land-cemetery}-1,1.name",
       "source": "墓地1-1",
-      "translation": ""
+      "translation": "Cemetery 1-1"
     },
     {
       "key": "contribution.{jagaimo-freetrain-land-cemetery}-1,1.group",
       "source": "墓地",
-      "translation": ""
+      "translation": "Cemetery"
     },
     {
       "key": "contribution.{jagaimo-freetrain-land-cemetery}-1,2.name",
       "source": "墓地1-2",
-      "translation": ""
+      "translation": "Cemetery 1-2"
     },
     {
       "key": "contribution.{jagaimo-freetrain-land-cemetery}-1,2.group",
       "source": "墓地",
-      "translation": ""
+      "translation": "Cemetery"
     },
     {
       "key": "contribution.{jagaimo-freetrain-land-cemetery}-1,3.name",
       "source": "墓地1-3",
-      "translation": ""
+      "translation": "Cemetery 1-3"
     },
     {
       "key": "contribution.{jagaimo-freetrain-land-cemetery}-1,3.group",
       "source": "墓地",
-      "translation": ""
+      "translation": "Cemetery"
     },
     {
       "key": "contribution.{jagaimo-freetrain-land-cemetery}-1,4.name",
       "source": "墓地1-4",
-      "translation": ""
+      "translation": "Cemetery 1-4"
     },
     {
       "key": "contribution.{jagaimo-freetrain-land-cemetery}-1,4.group",
       "source": "墓地",
-      "translation": ""
+      "translation": "Cemetery"
     }
   ]
 }

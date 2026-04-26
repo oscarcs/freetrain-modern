@@ -6,1947 +6,1947 @@
     {
       "key": "plugin.title",
       "source": "FreeTrainExAVer用資材(地表・柵)",
-      "translation": ""
+      "translation": "FreeTrainExAVer Materials (Ground / Fences)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-1001}.name",
       "source": "枕木柵",
-      "translation": ""
+      "translation": "Sleeper fence"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-1001}.group",
       "source": "柵",
-      "translation": ""
+      "translation": "Fence"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-1002}.name",
       "source": "落石防護柵A",
-      "translation": ""
+      "translation": "Rockfall protection fence A"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-1002}.group",
       "source": "柵(落石防護)",
-      "translation": ""
+      "translation": "Fence (rockfall protection)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-1003}.name",
       "source": "落石防護柵B",
-      "translation": ""
+      "translation": "Rockfall protection fence B"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-1003}.group",
       "source": "柵(落石防護)",
-      "translation": ""
+      "translation": "Fence (rockfall protection)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-1004}.name",
       "source": "落石防護柵C",
-      "translation": ""
+      "translation": "Rockfall protection fence C"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-1004}.group",
       "source": "柵(落石防護)",
-      "translation": ""
+      "translation": "Fence (rockfall protection)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-1005}.name",
       "source": "落石防護柵D",
-      "translation": ""
+      "translation": "Rockfall protection fence D"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-1005}.group",
       "source": "柵(落石防護)",
-      "translation": ""
+      "translation": "Fence (rockfall protection)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-10051}.name",
       "source": "落石防護柵E",
-      "translation": ""
+      "translation": "Rockfall protection fence E"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-10051}.group",
       "source": "柵(落石防護)",
-      "translation": ""
+      "translation": "Fence (rockfall protection)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-10052}.name",
       "source": "ロックシェッドA",
-      "translation": ""
+      "translation": "Rock Shed A"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-10052}.group",
       "source": "柵(落石防護)",
-      "translation": ""
+      "translation": "Fence (rockfall protection)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-10053}.name",
       "source": "ロックシェッドAx",
-      "translation": ""
+      "translation": "Rock Shed Ax"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-10053}.group",
       "source": "柵(落石防護)",
-      "translation": ""
+      "translation": "Fence (rockfall protection)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-10054}.name",
       "source": "ロックシェッドAy",
-      "translation": ""
+      "translation": "Rock Shed Ay"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-10054}.group",
       "source": "柵(落石防護)",
-      "translation": ""
+      "translation": "Fence (rockfall protection)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-10055}.name",
       "source": "ロックシェッドB",
-      "translation": ""
+      "translation": "Rock Shed B"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-10055}.group",
       "source": "柵(落石防護)",
-      "translation": ""
+      "translation": "Fence (rockfall protection)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-10056}.name",
       "source": "ロックシェッドBx",
-      "translation": ""
+      "translation": "Rock Shed Bx"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-10056}.group",
       "source": "柵(落石防護)",
-      "translation": ""
+      "translation": "Fence (rockfall protection)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-10057}.name",
       "source": "ロックシェッドBy",
-      "translation": ""
+      "translation": "Rock Shed By"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-10057}.group",
       "source": "柵(落石防護)",
-      "translation": ""
+      "translation": "Fence (rockfall protection)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-1006}.name",
       "source": "岸壁用車止めA",
-      "translation": ""
+      "translation": "Quay Buffer Stop A"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-1006}.group",
       "source": "柵(岸壁用)",
-      "translation": ""
+      "translation": "Fence (for quay)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-1007}.name",
       "source": "岸壁用車止めB",
-      "translation": ""
+      "translation": "Quay Buffer Stop B"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-1007}.group",
       "source": "柵(岸壁用)",
-      "translation": ""
+      "translation": "Fence (for quay)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-1008}.name",
       "source": "雪崩防止柵A",
-      "translation": ""
+      "translation": "Avalanche Prevention Fence A"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-1008}.group",
       "source": "柵(雪崩防止)",
-      "translation": ""
+      "translation": "Fence (Avalanche Prevention)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-10081}.name",
       "source": "雪崩防止柵B",
-      "translation": ""
+      "translation": "Avalanche Prevention Fence B"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-10081}.group",
       "source": "柵(雪崩防止)",
-      "translation": ""
+      "translation": "Fence (Avalanche Prevention)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-10082}.name",
       "source": "雪崩防止柵X",
-      "translation": ""
+      "translation": "Avalanche Prevention Fence X"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-10082}.group",
       "source": "柵(雪崩防止)",
-      "translation": ""
+      "translation": "Fence (Avalanche Prevention)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-10083}.name",
       "source": "雪崩防止柵Y",
-      "translation": ""
+      "translation": "Avalanche Prevention Fence Y"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-10083}.group",
       "source": "柵(雪崩防止)",
-      "translation": ""
+      "translation": "Fence (Avalanche Prevention)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-1009}.name",
       "source": "防雪柵",
-      "translation": ""
+      "translation": "Snow fence"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-1009}.group",
       "source": "柵(防雪)",
-      "translation": ""
+      "translation": "Fence (Snow Protection)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0021}.name",
       "source": "柵w0-1a",
-      "translation": ""
+      "translation": "Fence w0-1a"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0021}.group",
       "source": "柵(勾配用)",
-      "translation": ""
+      "translation": "Fence (for Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0022}.name",
       "source": "柵w1-2a",
-      "translation": ""
+      "translation": "Fence w1-2a"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0022}.group",
       "source": "柵(勾配用)",
-      "translation": ""
+      "translation": "Fence (for Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0023}.name",
       "source": "柵w2-3a",
-      "translation": ""
+      "translation": "Fence w2-3a"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0023}.group",
       "source": "柵(勾配用)",
-      "translation": ""
+      "translation": "Fence (for Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0024}.name",
       "source": "柵w3-4a",
-      "translation": ""
+      "translation": "Fence w3-4a"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0024}.group",
       "source": "柵(勾配用)",
-      "translation": ""
+      "translation": "Fence (for Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0025}.name",
       "source": "柵w0-1b",
-      "translation": ""
+      "translation": "Fence w0-1b"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0025}.group",
       "source": "柵(勾配用)",
-      "translation": ""
+      "translation": "Fence (for Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0026}.name",
       "source": "柵w1-2b",
-      "translation": ""
+      "translation": "Fence w1-2b"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0026}.group",
       "source": "柵(勾配用)",
-      "translation": ""
+      "translation": "Fence (for Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0027}.name",
       "source": "柵w2-3b",
-      "translation": ""
+      "translation": "Fence w2-3b"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0027}.group",
       "source": "柵(勾配用)",
-      "translation": ""
+      "translation": "Fence (for Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0028}.name",
       "source": "柵w3-4b",
-      "translation": ""
+      "translation": "Fence w3-4b"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0028}.group",
       "source": "柵(勾配用)",
-      "translation": ""
+      "translation": "Fence (for Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0031}.name",
       "source": "柵g0-1a",
-      "translation": ""
+      "translation": "Fence g0-1a"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0031}.group",
       "source": "柵(勾配用)",
-      "translation": ""
+      "translation": "Fence (for Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0032}.name",
       "source": "柵g1-2a",
-      "translation": ""
+      "translation": "Fence g1-2a"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0032}.group",
       "source": "柵(勾配用)",
-      "translation": ""
+      "translation": "Fence (for Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0033}.name",
       "source": "柵g2-3a",
-      "translation": ""
+      "translation": "Fence g2-3a"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0033}.group",
       "source": "柵(勾配用)",
-      "translation": ""
+      "translation": "Fence (for Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0034}.name",
       "source": "柵g3-4a",
-      "translation": ""
+      "translation": "Fence g3-4a"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0034}.group",
       "source": "柵(勾配用)",
-      "translation": ""
+      "translation": "Fence (for Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0035}.name",
       "source": "柵g0-1b",
-      "translation": ""
+      "translation": "Fence g0-1b"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0035}.group",
       "source": "柵(勾配用)",
-      "translation": ""
+      "translation": "Fence (for Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0036}.name",
       "source": "柵g1-2b",
-      "translation": ""
+      "translation": "Fence g1-2b"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0036}.group",
       "source": "柵(勾配用)",
-      "translation": ""
+      "translation": "Fence (for Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0037}.name",
       "source": "柵g2-3b",
-      "translation": ""
+      "translation": "Fence g2-3b"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0037}.group",
       "source": "柵(勾配用)",
-      "translation": ""
+      "translation": "Fence (for Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0038}.name",
       "source": "柵g3-4b",
-      "translation": ""
+      "translation": "Fence g3-4b"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0038}.group",
       "source": "柵(勾配用)",
-      "translation": ""
+      "translation": "Fence (for Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0001}.name",
       "source": "コンクリ塀0-1a",
-      "translation": ""
+      "translation": "Concrete fence 0-1a"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0001}.group",
       "source": "柵(勾配用)",
-      "translation": ""
+      "translation": "Fence (for Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0002}.name",
       "source": "コンクリ塀1-2a",
-      "translation": ""
+      "translation": "Concrete fence 1-2a"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0002}.group",
       "source": "柵(勾配用)",
-      "translation": ""
+      "translation": "Fence (for Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0003}.name",
       "source": "コンクリ塀2-3a",
-      "translation": ""
+      "translation": "Concrete fence 2-3a"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0003}.group",
       "source": "柵(勾配用)",
-      "translation": ""
+      "translation": "Fence (for Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0004}.name",
       "source": "コンクリ塀3-4a",
-      "translation": ""
+      "translation": "Concrete fence 3-4a"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0004}.group",
       "source": "柵(勾配用)",
-      "translation": ""
+      "translation": "Fence (for Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0005}.name",
       "source": "コンクリ塀0-1b",
-      "translation": ""
+      "translation": "Concrete fence 0-1b"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0005}.group",
       "source": "柵(勾配用)",
-      "translation": ""
+      "translation": "Fence (for Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0006}.name",
       "source": "コンクリ塀1-2b",
-      "translation": ""
+      "translation": "Concrete fence 1-2b"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0006}.group",
       "source": "柵(勾配用)",
-      "translation": ""
+      "translation": "Fence (for Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0007}.name",
       "source": "コンクリ塀2-3b",
-      "translation": ""
+      "translation": "Concrete fence 2-3b"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0007}.group",
       "source": "柵(勾配用)",
-      "translation": ""
+      "translation": "Fence (for Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0008}.name",
       "source": "コンクリ塀3-4b",
-      "translation": ""
+      "translation": "Concrete fence 3-4b"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0008}.group",
       "source": "柵(勾配用)",
-      "translation": ""
+      "translation": "Fence (for Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0011}.name",
       "source": "ブロック塀0-1a",
-      "translation": ""
+      "translation": "Block wall 0-1a"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0011}.group",
       "source": "柵(勾配用)",
-      "translation": ""
+      "translation": "Fence (for Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0012}.name",
       "source": "ブロック塀1-2a",
-      "translation": ""
+      "translation": "Concrete Block Wall 1-2a"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0012}.group",
       "source": "柵(勾配用)",
-      "translation": ""
+      "translation": "Fence (for Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0013}.name",
       "source": "ブロック塀2-3a",
-      "translation": ""
+      "translation": "Concrete Block Wall 2-3a"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0013}.group",
       "source": "柵(勾配用)",
-      "translation": ""
+      "translation": "Fence (for Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0014}.name",
       "source": "ブロック塀3-4a",
-      "translation": ""
+      "translation": "Concrete Block Wall 3-4a"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0014}.group",
       "source": "柵(勾配用)",
-      "translation": ""
+      "translation": "Fence (for Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0015}.name",
       "source": "ブロック塀0-1b",
-      "translation": ""
+      "translation": "Block wall 0-1b"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0015}.group",
       "source": "柵(勾配用)",
-      "translation": ""
+      "translation": "Fence (for Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0016}.name",
       "source": "ブロック塀1-2b",
-      "translation": ""
+      "translation": "Concrete Block Wall 1-2b"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0016}.group",
       "source": "柵(勾配用)",
-      "translation": ""
+      "translation": "Fence (for Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0017}.name",
       "source": "ブロック塀2-3b",
-      "translation": ""
+      "translation": "Concrete Block Wall 2-3b"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0017}.group",
       "source": "柵(勾配用)",
-      "translation": ""
+      "translation": "Fence (for Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0018}.name",
       "source": "ブロック塀3-4b",
-      "translation": ""
+      "translation": "Concrete Block Wall 3-4b"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0018}.group",
       "source": "柵(勾配用)",
-      "translation": ""
+      "translation": "Fence (for Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0221}.name",
       "source": "柵w0-2a",
-      "translation": ""
+      "translation": "Fence w0-2a"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0221}.group",
       "source": "柵(急勾配用)",
-      "translation": ""
+      "translation": "Fence (for Steep Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0222}.name",
       "source": "柵w1-3a",
-      "translation": ""
+      "translation": "Fence w1-3a"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0222}.group",
       "source": "柵(急勾配用)",
-      "translation": ""
+      "translation": "Fence (for Steep Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0223}.name",
       "source": "柵w2-4a",
-      "translation": ""
+      "translation": "Fence w2-4a"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0223}.group",
       "source": "柵(急勾配用)",
-      "translation": ""
+      "translation": "Fence (for Steep Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0224}.name",
       "source": "柵w0-2b",
-      "translation": ""
+      "translation": "Fence w0-2b"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0224}.group",
       "source": "柵(急勾配用)",
-      "translation": ""
+      "translation": "Fence (for Steep Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0225}.name",
       "source": "柵w1-3b",
-      "translation": ""
+      "translation": "Fence w1-3b"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0225}.group",
       "source": "柵(急勾配用)",
-      "translation": ""
+      "translation": "Fence (for Steep Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0226}.name",
       "source": "柵w2-4b",
-      "translation": ""
+      "translation": "Fence w2-4b"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0226}.group",
       "source": "柵(急勾配用)",
-      "translation": ""
+      "translation": "Fence (for Steep Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0231}.name",
       "source": "柵g0-2a",
-      "translation": ""
+      "translation": "Fence g0-2a"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0231}.group",
       "source": "柵(急勾配用)",
-      "translation": ""
+      "translation": "Fence (for Steep Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0232}.name",
       "source": "柵g1-3a",
-      "translation": ""
+      "translation": "Fence g1-3a"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0232}.group",
       "source": "柵(急勾配用)",
-      "translation": ""
+      "translation": "Fence (for Steep Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0233}.name",
       "source": "柵g2-4a",
-      "translation": ""
+      "translation": "Fence g2-4a"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0233}.group",
       "source": "柵(急勾配用)",
-      "translation": ""
+      "translation": "Fence (for Steep Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0234}.name",
       "source": "柵g0-2b",
-      "translation": ""
+      "translation": "Fence g0-2b"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0234}.group",
       "source": "柵(急勾配用)",
-      "translation": ""
+      "translation": "Fence (for Steep Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0235}.name",
       "source": "柵g1-3b",
-      "translation": ""
+      "translation": "Fence g1-3b"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0235}.group",
       "source": "柵(急勾配用)",
-      "translation": ""
+      "translation": "Fence (for Steep Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0236}.name",
       "source": "柵g2-4b",
-      "translation": ""
+      "translation": "Fence g2-4b"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0236}.group",
       "source": "柵(急勾配用)",
-      "translation": ""
+      "translation": "Fence (for Steep Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0201}.name",
       "source": "コンクリ塀0-2a",
-      "translation": ""
+      "translation": "Concrete fence 0-2a"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0201}.group",
       "source": "柵(急勾配用)",
-      "translation": ""
+      "translation": "Fence (for Steep Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0202}.name",
       "source": "コンクリ塀1-3a",
-      "translation": ""
+      "translation": "Concrete fence 1-3a"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0202}.group",
       "source": "柵(急勾配用)",
-      "translation": ""
+      "translation": "Fence (for Steep Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0203}.name",
       "source": "コンクリ塀2-4a",
-      "translation": ""
+      "translation": "Concrete fence 2-4a"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0203}.group",
       "source": "柵(急勾配用)",
-      "translation": ""
+      "translation": "Fence (for Steep Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0204}.name",
       "source": "コンクリ塀0-2b",
-      "translation": ""
+      "translation": "Concrete fence 0-2b"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0204}.group",
       "source": "柵(急勾配用)",
-      "translation": ""
+      "translation": "Fence (for Steep Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0205}.name",
       "source": "コンクリ塀1-3b",
-      "translation": ""
+      "translation": "Concrete fence 1-3b"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0205}.group",
       "source": "柵(急勾配用)",
-      "translation": ""
+      "translation": "Fence (for Steep Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0206}.name",
       "source": "コンクリ塀2-4b",
-      "translation": ""
+      "translation": "Concrete fence 2-4b"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0206}.group",
       "source": "柵(急勾配用)",
-      "translation": ""
+      "translation": "Fence (for Steep Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0211}.name",
       "source": "ブロック塀0-2a",
-      "translation": ""
+      "translation": "Block wall 0-2a"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0211}.group",
       "source": "柵(急勾配用)",
-      "translation": ""
+      "translation": "Fence (for Steep Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0212}.name",
       "source": "ブロック塀1-3a",
-      "translation": ""
+      "translation": "Concrete Block Wall 1-3a"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0212}.group",
       "source": "柵(急勾配用)",
-      "translation": ""
+      "translation": "Fence (for Steep Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0213}.name",
       "source": "ブロック塀2-4a",
-      "translation": ""
+      "translation": "Concrete Block Wall 2-4a"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0213}.group",
       "source": "柵(急勾配用)",
-      "translation": ""
+      "translation": "Fence (for Steep Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0214}.name",
       "source": "ブロック塀0-2b",
-      "translation": ""
+      "translation": "Block wall 0-2b"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0214}.group",
       "source": "柵(急勾配用)",
-      "translation": ""
+      "translation": "Fence (for Steep Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0215}.name",
       "source": "ブロック塀1-3b",
-      "translation": ""
+      "translation": "Concrete Block Wall 1-3b"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0215}.group",
       "source": "柵(急勾配用)",
-      "translation": ""
+      "translation": "Fence (for Steep Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0216}.name",
       "source": "ブロック塀2-4b",
-      "translation": ""
+      "translation": "Concrete Block Wall 2-4b"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0216}.group",
       "source": "柵(急勾配用)",
-      "translation": ""
+      "translation": "Fence (for Steep Slopes)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0101}.name",
       "source": "コンクリ擁壁0-1a",
-      "translation": ""
+      "translation": "Concrete retaining wall 0-1a"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0101}.group",
       "source": "柵(勾配擁壁用)",
-      "translation": ""
+      "translation": "Fence (for sloped retaining wall)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0102}.name",
       "source": "コンクリ擁壁1-2a",
-      "translation": ""
+      "translation": "Concrete retaining wall 1-2a"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0102}.group",
       "source": "柵(勾配擁壁用)",
-      "translation": ""
+      "translation": "Fence (for sloped retaining wall)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0103}.name",
       "source": "コンクリ擁壁2-3a",
-      "translation": ""
+      "translation": "Concrete retaining wall 2-3a"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0103}.group",
       "source": "柵(勾配擁壁用)",
-      "translation": ""
+      "translation": "Fence (for sloped retaining wall)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0104}.name",
       "source": "コンクリ擁壁3-4a",
-      "translation": ""
+      "translation": "Concrete retaining wall 3-4a"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0104}.group",
       "source": "柵(勾配擁壁用)",
-      "translation": ""
+      "translation": "Fence (for sloped retaining wall)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0105}.name",
       "source": "コンクリ擁壁0-1b",
-      "translation": ""
+      "translation": "Concrete retaining wall 0-1b"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0105}.group",
       "source": "柵(勾配擁壁用)",
-      "translation": ""
+      "translation": "Fence (for sloped retaining wall)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0106}.name",
       "source": "コンクリ擁壁1-2b",
-      "translation": ""
+      "translation": "Concrete retaining wall 1-2b"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0106}.group",
       "source": "柵(勾配擁壁用)",
-      "translation": ""
+      "translation": "Fence (for sloped retaining wall)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0107}.name",
       "source": "コンクリ擁壁2-3b",
-      "translation": ""
+      "translation": "Concrete retaining wall 2-3b"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0107}.group",
       "source": "柵(勾配擁壁用)",
-      "translation": ""
+      "translation": "Fence (for sloped retaining wall)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0108}.name",
       "source": "コンクリ擁壁3-4b",
-      "translation": ""
+      "translation": "Concrete retaining wall 3-4b"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0108}.group",
       "source": "柵(勾配擁壁用)",
-      "translation": ""
+      "translation": "Fence (for sloped retaining wall)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0109}.name",
       "source": "コンクリ擁壁4-4",
-      "translation": ""
+      "translation": "Concrete retaining wall 4-4"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0109}.group",
       "source": "柵(勾配擁壁用)",
-      "translation": ""
+      "translation": "Fence (for sloped retaining wall)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0110}.name",
       "source": "コンクリ擁壁a",
-      "translation": ""
+      "translation": "Concrete retaining wall a"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0110}.group",
       "source": "柵(擁壁)",
-      "translation": ""
+      "translation": "Fence (retaining wall)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0111}.name",
       "source": "コンクリ擁壁b",
-      "translation": ""
+      "translation": "Concrete retaining wall b"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0111}.group",
       "source": "柵(擁壁)",
-      "translation": ""
+      "translation": "Fence (retaining wall)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0112}.name",
       "source": "コンクリ擁壁c",
-      "translation": ""
+      "translation": "Concrete retaining wall c"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0112}.group",
       "source": "柵(擁壁)",
-      "translation": ""
+      "translation": "Fence (retaining wall)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0113}.name",
       "source": "コンクリ擁壁d",
-      "translation": ""
+      "translation": "Concrete retaining wall d"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0113}.group",
       "source": "柵(擁壁)",
-      "translation": ""
+      "translation": "Fence (retaining wall)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0114}.name",
       "source": "コンクリ擁壁e",
-      "translation": ""
+      "translation": "Concrete retaining wall e"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0114}.group",
       "source": "柵(擁壁)",
-      "translation": ""
+      "translation": "Fence (retaining wall)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0115}.name",
       "source": "コンクリ擁壁f",
-      "translation": ""
+      "translation": "Concrete retaining wall f"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0115}.group",
       "source": "柵(擁壁)",
-      "translation": ""
+      "translation": "Fence (retaining wall)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0116}.name",
       "source": "コンクリ擁壁g",
-      "translation": ""
+      "translation": "Concrete retaining wall g"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0116}.group",
       "source": "柵(擁壁)",
-      "translation": ""
+      "translation": "Fence (retaining wall)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0117}.name",
       "source": "コンクリ擁壁h",
-      "translation": ""
+      "translation": "Concrete retaining wall h"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0117}.group",
       "source": "柵(擁壁)",
-      "translation": ""
+      "translation": "Fence (retaining wall)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0520}.name",
       "source": "柵w0-0",
-      "translation": ""
+      "translation": "Fence w0-0"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0520}.group",
       "source": "柵(勾配B用)",
-      "translation": ""
+      "translation": "Fence (for Slope B)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0521}.name",
       "source": "柵w1-1",
-      "translation": ""
+      "translation": "Fence w1-1"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0521}.group",
       "source": "柵(勾配B用)",
-      "translation": ""
+      "translation": "Fence (for Slope B)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0522}.name",
       "source": "柵w2-2",
-      "translation": ""
+      "translation": "Fence w2-2"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0522}.group",
       "source": "柵(勾配B用)",
-      "translation": ""
+      "translation": "Fence (for Slope B)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0523}.name",
       "source": "柵w3-3",
-      "translation": ""
+      "translation": "Fence w3-3"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0523}.group",
       "source": "柵(勾配B用)",
-      "translation": ""
+      "translation": "Fence (for Slope B)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0530}.name",
       "source": "柵g0-0",
-      "translation": ""
+      "translation": "Fence g0-0"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0530}.group",
       "source": "柵(勾配B用)",
-      "translation": ""
+      "translation": "Fence (for Slope B)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0531}.name",
       "source": "柵g1-1",
-      "translation": ""
+      "translation": "Fence g1-1"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0531}.group",
       "source": "柵(勾配B用)",
-      "translation": ""
+      "translation": "Fence (for Slope B)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0532}.name",
       "source": "柵g2-2",
-      "translation": ""
+      "translation": "Fence g2-2"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0532}.group",
       "source": "柵(勾配B用)",
-      "translation": ""
+      "translation": "Fence (for Slope B)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0533}.name",
       "source": "柵g3-3",
-      "translation": ""
+      "translation": "Fence g3-3"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0533}.group",
       "source": "柵(勾配B用)",
-      "translation": ""
+      "translation": "Fence (for Slope B)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0500}.name",
       "source": "コンクリ塀0-0",
-      "translation": ""
+      "translation": "Concrete fence 0-0"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0500}.group",
       "source": "柵(勾配B用)",
-      "translation": ""
+      "translation": "Fence (for Slope B)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0501}.name",
       "source": "コンクリ塀1-1",
-      "translation": ""
+      "translation": "Concrete fence 1-1"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0501}.group",
       "source": "柵(勾配B用)",
-      "translation": ""
+      "translation": "Fence (for Slope B)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0502}.name",
       "source": "コンクリ塀2-2",
-      "translation": ""
+      "translation": "Concrete fence 2-2"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0502}.group",
       "source": "柵(勾配B用)",
-      "translation": ""
+      "translation": "Fence (for Slope B)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0503}.name",
       "source": "コンクリ塀3-3",
-      "translation": ""
+      "translation": "Concrete fence 3-3"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0503}.group",
       "source": "柵(勾配B用)",
-      "translation": ""
+      "translation": "Fence (for Slope B)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0510}.name",
       "source": "ブロック塀0-0",
-      "translation": ""
+      "translation": "Block wall 0-0"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0510}.group",
       "source": "柵(勾配B用)",
-      "translation": ""
+      "translation": "Fence (for Slope B)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0511}.name",
       "source": "ブロック塀1-1",
-      "translation": ""
+      "translation": "Block wall 1-1"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0511}.group",
       "source": "柵(勾配B用)",
-      "translation": ""
+      "translation": "Fence (for Slope B)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0512}.name",
       "source": "ブロック塀2-2",
-      "translation": ""
+      "translation": "Concrete Block Wall 2-2"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0512}.group",
       "source": "柵(勾配B用)",
-      "translation": ""
+      "translation": "Fence (for Slope B)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0513}.name",
       "source": "ブロック塀3-3",
-      "translation": ""
+      "translation": "Concrete Block Wall 3-3"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-0513}.group",
       "source": "柵(勾配B用)",
-      "translation": ""
+      "translation": "Fence (for Slope B)"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2001}.name",
       "source": "TN坑口単A",
-      "translation": ""
+      "translation": "TN Tunnel Portal Single A"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2001}.group",
       "source": "トンネル坑口",
-      "translation": ""
+      "translation": "Tunnel Portal"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2002}.name",
       "source": "TN坑口単A'",
-      "translation": ""
+      "translation": "TN Tunnel Portal Single A'"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2002}.group",
       "source": "トンネル坑口",
-      "translation": ""
+      "translation": "Tunnel Portal"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2003}.name",
       "source": "TN坑口単B",
-      "translation": ""
+      "translation": "TN Tunnel Portal Single B"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2003}.group",
       "source": "トンネル坑口",
-      "translation": ""
+      "translation": "Tunnel Portal"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2004}.name",
       "source": "TN坑口単B'",
-      "translation": ""
+      "translation": "TN Tunnel Portal Single B'"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2004}.group",
       "source": "トンネル坑口",
-      "translation": ""
+      "translation": "Tunnel Portal"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2011}.name",
       "source": "TN坑口単C",
-      "translation": ""
+      "translation": "TN Tunnel Portal Single C"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2011}.group",
       "source": "トンネル坑口",
-      "translation": ""
+      "translation": "Tunnel Portal"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2012}.name",
       "source": "TN坑口単Da",
-      "translation": ""
+      "translation": "TN Tunnel Portal Single Da"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2012}.group",
       "source": "トンネル坑口",
-      "translation": ""
+      "translation": "Tunnel Portal"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2013}.name",
       "source": "TN坑口単Da'",
-      "translation": ""
+      "translation": "TN Tunnel Portal Single Da'"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2013}.group",
       "source": "トンネル坑口",
-      "translation": ""
+      "translation": "Tunnel Portal"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2014}.name",
       "source": "TN坑口単Db",
-      "translation": ""
+      "translation": "TN Tunnel Portal Single Db"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2014}.group",
       "source": "トンネル坑口",
-      "translation": ""
+      "translation": "Tunnel Portal"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2101}.name",
       "source": "TN坑口複A左",
-      "translation": ""
+      "translation": "TN Tunnel Portal Double A Left"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2101}.group",
       "source": "トンネル坑口",
-      "translation": ""
+      "translation": "Tunnel Portal"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2102}.name",
       "source": "TN坑口複A'左",
-      "translation": ""
+      "translation": "TN Tunnel Portal Double A' Left"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2102}.group",
       "source": "トンネル坑口",
-      "translation": ""
+      "translation": "Tunnel Portal"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2103}.name",
       "source": "TN坑口複A右",
-      "translation": ""
+      "translation": "TN Tunnel Portal Double A Right"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2103}.group",
       "source": "トンネル坑口",
-      "translation": ""
+      "translation": "Tunnel Portal"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2104}.name",
       "source": "TN坑口複B左",
-      "translation": ""
+      "translation": "TN Tunnel Portal Double B Left"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2104}.group",
       "source": "トンネル坑口",
-      "translation": ""
+      "translation": "Tunnel Portal"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2105}.name",
       "source": "TN坑口複B'左",
-      "translation": ""
+      "translation": "TN Tunnel Portal Double B' Left"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2105}.group",
       "source": "トンネル坑口",
-      "translation": ""
+      "translation": "Tunnel Portal"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2106}.name",
       "source": "TN坑口複B右",
-      "translation": ""
+      "translation": "TN Tunnel Portal Double B Right"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2106}.group",
       "source": "トンネル坑口",
-      "translation": ""
+      "translation": "Tunnel Portal"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2501}.name",
       "source": "TN緩衝工単A",
-      "translation": ""
+      "translation": "TN Buffer Single A"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2501}.group",
       "source": "トンネル緩衝工",
-      "translation": ""
+      "translation": "Tunnel buffer structure"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2502}.name",
       "source": "TN緩衝工複A左",
-      "translation": ""
+      "translation": "TN Buffer Double A Left"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2502}.group",
       "source": "トンネル緩衝工",
-      "translation": ""
+      "translation": "Tunnel buffer structure"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2503}.name",
       "source": "TN緩衝工複A右",
-      "translation": ""
+      "translation": "TN Buffer Double A Right"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-2503}.group",
       "source": "トンネル緩衝工",
-      "translation": ""
+      "translation": "Tunnel buffer structure"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5001}.name",
       "source": "峡谷0-1",
-      "translation": ""
+      "translation": "Canyon 0-1"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5001}.group",
       "source": "峡谷",
-      "translation": ""
+      "translation": "Gorge"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5002}.name",
       "source": "峡谷1-2",
-      "translation": ""
+      "translation": "Canyon 1-2"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5002}.group",
       "source": "峡谷",
-      "translation": ""
+      "translation": "Gorge"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5003}.name",
       "source": "峡谷2-3",
-      "translation": ""
+      "translation": "Canyon 2-3"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5003}.group",
       "source": "峡谷",
-      "translation": ""
+      "translation": "Gorge"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5004}.name",
       "source": "峡谷3-4",
-      "translation": ""
+      "translation": "Canyon 3-4"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5004}.group",
       "source": "峡谷",
-      "translation": ""
+      "translation": "Gorge"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5005}.name",
       "source": "峡谷0-1a1",
-      "translation": ""
+      "translation": "Canyon 0-1a1"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5005}.group",
       "source": "峡谷",
-      "translation": ""
+      "translation": "Gorge"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5006}.name",
       "source": "峡谷1-2a1",
-      "translation": ""
+      "translation": "Canyon 1-2a1"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5006}.group",
       "source": "峡谷",
-      "translation": ""
+      "translation": "Gorge"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5007}.name",
       "source": "峡谷2-3a1",
-      "translation": ""
+      "translation": "Canyon 2-3a1"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5007}.group",
       "source": "峡谷",
-      "translation": ""
+      "translation": "Gorge"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5008}.name",
       "source": "峡谷3-4a1",
-      "translation": ""
+      "translation": "Canyon 3-4a1"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5008}.group",
       "source": "峡谷",
-      "translation": ""
+      "translation": "Gorge"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5009}.name",
       "source": "峡谷0-1b1",
-      "translation": ""
+      "translation": "Canyon 0-1b1"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5009}.group",
       "source": "峡谷",
-      "translation": ""
+      "translation": "Gorge"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5010}.name",
       "source": "峡谷1-2b1",
-      "translation": ""
+      "translation": "Canyon 1-2b1"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5010}.group",
       "source": "峡谷",
-      "translation": ""
+      "translation": "Gorge"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5011}.name",
       "source": "峡谷2-3b1",
-      "translation": ""
+      "translation": "Canyon 2-3b1"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5011}.group",
       "source": "峡谷",
-      "translation": ""
+      "translation": "Gorge"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5012}.name",
       "source": "峡谷3-4b1",
-      "translation": ""
+      "translation": "Canyon 3-4b1"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5012}.group",
       "source": "峡谷",
-      "translation": ""
+      "translation": "Gorge"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5013}.name",
       "source": "峡谷0-2a2",
-      "translation": ""
+      "translation": "Canyon 0-2a2"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5013}.group",
       "source": "峡谷",
-      "translation": ""
+      "translation": "Gorge"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5014}.name",
       "source": "峡谷1-3a2",
-      "translation": ""
+      "translation": "Canyon 1-3a2"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5014}.group",
       "source": "峡谷",
-      "translation": ""
+      "translation": "Gorge"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5015}.name",
       "source": "峡谷2-4a2",
-      "translation": ""
+      "translation": "Canyon 2-4a2"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5015}.group",
       "source": "峡谷",
-      "translation": ""
+      "translation": "Gorge"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5016}.name",
       "source": "峡谷0-2b2",
-      "translation": ""
+      "translation": "Canyon 0-2b2"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5016}.group",
       "source": "峡谷",
-      "translation": ""
+      "translation": "Gorge"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5017}.name",
       "source": "峡谷1-3b2",
-      "translation": ""
+      "translation": "Canyon 1-3b2"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5017}.group",
       "source": "峡谷",
-      "translation": ""
+      "translation": "Gorge"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5018}.name",
       "source": "峡谷2-4b2",
-      "translation": ""
+      "translation": "Canyon 2-4b2"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5018}.group",
       "source": "峡谷",
-      "translation": ""
+      "translation": "Gorge"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5019}.name",
       "source": "峡谷0-3a3",
-      "translation": ""
+      "translation": "Canyon 0-3a3"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5019}.group",
       "source": "峡谷",
-      "translation": ""
+      "translation": "Gorge"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5020}.name",
       "source": "峡谷1-4a3",
-      "translation": ""
+      "translation": "Canyon 1-4a3"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5020}.group",
       "source": "峡谷",
-      "translation": ""
+      "translation": "Gorge"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5021}.name",
       "source": "峡谷0-3b3",
-      "translation": ""
+      "translation": "Canyon 0-3b3"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5021}.group",
       "source": "峡谷",
-      "translation": ""
+      "translation": "Gorge"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5022}.name",
       "source": "峡谷1-4b3",
-      "translation": ""
+      "translation": "Canyon 1-4b3"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5022}.group",
       "source": "峡谷",
-      "translation": ""
+      "translation": "Gorge"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5023}.name",
       "source": "峡谷0-4a4",
-      "translation": ""
+      "translation": "Canyon 0-4a4"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5023}.group",
       "source": "峡谷",
-      "translation": ""
+      "translation": "Gorge"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5024}.name",
       "source": "峡谷0-4b4",
-      "translation": ""
+      "translation": "Canyon 0-4b4"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5024}.group",
       "source": "峡谷",
-      "translation": ""
+      "translation": "Gorge"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5101}.name",
       "source": "渓谷0-1",
-      "translation": ""
+      "translation": "Valley 0-1"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5101}.group",
       "source": "渓谷",
-      "translation": ""
+      "translation": "Valley"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5102}.name",
       "source": "渓谷1-2",
-      "translation": ""
+      "translation": "Valley 1-2"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5102}.group",
       "source": "渓谷",
-      "translation": ""
+      "translation": "Valley"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5103}.name",
       "source": "渓谷2-3",
-      "translation": ""
+      "translation": "Valley 2-3"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5103}.group",
       "source": "渓谷",
-      "translation": ""
+      "translation": "Valley"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5104}.name",
       "source": "渓谷3-4",
-      "translation": ""
+      "translation": "Valley 3-4"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5104}.group",
       "source": "渓谷",
-      "translation": ""
+      "translation": "Valley"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5105}.name",
       "source": "渓谷0-1a1",
-      "translation": ""
+      "translation": "Valley 0-1a1"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5105}.group",
       "source": "渓谷",
-      "translation": ""
+      "translation": "Valley"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5106}.name",
       "source": "渓谷1-2a1",
-      "translation": ""
+      "translation": "Valley 1-2a1"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5106}.group",
       "source": "渓谷",
-      "translation": ""
+      "translation": "Valley"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5107}.name",
       "source": "渓谷2-3a1",
-      "translation": ""
+      "translation": "Valley 2-3a1"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5107}.group",
       "source": "渓谷",
-      "translation": ""
+      "translation": "Valley"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5108}.name",
       "source": "渓谷3-4a1",
-      "translation": ""
+      "translation": "Valley 3-4a1"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5108}.group",
       "source": "渓谷",
-      "translation": ""
+      "translation": "Valley"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5109}.name",
       "source": "渓谷0-1b1",
-      "translation": ""
+      "translation": "Valley 0-1b1"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5109}.group",
       "source": "渓谷",
-      "translation": ""
+      "translation": "Valley"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5110}.name",
       "source": "渓谷1-2b1",
-      "translation": ""
+      "translation": "Valley 1-2b1"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5110}.group",
       "source": "渓谷",
-      "translation": ""
+      "translation": "Valley"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5111}.name",
       "source": "渓谷2-3b1",
-      "translation": ""
+      "translation": "Valley 2-3b1"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5111}.group",
       "source": "渓谷",
-      "translation": ""
+      "translation": "Valley"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5112}.name",
       "source": "渓谷3-4b1",
-      "translation": ""
+      "translation": "Valley 3-4b1"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5112}.group",
       "source": "渓谷",
-      "translation": ""
+      "translation": "Valley"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5113}.name",
       "source": "渓谷0-2a2",
-      "translation": ""
+      "translation": "Valley 0-2a2"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5113}.group",
       "source": "渓谷",
-      "translation": ""
+      "translation": "Valley"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5114}.name",
       "source": "渓谷1-3a2",
-      "translation": ""
+      "translation": "Valley 1-3a2"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5114}.group",
       "source": "渓谷",
-      "translation": ""
+      "translation": "Valley"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5115}.name",
       "source": "渓谷2-4a2",
-      "translation": ""
+      "translation": "Valley 2-4a2"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5115}.group",
       "source": "渓谷",
-      "translation": ""
+      "translation": "Valley"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5116}.name",
       "source": "渓谷0-2b2",
-      "translation": ""
+      "translation": "Valley 0-2b2"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5116}.group",
       "source": "渓谷",
-      "translation": ""
+      "translation": "Valley"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5117}.name",
       "source": "渓谷1-3b2",
-      "translation": ""
+      "translation": "Valley 1-3b2"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5117}.group",
       "source": "渓谷",
-      "translation": ""
+      "translation": "Valley"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5118}.name",
       "source": "渓谷2-4b2",
-      "translation": ""
+      "translation": "Valley 2-4b2"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5118}.group",
       "source": "渓谷",
-      "translation": ""
+      "translation": "Valley"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5119}.name",
       "source": "渓谷0-3a3",
-      "translation": ""
+      "translation": "Valley 0-3a3"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5119}.group",
       "source": "渓谷",
-      "translation": ""
+      "translation": "Valley"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5120}.name",
       "source": "渓谷1-4a3",
-      "translation": ""
+      "translation": "Valley 1-4a3"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5120}.group",
       "source": "渓谷",
-      "translation": ""
+      "translation": "Valley"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5121}.name",
       "source": "渓谷0-3b3",
-      "translation": ""
+      "translation": "Valley 0-3b3"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5121}.group",
       "source": "渓谷",
-      "translation": ""
+      "translation": "Valley"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5122}.name",
       "source": "渓谷1-4b3",
-      "translation": ""
+      "translation": "Valley 1-4b3"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5122}.group",
       "source": "渓谷",
-      "translation": ""
+      "translation": "Valley"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5123}.name",
       "source": "渓谷0-4a4",
-      "translation": ""
+      "translation": "Valley 0-4a4"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5123}.group",
       "source": "渓谷",
-      "translation": ""
+      "translation": "Valley"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5124}.name",
       "source": "渓谷0-4b4",
-      "translation": ""
+      "translation": "Valley 0-4b4"
     },
     {
       "key": "contribution.{HEUER-0001-FENCE-STRUCTURE-5124}.group",
       "source": "渓谷",
-      "translation": ""
+      "translation": "Valley"
     },
     {
       "key": "contribution.{HEUER-0001-WEED-STRUCTURE-00011}.group",
       "source": "雑草",
-      "translation": ""
+      "translation": "Weeds"
     },
     {
       "key": "contribution.{HEUER-0001-WEED-STRUCTURE-00012}.group",
       "source": "雑草",
-      "translation": ""
+      "translation": "Weeds"
     },
     {
       "key": "contribution.{HEUER-0001-WEED-STRUCTURE-0001}.group",
       "source": "雑草",
-      "translation": ""
+      "translation": "Weeds"
     },
     {
       "key": "contribution.{HEUER-0001-WEED-STRUCTURE-00111}.group",
       "source": "雑草",
-      "translation": ""
+      "translation": "Weeds"
     },
     {
       "key": "contribution.{HEUER-0001-WEED-STRUCTURE-00112}.group",
       "source": "雑草",
-      "translation": ""
+      "translation": "Weeds"
     },
     {
       "key": "contribution.{HEUER-0001-WEED-STRUCTURE-0011}.group",
       "source": "雑草",
-      "translation": ""
+      "translation": "Weeds"
     },
     {
       "key": "contribution.{HEUER-0001-WEED-STRUCTURE-00211}.group",
       "source": "雑草",
-      "translation": ""
+      "translation": "Weeds"
     },
     {
       "key": "contribution.{HEUER-0001-WEED-STRUCTURE-00212}.group",
       "source": "雑草",
-      "translation": ""
+      "translation": "Weeds"
     },
     {
       "key": "contribution.{HEUER-0001-WEED-STRUCTURE-0021}.group",
       "source": "雑草",
-      "translation": ""
+      "translation": "Weeds"
     },
     {
       "key": "contribution.{HEUER-0001-WEED-STRUCTURE-00021}.group",
       "source": "雑草(山肌)",
-      "translation": ""
+      "translation": "Weeds (mountain slope)"
     },
     {
       "key": "contribution.{HEUER-0001-WEED-STRUCTURE-00022}.group",
       "source": "雑草(山肌)",
-      "translation": ""
+      "translation": "Weeds (mountain slope)"
     },
     {
       "key": "contribution.{HEUER-0001-WEED-STRUCTURE-0002}.group",
       "source": "雑草(山肌)",
-      "translation": ""
+      "translation": "Weeds (mountain slope)"
     },
     {
       "key": "contribution.{HEUER-0001-WEED-STRUCTURE-00121}.group",
       "source": "雑草(山肌)",
-      "translation": ""
+      "translation": "Weeds (mountain slope)"
     },
     {
       "key": "contribution.{HEUER-0001-WEED-STRUCTURE-00122}.group",
       "source": "雑草(山肌)",
-      "translation": ""
+      "translation": "Weeds (mountain slope)"
     },
     {
       "key": "contribution.{HEUER-0001-WEED-STRUCTURE-0012}.group",
       "source": "雑草(山肌)",
-      "translation": ""
+      "translation": "Weeds (mountain slope)"
     },
     {
       "key": "contribution.{HEUER-0001-WEED-STRUCTURE-00221}.group",
       "source": "雑草(山肌)",
-      "translation": ""
+      "translation": "Weeds (mountain slope)"
     },
     {
       "key": "contribution.{HEUER-0001-WEED-STRUCTURE-00222}.group",
       "source": "雑草(山肌)",
-      "translation": ""
+      "translation": "Weeds (mountain slope)"
     },
     {
       "key": "contribution.{HEUER-0001-WEED-STRUCTURE-0022}.group",
       "source": "雑草(山肌)",
-      "translation": ""
+      "translation": "Weeds (mountain slope)"
     },
     {
       "key": "contribution.{HEUER-0001-WEED-STRUCTURE-00031}.group",
       "source": "雑草(草原)",
-      "translation": ""
+      "translation": "Weeds (grassland)"
     },
     {
       "key": "contribution.{HEUER-0001-WEED-STRUCTURE-00032}.group",
       "source": "雑草(草原)",
-      "translation": ""
+      "translation": "Weeds (grassland)"
     },
     {
       "key": "contribution.{HEUER-0001-WEED-STRUCTURE-0003}.group",
       "source": "雑草(草原)",
-      "translation": ""
+      "translation": "Weeds (grassland)"
     },
     {
       "key": "contribution.{HEUER-0001-WEED-STRUCTURE-00131}.group",
       "source": "雑草(草原)",
-      "translation": ""
+      "translation": "Weeds (grassland)"
     },
     {
       "key": "contribution.{HEUER-0001-WEED-STRUCTURE-00132}.group",
       "source": "雑草(草原)",
-      "translation": ""
+      "translation": "Weeds (grassland)"
     },
     {
       "key": "contribution.{HEUER-0001-WEED-STRUCTURE-0013}.group",
       "source": "雑草(草原)",
-      "translation": ""
+      "translation": "Weeds (grassland)"
     },
     {
       "key": "contribution.{HEUER-0001-WEED-STRUCTURE-00231}.group",
       "source": "雑草(草原)",
-      "translation": ""
+      "translation": "Weeds (grassland)"
     },
     {
       "key": "contribution.{HEUER-0001-WEED-STRUCTURE-00232}.group",
       "source": "雑草(草原)",
-      "translation": ""
+      "translation": "Weeds (grassland)"
     },
     {
       "key": "contribution.{HEUER-0001-WEED-STRUCTURE-0023}.group",
       "source": "雑草(草原)",
-      "translation": ""
+      "translation": "Weeds (grassland)"
     },
     {
       "key": "contribution.{HEUER-0001-WL-STRUCTURE-0101}.group",
       "source": "湿地",
-      "translation": ""
+      "translation": "Wetland"
     },
     {
       "key": "contribution.{HEUER-0001-WL-STRUCTURE-0102}.group",
       "source": "湿地(山肌)",
-      "translation": ""
+      "translation": "Wetland (Mountainside)"
     },
     {
       "key": "contribution.{HEUER-0001-WL-STRUCTURE-0103}.group",
       "source": "湿地(草原)",
-      "translation": ""
+      "translation": "Wetland (Grassland)"
     },
     {
       "key": "contribution.{HEUER-0001-WL-STRUCTURE-0001}.group",
       "source": "湿地",
-      "translation": ""
+      "translation": "Wetland"
     },
     {
       "key": "contribution.{HEUER-0001-WL-STRUCTURE-0002}.group",
       "source": "湿地(山肌)",
-      "translation": ""
+      "translation": "Wetland (Mountainside)"
     },
     {
       "key": "contribution.{HEUER-0001-WL-STRUCTURE-0003}.group",
       "source": "湿地(草原)",
-      "translation": ""
+      "translation": "Wetland (Grassland)"
     },
     {
       "key": "contribution.{HEUER-0001-WL-STRUCTURE-0011}.group",
       "source": "湿地",
-      "translation": ""
+      "translation": "Wetland"
     },
     {
       "key": "contribution.{HEUER-0001-WL-STRUCTURE-0012}.group",
       "source": "湿地(山肌)",
-      "translation": ""
+      "translation": "Wetland (Mountainside)"
     },
     {
       "key": "contribution.{HEUER-0001-WL-STRUCTURE-0013}.group",
       "source": "湿地(草原)",
-      "translation": ""
+      "translation": "Wetland (Grassland)"
     },
     {
       "key": "contribution.{HEUER-0001-WL-STRUCTURE-0021}.group",
       "source": "湿地",
-      "translation": ""
+      "translation": "Wetland"
     },
     {
       "key": "contribution.{HEUER-0001-WL-STRUCTURE-0022}.group",
       "source": "湿地(山肌)",
-      "translation": ""
+      "translation": "Wetland (Mountainside)"
     },
     {
       "key": "contribution.{HEUER-0001-WL-STRUCTURE-0023}.group",
       "source": "湿地(草原)",
-      "translation": ""
+      "translation": "Wetland (Grassland)"
     },
     {
       "key": "contribution.{HEUER-0001-WL-STRUCTURE-0031}.group",
       "source": "湿地",
-      "translation": ""
+      "translation": "Wetland"
     },
     {
       "key": "contribution.{HEUER-0001-WL-STRUCTURE-0032}.group",
       "source": "湿地(山肌)",
-      "translation": ""
+      "translation": "Wetland (Mountainside)"
     },
     {
       "key": "contribution.{HEUER-0001-WL-STRUCTURE-0033}.group",
       "source": "湿地(草原)",
-      "translation": ""
+      "translation": "Wetland (Grassland)"
     }
   ]
 }

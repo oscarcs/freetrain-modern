@@ -6,17 +6,17 @@
     {
       "key": "plugin.title",
       "source": "保線車両",
-      "translation": ""
+      "translation": "Maintenance-of-Way Vehicle"
     },
     {
       "key": "contribution.{riorio-HERM-railbuild-truck-01-739EC56EF56D}.name",
       "source": "レール運搬用トロッコ",
-      "translation": ""
+      "translation": "Rail transport trolley"
     },
     {
       "key": "contribution.{riorio-HERM-railbuild-truck-02-739EC56EF56D}.name",
       "source": "レール運搬用トロッコ",
-      "translation": ""
+      "translation": "Rail transport trolley"
     }
   ]
 }

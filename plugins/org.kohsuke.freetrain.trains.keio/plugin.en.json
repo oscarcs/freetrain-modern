@@ -6,17 +6,17 @@
     {
       "key": "contribution.{2B3E6067-B2C3-43c5-BA0E-236DC69533CF}.company",
       "source": "京王電鉄",
-      "translation": ""
+      "translation": "Keio Electric Railway"
     },
     {
       "key": "contribution.{2B3E6067-B2C3-43c5-BA0E-236DC69533CF}.type",
       "source": "通勤車タイプ",
-      "translation": ""
+      "translation": "Commuter car type"
     },
     {
       "key": "contribution.{2B3E6067-B2C3-43c5-BA0E-236DC69533CF}.description",
       "source": "京王電鉄の通勤型電車。",
-      "translation": ""
+      "translation": "Keio Corporation commuter electric train."
     }
   ]
 }

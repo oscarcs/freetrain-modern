@@ -6,87 +6,87 @@
     {
       "key": "plugin.title",
       "source": "113系湘南色・スカ色",
-      "translation": ""
+      "translation": "113 Series Shonan and Suka Colors"
     },
     {
       "key": "contribution.{riorio-typhoon-113sukaMONO-8FE0-7567171D3CEF}.name",
       "source": "横須賀色モノクラス",
-      "translation": ""
+      "translation": "Yokosuka color monoclass"
     },
     {
       "key": "contribution.{riorio-typhoon-113sukaMONO-8FE0-7567171D3CEF}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{riorio-typhoon-113sukaMONO-8FE0-7567171D3CEF}.type",
       "source": "113系",
-      "translation": ""
+      "translation": "113 Series"
     },
     {
       "key": "contribution.{riorio-typhoon-113sukaMONO-8FE0-7567171D3CEF}.description",
       "source": "千葉方面ローカルや横須賀線ローカルのスカ色モノクラス113系です。",
-      "translation": ""
+      "translation": "JNR 113 Series in Suka color, single-class, for local services on the Chiba area and Yokosuka Line."
     },
     {
       "key": "contribution.{riorio-typhoon-113sukaTs-8FE0-7567171D3CEF}.name",
       "source": "横須賀色サロ入り",
-      "translation": ""
+      "translation": "Yokosuka color with SaRo car"
     },
     {
       "key": "contribution.{riorio-typhoon-113sukaTs-8FE0-7567171D3CEF}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{riorio-typhoon-113sukaTs-8FE0-7567171D3CEF}.type",
       "source": "113系",
-      "translation": ""
+      "translation": "113 Series"
     },
     {
       "key": "contribution.{riorio-typhoon-113sukaTs-8FE0-7567171D3CEF}.description",
       "source": "横須賀線・総武快速線のグリーン車入りスカ色113系です。7両から15両の編成になります。",
-      "translation": ""
+      "translation": "This is a Yokosuka color 113 Series with Green Cars for the Yokosuka Line and Sobu Rapid Line. Formations range from 7 to 15 cars."
     },
     {
       "key": "contribution.{riorio-typhoon-113shonanMONO-8FE0-7567171D3CEF}.name",
       "source": "湘南色モノクラス",
-      "translation": ""
+      "translation": "Shonan Color Monoclass"
     },
     {
       "key": "contribution.{riorio-typhoon-113shonanMONO-8FE0-7567171D3CEF}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{riorio-typhoon-113shonanMONO-8FE0-7567171D3CEF}.type",
       "source": "113系",
-      "translation": ""
+      "translation": "113 Series"
     },
     {
       "key": "contribution.{riorio-typhoon-113shonanMONO-8FE0-7567171D3CEF}.description",
       "source": "東海道本線・山陽本線・東北本線等で幅広く走っていた湘南色モノクラス113系です。",
-      "translation": ""
+      "translation": "The Shonan color monoclass 113 Series, widely operated on the Tokaido Main Line, Sanyo Main Line, Tohoku Main Line, and other lines."
     },
     {
       "key": "contribution.{riorio-typhoon-113shonanTs-8FE0-7567171D3CEF}.name",
       "source": "湘南色サロ入り",
-      "translation": ""
+      "translation": "Shonan Color with SaRo"
     },
     {
       "key": "contribution.{riorio-typhoon-113shonanTs-8FE0-7567171D3CEF}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{riorio-typhoon-113shonanTs-8FE0-7567171D3CEF}.type",
       "source": "113系",
-      "translation": ""
+      "translation": "113 Series"
     },
     {
       "key": "contribution.{riorio-typhoon-113shonanTs-8FE0-7567171D3CEF}.description",
       "source": "東海道線のグリーン車入り湘南色113系です。7両から15両の編成になります。",
-      "translation": ""
+      "translation": "This is the Shonan-colored 113 Series with Green Cars for the Tokaido Line. It forms 7-car to 15-car trains."
     }
   ]
 }

@@ -6,27 +6,27 @@
     {
       "key": "plugin.title",
       "source": "ビル",
-      "translation": ""
+      "translation": "Building"
     },
     {
       "key": "contribution.{0CB3458F-F256-443E-90E0-ABD10EE737DE}.group",
       "source": "貸しビル(2x2)",
-      "translation": ""
+      "translation": "Rental Building (2x2)"
     },
     {
       "key": "contribution.{351E5A00-B2E8-4920-BA2B-F943A0597B90}.group",
       "source": "貸しビル(2x2)",
-      "translation": ""
+      "translation": "Rental Building (2x2)"
     },
     {
       "key": "contribution.{7580EF7F-56A4-41F5-B966-8ABF20B36771}.group",
       "source": "貸しビル(2x2)",
-      "translation": ""
+      "translation": "Rental Building (2x2)"
     },
     {
       "key": "contribution.{4FA243FA-EB96-4F2B-949D-B353CFBF922E}.group",
       "source": "貸しビル(2x2)",
-      "translation": ""
+      "translation": "Rental Building (2x2)"
     }
   ]
 }

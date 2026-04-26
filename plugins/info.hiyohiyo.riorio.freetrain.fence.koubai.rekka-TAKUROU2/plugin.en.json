@@ -6,1317 +6,1317 @@
     {
       "key": "plugin.title",
       "source": "勾配線路グラフィック2",
-      "translation": ""
+      "translation": "Sloped Track Graphics 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A1-KobaiRailGraphic-fence-1011}.name",
       "source": "勾配01",
-      "translation": ""
+      "translation": "Slope 01"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A1-KobaiRailGraphic-fence-1011}.group",
       "source": "勾配TB単線",
-      "translation": ""
+      "translation": "Slope TB single track"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A1-KobaiRailGraphic-fence-1012}.name",
       "source": "勾配02",
-      "translation": ""
+      "translation": "Slope 02"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A1-KobaiRailGraphic-fence-1012}.group",
       "source": "勾配TB単線",
-      "translation": ""
+      "translation": "Slope TB single track"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A1-KobaiRailGraphic-fence-1013}.name",
       "source": "勾配03",
-      "translation": ""
+      "translation": "Slope 03"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A1-KobaiRailGraphic-fence-1013}.group",
       "source": "勾配TB単線",
-      "translation": ""
+      "translation": "Slope TB single track"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A1-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配04",
-      "translation": ""
+      "translation": "Slope 04"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A1-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB単線",
-      "translation": ""
+      "translation": "Slope TB single track"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A5-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配05",
-      "translation": ""
+      "translation": "Gradient 05"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A5-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB単線",
-      "translation": ""
+      "translation": "Slope TB single track"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A6-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配06",
-      "translation": ""
+      "translation": "Gradient 06"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A6-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB単線",
-      "translation": ""
+      "translation": "Slope TB single track"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A7-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配07",
-      "translation": ""
+      "translation": "Gradient 07"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A7-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB単線",
-      "translation": ""
+      "translation": "Slope TB single track"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A8-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配08",
-      "translation": ""
+      "translation": "Slope 08"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A8-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB単線",
-      "translation": ""
+      "translation": "Slope TB single track"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A9-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配09",
-      "translation": ""
+      "translation": "Slope 09"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A9-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線１",
-      "translation": ""
+      "translation": "Slope TB double track 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A10-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配10",
-      "translation": ""
+      "translation": "Slope 10"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A10-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線１",
-      "translation": ""
+      "translation": "Slope TB double track 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A11-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配11",
-      "translation": ""
+      "translation": "Slope 11"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A11-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線１",
-      "translation": ""
+      "translation": "Slope TB double track 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A12-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配12",
-      "translation": ""
+      "translation": "Slope 12"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A12-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線１",
-      "translation": ""
+      "translation": "Slope TB double track 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A17-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配09",
-      "translation": ""
+      "translation": "Slope 09"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A17-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線１",
-      "translation": ""
+      "translation": "Slope TB double track 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A18-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配10",
-      "translation": ""
+      "translation": "Slope 10"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A18-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線１",
-      "translation": ""
+      "translation": "Slope TB double track 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A19-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配11",
-      "translation": ""
+      "translation": "Slope 11"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A19-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線１",
-      "translation": ""
+      "translation": "Slope TB double track 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A20-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配12",
-      "translation": ""
+      "translation": "Slope 12"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A20-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線１",
-      "translation": ""
+      "translation": "Slope TB double track 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A13-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配09",
-      "translation": ""
+      "translation": "Slope 09"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A13-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線２",
-      "translation": ""
+      "translation": "Slope TB double track 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A14-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配10",
-      "translation": ""
+      "translation": "Slope 10"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A14-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線２",
-      "translation": ""
+      "translation": "Slope TB double track 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A15-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配11",
-      "translation": ""
+      "translation": "Slope 11"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A15-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線２",
-      "translation": ""
+      "translation": "Slope TB double track 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A16-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配12",
-      "translation": ""
+      "translation": "Slope 12"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A16-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線２",
-      "translation": ""
+      "translation": "Slope TB double track 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A21-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配21",
-      "translation": ""
+      "translation": "Gradient 21"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A21-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線２",
-      "translation": ""
+      "translation": "Slope TB double track 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A22-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配22",
-      "translation": ""
+      "translation": "Gradient 22"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A22-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線２",
-      "translation": ""
+      "translation": "Slope TB double track 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A23-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配23",
-      "translation": ""
+      "translation": "Gradient 23"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A23-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線２",
-      "translation": ""
+      "translation": "Slope TB double track 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A24-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配24",
-      "translation": ""
+      "translation": "Gradient 24"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A24-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線２",
-      "translation": ""
+      "translation": "Slope TB double track 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A109-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配109",
-      "translation": ""
+      "translation": "Gradient 109"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A109-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線盛土１",
-      "translation": ""
+      "translation": "Slope TB double track embankment 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A110-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配110",
-      "translation": ""
+      "translation": "Gradient 110"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A110-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線盛土１",
-      "translation": ""
+      "translation": "Slope TB double track embankment 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A111-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配111",
-      "translation": ""
+      "translation": "Gradient 111"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A111-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線盛土１",
-      "translation": ""
+      "translation": "Slope TB double track embankment 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A112-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配112",
-      "translation": ""
+      "translation": "Gradient 112"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A112-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線盛土１",
-      "translation": ""
+      "translation": "Slope TB double track embankment 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A125-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配125",
-      "translation": ""
+      "translation": "Gradient 125"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A125-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線盛土１",
-      "translation": ""
+      "translation": "Slope TB double track embankment 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A126-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配126",
-      "translation": ""
+      "translation": "Gradient 126"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A126-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線盛土１",
-      "translation": ""
+      "translation": "Slope TB double track embankment 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A127-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配127",
-      "translation": ""
+      "translation": "Gradient 127"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A127-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線盛土１",
-      "translation": ""
+      "translation": "Slope TB double track embankment 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A128-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配128",
-      "translation": ""
+      "translation": "Gradient 128"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A128-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線盛土１",
-      "translation": ""
+      "translation": "Slope TB double track embankment 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A113-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配113",
-      "translation": ""
+      "translation": "Gradient 113"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A113-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線盛土２",
-      "translation": ""
+      "translation": "Slope TB double track embankment 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A114-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配114",
-      "translation": ""
+      "translation": "Gradient 114"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A114-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線盛土２",
-      "translation": ""
+      "translation": "Slope TB double track embankment 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A115-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配115",
-      "translation": ""
+      "translation": "Gradient 115"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A115-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線盛土２",
-      "translation": ""
+      "translation": "Slope TB double track embankment 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A116-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配116",
-      "translation": ""
+      "translation": "Gradient 116"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A116-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線盛土２",
-      "translation": ""
+      "translation": "Slope TB double track embankment 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A133-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配133",
-      "translation": ""
+      "translation": "Gradient 133"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A133-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線盛土２",
-      "translation": ""
+      "translation": "Slope TB double track embankment 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A134-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配134",
-      "translation": ""
+      "translation": "Gradient 134"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A134-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線盛土２",
-      "translation": ""
+      "translation": "Slope TB double track embankment 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A135-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配135",
-      "translation": ""
+      "translation": "Gradient 135"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A135-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線盛土２",
-      "translation": ""
+      "translation": "Slope TB double track embankment 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A136-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配136",
-      "translation": ""
+      "translation": "Gradient 136"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A136-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線盛土２",
-      "translation": ""
+      "translation": "Slope TB double track embankment 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A117-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配117",
-      "translation": ""
+      "translation": "Gradient 117"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A117-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線盛土中",
-      "translation": ""
+      "translation": "Slope TB double track embankment middle"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A118-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配118",
-      "translation": ""
+      "translation": "Gradient 118"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A118-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線盛土中",
-      "translation": ""
+      "translation": "Slope TB double track embankment middle"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A119-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配119",
-      "translation": ""
+      "translation": "Gradient 119"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A119-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線盛土中",
-      "translation": ""
+      "translation": "Slope TB double track embankment middle"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A120-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配120",
-      "translation": ""
+      "translation": "Gradient 120"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A120-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線盛土中",
-      "translation": ""
+      "translation": "Slope TB double track embankment middle"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A121-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配121",
-      "translation": ""
+      "translation": "Gradient 121"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A121-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線盛土中",
-      "translation": ""
+      "translation": "Slope TB double track embankment middle"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A122-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配122",
-      "translation": ""
+      "translation": "Gradient 122"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A122-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線盛土中",
-      "translation": ""
+      "translation": "Slope TB double track embankment middle"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A123-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配123",
-      "translation": ""
+      "translation": "Gradient 123"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A123-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線盛土中",
-      "translation": ""
+      "translation": "Slope TB double track embankment middle"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A124-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配124",
-      "translation": ""
+      "translation": "Gradient 124"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A124-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線盛土中",
-      "translation": ""
+      "translation": "Slope TB double track embankment middle"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A201-KobaiRailGraphic-fence-1011}.name",
       "source": "勾配201",
-      "translation": ""
+      "translation": "Gradient 201"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A201-KobaiRailGraphic-fence-1011}.group",
       "source": "勾配TB単線RC",
-      "translation": ""
+      "translation": "Slope TB single track RC"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A202-KobaiRailGraphic-fence-1012}.name",
       "source": "勾配202",
-      "translation": ""
+      "translation": "Gradient 202"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A202-KobaiRailGraphic-fence-1012}.group",
       "source": "勾配TB単線RC",
-      "translation": ""
+      "translation": "Slope TB single track RC"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A203-KobaiRailGraphic-fence-1013}.name",
       "source": "勾配203",
-      "translation": ""
+      "translation": "Gradient 203"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A203-KobaiRailGraphic-fence-1013}.group",
       "source": "勾配TB単線RC",
-      "translation": ""
+      "translation": "Slope TB single track RC"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A204-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配204",
-      "translation": ""
+      "translation": "Gradient 204"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A204-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB単線RC",
-      "translation": ""
+      "translation": "Slope TB single track RC"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A205-KobaiRailGraphic-fence-1011}.name",
       "source": "勾配205",
-      "translation": ""
+      "translation": "Gradient 205"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A205-KobaiRailGraphic-fence-1011}.group",
       "source": "勾配TB単線RC",
-      "translation": ""
+      "translation": "Slope TB single track RC"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A206-KobaiRailGraphic-fence-1012}.name",
       "source": "勾配206",
-      "translation": ""
+      "translation": "Gradient 206"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A206-KobaiRailGraphic-fence-1012}.group",
       "source": "勾配TB単線RC",
-      "translation": ""
+      "translation": "Slope TB single track RC"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A207-KobaiRailGraphic-fence-1013}.name",
       "source": "勾配207",
-      "translation": ""
+      "translation": "Gradient 207"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A207-KobaiRailGraphic-fence-1013}.group",
       "source": "勾配TB単線RC",
-      "translation": ""
+      "translation": "Slope TB single track RC"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A208-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配208",
-      "translation": ""
+      "translation": "Gradient 208"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A208-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB単線RC",
-      "translation": ""
+      "translation": "Slope TB single track RC"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A209-KobaiRailGraphic-fence-1011}.name",
       "source": "勾配209",
-      "translation": ""
+      "translation": "Gradient 209"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A209-KobaiRailGraphic-fence-1011}.group",
       "source": "勾配TB複線RC１",
-      "translation": ""
+      "translation": "Slope TB double track RC 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A210-KobaiRailGraphic-fence-1012}.name",
       "source": "勾配210",
-      "translation": ""
+      "translation": "Gradient 210"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A210-KobaiRailGraphic-fence-1012}.group",
       "source": "勾配TB複線RC１",
-      "translation": ""
+      "translation": "Slope TB double track RC 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A211-KobaiRailGraphic-fence-1013}.name",
       "source": "勾配211",
-      "translation": ""
+      "translation": "Gradient 211"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A211-KobaiRailGraphic-fence-1013}.group",
       "source": "勾配TB複線RC１",
-      "translation": ""
+      "translation": "Slope TB double track RC 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A212-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配212",
-      "translation": ""
+      "translation": "Gradient 212"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A212-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線RC１",
-      "translation": ""
+      "translation": "Slope TB double track RC 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A213-KobaiRailGraphic-fence-1011}.name",
       "source": "勾配213",
-      "translation": ""
+      "translation": "Gradient 213"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A213-KobaiRailGraphic-fence-1011}.group",
       "source": "勾配TB複線RC１",
-      "translation": ""
+      "translation": "Slope TB double track RC 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A214-KobaiRailGraphic-fence-1012}.name",
       "source": "勾配214",
-      "translation": ""
+      "translation": "Gradient 214"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A214-KobaiRailGraphic-fence-1012}.group",
       "source": "勾配TB複線RC１",
-      "translation": ""
+      "translation": "Slope TB double track RC 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A215-KobaiRailGraphic-fence-1013}.name",
       "source": "勾配215",
-      "translation": ""
+      "translation": "Gradient 215"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A215-KobaiRailGraphic-fence-1013}.group",
       "source": "勾配TB複線RC１",
-      "translation": ""
+      "translation": "Slope TB double track RC 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A216-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配216",
-      "translation": ""
+      "translation": "Gradient 216"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A216-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線RC１",
-      "translation": ""
+      "translation": "Slope TB double track RC 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A217-KobaiRailGraphic-fence-1013}.name",
       "source": "勾配217",
-      "translation": ""
+      "translation": "Gradient 217"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A217-KobaiRailGraphic-fence-1013}.group",
       "source": "勾配TB複線RC２",
-      "translation": ""
+      "translation": "Slope TB double track RC 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A218-KobaiRailGraphic-fence-1013}.name",
       "source": "勾配218",
-      "translation": ""
+      "translation": "Gradient 218"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A218-KobaiRailGraphic-fence-1013}.group",
       "source": "勾配TB複線RC２",
-      "translation": ""
+      "translation": "Slope TB double track RC 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A219-KobaiRailGraphic-fence-1013}.name",
       "source": "勾配219",
-      "translation": ""
+      "translation": "Gradient 219"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A219-KobaiRailGraphic-fence-1013}.group",
       "source": "勾配TB複線RC２",
-      "translation": ""
+      "translation": "Slope TB double track RC 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A220-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配220",
-      "translation": ""
+      "translation": "Gradient 220"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A220-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線RC２",
-      "translation": ""
+      "translation": "Slope TB double track RC 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A221-KobaiRailGraphic-fence-1013}.name",
       "source": "勾配221",
-      "translation": ""
+      "translation": "Gradient 221"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A221-KobaiRailGraphic-fence-1013}.group",
       "source": "勾配TB複線RC２",
-      "translation": ""
+      "translation": "Slope TB double track RC 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A222-KobaiRailGraphic-fence-1013}.name",
       "source": "勾配222",
-      "translation": ""
+      "translation": "Gradient 222"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A222-KobaiRailGraphic-fence-1013}.group",
       "source": "勾配TB複線RC２",
-      "translation": ""
+      "translation": "Slope TB double track RC 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A223-KobaiRailGraphic-fence-1013}.name",
       "source": "勾配223",
-      "translation": ""
+      "translation": "Gradient 223"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A223-KobaiRailGraphic-fence-1013}.group",
       "source": "勾配TB複線RC２",
-      "translation": ""
+      "translation": "Slope TB double track RC 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A224-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配224",
-      "translation": ""
+      "translation": "Gradient 224"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A224-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線RC２",
-      "translation": ""
+      "translation": "Slope TB double track RC 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A225-KobaiRailGraphic-fence-1011}.name",
       "source": "勾配225",
-      "translation": ""
+      "translation": "Gradient 225"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A225-KobaiRailGraphic-fence-1011}.group",
       "source": "勾配TB単線Ｔ",
-      "translation": ""
+      "translation": "Slope TB single track T"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A226-KobaiRailGraphic-fence-1012}.name",
       "source": "勾配226",
-      "translation": ""
+      "translation": "Gradient 226"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A226-KobaiRailGraphic-fence-1012}.group",
       "source": "勾配TB単線Ｔ",
-      "translation": ""
+      "translation": "Slope TB single track T"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A227-KobaiRailGraphic-fence-1013}.name",
       "source": "勾配227",
-      "translation": ""
+      "translation": "Gradient 227"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A227-KobaiRailGraphic-fence-1013}.group",
       "source": "勾配TB単線Ｔ",
-      "translation": ""
+      "translation": "Slope TB single track T"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A228-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配228",
-      "translation": ""
+      "translation": "Gradient 228"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A228-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB単線Ｔ",
-      "translation": ""
+      "translation": "Slope TB single track T"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A229-KobaiRailGraphic-fence-1011}.name",
       "source": "勾配229",
-      "translation": ""
+      "translation": "Gradient 229"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A229-KobaiRailGraphic-fence-1011}.group",
       "source": "勾配TB単線Ｔ",
-      "translation": ""
+      "translation": "Slope TB single track T"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A230-KobaiRailGraphic-fence-1012}.name",
       "source": "勾配230",
-      "translation": ""
+      "translation": "Gradient 230"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A230-KobaiRailGraphic-fence-1012}.group",
       "source": "勾配TB単線Ｔ",
-      "translation": ""
+      "translation": "Slope TB single track T"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A231-KobaiRailGraphic-fence-1013}.name",
       "source": "勾配231",
-      "translation": ""
+      "translation": "Gradient 231"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A231-KobaiRailGraphic-fence-1013}.group",
       "source": "勾配TB単線Ｔ",
-      "translation": ""
+      "translation": "Slope TB single track T"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A232-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配0232",
-      "translation": ""
+      "translation": "Slope 0232"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A232-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB単線Ｔ",
-      "translation": ""
+      "translation": "Slope TB single track T"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A233-KobaiRailGraphic-fence-1011}.name",
       "source": "勾配233",
-      "translation": ""
+      "translation": "Gradient 233"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A233-KobaiRailGraphic-fence-1011}.group",
       "source": "勾配TB複線Ｔ１",
-      "translation": ""
+      "translation": "Slope TB double track T 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A234-KobaiRailGraphic-fence-1012}.name",
       "source": "勾配234",
-      "translation": ""
+      "translation": "Gradient 234"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A234-KobaiRailGraphic-fence-1012}.group",
       "source": "勾配TB複線Ｔ１",
-      "translation": ""
+      "translation": "Slope TB double track T 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A235-KobaiRailGraphic-fence-1013}.name",
       "source": "勾配235",
-      "translation": ""
+      "translation": "Gradient 235"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A235-KobaiRailGraphic-fence-1013}.group",
       "source": "勾配TB複線Ｔ１",
-      "translation": ""
+      "translation": "Slope TB double track T 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A236-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配0236",
-      "translation": ""
+      "translation": "Slope 0236"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A236-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線Ｔ１",
-      "translation": ""
+      "translation": "Slope TB double track T 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A237-KobaiRailGraphic-fence-1011}.name",
       "source": "勾配237",
-      "translation": ""
+      "translation": "Gradient 237"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A237-KobaiRailGraphic-fence-1011}.group",
       "source": "勾配TB複線Ｔ１",
-      "translation": ""
+      "translation": "Slope TB double track T 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A238-KobaiRailGraphic-fence-1012}.name",
       "source": "勾配238",
-      "translation": ""
+      "translation": "Gradient 238"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A238-KobaiRailGraphic-fence-1012}.group",
       "source": "勾配TB複線Ｔ１",
-      "translation": ""
+      "translation": "Slope TB double track T 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A239-KobaiRailGraphic-fence-1013}.name",
       "source": "勾配239",
-      "translation": ""
+      "translation": "Gradient 239"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A239-KobaiRailGraphic-fence-1013}.group",
       "source": "勾配TB複線Ｔ１",
-      "translation": ""
+      "translation": "Slope TB double track T 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A240-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配0240",
-      "translation": ""
+      "translation": "Slope 0240"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A240-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線Ｔ１",
-      "translation": ""
+      "translation": "Slope TB double track T 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A241-KobaiRailGraphic-fence-1011}.name",
       "source": "勾配241",
-      "translation": ""
+      "translation": "Gradient 241"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A241-KobaiRailGraphic-fence-1011}.group",
       "source": "勾配TB複線Ｔ２",
-      "translation": ""
+      "translation": "Slope TB double track T 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A242-KobaiRailGraphic-fence-1012}.name",
       "source": "勾配242",
-      "translation": ""
+      "translation": "Gradient 242"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A242-KobaiRailGraphic-fence-1012}.group",
       "source": "勾配TB複線Ｔ２",
-      "translation": ""
+      "translation": "Slope TB double track T 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A243-KobaiRailGraphic-fence-1013}.name",
       "source": "勾配243",
-      "translation": ""
+      "translation": "Gradient 243"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A243-KobaiRailGraphic-fence-1013}.group",
       "source": "勾配TB複線Ｔ２",
-      "translation": ""
+      "translation": "Slope TB double track T 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A244-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配0244",
-      "translation": ""
+      "translation": "Slope 0244"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A244-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線Ｔ２",
-      "translation": ""
+      "translation": "Slope TB double track T 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A245-KobaiRailGraphic-fence-1011}.name",
       "source": "勾配245",
-      "translation": ""
+      "translation": "Gradient 245"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A245-KobaiRailGraphic-fence-1011}.group",
       "source": "勾配TB複線Ｔ２",
-      "translation": ""
+      "translation": "Slope TB double track T 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A246-KobaiRailGraphic-fence-1012}.name",
       "source": "勾配246",
-      "translation": ""
+      "translation": "Gradient 246"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A246-KobaiRailGraphic-fence-1012}.group",
       "source": "勾配TB複線Ｔ２",
-      "translation": ""
+      "translation": "Slope TB double track T 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A247-KobaiRailGraphic-fence-1013}.name",
       "source": "勾配247",
-      "translation": ""
+      "translation": "Gradient 247"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A247-KobaiRailGraphic-fence-1013}.group",
       "source": "勾配TB複線Ｔ２",
-      "translation": ""
+      "translation": "Slope TB double track T 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A248-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配0248",
-      "translation": ""
+      "translation": "Gradient 0248"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A248-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線Ｔ２",
-      "translation": ""
+      "translation": "Slope TB double track T 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A249-KobaiRailGraphic-fence-1012}.name",
       "source": "勾配249",
-      "translation": ""
+      "translation": "Gradient 249"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A249-KobaiRailGraphic-fence-1012}.group",
       "source": "勾配TB複線Ｔ中１",
-      "translation": ""
+      "translation": "Slope TB double track T middle 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A250-KobaiRailGraphic-fence-1012}.name",
       "source": "勾配250",
-      "translation": ""
+      "translation": "Gradient 250"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A250-KobaiRailGraphic-fence-1012}.group",
       "source": "勾配TB複線Ｔ中１",
-      "translation": ""
+      "translation": "Slope TB double track T middle 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A251-KobaiRailGraphic-fence-1013}.name",
       "source": "勾配251",
-      "translation": ""
+      "translation": "Gradient 251"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A251-KobaiRailGraphic-fence-1013}.group",
       "source": "勾配TB複線Ｔ中１",
-      "translation": ""
+      "translation": "Slope TB double track T middle 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A252-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配0252",
-      "translation": ""
+      "translation": "Gradient 0252"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A252-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線Ｔ中１",
-      "translation": ""
+      "translation": "Slope TB double track T middle 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A253-KobaiRailGraphic-fence-1012}.name",
       "source": "勾配253",
-      "translation": ""
+      "translation": "Gradient 253"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A253-KobaiRailGraphic-fence-1012}.group",
       "source": "勾配TB複線Ｔ中１",
-      "translation": ""
+      "translation": "Slope TB double track T middle 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A254-KobaiRailGraphic-fence-1012}.name",
       "source": "勾配254",
-      "translation": ""
+      "translation": "Gradient 254"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A254-KobaiRailGraphic-fence-1012}.group",
       "source": "勾配TB複線Ｔ中１",
-      "translation": ""
+      "translation": "Slope TB double track T middle 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A255-KobaiRailGraphic-fence-1013}.name",
       "source": "勾配255",
-      "translation": ""
+      "translation": "Gradient 255"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A255-KobaiRailGraphic-fence-1013}.group",
       "source": "勾配TB複線Ｔ中１",
-      "translation": ""
+      "translation": "Slope TB double track T middle 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A256-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配0256",
-      "translation": ""
+      "translation": "Gradient 0256"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A256-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線Ｔ中１",
-      "translation": ""
+      "translation": "Slope TB double track T middle 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A257-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配0257",
-      "translation": ""
+      "translation": "Gradient 0257"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A257-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線Ｔ中２",
-      "translation": ""
+      "translation": "Slope TB Double Track T Middle 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A258-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配0258",
-      "translation": ""
+      "translation": "Gradient 0258"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A258-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線Ｔ中３",
-      "translation": ""
+      "translation": "Slope TB Double Track T Middle 3"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A300-KobaiRailGraphic-fence-1011}.name",
       "source": "勾配300",
-      "translation": ""
+      "translation": "Gradient 300"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A300-KobaiRailGraphic-fence-1011}.group",
       "source": "勾配TB単線丸",
-      "translation": ""
+      "translation": "Slope TB single track round"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A301-KobaiRailGraphic-fence-1012}.name",
       "source": "勾配301",
-      "translation": ""
+      "translation": "Gradient 301"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A301-KobaiRailGraphic-fence-1012}.group",
       "source": "勾配TB単線丸",
-      "translation": ""
+      "translation": "Slope TB single track round"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A302-KobaiRailGraphic-fence-1013}.name",
       "source": "勾配302",
-      "translation": ""
+      "translation": "Gradient 302"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A302-KobaiRailGraphic-fence-1013}.group",
       "source": "勾配TB単線丸",
-      "translation": ""
+      "translation": "Slope TB single track round"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A303-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配303",
-      "translation": ""
+      "translation": "Gradient 303"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A303-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB単線丸",
-      "translation": ""
+      "translation": "Slope TB single track round"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A304-KobaiRailGraphic-fence-1011}.name",
       "source": "勾配304",
-      "translation": ""
+      "translation": "Gradient 304"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A304-KobaiRailGraphic-fence-1011}.group",
       "source": "勾配TB単線丸",
-      "translation": ""
+      "translation": "Slope TB single track round"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A305-KobaiRailGraphic-fence-1012}.name",
       "source": "勾配305",
-      "translation": ""
+      "translation": "Slope 305"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A305-KobaiRailGraphic-fence-1012}.group",
       "source": "勾配TB単線丸",
-      "translation": ""
+      "translation": "Slope TB single track round"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A306-KobaiRailGraphic-fence-1013}.name",
       "source": "勾配306",
-      "translation": ""
+      "translation": "Slope 306"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A306-KobaiRailGraphic-fence-1013}.group",
       "source": "勾配TB単線丸",
-      "translation": ""
+      "translation": "Slope TB single track round"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A307-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配307",
-      "translation": ""
+      "translation": "Slope 307"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A307-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB単線丸",
-      "translation": ""
+      "translation": "Slope TB single track round"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A308-KobaiRailGraphic-fence-1011}.name",
       "source": "勾配308",
-      "translation": ""
+      "translation": "Slope 308"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A308-KobaiRailGraphic-fence-1011}.group",
       "source": "勾配TB複線丸１",
-      "translation": ""
+      "translation": "Slope TB double track round 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A309-KobaiRailGraphic-fence-1012}.name",
       "source": "勾配309",
-      "translation": ""
+      "translation": "Slope 309"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A309-KobaiRailGraphic-fence-1012}.group",
       "source": "勾配TB複線丸１",
-      "translation": ""
+      "translation": "Slope TB double track round 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A310-KobaiRailGraphic-fence-1013}.name",
       "source": "勾配310",
-      "translation": ""
+      "translation": "Slope 310"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A310-KobaiRailGraphic-fence-1013}.group",
       "source": "勾配TB複線丸１",
-      "translation": ""
+      "translation": "Slope TB double track round 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A311-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配311",
-      "translation": ""
+      "translation": "Slope 311"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A311-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線丸１",
-      "translation": ""
+      "translation": "Slope TB double track round 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A312-KobaiRailGraphic-fence-1011}.name",
       "source": "勾配312",
-      "translation": ""
+      "translation": "Slope 312"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A312-KobaiRailGraphic-fence-1011}.group",
       "source": "勾配TB複線丸１",
-      "translation": ""
+      "translation": "Slope TB double track round 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A313-KobaiRailGraphic-fence-1012}.name",
       "source": "勾配313",
-      "translation": ""
+      "translation": "Slope 313"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A313-KobaiRailGraphic-fence-1012}.group",
       "source": "勾配TB複線丸１",
-      "translation": ""
+      "translation": "Slope TB double track round 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A314-KobaiRailGraphic-fence-1013}.name",
       "source": "勾配314",
-      "translation": ""
+      "translation": "Slope 314"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A314-KobaiRailGraphic-fence-1013}.group",
       "source": "勾配TB複線丸１",
-      "translation": ""
+      "translation": "Slope TB double track round 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A315-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配315",
-      "translation": ""
+      "translation": "Slope 315"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A315-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線丸１",
-      "translation": ""
+      "translation": "Slope TB double track round 1"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A316-KobaiRailGraphic-fence-1011}.name",
       "source": "勾配316",
-      "translation": ""
+      "translation": "Slope 316"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A316-KobaiRailGraphic-fence-1011}.group",
       "source": "勾配TB複線丸２",
-      "translation": ""
+      "translation": "Slope TB double track round 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A317-KobaiRailGraphic-fence-1012}.name",
       "source": "勾配317",
-      "translation": ""
+      "translation": "Slope 317"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A317-KobaiRailGraphic-fence-1012}.group",
       "source": "勾配TB複線丸２",
-      "translation": ""
+      "translation": "Slope TB double track round 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A318-KobaiRailGraphic-fence-1013}.name",
       "source": "勾配318",
-      "translation": ""
+      "translation": "Slope 318"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A318-KobaiRailGraphic-fence-1013}.group",
       "source": "勾配TB複線丸２",
-      "translation": ""
+      "translation": "Slope TB double track round 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A319-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配319",
-      "translation": ""
+      "translation": "Slope 319"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A319-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線丸２",
-      "translation": ""
+      "translation": "Slope TB double track round 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A320-KobaiRailGraphic-fence-1011}.name",
       "source": "勾配320",
-      "translation": ""
+      "translation": "Slope 320"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A320-KobaiRailGraphic-fence-1011}.group",
       "source": "勾配TB複線丸２",
-      "translation": ""
+      "translation": "Slope TB double track round 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A321-KobaiRailGraphic-fence-1012}.name",
       "source": "勾配321",
-      "translation": ""
+      "translation": "Slope 321"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A321-KobaiRailGraphic-fence-1012}.group",
       "source": "勾配TB複線丸２",
-      "translation": ""
+      "translation": "Slope TB double track round 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A322-KobaiRailGraphic-fence-1013}.name",
       "source": "勾配322",
-      "translation": ""
+      "translation": "Slope 322"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A322-KobaiRailGraphic-fence-1013}.group",
       "source": "勾配TB複線丸２",
-      "translation": ""
+      "translation": "Slope TB double track round 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A323-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配323",
-      "translation": ""
+      "translation": "Slope 323"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A323-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TB複線丸２",
-      "translation": ""
+      "translation": "Slope TB double track round 2"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A350-KobaiRailGraphic-fence-1014}.name",
       "source": "勾配350",
-      "translation": ""
+      "translation": "Slope 350"
     },
     {
       "key": "contribution.{riorio-HanabishiRekka-00A350-KobaiRailGraphic-fence-1014}.group",
       "source": "勾配TBその他丸",
-      "translation": ""
+      "translation": "Slope TB Other Round"
     }
   ]
 }

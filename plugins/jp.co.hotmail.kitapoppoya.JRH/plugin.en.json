@@ -6,152 +6,152 @@
     {
       "key": "plugin.title",
       "source": "JR北海道セット",
-      "translation": ""
+      "translation": "JR Hokkaido Set"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-711}.name",
       "source": "函館本線･室蘭本線",
-      "translation": ""
+      "translation": "Hakodate Main Line / Muroran Main Line"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-711}.company",
       "source": "JR北海道",
-      "translation": ""
+      "translation": "JR Hokkaido"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-711}.type",
       "source": "711系",
-      "translation": ""
+      "translation": "711 Series"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-711-3}.name",
       "source": "函館本線･室蘭本線",
-      "translation": ""
+      "translation": "Hakodate Main Line / Muroran Main Line"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-711-3}.company",
       "source": "JR北海道",
-      "translation": ""
+      "translation": "JR Hokkaido"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-711-3}.type",
       "source": "711系(3ドア改造車)",
-      "translation": ""
+      "translation": "711 Series (3-door modified car)"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-785}.name",
       "source": "スーパーカムイ･すずらん",
-      "translation": ""
+      "translation": "Super Kamui / Suzuran"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-785}.company",
       "source": "JR北海道",
-      "translation": ""
+      "translation": "JR Hokkaido"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-785}.type",
       "source": "785系",
-      "translation": ""
+      "translation": "785 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-7891000}.name",
       "source": "スーパーカムイ",
-      "translation": ""
+      "translation": "Super Kamui"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-7891000}.company",
       "source": "JR北海道",
-      "translation": ""
+      "translation": "JR Hokkaido"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-7891000}.type",
       "source": "789系1000番台",
-      "translation": ""
+      "translation": "789 Series 1000 sub-series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-KIHA281}.name",
       "source": "スーパー北斗",
-      "translation": ""
+      "translation": "Super Hokuto"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-KIHA281}.company",
       "source": "JR北海道",
-      "translation": ""
+      "translation": "JR Hokkaido"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-KIHA281}.type",
       "source": "キハ281系(fixed by kitapoppoya)",
-      "translation": ""
+      "translation": "Kiha 281 Series (fixed by kitapoppoya)"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-KIHA141}.name",
       "source": "学園都市線",
-      "translation": ""
+      "translation": "Gakuen Toshi Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-KIHA141}.company",
       "source": "JR北海道",
-      "translation": ""
+      "translation": "JR Hokkaido"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-KIHA141}.type",
       "source": "キハ141系",
-      "translation": ""
+      "translation": "Kiha 141 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-KIHA150NAE}.name",
       "source": "苗穂色",
-      "translation": ""
+      "translation": "Naebo Livery"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-KIHA150NAE}.company",
       "source": "JR北海道",
-      "translation": ""
+      "translation": "JR Hokkaido"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-KIHA150NAE}.type",
       "source": "キハ150系",
-      "translation": ""
+      "translation": "Kiha 150 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-KIHA150ASA}.name",
       "source": "旭川色",
-      "translation": ""
+      "translation": "Asahikawa Color"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-KIHA150ASA}.company",
       "source": "JR北海道",
-      "translation": ""
+      "translation": "JR Hokkaido"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-KIHA150ASA}.type",
       "source": "キハ150系",
-      "translation": ""
+      "translation": "Kiha 150 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-KIHA150100}.name",
       "source": "100番台",
-      "translation": ""
+      "translation": "100 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-KIHA150100}.company",
       "source": "JR北海道",
-      "translation": ""
+      "translation": "JR Hokkaido"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-KIHA150100}.type",
       "source": "キハ150系",
-      "translation": ""
+      "translation": "Kiha 150 Series"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-50KAIKYO}.name",
       "source": "快速海峡",
-      "translation": ""
+      "translation": "Rapid Kaikyo"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-50KAIKYO}.company",
       "source": "JR北海道",
-      "translation": ""
+      "translation": "JR Hokkaido"
     }
   ]
 }

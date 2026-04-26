@@ -6,67 +6,67 @@
     {
       "key": "plugin.title",
       "source": "お台場行きパック+おまけ",
-      "translation": ""
+      "translation": "Odaiba-bound Pack + Bonus"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-9-TWR70000-W}.name",
       "source": "りんかい線",
-      "translation": ""
+      "translation": "Rinkai Line"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-9-TWR70000-W}.company",
       "source": "東京臨海高速鉄道",
-      "translation": ""
+      "translation": "Tokyo Waterfront Area Rapid Transit"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-9-TWR70000-W}.type",
       "source": "70-000系",
-      "translation": ""
+      "translation": "70-000 Series"
     },
     {
       "key": "contribution.{757F660D-9BC9-48E4-9E1F-9-TWR70000-W}.description",
       "source": "大崎と新木場を結ぶりんかい線の車両。209系ベースで、2003年度より埼京線への乗り入れを行っている。",
-      "translation": ""
+      "translation": "Vehicles for the Rinkai Line, connecting Osaki and Shin-Kiba. Based on the 209 Series, they have been operating through to the Saikyo Line since fiscal year 2003."
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-YURI7000}.name",
       "source": "臨海線",
-      "translation": ""
+      "translation": "Rinkai Line"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-YURI7000}.company",
       "source": "東京臨海新交通",
-      "translation": ""
+      "translation": "Tokyo Waterfront New Transit"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-YURI7000}.type",
       "source": "7000系",
-      "translation": ""
+      "translation": "7000 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-YURI7000}.description",
       "source": "ゆりかもめの愛称でおなじみの新交通システム。半ボクセル車両なので実車同様の編成にするなら3両となります。",
-      "translation": ""
+      "translation": "A new transit system known by its nickname 'Yurikamome'. Since it's a half-voxel vehicle, a 3-car formation is needed to match the actual train."
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TONERI300}.name",
       "source": "日暮里・舎人ライナー",
-      "translation": ""
+      "translation": "Nippori-Toneri Liner"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TONERI300}.company",
       "source": "新交通日暮里・舎人線",
-      "translation": ""
+      "translation": "Nippori-Toneri Liner"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TONERI300}.type",
       "source": "300系",
-      "translation": ""
+      "translation": "300 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TONERI300}.description",
       "source": "東京都北部の新しい新交通システム路線の車両。ちなみに実車が奇数両編成なのに対し偶数両しか再現不可なのは仕様ですｗ",
-      "translation": ""
+      "translation": "Rolling stock for a new transit system line in northern Tokyo. By the way, it's a specification that only even-numbered cars can be reproduced, whereas the actual train has an odd-numbered car formation lol."
     }
   ]
 }

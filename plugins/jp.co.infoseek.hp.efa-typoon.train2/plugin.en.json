@@ -5,248 +5,248 @@
   "texts": [
     {
       "key": "plugin.title",
-      "source": "車両セット\u30002号車",
-      "translation": ""
+      "source": "車両セット　2号車",
+      "translation": "Vehicle Set Car 2"
     },
     {
       "key": "contribution.{57644AE6-7FFA-R485-8FE0-7567171D3CEF}.name",
       "source": "レッドエクスプレス",
-      "translation": ""
+      "translation": "Red Express"
     },
     {
       "key": "contribution.{57644AE6-7FFA-R485-8FE0-7567171D3CEF}.company",
       "source": "JR九州",
-      "translation": ""
+      "translation": "JR Kyushu"
     },
     {
       "key": "contribution.{57644AE6-7FFA-R485-8FE0-7567171D3CEF}.type",
       "source": "485系",
-      "translation": ""
+      "translation": "485 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-R485-8FE0-7567171D3CEF}.description",
       "source": "JR九州の485系のうち、赤くなってみた485系。",
-      "translation": ""
+      "translation": "Among JR Kyushu's 485 Series, this is the 485 Series that was painted red."
     },
     {
       "key": "contribution.{57644AE6-7FFA-K485-8FE0-7567171D3CEF}.name",
       "source": "きりしま・ひゅうが",
-      "translation": ""
+      "translation": "Kirishima / Hyuga"
     },
     {
       "key": "contribution.{57644AE6-7FFA-K485-8FE0-7567171D3CEF}.company",
       "source": "JR九州",
-      "translation": ""
+      "translation": "JR Kyushu"
     },
     {
       "key": "contribution.{57644AE6-7FFA-K485-8FE0-7567171D3CEF}.type",
       "source": "485系",
-      "translation": ""
+      "translation": "485 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-K485-8FE0-7567171D3CEF}.description",
       "source": "きりしま用の緑の485系はひゅうがとの共通運転を行うために、旧ハウステンボス色をベースにした塗装に変更された。3,6,9両のみ編成可能。",
-      "translation": ""
+      "translation": "The green 485 series for Kirishima was repainted based on the former Huis Ten Bosch livery to allow for shared operation with Hyuga. Can only be formed with 3, 6, or 9 cars."
     },
     {
       "key": "contribution.{57644AE6-7FFA-H485-8FE0-7567171D3CEF}.name",
       "source": "北越、くびき野 など",
-      "translation": ""
+      "translation": "Hokuetsu, Kubikino, etc."
     },
     {
       "key": "contribution.{57644AE6-7FFA-H485-8FE0-7567171D3CEF}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{57644AE6-7FFA-H485-8FE0-7567171D3CEF}.type",
       "source": "485系",
-      "translation": ""
+      "translation": "485 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-H485-8FE0-7567171D3CEF}.description",
       "source": "上沼垂色の485系。",
-      "translation": ""
+      "translation": "Kamisuppara color 485 series."
     },
     {
       "key": "contribution.{57644AE6-7FFA-I485-8FE0-7567171D3CEF}.name",
-      "source": "3000番台\u3000はくたか など",
-      "translation": ""
+      "source": "3000番台　はくたか など",
+      "translation": "3000 series Hakutaka, etc."
     },
     {
       "key": "contribution.{57644AE6-7FFA-I485-8FE0-7567171D3CEF}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{57644AE6-7FFA-I485-8FE0-7567171D3CEF}.type",
       "source": "485系",
-      "translation": ""
+      "translation": "485 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-I485-8FE0-7567171D3CEF}.description",
       "source": "上沼垂色の485系3000番台。",
-      "translation": ""
+      "translation": "Kamisuppara color 485 series 3000 sub-series."
     },
     {
       "key": "contribution.{57644AE6-7FFA-J485-8FE0-7567171D3CEF}.name",
-      "source": "3000番台\u3000はつかり、白鳥",
-      "translation": ""
+      "source": "3000番台　はつかり、白鳥",
+      "translation": "3000 series Hatsukari, Hakucho"
     },
     {
       "key": "contribution.{57644AE6-7FFA-J485-8FE0-7567171D3CEF}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{57644AE6-7FFA-J485-8FE0-7567171D3CEF}.type",
       "source": "485系",
-      "translation": ""
+      "translation": "485 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-J485-8FE0-7567171D3CEF}.description",
       "source": "「はつかり」用に485系を改造した車両。青函トンネル内で140km/hで運転できる。東北新幹線の八戸\n延長に伴い、「白鳥」として運転されるようになった。",
-      "translation": ""
+      "translation": "Vehicles modified from the 485 Series for 'Hatsukari' service. Capable of operating at 140 km/h within the Seikan Tunnel. With the extension of the Tohoku Shinkansen to Hachinohe, they began operating as 'Hakucho'."
     },
     {
       "key": "contribution.{TYPHOON-JRE-485HITA-HENSEI-7567171D3CEF}.name",
       "source": "ひたち色",
-      "translation": ""
+      "translation": "Hitachi livery"
     },
     {
       "key": "contribution.{TYPHOON-JRE-485HITA-HENSEI-7567171D3CEF}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{TYPHOON-JRE-485HITA-HENSEI-7567171D3CEF}.type",
       "source": "485系",
-      "translation": ""
+      "translation": "485 Series"
     },
     {
       "key": "contribution.{TYPHOON-JRE-485HITA-HENSEI-7567171D3CEF}.description",
       "source": "ひたち色の485系ボンネット無し。",
-      "translation": ""
+      "translation": "485 series in Hitachi livery, without a bonnet."
     },
     {
       "key": "contribution.{TYPHOON-JRE-485KAMO-HENSEI-7567171D3CEF}.name",
       "source": "かもしか など",
-      "translation": ""
+      "translation": "Kamoshika and others"
     },
     {
       "key": "contribution.{TYPHOON-JRE-485KAMO-HENSEI-7567171D3CEF}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{TYPHOON-JRE-485KAMO-HENSEI-7567171D3CEF}.type",
       "source": "485系",
-      "translation": ""
+      "translation": "485 Series"
     },
     {
       "key": "contribution.{TYPHOON-JRE-485KAMO-HENSEI-7567171D3CEF}.description",
       "source": "3,6,9両のみ編成可能。",
-      "translation": ""
+      "translation": "Only 3, 6, or 9-car formations possible."
     },
     {
       "key": "contribution.{57644AE6-7FFA-L485-8FE0-7567171D3CEF}.name",
       "source": "はくたか など",
-      "translation": ""
+      "translation": "Hakutaka, etc."
     },
     {
       "key": "contribution.{57644AE6-7FFA-L485-8FE0-7567171D3CEF}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{57644AE6-7FFA-L485-8FE0-7567171D3CEF}.type",
       "source": "485系",
-      "translation": ""
+      "translation": "485 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-L485-8FE0-7567171D3CEF}.description",
       "source": "「はくたか」などで使われているJR西日本の485系。",
-      "translation": ""
+      "translation": "JR West's 485 Series, used on services like 'Hakutaka'."
     },
     {
       "key": "contribution.{57644AE6-7FFA-M485-8FE0-7567171D3CEF}.name",
       "source": "白山色・ボンネット無し",
-      "translation": ""
+      "translation": "Hakusan Livery - No Bonnet"
     },
     {
       "key": "contribution.{57644AE6-7FFA-M485-8FE0-7567171D3CEF}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{57644AE6-7FFA-M485-8FE0-7567171D3CEF}.type",
       "source": "489系",
-      "translation": ""
+      "translation": "489 Series"
     },
     {
       "key": "contribution.{57644AE6-7FFA-M485-8FE0-7567171D3CEF}.description",
       "source": "「白山」で使われていた専用カラーの489系。「はくたか」や新幹線の前の「あさま」でも使われることがあった。北陸新幹線の開業で「白山」は廃止され、現在は特急色に戻されている。",
-      "translation": ""
+      "translation": "The 489 Series in its dedicated 'Hakusan' livery. It was also sometimes used for 'Hakutaka' and 'Asama' services before the Shinkansen. With the opening of the Hokuriku Shinkansen, 'Hakusan' was abolished, and the trains have now been returned to their limited express livery."
     },
     {
       "key": "contribution.{TYPHOON-JRW-485SHIRAP-HENSEI-7567171D3CEF}.name",
       "source": "しらさぎ色(Pあり)",
-      "translation": ""
+      "translation": "Shirasagi livery (with P)"
     },
     {
       "key": "contribution.{TYPHOON-JRW-485SHIRAP-HENSEI-7567171D3CEF}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{TYPHOON-JRW-485SHIRAP-HENSEI-7567171D3CEF}.type",
       "source": "485系",
-      "translation": ""
+      "translation": "485 Series"
     },
     {
       "key": "contribution.{TYPHOON-JRW-485SHIRAP-HENSEI-7567171D3CEF}.description",
       "source": "しらさぎなどで使われていたパノラマ車つきの485系。10両まで編成可。",
-      "translation": ""
+      "translation": "485 series with a panorama car, used for Shirasagi and other services. Can be formed with up to 10 cars."
     },
     {
       "key": "contribution.{TYPHOON-JRW-485SHIRA-HENSEI-7567171D3CEF}.name",
       "source": "しらさぎ色(Pなし)",
-      "translation": ""
+      "translation": "Shirasagi livery (without P)"
     },
     {
       "key": "contribution.{TYPHOON-JRW-485SHIRA-HENSEI-7567171D3CEF}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{TYPHOON-JRW-485SHIRA-HENSEI-7567171D3CEF}.type",
       "source": "485系",
-      "translation": ""
+      "translation": "485 Series"
     },
     {
       "key": "contribution.{TYPHOON-JRW-485SHIRA-HENSEI-7567171D3CEF}.description",
       "source": "しらさぎなどで使われていたパノラマ車なしの485系。10両まで編成可。",
-      "translation": ""
+      "translation": "485 series without a panorama car, used for Shirasagi and other services. Can be formed with up to 10 cars."
     },
     {
       "key": "contribution.{TYPHOON-JRW-485KIRA-HENSEI-7567171D3CEF}.name",
       "source": "かがやき・きらめき色",
-      "translation": ""
+      "translation": "Kagayaki/Kirameki Livery"
     },
     {
       "key": "contribution.{TYPHOON-JRW-485KIRA-HENSEI-7567171D3CEF}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{TYPHOON-JRW-485KIRA-HENSEI-7567171D3CEF}.type",
       "source": "485系",
-      "translation": ""
+      "translation": "485 Series"
     },
     {
       "key": "contribution.{TYPHOON-JRW-485KIRA-HENSEI-7567171D3CEF}.description",
       "source": "かがやき・きらめき色の485系。",
-      "translation": ""
+      "translation": "485 Series in Kagayaki/Kirameki livery."
     }
   ]
 }

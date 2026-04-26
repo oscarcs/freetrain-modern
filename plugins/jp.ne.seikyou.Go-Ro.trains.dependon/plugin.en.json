@@ -6,47 +6,47 @@
     {
       "key": "plugin.title",
       "source": "車両（車両所プラグイン依存）",
-      "translation": ""
+      "translation": "Vehicles (Dependent on Depot Plugin)"
     },
     {
       "key": "contribution.{381-train-S_kuroshio-0001-4C8B212Dharu}.name",
       "source": "スーパーくろしお",
-      "translation": ""
+      "translation": "Super Kuroshio"
     },
     {
       "key": "contribution.{381-train-S_kuroshio-0001-4C8B212Dharu}.company",
       "source": "JR西日本",
-      "translation": ""
+      "translation": "JR West"
     },
     {
       "key": "contribution.{381-train-S_kuroshio-0001-4C8B212Dharu}.type",
       "source": "381系",
-      "translation": ""
+      "translation": "381 Series"
     },
     {
       "key": "contribution.{381-train-S_kuroshio-0001-4C8B212Dharu}.description",
       "source": "4,5,6,9両編成のみ購入可能",
-      "translation": ""
+      "translation": "Only 4, 5, 6, or 9-car formations available for purchase"
     },
     {
       "key": "contribution.{kiha58-train-gassan-0001-4C8B212Dharu}.name",
       "source": "月山色",
-      "translation": ""
+      "translation": "Gassan livery"
     },
     {
       "key": "contribution.{kiha58-train-gassan-0001-4C8B212Dharu}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{kiha58-train-gassan-0001-4C8B212Dharu}.type",
       "source": "キハ58系",
-      "translation": ""
+      "translation": "Kiha 58 Series"
     },
     {
       "key": "contribution.{kiha58-train-gassan-0001-4C8B212Dharu}.description",
       "source": "2,3両編成のみ購入可能",
-      "translation": ""
+      "translation": "Only 2 or 3-car formations available for purchase"
     }
   ]
 }

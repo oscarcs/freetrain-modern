@@ -6,12 +6,12 @@
     {
       "key": "plugin.title",
       "source": "マンション03",
-      "translation": ""
+      "translation": "Apartment Building 03"
     },
     {
       "key": "contribution.{mogami-building-mansyon03-FD6BDFB39635}.group",
       "source": "分譲マンション(4x2)",
-      "translation": ""
+      "translation": "Condominium (4x2)"
     }
   ]
 }

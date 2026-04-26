@@ -6,107 +6,107 @@
     {
       "key": "plugin.title",
       "source": "113系パック",
-      "translation": ""
+      "translation": "113 Series Pack"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-113YOKOSUKA}.name",
       "source": "横須賀・総武線",
-      "translation": ""
+      "translation": "Yokosuka-Sobu Line"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-113YOKOSUKA}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-113YOKOSUKA}.type",
       "source": "113系",
-      "translation": ""
+      "translation": "113 Series"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-113YOKOSUKA}.description",
       "source": "国鉄が標準型近郊型車両として開発したもの。現在は淘汰が進んでいる。横須賀線に配備されていたものは東海道線と同様Wデッカーのグリーン車と平屋構造のグリーン車のニタイプを連結していた。",
-      "translation": ""
+      "translation": "Developed by JNR as a standard suburban train. It is currently being phased out. Those deployed on the Yokosuka Line, like those on the Tokaido Line, included two types of Green Cars: double-decker and single-level."
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC3-B-113SUKASHOKU}.name",
       "source": "スカ色",
-      "translation": ""
+      "translation": "Suka livery"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC3-B-113SUKASHOKU}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC3-B-113SUKASHOKU}.type",
       "source": "113系",
-      "translation": ""
+      "translation": "113 Series"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC3-B-113SUKASHOKU}.description",
       "source": "国鉄が標準型近郊型車両として開発したもの。現在は淘汰が進んでいる。横須賀線のカラーリングに準じたものをスカ色と呼ぶ。",
-      "translation": ""
+      "translation": "Developed by JNR as a standard suburban train. It is currently being phased out. The coloring based on the Yokosuka Line is called \"Suka-iro.\""
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-BE-113TOKAIDO}.name",
       "source": "東海道線",
-      "translation": ""
+      "translation": "Tokaido Line"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-BE-113TOKAIDO}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-BE-113TOKAIDO}.type",
       "source": "113系",
-      "translation": ""
+      "translation": "113 Series"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-BE-113TOKAIDO}.description",
       "source": "国鉄が標準型近郊型車両として開発したもの。現在は淘汰が進んでいる。東海道線に配備されていたものは横須賀線と同様Wデッカーのグリーン車と平屋構造のグリーン車のニタイプを連結している。",
-      "translation": ""
+      "translation": "Developed by JNR as a standard suburban train. It is currently being phased out. Those deployed on the Tokaido Line, like those on the Yokosuka Line, included two types of Green Cars: double-decker and single-level."
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-113TOKAIDO2}.name",
       "source": "東海道線(横須賀サロ124組み込み)",
-      "translation": ""
+      "translation": "Tokaido Line (Yokosuka Salo 124 incorporated)"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-113TOKAIDO2}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-113TOKAIDO2}.type",
       "source": "113系",
-      "translation": ""
+      "translation": "113 Series"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-113TOKAIDO2}.description",
       "source": "国鉄が標準型近郊型車両として開発したもの。現在は淘汰が進んでいる。横須賀線の113系が淘汰された際、車齢の若いサロ124のみを東海道線の113系に組み込んだこのような編成も活躍している。",
-      "translation": ""
+      "translation": "Developed by JNR as a standard suburban train. It is currently being phased out. When the Yokosuka Line's 113 Series was phased out, formations like this one, incorporating only the younger Salo 124 cars into the Tokaido Line's 113 Series, were also active."
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC-B-113SHONANSHOKU}.name",
       "source": "湘南色(kitapoppoya)",
-      "translation": ""
+      "translation": "Shonan Color (kitapoppoya)"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC-B-113SHONANSHOKU}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC-B-113SHONANSHOKU}.type",
       "source": "113系",
-      "translation": ""
+      "translation": "113 Series"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC-B-113SHONANSHOKU}.description",
       "source": "国鉄が標準型近郊型車両として開発したもの。現在は淘汰が進んでいる。東海道線のカラーリングに準じたものを湘南色と呼ぶ。",
-      "translation": ""
+      "translation": "Developed by JNR as a standard suburban train. It is currently being phased out. The coloring based on the Tokaido Line is called \"Shonan-iro.\""
     }
   ]
 }

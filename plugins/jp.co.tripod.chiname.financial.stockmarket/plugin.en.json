@@ -6,12 +6,12 @@
     {
       "key": "plugin.title",
       "source": "株取引モジュール",
-      "translation": ""
+      "translation": "Stock Trading Module"
     },
     {
       "key": "contribution.{25FBD928-C82D-4EB3-C477-D08AC8A5504F}.name",
       "source": "保有株式一覧",
-      "translation": ""
+      "translation": "Stock holdings list"
     }
   ]
 }

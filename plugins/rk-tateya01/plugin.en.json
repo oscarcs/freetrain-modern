@@ -6,27 +6,27 @@
     {
       "key": "plugin.title",
       "source": "建物セット",
-      "translation": ""
+      "translation": "Building Set"
     },
     {
       "key": "contribution.{rk-tateya-tutaya001-001}.name",
       "source": "つたや上町店",
-      "translation": ""
+      "translation": "Tsutaya Kamimachi Store"
     },
     {
       "key": "contribution.{rk-tateya-tutaya001-001}.group",
       "source": "つたや上町店",
-      "translation": ""
+      "translation": "Tsutaya Kamimachi Store"
     },
     {
       "key": "contribution.{rk-tateya-tutaya001-002}.name",
       "source": "つたや上町店",
-      "translation": ""
+      "translation": "Tsutaya Kamimachi Store"
     },
     {
       "key": "contribution.{rk-tateya-tutaya001-002}.group",
       "source": "つたや上町店",
-      "translation": ""
+      "translation": "Tsutaya Kamimachi Store"
     }
   ]
 }

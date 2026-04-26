@@ -6,47 +6,47 @@
     {
       "key": "plugin.title",
       "source": "道路",
-      "translation": ""
+      "translation": "Road"
     },
     {
       "key": "contribution.{474B8BFD-R001-1411-1000-D0EA1049D28D}.name",
       "source": "トラス（01）",
-      "translation": ""
+      "translation": "Truss (01)"
     },
     {
       "key": "contribution.{474B8BFD-R001-1411-1000-D0EA1049D28D}.description",
       "source": "トラス下",
-      "translation": ""
+      "translation": "Under truss"
     },
     {
       "key": "contribution.{474B8BFD-R001-1412-1000-D0EA1049D28D}.name",
       "source": "トラス（02）",
-      "translation": ""
+      "translation": "Truss (02)"
     },
     {
       "key": "contribution.{474B8BFD-R001-1412-1000-D0EA1049D28D}.description",
       "source": "トラス下",
-      "translation": ""
+      "translation": "Under truss"
     },
     {
       "key": "contribution.{474B8BFD-R001-1413-1000-D0EA1049D28D}.name",
       "source": "トラス（03）",
-      "translation": ""
+      "translation": "Truss (03)"
     },
     {
       "key": "contribution.{474B8BFD-R001-1413-1000-D0EA1049D28D}.description",
       "source": "トラス下",
-      "translation": ""
+      "translation": "Under truss"
     },
     {
       "key": "contribution.{474B8BFD-R001-1414-1000-D0EA1049D28D}.name",
       "source": "トラス（04）",
-      "translation": ""
+      "translation": "Truss (04)"
     },
     {
       "key": "contribution.{474B8BFD-R001-1414-1000-D0EA1049D28D}.description",
       "source": "トラス下",
-      "translation": ""
+      "translation": "Under truss"
     }
   ]
 }

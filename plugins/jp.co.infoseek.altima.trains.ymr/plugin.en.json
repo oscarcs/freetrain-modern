@@ -6,47 +6,47 @@
     {
       "key": "plugin.title",
       "source": "横浜高速鉄道車両プラグイン",
-      "translation": ""
+      "translation": "Yokohama Minatomirai Railway Rolling Stock Plugin"
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-YMR01A00Y000}.name",
       "source": "こどもの国線",
-      "translation": ""
+      "translation": "Kodomonokuni Line"
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-YMR01A00Y000}.company",
       "source": "横浜高速鉄道",
-      "translation": ""
+      "translation": "Yokohama Minatomirai Railway"
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-YMR01A00Y000}.type",
       "source": "Y000系",
-      "translation": ""
+      "translation": "Y000 Series"
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-YMR01A00Y000}.description",
       "source": "2000年のこどもの国線の通勤線化に伴い投入された車両。東急3000系をベースに、3扉、2両固定編成となっている。3本が在籍し、シーズン時には2連＋2連で走行することもある。(2連、4連、6連のみ編成可能)",
-      "translation": ""
+      "translation": "Vehicles introduced in 2000 with the conversion of the Kodomonokuni Line to a commuter line. Based on the Tokyu 3000 Series, they feature 3 doors and a fixed 2-car formation. Three sets are in service, sometimes running as 2+2 car formations during peak seasons. (Only 2, 4, or 6-car formations are possible)"
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-YMR02A00Y500}.name",
       "source": "みなとみらい線",
-      "translation": ""
+      "translation": "Minatomirai Line"
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-YMR02A00Y500}.company",
       "source": "横浜高速鉄道",
-      "translation": ""
+      "translation": "Yokohama Minatomirai Railway"
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-YMR02A00Y500}.type",
       "source": "Y500系",
-      "translation": ""
+      "translation": "Y500 Series"
     },
     {
       "key": "contribution.{C8A90EE2-2C5E-4F1E-ALTM-YMR02A00Y500}.description",
       "source": "2004年に開通したみなとみらい線用に登場。車体構造は東急5000系と共通で、「みなとみらい」や横浜の伝統をモチーフとした斬新なカラーデザインを採用した。6編成在籍。(4、6、8、10、12、14、16連を編成可能)",
-      "translation": ""
+      "translation": "Introduced for the Minatomirai Line, which opened in 2004. The body structure is common with the Tokyu 5000 Series, and it adopted an innovative color design with motifs of 'Minatomirai' and Yokohama's traditions. Six sets are in service. (4, 6, 8, 10, 12, 14, or 16-car formations are possible)."
     }
   ]
 }

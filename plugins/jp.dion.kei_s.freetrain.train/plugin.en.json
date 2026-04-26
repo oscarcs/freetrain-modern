@@ -6,172 +6,172 @@
     {
       "key": "plugin.title",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-KIHA82}.name",
       "source": "特急型気動車",
-      "translation": ""
+      "translation": "Limited Express Diesel Railcar"
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-KIHA82}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-KIHA82}.type",
       "source": "キハ 82",
-      "translation": ""
+      "translation": "Kiha 82"
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-KIHA82}.description",
       "source": "全国の非電化区間での特急サービスアップのため導入された初の気動車特急。初期のキハ81型はボンネット車体であった。晩年は主に北海道・紀勢方面で活躍。",
-      "translation": ""
+      "translation": "The first diesel railcar limited express introduced to improve limited express services in non-electrified sections nationwide. Early Kiha 81 Series had a bonnet body. In its later years, it was mainly active in Hokkaido and the Kisei area."
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DC0001}.name",
       "source": "気動車混合編成",
-      "translation": ""
+      "translation": "Mixed Diesel Railcar Formation"
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DC0001}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DC0001}.type",
       "source": "一般型気動車",
-      "translation": ""
+      "translation": "General-Purpose Diesel Railcar"
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DC0001}.description",
       "source": "一般型であるキハ20、30、45、40型および急行型であるキハ58型気動車などを混合した編成。雑多な車種と塗装が特徴。郵便車や荷物車を組み込むこともある。",
-      "translation": ""
+      "translation": "A formation mixing general-purpose KiHa 20, 30, 45, 40 type diesel railcars and express-type KiHa 58 diesel railcars. Characterized by a variety of vehicle types and paint schemes. May also include mail cars and baggage cars."
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DC0002}.name",
       "source": "キハ４５",
-      "translation": ""
+      "translation": "Kiha 45"
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DC0002}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DC0002}.type",
       "source": "キハ45系一般型気動車",
-      "translation": ""
+      "translation": "Kiha 45 Series General-Purpose Diesel Railcar"
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DC0002}.description",
       "source": "キハ20系一般型気動車を置き換えるために作られた車両。現在ではキハ40系に置き換えられ、本州型のキハ45、北海道型のキハ24・46は形式消滅。本州型両運転台のキハ23・53系のみが細々と生き延びている。",
-      "translation": ""
+      "translation": "Rolling stock built to replace the Kiha 20 Series general-purpose diesel railcars. Currently, they have been replaced by the Kiha 40 Series, and the Honshu-type Kiha 45 and Hokkaido-type Kiha 24/46 have been retired. Only the Honshu-type Kiha 23/53 Series with dual cabs are barely surviving."
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DD54-1.name",
       "source": "旧客普通列車（茶）",
-      "translation": ""
+      "translation": "Old Passenger Local Train (Brown)"
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DD54-1.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DD54-1.description",
       "source": "旧式客車で編成された普通列車。荷物車も併結する。",
-      "translation": ""
+      "translation": "Local train formed by old-style passenger coaches. Also coupled with baggage cars."
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DD54-2.name",
       "source": "旧客普通列車（青）",
-      "translation": ""
+      "translation": "Old Passenger Local Train (Blue)"
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DD54-2.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DD54-2.description",
       "source": "旧式客車で編成された普通列車。荷物車も併結する。",
-      "translation": ""
+      "translation": "Local train formed by old-style passenger coaches. Also coupled with baggage cars."
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DD54-3.name",
       "source": "20系ブルートレイン(出雲)",
-      "translation": ""
+      "translation": "20 Series Blue Train (Izumo)"
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DD54-3.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DD54-3.description",
       "source": "走るホテルと絶賛された初代ブルートレイン車両による往年の夜行特急列車。",
-      "translation": ""
+      "translation": "A classic overnight limited express train, praised as a 'hotel on wheels,' featuring the first-generation Blue Train rolling stock."
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-911-01.name",
       "source": "新幹線用ディーゼル機関車",
-      "translation": ""
+      "translation": "Shinkansen Diesel Locomotive"
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-911-01.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-911-01.description",
       "source": "日本最速・最強のディーゼル機関車。新幹線16両を130Km/hで牽引でき、単機では160Km/hを誇る。しかし、新幹線は無事故であったため、活躍する機会のないまま全車引退した。",
-      "translation": ""
+      "translation": "Japan's fastest and strongest diesel locomotive. Capable of pulling 16 Shinkansen cars at 130 km/h, and boasts 160 km/h solo. However, due to the Shinkansen's accident-free record, all units were retired without having a chance to be active."
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DF50-1.name",
       "source": "旧客普通列車（茶）",
-      "translation": ""
+      "translation": "Old Passenger Local Train (Brown)"
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DF50-1.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DF50-1.description",
       "source": "旧式客車で編成された普通列車。荷物車も併結する。",
-      "translation": ""
+      "translation": "Local train formed by old-style passenger coaches. Also coupled with baggage cars."
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DF50-2.name",
       "source": "旧客普通列車（青）",
-      "translation": ""
+      "translation": "Old Passenger Local Train (Blue)"
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DF50-2.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DF50-2.description",
       "source": "旧式客車で編成された普通列車。荷物車も併結する。",
-      "translation": ""
+      "translation": "Local train formed by old-style passenger coaches. Also coupled with baggage cars."
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DF50-3.name",
       "source": "20系ブルートレイン",
-      "translation": ""
+      "translation": "20 Series Blue Train"
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DF50-3.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DF50-3.description",
       "source": "走るホテルと絶賛された初代ブルートレイン車両による往年の夜行特急列車。",
-      "translation": ""
+      "translation": "A classic overnight limited express train, praised as a 'hotel on wheels,' featuring the first-generation Blue Train rolling stock."
     }
   ]
 }

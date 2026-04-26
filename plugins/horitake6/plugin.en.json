@@ -6,27 +6,27 @@
     {
       "key": "plugin.title",
       "source": "勾配道路",
-      "translation": ""
+      "translation": "Sloped Road"
     },
     {
       "key": "contribution.{76B1107C-FE91-4608-9C44-408F1E1D0EC7}.name",
       "source": "勾配道路",
-      "translation": ""
+      "translation": "Sloped Road"
     },
     {
       "key": "contribution.{76B1107C-FE91-4608-9C44-408F1E1D0EC7}.group",
       "source": "道路関連物",
-      "translation": ""
+      "translation": "Road Related Objects"
     },
     {
       "key": "contribution.{CD6744B4-F172-481B-9658-C91A2E06A38F}.name",
       "source": "勾配道路",
-      "translation": ""
+      "translation": "Sloped Road"
     },
     {
       "key": "contribution.{CD6744B4-F172-481B-9658-C91A2E06A38F}.group",
       "source": "道路関連物",
-      "translation": ""
+      "translation": "Road Related Objects"
     }
   ]
 }

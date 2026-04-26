@@ -5,13 +5,13 @@
   "texts": [
     {
       "key": "plugin.title",
-      "source": "建物総合コンバート\u3000綾瀬ヒロ",
-      "translation": ""
+      "source": "建物総合コンバート　綾瀬ヒロ",
+      "translation": "Building General Conversion Ayase Hiro"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-Patlabor01a}-gs.group",
       "source": "特車２課棟",
-      "translation": ""
+      "translation": "Special Vehicles Section 2 Building"
     }
   ]
 }

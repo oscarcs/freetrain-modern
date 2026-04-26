@@ -6,27 +6,27 @@
     {
       "key": "plugin.title",
       "source": "バラスト",
-      "translation": ""
+      "translation": "Ballast"
     },
     {
       "key": "contribution.{FreeTrain-Amoon-Kisaragi-RoadImg-Siba3}.name",
       "source": "バラスト(灰)",
-      "translation": ""
+      "translation": "Ballast (gray)"
     },
     {
       "key": "contribution.{FreeTrain-Amoon-Kisaragi-RoadImg-Siba3}.description",
       "source": "バラスト(灰)",
-      "translation": ""
+      "translation": "Ballast (gray)"
     },
     {
       "key": "contribution.{FreeTrain-Amoon-Kisaragi-RoadImg-Siba2}.name",
       "source": "バラスト(茶)",
-      "translation": ""
+      "translation": "Ballast (brown)"
     },
     {
       "key": "contribution.{FreeTrain-Amoon-Kisaragi-RoadImg-Siba2}.description",
       "source": "バラスト(茶)",
-      "translation": ""
+      "translation": "Ballast (brown)"
     }
   ]
 }

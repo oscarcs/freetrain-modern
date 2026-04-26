@@ -6,77 +6,77 @@
     {
       "key": "plugin.title",
       "source": "デオ900",
-      "translation": ""
+      "translation": "Deo 900"
     },
     {
       "key": "contribution.{7661CAC2-57EE-4F0B-957A-E6DF86A148C4-901}.name",
-      "source": "きらら\u3000紅色(901編成)",
-      "translation": ""
+      "source": "きらら　紅色(901編成)",
+      "translation": "Kirara Crimson (901 formation)"
     },
     {
       "key": "contribution.{7661CAC2-57EE-4F0B-957A-E6DF86A148C4-901}.company",
       "source": "叡山電鉄",
-      "translation": ""
+      "translation": "Eizan Electric Railway"
     },
     {
       "key": "contribution.{7661CAC2-57EE-4F0B-957A-E6DF86A148C4-901}.type",
       "source": "デオ900",
-      "translation": ""
+      "translation": "Deo 900"
     },
     {
       "key": "contribution.{7661CAC2-57EE-4F0B-957A-E6DF86A148C4-901}.description",
       "source": "出町柳～鞍馬を結ぶ観光用電車として平成9年に誕生した電車です。窓を大きく取ったダイナミックなデザイン、叡電初のクロスシート等、乗っていて楽しい電車です。(中間車を連結していますが、実車には中間車はありません)",
-      "translation": ""
+      "translation": "An electric train born in 1997 as a sightseeing train connecting Demachiyanagi and Kurama. It is a fun train to ride, with a dynamic design featuring large windows, and Eiden's first cross-seats. (Although an intermediate car is coupled, the actual train does not have one.)"
     },
     {
       "key": "contribution.{7661CAC2-57EE-4F0B-957A-E6DF86A148C4-903}.name",
-      "source": "きらら\u3000朱色(903編成)",
-      "translation": ""
+      "source": "きらら　朱色(903編成)",
+      "translation": "Kirara Vermilion (903 formation)"
     },
     {
       "key": "contribution.{7661CAC2-57EE-4F0B-957A-E6DF86A148C4-903}.company",
       "source": "叡山電鉄",
-      "translation": ""
+      "translation": "Eizan Electric Railway"
     },
     {
       "key": "contribution.{7661CAC2-57EE-4F0B-957A-E6DF86A148C4-903}.type",
       "source": "デオ900",
-      "translation": ""
+      "translation": "Deo 900"
     },
     {
       "key": "contribution.{7661CAC2-57EE-4F0B-957A-E6DF86A148C4-903}.description",
       "source": "第一編成が好評だった為、急遽製造された第二編成です。ちなみに車名の\"きらら\"とは沿線近くにある｢雲母坂(きらら坂)｣から命名された。(中間車を連結していますが、実車には中間車はありません)",
-      "translation": ""
+      "translation": "This is the second formation, urgently manufactured due to the popularity of the first formation. The train name 'Kirara' was named after 'Kirara-zaka' (Kirara Slope) near the line. (Intermediate cars are connected, but the actual train does not have intermediate cars)."
     },
     {
       "key": "contribution.{nyaganyaga-deo600}.company",
       "source": "叡山電鉄",
-      "translation": ""
+      "translation": "Eizan Electric Railway"
     },
     {
       "key": "contribution.{nyaganyaga-deo600}.type",
       "source": "デオ600",
-      "translation": ""
+      "translation": "Deo 600"
     },
     {
       "key": "contribution.{nyaganyaga-deo600}.description",
       "source": "デナ500の足回りを使用して製作された車両。冷房化されていないので現在2両を残すのみです。",
-      "translation": ""
+      "translation": "A vehicle manufactured using the underframe of the Dena 500. Only 2 cars remain today as they are not air-conditioned."
     },
     {
       "key": "contribution.{nyaganyaga-deo700}.company",
       "source": "叡山電鉄",
-      "translation": ""
+      "translation": "Eizan Electric Railway"
     },
     {
       "key": "contribution.{nyaganyaga-deo700}.type",
       "source": "デオ700",
-      "translation": ""
+      "translation": "Deo 700"
     },
     {
       "key": "contribution.{nyaganyaga-deo700}.description",
       "source": "叡電初の冷房車でワンマン対応の車両です。余談ながら叡電の車両は武庫川車両製で阪神の部品がかなり使われています",
-      "translation": ""
+      "translation": "This is Eiden's first air-conditioned vehicle, compatible with one-man operation. Incidentally, Eiden's vehicles are manufactured by Mukogawa Sharyo and extensively use Hanshin parts."
     }
   ]
 }

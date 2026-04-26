@@ -6,27 +6,27 @@
     {
       "key": "plugin.title",
       "source": "E217系",
-      "translation": ""
+      "translation": "E217 Series"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B4B5A4-E217-W}.name",
       "source": "総武快速・横須賀線",
-      "translation": ""
+      "translation": "Sobu Rapid/Yokosuka Line"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B4B5A4-E217-W}.company",
       "source": "JR東日本",
-      "translation": ""
+      "translation": "JR East"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B4B5A4-E217-W}.type",
       "source": "E217系",
-      "translation": ""
+      "translation": "E217 Series"
     },
     {
       "key": "contribution.{669D5BDE-23F1-43BD-AC36-B4B5A4-E217-W}.description",
       "source": "総武快速・横須賀線の混雑緩和、スピードアップを目的として登場した車両。\nＪＲ東日本の通勤路線として初めて120ｋｍ/ｈ運転を開始した。\n4ドア、ロングシート配列という209系のスタイルを踏襲しつつ、長距離客に配慮して3両のセミクロスシート車を連結。\n横須賀線ならではのグリーン車(２階建て)を2両連結している。\n現在は湘南新宿ラインとして新宿駅にも乗り入れしている。\n編成は4両、11両、15両の3種類に、4両編成を2・3編成連結した８・12両を用意しました。",
-      "translation": ""
+      "translation": "Vehicles introduced to alleviate congestion and speed up services on the Sobu Rapid and Yokosuka Lines. They were the first JR East commuter line to begin 120 km/h operation. While following the 209 Series style of 4 doors and long seats, 3 semi-cross-seat cars are connected for long-distance passengers. Two double-decker Green Cars, unique to the Yokosuka Line, are also connected. Currently, they also operate into Shinjuku Station as part of the Shonan-Shinjuku Line. Formations of 4, 11, and 15 cars are available, as well as 8 and 12-car formations made by connecting two or three 4-car formations."
     }
   ]
 }

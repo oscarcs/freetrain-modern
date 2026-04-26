@@ -6,27 +6,27 @@
     {
       "key": "plugin.title",
       "source": "建物プラグイン",
-      "translation": ""
+      "translation": "Building plugin"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-Plants-01a}.group",
       "source": "工場(小)",
-      "translation": ""
+      "translation": "Factory (small)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-Plants-01b}.group",
       "source": "工場(小)",
-      "translation": ""
+      "translation": "Factory (small)"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-Plants-02a}.group",
       "source": "倉庫",
-      "translation": ""
+      "translation": "Warehouse"
     },
     {
       "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-Plants-02b}.group",
       "source": "倉庫",
-      "translation": ""
+      "translation": "Warehouse"
     }
   ]
 }

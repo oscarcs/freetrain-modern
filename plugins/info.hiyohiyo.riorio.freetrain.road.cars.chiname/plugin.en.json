@@ -5,48 +5,48 @@
   "texts": [
     {
       "key": "plugin.title",
-      "source": "自動車\u3000コンテナトレーラ",
-      "translation": ""
+      "source": "自動車　コンテナトレーラ",
+      "translation": "Car Container Trailer"
     },
     {
       "key": "contribution.{riorio-cars-4930-C477-9699E6F37DF8}-0,0.name",
       "source": "コンテナトレーラ(前)",
-      "translation": ""
+      "translation": "Container trailer (front)"
     },
     {
       "key": "contribution.{riorio-cars-4930-C477-9699E6F37DF8}-1,0.name",
       "source": "コンテナトレーラ(後)",
-      "translation": ""
+      "translation": "Container trailer (rear)"
     },
     {
       "key": "contribution.{riorio-cars-4930-C477-9699E6F37DF8}-0,1.name",
       "source": "空トレーラ(前)",
-      "translation": ""
+      "translation": "Empty trailer (front)"
     },
     {
       "key": "contribution.{riorio-cars-4930-C477-9699E6F37DF8}-1,1.name",
       "source": "空トレーラ(後)",
-      "translation": ""
+      "translation": "Empty trailer (rear)"
     },
     {
       "key": "contribution.{riorio-cars-4930-C477-9699E6F37DF8}-2,0.name",
       "source": "コンテナトレーラ*(前)",
-      "translation": ""
+      "translation": "Container trailer* (front)"
     },
     {
       "key": "contribution.{riorio-cars-4930-C477-9699E6F37DF8}-3,0.name",
       "source": "コンテナトレーラ*(後)",
-      "translation": ""
+      "translation": "Container trailer* (rear)"
     },
     {
       "key": "contribution.{riorio-cars-4930-C477-9699E6F37DF8}-2,1.name",
       "source": "空トレーラ(前)*",
-      "translation": ""
+      "translation": "Empty trailer (front)*"
     },
     {
       "key": "contribution.{riorio-cars-4930-C477-9699E6F37DF8}-3,1.name",
       "source": "空トレーラ(後)*",
-      "translation": ""
+      "translation": "Empty trailer (rear)*"
     }
   ]
 }

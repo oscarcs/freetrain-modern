@@ -6,247 +6,247 @@
     {
       "key": "plugin.title",
       "source": "車輌(気動車:レールバス)",
-      "translation": ""
+      "translation": "Vehicles (Diesel Railcars: Railbus)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-kiha01-railbus}.name",
       "source": "レールバス",
-      "translation": ""
+      "translation": "Railbus"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-kiha01-railbus}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-kiha01-railbus}.type",
       "source": "キハ01",
-      "translation": ""
+      "translation": "Kiha 01"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-kiha01-railbus}.description",
       "source": "レールバスと呼ばれた小型ディーゼルカーです。1954年から12両製造されています。製造当初はキハ10000～11でしたが、1957年に旧キハ10000～03がキハ01の1～4に、旧キハ10004～11がキハ01の51～58に改番されています。",
-      "translation": ""
+      "translation": "This is a small diesel railcar known as a railbus. 12 units were manufactured starting in 1954. Initially numbered KiHa 10000-11, they were renumbered in 1957: former KiHa 10000-03 became KiHa 01 1-4, and former KiHa 10004-11 became KiHa 01 51-58."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-kiyuni01-railbus}.name",
       "source": "レールバス",
-      "translation": ""
+      "translation": "Railbus"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-kiyuni01-railbus}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-kiyuni01-railbus}.type",
       "source": "キユニ01",
-      "translation": ""
+      "translation": "Kiyuni 01"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-kiyuni01-railbus}.description",
       "source": "1952年にキハ01-55の室内のみを改造しキユニ01-1としたもので、1両のみ製造されました。山陰本線と三江北線で使用され、昭和42年に廃車されています。",
-      "translation": ""
+      "translation": "In 1952, only the interior of KiHa 01-55 was modified to create KiYuNi 01-1, with only one unit manufactured. It was used on the San'in Main Line and Sanko-Kita Line, and was retired in Showa 42 (1967)."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-kiha02-railbus}.name",
       "source": "レールバス",
-      "translation": ""
+      "translation": "Railbus"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-kiha02-railbus}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-kiha02-railbus}.type",
       "source": "キハ02",
-      "translation": ""
+      "translation": "Kiha 02"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-kiha02-railbus}.description",
       "source": "レールバスと呼ばれた小型ディーゼルカーです。キハ02系は17両製造されました。製造当初はキハ10012～28でしたが、1957年にキハ02 1～17に改番されています。",
-      "translation": ""
+      "translation": "This is a small diesel railcar known as a railbus. 17 units of the KiHa 02 Series were manufactured. Initially numbered KiHa 10012-28, they were renumbered to KiHa 02 1-17 in 1957."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-kiha03-railbus}.name",
       "source": "レールバス",
-      "translation": ""
+      "translation": "Railbus"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-kiha03-railbus}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-kiha03-railbus}.type",
       "source": "キハ03",
-      "translation": ""
+      "translation": "Kiha 03"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-kiha03-railbus}.description",
       "source": "1956年に東急車輌でキハ02を基本に北海道向けとして製造された極寒仕様のレールバスです。客窓は二重窓になり、暖房装置が強化が図られています。製造当初はキハ10200～10219でしたが、1957年にキハ03 1～20に改番されています。1966年までに全車廃車となっています。",
-      "translation": ""
+      "translation": "This is an extreme cold-weather railbus manufactured by Tokyu Car Corporation in 1956, based on the KiHa 02, for Hokkaido. Passenger windows were double-glazed, and heating systems were reinforced. Initially numbered KiHa 10200-10219, they were renumbered to KiHa 03 1-20 in 1957. All units were retired by 1966."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-nanbu-kiha10-railbus}.name",
       "source": "レールバス",
-      "translation": ""
+      "translation": "Railbus"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-nanbu-kiha10-railbus}.company",
       "source": "南部縦貫鉄道",
-      "translation": ""
+      "translation": "Nanbu Jukan Railway"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-nanbu-kiha10-railbus}.type",
       "source": "キハ10",
-      "translation": ""
+      "translation": "KiHa 10"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-nanbu-kiha10-railbus}.description",
       "source": "1962(昭和37)年10月20日の南部縦貫鉄道の開業に合わせて富士重工で製造されました。1996年にエバーグリーン賞受賞。なお南部縦貫鉄道は1997(平成9)年5月5日に営業休止となり、後の2002(平成14)年8月1日をもって鉄道事業廃止となっています。",
-      "translation": ""
+      "translation": "Manufactured by Fuji Heavy Industries to coincide with the opening of the Nanbu Jukan Railway on October 20, 1962 (Showa 37). Received the Evergreen Award in 1996. The Nanbu Jukan Railway ceased operations on May 5, 1997 (Heisei 9), and its railway business was abolished on August 1, 2002 (Heisei 14)."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-tarumi-haimo180-railbus}.name",
       "source": "レールバス",
-      "translation": ""
+      "translation": "Railbus"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-tarumi-haimo180-railbus}.company",
       "source": "樽見鉄道",
-      "translation": ""
+      "translation": "Tarumi Railway"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-tarumi-haimo180-railbus}.type",
       "source": "ハイモ180",
-      "translation": ""
+      "translation": "Haimo 180"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-tarumi-haimo180-railbus}.description",
       "source": "富士重工製造のLE-Car(ライトエコノミー・ディーゼルカー)のレールバスです。クロスシートとロングシートの3両ありましたが、クロスシートだった1両は和歌山県の有田鉄道に譲渡されました。",
-      "translation": ""
+      "translation": "This is a LE-Car (Light Economy Diesel Car) railbus manufactured by Fuji Heavy Industries. There were three cars with cross seats and long seats, but one car with cross seats was transferred to the Arida Railway in Wakayama Prefecture."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-arita-haimo180-railbus}.name",
       "source": "レールバス",
-      "translation": ""
+      "translation": "Railbus"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-arita-haimo180-railbus}.company",
       "source": "有田鉄道",
-      "translation": ""
+      "translation": "Arita Railway"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-arita-haimo180-railbus}.type",
       "source": "ハイモ180",
-      "translation": ""
+      "translation": "Haimo 180"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-arita-haimo180-railbus}.description",
       "source": "富士重工製造のLE-Car(ライトエコノミー・ディーゼルカー)のレールバスです。樽見鉄道より譲渡されたもので、クロスシート34席定員70名です。",
-      "translation": ""
+      "translation": "This is a LE-Car (Light Economy Diesel Car) railbus manufactured by Fuji Heavy Industries. It was transferred from Tarumi Railway, with 34 cross seats and a capacity of 70 people."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-miki-miki180-railbus}.name",
       "source": "レールバス",
-      "translation": ""
+      "translation": "Railbus"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-miki-miki180-railbus}.company",
       "source": "三木鉄道",
-      "translation": ""
+      "translation": "Miki Railway"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-miki-miki180-railbus}.type",
       "source": "ミキ180",
-      "translation": ""
+      "translation": "Miki 180"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-miki-miki180-railbus}.description",
       "source": "富士重工製造のLE-Car(ライトエコノミー・ディーゼルカー)のレールバスです。",
-      "translation": ""
+      "translation": "This is a LE-Car (Light Economy Diesel Car) railbus manufactured by Fuji Heavy Industries."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-miki-hurawa1985-1-railbus}.name",
       "source": "レールバス",
-      "translation": ""
+      "translation": "Railbus"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-miki-hurawa1985-1-railbus}.company",
       "source": "北条鉄道",
-      "translation": ""
+      "translation": "Hojo Railway"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-miki-hurawa1985-1-railbus}.type",
       "source": "フラワ1985-1",
-      "translation": ""
+      "translation": "Flower 1985-1"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-miki-hurawa1985-1-railbus}.description",
       "source": "富士重工製造のLE-Car(ライトエコノミー・ディーゼルカー)のレールバスです。塗装は1号車が白地に赤に黄緑､2号車は赤に青､3号車は赤に緑色の帯です。",
-      "translation": ""
+      "translation": "This is an LE-Car (Light Economy Diesel Car) railbus manufactured by Fuji Heavy Industries. Car 1's livery is white with red and yellow-green, Car 2's is red with blue, and Car 3's is red with a green stripe."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-miki-hurawa1985-2-railbus}.name",
       "source": "レールバス",
-      "translation": ""
+      "translation": "Railbus"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-miki-hurawa1985-2-railbus}.company",
       "source": "北条鉄道",
-      "translation": ""
+      "translation": "Hojo Railway"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-miki-hurawa1985-2-railbus}.type",
       "source": "フラワ1985-2",
-      "translation": ""
+      "translation": "Flower 1985-2"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-miki-hurawa1985-2-railbus}.description",
       "source": "富士重工製造のLE-Car(ライトエコノミー・ディーゼルカー)のレールバスです。塗装は1号車が白地に赤に黄緑､2号車は赤に青､3号車は赤に緑色の帯です。",
-      "translation": ""
+      "translation": "This is an LE-Car (Light Economy Diesel Car) railbus manufactured by Fuji Heavy Industries. Car 1's livery is white with red and yellow-green, Car 2's is red with blue, and Car 3's is red with a green stripe."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-miki-hurawa1985-3-railbus}.name",
       "source": "レールバス",
-      "translation": ""
+      "translation": "Railbus"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-miki-hurawa1985-3-railbus}.company",
       "source": "北条鉄道",
-      "translation": ""
+      "translation": "Hojo Railway"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-miki-hurawa1985-3-railbus}.type",
       "source": "フラワ1985-3",
-      "translation": ""
+      "translation": "Flower 1985-3"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-miki-hurawa1985-3-railbus}.description",
       "source": "富士重工製造のLE-Car(ライトエコノミー・ディーゼルカー)のレールバスです。塗装は1号車が白地に赤に黄緑､2号車は赤に青､3号車は赤に緑色の帯です。",
-      "translation": ""
+      "translation": "This is an LE-Car (Light Economy Diesel Car) railbus manufactured by Fuji Heavy Industries. Car 1's livery is white with red and yellow-green, Car 2's is red with blue, and Car 3's is red with a green stripe."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-meitetu-kiha10-railbus}.name",
       "source": "レールバス",
-      "translation": ""
+      "translation": "Railbus"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-meitetu-kiha10-railbus}.company",
       "source": "名古屋鉄道",
-      "translation": ""
+      "translation": "Meitetsu"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-meitetu-kiha10-railbus}.type",
       "source": "キハ10",
-      "translation": ""
+      "translation": "KiHa 10"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-meitetu-kiha10-railbus}.description",
       "source": "八百津線と三河線用に1984(昭和59)年に富士重工で非冷房車が製造され、1985(昭和60)年に冷房車が製造されました。1995(平成7)年に全車廃車となっていますが、冷房車2両(キハ15･16)はくりはら田園鉄道に移籍されました。",
-      "translation": ""
+      "translation": "Non-air-conditioned cars were manufactured by Fuji Heavy Industries in 1984 (Showa 59) for the Yaotsu Line and Mikawa Line, followed by air-conditioned cars in 1985 (Showa 60). All cars were scrapped in 1995 (Heisei 7), but two air-conditioned cars (Kiha 15 and 16) were transferred to the Kurihara Denen Railway."
     }
   ]
 }

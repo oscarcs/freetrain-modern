@@ -6,67 +6,67 @@
     {
       "key": "plugin.title",
       "source": "西日本鉄道 車両キット",
-      "translation": ""
+      "translation": "Nishi-Nippon Railroad Vehicle Kit"
     },
     {
       "key": "contribution.{A99766D7-C2A4-415d-BF85-0A80B35CA154}.name",
       "source": "標準色",
-      "translation": ""
+      "translation": "Standard livery"
     },
     {
       "key": "contribution.{A99766D7-C2A4-415d-BF85-0A80B35CA154}.company",
       "source": "西日本鉄道",
-      "translation": ""
+      "translation": "Nishitetsu Railway"
     },
     {
       "key": "contribution.{A99766D7-C2A4-415d-BF85-0A80B35CA154}.type",
       "source": "5000形/6000系/6050系",
-      "translation": ""
+      "translation": "5000 type / 6000 Series / 6050 Series"
     },
     {
       "key": "contribution.{A99766D7-C2A4-415d-BF85-0A80B35CA154}.description",
       "source": "天神大牟田線を走る電車。ラッシュ時の特急から普通まで幅広く使用される。",
-      "translation": ""
+      "translation": "An electric train running on the Tenjin Omuta Line. Widely used for services ranging from limited express during rush hour to local trains."
     },
     {
       "key": "contribution.{C8C28E0C-09E4-415a-BA48-1D7039B3D7EC}.name",
       "source": "標準色",
-      "translation": ""
+      "translation": "Standard livery"
     },
     {
       "key": "contribution.{C8C28E0C-09E4-415a-BA48-1D7039B3D7EC}.company",
       "source": "西日本鉄道",
-      "translation": ""
+      "translation": "Nishitetsu Railway"
     },
     {
       "key": "contribution.{C8C28E0C-09E4-415a-BA48-1D7039B3D7EC}.type",
       "source": "600形",
-      "translation": ""
+      "translation": "Type 600"
     },
     {
       "key": "contribution.{C8C28E0C-09E4-415a-BA48-1D7039B3D7EC}.description",
       "source": "天神大牟田線・甘木線を走る電車。ワンマン運転が可能。徐々に本数を減らしている。",
-      "translation": ""
+      "translation": "An electric train running on the Tenjin Omuta Line and Amagi Line. Capable of one-person operation. The number of services is gradually decreasing."
     },
     {
       "key": "contribution.{D5429C22-40B3-4d36-BCBB-B61968CA3F65}.name",
       "source": "標準色",
-      "translation": ""
+      "translation": "Standard livery"
     },
     {
       "key": "contribution.{D5429C22-40B3-4d36-BCBB-B61968CA3F65}.company",
       "source": "西日本鉄道",
-      "translation": ""
+      "translation": "Nishitetsu Railway"
     },
     {
       "key": "contribution.{D5429C22-40B3-4d36-BCBB-B61968CA3F65}.type",
       "source": "2000形",
-      "translation": ""
+      "translation": "2000 type"
     },
     {
       "key": "contribution.{D5429C22-40B3-4d36-BCBB-B61968CA3F65}.description",
       "source": "天神大牟田線を走る電車。主に急行などに使用される。中央に運転台がある。",
-      "translation": ""
+      "translation": "An electric train running on the Tenjin Omuta Line. Primarily used for express services. It has a central driver's cab."
     }
   ]
 }

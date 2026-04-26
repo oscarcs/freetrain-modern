@@ -6,267 +6,267 @@
     {
       "key": "plugin.title",
       "source": "橋",
-      "translation": ""
+      "translation": "Bridge"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-sidewalk-right}.name",
       "source": "歩道付橋(右車線用)",
-      "translation": ""
+      "translation": "Bridge with sidewalk (for right lane)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-sidewalk-right}.description",
       "source": "歩道付道路用橋",
-      "translation": ""
+      "translation": "Road bridge with sidewalk"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-sidewalk-left}.name",
       "source": "歩道付橋(左車線用)",
-      "translation": ""
+      "translation": "Bridge with sidewalk (for left lane)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-sidewalk-left}.description",
       "source": "歩道付道路用橋",
-      "translation": ""
+      "translation": "Road bridge with sidewalk"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-sidewalk2-right}.name",
       "source": "歩道街灯付橋(右車線用)",
-      "translation": ""
+      "translation": "Bridge with sidewalk and streetlight (for right lane)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-sidewalk2-right}.description",
       "source": "歩道付道路用橋",
-      "translation": ""
+      "translation": "Road bridge with sidewalk"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-sidewalk2-left}.name",
       "source": "歩道街灯付橋(左車線用)",
-      "translation": ""
+      "translation": "Bridge with sidewalk and streetlight (for left lane)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-sidewalk2-left}.description",
       "source": "歩道付道路用橋",
-      "translation": ""
+      "translation": "Road bridge with sidewalk"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-PlateGirderBridges_w}.name",
       "source": "桁橋(白:二車線破線)",
-      "translation": ""
+      "translation": "Girder bridge (white: two-lane dashed line)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-PlateGirderBridges_w}.description",
       "source": "橋",
-      "translation": ""
+      "translation": "Bridge"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-PlateGirderBridges_c}.name",
       "source": "桁橋(灰:二車線破線)",
-      "translation": ""
+      "translation": "Girder bridge (gray: two-lane dashed line)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-PlateGirderBridges_c}.description",
       "source": "橋",
-      "translation": ""
+      "translation": "Bridge"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-stonebride}.name",
       "source": "桁橋(石橋)",
-      "translation": ""
+      "translation": "Girder bridge (stone bridge)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-stonebride}.description",
       "source": "橋",
-      "translation": ""
+      "translation": "Bridge"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-woodbride}.name",
       "source": "桁橋(木橋)",
-      "translation": ""
+      "translation": "Girder bridge (wooden bridge)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-woodbride}.description",
       "source": "橋",
-      "translation": ""
+      "translation": "Bridge"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-trussbride_r}.name",
       "source": "トラス橋(赤:二車線破線)",
-      "translation": ""
+      "translation": "Truss bridge (red: two-lane dashed line)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-trussbride_r}.description",
       "source": "橋",
-      "translation": ""
+      "translation": "Bridge"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-trussbride_g}.name",
       "source": "トラス橋(緑:二車線破線)",
-      "translation": ""
+      "translation": "Truss bridge (green: two-lane dashed line)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-trussbride_g}.description",
       "source": "橋",
-      "translation": ""
+      "translation": "Bridge"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-trussbride_b}.name",
       "source": "トラス橋(紺:二車線破線)",
-      "translation": ""
+      "translation": "Truss bridge (navy: two-lane dashed line)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-trussbride_b}.description",
       "source": "橋",
-      "translation": ""
+      "translation": "Bridge"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-trussbride_n}.name",
       "source": "トラス橋(灰:二車線破線)",
-      "translation": ""
+      "translation": "Truss bridge (gray: two-lane dashed line)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-trussbride_n}.description",
       "source": "橋",
-      "translation": ""
+      "translation": "Bridge"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-trussbride_w}.name",
       "source": "トラス橋(白:二車線破線)",
-      "translation": ""
+      "translation": "Truss bridge (white: two-lane dashed line)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-trussbride_w}.description",
       "source": "橋",
-      "translation": ""
+      "translation": "Bridge"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-loshebridge_r}.name",
       "source": "ローゼ橋(赤:二車線破線)",
-      "translation": ""
+      "translation": "Lohse Bridge (Red: Two-Lane Dashed Line)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-loshebridge_r}.description",
       "source": "橋",
-      "translation": ""
+      "translation": "Bridge"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-loshebridge_g}.name",
       "source": "ローゼ橋(緑:二車線破線)",
-      "translation": ""
+      "translation": "Lohse Bridge (Green: Two-Lane Dashed Line)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-loshebridge_g}.description",
       "source": "橋",
-      "translation": ""
+      "translation": "Bridge"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-loshebridge_b}.name",
       "source": "ローゼ橋(紺:二車線破線)",
-      "translation": ""
+      "translation": "Lohse Bridge (Navy: Two-Lane Dashed Line)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-loshebridge_b}.description",
       "source": "橋",
-      "translation": ""
+      "translation": "Bridge"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-loshebridge_n}.name",
       "source": "ローゼ橋(灰:二車線破線)",
-      "translation": ""
+      "translation": "Lohse Bridge (Gray: Two-Lane Dashed Line)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-loshebridge_n}.description",
       "source": "橋",
-      "translation": ""
+      "translation": "Bridge"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-loshebridge_w}.name",
       "source": "ローゼ橋(白:二車線破線)",
-      "translation": ""
+      "translation": "Lohse Bridge (White: Two-Lane Dashed Line)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-loshebridge_w}.description",
       "source": "橋",
-      "translation": ""
+      "translation": "Bridge"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-CableStayedBridge1_w}.name",
       "source": "斜張橋(白:二車線破線)",
-      "translation": ""
+      "translation": "Cable-Stayed Bridge (White: Two Lanes Dashed)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-CableStayedBridge1_w}.description",
       "source": "橋",
-      "translation": ""
+      "translation": "Bridge"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-CableStayedBridge2_w}.name",
       "source": "斜張橋(白:中央車線破線)",
-      "translation": ""
+      "translation": "Cable-Stayed Bridge (White: Center Lane Dashed)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-CableStayedBridge2_w}.description",
       "source": "橋",
-      "translation": ""
+      "translation": "Bridge"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-CableStayedBridge3l_w}.name",
       "source": "斜張橋(白:左車線)",
-      "translation": ""
+      "translation": "Cable-Stayed Bridge (White: Left Lane)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-CableStayedBridge3l_w}.description",
       "source": "橋",
-      "translation": ""
+      "translation": "Bridge"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-CableStayedBridge3r_w}.name",
       "source": "斜張橋(白:右車線)",
-      "translation": ""
+      "translation": "Cable-Stayed Bridge (White: Right Lane)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-CableStayedBridge3r_w}.description",
       "source": "橋",
-      "translation": ""
+      "translation": "Bridge"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-rord_SuspensionBridge1_r}.name",
       "source": "吊橋(赤:二車線破線)",
-      "translation": ""
+      "translation": "Suspension Bridge (Red: Two-Lane Dashed Line)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-rord_SuspensionBridge1_r}.description",
       "source": "橋",
-      "translation": ""
+      "translation": "Bridge"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-rord_SuspensionBridge1_w}.name",
       "source": "吊橋(白:二車線破線)",
-      "translation": ""
+      "translation": "Suspension Bridge (White: Two-Lane Dashed Line)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-rord_SuspensionBridge1_w}.description",
       "source": "橋",
-      "translation": ""
+      "translation": "Bridge"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-rord_SuspensionBridge3l_w}.name",
       "source": "吊橋(白:左車線)",
-      "translation": ""
+      "translation": "Suspension Bridge (White: Left Lane)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-rord_SuspensionBridge3l_w}.description",
       "source": "橋",
-      "translation": ""
+      "translation": "Bridge"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-rord_SuspensionBridge3r_w}.name",
       "source": "吊橋(白:右車線)",
-      "translation": ""
+      "translation": "Suspension Bridge (White: Right Lane)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-Road-bridge-rord_SuspensionBridge3r_w}.description",
       "source": "橋",
-      "translation": ""
+      "translation": "Bridge"
     }
   ]
 }

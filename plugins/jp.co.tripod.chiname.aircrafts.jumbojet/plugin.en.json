@@ -6,17 +6,17 @@
     {
       "key": "plugin.title",
       "source": "ジャンボ機",
-      "translation": ""
+      "translation": "Jumbo jet"
     },
     {
       "key": "contribution.{596DBDBE-FC80-413A-C477-94D33698BC6D}-00.group",
       "source": "Boeing747(大)",
-      "translation": ""
+      "translation": "Boeing 747 (Large)"
     },
     {
       "key": "contribution.{A05298A3-54F7-4C4C-C477-20B59B987CF3}-00.group",
       "source": "Boeing747(大)",
-      "translation": ""
+      "translation": "Boeing 747 (Large)"
     }
   ]
 }

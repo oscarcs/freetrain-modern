@@ -6,372 +6,372 @@
     {
       "key": "plugin.title",
       "source": "トンネル坑口",
-      "translation": ""
+      "translation": "Tunnel Portal"
     },
     {
       "key": "contribution.{RAIL0100-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "TN坑口(単線A)",
-      "translation": ""
+      "translation": "TN Tunnel Portal (Single Track A)"
     },
     {
       "key": "contribution.{RAIL0105-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "TN坑口(単線B)",
-      "translation": ""
+      "translation": "TN Tunnel Portal (Single Track B)"
     },
     {
       "key": "contribution.{RAIL0110-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "TN坑口(単線Ca)",
-      "translation": ""
+      "translation": "TN Tunnel Portal (Single Track Ca)"
     },
     {
       "key": "contribution.{RAIL0111-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "TN坑口(単線Cb)",
-      "translation": ""
+      "translation": "TN Tunnel Portal (Single Track Cb)"
     },
     {
       "key": "contribution.{RAIL0101-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "TN坑口(複線A左)",
-      "translation": ""
+      "translation": "TN Tunnel Portal (Double Track A Left)"
     },
     {
       "key": "contribution.{RAIL0102-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "TN坑口(複線A右)",
-      "translation": ""
+      "translation": "TN Tunnel Portal (Double Track A Right)"
     },
     {
       "key": "contribution.{RAIL0103-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "TN坑口(複線B左)",
-      "translation": ""
+      "translation": "TN Tunnel Portal (Double Track B Left)"
     },
     {
       "key": "contribution.{RAIL0104-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "TN坑口(複線B右)",
-      "translation": ""
+      "translation": "TN Tunnel Portal (Double Track B Right)"
     },
     {
       "key": "contribution.{RAIL5000-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "TN緩衝工(単線)",
-      "translation": ""
+      "translation": "TN Buffer (Single Track)"
     },
     {
       "key": "contribution.{RAIL5001-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "TN緩衝工(複線左)",
-      "translation": ""
+      "translation": "TN Buffer (Double Track Left)"
     },
     {
       "key": "contribution.{RAIL5002-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "TN緩衝工(複線右)",
-      "translation": ""
+      "translation": "TN Buffer (Double Track Right)"
     },
     {
       "key": "contribution.{RAIL0401-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "門型踏切",
-      "translation": ""
+      "translation": "Gantry level crossing"
     },
     {
       "key": "contribution.{RAIL0402-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "門型踏切/左",
-      "translation": ""
+      "translation": "Gantry level crossing / Left"
     },
     {
       "key": "contribution.{RAIL0403-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "門型踏切/右",
-      "translation": ""
+      "translation": "Gantry level crossing / Right"
     },
     {
       "key": "contribution.{RAIL0404-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "門型踏切/中",
-      "translation": ""
+      "translation": "Gantry level crossing / Middle"
     },
     {
       "key": "contribution.{RAIL0411-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "門型踏切/奥",
-      "translation": ""
+      "translation": "Gantry level crossing / Rear"
     },
     {
       "key": "contribution.{RAIL0412-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "門型踏切/前",
-      "translation": ""
+      "translation": "Gantry level crossing / Front"
     },
     {
       "key": "contribution.{RAIL0413-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "門型踏切/左奥",
-      "translation": ""
+      "translation": "Gantry level crossing / Rear left"
     },
     {
       "key": "contribution.{RAIL0414-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "門型踏切/左前",
-      "translation": ""
+      "translation": "Gantry level crossing / Front left"
     },
     {
       "key": "contribution.{RAIL0415-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "門型踏切/右奥",
-      "translation": ""
+      "translation": "Gantry level crossing / Rear right"
     },
     {
       "key": "contribution.{RAIL0416-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "門型踏切/右前",
-      "translation": ""
+      "translation": "Gantry level crossing / Front right"
     },
     {
       "key": "contribution.{RAIL0417-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "門型踏切/中奥",
-      "translation": ""
+      "translation": "Gantry level crossing / Middle rear"
     },
     {
       "key": "contribution.{RAIL0418-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "門型踏切/中前",
-      "translation": ""
+      "translation": "Gantry level crossing / Middle front"
     },
     {
       "key": "contribution.{RAIL0511-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "車止め/A/前",
-      "translation": ""
+      "translation": "Buffer Stop / A / Front"
     },
     {
       "key": "contribution.{RAIL0512-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "車止め/A/奥",
-      "translation": ""
+      "translation": "Buffer Stop / A / Rear"
     },
     {
       "key": "contribution.{RAIL0521-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "車止め/B/前",
-      "translation": ""
+      "translation": "Buffer Stop / B / Front"
     },
     {
       "key": "contribution.{RAIL0522-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "車止め/B/奥",
-      "translation": ""
+      "translation": "Buffer Stop / B / Rear"
     },
     {
       "key": "contribution.{RAIL0531-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "車止め/C/前",
-      "translation": ""
+      "translation": "Buffer Stop / C / Front"
     },
     {
       "key": "contribution.{RAIL0532-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "車止め/C/奥",
-      "translation": ""
+      "translation": "Buffer Stop / C / Rear"
     },
     {
       "key": "contribution.{RAIL0533-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "車止め/C+A/前",
-      "translation": ""
+      "translation": "Buffer Stop / C+A / Front"
     },
     {
       "key": "contribution.{RAIL0534-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "車止め/C+A/奥",
-      "translation": ""
+      "translation": "Buffer Stop / C+A / Rear"
     },
     {
       "key": "contribution.{RAIL0535-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "車止め/C+B/前",
-      "translation": ""
+      "translation": "Buffer Stop / C+B / Front"
     },
     {
       "key": "contribution.{RAIL0536-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "車止め/C+B/奥",
-      "translation": ""
+      "translation": "Buffer Stop / C+B / Rear"
     },
     {
       "key": "contribution.{RAIL0541-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "車止め/D/前",
-      "translation": ""
+      "translation": "Buffer Stop / D / Front"
     },
     {
       "key": "contribution.{RAIL0542-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "車止め/D/奥",
-      "translation": ""
+      "translation": "Buffer Stop / D / Rear"
     },
     {
       "key": "contribution.{RAIL0543-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "車止め/D+A/前",
-      "translation": ""
+      "translation": "Buffer Stop / D+A / Front"
     },
     {
       "key": "contribution.{RAIL0544-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "車止め/D+A/奥",
-      "translation": ""
+      "translation": "Buffer Stop / D+A / Rear"
     },
     {
       "key": "contribution.{RAIL0545-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "車止め/D+B/前",
-      "translation": ""
+      "translation": "Buffer Stop / D+B / Front"
     },
     {
       "key": "contribution.{RAIL0546-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "車止め/D+B/奥",
-      "translation": ""
+      "translation": "Buffer Stop / D+B / Rear"
     },
     {
       "key": "contribution.{RAIL0200-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "ロックシェッドA1",
-      "translation": ""
+      "translation": "Rock Shed A1"
     },
     {
       "key": "contribution.{RAIL0201-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "ロックシェッドA1c",
-      "translation": ""
+      "translation": "Rock Shed A1c"
     },
     {
       "key": "contribution.{RAIL0202-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "ロックシェッドA2",
-      "translation": ""
+      "translation": "Rock Shed A2"
     },
     {
       "key": "contribution.{RAIL0203-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "ロックシェッドA2c",
-      "translation": ""
+      "translation": "Rock Shed A2c"
     },
     {
       "key": "contribution.{RAIL0204-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "ロックシェッドAx",
-      "translation": ""
+      "translation": "Rock Shed Ax"
     },
     {
       "key": "contribution.{RAIL0205-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "ロックシェッドAy",
-      "translation": ""
+      "translation": "Rock Shed Ay"
     },
     {
       "key": "contribution.{RAIL0251-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "ラーメン橋脚A1",
-      "translation": ""
+      "translation": "Rigid-Frame Bridge Pier A1"
     },
     {
       "key": "contribution.{RAIL0252-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "ラーメン橋脚A2",
-      "translation": ""
+      "translation": "Rigid-Frame Bridge Pier A2"
     },
     {
       "key": "contribution.{RAIL0253-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "ラーメン橋脚A3",
-      "translation": ""
+      "translation": "Rigid-Frame Bridge Pier A3"
     },
     {
       "key": "contribution.{RAIL0254-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "ラーメン橋脚A4",
-      "translation": ""
+      "translation": "Rigid-Frame Bridge Pier A4"
     },
     {
       "key": "contribution.{RAIL0301-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "バラスト/砂利/[ Ｘ ]a",
-      "translation": ""
+      "translation": "Ballast/gravel/[ X ]a"
     },
     {
       "key": "contribution.{RAIL0301-8058-11D7-BB78-0090FE1AB959}.description",
       "source": "バラスト",
-      "translation": ""
+      "translation": "Ballast"
     },
     {
       "key": "contribution.{RAIL0302-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "バラスト/砂利/[ Ｘ ]b",
-      "translation": ""
+      "translation": "Ballast/gravel/[ X ]b"
     },
     {
       "key": "contribution.{RAIL0302-8058-11D7-BB78-0090FE1AB959}.description",
       "source": "バラスト",
-      "translation": ""
+      "translation": "Ballast"
     },
     {
       "key": "contribution.{RAIL0303-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "バラスト/砂利/[＋]単",
-      "translation": ""
+      "translation": "Ballast/gravel/[+] single"
     },
     {
       "key": "contribution.{RAIL0303-8058-11D7-BB78-0090FE1AB959}.description",
       "source": "バラスト",
-      "translation": ""
+      "translation": "Ballast"
     },
     {
       "key": "contribution.{RAIL0304-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "バラスト/砂利/[＋]複",
-      "translation": ""
+      "translation": "Ballast/gravel/[+] double"
     },
     {
       "key": "contribution.{RAIL0304-8058-11D7-BB78-0090FE1AB959}.description",
       "source": "バラスト",
-      "translation": ""
+      "translation": "Ballast"
     },
     {
       "key": "contribution.{RAIL0311-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "バラスト/草原/[ Ｘ ]a",
-      "translation": ""
+      "translation": "Ballast/grassland/[ X ]a"
     },
     {
       "key": "contribution.{RAIL0311-8058-11D7-BB78-0090FE1AB959}.description",
       "source": "バラスト",
-      "translation": ""
+      "translation": "Ballast"
     },
     {
       "key": "contribution.{RAIL0312-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "バラスト/草原/[ Ｘ ]b",
-      "translation": ""
+      "translation": "Ballast/grassland/[ X ]b"
     },
     {
       "key": "contribution.{RAIL0312-8058-11D7-BB78-0090FE1AB959}.description",
       "source": "バラスト",
-      "translation": ""
+      "translation": "Ballast"
     },
     {
       "key": "contribution.{RAIL0313-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "バラスト/草原/[＋]単",
-      "translation": ""
+      "translation": "Ballast/grassland/[+] single"
     },
     {
       "key": "contribution.{RAIL0313-8058-11D7-BB78-0090FE1AB959}.description",
       "source": "バラスト",
-      "translation": ""
+      "translation": "Ballast"
     },
     {
       "key": "contribution.{RAIL0314-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "バラスト/草原/[＋]複",
-      "translation": ""
+      "translation": "Ballast/grassland/[+] double"
     },
     {
       "key": "contribution.{RAIL0314-8058-11D7-BB78-0090FE1AB959}.description",
       "source": "バラスト",
-      "translation": ""
+      "translation": "Ballast"
     },
     {
       "key": "contribution.{RAIL0321-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "バラスト/山肌/[ Ｘ ]a",
-      "translation": ""
+      "translation": "Ballast/mountain face/[ X ]a"
     },
     {
       "key": "contribution.{RAIL0321-8058-11D7-BB78-0090FE1AB959}.description",
       "source": "バラスト",
-      "translation": ""
+      "translation": "Ballast"
     },
     {
       "key": "contribution.{RAIL0322-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "バラスト/山肌/[ Ｘ ]b",
-      "translation": ""
+      "translation": "Ballast/mountain face/[ X ]b"
     },
     {
       "key": "contribution.{RAIL0322-8058-11D7-BB78-0090FE1AB959}.description",
       "source": "バラスト",
-      "translation": ""
+      "translation": "Ballast"
     },
     {
       "key": "contribution.{RAIL0323-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "バラスト/山肌/[＋]単",
-      "translation": ""
+      "translation": "Ballast/mountain face/[+] single"
     },
     {
       "key": "contribution.{RAIL0323-8058-11D7-BB78-0090FE1AB959}.description",
       "source": "バラスト",
-      "translation": ""
+      "translation": "Ballast"
     },
     {
       "key": "contribution.{RAIL0324-8058-11D7-BB78-0090FE1AB959}.name",
       "source": "バラスト/山肌/[＋]複",
-      "translation": ""
+      "translation": "Ballast/mountain face/[+] double"
     },
     {
       "key": "contribution.{RAIL0324-8058-11D7-BB78-0090FE1AB959}.description",
       "source": "バラスト",
-      "translation": ""
+      "translation": "Ballast"
     }
   ]
 }

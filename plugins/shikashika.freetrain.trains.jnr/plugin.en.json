@@ -6,1192 +6,1192 @@
     {
       "key": "plugin.title",
       "source": "列車(旧日本国有鉄道)",
-      "translation": ""
+      "translation": "Train (former JNR)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LimitedExpressTrain-swallowangel}.name",
       "source": "特急つばめ",
-      "translation": ""
+      "translation": "Limited Express Tsubame"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LimitedExpressTrain-swallowangel}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LimitedExpressTrain-swallowangel}.description",
       "source": "国鉄最大最後の旅客用機関車C62が牽引する、特急つばめです。客車はスハ44系で、最後尾には1等展望車を連結しています。",
-      "translation": ""
+      "translation": "The Limited Express Tsubame, pulled by JNR's largest and last passenger locomotive C62. The passenger coaches are Suha 44 Series, with a 1st class observation car coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LimitedExpressTrain-hatukari-B}.name",
       "source": "特急はつかり",
-      "translation": ""
+      "translation": "Limited Express Hatsukari"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LimitedExpressTrain-hatukari-B}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LimitedExpressTrain-hatukari-B}.description",
       "source": "国鉄最大最後の旅客用機関車C62が牽引する、特急はつかりです。客車は客車はスハ44系で、昭和39年以降の青に塗り替えられたものです。",
-      "translation": ""
+      "translation": "The Limited Express Hatsukari, pulled by JNR's largest and last passenger locomotive C62. The passenger coaches are Suha 44 Series, repainted blue after 1964."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein}.name",
       "source": "旧普通列車(茶)郵便車",
-      "translation": ""
+      "translation": "Former Local Train (Brown) Mail Car"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein}.description",
       "source": "国鉄最大最後の旅客用機関車C62が牽引する、客車普通列車です。客車は昭和26年から製造された急行用3等車(3等緩急車)スハ43系で、郵便車オユ10を併結しています。",
-      "translation": ""
+      "translation": "A passenger local train pulled by JNR's largest and last passenger locomotive C62. The passenger coaches are Suha 43 Series, express 3rd class cars (3rd class brake vans) manufactured from 1951. The Oyu 10 mail car is coupled."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein-mani60}.name",
       "source": "旧普通列車(茶)荷物車",
-      "translation": ""
+      "translation": "Former Local Train (Brown) Baggage Car"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein-mani60}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein-mani60}.description",
       "source": "国鉄最大最後の旅客用機関車C62が牽引する、客車普通列車です。客車は昭和26年から製造された急行用3等車(3等緩急車)スハ43系で、荷物車マニ60を併結しています。",
-      "translation": ""
+      "translation": "A passenger local train pulled by JNR's largest and last passenger locomotive C62. The passenger coaches are Suha 43 Series, express 3rd class cars (3rd class brake vans) manufactured from 1951. The Mani 60 baggage car is coupled."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein-mani30}.name",
       "source": "旧普通列車(茶)現金輸送荷物車",
-      "translation": ""
+      "translation": "Old local train (brown) cash transport baggage car"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein-mani30}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein-mani30}.description",
       "source": "国鉄最大最後の旅客用機関車C62が牽引する、客車普通列車です。客車は昭和26年から製造された急行用3等車(3等緩急車)スハ43系で、最後尾に現金輸送用荷物車マニ30を併結しています。",
-      "translation": ""
+      "translation": "A passenger local train pulled by JNR's largest and last passenger locomotive C62. The passenger coaches are Suha 43 Series, express 3rd class cars (3rd class brake vans) manufactured from 1951. The Mani 30 baggage car for cash transport is coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein-B}.name",
       "source": "旧普通列車(青)荷物車",
-      "translation": ""
+      "translation": "Former Local Train (Blue) Baggage Car"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein-B}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein-B}.description",
       "source": "国鉄最大最後の旅客用機関車C62が牽引する、客車普通列車です。客車はスハ43系で、改良を施して青に塗り替えられたものです。最後尾に荷物車を併結しています。",
-      "translation": ""
+      "translation": "A passenger local train pulled by JNR's largest and last passenger locomotive C62. The passenger coaches are Suha 43 Series, which were improved and repainted blue. A baggage car is coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein-B-oyu10}.name",
       "source": "旧普通列車(青)郵便車",
-      "translation": ""
+      "translation": "Former Local Train (Blue) Mail Car"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein-B-oyu10}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein-B-oyu10}.description",
       "source": "国鉄最大最後の旅客用機関車C62が牽引する、客車普通列車です。客車はスハ43系で、改良を施して青に塗り替えられたものです。最後尾に郵便車オユ10を併結しています。",
-      "translation": ""
+      "translation": "A passenger local train pulled by JNR's largest and last passenger locomotive C62. The passenger coaches are Suha 43 Series, which were improved and repainted blue. The Oyu 10 mail car is coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein-B-mani30}.name",
       "source": "旧普通列車(青)現金輸送用荷物車",
-      "translation": ""
+      "translation": "Former local train (blue) cash transport baggage car"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein-B-mani30}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein-B-mani30}.description",
       "source": "国鉄最大最後の旅客用機関車C62が牽引する、客車普通列車です。客車はスハ43系で、改良を施して青に塗り替えられたものです。現金輸送用荷物車マニ30を併結しています。",
-      "translation": ""
+      "translation": "A passenger local train pulled by JNR's largest and last passenger locomotive C62. The passenger coaches are Suha 43 Series, which were improved and repainted blue. The Mani 30 baggage car for cash transport is coupled."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-ExpressTrain-yamagutigou}.name",
       "source": "ＳＬ山口号(青)",
-      "translation": ""
+      "translation": "SL Yamaguchi (Blue)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-ExpressTrain-yamagutigou}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-ExpressTrain-yamagutigou}.description",
       "source": "貴婦人と呼ばれたC57が牽引するSL山口号です。C571号機には、白いラインが引かれ集煙装置が付けられています。客車は昭和44年に登場した12系の急行形客車を牽引しています。",
-      "translation": ""
+      "translation": "This is the SL Yamaguchi-go, pulled by the C57, known as \"The Lady.\" C57 Unit 1 has white stripes and is equipped with a smoke collector. It pulls 12 Series express passenger coaches that appeared in 1969."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein}.name",
       "source": "旧普通列車(茶)郵便車",
-      "translation": ""
+      "translation": "Former Local Train (Brown) Mail Car"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein}.description",
       "source": "貴婦人と呼ばれたC57が牽引する、客車普通列車です。客車は昭和26年から製造された急行用3等車(3等緩急車)スハ43系で、郵便車オユ10を併結しています。",
-      "translation": ""
+      "translation": "A passenger local train pulled by the C57, known as \"The Lady.\" The passenger coaches are SuHa 43 Series, a 3rd class express car (3rd class brake van) manufactured from 1951, with an OYu 10 mail car coupled."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein-mani60}.name",
       "source": "旧普通列車(茶)荷物車",
-      "translation": ""
+      "translation": "Former Local Train (Brown) Baggage Car"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein-mani60}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein-mani60}.description",
       "source": "貴婦人と呼ばれたC57が牽引する、客車普通列車です。客車は昭和26年から製造された急行用3等車(3等緩急車)スハ43系で、荷物車マニ60を併結しています。",
-      "translation": ""
+      "translation": "A passenger local train pulled by the C57, known as \"The Lady.\" The passenger coaches are SuHa 43 Series, a 3rd class express car (3rd class brake van) manufactured from 1951, with a MaNi 60 baggage car coupled."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein-mani30}.name",
       "source": "旧普通列車(茶)現金輸送用荷物車",
-      "translation": ""
+      "translation": "Former local train (brown) cash transport baggage car"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein-mani30}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein-mani30}.description",
       "source": "貴婦人と呼ばれたC57が牽引する、客車普通列車です。客車は昭和26年から製造された急行用3等車(3等緩急車)スハ43系で、最後尾に現金輸送用荷物車マニ30を併結しています。",
-      "translation": ""
+      "translation": "A passenger local train pulled by the C57, known as \"The Lady.\" The passenger coaches are SuHa 43 Series, a 3rd class express car (3rd class brake van) manufactured from 1951, with a MaNi 30 cash transport baggage car coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein-B}.name",
       "source": "旧普通列車(青)荷物車",
-      "translation": ""
+      "translation": "Former Local Train (Blue) Baggage Car"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein-B}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein-B}.description",
       "source": "貴婦人と呼ばれたC57が牽引する、客車普通列車です。客車はスハ43系で、改良を施して青に塗り替えられたものです。最後尾に荷物車マニ60を併結しています。",
-      "translation": ""
+      "translation": "A passenger local train pulled by the C57, known as \"The Lady.\" The passenger coaches are SuHa 43 Series, which have been improved and repainted blue. A MaNi 60 baggage car is coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein-B-oyu10}.name",
       "source": "旧普通列車(青)郵便車",
-      "translation": ""
+      "translation": "Former Local Train (Blue) Mail Car"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein-B-oyu10}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein-B-oyu10}.description",
       "source": "貴婦人と呼ばれたC57が牽引する、客車普通列車です。客車はスハ43系で、改良を施して青に塗り替えられたものです。最後尾に郵便車オユ10を併結しています。",
-      "translation": ""
+      "translation": "A passenger local train pulled by the C57, known as \"The Lady.\" The passenger coaches are SuHa 43 Series, which have been improved and repainted blue. An OYu 10 mail car is coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein-B-mani30}.name",
       "source": "旧普通列車(青)",
-      "translation": ""
+      "translation": "Old local train (blue)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein-B-mani30}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein-B-mani30}.description",
       "source": "貴婦人と呼ばれたC57が牽引する、客車普通列車です。客車はスハ43系で、改良を施して青に塗り替えられたものです。現金輸送用荷物車マニ30を併結しています。",
-      "translation": ""
+      "translation": "A passenger local train pulled by the C57, known as \"The Lady.\" The passenger coaches are SuHa 43 Series, which have been improved and repainted blue. A MaNi 30 cash transport baggage car is coupled."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein}.name",
       "source": "旧普通列車(茶)郵便車",
-      "translation": ""
+      "translation": "Former Local Train (Brown) Mail Car"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein}.description",
       "source": "客貨両用機関車のC58が牽引する、客車普通列車です。客車は昭和26年から製造された急行用3等車(3等緩急車)スハ43系で、郵便車オユ10を併結しています。",
-      "translation": ""
+      "translation": "A passenger local train pulled by the C58, a passenger-freight locomotive. The passenger coaches are SuHa 43 Series, a 3rd class express car (3rd class brake van) manufactured from 1951, with an OYu 10 mail car coupled."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein-mani60}.name",
       "source": "旧普通列車(茶)荷物車",
-      "translation": ""
+      "translation": "Former Local Train (Brown) Baggage Car"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein-mani60}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein-mani60}.description",
       "source": "客貨両用機関車のC58が牽引する、客車普通列車です。客車は昭和26年から製造された急行用3等車(3等緩急車)スハ43系で、荷物車マニ60を併結しています。",
-      "translation": ""
+      "translation": "A passenger local train pulled by the C58, a passenger-freight locomotive. The passenger coaches are SuHa 43 Series, a 3rd class express car (3rd class brake van) manufactured from 1951, with a MaNi 60 baggage car coupled."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein-mani30}.name",
       "source": "旧普通列車(茶)現金輸送用荷物車",
-      "translation": ""
+      "translation": "Former local train (brown) cash transport baggage car"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein-mani30}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein-mani30}.description",
       "source": "客貨両用機関車のC58が牽引する、客車普通列車です。客車は昭和26年から製造された急行用3等車(3等緩急車)スハ43系で、最後尾に現金輸送用荷物車マニ30を併結しています。",
-      "translation": ""
+      "translation": "A passenger local train pulled by the C58, a passenger-freight locomotive. The passenger coaches are SuHa 43 Series, a 3rd class express car (3rd class brake van) manufactured from 1951, with a MaNi 30 cash transport baggage car coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein-B}.name",
       "source": "旧普通列車(青)荷物車",
-      "translation": ""
+      "translation": "Former Local Train (Blue) Baggage Car"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein-B}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein-B}.description",
       "source": "客貨両用機関車のC58が牽引する、客車普通列車です。客車はスハ43系で、改良を施して青に塗り替えられたものです。最後尾に荷物車を併結しています。",
-      "translation": ""
+      "translation": "A passenger local train pulled by the C58, a passenger-freight locomotive. The passenger coaches are SuHa 43 Series, which have been improved and repainted blue. A baggage car is coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein-B-oyu10}.name",
       "source": "旧普通列車(青)郵便車",
-      "translation": ""
+      "translation": "Former Local Train (Blue) Mail Car"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein-B-oyu10}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein-B-oyu10}.description",
       "source": "客貨両用機関車のC58が牽引する、客車普通列車です。客車はスハ43系で、改良を施して青に塗り替えられたものです。郵便車オユ10を併結しています。",
-      "translation": ""
+      "translation": "A passenger local train pulled by the C58, a passenger-freight locomotive. The passenger coaches are SuHa 43 Series, which have been improved and repainted blue. An OYu 10 mail car is coupled."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein-B-mani30}.name",
       "source": "旧普通列車(青)現金輸送用荷物車",
-      "translation": ""
+      "translation": "Former local train (blue) cash transport baggage car"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein-B-mani30}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein-B-mani30}.description",
       "source": "客貨両用機関車のC58が牽引する、客車普通列車です。客車はスハ43系で、改良を施して青に塗り替えられたものです。最後尾に現金輸送用荷物車マニ30を併結しています。",
-      "translation": ""
+      "translation": "A passenger local train pulled by the C58, a passenger-freight locomotive. The passenger coaches are SuHa 43 Series, which have been improved and repainted blue. A MaNi 30 cash transport baggage car is coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-LimitedExpressTrain-swallowangel}.name",
       "source": "特急つばめ",
-      "translation": ""
+      "translation": "Limited Express Tsubame"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-LimitedExpressTrain-swallowangel}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-LimitedExpressTrain-swallowangel}.description",
       "source": "昭和26年から製造された戦後初の急行旅客用機関車EF58が牽引する、特急つばめです。塗装はかつての電気機関車の標準色であったぶどう色です。客車はスハ44系で、最後尾には1等展望車を連結しています。",
-      "translation": ""
+      "translation": "The Limited Express Tsubame, pulled by the EF58 locomotive, the first post-war express passenger locomotive manufactured from 1951. Its paint scheme is grape color, which was the standard color for electric locomotives. The passenger coaches are Suha 44 series, with a first-class observation car coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-LimitedExpressTrain-Pigeon-A}.name",
       "source": "特急はと",
-      "translation": ""
+      "translation": "Limited Express Hato"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-LimitedExpressTrain-Pigeon-A}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-LimitedExpressTrain-Pigeon-A}.description",
       "source": "EF58(青大将色)が牽引する、特急はとです。客車はスハ44系で、青大将と呼ばれた淡緑色に塗装されています。昭和31年東海道全線電化に伴い新設されました。",
-      "translation": ""
+      "translation": "The Limited Express Hato, pulled by an EF58 (Aodaishō color). The passenger coaches are Suha 44 Series, painted in the light green known as Aodaishō. This service was newly established in Showa 31 (1956) with the electrification of the entire Tōkaidō Line."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-LimitedExpressTrain-hatukari-B}.name",
       "source": "特急はつかり",
-      "translation": ""
+      "translation": "Limited Express Hatsukari"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-LimitedExpressTrain-hatukari-B}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-LimitedExpressTrain-hatukari-B}.description",
       "source": "EF58(特急色)が牽引する、特急はつかりです。客車はスハ44系で、昭和39年以降の青に塗り替えられたものです。",
-      "translation": ""
+      "translation": "The Limited Express Hatsukari, pulled by an EF58 (limited express livery). The passenger coaches are Suha 44 Series, repainted blue after Showa 39 (1964)."
     },
     {
       "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein}.name",
       "source": "旧普通列車(茶)郵便車",
-      "translation": ""
+      "translation": "Former Local Train (Brown) Mail Car"
     },
     {
       "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein}.description",
       "source": "EF58(ぶどう色)が牽引する、客車普通列車です。客車はスハ43系で、昔のぶどう色のものです。郵便車オユ10を併結しています。",
-      "translation": ""
+      "translation": "A passenger local train pulled by an EF58 (Budō color). The passenger coaches are Suha 43 Series, in the old Budō color. An Oyu 10 mail car is coupled."
     },
     {
       "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein-mini60}.name",
       "source": "旧普通列車(茶)荷物車",
-      "translation": ""
+      "translation": "Former Local Train (Brown) Baggage Car"
     },
     {
       "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein-mini60}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein-mini60}.description",
       "source": "EF58(ぶどう色)が牽引する、客車普通列車です。客車はスハ43系で、昔のぶどう色のものです。荷物車マニ60を併結しています。",
-      "translation": ""
+      "translation": "A passenger local train pulled by an EF58 (Budō color). The passenger coaches are Suha 43 Series, in the old Budō color. A Mani 60 baggage car is coupled."
     },
     {
       "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein-mani30}.name",
       "source": "旧普通列車(茶)現金輸送用荷物車",
-      "translation": ""
+      "translation": "Former local train (brown) cash transport baggage car"
     },
     {
       "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein-mani30}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein-mani30}.description",
       "source": "EF58(ぶどう色)が牽引する、客車普通列車です。客車はスハ43系で、昔のぶどう色のものです。現金輸送用荷物車マニ30を併結しています。",
-      "translation": ""
+      "translation": "A passenger local train pulled by an EF58 (Budō color). The passenger coaches are Suha 43 Series, in the old Budō color. A Mani 30 baggage car for cash transport is coupled."
     },
     {
       "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein-B}.name",
       "source": "旧普通列車(青)荷物車",
-      "translation": ""
+      "translation": "Former Local Train (Blue) Baggage Car"
     },
     {
       "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein-B}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein-B}.description",
       "source": "EF58(一般色)が牽引する、客車普通列車です。客車はスハ43系で、改良を施して青に塗り替えられたものです。荷物車マニ60を併結しています。",
-      "translation": ""
+      "translation": "A passenger local train pulled by an EF58 (standard livery). The passenger coaches are Suha 43 Series, which have been improved and repainted blue. A Mani 60 baggage car is coupled."
     },
     {
       "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein-B-oyu10}.name",
       "source": "旧普通列車(青)郵便車",
-      "translation": ""
+      "translation": "Former Local Train (Blue) Mail Car"
     },
     {
       "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein-B-oyu10}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein-B-oyu10}.description",
       "source": "EF58(一般色)が牽引する、客車普通列車です。客車はスハ43系で、改良を施して青に塗り替えられたものです。最後尾に郵便車オユ10を併結しています。",
-      "translation": ""
+      "translation": "A passenger local train pulled by an EF58 (standard livery). The passenger coaches are Suha 43 Series, which have been improved and repainted blue. An Oyu 10 mail car is coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein-B-mani30}.name",
       "source": "旧普通列車(青)現金輸送用荷物車",
-      "translation": ""
+      "translation": "Former local train (blue) cash transport baggage car"
     },
     {
       "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein-B-mani30}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein-B-mani30}.description",
       "source": "EF58(一般色)が牽引する、客車普通列車です。客車はスハ43系で、改良を施して青に塗り替えられたものです。現金輸送用荷物車マニ30を併結しています。",
-      "translation": ""
+      "translation": "A passenger local train pulled by an EF58 (standard livery). The passenger coaches are Suha 43 Series, which have been improved and repainted blue. A Mani 30 baggage car for cash transport is coupled."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-B-ex-LimitedExpressTrain-tugaru}.name",
       "source": "特急津軽",
-      "translation": ""
+      "translation": "Limited Express Tsugaru"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-B-ex-LimitedExpressTrain-tugaru}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-B-ex-LimitedExpressTrain-tugaru}.description",
       "source": "EF58(一般色)が牽引する、特急津軽です。客車は14系特急形寝台客車と14系特急形客車の併結です。",
-      "translation": ""
+      "translation": "The Limited Express Tsugaru, pulled by an EF58 (standard livery). The passenger coaches are a combined formation of 14 Series limited express sleeper coaches and 14 Series limited express coaches."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-LimitedExpressTrain-sakura}.name",
       "source": "特急さくら",
-      "translation": ""
+      "translation": "Limited Express Sakura"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-LimitedExpressTrain-sakura}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-LimitedExpressTrain-sakura}.description",
       "source": "高速貨車用大型電気機関車EF66が牽引する、特急さくらです。客車は14系特急形寝台客車です。",
-      "translation": ""
+      "translation": "The Limited Express Sakura, pulled by the large electric locomotive EF66 for high-speed freight cars. The passenger coaches are 14 Series limited express sleeper coaches."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-LimitedExpressTrain-hayabusa}.name",
       "source": "特急はやぶさ",
-      "translation": ""
+      "translation": "Limited Express Hayabusa"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-LimitedExpressTrain-hayabusa}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-LimitedExpressTrain-hayabusa}.description",
       "source": "高速貨車用大型電気機関車EF66が牽引する、特急はやぶさです。客車は24系25形特急形寝台客車で、中間にロビーカーを連結しています。",
-      "translation": ""
+      "translation": "The Limited Express Hayabusa, pulled by the large electric locomotive EF66 for high-speed freight cars. The passenger coaches are 24 Series 25 type limited express sleeper coaches, with a lounge car coupled in the middle."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-LocalTrein-50-mani50}.name",
       "source": "普通列車(50系)",
-      "translation": ""
+      "translation": "Local Train (50 Series)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-LocalTrein-50-mani50}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-LocalTrein-50-mani50}.description",
       "source": "液体式ディーゼル機関車DD51が牽引する、客車普通列車です。客車は50系(オハ50、オハフ50)で、最後尾に荷物車マニ50を併結しています。",
-      "translation": ""
+      "translation": "This is a local passenger train pulled by a DD51 liquid-cooled diesel locomotive. The passenger coaches are 50 Series (Oha 50, OhaFu 50), with a MaNi 50 baggage car coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-745-LocalTrein-50-mani50}.name",
       "source": "745号機 普通列車(50系)",
-      "translation": ""
+      "translation": "Unit 745 local train (50 Series)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-745-LocalTrein-50-mani50}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-745-LocalTrein-50-mani50}.description",
       "source": "三つ目(ヘッドライトが3灯ある)に改造された液体式ディーゼル機関車DD51-745号機が牽引する、客車普通列車です。客車は50系(オハ50、オハフ50)で、荷物車マニ50を併結しています。",
-      "translation": ""
+      "translation": "A local passenger train pulled by liquid-cooled diesel locomotive DD51-745, modified with three headlights. The passenger coaches are 50 Series (Oha 50, Ohaf 50), with a Mani 50 baggage car coupled."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-D511115-Freight-Container}.name",
       "source": "コンテナ貨物列車",
-      "translation": ""
+      "translation": "Container freight train"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-D511115-Freight-Container}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-D511115-Freight-Container}.description",
       "source": "国鉄貨物用標準型機関車D51が牽引する、コンテナ貨物列車です。",
-      "translation": ""
+      "translation": "A container freight train pulled by JNR standard freight locomotive D51."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-D511115-Freight}.name",
       "source": "荷物列車",
-      "translation": ""
+      "translation": "Baggage train"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-D511115-Freight}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-D511115-Freight}.description",
       "source": "国鉄貨物用標準型機関車D51が牽引する、貨物列車です。最後尾に昭和50年に登場した車掌車を連結しています。",
-      "translation": ""
+      "translation": "A freight train pulled by JNR standard freight locomotive D51. A caboose, introduced in 1975, is coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-D51-Freight-Tank}.name",
       "source": "タンカー列車",
-      "translation": ""
+      "translation": "Tanker Train"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-D51-Freight-Tank}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-D51-Freight-Tank}.description",
       "source": "国鉄貨物用標準型機関車D51が牽引する、タンク貨物です。最後尾に昭和50年に登場した車掌車を連結しています。",
-      "translation": ""
+      "translation": "A tank freight train pulled by JNR standard freight locomotive D51. A caboose, introduced in 1975, is coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-D51100-Freight}.name",
       "source": "荷物列車(なめくじ)",
-      "translation": ""
+      "translation": "Baggage train (slug)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-D51100-Freight}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-D51100-Freight}.description",
       "source": "煙突からスチームドームまでカバーされたなめくじドームタイプのD51が牽引する貨物列車です。最後尾に昭和37年から製造された車掌車を連結しています。",
-      "translation": ""
+      "translation": "A freight train pulled by a slug-dome type D51, with the dome covered from the chimney to the steam dome. A caboose manufactured from 1962 is coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-Local}.name",
       "source": "荷物列車",
-      "translation": ""
+      "translation": "Baggage train"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-Local}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-Local}.description",
       "source": "国鉄客貨両用機関車C58が牽引する貨物です。ワキで編成しています。最後尾に緩急車を連結しています。",
-      "translation": ""
+      "translation": "A freight train pulled by JNR passenger/freight locomotive C58. It is formed with Waki cars and has a brake van coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-Local-mani30}.name",
       "source": "荷物列車･現金輸送用荷物車",
-      "translation": ""
+      "translation": "Baggage Train / Cash Transport Baggage Car"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-Local-mani30}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-Local-mani30}.description",
       "source": "国鉄客貨両用機関車C58が牽引する貨物です。ワキで編成しています。現金輸送用荷物車マニ30や、最後尾に緩急車を連結しています。",
-      "translation": ""
+      "translation": "A freight train pulled by JNR passenger/freight locomotive C58. It is formed with Waki cars and includes the Mani 30 baggage car for cash transport and a brake van at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-m}.name",
       "source": "無蓋貨物列車",
-      "translation": ""
+      "translation": "Open-Top Freight Train"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-m}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-m}.description",
       "source": "国鉄客貨両用機関車C58が牽引する、無蓋貨車です。最後尾には昭和34年に最高許容速度が85km/hに改造された車掌車を連結しています。",
-      "translation": ""
+      "translation": "An open-top freight car train pulled by JNR passenger/freight locomotive C58. A caboose, modified in 1959 for a maximum permissible speed of 85 km/h, is coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-long}.name",
       "source": "長物輸送列車",
-      "translation": ""
+      "translation": "Long Cargo Transport Train"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-long}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-long}.description",
       "source": "客貨両用機関車C58が牽引する、長物輸送貨車(積荷は制作中の為、空荷)です。最後尾に昭和37年から製造された車掌車を連結しています。",
-      "translation": ""
+      "translation": "This is a long-material transport freight car train (cargo is empty as it's under production) pulled by the C58, a passenger-freight locomotive. A caboose manufactured from 1962 is coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight}.name",
       "source": "貨物列車",
-      "translation": ""
+      "translation": "Freight train"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight}.description",
       "source": "客貨両用機関車C58が牽引する貨物です。最後尾に昭和50年に登場した車掌車を連結しています。",
-      "translation": ""
+      "translation": "This is a freight train pulled by the C58, a passenger-freight locomotive. A caboose introduced in 1975 is coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-Tank}.name",
       "source": "タンカー列車",
-      "translation": ""
+      "translation": "Tanker Train"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-Tank}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-Tank}.description",
       "source": "客貨両用機関車C58が牽引する、タンク貨物です。最後尾に昭和37年から製造された車掌車を連結しています。",
-      "translation": ""
+      "translation": "This is a tank freight train pulled by the C58, a passenger-freight locomotive. A caboose manufactured from 1962 is coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-Test}.name",
       "source": "テスト貨物",
-      "translation": ""
+      "translation": "Test Freight"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-Test}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-Test}.description",
       "source": "客貨両用機関車C58が牽引する、貨車製作用テスト列車です。制作中の貨車のテスト走行に使用しています。",
-      "translation": ""
+      "translation": "This is a test train for freight car manufacturing, pulled by the C58, a passenger-freight locomotive. It is used for test runs of freight cars currently under production."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-Freight-takara}.name",
       "source": "コンテナ特急貨物たから",
-      "translation": ""
+      "translation": "Container Limited Express Freight Takara"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-Freight-takara}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-Freight-takara}.description",
       "source": "重貨物用電気機関車EH10が牽引する、コンテナ特急貨物列車たからです。コンテナと同じ色に塗られた車掌車を牽引しています。",
-      "translation": ""
+      "translation": "A container limited express freight train 'Takara' pulled by the heavy freight electric locomotive EH10. It pulls a caboose painted the same color as the containers."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-Freight-Local}.name",
       "source": "荷物列車",
-      "translation": ""
+      "translation": "Baggage train"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-Freight-Local}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-Freight-Local}.description",
       "source": "重貨物用電気機関車EH10が牽引する、荷物列車です。",
-      "translation": ""
+      "translation": "A baggage train pulled by the heavy freight electric locomotive EH10."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-Freight-Local-mani30}.name",
       "source": "荷物列車･現金輸送用荷物車",
-      "translation": ""
+      "translation": "Baggage Train / Cash Transport Baggage Car"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-Freight-Local-mani30}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-Freight-Local-mani30}.description",
       "source": "重貨物用電気機関車EH10が牽引する、荷物列車です。現金輸送用荷物車マニ30を併結しています。",
-      "translation": ""
+      "translation": "A baggage train pulled by the heavy freight electric locomotive EH10. It includes the Mani 30 baggage car for cash transport."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-Freight-FreightLiner-Tank}.name",
       "source": "タンカー列車",
-      "translation": ""
+      "translation": "Tanker Train"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-Freight-FreightLiner-Tank}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-Freight-FreightLiner-Tank}.description",
       "source": "重貨物用電気機関車EH10が牽引する、タンク貨物です。最後尾に昭和34年に最高許容速度が85km/hに改造された車掌車を連結しています。",
-      "translation": ""
+      "translation": "A tank freight train pulled by the heavy freight electric locomotive EH10. It has a caboose at the rear, modified in Showa 34 (1959) for a maximum permissible speed of 85 km/h."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-2-Freight-takara}.name",
       "source": "*2コンテナ特急貨物たから",
-      "translation": ""
+      "translation": "*2 Container Limited Express Freight Takara"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-2-Freight-takara}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-2-Freight-takara}.description",
       "source": "重貨物用電気機関車EH10が牽引する、コンテナ特急貨物列車たからです。コンテナと同じ色に塗られた車掌車を牽引しています。",
-      "translation": ""
+      "translation": "A container limited express freight train 'Takara' pulled by the heavy freight electric locomotive EH10. It pulls a caboose painted the same color as the containers."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-2-Freight-Local}.name",
       "source": "*2荷物列車",
-      "translation": ""
+      "translation": "*2 Baggage Train"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-2-Freight-Local}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-2-Freight-Local}.description",
       "source": "重貨物用電気機関車EH10が牽引する、荷物列車です。",
-      "translation": ""
+      "translation": "A baggage train pulled by the heavy freight electric locomotive EH10."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-2-Freight-Local-mani30}.name",
       "source": "*2荷物列車･現金輸送用荷物車",
-      "translation": ""
+      "translation": "*2 Baggage Train / Cash Transport Baggage Car"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-2-Freight-Local-mani30}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-2-Freight-Local-mani30}.description",
       "source": "重貨物用電気機関車EH10が牽引する、荷物列車です。現金輸送用荷物車マニ30を併結しています。",
-      "translation": ""
+      "translation": "A baggage train pulled by the heavy freight electric locomotive EH10. It includes the Mani 30 baggage car for cash transport."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-2-Freight-FreightLiner-Tank}.name",
       "source": "*2タンカー列車",
-      "translation": ""
+      "translation": "*2 Tanker Train"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-2-Freight-FreightLiner-Tank}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-2-Freight-FreightLiner-Tank}.description",
       "source": "重貨物用電気機関車EH10が牽引する、タンク貨物です。最後尾に昭和34年に最高許容速度が85km/hに改造された車掌車を連結しています。",
-      "translation": ""
+      "translation": "A tank freight train pulled by the heavy freight electric locomotive EH10. It has a caboose at the rear, modified in Showa 34 (1959) for a maximum permissible speed of 85 km/h."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-Freight-Freshfish}.name",
       "source": "鮮魚特急貨物(とびうお号)",
-      "translation": ""
+      "translation": "Fresh Fish Limited Express Freight (Tobi-uo Express)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-Freight-Freshfish}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-Freight-Freshfish}.description",
       "source": "高速貨車用大型電気機関車EF66が牽引する、鮮魚特急貨物(通称とびうお号)です。冷凍魚や鮮魚輸送用の大型冷蔵車の編成で、前後に緩急車を連結しています。",
-      "translation": ""
+      "translation": "A fresh fish express freight train (commonly known as \"Tobiuo-go\") pulled by the large electric locomotive EF66 for high-speed freight cars. It is a formation of large refrigerated cars for transporting frozen and fresh fish, with brake vans coupled at the front and rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-Freight-FreightLiner-Tank}.name",
       "source": "タンカー列車",
-      "translation": ""
+      "translation": "Tanker Train"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-Freight-FreightLiner-Tank}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-Freight-FreightLiner-Tank}.description",
       "source": "高速貨車用大型電気機関車EF66が牽引する、タンク貨物です。最後尾に昭和50年に登場した車掌車を連結しています。",
-      "translation": ""
+      "translation": "A tank freight train pulled by the large electric locomotive EF66 for high-speed freight cars. A caboose, introduced in 1975, is coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-Freight-FreightLiner}.name",
       "source": "フレートライナー",
-      "translation": ""
+      "translation": "Freightliner"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-Freight-FreightLiner}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-Freight-FreightLiner}.description",
       "source": "高速貨車用大型電気機関車EF66が牽引する、コンテナ貨物列車です。",
-      "translation": ""
+      "translation": "A container freight train pulled by the large electric locomotive EF66 for high-speed freight cars."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-Deck-Freight-Local}.name",
       "source": "荷物列車(デッキ付)",
-      "translation": ""
+      "translation": "Baggage train (with deck)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-Deck-Freight-Local}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-Deck-Freight-Local}.description",
       "source": "電気機関車EF58(デッキ付)が牽引する、荷物列車です。最後尾に緩急車を連結しています。貨物ならFE18かもしれませんが…。",
-      "translation": ""
+      "translation": "This is a baggage train pulled by the EF58 electric locomotive (with deck). A caboose is coupled at the rear. It might be an EF18 for freight, though..."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-Deck-Freight-Local-mani30}.name",
       "source": "荷物列車(デッキ付)現金輸送用荷物車",
-      "translation": ""
+      "translation": "Baggage train (with deck) cash transport baggage car"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-Deck-Freight-Local-mani30}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-Deck-Freight-Local-mani30}.description",
       "source": "電気機関車EF58(デッキ付)が牽引する、荷物列車です。現金輸送用荷物車マニ30や、最後尾には緩急車を連結しています。貨物ならFE18かもしれませんが…。",
-      "translation": ""
+      "translation": "This is a baggage train pulled by the EF58 electric locomotive (with deck). It includes the Mani 30 baggage car for cash transport, and a caboose is coupled at the rear. It might be an EF18 for freight, though..."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-Freight-Local}.name",
       "source": "荷物列車(茶)",
-      "translation": ""
+      "translation": "Baggage train (brown)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-Freight-Local}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-Freight-Local}.description",
       "source": "電気機関車EF58(ぶどう色)が牽引する、荷物列車です。最後尾に緩急車を連結しています。",
-      "translation": ""
+      "translation": "This is a baggage train pulled by the EF58 electric locomotive (grape color). A caboose is coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-Freight-Local-mani30}.name",
       "source": "荷物列車(茶)現金輸送用荷物車",
-      "translation": ""
+      "translation": "Baggage train (brown) cash transport baggage car"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-Freight-Local-mani30}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-Freight-Local-mani30}.description",
       "source": "電気機関車EF58(ぶどう色)が牽引する、荷物列車です。現金輸送用荷物車マニ30や、最後尾には緩急車を連結しています。",
-      "translation": ""
+      "translation": "This is a baggage train pulled by the EF58 electric locomotive (grape color). It includes the Mani 30 baggage car for cash transport, and a caboose is coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-B-Freight-express}.name",
       "source": "急行荷物列車(青)",
-      "translation": ""
+      "translation": "Express Baggage Train (blue)"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-B-Freight-express}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-B-Freight-express}.description",
       "source": "電気機関車EF58(一般色)が牽引する、急行荷物列車です。最後尾に緩急車を連結しています。",
-      "translation": ""
+      "translation": "This is an express baggage train pulled by the EF58 electric locomotive (standard livery). A caboose is coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-B-Freight-express-mani30}.name",
       "source": "急行荷物列車(青)現金輸送用荷物車",
-      "translation": ""
+      "translation": "Express Baggage Train (blue) cash transport baggage car"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-B-Freight-express-mani30}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-B-Freight-express-mani30}.description",
       "source": "電気機関車EF58(一般色)が牽引する、急行荷物列車です。現金輸送用荷物車マニ30や、最後尾には緩急車を連結しています。",
-      "translation": ""
+      "translation": "This is an express baggage train pulled by the EF58 electric locomotive (standard livery). It includes the Mani 30 baggage car for cash transport, and a caboose is coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-Deck-Freight-FreightLiner}.name",
       "source": "フレートライナー",
-      "translation": ""
+      "translation": "Freightliner"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-Deck-Freight-FreightLiner}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-Deck-Freight-FreightLiner}.description",
       "source": "電気機関車EF58(デッキ付)が牽引する、コンテナ貨物列車です。貨物ならFE18かもしれませんが…。",
-      "translation": ""
+      "translation": "This is a container freight train pulled by the EF58 electric locomotive (with deck). It might be an EF18 for freight, though..."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300s-Freight-Container-koki10000}.name",
       "source": "303号機 コンテナ貨物列車",
-      "translation": ""
+      "translation": "Unit 303 container freight train"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300s-Freight-Container-koki10000}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300s-Freight-Container-koki10000}.description",
       "source": "関門海底トンネル区間用に煙害対策がされた交直両用電気機関車EF81(ステンレス無塗装)が牽引する、コンテナ貨物列車です。",
-      "translation": ""
+      "translation": "This is a container freight train pulled by an AC/DC electric locomotive EF81 (unpainted stainless steel) with smoke damage countermeasures for the Kanmon Undersea Tunnel section."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300s-Freight-Tank-kaki43000-yo8000}.name",
       "source": "303号機 タンカー列車",
-      "translation": ""
+      "translation": "Unit 303 tanker train"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300s-Freight-Tank-kaki43000-yo8000}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300s-Freight-Tank-kaki43000-yo8000}.description",
       "source": "関門海底トンネル区間用に煙害対策がされた交直両用電気機関車EF81(ステンレス無塗装)が牽引する、タンク貨物です。最後尾に昭和50年に登場した車掌車を連結しています。",
-      "translation": ""
+      "translation": "This is a tank freight train pulled by an AC/DC electric locomotive EF81 (unpainted stainless steel) with smoke damage countermeasures for the Kanmon Undersea Tunnel section. A caboose introduced in 1975 is coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300s-Freight-m-toki25000-yo5000}.name",
       "source": "303号機 無蓋貨物列車",
-      "translation": ""
+      "translation": "Unit 303 open-top freight train"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300s-Freight-m-toki25000-yo5000}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300s-Freight-m-toki25000-yo5000}.description",
       "source": "関門海底トンネル区間用に煙害対策がされた交直両用電気機関車EF81(ステンレス無塗装)が牽引する、無蓋貨車です。最後尾には昭和34年に最高許容速度が85km/hに改造された車掌車を連結しています。",
-      "translation": ""
+      "translation": "This is an open-top freight car train pulled by an AC/DC electric locomotive EF81 (unpainted stainless steel) with smoke damage countermeasures for the Kanmon Undersea Tunnel section. A caboose, modified in 1959 to a maximum permissible speed of 85 km/h, is coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300p-Freight-Container-koki10000}.name",
       "source": "302号機 コンテナ貨物列車",
-      "translation": ""
+      "translation": "Unit 302 container freight train"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300p-Freight-Container-koki10000}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300p-Freight-Container-koki10000}.description",
       "source": "交直両用電気機関車EF81(ステンレス赤13号塗装)が牽引する、コンテナ貨物列車です。元々は関門海底トンネル区間用でしたが、常磐線転属で塗装されました。",
-      "translation": ""
+      "translation": "A container freight train pulled by the AC/DC electric locomotive EF81 (stainless steel with red No. 13 livery). Originally for the Kanmon undersea tunnel section, it was repainted upon transfer to the Joban Line."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300p-Freight-Tank-kaki43000-yo5000}.name",
       "source": "302号機 タンカー列車",
-      "translation": ""
+      "translation": "Unit 302 tanker train"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300p-Freight-Tank-kaki43000-yo5000}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300p-Freight-Tank-kaki43000-yo5000}.description",
       "source": "交直両用電気機関車EF81(ステンレス赤13号塗装)が牽引する、タンク貨物です。元々は関門海底トンネル区間用でしたが、常磐線転属で塗装されました。最後尾に昭和34年に最高許容速度が85km/hに改造された車掌車を連結しています。",
-      "translation": ""
+      "translation": "A tank freight train pulled by the AC/DC electric locomotive EF81 (stainless steel with red No. 13 livery). Originally for the Kanmon undersea tunnel section, it was repainted upon transfer to the Joban Line. A caboose, modified in Showa 34 (1959) for a maximum permissible speed of 85 km/h, is coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300p-Freight-m-toki25000-yo8000}.name",
       "source": "302号機 無蓋貨物列車",
-      "translation": ""
+      "translation": "Unit 302 open-top freight train"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300p-Freight-m-toki25000-yo8000}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300p-Freight-m-toki25000-yo8000}.description",
       "source": "交直両用電気機関車EF81(ステンレス赤13号塗装)が牽引する、無蓋貨車です。元々は関門海底トンネル区間用でしたが、常磐線転属で塗装されました。最後尾に昭和50年に登場した車掌車を連結しています。",
-      "translation": ""
+      "translation": "An open-top freight car train pulled by the AC/DC electric locomotive EF81 (stainless steel with red No. 13 livery). Originally for the Kanmon undersea tunnel section, it was repainted upon transfer to the Joban Line. A caboose introduced in Showa 50 (1975) is coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-81-Freight-Container-koki10000}.name",
       "source": "81号機 コンテナ貨物列車",
-      "translation": ""
+      "translation": "Unit 81 container freight train"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-81-Freight-Container-koki10000}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-81-Freight-Container-koki10000}.description",
       "source": "交直両用電気機関車EF81(81号機お召し塗装)が牽引する、コンテナ貨物列車です。",
-      "translation": ""
+      "translation": "A container freight train pulled by the AC/DC electric locomotive EF81 (No. 81, Imperial train livery)."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-81-Freight-Tank-kaki43000-yo6000}.name",
       "source": "81号機 タンカー列車",
-      "translation": ""
+      "translation": "Unit 81 tank train"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-81-Freight-Tank-kaki43000-yo6000}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-81-Freight-Tank-kaki43000-yo6000}.description",
       "source": "交直両用電気機関車EF81(81号機お召し塗装)が牽引する、タンク貨物です。最後尾に昭和37年から製造された車掌車を連結しています。",
-      "translation": ""
+      "translation": "A tank freight train pulled by the AC/DC electric locomotive EF81 (No. 81, Imperial train livery). A caboose manufactured from Showa 37 (1962) is coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-81-Freight-m-toki25000-yo5000}.name",
       "source": "81号機 無蓋貨物列車",
-      "translation": ""
+      "translation": "Unit 81 open-top freight train"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-81-Freight-m-toki25000-yo5000}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-81-Freight-m-toki25000-yo5000}.description",
       "source": "交直両用電気機関車EF81(81号機お召し塗装)が牽引する、無蓋貨車です。最後尾に昭和34年に最高許容速度が85km/hに改造された車掌車を連結しています。",
-      "translation": ""
+      "translation": "An open-top freight car train pulled by the AC/DC electric locomotive EF81 (No. 81, Imperial train livery). A caboose, modified in Showa 34 (1959) for a maximum permissible speed of 85 km/h, is coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-745-Freight-Container-koki10000}.name",
       "source": "745号機 コンテナ貨物列車",
-      "translation": ""
+      "translation": "Unit 745 container freight train"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-745-Freight-Container-koki10000}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-745-Freight-Container-koki10000}.description",
       "source": "三つ目(ヘッドライトが3灯ある)に改造された液体式ディーゼル機関車DD51-745号機が牽引する、コンテナ貨物列車です。",
-      "translation": ""
+      "translation": "A container freight train pulled by liquid-cooled diesel locomotive DD51-745, modified with three headlights."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-745-Freight-Tank-kaki43000-yo5000}.name",
       "source": "745号機 タンカー列車",
-      "translation": ""
+      "translation": "Unit 745 tank train"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-745-Freight-Tank-kaki43000-yo5000}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-745-Freight-Tank-kaki43000-yo5000}.description",
       "source": "三つ目(ヘッドライトが3灯ある)に改造された液体式ディーゼル機関車DD51-745号機が牽引する、タンク貨物です。最後尾に昭和34年に最高許容速度が85km/hに改造された車掌車を連結しています。",
-      "translation": ""
+      "translation": "A tank freight train pulled by liquid-cooled diesel locomotive DD51-745, modified with three headlights. A caboose, modified in 1959 to a maximum permissible speed of 85 km/h, is coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-745-Freight-m-toki250000-yo6000}.name",
       "source": "745号機 無蓋貨物列車",
-      "translation": ""
+      "translation": "Unit 745 open-top freight train"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-745-Freight-m-toki250000-yo6000}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-745-Freight-m-toki250000-yo6000}.description",
       "source": "三つ目(ヘッドライトが3灯ある)に改造された液体式ディーゼル機関車DD51-745号機が牽引する、無蓋貨車です。最後尾に昭和37年から製造された車掌車を連結しています。",
-      "translation": ""
+      "translation": "An open-top freight car train pulled by liquid-cooled diesel locomotive DD51-745, modified with three headlights. A caboose manufactured from 1962 is coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-592-Freight-Container-koki10000}.name",
       "source": "ユーロライナー コンテナ貨物列車",
-      "translation": ""
+      "translation": "Euro Liner Container Freight Train"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-592-Freight-Container-koki10000}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-592-Freight-Container-koki10000}.description",
       "source": "液体式ディーゼル機関車DD51(ユーロライナー)が牽引する、コンテナ貨物列車です。",
-      "translation": ""
+      "translation": "This is a container freight train pulled by a DD51 liquid-cooled diesel locomotive (Euro Liner)."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-592-Freight-Tank-kaki43000-yo8000}.name",
       "source": "ユーロライナー タンカー列車",
-      "translation": ""
+      "translation": "Euro Liner Tanker Train"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-592-Freight-Tank-kaki43000-yo8000}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-592-Freight-Tank-kaki43000-yo8000}.description",
       "source": "液体式ディーゼル機関車DD51(ユーロライナー)が牽引する、タンク貨物です。最後尾に昭和50年に登場した車掌車を連結しています。",
-      "translation": ""
+      "translation": "This is a tank freight train pulled by a DD51 liquid-cooled diesel locomotive (Euro Liner). A caboose introduced in Showa 50 (1975) is coupled at the rear."
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-592-Freight-m-toki25000-yo5000}.name",
       "source": "ユーロライナー 無蓋貨物列車",
-      "translation": ""
+      "translation": "Euro Liner Open Wagon Freight Train"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-592-Freight-m-toki25000-yo5000}.company",
       "source": "旧日本国有鉄道",
-      "translation": ""
+      "translation": "former JNR"
     },
     {
       "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-592-Freight-m-toki25000-yo5000}.description",
       "source": "液体式ディーゼル機関車DD51(ユーロライナー)が牽引する、無蓋貨車です。最後尾に昭和34年に最高許容速度が85km/hに改造された車掌車を連結しています。",
-      "translation": ""
+      "translation": "This is an open wagon freight train pulled by a DD51 liquid-cooled diesel locomotive (Euro Liner). A caboose, modified in Showa 34 (1959) for a maximum permissible speed of 85 km/h, is coupled at the rear."
     }
   ]
 }

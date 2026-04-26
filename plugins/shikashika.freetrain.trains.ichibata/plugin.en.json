@@ -6,247 +6,247 @@
     {
       "key": "plugin.title",
       "source": "一畑電気鉄道",
-      "translation": ""
+      "translation": "Ichibata Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-ED22}.name",
       "source": "荷物列車",
-      "translation": ""
+      "translation": "Baggage train"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-ED22}.company",
       "source": "一畑電気鉄道",
-      "translation": ""
+      "translation": "Ichibata Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-ED22}.description",
       "source": "昭和02年ボールドウイン・ウェスチングハウス社製造の電気機関車ED22です。元信濃鉄道1号で、国鉄ED221、西武鉄道ED1、近江鉄道ED1と変遷して昭和30年ED221に改番、昭和35年一畑電鉄に入線しました。一畑電鉄の貨物営業廃止以後、昭和49年に弘南鉄道に譲渡されています。",
-      "translation": ""
+      "translation": "The ED22 electric locomotive, manufactured in 1927 by Baldwin-Westinghouse. Originally Shinano Railway No. 1, it changed hands to JNR ED221, Seibu Railway ED1, and Ohmi Railway ED1. It was renumbered ED221 in 1955 and entered service on Ichibata Electric Railway in 1960. After Ichibata Electric Railway ceased freight operations, it was transferred to Konan Railway in 1974."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-dehani50}.company",
       "source": "一畑電気鉄道",
-      "translation": ""
+      "translation": "Ichibata Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-dehani50}.type",
       "source": "デハニ50形",
-      "translation": ""
+      "translation": "Dehani 50 series"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-dehani50}.description",
       "source": "昭和03年日本車輌製造の荷物合造車。荷物輸送の減少と共に、デハニ51は昭和26年にデハ21に、デハニ54は昭和42年にデハ11に改造され、デハニ52は定員36名のお座敷列車デハ52に改造されています。3扉全て手動扉です。ラッシュ時の増強や、無蓋貨車を引いてバラスト散布作業などに使用されたりしています。",
-      "translation": ""
+      "translation": "Baggage-passenger composite car manufactured in 1928 by Nippon Sharyo. With the decrease in baggage transport, Dehani 51 was converted to Deha 21 in 1951, Dehani 54 to Deha 11 in 1967, and Dehani 52 was converted into the 36-seat parlor train Deha 52. All three doors are manual. It was used for strengthening during rush hours and for ballast spreading work by pulling open-top freight cars."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha50}.company",
       "source": "一畑電気鉄道",
-      "translation": ""
+      "translation": "Ichibata Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha50}.type",
       "source": "デハ  50形",
-      "translation": ""
+      "translation": "Deha 50 series"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha50}.description",
       "source": "昭和03年日本車輌製造の荷物合造車デハニ52を、お座敷列車に改造したものです。畳は難燃性のものを使用しています。",
-      "translation": ""
+      "translation": "This is the Dehani 52 baggage-passenger composite car, manufactured in 1928 by Nippon Sharyo, converted into a parlor train. The tatami mats used are flame-retardant."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha1}.name",
       "source": "大社線",
-      "translation": ""
+      "translation": "Taisha Line"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha1}.company",
       "source": "一畑電気鉄道",
-      "translation": ""
+      "translation": "Ichibata Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha1}.type",
       "source": "デハ   1形",
-      "translation": ""
+      "translation": "Deha 1 series"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha1}.description",
       "source": "昭和02年日本車輌製造。昭和53年にアルナ工機でワンマン化の改造がされ、大社線専用車となりました。",
-      "translation": ""
+      "translation": "Manufactured in 1927 by Nippon Sharyo. It was converted for one-man operation by Aruna Koki in 1978 and became a dedicated vehicle for the Taisha Line."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha10}.company",
       "source": "一畑電気鉄道",
-      "translation": ""
+      "translation": "Ichibata Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha10}.type",
       "source": "デハ  10形+クハ110形",
-      "translation": ""
+      "translation": "Deha 10 series + Kuha 110 series"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha10}.description",
       "source": "デハ10形とクハ110形の編成。デハ11は、昭和05年日本車輌製造のデハニ54を昭和42年に改造して製造されました。クハ111は、昭和03年日本車輌製造の制御車クハ101を昭和23年に電動車デハ7に改造し、それを昭和37年に再び制御車として改造して製造されました。",
-      "translation": ""
+      "translation": "A formation of Deha 10 series and Kuha 110 series. Deha 11 was manufactured by modifying Dehani 54, built by Nippon Sharyo in Showa 5 (1930), in Showa 42 (1967). Kuha 111 was manufactured by modifying control car Kuha 101, built by Nippon Sharyo in Showa 3 (1928), into motor car Deha 7 in Showa 23 (1948), and then again into a control car in Showa 37 (1962)."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha20}.name",
       "source": "松江線",
-      "translation": ""
+      "translation": "Matsue Line"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha20}.company",
       "source": "一畑電気鉄道",
-      "translation": ""
+      "translation": "Ichibata Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha20}.type",
       "source": "デハ  20形+クハ100形",
-      "translation": ""
+      "translation": "Deha 20 series + Kuha 100 series"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha20}.description",
       "source": "デハ20形とクハ100形の編成。デハ20形は、日本車輌製造のデハニ50形やデハ1形を、長距離輸送用に2扉セミクロスシートにナニワ工機で改造して製造されました。クハ100形は、昭和15年木南車両製造の武蔵野鉄道クハ5860形(西部1235～)を昭和33年～34年に移籍し、昭和37年には両運転台だったものを片運転台に改造してスペースを確保し、車椅子にも対応しています。どちらの車両もドアは手動です。",
-      "translation": ""
+      "translation": "A formation of Deha 20 series and Kuha 100 series. The Deha 20 series was manufactured by Naniwa Koki, modifying Nippon Sharyo's Dehani 50 series and Deha 1 series into 2-door semi-cross-seat cars for long-distance transport. The Kuha 100 series were transferred from Musashino Railway Kuha 5860 series (Seibu 1235~) built by Kinan Sharyo in Showa 15 (1940) between Showa 33-34 (1958-1959), and in Showa 37 (1962), their dual cabs were converted to single cabs to secure space and accommodate wheelchairs. Both cars have manual doors."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha60}.company",
       "source": "一畑電気鉄道",
-      "translation": ""
+      "translation": "Ichibata Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha60}.type",
       "source": "デハ  60系",
-      "translation": ""
+      "translation": "Deha 60 series"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha60}.description",
       "source": "昭和36年西武所沢車輌工場製造の元西武鉄道クモハ551系です。クモハ552に551の、554に553の運転台を搭載して両運転台の車両に改造して、昭和61年に入線しました。当初はデハ92と93でしたが、改番されました。",
-      "translation": ""
+      "translation": "Originally Seibu Railway KuMoHa 551 series, manufactured in 1961 by Seibu Tokorozawa Rolling Stock Factory. KuMoHa 552 was equipped with the cab of 551, and 554 with the cab of 553, converting them into dual-cab vehicles, and they entered service in 1986. Initially Deha 92 and 93, they were renumbered."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha70}.name",
       "source": "松江線",
-      "translation": ""
+      "translation": "Matsue Line"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha70}.company",
       "source": "一畑電気鉄道",
-      "translation": ""
+      "translation": "Ichibata Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha70}.type",
       "source": "デハ  70系+クハ170系",
-      "translation": ""
+      "translation": "Deha 70 series + Kuha 170 series"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha70}.description",
       "source": "デハ70系とクハ170系の編成。デハ70系は、元武蔵野鉄道の制御車のクハ5570系で、昭和22年に電装化され西武モハ300系(クモハ300系)になり、昭和39年に西武所沢車両工場で改造して入線しました。クハ170系は、同じく元武蔵野鉄道クハ5570系で、電装化されていた西武モハ300系(クモハ300系)を電装解除して、再び制御車に改造されました。",
-      "translation": ""
+      "translation": "A formation of Deha 70 series and Kuha 170 series. The Deha 70 series was originally Musashino Railway's control car Kuha 5570 series, electrified in Showa 22 (1947) to become Seibu Moha 300 series (Kumoha 300 series), and entered service after modification at Seibu Tokorozawa Rolling Stock Factory in Showa 39 (1964). The Kuha 170 series was also originally Musashino Railway's Kuha 5570 series, which was de-electrified from the electrified Seibu Moha 300 series (Kumoha 300 series) and converted back into a control car."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha80}.company",
       "source": "一畑電気鉄道",
-      "translation": ""
+      "translation": "Ichibata Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha80}.type",
       "source": "デハ  80系+クハ180系",
-      "translation": ""
+      "translation": "Deha 80 series + Kuha 180 series"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha80}.description",
       "source": "昭和34年西武所沢車輌工場製造の元西武鉄道451系です。昭和57年に入線しました。",
-      "translation": ""
+      "translation": "Originally Seibu Railway 451 series, manufactured in 1959 by Seibu Tokorozawa Rolling Stock Factory. It entered service in 1982."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha90}.company",
       "source": "一畑電気鉄道",
-      "translation": ""
+      "translation": "Ichibata Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha90}.type",
       "source": "デハ  90系+クハ190系",
-      "translation": ""
+      "translation": "Deha 90 series + Kuha 190 series"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha90}.description",
       "source": "昭和37年西武所沢車輌工場製造の元西武鉄道551系です。昭和60年に入線しました。",
-      "translation": ""
+      "translation": "Originally Seibu Railway 551 series, manufactured in 1962 by Seibu Tokorozawa Rolling Stock Factory. It entered service in 1985."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha2101}.name",
       "source": "3扉",
-      "translation": ""
+      "translation": "3-door"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha2101}.company",
       "source": "一畑電気鉄道",
-      "translation": ""
+      "translation": "Ichibata Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha2101}.type",
       "source": "デハ2100+2110系",
-      "translation": ""
+      "translation": "DeHa 2100+2110 Series"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha2101}.description",
       "source": "昭和43年日本車輌製造の元京王電鉄5000系です。平成06年に入線しました。",
-      "translation": ""
+      "translation": "Originally Keio Electric Railway 5000 series, manufactured in 1968 by Nippon Sharyo. It entered service in 1994."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha2103}.name",
       "source": "2扉",
-      "translation": ""
+      "translation": "2-door"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha2103}.company",
       "source": "一畑電気鉄道",
-      "translation": ""
+      "translation": "Ichibata Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha2103}.type",
       "source": "デハ2100+2110系",
-      "translation": ""
+      "translation": "DeHa 2100+2110 Series"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha2103}.description",
       "source": "昭和43年日本車輌製造の元京王電鉄5000系です。平成07年に入線しました。2扉に改造され座席定員が増えています。",
-      "translation": ""
+      "translation": "Originally Keio Electric Railway 5000 series, manufactured in 1968 by Nippon Sharyo. It entered service in 1995. It was converted to two doors, increasing its seating capacity."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha3010}.company",
       "source": "一畑電気鉄道",
-      "translation": ""
+      "translation": "Ichibata Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha3010}.type",
       "source": "デハ3000+3010系",
-      "translation": ""
+      "translation": "Deha 3000 + 3010 series"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha3010}.description",
       "source": "昭和34年帝国車輌製造の元南海電鉄21000系です。平成08年に入線しました。",
-      "translation": ""
+      "translation": "Originally Nankai Electric Railway 21000 series, manufactured in 1959 by Teikoku Sharyo. It entered service in 1996."
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha5000}.name",
       "source": "出雲大社号",
-      "translation": ""
+      "translation": "Izumo Taisha"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha5000}.company",
       "source": "一畑電気鉄道",
-      "translation": ""
+      "translation": "Ichibata Electric Railway"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha5000}.type",
       "source": "デハ5000+5100系",
-      "translation": ""
+      "translation": "Deha 5000 + 5100 series"
     },
     {
       "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha5000}.description",
       "source": "昭和42年日本車輌製造の元京王電鉄5000系です。平成10年に入線しました。",
-      "translation": ""
+      "translation": "Originally Keio Electric Railway 5000 series, manufactured in 1967 by Nippon Sharyo. It entered service in 1998."
     }
   ]
 }

@@ -6,52 +6,52 @@
     {
       "key": "plugin.title",
       "source": "ホーム屋根",
-      "translation": ""
+      "translation": "Platform Roof"
     },
     {
       "key": "contribution.{200405290950Roof01A}12457.name",
       "source": "HIMA屋根01A",
-      "translation": ""
+      "translation": "HIMA Roof 01A"
     },
     {
       "key": "contribution.{200405291007Roof01B}16477.name",
       "source": "HIMA屋根01B",
-      "translation": ""
+      "translation": "HIMA Roof 01B"
     },
     {
       "key": "contribution.{200405291007Roof01C}12587.name",
       "source": "HIMA屋根01C",
-      "translation": ""
+      "translation": "HIMA Roof 01C"
     },
     {
       "key": "contribution.{200405291107Roof01A}42457.name",
       "source": "HIMA屋根02A",
-      "translation": ""
+      "translation": "HIMA Roof 02A"
     },
     {
       "key": "contribution.{200405291107Roof01B}10477.name",
       "source": "HIMA屋根02B",
-      "translation": ""
+      "translation": "HIMA Roof 02B"
     },
     {
       "key": "contribution.{200405291107Roof01C}22587.name",
       "source": "HIMA屋根02C",
-      "translation": ""
+      "translation": "HIMA Roof 02C"
     },
     {
       "key": "contribution.{200405300146Roof01A}4212747.name",
       "source": "HIMA屋根03A",
-      "translation": ""
+      "translation": "HIMA Roof 03A"
     },
     {
       "key": "contribution.{200405300146Roof01B}45865737.name",
       "source": "HIMA屋根03B",
-      "translation": ""
+      "translation": "HIMA Roof 03B"
     },
     {
       "key": "contribution.{200405300146Roof01C}22478947.name",
       "source": "HIMA屋根03C",
-      "translation": ""
+      "translation": "HIMA Roof 03C"
     }
   ]
 }

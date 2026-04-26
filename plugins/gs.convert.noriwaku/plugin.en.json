@@ -5,38 +5,38 @@
   "texts": [
     {
       "key": "plugin.title",
-      "source": "建物総合コンバート\u3000花菱烈火\u3000法枠",
-      "translation": ""
+      "source": "建物総合コンバート　花菱烈火　法枠",
+      "translation": "Building General Convert: Hanabishi Rekka - Slope Protection Frame"
     },
     {
       "key": "contribution.{rk-0003-A0036A6ECDEB}-gs.group",
       "source": "法枠(PC)",
-      "translation": ""
+      "translation": "Slope Frame (PC)"
     },
     {
       "key": "contribution.{rk-0001-A0036A6ECDEB}-gs.group",
       "source": "法枠(PC)",
-      "translation": ""
+      "translation": "Slope Frame (PC)"
     },
     {
       "key": "contribution.{rk-0002-A0036A6ECDEB}-gs.group",
       "source": "法枠(PC)",
-      "translation": ""
+      "translation": "Slope Frame (PC)"
     },
     {
       "key": "contribution.{rk-0005-A0036A6ECDEB}-gs.group",
       "source": "法枠(PC)",
-      "translation": ""
+      "translation": "Slope Frame (PC)"
     },
     {
       "key": "contribution.{rk-0006-A0036A6ECDEB}-gs.group",
       "source": "法枠(PC)",
-      "translation": ""
+      "translation": "Slope Frame (PC)"
     },
     {
       "key": "contribution.{rk-0009-A0036A6ECDEB}-gs.group",
       "source": "法枠(PC)",
-      "translation": ""
+      "translation": "Slope Frame (PC)"
     }
   ]
 }
