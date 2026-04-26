@@ -46,7 +46,6 @@ public sealed class MainWindow : Window
     private TextBlock hudWorldValue = null!;
     private TextBlock hudDateValue = null!;
     private TextBlock hudTrafficValue = null!;
-    private TextBlock hudDiagnosticsValue = null!;
     private TextBlock bottomStatusText = null!;
     private TextBlock bottomDetailText = null!;
 
@@ -310,7 +309,6 @@ public sealed class MainWindow : Window
         hudWorldValue = CreateHudMetric(metrics, "World", "");
         hudDateValue = CreateHudMetric(metrics, "Date", "");
         hudTrafficValue = CreateHudMetric(metrics, "Passengers", "");
-        hudDiagnosticsValue = CreateHudMetric(metrics, "Diagnostics", "");
         grid.Children.Add(metrics);
 
         Control simulationControls = BuildHudSimulationControls();
@@ -1057,7 +1055,6 @@ public sealed class MainWindow : Window
         hudWorldValue.Text = status.WorldName;
         hudDateValue.Text = status.Clock.Format(ModernTextLanguage.English);
         hudTrafficValue.Text = $"{status.WaitingPassengers:N0}/{status.StationPopulation:N0}";
-        hudDiagnosticsValue.Text = $"{plugins.ErrorCount} plugin errors";
         bottomStatusText.Text = $"{status.InteractionHint} {status.LastMessage}";
         bottomDetailText.Text = CreateStatusDetails(status);
         UpdatePlacementPreview(status);
