@@ -1,3 +1,4 @@
+using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Controls.Primitives;
 using Avalonia.Controls.Templates;
@@ -5,6 +6,7 @@ using Avalonia.Interactivity;
 using Avalonia.Layout;
 using Avalonia.Media;
 using Avalonia.Media.Imaging;
+using Avalonia.Threading;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Text.Json;
@@ -16,10 +18,49 @@ public sealed class MainWindow : Window
     private readonly LegacyAssetCatalog assets;
     private readonly PluginManifestCatalog plugins;
     private readonly Image previewImage;
-    private readonly TextBlock selectionText;
+    private readonly TextBlock debugSelectionText;
     private readonly MapViewport mapViewport;
-    private readonly TextBlock mapStatusText;
     private readonly string worldSnapshotPath;
+    private readonly DispatcherTimer simulationTimer;
+    private readonly Bitmap? toolbarIconStrip;
+    private readonly Bitmap? dayNightIconStrip;
+    private readonly Dictionary<MapEditMode, ToggleButton> modeButtons = new();
+    private readonly int[] simulationSpeeds = { 10, 30, 60, 180, 360 };
+
+    private ColumnDefinition developerColumn = null!;
+    private Border developerDrawer = null!;
+    private Button developerToggleButton = null!;
+    private Button playPauseButton = null!;
+    private TextBlock simulationStepValue = null!;
+    private CheckBox gridCheckBox = null!;
+    private CheckBox nightCheckBox = null!;
+    private Slider heightCutSlider = null!;
+    private Border selectContextPanel = null!;
+    private Border railContextPanel = null!;
+    private Border roadContextPanel = null!;
+    private Border terrainContextPanel = null!;
+    private Border eraseContextPanel = null!;
+    private TextBlock hudCashValue = null!;
+    private TextBlock hudDateValue = null!;
+    private TextBlock hudSpeedValue = null!;
+    private TextBlock hudTrafficValue = null!;
+    private TextBlock hudEntitiesValue = null!;
+    private TextBlock hudDiagnosticsValue = null!;
+    private TextBlock worldNameValue = null!;
+    private TextBlock selectedValue = null!;
+    private TextBlock hoverValue = null!;
+    private TextBlock anchorValue = null!;
+    private TextBlock toolValue = null!;
+    private TextBlock roadValue = null!;
+    private TextBlock displayValue = null!;
+    private TextBlock transportValue = null!;
+    private TextBlock zoomValue = null!;
+    private TextBlock messageValue = null!;
+    private TextBlock bottomStatusText = null!;
+
+    private bool developerModeVisible;
+    private bool simulationRunning;
+    private int simulationSpeedIndex;
 
     public MainWindow(LegacyAssetCatalog assets)
     {
@@ -27,10 +68,10 @@ public sealed class MainWindow : Window
         plugins = new PluginManifestCatalog(assets.PluginDirectory);
 
         Title = "FreeTrain Modern";
-        MinWidth = 960;
-        MinHeight = 640;
-        Width = 1180;
-        Height = 760;
+        MinWidth = 1040;
+        MinHeight = 680;
+        Width = 1320;
+        Height = 820;
 
         previewImage = new Image
         {
@@ -39,30 +80,119 @@ public sealed class MainWindow : Window
             VerticalAlignment = VerticalAlignment.Center
         };
 
-        selectionText = new TextBlock
+        debugSelectionText = new TextBlock
         {
             TextWrapping = TextWrapping.Wrap,
-            Foreground = Brushes.Gray
+            Foreground = DebugMutedBrush
         };
-        mapStatusText = new TextBlock
-        {
-            Foreground = Brushes.Gray,
-            VerticalAlignment = VerticalAlignment.Center,
-            Text = "No tile | nothing selected"
-        };
+
         mapViewport = new MapViewport(assets, plugins);
-        mapViewport.StatusChanged += status => mapStatusText.Text = status;
+        mapViewport.StatusChanged += ApplyStatus;
         worldSnapshotPath = Path.Combine(AppContext.BaseDirectory, "modern-world.snapshot.json");
+        toolbarIconStrip = LoadIconStrip("Toolbar.bmp");
+        dayNightIconStrip = LoadIconStrip("DayNight.bmp");
+
+        simulationTimer = new DispatcherTimer
+        {
+            Interval = TimeSpan.FromMilliseconds(550)
+        };
+        simulationTimer.Tick += (_, _) => mapViewport.AdvanceClock(simulationSpeeds[simulationSpeedIndex]);
 
         Content = BuildLayout();
         LoadInitialPreview();
+        ApplyStatus(mapViewport.CurrentStatus);
+    }
+
+    private static IBrush AppBackgroundBrush => new SolidColorBrush(Color.FromRgb(18, 21, 24));
+    private static IBrush ChromeBrush => new SolidColorBrush(Color.FromRgb(31, 36, 41));
+    private static IBrush ChromeRaisedBrush => new SolidColorBrush(Color.FromRgb(42, 48, 54));
+    private static IBrush PanelBrush => new SolidColorBrush(Color.FromRgb(246, 248, 249));
+    private static IBrush AccentBrush => new SolidColorBrush(Color.FromRgb(198, 83, 184));
+    private static IBrush ActiveToolBrush => new SolidColorBrush(Color.FromRgb(238, 218, 236));
+    private static IBrush TextBrush => new SolidColorBrush(Color.FromRgb(242, 244, 246));
+    private static IBrush MutedTextBrush => new SolidColorBrush(Color.FromRgb(163, 171, 178));
+    private static IBrush DarkTextBrush => new SolidColorBrush(Color.FromRgb(33, 37, 41));
+    private static IBrush DarkMutedTextBrush => new SolidColorBrush(Color.FromRgb(102, 110, 116));
+    private static IBrush DebugMutedBrush => new SolidColorBrush(Color.FromRgb(186, 192, 198));
+
+    private Bitmap? LoadIconStrip(string resourceName)
+    {
+        string? path = assets.FindResource(resourceName);
+        return path is null ? null : LegacyBitmap.LoadWithColorKey(path);
     }
 
     private Control BuildLayout()
     {
-        DockPanel root = new();
+        DockPanel root = new()
+        {
+            Background = AppBackgroundBrush
+        };
 
-        Menu menu = new();
+        Menu menu = BuildMenu();
+        DockPanel.SetDock(menu, Dock.Top);
+        root.Children.Add(menu);
+
+        Grid shell = new()
+        {
+            ColumnDefinitions = new ColumnDefinitions("292,*,0"),
+            RowDefinitions = new RowDefinitions("Auto,Auto,*,Auto")
+        };
+        developerColumn = shell.ColumnDefinitions[2];
+
+        Control hud = BuildHud();
+        Grid.SetColumnSpan(hud, 3);
+        shell.Children.Add(hud);
+
+        Control inspector = BuildInspector();
+        Grid.SetRow(inspector, 1);
+        Grid.SetRowSpan(inspector, 3);
+        shell.Children.Add(inspector);
+
+        Control toolbar = BuildMapToolbar();
+        Grid.SetColumn(toolbar, 1);
+        Grid.SetRow(toolbar, 1);
+        shell.Children.Add(toolbar);
+
+        Control mapSurface = BuildMapSurface();
+        Grid.SetColumn(mapSurface, 1);
+        Grid.SetRow(mapSurface, 2);
+        shell.Children.Add(mapSurface);
+
+        bottomStatusText = new TextBlock
+        {
+            Foreground = DarkMutedTextBrush,
+            VerticalAlignment = VerticalAlignment.Center,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            Margin = new Thickness(14, 7)
+        };
+        Border statusBar = new()
+        {
+            Background = Brushes.White,
+            Child = bottomStatusText
+        };
+        Grid.SetColumn(statusBar, 1);
+        Grid.SetRow(statusBar, 3);
+        shell.Children.Add(statusBar);
+
+        developerDrawer = BuildDeveloperDrawer();
+        developerDrawer.IsVisible = false;
+        Grid.SetColumn(developerDrawer, 2);
+        Grid.SetRow(developerDrawer, 1);
+        Grid.SetRowSpan(developerDrawer, 3);
+        shell.Children.Add(developerDrawer);
+
+        root.Children.Add(shell);
+        return root;
+    }
+
+    private Menu BuildMenu()
+    {
+        Menu menu = new()
+        {
+            Background = new SolidColorBrush(Color.FromRgb(9, 11, 13)),
+            Foreground = TextBrush
+        };
+
         MenuItem file = new() { Header = "_File" };
         file.Items.Add(new MenuItem
         {
@@ -86,235 +216,685 @@ public sealed class MainWindow : Window
             Command = MiniCommand.Create(Close)
         });
         menu.Items.Add(file);
-        DockPanel.SetDock(menu, Dock.Top);
-        root.Children.Add(menu);
 
-        Grid body = new()
+        MenuItem view = new() { Header = "_View" };
+        view.Items.Add(new MenuItem
         {
-            ColumnDefinitions = new ColumnDefinitions("300,*"),
-            RowDefinitions = new RowDefinitions("*")
-        };
-
-        body.Children.Add(BuildSidebar());
-
-        TabControl tabs = new()
-        {
-            Items =
-            {
-                new TabItem
-                {
-                    Header = "Map",
-                    Content = BuildMapViewport()
-                },
-                new TabItem
-                {
-                    Header = "Assets",
-                    Content = BuildAssetPreview()
-                },
-                new TabItem
-                {
-                    Header = "Pictures",
-                    Content = BuildPictureContributionBrowser()
-                },
-                new TabItem
-                {
-                    Header = "Sprites",
-                    Content = BuildSpriteContributionBrowser()
-                },
-                new TabItem
-                {
-                    Header = "Roads",
-                    Content = BuildRoadContributionBrowser()
-                },
-                new TabItem
-                {
-                    Header = "Plugins",
-                    Content = BuildPluginBrowser()
-                }
-            }
-        };
-        Grid.SetColumn(tabs, 1);
-        body.Children.Add(tabs);
-
-        root.Children.Add(body);
-        return root;
-    }
-
-    private Control BuildMapViewport()
-    {
-        DockPanel panel = new();
-        DockPanel toolbar = BuildMapToolbar();
-        DockPanel.SetDock(toolbar, Dock.Top);
-        panel.Children.Add(toolbar);
-
-        DockPanel.SetDock(mapStatusText, Dock.Bottom);
-        mapStatusText.Margin = new Avalonia.Thickness(12, 6);
-        panel.Children.Add(mapStatusText);
-
-        panel.Children.Add(new ScrollViewer
-        {
-            Content = mapViewport,
-            HorizontalScrollBarVisibility = ScrollBarVisibility.Auto,
-            VerticalScrollBarVisibility = ScrollBarVisibility.Auto
+            Header = "_Developer Tools",
+            Command = MiniCommand.Create(ToggleDeveloperMode)
         });
-
-        return new Border
+        view.Items.Add(new Separator());
+        view.Items.Add(new MenuItem
         {
-            BorderBrush = Brushes.LightGray,
-            BorderThickness = new Avalonia.Thickness(1),
-            Background = Brushes.White,
-            Child = panel
-        };
+            Header = "_Reset Zoom",
+            Command = MiniCommand.Create(() => mapViewport.Zoom = 1.0)
+        });
+        menu.Items.Add(view);
+
+        MenuItem simulation = new() { Header = "_Simulation" };
+        simulation.Items.Add(new MenuItem
+        {
+            Header = simulationRunning ? "_Pause" : "_Play",
+            Command = MiniCommand.Create(ToggleSimulation)
+        });
+        simulation.Items.Add(new MenuItem
+        {
+            Header = "Advance _10 Minutes",
+            Command = MiniCommand.Create(() => mapViewport.AdvanceClock(10))
+        });
+        simulation.Items.Add(new MenuItem
+        {
+            Header = "Advance _1 Hour",
+            Command = MiniCommand.Create(() => mapViewport.AdvanceClock(60))
+        });
+        menu.Items.Add(simulation);
+
+        return menu;
     }
 
-    private DockPanel BuildMapToolbar()
+    private Control BuildHud()
     {
-        DockPanel toolbar = new()
+        Grid grid = new()
         {
-            Background = new SolidColorBrush(Color.FromRgb(245, 247, 247)),
-            LastChildFill = true,
-            Margin = new Avalonia.Thickness(0, 0, 0, 1)
+            ColumnDefinitions = new ColumnDefinitions("*,Auto,Auto"),
+            Background = ChromeBrush,
+            MinHeight = 58
         };
 
+        StackPanel metrics = new()
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 12,
+            Margin = new Thickness(14, 8),
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        hudCashValue = CreateHudMetric(metrics, "Cash", "JPY 0", emphasize: true);
+        hudDateValue = CreateHudMetric(metrics, "Date", "");
+        hudSpeedValue = CreateHudMetric(metrics, "Speed", "");
+        hudTrafficValue = CreateHudMetric(metrics, "Traffic", "");
+        hudEntitiesValue = CreateHudMetric(metrics, "Objects", "");
+        hudDiagnosticsValue = CreateHudMetric(metrics, "Diagnostics", "");
+        grid.Children.Add(metrics);
+
+        Control simulationControls = BuildHudSimulationControls();
+        Grid.SetColumn(simulationControls, 1);
+        grid.Children.Add(simulationControls);
+
+        developerToggleButton = new Button
+        {
+            Content = "Developer",
+            Background = ChromeRaisedBrush,
+            Foreground = TextBrush,
+            Padding = new Thickness(12, 7),
+            Margin = new Thickness(8, 10, 14, 10),
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        developerToggleButton.Click += (_, _) => ToggleDeveloperMode();
+        ToolTip.SetTip(developerToggleButton, "Show assets, pictures, sprites, roads, and plugin diagnostics.");
+        Grid.SetColumn(developerToggleButton, 2);
+        grid.Children.Add(developerToggleButton);
+
+        return grid;
+    }
+
+    private Control BuildHudSimulationControls()
+    {
         StackPanel controls = new()
         {
             Orientation = Orientation.Horizontal,
             Spacing = 6,
-            Margin = new Avalonia.Thickness(8, 6)
-        };
-
-        controls.Children.Add(ToolButton("-", (_, _) => mapViewport.Zoom -= 0.25, "Zoom out"));
-        controls.Children.Add(ToolButton("+", (_, _) => mapViewport.Zoom += 0.25, "Zoom in"));
-        controls.Children.Add(ToolButton("1:1", (_, _) => mapViewport.Zoom = 1.0, "Reset zoom"));
-        controls.Children.Add(ToolButton("Raise", (_, _) => mapViewport.RaiseSelectedTerrain(), "Raise selected terrain"));
-        controls.Children.Add(ToolButton("Lower", (_, _) => mapViewport.LowerSelectedTerrain(), "Lower selected terrain"));
-        controls.Children.Add(ToolButton("Select", (_, _) => mapViewport.EditMode = MapEditMode.Select, "Select tiles"));
-        controls.Children.Add(ToolButton("Rail", (_, _) => mapViewport.EditMode = MapEditMode.Rail, "Place rails between selected tiles"));
-        controls.Children.Add(ToolButton("Road", (_, _) => mapViewport.EditMode = MapEditMode.Road, "Place roads between selected tiles"));
-        controls.Children.Add(ToolButton("Erase", (_, _) => mapViewport.EditMode = MapEditMode.Erase, "Erase rail or road on selected tile"));
-        controls.Children.Add(ToolButton("< Road", (_, _) => mapViewport.SelectPreviousRoad(), "Previous road plugin"));
-        controls.Children.Add(ToolButton("Road >", (_, _) => mapViewport.SelectNextRoad(), "Next road plugin"));
-        controls.Children.Add(ToolButton("+10m", (_, _) => mapViewport.AdvanceClock(10), "Advance world clock ten minutes"));
-        controls.Children.Add(ToolButton("+1h", (_, _) => mapViewport.AdvanceClock(60), "Advance world clock one hour"));
-
-        CheckBox grid = new()
-        {
-            Content = "Grid",
-            IsChecked = mapViewport.ShowGrid,
-            Foreground = Brushes.Black,
-            VerticalAlignment = VerticalAlignment.Center
-        };
-        grid.IsCheckedChanged += (_, _) => mapViewport.ShowGrid = grid.IsChecked == true;
-        controls.Children.Add(grid);
-
-        CheckBox night = new()
-        {
-            Content = "Night",
-            IsChecked = mapViewport.UseNightView,
-            Foreground = Brushes.Black,
-            VerticalAlignment = VerticalAlignment.Center
-        };
-        night.IsCheckedChanged += (_, _) => mapViewport.UseNightView = night.IsChecked == true;
-        controls.Children.Add(night);
-
-        controls.Children.Add(new TextBlock
-        {
-            Text = "Height",
             VerticalAlignment = VerticalAlignment.Center,
-            Foreground = Brushes.Black,
-            Margin = new Avalonia.Thickness(8, 0, 0, 0)
-        });
-
-        Slider heightCut = new()
-        {
-            Minimum = 0,
-            Maximum = mapViewport.WorldMaxHeightCutLevel,
-            Value = mapViewport.MaxVisibleLevel,
-            Width = 140,
-            TickFrequency = 1,
-            IsSnapToTickEnabled = true,
-            VerticalAlignment = VerticalAlignment.Center
+            Margin = new Thickness(8, 10)
         };
-        heightCut.PropertyChanged += (_, e) =>
-        {
-            if (e.Property == RangeBase.ValueProperty)
-            {
-                mapViewport.MaxVisibleLevel = (int)Math.Round(heightCut.Value);
-            }
-        };
-        controls.Children.Add(heightCut);
 
-        toolbar.Children.Add(controls);
-        return toolbar;
+        playPauseButton = HudButton(HudIconOnly(ToolGlyphKind.Play), (_, _) => ToggleSimulation(), "Play or pause the simulation clock");
+        controls.Children.Add(playPauseButton);
+        controls.Children.Add(HudButton("10m", (_, _) => mapViewport.AdvanceClock(10), "Advance ten minutes"));
+        controls.Children.Add(HudButton("1h", (_, _) => mapViewport.AdvanceClock(60), "Advance one hour"));
+        controls.Children.Add(HudButton(HudIconOnly(ToolGlyphKind.Slower), (_, _) => ChangeSimulationSpeed(-1), "Slower simulation step"));
+        controls.Children.Add(HudButton(HudIconOnly(ToolGlyphKind.Faster), (_, _) => ChangeSimulationSpeed(1), "Faster simulation step"));
+        simulationStepValue = new TextBlock
+        {
+            Foreground = MutedTextBrush,
+            FontSize = 12,
+            FontWeight = FontWeight.SemiBold,
+            VerticalAlignment = VerticalAlignment.Center,
+            MinWidth = 60
+        };
+        controls.Children.Add(simulationStepValue);
+
+        return controls;
     }
 
-    private static Button ToolButton(string content, EventHandler<RoutedEventArgs> click, string tip)
+    private static TextBlock CreateHudMetric(Panel parent, string label, string value, bool emphasize = false)
+    {
+        StackPanel metric = new()
+        {
+            Spacing = 1,
+            MinWidth = emphasize ? 150 : 112
+        };
+        metric.Children.Add(new TextBlock
+        {
+            Text = label.ToUpperInvariant(),
+            Foreground = MutedTextBrush,
+            FontSize = 11,
+            FontWeight = FontWeight.SemiBold
+        });
+
+        TextBlock valueBlock = new()
+        {
+            Text = value,
+            Foreground = emphasize ? Brushes.White : TextBrush,
+            FontSize = emphasize ? 18 : 15,
+            FontWeight = emphasize ? FontWeight.Bold : FontWeight.SemiBold,
+            TextTrimming = TextTrimming.CharacterEllipsis
+        };
+        metric.Children.Add(valueBlock);
+        parent.Children.Add(metric);
+        return valueBlock;
+    }
+
+    private Control BuildInspector()
+    {
+        Border border = new()
+        {
+            Background = ChromeBrush,
+            Padding = new Thickness(16, 14),
+            BorderBrush = new SolidColorBrush(Color.FromRgb(50, 57, 63)),
+            BorderThickness = new Thickness(0, 0, 1, 0)
+        };
+
+        StackPanel stack = new()
+        {
+            Spacing = 14
+        };
+
+        stack.Children.Add(new TextBlock
+        {
+            Text = "FreeTrain Modern",
+            Foreground = TextBrush,
+            FontSize = 22,
+            FontWeight = FontWeight.Bold
+        });
+        worldNameValue = new TextBlock
+        {
+            Foreground = MutedTextBrush,
+            TextWrapping = TextWrapping.Wrap
+        };
+        stack.Children.Add(worldNameValue);
+
+        stack.Children.Add(BuildInspectorSection("Selection",
+            CreateInfoRow("Selected", out selectedValue),
+            CreateInfoRow("Hover", out hoverValue),
+            CreateInfoRow("Anchor", out anchorValue)));
+
+        stack.Children.Add(BuildInspectorSection("Tool",
+            CreateInfoRow("Mode", out toolValue),
+            CreateInfoRow("Road", out roadValue),
+            CreateInfoRow("Display", out displayValue),
+            CreateInfoRow("Zoom", out zoomValue)));
+
+        stack.Children.Add(BuildInspectorSection("Network",
+            CreateInfoRow("Transport", out transportValue)));
+
+        stack.Children.Add(BuildInspectorSection("Message",
+            CreateMessageBlock(out messageValue)));
+
+        border.Child = new ScrollViewer
+        {
+            Content = stack,
+            HorizontalScrollBarVisibility = ScrollBarVisibility.Disabled,
+            VerticalScrollBarVisibility = ScrollBarVisibility.Auto
+        };
+        return border;
+    }
+
+    private static Border BuildInspectorSection(string title, params Control[] children)
+    {
+        StackPanel stack = new()
+        {
+            Spacing = 8
+        };
+        stack.Children.Add(new TextBlock
+        {
+            Text = title,
+            Foreground = TextBrush,
+            FontSize = 13,
+            FontWeight = FontWeight.Bold
+        });
+        foreach (Control child in children)
+        {
+            stack.Children.Add(child);
+        }
+
+        return new Border
+        {
+            Background = ChromeRaisedBrush,
+            CornerRadius = new CornerRadius(6),
+            Padding = new Thickness(12),
+            Child = stack
+        };
+    }
+
+    private static Control CreateInfoRow(string label, out TextBlock valueBlock)
+    {
+        Grid row = new()
+        {
+            ColumnDefinitions = new ColumnDefinitions("82,*")
+        };
+        row.Children.Add(new TextBlock
+        {
+            Text = label,
+            Foreground = MutedTextBrush,
+            FontSize = 12,
+            VerticalAlignment = VerticalAlignment.Top
+        });
+
+        valueBlock = new TextBlock
+        {
+            Foreground = TextBrush,
+            FontSize = 13,
+            FontWeight = FontWeight.SemiBold,
+            TextWrapping = TextWrapping.Wrap
+        };
+        Grid.SetColumn(valueBlock, 1);
+        row.Children.Add(valueBlock);
+        return row;
+    }
+
+    private static Control CreateMessageBlock(out TextBlock valueBlock)
+    {
+        valueBlock = new TextBlock
+        {
+            Foreground = TextBrush,
+            FontSize = 13,
+            TextWrapping = TextWrapping.Wrap,
+            LineHeight = 18
+        };
+        return valueBlock;
+    }
+
+    private Control BuildMapToolbar()
+    {
+        Grid toolbar = new()
+        {
+            ColumnDefinitions = new ColumnDefinitions("Auto,*"),
+            Background = PanelBrush,
+            MinHeight = 72
+        };
+
+        StackPanel primaryTools = new()
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 4,
+            Margin = new Thickness(12, 8),
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        primaryTools.Children.Add(ModeButton(IconLabel(new ToolGlyph(ToolGlyphKind.Pointer), "Select"), MapEditMode.Select, "Inspect tiles and objects"));
+        primaryTools.Children.Add(ModeButton(IconLabel(ToolbarIcon(0, ToolGlyphKind.Rail), "Rail"), MapEditMode.Rail, "Place rails between selected tiles"));
+        primaryTools.Children.Add(ModeButton(IconLabel(new ToolGlyph(ToolGlyphKind.Road), "Road"), MapEditMode.Road, "Place roads between selected tiles"));
+        primaryTools.Children.Add(ModeButton(IconLabel(ToolbarIcon(7, ToolGlyphKind.Terrain), "Terrain"), MapEditMode.Terrain, "Raise or lower terrain"));
+        primaryTools.Children.Add(ModeButton(IconLabel(ToolbarIcon(9, ToolGlyphKind.Bulldoze), "Bulldoze"), MapEditMode.Erase, "Erase rail or road"));
+        toolbar.Children.Add(primaryTools);
+
+        Grid contextGrid = new()
+        {
+            Margin = new Thickness(10, 8, 12, 8)
+        };
+        Grid.SetColumn(contextGrid, 1);
+        selectContextPanel = ContextPanel("Selection", new TextBlock
+        {
+            Text = "Inspect",
+            Foreground = DarkMutedTextBrush,
+            FontWeight = FontWeight.SemiBold,
+            VerticalAlignment = VerticalAlignment.Center
+        });
+        railContextPanel = ContextPanel("Rail", new TextBlock
+        {
+            Text = "Line placement",
+            Foreground = DarkMutedTextBrush,
+            FontWeight = FontWeight.SemiBold,
+            VerticalAlignment = VerticalAlignment.Center
+        });
+        roadContextPanel = ContextPanel("Road",
+            ToolButton("Prev", (_, _) => mapViewport.SelectPreviousRoad(), "Previous road contribution"),
+            ToolButton("Next", (_, _) => mapViewport.SelectNextRoad(), "Next road contribution"));
+        terrainContextPanel = ContextPanel("Terrain",
+            ToolButton("Raise", (_, _) => mapViewport.RaiseSelectedTerrain(), "Raise the selected terrain corner"),
+            ToolButton("Lower", (_, _) => mapViewport.LowerSelectedTerrain(), "Lower the selected terrain corner"));
+        eraseContextPanel = ContextPanel("Bulldoze", new TextBlock
+        {
+            Text = "Transport removal",
+            Foreground = DarkMutedTextBrush,
+            FontWeight = FontWeight.SemiBold,
+            VerticalAlignment = VerticalAlignment.Center
+        });
+        contextGrid.Children.Add(selectContextPanel);
+        contextGrid.Children.Add(railContextPanel);
+        contextGrid.Children.Add(roadContextPanel);
+        contextGrid.Children.Add(terrainContextPanel);
+        contextGrid.Children.Add(eraseContextPanel);
+        toolbar.Children.Add(contextGrid);
+
+        return new Border
+        {
+            Background = PanelBrush,
+            BorderBrush = new SolidColorBrush(Color.FromRgb(221, 226, 229)),
+            BorderThickness = new Thickness(0, 0, 0, 1),
+            Child = toolbar
+        };
+    }
+
+    private static Border ContextPanel(string title, params Control[] controls)
+    {
+        StackPanel row = new()
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 8,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        row.Children.Add(new TextBlock
+        {
+            Text = title,
+            Foreground = DarkMutedTextBrush,
+            FontSize = 13,
+            FontWeight = FontWeight.Bold,
+            VerticalAlignment = VerticalAlignment.Center,
+            Margin = new Thickness(0, 0, 4, 0)
+        });
+
+        foreach (Control control in controls)
+        {
+            row.Children.Add(control);
+        }
+
+        return new Border
+        {
+            Background = Brushes.Transparent,
+            Child = row
+        };
+    }
+
+    private static Button ToolButton(object content, EventHandler<RoutedEventArgs> click, string tip)
     {
         Button button = new()
         {
             Content = content,
             Background = Brushes.White,
-            Foreground = Brushes.Black,
+            Foreground = DarkTextBrush,
             MinWidth = 34,
-            MinHeight = 28,
-            Padding = new Avalonia.Thickness(8, 2)
+            MinHeight = 30,
+            Padding = new Thickness(10, 4)
         };
         button.Click += click;
         ToolTip.SetTip(button, tip);
         return button;
     }
 
-    private Control BuildAssetPreview()
+    private ToggleButton ModeButton(object content, MapEditMode mode, string tip)
     {
+        ToggleButton button = new()
+        {
+            Content = content,
+            Background = Brushes.White,
+            Foreground = DarkTextBrush,
+            Width = 68,
+            Height = 56,
+            Padding = new Thickness(4)
+        };
+        button.Click += (_, _) => mapViewport.EditMode = mode;
+        ToolTip.SetTip(button, tip);
+        modeButtons[mode] = button;
+        return button;
+    }
+
+    private Control ToolbarIcon(int stripIndex, ToolGlyphKind fallback)
+    {
+        return toolbarIconStrip is null
+            ? new ToolGlyph(fallback)
+            : new StripIcon(toolbarIconStrip, stripIndex, 16, 15);
+    }
+
+    private static Control IconLabel(Control icon, string label)
+    {
+        StackPanel stack = new()
+        {
+            Spacing = 2,
+            HorizontalAlignment = HorizontalAlignment.Center,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        stack.Children.Add(icon);
+        stack.Children.Add(new TextBlock
+        {
+            Text = label,
+            FontSize = 11,
+            FontWeight = FontWeight.SemiBold,
+            HorizontalAlignment = HorizontalAlignment.Center
+        });
+        return stack;
+    }
+
+    private static Control IconOnly(ToolGlyphKind glyph)
+    {
+        return new ToolGlyph(glyph, 16);
+    }
+
+    private static Control HudIconOnly(ToolGlyphKind glyph)
+    {
+        return new ToolGlyph(glyph, 16, Colors.White);
+    }
+
+    private static Button HudButton(object content, EventHandler<RoutedEventArgs> click, string tip)
+    {
+        Button button = new()
+        {
+            Content = content,
+            Background = ChromeRaisedBrush,
+            Foreground = TextBrush,
+            MinWidth = 34,
+            MinHeight = 30,
+            Padding = new Thickness(9, 3),
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        button.Click += click;
+        ToolTip.SetTip(button, tip);
+        return button;
+    }
+
+    private Control HeightCutControl()
+    {
+        StackPanel row = new()
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        row.Children.Add(new TextBlock
+        {
+            Text = "Cut",
+            Foreground = DarkMutedTextBrush,
+            FontSize = 12,
+            VerticalAlignment = VerticalAlignment.Center
+        });
+
+        heightCutSlider = new Slider
+        {
+            Minimum = 0,
+            Maximum = mapViewport.WorldMaxHeightCutLevel,
+            Value = mapViewport.MaxVisibleLevel,
+            Width = 118,
+            TickFrequency = 1,
+            IsSnapToTickEnabled = true,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        heightCutSlider.PropertyChanged += (_, e) =>
+        {
+            if (e.Property == RangeBase.ValueProperty)
+            {
+                mapViewport.MaxVisibleLevel = (int)Math.Round(heightCutSlider.Value);
+            }
+        };
+        row.Children.Add(heightCutSlider);
+        return row;
+    }
+
+    private Button PlayPauseButton()
+    {
+        playPauseButton = ToolButton("Play", (_, _) => ToggleSimulation(), "Play or pause the simulation clock");
+        return playPauseButton;
+    }
+
+    private CheckBox GridToggle()
+    {
+        gridCheckBox = new CheckBox
+        {
+            Content = "Grid",
+            IsChecked = mapViewport.ShowGrid,
+            Foreground = DarkTextBrush,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        gridCheckBox.IsCheckedChanged += (_, _) => mapViewport.ShowGrid = gridCheckBox.IsChecked == true;
+        ToolTip.SetTip(gridCheckBox, "Show the map grid.");
+        return gridCheckBox;
+    }
+
+    private CheckBox NightModeButton()
+    {
+        Control icon = dayNightIconStrip is null
+            ? new ToolGlyph(ToolGlyphKind.Night, 16)
+            : new StripIcon(dayNightIconStrip, 2, 16, 15, 22);
+        nightCheckBox = new CheckBox
+        {
+            Content = IconLabel(icon, "Night"),
+            IsChecked = mapViewport.UseNightView,
+            Foreground = DarkTextBrush,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        nightCheckBox.IsCheckedChanged += (_, _) => mapViewport.UseNightView = nightCheckBox.IsChecked == true;
+        ToolTip.SetTip(nightCheckBox, "Preview the night overlay.");
+        return nightCheckBox;
+    }
+
+    private Control BuildMapSurface()
+    {
+        Grid mapLayer = new();
+        mapLayer.Children.Add(new ScrollViewer
+        {
+            Content = mapViewport,
+            HorizontalScrollBarVisibility = ScrollBarVisibility.Auto,
+            VerticalScrollBarVisibility = ScrollBarVisibility.Auto
+        });
+
+        Border viewOverlay = new()
+        {
+            Background = new SolidColorBrush(Color.FromArgb(232, 246, 248, 249)),
+            BorderBrush = new SolidColorBrush(Color.FromRgb(207, 214, 218)),
+            BorderThickness = new Thickness(1),
+            CornerRadius = new CornerRadius(6),
+            Padding = new Thickness(8),
+            Margin = new Thickness(0, 12, 12, 0),
+            HorizontalAlignment = HorizontalAlignment.Right,
+            VerticalAlignment = VerticalAlignment.Top,
+            Child = BuildMapViewOverlay()
+        };
+        mapLayer.Children.Add(viewOverlay);
+
         return new Border
         {
-            BorderBrush = Brushes.LightGray,
-            BorderThickness = new Avalonia.Thickness(1),
-            Background = Brushes.White,
-            Padding = new Avalonia.Thickness(16),
-            Child = new ScrollViewer
-            {
-                Content = previewImage,
-                HorizontalScrollBarVisibility = ScrollBarVisibility.Auto,
-                VerticalScrollBarVisibility = ScrollBarVisibility.Auto
-            }
+            Background = new SolidColorBrush(Color.FromRgb(92, 162, 182)),
+            BorderBrush = new SolidColorBrush(Color.FromRgb(16, 19, 22)),
+            BorderThickness = new Thickness(0),
+            Child = mapLayer
         };
     }
 
-    private Control BuildSidebar()
+    private Control BuildMapViewOverlay()
     {
-        DockPanel sidebar = new()
+        StackPanel panel = new()
         {
-            Margin = new Avalonia.Thickness(12),
+            Orientation = Orientation.Horizontal,
+            Spacing = 7,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        panel.Children.Add(new TextBlock
+        {
+            Text = "View",
+            Foreground = DarkMutedTextBrush,
+            FontWeight = FontWeight.Bold,
+            VerticalAlignment = VerticalAlignment.Center
+        });
+        panel.Children.Add(OverlayButton(IconOnly(ToolGlyphKind.ZoomOut), (_, _) => mapViewport.Zoom -= 0.25, "Zoom out"));
+        panel.Children.Add(OverlayButton(IconOnly(ToolGlyphKind.ZoomIn), (_, _) => mapViewport.Zoom += 0.25, "Zoom in"));
+        panel.Children.Add(OverlayButton("1:1", (_, _) => mapViewport.Zoom = 1.0, "Reset zoom"));
+        panel.Children.Add(GridToggle());
+        panel.Children.Add(NightModeButton());
+        panel.Children.Add(HeightCutControl());
+
+        return panel;
+    }
+
+    private static Button OverlayButton(object content, EventHandler<RoutedEventArgs> click, string tip)
+    {
+        Button button = new()
+        {
+            Content = content,
+            Background = Brushes.White,
+            Foreground = DarkTextBrush,
+            MinWidth = 30,
+            MinHeight = 28,
+            Padding = new Thickness(7, 3),
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        button.Click += click;
+        ToolTip.SetTip(button, tip);
+        return button;
+    }
+
+    private Border BuildDeveloperDrawer()
+    {
+        DockPanel panel = new()
+        {
             LastChildFill = true
         };
 
-        TextBlock title = new()
+        Grid header = new()
         {
-            Text = "FreeTrain Modern",
-            FontSize = 22,
-            FontWeight = FontWeight.SemiBold,
-            Margin = new Avalonia.Thickness(0, 0, 0, 8)
+            ColumnDefinitions = new ColumnDefinitions("*,Auto"),
+            Background = ChromeBrush,
+            MinHeight = 48
         };
-        DockPanel.SetDock(title, Dock.Top);
-        sidebar.Children.Add(title);
+        header.Children.Add(new TextBlock
+        {
+            Text = "Developer Tools",
+            Foreground = TextBrush,
+            FontWeight = FontWeight.Bold,
+            VerticalAlignment = VerticalAlignment.Center,
+            Margin = new Thickness(14, 0)
+        });
+        Button close = new()
+        {
+            Content = "Close",
+            Background = ChromeRaisedBrush,
+            Foreground = TextBrush,
+            Padding = new Thickness(10, 4),
+            Margin = new Thickness(8, 8, 12, 8)
+        };
+        close.Click += (_, _) => SetDeveloperMode(false);
+        Grid.SetColumn(close, 1);
+        header.Children.Add(close);
+        DockPanel.SetDock(header, Dock.Top);
+        panel.Children.Add(header);
+
+        TabControl tabs = new()
+        {
+            Background = new SolidColorBrush(Color.FromRgb(24, 28, 32)),
+            Foreground = TextBrush,
+            Items =
+            {
+                new TabItem { Header = "Assets", Content = BuildAssetDebugBrowser() },
+                new TabItem { Header = "Pictures", Content = BuildPictureContributionBrowser() },
+                new TabItem { Header = "Sprites", Content = BuildSpriteContributionBrowser() },
+                new TabItem { Header = "Roads", Content = BuildRoadContributionBrowser() },
+                new TabItem { Header = "Plugins", Content = BuildPluginBrowser() }
+            }
+        };
+        panel.Children.Add(tabs);
+
+        return new Border
+        {
+            Background = new SolidColorBrush(Color.FromRgb(24, 28, 32)),
+            BorderBrush = new SolidColorBrush(Color.FromRgb(51, 58, 64)),
+            BorderThickness = new Thickness(1, 0, 0, 0),
+            Child = panel
+        };
+    }
+
+    private Control BuildAssetDebugBrowser()
+    {
+        Grid grid = new()
+        {
+            ColumnDefinitions = new ColumnDefinitions("150,*"),
+            RowDefinitions = new RowDefinitions("Auto,*"),
+            Margin = new Thickness(10)
+        };
 
         TextBlock summary = new()
         {
-            Text = $"{assets.Assets.Count} core assets | {plugins.LoadedCount} plugins | {plugins.ErrorCount} plugin errors",
-            Margin = new Avalonia.Thickness(0, 0, 0, 12)
+            Text = $"{assets.Assets.Count} core assets",
+            Foreground = TextBrush,
+            FontWeight = FontWeight.Bold,
+            Margin = new Thickness(0, 0, 0, 8)
         };
-        DockPanel.SetDock(summary, Dock.Top);
-        sidebar.Children.Add(summary);
-
-        selectionText.Text = assets.CoreResourceDirectory;
-        selectionText.Margin = new Avalonia.Thickness(0, 0, 0, 12);
-        DockPanel.SetDock(selectionText, Dock.Top);
-        sidebar.Children.Add(selectionText);
+        Grid.SetColumnSpan(summary, 2);
+        grid.Children.Add(summary);
 
         ListBox list = new()
         {
-            ItemsSource = assets.Assets.Where(asset => asset.Kind == "Image").ToList()
+            ItemsSource = assets.Assets.Where(asset => asset.Kind == "Image").ToList(),
+            Background = ChromeRaisedBrush,
+            Foreground = TextBrush
         };
         list.SelectionChanged += (_, _) =>
         {
@@ -327,50 +907,80 @@ public sealed class MainWindow : Window
             new StackPanel
             {
                 Spacing = 2,
-                Margin = new Avalonia.Thickness(0, 4),
+                Margin = new Thickness(0, 4),
                 Children =
                 {
-                    new TextBlock { Text = asset?.Name, FontWeight = FontWeight.SemiBold },
-                    new TextBlock { Text = asset?.Kind, Foreground = Brushes.Gray, FontSize = 12 }
+                    new TextBlock
+                    {
+                        Text = asset?.Name,
+                        Foreground = TextBrush,
+                        FontWeight = FontWeight.SemiBold,
+                        TextWrapping = TextWrapping.Wrap
+                    },
+                    new TextBlock { Text = asset?.Kind, Foreground = DebugMutedBrush, FontSize = 12 }
                 }
             });
-        sidebar.Children.Add(list);
+        Grid.SetRow(list, 1);
+        grid.Children.Add(list);
 
-        return sidebar;
+        DockPanel preview = new()
+        {
+            Margin = new Thickness(10, 0, 0, 0)
+        };
+        debugSelectionText.Margin = new Thickness(0, 0, 0, 8);
+        DockPanel.SetDock(debugSelectionText, Dock.Bottom);
+        preview.Children.Add(debugSelectionText);
+        preview.Children.Add(new Border
+        {
+            Background = Brushes.White,
+            Child = new ScrollViewer
+            {
+                Content = previewImage,
+                HorizontalScrollBarVisibility = ScrollBarVisibility.Auto,
+                VerticalScrollBarVisibility = ScrollBarVisibility.Auto
+            }
+        });
+        Grid.SetColumn(preview, 1);
+        Grid.SetRow(preview, 1);
+        grid.Children.Add(preview);
+
+        return grid;
     }
 
     private Control BuildPluginBrowser()
     {
         Grid grid = new()
         {
-            ColumnDefinitions = new ColumnDefinitions("320,*"),
-            RowDefinitions = new RowDefinitions("Auto,*"),
-            Margin = new Avalonia.Thickness(12)
+            RowDefinitions = new RowDefinitions("Auto,2*,*"),
+            Margin = new Thickness(10)
         };
 
         TextBlock summary = new()
         {
             Text = $"{plugins.LoadedCount} manifests parsed | {plugins.ErrorCount} errors | {plugins.ContributionTypeCounts.Values.Sum()} contributions",
-            FontWeight = FontWeight.SemiBold,
-            Margin = new Avalonia.Thickness(0, 0, 0, 10)
+            Foreground = TextBrush,
+            FontWeight = FontWeight.Bold,
+            Margin = new Thickness(0, 0, 0, 8)
         };
-        Grid.SetColumnSpan(summary, 2);
         grid.Children.Add(summary);
 
         ListBox list = new()
         {
-            ItemsSource = plugins.Plugins
+            ItemsSource = plugins.Plugins,
+            Background = ChromeRaisedBrush,
+            Foreground = TextBrush
         };
         list.ItemTemplate = new FuncDataTemplate<PluginManifest>((plugin, _) =>
             new StackPanel
             {
                 Spacing = 2,
-                Margin = new Avalonia.Thickness(0, 4),
+                Margin = new Thickness(0, 4),
                 Children =
                 {
                     new TextBlock
                     {
                         Text = string.IsNullOrWhiteSpace(plugin?.Title) ? plugin?.DirectoryName : plugin?.Title,
+                        Foreground = TextBrush,
                         FontWeight = FontWeight.SemiBold,
                         TextWrapping = TextWrapping.Wrap
                     },
@@ -381,7 +991,7 @@ public sealed class MainWindow : Window
                             : plugin.IsLoaded
                                 ? $"{plugin.ContributionCount} contributions"
                                 : $"Error: {plugin.Error}",
-                        Foreground = plugin?.IsLoaded == true ? Brushes.Gray : Brushes.Firebrick,
+                        Foreground = plugin?.IsLoaded == true ? DebugMutedBrush : Brushes.IndianRed,
                         FontSize = 12,
                         TextWrapping = TextWrapping.Wrap
                     }
@@ -390,16 +1000,17 @@ public sealed class MainWindow : Window
         Grid.SetRow(list, 1);
         grid.Children.Add(list);
 
-        ContentControl details = new();
+        ContentControl details = new()
+        {
+            Margin = new Thickness(0, 10, 0, 0)
+        };
         list.SelectionChanged += (_, _) =>
         {
             details.Content = list.SelectedItem is PluginManifest plugin
                 ? BuildPluginDetails(plugin)
                 : null;
         };
-
-        Grid.SetColumn(details, 1);
-        Grid.SetRow(details, 1);
+        Grid.SetRow(details, 2);
         grid.Children.Add(details);
 
         if (plugins.Plugins.Count > 0)
@@ -408,6 +1019,82 @@ public sealed class MainWindow : Window
         }
 
         return grid;
+    }
+
+    private static Control BuildPluginDetails(PluginManifest plugin)
+    {
+        StackPanel panel = new()
+        {
+            Spacing = 6
+        };
+
+        panel.Children.Add(new TextBlock
+        {
+            Text = string.IsNullOrWhiteSpace(plugin.Title) ? plugin.DirectoryName : plugin.Title,
+            Foreground = TextBrush,
+            FontSize = 16,
+            FontWeight = FontWeight.Bold,
+            TextWrapping = TextWrapping.Wrap
+        });
+        panel.Children.Add(new TextBlock
+        {
+            Text = $"Folder: {plugin.DirectoryName}",
+            Foreground = DebugMutedBrush,
+            TextWrapping = TextWrapping.Wrap
+        });
+
+        if (!string.IsNullOrWhiteSpace(plugin.Author))
+        {
+            panel.Children.Add(new TextBlock
+            {
+                Text = $"Author: {plugin.Author}",
+                Foreground = DebugMutedBrush,
+                TextWrapping = TextWrapping.Wrap
+            });
+        }
+
+        if (!string.IsNullOrWhiteSpace(plugin.Version))
+        {
+            panel.Children.Add(new TextBlock
+            {
+                Text = $"Version: {plugin.Version}",
+                Foreground = DebugMutedBrush,
+                TextWrapping = TextWrapping.Wrap
+            });
+        }
+
+        if (plugin.Error is not null)
+        {
+            panel.Children.Add(new TextBlock
+            {
+                Text = plugin.Error,
+                Foreground = Brushes.IndianRed,
+                TextWrapping = TextWrapping.Wrap
+            });
+        }
+
+        string contributionSummary = string.Join("\n", plugin.Contributions
+            .GroupBy(contribution => contribution.Type)
+            .OrderByDescending(group => group.Count())
+            .ThenBy(group => group.Key, StringComparer.OrdinalIgnoreCase)
+            .Select(group => $"{group.Key}: {group.Count()}"));
+
+        panel.Children.Add(new TextBlock
+        {
+            Text = contributionSummary.Length == 0 ? "No parsed contributions." : contributionSummary,
+            Foreground = TextBrush,
+            FontFamily = FontFamily.Parse("Menlo, Consolas, monospace"),
+            FontSize = 12,
+            TextWrapping = TextWrapping.Wrap
+        });
+
+        return new Border
+        {
+            Background = ChromeRaisedBrush,
+            CornerRadius = new CornerRadius(6),
+            Padding = new Thickness(10),
+            Child = new ScrollViewer { Content = panel }
+        };
     }
 
     private Control BuildPictureContributionBrowser()
@@ -420,14 +1107,15 @@ public sealed class MainWindow : Window
 
         DockPanel panel = new()
         {
-            Margin = new Avalonia.Thickness(12)
+            Margin = new Thickness(10)
         };
 
         TextBlock summary = new()
         {
             Text = $"{loadablePictures.Count} loadable picture contributions shown | {plugins.Pictures.Count} parsed",
-            FontWeight = FontWeight.SemiBold,
-            Margin = new Avalonia.Thickness(0, 0, 0, 10)
+            Foreground = TextBrush,
+            FontWeight = FontWeight.Bold,
+            Margin = new Thickness(0, 0, 0, 8)
         };
         DockPanel.SetDock(summary, Dock.Top);
         panel.Children.Add(summary);
@@ -465,14 +1153,15 @@ public sealed class MainWindow : Window
 
         DockPanel panel = new()
         {
-            Margin = new Avalonia.Thickness(12)
+            Margin = new Thickness(10)
         };
 
         TextBlock summary = new()
         {
             Text = $"{loadableSprites.Count} loadable sprite contributions shown | {plugins.Sprites.Count} parsed",
-            FontWeight = FontWeight.SemiBold,
-            Margin = new Avalonia.Thickness(0, 0, 0, 10)
+            Foreground = TextBrush,
+            FontWeight = FontWeight.Bold,
+            Margin = new Thickness(0, 0, 0, 8)
         };
         DockPanel.SetDock(summary, Dock.Top);
         panel.Children.Add(summary);
@@ -510,14 +1199,15 @@ public sealed class MainWindow : Window
 
         DockPanel panel = new()
         {
-            Margin = new Avalonia.Thickness(12)
+            Margin = new Thickness(10)
         };
 
         TextBlock summary = new()
         {
             Text = $"{loadableRoads.Count} loadable road contributions shown | {plugins.Roads.Count} parsed",
-            FontWeight = FontWeight.SemiBold,
-            Margin = new Avalonia.Thickness(0, 0, 0, 10)
+            Foreground = TextBrush,
+            FontWeight = FontWeight.Bold,
+            Margin = new Thickness(0, 0, 0, 8)
         };
         DockPanel.SetDock(summary, Dock.Top);
         panel.Children.Add(summary);
@@ -545,57 +1235,125 @@ public sealed class MainWindow : Window
         return panel;
     }
 
-    private static Control BuildPluginDetails(PluginManifest plugin)
+    private void ApplyStatus(MapViewportStatus status)
     {
-        StackPanel panel = new()
-        {
-            Spacing = 8,
-            Margin = new Avalonia.Thickness(16, 0, 0, 0)
-        };
+        hudCashValue.Text = FormatMoney(status.Cash);
+        hudDateValue.Text = status.Clock.Format(ModernTextLanguage.English);
+        hudTrafficValue.Text = status.TrafficCount.ToString("N0");
+        hudEntitiesValue.Text = status.EntityCount.ToString("N0");
+        hudDiagnosticsValue.Text = $"{plugins.ErrorCount} plugin errors";
+        worldNameValue.Text = status.WorldName;
+        selectedValue.Text = FormatLocation(status.SelectedLocation);
+        hoverValue.Text = FormatLocation(status.HoverLocation);
+        anchorValue.Text = FormatLocation(status.BuildAnchorLocation);
+        toolValue.Text = status.EditMode.ToString();
+        roadValue.Text = status.ActiveRoadName;
+        displayValue.Text = $"Grid {(status.ShowGrid ? "on" : "off")}, night {(status.UseNightView ? "on" : "off")}, height cut {status.MaxVisibleLevel}/{status.WorldMaxHeightCutLevel}";
+        transportValue.Text = $"{status.RailTileCount:N0} rail tiles, {status.RoadTileCount:N0} road tiles, {status.CarCount:N0} cars";
+        zoomValue.Text = $"{status.Zoom:0.##}x";
+        messageValue.Text = $"{status.InteractionHint}\n{status.LastMessage}";
+        bottomStatusText.Text = $"{FormatLocation(status.HoverLocation)} | {status.InteractionHint}";
 
-        panel.Children.Add(new TextBlock
+        if (Math.Abs(heightCutSlider.Value - status.MaxVisibleLevel) > 0.001)
         {
-            Text = string.IsNullOrWhiteSpace(plugin.Title) ? plugin.DirectoryName : plugin.Title,
-            FontSize = 20,
-            FontWeight = FontWeight.SemiBold,
-            TextWrapping = TextWrapping.Wrap
-        });
-        panel.Children.Add(new TextBlock { Text = $"Folder: {plugin.DirectoryName}", TextWrapping = TextWrapping.Wrap });
-
-        if (!string.IsNullOrWhiteSpace(plugin.Author))
-        {
-            panel.Children.Add(new TextBlock { Text = $"Author: {plugin.Author}", TextWrapping = TextWrapping.Wrap });
+            heightCutSlider.Value = status.MaxVisibleLevel;
         }
 
-        if (!string.IsNullOrWhiteSpace(plugin.Version))
+        gridCheckBox.IsChecked = status.ShowGrid;
+        nightCheckBox.IsChecked = status.UseNightView;
+        UpdateModeButtons(status.EditMode);
+        UpdateContextPanels(status.EditMode);
+        UpdateSimulationText();
+    }
+
+    private void UpdateModeButtons(MapEditMode activeMode)
+    {
+        foreach ((MapEditMode mode, ToggleButton button) in modeButtons)
         {
-            panel.Children.Add(new TextBlock { Text = $"Version: {plugin.Version}", TextWrapping = TextWrapping.Wrap });
+            bool active = mode == activeMode;
+            button.IsChecked = active;
+            button.Background = active ? ActiveToolBrush : Brushes.White;
+            button.Foreground = DarkTextBrush;
+        }
+    }
+
+    private void UpdateContextPanels(MapEditMode activeMode)
+    {
+        selectContextPanel.IsVisible = activeMode == MapEditMode.Select;
+        railContextPanel.IsVisible = activeMode == MapEditMode.Rail;
+        roadContextPanel.IsVisible = activeMode == MapEditMode.Road;
+        terrainContextPanel.IsVisible = activeMode == MapEditMode.Terrain;
+        eraseContextPanel.IsVisible = activeMode == MapEditMode.Erase;
+    }
+
+    private void ToggleSimulation()
+    {
+        SetSimulationRunning(!simulationRunning);
+    }
+
+    private void SetSimulationRunning(bool running)
+    {
+        simulationRunning = running;
+        if (running)
+        {
+            simulationTimer.Start();
+        }
+        else
+        {
+            simulationTimer.Stop();
         }
 
-        if (!string.IsNullOrWhiteSpace(plugin.Homepage))
+        UpdateSimulationText();
+    }
+
+    private void ChangeSimulationSpeed(int delta)
+    {
+        simulationSpeedIndex = Math.Clamp(simulationSpeedIndex + delta, 0, simulationSpeeds.Length - 1);
+        UpdateSimulationText();
+    }
+
+    private void UpdateSimulationText()
+    {
+        string speed = simulationRunning
+            ? $"{simulationSpeeds[simulationSpeedIndex]}m/tick"
+            : "Paused";
+        hudSpeedValue.Text = speed;
+        if (simulationStepValue is not null)
         {
-            panel.Children.Add(new TextBlock { Text = plugin.Homepage, Foreground = Brushes.DimGray, TextWrapping = TextWrapping.Wrap });
+            simulationStepValue.Text = $"{simulationSpeeds[simulationSpeedIndex]}m";
         }
 
-        if (plugin.Error is not null)
+        if (playPauseButton is not null)
         {
-            panel.Children.Add(new TextBlock { Text = plugin.Error, Foreground = Brushes.Firebrick, TextWrapping = TextWrapping.Wrap });
+            playPauseButton.Content = HudIconOnly(simulationRunning ? ToolGlyphKind.Pause : ToolGlyphKind.Play);
         }
+    }
 
-        string contributionSummary = string.Join("\n", plugin.Contributions
-            .GroupBy(contribution => contribution.Type)
-            .OrderByDescending(group => group.Count())
-            .ThenBy(group => group.Key, StringComparer.OrdinalIgnoreCase)
-            .Select(group => $"{group.Key}: {group.Count()}"));
+    private void ToggleDeveloperMode()
+    {
+        SetDeveloperMode(!developerModeVisible);
+    }
 
-        panel.Children.Add(new TextBlock
-        {
-            Text = contributionSummary.Length == 0 ? "No parsed contributions." : contributionSummary,
-            FontFamily = FontFamily.Parse("Menlo, Consolas, monospace"),
-            TextWrapping = TextWrapping.Wrap
-        });
+    private void SetDeveloperMode(bool visible)
+    {
+        developerModeVisible = visible;
+        developerDrawer.IsVisible = visible;
+        developerColumn.Width = new GridLength(visible ? 380 : 0);
+        developerToggleButton.Content = visible ? "Hide Developer" : "Developer";
+    }
 
-        return new ScrollViewer { Content = panel };
+    private static string FormatLocation(TileLocation? location)
+    {
+        return location is { } tile
+            ? $"H {tile.H}, V {tile.V}, Z {tile.Z}, {tile.Corner}"
+            : "None";
+    }
+
+    private static string FormatMoney(long amount)
+    {
+        return amount < 0
+            ? $"-JPY {Math.Abs(amount):N0}"
+            : $"JPY {amount:N0}";
     }
 
     private void LoadInitialPreview()
@@ -605,6 +1363,10 @@ public sealed class MainWindow : Window
         {
             ShowAsset(new LegacyAsset("splash.jpg", "Image", splash));
         }
+        else
+        {
+            debugSelectionText.Text = assets.CoreResourceDirectory;
+        }
     }
 
     private void ShowAsset(LegacyAsset asset)
@@ -612,12 +1374,12 @@ public sealed class MainWindow : Window
         try
         {
             previewImage.Source = new Bitmap(asset.Path);
-            selectionText.Text = asset.Path;
+            debugSelectionText.Text = asset.Path;
         }
         catch (Exception ex)
         {
             previewImage.Source = null;
-            selectionText.Text = $"{asset.Path}\n{ex.Message}";
+            debugSelectionText.Text = $"{asset.Path}\n{ex.Message}";
         }
     }
 
@@ -650,25 +1412,215 @@ public sealed class MainWindow : Window
         ModernWorldSnapshot snapshot = mapViewport.CreateWorldSnapshot();
         JsonSerializerOptions options = new() { WriteIndented = true };
         File.WriteAllText(worldSnapshotPath, JsonSerializer.Serialize(snapshot, options));
-        mapStatusText.Text = $"Saved world snapshot: {worldSnapshotPath}";
+        ShowMessage($"Saved world snapshot: {worldSnapshotPath}");
     }
 
     private void LoadWorldSnapshot()
     {
         if (!File.Exists(worldSnapshotPath))
         {
-            mapStatusText.Text = $"No world snapshot found: {worldSnapshotPath}";
+            ShowMessage($"No world snapshot found: {worldSnapshotPath}");
             return;
         }
 
         ModernWorldSnapshot? snapshot = JsonSerializer.Deserialize<ModernWorldSnapshot>(File.ReadAllText(worldSnapshotPath));
         if (snapshot is null)
         {
-            mapStatusText.Text = $"Could not load world snapshot: {worldSnapshotPath}";
+            ShowMessage($"Could not load world snapshot: {worldSnapshotPath}");
             return;
         }
 
         mapViewport.LoadWorldSnapshot(snapshot);
-        mapStatusText.Text = $"Loaded world snapshot: {worldSnapshotPath}";
+        ShowMessage($"Loaded world snapshot: {worldSnapshotPath}");
+    }
+
+    private void ShowMessage(string message)
+    {
+        messageValue.Text = message;
+        bottomStatusText.Text = message;
+    }
+
+    protected override void OnClosed(EventArgs e)
+    {
+        simulationTimer.Stop();
+        mapViewport.Dispose();
+        toolbarIconStrip?.Dispose();
+        dayNightIconStrip?.Dispose();
+        base.OnClosed(e);
+    }
+
+    private enum ToolGlyphKind
+    {
+        Pointer,
+        Road,
+        Rail,
+        Terrain,
+        Bulldoze,
+        ZoomOut,
+        ZoomIn,
+        Play,
+        Pause,
+        Slower,
+        Faster,
+        Night
+    }
+
+    private sealed class StripIcon : Control
+    {
+        private readonly Bitmap bitmap;
+        private readonly int index;
+        private readonly int sourceWidth;
+        private readonly int sourceHeight;
+        private readonly double size;
+
+        public StripIcon(Bitmap bitmap, int index, int sourceWidth, int sourceHeight, double size = 28)
+        {
+            this.bitmap = bitmap;
+            this.index = index;
+            this.sourceWidth = sourceWidth;
+            this.sourceHeight = sourceHeight;
+            this.size = size;
+            RenderOptions.SetBitmapInterpolationMode(this, BitmapInterpolationMode.None);
+            RenderOptions.SetEdgeMode(this, EdgeMode.Aliased);
+        }
+
+        protected override Size MeasureOverride(Size availableSize)
+        {
+            return new Size(size, size);
+        }
+
+        public override void Render(DrawingContext context)
+        {
+            base.Render(context);
+            double scale = Math.Floor(Math.Min(Bounds.Width / sourceWidth, Bounds.Height / sourceHeight));
+            scale = Math.Max(1, scale);
+            Size targetSize = new(sourceWidth * scale, sourceHeight * scale);
+            Point targetPoint = new((Bounds.Width - targetSize.Width) / 2, (Bounds.Height - targetSize.Height) / 2);
+            Rect source = new(index * sourceWidth, 0, sourceWidth, sourceHeight);
+            context.DrawImage(bitmap, source, new Rect(targetPoint, targetSize));
+        }
+    }
+
+    private sealed class ToolGlyph : Control
+    {
+        private readonly ToolGlyphKind kind;
+        private readonly double size;
+        private readonly Pen pen;
+        private readonly IBrush brush;
+
+        public ToolGlyph(ToolGlyphKind kind, double size = 28, Color? color = null)
+        {
+            this.kind = kind;
+            this.size = size;
+            Color glyphColor = color ?? Color.FromRgb(28, 34, 40);
+            brush = new SolidColorBrush(glyphColor);
+            pen = new Pen(brush, 2);
+        }
+
+        protected override Size MeasureOverride(Size availableSize)
+        {
+            return new Size(size, size);
+        }
+
+        public override void Render(DrawingContext context)
+        {
+            base.Render(context);
+            double w = Bounds.Width;
+            double h = Bounds.Height;
+            switch (kind)
+            {
+                case ToolGlyphKind.Pointer:
+                    DrawPolygon(context, brush,
+                        new Point(w * 0.28, h * 0.18),
+                        new Point(w * 0.28, h * 0.76),
+                        new Point(w * 0.43, h * 0.61),
+                        new Point(w * 0.55, h * 0.82),
+                        new Point(w * 0.66, h * 0.76),
+                        new Point(w * 0.53, h * 0.56),
+                        new Point(w * 0.74, h * 0.56));
+                    break;
+                case ToolGlyphKind.Road:
+                    context.DrawLine(pen, new Point(w * 0.16, h * 0.66), new Point(w * 0.84, h * 0.34));
+                    context.DrawLine(pen, new Point(w * 0.20, h * 0.78), new Point(w * 0.88, h * 0.46));
+                    context.DrawLine(new Pen(Brushes.White, 1.5), new Point(w * 0.36, h * 0.62), new Point(w * 0.48, h * 0.56));
+                    context.DrawLine(new Pen(Brushes.White, 1.5), new Point(w * 0.58, h * 0.51), new Point(w * 0.70, h * 0.45));
+                    break;
+                case ToolGlyphKind.Terrain:
+                    DrawDiamond(context, new SolidColorBrush(Color.FromRgb(80, 150, 88)), new Pen(brush, 1.5), w, h);
+                    context.DrawLine(new Pen(new SolidColorBrush(Color.FromRgb(241, 241, 179)), 2), new Point(w * 0.50, h * 0.20), new Point(w * 0.50, h * 0.55));
+                    context.DrawLine(new Pen(new SolidColorBrush(Color.FromRgb(241, 241, 179)), 2), new Point(w * 0.38, h * 0.32), new Point(w * 0.50, h * 0.20));
+                    context.DrawLine(new Pen(new SolidColorBrush(Color.FromRgb(241, 241, 179)), 2), new Point(w * 0.62, h * 0.32), new Point(w * 0.50, h * 0.20));
+                    break;
+                case ToolGlyphKind.Bulldoze:
+                    context.DrawRectangle(brush, null, new Rect(w * 0.20, h * 0.52, w * 0.48, h * 0.18));
+                    context.DrawRectangle(null, pen, new Rect(w * 0.30, h * 0.32, w * 0.26, h * 0.20));
+                    context.DrawLine(pen, new Point(w * 0.64, h * 0.50), new Point(w * 0.84, h * 0.38));
+                    context.DrawLine(pen, new Point(w * 0.68, h * 0.70), new Point(w * 0.86, h * 0.70));
+                    break;
+                case ToolGlyphKind.ZoomOut:
+                    context.DrawEllipse(null, pen, new Point(w * 0.42, h * 0.42), w * 0.20, h * 0.20);
+                    context.DrawLine(pen, new Point(w * 0.57, h * 0.57), new Point(w * 0.78, h * 0.78));
+                    context.DrawLine(pen, new Point(w * 0.30, h * 0.42), new Point(w * 0.54, h * 0.42));
+                    break;
+                case ToolGlyphKind.ZoomIn:
+                    context.DrawEllipse(null, pen, new Point(w * 0.42, h * 0.42), w * 0.20, h * 0.20);
+                    context.DrawLine(pen, new Point(w * 0.57, h * 0.57), new Point(w * 0.78, h * 0.78));
+                    context.DrawLine(pen, new Point(w * 0.30, h * 0.42), new Point(w * 0.54, h * 0.42));
+                    context.DrawLine(pen, new Point(w * 0.42, h * 0.30), new Point(w * 0.42, h * 0.54));
+                    break;
+                case ToolGlyphKind.Play:
+                    DrawPolygon(context, brush, new Point(w * 0.34, h * 0.24), new Point(w * 0.34, h * 0.76), new Point(w * 0.76, h * 0.50));
+                    break;
+                case ToolGlyphKind.Pause:
+                    context.FillRectangle(brush, new Rect(w * 0.32, h * 0.24, w * 0.12, h * 0.52));
+                    context.FillRectangle(brush, new Rect(w * 0.56, h * 0.24, w * 0.12, h * 0.52));
+                    break;
+                case ToolGlyphKind.Slower:
+                    DrawPolygon(context, brush, new Point(w * 0.62, h * 0.24), new Point(w * 0.62, h * 0.76), new Point(w * 0.34, h * 0.50));
+                    break;
+                case ToolGlyphKind.Faster:
+                    DrawPolygon(context, brush, new Point(w * 0.34, h * 0.24), new Point(w * 0.34, h * 0.76), new Point(w * 0.62, h * 0.50));
+                    break;
+                case ToolGlyphKind.Night:
+                    context.DrawEllipse(brush, null, new Point(w * 0.48, h * 0.48), w * 0.24, h * 0.24);
+                    context.DrawEllipse(Brushes.White, null, new Point(w * 0.58, h * 0.38), w * 0.22, h * 0.22);
+                    break;
+            }
+        }
+
+        private static void DrawDiamond(DrawingContext context, IBrush fill, Pen outline, double w, double h)
+        {
+            DrawPolygon(context, fill,
+                new Point(w * 0.50, h * 0.18),
+                new Point(w * 0.82, h * 0.42),
+                new Point(w * 0.50, h * 0.68),
+                new Point(w * 0.18, h * 0.42));
+            context.DrawLine(outline, new Point(w * 0.50, h * 0.18), new Point(w * 0.82, h * 0.42));
+            context.DrawLine(outline, new Point(w * 0.82, h * 0.42), new Point(w * 0.50, h * 0.68));
+            context.DrawLine(outline, new Point(w * 0.50, h * 0.68), new Point(w * 0.18, h * 0.42));
+            context.DrawLine(outline, new Point(w * 0.18, h * 0.42), new Point(w * 0.50, h * 0.18));
+        }
+
+        private static void DrawPolygon(DrawingContext context, IBrush fill, params Point[] points)
+        {
+            if (points.Length == 0)
+            {
+                return;
+            }
+
+            StreamGeometry geometry = new();
+            using (StreamGeometryContext path = geometry.Open())
+            {
+                path.BeginFigure(points[0], true);
+                for (int i = 1; i < points.Length; i++)
+                {
+                    path.LineTo(points[i]);
+                }
+
+                path.EndFigure(true);
+            }
+
+            context.DrawGeometry(fill, null, geometry);
+        }
     }
 }

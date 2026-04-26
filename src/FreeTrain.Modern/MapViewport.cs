@@ -11,6 +11,7 @@ public enum MapEditMode
     Select,
     Rail,
     Road,
+    Terrain,
     Erase
 }
 
@@ -26,8 +27,15 @@ public sealed class MapViewport : Control, IDisposable
     private readonly IBrush waterBrush = new SolidColorBrush(Color.FromRgb(107, 156, 178));
     private readonly IBrush nightBrush = new SolidColorBrush(Color.FromArgb(82, 15, 28, 54));
     private readonly Pen hoverPen = new(new SolidColorBrush(Color.FromRgb(255, 247, 153)), 2);
-    private readonly Pen selectionPen = new(new SolidColorBrush(Color.FromRgb(243, 97, 72)), 2);
-    private readonly Pen buildAnchorPen = new(new SolidColorBrush(Color.FromRgb(80, 156, 236)), 2);
+    private readonly Pen selectionPen = new(new SolidColorBrush(Color.FromRgb(255, 112, 88)), 2.4);
+    private readonly Pen buildAnchorPen = new(new SolidColorBrush(Color.FromRgb(71, 135, 255)), 2.2);
+    private readonly Pen validPreviewPen = new(new SolidColorBrush(Color.FromRgb(63, 189, 121)), 2);
+    private readonly Pen invalidPreviewPen = new(new SolidColorBrush(Color.FromRgb(222, 80, 80)), 2);
+    private readonly IBrush hoverFill = new SolidColorBrush(Color.FromArgb(44, 255, 247, 153));
+    private readonly IBrush selectionFill = new SolidColorBrush(Color.FromArgb(58, 255, 112, 88));
+    private readonly IBrush buildAnchorFill = new SolidColorBrush(Color.FromArgb(50, 71, 135, 255));
+    private readonly IBrush validPreviewFill = new SolidColorBrush(Color.FromArgb(44, 63, 189, 121));
+    private readonly IBrush invalidPreviewFill = new SolidColorBrush(Color.FromArgb(50, 222, 80, 80));
     private ModernWorld world;
     private readonly TerrainRenderer terrainRenderer;
     private readonly IReadOnlyList<RoadContribution> roadContributions;
@@ -49,6 +57,7 @@ public sealed class MapViewport : Control, IDisposable
     private int maxVisibleLevel;
     private MapEditMode editMode = MapEditMode.Select;
     private int activeRoadIndex;
+    private string lastMessage = "Ready.";
 
     public MapViewport(LegacyAssetCatalog assets, PluginManifestCatalog plugins)
     {
@@ -81,7 +90,7 @@ public sealed class MapViewport : Control, IDisposable
         RenderOptions.SetEdgeMode(this, EdgeMode.Aliased);
     }
 
-    public event Action<string>? StatusChanged;
+    public event Action<MapViewportStatus>? StatusChanged;
 
     public double Zoom
     {
@@ -113,6 +122,7 @@ public sealed class MapViewport : Control, IDisposable
 
             showGrid = value;
             InvalidateVisual();
+            PublishStatus();
         }
     }
 
@@ -128,6 +138,7 @@ public sealed class MapViewport : Control, IDisposable
 
             useNightView = value;
             InvalidateVisual();
+            PublishStatus();
         }
     }
 
@@ -173,6 +184,8 @@ public sealed class MapViewport : Control, IDisposable
 
     public string ActiveRoadName => ActiveRoadContribution?.DisplayName ?? "No road plugins loaded";
 
+    public MapViewportStatus CurrentStatus => CreateStatus();
+
     public ModernWorldSnapshot CreateWorldSnapshot()
     {
         return world.ToSnapshot();
@@ -211,7 +224,13 @@ public sealed class MapViewport : Control, IDisposable
 
     private void OnWorldChanged(object? sender, ModernWorldChangedEventArgs e)
     {
+        if (!string.IsNullOrWhiteSpace(e.Description))
+        {
+            lastMessage = e.Description;
+        }
+
         InvalidateVisual();
+        PublishStatus();
     }
 
     private double MapOriginX => 64;
@@ -439,20 +458,54 @@ public sealed class MapViewport : Control, IDisposable
 
     private void RenderMapMarkers(DrawingContext context)
     {
+        if (buildAnchorLocation is { } previewAnchor && hoverLocation is { } previewHover && ToolUsesAnchor)
+        {
+            bool canBuildLine = EditMode switch
+            {
+                MapEditMode.Rail => CanBuildRailLine(previewAnchor, previewHover),
+                MapEditMode.Road => CanBuildRoadLine(previewAnchor, previewHover),
+                _ => false
+            };
+            Pen previewPen = canBuildLine ? validPreviewPen : invalidPreviewPen;
+            IBrush previewFill = canBuildLine ? validPreviewFill : invalidPreviewFill;
+            foreach (TileLocation location in PreviewLine(previewAnchor, previewHover))
+            {
+                if (location.Z <= MaxVisibleLevel)
+                {
+                    DrawDiamondFill(context, FromHvzToScreen(location.H, location.V, location.Z), previewFill, previewPen);
+                }
+            }
+        }
+
         if (selectedLocation is { } selected && selected.Z <= MaxVisibleLevel)
         {
-            terrainRenderer.DrawDiamond(context, FromHvzToScreen(selected.H, selected.V, selected.Z), selectionPen);
+            DrawDiamondFill(context, FromHvzToScreen(selected.H, selected.V, selected.Z), selectionFill, selectionPen);
         }
 
         if (buildAnchorLocation is { } anchor && anchor.Z <= MaxVisibleLevel)
         {
-            terrainRenderer.DrawDiamond(context, FromHvzToScreen(anchor.H, anchor.V, anchor.Z), buildAnchorPen);
+            DrawDiamondFill(context, FromHvzToScreen(anchor.H, anchor.V, anchor.Z), buildAnchorFill, buildAnchorPen);
         }
 
         if (hoverLocation is { } hover && hover.Z <= MaxVisibleLevel)
         {
-            terrainRenderer.DrawDiamond(context, FromHvzToScreen(hover.H, hover.V, hover.Z), hoverPen);
+            DrawDiamondFill(context, FromHvzToScreen(hover.H, hover.V, hover.Z), hoverFill, hoverPen);
         }
+    }
+
+    private static void DrawDiamondFill(DrawingContext context, Point p, IBrush fill, Pen outline)
+    {
+        StreamGeometry geometry = new();
+        using (StreamGeometryContext path = geometry.Open())
+        {
+            path.BeginFigure(new Point(p.X + 16, p.Y), true);
+            path.LineTo(new Point(p.X + 32, p.Y + 8));
+            path.LineTo(new Point(p.X + 16, p.Y + 16));
+            path.LineTo(new Point(p.X, p.Y + 8));
+            path.EndFigure(true);
+        }
+
+        context.DrawGeometry(fill, outline, geometry);
     }
 
     public void RaiseSelectedTerrain()
@@ -1192,29 +1245,58 @@ public sealed class MapViewport : Control, IDisposable
 
     private void PublishStatus()
     {
-        string hover = hoverLocation is { } loc
-            ? $"H {loc.H}, V {loc.V}, Z {loc.Z}, {loc.Corner}"
-            : "No tile";
-        string selected = selectedLocation is { } sel
-            ? $"selected H {sel.H}, V {sel.V}, Z {sel.Z}, {sel.Corner}"
-            : "nothing selected";
-        string anchor = buildAnchorLocation is { } start
-            ? $"anchor H {start.H}, V {start.V}, Z {start.Z}"
-            : ToolUsesAnchor ? "click a buildable tile to set an anchor" : "no anchor";
-        string hint = EditMode switch
-        {
-            MapEditMode.Rail => "rail: second click must be straight or diagonal",
-            MapEditMode.Road => "road: second click must be north/south/east/west",
-            MapEditMode.Erase => "erase: click or right-click transport",
-            _ => "select"
-        };
+        StatusChanged?.Invoke(CreateStatus());
+    }
 
-        StatusChanged?.Invoke($"{hover} | {selected} | {anchor} | {hint} | road {ActiveRoadName} | {world.Clock.Format(ModernTextLanguage.English)} | cash {world.Account.Cash:N0} | entities {world.Entities.Count} | traffic {world.TrafficVoxels.Count} | zoom {Zoom:0.##}x | height cut {MaxVisibleLevel}");
+    private MapViewportStatus CreateStatus()
+    {
+        string hint = CreateInteractionHint();
+        return new MapViewportStatus(
+            world.Name,
+            hoverLocation,
+            selectedLocation,
+            buildAnchorLocation,
+            EditMode,
+            ActiveRoadName,
+            world.Clock,
+            world.Account.Cash,
+            world.Account.TotalDebt,
+            world.Entities.Count,
+            world.TrafficVoxels.Count,
+            world.Transport.RailTiles.Count,
+            world.Transport.RoadTiles.Count,
+            world.Cars.Count,
+            Zoom,
+            MaxVisibleLevel,
+            world.MaxHeightCutLevel,
+            ShowGrid,
+            UseNightView,
+            hint,
+            lastMessage);
+    }
+
+    private string CreateInteractionHint()
+    {
+        if (hoverLocation is { } hover && ToolUsesAnchor && !world.IsBuildableSurface(hover))
+        {
+            return "This tile is not buildable. Pick flat dry land or erase an obstruction first.";
+        }
+
+        return EditMode switch
+        {
+            MapEditMode.Rail when buildAnchorLocation is null => "Rail: click a buildable tile to set the start point.",
+            MapEditMode.Rail => "Rail: click a straight or diagonal destination to place track.",
+            MapEditMode.Road when buildAnchorLocation is null => "Road: click a buildable tile to set the start point.",
+            MapEditMode.Road => "Road: click a north/south/east/west destination to place road.",
+            MapEditMode.Terrain => "Terrain: select a tile corner, then raise or lower it.",
+            MapEditMode.Erase => "Erase: click or right-click transport on the map.",
+            _ => "Select: click a tile to inspect it. Ctrl-scroll zooms the map."
+        };
     }
 
     private void ApplyEdit(TileLocation location)
     {
-        if (EditMode == MapEditMode.Select)
+        if (EditMode is MapEditMode.Select or MapEditMode.Terrain)
         {
             buildAnchorLocation = null;
             return;
@@ -1278,6 +1360,21 @@ public sealed class MapViewport : Control, IDisposable
     private bool CanBuildRoadLine(TileLocation from, TileLocation to)
     {
         return world.CanBuildRoadLine(from, to);
+    }
+
+    private static IEnumerable<TileLocation> PreviewLine(TileLocation from, TileLocation to)
+    {
+        int h = from.H;
+        int v = from.V;
+        yield return from;
+
+        int guard = 0;
+        while ((h != to.H || v != to.V) && guard++ < 512)
+        {
+            h += Math.Sign(to.H - h);
+            v += Math.Sign(to.V - v);
+            yield return new TileLocation(h, v, to.Z);
+        }
     }
 
     private static int SelectInitialRoadIndex(IReadOnlyList<RoadContribution> roads)
