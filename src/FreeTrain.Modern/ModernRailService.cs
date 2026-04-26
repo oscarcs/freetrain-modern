@@ -1,3 +1,5 @@
+using System.Text.Json.Serialization;
+
 namespace FreeTrain.Modern;
 
 public enum PlatformStyle
@@ -13,6 +15,141 @@ public enum ModernTrainState
     Moving,
     StoppingAtStation,
     EmergencyStopping
+}
+
+public sealed record ModernTransportLog(
+    int Today = 0,
+    int Yesterday = 0,
+    double ThisWeek = 0,
+    double LastWeekPerDay = 0)
+{
+    private const double LogFactor = 5;
+
+    public ModernTransportLog AddAmount(int amount)
+    {
+        return amount <= 0 ? this : this with { Today = Today + amount };
+    }
+
+    public ModernTransportLog DailyReset(int dayOfWeek)
+    {
+        double nextThisWeek = ThisWeek + Math.Pow(Math.Max(0, Today), 1 / LogFactor);
+        double nextLastWeekPerDay = LastWeekPerDay;
+        if (dayOfWeek == 6)
+        {
+            nextLastWeekPerDay = Math.Pow(nextThisWeek / 7, LogFactor);
+            nextThisWeek = 0;
+        }
+
+        return this with
+        {
+            Today = 0,
+            Yesterday = Today,
+            ThisWeek = nextThisWeek,
+            LastWeekPerDay = nextLastWeekPerDay
+        };
+    }
+}
+
+public sealed record ModernStationStats(
+    int GonePassengers,
+    int AccumulatedLoadedPassengers,
+    int AccumulatedUnloadedPassengers,
+    ModernTransportLog Trains,
+    ModernTransportLog Imported,
+    ModernTransportLog Exported,
+    double DevelopmentQuantity)
+{
+    private const float AveragePassengerRatio = 0.9996f;
+    private const float AveragePassengerPerDayFactor = 24.0f * (1.0f - AveragePassengerRatio);
+
+    public ModernStationStats()
+        : this(0, 0, 0, new ModernTransportLog(), new ModernTransportLog(), new ModernTransportLog(), 0)
+    {
+    }
+
+    [JsonIgnore]
+    public int AverageLoadedPassengers => (int)(AccumulatedLoadedPassengers * AveragePassengerPerDayFactor);
+
+    [JsonIgnore]
+    public int AverageUnloadedPassengers => (int)(AccumulatedUnloadedPassengers * AveragePassengerPerDayFactor);
+
+    [JsonIgnore]
+    public int LoadedToday => Exported.Today;
+
+    [JsonIgnore]
+    public int LoadedYesterday => Exported.Yesterday;
+
+    [JsonIgnore]
+    public int UnloadedToday => Imported.Today;
+
+    [JsonIgnore]
+    public int UnloadedYesterday => Imported.Yesterday;
+
+    [JsonIgnore]
+    public int TrainsToday => Trains.Today;
+
+    [JsonIgnore]
+    public int TrainsYesterday => Trains.Yesterday;
+
+    [JsonIgnore]
+    public double ScoreImported => Imported.LastWeekPerDay;
+
+    [JsonIgnore]
+    public double ScoreExported => Exported.LastWeekPerDay;
+
+    [JsonIgnore]
+    public double ScoreTrains => Trains.LastWeekPerDay;
+
+    [JsonIgnore]
+    public double DevelopmentStrength => (ScoreImported + ScoreExported * 0.1) * 0.2;
+
+    public int WaitingPassengers(int population)
+    {
+        return Math.Max(0, population - GonePassengers);
+    }
+
+    public ModernStationStats HourlyDecay()
+    {
+        return this with
+        {
+            GonePassengers = (int)(GonePassengers * 0.8f),
+            AccumulatedLoadedPassengers = (int)(AccumulatedLoadedPassengers * AveragePassengerRatio),
+            AccumulatedUnloadedPassengers = (int)(AccumulatedUnloadedPassengers * AveragePassengerRatio)
+        };
+    }
+
+    public ModernStationStats DailyReset(int dayOfWeek)
+    {
+        return this with
+        {
+            Trains = Trains.DailyReset(dayOfWeek),
+            Imported = Imported.DailyReset(dayOfWeek),
+            Exported = Exported.DailyReset(dayOfWeek)
+        };
+    }
+
+    public ModernStationStats RecordArrival(int passengerCount, double developmentQuantity)
+    {
+        return this with
+        {
+            Trains = Trains.AddAmount(1),
+            Imported = Imported.AddAmount(passengerCount),
+            AccumulatedUnloadedPassengers = AccumulatedUnloadedPassengers + passengerCount,
+            DevelopmentQuantity = DevelopmentQuantity + developmentQuantity
+        };
+    }
+
+    public ModernStationStats RecordDeparture(int passengerCount)
+    {
+        return this with
+        {
+            Trains = Trains.AddAmount(1),
+            Exported = Exported.AddAmount(passengerCount),
+            GonePassengers = GonePassengers + passengerCount,
+            AccumulatedLoadedPassengers = AccumulatedLoadedPassengers + passengerCount,
+            DevelopmentQuantity = DevelopmentQuantity + passengerCount
+        };
+    }
 }
 
 public sealed record StationContribution(
@@ -117,7 +254,8 @@ public sealed record ModernStation(
     int H,
     int V,
     int Z,
-    StationContribution Contribution)
+    StationContribution Contribution,
+    ModernStationStats Stats)
 {
     public string Name { get; init; } = $"Station {Math.Abs(StationId.GetHashCode()) % 1000:000}";
     public int OperationCost => Contribution.OperationCost;
@@ -137,7 +275,29 @@ public sealed record ModernStation(
             }
         }
     }
+
+    public ModernStation(
+        string stationId,
+        int h,
+        int v,
+        int z,
+        StationContribution contribution)
+        : this(stationId, h, v, z, contribution, new ModernStationStats())
+    {
+    }
 }
+
+public sealed record ModernStationDevelopmentSignal(
+    string StationId,
+    string StationName,
+    ModernVoxelKey Location,
+    int Population,
+    int WaitingPassengers,
+    double ImportedScore,
+    double ExportedScore,
+    double TrainScore,
+    double Strength,
+    double DevelopmentQuantity);
 
 public sealed record ModernPlatform(
     string PlatformId,
@@ -182,11 +342,16 @@ public sealed record ModernTrain(
     ModernTrainState State = ModernTrainState.Unplaced,
     long StopRemainingMinutes = 0,
     int MoveCount = 0,
+    int PassengerCapacity = 0,
+    int PassengerSeatedCapacity = 0,
     int PassengerCount = 0,
+    ModernVoxelKey? PassengerSourceLocation = null,
     string? CurrentStopPlatformId = null,
     string? LastStoppedPlatformId = null)
 {
     public bool IsPlaced => Cars.Count > 0;
     public ModernTrainCarPlacement? Head => Cars.Count == 0 ? null : Cars[0];
     public int Length => Math.Max(1, Cars.Count);
+    public int EffectivePassengerCapacity => PassengerCapacity > 0 ? PassengerCapacity : Length * 100;
+    public int EffectivePassengerSeatedCapacity => PassengerSeatedCapacity > 0 ? PassengerSeatedCapacity : Length * 50;
 }

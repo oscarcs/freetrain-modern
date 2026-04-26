@@ -14,11 +14,11 @@ public sealed record ModernWorldSnapshot(
     IReadOnlyList<ModernRoadSnapshot> Roads,
     IReadOnlyList<ModernCarSnapshot> Cars,
     IReadOnlyList<ModernEntitySnapshot> Entities,
-    IReadOnlyList<ModernStationSnapshot>? Stations = null,
-    IReadOnlyList<ModernPlatformSnapshot>? Platforms = null,
-    IReadOnlyList<ModernTrainSnapshot>? Trains = null)
+    IReadOnlyList<ModernStationSnapshot> Stations,
+    IReadOnlyList<ModernPlatformSnapshot> Platforms,
+    IReadOnlyList<ModernTrainSnapshot> Trains)
 {
-    public const int CurrentVersion = 2;
+    public const int CurrentVersion = 3;
     public int Version { get; init; } = CurrentVersion;
 }
 
@@ -56,7 +56,8 @@ public sealed record ModernStationSnapshot(
     int V,
     int Z,
     string ContributionId,
-    string Name);
+    string Name,
+    ModernStationStats Stats);
 
 public sealed record ModernPlatformSnapshot(
     string PlatformId,
@@ -83,6 +84,9 @@ public sealed record ModernTrainSnapshot(
     ModernTrainState State = ModernTrainState.Unplaced,
     long StopRemainingMinutes = 0,
     int MoveCount = 0,
+    int PassengerCapacity = 0,
+    int PassengerSeatedCapacity = 0,
     int PassengerCount = 0,
+    ModernVoxelKey? PassengerSourceLocation = null,
     string? CurrentStopPlatformId = null,
     string? LastStoppedPlatformId = null);

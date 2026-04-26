@@ -66,6 +66,7 @@ public sealed class ModernWorld
 {
     private const int MaxFineHeight = 7 * 4;
     private const int ExtraVoxelDepth = 64;
+    private const int StationReachRange = 10;
 
     private readonly int[,] groundLevels;
     private readonly int[,,] mountainCornerHeights;
@@ -124,6 +125,16 @@ public sealed class ModernWorld
     public IReadOnlyCollection<ModernPlatform> Platforms => platforms.Values;
     public IReadOnlyCollection<ModernTrain> Trains => trains.Values;
     public IReadOnlyCollection<ModernPlacedEntity> Entities => entities.Values;
+    public int TotalStationPopulation => stations.Values.Sum(GetStationPopulation);
+    public int TotalWaitingPassengers => stations.Values.Sum(station => station.Stats.WaitingPassengers(GetStationPopulation(station)));
+    public int TotalLoadedPassengersToday => stations.Values.Sum(station => station.Stats.LoadedToday);
+    public int TotalUnloadedPassengersToday => stations.Values.Sum(station => station.Stats.UnloadedToday);
+    public int TotalTrainStopsToday => stations.Values.Sum(station => station.Stats.TrainsToday);
+    public IReadOnlyList<ModernStationDevelopmentSignal> StationDevelopmentSignals => stations.Values
+        .Select(CreateDevelopmentSignal)
+        .OrderByDescending(signal => signal.Strength)
+        .ThenBy(signal => signal.StationName, StringComparer.OrdinalIgnoreCase)
+        .ToArray();
     public IEnumerable<KeyValuePair<ModernVoxelKey, ModernVoxelOccupancy>> OccupiedVoxels => voxels.Entries;
     public IEnumerable<ModernPlacedEntity> LandEntities => entities.Values.Where(entity => entity.Kind == ModernEntityKind.Land);
     public IEnumerable<ModernPlacedEntity> StructureEntities => entities.Values.Where(entity => entity.Kind == ModernEntityKind.Structure);
@@ -459,13 +470,20 @@ public sealed class ModernWorld
         }
 
         long previousDay = Clock.AbsoluteMinute / (24 * 60);
+        long previousHour = Clock.AbsoluteMinute / 60;
         ModernDayNight previousDayNight = Clock.DayOrNight;
         ModernSeason previousSeason = Clock.Season;
         Clock = Clock.AdvanceMinutes(minutes);
         long currentDay = Clock.AbsoluteMinute / (24 * 60);
+        long currentHour = Clock.AbsoluteMinute / 60;
+        if (currentHour > previousHour)
+        {
+            ApplyStationHourlyDecay(currentHour - previousHour);
+        }
+
         if (currentDay > previousDay)
         {
-            ChargeDailyRailServiceCosts(currentDay - previousDay);
+            ApplyStationDailyReset(currentDay - previousDay);
         }
 
         AdvanceTrains(minutes);
@@ -573,6 +591,8 @@ public sealed class ModernWorld
         ModernTrainCarPlacement[] placements = carIds
             .Select((carId, index) => new ModernTrainCarPlacement(carId, locations[index], directions[index].Index))
             .ToArray();
+        int passengerCapacity = carIds.Sum(carId => trainCars.TryGetValue(carId, out TrainCarContribution? car) ? Math.Max(0, car.Capacity) : 0);
+        int passengerSeatedCapacity = carIds.Sum(carId => trainCars.TryGetValue(carId, out TrainCarContribution? car) ? Math.Max(0, car.SeatedCapacity) : 0);
 
         trains[trainId] = train with
         {
@@ -580,6 +600,10 @@ public sealed class ModernWorld
             MinuteAccumulator = 0,
             State = ModernTrainState.Moving,
             StopRemainingMinutes = 0,
+            PassengerCapacity = passengerCapacity,
+            PassengerSeatedCapacity = passengerSeatedCapacity,
+            PassengerCount = 0,
+            PassengerSourceLocation = null,
             CurrentStopPlatformId = null,
             LastStoppedPlatformId = null
         };
@@ -878,7 +902,8 @@ public sealed class ModernWorld
                 station.V,
                 station.Z,
                 station.Contribution.Id,
-                station.Name))
+                station.Name,
+                station.Stats))
             .ToArray();
 
         ModernPlatformSnapshot[] platformSnapshots = platforms.Values
@@ -907,7 +932,10 @@ public sealed class ModernWorld
                 train.State,
                 train.StopRemainingMinutes,
                 train.MoveCount,
+                train.PassengerCapacity,
+                train.PassengerSeatedCapacity,
                 train.PassengerCount,
+                train.PassengerSourceLocation,
                 train.CurrentStopPlatformId,
                 train.LastStoppedPlatformId))
             .ToArray();
@@ -960,12 +988,12 @@ public sealed class ModernWorld
             snapshot.Clock,
             snapshot.Account);
 
-        foreach (ModernRailSnapshot rail in snapshot.Rails ?? Array.Empty<ModernRailSnapshot>())
+        foreach (ModernRailSnapshot rail in snapshot.Rails)
         {
             world.Transport.AddRailTile(rail.H, rail.V);
         }
 
-        foreach (ModernRoadSnapshot road in snapshot.Roads ?? Array.Empty<ModernRoadSnapshot>())
+        foreach (ModernRoadSnapshot road in snapshot.Roads)
         {
             if (roadContributions.TryGetValue(road.RoadContributionId, out RoadContribution? contribution))
             {
@@ -973,7 +1001,7 @@ public sealed class ModernWorld
             }
         }
 
-        foreach (ModernEntitySnapshot entity in snapshot.Entities ?? Array.Empty<ModernEntitySnapshot>())
+        foreach (ModernEntitySnapshot entity in snapshot.Entities)
         {
             ModernPlacedEntity? placed = entity.Kind switch
             {
@@ -988,7 +1016,7 @@ public sealed class ModernWorld
             }
         }
 
-        foreach (ModernCarSnapshot carSnapshot in snapshot.Cars ?? Array.Empty<ModernCarSnapshot>())
+        foreach (ModernCarSnapshot carSnapshot in snapshot.Cars)
         {
             ModernCar car = new(carSnapshot.CarId, carSnapshot.Kind, ModernCarState.Unplaced);
             if (world.AddCar(car)
@@ -1002,7 +1030,7 @@ public sealed class ModernWorld
             }
         }
 
-        foreach (ModernStationSnapshot stationSnapshot in snapshot.Stations ?? Array.Empty<ModernStationSnapshot>())
+        foreach (ModernStationSnapshot stationSnapshot in snapshot.Stations)
         {
             if (stationContributions.TryGetValue(stationSnapshot.ContributionId, out StationContribution? contribution))
             {
@@ -1011,14 +1039,15 @@ public sealed class ModernWorld
                     stationSnapshot.H,
                     stationSnapshot.V,
                     stationSnapshot.Z,
-                    contribution)
+                    contribution,
+                    stationSnapshot.Stats)
                 {
                     Name = stationSnapshot.Name
                 });
             }
         }
 
-        foreach (ModernPlatformSnapshot platformSnapshot in snapshot.Platforms ?? Array.Empty<ModernPlatformSnapshot>())
+        foreach (ModernPlatformSnapshot platformSnapshot in snapshot.Platforms)
         {
             world.AddPlatform(new ModernPlatform(
                 platformSnapshot.PlatformId,
@@ -1031,7 +1060,7 @@ public sealed class ModernWorld
                 platformSnapshot.StationId));
         }
 
-        foreach (ModernTrainSnapshot trainSnapshot in snapshot.Trains ?? Array.Empty<ModernTrainSnapshot>())
+        foreach (ModernTrainSnapshot trainSnapshot in snapshot.Trains)
         {
             if (trainContributions.TryGetValue(trainSnapshot.ContributionId, out TrainContribution? contribution))
             {
@@ -1049,7 +1078,10 @@ public sealed class ModernWorld
                     trainSnapshot.State,
                     trainSnapshot.StopRemainingMinutes,
                     trainSnapshot.MoveCount,
+                    trainSnapshot.PassengerCapacity,
+                    trainSnapshot.PassengerSeatedCapacity,
                     trainSnapshot.PassengerCount,
+                    trainSnapshot.PassengerSourceLocation,
                     trainSnapshot.CurrentStopPlatformId,
                     trainSnapshot.LastStoppedPlatformId));
             }
@@ -1147,6 +1179,62 @@ public sealed class ModernWorld
 
         SpriteFrame? frame = contribution.Frames.FirstOrDefault(candidate => candidate.IsLoadable);
         return frame is null ? null : ModernPlacedEntity.Structure(snapshot.H, snapshot.V, snapshot.Z, contribution, frame);
+    }
+
+    private int GetStationPopulation(ModernStation station)
+    {
+        ModernVoxelKey stationLocation = new(station.H, station.V, station.Z);
+        return entities.Values.Sum(entity => EstimatePopulationContribution(stationLocation, entity));
+    }
+
+    private static int EstimatePopulationContribution(ModernVoxelKey stationLocation, ModernPlacedEntity entity)
+    {
+        int distance = DistanceToEntity(stationLocation, entity);
+        if (distance >= StationReachRange)
+        {
+            return 0;
+        }
+
+        int reachWeight = StationReachRange - distance;
+        int footprint = Math.Max(1, entity.FootprintH) * Math.Max(1, entity.FootprintV);
+        if (entity.Kind == ModernEntityKind.Land)
+        {
+            return reachWeight * 3;
+        }
+
+        int height = Math.Max(1, entity.FootprintZ);
+        int valueWeight = (int)Math.Clamp(entity.EntityValue / 20_000_000L, 1, 250);
+        return reachWeight * footprint * height * valueWeight;
+    }
+
+    private static int DistanceToEntity(ModernVoxelKey location, ModernPlacedEntity entity)
+    {
+        int minH = entity.H;
+        int maxH = entity.H + Math.Max(1, entity.FootprintH) - 1;
+        int minV = entity.V;
+        int maxV = entity.V + Math.Max(1, entity.FootprintV) - 1;
+        int minZ = entity.Z;
+        int maxZ = entity.Z + Math.Max(1, entity.FootprintZ) - 1;
+        int dh = location.H < minH ? minH - location.H : location.H > maxH ? location.H - maxH : 0;
+        int dv = location.V < minV ? minV - location.V : location.V > maxV ? location.V - maxV : 0;
+        int dz = location.Z < minZ ? minZ - location.Z : location.Z > maxZ ? location.Z - maxZ : 0;
+        return dh + dv + dz;
+    }
+
+    private ModernStationDevelopmentSignal CreateDevelopmentSignal(ModernStation station)
+    {
+        int population = GetStationPopulation(station);
+        return new ModernStationDevelopmentSignal(
+            station.StationId,
+            station.Name,
+            new ModernVoxelKey(station.H, station.V, station.Z),
+            population,
+            station.Stats.WaitingPassengers(population),
+            station.Stats.ScoreImported,
+            station.Stats.ScoreExported,
+            station.Stats.ScoreTrains,
+            station.Stats.DevelopmentStrength,
+            station.Stats.DevelopmentQuantity);
     }
 
     private string? FindNearestStationId(ModernPlatform platform)
@@ -1322,20 +1410,78 @@ public sealed class ModernWorld
             StopRemainingMinutes = 30,
             CurrentStopPlatformId = stop.Value.Platform.PlatformId,
             LastStoppedPlatformId = stop.Value.Platform.PlatformId,
-            PassengerCount = 0
+            PassengerCount = UnloadPassengers(train, stop.Value.Platform)
         };
     }
 
     private ModernTrain LoadPassengersAndResume(ModernTrain train)
     {
-        int capacity = train.Length * 100;
+        int passengers = 0;
+        ModernVoxelKey? sourceLocation = null;
+        if (train.CurrentStopPlatformId is { } platformId
+            && platforms.TryGetValue(platformId, out ModernPlatform? platform)
+            && platform.StationId is { } stationId
+            && stations.TryGetValue(stationId, out ModernStation? station)
+            && train.Head is { } head)
+        {
+            passengers = LoadPassengers(station, train, GetTrainPassengerPackingCapacity(train));
+            sourceLocation = passengers > 0 ? head.Location : null;
+        }
+
         return train with
         {
             State = ModernTrainState.Moving,
             StopRemainingMinutes = 0,
-            PassengerCount = Math.Min(100, Math.Max(0, capacity)),
+            PassengerCount = passengers,
+            PassengerSourceLocation = sourceLocation,
             CurrentStopPlatformId = null
         };
+    }
+
+    private int UnloadPassengers(ModernTrain train, ModernPlatform platform)
+    {
+        if (platform.StationId is not { } stationId
+            || !stations.TryGetValue(stationId, out ModernStation? station))
+        {
+            return train.PassengerCount;
+        }
+
+        int unloaded = Math.Max(0, train.PassengerCount);
+        double developmentQuantity = unloaded;
+        if (train.PassengerSourceLocation is { } source && train.Head is { } head)
+        {
+            int distance = Math.Max(1, Math.Abs(source.H - head.Location.H) + Math.Abs(source.V - head.Location.V) + Math.Abs(source.Z - head.Location.Z));
+            Earn(unloaded * train.Contribution.Fare * distance * 2L, ModernAccountGenre.Railway, "Passenger fare income.");
+            developmentQuantity = Math.Min(station.Stats.ScoreImported / 24.0, unloaded);
+        }
+
+        stations[stationId] = station with { Stats = station.Stats.RecordArrival(unloaded, developmentQuantity) };
+        return 0;
+    }
+
+    private int LoadPassengers(ModernStation station, ModernTrain train, int passengerPackingCapacity)
+    {
+        int population = GetStationPopulation(station);
+        ModernStationStats stats = station.Stats;
+        int passengerCount = 0;
+        if (population > 0)
+        {
+            int available = stats.WaitingPassengers(population);
+            passengerCount = Math.Min(
+                Math.Max(0, passengerPackingCapacity),
+                (int)(available * Math.Max(0, train.Contribution.Amenity) * 0.01f * 0.3f));
+        }
+
+        stations[station.StationId] = station with { Stats = stats.RecordDeparture(passengerCount) };
+        return passengerCount;
+    }
+
+    private int GetTrainPassengerPackingCapacity(ModernTrain train)
+    {
+        int capacity = train.EffectivePassengerCapacity;
+        int seatedCapacity = train.EffectivePassengerSeatedCapacity;
+        int seated = seatedCapacity > capacity ? capacity : Math.Max(0, seatedCapacity);
+        return seated + (capacity - seated) * 2;
     }
 
     private PlatformStop? FindPlatformStop(ModernTrain train, ModernTrainCarPlacement head)
@@ -1382,7 +1528,27 @@ public sealed class ModernWorld
             .Any(car => car.Location == key);
     }
 
-    private void ChargeDailyRailServiceCosts(long days)
+    private void ApplyStationHourlyDecay(long hours)
+    {
+        int count = (int)Math.Min(hours, 24 * 31);
+        if (count <= 0 || stations.Count == 0)
+        {
+            return;
+        }
+
+        foreach (ModernStation station in stations.Values.ToArray())
+        {
+            ModernStationStats stats = station.Stats;
+            for (int i = 0; i < count; i++)
+            {
+                stats = stats.HourlyDecay();
+            }
+
+            stations[station.StationId] = station with { Stats = stats };
+        }
+    }
+
+    private void ApplyStationDailyReset(long days)
     {
         long stationCosts = stations.Values.Sum(station => Math.Max(0, station.OperationCost));
         long platformCosts = platforms.Values.Sum(platform => Math.Max(1, platform.Length) * 180_000L);
@@ -1390,6 +1556,21 @@ public sealed class ModernWorld
         if (total > 0)
         {
             Spend(total, ModernAccountGenre.Railway, "Daily rail service costs.");
+        }
+
+        int count = (int)Math.Min(days, 365);
+        for (int day = 0; day < count; day++)
+        {
+            int dayOfWeek = (Clock.DayOfWeek - count + day + 1) % 7;
+            if (dayOfWeek < 0)
+            {
+                dayOfWeek += 7;
+            }
+
+            foreach (ModernStation station in stations.Values.ToArray())
+            {
+                stations[station.StationId] = station with { Stats = station.Stats.DailyReset(dayOfWeek) };
+            }
         }
     }
 

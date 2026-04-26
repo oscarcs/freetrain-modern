@@ -23,18 +23,17 @@ public sealed class MainWindow : Window
     private readonly string worldSnapshotPath;
     private readonly DispatcherTimer simulationTimer;
     private readonly Bitmap? toolbarIconStrip;
-    private readonly Bitmap? dayNightIconStrip;
     private readonly Dictionary<MapEditMode, ToggleButton> modeButtons = new();
     private readonly int[] simulationSpeeds = { 10, 30, 60, 180, 360 };
 
     private ColumnDefinition developerColumn = null!;
     private Border developerDrawer = null!;
-    private Button developerToggleButton = null!;
     private Button playPauseButton = null!;
     private TextBlock simulationStepValue = null!;
-    private ToggleButton gridToggleButton = null!;
-    private ToggleButton nightToggleButton = null!;
-    private Slider heightCutSlider = null!;
+    private Border placementPreviewPanel = null!;
+    private ContentControl placementPreviewContent = null!;
+    private TextBlock placementPreviewTitle = null!;
+    private TextBlock placementPreviewDetail = null!;
     private Border selectContextPanel = null!;
     private Border railContextPanel = null!;
     private Border roadContextPanel = null!;
@@ -46,9 +45,7 @@ public sealed class MainWindow : Window
     private TextBlock hudCashValue = null!;
     private TextBlock hudWorldValue = null!;
     private TextBlock hudDateValue = null!;
-    private TextBlock hudSpeedValue = null!;
     private TextBlock hudTrafficValue = null!;
-    private TextBlock hudEntitiesValue = null!;
     private TextBlock hudDiagnosticsValue = null!;
     private TextBlock bottomStatusText = null!;
     private TextBlock bottomDetailText = null!;
@@ -56,6 +53,7 @@ public sealed class MainWindow : Window
     private bool developerModeVisible;
     private bool simulationRunning;
     private int simulationSpeedIndex;
+    private string placementPreviewKey = "";
 
     public MainWindow(LegacyAssetCatalog assets)
     {
@@ -67,6 +65,7 @@ public sealed class MainWindow : Window
         MinHeight = 680;
         Width = 1320;
         Height = 820;
+        FontSize = 12;
 
         previewImage = new Image
         {
@@ -85,7 +84,6 @@ public sealed class MainWindow : Window
         mapViewport.StatusChanged += ApplyStatus;
         worldSnapshotPath = Path.Combine(AppContext.BaseDirectory, "modern-world.snapshot.json");
         toolbarIconStrip = LoadIconStrip("Toolbar.bmp");
-        dayNightIconStrip = LoadIconStrip("DayNight.bmp");
 
         simulationTimer = new DispatcherTimer
         {
@@ -129,13 +127,13 @@ public sealed class MainWindow : Window
 
         Grid shell = new()
         {
-            ColumnDefinitions = new ColumnDefinitions("*,0"),
-            RowDefinitions = new RowDefinitions("Auto,Auto,*,Auto")
+            ColumnDefinitions = new ColumnDefinitions("Auto,*,0"),
+            RowDefinitions = new RowDefinitions("Auto,*,Auto")
         };
-        developerColumn = shell.ColumnDefinitions[1];
+        developerColumn = shell.ColumnDefinitions[2];
 
         Control hud = BuildHud();
-        Grid.SetColumnSpan(hud, 2);
+        Grid.SetColumnSpan(hud, 3);
         shell.Children.Add(hud);
 
         Control toolbar = BuildMapToolbar();
@@ -143,7 +141,8 @@ public sealed class MainWindow : Window
         shell.Children.Add(toolbar);
 
         Control mapSurface = BuildMapSurface();
-        Grid.SetRow(mapSurface, 2);
+        Grid.SetColumn(mapSurface, 1);
+        Grid.SetRow(mapSurface, 1);
         shell.Children.Add(mapSurface);
 
         Grid statusContent = new()
@@ -176,14 +175,15 @@ public sealed class MainWindow : Window
             Background = Brushes.White,
             Child = statusContent
         };
-        Grid.SetRow(statusBar, 3);
+        Grid.SetRow(statusBar, 2);
+        Grid.SetColumnSpan(statusBar, 2);
         shell.Children.Add(statusBar);
 
         developerDrawer = BuildDeveloperDrawer();
         developerDrawer.IsVisible = false;
-        Grid.SetColumn(developerDrawer, 1);
+        Grid.SetColumn(developerDrawer, 2);
         Grid.SetRow(developerDrawer, 1);
-        Grid.SetRowSpan(developerDrawer, 3);
+        Grid.SetRowSpan(developerDrawer, 2);
         shell.Children.Add(developerDrawer);
 
         root.Children.Add(shell);
@@ -225,14 +225,46 @@ public sealed class MainWindow : Window
         MenuItem view = new() { Header = "_View" };
         view.Items.Add(new MenuItem
         {
-            Header = "_Developer Tools",
-            Command = MiniCommand.Create(ToggleDeveloperMode)
+            Header = "Zoom _In",
+            Command = MiniCommand.Create(() => mapViewport.Zoom += 0.25)
         });
-        view.Items.Add(new Separator());
+        view.Items.Add(new MenuItem
+        {
+            Header = "Zoom _Out",
+            Command = MiniCommand.Create(() => mapViewport.Zoom -= 0.25)
+        });
         view.Items.Add(new MenuItem
         {
             Header = "_Reset Zoom",
             Command = MiniCommand.Create(() => mapViewport.Zoom = 1.0)
+        });
+        view.Items.Add(new Separator());
+        view.Items.Add(new MenuItem
+        {
+            Header = "Toggle _Grid",
+            Command = MiniCommand.Create(() => mapViewport.ShowGrid = !mapViewport.ShowGrid)
+        });
+        view.Items.Add(new MenuItem
+        {
+            Header = "Toggle _Night View",
+            Command = MiniCommand.Create(() => mapViewport.UseNightView = !mapViewport.UseNightView)
+        });
+        view.Items.Add(new Separator());
+        view.Items.Add(new MenuItem
+        {
+            Header = "Cut _Higher",
+            Command = MiniCommand.Create(() => ChangeHeightCut(1))
+        });
+        view.Items.Add(new MenuItem
+        {
+            Header = "Cut _Lower",
+            Command = MiniCommand.Create(() => ChangeHeightCut(-1))
+        });
+        view.Items.Add(new Separator());
+        view.Items.Add(new MenuItem
+        {
+            Header = "_Developer Tools",
+            Command = MiniCommand.Create(ToggleDeveloperMode)
         });
         menu.Items.Add(view);
 
@@ -261,47 +293,29 @@ public sealed class MainWindow : Window
     {
         Grid grid = new()
         {
-            ColumnDefinitions = new ColumnDefinitions("*,Auto,Auto"),
+            ColumnDefinitions = new ColumnDefinitions("*,Auto"),
             Background = ChromeBrush,
-            MinHeight = 58
+            MinHeight = 48
         };
 
         StackPanel metrics = new()
         {
             Orientation = Orientation.Horizontal,
-            Spacing = 12,
-            Margin = new Thickness(14, 8),
+            Spacing = 10,
+            Margin = new Thickness(12, 6),
             VerticalAlignment = VerticalAlignment.Center
         };
 
         hudCashValue = CreateHudMetric(metrics, "Cash", "JPY 0", emphasize: true);
         hudWorldValue = CreateHudMetric(metrics, "World", "");
         hudDateValue = CreateHudMetric(metrics, "Date", "");
-        hudSpeedValue = CreateHudMetric(metrics, "Speed", "");
-        hudTrafficValue = CreateHudMetric(metrics, "Traffic", "");
-        hudEntitiesValue = CreateHudMetric(metrics, "Objects", "");
+        hudTrafficValue = CreateHudMetric(metrics, "Passengers", "");
         hudDiagnosticsValue = CreateHudMetric(metrics, "Diagnostics", "");
         grid.Children.Add(metrics);
 
         Control simulationControls = BuildHudSimulationControls();
         Grid.SetColumn(simulationControls, 1);
         grid.Children.Add(simulationControls);
-
-        developerToggleButton = new Button
-        {
-            Content = "Developer",
-            Background = ChromeRaisedBrush,
-            Foreground = TextBrush,
-            Padding = new Thickness(12, 7),
-            Margin = new Thickness(8, 10, 14, 10),
-            VerticalAlignment = VerticalAlignment.Stretch,
-            VerticalContentAlignment = VerticalAlignment.Center,
-            HorizontalContentAlignment = HorizontalAlignment.Center
-        };
-        developerToggleButton.Click += (_, _) => ToggleDeveloperMode();
-        ToolTip.SetTip(developerToggleButton, "Show assets, pictures, sprites, roads, and plugin diagnostics.");
-        Grid.SetColumn(developerToggleButton, 2);
-        grid.Children.Add(developerToggleButton);
 
         return grid;
     }
@@ -313,7 +327,7 @@ public sealed class MainWindow : Window
             Orientation = Orientation.Horizontal,
             Spacing = 6,
             VerticalAlignment = VerticalAlignment.Center,
-            Margin = new Thickness(8, 10)
+            Margin = new Thickness(8, 7, 12, 7)
         };
 
         playPauseButton = HudButton(HudIconOnly(ToolGlyphKind.Play), (_, _) => ToggleSimulation(), "Play or pause the simulation clock");
@@ -328,9 +342,10 @@ public sealed class MainWindow : Window
             FontSize = 12,
             FontWeight = FontWeight.SemiBold,
             VerticalAlignment = VerticalAlignment.Center,
-            MinWidth = 60
+            TextAlignment = TextAlignment.Center,
+            MinWidth = 42
         };
-        controls.Children.Add(simulationStepValue);
+        controls.Children.Insert(controls.Children.Count - 1, simulationStepValue);
 
         return controls;
     }
@@ -340,13 +355,13 @@ public sealed class MainWindow : Window
         StackPanel metric = new()
         {
             Spacing = 1,
-            MinWidth = emphasize ? 150 : 112
+            MinWidth = emphasize ? 136 : 104
         };
         metric.Children.Add(new TextBlock
         {
             Text = label.ToUpperInvariant(),
             Foreground = MutedTextBrush,
-            FontSize = 11,
+            FontSize = 10,
             FontWeight = FontWeight.SemiBold
         });
 
@@ -354,7 +369,7 @@ public sealed class MainWindow : Window
         {
             Text = value,
             Foreground = emphasize ? Brushes.White : TextBrush,
-            FontSize = emphasize ? 18 : 15,
+            FontSize = 14,
             FontWeight = emphasize ? FontWeight.Bold : FontWeight.SemiBold,
             TextTrimming = TextTrimming.CharacterEllipsis
         };
@@ -365,94 +380,30 @@ public sealed class MainWindow : Window
 
     private Control BuildMapToolbar()
     {
-        Grid toolbar = new()
-        {
-            ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
-            Background = PanelBrush,
-            MinHeight = 72
-        };
-
         StackPanel primaryTools = new()
         {
-            Orientation = Orientation.Horizontal,
+            Orientation = Orientation.Vertical,
             Spacing = 4,
-            Margin = new Thickness(12, 8),
-            VerticalAlignment = VerticalAlignment.Center
+            Margin = new Thickness(6),
+            VerticalAlignment = VerticalAlignment.Top,
+            Background = PanelBrush
         };
-        primaryTools.Children.Add(ModeButton(IconLabel(new ToolGlyph(ToolGlyphKind.Pointer), "Select"), MapEditMode.Select, "Inspect tiles and objects"));
-        primaryTools.Children.Add(ModeButton(IconLabel(ToolbarIcon(0, ToolGlyphKind.Rail), "Rail"), MapEditMode.Rail, "Place rails between selected tiles"));
-        primaryTools.Children.Add(ModeButton(IconLabel(new ToolGlyph(ToolGlyphKind.Road), "Road"), MapEditMode.Road, "Place roads between selected tiles"));
-        primaryTools.Children.Add(ModeButton(IconLabel(new ToolGlyph(ToolGlyphKind.Station), "Station"), MapEditMode.Station, "Build station buildings"));
-        primaryTools.Children.Add(ModeButton(IconLabel(new ToolGlyph(ToolGlyphKind.Platform), "Platform"), MapEditMode.Platform, "Build station platforms on rail"));
-        primaryTools.Children.Add(ModeButton(IconLabel(new ToolGlyph(ToolGlyphKind.Train), "Train"), MapEditMode.Train, "Place a train on rail"));
-        primaryTools.Children.Add(ModeButton(IconLabel(ToolbarIcon(7, ToolGlyphKind.Terrain), "Terrain"), MapEditMode.Terrain, "Raise or lower terrain"));
-        primaryTools.Children.Add(ModeButton(IconLabel(ToolbarIcon(9, ToolGlyphKind.Bulldoze), "Bulldoze"), MapEditMode.Erase, "Erase rail or road"));
-        toolbar.Children.Add(primaryTools);
-
-        Grid contextGrid = new()
-        {
-            Margin = new Thickness(10, 8, 8, 8),
-            VerticalAlignment = VerticalAlignment.Stretch
-        };
-        Grid.SetColumn(contextGrid, 1);
-        selectContextPanel = ContextPanel("Selection", new TextBlock
-        {
-            Text = "Inspect",
-            Foreground = DarkMutedTextBrush,
-            FontWeight = FontWeight.SemiBold,
-            VerticalAlignment = VerticalAlignment.Center
-        });
-        railContextPanel = ContextPanel("Rail", new TextBlock
-        {
-            Text = "Line placement",
-            Foreground = DarkMutedTextBrush,
-            FontWeight = FontWeight.SemiBold,
-            VerticalAlignment = VerticalAlignment.Center
-        });
-        roadContextPanel = ContextPanel("Road",
-            ToolButton("Prev", (_, _) => mapViewport.SelectPreviousRoad(), "Previous road contribution"),
-            ToolButton("Next", (_, _) => mapViewport.SelectNextRoad(), "Next road contribution"));
-        stationContextPanel = ContextPanel("Station Building",
-            ToolButton("Prev", (_, _) => mapViewport.SelectPreviousStation(), "Previous station contribution"),
-            ToolButton("Next", (_, _) => mapViewport.SelectNextStation(), "Next station contribution"));
-        platformContextPanel = ContextPanel("Platform",
-            ToolButton("-Len", (_, _) => mapViewport.ChangePlatformLength(-1), "Shorter platform"),
-            ToolButton("+Len", (_, _) => mapViewport.ChangePlatformLength(1), "Longer platform"),
-            ToolButton("Dir", (_, _) => mapViewport.RotatePlatformDirection(), "Rotate platform direction"),
-            ToolButton("Style", (_, _) => mapViewport.CyclePlatformStyle(), "Cycle thin, roofed, and wide platforms"));
-        trainContextPanel = ContextPanel("Train",
-            ToolButton("Prev", (_, _) => mapViewport.SelectPreviousTrain(), "Previous train contribution"),
-            ToolButton("Next", (_, _) => mapViewport.SelectNextTrain(), "Next train contribution"));
-        terrainContextPanel = ContextPanel("Terrain",
-            ToolButton("Raise", (_, _) => mapViewport.RaiseSelectedTerrain(), "Raise the selected terrain corner"),
-            ToolButton("Lower", (_, _) => mapViewport.LowerSelectedTerrain(), "Lower the selected terrain corner"));
-        eraseContextPanel = ContextPanel("Bulldoze", new TextBlock
-        {
-            Text = "Transport removal",
-            Foreground = DarkMutedTextBrush,
-            FontWeight = FontWeight.SemiBold,
-            VerticalAlignment = VerticalAlignment.Center
-        });
-        contextGrid.Children.Add(selectContextPanel);
-        contextGrid.Children.Add(railContextPanel);
-        contextGrid.Children.Add(roadContextPanel);
-        contextGrid.Children.Add(stationContextPanel);
-        contextGrid.Children.Add(platformContextPanel);
-        contextGrid.Children.Add(trainContextPanel);
-        contextGrid.Children.Add(terrainContextPanel);
-        contextGrid.Children.Add(eraseContextPanel);
-        toolbar.Children.Add(contextGrid);
-
-        Control viewToolbar = BuildViewToolbar();
-        Grid.SetColumn(viewToolbar, 2);
-        toolbar.Children.Add(viewToolbar);
+        primaryTools.Children.Add(ModeButton(new ToolGlyph(ToolGlyphKind.Pointer, 22), MapEditMode.Select, "Select: inspect tiles and objects"));
+        primaryTools.Children.Add(ModeButton(ToolbarIcon(0, ToolGlyphKind.Rail), MapEditMode.Rail, "Rail: place track between selected tiles"));
+        primaryTools.Children.Add(ModeButton(new ToolGlyph(ToolGlyphKind.Road, 22), MapEditMode.Road, "Road: place road between selected tiles"));
+        primaryTools.Children.Add(ModeButton(new ToolGlyph(ToolGlyphKind.Station, 22), MapEditMode.Station, "Station: build station buildings"));
+        primaryTools.Children.Add(ModeButton(new ToolGlyph(ToolGlyphKind.Platform, 22), MapEditMode.Platform, "Platform: build station platforms on rail"));
+        primaryTools.Children.Add(ModeButton(new ToolGlyph(ToolGlyphKind.Train, 22), MapEditMode.Train, "Train: place a train on rail"));
+        primaryTools.Children.Add(ModeButton(ToolbarIcon(7, ToolGlyphKind.Terrain), MapEditMode.Terrain, "Terrain: raise or lower corners"));
+        primaryTools.Children.Add(ModeButton(ToolbarIcon(9, ToolGlyphKind.Bulldoze), MapEditMode.Erase, "Bulldoze: erase stations, platforms, rail, or road"));
 
         return new Border
         {
+            Width = 52,
             Background = PanelBrush,
             BorderBrush = new SolidColorBrush(Color.FromRgb(221, 226, 229)),
-            BorderThickness = new Thickness(0, 0, 0, 1),
-            Child = toolbar
+            BorderThickness = new Thickness(0, 0, 1, 0),
+            Child = primaryTools
         };
     }
 
@@ -461,18 +412,9 @@ public sealed class MainWindow : Window
         StackPanel row = new()
         {
             Orientation = Orientation.Horizontal,
-            Spacing = 8,
-            VerticalAlignment = VerticalAlignment.Stretch
+            Spacing = 4,
+            VerticalAlignment = VerticalAlignment.Top
         };
-        row.Children.Add(new TextBlock
-        {
-            Text = title,
-            Foreground = DarkMutedTextBrush,
-            FontSize = 13,
-            FontWeight = FontWeight.Bold,
-            VerticalAlignment = VerticalAlignment.Center,
-            Margin = new Thickness(0, 0, 4, 0)
-        });
 
         foreach (Control control in controls)
         {
@@ -494,16 +436,104 @@ public sealed class MainWindow : Window
             Content = content,
             Background = Brushes.White,
             Foreground = DarkTextBrush,
-            MinWidth = 42,
-            MinHeight = 36,
-            Padding = new Thickness(12, 6),
-            VerticalAlignment = VerticalAlignment.Stretch,
+            FontSize = 11,
+            MinWidth = 30,
+            MinHeight = 28,
+            Padding = new Thickness(7, 3),
+            VerticalAlignment = VerticalAlignment.Top,
             VerticalContentAlignment = VerticalAlignment.Center,
             HorizontalContentAlignment = HorizontalAlignment.Center
         };
         button.Click += click;
         ToolTip.SetTip(button, tip);
         return button;
+    }
+
+    private Border BuildPlacementOverlay()
+    {
+        placementPreviewTitle = new TextBlock
+        {
+            Foreground = DarkTextBrush,
+            FontSize = 11,
+            FontWeight = FontWeight.SemiBold,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            Margin = new Thickness(8, 7, 8, 0)
+        };
+        placementPreviewContent = new ContentControl
+        {
+            HorizontalContentAlignment = HorizontalAlignment.Center,
+            VerticalContentAlignment = VerticalAlignment.Center,
+            Margin = new Thickness(8, 4, 8, 0)
+        };
+        placementPreviewDetail = new TextBlock
+        {
+            Foreground = DarkMutedTextBrush,
+            FontSize = 10,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            Margin = new Thickness(8, 3, 8, 6)
+        };
+
+        Grid contextGrid = new()
+        {
+            Margin = new Thickness(8, 0, 8, 8),
+            VerticalAlignment = VerticalAlignment.Top
+        };
+        selectContextPanel = ContextPanel("Selection");
+        railContextPanel = ContextPanel("Rail");
+        roadContextPanel = ContextPanel("Road",
+            ToolButton("<", (_, _) => mapViewport.SelectPreviousRoad(), "Previous road contribution"),
+            ToolButton(">", (_, _) => mapViewport.SelectNextRoad(), "Next road contribution"));
+        stationContextPanel = ContextPanel("Station Building",
+            ToolButton("<", (_, _) => mapViewport.SelectPreviousStation(), "Previous station contribution"),
+            ToolButton(">", (_, _) => mapViewport.SelectNextStation(), "Next station contribution"));
+        platformContextPanel = ContextPanel("Platform",
+            ToolButton("-", (_, _) => mapViewport.ChangePlatformLength(-1), "Shorter platform"),
+            ToolButton("+", (_, _) => mapViewport.ChangePlatformLength(1), "Longer platform"),
+            ToolButton("Dir", (_, _) => mapViewport.RotatePlatformDirection(), "Rotate platform direction"),
+            ToolButton("Style", (_, _) => mapViewport.CyclePlatformStyle(), "Cycle thin, roofed, and wide platforms"));
+        trainContextPanel = ContextPanel("Train",
+            ToolButton("<", (_, _) => mapViewport.SelectPreviousTrain(), "Previous train contribution"),
+            ToolButton(">", (_, _) => mapViewport.SelectNextTrain(), "Next train contribution"));
+        terrainContextPanel = ContextPanel("Terrain",
+            ToolButton("+", (_, _) => mapViewport.RaiseSelectedTerrain(), "Raise the selected terrain corner"),
+            ToolButton("-", (_, _) => mapViewport.LowerSelectedTerrain(), "Lower the selected terrain corner"));
+        eraseContextPanel = ContextPanel("Bulldoze");
+        contextGrid.Children.Add(selectContextPanel);
+        contextGrid.Children.Add(railContextPanel);
+        contextGrid.Children.Add(roadContextPanel);
+        contextGrid.Children.Add(stationContextPanel);
+        contextGrid.Children.Add(platformContextPanel);
+        contextGrid.Children.Add(trainContextPanel);
+        contextGrid.Children.Add(terrainContextPanel);
+        contextGrid.Children.Add(eraseContextPanel);
+
+        StackPanel previewStack = new()
+        {
+            Spacing = 0
+        };
+        previewStack.Children.Add(placementPreviewTitle);
+        previewStack.Children.Add(placementPreviewContent);
+        previewStack.Children.Add(placementPreviewDetail);
+        previewStack.Children.Add(contextGrid);
+
+        placementPreviewPanel = new Border
+        {
+            Background = new SolidColorBrush(Color.FromArgb(244, 255, 255, 255)),
+            BorderBrush = new SolidColorBrush(Color.FromRgb(221, 226, 229)),
+            BorderThickness = new Thickness(1),
+            CornerRadius = new CornerRadius(4),
+            BoxShadow = new BoxShadows(new BoxShadow
+            {
+                Color = Color.FromArgb(42, 0, 0, 0),
+                Blur = 12,
+                OffsetY = 3
+            }),
+            HorizontalAlignment = HorizontalAlignment.Left,
+            VerticalAlignment = VerticalAlignment.Top,
+            Width = 148,
+            Child = previewStack
+        };
+        return placementPreviewPanel;
     }
 
     private ToggleButton ModeButton(object content, MapEditMode mode, string tip)
@@ -513,8 +543,8 @@ public sealed class MainWindow : Window
             Content = content,
             Background = Brushes.White,
             Foreground = DarkTextBrush,
-            Width = 68,
-            Height = 56,
+            Width = 40,
+            Height = 40,
             Padding = new Thickness(4),
             VerticalAlignment = VerticalAlignment.Center,
             VerticalContentAlignment = VerticalAlignment.Center,
@@ -533,30 +563,6 @@ public sealed class MainWindow : Window
             : new StripIcon(toolbarIconStrip, stripIndex, 16, 15);
     }
 
-    private static Control IconLabel(Control icon, string label)
-    {
-        StackPanel stack = new()
-        {
-            Spacing = 2,
-            HorizontalAlignment = HorizontalAlignment.Center,
-            VerticalAlignment = VerticalAlignment.Center
-        };
-        stack.Children.Add(icon);
-        stack.Children.Add(new TextBlock
-        {
-            Text = label,
-            FontSize = 11,
-            FontWeight = FontWeight.SemiBold,
-            HorizontalAlignment = HorizontalAlignment.Center
-        });
-        return stack;
-    }
-
-    private static Control IconOnly(ToolGlyphKind glyph)
-    {
-        return new ToolGlyph(glyph, 16);
-    }
-
     private static Control HudIconOnly(ToolGlyphKind glyph)
     {
         return new ToolGlyph(glyph, 16, Colors.White);
@@ -569,94 +575,15 @@ public sealed class MainWindow : Window
             Content = content,
             Background = ChromeRaisedBrush,
             Foreground = TextBrush,
-            MinWidth = 34,
-            MinHeight = 36,
-            Padding = new Thickness(9, 5),
+            FontSize = 11,
+            MinWidth = 30,
+            MinHeight = 30,
+            Padding = new Thickness(7, 3),
             VerticalAlignment = VerticalAlignment.Stretch,
             VerticalContentAlignment = VerticalAlignment.Center,
             HorizontalContentAlignment = HorizontalAlignment.Center
         };
         button.Click += click;
-        ToolTip.SetTip(button, tip);
-        return button;
-    }
-
-    private Control HeightCutControl()
-    {
-        StackPanel row = new()
-        {
-            Orientation = Orientation.Horizontal,
-            Spacing = 8,
-            VerticalAlignment = VerticalAlignment.Center
-        };
-        row.Children.Add(new TextBlock
-        {
-            Text = "Cut",
-            Foreground = DarkMutedTextBrush,
-            FontSize = 12,
-            VerticalAlignment = VerticalAlignment.Center
-        });
-
-        heightCutSlider = new Slider
-        {
-            Minimum = 0,
-            Maximum = mapViewport.WorldMaxHeightCutLevel,
-            Value = mapViewport.MaxVisibleLevel,
-            Width = 128,
-            TickFrequency = 1,
-            IsSnapToTickEnabled = true,
-            VerticalAlignment = VerticalAlignment.Center
-        };
-        heightCutSlider.PropertyChanged += (_, e) =>
-        {
-            if (e.Property == RangeBase.ValueProperty)
-            {
-                mapViewport.MaxVisibleLevel = (int)Math.Round(heightCutSlider.Value);
-            }
-        };
-        row.Children.Add(heightCutSlider);
-        return row;
-    }
-
-    private Button PlayPauseButton()
-    {
-        playPauseButton = ToolButton("Play", (_, _) => ToggleSimulation(), "Play or pause the simulation clock");
-        return playPauseButton;
-    }
-
-    private ToggleButton GridToggle()
-    {
-        gridToggleButton = ViewToggleButton("Grid", "Show the map grid.");
-        gridToggleButton.IsChecked = mapViewport.ShowGrid;
-        gridToggleButton.Click += (_, _) => mapViewport.ShowGrid = gridToggleButton.IsChecked == true;
-        return gridToggleButton;
-    }
-
-    private ToggleButton NightModeButton()
-    {
-        Control icon = dayNightIconStrip is null
-            ? new ToolGlyph(ToolGlyphKind.Night, 16)
-            : new StripIcon(dayNightIconStrip, 2, 16, 15, 18);
-        nightToggleButton = ViewToggleButton(IconLabel(icon, "Night"), "Preview the night overlay.");
-        nightToggleButton.IsChecked = mapViewport.UseNightView;
-        nightToggleButton.Click += (_, _) => mapViewport.UseNightView = nightToggleButton.IsChecked == true;
-        return nightToggleButton;
-    }
-
-    private static ToggleButton ViewToggleButton(object content, string tip)
-    {
-        ToggleButton button = new()
-        {
-            Content = content,
-            Background = Brushes.White,
-            Foreground = DarkTextBrush,
-            MinWidth = 48,
-            MinHeight = 36,
-            Padding = new Thickness(10, 5),
-            VerticalAlignment = VerticalAlignment.Stretch,
-            VerticalContentAlignment = VerticalAlignment.Center,
-            HorizontalContentAlignment = HorizontalAlignment.Center
-        };
         ToolTip.SetTip(button, tip);
         return button;
     }
@@ -686,59 +613,16 @@ public sealed class MainWindow : Window
         };
         Dispatcher.UIThread.Post(UpdateViewport, DispatcherPriority.Loaded);
 
-        return new Border
+        Grid surface = new();
+        surface.Children.Add(new Border
         {
             Background = new SolidColorBrush(Color.FromRgb(92, 162, 182)),
             BorderBrush = new SolidColorBrush(Color.FromRgb(16, 19, 22)),
             BorderThickness = new Thickness(0),
             Child = scroller
-        };
-    }
-
-    private Control BuildViewToolbar()
-    {
-        StackPanel panel = new()
-        {
-            Orientation = Orientation.Horizontal,
-            Spacing = 8,
-            Margin = new Thickness(8, 8, 12, 8),
-            VerticalAlignment = VerticalAlignment.Stretch
-        };
-
-        panel.Children.Add(new TextBlock
-        {
-            Text = "View",
-            Foreground = DarkMutedTextBrush,
-            FontWeight = FontWeight.Bold,
-            VerticalAlignment = VerticalAlignment.Center
         });
-        panel.Children.Add(ViewButton(IconOnly(ToolGlyphKind.ZoomOut), (_, _) => mapViewport.Zoom -= 0.25, "Zoom out"));
-        panel.Children.Add(ViewButton(IconOnly(ToolGlyphKind.ZoomIn), (_, _) => mapViewport.Zoom += 0.25, "Zoom in"));
-        panel.Children.Add(ViewButton("1:1", (_, _) => mapViewport.Zoom = 1.0, "Reset zoom"));
-        panel.Children.Add(GridToggle());
-        panel.Children.Add(NightModeButton());
-        panel.Children.Add(HeightCutControl());
-
-        return panel;
-    }
-
-    private static Button ViewButton(object content, EventHandler<RoutedEventArgs> click, string tip)
-    {
-        Button button = new()
-        {
-            Content = content,
-            Background = Brushes.White,
-            Foreground = DarkTextBrush,
-            MinWidth = 36,
-            MinHeight = 36,
-            Padding = new Thickness(8, 5),
-            VerticalAlignment = VerticalAlignment.Stretch,
-            VerticalContentAlignment = VerticalAlignment.Center,
-            HorizontalContentAlignment = HorizontalAlignment.Center
-        };
-        button.Click += click;
-        ToolTip.SetTip(button, tip);
-        return button;
+        surface.Children.Add(BuildPlacementOverlay());
+        return surface;
     }
 
     private Border BuildDeveloperDrawer()
@@ -1172,24 +1056,122 @@ public sealed class MainWindow : Window
         hudCashValue.Text = FormatMoney(status.Cash);
         hudWorldValue.Text = status.WorldName;
         hudDateValue.Text = status.Clock.Format(ModernTextLanguage.English);
-        hudTrafficValue.Text = status.TrafficCount.ToString("N0");
-        hudEntitiesValue.Text = status.EntityCount.ToString("N0");
+        hudTrafficValue.Text = $"{status.WaitingPassengers:N0}/{status.StationPopulation:N0}";
         hudDiagnosticsValue.Text = $"{plugins.ErrorCount} plugin errors";
         bottomStatusText.Text = $"{status.InteractionHint} {status.LastMessage}";
         bottomDetailText.Text = CreateStatusDetails(status);
+        UpdatePlacementPreview(status);
 
-        if (Math.Abs(heightCutSlider.Value - status.MaxVisibleLevel) > 0.001)
-        {
-            heightCutSlider.Value = status.MaxVisibleLevel;
-        }
-
-        gridToggleButton.IsChecked = status.ShowGrid;
-        gridToggleButton.Background = status.ShowGrid ? ActiveToolBrush : Brushes.White;
-        nightToggleButton.IsChecked = status.UseNightView;
-        nightToggleButton.Background = status.UseNightView ? ActiveToolBrush : Brushes.White;
         UpdateModeButtons(status.EditMode);
         UpdateContextPanels(status.EditMode);
         UpdateSimulationText();
+    }
+
+    private void UpdatePlacementPreview(MapViewportStatus status)
+    {
+        (string PlatformTitle, string PlatformDetail) = PlatformPreviewLabels(status.ActivePlatformDescription);
+        (string Key, string Title, string Detail, Func<Control> Create) preview = status.EditMode switch
+        {
+            MapEditMode.Road when mapViewport.ActiveRoadContribution is { } road => (
+                $"road:{road.Id}",
+                road.DisplayName,
+                RoadDetail(road),
+                () => new RoadPlacementPreviewControl(road)),
+            MapEditMode.Station when mapViewport.ActiveStationContribution is { } station => (
+                $"station:{station.Id}",
+                station.DisplayName,
+                $"{station.SizeH}x{station.SizeV} | {FormatMoney(station.OperationCost)} upkeep",
+                () => new StationPlacementPreviewControl(station)),
+            MapEditMode.Platform => (
+                $"platform:{status.ActivePlatformDescription}",
+                PlatformTitle,
+                PlatformDetail,
+                () => new PlatformPlacementPreviewControl(status.ActivePlatformDescription)),
+            MapEditMode.Train when mapViewport.ActiveTrainContribution is { } train => (
+                $"train:{train.Id}",
+                train.DisplayName,
+                $"{FormatMoney(train.Price)} | fare {FormatMoney(train.Fare)}",
+                () => new TrainPlacementPreviewControl(train, mapViewport.TrainCarContributions)),
+            MapEditMode.Terrain => (
+                "terrain",
+                "Terrain",
+                "Selected corner",
+                () => new EmptyPlacementPreviewControl()),
+            _ => (
+                $"none:{status.EditMode}",
+                "",
+                "",
+                () => new EmptyPlacementPreviewControl())
+        };
+
+        bool hasPreview = status.EditMode is MapEditMode.Road
+            or MapEditMode.Station
+            or MapEditMode.Platform
+            or MapEditMode.Train
+            or MapEditMode.Terrain;
+        placementPreviewPanel.IsVisible = hasPreview;
+        placementPreviewPanel.Margin = new Thickness(8, ToolOverlayTop(status.EditMode), 0, 0);
+        if (!hasPreview)
+        {
+            if (placementPreviewContent.Content is IDisposable oldPreview)
+            {
+                oldPreview.Dispose();
+            }
+
+            placementPreviewKey = preview.Key;
+            placementPreviewTitle.Text = "";
+            placementPreviewDetail.Text = "";
+            placementPreviewContent.Content = null;
+            return;
+        }
+
+        placementPreviewTitle.Text = preview.Title;
+        placementPreviewDetail.Text = preview.Detail;
+        placementPreviewContent.IsVisible = status.EditMode != MapEditMode.Terrain;
+        if (placementPreviewKey == preview.Key)
+        {
+            return;
+        }
+
+        if (placementPreviewContent.Content is IDisposable disposable)
+        {
+            disposable.Dispose();
+        }
+
+        placementPreviewKey = preview.Key;
+        placementPreviewContent.Content = preview.Create();
+    }
+
+    private static string RoadDetail(RoadContribution road)
+    {
+        return road.Style.Lanes > 0
+            ? $"{road.Style.MajorType}, {road.Style.Lanes} lane(s)"
+            : road.Kind.ToString();
+    }
+
+    private static (string Title, string Detail) PlatformPreviewLabels(string description)
+    {
+        string[] parts = description.Split(", ", 3, StringSplitOptions.TrimEntries);
+        return parts.Length == 3
+            ? (parts[2], $"{parts[0]}, {parts[1]}")
+            : ("Platform option", description);
+    }
+
+    private static double ToolOverlayTop(MapEditMode mode)
+    {
+        int index = mode switch
+        {
+            MapEditMode.Select => 0,
+            MapEditMode.Rail => 1,
+            MapEditMode.Road => 2,
+            MapEditMode.Station => 3,
+            MapEditMode.Platform => 4,
+            MapEditMode.Train => 5,
+            MapEditMode.Terrain => 6,
+            MapEditMode.Erase => 7,
+            _ => 0
+        };
+        return 6 + index * 44;
     }
 
     private void UpdateModeButtons(MapEditMode activeMode)
@@ -1241,12 +1223,16 @@ public sealed class MainWindow : Window
         UpdateSimulationText();
     }
 
+    private void ChangeHeightCut(int delta)
+    {
+        mapViewport.MaxVisibleLevel = Math.Clamp(
+            mapViewport.MaxVisibleLevel + delta,
+            0,
+            mapViewport.WorldMaxHeightCutLevel);
+    }
+
     private void UpdateSimulationText()
     {
-        string speed = simulationRunning
-            ? $"{simulationSpeeds[simulationSpeedIndex]}m/tick"
-            : "Paused";
-        hudSpeedValue.Text = speed;
         if (simulationStepValue is not null)
         {
             simulationStepValue.Text = $"{simulationSpeeds[simulationSpeedIndex]}m";
@@ -1268,7 +1254,6 @@ public sealed class MainWindow : Window
         developerModeVisible = visible;
         developerDrawer.IsVisible = visible;
         developerColumn.Width = new GridLength(visible ? 380 : 0);
-        developerToggleButton.Content = visible ? "Hide Developer" : "Developer";
     }
 
     private static string FormatCompactLocation(TileLocation? location)
@@ -1283,7 +1268,7 @@ public sealed class MainWindow : Window
         string anchor = status.BuildAnchorLocation is null
             ? ""
             : $" | Anchor {FormatCompactLocation(status.BuildAnchorLocation)}";
-        return $"Hover {FormatCompactLocation(status.HoverLocation)} | Selected {FormatCompactLocation(status.SelectedLocation)}{anchor} | {status.EditMode} | Road {status.ActiveRoadName} | Station {status.ActiveStationName} | Platform {status.ActivePlatformDescription} | Train {status.ActiveTrainName} | Zoom {status.Zoom:0.##}x | Cut {status.MaxVisibleLevel}/{status.WorldMaxHeightCutLevel} | Rail {status.RailTileCount:N0} Road {status.RoadTileCount:N0} Stations {status.StationCount:N0} Platforms {status.PlatformCount:N0} Trains {status.TrainCount:N0}";
+        return $"Hover {FormatCompactLocation(status.HoverLocation)} | Selected {FormatCompactLocation(status.SelectedLocation)}{anchor} | {status.EditMode} | Road {status.ActiveRoadName} | Station {status.ActiveStationName} | Platform {status.ActivePlatformDescription} | Train {status.ActiveTrainName} | Zoom {status.Zoom:0.##}x | Cut {status.MaxVisibleLevel}/{status.WorldMaxHeightCutLevel} | Rail {status.RailTileCount:N0} Road {status.RoadTileCount:N0} Stations {status.StationCount:N0} Platforms {status.PlatformCount:N0} Trains {status.TrainCount:N0} | Pop {status.StationPopulation:N0} Waiting {status.WaitingPassengers:N0} Loaded {status.LoadedPassengersToday:N0} Unloaded {status.UnloadedPassengersToday:N0} Stops {status.TrainStopsToday:N0}";
     }
 
     private static string FormatMoney(long amount)
@@ -1379,9 +1364,14 @@ public sealed class MainWindow : Window
     protected override void OnClosed(EventArgs e)
     {
         simulationTimer.Stop();
+        if (placementPreviewContent.Content is IDisposable preview)
+        {
+            preview.Dispose();
+            placementPreviewContent.Content = null;
+        }
+
         mapViewport.Dispose();
         toolbarIconStrip?.Dispose();
-        dayNightIconStrip?.Dispose();
         base.OnClosed(e);
     }
 

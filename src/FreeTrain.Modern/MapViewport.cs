@@ -63,7 +63,7 @@ public sealed class MapViewport : Control, IDisposable
     private TileLocation? selectedLocation;
     private TileLocation? buildAnchorLocation;
     private double zoom = 2.0;
-    private bool showGrid = true;
+    private bool showGrid;
     private bool useNightView;
     private int maxVisibleLevel;
     private MapEditMode editMode = MapEditMode.Select;
@@ -280,15 +280,16 @@ public sealed class MapViewport : Control, IDisposable
         PublishStatus();
     }
 
-    private RoadContribution? ActiveRoadContribution => roadContributions.Count == 0
+    public RoadContribution? ActiveRoadContribution => roadContributions.Count == 0
         ? null
         : roadContributions[Math.Clamp(activeRoadIndex, 0, roadContributions.Count - 1)];
-    private StationContribution? ActiveStationContribution => stationContributions.Count == 0
+    public StationContribution? ActiveStationContribution => stationContributions.Count == 0
         ? null
         : stationContributions[Math.Clamp(activeStationIndex, 0, stationContributions.Count - 1)];
-    private TrainContribution? ActiveTrainContribution => trainContributions.Count == 0
+    public TrainContribution? ActiveTrainContribution => trainContributions.Count == 0
         ? null
         : trainContributions[Math.Clamp(activeTrainIndex, 0, trainContributions.Count - 1)];
+    public IReadOnlyDictionary<string, TrainCarContribution> TrainCarContributions => trainCarContributions;
 
     private void OnWorldChanged(object? sender, ModernWorldChangedEventArgs e)
     {
@@ -694,9 +695,8 @@ public sealed class MapViewport : Control, IDisposable
     private void DrawCornerMarker(DrawingContext context, TileLocation location, IBrush fill, Pen outline)
     {
         Point p = GetTerrainCornerScreenPoint(location);
-        context.DrawEllipse(fill, outline, p, 4.5, 4.5);
-        context.DrawLine(outline, new Point(p.X - 7, p.Y), new Point(p.X + 7, p.Y));
-        context.DrawLine(outline, new Point(p.X, p.Y - 7), new Point(p.X, p.Y + 7));
+        context.DrawEllipse(fill, outline, p, 5.5, 5.5);
+        context.DrawEllipse(outline.Brush, null, p, 2, 2);
     }
 
     public void RaiseSelectedTerrain()
@@ -1691,6 +1691,11 @@ public sealed class MapViewport : Control, IDisposable
             world.Stations.Count,
             world.Platforms.Count,
             world.Trains.Count,
+            world.TotalStationPopulation,
+            world.TotalWaitingPassengers,
+            world.TotalLoadedPassengersToday,
+            world.TotalUnloadedPassengersToday,
+            world.TotalTrainStopsToday,
             Zoom,
             MaxVisibleLevel,
             world.MaxHeightCutLevel,
