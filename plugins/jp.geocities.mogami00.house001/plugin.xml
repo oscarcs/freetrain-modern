@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+ <plug-in>
+ <title>民家001</title> 
+ <author>モガミ</author> 
+ <homepage>http://www.geocities.jp/mogami00/Kamikazekensetu.html</homepage> 
+ <contribution type="picture" id="{A1E2E312-7B44-42C9-B399-57673AEB809C}">
+ <picture src="house001.bmp" /> 
+ </contribution>
+ <contribution type="commercial" id="{23BCFE49-F037-47DF-8D24-9D89749762B7}-0">
+ <group>一戸建て</group> 
+ <price>10000000</price> 
+ <size>1,1</size> 
+ <height>1</height> 
+ <sprite origin="0,0" offset="16">
+ <picture ref="{A1E2E312-7B44-42C9-B399-57673AEB809C}" /> 
+ </sprite>
+ <population>
+ <class name="freetrain.contributions.population.ResidentialPopulation" /> 
+ <base>10</base> 
+ </population>
+ </contribution>
+ <contribution type="commercial" id="{23BCFE49-F037-47DF-8D24-9D89749762B7}-1">
+ <group>一戸建て</group> 
+ <price>10000000</price> 
+ <size>1,1</size> 
+ <height>1</height> 
+ <sprite origin="32,0" offset="16">
+ <picture ref="{A1E2E312-7B44-42C9-B399-57673AEB809C}" /> 
+ </sprite>
+ <population>
+ <class name="freetrain.contributions.population.ResidentialPopulation" /> 
+ <base>10</base> 
+ </population>
+ </contribution>
+ <contribution type="commercial" id="{23BCFE49-F037-47DF-8D24-9D89749762B7}-2">
+ <group>一戸建て</group> 
+ <price>10000000</price> 
+ <size>1,1</size> 
+ <height>1</height> 
+ <sprite origin="64,0" offset="16">
+ <picture ref="{A1E2E312-7B44-42C9-B399-57673AEB809C}" /> 
+ </sprite>
+ <population>
+ <class name="freetrain.contributions.population.ResidentialPopulation" /> 
+ <base>10</base> 
+ </population>
+ </contribution>
+ <contribution type="commercial" id="{23BCFE49-F037-47DF-8D24-9D89749762B7}-3">
+ <group>一戸建て</group> 
+ <price>10000000</price> 
+ <size>1,1</size> 
+ <height>1</height> 
+ <sprite origin="96,0" offset="16">
+ <picture ref="{A1E2E312-7B44-42C9-B399-57673AEB809C}" /> 
+ </sprite>
+ <population>
+ <class name="freetrain.contributions.population.ResidentialPopulation" /> 
+ <base>10</base> 
+ </population>
+ </contribution>
+ <contribution type="commercial" id="{23BCFE49-F037-47DF-8D24-9D89749762B7}-4">
+ <group>一戸建て</group> 
+ <price>10000000</price> 
+ <size>1,1</size> 
+ <height>1</height> 
+ <sprite origin="128,0" offset="16">
+ <picture ref="{A1E2E312-7B44-42C9-B399-57673AEB809C}" /> 
+ </sprite>
+ <population>
+ <class name="freetrain.contributions.population.ResidentialPopulation" /> 
+ <base>10</base> 
+ </population>
+ </contribution>
+ <contribution type="commercial" id="{23BCFE49-F037-47DF-8D24-9D89749762B7}-5">
+ <group>一戸建て</group> 
+ <price>10000000</price> 
+ <size>1,1</size> 
+ <height>1</height> 
+ <sprite origin="160,0" offset="16">
+ <picture ref="{A1E2E312-7B44-42C9-B399-57673AEB809C}" /> 
+ </sprite>
+ <population>
+ <class name="freetrain.contributions.population.ResidentialPopulation" /> 
+ <base>10</base> 
+ </population>
+ </contribution>
+ <contribution type="commercial" id="{23BCFE49-F037-47DF-8D24-9D89749762B7}-6">
+ <group>一戸建て</group> 
+ <price>10000000</price> 
+ <size>1,1</size> 
+ <height>1</height> 
+ <sprite origin="192,0" offset="16">
+ <picture ref="{A1E2E312-7B44-42C9-B399-57673AEB809C}" /> 
+ </sprite>
+ <population>
+ <class name="freetrain.contributions.population.ResidentialPopulation" /> 
+ <base>10</base> 
+ </population>
+ </contribution>
+ <contribution type="commercial" id="{23BCFE49-F037-47DF-8D24-9D89749762B7}-7">
+ <group>一戸建て</group> 
+ <price>10000000</price> 
+ <size>1,1</size> 
+ <height>1</height> 
+ <sprite origin="224,0" offset="16">
+ <picture ref="{A1E2E312-7B44-42C9-B399-57673AEB809C}" /> 
+ </sprite>
+ <population>
+ <class name="freetrain.contributions.population.ResidentialPopulation" /> 
+ <base>10</base> 
+ </population>
+ </contribution>
+ <contribution type="commercial" id="{23BCFE49-F037-47DF-8D24-9D89749762B7}-8">
+ <group>一戸建て</group> 
+ <price>10000000</price> 
+ <size>1,1</size> 
+ <height>1</height> 
+ <sprite origin="256,0" offset="16">
+ <picture ref="{A1E2E312-7B44-42C9-B399-57673AEB809C}" /> 
+ </sprite>
+ <population>
+ <class name="freetrain.contributions.population.ResidentialPopulation" /> 
+ <base>10</base> 
+ </population>
+ </contribution>
+ </plug-in>

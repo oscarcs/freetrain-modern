@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plug-in [
+<!ENTITY towerparking '
+	<group>タワーパーキング</group>
+	<price>2500000</price>
+	<size>1,1</size>
+	<minHeight>3</minHeight>
+	<maxHeight>5</maxHeight>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>1</base>
+	</population>
+'>
+]>
+
+<plug-in>
+
+	<title>タワーパーキング</title>
+	<author>ジャガイモ</author>
+	<homepage>http://homepage1.nifty.com/jagaimo/west_necom/</homepage>
+
+	<contribution type="picture" id="{jagaimo-structure-towerparking-a}">
+		<picture src="towerparking.bmp">
+			<!--<override when="night" src="bldg_s01cv_n.bmp" />-->
+		</picture>
+	</contribution>
+
+	<contribution type="picture" id="{jagaimo-structure-towerparking-b}">
+		<picture src="towerparking_big.bmp">
+			<!--<override when="night" src="bldg_s01cv_n.bmp" />-->
+		</picture>
+	</contribution>
+
+
+
+
+	
+	<contribution type="GenericStructure" id="{jagaimo-structure-towerparking-a}-1">
+		
+		&towerparking;
+
+		<design>タイプA</design>
+		<structure>
+			<category byname="駐車場"/>
+		</structure>
+		<pictures>
+			<top origin=" 0, 14" offset="2">
+				<picture ref="{jagaimo-structure-towerparking-a}" />
+			</top>
+			<middle origin=" 0, 40" offset="8">
+				<picture ref="{jagaimo-structure-towerparking-a}" />
+			</middle>
+			<bottom origin=" 0, 72" offset="8">
+				<picture ref="{jagaimo-structure-towerparking-a}" />
+			</bottom>
+		</pictures>
+		<pictures>
+			<top origin=" 0, 14" offset="2">
+				<picture ref="{jagaimo-structure-towerparking-a}" />
+			</top>
+			<middle origin=" 0, 40" offset="8">
+				<picture ref="{jagaimo-structure-towerparking-a}" />
+			</middle>
+			<bottom origin="32, 72" offset="8">
+				<picture ref="{jagaimo-structure-towerparking-a}" />
+			</bottom>
+		</pictures>
+		<pictures>
+			<top origin=" 0, 14" offset="2">
+				<picture ref="{jagaimo-structure-towerparking-a}" />
+			</top>
+			<middle origin=" 0, 40" offset="8">
+				<picture ref="{jagaimo-structure-towerparking-a}" />
+			</middle>
+			<bottom origin="64, 72" offset="8">
+				<picture ref="{jagaimo-structure-towerparking-a}" />
+			</bottom>
+		</pictures>
+
+	</contribution>
+	
+	<contribution type="GenericStructure" id="{jagaimo-structure-towerparking-a}-2">
+		
+		&towerparking;
+
+		<design>タイプB</design>
+		<structure>
+			<category byname="駐車場"/>
+		</structure>
+		<pictures>
+			<top origin=" 32, 14" offset="2">
+				<picture ref="{jagaimo-structure-towerparking-a}" />
+			</top>
+			<middle origin=" 0, 40" offset="8">
+				<picture ref="{jagaimo-structure-towerparking-a}" />
+			</middle>
+			<bottom origin=" 0, 72" offset="8">
+				<picture ref="{jagaimo-structure-towerparking-a}" />
+			</bottom>
+		</pictures>
+		<pictures>
+			<top origin=" 32, 14" offset="2">
+				<picture ref="{jagaimo-structure-towerparking-a}" />
+			</top>
+			<middle origin=" 0, 40" offset="8">
+				<picture ref="{jagaimo-structure-towerparking-a}" />
+			</middle>
+			<bottom origin="32, 72" offset="8">
+				<picture ref="{jagaimo-structure-towerparking-a}" />
+			</bottom>
+		</pictures>
+		<pictures>
+			<top origin=" 32, 14" offset="2">
+				<picture ref="{jagaimo-structure-towerparking-a}" />
+			</top>
+			<middle origin=" 0, 40" offset="8">
+				<picture ref="{jagaimo-structure-towerparking-a}" />
+			</middle>
+			<bottom origin="64, 72" offset="8">
+				<picture ref="{jagaimo-structure-towerparking-a}" />
+			</bottom>
+		</pictures>
+
+	</contribution>
+	
+	<contribution type="GenericStructure" id="{jagaimo-structure-towerparking-a}-3">
+		
+		&towerparking;
+
+		<design>タイプC</design>
+		<structure>
+			<category byname="駐車場"/>
+		</structure>
+		<pictures>
+			<top origin=" 64, 14" offset="2">
+				<picture ref="{jagaimo-structure-towerparking-a}" />
+			</top>
+			<middle origin=" 0, 40" offset="8">
+				<picture ref="{jagaimo-structure-towerparking-a}" />
+			</middle>
+			<bottom origin=" 0, 72" offset="8">
+				<picture ref="{jagaimo-structure-towerparking-a}" />
+			</bottom>
+		</pictures>
+		<pictures>
+			<top origin=" 64, 14" offset="2">
+				<picture ref="{jagaimo-structure-towerparking-a}" />
+			</top>
+			<middle origin=" 0, 40" offset="8">
+				<picture ref="{jagaimo-structure-towerparking-a}" />
+			</middle>
+			<bottom origin="32, 72" offset="8">
+				<picture ref="{jagaimo-structure-towerparking-a}" />
+			</bottom>
+		</pictures>
+		<pictures>
+			<top origin=" 64, 14" offset="2">
+				<picture ref="{jagaimo-structure-towerparking-a}" />
+			</top>
+			<middle origin=" 0, 40" offset="8">
+				<picture ref="{jagaimo-structure-towerparking-a}" />
+			</middle>
+			<bottom origin="64, 72" offset="8">
+				<picture ref="{jagaimo-structure-towerparking-a}" />
+			</bottom>
+		</pictures>
+
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{jagaimo-structure-towerparking-b}-1">
+			
+		<group>タワーパーキング</group>
+		<name>タワーパーキング</name>
+		<price>3500000</price>
+		<size>1,2</size>
+		<height>3</height>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>1</base>
+		</population>
+
+		<design>連結タイプ</design>
+		<structure>
+			<category byname="駐車場"/>
+		</structure>
+		<sprite origin="0,89" offset="37">
+			<picture ref="{jagaimo-structure-towerparking-b}" />
+		</sprite>
+
+	</contribution>
+
+</plug-in>

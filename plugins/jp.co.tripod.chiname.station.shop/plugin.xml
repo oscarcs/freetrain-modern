@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plug-in [
+	<!ENTITY StationShop '
+		<group>都市近郊の駅舎</group>
+		<price>3700000</price>
+		<height>1</height>
+		<operationCost>250000</operationCost>
+	'>
+	<!ENTITY Gray-Ivoly-Blown '
+		<spriteType name="hueTransform">
+			<map from="*,0,0" to="168,168,168"/>
+			<map from="0,*,0" to="240,240,192"/>
+			<map from="0,0,*" to="124, 80, 80"/>
+		</spriteType>
+	'>
+	<!ENTITY Gray-Cyan-White '
+		<spriteType name="hueTransform">
+			<map from="*,0,0" to="168,168,168"/>
+			<map from="0,*,0" to="176,200,220"/>
+			<map from="0,0,*" to="204,204,204"/>
+		</spriteType>
+	'>
+	<!ENTITY Blown-Pink-Gray '
+		<spriteType name="hueTransform">
+			<map from="*,0,0" to="144, 96, 96"/>
+			<map from="0,*,0" to="240,190,200"/>
+			<map from="0,0,*" to="168,168,168"/>
+		</spriteType>
+	'>
+	<!ENTITY Gray-White-SteelBlue '
+		<spriteType name="hueTransform">
+			<map from="*,0,0" to="108,108,108"/>
+			<map from="0,*,0" to="220,220,220"/>
+			<map from="0,0,*" to="108,188,238"/>
+		</spriteType>
+	'>
+	
+]>
+<plug-in>
+	<title>都市近郊の駅舎</title>
+	<author>C477@2両目</author>
+	<homepage>http://www.rocket.ne.jp/~nao/</homepage>
+
+	<contribution type="picture" id="{F90AB629-60A4-4E04-C477-E443434EB3B3}">
+		<picture src="station_shop.bmp">
+			<override when="night" src="station_shop_n.bmp"/>
+		</picture>
+	</contribution>
+	
+	<contribution type="station" id="{A6771F32-1657-4F51-C477-406C8F6B2B27}-0a">		
+		&StationShop;
+		<size>3,1</size>
+		<sprite origin=" 0,0" offset="32">
+			&Gray-Ivoly-Blown;
+			<picture ref="{F90AB629-60A4-4E04-C477-E443434EB3B3}" />
+		</sprite>
+	</contribution>
+	<contribution type="station" id="{A6771F32-1657-4F51-C477-406C8F6B2B27}-1a">
+		&StationShop;
+		<size>1,3</size>
+		<sprite origin="64,0" offset="16">
+			&Gray-Ivoly-Blown;
+			<picture ref="{F90AB629-60A4-4E04-C477-E443434EB3B3}" />
+		</sprite>
+	</contribution>
+	<contribution type="station" id="{A6771F32-1657-4F51-C477-406C8F6B2B27}-2a">
+		&StationShop;
+		<size>3,1</size>
+		<sprite origin="0,48" offset="32">
+			&Gray-Ivoly-Blown;
+			<picture ref="{F90AB629-60A4-4E04-C477-E443434EB3B3}" />
+		</sprite>
+	</contribution>
+	<contribution type="station" id="{A6771F32-1657-4F51-C477-406C8F6B2B27}-3a">
+		&StationShop;
+		<size>1,3</size>
+		<sprite origin="64,48" offset="16">
+			&Gray-Ivoly-Blown;
+			<picture ref="{F90AB629-60A4-4E04-C477-E443434EB3B3}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="station" id="{A6771F32-1657-4F51-C477-406C8F6B2B27}-0b">		
+		&StationShop;
+		<size>3,1</size>
+		<sprite origin=" 0,0" offset="32">
+			&Gray-Cyan-White;
+			<picture ref="{F90AB629-60A4-4E04-C477-E443434EB3B3}" />
+		</sprite>
+	</contribution>
+	<contribution type="station" id="{A6771F32-1657-4F51-C477-406C8F6B2B27}-1b">
+		&StationShop;
+		<size>1,3</size>
+		<sprite origin="64,0" offset="16">
+			&Gray-Cyan-White;
+			<picture ref="{F90AB629-60A4-4E04-C477-E443434EB3B3}" />
+		</sprite>
+	</contribution>
+	<contribution type="station" id="{A6771F32-1657-4F51-C477-406C8F6B2B27}-2b">
+		&StationShop;
+		<size>3,1</size>
+		<sprite origin="0,48" offset="32">
+			&Gray-Cyan-White;
+			<picture ref="{F90AB629-60A4-4E04-C477-E443434EB3B3}" />
+		</sprite>
+	</contribution>
+	<contribution type="station" id="{A6771F32-1657-4F51-C477-406C8F6B2B27}-3b">
+		&StationShop;
+		<size>1,3</size>
+		<sprite origin="64,48" offset="16">
+			&Gray-Cyan-White;
+			<picture ref="{F90AB629-60A4-4E04-C477-E443434EB3B3}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="station" id="{A6771F32-1657-4F51-C477-406C8F6B2B27}-0c">		
+		&StationShop;
+		<size>3,1</size>
+		<sprite origin=" 0,0" offset="32">
+			&Blown-Pink-Gray;
+			<picture ref="{F90AB629-60A4-4E04-C477-E443434EB3B3}" />
+		</sprite>
+	</contribution>
+	<contribution type="station" id="{A6771F32-1657-4F51-C477-406C8F6B2B27}-1c">
+		&StationShop;
+		<size>1,3</size>
+		<sprite origin="64,0" offset="16">
+			&Blown-Pink-Gray;
+			<picture ref="{F90AB629-60A4-4E04-C477-E443434EB3B3}" />
+		</sprite>
+	</contribution>
+	<contribution type="station" id="{A6771F32-1657-4F51-C477-406C8F6B2B27}-2c">
+		&StationShop;
+		<size>3,1</size>
+		<sprite origin="0,48" offset="32">
+			&Blown-Pink-Gray;
+			<picture ref="{F90AB629-60A4-4E04-C477-E443434EB3B3}" />
+		</sprite>
+	</contribution>
+	<contribution type="station" id="{A6771F32-1657-4F51-C477-406C8F6B2B27}-3c">
+		&StationShop;
+		<size>1,3</size>
+		<sprite origin="64,48" offset="16">
+			&Blown-Pink-Gray;
+			<picture ref="{F90AB629-60A4-4E04-C477-E443434EB3B3}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="station" id="{A6771F32-1657-4F51-C477-406C8F6B2B27}-0d">		
+		&StationShop;
+		<size>3,1</size>
+		<sprite origin=" 0,0" offset="32">
+			&Gray-White-SteelBlue;
+			<picture ref="{F90AB629-60A4-4E04-C477-E443434EB3B3}" />
+		</sprite>
+	</contribution>
+	<contribution type="station" id="{A6771F32-1657-4F51-C477-406C8F6B2B27}-1d">
+		&StationShop;
+		<size>1,3</size>
+		<sprite origin="64,0" offset="16">
+			&Gray-White-SteelBlue;
+			<picture ref="{F90AB629-60A4-4E04-C477-E443434EB3B3}" />
+		</sprite>
+	</contribution>
+	<contribution type="station" id="{A6771F32-1657-4F51-C477-406C8F6B2B27}-2d">
+		&StationShop;
+		<size>3,1</size>
+		<sprite origin="0,48" offset="32">
+			&Gray-White-SteelBlue;
+			<picture ref="{F90AB629-60A4-4E04-C477-E443434EB3B3}" />
+		</sprite>
+	</contribution>
+	<contribution type="station" id="{A6771F32-1657-4F51-C477-406C8F6B2B27}-3d">
+		&StationShop;
+		<size>1,3</size>
+		<sprite origin="64,48" offset="16">
+			&Gray-White-SteelBlue;
+			<picture ref="{F90AB629-60A4-4E04-C477-E443434EB3B3}" />
+		</sprite>
+	</contribution>
+
+</plug-in>

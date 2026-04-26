@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+
+<plug-in>
+	<title>建物セット</title>
+	<author>烈火</author>
+	<homepage></homepage>
+
+	<contribution type="picture" id="{rk-tateya-tutaya008-cg-001}">
+		<picture src="ongaku01a.bmp">
+			<override when="night" src="ongaku01b.bmp"/>
+		</picture>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{rk-tateya-tutaya008-001}">
+		<name>音楽ホール</name>
+		<price>36000000</price>
+		<size>3,2</size>
+		<height>2</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>200</base>
+		</population>
+		<design>音楽ホール</design>
+		<structure>
+			<category  byname="イベント会場"/>
+		</structure>
+		<sprite origin="0,0" offset="29">
+			<picture ref="{rk-tateya-tutaya008-cg-001}"/>
+		</sprite>
+		<sprite origin="80,0" offset="21" opposite="true">
+			<picture ref="{rk-tateya-tutaya008-cg-001}"/>
+		</sprite>
+	</contribution>
+
+</plug-in>

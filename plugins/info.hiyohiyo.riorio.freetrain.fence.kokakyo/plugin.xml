@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+
+<plug-in>
+	<title>柵type高架橋壁</title>
+	<author>riorio</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain</homepage>	
+		
+
+	<contribution type="picture" id="{picture-riorio-fence-000A-823a45c65d3}">
+		<picture src="kokakyo-fenceA.bmp" >
+		</picture>
+	</contribution>
+	<contribution type="picture" id="{picture-riorio-fence-000B-as2d5d43c6a}">
+		<picture src="kokakyo-fenceB.bmp" >
+		</picture>
+	</contribution>
+		
+	<contribution type="land" id="{landfence-riorio-kokakyo-0001-a3c212b354}">
+		<group>高架橋壁</group>
+		<name>柵</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{picture-riorio-fence-000A-823a45c65d3}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>100000</price>
+	</contribution>
+
+	<contribution type="land" id="{landfence-riorio-kokakyo-0002-45c321a321b}">
+		<group>高架橋壁</group>
+		<name>柵 新</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{picture-riorio-fence-000B-as2d5d43c6a}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>100000</price>
+	</contribution>
+
+
+</plug-in>

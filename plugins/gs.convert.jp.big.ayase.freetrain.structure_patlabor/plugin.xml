@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>建物総合コンバート　綾瀬ヒロ</title>
+	<author>りおりお</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+	<depend on="jp.big.ayase.freetrain.structure_patlabor" />
+
+	<contribution type="GenericStructure" id="{FreeTrain-AYASE-Hiro-StructureImpl-Patlabor01a}-gs">
+		<group>特車２課棟</group>
+		<price>3000000</price>
+		<size>3,3</size>
+		<height>2</height>
+		<structure>
+			<category byname="警察署" />
+		</structure>
+		<sprite origin="0,0" offset="32">
+			<picture ref="{FreeTrain-AYASE-Hiro-StructureImg-Patlabor01}"/>
+		</sprite>
+		<sprite origin="96,0" offset="32">
+			<picture ref="{FreeTrain-AYASE-Hiro-StructureImg-Patlabor01}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+</plug-in>

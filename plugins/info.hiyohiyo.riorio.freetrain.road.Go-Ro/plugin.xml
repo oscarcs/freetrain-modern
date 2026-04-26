@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>道路（haruさん作色かえ）</title>
+	<author>りおりお</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+
+	<contribution type="road" id="{riorio-GoRo-road-8638-4C37CCCEFA41}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<style name="railballast" />
+		<name>高架橋桁/コンクリート</name>
+		<description>高架橋桁（コンクリート）</description>
+		<picture src="road_003.bmp" size="32,32" offset="16" />
+	</contribution>
+
+</plug-in>

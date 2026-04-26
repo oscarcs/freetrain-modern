@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<depend on="FreeTrain.structure.piugin.2.shino" />
+	<title>建物総合コンバート　しの</title>
+	<author>りおりお</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+
+	<contribution type="picture" id="{AE49208E-BEB2-4319-8477-F20E0BF1F1BB}-pict">
+		<picture src="../FreeTrain.structure.piugin.2.shino/koujyou1.bmp" />
+	</contribution>
+
+	<contribution type="GenericStructure" id="{AE49208E-BEB2-4319-8477-F20E0BF1F1BB}-gs">
+		<group>工場(大)</group>
+		<price>58000000</price>
+		<size>5,8</size>
+		<height>2</height>
+		<sprite origin="0,0" offset="37">
+		<picture ref="{AE49208E-BEB2-4319-8477-F20E0BF1F1BB}-pict" />
+		</sprite>
+		<structure>
+			<category byname="工場" />
+		</structure>
+	        <computerCannotBuild />
+        </contribution>
+</plug-in>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>三田線 6300形</title>
+	<homepage></homepage>
+	<author>Noz</author>
+
+
+<!-- 都営三田線 -->
+
+
+	<!-- 6300形 先頭車 -->
+	<contribution type="trainCar" id="{F672416D-1560-4E1D-BEF7-22747D6EB483}-h">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+		<picture src="toei6300_a.bmp" />
+		</sprite>
+		<capacity>136</capacity>
+  		<seatedcapacity>49</seatedcapacity>
+	</contribution>
+	<!--　6300形 先頭車 後尾車 -->
+	<contribution type="trainCar" id="{F672416D-1560-4E1D-BEF7-22747D6EB483}-t">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{F672416D-1560-4E1D-BEF7-22747D6EB483}-h"/>
+	</contribution>
+	<!-- 6300形 中間車 --> 
+	<contribution type="trainCar" id="{F672416D-1560-4E1D-BEF7-22747D6EB483}-m">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+		<sprite origin="0,0">
+			<picture src="toei6300_b.bmp"/>
+		</sprite>
+		<capacity>147</capacity> 
+  		<seatedcapacity>55</seatedcapacity>
+	</contribution>
+	<!-- 6300形 パンタ中間車 --> 
+	<contribution type="trainCar" id="{F672416D-1560-4E1D-BEF7-22747D6EB483}-p">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+		<sprite origin="0,0">
+			<picture src="toei6300_p.bmp"/>
+		</sprite>
+		<capacity>147</capacity> 
+  		<seatedcapacity>55</seatedcapacity>
+	</contribution>
+
+
+	<contribution type="train" id="{1D0D0131-DD35-4FE5-9F7E-9CBDA44CE22F}">
+		<company>東京都交通局</company>
+		<type>6300形</type>
+		<name>三田線</name>
+		<author>Noz</author>
+		<description>1993年に6000形を置き換える事目的に登場した車両。6両編成のみです。</description>
+		<fare>400</fare>
+		<price>28000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="a" ref="{F672416D-1560-4E1D-BEF7-22747D6EB483}-h"/>
+			<car char="b" ref="{F672416D-1560-4E1D-BEF7-22747D6EB483}-m"/>
+			<car char="c" ref="{F672416D-1560-4E1D-BEF7-22747D6EB483}-p"/>
+			<car char="d" ref="{F672416D-1560-4E1D-BEF7-22747D6EB483}-t"/>
+			<composition>acbbcd</composition>
+		</config>
+	</contribution>
+
+
+
+
+</plug-in>

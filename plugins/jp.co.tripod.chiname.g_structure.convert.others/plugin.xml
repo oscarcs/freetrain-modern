@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>建物セット</title>
+	<author>その他の名無しさん</author>
+	<homepage>http://www.kohsuke.org/freetrain/</homepage>
+	<depend on="org.kohsuke.freetrain.structure.others"/>
+	
+	<contribution type="GenericStructure" id="{B83A15E9-9284-4569-A1BF-266DF9B1560A}-gs">
+		<name>弁当屋</name>
+		<design>ほっかほっか亭</design>
+		<structure>
+			<category byname="ファーストフード"/>
+		</structure>
+		<price>2100000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{B83A15E9-9284-4569-A1BF-266DF9B1560A}" />
+		</sprite>
+	</contribution>
+	
+	
+	<contribution type="GenericStructure" id="{8CE18936-7C28-4a91-8B40-9CCED1F48968}-gs">
+		<name>マンション(4x2)</name>
+		<design>高級マンション</design>
+		<structure>
+			<category byname="分譲マンション"/>
+		</structure>
+		<price>400000000</price>
+		<size>4,2</size>
+		<height>3</height>
+		<sprite origin="0,0" offset="54">
+			<picture ref="{8CE18936-7C28-4a91-8B40-9CCED1F48968}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.ResidentialPopulation"/>
+			<base>220</base>
+		</population>
+	</contribution>
+</plug-in>

@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>建物総合コンバート　ては</title>
+	<author>りおりお</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+	<depend on="org.kohsuke.freetrain.structure.teha" />
+
+
+	<contribution type="picture" id="{riorio-gs-convert-teha-picture-ferry1}">
+		<picture src="../org.kohsuke.freetrain.structure.teha/ferry1.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-teha-picture-ferry1r}">
+		<picture src="../org.kohsuke.freetrain.structure.teha/ferry1r.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-teha-picture-kamotsu1}">
+		<picture src="../org.kohsuke.freetrain.structure.teha/kamotsu1.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-teha-picture-renraku}">
+		<picture src="../org.kohsuke.freetrain.structure.teha/renraku.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-teha-picture-renrakur}">
+		<picture src="../org.kohsuke.freetrain.structure.teha/renrakur.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-teha-picture-apart}">
+		<picture src="../org.kohsuke.freetrain.structure.teha/apart.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-teha-picture-plant1}">
+		<picture src="../org.kohsuke.freetrain.structure.teha/plant1.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-teha-picture-plant2}">
+		<picture src="../org.kohsuke.freetrain.structure.teha/plant2.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-teha-picture-sinumeda}">
+		<picture src="../org.kohsuke.freetrain.structure.teha/sinumeda.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-teha-picture-osakatower}">
+		<picture src="../org.kohsuke.freetrain.structure.teha/osakatower.bmp" >
+			<override when="night" src="../org.kohsuke.freetrain.structure.teha/osakatower_n.bmp"/>
+		</picture>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-teha-picture-gakko}">
+		<picture src="../org.kohsuke.freetrain.structure.teha/gakko.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-teha-picture-zaku}">
+		<picture src="../org.kohsuke.freetrain.structure.teha/zaku.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-teha-picture-supermarket}">
+		<picture src="../org.kohsuke.freetrain.structure.teha/supermarket.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-teha-picture-water3}">
+		<picture src="../org.kohsuke.freetrain.structure.teha/water3.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-teha-picture-water3r}">
+		<picture src="../org.kohsuke.freetrain.structure.teha/water3r.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-teha-picture-taki}">
+		<picture src="../org.kohsuke.freetrain.structure.teha/taki.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-teha-picture-dam1}">
+		<picture src="../org.kohsuke.freetrain.structure.teha/dam1.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-teha-picture-gaddem}">
+		<picture src="../org.kohsuke.freetrain.structure.teha/gaddem.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-teha-picture-pyramid}">
+		<picture src="../org.kohsuke.freetrain.structure.teha/pyramid.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-teha-picture-kousakusen}">
+		<picture src="../org.kohsuke.freetrain.structure.teha/kousakusen.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-teha-picture-jyunsi1}">
+		<picture src="../org.kohsuke.freetrain.structure.teha/jyunsi1.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-teha-picture-ferryterminal1}">
+		<picture src="../org.kohsuke.freetrain.structure.teha/ferryterminal1.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-teha-picture-sunflower1}">
+		<picture src="../org.kohsuke.freetrain.structure.teha/sunflower1.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-teha-picture-ferry2}">
+		<picture src="../org.kohsuke.freetrain.structure.teha/ferry2.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-teha-picture-water1}">
+		<picture src="../org.kohsuke.freetrain.structure.teha/water1.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-teha-picture-sizuoka1}">
+		<picture src="../org.kohsuke.freetrain.structure.teha/sizuoka1.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-teha-picture-nakagin1}">
+		<picture src="../org.kohsuke.freetrain.structure.teha/nakagin1.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-teha-picture-sonytower}">
+		<picture src="../org.kohsuke.freetrain.structure.teha/sonytower.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-teha-picture-actyosaka}">
+		<picture src="../org.kohsuke.freetrain.structure.teha/actyosaka.bmp" />
+	</contribution>
+
+
+	
+	<contribution type="GenericStructure" id="{B7330314-2AB8-48CB-842A-083088D1E239}-gs">
+		<group>カーフェリー(近海用)</group>
+		<price>50000000</price>
+		<size>2,1</size>
+		<height>1</height>
+		<structure>
+			<category byname="船舶関連施設" />
+		</structure>
+		<sprite origin="0,0" offset="22">
+		<picture ref="{riorio-gs-convert-teha-picture-ferry1}" />
+		</sprite>
+		<sprite origin="0,0" offset="14" opposite="true">
+		<picture ref="{riorio-gs-convert-teha-picture-ferry1r}" />
+		</sprite>
+		<computerCannotBuild />
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{E1346B3F-4B69-4831-9433-5B82F3C83324}-gs">
+		<name>貨物船</name>
+		<price>50000000</price>
+		<size>4,1</size>
+		<height>1</height>
+		<structure>
+			<category byname="船舶関連施設" />
+		</structure>
+		<sprite origin="0,0" offset="38">
+		<picture ref="{riorio-gs-convert-teha-picture-kamotsu1}" />
+		</sprite>
+		<computerCannotBuild />
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{B14C68C1-22CC-4BD1-B5B9-0429106E1B01}-gs">
+		<group>宇高連絡船</group>
+		<price>50000000</price>
+		<size>4,1</size>
+		<height>1</height>
+		<structure>
+			<category byname="船舶関連施設" />
+		</structure>
+		<sprite origin="0,0" offset="38">
+		<picture ref="{riorio-gs-convert-teha-picture-renraku}" />
+		</sprite>
+		<sprite origin="0,0" offset="39">
+		<picture ref="{riorio-gs-convert-teha-picture-renrakur}" />
+		</sprite>
+		<computerCannotBuild />
+	</contribution>
+
+	<contribution type="GenericStructure" id="{13C1C973-27E8-40B3-AE37-139F39D68B89}-gs">
+		<name>アパート</name>
+		<price>50000000</price>
+		<size>1,2</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="18">
+		<picture ref="{riorio-gs-convert-teha-picture-apart}" />
+		</sprite>
+		<structure>
+			<category byname="賃貸アパート" />
+		</structure>
+		<population>
+			<class name="freetrain.contributions.population.ResidentialPopulation"/>
+			<base>50</base>
+		</population>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{DFE65244-99FE-48B4-A8A7-C3AE17178798}-gs">
+		<group>工場</group>
+		<price>50000000</price>
+		<size>2,2</size>
+		<height>1</height>
+		<structure>
+			<category byname="軽工業工場" />
+		</structure>
+		<sprite origin="0,0" offset="26">
+		<picture ref="{riorio-gs-convert-teha-picture-plant1}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{2679B42F-D747-488A-B327-6CF0CD2577DC}-gs">
+		<group>工場</group>
+		<price>50000000</price>
+		<size>2,2</size>
+		<height>1</height>
+		<structure>
+			<category byname="軽工業工場" />
+		</structure>
+		<sprite origin="0,0" offset="26">
+		<picture ref="{riorio-gs-convert-teha-picture-plant2}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{E24C700F-40D3-4397-B4B3-6C9C98ECA774}-gs">
+		<name>梅田スカイビル</name>
+		<price>50000000</price>
+		<size>5,5</size>
+		<height>10</height>
+		<structure>
+			<category byname="貸事務所" />
+			<category byname="店舗" hide="true"/>
+			<category byname="一般飲食店" hide="true"/>
+		</structure>
+		<sprite origin="0,0" offset="184">
+		<picture ref="{riorio-gs-convert-teha-picture-sinumeda}" />
+		</sprite>
+		<computerCannotBuild />
+	</contribution>
+
+	<contribution type="GenericStructure" id="{619F301B-EB53-4FA9-8B69-6A80E9C3DD42}-gs">
+		<name>大阪タワー</name>
+		<price>50000000</price>
+		<size>1,1</size>
+		<height>5</height>
+		<structure>
+			<category byname="ランドマーク" />
+		</structure>
+		<sprite origin="0,0" offset="82">
+		<picture ref="{riorio-gs-convert-teha-picture-osakatower}">
+		</picture>
+		</sprite>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{5FF50C0C-BECF-4AFD-AA82-EEBE3D609BA8}-gs">
+		<name>学校</name>
+		<price>50000000</price>
+		<size>5,3</size>
+		<height>1</height>
+		<structure>
+			<category byname="公立小中学校" />
+		</structure>
+		<sprite origin="0,0" offset="46">
+		<picture ref="{riorio-gs-convert-teha-picture-gakko}" />
+		</sprite>
+   		<population>
+       		<class name="freetrain.contributions.population.SchoolPopulation"/>
+       		<base>200</base>
+   		</population>
+		<computerCannotBuild />
+	</contribution>
+
+	<contribution type="GenericStructure" id="{F5B4222A-3EA0-4F98-BECD-1F32B5E64932}-gs">
+		<name>シャア専用ザク</name>
+		<price>50000000</price>
+		<size>2,1</size>
+		<height>1</height>
+		<structure>
+			<category byname="軍事施設" />
+		</structure>
+		<sprite origin="0,0" offset="32">
+		<picture ref="{riorio-gs-convert-teha-picture-zaku}" />
+		</sprite>
+		<computerCannotBuild />
+	</contribution>
+
+	<contribution type="GenericStructure" id="{2EAF3250-AA84-4B86-9F79-02D2A3DD931E}-gs">
+		<name>ショッピングセンター</name>
+		<price>50000000</price>
+		<size>3,4</size>
+		<height>2</height>
+		<structure>
+			<category byname="ショッピングモール" />
+			<category byname="ファーストフード" hide="true" />
+		</structure>
+		<sprite origin="0,0" offset="50">
+		<picture ref="{riorio-gs-convert-teha-picture-supermarket}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{1A87615B-4B76-443F-8417-728D6BF0361A}-gs">
+		<name>ダム湖</name>
+		<price>50000000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<structure>
+			<category byname="治水防波設備" />
+		</structure>
+		<sprite origin="0,0" offset="30">
+		<picture ref="{riorio-gs-convert-teha-picture-water3}" />
+		</sprite>
+		<computerCannotBuild />
+	</contribution>
+
+	<contribution type="GenericStructure" id="{7D039D58-B250-4A93-AE83-DD81BA77B757}-gs">
+		<name>水(レベル3)</name>
+		<price>50000000</price>
+		<size>1,1</size>
+		<height>3</height>
+		<structure>
+			<category byname="河川" />
+		</structure>
+		<sprite origin="0,0" offset="48">
+		<picture ref="{riorio-gs-convert-teha-picture-water3r}" />
+		</sprite>
+		<computerCannotBuild />
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{CC6A8B66-BE28-4863-B5E5-18F238938B00}-gs">
+		<name>滝</name>
+		<price>50000000</price>
+		<size>2,1</size>
+		<height>3</height>
+		<structure>
+			<category byname="河川" />
+			<category byname="景勝地" />
+		</structure>
+		<sprite origin="0,0" offset="56">
+		<picture ref="{riorio-gs-convert-teha-picture-taki}" />
+		</sprite>
+		<computerCannotBuild />
+	</contribution>
+
+	<contribution type="GenericStructure" id="{7225141D-052F-4642-A084-8583DFE3484F}-gs">
+		<name>ダム</name>
+		<price>50000000</price>
+		<size>2,3</size>
+		<height>2</height>
+		<structure>
+			<category byname="治水防波設備" />
+		</structure>
+		<sprite origin="0,0" offset="39">
+		<picture ref="{riorio-gs-convert-teha-picture-dam1}" />
+		</sprite>
+		<computerCannotBuild />
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{FBDDC8DC-8E9D-422B-AD97-B7E9157D3D62}-gs">
+		<name>魔城ガッデム</name>
+		<price>50000000</price>
+		<size>2,2</size>
+		<height>2</height>
+		<structure>
+			<category byname="遊園地" />
+			<category byname="ランドマーク" />
+		</structure>
+		<sprite origin="0,0" offset="40">
+		<picture ref="{riorio-gs-convert-teha-picture-gaddem}" />
+		</sprite>
+		<computerCannotBuild />
+	</contribution>
+
+	<contribution type="GenericStructure" id="{6323EA1B-3D1E-4E7D-BEB9-1D6E6ED2E1A1}-gs">
+		<name>運命の塔</name>
+		<price>50000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<structure>
+			<category byname="史跡" />
+			<category byname="ランドマーク" />
+		</structure>
+		<sprite origin="0,0" offset="6">
+		<picture ref="{riorio-gs-convert-teha-picture-pyramid}" />
+		</sprite>
+		<computerCannotBuild />
+	</contribution>
+
+	<contribution type="GenericStructure" id="{A9823026-15C6-4836-905D-9DFE38E119A1}-gs">
+		<name>工作船</name>
+		<price>50000000</price>
+		<size>2,1</size>
+		<height>1</height>
+		<structure>
+			<category byname="船舶関連施設" />
+		</structure>
+		<sprite origin="0,0" offset="12">
+		<picture ref="{riorio-gs-convert-teha-picture-kousakusen}" />
+		</sprite>
+		<computerCannotBuild />
+	</contribution>
+
+	<contribution type="GenericStructure" id="{F752307B-C840-4162-9307-316389B29CF8}-gs">
+		<name>巡視船</name>
+		<price>50000000</price>
+		<size>3,1</size>
+		<height>1</height>
+		<structure>
+			<category byname="船舶関連施設" />
+		</structure>
+		<sprite origin="0,0" offset="18">
+		<picture ref="{riorio-gs-convert-teha-picture-jyunsi1}" />
+		</sprite>
+		<computerCannotBuild />
+	</contribution>
+
+	<contribution type="GenericStructure" id="{189F360B-CC55-4ACA-B406-1DD689F9D2E6}-gs">
+		<name>フェリーターミナル</name>
+		<price>50000000</price>
+		<size>3,2</size>
+		<height>1</height>
+		<structure>
+			<category byname="旅客埠頭" />
+		</structure>
+		<sprite origin="0,0" offset="15">
+		<picture ref="{riorio-gs-convert-teha-picture-ferryterminal1}" />
+		</sprite>
+		<computerCannotBuild />
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{947753DE-3568-440D-9D66-02D405001C32}-0gs">
+		<group>岸壁</group>
+		<price>50000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<structure>
+			<category byname="その他港湾設備" />
+		</structure>
+		<sprite origin="0,0" offset="0">
+		<picture ref="{4C272624-9CE6-4210-BB72-58B2D4046E15}"/>
+		</sprite>
+		<sprite origin="32,0" offset="0">
+		<picture ref="{4C272624-9CE6-4210-BB72-58B2D4046E15}"/>
+		</sprite>
+		<sprite origin="64,0" offset="0">
+		<picture ref="{4C272624-9CE6-4210-BB72-58B2D4046E15}"/>
+		</sprite>
+		<sprite origin="96,0" offset="0">
+		<picture ref="{4C272624-9CE6-4210-BB72-58B2D4046E15}"/>
+		</sprite>
+		<computerCannotBuild />
+	</contribution>
+
+	<contribution type="GenericStructure" id="{947753DE-3568-440D-9D66-02D405001C32}-4gs">
+		<group>岸壁</group>
+		<price>50000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<structure>
+			<category byname="その他港湾設備" />
+		</structure>
+		<sprite origin="128,0" offset="0">
+		<picture ref="{4C272624-9CE6-4210-BB72-58B2D4046E15}"/>
+		</sprite>
+		<computerCannotBuild />
+	</contribution>
+
+	<contribution type="GenericStructure" id="{53134BEE-9DE4-4660-9966-01764EC731D0}-gs">
+		<name>さんふらわあ</name>
+		<price>50000000</price>
+		<size>1,5</size>
+		<height>1</height>
+		<structure>
+			<category byname="船舶関連施設" />
+		</structure>
+		<sprite origin="0,0" offset="-1">
+		<picture ref="{riorio-gs-convert-teha-picture-sunflower1}" />
+		</sprite>
+		<computerCannotBuild />
+	</contribution>
+
+	<contribution type="GenericStructure" id="{61CD8A5D-6A2D-4EC6-A1AA-99319C83EC2E}-gs">
+		<name>カーフェリー(遠洋)</name>
+		<price>50000000</price>
+		<size>1,5</size>
+		<height>1</height>
+		<structure>
+			<category byname="船舶関連施設" />
+		</structure>
+		<sprite origin="0,0" offset="1">
+		<picture ref="{riorio-gs-convert-teha-picture-ferry2}" />
+		</sprite>
+		<computerCannotBuild />
+	</contribution>
+
+	<contribution type="GenericStructure" id="{C4A9FCAA-2754-409B-ABE3-573EF5DE92E6}-gs">
+		<name>水(レベル1)</name>
+		<price>50000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<structure>
+			<category byname="河川" />
+		</structure>
+		<sprite origin="0,0" offset="0">
+		<picture ref="{riorio-gs-convert-teha-picture-water1}" />
+		</sprite>
+		<computerCannotBuild />
+	</contribution>
+
+	<contribution type="GenericStructure" id="{DFBD51DE-E6D1-4CE0-BD2F-5C0E1CBC61FE}-gs">
+		<name>静岡放送東京支社</name>
+		<price>50000000</price>
+		<size>2,1</size>
+		<height>4</height>
+		<structure>
+			<category byname="ランドマーク" />
+			<category byname="放送メディア" />
+		</structure>
+		<sprite origin="0,0" offset="72">
+		<picture ref="{riorio-gs-convert-teha-picture-sizuoka1}" />
+		</sprite>
+		<computerCannotBuild />
+	</contribution>
+
+	<contribution type="GenericStructure" id="{F34E2C0D-9ECE-4590-A25A-3203BA9184C8}-gs">
+		<name>中銀カプセルタワービル</name>
+		<price>50000000</price>
+		<size>1,2</size>
+		<height>3</height>
+		<structure>
+			<category byname="銀行" />
+			<category byname="貸事務所" hide="true"/>
+		</structure>
+		<sprite origin="0,0" offset="40">
+		<picture ref="{riorio-gs-convert-teha-picture-nakagin1}" />
+		</sprite>
+		<computerCannotBuild />
+	</contribution>
+
+	<contribution type="GenericStructure" id="{5C13B5F3-7CDF-44A4-9C59-3D359E4DB6FE}-gs">
+		<name>ソニータワー</name>
+		<price>50000000</price>
+		<size>1,2</size>
+		<height>4</height>
+		<structure>
+			<category byname="企業事務所" />
+		</structure>
+		<sprite origin="0,0" offset="62">
+		<picture ref="{riorio-gs-convert-teha-picture-sonytower}" />
+		</sprite>
+		<computerCannotBuild />
+	</contribution>
+
+	<contribution type="GenericStructure" id="{54A932D2-12BE-44BF-8E63-B517E93354F8}-gs">
+		<name>アクティ大阪</name>
+		<price>50000000</price>
+		<size>4,2</size>
+		<height>8</height>
+		<structure>
+			<category byname="店舗" hide="true"/>
+			<category byname="貸事務所" />
+			<category byname="一般飲食店" hide="true"/>
+			<category byname="ビジネスホテル" />
+		</structure>
+		<sprite origin="0,0" offset="136">
+		<picture ref="{riorio-gs-convert-teha-picture-actyosaka}" />
+		</sprite>
+		<computerCannotBuild />
+	</contribution>
+</plug-in>

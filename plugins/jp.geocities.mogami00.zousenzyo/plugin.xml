@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+ <plug-in>
+  <title>造船所</title> 
+  <author>モガミ</author> 
+  <homepage>http://www.geocities.jp/mogami00/Kamikazekensetu.html</homepage> 
+ <contribution type="picture" id="{0FD0AE8B-75FE-4847-9828-31747A7F4EBB}">
+  <picture src="zousenzyo.bmp" /> 
+  </contribution>
+ <contribution type="picture" id="{0FD0AE8B-75FE-4847-9828-31747A7F4EBB}-1">
+  <picture src="zousenzyo1.bmp" /> 
+  </contribution>
+ <contribution type="GenericStructure" id="{B605E561-5E47-4FCE-8F0C-17DA82C3470C}">
+  <group>造船所</group> 
+ <structure>
+  <category byname="船舶関連施設" /> 
+  </structure>
+  <size>6,4</size> 
+  <price>100000000</price> 
+  <computerCannotBuild /> 
+  <height>3</height> 
+ <sprite origin="0,0" offset="194">
+  <picture ref="{0FD0AE8B-75FE-4847-9828-31747A7F4EBB}" /> 
+  </sprite>
+  </contribution>
+ <contribution type="GenericStructure" id="{B605E561-5E47-4FCE-8F0C-17DA82C3470C}-2">
+  <group>造船所2</group> 
+ <structure>
+  <category byname="船舶関連施設" /> 
+  </structure>
+  <size>6,4</size> 
+  <price>100000000</price> 
+  <computerCannotBuild /> 
+  <height>3</height> 
+ <sprite origin="0,0" offset="194">
+  <picture ref="{0FD0AE8B-75FE-4847-9828-31747A7F4EBB}-1" /> 
+  </sprite>
+  </contribution>
+  </plug-in>

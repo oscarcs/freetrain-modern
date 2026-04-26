@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+ <plug-in>
+ <title>ホテル01</title> 
+ <author>モガミ</author> 
+ <homepage>http://www.geocities.jp/mogami00/Kamikazekensetu.html</homepage> 
+ <contribution type="picture" id="{mogami-building-hotel01-picture-B8B9B3B1D2D8}">
+ <picture src="hotel01.bmp">
+ <override when="night" src="hotel01n.bmp" /> 
+ </picture>
+ </contribution>
+ <contribution type="GenericStructure" id="{mogami-building-hotel01-C51CA251FBZ9}">
+ <group>ビジネスホテル（3x3）</group> 
+ <structure>
+ <category byname="ビジネスホテル" /> 
+ </structure>
+ <price>180000000</price> 
+ <size>3,3</size> 
+ <minHeight>2</minHeight> 
+ <maxHeight>11</maxHeight> 
+ <computerCannotBuild /> 
+ <population>
+ <class name="freetrain.contributions.population.OfficePopulation" /> 
+ <base>130</base> 
+ </population>
+ <pictures>
+ <top origin="0,0" offset="38">
+ <picture ref="{mogami-building-hotel01-picture-B8B9B3B1D2D8}" /> 
+ </top>
+ <middle origin="0,97" offset="32">
+ <picture ref="{mogami-building-hotel01-picture-B8B9B3B1D2D8}" /> 
+ </middle>
+ <bottom origin="0,168" offset="40">
+ <picture ref="{mogami-building-hotel01-picture-B8B9B3B1D2D8}" /> 
+ </bottom>
+ </pictures>
+ <pictures opposite="true">
+ <top origin="96,0" offset="38">
+ <picture ref="{mogami-building-hotel01-picture-B8B9B3B1D2D8}" /> 
+ </top>
+ <middle origin="96,97" offset="32">
+ <picture ref="{mogami-building-hotel01-picture-B8B9B3B1D2D8}" /> 
+ </middle>
+ <bottom origin="96,168" offset="40">
+ <picture ref="{mogami-building-hotel01-picture-B8B9B3B1D2D8}" /> 
+ </bottom>
+ </pictures>
+ <pictures>
+ <top origin="192,0" offset="38">
+ <picture ref="{mogami-building-hotel01-picture-B8B9B3B1D2D8}" /> 
+ </top>
+ <middle origin="192,97" offset="32">
+ <picture ref="{mogami-building-hotel01-picture-B8B9B3B1D2D8}" /> 
+ </middle>
+ <bottom origin="192,168" offset="40">
+ <picture ref="{mogami-building-hotel01-picture-B8B9B3B1D2D8}" /> 
+ </bottom>
+ </pictures>
+ <pictures opposite="true">
+ <top origin="288,0" offset="38">
+ <picture ref="{mogami-building-hotel01-picture-B8B9B3B1D2D8}" /> 
+ </top>
+ <middle origin="288,97" offset="32">
+ <picture ref="{mogami-building-hotel01-picture-B8B9B3B1D2D8}" /> 
+ </middle>
+ <bottom origin="288,168" offset="40">
+ <picture ref="{mogami-building-hotel01-picture-B8B9B3B1D2D8}" /> 
+ </bottom>
+ </pictures>
+ </contribution>
+ </plug-in>

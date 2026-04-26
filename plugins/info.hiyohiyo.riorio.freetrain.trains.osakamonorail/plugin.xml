@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+  <title>モノレールせっと</title>
+  <author>りおりお</author>
+  <homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+
+
+
+  <!-- 大阪高速鉄道2000系 先頭車-->
+  <contribution type="trainCar" id="{riorio-osakakosokumonorail-2000-011-A961F78D351A}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="osakakosoku2000a.bmp" />
+    </sprite>
+    <capacity>98</capacity>
+    <seatedcapacity>36</seatedcapacity>
+  </contribution>
+
+  <!-- 大阪高速鉄道2000系 中間車-->
+  <contribution type="trainCar" id="{riorio-osakakosokumonorail-2000-011-A961F78D351A}-m">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="osakakosoku2000b.bmp" />
+      </sprite>
+    <capacity>107</capacity>
+    <seatedcapacity>40</seatedcapacity>
+  </contribution>
+
+  <!-- 大阪高速鉄道2000系 後尾車-->
+  <contribution type="trainCar" id="{riorio-osakakosokumonorail-2000-011-A961F78D351A}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{riorio-osakakosokumonorail-2000-011-A961F78D351A}-h"/>
+  </contribution>
+
+  <contribution type="train" id="{riorio-train-osakakosokumonorail-2000-011-5367E9746B40}">
+    <company>大阪高速鉄道</company>
+    <type>2000系</type>
+    <name>一次車</name>
+    <author>りおりお</author>
+    <description>2001年から製造された大阪高速鉄道のモノレール車両。大阪高速鉄道は総延長世界一のモノレール事業者である。11～16編成まではアルミ車体にブルーの帯、前面にアザレアパープルの塗装がされている。
+現在は4両固定編成で運転されている2000系だが、将来的には6両編成も可能となっている。</description>
+	<fare>400</fare>
+	<price>28000000</price>
+	<amenity>100</amenity>
+    <speed>slow</speed>
+    <composition>
+      <head carRef="{riorio-osakakosokumonorail-2000-011-A961F78D351A}-h"/>
+      <body carRef="{riorio-osakakosokumonorail-2000-011-A961F78D351A}-m"/>
+      <tail carRef="{riorio-osakakosokumonorail-2000-011-A961F78D351A}-t"/>
+    </composition>
+  </contribution>
+
+  <!-- 大阪高速鉄道2000系二次車 先頭車-->
+  <contribution type="trainCar" id="{riorio-osakakosokumonorail-2000-017-A961F78D351A}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="osakakosoku2000a.bmp" />
+      <spriteType name="colorMapped">
+        <map from="151,26,76" to="172,132,12" />
+      </spriteType>
+      </sprite>
+    <capacity>98</capacity>
+    <seatedcapacity>36</seatedcapacity>
+  </contribution>
+
+  <!-- 大阪高速鉄道2000系二次車 後尾車-->
+  <contribution type="trainCar" id="{riorio-osakakosokumonorail-2000-017-A961F78D351A}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{riorio-osakakosokumonorail-2000-017-A961F78D351A}-h"/>
+  </contribution>
+
+  <contribution type="train" id="{riorio-train-osakakosokumonorail-2000-017-8A68E620E3D3}">
+    <company>大阪高速鉄道</company>
+    <type>2000系</type>
+    <name>二次車</name>
+    <author>りおりお</author>
+    <description>2001年から製造された大阪高速鉄道のモノレール車両。大阪高速鉄道は総延長世界一のモノレール事業者である。17編成のみ、アルミ車体にブルーの帯、前面にイエローの塗装がされている。
+現在は4両固定編成で運転されている2000系だが、将来的には6両編成も可能となっている。</description>
+	<fare>400</fare>
+	<price>28000000</price>
+	<amenity>100</amenity>
+    <speed>slow</speed>
+    <composition>
+      <head carRef="{riorio-osakakosokumonorail-2000-017-A961F78D351A}-h"/>
+      <body carRef="{riorio-osakakosokumonorail-2000-011-A961F78D351A}-m"/>
+      <tail carRef="{riorio-osakakosokumonorail-2000-017-A961F78D351A}-t"/>
+    </composition>
+  </contribution>
+
+
+
+  <!-- 大阪高速鉄道1000系一次車 先頭車-->
+  <contribution type="trainCar" id="{riorio-osakakosokumonorail-1000-001-DFEC3F4E0E64}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="osakakosoku1000-1a.bmp" />
+    </sprite>
+    <capacity>107</capacity>
+    <seatedcapacity>40</seatedcapacity>
+  </contribution>
+
+  <!-- 大阪高速鉄道1000系一次車 中間車-->
+  <contribution type="trainCar" id="{riorio-osakakosokumonorail-1000-001-DFEC3F4E0E64}-m">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="osakakosoku1000-1b.bmp" />
+      </sprite>
+    <capacity>140</capacity>
+    <seatedcapacity>48</seatedcapacity>
+  </contribution>
+
+  <!-- 大阪高速鉄道1000系一次車 後尾車-->
+  <contribution type="trainCar" id="{riorio-osakakosokumonorail-1000-001-DFEC3F4E0E64}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{riorio-osakakosokumonorail-1000-001-DFEC3F4E0E64}-h"/>
+  </contribution>
+
+  <contribution type="train" id="{riorio-train-osakakosokumonorail-1000-001-5A18DDCECF08}">
+    <company>大阪高速鉄道</company>
+    <type>1000系</type>
+    <name>一次車</name>
+    <author>りおりお</author>
+    <description>1989年から製造された大阪高速鉄道のモノレール車両。大阪高速鉄道は総延長世界一のモノレール事業者である。01～06編成まではアルミ車体にブルーの帯3本の塗装がされていた。
+現在は4両固定編成で運転されている1000系だが、将来的には6両編成も可能となっている。</description>
+	<fare>400</fare>
+	<price>28000000</price>
+	<amenity>100</amenity>
+    <speed>slow</speed>
+    <composition>
+      <head carRef="{riorio-osakakosokumonorail-1000-001-DFEC3F4E0E64}-h"/>
+      <body carRef="{riorio-osakakosokumonorail-1000-001-DFEC3F4E0E64}-m"/>
+      <tail carRef="{riorio-osakakosokumonorail-1000-001-DFEC3F4E0E64}-t"/>
+    </composition>
+  </contribution>
+
+
+  <!-- 大阪高速鉄道1000系イオン号 先頭車-->
+  <contribution type="trainCar" id="{riorio-osakakosokumonorail-1000-004-BEAB53DD1E6A}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="osakakosoku1000-2a.bmp" />
+    </sprite>
+    <capacity>107</capacity>
+    <seatedcapacity>40</seatedcapacity>
+  </contribution>
+
+  <!-- 大阪高速鉄道1000系イオン号 中間車3-->
+  <contribution type="trainCar" id="{riorio-osakakosokumonorail-1000-004-BEAB53DD1E6A}-m3">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="osakakosoku1000-2b.bmp" />
+      <spriteType name="colorMapped">
+        <map from="180,40,40" to="90,200,60" />
+        <map from="139,31,31" to="70,154,46" />
+        <map from="154,34,34" to="77,171,52" />
+        <map from="170,48,48" to="84,188,56" />
+        <map from="191,43,43" to="96,213,64" />
+        <map from="135,25,25" to="68,150,45" />
+        <map from="120,27,27" to="56,125,38" />
+        <map from="100,20,20" to="48,104,31" />
+      </spriteType>
+      </sprite>
+    <capacity>140</capacity>
+    <seatedcapacity>48</seatedcapacity>
+  </contribution>
+
+  <!-- 大阪高速鉄道1000系イオン号 中間車2-->
+  <contribution type="trainCar" id="{riorio-osakakosokumonorail-1000-004-BEAB53DD1E6A}-m2">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="osakakosoku1000-2c.bmp" />
+      </sprite>
+    <capacity>140</capacity>
+    <seatedcapacity>48</seatedcapacity>
+  </contribution>
+
+  <!-- 大阪高速鉄道1000系イオン号 後尾車ダミー-->
+  <contribution type="trainCar" id="{riorio-osakakosokumonorail-1000-004-BEAB53DD1E6A}-tdummy">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="osakakosoku1000-2a.bmp" />
+      <spriteType name="colorMapped">
+        <map from="180,40,40" to="180,200,20" />
+        <map from="139,31,31" to="139,154,15" />
+        <map from="154,34,34" to="154,171,17" />
+        <map from="170,48,48" to="169,188,19" />
+        <map from="191,43,43" to="191,213,21" />
+        <map from="135,25,25" to="135,150,15" />
+        <map from="120,27,27" to="125,140,14" />
+        <map from="100,20,20" to="94,104,10" />
+      </spriteType>
+    </sprite>
+    <capacity>107</capacity>
+    <seatedcapacity>40</seatedcapacity>
+  </contribution>
+
+  <!-- 大阪高速鉄道1000系イオン号 後尾車-->
+  <contribution type="trainCar" id="{riorio-osakakosokumonorail-1000-004-BEAB53DD1E6A}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{riorio-osakakosokumonorail-1000-004-BEAB53DD1E6A}-tdummy"/>
+  </contribution>
+
+  <contribution type="train" id="{riorio-train-osakakosokumonorail-1000-004-E05B993F1557}">
+    <company>大阪高速鉄道</company>
+    <type>1000系</type>
+    <name>イオン号</name>
+    <author>りおりお</author>
+    <description>1989年から製造された大阪高速鉄道のモノレール車両。大阪高速鉄道は総延長世界一のモノレール事業者である。大阪モノレール1000系は全面ラッピング広告されている車両が多いのも特徴で、04編成はイオンの広告車となっている。
+4両固定編成。</description>
+	<fare>400</fare>
+	<price>28000000</price>
+	<amenity>100</amenity>
+    <speed>slow</speed>
+    <class name="freetrain.contributions.train.PatternTrainImpl"/>
+    <config>
+      <car char="＜" ref="{riorio-osakakosokumonorail-1000-004-BEAB53DD1E6A}-h" />
+      <car char="２" ref="{riorio-osakakosokumonorail-1000-004-BEAB53DD1E6A}-m2" />
+      <car char="３" ref="{riorio-osakakosokumonorail-1000-004-BEAB53DD1E6A}-m3" />
+      <car char="＞" ref="{riorio-osakakosokumonorail-1000-004-BEAB53DD1E6A}-t" />
+      <composition>＜２３＞</composition>
+    </config>
+  </contribution>
+
+
+  <!-- 大阪高速鉄道1000系全農号 先頭車-->
+  <contribution type="trainCar" id="{riorio-osakakosokumonorail-1000-006-049A5CBEE9AB}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="osakakosoku1000-3a.bmp" />
+    </sprite>
+    <capacity>107</capacity>
+    <seatedcapacity>40</seatedcapacity>
+  </contribution>
+
+  <!-- 大阪高速鉄道1000系全農号 中間車2-->
+  <contribution type="trainCar" id="{riorio-osakakosokumonorail-1000-006-049A5CBEE9AB}-m2">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="osakakosoku1000-3b.bmp" />
+      </sprite>
+    <capacity>140</capacity>
+    <seatedcapacity>48</seatedcapacity>
+  </contribution>
+
+  <!-- 大阪高速鉄道1000系全農号 中間車3-->
+  <contribution type="trainCar" id="{riorio-osakakosokumonorail-1000-006-049A5CBEE9AB}-m3">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="osakakosoku1000-3c.bmp" />
+      </sprite>
+    <capacity>140</capacity>
+    <seatedcapacity>48</seatedcapacity>
+  </contribution>
+
+  <!-- 大阪高速鉄道1000系全農号 後尾車ダミー-->
+  <contribution type="trainCar" id="{riorio-osakakosokumonorail-1000-006-049A5CBEE9AB}-tdummy">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="osakakosoku1000-3d.bmp" />
+    </sprite>
+    <capacity>107</capacity>
+    <seatedcapacity>40</seatedcapacity>
+  </contribution>
+
+  <!-- 大阪高速鉄道1000系全農号 後尾車-->
+  <contribution type="trainCar" id="{riorio-osakakosokumonorail-1000-006-049A5CBEE9AB}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{riorio-osakakosokumonorail-1000-006-049A5CBEE9AB}-tdummy"/>
+  </contribution>
+
+  <contribution type="train" id="{riorio-train-osakakosokumonorail-1000-006-B30E537BE764}">
+    <company>大阪高速鉄道</company>
+    <type>1000系</type>
+    <name>全農号</name>
+    <author>りおりお</author>
+    <description>1989年から製造された大阪高速鉄道のモノレール車両。大阪高速鉄道は総延長世界一のモノレール事業者である。大阪モノレール1000系は全面ラッピング広告されている車両が多いのも特徴で、06編成は全農の広告車となっている。
+4両固定編成。</description>
+	<fare>400</fare>
+	<price>28000000</price>
+	<amenity>100</amenity>
+    <speed>slow</speed>
+    <class name="freetrain.contributions.train.PatternTrainImpl"/>
+    <config>
+      <car char="＜" ref="{riorio-osakakosokumonorail-1000-006-049A5CBEE9AB}-h" />
+      <car char="２" ref="{riorio-osakakosokumonorail-1000-006-049A5CBEE9AB}-m2" />
+      <car char="３" ref="{riorio-osakakosokumonorail-1000-006-049A5CBEE9AB}-m3" />
+      <car char="＞" ref="{riorio-osakakosokumonorail-1000-006-049A5CBEE9AB}-t" />
+      <composition>＜２３＞</composition>
+    </config>
+  </contribution>
+
+
+  <!-- 大阪高速鉄道1000系住宅センター号 先頭車-->
+  <contribution type="trainCar" id="{riorio-osakakosokumonorail-1000-031-DCF529C1845F}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="osakakosoku1000-4a.bmp" />
+    </sprite>
+    <capacity>107</capacity>
+    <seatedcapacity>40</seatedcapacity>
+  </contribution>
+
+  <!-- 大阪高速鉄道1000系住宅センター号 中間車2-->
+  <contribution type="trainCar" id="{riorio-osakakosokumonorail-1000-031-DCF529C1845F}-m2">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="osakakosoku1000-4b.bmp" />
+      </sprite>
+    <capacity>140</capacity>
+    <seatedcapacity>48</seatedcapacity>
+  </contribution>
+
+  <!-- 大阪高速鉄道1000系住宅センター号 中間車3-->
+  <contribution type="trainCar" id="{riorio-osakakosokumonorail-1000-031-DCF529C1845F}-m3">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{riorio-osakakosokumonorail-1000-031-DCF529C1845F}-m2"/>
+  </contribution>
+
+  <!-- 大阪高速鉄道1000系住宅センター号 後尾車-->
+  <contribution type="trainCar" id="{riorio-osakakosokumonorail-1000-031-DCF529C1845F}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{riorio-osakakosokumonorail-1000-031-DCF529C1845F}-h"/>
+  </contribution>
+
+  <contribution type="train" id="{riorio-train-osakakosokumonorail-1000-031-C37E1A011BF0}">
+    <company>大阪高速鉄道</company>
+    <type>1000系</type>
+    <name>住宅センター号</name>
+    <author>りおりお</author>
+    <description>1989年から製造された大阪高速鉄道のモノレール車両。大阪高速鉄道は総延長世界一のモノレール事業者である。大阪モノレール1000系は全面ラッピング広告されている車両が多いのも特徴で、31編成は大阪住宅センターの広告車となっている。
+4両固定編成。</description>
+	<fare>400</fare>
+	<price>28000000</price>
+	<amenity>100</amenity>
+    <speed>slow</speed>
+    <class name="freetrain.contributions.train.PatternTrainImpl"/>
+    <config>
+      <car char="＜" ref="{riorio-osakakosokumonorail-1000-031-DCF529C1845F}-h" />
+      <car char="２" ref="{riorio-osakakosokumonorail-1000-031-DCF529C1845F}-m2" />
+      <car char="３" ref="{riorio-osakakosokumonorail-1000-031-DCF529C1845F}-m3" />
+      <car char="＞" ref="{riorio-osakakosokumonorail-1000-031-DCF529C1845F}-t" />
+      <composition>＜２３＞</composition>
+    </config>
+  </contribution>
+
+
+  <!-- 大阪高速鉄道1000系オール電化号 先頭車-->
+  <contribution type="trainCar" id="{riorio-osakakosokumonorail-1000-032-0CDC5192E3FA}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="osakakosoku1000-5a.bmp" />
+    </sprite>
+    <capacity>107</capacity>
+    <seatedcapacity>40</seatedcapacity>
+  </contribution>
+
+  <!-- 大阪高速鉄道1000系オール電化号 中間車-->
+  <contribution type="trainCar" id="{riorio-osakakosokumonorail-1000-032-0CDC5192E3FA}-m">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="osakakosoku1000-5b.bmp" />
+      </sprite>
+    <capacity>140</capacity>
+    <seatedcapacity>48</seatedcapacity>
+  </contribution>
+
+  <!-- 大阪高速鉄道1000系オール電化号 後尾車-->
+  <contribution type="trainCar" id="{riorio-osakakosokumonorail-1000-032-0CDC5192E3FA}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{riorio-osakakosokumonorail-1000-032-0CDC5192E3FA}-h"/>
+  </contribution>
+
+  <contribution type="train" id="{riorio-train-osakakosokumonorail-1000-032-ED1D3687D346}">
+    <company>大阪高速鉄道</company>
+    <type>1000系</type>
+    <name>オール電化号</name>
+    <author>りおりお</author>
+    <description>1989年から製造された大阪高速鉄道のモノレール車両。大阪高速鉄道は総延長世界一のモノレール事業者である。大阪モノレール1000系は全面ラッピング広告されている車両が多いのも特徴で、32編成はオール電化の広告車となっている。
+現在は4両固定編成で運転されている1000系だが、将来的には6両編成も可能となっている。</description>
+	<fare>400</fare>
+	<price>28000000</price>
+	<amenity>100</amenity>
+    <speed>slow</speed>
+    <composition>
+      <head carRef="{riorio-osakakosokumonorail-1000-032-0CDC5192E3FA}-h"/>
+      <body carRef="{riorio-osakakosokumonorail-1000-032-0CDC5192E3FA}-m"/>
+      <tail carRef="{riorio-osakakosokumonorail-1000-032-0CDC5192E3FA}-t"/>
+    </composition>
+  </contribution>
+
+
+  <!-- 大阪高速鉄道1000系りそな号 先頭車-->
+  <contribution type="trainCar" id="{riorio-osakakosokumonorail-1000-021-09808AE7798B}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="osakakosoku1000-6a.bmp" />
+    </sprite>
+    <capacity>107</capacity>
+    <seatedcapacity>40</seatedcapacity>
+  </contribution>
+
+  <!-- 大阪高速鉄道1000系りそな号 中間車2-->
+  <contribution type="trainCar" id="{riorio-osakakosokumonorail-1000-021-09808AE7798B}-m2">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="osakakosoku1000-6b.bmp" />
+      </sprite>
+    <capacity>140</capacity>
+    <seatedcapacity>48</seatedcapacity>
+  </contribution>
+
+  <!-- 大阪高速鉄道1000系りそな号 中間車3-->
+  <contribution type="trainCar" id="{riorio-osakakosokumonorail-1000-021-09808AE7798B}-m3">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{riorio-osakakosokumonorail-1000-021-09808AE7798B}-m2"/>
+  </contribution>
+
+  <!-- 大阪高速鉄道1000系りそな号 後尾車-->
+  <contribution type="trainCar" id="{riorio-osakakosokumonorail-1000-021-09808AE7798B}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{riorio-osakakosokumonorail-1000-021-09808AE7798B}-h"/>
+  </contribution>
+
+  <contribution type="train" id="{riorio-train-osakakosokumonorail-1000-021-9C0CD2D51F62}">
+    <company>大阪高速鉄道</company>
+    <type>1000系</type>
+    <name>りそな号</name>
+    <author>りおりお</author>
+    <description>1989年から製造された大阪高速鉄道のモノレール車両。大阪高速鉄道は総延長世界一のモノレール事業者である。大阪モノレール1000系は全面ラッピング広告されている車両が多いのも特徴で、21編成はりそな銀行の広告車となっている。
+4両固定編成。</description>
+	<fare>400</fare>
+	<price>28000000</price>
+	<amenity>100</amenity>
+    <speed>slow</speed>
+    <class name="freetrain.contributions.train.PatternTrainImpl"/>
+    <config>
+      <car char="＜" ref="{riorio-osakakosokumonorail-1000-021-09808AE7798B}-h" />
+      <car char="２" ref="{riorio-osakakosokumonorail-1000-021-09808AE7798B}-m2" />
+      <car char="３" ref="{riorio-osakakosokumonorail-1000-021-09808AE7798B}-m3" />
+      <car char="＞" ref="{riorio-osakakosokumonorail-1000-021-09808AE7798B}-t" />
+      <composition>＜２３＞</composition>
+    </config>
+  </contribution>
+
+
+  <!-- 大阪高速鉄道1000系チキンラーメン号 先頭車-->
+  <contribution type="trainCar" id="{riorio-osakakosokumonorail-1000-023-A7BB2B46AB5F}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="osakakosoku1000-7a.bmp" />
+    </sprite>
+    <capacity>107</capacity>
+    <seatedcapacity>40</seatedcapacity>
+  </contribution>
+
+  <!-- 大阪高速鉄道1000系チキンラーメン号 中間車-->
+  <contribution type="trainCar" id="{riorio-osakakosokumonorail-1000-023-A7BB2B46AB5F}-m">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="osakakosoku1000-7b.bmp" />
+      </sprite>
+    <capacity>140</capacity>
+    <seatedcapacity>48</seatedcapacity>
+  </contribution>
+
+  <!-- 大阪高速鉄道1000系チキンラーメン号 後尾車-->
+  <contribution type="trainCar" id="{riorio-osakakosokumonorail-1000-023-A7BB2B46AB5F}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{riorio-osakakosokumonorail-1000-023-A7BB2B46AB5F}-h"/>
+  </contribution>
+
+  <contribution type="train" id="{riorio-train-osakakosokumonorail-1000-023-7DEE6FB25A5B}">
+    <company>大阪高速鉄道</company>
+    <type>1000系</type>
+    <name>チキンラーメン号</name>
+    <author>りおりお</author>
+    <description>1989年から製造された大阪高速鉄道のモノレール車両。大阪高速鉄道は総延長世界一のモノレール事業者である。大阪モノレール1000系は全面ラッピング広告されている車両が多いのも特徴で、23編成はチキンラーメンの広告車となっている。
+現在は4両固定編成で運転されている1000系だが、将来的には6両編成も可能となっている。</description>
+	<fare>400</fare>
+	<price>28000000</price>
+	<amenity>100</amenity>
+    <speed>slow</speed>
+    <composition>
+      <head carRef="{riorio-osakakosokumonorail-1000-023-A7BB2B46AB5F}-h"/>
+      <body carRef="{riorio-osakakosokumonorail-1000-023-A7BB2B46AB5F}-m"/>
+      <tail carRef="{riorio-osakakosokumonorail-1000-023-A7BB2B46AB5F}-t"/>
+    </composition>
+  </contribution>
+
+
+</plug-in>

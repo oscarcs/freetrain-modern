@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plug-in [
+<!ENTITY mojiA '
+	<price>30000000</price>
+	<height>2</height>
+        <operationCost>600000</operationCost>
+'>]>
+<plug-in>
+	<title>門司港駅</title>
+	<author>Hermes</author>
+	<homepage>nothing</homepage>
+		
+	<contribution type="picture" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1F001}">
+		<picture src="mojikouA.bmp"/>
+	</contribution>
+
+	
+	<contribution type="station" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1F000}-0">
+		&mojiA;
+                <group>門司港駅</group>
+                <size>1,4</size>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1F001}"/>
+		</sprite>
+        </contribution>
+        <contribution type="station" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1F000}-1">
+		&mojiA;
+                <group>門司港駅</group>
+                <size>4,1</size>
+                <sprite origin="80,0" offset="48">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1F001}"/>
+		</sprite>
+	</contribution>
+        
+</plug-in>

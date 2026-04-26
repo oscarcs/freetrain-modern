@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>団地（４方向）</title>
+	<author>toaru</author>
+	<homepage> / </homepage>
+
+<contribution type="picture" id="{toaru-building-danchi-picture-E7D95B0D8FCE}">
+		<picture src="danchi.bmp">
+			<override when="night" src="danchi_n.bmp" />
+		</picture>
+</contribution>
+	
+<contribution type="GenericStructure" id="{toaru-building-danchi-gs01-E7D95B0D8FCE-1}">
+		<name>公団スターハウス</name>
+		<price>460000000</price>
+		<size>2,2</size>
+		<structure>
+			<category byname="賃貸集合住宅"/>
+		</structure>
+		<height>2</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>70</base>
+		</population>
+		<sprite origin="0,0" offset="39">
+			<picture ref="{toaru-building-danchi-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="64,0" offset="39">
+			<picture ref="{toaru-building-danchi-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="0,64" offset="39">
+			<picture ref="{toaru-building-danchi-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="64,64" offset="39">
+			<picture ref="{toaru-building-danchi-picture-E7D95B0D8FCE}"/>
+		</sprite>
+
+
+
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,255,255"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="192,136,126"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="122,79,31"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="154,159,180"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="201,195,141"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="60,60,60"/>
+	</spriteType>
+</contribution>
+
+<contribution type="GenericStructure" id="{toaru-building-danchi-gs01-E7D95B0D8FCE-2}">
+		<name>公団団地１</name>
+		<price>460000000</price>
+		<size>1,2</size>
+		<structure>
+			<category byname="賃貸集合住宅"/>
+		</structure>
+		<height>2</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>70</base>
+		</population>
+		<sprite origin="128,0" offset="39">
+			<picture ref="{toaru-building-danchi-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="176,0" offset="39">
+			<picture ref="{toaru-building-danchi-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,255,255"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="192,136,126"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="122,79,31"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="154,159,180"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="201,195,141"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="60,60,60"/>
+	</spriteType>
+</contribution>
+
+<contribution type="GenericStructure" id="{toaru-building-danchi-gs01-E7D95B0D8FCE-3}">
+		<name>公団団地１</name>
+		<price>460000000</price>
+		<size>2,1</size>
+		<structure>
+			<category byname="賃貸集合住宅"/>
+		</structure>
+		<height>2</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>70</base>
+		</population>
+		
+		<sprite origin="128,64" offset="47">
+			<picture ref="{toaru-building-danchi-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="176,64" offset="47">
+			<picture ref="{toaru-building-danchi-picture-E7D95B0D8FCE}"/>
+		</sprite>
+
+
+
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,255,255"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="192,136,126"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="122,79,31"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="154,159,180"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="201,195,141"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="60,60,60"/>
+	</spriteType>
+</contribution>
+
+
+</plug-in>

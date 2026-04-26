@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plug-in [
+<!ENTITY hc01 '
+	<spriteType name="colorMapped">
+		<map from="19,136,255" to="136,136,136"/>
+		<map from="0,90,174" to="90,90,90"/>
+		<map from="0,80,154" to="80,80,80"/>
+		<map from="0,95,184" to="95,95,95"/>
+		<map from="0,64,124" to="64,64,64"/>
+		<map from="0,104,200" to="104,104,104"/>
+	</spriteType>
+'>
+<!ENTITY hc02 '
+	<spriteType name="colorMapped">
+		<map from="19,136,255" to="136,136,255"/>
+		<map from="0,90,174" to="90,90,174"/>
+		<map from="0,80,154" to="80,80,154"/>
+		<map from="0,95,184" to="95,95,184"/>
+		<map from="0,64,124" to="64,64,124"/>
+		<map from="0,104,200" to="104,104,200"/>
+	</spriteType>
+'>
+<!ENTITY hc03 '
+	<spriteType name="colorMapped">
+		<map from="19,136,255" to="136,255,136"/>
+		<map from="0,90,174" to="90,174,90"/>
+		<map from="0,80,154" to="80,154,80"/>
+		<map from="0,95,184" to="95,184,95"/>
+		<map from="0,64,124" to="64,124,64"/>
+		<map from="0,104,200" to="104,200,104"/>
+	</spriteType>
+'>
+<!ENTITY hc04 '
+	<spriteType name="colorMapped">
+		<map from="19,136,255" to="136,255,19"/>
+		<map from="0,90,174" to="90,174,0"/>
+		<map from="0,80,154" to="80,154,0"/>
+		<map from="0,95,184" to="95,184,0"/>
+		<map from="0,64,124" to="64,124,0"/>
+		<map from="0,104,200" to="104,200,0"/>
+	</spriteType>
+'>
+<!ENTITY hc05 '
+	<spriteType name="colorMapped">
+		<map from="19,136,255" to="255,136,136"/>
+		<map from="0,90,174" to="174,90,90"/>
+		<map from="0,80,154" to="154,80,80"/>
+		<map from="0,95,184" to="184,95,95"/>
+		<map from="0,64,124" to="124,64,64"/>
+		<map from="0,104,200" to="200,104,104"/>
+	</spriteType>
+'>
+<!ENTITY hc06 '
+	<spriteType name="colorMapped">
+		<map from="19,136,255" to="255,136,19"/>
+		<map from="0,90,174" to="174,90,0"/>
+		<map from="0,80,154" to="154,80,0"/>
+		<map from="0,95,184" to="184,95,0"/>
+		<map from="0,64,124" to="124,64,0"/>
+		<map from="0,104,200" to="200,104,0"/>
+	</spriteType>
+'>
+<!ENTITY hc07 '
+	<spriteType name="colorMapped">
+	</spriteType>
+'>
+<!ENTITY hc08 '
+	<spriteType name="colorMapped">
+		<map from="196,212,220" to="231,230,240"/>
+		<map from="196,188,172" to="231,230,240"/>
+		<map from="176,169,155" to="213,211,223"/>
+		<map from="157,188,172" to="193,190,208"/>
+		<map from="157,150,138" to="193,190,208"/>
+		<map from="147,184,197" to="183,181,197"/>
+		<map from="147,141,129" to="183,181,197"/>
+		<map from="137,174,189" to="176,175,185"/>
+		<map from="137,132,120" to="176,175,185"/>
+		<map from="118,155,174" to="155,152,172"/>
+		<map from="118,113,103" to="155,152,172"/>
+		<map from="107,137,159" to="142,137,165"/>
+		<map from="107,102,93" to="142,137,165"/>
+		<map from="98,117,134" to="134,131,155"/>
+		<map from="98,94,86" to="134,131,155"/>
+		<map from="89,85,79" to="124,117,153"/>
+		<map from="82,94,86" to="116,108,148"/>
+		<map from="82,78,72" to="116,108,148"/>
+		<map from="114,146,166" to="111,108,132"/>
+		<map from="59,99,111" to="92,90,110"/>
+		<map from="67,84,93" to="83,81,99"/>
+		<map from="62,79,88" to="74,72,88"/>
+		<map from="39,62,69" to="55,54,66"/>
+	</spriteType>
+'>
+<!ENTITY hc101 '
+	<spriteType name="hueTransform">
+		<map from="0,0,*" to="255,255,255"/>
+	</spriteType>
+'>
+<!ENTITY hc102 '
+	<spriteType name="hueTransform">
+		<map from="0,0,*" to="128,128,128"/>
+	</spriteType>
+'>
+<!ENTITY hc103 '
+	<spriteType name="hueTransform">
+		<map from="0,0,*" to="204,221,236"/>
+	</spriteType>
+'>
+<!ENTITY hc104 '
+	<spriteType name="hueTransform">
+		<map from="0,0,*" to="185,116,95"/>
+	</spriteType>
+'>
+<!ENTITY hc105 '
+	<spriteType name="hueTransform">
+		<map from="0,0,*" to="246,208,184"/>
+	</spriteType>
+'>
+<!ENTITY h1001 '
+	<name>端高架橋脚</name>
+	<structure>
+		<category byname="土木"/>
+	</structure>
+	<price>3000000</price>
+	<size>1,1</size>
+	<minHeight>2</minHeight>
+	<maxHeight>6</maxHeight>
+	&hc07;
+	&hc08;
+	<computerCannotBuild/>
+'>
+<!ENTITY h1002 '
+	<name>端橋脚</name>
+	<structure>
+		<category byname="土木"/>
+	</structure>
+	<price>3000000</price>
+	<size>1,1</size>
+	<height>1</height>
+	&hc07;
+	&hc08;
+	<computerCannotBuild/>
+'>
+]>
+<plug-in>
+	<title>建物　ボクセル端橋脚</title>
+	<author>りおりお　←画HEUER</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+
+
+
+<!-- 橋脚 -->
+	<contribution type="picture" id="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}">
+		<picture src="bp.bmp">
+		</picture>
+	</contribution>
+	<contribution type="picture" id="{riorio-HEUER-BRIDGEPIER-PICTURE-0002}">
+		<picture src="bp_sp.bmp">
+			<override when="summer" src="bp_su.bmp" />
+			<override when="autumn" src="bp_au.bmp" />
+			<override when="winter" src="bp_wi.bmp" />
+		</picture>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{riorio-HEUER-BRIDGEPIER-STRUCTURE-0001}">
+		&h1001;
+		<design>通常</design>
+		<pictures>
+			<top    origin="0,0" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="32,0" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="0,0" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,0" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="128,0" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="96,0" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="0,32" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="32,32" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="0,32" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,32" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="128,32" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="96,32" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="GenericStructure" id="{riorio-HEUER-BRIDGEPIER-STRUCTURE-0003}">
+		&h1001;
+		<design>水面</design>
+		<pictures>
+			<top    origin="0,0" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="32,0" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="64,0" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,0" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="128,0" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="160,0" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="0,32" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="32,32" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="64,32" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,32" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="128,32" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="160,32" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="GenericStructure" id="{riorio-HEUER-BRIDGEPIER-STRUCTURE-0005}">
+		&h1001;
+		<design>草原</design>
+		<pictures>
+			<top    origin="0,0" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="32,0" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="64,0" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,0" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="128,0" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="160,0" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="0,32" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="32,32" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="64,32" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,32" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="128,32" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="160,32" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="GenericStructure" id="{riorio-HEUER-BRIDGEPIER-STRUCTURE-0007}">
+		&h1001;
+		<design>山肌</design>
+		<pictures>
+			<top    origin="0,0" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="32,0" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="32,0" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,0" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="128,0" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="128,0" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="0,32" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="32,32" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="32,32" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,32" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="128,32" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="128,32" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="GenericStructure" id="{riorio-HEUER-BRIDGEPIER-STRUCTURE-0009}">
+		&h1001;
+		<design>アスファルト</design>
+		<pictures>
+			<top    origin="0,0" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="32,0" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="192,0" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,0" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="128,0" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="224,0" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="0,32" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="32,32" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="192,32" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,32" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="128,32" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="224,32" offset="16">
+				<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{riorio-HEUER-BRIDGEPIER-STRUCTURE-0011}">
+		&h1002;
+		<design>通常</design>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="96,0" offset="16">
+			<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="0,32" offset="16">
+			<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="96,32" offset="16">
+			<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{riorio-HEUER-BRIDGEPIER-STRUCTURE-0013}">
+		&h1002;
+		<design>水面</design>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="160,0" offset="16">
+			<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="64,32" offset="16">
+			<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="160,32" offset="16">
+			<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{riorio-HEUER-BRIDGEPIER-STRUCTURE-0015}">
+		&h1002;
+		<design>草原</design>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="160,0" offset="16">
+			<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="64,32" offset="16">
+			<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="160,32" offset="16">
+			<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{riorio-HEUER-BRIDGEPIER-STRUCTURE-0017}">
+		&h1002;
+		<design>山肌</design>
+		<sprite origin="32,0" offset="16">
+			<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="128,0" offset="16">
+			<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="32,32" offset="16">
+			<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="128,32" offset="16">
+			<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{riorio-HEUER-BRIDGEPIER-STRUCTURE-0019}">
+		&h1002;
+		<design>アスファルト</design>
+		<sprite origin="192,0" offset="16">
+			<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="224,0" offset="16">
+			<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="192,32" offset="16">
+			<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="224,32" offset="16">
+			<picture ref="{riorio-HEUER-BRIDGEPIER-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+
+
+</plug-in>

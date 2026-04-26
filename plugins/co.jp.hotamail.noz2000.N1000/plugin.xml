@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+<plug-in>
+  <title>京急新1000形</title> 
+  <author>Noz</author> 
+  <homepage></homepage>
+ 
+<!-- N1000先頭車 --> 
+　<contribution type="trainCar" id="{D714F947-64DA-4A21-8526-8DFC12430F7B}-A">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="keikyuN1000-a.bmp" /> 
+  </sprite>
+  <capacity>122</capacity> 
+  <seatedcapacity>41</seatedcapacity>
+  </contribution>
+<!-- N1000最後尾車 -->
+　<contribution type="trainCar" id="{D714F947-64DA-4A21-8526-8DFC12430F7B}-B">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{D714F947-64DA-4A21-8526-8DFC12430F7B}-A" />  
+  </contribution> 
+<!--N1000中間車-->
+　<contribution type="trainCar" id="{D714F947-64DA-4A21-8526-8DFC12430F7B}-C">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="keikyuN1000-c.bmp" /> 
+  </sprite>
+  <capacity>130</capacity> 
+  <seatedcapacity>48</seatedcapacity>
+  </contribution>
+<!--N1000パンタ車-->
+　<contribution type="trainCar" id="{D714F947-64DA-4A21-8526-8DFC12430F7B}-P">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="keikyuN1000-b.bmp" /> 
+  </sprite>
+  <capacity>130</capacity> 
+  <seatedcapacity>48</seatedcapacity>
+  </contribution>
+
+  <contribution type="train" id="{7755F2D4-F415-4E68-A51F-52F0C63EA2A1}">
+<company>京浜急行電鉄</company>
+<type>新1000形(高)</type>
+<name>京急線</name>
+<author>Noz</author>
+<description>2002年に老朽化した1000形と700形の置き換えを目的に登場した車両。この車両は高速です。4、6、8、12編成を用意しています。
+</description>
+<fare>400</fare>
+<price>28000000</price>
+<amenity>100</amenity>
+<speed>fast</speed>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<config>
+<car char="a" ref="{D714F947-64DA-4A21-8526-8DFC12430F7B}-A"/>
+<car char="c" ref="{D714F947-64DA-4A21-8526-8DFC12430F7B}-C"/>
+<car char="d" ref="{D714F947-64DA-4A21-8526-8DFC12430F7B}-B"/> 
+<car char="b" ref="{D714F947-64DA-4A21-8526-8DFC12430F7B}-P"/> 
+<composition>abcd</composition>
+<composition>abccbd</composition>
+<composition>abccccbd</composition>
+<composition>abccccbdabcd</composition>
+</config>
+</contribution>
+
+  <contribution type="train" id="{346DFADB-BA65-427A-904F-8A2669871FD8}">
+<company>京浜急行電鉄</company>
+<type>新1000形(中)</type>
+<name>京急線</name>
+<author>Noz</author>
+<description>2002年に老朽化した1000形と700形の置き換えを目的に登場した車両。この車両は中速です。4、6、8、12編成を用意しています。
+</description>
+<fare>400</fare>
+<price>28000000</price>
+<amenity>100</amenity>
+<speed>medium</speed>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<config>
+<car char="a" ref="{D714F947-64DA-4A21-8526-8DFC12430F7B}-A"/>
+<car char="c" ref="{D714F947-64DA-4A21-8526-8DFC12430F7B}-C"/>
+<car char="d" ref="{D714F947-64DA-4A21-8526-8DFC12430F7B}-B"/> 
+<car char="b" ref="{D714F947-64DA-4A21-8526-8DFC12430F7B}-P"/>
+<composition>abcd</composition>
+<composition>abccbd</composition>
+<composition>abccccbd</composition>
+<composition>abccccbdabcd</composition>
+</config>
+</contribution>
+
+
+
+
+
+</plug-in>

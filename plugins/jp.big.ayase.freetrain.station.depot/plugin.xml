@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>架線柱</title>
+	<author>綾瀬ヒロ</author>
+	<homepage>http://www14.big.or.jp/~ayase/freetrain/</homepage>
+	
+	<depends on="org.kohsuke.freetrain.rail.electricPole" />
+	
+	<contribution type="electricPole" id="{FreeTrain-AYASE-Hiro-RailStructureImpl-StationDepot-01a}">
+		<name>検修庫</name>
+		<sprite>
+			<picture src="depot_a1.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{FreeTrain-AYASE-Hiro-RailStructureImpl-StationDepot-01b}">
+		<name>検修庫</name>
+		<sprite>
+			<picture src="depot_a2.bmp"/>
+		</sprite>
+	</contribution>
+</plug-in>

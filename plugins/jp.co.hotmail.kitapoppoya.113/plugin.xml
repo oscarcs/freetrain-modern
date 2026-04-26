@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+<plug-in>
+  <title>113系パック</title>
+  <author>北の汽車屋</author>
+  <homepage></homepage>
+<!-- 113系先頭車横須賀 --> 
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-113YOKOSUKA-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="113suka_a.bmp" /> 
+  </sprite>
+  <capacity>122</capacity> 
+    <seatedcapacity>64</seatedcapacity>
+  </contribution>
+<!-- 113系最後尾車横須賀 -->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-113YOKOSUKA-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{669D5BDE-23F1-43BD-AC36-113YOKOSUKA-A}" />  
+  </contribution> 
+<!--　113系中間車横須賀-->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-113YOKOSUKA-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="113suka_b.bmp" /> 
+  </sprite>
+    <capacity>128</capacity>
+    <seatedcapacity>76</seatedcapacity>
+  </contribution>
+<!--　113系G車横須賀-->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-113YOKOSUKA-G}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="saro124suka.bmp" /> 
+  </sprite>
+  <capacity>90</capacity> 
+  <seatedcapacity>90</seatedcapacity> 
+  </contribution>
+<!--　113系G車平屋構造横須賀-->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-113YOKOSUKA-H}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="saro110suka.bmp" /> 
+  </sprite>
+  <capacity>60</capacity> 
+  <seatedcapacity>60</seatedcapacity> 
+  </contribution>
+<!-- 113系先頭車ｽｶ色 --> 
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC3-113SUKASHOKU-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="113suka_a.bmp" /> 
+  </sprite>
+  <capacity>122</capacity> 
+    <seatedcapacity>64</seatedcapacity>
+  </contribution>
+<!-- 113系最後尾車ｽｶ色 -->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC3-113SUKASHOKU-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{669D5BDE-23F1-43BD-AC3-113SUKASHOKU-A}" />  
+  </contribution> 
+<!--　113系中間車ｽｶ色-->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC3-113SUKASHOKU-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="113suka_b.bmp" /> 
+  </sprite>
+    <capacity>128</capacity>
+    <seatedcapacity>76</seatedcapacity>
+  </contribution>
+<!-- 113系先頭車東海道 --> 
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36E-113TOKAIDO-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="113tokaido_a.bmp" /> 
+  </sprite>
+  <capacity>122</capacity> 
+    <seatedcapacity>64</seatedcapacity>
+  </contribution>
+<!-- 113系最後尾車東海道 -->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36E-113TOKAIDO-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{669D5BDE-23F1-43BD-AC36E-113TOKAIDO-A}" />  
+  </contribution> 
+<!--　113系中間車東海道-->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36E-113TOKAIDO-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="113tokaido_b.bmp" /> 
+  </sprite>
+    <capacity>128</capacity>
+    <seatedcapacity>76</seatedcapacity>
+  </contribution>
+<!--　113系G車東海道-->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36E-113TOKAIDO-G}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="saro124tokaido_a.bmp" /> 
+  </sprite>
+  <capacity>90</capacity> 
+  <seatedcapacity>90</seatedcapacity> 
+  </contribution>
+<!--　113系G車東海道移籍型-->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-113TOKAIDO-G2}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="saro124tokaido_b.bmp" /> 
+  </sprite>
+  <capacity>90</capacity> 
+  <seatedcapacity>90</seatedcapacity> 
+  </contribution>
+<!--　113系G車平屋構造東海道-->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36E-113TOKAIDO-H}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="saro110tokaido.bmp" /> 
+  </sprite>
+  <capacity>60</capacity> 
+  <seatedcapacity>60</seatedcapacity> 
+  </contribution>
+<!-- 113系先頭車湘南色 --> 
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-A-113SHONANSHOKU-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="113tokaido_a.bmp" /> 
+  </sprite>
+  <capacity>122</capacity> 
+  <seatedcapacity>64</seatedcapacity> 
+  </contribution>
+<!-- 113系最後尾車湘南色 -->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-A-113SHONANSHOKU-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{669D5BDE-23F1-43BD-A-113SHONANSHOKU-A}" />  
+  </contribution> 
+<!--　113系中間車湘南色-->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-A-113SHONANSHOKU-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="113tokaido_b.bmp" /> 
+  </sprite>
+    <capacity>128</capacity>
+    <seatedcapacity>76</seatedcapacity>
+  </contribution>
+
+ <contribution type="train" id="{669D5BDE-23F1-43BD-AC36-B-113YOKOSUKA}">
+<company>JR東日本</company>
+<type>113系</type>
+<name>横須賀・総武線</name>
+<author>北の汽車屋</author>
+<description>国鉄が標準型近郊型車両として開発したもの。現在は淘汰が進んでいる。横須賀線に配備されていたものは東海道線と同様Wデッカーのグリーン車と平屋構造のグリーン車のニタイプを連結していた。
+</description>
+<fare>550</fare>
+<price>38500000</price>
+<amenity>110</amenity>
+<triprange>middle</triprange>
+<speed>medium</speed>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<config>
+<car char="A" ref="{669D5BDE-23F1-43BD-AC36-113YOKOSUKA-A}"/>
+<car char="C" ref="{669D5BDE-23F1-43BD-AC36-113YOKOSUKA-C}"/>
+<car char="B" ref="{669D5BDE-23F1-43BD-AC36-113YOKOSUKA-B}"/> 
+<car char="G" ref="{669D5BDE-23F1-43BD-AC36-113YOKOSUKA-G}"/> 
+<car char="H" ref="{669D5BDE-23F1-43BD-AC36-113YOKOSUKA-H}"/>
+<composition>ACCB</composition>
+<composition>ACCCCB</composition>
+<composition>ACCBACCB</composition>
+<composition>ACCBACCCCB</composition>
+<composition>ACCGHCCCCCB</composition>
+<composition>ACCBACCBACCB</composition>
+<composition>ACCBACCGHCCCCCB</composition>
+</config>
+</contribution>
+ <contribution type="train" id="{669D5BDE-23F1-43BD-AC3-B-113SUKASHOKU}">
+<company>JR東日本</company>
+<type>113系</type>
+<name>スカ色</name>
+<author>北の汽車屋</author>
+<description>国鉄が標準型近郊型車両として開発したもの。現在は淘汰が進んでいる。横須賀線のカラーリングに準じたものをスカ色と呼ぶ。</description>
+<fare>500</fare>
+<price>35000000</price>
+<amenity>95</amenity>
+<triprange>middle</triprange>
+<speed>medium</speed>
+<composition>
+<head carRef="{669D5BDE-23F1-43BD-AC3-113SUKASHOKU-A}"/>
+<body carRef="{669D5BDE-23F1-43BD-AC3-113SUKASHOKU-C}"/>
+<tail carRef="{669D5BDE-23F1-43BD-AC3-113SUKASHOKU-B}"/>
+</composition>
+</contribution>
+ <contribution type="train" id="{669D5BDE-23F1-43BD-AC36-BE-113TOKAIDO}">
+<company>JR東日本</company>
+<type>113系</type>
+<name>東海道線</name>
+<author>北の汽車屋</author>
+<description>国鉄が標準型近郊型車両として開発したもの。現在は淘汰が進んでいる。東海道線に配備されていたものは横須賀線と同様Wデッカーのグリーン車と平屋構造のグリーン車のニタイプを連結している。
+</description>
+<fare>550</fare>
+<price>38500000</price>
+<triprange>middle</triprange>
+<amenity>110</amenity>
+<speed>medium</speed>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<config>
+<car char="A" ref="{669D5BDE-23F1-43BD-AC36E-113TOKAIDO-A}"/>
+<car char="C" ref="{669D5BDE-23F1-43BD-AC36E-113TOKAIDO-C}"/>
+<car char="B" ref="{669D5BDE-23F1-43BD-AC36E-113TOKAIDO-B}"/> 
+<car char="G" ref="{669D5BDE-23F1-43BD-AC36E-113TOKAIDO-G}"/> 
+<car char="H" ref="{669D5BDE-23F1-43BD-AC36E-113TOKAIDO-H}"/>
+<composition>ACCCB</composition>
+<composition>ACCCCB</composition>
+<composition>ACCGHCCCCCB</composition>
+<composition>ACCCCBACCCCB</composition>
+<composition>ACCCBACCGHCCCCCB</composition>
+</config>
+</contribution>
+ <contribution type="train" id="{669D5BDE-23F1-43BD-AC36-B-113TOKAIDO2}">
+<company>JR東日本</company>
+<type>113系</type>
+<name>東海道線(横須賀サロ124組み込み)</name>
+<author>北の汽車屋</author>
+<description>国鉄が標準型近郊型車両として開発したもの。現在は淘汰が進んでいる。横須賀線の113系が淘汰された際、車齢の若いサロ124のみを東海道線の113系に組み込んだこのような編成も活躍している。
+</description>
+<fare>550</fare>
+<price>38500000</price>
+<amenity>110</amenity>
+<triprange>middle</triprange>
+<speed>medium</speed>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<config>
+<car char="A" ref="{669D5BDE-23F1-43BD-AC36E-113TOKAIDO-A}"/>
+<car char="C" ref="{669D5BDE-23F1-43BD-AC36E-113TOKAIDO-C}"/>
+<car char="B" ref="{669D5BDE-23F1-43BD-AC36E-113TOKAIDO-B}"/> 
+<car char="G" ref="{669D5BDE-23F1-43BD-AC36-113TOKAIDO-G2}"/> 
+<car char="H" ref="{669D5BDE-23F1-43BD-AC36E-113TOKAIDO-H}"/>
+<composition>ACCCB</composition>
+<composition>ACCCCB</composition>
+<composition>ACCGHCCCCCB</composition>
+<composition>ACCCCBACCCCB</composition>
+<composition>ACCCBACCGHCCCCCB</composition>
+</config>
+</contribution>
+ <contribution type="train" id="{669D5BDE-23F1-43BD-AC-B-113SHONANSHOKU}">
+<company>JR東日本</company>
+<type>113系</type>
+<name>湘南色(kitapoppoya)</name>
+<author>北の汽車屋</author>
+<description>国鉄が標準型近郊型車両として開発したもの。現在は淘汰が進んでいる。東海道線のカラーリングに準じたものを湘南色と呼ぶ。</description>
+<fare>500</fare>
+<price>35000000</price>
+<amenity>95</amenity>
+<triprange>middle</triprange>
+<speed>medium</speed>
+<composition>
+<head carRef="{669D5BDE-23F1-43BD-A-113SHONANSHOKU-A}"/>
+<body carRef="{669D5BDE-23F1-43BD-A-113SHONANSHOKU-C}"/>
+<tail carRef="{669D5BDE-23F1-43BD-A-113SHONANSHOKU-B}"/>
+</composition>
+</contribution>
+</plug-in>

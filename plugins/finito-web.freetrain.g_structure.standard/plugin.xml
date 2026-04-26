@@ -1,0 +1,4722 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plug-in [
+<!ENTITY hc01 '
+	<spriteType name="colorMapped">
+		<map from="19,136,255" to="136,136,136"/>
+		<map from="0,90,174" to="90,90,90"/>
+		<map from="0,80,154" to="80,80,80"/>
+		<map from="0,95,184" to="95,95,95"/>
+		<map from="0,64,124" to="64,64,64"/>
+		<map from="0,104,200" to="104,104,104"/>
+	</spriteType>
+'>
+<!ENTITY hc02 '
+	<spriteType name="colorMapped">
+		<map from="19,136,255" to="136,136,255"/>
+		<map from="0,90,174" to="90,90,174"/>
+		<map from="0,80,154" to="80,80,154"/>
+		<map from="0,95,184" to="95,95,184"/>
+		<map from="0,64,124" to="64,64,124"/>
+		<map from="0,104,200" to="104,104,200"/>
+	</spriteType>
+'>
+<!ENTITY hc03 '
+	<spriteType name="colorMapped">
+		<map from="19,136,255" to="136,255,136"/>
+		<map from="0,90,174" to="90,174,90"/>
+		<map from="0,80,154" to="80,154,80"/>
+		<map from="0,95,184" to="95,184,95"/>
+		<map from="0,64,124" to="64,124,64"/>
+		<map from="0,104,200" to="104,200,104"/>
+	</spriteType>
+'>
+<!ENTITY hc04 '
+	<spriteType name="colorMapped">
+		<map from="19,136,255" to="136,255,19"/>
+		<map from="0,90,174" to="90,174,0"/>
+		<map from="0,80,154" to="80,154,0"/>
+		<map from="0,95,184" to="95,184,0"/>
+		<map from="0,64,124" to="64,124,0"/>
+		<map from="0,104,200" to="104,200,0"/>
+	</spriteType>
+'>
+<!ENTITY hc05 '
+	<spriteType name="colorMapped">
+		<map from="19,136,255" to="255,136,136"/>
+		<map from="0,90,174" to="174,90,90"/>
+		<map from="0,80,154" to="154,80,80"/>
+		<map from="0,95,184" to="184,95,95"/>
+		<map from="0,64,124" to="124,64,64"/>
+		<map from="0,104,200" to="200,104,104"/>
+	</spriteType>
+'>
+<!ENTITY hc06 '
+	<spriteType name="colorMapped">
+		<map from="19,136,255" to="255,136,19"/>
+		<map from="0,90,174" to="174,90,0"/>
+		<map from="0,80,154" to="154,80,0"/>
+		<map from="0,95,184" to="184,95,0"/>
+		<map from="0,64,124" to="124,64,0"/>
+		<map from="0,104,200" to="200,104,0"/>
+	</spriteType>
+'>
+<!ENTITY hc07 '
+	<spriteType name="colorMapped">
+	</spriteType>
+'>
+<!ENTITY hc08 '
+	<spriteType name="colorMapped">
+		<map from="196,212,220" to="231,230,240"/>
+		<map from="196,188,172" to="231,230,240"/>
+		<map from="176,169,155" to="213,211,223"/>
+		<map from="157,188,172" to="193,190,208"/>
+		<map from="157,150,138" to="193,190,208"/>
+		<map from="147,184,197" to="183,181,197"/>
+		<map from="147,141,129" to="183,181,197"/>
+		<map from="137,174,189" to="176,175,185"/>
+		<map from="137,132,120" to="176,175,185"/>
+		<map from="118,155,174" to="155,152,172"/>
+		<map from="118,113,103" to="155,152,172"/>
+		<map from="107,137,159" to="142,137,165"/>
+		<map from="107,102,93" to="142,137,165"/>
+		<map from="98,117,134" to="134,131,155"/>
+		<map from="98,94,86" to="134,131,155"/>
+		<map from="89,85,79" to="124,117,153"/>
+		<map from="82,94,86" to="116,108,148"/>
+		<map from="82,78,72" to="116,108,148"/>
+		<map from="114,146,166" to="111,108,132"/>
+		<map from="59,99,111" to="92,90,110"/>
+		<map from="67,84,93" to="83,81,99"/>
+		<map from="62,79,88" to="74,72,88"/>
+		<map from="39,62,69" to="55,54,66"/>
+	</spriteType>
+'>
+<!ENTITY hcA '
+	<spriteType name="hueTransform">
+		<map from="0,0,*" to="255,255,255"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,0,*" to="128,128,128"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,0,*" to="204,221,236"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,0,*" to="185,116,95"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,0,*" to="246,208,184"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,0,*" to="225,245,230"/>
+	</spriteType>
+'>
+<!ENTITY hcB '
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="170,210,250"/>
+		<map from="0,0,*" to="255,255,255"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="170,210,250"/>
+		<map from="0,0,*" to="128,128,128"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="170,210,250"/>
+		<map from="0,0,*" to="204,221,236"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="170,210,250"/>
+		<map from="0,0,*" to="185,116,95"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="170,210,250"/>
+		<map from="0,0,*" to="246,208,184"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="170,210,250"/>
+		<map from="0,0,*" to="225,245,230"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="250,120,120"/>
+		<map from="0,0,*" to="255,255,255"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="250,120,120"/>
+		<map from="0,0,*" to="128,128,128"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="250,120,120"/>
+		<map from="0,0,*" to="204,221,236"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="250,120,120"/>
+		<map from="0,0,*" to="185,116,95"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="250,120,120"/>
+		<map from="0,0,*" to="246,208,184"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="250,120,120"/>
+		<map from="0,0,*" to="225,245,230"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="130,130,130"/>
+		<map from="0,0,*" to="255,255,255"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="130,130,130"/>
+		<map from="0,0,*" to="128,128,128"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="130,130,130"/>
+		<map from="0,0,*" to="204,221,236"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="130,130,130"/>
+		<map from="0,0,*" to="185,116,95"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="130,130,130"/>
+		<map from="0,0,*" to="246,208,184"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="130,130,130"/>
+		<map from="0,0,*" to="225,245,230"/>
+	</spriteType>
+'>
+<!ENTITY hcC '
+	<spriteType name="hueTransform">
+		<map from="0,0,*" to="137,97,46"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,0,*" to="158,122,72"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,0,*" to="157,135,115"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,0,*" to="197,179,162"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,0,*" to="223,130,73"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,0,*" to="188,188,189"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,0,*" to="134,141,127"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,0,*" to="75,65,61"/>
+	</spriteType>
+'>
+<!ENTITY hcwt1 '
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="152,106,93"/>
+		<map from="0,0,*" to="219,243,236"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="158,127,124"/>
+		<map from="0,0,*" to="219,211,207"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="138,148,150"/>
+		<map from="0,0,*" to="185,197,195"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="177,165,143"/>
+		<map from="0,0,*" to="196,188,172"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="70,70,70"/>
+		<map from="0,0,*" to="128,128,128"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="70,140,210"/>
+		<map from="0,0,*" to="240,240,240"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="70,210,140"/>
+		<map from="0,0,*" to="240,240,240"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="140,210,70"/>
+		<map from="0,0,*" to="240,240,240"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="210,140,70"/>
+		<map from="0,0,*" to="240,240,240"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="0,*,0" to="140,140,140"/>
+		<map from="0,0,*" to="240,240,240"/>
+	</spriteType>
+'>
+<!ENTITY h0101 '
+	<name>風力発電用風車</name>
+	<structure>
+		<category byname="風力発電所"/>
+	</structure>
+	<price>60000000</price>
+	<size>1,3</size>
+	<height>5</height>
+	&hc07;
+	<spriteType name="colorMapped">
+		<map  from="251,85,89"  to="250,250,250"/>
+		<map  from="180,55,51"  to="150,150,150"/>
+		<map  from="251,49,59"  to="186,186,186"/>
+	</spriteType>
+	<computerCannotBuild/>
+'>
+<!ENTITY h0201 '
+	<name>物流センター</name>
+	<structure>
+		<category byname="集配所"/>
+	</structure>
+	<computerCannotBuild/>
+'>
+<!ENTITY h0301 '
+	<name>石油タンク</name>
+	<structure>
+		<category byname="石油タンク"/>
+	</structure>
+	<design>地上式(大)</design>
+	<size>3,3</size>
+	<height>2</height>
+	<computerCannotBuild/>
+'>
+<!ENTITY h0302 '
+	<name>石油タンク</name>
+	<structure>
+		<category byname="石油タンク"/>
+	</structure>
+	<design>地上式(中)</design>
+	<size>3,3</size>
+	<height>2</height>
+	<computerCannotBuild/>
+'>
+<!ENTITY h0303 '
+	<name>石油タンク</name>
+	<structure>
+		<category byname="石油タンク"/>
+	</structure>
+	<design>地上式(小)</design>
+	<size>2,2</size>
+	<height>2</height>
+	<price>500000000</price>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>5</base>
+	</population>
+	<computerCannotBuild/>
+'>
+<!ENTITY h0304 '
+	<name>ガスタンク</name>
+	<structure>
+		<category byname="ガスタンク"/>
+	</structure>
+	<size>2,2</size>
+	<height>2</height>
+	<price>500000000</price>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>5</base>
+	</population>
+	<computerCannotBuild/>
+'>
+<!ENTITY h0305 '
+	<name>配水池</name>
+	<structure>
+		<category byname="給水塔"/>
+	</structure>
+	<size>2,2</size>
+	<height>2</height>
+	<price>80000000</price>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>5</base>
+	</population>
+	<computerCannotBuild/>
+'>
+<!ENTITY h0306 '
+	<name>石油タンク</name>
+	<structure>
+		<category byname="石油タンク"/>
+	</structure>
+	<design>地中式</design>
+	<size>3,3</size>
+	<height>1</height>
+	<price>1000000000</price>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>15</base>
+	</population>
+	<computerCannotBuild/>
+'>
+<!ENTITY h0307 '
+	<name>浄水場</name>
+	<structure>
+		<category byname="浄水場"/>
+	</structure>
+	<design>簡易浄水場</design>
+	<size>1,2</size>
+	<height>1</height>
+	<price>20000000</price>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>5</base>
+	</population>
+	<computerCannotBuild/>
+'>
+<!ENTITY h0308 '
+	<name>配水池</name>
+	<structure>
+		<category byname="給水塔"/>
+	</structure>
+	<design>コンクリート製(小)</design>
+	<size>1,1</size>
+	<height>1</height>
+	<price>40000000</price>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>3</base>
+	</population>
+	<computerCannotBuild/>
+'>
+<!ENTITY h0401 '
+	<name>防波堤</name>
+	<structure>
+		<category byname="治水防波設備"/>
+	</structure>
+	<price>1000000</price>
+	<size>1,1</size>
+	<height>1</height>
+	<computerCannotBuild/>
+'>
+<!ENTITY h04011 '
+	<name>防波堤(砂浜)</name>
+	<structure>
+		<category byname="治水防波設備"/>
+	</structure>
+	<price>2000000</price>
+	<size>1,1</size>
+	<height>1</height>
+	<computerCannotBuild/>
+'>
+<!ENTITY h04012 '
+	<name>防波堤(波消ブロック)</name>
+	<structure>
+		<category byname="治水防波設備"/>
+	</structure>
+	<price>2500000</price>
+	<size>1,1</size>
+	<height>1</height>
+	<computerCannotBuild/>
+'>
+<!ENTITY h0402 '
+	<name>防波堤(雛壇風)</name>
+	<structure>
+		<category byname="治水防波設備"/>
+	</structure>
+	<price>3000000</price>
+	<size>1,1</size>
+	<height>1</height>
+	<computerCannotBuild/>
+'>
+<!ENTITY h0403 '
+	<name>砂防ダム</name>
+	<structure>
+		<category byname="治水防波設備"/>
+	</structure>
+	<price>3000000</price>
+	<height>1</height>
+	<computerCannotBuild/>
+'>
+<!ENTITY h0404 '
+	<name>法枠</name>
+	<structure>
+		<category byname="治山設備"/>
+	</structure>
+	<price>1500000</price>
+	<size>1,1</size>
+	<height>1</height>
+	<computerCannotBuild/>
+'>
+<!ENTITY h04041 '
+	<name>法枠α</name>
+	<structure>
+		<category byname="治山設備"/>
+	</structure>
+	<price>1500000</price>
+	<size>1,1</size>
+	<height>1</height>
+	<computerCannotBuild/>
+'>
+<!ENTITY h04042 '
+	<name>法枠β</name>
+	<structure>
+		<category byname="治山設備"/>
+	</structure>
+	<price>1500000</price>
+	<size>1,1</size>
+	<height>1</height>
+	<computerCannotBuild/>
+'>
+<!ENTITY h04043 '
+	<name>法枠γ</name>
+	<structure>
+		<category byname="治山設備"/>
+	</structure>
+	<price>3000000</price>
+	<size>1,1</size>
+	<height>2</height>
+	<computerCannotBuild/>
+'>
+<!ENTITY h0701 '
+	<name>分譲マンション(3x3)</name>
+	<structure>
+		<category byname="分譲マンション"/>
+	</structure>
+	<price>300000000</price>
+	<size>3,3</size>
+	<minHeight>3</minHeight>
+	<maxHeight>9</maxHeight>
+	<population>
+		<class name="freetrain.contributions.population.ResidentialPopulation"/>
+		<base>700</base>
+	</population>
+	<computerCannotBuild/>
+'>
+<!ENTITY h0702 '
+	<name>分譲マンション(3x2)</name>
+	<structure>
+		<category byname="分譲マンション"/>
+	</structure>
+	<price>250000000</price>
+	<size>2,3</size>
+	<minHeight>3</minHeight>
+	<maxHeight>7</maxHeight>
+	<population>
+		<class name="freetrain.contributions.population.ResidentialPopulation"/>
+		<base>500</base>
+	</population>
+	<computerCannotBuild/>
+'>
+<!ENTITY h0801 '
+	<name>火力発電所</name>
+	<structure>
+		<category byname="火力発電所"/>
+	</structure>
+	<price>40000000000</price>
+	<size>5,2</size>
+	<height>7</height>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>70</base>
+	</population>
+	<computerCannotBuild/>
+'>
+<!ENTITY h0802 '
+	<name>火力発電所</name>
+	<structure>
+		<category byname="火力発電所"/>
+	</structure>
+	<price>50000000000</price>
+	<size>5,3</size>
+	<height>7</height>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>80</base>
+	</population>
+	<computerCannotBuild/>
+'>
+<!ENTITY h1001 '
+	<name>高橋脚</name>
+	<structure>
+		<category byname="土木"/>
+	</structure>
+	<price>3000000</price>
+	<size>1,1</size>
+	<minHeight>2</minHeight>
+	<maxHeight>6</maxHeight>
+	&hc07;
+	&hc08;
+	<computerCannotBuild/>
+'>
+<!ENTITY h1002 '
+	<name>橋脚</name>
+	<structure>
+		<category byname="土木"/>
+	</structure>
+	<price>3000000</price>
+	<size>1,1</size>
+	<height>1</height>
+	&hc07;
+	&hc08;
+	<computerCannotBuild/>
+'>
+<!ENTITY h1003 '
+	<name>高橋脚</name>
+	<structure>
+		<category byname="土木"/>
+	</structure>
+	<price>3000000</price>
+	<size>1,1</size>
+	<minHeight>2</minHeight>
+	<maxHeight>4</maxHeight>
+	<computerCannotBuild/>
+'>
+<!ENTITY h1004 '
+	<name>橋脚</name>
+	<structure>
+		<category byname="土木"/>
+	</structure>
+	<price>3000000</price>
+	<size>1,1</size>
+	<height>1</height>
+	<computerCannotBuild/>
+'>
+<!ENTITY h1101 '
+	<name>自動車学校</name>
+	<structure>
+		<category byname="私立教育施設"/>
+	</structure>
+	<design>コース</design>
+	<price>20000000</price>
+	<size>5,6</size>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>20</base>
+	</population>
+	<computerCannotBuild/>
+'>
+<!ENTITY h1102 '
+	<name>自動車学校</name>
+	<structure>
+		<category byname="私立教育施設"/>
+	</structure>
+	<design>校舎兼車庫</design>
+	<price>30000000</price>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>100</base>
+	</population>
+	&hcA;
+	<computerCannotBuild/>
+'>
+<!ENTITY h1201 '
+	<name>カントリーエレベーター</name>
+	<structure>
+		<category byname="食料産地"/>
+		<category byname="倉庫" hide="true"/>
+	</structure>
+	<design>大規模共同乾燥施設</design>
+	<price>270000000</price>
+	<size>4,2</size>
+	<height>3</height>
+	<population>
+		<class name="freetrain.contributions.population.AgriculturalPopulation"/>
+		<base>20</base>
+	</population>
+	&hc01;
+	&hc02;
+	&hc03;
+	&hc04;
+	&hc05;
+	&hc06;
+	<computerCannotBuild/>
+'>
+<!ENTITY h1301 '
+	<name>消防署</name>
+	<structure>
+		<category byname="消防署"/>
+	</structure>
+	&hcA;
+	<computerCannotBuild/>
+'>
+<!ENTITY h1401 '
+	<name>警察署</name>
+	<structure>
+		<category byname="警察署"/>
+	</structure>
+	&hcA;
+	<computerCannotBuild/>
+'>
+<!ENTITY h1501 '
+		<group>半ボクセル建築</group>
+		<subgroup>花壇</subgroup>
+		<height>1</height>
+'>
+<!ENTITY h1502 '
+		<group>半ボクセル建築</group>
+		<subgroup>水路</subgroup>
+		<height>1</height>
+'>
+<!ENTITY h1503 '
+		<group>半ボクセル建築</group>
+		<subgroup>樹木</subgroup>
+		<height>1</height>
+'>
+<!ENTITY h1504 '
+		<group>半ボクセル建築</group>
+		<subgroup>階段</subgroup>
+		<height>2</height>
+'>
+<!ENTITY h1505 '
+		<group>半ボクセル建築</group>
+		<subgroup>斜面</subgroup>
+		<height>2</height>
+'>
+<!ENTITY h1601 '
+	<name>基地局</name>
+	<structure>
+		<category byname="放送メディア"/>
+	</structure>
+		<design>携帯電話基地局</design>
+		<size>1,1</size>
+	<computerCannotBuild/>
+'>
+<!ENTITY h1701 '
+	<name>自然岩</name>
+	<structure>
+		<category byname="自然構造物"/>
+	</structure>
+		<size>1,1</size>
+	<price>3000000</price>
+	&hcC;
+	<computerCannotBuild/>
+'>
+]>
+
+<plug-in>
+	<title>FreeTrainExAVer用建物総合(建築)</title>
+	<author>HEUER</author>
+	<homepage>http://freetrain.finito-web.com/</homepage>
+
+
+<!-- 風力発電所 -->
+	<contribution type="picture" id="{HEUER-0001-WINDMILL-PICTURE-0001}">
+		<picture src="windmill_a.bmp">
+			<override when="summer" src="windmill_b.bmp" />
+			<override when="autumn" src="windmill_c.bmp" />
+			<override when="winter" src="windmill_d.bmp" />
+		</picture>
+	</contribution>	
+	<contribution type="picture" id="{HEUER-0001-WINDMILL-PICTURE-0002}">
+		<picture src="windmill_a.bmp">
+			<override when="autumn" src="windmill_c.bmp" />
+			<override when="winter" src="windmill_d.bmp" />
+		</picture>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-WINDMILL-PICTURE-0003}">
+		<picture src="windmill.bmp">
+		</picture>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-WINDMILL-PICTURE-0004}">
+		<picture src="windmill.bmp">
+			<override when="winter" src="windmill_d.bmp" />
+		</picture>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0001-WINDMILL-STRUCTURE-0002}">
+		&h0101;
+		<design>通常</design>
+		<sprite origin="256,0" offset="64">
+			<picture ref="{HEUER-0001-WINDMILL-PICTURE-0004}"/>
+		</sprite>
+		<sprite origin="320,0" offset="80" opposite="true">
+			<picture ref="{HEUER-0001-WINDMILL-PICTURE-0004}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0001-WINDMILL-STRUCTURE-0003}">
+		&h0101;
+		<design>水面</design>
+		<sprite origin="0,0" offset="64">
+			<picture ref="{HEUER-0001-WINDMILL-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,0" offset="80" opposite="true">
+			<picture ref="{HEUER-0001-WINDMILL-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0001-WINDMILL-STRUCTURE-0004}">
+		&h0101;
+		<design>草原</design>
+		<sprite origin="128,0" offset="64">
+			<picture ref="{HEUER-0001-WINDMILL-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="192,0" offset="80" opposite="true">
+			<picture ref="{HEUER-0001-WINDMILL-PICTURE-0002}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0001-WINDMILL-STRUCTURE-0001}">
+		&h0101;
+		<design>山肌</design>
+		<sprite origin="0,0" offset="64">
+			<picture ref="{HEUER-0001-WINDMILL-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="64,0" offset="80" opposite="true">
+			<picture ref="{HEUER-0001-WINDMILL-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0001-WINDMILL-STRUCTURE-0005}">
+		&h0101;
+		<design>アスファルト</design>
+		<sprite origin="128,0" offset="64">
+			<picture ref="{HEUER-0001-WINDMILL-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="192,0" offset="80" opposite="true">
+			<picture ref="{HEUER-0001-WINDMILL-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+
+
+<!-- 集配所 -->
+	<contribution type="picture" id="{HEUER-0002-BUTURYU-PICTURE-0001}">
+		<picture src="buturyu.bmp">
+			<override when="night" src="buturyu_n.bmp" />
+		</picture>
+	</contribution>	
+	<contribution type="picture" id="{HEUER-0002-BUTURYU-PICTURE-1001}">
+		<picture src="buturyu2.bmp">
+			<override when="night" src="buturyu2_n.bmp" />
+		</picture>
+	</contribution>	
+	<contribution type="GenericStructure" id="{HEUER-0002-BUTURYU-STRUCTURE-0001}">
+		&h0201;
+		&hcB;
+		<price>350000000</price>
+		<size>4,3</size>
+		<height>2</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>70</base>
+		</population>
+		<sprite origin="0,0" offset="57">
+			<picture ref="{HEUER-0002-BUTURYU-PICTURE-1001}"/>
+		</sprite>
+		<sprite origin="112,0" offset="49" opposite="true">
+			<picture ref="{HEUER-0002-BUTURYU-PICTURE-1001}"/>
+		</sprite>
+		<sprite origin="224,0" offset="57">
+			<picture ref="{HEUER-0002-BUTURYU-PICTURE-1001}"/>
+		</sprite>
+		<sprite origin="336,0" offset="49" opposite="true">
+			<picture ref="{HEUER-0002-BUTURYU-PICTURE-1001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0002-BUTURYU-STRUCTURE-0002}">
+		&h0201;
+		&hcB;
+		<price>300000000</price>
+		<size>4,3</size>
+		<height>2</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>60</base>
+		</population>
+		<sprite origin="448,0" offset="57">
+			<picture ref="{HEUER-0002-BUTURYU-PICTURE-1001}"/>
+		</sprite>
+		<sprite origin="560,0" offset="49" opposite="true">
+			<picture ref="{HEUER-0002-BUTURYU-PICTURE-1001}"/>
+		</sprite>
+		<sprite origin="672,0" offset="57">
+			<picture ref="{HEUER-0002-BUTURYU-PICTURE-1001}"/>
+		</sprite>
+		<sprite origin="784,0" offset="49" opposite="true">
+			<picture ref="{HEUER-0002-BUTURYU-PICTURE-1001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0002-BUTURYU-STRUCTURE-0003}">
+		&h0201;
+		<price>700000000</price>
+		<size>4,4</size>
+		<height>2</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>400</base>
+		</population>
+		<sprite origin="0,0" offset="49">
+			<picture ref="{HEUER-0002-BUTURYU-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0002-BUTURYU-STRUCTURE-0004}">
+		&h0201;
+		<price>600000000</price>
+		<size>3,4</size>
+		<height>2</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>300</base>
+		</population>
+		<sprite origin="128,0" offset="49">
+			<picture ref="{HEUER-0002-BUTURYU-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0002-BUTURYU-STRUCTURE-0005}">
+		&h0201;
+		<price>600000000</price>
+		<size>3,4</size>
+		<height>3</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>350</base>
+		</population>
+		<sprite origin="240,0" offset="49">
+			<picture ref="{HEUER-0002-BUTURYU-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+
+
+<!-- 石油タンク -->
+	<contribution type="picture" id="{HEUER-0003-OILTANK-PICTURE-0001}">
+		<picture src="oiltank.bmp">
+		</picture>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0003-OILTANK-PICTURE-0002}">
+		<picture src="oiltank2.bmp">
+		</picture>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0003-OILTANK-STRUCTURE-0001}">
+		&h0301;
+		<price>1000000000</price>
+		<sprite origin="0,0" offset="36">
+			<picture ref="{HEUER-0003-OILTANK-PICTURE-0001}"/>
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>15</base>
+		</population>
+	</contribution>	
+	<contribution type="GenericStructure" id="{HEUER-0003-OILTANK-STRUCTURE-0002}">
+		&h0301;
+		<price>900000000</price>
+		<sprite origin="96,0" offset="36">
+			<picture ref="{HEUER-0003-OILTANK-PICTURE-0001}"/>
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>10</base>
+		</population>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0003-OILTANK-STRUCTURE-0003}">
+		&h0301;
+		<price>800000000</price>
+		<sprite origin="192,0" offset="36">
+			<picture ref="{HEUER-0003-OILTANK-PICTURE-0001}"/>
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>5</base>
+		</population>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0003-OILTANK-STRUCTURE-0004}">
+		&h0302;
+		<price>800000000</price>
+		<sprite origin="416,0" offset="36">
+			<picture ref="{HEUER-0003-OILTANK-PICTURE-0001}"/>
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>10</base>
+		</population>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0003-OILTANK-STRUCTURE-0005}">
+		&h0302;
+		<price>750000000</price>
+		<sprite origin="512,0" offset="36">
+			<picture ref="{HEUER-0003-OILTANK-PICTURE-0001}"/>
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>7</base>
+		</population>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0003-OILTANK-STRUCTURE-0006}">
+		&h0303;
+		<sprite origin="288,0" offset="36">
+			<picture ref="{HEUER-0003-OILTANK-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0003-OILTANK-STRUCTURE-0007}">
+		&h0303;
+		<sprite origin="352,0" offset="36">
+			<picture ref="{HEUER-0003-OILTANK-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0003-OILTANK-STRUCTURE-0008}">
+		&h0306;
+		<sprite origin="0,0" offset="16">
+			<picture ref="{HEUER-0003-OILTANK-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="96,0" offset="16" opposite="true">
+			<picture ref="{HEUER-0003-OILTANK-PICTURE-0002}"/>
+		</sprite>
+	</contribution>
+
+
+<!-- ガスタンク -->
+	<contribution type="picture" id="{HEUER-0003-GASTANK-PICTURE-0001}">
+		<picture src="gastank.bmp">
+		</picture>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0003-GASTANK-STRUCTURE-0001}">
+		&h0304;
+		<sprite origin="128,0" offset="35">
+			<picture ref="{HEUER-0003-GASTANK-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0003-GASTANK-STRUCTURE-0002}">
+		&h0304;
+		<sprite origin="64,0" offset="35">
+			<picture ref="{HEUER-0003-GASTANK-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0003-GASTANK-STRUCTURE-0003}">
+		&h0304;
+		<sprite origin="0,0" offset="35">
+			<picture ref="{HEUER-0003-GASTANK-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+
+
+<!-- 給水塔 -->
+	<contribution type="picture" id="{HEUER-0003-WATERTANK-PICTURE-0001}">
+		<picture src="watertank.bmp">
+		</picture>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0003-WATERTANK-STRUCTURE-0001}">
+		<design>コンクリート製(大)</design>
+		&h0305;
+		&hcwt1;
+		<sprite origin="0,0" offset="24">
+			<picture ref="{HEUER-0003-WATERTANK-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="64,0" offset="24">
+			<picture ref="{HEUER-0003-WATERTANK-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="128,0" offset="24">
+			<picture ref="{HEUER-0003-WATERTANK-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="192,0" offset="24">
+			<picture ref="{HEUER-0003-WATERTANK-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0003-WATERTANK-STRUCTURE-0002}">
+		<design>鋼製(大)</design>
+		&h0305;
+		&hcA;
+		<sprite origin="256,0" offset="24">
+			<picture ref="{HEUER-0003-WATERTANK-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="320,0" offset="24">
+			<picture ref="{HEUER-0003-WATERTANK-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="384,0" offset="24">
+			<picture ref="{HEUER-0003-WATERTANK-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="448,0" offset="24">
+			<picture ref="{HEUER-0003-WATERTANK-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0003-WATERTANK-STRUCTURE-0003}">
+		&h0308;
+		&hcA;
+		<sprite origin="512,0" offset="24">
+			<picture ref="{HEUER-0003-WATERTANK-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+
+
+<!-- 浄水場 -->
+	<contribution type="picture" id="{HEUER-0003-WPP-PICTURE-0001}">
+		<picture src="wpp.bmp">
+		</picture>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0003-WPP-STRUCTURE-0001}">
+		&h0307;
+		&hcA;
+		<sprite origin="0,0" offset="14">
+			<picture ref="{HEUER-0003-WPP-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="48,0" offset="22" opposite="true">
+			<picture ref="{HEUER-0003-WPP-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="96,0" offset="14">
+			<picture ref="{HEUER-0003-WPP-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="144,0" offset="22" opposite="true">
+			<picture ref="{HEUER-0003-WPP-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+
+
+<!-- 治水防波設備 -->
+	<contribution type="picture" id="{HEUER-0004-BREAKWATER-PICTURE-0001}">
+		<picture src="breakwater.bmp">
+		</picture>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0004-BREAKWATER-PICTURE-0002}">
+		<picture src="breakwater2.bmp">
+		</picture>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0004-BREAKWATER-PICTURE-0003}">
+		<picture src="breakwater3.bmp">
+		</picture>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0004-DAM-PICTURE-0001}">
+		<picture src="dam.bmp">
+			<override when="winter" src="dam_w.bmp" />
+		</picture>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0004-DAM-PICTURE-0002}">
+		<picture src="dam2.bmp">
+			<override when="winter" src="dam2_w.bmp" />
+		</picture>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-BREAKWATER-STRUCTURE-0001}">
+		&h0401;
+		<sprite origin="0, 7" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="32, 7" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="64, 7" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="96, 7" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-BREAKWATER-STRUCTURE-0002}">
+		&h0401;
+		<sprite origin="0,40" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="96,40" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="32,40" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="64,40" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-BREAKWATER-STRUCTURE-0003}">
+		&h0401;
+		<sprite origin="0,73" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="96,73" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="32,73" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="64,73" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-BREAKWATER-STRUCTURE-0004}">
+		&h0402;
+		<sprite origin="32,16" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="0,48" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="96,48" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="64,80" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0002}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-BREAKWATER-STRUCTURE-0005}">
+		&h0402;
+		<sprite origin="0,16" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="96,16" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="0,80" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="96,80" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0002}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-BREAKWATER-STRUCTURE-0006}">
+		&h0402;
+		<sprite origin="64,16" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="32,48" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="64,48" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="32,80" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0002}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-BREAKWATER-STRUCTURE-0007}">
+		&h0402;
+		<sprite origin="0,144" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="0,112" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="32,144" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="96,112" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0002}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-BREAKWATER-STRUCTURE-0008}">
+		&h0402;
+		<sprite origin="64,144" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="64,112" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="96,144" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="32,112" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0002}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-BREAKWATER-STRUCTURE-0009}">
+		&h04011;
+		<design>海･砂浜･直線</design>
+		<sprite origin="0,16" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="32,16" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,16" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="96,16" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-BREAKWATER-STRUCTURE-0010}">
+		&h04011;
+		<design>海･砂浜･凸曲</design>
+		<sprite origin="0,48" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="32,48" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,48" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="96,48" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-BREAKWATER-STRUCTURE-0011}">
+		&h04011;
+		<design>海･砂浜･凹曲</design>
+		<sprite origin="0,80" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="32,80" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,80" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="96,80" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-BREAKWATER-STRUCTURE-0012}">
+		&h04011;
+		<design>砂浜のみ･直線</design>
+		<sprite origin="0,112" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="32,112" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,112" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="96,112" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-BREAKWATER-STRUCTURE-0013}">
+		&h04011;
+		<design>砂浜のみ･凸曲</design>
+		<sprite origin="0,144" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="32,144" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,144" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="96,144" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-BREAKWATER-STRUCTURE-0014}">
+		&h04011;
+		<design>砂浜のみ･凹曲</design>
+		<sprite origin="0,176" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="32,176" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,176" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="96,176" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-BREAKWATER-STRUCTURE-0015}">
+		&h04012;
+		<design>海･ﾌﾞﾛｯｸ･直線</design>
+		<sprite origin="0,208" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="32,208" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,208" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="96,208" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-BREAKWATER-STRUCTURE-0016}">
+		&h04012;
+		<design>海･ﾌﾞﾛｯｸ･凸曲</design>
+		<sprite origin="0,240" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="32,240" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,240" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="96,240" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-BREAKWATER-STRUCTURE-0017}">
+		&h04012;
+		<design>海･ﾌﾞﾛｯｸ･凹曲</design>
+		<sprite origin="0,272" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="32,272" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,272" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="96,272" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-BREAKWATER-STRUCTURE-0018}">
+		&h04012;
+		<design>ﾌﾞﾛｯｸのみ･直線</design>
+		<sprite origin="0,304" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="32,304" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,304" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="96,304" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-BREAKWATER-STRUCTURE-0019}">
+		&h04012;
+		<design>ﾌﾞﾛｯｸのみ･凸曲</design>
+		<sprite origin="0,336" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="32,336" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,336" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="96,336" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-BREAKWATER-STRUCTURE-0020}">
+		&h04012;
+		<design>ﾌﾞﾛｯｸのみ･凹曲</design>
+		<sprite origin="0,368" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="32,368" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,368" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="96,368" offset="0">
+			<picture ref="{HEUER-0004-BREAKWATER-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-DAM-STRUCTURE-0001}">
+		&h0403;
+		<design>砂防堰堤</design>
+		<size>1,2</size>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{HEUER-0004-DAM-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="48,0" offset="24" opposite="true">
+			<picture ref="{HEUER-0004-DAM-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="96,0" offset="16">
+			<picture ref="{HEUER-0004-DAM-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="144,0" offset="24" opposite="true">
+			<picture ref="{HEUER-0004-DAM-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-DAM-STRUCTURE-0002}">
+		&h0403;
+		<design>床固工群</design>
+		<size>4,1</size>
+		<sprite origin="0,0" offset="40">
+			<picture ref="{HEUER-0004-DAM-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="240,0" offset="16" opposite="true">
+			<picture ref="{HEUER-0004-DAM-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="480,0" offset="40">
+			<picture ref="{HEUER-0004-DAM-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="720,0" offset="16" opposite="true">
+			<picture ref="{HEUER-0004-DAM-PICTURE-0002}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-DAM-STRUCTURE-0003}">
+		&h0403;
+		<design>床固工群</design>
+		<size>4,1</size>
+		<sprite origin="80,0" offset="40">
+			<picture ref="{HEUER-0004-DAM-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="320,0" offset="16" opposite="true">
+			<picture ref="{HEUER-0004-DAM-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="560,0" offset="40">
+			<picture ref="{HEUER-0004-DAM-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="800,0" offset="16" opposite="true">
+			<picture ref="{HEUER-0004-DAM-PICTURE-0002}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-DAM-STRUCTURE-0004}">
+		&h0403;
+		<design>床固工群</design>
+		<size>4,1</size>
+		<sprite origin="160,0" offset="40">
+			<picture ref="{HEUER-0004-DAM-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="400,0" offset="16" opposite="true">
+			<picture ref="{HEUER-0004-DAM-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="640,0" offset="40">
+			<picture ref="{HEUER-0004-DAM-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="880,0" offset="16" opposite="true">
+			<picture ref="{HEUER-0004-DAM-PICTURE-0002}"/>
+		</sprite>
+	</contribution>
+
+
+<!-- 治山設備 -->
+	<contribution type="picture" id="{HEUER-0004-FRAME-PICTURE-0001}">
+		<picture src="frame.bmp">
+			<override when="summer" src="frame_s.bmp" />
+			<override when="autumn" src="frame_a.bmp" />
+			<override when="winter" src="frame_w.bmp" />
+		</picture>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0004-FRAME-PICTURE-0002}">
+		<picture src="frame2.bmp">
+		</picture>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0004-FRAME-PICTURE-0003}">
+		<picture src="frame3.bmp">
+			<override when="summer" src="frame3_s.bmp" />
+			<override when="autumn" src="frame3_a.bmp" />
+			<override when="winter" src="frame3_w.bmp" />
+		</picture>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0004-FRAME-PICTURE-0004}">
+		<picture src="frame4.bmp">
+			<override when="summer" src="frame4_s.bmp" />
+			<override when="autumn" src="frame4_a.bmp" />
+			<override when="winter" src="frame4_w.bmp" />
+		</picture>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0001}">
+		&h0404;
+		<design>直線</design>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="32,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="32,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0002}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0002}">
+		&h0404;
+		<design>直線(植栽)</design>
+		<sprite origin="0,32" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="32,32" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="32,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0002}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0003}">
+		&h0404;
+		<design>凸曲</design>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="96,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="128,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0002}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0004}">
+		&h0404;
+		<design>凸曲(植栽)</design>
+		<sprite origin="64,32" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="96,32" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="128,32" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0002}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0005}">
+		&h0404;
+		<design>凹曲</design>
+		<sprite origin="160,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="192,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="96,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="224,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0006}">
+		&h0404;
+		<design>凹曲(植栽)</design>
+		<sprite origin="160,32" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="192,32" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="96,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="224,32" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0011}">
+		&h04041;
+		<design>通常/草原</design>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="32,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0012}">
+		&h04041;
+		<design>植栽/草原</design>
+		<sprite origin="96,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="128,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="160,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0013}">
+		&h04041;
+		<design>通常/山肌</design>
+		<sprite origin="0,32" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="32,32" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="64,32" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0014}">
+		&h04041;
+		<design>植栽/山肌</design>
+		<sprite origin="96,32" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="128,32" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="160,32" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-00141}">
+		&h04041;
+		<design>通常/砂利</design>
+		<sprite origin="0,256" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="32,256" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="64,256" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-00142}">
+		&h04041;
+		<design>植栽/砂利</design>
+		<sprite origin="96,256" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="128,256" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="160,256" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-00143}">
+		&h04041;
+		<design>通常/砂浜</design>
+		<sprite origin="0,288" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="32,288" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="64,288" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-00144}">
+		&h04041;
+		<design>植栽/砂浜</design>
+		<sprite origin="96,288" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="128,288" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="160,288" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-00145}">
+		&h04041;
+		<design>通常/水面</design>
+		<sprite origin="0,320" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="32,320" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="64,320" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-00146}">
+		&h04041;
+		<design>植栽/水面</design>
+		<sprite origin="96,320" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="128,320" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="160,320" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0015}">
+		&h04041;
+		<design>通常/アスファルト</design>
+		<sprite origin="0,64" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="32,64" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="64,64" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0016}">
+		&h04041;
+		<design>植栽/アスファルト</design>
+		<sprite origin="96,64" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="128,64" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="160,64" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0017}">
+		&h04041;
+		<design>通常/一車線</design>
+		<sprite origin="0,96" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="32,96" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="64,96" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0018}">
+		&h04041;
+		<design>植栽/一車線</design>
+		<sprite origin="96,96" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="128,96" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="160,96" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0019}">
+		&h04041;
+		<design>通常/白破線</design>
+		<sprite origin="0,128" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="32,128" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="64,128" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0020}">
+		&h04041;
+		<design>植栽/白破線</design>
+		<sprite origin="96,128" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="128,128" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="160,128" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0021}">
+		&h04041;
+		<design>通常/橙実線</design>
+		<sprite origin="0,160" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="32,160" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="64,160" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0022}">
+		&h04041;
+		<design>植栽/橙実線</design>
+		<sprite origin="96,160" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="128,160" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="160,160" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0023}">
+		&h04041;
+		<design>通常/バラスト/砂利</design>
+		<sprite origin="0,192" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="32,192" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="64,192" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0024}">
+		&h04041;
+		<design>植栽/バラスト/砂利</design>
+		<sprite origin="96,192" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="128,192" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="160,192" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0025}">
+		&h04041;
+		<design>通常/バラスト/草原</design>
+		<sprite origin="0,224" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="32,224" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="64,224" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0026}">
+		&h04041;
+		<design>植栽/バラスト/草原</design>
+		<sprite origin="96,224" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="128,224" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="160,224" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0031}">
+		&h04042;
+		<design>通常/草原</design>
+		<sprite origin="192,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="224,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="256,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="288,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0032}">
+		&h04042;
+		<design>植栽/草原</design>
+		<sprite origin="320,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="352,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="384,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="416,0" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0033}">
+		&h04042;
+		<design>通常/山肌</design>
+		<sprite origin="192,32" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="224,32" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="256,32" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="288,32" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0034}">
+		&h04042;
+		<design>植栽/山肌</design>
+		<sprite origin="320,32" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="352,32" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="384,32" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="416,32" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-00341}">
+		&h04042;
+		<design>通常/砂利</design>
+		<sprite origin="192,256" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="224,256" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="256,256" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="288,256" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-00342}">
+		&h04042;
+		<design>植栽/砂利</design>
+		<sprite origin="320,256" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="352,256" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="384,256" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="416,256" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-00343}">
+		&h04042;
+		<design>通常/砂浜</design>
+		<sprite origin="192,288" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="224,288" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="256,288" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="288,288" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-00344}">
+		&h04042;
+		<design>植栽/砂浜</design>
+		<sprite origin="320,288" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="352,288" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="384,288" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="416,288" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-00345}">
+		&h04042;
+		<design>通常/水面</design>
+		<sprite origin="192,320" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="224,320" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="256,320" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="288,320" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-00346}">
+		&h04042;
+		<design>植栽/水面</design>
+		<sprite origin="320,320" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="352,320" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="384,320" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="416,320" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0035}">
+		&h04042;
+		<design>通常/アスファルト</design>
+		<sprite origin="192,64" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="224,64" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="256,64" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="288,64" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0036}">
+		&h04042;
+		<design>植栽/アスファルト</design>
+		<sprite origin="320,64" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="352,64" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="384,64" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="416,64" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0037}">
+		&h04042;
+		<design>通常/一車線</design>
+		<sprite origin="192,96" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="224,96" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="256,96" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="288,96" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0038}">
+		&h04042;
+		<design>植栽/一車線</design>
+		<sprite origin="320,96" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="352,96" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="384,96" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="416,96" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0039}">
+		&h04042;
+		<design>通常/白破線</design>
+		<sprite origin="192,128" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="224,128" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="256,128" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="288,128" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0040}">
+		&h04042;
+		<design>植栽/白破線</design>
+		<sprite origin="320,128" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="352,128" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="384,128" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="416,128" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0041}">
+		&h04042;
+		<design>通常/橙実線</design>
+		<sprite origin="192,160" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="224,160" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="256,160" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="288,160" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0042}">
+		&h04042;
+		<design>植栽/橙実線</design>
+		<sprite origin="320,160" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="352,160" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="384,160" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="416,160" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0043}">
+		&h04042;
+		<design>通常/バラスト/砂利</design>
+		<sprite origin="192,192" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="224,192" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="256,192" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="288,192" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0044}">
+		&h04042;
+		<design>植栽/バラスト/砂利</design>
+		<sprite origin="320,192" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="352,192" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="384,192" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="416,192" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0045}">
+		&h04042;
+		<design>通常/バラスト/草原</design>
+		<sprite origin="192,224" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="224,224" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="256,224" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="288,224" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0046}">
+		&h04042;
+		<design>植栽/バラスト/草原</design>
+		<sprite origin="320,224" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="352,224" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="384,224" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+		<sprite origin="416,224" offset="16">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0003}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0051}">
+		&h04043;
+		<design>通常</design>
+		<sprite origin="0,0" offset="32">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0004}"/>
+		</sprite>
+		<sprite origin="32,0" offset="32">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0004}"/>
+		</sprite>
+		<sprite origin="64,0" offset="32">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0004}"/>
+		</sprite>
+		<sprite origin="96,0" offset="32">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0004}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0004-FRAME-STRUCTURE-0052}">
+		&h04043;
+		<design>植栽</design>
+		<sprite origin="128,0" offset="32">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0004}"/>
+		</sprite>
+		<sprite origin="160,0" offset="32">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0004}"/>
+		</sprite>
+		<sprite origin="192,0" offset="32">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0004}"/>
+		</sprite>
+		<sprite origin="224,0" offset="32">
+			<picture ref="{HEUER-0004-FRAME-PICTURE-0004}"/>
+		</sprite>
+	</contribution>
+
+<!-- 分譲マンション -->
+	<contribution type="picture" id="{HEUER-0007-CONDO-PICTURE-0001}">
+		<picture src="condominium.bmp">
+		</picture>
+	</contribution>	
+	<contribution type="GenericStructure" id="{HEUER-0007-CONDO-STRUCTURE-0001}">
+		&h0701;
+		<pictures>
+			<top    origin="0, 1" offset="40">
+				<picture ref="{HEUER-0007-CONDO-PICTURE-0001}"/>
+			</top>
+			<middle origin="0,70" offset="24">
+				<picture ref="{HEUER-0007-CONDO-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="0,134" offset="24">
+				<picture ref="{HEUER-0007-CONDO-PICTURE-0001}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96, 1" offset="40">
+				<picture ref="{HEUER-0007-CONDO-PICTURE-0001}"/>
+			</top>
+			<middle origin="96,70" offset="24">
+				<picture ref="{HEUER-0007-CONDO-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="96,134" offset="24">
+				<picture ref="{HEUER-0007-CONDO-PICTURE-0001}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0007-CONDO-STRUCTURE-0002}">
+		&h0702;
+		<pictures  opposite="true">
+			<top    origin="272,12" offset="37">
+				<picture ref="{HEUER-0007-CONDO-PICTURE-0001}"/>
+			</top>
+			<middle origin="272,86" offset="16">
+				<picture ref="{HEUER-0007-CONDO-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="272,150" offset="16">
+				<picture ref="{HEUER-0007-CONDO-PICTURE-0001}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="192,12" offset="29">
+				<picture ref="{HEUER-0007-CONDO-PICTURE-0001}"/>
+			</top>
+			<middle origin="192,78" offset="16">
+				<picture ref="{HEUER-0007-CONDO-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="192,142" offset="16">
+				<picture ref="{HEUER-0007-CONDO-PICTURE-0001}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+
+<!-- 火力発電所 -->
+	<contribution type="picture" id="{HEUER-0008-PLANT-PICTURE-0001}">
+		<picture src="powerplant.bmp">
+		</picture>
+	</contribution>	
+	<contribution type="GenericStructure" id="{HEUER-0008-PLANT-STRUCTURE-0001}">
+		&h0801;
+		<sprite origin="0,0" offset="145">
+			<picture ref="{HEUER-0008-PLANT-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="112,0" offset="121" opposite="true">
+			<picture ref="{HEUER-0008-PLANT-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0008-PLANT-STRUCTURE-0002}">
+		&h0802;
+		<sprite origin="224,0" offset="137">
+			<picture ref="{HEUER-0008-PLANT-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="352,0" offset="121" opposite="true">
+			<picture ref="{HEUER-0008-PLANT-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+
+
+<!-- 橋脚 -->
+	<contribution type="picture" id="{HEUER-0010-BRIDGEPIER-PICTURE-0001}">
+		<picture src="bp.bmp">
+		</picture>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0010-BRIDGEPIER-PICTURE-0002}">
+		<picture src="bp_sp.bmp">
+			<override when="summer" src="bp_su.bmp" />
+			<override when="autumn" src="bp_au.bmp" />
+			<override when="winter" src="bp_wi.bmp" />
+		</picture>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0010-BRIDGEPIER-PICTURE-0101}">
+		<picture src="bp2.bmp">
+		</picture>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0010-BRIDGEPIER-PICTURE-0102}">
+		<picture src="bp_sp2.bmp">
+			<override when="summer" src="bp_su2.bmp" />
+			<override when="autumn" src="bp_au2.bmp" />
+			<override when="winter" src="bp_wi2.bmp" />
+		</picture>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0001}">
+		&h1001;
+		<design>通常</design>
+		<pictures>
+			<top    origin="0,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="32,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="0,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="128,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="96,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0002}">
+		&h1001;
+		<design>通常</design>
+		<pictures>
+			<top    origin="0,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="32,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="0,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="128,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="96,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0101}">
+		&h1003;
+		<design>通常</design>
+		<pictures>
+			<top    origin="0,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="0,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="0,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="96,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="96,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0201}">
+		&h1003;
+		<design>通常</design>
+		<pictures>
+			<top    origin="0,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="0,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="0,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="96,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="96,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="0,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="0,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="0,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="96,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="96,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0003}">
+		&h1001;
+		<design>水面</design>
+		<pictures>
+			<top    origin="0,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="32,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="64,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="128,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="160,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0004}">
+		&h1001;
+		<design>水面</design>
+		<pictures>
+			<top    origin="0,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="32,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="64,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="128,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="160,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0102}">
+		&h1003;
+		<design>水面</design>
+		<pictures>
+			<top    origin="0,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="0,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="32,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="96,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="128,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0202}">
+		&h1003;
+		<design>水面</design>
+		<pictures>
+			<top    origin="0,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="0,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="32,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="96,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="128,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="0,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="0,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="32,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="96,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="128,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0005}">
+		&h1001;
+		<design>草原</design>
+		<pictures>
+			<top    origin="0,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="32,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="64,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="128,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="160,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0006}">
+		&h1001;
+		<design>草原</design>
+		<pictures>
+			<top    origin="0,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="32,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="64,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="128,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="160,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0103}">
+		&h1003;
+		<design>草原</design>
+		<pictures>
+			<top    origin="0,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="0,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="64,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="96,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="160,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0203}">
+		&h1003;
+		<design>草原</design>
+		<pictures>
+			<top    origin="0,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="0,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="64,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="96,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="160,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="0,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="0,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="64,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="96,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="160,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0007}">
+		&h1001;
+		<design>山肌</design>
+		<pictures>
+			<top    origin="0,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="32,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="32,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="128,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="128,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0008}">
+		&h1001;
+		<design>山肌</design>
+		<pictures>
+			<top    origin="0,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="32,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="32,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="128,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="128,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0104}">
+		&h1003;
+		<design>山肌</design>
+		<pictures>
+			<top    origin="0,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="0,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="32,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="96,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="128,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0204}">
+		&h1003;
+		<design>山肌</design>
+		<pictures>
+			<top    origin="0,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="0,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="32,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="96,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="128,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="0,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="0,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="32,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="96,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="128,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-00071}">
+		&h1001;
+		<design>山肌(斜面)</design>
+		<pictures>
+			<top    origin="0,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="32,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="0,128" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="0,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="32,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="32,128" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="0,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="32,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="64,128" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="0,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="32,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="96,128" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-00072}">
+		&h1001;
+		<design>山肌(斜面)</design>
+		<pictures>
+			<top    origin="96,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="128,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="0,160" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="128,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="32,160" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="128,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="64,160" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="128,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="96,160" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-00081}">
+		&h1001;
+		<design>山肌(斜面)</design>
+		<pictures>
+			<top    origin="0,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="32,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="0,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="0,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="32,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="32,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="0,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="32,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="64,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="0,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="32,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="96,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-00082}">
+		&h1001;
+		<design>山肌(斜面)</design>
+		<pictures>
+			<top    origin="96,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="128,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="0,96" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="128,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="32,96" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="128,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="64,96" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="128,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="96,96" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-01041}">
+		&h1003;
+		<design>山肌(斜面)</design>
+		<pictures>
+			<top    origin="0,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="0,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="128,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="0,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="0,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="160,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="0,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="0,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="128,96" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="0,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="0,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="160,96" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-01042}">
+		&h1003;
+		<design>山肌(斜面)</design>
+		<pictures>
+			<top    origin="96,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="96,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="128,128" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="96,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="160,128" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="96,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="128,160" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="96,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="160,160" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0009}">
+		&h1001;
+		<design>アスファルト</design>
+		<pictures>
+			<top    origin="0,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="32,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="192,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="128,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="224,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0010}">
+		&h1001;
+		<design>アスファルト</design>
+		<pictures>
+			<top    origin="0,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="32,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="192,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</top>
+			<middle origin="128,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</middle>
+			<bottom origin="224,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0105}">
+		&h1003;
+		<design>アスファルト</design>
+		<pictures>
+			<top    origin="0,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="0,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="64,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="96,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="160,0" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0205}">
+		&h1003;
+		<design>アスファルト</design>
+		<pictures>
+			<top    origin="0,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="0,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="64,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="96,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="160,32" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="0,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="0,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="64,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="96,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</top>
+			<middle origin="96,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</middle>
+			<bottom origin="160,64" offset="16">
+				<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0011}">
+		&h1002;
+		<design>通常</design>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="96,0" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0012}">
+		&h1002;
+		<design>通常</design>
+		<sprite origin="0,32" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="96,32" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0106}">
+		&h1004;
+		<design>通常</design>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+		</sprite>
+		<sprite origin="96,0" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0206}">
+		&h1004;
+		<design>通常</design>
+		<sprite origin="0,32" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+		</sprite>
+		<sprite origin="96,32" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+		</sprite>
+		<sprite origin="0,64" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+		</sprite>
+		<sprite origin="96,64" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0013}">
+		&h1002;
+		<design>水面</design>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="160,0" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0014}">
+		&h1002;
+		<design>水面</design>
+		<sprite origin="64,32" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="160,32" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0107}">
+		&h1004;
+		<design>水面</design>
+		<sprite origin="32,0" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+		</sprite>
+		<sprite origin="128,0" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0207}">
+		&h1004;
+		<design>水面</design>
+		<sprite origin="32,32" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+		</sprite>
+		<sprite origin="128,32" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+		</sprite>
+		<sprite origin="32,64" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+		</sprite>
+		<sprite origin="128,64" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0015}">
+		&h1002;
+		<design>草原</design>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="160,0" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0016}">
+		&h1002;
+		<design>草原</design>
+		<sprite origin="64,32" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="160,32" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0108}">
+		&h1004;
+		<design>草原</design>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+		</sprite>
+		<sprite origin="160,0" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0208}">
+		&h1004;
+		<design>草原</design>
+		<sprite origin="64,32" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+		</sprite>
+		<sprite origin="160,32" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+		</sprite>
+		<sprite origin="64,64" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+		</sprite>
+		<sprite origin="160,64" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0017}">
+		&h1002;
+		<design>山肌</design>
+		<sprite origin="32,0" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="128,0" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0018}">
+		&h1002;
+		<design>山肌</design>
+		<sprite origin="32,32" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="128,32" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0109}">
+		&h1004;
+		<design>山肌</design>
+		<sprite origin="32,0" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+		</sprite>
+		<sprite origin="128,0" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0209}">
+		&h1004;
+		<design>山肌</design>
+		<sprite origin="32,32" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+		</sprite>
+		<sprite origin="128,32" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+		</sprite>
+		<sprite origin="32,64" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+		</sprite>
+		<sprite origin="128,64" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0102}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-00171}">
+		&h1002;
+		<design>山肌(斜面)</design>
+		<sprite origin="0,128" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="32,128" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="64,128" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="96,128" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-00172}">
+		&h1002;
+		<design>山肌(斜面)</design>
+		<sprite origin="0,160" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="32,160" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="64,160" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="96,160" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-00181}">
+		&h1002;
+		<design>山肌(斜面)</design>
+		<sprite origin="0,64" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="32,64" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="64,64" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="96,64" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-00182}">
+		&h1002;
+		<design>山肌(斜面)</design>
+		<sprite origin="0,96" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="32,96" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="64,96" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="96,96" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-01191}">
+		&h1004;
+		<design>山肌(斜面)</design>
+		<sprite origin="128,64" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="160,64" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="128,96" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="160,96" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-01192}">
+		&h1004;
+		<design>山肌(斜面)</design>
+		<sprite origin="128,128" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="160,128" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="128,160" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="160,160" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0002}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0019}">
+		&h1002;
+		<design>アスファルト</design>
+		<sprite origin="192,0" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="224,0" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0020}">
+		&h1002;
+		<design>アスファルト</design>
+		<sprite origin="192,32" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="224,32" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0110}">
+		&h1004;
+		<design>アスファルト</design>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+		</sprite>
+		<sprite origin="160,0" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0010-BRIDGEPIER-STRUCTURE-0210}">
+		&h1004;
+		<design>アスファルト</design>
+		<sprite origin="64,32" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+		</sprite>
+		<sprite origin="160,32" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+		</sprite>
+		<sprite origin="64,64" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+		</sprite>
+		<sprite origin="160,64" offset="16">
+			<picture ref="{HEUER-0010-BRIDGEPIER-PICTURE-0101}"/>
+		</sprite>
+	</contribution>
+
+
+<!-- 自動車学校 -->
+	<contribution type="picture" id="{HEUER-0011-DSCHOOL-PICTURE-0001}">
+		<picture src="ds_corse.bmp">
+			<override when="winter" src="ds_corse_w.bmp" />
+		</picture>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0011-DSCHOOL-PICTURE-0002}">
+		<picture src="ds_school.bmp">
+		</picture>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0011-DSCHOOL-STRUCTURE-0001}">
+		&h1101;
+		<sprite origin="0,0" offset="32">
+			<picture ref="{HEUER-0011-DSCHOOL-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="176,0" offset="40" opposite="true">
+			<picture ref="{HEUER-0011-DSCHOOL-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="352,0" offset="32">
+			<picture ref="{HEUER-0011-DSCHOOL-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="528,0" offset="40" opposite="true">
+			<picture ref="{HEUER-0011-DSCHOOL-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0011-DSCHOOL-STRUCTURE-0002}">
+		<size>1,6</size>
+		&h1102;
+		<sprite origin="0,0" offset="16">
+			<picture ref="{HEUER-0011-DSCHOOL-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="112,0" offset="56" opposite="true">
+			<picture ref="{HEUER-0011-DSCHOOL-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="224,0" offset="16">
+			<picture ref="{HEUER-0011-DSCHOOL-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="336,0" offset="56" opposite="true">
+			<picture ref="{HEUER-0011-DSCHOOL-PICTURE-0002}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0011-DSCHOOL-STRUCTURE-0003}">
+		<size>1,5</size>
+		&h1102;
+		<sprite origin="448,0" offset="24">
+			<picture ref="{HEUER-0011-DSCHOOL-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="544,0" offset="56" opposite="true">
+			<picture ref="{HEUER-0011-DSCHOOL-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="640,0" offset="24">
+			<picture ref="{HEUER-0011-DSCHOOL-PICTURE-0002}"/>
+		</sprite>
+		<sprite origin="736,0" offset="56" opposite="true">
+			<picture ref="{HEUER-0011-DSCHOOL-PICTURE-0002}"/>
+		</sprite>
+	</contribution>
+
+<!-- カントリーエレベーター -->
+	<contribution type="picture" id="{HEUER-0012-CE-PICTURE-0001}">
+		<picture src="ce.bmp">
+		</picture>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-0012-CE-STRUCTURE-0001}">
+		&h1201;
+		<sprite origin="0,0" offset="51">
+			<picture ref="{HEUER-0012-CE-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="96,0" offset="35" opposite="true">
+			<picture ref="{HEUER-0012-CE-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="192,0" offset="51">
+			<picture ref="{HEUER-0012-CE-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="288,0" offset="35" opposite="true">
+			<picture ref="{HEUER-0012-CE-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+
+<!-- 消防署 -->
+	<contribution type="picture" id="{HEUER-1301-FD-PICTURE-0001}">
+		<picture src="fd.bmp">
+		</picture>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-1301-FD-STRUCTURE-0001}">
+		&h1301;
+		<design>消防本部</design>
+		<size>2,2</size>
+		<height>3</height>
+		<price>430000000</price>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>150</base>
+		</population>
+		<sprite origin="0,0" offset="48">
+			<picture ref="{HEUER-1301-FD-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="64,0" offset="48">
+			<picture ref="{HEUER-1301-FD-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="128,0" offset="48">
+			<picture ref="{HEUER-1301-FD-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="192,0" offset="48">
+			<picture ref="{HEUER-1301-FD-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-1301-FD-STRUCTURE-0002}">
+		&h1301;
+		<design>出張所</design>
+		<size>1,1</size>
+		<height>1</height>
+		<price>40000000</price>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>20</base>
+		</population>
+		<sprite origin="0,0" offset="89">
+			<picture ref="{HEUER-1301-FD-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="32,0" offset="89">
+			<picture ref="{HEUER-1301-FD-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="64,0" offset="89">
+			<picture ref="{HEUER-1301-FD-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="96,0" offset="89">
+			<picture ref="{HEUER-1301-FD-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-1301-FD-STRUCTURE-0003}">
+		&h1301;
+		<design>出張所</design>
+		<size>1,1</size>
+		<height>1</height>
+		<price>40000000</price>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>20</base>
+		</population>
+		<sprite origin="128,0" offset="89">
+			<picture ref="{HEUER-1301-FD-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="160,0" offset="89">
+			<picture ref="{HEUER-1301-FD-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="192,0" offset="89">
+			<picture ref="{HEUER-1301-FD-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="224,0" offset="89">
+			<picture ref="{HEUER-1301-FD-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-1301-FD-STRUCTURE-0004}">
+		&h1301;
+		<design>車庫</design>
+		<size>1,1</size>
+		<height>1</height>
+		<price>20000000</price>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>10</base>
+		</population>
+		<sprite origin="0,0" offset="122">
+			<picture ref="{HEUER-1301-FD-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="64,0" offset="122">
+			<picture ref="{HEUER-1301-FD-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="128,0" offset="122">
+			<picture ref="{HEUER-1301-FD-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="192,0" offset="122">
+			<picture ref="{HEUER-1301-FD-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-1301-FD-STRUCTURE-0005}">
+		&h1301;
+		<design>車庫</design>
+		<size>1,1</size>
+		<height>1</height>
+		<price>20000000</price>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>10</base>
+		</population>
+		<sprite origin="32,0" offset="122">
+			<picture ref="{HEUER-1301-FD-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="96,0" offset="122">
+			<picture ref="{HEUER-1301-FD-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="160,0" offset="122">
+			<picture ref="{HEUER-1301-FD-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="224,0" offset="122">
+			<picture ref="{HEUER-1301-FD-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-1301-FD-STRUCTURE-0006}">
+		&h1301;
+		<design>消防団詰所</design>
+		<size>1,1</size>
+		<height>1</height>
+		<price>15000000</price>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>5</base>
+		</population>
+		<sprite origin="0,0" offset="155">
+			<picture ref="{HEUER-1301-FD-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="32,0" offset="155">
+			<picture ref="{HEUER-1301-FD-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="64,0" offset="155">
+			<picture ref="{HEUER-1301-FD-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="96,0" offset="155">
+			<picture ref="{HEUER-1301-FD-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-1301-FD-STRUCTURE-0007}">
+		&h1301;
+		<design>消防団詰所</design>
+		<size>1,1</size>
+		<height>1</height>
+		<price>15000000</price>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>5</base>
+		</population>
+		<sprite origin="128,0" offset="155">
+			<picture ref="{HEUER-1301-FD-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="160,0" offset="155">
+			<picture ref="{HEUER-1301-FD-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="192,0" offset="155">
+			<picture ref="{HEUER-1301-FD-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="224,0" offset="155">
+			<picture ref="{HEUER-1301-FD-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+
+<!-- 警察署 -->
+	<contribution type="picture" id="{HEUER-1401-PD-PICTURE-0001}">
+		<picture src="pd.bmp">
+		</picture>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-1401-PD-STRUCTURE-0001}">
+		&h1401;
+		<design>警察署</design>
+		<size>2,2</size>
+		<height>3</height>
+		<price>270000000</price>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>150</base>
+		</population>
+		<sprite origin="0,0" offset="48">
+			<picture ref="{HEUER-1401-PD-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="64,0" offset="48">
+			<picture ref="{HEUER-1401-PD-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="128,0" offset="48">
+			<picture ref="{HEUER-1401-PD-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="192,0" offset="48">
+			<picture ref="{HEUER-1401-PD-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-1401-PD-STRUCTURE-0004}">
+		&h1401;
+		<design>交番</design>
+		<size>1,1</size>
+		<height>1</height>
+		<price>16000000</price>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>10</base>
+		</population>
+		<sprite origin="0,0" offset="89">
+			<picture ref="{HEUER-1401-PD-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="32,0" offset="89">
+			<picture ref="{HEUER-1401-PD-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="64,0" offset="89">
+			<picture ref="{HEUER-1401-PD-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="96,0" offset="89">
+			<picture ref="{HEUER-1401-PD-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-1401-PD-STRUCTURE-0005}">
+		&h1401;
+		<design>交番</design>
+		<size>1,1</size>
+		<height>1</height>
+		<price>15000000</price>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>10</base>
+		</population>
+		<sprite origin="128,0" offset="89">
+			<picture ref="{HEUER-1401-PD-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="160,0" offset="89">
+			<picture ref="{HEUER-1401-PD-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="192,0" offset="89">
+			<picture ref="{HEUER-1401-PD-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="224,0" offset="89">
+			<picture ref="{HEUER-1401-PD-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+
+<!-- 基地局 -->
+	<contribution type="picture" id="{HEUER-1601-BS-PICTURE-0001}">
+		<picture src="bs.bmp">
+		</picture>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-1601-BS-STRUCTURE-0001}">
+		&h1601;
+		<height>4</height>
+		<price>20000000</price>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>3</base>
+		</population>
+		<sprite origin="0,0" offset="80">
+			<picture ref="{HEUER-1601-BS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="32,0" offset="80">
+			<picture ref="{HEUER-1601-BS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="64,0" offset="80">
+			<picture ref="{HEUER-1601-BS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="96,0" offset="80">
+			<picture ref="{HEUER-1601-BS-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-1602-BS-STRUCTURE-0001}">
+		&h1601;
+		<height>5</height>
+		<price>27000000</price>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>5</base>
+		</population>
+		<sprite origin="128,0" offset="80">
+			<picture ref="{HEUER-1601-BS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="160,0" offset="80">
+			<picture ref="{HEUER-1601-BS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="192,0" offset="80">
+			<picture ref="{HEUER-1601-BS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="224,0" offset="80">
+			<picture ref="{HEUER-1601-BS-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-1603-BS-STRUCTURE-0001}">
+		&h1601;
+		<height>4</height>
+		<price>20000000</price>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>3</base>
+		</population>
+		<sprite origin="256,0" offset="80">
+			<picture ref="{HEUER-1601-BS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="288,0" offset="80">
+			<picture ref="{HEUER-1601-BS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="320,0" offset="80">
+			<picture ref="{HEUER-1601-BS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="352,0" offset="80">
+			<picture ref="{HEUER-1601-BS-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-1604-BS-STRUCTURE-0001}">
+		&h1601;
+		<height>5</height>
+		<price>27000000</price>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>5</base>
+		</population>
+		<sprite origin="384,0" offset="80">
+			<picture ref="{HEUER-1601-BS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="416,0" offset="80">
+			<picture ref="{HEUER-1601-BS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="448,0" offset="80">
+			<picture ref="{HEUER-1601-BS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="480,0" offset="80">
+			<picture ref="{HEUER-1601-BS-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+
+<!-- 自然岩 -->
+	<contribution type="picture" id="{HEUER-1701-ROCKS-PICTURE-0001}">
+		<picture src="rocks.bmp">
+		</picture>
+	</contribution>
+	<contribution type="picture" id="{HEUER-1702-ROCKS-PICTURE-0001}">
+		<picture src="rocks2.bmp">
+			<override when="autumn" src="rocks2_a.bmp" />
+			<override when="winter" src="rocks2_w.bmp" />
+		</picture>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-1701-ROCKS-STRUCTURE-0001}">
+		&h1701;
+		<height>1</height>
+		<sprite origin="0,0" offset="32">
+			<picture ref="{HEUER-1701-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="32,0" offset="32">
+			<picture ref="{HEUER-1701-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="64,0" offset="32">
+			<picture ref="{HEUER-1701-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="96,0" offset="32">
+			<picture ref="{HEUER-1701-ROCKS-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-1701-ROCKS-STRUCTURE-0002}">
+		&h1701;
+		<height>1</height>
+		<sprite origin="128,0" offset="32">
+			<picture ref="{HEUER-1701-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="160,0" offset="32">
+			<picture ref="{HEUER-1701-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="192,0" offset="32">
+			<picture ref="{HEUER-1701-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="224,0" offset="32">
+			<picture ref="{HEUER-1701-ROCKS-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-1701-ROCKS-STRUCTURE-0011}">
+		&h1701;
+		<height>1</height>
+		<sprite origin="256,0" offset="32">
+			<picture ref="{HEUER-1701-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="288,0" offset="32">
+			<picture ref="{HEUER-1701-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="320,0" offset="32">
+			<picture ref="{HEUER-1701-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="352,0" offset="32">
+			<picture ref="{HEUER-1701-ROCKS-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-1701-ROCKS-STRUCTURE-0012}">
+		&h1701;
+		<height>1</height>
+		<sprite origin="384,0" offset="32">
+			<picture ref="{HEUER-1701-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="416,0" offset="32">
+			<picture ref="{HEUER-1701-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="448,0" offset="32">
+			<picture ref="{HEUER-1701-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="480,0" offset="32">
+			<picture ref="{HEUER-1701-ROCKS-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-1701-ROCKS-STRUCTURE-0013}">
+		&h1701;
+		<height>1</height>
+		<sprite origin="512,0" offset="32">
+			<picture ref="{HEUER-1701-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="544,0" offset="32">
+			<picture ref="{HEUER-1701-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="576,0" offset="32">
+			<picture ref="{HEUER-1701-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="608,0" offset="32">
+			<picture ref="{HEUER-1701-ROCKS-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-1701-ROCKS-STRUCTURE-0014}">
+		&h1701;
+		<height>2</height>
+		<sprite origin="640,0" offset="32">
+			<picture ref="{HEUER-1701-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="672,0" offset="32">
+			<picture ref="{HEUER-1701-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="704,0" offset="32">
+			<picture ref="{HEUER-1701-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="736,0" offset="32">
+			<picture ref="{HEUER-1701-ROCKS-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-1701-ROCKS-STRUCTURE-0015}">
+		&h1701;
+		<height>2</height>
+		<sprite origin="768,0" offset="32">
+			<picture ref="{HEUER-1701-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="800,0" offset="32">
+			<picture ref="{HEUER-1701-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="832,0" offset="32">
+			<picture ref="{HEUER-1701-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="864,0" offset="32">
+			<picture ref="{HEUER-1701-ROCKS-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-1701-ROCKS-STRUCTURE-0016}">
+		&h1701;
+		<height>2</height>
+		<sprite origin="896,0" offset="32">
+			<picture ref="{HEUER-1701-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="928,0" offset="32">
+			<picture ref="{HEUER-1701-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="960,0" offset="32">
+			<picture ref="{HEUER-1701-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="992,0" offset="32">
+			<picture ref="{HEUER-1701-ROCKS-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-1702-ROCKS-STRUCTURE-0001}">
+		&h1701;
+		<design>植栽</design>
+		<height>1</height>
+		<sprite origin="0,0" offset="32">
+			<picture ref="{HEUER-1702-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="32,0" offset="32">
+			<picture ref="{HEUER-1702-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="64,0" offset="32">
+			<picture ref="{HEUER-1702-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="96,0" offset="32">
+			<picture ref="{HEUER-1702-ROCKS-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-1702-ROCKS-STRUCTURE-0002}">
+		&h1701;
+		<design>植栽</design>
+		<height>1</height>
+		<sprite origin="128,0" offset="32">
+			<picture ref="{HEUER-1702-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="160,0" offset="32">
+			<picture ref="{HEUER-1702-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="192,0" offset="32">
+			<picture ref="{HEUER-1702-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="224,0" offset="32">
+			<picture ref="{HEUER-1702-ROCKS-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-1702-ROCKS-STRUCTURE-0011}">
+		&h1701;
+		<design>植栽</design>
+		<height>1</height>
+		<sprite origin="256,0" offset="32">
+			<picture ref="{HEUER-1702-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="288,0" offset="32">
+			<picture ref="{HEUER-1702-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="320,0" offset="32">
+			<picture ref="{HEUER-1702-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="352,0" offset="32">
+			<picture ref="{HEUER-1702-ROCKS-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-1702-ROCKS-STRUCTURE-0012}">
+		&h1701;
+		<design>植栽</design>
+		<height>1</height>
+		<sprite origin="384,0" offset="32">
+			<picture ref="{HEUER-1702-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="416,0" offset="32">
+			<picture ref="{HEUER-1702-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="448,0" offset="32">
+			<picture ref="{HEUER-1702-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="480,0" offset="32">
+			<picture ref="{HEUER-1702-ROCKS-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-1702-ROCKS-STRUCTURE-0013}">
+		&h1701;
+		<design>植栽</design>
+		<height>1</height>
+		<sprite origin="512,0" offset="32">
+			<picture ref="{HEUER-1702-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="544,0" offset="32">
+			<picture ref="{HEUER-1702-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="576,0" offset="32">
+			<picture ref="{HEUER-1702-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="608,0" offset="32">
+			<picture ref="{HEUER-1702-ROCKS-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-1702-ROCKS-STRUCTURE-0014}">
+		&h1701;
+		<design>植栽</design>
+		<height>2</height>
+		<sprite origin="640,0" offset="32">
+			<picture ref="{HEUER-1702-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="672,0" offset="32">
+			<picture ref="{HEUER-1702-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="704,0" offset="32">
+			<picture ref="{HEUER-1702-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="736,0" offset="32">
+			<picture ref="{HEUER-1702-ROCKS-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-1702-ROCKS-STRUCTURE-0015}">
+		&h1701;
+		<design>植栽</design>
+		<height>2</height>
+		<sprite origin="768,0" offset="32">
+			<picture ref="{HEUER-1702-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="800,0" offset="32">
+			<picture ref="{HEUER-1702-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="832,0" offset="32">
+			<picture ref="{HEUER-1702-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="864,0" offset="32">
+			<picture ref="{HEUER-1702-ROCKS-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+	<contribution type="GenericStructure" id="{HEUER-1702-ROCKS-STRUCTURE-0016}">
+		&h1701;
+		<design>植栽</design>
+		<height>2</height>
+		<sprite origin="896,0" offset="32">
+			<picture ref="{HEUER-1702-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="928,0" offset="32">
+			<picture ref="{HEUER-1702-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="960,0" offset="32">
+			<picture ref="{HEUER-1702-ROCKS-PICTURE-0001}"/>
+		</sprite>
+		<sprite origin="992,0" offset="32">
+			<picture ref="{HEUER-1702-ROCKS-PICTURE-0001}"/>
+		</sprite>
+	</contribution>
+
+<!-- 半ボクセル花壇 -->
+	<contribution type="picture" id="{HEUER-1501-HVF-PICTURE-0001}">
+		<picture src="hvflower.bmp">
+			<override when="summer" src="hvflower_s.bmp" />
+			<override when="autumn" src="hvflower_a.bmp" />
+			<override when="winter" src="hvflower_w.bmp" />
+		</picture>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{HEUER-1501-HVF-STRUCTURE-0001}">
+		&h1501;
+		<name>小</name>
+		<price>200000</price>
+		<sprite>
+			<picture ref="{HEUER-1501-HVF-PICTURE-0001}"/>
+			<map from="0,0,*" to="{COLORLIB-PASTEL}"/>
+			<pattern direction="west" side="either" origin="0,0"/>
+			<pattern direction="south" side="either" origin="24,0"/>
+			<pattern direction="east" side="either" origin="48,0"/>
+			<pattern direction="north" side="either" origin="72,0"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{HEUER-1501-HVF-STRUCTURE-0002}">
+		&h1501;
+		<name>小</name>
+		<price>200000</price>
+		<sprite>
+			<picture ref="{HEUER-1501-HVF-PICTURE-0001}"/>
+			<map from="0,0,*" to="{COLORLIB-PASTEL}"/>
+			<pattern direction="west" side="either" origin="0,24"/>
+			<pattern direction="south" side="either" origin="24,24"/>
+			<pattern direction="east" side="either" origin="48,24"/>
+			<pattern direction="north" side="either" origin="72,24"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{HEUER-1501-HVF-STRUCTURE-0003}">
+		&h1501;
+		<name>小</name>
+		<price>200000</price>
+		<sprite>
+			<picture ref="{HEUER-1501-HVF-PICTURE-0001}"/>
+			<map from="0,0,*" to="{COLORLIB-PASTEL}"/>
+			<pattern direction="west" side="either" origin="0,48"/>
+			<pattern direction="south" side="either" origin="24,48"/>
+			<pattern direction="east" side="either" origin="48,48"/>
+			<pattern direction="north" side="either" origin="72,48"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{HEUER-1501-HVF-STRUCTURE-0004}">
+		&h1501;
+		<name>大</name>
+		<price>300000</price>
+		<sprite>
+			<picture ref="{HEUER-1501-HVF-PICTURE-0001}"/>
+			<map from="0,0,*" to="{COLORLIB-PASTEL}"/>
+			<pattern direction="west" side="either" origin="0,72"/>
+			<pattern direction="south" side="either" origin="24,72"/>
+			<pattern direction="east" side="either" origin="48,72"/>
+			<pattern direction="north" side="either" origin="72,72"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{HEUER-1501-HVF-STRUCTURE-0005}">
+		&h1501;
+		<name>大</name>
+		<price>300000</price>
+		<sprite>
+			<picture ref="{HEUER-1501-HVF-PICTURE-0001}"/>
+			<map from="0,0,*" to="{COLORLIB-PASTEL}"/>
+			<pattern direction="west" side="either" origin="0,96"/>
+			<pattern direction="south" side="either" origin="24,96"/>
+			<pattern direction="east" side="either" origin="48,96"/>
+			<pattern direction="north" side="either" origin="72,96"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{HEUER-1501-HVF-STRUCTURE-0006}">
+		&h1501;
+		<name>芝</name>
+		<price>150000</price>
+		<sprite>
+			<picture ref="{HEUER-1501-HVF-PICTURE-0001}"/>
+			<pattern direction="west" side="either" origin="0,120"/>
+			<pattern direction="south" side="either" origin="24,120"/>
+			<pattern direction="east" side="either" origin="48,120"/>
+			<pattern direction="north" side="either" origin="72,120"/>
+		</sprite>
+	</contribution>
+
+<!-- 半ボクセル水路 -->
+	<contribution type="picture" id="{HEUER-1502-HVM-PICTURE-0001}">
+		<picture src="hvmillrace.bmp">
+			<override when="summer" src="hvmillrace_s.bmp" />
+			<override when="autumn" src="hvmillrace_a.bmp" />
+			<override when="winter" src="hvmillrace_w.bmp" />
+		</picture>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{HEUER-1502-HVM-STRUCTURE-0001}">
+		&h1502;
+		<name>直線</name>
+		<price>300000</price>
+		<sprite>
+			<picture ref="{HEUER-1502-HVM-PICTURE-0001}"/>
+			<pattern direction="west" side="either" origin="0,0"/>
+			<pattern direction="south" side="either" origin="24,0"/>
+			<pattern direction="east" side="either" origin="48,0"/>
+			<pattern direction="north" side="either" origin="72,0"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{HEUER-1502-HVM-STRUCTURE-0002}">
+		&h1502;
+		<name>直線</name>
+		<price>150000</price>
+		<sprite>
+			<picture ref="{HEUER-1502-HVM-PICTURE-0001}"/>
+			<pattern direction="west" side="either" origin="0,24"/>
+			<pattern direction="south" side="either" origin="24,24"/>
+			<pattern direction="east" side="either" origin="48,24"/>
+			<pattern direction="north" side="either" origin="72,24"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{HEUER-1502-HVM-STRUCTURE-0003}">
+		&h1502;
+		<name>カーブ</name>
+		<price>300000</price>
+		<sprite>
+			<picture ref="{HEUER-1502-HVM-PICTURE-0001}"/>
+			<pattern direction="west" side="either" origin="0,48"/>
+			<pattern direction="south" side="either" origin="24,48"/>
+			<pattern direction="east" side="either" origin="48,48"/>
+			<pattern direction="north" side="either" origin="72,48"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{HEUER-1502-HVM-STRUCTURE-0004}">
+		&h1502;
+		<name>カーブ</name>
+		<price>300000</price>
+		<sprite>
+			<picture ref="{HEUER-1502-HVM-PICTURE-0001}"/>
+			<pattern direction="west" side="either" origin="0,72"/>
+			<pattern direction="south" side="either" origin="24,72"/>
+			<pattern direction="east" side="either" origin="48,72"/>
+			<pattern direction="north" side="either" origin="72,72"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{HEUER-1502-HVM-STRUCTURE-0005}">
+		&h1502;
+		<name>カーブ</name>
+		<price>150000</price>
+		<sprite>
+			<picture ref="{HEUER-1502-HVM-PICTURE-0001}"/>
+			<pattern direction="west" side="either" origin="0,96"/>
+			<pattern direction="south" side="either" origin="24,96"/>
+			<pattern direction="east" side="either" origin="48,96"/>
+			<pattern direction="north" side="either" origin="72,96"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{HEUER-1502-HVM-STRUCTURE-0006}">
+		&h1502;
+		<name>カーブ</name>
+		<price>150000</price>
+		<sprite>
+			<picture ref="{HEUER-1502-HVM-PICTURE-0001}"/>
+			<pattern direction="west" side="either" origin="0,120"/>
+			<pattern direction="south" side="either" origin="24,120"/>
+			<pattern direction="east" side="either" origin="48,120"/>
+			<pattern direction="north" side="either" origin="72,120"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{HEUER-1502-HVM-STRUCTURE-0007}">
+		&h1502;
+		<name>三叉路</name>
+		<price>350000</price>
+		<sprite>
+			<picture ref="{HEUER-1502-HVM-PICTURE-0001}"/>
+			<pattern direction="west" side="either" origin="0,144"/>
+			<pattern direction="south" side="either" origin="24,144"/>
+			<pattern direction="east" side="either" origin="48,144"/>
+			<pattern direction="north" side="either" origin="72,144"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{HEUER-1502-HVM-STRUCTURE-0008}">
+		&h1502;
+		<name>三叉路</name>
+		<price>350000</price>
+		<sprite>
+			<picture ref="{HEUER-1502-HVM-PICTURE-0001}"/>
+			<pattern direction="west" side="either" origin="0,168"/>
+			<pattern direction="south" side="either" origin="24,168"/>
+			<pattern direction="east" side="either" origin="48,168"/>
+			<pattern direction="north" side="either" origin="72,168"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{HEUER-1502-HVM-STRUCTURE-0009}">
+		&h1502;
+		<name>十字路</name>
+		<price>400000</price>
+		<sprite>
+			<picture ref="{HEUER-1502-HVM-PICTURE-0001}"/>
+			<pattern direction="west" side="either" origin="0,192"/>
+			<pattern direction="south" side="either" origin="24,192"/>
+			<pattern direction="east" side="either" origin="48,192"/>
+			<pattern direction="north" side="either" origin="72,192"/>
+		</sprite>
+	</contribution>
+
+<!-- 半ボクセル樹木 -->
+	<contribution type="picture" id="{HEUER-1503-HVT-PICTURE-0001}">
+		<picture src="hvtrees.bmp">
+			<override when="summer" src="hvtrees_s.bmp" />
+			<override when="autumn" src="hvtrees_a.bmp" />
+			<override when="winter" src="hvtrees_w.bmp" />
+		</picture>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{HEUER-1503-HVT-STRUCTURE-0001}">
+		&h1503;
+		<name>植木</name>
+		<price>500000</price>
+		<sprite>
+			<picture ref="{HEUER-1503-HVT-PICTURE-0001}"/>
+			<pattern direction="west" side="either" origin="0,0"/>
+			<pattern direction="south" side="either" origin="24,0"/>
+			<pattern direction="east" side="either" origin="48,0"/>
+			<pattern direction="north" side="either" origin="72,0"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{HEUER-1503-HVT-STRUCTURE-0002}">
+		&h1503;
+		<name>植木</name>
+		<price>600000</price>
+		<sprite>
+			<picture ref="{HEUER-1503-HVT-PICTURE-0001}"/>
+			<pattern direction="west" side="either" origin="0,24"/>
+			<pattern direction="south" side="either" origin="24,24"/>
+			<pattern direction="east" side="either" origin="48,24"/>
+			<pattern direction="north" side="either" origin="72,24"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{HEUER-1503-HVT-STRUCTURE-0003}">
+		&h1503;
+		<name>庭木</name>
+		<price>1000000</price>
+		<sprite>
+			<picture ref="{HEUER-1503-HVT-PICTURE-0001}"/>
+			<pattern direction="west" side="either" origin="0,48"/>
+			<pattern direction="south" side="either" origin="24,48"/>
+			<pattern direction="east" side="either" origin="48,48"/>
+			<pattern direction="north" side="either" origin="72,48"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{HEUER-1503-HVT-STRUCTURE-0004}">
+		&h1503;
+		<name>庭木</name>
+		<price>1200000</price>
+		<sprite>
+			<picture ref="{HEUER-1503-HVT-PICTURE-0001}"/>
+			<pattern direction="west" side="either" origin="0,72"/>
+			<pattern direction="south" side="either" origin="24,72"/>
+			<pattern direction="east" side="either" origin="48,72"/>
+			<pattern direction="north" side="either" origin="72,72"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{HEUER-1503-HVT-STRUCTURE-0005}">
+		&h1503;
+		<name>庭木</name>
+		<price>1000000</price>
+		<sprite>
+			<picture ref="{HEUER-1503-HVT-PICTURE-0001}"/>
+			<pattern direction="west" side="either" origin="0,96"/>
+			<pattern direction="south" side="either" origin="24,96"/>
+			<pattern direction="east" side="either" origin="48,96"/>
+			<pattern direction="north" side="either" origin="72,96"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{HEUER-1503-HVT-STRUCTURE-0006}">
+		&h1503;
+		<name>庭木</name>
+		<price>1200000</price>
+		<sprite>
+			<picture ref="{HEUER-1503-HVT-PICTURE-0001}"/>
+			<pattern direction="west" side="either" origin="0,120"/>
+			<pattern direction="south" side="either" origin="24,120"/>
+			<pattern direction="east" side="either" origin="48,120"/>
+			<pattern direction="north" side="either" origin="72,120"/>
+		</sprite>
+	</contribution>
+
+<!-- 半ボクセル階段 -->
+	<contribution type="picture" id="{HEUER-1504-HVS-PICTURE-0001}">
+		<picture src="hvstairs.bmp">
+		</picture>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{HEUER-1504-HVS-STRUCTURE-0001}">
+		&h1504;
+		<name>A</name>
+		<price>1000000</price>
+		<sprite>
+			<picture ref="{HEUER-1504-HVS-PICTURE-0001}"/>
+			<map from="0,0,*" to="{COLORLIB-DIRTS}"/>
+			<pattern direction="west" side="either" origin="0,0"/>
+			<pattern direction="south" side="either" origin="24,0"/>
+			<pattern direction="east" side="either" origin="48,0"/>
+			<pattern direction="north" side="either" origin="72,0"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{HEUER-1504-HVS-STRUCTURE-0002}">
+		&h1504;
+		<name>B</name>
+		<price>1100000</price>
+		<sprite>
+			<picture ref="{HEUER-1504-HVS-PICTURE-0001}"/>
+			<map from="0,0,*" to="{COLORLIB-DIRTS}"/>
+			<pattern direction="west" side="either" origin="96,0"/>
+			<pattern direction="south" side="either" origin="120,0"/>
+			<pattern direction="east" side="either" origin="144,0"/>
+			<pattern direction="north" side="either" origin="168,0"/>
+		</sprite>
+	</contribution>
+
+<!-- 半ボクセル斜面 -->
+	<contribution type="picture" id="{HEUER-1505-HVM-PICTURE-0001}">
+		<picture src="hvmt.bmp">
+			<override when="summer" src="hvmt_s.bmp" />
+			<override when="autumn" src="hvmt_a.bmp" />
+			<override when="winter" src="hvmt_w.bmp" />
+		</picture>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{HEUER-1505-HVM-STRUCTURE-0001}">
+		&h1505;
+		<name>山肌</name>
+		<price>600000</price>
+		<sprite>
+			<picture ref="{HEUER-1505-HVM-PICTURE-0001}"/>
+			<map from="0,0,*" to="{COLORLIB-DIRTS}"/>
+			<pattern direction="west" side="either" origin="0,0"/>
+			<pattern direction="south" side="either" origin="24,0"/>
+			<pattern direction="east" side="either" origin="48,0"/>
+			<pattern direction="north" side="either" origin="72,0"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{HEUER-1505-HVM-STRUCTURE-0002}">
+		&h1505;
+		<name>山肌/雑草</name>
+		<price>650000</price>
+		<sprite>
+			<picture ref="{HEUER-1505-HVM-PICTURE-0001}"/>
+			<map from="0,0,*" to="{COLORLIB-DIRTS}"/>
+			<pattern direction="west" side="either" origin="0,0"/>
+			<pattern direction="south" side="either" origin="24,0"/>
+			<pattern direction="east" side="either" origin="96,0"/>
+			<pattern direction="north" side="either" origin="120,0"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{HEUER-1505-HVM-STRUCTURE-0003}">
+		&h1505;
+		<name>法枠</name>
+		<price>750000</price>
+		<sprite>
+			<picture ref="{HEUER-1505-HVM-PICTURE-0001}"/>
+			<map from="0,0,*" to="{COLORLIB-DIRTS}"/>
+			<pattern direction="west" side="either" origin="0,0"/>
+			<pattern direction="south" side="either" origin="24,0"/>
+			<pattern direction="east" side="either" origin="144,0"/>
+			<pattern direction="north" side="either" origin="168,0"/>
+		</sprite>
+	</contribution>
+</plug-in>

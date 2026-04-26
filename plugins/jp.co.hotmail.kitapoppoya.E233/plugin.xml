@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+<plug-in>
+  <title>E233系パック</title> 
+  <author>北の汽車屋</author> 
+  <homepage>http://www.geocities.jp/kitapoppoya/</homepage> 
+<!-- E233中央線先頭車 --> 
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-E233CH-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="E233Chuo_a.bmp" /> 
+  </sprite>
+  <capacity>142</capacity> 
+  <seatedcapacity>39</seatedcapacity> 
+  </contribution>
+<!-- E233中央線最後尾車 -->
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-E233CH-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{5ACFD81E-6A4E-4981-AEAF-D-E233CH-A}"/> 
+  </contribution> 
+<!-- E233中央線中間車-->
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-E233CH-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="E233Chuo_b.bmp" /> 
+  </sprite>
+  <capacity>160</capacity> 
+  <seatedcapacity>54</seatedcapacity> 
+  </contribution>
+<!-- E233京浜東北線先頭車 --> 
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-E233KT-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="E233KT_a.bmp" /> 
+  </sprite>
+  <capacity>142</capacity> 
+  <seatedcapacity>39</seatedcapacity> 
+  </contribution>
+<!-- E233京浜東北線最後尾車 -->
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-E233KT-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{5ACFD81E-6A4E-4981-AEAF-D-E233KT-A}"/> 
+  </contribution> 
+<!-- E233京浜東北線中間車-->
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-E233KT-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="E233KT_b.bmp" /> 
+  </sprite>
+  <capacity>160</capacity> 
+  <seatedcapacity>54</seatedcapacity> 
+  </contribution>
+<!-- E233常磐緩行先頭車 --> 
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-E233JO-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="E233Joban_a.bmp" /> 
+  </sprite>
+  <capacity>141</capacity> 
+  <seatedcapacity>46</seatedcapacity> 
+  </contribution>
+<!-- E233常磐緩行最後尾車 -->
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-E233JO-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{5ACFD81E-6A4E-4981-AEAF-D-E233JO-A}"/> 
+  </contribution> 
+<!-- E233常磐緩行中間車-->
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-E233JO-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="E233Joban_b.bmp" /> 
+  </sprite>
+  <capacity>156</capacity> 
+  <seatedcapacity>54</seatedcapacity> 
+  </contribution>
+
+  <contribution type="train" id="{5ACFD81E-6A4E-4981-AEAF-D-E233CHUO}">
+<company>JR東日本</company>
+<type>E233系</type>
+<name>中央･総武快速線</name>
+<author>北の汽車屋</author>
+<description>201系置き換えのため登場した新形式。E231系で習得した新機軸が導入されている。
+</description>
+<fare>400</fare>
+<price>28000000</price>
+<amenity>100</amenity>
+<speed>medium</speed>
+ <class name="freetrain.contributions.train.ParamTrainImpl"/>
+ <composition>
+   <head carRef="{5ACFD81E-6A4E-4981-AEAF-D-E233CH-A}"/>
+   <body carRef="{5ACFD81E-6A4E-4981-AEAF-D-E233CH-C}"/>
+   <tail carRef="{5ACFD81E-6A4E-4981-AEAF-D-E233CH-B}"/>
+ </composition>
+</contribution>
+  <contribution type="train" id="{5ACFD81E-6A4E-4981-AEAF-D-E233KEHINTOHOKU}">
+<company>JR東日本</company>
+<type>E233系</type>
+<name>京浜東北線</name>
+<author>北の汽車屋</author>
+<description>209系置き換えのため登場した新形式。E231系で習得した新機軸が導入されている。
+</description>
+<fare>400</fare>
+<price>28000000</price>
+<amenity>100</amenity>
+<speed>medium</speed>
+ <class name="freetrain.contributions.train.ParamTrainImpl"/>
+ <composition>
+   <head carRef="{5ACFD81E-6A4E-4981-AEAF-D-E233KT-A}"/>
+   <body carRef="{5ACFD81E-6A4E-4981-AEAF-D-E233KT-C}"/>
+   <tail carRef="{5ACFD81E-6A4E-4981-AEAF-D-E233KT-B}"/>
+ </composition>
+</contribution>
+ <contribution type="train" id="{5ACFD81E-6A4E-4981-AEAF-D-E233JOBAN}">
+<company>JR東日本</company>
+<type>E233系</type>
+<name>常磐緩行･千代田線</name>
+<author>北の汽車屋</author>
+<description>203系置き換えのため登場した新形式。胴体はE231系800番台や209系1000番台と同様一般形である。
+</description>
+<fare>400</fare>
+<price>30000000</price>
+<amenity>100</amenity>
+<speed>medium</speed>
+ <class name="freetrain.contributions.train.ParamTrainImpl"/>
+ <composition>
+   <head carRef="{5ACFD81E-6A4E-4981-AEAF-D-E233JO-A}"/>
+   <body carRef="{5ACFD81E-6A4E-4981-AEAF-D-E233JO-C}"/>
+   <tail carRef="{5ACFD81E-6A4E-4981-AEAF-D-E233JO-B}"/>
+ </composition>
+</contribution>
+</plug-in>

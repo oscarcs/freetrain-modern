@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+
+<plug-in>
+	<title>建物セット</title>
+	<author>烈火</author>
+	<homepage></homepage>
+
+	<contribution type="picture" id="{rk-tateya-tutaya004-cg-001-te}">
+		<picture src="goruhu01a.bmp">
+			<override when="night" src="goruhu01a.bmp"/>
+		</picture>
+	</contribution>
+	<contribution type="picture" id="{rk-tateya-tutaya004-cg-001}">
+		<picture src="goruhu01a.bmp">
+		</picture>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{rk-tateya-tutaya004-001}">
+
+		<name>ゴルフ練習場</name>
+		<price>28000000</price>
+		<size>3,3</size>
+		<height>2</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>62</base>
+		</population>
+		<design>ゴルフ練習場</design>
+		<structure>
+			<category  byname="ゴルフ場"/>
+		</structure>
+		<sprite origin="0,0" offset="28">
+			<picture ref="{rk-tateya-tutaya004-cg-001}"/>
+		</sprite>
+		<sprite origin="96,0" offset="28">
+			<picture ref="{rk-tateya-tutaya004-cg-001}"/>
+		</sprite>
+
+	</contribution>
+
+</plug-in>

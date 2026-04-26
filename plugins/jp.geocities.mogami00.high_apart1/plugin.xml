@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+ <plug-in>
+  <title>5×3高層マンション</title> 
+  <author>モガミ</author> 
+  <homepage>http://www.geocities.jp/mogami00/Kamikazekensetu.html</homepage> 
+  <contribution type="picture" id="{64F7FED7-F1E5-4256-ADD3-60C1008D9573}">
+  <picture src="high_apart1.bmp" /> 
+  </contribution>
+  <contribution type="commercial" id="{062B8F4A-F404-4B74-B40E-D8F44124A050}">
+  <group>5×3高層マンション</group> 
+  <price>1200000000</price> 
+  <size>5,3</size> 
+  <structure>
+  <category byname="分譲マンション" /> 
+  </structure>
+  <height>12</height> 
+  <population>
+  <class name="freetrain.contributions.population.OfficePopulation" /> 
+  <base>2100</base> 
+  </population>
+  <sprite origin="0,0" offset="201">
+  <picture ref="{64F7FED7-F1E5-4256-ADD3-60C1008D9573}" /> 
+  </sprite>
+　<computerCannotBuild />
+  </contribution>
+  </plug-in>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>木造民家</title>
+	<author>toaru</author>
+	<homepage>-</homepage>
+		
+<contribution type="picture" id="{545D87D8-C1BF-4116-AEE6-FBB97785F0D8}">
+		<picture src="11-12.bmp">
+		<override when="night" src="11-12_n.bmp" />	
+		</picture>
+</contribution>
+	
+<contribution type="GenericStructure" id="{0E3165AC-1650-4CA1-A897-09E08BF36EFC}">
+	<name>木造民家</name>
+	<price>5000000</price>
+	<size>1,1</size>
+	<structure>
+		<category byname="一戸建て"/>
+	</structure>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.ResidentialPopulation"/>
+		<base>5</base>
+	</population>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{545D87D8-C1BF-4116-AEE6-FBB97785F0D8}"/>
+		</sprite>
+		<sprite origin="0,32" offset="16">
+			<picture ref="{545D87D8-C1BF-4116-AEE6-FBB97785F0D8}"/>
+		</sprite>
+		<sprite origin="32,0" offset="16">
+			<picture ref="{545D87D8-C1BF-4116-AEE6-FBB97785F0D8}"/>
+		</sprite>
+		<sprite origin="32,32" offset="16">
+			<picture ref="{545D87D8-C1BF-4116-AEE6-FBB97785F0D8}"/>
+		</sprite>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="154,154,154"/>
+		<map from="0,*,0" to="243,152,53"/>
+	</spriteType>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="64,104,104"/>
+		<map from="0,*,0" to="243,152,53"/>
+	</spriteType>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="147,82,98"/>
+		<map from="0,*,0" to="243,152,53"/>
+	</spriteType>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="200,54,54"/>
+		<map from="0,*,0" to="243,152,53"/>
+	</spriteType>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="64,54,54"/>
+		<map from="0,*,0" to="243,152,53"/>
+	</spriteType>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="225,92,28"/>
+		<map from="0,*,0" to="243,252,153"/>
+	</spriteType>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="223,167,192"/>
+		<map from="0,*,0" to="243,152,53"/>
+	</spriteType>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="114,199,196"/>
+		<map from="0,*,0" to="243,152,53"/>
+	</spriteType>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="33,152,12"/>
+		<map from="0,*,0" to="243,152,53"/>
+	</spriteType>
+
+
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="154,154,154"/>
+		<map from="0,*,0" to="160,152,53"/>
+	</spriteType>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="64,104,104"/>
+		<map from="0,*,0" to="160,152,53"/>
+	</spriteType>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="225,92,28"/>
+		<map from="0,*,0" to="243,252,153"/>
+	</spriteType>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="200,54,54"/>
+		<map from="0,*,0" to="160,152,53"/>
+	</spriteType>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="64,54,54"/>
+		<map from="0,*,0" to="160,152,53"/>
+	</spriteType>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="147,82,98"/>
+		<map from="0,*,0" to="160,152,53"/>
+	</spriteType>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="223,167,192"/>
+		<map from="0,*,0" to="160,152,53"/>
+	</spriteType>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="114,199,196"/>
+		<map from="0,*,0" to="160,152,53"/>
+	</spriteType>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="33,152,12"/>
+		<map from="0,*,0" to="160,152,53"/>
+	</spriteType>
+	</contribution>
+
+</plug-in>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>建物総合コンバート　ては</title>
+	<author>りおりお</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+	<depend on="jp.zaq.pant012.structure.baseballstadium" />
+
+	<contribution type="picture" id="{riorio-gs-convert-teha-picture-baseballstadium}">
+		<picture src="../jp.zaq.pant012.structure.baseballstadium/baseballstadium.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-teha-picture-ground}">
+		<picture src="../jp.zaq.pant012.structure.baseballstadium/ground1.bmp" />
+			<override when="summer" src="../jp.zaq.pant012.structure.baseballstadium/ground2.bmp" />
+	</contribution>
+	
+	<contribution type="GenericStructure" id="{hanshin-yuusyou-mezasite-gangare}-gs">
+		<group>野球場</group>
+		<price>50000000</price>
+		<size>7,7</size>
+		<height>2</height>
+		<structure>
+			<category byname="プロ野球場" />
+		</structure>
+		<sprite origin="0,0" offset="47">
+		<picture ref="{riorio-gs-convert-teha-picture-baseballstadium}" />
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{nekoneko-nyanyanya-ground-overridtest}-gs">
+		<name>多目的グラウンド</name>
+		<price>10000000</price>
+		<size>2,4</size>
+		<height>2</height>
+		<structure>
+			<category byname="一般球技場" />
+		</structure>
+		<sprite origin="0,0" offset="18">
+		<picture ref="{riorio-gs-convert-teha-picture-ground}" >
+		</picture>
+		</sprite>
+	</contribution>
+</plug-in>

@@ -1,0 +1,7 @@
+\.svn
+.csproj
+\obj
+\src
+.cs
+.cpp
+.resx

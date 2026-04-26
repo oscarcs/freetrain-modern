@@ -1,0 +1,79 @@
+<!-- 営団01系先頭車 --> 
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1F-91-EIDAN01-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="eidan01_a.bmp" /> 
+  </sprite>
+  <capacity>140</capacity> 
+  </contribution>
+<!-- 営団01系最後尾車 -->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1F-91-EIDAN01-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{757F660D-9BC9-48E4-9E1F-91-EIDAN01-A}"/> 
+  <capacity>140</capacity> 
+  </contribution> 
+<!-- 営団01系中間車-->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1F-91-EIDAN01-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="eidan01_b.bmp" /> 
+  </sprite>
+  <capacity>150</capacity> 
+  </contribution>
+<!-- 営団02系先頭車 --> 
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1F-91-EIDAN02-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="eidan02_a.bmp" /> 
+  </sprite>
+  <capacity>140</capacity> 
+  </contribution>
+<!-- 営団02系最後尾車 -->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1F-91-EIDAN02-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{757F660D-9BC9-48E4-9E1F-91-EIDAN02-A}"/> 
+  <capacity>140</capacity> 
+  </contribution> 
+<!-- 営団02系中間車-->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1F-91-EIDAN02-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="eidan02_b.bmp" /> 
+  </sprite>
+  <capacity>150</capacity> 
+  </contribution>
+
+<contribution type="train" id="{757F660D-9BC9-48E4-9E1F-91-EIDAN01-W}">
+<company>帝都高速度交通営団</company>
+<type>01系</type>
+<name>銀座線</name>
+<author>北の汽車屋</author>
+<description>旧型車置き換えのために登場した銀座線車両。置き換えはすでに完了している。小型断面のために冷房不可といわれていたこの路線を冷房化したのは紛れもなくこの車両である。
+</description>
+<fare>500</fare>
+<price>90</price>
+<speed>medium</speed>
+ <class name="freetrain.contributions.train.ParamTrainImpl"/>
+ <composition>
+   <head carRef="{757F660D-9BC9-48E4-9E1F-91-EIDAN01-A}"/>
+   <body carRef="{757F660D-9BC9-48E4-9E1F-91-EIDAN01-C}"/>
+   <tail carRef="{757F660D-9BC9-48E4-9E1F-91-EIDAN01-B}"/>
+ </composition>
+</contribution>
+  <contribution type="train" id="{757F660D-9BC9-48E4-9E1F-91-EIDAN02-W}">
+<company>帝都高速度交通営団</company>
+<type>02系</type>
+<name>丸の内線</name>
+<author>北の汽車屋</author>
+<description>旧型車置き換えのために登場した丸の内線車両。置き換えはすでに完了している。小型断面のために冷房不可といわれていたこの路線を冷房化したのは紛れもなくこの車両である。
+</description>
+<fare>500</fare>
+<price>90</price>
+<speed>medium</speed>
+ <class name="freetrain.contributions.train.ParamTrainImpl"/>
+ <composition>
+   <head carRef="{757F660D-9BC9-48E4-9E1F-91-EIDAN02-A}"/>
+   <body carRef="{757F660D-9BC9-48E4-9E1F-91-EIDAN02-C}"/>
+   <tail carRef="{757F660D-9BC9-48E4-9E1F-91-EIDAN02-B}"/>
+ </composition>
+</contribution>

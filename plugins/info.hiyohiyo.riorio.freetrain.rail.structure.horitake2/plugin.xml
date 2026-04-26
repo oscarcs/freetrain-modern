@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plug-in [
+	<!ENTITY unmannedRailStop "
+		<price>100000</price>
+		<size>1,1</size>
+		<height>1</height>
+	">
+]>
+<plug-in>
+	<title>鉄道施設プラグイン　車止め砂利</title>
+	<author>りおりお←綾瀬ヒロ・花菱烈火</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+
+	<contribution type="picture" id="{000000-2002-riorio-AYASE-HORITAKE-RailStructure-img02}">
+		<picture src="stoprail2a.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{000000-2002-riorio-AYASE-HanabishiRekka-RailStructure-img03}">
+		<picture src="stoprail2b.bmp" />
+	</contribution>
+
+	<contribution type="railStationary" id="{66D8CEFC-riorio-HORITAKE-44E9-BA8E-53F2986E3D8F}">
+		<group>車止め(砂利)</group>
+		&unmannedRailStop;
+		<sprite origin="0,0" offset="0">
+			<picture ref="{000000-2002-riorio-AYASE-HORITAKE-RailStructure-img02}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{60EA6394-riorio-HORITAKE-4C97-822C-1B06458D42B4}">
+		<group>車止め(砂利)</group>
+		&unmannedRailStop;
+		<sprite origin="32,0" offset="0">
+			<picture ref="{000000-2002-riorio-AYASE-HORITAKE-RailStructure-img02}"/>
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{988C4797-riorio-HORITAKE-478F-BB3D-34F1E1ACD2D5}">
+		<group>車止め(砂利)</group>
+		&unmannedRailStop;
+		<sprite origin="64,0" offset="0">
+			<picture ref="{000000-2002-riorio-AYASE-HORITAKE-RailStructure-img02}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{5A9F67BA-riorio-HORITAKE-4248-A6AA-FE2CFBA0C76F}">
+		<group>車止め(砂利)</group>
+		&unmannedRailStop;
+		<sprite origin="96,0" offset="0">
+			<picture ref="{000000-2002-riorio-AYASE-HORITAKE-RailStructure-img02}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-AYASE-RailStructure-stoprail-1B9F9EACA126}-01">
+		<group>車止め(砂利)</group>
+		&unmannedRailStop;
+		<sprite origin="0,0" offset="0">
+			<picture ref="{000000-2002-riorio-AYASE-HanabishiRekka-RailStructure-img03}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-AYASE-RailStructure-stoprail-1B9F9EACA126}-02">
+		<group>車止め(砂利)</group>
+		&unmannedRailStop;
+		<sprite origin="32,0" offset="0">
+			<picture ref="{000000-2002-riorio-AYASE-HanabishiRekka-RailStructure-img03}"/>
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{riorio-AYASE-RailStructure-stoprail-1B9F9EACA126}-03">
+		<group>車止め(砂利)</group>
+		&unmannedRailStop;
+		<sprite origin="64,0" offset="0">
+			<picture ref="{000000-2002-riorio-AYASE-HanabishiRekka-RailStructure-img03}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-AYASE-RailStructure-stoprail-1B9F9EACA126}-04">
+		<group>車止め(砂利)</group>
+		&unmannedRailStop;
+		<sprite origin="96,0" offset="0">
+			<picture ref="{000000-2002-riorio-AYASE-HanabishiRekka-RailStructure-img03}"/>
+		</sprite>
+	</contribution>
+
+</plug-in>

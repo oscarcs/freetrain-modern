@@ -1,0 +1,53 @@
+# Build outputs
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+arm64/
+
+# .NET / NuGet
+*.nupkg
+*.snupkg
+packages/
+TestResults/
+coverage/
+coverage.*
+*.coverage
+*.coveragexml
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+*.user
+*.userosscache
+*.suo
+*.ncb
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+*.rsuser
+*.sln.docstates
+
+# Generated files
+*.log
+*.tmp
+*.temp
+*~
+\#*\#
+.\#*
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Keep vendored legacy runtime dependencies that are part of the source drop.
+!extlib/**/*.dll
+!extlib/**/*.DLL
+!lib/**/*.dll
+!lib/**/*.DLL

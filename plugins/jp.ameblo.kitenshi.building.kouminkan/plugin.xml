@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+
+<plug-in>
+
+<title>公民館</title>
+
+<author>げんき</author>
+
+<homepage>http://www19.atwiki.jp/freetrain-exav/pages/1.html</homepage>
+
+<contribution type="picture" id="{0FD0AE8B-75FE-4831-9828-31747A7F4EBB}">
+ <picture src="kouminkan.bmp" /> 
+</contribution>
+
+<contribution type="GenericStructure" id="{B615E561-5E57-4FCE-8F5C-17DA82C3470C}">
+
+<group>公民館</group>
+
+<structure>
+  　<category byname="集会所" /> 
+  </structure>
+
+<size>1,1</size>
+
+<price>20000000</price>
+
+<height>1</height>
+
+<sprite origin="0,0" offset="47">
+   <picture ref="{0FD0AE8B-75FE-4831-9828-31747A7F4EBB}" /> 
+  </sprite>
+
+</contribution>
+
+</plug-in>

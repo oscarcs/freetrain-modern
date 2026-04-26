@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+<title>700T型</title>
+<author>Tyousen121</author>
+<homepage>http://www.geocities.jp/m3685jp/</homepage>
+	
+<contribution type="trainCar" id="{tyousen-700T-free-train-projectA}">
+<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+<sprite origin="0,0">
+<picture src="700T1.bmp" />
+</sprite>
+<capacity>85</capacity>
+<seatedcapacity>85</seatedcapacity>
+</contribution>
+
+<contribution type="trainCar" id="{tyousen-700T-free-train-projectB}">
+<class name="freetrain.contributions.train.SymTrainCarImpl" />
+<sprite origin="0,0">
+<picture src="700T2.bmp" />
+</sprite>
+<capacity>85</capacity>
+<seatedcapacity>85</seatedcapacity>
+</contribution>
+
+<contribution type="trainCar" id="{tyousen-700T-free-train-projectC}">
+<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+<base carRef="{tyousen-700T-free-train-projectA}" />  
+</contribution> 
+
+<contribution type="train" id="{tyousen-121-700T-train-projectZ}">
+<name></name>
+		<fare>1000</fare>
+		<price>70000000</price>
+		<amenity>130</amenity>
+<speed>superb</speed>
+<author>Tyousen121</author>
+<type>700T型</type>
+<company>台湾高速鉄道</company>
+<description>
+初の輸出用新幹線車両として、700系新幹線車両をベースに製造された。
+700系の編成に対し、700T型は12両編成である。
+</description>
+<triprange>long</triprange>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<config>
+<car char="1" ref="{tyousen-700T-free-train-projectA}"/>
+<car char="2" ref="{tyousen-700T-free-train-projectB}"/>
+<car char="3" ref="{tyousen-700T-free-train-projectC}"/> 
+<composition>122222222223</composition>
+</config>
+</contribution>
+
+</plug-in>

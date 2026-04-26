@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plug-in [
+<!ENTITY suisha '
+	<group>水車小屋</group>
+	<price>300000</price>
+	<size>1,1</size>
+	<structure>
+		<category byname="一戸建て"/>
+	</structure>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.ResidentialPopulation"/>
+		<base>6</base>
+	</population>
+
+'>]>
+
+<plug-in>
+	<title>水車小屋</title>
+	<author>Hermes</author>
+	<homepage>nothing</homepage>
+		
+	<contribution type="picture" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E997}">
+		<picture src="suishaA.bmp"/>
+                        <override when="winter" src="suishaAWIN.bmp" />
+	</contribution>
+
+	
+	<contribution type="GenericStructure" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E998}">
+		&suisha;
+		<sprite origin="0,0" offset="16">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E997}"/>
+		</sprite>
+		<sprite origin="32,0" offset="16">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E997}"/>
+		</sprite>
+	</contribution>
+
+</plug-in>

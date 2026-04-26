@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+  <!-- 209系500番台総武線先頭車 -->
+  <contribution type="trainCar" id="{CyberExpress1703d-209-500-Sobu}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+		<spriteType name="colorMapped">
+			<map from="255,64,96" to="240,224,0"/>
+		</spriteType>
+      <picture ref="{CyberExpress1703d-209-500-Keiyo}-h" />
+    </sprite>
+    <capacity>142</capacity>
+    <seatedcapacity>43</seatedcapacity>
+  </contribution>
+
+  <!-- 209系500番台総武線中間車 -->
+  <contribution type="trainCar" id="{CyberExpress1703d-209-500-Sobu}-m">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+		<spriteType name="colorMapped">
+			<map from="255,64,96" to="240,224,0"/>
+		</spriteType>
+      <picture ref="{CyberExpress1703d-209-500-Keiyo}-m" />
+    </sprite>
+    <capacity>160</capacity>
+    <seatedcapacity>54</seatedcapacity>
+  </contribution>
+
+  <!-- 209系500番台総武線後尾車 -->
+  <contribution type="trainCar" id="{CyberExpress1703d-209-500-Sobu}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{CyberExpress1703d-209-500-Sobu}-h" />
+  </contribution>
+
+  <!-- 209系500番台総武線 -->
+  <contribution type="train" id="{CyberExpress1703d-209-500-Sobu}">
+    <company>JR東日本</company>
+    <type>209系500番台</type>
+    <name>中央・総武線</name>
+    <author>いっちー</author>
+    <description>立川～千葉間の中央線・総武線を走る幅広車体の209系です。</description>
+    <fare>400</fare>
+    <price>25000000</price>
+	<amenity>100</amenity>
+    <speed>medium</speed>
+    <class name="freetrain.contributions.train.ParamTrainImpl" />
+    <composition>
+      <head carRef="{CyberExpress1703d-209-500-Sobu}-h" />
+      <body carRef="{CyberExpress1703d-209-500-Sobu}-m" />
+      <tail carRef="{CyberExpress1703d-209-500-Sobu}-t" />
+    </composition>
+  </contribution>

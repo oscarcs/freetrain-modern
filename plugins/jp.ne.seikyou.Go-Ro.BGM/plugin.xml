@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>BGM(FreeTrain-想作館)</title>
+	<author>haru</author>
+	<homepage>http://hb4.seikyou.ne.jp/home/Go-Ro/FreeTrain/</homepage>
+
+	
+	<contribution type="bgm" id="{445_FT-bgm-C000-0000-4C8B212Dharu}">
+		<name>VALLEY TRAIN</name>
+		<author>haru</author>
+		<href>445_FT.mid</href>
+	</contribution>
+	
+	
+	<contribution type="bgm" id="{473_FT-bgm-C000-0000-4C8B212Dharu}">
+		<name>摩天楼</name>
+		<author>haru</author>
+		<href>473_FT.mid</href>
+	</contribution>
+	
+</plug-in>

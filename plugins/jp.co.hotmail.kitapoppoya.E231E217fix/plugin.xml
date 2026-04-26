@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+<plug-in>
+  <title>E231系・E217系FIXEDver</title>
+  <author>北の汽車屋</author>
+  <homepage></homepage>
+<!-- 209系500番台総武先頭車 --> 
+  <contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1-209500SOUBU-A}">
+  <class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+  <sprite origin="0,0">
+  <picture src="209500soubu_a.bmp" />
+  </sprite>
+  <capacity>146</capacity>
+    <seatedcapacity>48</seatedcapacity>
+<!-- 209系500番台総武最後尾車 --> 
+　</contribution>
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1-209500SOUBU-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{757F660D-9BC9-48E4-9E1-209500SOUBU-A}"/> 
+</contribution>
+<!-- 209系500番台総武中間車-->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1-209500SOUBU-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+  <sprite origin="0,0">
+  <picture src="209500_E231soubu_b.bmp" /> 
+  </sprite>
+  <capacity>156</capacity> 
+    <seatedcapacity>54</seatedcapacity>
+  </contribution>
+<!-- 209500番台先頭車 --> 
+  <contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1-209500KEHIN-A}">
+  <class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="209500Kehin_a.bmp" /> 
+  </sprite>
+  <capacity>146</capacity> 
+    <seatedcapacity>48</seatedcapacity>
+  </contribution>
+<!-- 209500番台総武最後尾車 -->
+  <contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1-209500KEHIN-B}">
+  <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{757F660D-9BC9-48E4-9E1-209500KEHIN-A}"/> 
+  </contribution> 
+<!-- 209系500番台総武中間車-->
+  <contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1-209500KEHIN-C}">
+  <class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+  <sprite origin="0,0">
+  <picture src="209500_Kehin_b.bmp" /> 
+  </sprite>
+  <capacity>156</capacity> 
+    <seatedcapacity>54</seatedcapacity>
+  </contribution>
+<!-- E231系総武先頭車 --> 
+  <contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1F3-E231SOUBU-A}">
+  <class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+  <sprite origin="0,0">
+  <picture src="E231soubu_a.bmp" /> 
+  </sprite>
+  <capacity>146</capacity> 
+    <seatedcapacity>48</seatedcapacity>
+  </contribution>
+<!-- E231系総武最後尾車 -->
+  <contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1F3-E231SOUBU-B}">
+  <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{757F660D-9BC9-48E4-9E1F3-E231SOUBU-A}"/> 
+  </contribution> 
+<!-- E231系総武中間車-->
+  <contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1F3-E231SOUBU-C}">
+  <class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="209500_E231soubu_b.bmp" /> 
+  </sprite>
+  <capacity>156</capacity> 
+    <seatedcapacity>54</seatedcapacity>
+  </contribution>
+<!-- E231系常磐先頭車 --> 
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1F3-E231JOBAN-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="E231joban_a.bmp" /> 
+  </sprite>
+  <capacity>146</capacity> 
+    <seatedcapacity>48</seatedcapacity>
+  </contribution>
+<!-- E231系常磐最後尾車 -->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1F3-E231JOBAN-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{757F660D-9BC9-48E4-9E1F3-E231JOBAN-A}"/> 
+  </contribution> 
+<!-- E231系常磐中間車-->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1F3-E231JOBAN-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="E231joban_b.bmp" /> 
+  </sprite>
+  <capacity>156</capacity> 
+    <seatedcapacity>54</seatedcapacity>
+  </contribution>
+
+<!-- E231系500番台先頭車 --> 
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1F3-E231500-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="E231500_a.bmp" /> 
+  </sprite>
+  <capacity>146</capacity> 
+    <seatedcapacity>48</seatedcapacity>
+  </contribution>
+<!-- E231系500番台最後尾車 -->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1F3-E231500-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{757F660D-9BC9-48E4-9E1F3-E231500-A}"/> 
+  </contribution> 
+<!-- E231系500番台中間車-->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1F3-E231500-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="E231500_b.bmp" /> 
+  </sprite>
+  <capacity>156</capacity> 
+    <seatedcapacity>54</seatedcapacity>
+  </contribution>
+
+<!-- E231系宇都宮高崎先頭車 --> 
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1-E231TOKAIDO-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="E231tokaido_a.bmp" /> 
+  </sprite>
+  <capacity>142</capacity> 
+    <seatedcapacity>48</seatedcapacity>
+  </contribution>
+<!-- E231系宇都宮高崎最後尾車 -->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1-E231TOKAIDO-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{757F660D-9BC9-48E4-9E1-E231TOKAIDO-A}"/> 
+  </contribution> 
+<!-- E231系宇都宮高崎中間車-->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1-E231TOKAIDO-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="E231tokaido_b.bmp" /> 
+  </sprite>
+  <capacity>162</capacity> 
+  <seatedcapacity>64</seatedcapacity> 
+  </contribution>
+<!-- E231東海道先頭車 --> 
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-E231TOKAIDO-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="E231tokaido_a.bmp" /> 
+  </sprite>
+  <capacity>142</capacity> 
+    <seatedcapacity>48</seatedcapacity>
+  </contribution>
+<!-- E231東海道最後尾車 -->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-E231TOKAIDO-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{669D5BDE-23F1-43BD-AC36-E231TOKAIDO-A}" />  
+  </contribution> 
+<!--E231東海道中間車-->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-E231TOKAIDO-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="E231tokaido_b.bmp" /> 
+  </sprite>
+  <capacity>162</capacity> 
+  <seatedcapacity>64</seatedcapacity> 
+  </contribution>
+<!--E231東海道グリーン-->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-E231TOKAIDO-G}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="saroE230tokaido.bmp" /> 
+  </sprite>
+  <capacity>90</capacity> 
+  <seatedcapacity>90</seatedcapacity> 
+  </contribution>
+<!-- E217先頭車東海道 --> 
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-E217TOKAIDO-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="E217tokaido_a.bmp" /> 
+  </sprite>
+  <capacity>142</capacity> 
+  <seatedcapacity>54</seatedcapacity> 
+  </contribution>
+<!-- E217最後尾車東海道 -->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-E217TOKAIDO-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{669D5BDE-23F1-43BD-AC36-E217TOKAIDO-A}" />  
+  </contribution> 
+<!--E217中間車東海道-->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-E217TOKAIDO-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="E217tokaido_b.bmp" /> 
+  </sprite>
+  <capacity>162</capacity> 
+  <seatedcapacity>64</seatedcapacity> 
+  </contribution>
+<!--E217G車東海道-->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-E217TOKAIDO-G}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="saroE217tokaido.bmp" /> 
+  </sprite>
+  <capacity>90</capacity> 
+  <seatedcapacity>90</seatedcapacity> 
+  </contribution>
+
+ <contribution type="train" id="{57644AE6-7FFA-A231-8FE0-75-209500SOUBU}">
+<company>JR東日本</company>
+<type>209系500番台</type>
+<name>中央・総武線（緩行）</name>
+<author>北の汽車屋</author>
+<description>旧式化した初期型103系置き換えのため登場。同線のE231とは前面が少し違う。</description>
+<fare>400</fare>
+<price>25000000</price>
+<amenity>100</amenity>
+<speed>medium</speed>
+<composition>
+<head carRef="{757F660D-9BC9-48E4-9E1-209500SOUBU-A}"/>
+<body carRef="{757F660D-9BC9-48E4-9E1-209500SOUBU-C}"/>
+<tail carRef="{757F660D-9BC9-48E4-9E1-209500SOUBU-B}"/>
+</composition>
+</contribution> 
+ <contribution type="train" id="{57644AE6-7FFA-A231-8FE0-75-209500KEHIN}">
+<company>JR東日本</company>
+<type>209系500番台</type>
+<name>京浜東北線</name>
+<author>北の汽車屋</author>
+<description>中央・総武緩行線に導入された209系500番台のうち、新型ATCのﾃｽﾄのため、ニ編成が京浜東北線に移籍した。先任の209系と同じ青い帯を巻いて活躍中。</description>
+<fare>400</fare>
+<price>25000000</price>
+<amenity>100</amenity>
+<speed>medium</speed>
+<composition>
+<head carRef="{757F660D-9BC9-48E4-9E1-209500KEHIN-A}"/>
+<body carRef="{757F660D-9BC9-48E4-9E1-209500KEHIN-C}"/>
+<tail carRef="{757F660D-9BC9-48E4-9E1-209500KEHIN-B}"/>
+</composition>
+</contribution> 
+ <contribution type="train" id="{57644AE6-7FFA-A231-8FE0-7567-E231SOUBU}">
+<company>JR東日本</company>
+<type>E231系(fixed by kitapoppoya)</type>
+<name>中央・総武線（緩行）</name>
+<author>北の汽車屋</author>
+<description>209系500番台導入後、残された高運転台103系と205系の置き換えのため登場。209系500番代とは車体は共通。</description>
+<fare>400</fare>
+<price>28000000</price>
+<amenity>100</amenity>
+<speed>medium</speed>
+<composition>
+<head carRef="{757F660D-9BC9-48E4-9E1F3-E231SOUBU-A}"/>
+<body carRef="{757F660D-9BC9-48E4-9E1F3-E231SOUBU-C}"/>
+<tail carRef="{757F660D-9BC9-48E4-9E1F3-E231SOUBU-B}"/>
+</composition>
+</contribution>
+ <contribution type="train" id="{57644AE6-7FFA-A231-8FE0-7567-E231JOBAN}"> 
+<company>JR東日本</company>
+<type>E231系(fixed by kitapoppoya)</type>
+<name>常磐快速線</name>
+<author>北の汽車屋</author>
+<description>取手以南の103系置き換えのため導入が開始された。無論、直流区間でしか走行できない。</description>
+<fare>400</fare>
+<price>28000000</price>
+<amenity>100</amenity>
+<speed>medium</speed>
+<composition>
+<head carRef="{757F660D-9BC9-48E4-9E1F3-E231JOBAN-A}"/>
+<body carRef="{757F660D-9BC9-48E4-9E1F3-E231JOBAN-C}"/>
+<tail carRef="{757F660D-9BC9-48E4-9E1F3-E231JOBAN-B}"/>
+</composition>
+</contribution>
+<contribution type="train" id="{57644AE6-7FFA-A231-8FE0-7567-E231500}"> 
+<company>JR東日本</company>
+<type>E231系500番台(fixed by kitapoppoya)</type>
+<name>山手線</name>
+<author>北の汽車屋</author>
+<description>山手線のサービス向上と経年化した205系の他線区への捻出を目的として製造された車両。</description>
+<fare>400</fare>
+<price>28000000</price>
+<amenity>100</amenity>
+<speed>medium</speed>
+<composition>
+<head carRef="{757F660D-9BC9-48E4-9E1F3-E231500-A}"/>
+<body carRef="{757F660D-9BC9-48E4-9E1F3-E231500-C}"/>
+<tail carRef="{757F660D-9BC9-48E4-9E1F3-E231500-B}"/>
+</composition>
+</contribution>
+ <contribution type="train" id="{57644AE6-7FFA-A231-8FE0-75-E231TOKAIDO}">
+<company>JR東日本</company>
+<type>E231系(fixed by kitapoppoya)</type>
+<name>宇都宮・高崎線</name>
+<author>北の汽車屋</author>
+<description>113･115系置き換えのために登場した、E231系初の近郊型。こちらはWデッカーグリーン車を挟まない。</description>
+<fare>500</fare>
+<price>35000000</price>
+<amenity>100</amenity>
+<triprange>middle</triprange>
+<speed>medium</speed>
+<composition>
+<head carRef="{757F660D-9BC9-48E4-9E1-E231TOKAIDO-A}"/>
+<body carRef="{757F660D-9BC9-48E4-9E1-E231TOKAIDO-C}"/>
+<tail carRef="{757F660D-9BC9-48E4-9E1-E231TOKAIDO-B}"/>
+</composition>
+</contribution>
+ <contribution type="train" id="{669D5BDE-23F1-43BD-AC36-B-E231TOKAIDO}">
+<company>JR東日本</company>
+<type>E231系(fixed by kitapoppoya)</type>
+<name>東海道線</name>
+<author>北の汽車屋</author>
+<description>113･115系置き換えのために登場した、E231系初の近郊型。東海道口の車両にはWデッカーのグリーン車が二両組み込まれている。
+</description>
+<fare>550</fare>
+<price>38500000</price>
+<amenity>110</amenity>
+<triprange>middle</triprange>
+<speed>medium</speed>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<config>
+<car char="A" ref="{669D5BDE-23F1-43BD-AC36-E231TOKAIDO-A}"/>
+<car char="C" ref="{669D5BDE-23F1-43BD-AC36-E231TOKAIDO-C}"/>
+<car char="B" ref="{669D5BDE-23F1-43BD-AC36-E231TOKAIDO-B}"/> 
+<car char="G" ref="{669D5BDE-23F1-43BD-AC36-E231TOKAIDO-G}"/> 
+<composition>ACCCB</composition>
+<composition>ACCGGCCCCB</composition>
+<composition>ACCCBACCGGCCCCB</composition>
+</config>
+</contribution>
+ <contribution type="train" id="{669D5BDE-23F1-43BD-AC36-B-E217TOKAIDO}">
+<company>JR東日本</company>
+<type>E217系</type>
+<name>東海道線</name>
+<author>北の汽車屋</author>
+<description>東海道線に移籍したE217系。最初はおふざけで作ったつもりだったんだけど、まさか現実になろうとは・・・。
+</description>
+<fare>550</fare>
+<price>38500000</price>
+<triprange>middle</triprange>
+<amenity>110</amenity>
+<speed>medium</speed>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<config>
+<car char="A" ref="{669D5BDE-23F1-43BD-AC36-E217TOKAIDO-A}"/>
+<car char="C" ref="{669D5BDE-23F1-43BD-AC36-E217TOKAIDO-C}"/>
+<car char="B" ref="{669D5BDE-23F1-43BD-AC36-E217TOKAIDO-B}"/> 
+<car char="G" ref="{669D5BDE-23F1-43BD-AC36-E217TOKAIDO-G}"/> 
+<composition>ACCB</composition>
+<composition>ACCCB</composition>
+<composition>ACCBACCB</composition>
+<composition>ACCGGCCCCB</composition>
+<composition>ACCBACCBACCB</composition>
+<composition>ACCCBACCGGCCCCB</composition>
+</config>
+</contribution>
+</plug-in>

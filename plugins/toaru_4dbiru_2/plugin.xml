@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>一般ビル１（４方向）</title>
+	<author>toaru</author>
+	<homepage> / </homepage>
+
+<contribution type="picture" id="{toaru-building-ippan2-picture-E7D95B0D8FCE}">
+		<picture src="4houkoubiru2.bmp">
+			<override when="night" src="4houkoubiru2_n.bmp" />
+		</picture>
+</contribution>
+	
+<contribution type="GenericStructure" id="{toaru-building-ippan2-gs01-E7D95B0D8FCE-1}">
+		<name>一般ビル2</name>
+		<price>160000000</price>
+		<size>1,1</size>
+		<structure>
+			<category byname="貸事務所"/>
+		</structure>
+		<height>3</height>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>70</base>
+		</population>
+		<sprite origin="0,0" offset="47">
+			<picture ref="{toaru-building-ippan2-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="32,0" offset="47">
+			<picture ref="{toaru-building-ippan2-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="0,64" offset="47">
+			<picture ref="{toaru-building-ippan2-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="32,64" offset="47">
+			<picture ref="{toaru-building-ippan2-picture-E7D95B0D8FCE}"/>
+		</sprite>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,255,255"/>
+		<map from="0,0,*" to="192,136,126"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="192,136,126"/>
+		<map from="0,0,*" to="122,79,31"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="122,79,31"/>
+		<map from="0,0,*" to="255,255,255"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="154,159,180"/>
+		<map from="0,0,*" to="201,195,141"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="201,195,141"/>
+		<map from="0,0,*" to="60,60,60"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="60,60,60"/>
+		<map from="0,0,*" to="154,159,180"/>
+	</spriteType>
+</contribution>
+
+<contribution type="GenericStructure" id="{toaru-building-ippan2-gs01-E7D95B0D8FCE-2}">
+		<name>一般ビル2</name>
+		<price>160000000</price>
+		<size>1,1</size>
+		<structure>
+			<category byname="貸事務所"/>
+		</structure>
+		<height>3</height>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>70</base>
+		</population>
+		<sprite origin="64,0" offset="47">
+			<picture ref="{toaru-building-ippan2-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="96,0" offset="47">
+			<picture ref="{toaru-building-ippan2-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="64,64" offset="47">
+			<picture ref="{toaru-building-ippan2-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="96,64" offset="47">
+			<picture ref="{toaru-building-ippan2-picture-E7D95B0D8FCE}"/>
+		</sprite>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,255,255"/>
+		<map from="0,0,*" to="192,136,126"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="192,136,126"/>
+		<map from="0,0,*" to="122,79,31"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="122,79,31"/>
+		<map from="0,0,*" to="255,255,255"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="154,159,180"/>
+		<map from="0,0,*" to="201,195,141"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="201,195,141"/>
+		<map from="0,0,*" to="60,60,60"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="60,60,60"/>
+		<map from="0,0,*" to="154,159,180"/>
+	</spriteType>
+</contribution>
+
+<contribution type="GenericStructure" id="{toaru-building-ippan2-gs01-E7D95B0D8FCE-3}">
+		<name>一般ビル2</name>
+		<price>160000000</price>
+		<size>1,1</size>
+		<structure>
+			<category byname="貸事務所"/>
+		</structure>
+		<height>3</height>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>70</base>
+		</population>
+		<sprite origin="128,0" offset="47">
+			<picture ref="{toaru-building-ippan2-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="160,0" offset="47">
+			<picture ref="{toaru-building-ippan2-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="128,64" offset="47">
+			<picture ref="{toaru-building-ippan2-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="160,64" offset="47">
+			<picture ref="{toaru-building-ippan2-picture-E7D95B0D8FCE}"/>
+		</sprite>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,255,255"/>
+		<map from="0,0,*" to="192,136,126"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="192,136,126"/>
+		<map from="0,0,*" to="122,79,31"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="122,79,31"/>
+		<map from="0,0,*" to="255,255,255"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="154,159,180"/>
+		<map from="0,0,*" to="201,195,141"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="201,195,141"/>
+		<map from="0,0,*" to="60,60,60"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="60,60,60"/>
+		<map from="0,0,*" to="154,159,180"/>
+	</spriteType>
+</contribution>
+
+<contribution type="GenericStructure" id="{toaru-building-ippan2-gs01-E7D95B0D8FCE-4}">
+		<name>一般ビル2</name>
+		<price>160000000</price>
+		<size>1,1</size>
+		<structure>
+			<category byname="貸事務所"/>
+		</structure>
+		<height>3</height>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>70</base>
+		</population>
+		<sprite origin="192,0" offset="47">
+			<picture ref="{toaru-building-ippan2-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="224,0" offset="47">
+			<picture ref="{toaru-building-ippan2-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="192,64" offset="47">
+			<picture ref="{toaru-building-ippan2-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="224,64" offset="47">
+			<picture ref="{toaru-building-ippan2-picture-E7D95B0D8FCE}"/>
+		</sprite>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,255,255"/>
+		<map from="0,0,*" to="192,136,126"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="192,136,126"/>
+		<map from="0,0,*" to="122,79,31"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="122,79,31"/>
+		<map from="0,0,*" to="255,255,255"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="154,159,180"/>
+		<map from="0,0,*" to="201,195,141"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="201,195,141"/>
+		<map from="0,0,*" to="60,60,60"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="60,60,60"/>
+		<map from="0,0,*" to="154,159,180"/>
+	</spriteType>
+</contribution>
+
+<contribution type="GenericStructure" id="{toaru-building-ippan2-gs01-E7D95B0D8FCE-5}">
+		<name>一般ビル2</name>
+		<price>160000000</price>
+		<size>1,1</size>
+		<structure>
+			<category byname="貸事務所"/>
+		</structure>
+		<height>3</height>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>70</base>
+		</population>
+		<sprite origin="0,128" offset="47">
+			<picture ref="{toaru-building-ippan2-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="32,128" offset="47">
+			<picture ref="{toaru-building-ippan2-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="0,192" offset="47">
+			<picture ref="{toaru-building-ippan2-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="32,192" offset="47">
+			<picture ref="{toaru-building-ippan2-picture-E7D95B0D8FCE}"/>
+		</sprite>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,255,255"/>
+		<map from="0,0,*" to="192,136,126"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="192,136,126"/>
+		<map from="0,0,*" to="122,79,31"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="122,79,31"/>
+		<map from="0,0,*" to="255,255,255"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="154,159,180"/>
+		<map from="0,0,*" to="201,195,141"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="201,195,141"/>
+		<map from="0,0,*" to="60,60,60"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="60,60,60"/>
+		<map from="0,0,*" to="154,159,180"/>
+	</spriteType>
+</contribution>
+
+<contribution type="GenericStructure" id="{toaru-building-ippan2-gs01-E7D95B0D8FCE-6}">
+		<name>一般ビル１</name>
+		<price>160000000</price>
+		<size>1,1</size>
+		<structure>
+			<category byname="貸事務所"/>
+		</structure>
+		<height>3</height>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>70</base>
+		</population>
+		<sprite origin="64,128" offset="47">
+			<picture ref="{toaru-building-ippan2-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="96,128" offset="47">
+			<picture ref="{toaru-building-ippan2-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="64,192" offset="47">
+			<picture ref="{toaru-building-ippan2-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="96,192" offset="47">
+			<picture ref="{toaru-building-ippan2-picture-E7D95B0D8FCE}"/>
+		</sprite>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,255,255"/>
+		<map from="0,0,*" to="192,136,126"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="192,136,126"/>
+		<map from="0,0,*" to="122,79,31"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="122,79,31"/>
+		<map from="0,0,*" to="255,255,255"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="154,159,180"/>
+		<map from="0,0,*" to="201,195,141"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="201,195,141"/>
+		<map from="0,0,*" to="60,60,60"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="60,60,60"/>
+		<map from="0,0,*" to="154,159,180"/>
+	</spriteType>
+</contribution>
+
+<contribution type="GenericStructure" id="{toaru-building-ippan2-gs01-E7D95B0D8FCE-7}">
+		<name>一般ビル2</name>
+		<price>160000000</price>
+		<size>1,1</size>
+		<structure>
+			<category byname="貸事務所"/>
+		</structure>
+		<height>3</height>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>70</base>
+		</population>
+		<sprite origin="128,128" offset="47">
+			<picture ref="{toaru-building-ippan2-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="160,128" offset="47">
+			<picture ref="{toaru-building-ippan2-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="128,192" offset="47">
+			<picture ref="{toaru-building-ippan2-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="160,192" offset="47">
+			<picture ref="{toaru-building-ippan2-picture-E7D95B0D8FCE}"/>
+		</sprite>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,255,255"/>
+		<map from="0,0,*" to="192,136,126"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="192,136,126"/>
+		<map from="0,0,*" to="122,79,31"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="122,79,31"/>
+		<map from="0,0,*" to="255,255,255"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="154,159,180"/>
+		<map from="0,0,*" to="201,195,141"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="201,195,141"/>
+		<map from="0,0,*" to="60,60,60"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="60,60,60"/>
+		<map from="0,0,*" to="154,159,180"/>
+	</spriteType>
+</contribution>
+
+<contribution type="GenericStructure" id="{toaru-building-ippan2-gs01-E7D95B0D8FCE-8}">
+		<name>一般ビル2</name>
+		<price>160000000</price>
+		<size>1,1</size>
+		<structure>
+			<category byname="貸事務所"/>
+		</structure>
+		<height>3</height>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>70</base>
+		</population>
+		<sprite origin="192,128" offset="47">
+			<picture ref="{toaru-building-ippan2-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="224,128" offset="47">
+			<picture ref="{toaru-building-ippan2-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="192,192" offset="47">
+			<picture ref="{toaru-building-ippan2-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="224,192" offset="47">
+			<picture ref="{toaru-building-ippan2-picture-E7D95B0D8FCE}"/>
+		</sprite>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,255,255"/>
+		<map from="0,0,*" to="192,136,126"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="192,136,126"/>
+		<map from="0,0,*" to="122,79,31"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="122,79,31"/>
+		<map from="0,0,*" to="255,255,255"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="154,159,180"/>
+		<map from="0,0,*" to="201,195,141"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="201,195,141"/>
+		<map from="0,0,*" to="60,60,60"/>
+	</spriteType>
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="60,60,60"/>
+		<map from="0,0,*" to="154,159,180"/>
+	</spriteType>
+</contribution>
+
+
+
+</plug-in>

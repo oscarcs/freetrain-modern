@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<plug-in>
+  <title>203系・207系900・209系1000・E231系東海道・営団01,02</title>
+    <author>りおりお←北の汽車屋原画</author>
+  <homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+
+
+  <!-- 203系 先頭車-->
+  <contribution type="trainCar" id="{riorio-kitapoppoya-203-9D62-6091DF75AC9A}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="203_a.bmp" />
+    </sprite>
+    <capacity>136</capacity>
+    <seatedcapacity>48</seatedcapacity>
+  </contribution>
+
+  <!-- 203系 中間車-->
+  <contribution type="trainCar" id="{riorio-kitapoppoya-203-9D62-6091DF75AC9A}-m">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="203_b.bmp" />
+    </sprite>
+    <capacity>144</capacity>
+    <seatedcapacity>54</seatedcapacity>
+  </contribution>
+
+  <!-- 203系 後尾車-->
+  <contribution type="trainCar" id="{riorio-kitapoppoya-203-9D62-6091DF75AC9A}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{riorio-kitapoppoya-203-9D62-6091DF75AC9A}-h" />
+  </contribution>
+
+
+    <!-- 203系常磐緩行線・千代田線直通編成 -->
+  <contribution type="train" id="{riorio-kitapoppoya-203jobanchiyoda-8080-BCF7E8DC11FF}">
+    <company>JR東日本</company>
+    <type>203系</type>
+    <name>常磐緩行線・千代田線直通</name>
+    <author>りおりお</author>
+    <description>常磐緩行線から千代田線に直通乗り入れする車両として、それまで使用されていた103系1000番台を置き換えるため1982年から国鉄が製造した通勤型電車。軽量アルミ車体に回生ブレーキ付チョッパ制御を採用し、省エネ・低発熱を実現すると共に冷房も搭載された。
+JR化後もこの線の主力として使用されてきたが、E233系2000番台の増備によって廃車が始まっている。</description>
+		<fare>400</fare>
+		<price>35000000</price>
+		<amenity>100</amenity>
+    <speed>medium</speed>
+    <class name="freetrain.contributions.train.ParamTrainImpl"/>
+	<composition>
+	  <head carRef="{riorio-kitapoppoya-203-9D62-6091DF75AC9A}-h"/>
+	  <body carRef="{riorio-kitapoppoya-203-9D62-6091DF75AC9A}-m"/>
+	  <tail carRef="{riorio-kitapoppoya-203-9D62-6091DF75AC9A}-t"/>
+	</composition>
+  </contribution>
+
+
+  <!-- 207系900番台 先頭車-->
+  <contribution type="trainCar" id="{riorio-kitapoppoya-207-900-4BE1250139BE}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="207_900_a.bmp" />
+    </sprite>
+    <capacity>136</capacity>
+    <seatedcapacity>48</seatedcapacity>
+  </contribution>
+
+  <!-- 207系900番台 中間車-->
+  <contribution type="trainCar" id="{riorio-kitapoppoya-207-900-4BE1250139BE}-m">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="207_900_b.bmp" />
+    </sprite>
+    <capacity>144</capacity>
+    <seatedcapacity>54</seatedcapacity>
+  </contribution>
+
+  <!-- 207系900番台 後尾車-->
+  <contribution type="trainCar" id="{riorio-kitapoppoya-207-900-4BE1250139BE}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{riorio-kitapoppoya-207-900-4BE1250139BE}-h" />
+  </contribution>
+
+
+    <!-- 207系900番台常磐緩行線・千代田線直通編成 -->
+  <contribution type="train" id="{riorio-kitapoppoya-207-900jobanchiyoda-D8638258151F}">
+    <company>JR東日本</company>
+    <type>207系900番台</type>
+    <name>常磐緩行線・千代田線直通</name>
+    <author>りおりお</author>
+    <description>常磐緩行線から千代田線に直通乗り入れする車両として、1986年に1編成だけ国鉄が製造した通勤型電車。205系に準じた軽量ステンレス車体とし、国鉄で初めてVVVF制御が採用された。当時はVVVF制御器が非常に高価だったこと、常磐緩行線や他の線区でこの形式の新製が必要とされていなかったことから、その後の増備が行われなかった。
+同じ207系を名乗ってはいるが、JR西日本が使用している207系0番台・1000番台とはまったくの別形式である。
+JR化後も引き続き使用されてきたが、E233系2000番台の増備によって廃車されることが決まっている。</description>
+		<fare>400</fare>
+		<price>35000000</price>
+		<amenity>100</amenity>
+    <speed>medium</speed>
+    <class name="freetrain.contributions.train.ParamTrainImpl"/>
+	<composition>
+	  <head carRef="{riorio-kitapoppoya-207-900-4BE1250139BE}-h"/>
+	  <body carRef="{riorio-kitapoppoya-207-900-4BE1250139BE}-m"/>
+	  <tail carRef="{riorio-kitapoppoya-207-900-4BE1250139BE}-t"/>
+	</composition>
+  </contribution>
+
+
+  <!-- 209系1000番台 先頭車-->
+  <contribution type="trainCar" id="{riorio-kitapoppoya-209-1000-E57752B77BC4}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="209_1000a.bmp" />
+    </sprite>
+    <capacity>136</capacity>
+    <seatedcapacity>48</seatedcapacity>
+  </contribution>
+
+  <!-- 209系1000番台 中間車-->
+  <contribution type="trainCar" id="{riorio-kitapoppoya-209-1000-E57752B77BC4}-m">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="209_1000b.bmp" />
+    </sprite>
+    <capacity>144</capacity>
+    <seatedcapacity>54</seatedcapacity>
+  </contribution>
+
+  <!-- 209系1000番台 後尾車-->
+  <contribution type="trainCar" id="{riorio-kitapoppoya-209-1000-E57752B77BC4}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{riorio-kitapoppoya-209-1000-E57752B77BC4}-h" />
+  </contribution>
+
+
+    <!-- 209系1000番台常磐緩行線・千代田線直通編成 -->
+  <contribution type="train" id="{riorio-kitapoppoya-209-1000jobanchiyoda-4981CB7BB03B}">
+    <company>JR東日本</company>
+    <type>209系</type>
+    <name>1000番台 常磐緩行線・千代田線直通</name>
+    <author>りおりお</author>
+    <description>常磐緩行線から千代田線に直通乗り入れする車両の必要本数が増加したため、1999年にJR東日本が2編成製造した通勤型電車。中央総武緩行線から東西線に直通する500番台に準じた設計となっている。
+その後の増備は行われず、2008年から開始の老朽化した203系等を置き換えるのは、E233系の増備でまかなわれることとなった。
+</description>
+		<fare>400</fare>
+		<price>25000000</price>
+		<amenity>100</amenity>
+    <speed>medium</speed>
+    <class name="freetrain.contributions.train.ParamTrainImpl"/>
+	<composition>
+	  <head carRef="{riorio-kitapoppoya-209-1000-E57752B77BC4}-h"/>
+	  <body carRef="{riorio-kitapoppoya-209-1000-E57752B77BC4}-m"/>
+	  <tail carRef="{riorio-kitapoppoya-209-1000-E57752B77BC4}-t"/>
+	</composition>
+  </contribution>
+
+
+  <!-- 帝都高速度交通営団01系 先頭車-->
+  <contribution type="trainCar" id="{riorio-kitapoppoya-tokyometro01-A3FD-2D4038984F10}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="eidan01_a.bmp" />
+    </sprite>
+    <capacity>100</capacity>
+    <seatedcapacity>36</seatedcapacity>
+  </contribution>
+
+  <!-- 帝都高速度交通営団01系 中間車-->
+  <contribution type="trainCar" id="{riorio-kitapoppoya-tokyometro01-A3FD-2D4038984F10}-m">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="eidan01_b.bmp" />
+    </sprite>
+    <capacity>102</capacity>
+    <seatedcapacity>44</seatedcapacity>
+  </contribution>
+
+  <!-- 帝都高速度交通営団01系 後尾車-->
+  <contribution type="trainCar" id="{riorio-kitapoppoya-tokyometro01-A3FD-2D4038984F10}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{riorio-kitapoppoya-tokyometro01-A3FD-2D4038984F10}-h" />
+  </contribution>
+
+
+    <!-- 帝都高速度交通営団01系銀座線編成 -->
+  <contribution type="train" id="{riorio-kitapoppoya-tokyometro01-ginzaline-0D7CF234710C}">
+    <company>帝都高速度交通営団</company>
+    <type>01系</type>
+    <name>銀座線　　</name>
+    <author>りおりお</author>
+    <description>老朽化した銀座線の車両を置き換えるため、帝都高速度交通営団が1984年から製造した地下鉄用通勤型電車。アルミ車体で、制御器は製造年度によりチョッパ制御とVVVF制御とがある。パンタグラフではなく、第三軌条から集電する方式である。</description>
+		<fare>400</fare>
+		<price>28000000</price>
+		<amenity>100</amenity>
+    <speed>medium</speed>
+    <class name="freetrain.contributions.train.ParamTrainImpl"/>
+	<composition>
+	  <head carRef="{riorio-kitapoppoya-tokyometro01-A3FD-2D4038984F10}-h"/>
+	  <body carRef="{riorio-kitapoppoya-tokyometro01-A3FD-2D4038984F10}-m"/>
+	  <tail carRef="{riorio-kitapoppoya-tokyometro01-A3FD-2D4038984F10}-t"/>
+	</composition>
+  </contribution>
+
+
+  <!-- 帝都高速度交通営団02系 先頭車-->
+  <contribution type="trainCar" id="{riorio-kitapoppoya-tokyometro02-8682-02585E8E4D52}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="eidan02_a.bmp" />
+    </sprite>
+    <capacity>124</capacity>
+    <seatedcapacity>42</seatedcapacity>
+  </contribution>
+
+  <!-- 帝都高速度交通営団02系 中間車-->
+  <contribution type="trainCar" id="{riorio-kitapoppoya-tokyometro02-8682-02585E8E4D52}-m">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="eidan02_b.bmp" />
+    </sprite>
+    <capacity>136</capacity>
+    <seatedcapacity>52</seatedcapacity>
+  </contribution>
+
+  <!-- 帝都高速度交通営団02系 後尾車-->
+  <contribution type="trainCar" id="{riorio-kitapoppoya-tokyometro02-8682-02585E8E4D52}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{riorio-kitapoppoya-tokyometro02-8682-02585E8E4D52}-h" />
+  </contribution>
+
+
+    <!-- 帝都高速度交通営団02系丸ノ内線編成 -->
+  <contribution type="train" id="{riorio-kitapoppoya-tokyometro02-marunouchiline-9092A2B5D6FC}">
+    <company>帝都高速度交通営団</company>
+    <type>02系</type>
+    <name>丸ノ内線　　</name>
+    <author>りおりお</author>
+    <description>老朽化した丸ノ内線の車両を置き換えるため、帝都高速度交通営団が1988年から製造した地下鉄用通勤型電車。アルミ車体で、制御器は製造年度によりチョッパ制御とVVVF制御とがある。パンタグラフではなく、第三軌条から集電する方式である。</description>
+		<fare>400</fare>
+		<price>28000000</price>
+		<amenity>100</amenity>
+    <speed>medium</speed>
+    <class name="freetrain.contributions.train.ParamTrainImpl"/>
+	<composition>
+	  <head carRef="{riorio-kitapoppoya-tokyometro02-8682-02585E8E4D52}-h"/>
+	  <body carRef="{riorio-kitapoppoya-tokyometro02-8682-02585E8E4D52}-m"/>
+	  <tail carRef="{riorio-kitapoppoya-tokyometro02-8682-02585E8E4D52}-t"/>
+	</composition>
+  </contribution>
+
+
+  <!-- 東海道線E231系 先頭車 画像定義-->
+  <contribution type="picture" id="{riorio-kitapoppoya-train-picture-kuhae231-E5AE5F7B1D04}">
+    <picture src="E231toukaidoa.bmp" />
+  </contribution>
+
+  <!-- 東海道線E231系 先頭車-->
+  <contribution type="trainCar" id="{riorio-kitapoppoya-e231-tokaidoDDts-A5EDA12C01A0}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture ref="{riorio-kitapoppoya-train-picture-kuhae231-E5AE5F7B1D04}" />
+      <spriteType name="colorMapped">
+        <map from="128,0,0" to="12,164,12" />
+      </spriteType>
+    </sprite>
+    <capacity>137</capacity>
+    <seatedcapacity>52</seatedcapacity> 
+  </contribution>
+
+  <!-- 東海道線E231系 中間車-->
+  <contribution type="trainCar" id="{riorio-kitapoppoya-e231-tokaidoDDts-A5EDA12C01A0}-m">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="E231toukaidob.bmp" />
+      <spriteType name="colorMapped">
+        <map from="128,0,0" to="12,164,12" />
+      </spriteType>
+    </sprite>
+    <capacity>162</capacity>
+    <seatedcapacity>64</seatedcapacity> 
+  </contribution>
+
+  <!-- 東海道線E231系 後尾車-->
+  <contribution type="trainCar" id="{riorio-kitapoppoya-e231-tokaidoDDts-A5EDA12C01A0}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{riorio-kitapoppoya-e231-tokaidoDDts-A5EDA12C01A0}-h" />
+  </contribution>
+
+  <!-- 東海道線E231系 先頭車中間前向-->
+  <contribution type="trainCar" id="{riorio-kitapoppoya-e231-tokaidoDDts-A5EDA12C01A0}-1">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="E231toukaidoa_in.bmp" />
+      <spriteType name="colorMapped">
+        <map from="128,0,0" to="12,164,12" />
+      </spriteType>
+    </sprite>
+    <capacity>137</capacity>
+    <seatedcapacity>64</seatedcapacity> 
+  </contribution>
+
+  <!-- 東海道線E231系 先頭車中間後向-->
+  <contribution type="trainCar" id="{riorio-kitapoppoya-e231-tokaidoDDts-A5EDA12C01A0}-2">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{riorio-kitapoppoya-e231-tokaidoDDts-A5EDA12C01A0}-1" />
+  </contribution>
+
+  <!-- 東海道線E231系 2階建てグリーン車-->
+  <contribution type="trainCar" id="{riorio-kitapoppoya-e231-tokaidoDDts-A5EDA12C01A0}-s">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="saroE230toukaido.bmp" />
+      <spriteType name="colorMapped">
+        <map from="128,0,0" to="12,164,12" />
+      </spriteType>
+    </sprite>
+    <capacity>90</capacity>
+    <seatedcapacity>90</seatedcapacity>
+  </contribution>
+
+
+    <!-- 東海道線E231系グリーン車入り編成 -->
+  <contribution type="train" id="{riorio-kitapoppoya-jre231-tokaidoddts-349DE7270A56}">
+    <company>JR東日本</company>
+    <type>E231系</type>
+    <name>2階建グリーン車入り・東海道線等</name>
+    <author>りおりお</author>
+    <description>2000年から宇都宮線向けに製造が開始されたE231系1000番台近郊タイプだったが、湘南新宿ラインへのグリーン車連結及び同番台新造により東海道線113系の置き換えを行うため、2004年から2階建てグリーン車が増備され、10両基本編成中に2両が連結されることとなった。また2006年からは、上野発着の宇都宮線・高崎線でもグリーン車が連結されることとなった。</description>
+	<fare>550</fare>
+	<price>38500000</price>
+	<amenity>110</amenity>
+	<triprange>middle</triprange>
+    <speed>medium</speed>
+    <class name="freetrain.contributions.train.PatternTrainImpl"/>
+    <config>
+      <car char="＜" ref="{riorio-kitapoppoya-e231-tokaidoDDts-A5EDA12C01A0}-h" />
+      <car char="Ｍ" ref="{riorio-kitapoppoya-e231-tokaidoDDts-A5EDA12C01A0}-m" />
+      <car char="Ｓ" ref="{riorio-kitapoppoya-e231-tokaidoDDts-A5EDA12C01A0}-s" />
+      <car char="＞" ref="{riorio-kitapoppoya-e231-tokaidoDDts-A5EDA12C01A0}-t" />
+      <car char="［" ref="{riorio-kitapoppoya-e231-tokaidoDDts-A5EDA12C01A0}-1" />
+      <car char="］" ref="{riorio-kitapoppoya-e231-tokaidoDDts-A5EDA12C01A0}-2" />
+      <composition>＜ＭＭＳＭＭ＞</composition>
+      <composition>＜ＭＭＳＳＭＭ＞</composition>
+      <composition>＜ＭＭＳＳＭＭＭ＞</composition>
+      <composition>＜ＭＭＳＳＭＭＭＭ＞</composition>
+      <composition>＜ＭＭＳＳＭＭＭＭＭ＞</composition>
+      <composition>＜ＭＭＳＳＭＭ］［ＭＭ＞</composition>
+      <composition>＜ＭＭＳＳＭＭＭ］［ＭＭ＞</composition>
+      <composition>＜ＭＭＳＳＭＭＭＭ］［ＭＭ＞</composition>
+      <composition>＜ＭＭＳＳＭＭＭＭ］［ＭＭＭ＞</composition>
+    </config>
+  </contribution>
+
+
+  <!-- 東海道線E531系 先頭車 画像定義-->
+  <contribution type="picture" id="{riorio-kitapoppoya-train-picture-kuhae531-D355ECABBD74}">
+    <picture src="E531a.bmp" />
+  </contribution>
+
+  <!-- 東海道線E531系 先頭車-->
+  <contribution type="trainCar" id="{riorio-kitapoppoya-e531-jobanDDts-72D334F97C41}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture ref="{riorio-kitapoppoya-train-picture-kuhae531-D355ECABBD74}" />
+    </sprite>
+    <capacity>137</capacity>
+    <seatedcapacity>52</seatedcapacity> 
+  </contribution>
+
+  <!-- 東海道線E531系 中間車-->
+  <contribution type="trainCar" id="{riorio-kitapoppoya-e531-jobanDDts-72D334F97C41}-m">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="E531b.bmp" />
+    </sprite>
+    <capacity>162</capacity>
+    <seatedcapacity>64</seatedcapacity> 
+  </contribution>
+
+  <!-- 東海道線E531系 後尾車-->
+  <contribution type="trainCar" id="{riorio-kitapoppoya-e531-jobanDDts-72D334F97C41}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{riorio-kitapoppoya-e531-jobanDDts-72D334F97C41}-h" />
+  </contribution>
+
+  <!-- 東海道線E531系 先頭車中間前向-->
+  <contribution type="trainCar" id="{riorio-kitapoppoya-e531-jobanDDts-72D334F97C41}-1">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="E531a_in.bmp" />
+    </sprite>
+    <capacity>137</capacity>
+    <seatedcapacity>52</seatedcapacity> 
+  </contribution>
+
+  <!-- 東海道線E531系 先頭車中間後向-->
+  <contribution type="trainCar" id="{riorio-kitapoppoya-e531-jobanDDts-72D334F97C41}-2">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{riorio-kitapoppoya-e531-jobanDDts-72D334F97C41}-1" />
+  </contribution>
+
+  <!-- 東海道線E531系 2階建てグリーン車-->
+  <contribution type="trainCar" id="{riorio-kitapoppoya-e531-jobanDDts-72D334F97C41}-s">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="saroE230toukaido.bmp" />
+      <spriteType name="colorMapped">
+        <map from="128,0,0" to="0,0,128" />
+        <map from="255,128,64" to="0,0,128" />
+      </spriteType>
+    </sprite>
+    <capacity>90</capacity>
+    <seatedcapacity>90</seatedcapacity>
+  </contribution>
+
+
+    <!-- 東海道線E531系グリーン車入り編成 -->
+  <contribution type="train" id="{riorio-kitapoppoya-jre531-jobanddts-105FA5926D74}">
+    <company>JR東日本</company>
+    <type>E531系</type>
+    <name>2階建グリーン車入り</name>
+    <author>りおりお</author>
+    <description>老朽化した415系を置き換えスピードアップするため、2005年から常磐線向けに製造が開始された交直流近郊型電車がE531系。最高速度130km/h。2007年からは10両基本編成に2両の2階建てグリーン車が連結されることとなった。</description>
+	<fare>550</fare>
+	<price>40000000</price>
+	<amenity>110</amenity>
+	<triprange>middle</triprange>
+    <speed>fast</speed>
+    <class name="freetrain.contributions.train.PatternTrainImpl"/>
+    <config>
+      <car char="＜" ref="{riorio-kitapoppoya-e531-jobanDDts-72D334F97C41}-h" />
+      <car char="Ｍ" ref="{riorio-kitapoppoya-e531-jobanDDts-72D334F97C41}-m" />
+      <car char="Ｓ" ref="{riorio-kitapoppoya-e531-jobanDDts-72D334F97C41}-s" />
+      <car char="＞" ref="{riorio-kitapoppoya-e531-jobanDDts-72D334F97C41}-t" />
+      <car char="［" ref="{riorio-kitapoppoya-e531-jobanDDts-72D334F97C41}-1" />
+      <car char="］" ref="{riorio-kitapoppoya-e531-jobanDDts-72D334F97C41}-2" />
+      <composition>＜ＭＭＳＭＭ＞</composition>
+      <composition>＜ＭＭＳＳＭＭ＞</composition>
+      <composition>＜ＭＭＳＳＭＭＭ＞</composition>
+      <composition>＜ＭＭＳＳＭＭＭＭ＞</composition>
+      <composition>＜ＭＭＳＳＭＭＭＭＭ＞</composition>
+      <composition>＜ＭＭＳＳＭＭ］［ＭＭ＞</composition>
+      <composition>＜ＭＭＳＳＭＭＭ］［ＭＭ＞</composition>
+      <composition>＜ＭＭＳＳＭＭＭＭ］［ＭＭ＞</composition>
+      <composition>＜ＭＭＳＳＭＭＭＭ］［ＭＭＭ＞</composition>
+    </config>
+  </contribution>
+
+
+</plug-in>

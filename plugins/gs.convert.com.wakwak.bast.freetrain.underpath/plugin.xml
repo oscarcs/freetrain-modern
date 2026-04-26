@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>GenericStructure convert underpath ては</title>
+	<author>りおりお</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+	<depend on="com.wakwak.bast.freetrain.underpath" />
+
+	<contribution type="picture" id="{riorio-gs-convert-picture-underpath-1}">
+		<picture src="../com.wakwak.bast.freetrain.underpath/underpath.bmp" />
+	</contribution>
+
+	<contribution type="GenericStructure" id="{nekoneko-nyanyanya-underpath-1}-gs">
+		<group>アンダーパス</group>
+		<design>2車線道路</design>
+		<price>1000000</price>
+		<size>4,1</size>
+		<height>1</height>
+		<structure>
+			<category byname="道路関連物" />
+		</structure>
+		<sprite origin="0,0" offset="29">
+		<picture ref="{riorio-gs-convert-picture-underpath-1}" />
+		</sprite>
+		<sprite origin="80,0" offset="26">
+		<picture ref="{riorio-gs-convert-picture-underpath-1}" />
+		</sprite>
+		<sprite origin="160,0" offset="5" opposite="true">
+		<picture ref="{riorio-gs-convert-picture-underpath-1}" />
+		</sprite>
+		<sprite origin="240,0" offset="2" opposite="true">
+		<picture ref="{riorio-gs-convert-picture-underpath-1}" />
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{nekoneko-nyanyanya-underpath-5}-gs">
+		<group>アンダーパス</group>
+		<design>4車線道路</design>
+		<price>2000000</price>
+		<size>4,2</size>
+		<height>1</height>
+		<structure>
+			<category byname="道路関連物" />
+		</structure>
+		<sprite origin="0,45" offset="29">
+		<picture ref="{riorio-gs-convert-picture-underpath-1}" />
+		</sprite>
+		<sprite origin="96,45" offset="26">
+		<picture ref="{riorio-gs-convert-picture-underpath-1}" />
+		</sprite>
+		<sprite origin="192,64" offset="6" opposite="true">
+		<picture ref="{riorio-gs-convert-picture-underpath-1}" />
+		</sprite>
+		<sprite origin="288,64" offset="6" opposite="true">
+		<picture ref="{riorio-gs-convert-picture-underpath-1}" />
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+</plug-in>

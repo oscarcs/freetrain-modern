@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+ <plug-in>
+  <title>建物総合コンバート　モガミ</title>
+  <author>りおりお</author>
+  <homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+  <depend on="jp.geocities.mogami00.tawer36" />
+
+  <contribution type="GenericStructure" id="{37DF0EE7-6EA7-4D07-BE5A-FDD33FC9E91A}-gs" >
+   <group>貸しビル01号</group>
+   <price>550000000</price>
+   <size>3,3</size>
+   <structure>
+    <category byname="貸事務所"/> 
+   </structure>
+   <height>10</height>
+   <population>
+    <class name="freetrain.contributions.population.OfficePopulation"/>
+    <base>1200</base>
+   </population>
+   <sprite origin="0,0" offset="168">
+    <picture ref="{A550419E-A2B1-4A9E-99D6-E9F6AF348EEC}"/>
+   </sprite>
+  </contribution>
+ </plug-in>

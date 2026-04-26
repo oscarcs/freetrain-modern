@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+  <!-- 209系500番台京浜東北線先頭車 -->
+  <contribution type="trainCar" id="{CyberExpress1703d-209-500-KT}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+		<spriteType name="colorMapped">
+			<map from="255,64,96" to="0,128,192"/>
+		</spriteType>
+      <picture ref="{CyberExpress1703d-209-500-Keiyo}-h" />
+    </sprite>
+    <capacity>142</capacity>
+    <seatedcapacity>43</seatedcapacity>
+  </contribution>
+
+  <!-- 209系500番台京浜東北線中間車 -->
+  <contribution type="trainCar" id="{CyberExpress1703d-209-500-KT}-m">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+		<spriteType name="colorMapped">
+			<map from="255,64,96" to="0,128,192"/>
+		</spriteType>
+      <picture ref="{CyberExpress1703d-209-500-Keiyo}-m" />
+    </sprite>
+    <capacity>160</capacity>
+    <seatedcapacity>54</seatedcapacity>
+  </contribution>
+
+  <!-- 209系500番台京浜東北線後尾車 -->
+  <contribution type="trainCar" id="{CyberExpress1703d-209-500-KT}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{CyberExpress1703d-209-500-KT}-h" />
+  </contribution>
+
+  <!-- 209系500番台京浜東北線 -->
+  <contribution type="train" id="{CyberExpress1703d-209-500-KT}">
+    <company>JR東日本</company>
+    <type>209系500番台</type>
+    <name>京浜東北線</name>
+    <author>いっちー</author>
+    <description>大宮～大船間の京浜東北線を走る幅広車体の209系です。</description>
+    <fare>400</fare>
+    <price>25000000</price>
+	<amenity>100</amenity>
+    <speed>medium</speed>
+    <class name="freetrain.contributions.train.ParamTrainImpl" />
+    <composition>
+      <head carRef="{CyberExpress1703d-209-500-KT}-h" />
+      <body carRef="{CyberExpress1703d-209-500-KT}-m" />
+      <tail carRef="{CyberExpress1703d-209-500-KT}-t" />
+    </composition>
+  </contribution>

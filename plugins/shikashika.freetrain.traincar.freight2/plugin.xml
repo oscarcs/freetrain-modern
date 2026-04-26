@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+<author>RK</author>
+<homepage></homepage>
+
+<title>車輌レール専用</title>
+<!-- レール連用チキ -->
+<!-- イメージ画像定義 -->
+	<!-- 貨車 チキ7000 -->
+	<contribution type="picture" id="{FreeTrain-Shika-FreightCar-picture-chiki7000B}">
+		<picture src="chiki7000B.bmp" />
+	</contribution>
+<!-- 車両定義 -->
+	<!-- 貨車 チキ7000 -->
+	<contribution type="trainCar" id="{FreeTrain-Shika-FreightCar-TrainCar-chiki7000B}">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-FreightCar-picture-chiki7000B}" />
+		</sprite>
+		<capacity>0</capacity>
+		<seatedcapacity>0</seatedcapacity>
+	</contribution>
+
+	<contribution type="trainCar" id="{FE2CF211-BA2E-43DE0-9076-993DF545D03D}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+		<picture src="DE10.bmp" />
+		</sprite>
+		<capacity>0</capacity>
+		<seatedcapacity>0</seatedcapacity>
+	</contribution>
+
+	<contribution type="trainCar" id="{4D08FC76-5C67-43DE1-A58C-9902CAE20308}">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+		<picture src="DE10.bmp" />
+		</sprite>
+		<capacity>0</capacity>
+		<seatedcapacity>0</seatedcapacity>
+	</contribution>
+
+	<contribution type="trainCar" id="{9D2E8E41-7777-43DE2-8C54-99470E371046}">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+	<base carRef="{FE2CF211-BA2E-43DE0-9076-993DF545D03D}" />
+		<capacity>0</capacity>
+		<seatedcapacity>0</seatedcapacity>
+	</contribution>
+
+	<contribution type="train" id="{9D2E8E41-7777-43DE3-8C54-99470E371046}">
+		<company>JR貨物</company>
+		<type>DE10</type>
+		<name>入換専用機</name>
+		<author>花菱烈火</author>
+		<description>
+ＤＥ１０入換専用機…　</description>
+		<price>30000000</price>
+		<fare>0</fare>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		<composition>
+			<head carRef="{FE2CF211-BA2E-43DE0-9076-993DF545D03D}"/>
+			<body carRef="{FE2CF211-BA2E-43DE0-9076-993DF545D03D}"/>
+			<tail carRef="{FE2CF211-BA2E-43DE0-9076-993DF545D03D}"/>
+		</composition>
+	</contribution>
+
+</plug-in>

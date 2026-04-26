@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+<plug-in>
+  <title>205系・209系・211系FIXEDver</title>
+  <author>北の汽車屋</author>
+  <homepage></homepage>
+<!-- 205系1000番台鶴見先頭車 --> 
+  <contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1-205TSURUMI-A}">
+  <class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+  <sprite origin="0,0">
+  <picture src="205-1000TRMa.bmp" />
+  </sprite>
+  <capacity>146</capacity>
+    <seatedcapacity>48</seatedcapacity> 
+　</contribution>
+<!-- 205系1000番台鶴見最後尾車 -->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1-205TSURUMI-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{757F660D-9BC9-48E4-9E1-205TSURUMI-A}"/> 
+  <capacity>146</capacity>
+    <seatedcapacity>48</seatedcapacity> 
+</contribution>
+<!-- 205系1000番台鶴見中間車-->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1-205TSURUMI-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+  <sprite origin="0,0">
+  <picture src="205-1000TRMb.bmp" /> 
+  </sprite>
+  <capacity>156</capacity>
+    <seatedcapacity>54</seatedcapacity> 
+  </contribution>
+<!-- 205系京葉山手転入先頭車 --> 
+  <contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1-205KEIYOYT-A}">
+  <class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+  <sprite origin="0,0">
+  <picture src="205KYa.bmp" />
+  </sprite>
+  <capacity>146</capacity>
+    <seatedcapacity>48</seatedcapacity>
+<!-- 205系京葉山手転入最後尾車 --> 
+　</contribution>
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1-205KEIYOYT-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{757F660D-9BC9-48E4-9E1-205KEIYOYT-A}"/> 
+  <capacity>146</capacity>
+    <seatedcapacity>48</seatedcapacity> 
+</contribution>
+<!-- 205系京葉山手転入中間車-->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1-205KEIYOYT-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+  <sprite origin="0,0">
+  <picture src="205KYb.bmp" /> 
+  </sprite>
+  <capacity>156</capacity>
+    <seatedcapacity>54</seatedcapacity> 
+  </contribution>
+<!-- 2092100番台先頭車 --> 
+  <contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1-2092100-A}">
+  <class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="2092100a.bmp" /> 
+  </sprite>
+  <capacity>132</capacity>
+    <seatedcapacity>44</seatedcapacity> 
+  </contribution>
+<!-- 2092100番台最後尾車 -->
+  <contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1-2092100-B}">
+  <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{757F660D-9BC9-48E4-9E1-2092100-A}"/> 
+  <capacity>132</capacity>
+    <seatedcapacity>44</seatedcapacity> 
+  </contribution> 
+<!-- 2092100番台中間車-->
+  <contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1-2092100-C}">
+  <class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+  <sprite origin="0,0">
+  <picture src="2092100b.bmp" /> 
+  </sprite>
+  <capacity>156</capacity>
+    <seatedcapacity>54</seatedcapacity> 
+  </contribution>
+<!-- 211系房総先頭車 --> 
+  <contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1F3-211BOSO-A}">
+  <class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+  <sprite origin="0,0">
+  <picture src="211BOSOa.bmp" /> 
+  </sprite>
+  <capacity>132</capacity>
+    <seatedcapacity>62</seatedcapacity> 
+  </contribution>
+<!-- 211系房総最後尾車 -->
+  <contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1F3-211BOSO-B}">
+  <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{757F660D-9BC9-48E4-9E1F3-211BOSO-A}"/> 
+  <capacity>132</capacity>
+    <seatedcapacity>62</seatedcapacity> 
+  </contribution> 
+<!-- 211系房総中間車-->
+  <contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1F3-211BOSO-C}">
+  <class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="211BOSOb.bmp" /> 
+  </sprite>
+  <capacity>156</capacity>
+    <seatedcapacity>68</seatedcapacity> 
+  </contribution>
+<!-- 211先頭車スカ --> 
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-211SUKA-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="211Suka_a.bmp" /> 
+  </sprite>
+  <capacity>132</capacity>
+    <seatedcapacity>62</seatedcapacity> 
+  </contribution>
+<!-- 211最後尾車スカ -->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-211SUKA-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{669D5BDE-23F1-43BD-AC36-211SUKA-A}" />  
+  <capacity>132</capacity>
+    <seatedcapacity>62</seatedcapacity> 
+  </contribution> 
+<!--211中間車スカ-->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-211SUKA-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="211Suka_b.bmp" /> 
+  </sprite>
+  <capacity>156</capacity>
+    <seatedcapacity>68</seatedcapacity> 
+  </contribution>
+<!--211G車スカ-->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-211SUKA-G}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="saro211_Suka.bmp" /> 
+  </sprite>
+  <capacity>90</capacity> 
+    <seatedcapacity>90</seatedcapacity>
+  </contribution>
+
+ <contribution type="train" id="{57644AE6-7FFA-A231-8FE0-75-205TSURUMI}">
+<company>JR東日本</company>
+<type>205系</type>
+<name>1000番台 鶴見線</name>
+<author>北の汽車屋</author>
+<description></description>
+<price>10000000</price>
+<fare>480</fare> 
+	<amenity>100</amenity>
+<speed>medium</speed>
+<composition>
+<head carRef="{757F660D-9BC9-48E4-9E1-205TSURUMI-A}"/>
+<body carRef="{757F660D-9BC9-48E4-9E1-205TSURUMI-C}"/>
+<tail carRef="{757F660D-9BC9-48E4-9E1-205TSURUMI-B}"/>
+</composition>
+</contribution>
+ <contribution type="train" id="{57644AE6-7FFA-A231-8FE0-75-205KEIYOYT}">
+<company>JR東日本</company>
+<type>205系</type>
+<name>京葉線　転入車</name>
+<author>北の汽車屋</author>
+<description></description>
+<price>10000000</price>
+<fare>480</fare>
+	<amenity>100</amenity> 
+<speed>medium</speed>
+<composition>
+<head carRef="{757F660D-9BC9-48E4-9E1-205KEIYOYT-A}"/>
+<body carRef="{757F660D-9BC9-48E4-9E1-205KEIYOYT-C}"/>
+<tail carRef="{757F660D-9BC9-48E4-9E1-205KEIYOYT-B}"/>
+</composition>
+</contribution>  
+ <contribution type="train" id="{57644AE6-7FFA-A231-8FE0-75-2092100}">
+<company>JR東日本</company>
+<type>209系</type>
+<name>2100番台　内房線・外房線</name>
+<author>北の汽車屋</author>
+<description></description>
+<price>10000000</price>
+<fare>480</fare>
+	<amenity>100</amenity> 
+<triprange>middle</triprange>
+<speed>medium</speed>
+<composition>
+<head carRef="{757F660D-9BC9-48E4-9E1-2092100-A}"/>
+<body carRef="{757F660D-9BC9-48E4-9E1-2092100-C}"/>
+<tail carRef="{757F660D-9BC9-48E4-9E1-2092100-B}"/>
+</composition>
+</contribution> 
+ <contribution type="train" id="{57644AE6-7FFA-A231-8FE0-7567-211BOSO}">
+<company>JR東日本</company>
+<type>211系</type>
+<name>内房線</name>
+<author>北の汽車屋</author>
+<description></description>
+<price>10000000</price>
+<fare>660</fare>
+	<amenity>100</amenity> 
+<triprange>middle</triprange>
+<speed>medium</speed>
+<composition>
+<head carRef="{757F660D-9BC9-48E4-9E1F3-211BOSO-A}"/>
+<body carRef="{757F660D-9BC9-48E4-9E1F3-211BOSO-C}"/>
+<tail carRef="{757F660D-9BC9-48E4-9E1F3-211BOSO-B}"/>
+</composition>
+</contribution>
+ <contribution type="train" id="{669D5BDE-23F1-43BD-AC36-B-211SUKA}">
+<company>JR東日本</company>
+<type>211系</type>
+<name>横須賀線(ｳｿ電)</name>
+<author>北の汽車屋</author>
+<description></description>
+<fare>660</fare>
+<price>10000000</price>
+	<amenity>100</amenity>
+<triprange>middle</triprange>
+<speed>medium</speed>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<config>
+<car char="A" ref="{669D5BDE-23F1-43BD-AC36-211SUKA-A}"/>
+<car char="C" ref="{669D5BDE-23F1-43BD-AC36-211SUKA-C}"/>
+<car char="B" ref="{669D5BDE-23F1-43BD-AC36-211SUKA-B}"/> 
+<car char="G" ref="{669D5BDE-23F1-43BD-AC36-211SUKA-G}"/> 
+<composition>ACCB</composition>
+<composition>ACCCGGCCCCB</composition>
+<composition>ACCBACCCGGCCCCB</composition>
+</config>
+</contribution>
+</plug-in>

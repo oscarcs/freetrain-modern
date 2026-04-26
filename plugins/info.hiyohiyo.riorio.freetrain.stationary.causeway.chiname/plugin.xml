@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plug-in [
+<!ENTITY EpPatternDef '
+	<price>250000</price>
+	<size>1,1</size>
+	<height>2</height>
+'>
+<!ENTITY BtPatternDef '
+	<price>250000</price>
+	<size>1,1</size>
+	<height>1</height>
+'>
+]>
+<plug-in>
+	<title>盛土高架・架線柱追加と地平バラスト追加</title>
+	<author>りおりお　←C477@2両目・花菱烈火・TAKUROU</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+	
+	<contribution type="picture" id="{riorio-c477-causeway-electricpolepicture-9EB722F4939B}">
+		<picture src="causeway_epole.bmp"/>
+	</contribution>
+	
+	<contribution type="picture" id="{riorio-c477-causeway-ballastpicture-1D8F6ABB3997}">
+		<picture src="causeway_ballast.bmp">
+		<override when="autumn" src="causeway_ballast02.bmp" />
+		<override when="winter" src="causeway_ballast03.bmp" />
+		</picture>
+	</contribution>
+	
+	<contribution type="picture" id="{riorio-c477-causeway-ep-ballastpicture-3CCB2D32F820}">
+		<picture src="causeway_epole_ballast.bmp">
+		<override when="autumn" src="causeway_epole_ballast02.bmp" />
+		<override when="winter" src="causeway_epole_ballast03.bmp" />
+		</picture>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-15B32B21C8C8}">
+		<group>盛土高架・架線柱</group>
+		&EpPatternDef;
+		<sprite origin="0,0" offset="48">
+			<picture ref="{riorio-c477-causeway-electricpolepicture-9EB722F4939B}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-15B32B21C8C8}-1,0">
+		<group>盛土高架・架線柱</group>
+		&EpPatternDef;
+		<sprite origin="32,0" offset="48">
+			<picture ref="{riorio-c477-causeway-electricpolepicture-9EB722F4939B}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-15B32B21C8C8}-2,0">
+		<group>盛土高架・架線柱</group>
+		&EpPatternDef;
+		<sprite origin="64,0" offset="48">
+			<picture ref="{riorio-c477-causeway-electricpolepicture-9EB722F4939B}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-15B32B21C8C8}-3,0">
+		<group>盛土高架・架線柱</group>
+		&EpPatternDef;
+		<sprite origin="96,0" offset="48">
+			<picture ref="{riorio-c477-causeway-electricpolepicture-9EB722F4939B}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-15B32B21C8C8}-0,1">
+		<group>盛土高架・架線柱</group>
+		&EpPatternDef;
+		<sprite origin="0,64" offset="48">
+			<picture ref="{riorio-c477-causeway-electricpolepicture-9EB722F4939B}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-15B32B21C8C8}-1,1">
+		<group>盛土高架・架線柱</group>
+		&EpPatternDef;
+		<sprite origin="32,64" offset="48">
+			<picture ref="{riorio-c477-causeway-electricpolepicture-9EB722F4939B}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-15B32B21C8C8}-2,1">
+		<group>盛土高架・架線柱</group>
+		&EpPatternDef;
+		<sprite origin="64,64" offset="48">
+			<picture ref="{riorio-c477-causeway-electricpolepicture-9EB722F4939B}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-15B32B21C8C8}-3,1">
+		<group>盛土高架・架線柱</group>
+		&EpPatternDef;
+		<sprite origin="96,64" offset="48">
+			<picture ref="{riorio-c477-causeway-electricpolepicture-9EB722F4939B}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-F6A827D00951}">
+		<group>盛土高架・砂利</group>
+		&BtPatternDef;
+		<sprite origin="0,0" offset="48">
+			<picture ref="{riorio-c477-causeway-ballastpicture-1D8F6ABB3997}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-F6A827D00951}-1,0">
+		<group>盛土高架・砂利</group>
+		&BtPatternDef;
+		<sprite origin="32,0" offset="48">
+			<picture ref="{riorio-c477-causeway-ballastpicture-1D8F6ABB3997}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-F6A827D00951}-2,0">
+		<group>盛土高架・砂利</group>
+		&BtPatternDef;
+		<sprite origin="64,0" offset="48">
+			<picture ref="{riorio-c477-causeway-ballastpicture-1D8F6ABB3997}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-F6A827D00951}-0,1">
+		<group>盛土高架・砂利</group>
+		&BtPatternDef;
+		<sprite origin="0,64" offset="48">
+			<picture ref="{riorio-c477-causeway-ballastpicture-1D8F6ABB3997}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-F6A827D00951}-1,1">
+		<group>盛土高架・砂利</group>
+		&BtPatternDef;
+		<sprite origin="32,64" offset="48">
+			<picture ref="{riorio-c477-causeway-ballastpicture-1D8F6ABB3997}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-F6A827D00951}-2,1">
+		<group>盛土高架・砂利</group>
+		&BtPatternDef;
+		<sprite origin="64,64" offset="48">
+			<picture ref="{riorio-c477-causeway-ballastpicture-1D8F6ABB3997}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-F6A827D00951}-0,2">
+		<group>盛土高架・砂利</group>
+		&BtPatternDef;
+		<sprite origin="0,128" offset="48">
+			<picture ref="{riorio-c477-causeway-ballastpicture-1D8F6ABB3997}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-F6A827D00951}-1,2">
+		<group>盛土高架・砂利</group>
+		&BtPatternDef;
+		<sprite origin="32,128" offset="48">
+			<picture ref="{riorio-c477-causeway-ballastpicture-1D8F6ABB3997}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-F6A827D00951}-2,2">
+		<group>盛土高架・砂利</group>
+		&BtPatternDef;
+		<sprite origin="64,128" offset="48">
+			<picture ref="{riorio-c477-causeway-ballastpicture-1D8F6ABB3997}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-F6A827D00951}-0,3">
+		<group>盛土高架・砂利</group>
+		&BtPatternDef;
+		<sprite origin="0,192" offset="48">
+			<picture ref="{riorio-c477-causeway-ballastpicture-1D8F6ABB3997}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-F6A827D00951}-1,3">
+		<group>盛土高架・砂利</group>
+		&BtPatternDef;
+		<sprite origin="32,192" offset="48">
+			<picture ref="{riorio-c477-causeway-ballastpicture-1D8F6ABB3997}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-F6A827D00951}-2,3">
+		<group>盛土高架・砂利</group>
+		&BtPatternDef;
+		<sprite origin="64,192" offset="48">
+			<picture ref="{riorio-c477-causeway-ballastpicture-1D8F6ABB3997}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-F6A827D00951}-0,4">
+		<group>盛土高架・砂利</group>
+		&BtPatternDef;
+		<sprite origin="0,256" offset="48">
+			<picture ref="{riorio-c477-causeway-ballastpicture-1D8F6ABB3997}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-F6A827D00951}-1,4">
+		<group>盛土高架・砂利</group>
+		&BtPatternDef;
+		<sprite origin="32,256" offset="48">
+			<picture ref="{riorio-c477-causeway-ballastpicture-1D8F6ABB3997}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-F6A827D00951}-2,4">
+		<group>盛土高架・砂利</group>
+		&BtPatternDef;
+		<sprite origin="64,256" offset="48">
+			<picture ref="{riorio-c477-causeway-ballastpicture-1D8F6ABB3997}" />
+		</sprite>
+	</contribution>	
+
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-36247AF81E7A}">
+		<group>盛土高架・砂利架線柱</group>
+		&EpPatternDef;
+		<sprite origin="0,0" offset="48">
+			<picture ref="{riorio-c477-causeway-ep-ballastpicture-3CCB2D32F820}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-36247AF81E7A}-1,0">
+		<group>盛土高架・砂利架線柱</group>
+		&EpPatternDef;
+		<sprite origin="32,0" offset="48">
+			<picture ref="{riorio-c477-causeway-ep-ballastpicture-3CCB2D32F820}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-36247AF81E7A}-2,0">
+		<group>盛土高架・砂利架線柱</group>
+		&EpPatternDef;
+		<sprite origin="64,0" offset="48">
+			<picture ref="{riorio-c477-causeway-ep-ballastpicture-3CCB2D32F820}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-36247AF81E7A}-3,0">
+		<group>盛土高架・砂利架線柱</group>
+		&EpPatternDef;
+		<sprite origin="96,0" offset="48">
+			<picture ref="{riorio-c477-causeway-ep-ballastpicture-3CCB2D32F820}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-36247AF81E7A}-4,0">
+		<group>盛土高架・砂利架線柱</group>
+		&EpPatternDef;
+		<sprite origin="128,0" offset="48">
+			<picture ref="{riorio-c477-causeway-ep-ballastpicture-3CCB2D32F820}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-36247AF81E7A}-0,1">
+		<group>盛土高架・砂利架線柱</group>
+		&EpPatternDef;
+		<sprite origin="0,64" offset="48">
+			<picture ref="{riorio-c477-causeway-ep-ballastpicture-3CCB2D32F820}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-36247AF81E7A}-1,1">
+		<group>盛土高架・砂利架線柱</group>
+		&EpPatternDef;
+		<sprite origin="32,64" offset="48">
+			<picture ref="{riorio-c477-causeway-ep-ballastpicture-3CCB2D32F820}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-36247AF81E7A}-2,1">
+		<group>盛土高架・砂利架線柱</group>
+		&EpPatternDef;
+		<sprite origin="64,64" offset="48">
+			<picture ref="{riorio-c477-causeway-ep-ballastpicture-3CCB2D32F820}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-36247AF81E7A}-3,1">
+		<group>盛土高架・砂利架線柱</group>
+		&EpPatternDef;
+		<sprite origin="96,64" offset="48">
+			<picture ref="{riorio-c477-causeway-ep-ballastpicture-3CCB2D32F820}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-36247AF81E7A}-4,1">
+		<group>盛土高架・砂利架線柱</group>
+		&EpPatternDef;
+		<sprite origin="128,64" offset="48">
+			<picture ref="{riorio-c477-causeway-ep-ballastpicture-3CCB2D32F820}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-36247AF81E7A}-0,2">
+		<group>盛土高架・砂利架線柱</group>
+		&EpPatternDef;
+		<sprite origin="0,128" offset="48">
+			<picture ref="{riorio-c477-causeway-ep-ballastpicture-3CCB2D32F820}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-36247AF81E7A}-1,2">
+		<group>盛土高架・砂利架線柱</group>
+		&EpPatternDef;
+		<sprite origin="32,128" offset="48">
+			<picture ref="{riorio-c477-causeway-ep-ballastpicture-3CCB2D32F820}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-36247AF81E7A}-2,2">
+		<group>盛土高架・砂利架線柱</group>
+		&EpPatternDef;
+		<sprite origin="64,128" offset="48">
+			<picture ref="{riorio-c477-causeway-ep-ballastpicture-3CCB2D32F820}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-36247AF81E7A}-3,2">
+		<group>盛土高架・砂利架線柱</group>
+		&EpPatternDef;
+		<sprite origin="96,128" offset="48">
+			<picture ref="{riorio-c477-causeway-ep-ballastpicture-3CCB2D32F820}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-36247AF81E7A}-4,2">
+		<group>盛土高架・砂利架線柱</group>
+		&EpPatternDef;
+		<sprite origin="128,128" offset="48">
+			<picture ref="{riorio-c477-causeway-ep-ballastpicture-3CCB2D32F820}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-36247AF81E7A}-0,3">
+		<group>盛土高架・砂利架線柱</group>
+		&EpPatternDef;
+		<sprite origin="0,192" offset="48">
+			<picture ref="{riorio-c477-causeway-ep-ballastpicture-3CCB2D32F820}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-36247AF81E7A}-1,3">
+		<group>盛土高架・砂利架線柱</group>
+		&EpPatternDef;
+		<sprite origin="32,192" offset="48">
+			<picture ref="{riorio-c477-causeway-ep-ballastpicture-3CCB2D32F820}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-36247AF81E7A}-2,3">
+		<group>盛土高架・砂利架線柱</group>
+		&EpPatternDef;
+		<sprite origin="64,192" offset="48">
+			<picture ref="{riorio-c477-causeway-ep-ballastpicture-3CCB2D32F820}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-36247AF81E7A}-3,3">
+		<group>盛土高架・砂利架線柱</group>
+		&EpPatternDef;
+		<sprite origin="96,192" offset="48">
+			<picture ref="{riorio-c477-causeway-ep-ballastpicture-3CCB2D32F820}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{riorio-c477-causeway-railstationary-36247AF81E7A}-4,3">
+		<group>盛土高架・砂利架線柱</group>
+		&EpPatternDef;
+		<sprite origin="128,192" offset="48">
+			<picture ref="{riorio-c477-causeway-ep-ballastpicture-3CCB2D32F820}" />
+		</sprite>
+	</contribution>	
+
+
+</plug-in>

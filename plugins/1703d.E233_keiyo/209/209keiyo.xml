@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+  <!-- 209系500番台京葉線先頭車 -->
+  <contribution type="trainCar" id="{CyberExpress1703d-209-500-Keiyo}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="209/209-500_Keiyo_a.bmp" />
+    </sprite>
+    <capacity>142</capacity>
+    <seatedcapacity>43</seatedcapacity>
+  </contribution>
+
+  <!-- 209系500番台京葉線中間車 -->
+  <contribution type="trainCar" id="{CyberExpress1703d-209-500-Keiyo}-m">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="209/209-500_Keiyo_b.bmp" />
+    </sprite>
+    <capacity>160</capacity>
+    <seatedcapacity>54</seatedcapacity>
+  </contribution>
+
+  <!-- 209系500番台京葉線後尾車 -->
+  <contribution type="trainCar" id="{CyberExpress1703d-209-500-Keiyo}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{CyberExpress1703d-209-500-Keiyo}-h" />
+  </contribution>
+
+  <!-- 209系500番台京葉線 -->
+  <contribution type="train" id="{CyberExpress1703d-209-500-Keiyo}">
+    <company>JR東日本</company>
+    <type>209系500番台</type>
+    <name>京葉線</name>
+    <author>いっちー</author>
+    <description>東京～蘇我間の京葉線を走る幅広車体の209系です。</description>
+    <fare>400</fare>
+    <price>25000000</price>
+	<amenity>100</amenity>
+    <speed>medium</speed>
+    <class name="freetrain.contributions.train.ParamTrainImpl" />
+    <composition>
+      <head carRef="{CyberExpress1703d-209-500-Keiyo}-h" />
+      <body carRef="{CyberExpress1703d-209-500-Keiyo}-m" />
+      <tail carRef="{CyberExpress1703d-209-500-Keiyo}-t" />
+    </composition>
+  </contribution>
+

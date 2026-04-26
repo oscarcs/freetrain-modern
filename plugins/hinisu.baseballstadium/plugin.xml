@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plug-in [
+]>
+<plug-in>
+	<title>野球場</title>
+	<author></author>
+	<homepage></homepage>
+		<contribution type="picture" id="{hinisu-build-baseballstadium-1-126BC68B908B}">
+		<picture src="baseballstadium.bmp">
+			<override when="night" src="baseballstadium_n.bmp" />
+		</picture>
+	</contribution>
+	
+	<contribution type="GenericStructure" id="{hinisu-build-baseballstadium-1-126BC73B58B}">
+		<name>野球場</name>
+		<structure>
+			<category byname="プロ野球場"/>
+		</structure>
+		<price>500000000</price>
+		<size>7,7</size>
+		<height>2</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>20000</base>
+		</population>
+		<sprite origin="0,0" offset="47">
+			<picture ref="{hinisu-build-baseballstadium-1-126BC68B908B}"/>
+		</sprite>
+	</contribution>
+</plug-in>

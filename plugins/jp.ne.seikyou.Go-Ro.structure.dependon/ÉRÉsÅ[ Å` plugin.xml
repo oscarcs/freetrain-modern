@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plug-in [
+<!ENTITY colorMap002 '
+	<spriteType name="colorMapped">
+		<map from="119,152,142" to="171,144,109"/>
+		<map from="168,190,184" to="217,188,157"/>
+		<map from="136,156,150" to="187,149,118"/>
+		<map from="97,125,116" to="150,116,83"/>
+		<map from="105,128,121" to="157,118,87"/>
+		<map from="75,102,93" to="127,90,61"/>
+	</spriteType>
+'>
+<!ENTITY colorMap003 '
+	<spriteType name="colorMapped">
+		<map from="119,152,142" to="157,157,161"/>
+		<map from="168,190,184" to="203,203,207"/>
+		<map from="136,156,150" to="167,166,170"/>
+		<map from="97,125,116" to="133,133,137"/>
+		<map from="105,128,121" to="137,136,141"/>
+		<map from="75,102,93" to="119,118,124"/>
+	</spriteType>
+'>
+<!ENTITY LandmarkBuildingParam '
+		<group>ランドマークビル</group>
+		<price>5000</price>
+		<minHeight>3</minHeight>
+		<maxHeight>10</maxHeight>
+		<population>
+			<class name="freetrain.contributions.population.CombinationPopulation"/>
+			<population>
+				<class name="freetrain.contributions.population.OfficePopulation"/>
+				<base>150</base>
+			</population>
+			<population>
+				<class name="freetrain.contributions.population.RestaurantPopulation"/>
+				<base>50</base>
+			</population>
+			<population>
+				<class name="freetrain.contributions.population.ShopperPopulation"/>
+				<base>70</base>
+			</population>
+		</population>
+'>
+<!ENTITY officeBuildingWithHeliport2Param '
+		<group>貸しビル(ヘリポート付)</group>
+		<price>4600</price>
+		<minHeight>3</minHeight>
+		<maxHeight>10</maxHeight>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>240</base>
+		</population>
+'>
+]>
+
+
+
+<plug-in>
+	<title>建物(477さんの絵の改造)</title>
+	<author>qra_ra</author>
+	<homepage>http://hb4.seikyou.ne.jp/home/Go-Ro/FreeTrain/</homepage>
+
+
+
+	<contribution type="picture" id="{0E9F632F-78F8-4B61-8B5B-450D85850002}">
+		<picture src="bldgVH02h2.bmp"/>
+	</contribution>
+
+	<contribution type="picture" id="{0E9F632F-78F8-4B61-8B5B-450D85850003}">
+		<picture src="bldgVH02h3.bmp"/>
+	</contribution>
+
+	<contribution type="picture" id="{0E9F632F-78F8-4B61-8B5B-450D85850004}">
+		<picture src="bldgVH02M-B.bmp"/>
+	</contribution>
+	
+
+
+	<contribution type="varHeightBuilding" id="{9BF4DD25-050A-4633-BC8B-0B8B226F0002}">
+		&LandmarkBuildingParam;
+		<size>3,2</size>
+		<pictures>
+			<top    origin="  0,  0" offset="19">
+				<picture ref="{0E9F632F-78F8-4B61-8B5B-450D85850002}"/>
+			</top>
+			<middle origin="  0, 0" offset="24">
+				&colorMap002;
+				<picture ref="{0E9F632F-78F8-4B61-8B5B-450D85850004}"/>
+			</middle>
+			<bottom origin="  0, 48" offset="24">
+				&colorMap002;
+				<picture ref="{0E9F632F-78F8-4B61-8B5B-450D85850004}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	
+	
+	<contribution type="varHeightBuilding" id="{5E12C371-F928-40f4-B661-FFC2DC710002}">
+		&LandmarkBuildingParam;
+		<size>2,3</size>
+		<pictures>
+			<top    origin=" 0,  0" offset="11">
+				<picture ref="{0E9F632F-78F8-4B61-8B5B-450D85850002}"/>
+			</top>
+			<middle origin=" 80, 0" offset="16">
+				&colorMap002;
+				<picture ref="{0E9F632F-78F8-4B61-8B5B-450D85850004}"/>
+			</middle>
+			<bottom origin=" 80, 48" offset="16">
+				&colorMap002;
+				<picture ref="{0E9F632F-78F8-4B61-8B5B-450D85850004}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+
+	<contribution type="varHeightBuilding" id="{9BF4DD25-050A-4633-BC8B-0B8B226F0003}">
+		&officeBuildingWithHeliport2Param;
+		<price>4600</price>
+		<size>3,2</size>
+		<pictures>
+			<top    origin="  0,  0" offset="19">
+				<picture ref="{0E9F632F-78F8-4B61-8B5B-450D85850003}"/>
+			</top>
+			<middle origin="  0, 0" offset="24">
+				&colorMap003;
+				<picture ref="{0E9F632F-78F8-4B61-8B5B-450D85850004}"/>
+			</middle>
+			<bottom origin="  0, 48" offset="24">
+				&colorMap003;
+				<picture ref="{0E9F632F-78F8-4B61-8B5B-450D85850004}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	
+	
+	<contribution type="varHeightBuilding" id="{5E12C371-F928-40f4-B661-FFC2DC710003}">
+		&officeBuildingWithHeliport2Param;
+		<size>2,3</size>
+		<pictures>
+			<top    origin=" 80,  0" offset="11">
+				<picture ref="{0E9F632F-78F8-4B61-8B5B-450D85850003}"/>
+			</top>
+			<middle origin=" 80, 0" offset="16">
+				&colorMap003;
+				<picture ref="{0E9F632F-78F8-4B61-8B5B-450D85850004}"/>
+			</middle>
+			<bottom origin=" 80, 48" offset="16">
+				&colorMap003;
+				<picture ref="{0E9F632F-78F8-4B61-8B5B-450D85850004}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+		
+</plug-in>

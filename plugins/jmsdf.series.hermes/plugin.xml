@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+<plug-in>
+ <title>海上自衛隊艦艇</title> 
+ <author>Hermes(白川郷の人)</author> 
+ <homepage>nothing</homepage> 
+ <!--  画像定義  --> 
+ <contribution type="picture" id="{1CDCD81D-8368-4CBC-HERM-JMSDFBD1E905}">
+ <picture src="DDH_hyuga_class.bmp" /> 
+ </contribution>
+ <contribution type="picture" id="{1CDCD81D-8368-4CBC-HERM-JMSDFBD1E915}">
+ <picture src="DDG_atago_class.bmp" /> 
+ </contribution>
+ <contribution type="picture" id="{1CDCD81D-8368-4CBC-HERM-JMSDFBD1E925}">
+ <picture src="PG_hayabusa_class.bmp" /> 
+ </contribution>
+ <!--  プラグイン定義  --> 
+ <!--  あたご型護衛艦  --> 
+ <contribution type="GenericStructure" id="{1CDCD81D-8368-4CBC-HERM-JMSDFBD1E900}-01">
+ <group>海上自衛隊艦艇</group> 
+ <design>ひゅうが型護衛艦</design> 
+ <price>1500</price> 
+ <size>6,2</size> 
+ <structure>
+ <category byname="軍事施設" /> 
+ </structure>
+ <height>3</height> 
+ <population>
+ <class name="freetrain.contributions.population.ResidentialPopulation" />  
+ <base>340</base> 
+ </population>
+ <computerCannotBuild /> 
+ <sprite origin="0,0" offset="72">
+ <picture ref="{1CDCD81D-8368-4CBC-HERM-JMSDFBD1E905}" /> 
+ </sprite>
+ <sprite origin="128,0" offset="40" opposite="true">
+ <picture ref="{1CDCD81D-8368-4CBC-HERM-JMSDFBD1E905}" /> 
+ </sprite>
+ <sprite origin="256,0" offset="72">
+ <picture ref="{1CDCD81D-8368-4CBC-HERM-JMSDFBD1E905}" /> 
+ </sprite>
+ <sprite origin="384,0" offset="40" opposite="true">
+ <picture ref="{1CDCD81D-8368-4CBC-HERM-JMSDFBD1E905}" /> 
+ </sprite>
+ </contribution>
+ <!--  ひゅうが型護衛艦  --> 
+ <contribution type="GenericStructure" id="{1CDCD81D-8368-4CBC-HERM-JMSDFBD1E910}-01">
+ <group>海上自衛隊艦艇</group> 
+ <design>あたご型護衛艦</design> 
+ <price>1500</price> 
+ <size>6,2</size> 
+ <structure>
+ <category byname="軍事施設" /> 
+ </structure>
+ <height>3</height> 
+ <population>
+ <class name="freetrain.contributions.population.ResidentialPopulation" /> 
+ <base>300</base> 
+ </population>
+ <computerCannotBuild /> 
+ <sprite origin="0,0" offset="72">
+ <picture ref="{1CDCD81D-8368-4CBC-HERM-JMSDFBD1E915}" /> 
+ </sprite>
+ <sprite origin="128,0" offset="40" opposite="true">
+ <picture ref="{1CDCD81D-8368-4CBC-HERM-JMSDFBD1E915}" /> 
+ </sprite>
+ <sprite origin="256,0" offset="72">
+ <picture ref="{1CDCD81D-8368-4CBC-HERM-JMSDFBD1E915}" /> 
+ </sprite>
+ <sprite origin="384,0" offset="40" opposite="true">
+ <picture ref="{1CDCD81D-8368-4CBC-HERM-JMSDFBD1E915}" /> 
+ </sprite>
+ </contribution>
+ <!--  はやぶさ型ミサイル艇  --> 
+ <contribution type="GenericStructure" id="{1CDCD81D-8368-4CBC-HERM-JMSDFBD1E920}-01">
+ <group>海上自衛隊艦艇</group> 
+ <design>はやぶさ型ミサイル艇</design> 
+ <price>250</price> 
+ <size>2,2</size> 
+ <structure>
+ <category byname="軍事施設" /> 
+ </structure>
+ <height>1</height> 
+ <population>
+ <class name="freetrain.contributions.population.ResidentialPopulation" /> 
+ <base>21</base> 
+ </population>
+ <computerCannotBuild /> 
+ <sprite origin="0,0" offset="40">
+ <picture ref="{1CDCD81D-8368-4CBC-HERM-JMSDFBD1E925}" /> 
+ </sprite>
+ <sprite origin="64,0" offset="40" opposite="true">
+ <picture ref="{1CDCD81D-8368-4CBC-HERM-JMSDFBD1E925}" /> 
+ </sprite>
+ <sprite origin="128,0" offset="40">
+ <picture ref="{1CDCD81D-8368-4CBC-HERM-JMSDFBD1E925}" /> 
+ </sprite>
+ <sprite origin="192,0" offset="40" opposite="true">
+ <picture ref="{1CDCD81D-8368-4CBC-HERM-JMSDFBD1E925}" /> 
+ </sprite>
+ </contribution>
+</plug-in>

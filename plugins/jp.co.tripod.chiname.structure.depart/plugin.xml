@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plug-in [
+]>
+<plug-in>
+	<title>百貨店</title>
+	<author>C477@2両目</author>
+	<homepage>http://www.rocket.ne.jp/~nao/</homepage>
+	<contribution type="picture" id="{4383FF24-42A2-4534-C477-61DA0E9B62CB}">
+		<picture src="station_sapporo03.bmp">
+			<override when="night" src="station_sapporo03_n.bmp" />
+		</picture>
+	</contribution>
+	
+	<contribution type="GenericStructure" id="{73EE8000-5448-443E-C477-47B6AD9E8EB8}">
+		<name>大○ 札幌店</name>
+		<structure>
+			<category byname="デパート"/>
+		</structure>
+		<price>900000000</price>
+		<size>5,6</size>
+		<height>3</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>2000</base>
+		</population>
+		<sprite origin="0,0" offset="80">
+			<picture ref="{4383FF24-42A2-4534-C477-61DA0E9B62CB}"/>
+		</sprite>
+		<sprite origin="176,0" offset="88" opposite="true">
+			<picture ref="{4383FF24-42A2-4534-C477-61DA0E9B62CB}"/>
+		</sprite>
+		<sprite origin="0,144" offset="80">
+			<picture ref="{4383FF24-42A2-4534-C477-61DA0E9B62CB}"/>
+		</sprite>
+		<sprite origin="176,144" offset="88" opposite="true">
+			<picture ref="{4383FF24-42A2-4534-C477-61DA0E9B62CB}"/>
+		</sprite>
+	</contribution>
+</plug-in>

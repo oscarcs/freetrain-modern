@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+ <title>架線柱</title>
+ <author>rki</author>
+ <homepage></homepage>
+  <depend on="org.kohsuke.freetrain.rail.electricPole"/>
+	<contribution type="electricPole" id="{357BF062-3812-rk01-kura-0001}">
+		<name>倉Ａ01</name>
+		<sprite>
+			<picture src="ekura01.bmp"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="electricPole" id="{357BF062-3812-rk01-kura-0002}">
+		<name>倉Ａ02</name>
+		<sprite>
+			<picture src="ekura02.bmp"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="electricPole" id="{357BF062-3812-rk01-kura-0003}">
+		<name>倉Ａ03</name>
+		<sprite>
+			<picture src="ekura03.bmp"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="electricPole" id="{357BF062-3812-rk01-kura-0004}">
+		<name>倉Ａ04</name>
+		<sprite>
+			<picture src="ekura04.bmp"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="electricPole" id="{357BF062-3812-rk01-kura-0005}">
+		<name>倉Ａ05</name>
+		<sprite>
+			<picture src="ekura05.bmp"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="electricPole" id="{357BF062-3812-rk01-kura-0006}">
+		<name>倉Ａ06</name>
+		<sprite>
+			<picture src="ekura06.bmp"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="electricPole" id="{357BF062-3812-rk01-kura-0009}">
+		<name>倉Ａ07</name>
+		<sprite>
+			<picture src="ekura07.bmp"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="electricPole" id="{357BF062-3812-rk01-kura-0010}">
+		<name>倉Ａ08</name>
+		<sprite>
+			<picture src="ekura08.bmp"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="electricPole" id="{357BF062-3812-rk01-kura-0011}">
+		<name>倉Ａ09</name>
+		<sprite>
+			<picture src="ekura09.bmp"/>
+		</sprite>
+	</contribution>
+
+
+	<contribution type="electricPole" id="{357BF062-3812-rk01-kura-0007}">
+		<name>倉Ａ10</name>
+		<sprite>
+			<picture src="depot_c1.bmp"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="electricPole" id="{357BF062-3812-rk01-kura-0008}">
+		<name>倉Ａ11</name>
+		<sprite>
+			<picture src="depot_c2.bmp"/>
+		</sprite>
+	</contribution>
+
+
+	<contribution type="road" id="{rk-ken0001-FENCE-1001}">
+		<class name="freetrain.contributions.road.A3RoadContribution" />
+		<name>列車庫（三角屋根01）</name>
+		<description>列車庫</description>
+		<picture src="yane01.png" size="32,32" offset="16" />
+	</contribution>
+	<contribution type="road" id="{rk-ken0001-FENCE-1002}">
+		<class name="freetrain.contributions.road.A3RoadContribution" />
+		<name>列車庫（三角屋根02）</name>
+		<description>列車庫</description>
+		<picture src="yane02.png" size="32,32" offset="16" />
+	</contribution>
+	<contribution type="road" id="{rk-ken0001-FENCE-1003}">
+		<class name="freetrain.contributions.road.A3RoadContribution" />
+		<name>列車庫（三角屋根03）</name>
+		<description>列車庫</description>
+		<picture src="yane03.png" size="32,32" offset="16" />
+	</contribution>
+	<contribution type="road" id="{rk-ken0001-FENCE-1004}">
+		<class name="freetrain.contributions.road.A3RoadContribution" />
+		<name>列車庫（三角屋根04）</name>
+		<description>列車庫</description>
+		<picture src="yane04.png" size="32,32" offset="16" />
+	</contribution>
+
+	<contribution type="road" id="{rk-ken0001-FENCE-1005}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<style name="unknown"/>
+		<name>列車庫（三角屋根05）</name>
+		<style name="footpath"/>
+		<description>列車庫</description>
+		<picture src="yane05.png" size="32,32" offset="16" />
+	</contribution>
+
+	<contribution type="picture" id="{FreeTrain-rk-torabasa-cg01}">
+		<picture src="tora.bmp"/>
+	</contribution>
+
+	<contribution type="railStationary" id="{FreeTrain-rk-torabasa-001}">
+		<group>トラバーサー</group>
+		<price>10000000</price>
+		<size>2,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="8">
+			<picture ref="{FreeTrain-rk-torabasa-cg01}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="railStationary" id="{FreeTrain-rk-torabasa-002}">
+		<group>トラバーサー</group>
+		<price>10000000</price>
+		<size>2,1</size>
+		<height>1</height>
+		<sprite origin="48,0" offset="8">
+			<picture ref="{FreeTrain-rk-torabasa-cg01}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="railStationary" id="{FreeTrain-rk-torabasa-003}">
+		<group>トラバーサー</group>
+		<price>10000000</price>
+		<size>2,1</size>
+		<height>1</height>
+		<sprite origin="96,0" offset="8">
+			<picture ref="{FreeTrain-rk-torabasa-cg01}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="railStationary" id="{FreeTrain-rk-torabasa-004}">
+		<group>トラバーサー</group>
+		<price>10000000</price>
+		<size>2,1</size>
+		<height>1</height>
+		<sprite origin="144,0" offset="8">
+			<picture ref="{FreeTrain-rk-torabasa-cg01}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="railStationary" id="{FreeTrain-rk-torabasa-005}">
+		<group>トラバーサー</group>
+		<price>10000000</price>
+		<size>2,1</size>
+		<height>1</height>
+		<sprite origin="192,0" offset="8">
+			<picture ref="{FreeTrain-rk-torabasa-cg01}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+	<contribution type="railStationary" id="{FreeTrain-rk-torabasa-006}">
+		<group>トラバーサー</group>
+		<price>10000000</price>
+		<size>1,2</size>
+		<height>1</height>
+		<sprite origin="0,48" offset="0">
+			<picture ref="{FreeTrain-rk-torabasa-cg01}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="railStationary" id="{FreeTrain-rk-torabasa-007}">
+		<group>トラバーサー</group>
+		<price>10000000</price>
+		<size>1,2</size>
+		<height>1</height>
+		<sprite origin="48,48" offset="0">
+			<picture ref="{FreeTrain-rk-torabasa-cg01}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="railStationary" id="{FreeTrain-rk-torabasa-008}">
+		<group>トラバーサー</group>
+		<price>10000000</price>
+		<size>1,2</size>
+		<height>1</height>
+		<sprite origin="96,48" offset="0">
+			<picture ref="{FreeTrain-rk-torabasa-cg01}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="railStationary" id="{FreeTrain-rk-torabasa-009}">
+		<group>トラバーサー</group>
+		<price>10000000</price>
+		<size>1,2</size>
+		<height>1</height>
+		<sprite origin="144,48" offset="0">
+			<picture ref="{FreeTrain-rk-torabasa-cg01}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="railStationary" id="{FreeTrain-rk-torabasa-010}">
+		<group>トラバーサー</group>
+		<price>10000000</price>
+		<size>1,2</size>
+		<height>1</height>
+		<sprite origin="192,48" offset="0">
+			<picture ref="{FreeTrain-rk-torabasa-cg01}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+</plug-in>

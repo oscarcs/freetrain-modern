@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>列車プラグイン　国鉄80系電車サロつき</title>
+		<author>りおりお</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+	
+
+	<!-- 80系湘南型電車 -->
+	<contribution type="picture" id="{riorio-hima-train-picture-kuha80-E2A88A8E3580}">
+		<picture src="kuha80.bmp" />
+	</contribution>
+
+	<contribution type="trainCar" id="{riorio-hima-kuha80a-02B8DF3DE1E9}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+		<picture ref="{riorio-hima-train-picture-kuha80-E2A88A8E3580}" />
+		</sprite>
+		<capacity>84</capacity>
+		<seatedcapacity>84</seatedcapacity>
+	</contribution>
+
+	<contribution type="trainCar" id="{riorio-hima-kuha80b-02B8DF3DE1E9}">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{riorio-hima-kuha80a-02B8DF3DE1E9}"/>
+	</contribution>
+	
+	<contribution type="picture" id="{riorio-hima-train-picture-moha80-64B3F5F618D7}">
+		<picture src="moha80.bmp" />
+	</contribution>
+
+	<contribution type="trainCar" id="{riorio-hima-moha80-61AB3B9FD199}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+		<picture ref="{riorio-hima-train-picture-moha80-64B3F5F618D7}" />
+		</sprite>
+		<capacity>92</capacity>
+		<seatedcapacity>92</seatedcapacity>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-hima-train-picture-saha80-57986E68CBB9}">
+		<picture src="saha80.bmp" />
+	</contribution>
+
+	<contribution type="trainCar" id="{riorio-hima-saha80-2389D0CD7053}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+		<picture ref="{riorio-hima-train-picture-saha80-57986E68CBB9}" />
+		</sprite>
+		<capacity>92</capacity>
+		<seatedcapacity>92</seatedcapacity>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-hima-train-picture-saro85-40623EA48EEF}">
+		<picture src="saro85.bmp" />
+	</contribution>
+
+	<contribution type="trainCar" id="{riorio-hima-saro85-4604D3250BBA}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+		<picture ref="{riorio-hima-train-picture-saro85-40623EA48EEF}" />
+		</sprite>
+		<capacity>64</capacity>
+		<seatedcapacity>64</seatedcapacity>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-hima-train-picture-kumoyuni81-518896F257CA}">
+		<picture src="kumoyuni81.bmp" />
+	</contribution>
+
+	<contribution type="trainCar" id="{riorio-hima-kumoyuni81-835EB797124F}">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+		<picture ref="{riorio-hima-train-picture-kumoyuni81-518896F257CA}" />
+		</sprite>
+		<capacity>0</capacity>
+		<seatedcapacity>0</seatedcapacity>
+	</contribution>
+
+
+	<!-- 70系横須賀線電車 -->
+
+	<contribution type="trainCar" id="{riorio-hima-kuha70a-18CD0CDF80D2}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+		<spriteType name="colorMapped">
+		  <map from="255,128,0" to="224,224,128" />
+		  <map from="250,112,0" to="220,210,128" />
+		  <map from="196,98,0" to="210,201,132" />
+		  <map from="184,78,0" to="198,194,124" />
+		  <map from="153,77,0" to="168,160,106" />
+		  <map from="130,87,65" to="132,120,67" />
+		  <map from="0,128,0" to="64,64,192" />
+		  <map from="2,107,2" to="68,68,156" />
+		  <map from="0,79,0" to="64,64,128" />
+		  <map from="0,64,0" to="32,32,96" />
+		  <map from="219,93,0" to="236,208,128" />
+		  <map from="161,68,0" to="184,152,104" />
+		  <map from="1,86,1" to="76,76,142" />
+		  <map from="1,80,1" to="70,70,130" />
+		</spriteType>
+		<picture ref="{riorio-hima-train-picture-kuha80-E2A88A8E3580}" />
+		</sprite>
+		<capacity>84</capacity>
+		<seatedcapacity>84</seatedcapacity>
+	</contribution>
+
+	<contribution type="trainCar" id="{riorio-hima-kuha70b-18CD0CDF80D2}">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{riorio-hima-kuha70a-18CD0CDF80D2}"/>
+	</contribution>
+	
+	<contribution type="trainCar" id="{riorio-hima-moha70-18CD0CDF80D2}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+		<spriteType name="colorMapped">
+		  <map from="255,128,0" to="224,224,128" />
+		  <map from="250,112,0" to="220,210,128" />
+		  <map from="196,98,0" to="210,201,132" />
+		  <map from="184,78,0" to="198,194,124" />
+		  <map from="153,77,0" to="168,160,106" />
+		  <map from="130,87,65" to="132,120,67" />
+		  <map from="0,128,0" to="64,64,192" />
+		  <map from="2,107,2" to="68,68,156" />
+		  <map from="0,79,0" to="64,64,128" />
+		  <map from="0,64,0" to="32,32,96" />
+		  <map from="161,68,0" to="184,152,104" />
+		  <map from="1,86,1" to="76,76,142" />
+		  <map from="1,80,1" to="70,70,130" />
+		</spriteType>
+		<picture ref="{riorio-hima-train-picture-moha80-64B3F5F618D7}" />
+		</sprite>
+		<capacity>92</capacity>
+		<seatedcapacity>92</seatedcapacity>
+	</contribution>
+
+	<contribution type="trainCar" id="{riorio-hima-saro75-18CD0CDF80D2}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+		<spriteType name="colorMapped">
+		  <map from="255,128,0" to="224,224,128" />
+		  <map from="250,112,0" to="220,210,128" />
+		  <map from="196,98,0" to="210,201,132" />
+		  <map from="184,78,0" to="198,194,124" />
+		  <map from="153,77,0" to="168,160,106" />
+		  <map from="130,87,65" to="132,120,67" />
+		  <map from="0,128,0" to="64,64,192" />
+		  <map from="2,107,2" to="68,68,156" />
+		  <map from="0,79,0" to="64,64,128" />
+		  <map from="0,64,0" to="32,32,96" />
+		  <map from="161,68,0" to="184,152,104" />
+		  <map from="1,86,1" to="76,76,142" />
+		  <map from="1,80,1" to="70,70,130" />
+		</spriteType>
+		<picture ref="{riorio-hima-train-picture-saro85-40623EA48EEF}" />
+		</sprite>
+		<capacity>64</capacity>
+		<seatedcapacity>64</seatedcapacity>
+	</contribution>
+
+
+	<!-- 70系新潟色電車 -->
+
+	<contribution type="trainCar" id="{riorio-hima-niigata-kuha70a-A9156289855B}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+		<spriteType name="colorMapped">
+		  <map from="255,128,0" to="246,220,100" />
+		  <map from="250,112,0" to="242,210,98" />
+		  <map from="196,98,0" to="230,198,108" />
+		  <map from="184,78,0" to="216,192,100" />
+		  <map from="153,77,0" to="184,160,86" />
+		  <map from="130,87,65" to="145,118,54" />
+		  <map from="0,128,0" to="202,58,58" />
+		  <map from="2,107,2" to="172,62,62" />
+		  <map from="0,79,0" to="140,58,58" />
+		  <map from="0,64,0" to="106,28,28" />
+		  <map from="219,93,0" to="254,206,105" />
+		  <map from="161,68,0" to="202,150,85" />
+		  <map from="1,86,1" to="156,68,68" />
+		  <map from="1,80,1" to="142,63,63" />
+		</spriteType>
+		<picture ref="{riorio-hima-train-picture-kuha80-E2A88A8E3580}" />
+		</sprite>
+		<capacity>84</capacity>
+		<seatedcapacity>84</seatedcapacity>
+	</contribution>
+
+	<contribution type="trainCar" id="{riorio-hima-niigata-kuha70b-A9156289855B}">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{riorio-hima-niigata-kuha70a-A9156289855B}"/>
+	</contribution>
+	
+	<contribution type="trainCar" id="{riorio-hima-niigata-moha70-A9156289855B}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+		<spriteType name="colorMapped">
+		  <map from="255,128,0" to="246,220,100" />
+		  <map from="250,112,0" to="242,210,98" />
+		  <map from="196,98,0" to="230,198,108" />
+		  <map from="184,78,0" to="216,192,100" />
+		  <map from="153,77,0" to="184,160,86" />
+		  <map from="130,87,65" to="145,118,54" />
+		  <map from="0,128,0" to="202,58,58" />
+		  <map from="2,107,2" to="172,62,62" />
+		  <map from="0,79,0" to="140,58,58" />
+		  <map from="0,64,0" to="106,28,28" />
+		  <map from="219,93,0" to="254,206,105" />
+		  <map from="161,68,0" to="202,150,85" />
+		  <map from="1,86,1" to="156,68,68" />
+		  <map from="1,80,1" to="142,63,63" />
+		</spriteType>
+		<picture ref="{riorio-hima-train-picture-moha80-64B3F5F618D7}" />
+		</sprite>
+		<capacity>92</capacity>
+		<seatedcapacity>92</seatedcapacity>
+	</contribution>
+
+
+
+	<contribution type="train" id="{riorio-hima-jnr80ec-A287-4528788BF74E}">
+		<company>旧日本国有鉄道</company>
+		<type>80系</type>
+		<name>湘南電車(2枚窓タイプ) サロ入り</name>
+		<author>りおりお←暇</author>
+		<description>国鉄が製作した最初の長距離電車。途中から製作された2枚窓のスタイルは私鉄を中心にブームになった。7両～15両ではグリーン車の入った編成を組めます。6,11,16両のときには荷物車がつきます。
+		</description>
+		<fare>550</fare>
+		<price>38500000</price>
+		<amenity>90</amenity>
+		<triprange>long</triprange>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="＜" ref="{riorio-hima-kuha80a-02B8DF3DE1E9}"/>
+			<car char="＞" ref="{riorio-hima-kuha80b-02B8DF3DE1E9}"/>
+			<car char="Ｍ" ref="{riorio-hima-moha80-61AB3B9FD199}"/>
+			<car char="Ｔ" ref="{riorio-hima-saha80-2389D0CD7053}"/>
+			<car char="Ｓ" ref="{riorio-hima-saro85-4604D3250BBA}"/>
+			<car char="Ｌ" ref="{riorio-hima-kumoyuni81-835EB797124F}"/>
+                           <composition>＜Ｍ＞</composition>
+                           <composition>＜ＭＭ＞</composition>
+                           <composition>＜ＴＭＭ＞</composition>
+                           <composition>Ｌ＜ＴＭＭ＞</composition>
+                           <composition>＜ＭＴＳＭＭ＞</composition>
+                           <composition>＜ＭＴＭＳＭＭ＞</composition>
+                           <composition>＜ＭＴＭＳＳＭＭ＞</composition>
+                           <composition>＜ＭＴＭＳＳＭＴＭ＞</composition>
+                           <composition>Ｌ＜ＭＴＭＳＳＭＴＭ＞</composition>
+                           <composition>＜ＭＴＭＳＳＭ＞＜ＭＭ＞</composition>
+                           <composition>＜ＭＴＭＳＳＭ＞＜ＴＭＭ＞</composition>
+                           <composition>＜ＭＴＭＳＳＭＭ＞＜ＴＭＭ＞</composition>
+                           <composition>＜ＭＴＭＳＳＭＴＭ＞＜ＴＭＭ＞</composition>
+                           <composition>Ｌ＜ＭＴＭＳＳＭＴＭ＞＜ＴＭＭ＞</composition>
+		</config>
+	</contribution>
+
+
+	<contribution type="train" id="{riorio-hima-jnr80l-BE61-BDC769FD2320}">
+		<company>旧日本国有鉄道</company>
+		<type>80系</type>
+		<name>荷物電車</name>
+		<author>りおりお←暇</author>
+		<description>国鉄が製作した最初の長距離電車。荷物車のみで構成された荷物電車です。
+		</description>
+		<fare>0</fare>
+		<price>30000000</price>
+		<amenity>90</amenity>
+		<speed>medium</speed>
+		<composition>
+			<body carRef="{riorio-hima-kumoyuni81-835EB797124F}"/>
+		</composition>
+	</contribution>
+
+
+	<contribution type="train" id="{riorio-hima-jnr70ec-9F12-057EAC3DBB72}">
+		<company>旧日本国有鉄道</company>
+		<type>70系</type>
+		<name>横須賀線 サロ入り</name>
+		<author>りおりお←暇</author>
+		<description>国鉄が80系をベースに横須賀線向けとして３扉で製作した電車。いわゆるスカ色に塗り分けられています。6両以上ではグリーン車の入った編成を組めます。
+		</description>
+		<fare>550</fare>
+		<price>38500000</price>
+		<triprange>middle</triprange>
+		<amenity>90</amenity>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="＜" ref="{riorio-hima-kuha70a-18CD0CDF80D2}"/>
+			<car char="＞" ref="{riorio-hima-kuha70b-18CD0CDF80D2}"/>
+			<car char="Ｍ" ref="{riorio-hima-moha70-18CD0CDF80D2}"/>
+			<car char="Ｓ" ref="{riorio-hima-saro75-18CD0CDF80D2}"/>
+                           <composition>＜Ｍ＞</composition>
+                           <composition>＜ＭＭ＞</composition>
+                           <composition>＜ＭＭＭ＞</composition>
+                           <composition>＜ＭＭＳＭ＞</composition>
+                           <composition>＜ＭＭＳＭＭ＞</composition>
+                           <composition>＜ＭＳ＞＜ＭＭ＞</composition>
+                           <composition>＜ＭＳＭ＞＜ＭＭ＞</composition>
+                           <composition>＜ＭＭＳＭ＞＜ＭＭ＞</composition>
+                           <composition>＜ＭＭＳＭ＞＜ＭＳＭ＞</composition>
+                           <composition>＜ＭＭＳＭ＞＜ＭＭＳＭ＞</composition>
+
+		</config>
+	</contribution>
+
+
+	<contribution type="train" id="{riorio-hima-jnr70niigata-8D76-9F18C7E15FC3}">
+		<company>旧日本国有鉄道</company>
+		<type>70系</type>
+		<name>新潟色</name>
+		<author>りおりお←暇</author>
+		<description>国鉄が80系をベースに横須賀線向けとして３扉で製作した電車。横須賀線に113系が投入されるようになると新潟地区に転出し、金太郎塗りと呼ばれた赤と黄色のツートンに塗り替えられました。4,6,8両編成を組みます。
+		</description>
+		<fare>500</fare>
+		<price>35000000</price>
+		<triprange>middle</triprange>
+		<amenity>85</amenity>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="＜" ref="{riorio-hima-niigata-kuha70a-A9156289855B}"/>
+			<car char="＞" ref="{riorio-hima-niigata-kuha70b-A9156289855B}"/>
+			<car char="Ｍ" ref="{riorio-hima-niigata-moha70-A9156289855B}"/>
+                           <composition>＜ＭＭ＞</composition>
+                           <composition>＜ＭＭＭＭ＞</composition>
+                           <composition>＜ＭＭ＞＜ＭＭ＞</composition>
+		</config>
+	</contribution>
+
+</plug-in>

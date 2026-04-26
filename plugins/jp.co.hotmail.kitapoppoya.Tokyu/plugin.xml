@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+<plug-in>
+  <title>109パック</title> 
+  <author>北の汽車屋</author> 
+  <homepage>http://www.geocities.jp/kitapoppoya/</homepage> 
+<!-- 8500先頭車 --> 
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-8500-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="toq8500_a.bmp" /> 
+  </sprite>
+  <capacity>144</capacity>
+  <seatedcapacity>56</seatedcapacity> 
+  </contribution>
+<!-- 8500最後尾車 -->
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-8500-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{5ACFD81E-6A4E-4981-AEAF-D-8500-A}"/> 
+  <capacity>144</capacity>
+  <seatedcapacity>56</seatedcapacity> 
+  </contribution> 
+<!-- 8500中央線中間車-->
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-8500-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="toq8500_b.bmp" /> 
+  </sprite>
+  <capacity>160</capacity>
+  <seatedcapacity>64</seatedcapacity> 
+  </contribution>
+<!-- 8090先頭車 --> 
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-8090-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="toq8090_a.bmp" /> 
+  </sprite>
+  <capacity>136</capacity>
+  <seatedcapacity>48</seatedcapacity> 
+  </contribution>
+<!-- 8090最後尾車 -->
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-8090-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{5ACFD81E-6A4E-4981-AEAF-D-8090-A}"/> 
+  <capacity>136</capacity>
+  <seatedcapacity>48</seatedcapacity> 
+  </contribution> 
+<!-- 8090中間車-->
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-8090-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="toq8090_b.bmp" /> 
+  </sprite>
+  <capacity>144</capacity>
+  <seatedcapacity>54</seatedcapacity> 
+  </contribution>
+<!-- 8590先頭車 --> 
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-8590-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="toq8590_a.bmp" /> 
+  </sprite>
+  <capacity>136</capacity>
+  <seatedcapacity>48</seatedcapacity> 
+  </contribution>
+<!-- 8590最後尾車 -->
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-8590-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{5ACFD81E-6A4E-4981-AEAF-D-8590-A}"/> 
+  <capacity>136</capacity> 
+  <seatedcapacity>48</seatedcapacity>
+  </contribution> 
+<!-- 8590中間車-->
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-8590-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="toq8090_b.bmp" /> 
+  </sprite>
+  <capacity>144</capacity>
+  <seatedcapacity>54</seatedcapacity> 
+  </contribution>
+<!-- 横浜市営3000先頭車 --> 
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AE-YTB3000-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="YTB_3000_a.bmp" /> 
+  </sprite>
+  <capacity>132</capacity>
+   <seatedcapacity>54</seatedcapacity>
+  </contribution>
+<!-- 横浜市営3000最後尾車 -->
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AE-YTB3000-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{5ACFD81E-6A4E-4981-AE-YTB3000-A}"/> 
+  <seatedcapacity>56</seatedcapacity> 
+  </contribution> 
+<!-- 横浜市営3000中間車-->
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AE-YTB3000-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="YTB_3000_b.bmp" /> 
+  </sprite>
+  <capacity>140</capacity>
+  <seatedcapacity>56</seatedcapacity> 
+  </contribution>
+
+  <contribution type="train" id="{5ACFD81E-6A4E-4981-AEAF-D-8500}">
+<company>東京急行電鉄</company>
+<type>8500系</type>
+<name></name>
+<author>北の汽車屋</author>
+<description></description>
+<fare>420</fare>
+<price>8000000</price>
+	<amenity>100</amenity>
+<speed>medium</speed>
+ <class name="freetrain.contributions.train.ParamTrainImpl"/>
+ <composition>
+   <head carRef="{5ACFD81E-6A4E-4981-AEAF-D-8500-A}"/>
+   <body carRef="{5ACFD81E-6A4E-4981-AEAF-D-8500-C}"/>
+   <tail carRef="{5ACFD81E-6A4E-4981-AEAF-D-8500-B}"/>
+ </composition>
+</contribution>
+  <contribution type="train" id="{5ACFD81E-6A4E-4981-AEAF-D-8090}">
+<company>東京急行電鉄</company>
+<type>8090系</type>
+<name></name>
+<author>北の汽車屋</author>
+<description></description>
+<fare>500</fare>
+<price>8000000</price>
+	<amenity>100</amenity>
+<speed>medium</speed>
+ <class name="freetrain.contributions.train.ParamTrainImpl"/>
+ <composition>
+   <head carRef="{5ACFD81E-6A4E-4981-AEAF-D-8090-A}"/>
+   <body carRef="{5ACFD81E-6A4E-4981-AEAF-D-8090-C}"/>
+   <tail carRef="{5ACFD81E-6A4E-4981-AEAF-D-8090-B}"/>
+ </composition>
+</contribution>
+ <contribution type="train" id="{5ACFD81E-6A4E-4981-AEAF-D-8590}">
+<company>東京急行電鉄</company>
+<type>8590系</type>
+<name></name>
+<author>北の汽車屋</author>
+<description></description>
+<fare>500</fare>
+<price>10000000</price>
+	<amenity>100</amenity>
+<speed>medium</speed>
+ <class name="freetrain.contributions.train.ParamTrainImpl"/>
+ <composition>
+   <head carRef="{5ACFD81E-6A4E-4981-AEAF-D-8590-A}"/>
+   <body carRef="{5ACFD81E-6A4E-4981-AEAF-D-8590-C}"/>
+   <tail carRef="{5ACFD81E-6A4E-4981-AEAF-D-8590-B}"/>
+ </composition>
+</contribution>
+ <contribution type="train" id="{5ACFD81E-6A4E-4981-AE-YTB3000}">
+<company>横浜市営地下鉄</company>
+<type>3000系</type>
+<author>北の汽車屋</author>
+<description></description>
+<name></name>
+<fare>540</fare>
+<price>10000000</price>
+	<amenity>100</amenity>
+<speed>medium</speed>
+ <class name="freetrain.contributions.train.ParamTrainImpl"/>
+ <composition>
+   <head carRef="{5ACFD81E-6A4E-4981-AE-YTB3000-A}"/>
+   <body carRef="{5ACFD81E-6A4E-4981-AE-YTB3000-C}"/>
+   <tail carRef="{5ACFD81E-6A4E-4981-AE-YTB3000-B}"/>
+ </composition>
+</contribution>
+</plug-in>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+
+<plug-in>
+	<title>建物セット</title>
+	<author>烈火</author>
+	<homepage></homepage>
+
+	<contribution type="picture" id="{rk-tateya-tutaya006-cg-001}">
+		<picture src="dennkiya01a.bmp">
+			<override when="night" src="dennkiya01b.bmp"/>
+		</picture>
+	</contribution>
+	<contribution type="picture" id="{rk-tateya-tutaya006-cg-001-te}">
+		<picture src="dennkiya01a.bmp">
+		</picture>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{rk-tateya-tutaya006-001}">
+
+		<name>家電屋さん</name>
+		<price>950000000</price>
+		<size>6,4</size>
+		<height>2</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>160</base>
+		</population>
+		<design>家電屋さん</design>
+		<structure>
+			<category  byname="都市型量販店"/>
+		</structure>
+		<sprite origin="0,0" offset="50">
+			<picture ref="{rk-tateya-tutaya006-cg-001}"/>
+		</sprite>
+
+	</contribution>
+
+</plug-in>

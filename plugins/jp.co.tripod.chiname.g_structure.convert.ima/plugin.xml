@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>マクドナルド</title>
+	<author>imaさん</author>
+	<homepage>mailto:ima@imaden.bizland.com</homepage>
+	<depend on="org.kohsuke.freetrain.structure.ima"/>	
+	
+	<contribution type="GenericStructure" id="{594D6A74-2678-4a35-9FE6-E2FFA90C207A}-gs">
+		<name>ハンバーガーショップ</name>
+		<design>マクドナルド</design>
+		<structure>
+			<category byname="ファーストフード"/>
+		</structure>
+		<price>1900000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+		<sprite origin="0,0" offset="10">
+			<picture ref="{594D6A74-2678-4a35-9FE6-E2FFA90C207A}" />
+		</sprite>
+	</contribution>
+</plug-in>

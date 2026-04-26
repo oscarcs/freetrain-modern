@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+<plug-in>
+  <title>京急2100形</title> 
+  <author>Noz</author> 
+  <homepage></homepage>
+ 
+<!-- 2100先頭車 --> 
+　<contribution type="trainCar" id="{7C449C7A-7942-4B43-8ADF-E6EFE24A3E1F}-A">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="keikyu2100-a.bmp" /> 
+  </sprite>
+  <capacity>111</capacity> 
+  <seatedcapacity>50</seatedcapacity>
+  </contribution>
+<!-- 2100最後尾車 -->
+　<contribution type="trainCar" id="{7C449C7A-7942-4B43-8ADF-E6EFE24A3E1F}-B">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{7C449C7A-7942-4B43-8ADF-E6EFE24A3E1F}-A" />  
+  </contribution> 
+<!--2100中間車-->
+　<contribution type="trainCar" id="{7C449C7A-7942-4B43-8ADF-E6EFE24A3E1F}-C">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="keikyu2100-c.bmp" /> 
+  </sprite>
+  <capacity>120</capacity> 
+  <seatedcapacity>54</seatedcapacity>
+  </contribution>
+<!--2100パンタ車-->
+　<contribution type="trainCar" id="{7C449C7A-7942-4B43-8ADF-E6EFE24A3E1F}-P">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="keikyu2100-b.bmp" /> 
+  </sprite>
+  <capacity>120</capacity> 
+  <seatedcapacity>54</seatedcapacity>
+  </contribution>
+
+  <contribution type="train" id="{57349167-D397-45AA-A2C5-8422A52F7506}">
+<company>京浜急行電鉄</company>
+<type>2100形</type>
+<name>京急線</name>
+<author>Noz</author>
+<description>1998年に快特で使用されていた2000形の後継車という事で登場した車両。4、8、12両編成を用意しております。
+</description>
+<fare>500</fare>
+<price>35000000</price>
+<triprange>middle</triprange>
+<amenity>115</amenity>
+<speed>fast</speed>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<config>
+<car char="a" ref="{7C449C7A-7942-4B43-8ADF-E6EFE24A3E1F}-A"/>
+<car char="c" ref="{7C449C7A-7942-4B43-8ADF-E6EFE24A3E1F}-C"/>
+<car char="d" ref="{7C449C7A-7942-4B43-8ADF-E6EFE24A3E1F}-B"/> 
+<car char="b" ref="{7C449C7A-7942-4B43-8ADF-E6EFE24A3E1F}-P"/> 
+<composition>abcd</composition>
+<composition>abccccbd</composition>
+<composition>abccccbdabcd</composition>
+</config>
+</contribution>
+
+  <contribution type="train" id="{AD37AE4B-E3EB-4D9D-838E-22EA4E4F82BE}">
+<company>京浜急行電鉄</company>
+<type>2100形+新1000形</type>
+<name>京急線</name>
+<author>Noz</author>
+<description>2100形8両+新1000形4両の12両編成です。
+</description>
+<fare>500</fare>
+<price>35000000</price>
+<triprange>middle</triprange>
+<amenity>110</amenity>
+<speed>fast</speed>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<config>
+<car char="a" ref="{7C449C7A-7942-4B43-8ADF-E6EFE24A3E1F}-A"/>
+<car char="c" ref="{7C449C7A-7942-4B43-8ADF-E6EFE24A3E1F}-C"/>
+<car char="d" ref="{7C449C7A-7942-4B43-8ADF-E6EFE24A3E1F}-B"/> 
+<car char="b" ref="{7C449C7A-7942-4B43-8ADF-E6EFE24A3E1F}-P"/> 
+
+<car char="x" ref="{D714F947-64DA-4A21-8526-8DFC12430F7B}-A"/>
+<car char="y" ref="{D714F947-64DA-4A21-8526-8DFC12430F7B}-C"/>
+<car char="z" ref="{D714F947-64DA-4A21-8526-8DFC12430F7B}-B"/> 
+<car char="p" ref="{D714F947-64DA-4A21-8526-8DFC12430F7B}-P"/> 
+<composition>abccccbdxypz</composition>
+</config>
+</contribution>
+
+  <contribution type="train" id="{7F280BAD-7AA1-4454-973B-123D9F19DC33}">
+<company>京浜急行電鉄</company>
+<type>2100形+600形</type>
+<name>京急線</name>
+<author>Noz</author>
+<description>2100形8両+600形4両の12両編成です。
+</description>
+<fare>500</fare>
+<price>35000000</price>
+<triprange>middle</triprange>
+<amenity>110</amenity>
+<speed>fast</speed>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<config>
+<car char="a" ref="{7C449C7A-7942-4B43-8ADF-E6EFE24A3E1F}-A"/>
+<car char="c" ref="{7C449C7A-7942-4B43-8ADF-E6EFE24A3E1F}-C"/>
+<car char="d" ref="{7C449C7A-7942-4B43-8ADF-E6EFE24A3E1F}-B"/> 
+<car char="b" ref="{7C449C7A-7942-4B43-8ADF-E6EFE24A3E1F}-P"/> 
+
+<car char="x" ref="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-A"/>
+<car char="y" ref="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-C"/>
+<car char="z" ref="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-B"/> 
+<car char="p" ref="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-FP"/> 
+<composition>abccccbdxypz</composition>
+</config>
+</contribution>
+
+  <contribution type="train" id="{819C92C0-D19A-448D-9CA6-F66A233617A6}">
+<company>京浜急行電鉄</company>
+<type>2100形+2000形</type>
+<name>京急線</name>
+<author>Noz</author>
+<description>2100形8両+2000形4両の12両編成です。　＊：2000形は、しの氏の2000形を利用しております。
+</description>
+<fare>500</fare>
+<price>35000000</price>
+<triprange>middle</triprange>
+<amenity>110</amenity>
+<speed>fast</speed>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<config>
+<car char="a" ref="{7C449C7A-7942-4B43-8ADF-E6EFE24A3E1F}-A"/>
+<car char="c" ref="{7C449C7A-7942-4B43-8ADF-E6EFE24A3E1F}-C"/>
+<car char="d" ref="{7C449C7A-7942-4B43-8ADF-E6EFE24A3E1F}-B"/> 
+<car char="b" ref="{7C449C7A-7942-4B43-8ADF-E6EFE24A3E1F}-P"/> 
+
+<car char="x" ref="{6F2F2667-05F0-4595-9A44-TYPE2000}-A"/>
+<car char="y" ref="{6F2F2667-05F0-4595-9A44-TYPE2000}-C"/>
+<car char="z" ref="{6F2F2667-05F0-4595-9A44-TYPE2000}-B"/> 
+<car char="p" ref="{6F2F2667-05F0-4595-9A44-TYPE2000}-P"/>
+<composition>abccccbdxpyz</composition>
+</config>
+</contribution>
+
+  <contribution type="train" id="{C5360292-02A0-4D4E-8FC8-CF4202E93870}">
+<company>京浜急行電鉄</company>
+<type>2100形+1500形</type>
+<name>京急線</name>
+<author>Noz</author>
+<description>2100形8両+1500形4両の12両編成です。＊：1500形は、しの氏の2000形を利用しております。
+</description>
+<fare>500</fare>
+<price>35000000</price>
+<triprange>middle</triprange>
+<amenity>110</amenity>
+<speed>fast</speed>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<config>
+<car char="a" ref="{7C449C7A-7942-4B43-8ADF-E6EFE24A3E1F}-A"/>
+<car char="c" ref="{7C449C7A-7942-4B43-8ADF-E6EFE24A3E1F}-C"/>
+<car char="d" ref="{7C449C7A-7942-4B43-8ADF-E6EFE24A3E1F}-B"/> 
+<car char="b" ref="{7C449C7A-7942-4B43-8ADF-E6EFE24A3E1F}-P"/>
+
+<car char="x" ref="{6F2F2667-05F0-4595-9B44-TYPE1500}-A"/>
+<car char="y" ref="{6F2F2667-05F0-4595-9B44-TYPE1500}-C"/>
+<car char="z" ref="{6F2F2667-05F0-4595-9B44-TYPE1500}-B"/> 
+<car char="p" ref="{6F2F2667-05F0-4595-9B44-TYPE1500}-P1"/>  
+
+ 
+<composition>abccccbdxypz</composition>
+</config>
+</contribution>
+
+
+
+</plug-in>

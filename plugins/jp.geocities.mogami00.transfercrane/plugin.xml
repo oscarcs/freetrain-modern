@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+  <plug-in>
+  <title>トランスファークレーン</title> 
+  <author>モガミ</author> 
+  <homepage>http://www.geocities.jp/mogami00/Kamikazekensetu.html</homepage> 
+  <contribution type="picture" id="{mogami-building-transfercrane-picture-8E6ADCD909B5}">
+  <picture src="transfercrane.bmp">
+  </picture>
+  </contribution>
+  <contribution type="GenericStructure" id="{mogami-building-transfercrane-6626CC7B95F1}-0">
+  <group>トランスファークレーン</group> 
+  <structure>
+  <category byname="貨物埠頭" /> 
+  </structure>
+  <size>2,2</size>
+  <price>300000</price> 
+  <computerCannotBuild /> 
+  <height>2</height> 
+  <population>
+  <class name="freetrain.contributions.population.OfficePopulation" /> 
+  <base>10</base> 
+  </population>
+  <sprite origin="0,2" offset="30">
+  <picture ref="{mogami-building-transfercrane-picture-8E6ADCD909B5}" /> 
+  </sprite>
+  <sprite origin="0,71" offset="30">
+  <picture ref="{mogami-building-transfercrane-picture-8E6ADCD909B5}" /> 
+  </sprite>
+  </contribution>
+  <contribution type="GenericStructure" id="{mogami-building-transfercrane-6626CC7B95F1}-1">
+  <group>トランスファークレーン</group> 
+  <structure>
+  <category byname="貨物埠頭" /> 
+  </structure>
+  <size>2,2</size>
+  <price>300000</price> 
+  <computerCannotBuild /> 
+  <height>2</height> 
+  <population>
+  <class name="freetrain.contributions.population.OfficePopulation" /> 
+  <base>10</base> 
+  </population>
+  <sprite origin="64,2" offset="30">
+  <picture ref="{mogami-building-transfercrane-picture-8E6ADCD909B5}" /> 
+  </sprite>
+  <sprite origin="64,71" offset="30">
+  <picture ref="{mogami-building-transfercrane-picture-8E6ADCD909B5}" /> 
+  </sprite>
+  </contribution>
+  <contribution type="GenericStructure" id="{mogami-building-transfercrane-6626CC7B95F1}-2">
+  <group>トランスファークレーン</group> 
+  <structure>
+  <category byname="貨物埠頭" /> 
+  </structure>
+  <size>2,2</size>
+  <price>300000</price> 
+  <computerCannotBuild /> 
+  <height>2</height> 
+  <population>
+  <class name="freetrain.contributions.population.OfficePopulation" /> 
+  <base>10</base> 
+  </population>
+  <sprite origin="128,2" offset="30">
+  <picture ref="{mogami-building-transfercrane-picture-8E6ADCD909B5}" /> 
+  </sprite>
+  <sprite origin="128,71" offset="30">
+  <picture ref="{mogami-building-transfercrane-picture-8E6ADCD909B5}" /> 
+  </sprite>
+  </contribution>
+  <contribution type="GenericStructure" id="{mogami-building-transfercrane-6626CC7B95F1}-3">
+  <group>トランスファークレーン</group> 
+  <structure>
+  <category byname="貨物埠頭" /> 
+  </structure>
+  <size>2,2</size>
+  <price>300000</price> 
+  <computerCannotBuild /> 
+  <height>2</height> 
+  <population>
+  <class name="freetrain.contributions.population.OfficePopulation" /> 
+  <base>10</base> 
+  </population>
+  <sprite origin="192,2" offset="30">
+  <picture ref="{mogami-building-transfercrane-picture-8E6ADCD909B5}" /> 
+  </sprite>
+  <sprite origin="192,71" offset="30">
+  <picture ref="{mogami-building-transfercrane-picture-8E6ADCD909B5}" /> 
+  </sprite>
+  </contribution>
+  </plug-in>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plug-in [
+
+
+<!ENTITY vhbi_017hueTransform_001 '
+	<spriteType name="hueTransform">
+		<map from="0,0,*" to="255,250,228"/>
+		<map from="0,*,0" to="255,250,228"/>
+		<map from="*,0,0" to="49,156,255"/>
+	</spriteType>
+'>
+<!ENTITY vhbi_017hueTransform_002 '
+	<spriteType name="hueTransform">
+		<map from="0,0,*" to="239,255,254"/>
+		<map from="0,*,0" to="239,255,254"/>
+		<map from="*,0,0" to="255,128,25"/>
+	</spriteType>
+'>
+<!ENTITY vhbi_017hueTransform_003 '
+	<spriteType name="hueTransform">
+		<map from="0,0,*" to="255,250,228"/>
+		<map from="0,*,0" to="204,210,238"/>
+		<map from="*,0,0" to="255,72,72"/>
+	</spriteType>
+'>
+<!ENTITY vhbi_017hueTransform_004 '
+	<spriteType name="hueTransform">
+		<map from="0,0,*" to="255,250,228"/>
+		<map from="0,*,0" to="243,215,195"/>
+		<map from="*,0,0" to="59,222,78"/>
+	</spriteType>
+'>
+<!ENTITY vhbi_017hueTransform_005 '
+	<spriteType name="hueTransform">
+		<map from="0,0,*" to="189,231,228"/>
+		<map from="0,*,0" to="239,239,239"/>
+		<map from="*,0,0" to="255,128,25"/>
+	</spriteType>
+'>
+<!ENTITY vhbi_017hueTransform_006 '
+	<spriteType name="hueTransform">
+		<map from="0,0,*" to="254,193,121"/>
+		<map from="0,*,0" to="239,239,239"/>
+		<map from="*,0,0" to="49,156,255"/>
+	</spriteType>
+'>
+<!ENTITY vhbi_017hueTransform_007 '
+	<spriteType name="hueTransform">
+		<map from="0,0,*" to="196,203,236"/>
+		<map from="0,*,0" to="239,239,239"/>
+		<map from="*,0,0" to="255,72,72"/>
+	</spriteType>
+'>
+<!ENTITY vhbi_017hueTransform_008 '
+	<spriteType name="hueTransform">
+		<map from="0,0,*" to="185,152,138"/>
+		<map from="0,*,0" to="255,250,228"/>
+		<map from="*,0,0" to="59,222,78"/>
+	</spriteType>
+'>
+
+
+]>
+
+
+
+<plug-in>
+	<title>建物"picture"(FreeTrain-想作館)</title>
+	<author>haru</author>
+	<homepage>http://hb4.seikyou.ne.jp/home/Go-Ro/FreeTrain/</homepage>
+
+
+
+
+<!-- インテリジェントビル[C] -->
+	<contribution type="picture" id="{vhbi_017-picture-C000-0000-4C8B212Dharu}">
+		<picture src="vhbi_017.bmp">
+		 <override when="spring">
+		  <override when="night" src="vhbi_017n.bmp"/>
+		 </override>
+		 <override when="summer">
+		  <override when="night" src="vhbi_017n.bmp"/>
+		 </override>
+		 <override when="autumn">
+		  <override when="night" src="vhbi_017n.bmp"/>
+		 </override>
+		 <override when="winter" src="vhbi_017_WIN.bmp">
+		  <override when="night" src="vhbi_017n_WIN.bmp"/>
+		 </override>
+		</picture>
+	</contribution>
+
+<!-- インテリジェントビル[C] -->
+	<contribution type="GenericStructure" id="{vhbi_017-GenericStructure-C001-0000-4C8B212Dharu}">
+		<name>インテリジェントビル</name>
+		<design>(タイプC)</design>
+		<structure>
+			<category byname="貸事務所"/>
+		</structure>
+		<price>1250000000000</price>
+		<size>2,2</size>
+		<minHeight>2</minHeight>
+		<maxHeight>7</maxHeight>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>250</base>
+		</population>
+				&vhbi_017hueTransform_001;
+				&vhbi_017hueTransform_002;
+				&vhbi_017hueTransform_003;
+				&vhbi_017hueTransform_004;
+				&vhbi_017hueTransform_005;
+				&vhbi_017hueTransform_006;
+				&vhbi_017hueTransform_007;
+				&vhbi_017hueTransform_008;
+		<pictures>
+			<top    origin=" 0, 0" offset="16">
+				<picture ref="{vhbi_017-picture-C000-0000-4C8B212Dharu}"/>
+			</top>
+			<middle origin=" 0, 48" offset="16">
+				<picture ref="{vhbi_017-picture-C000-0000-4C8B212Dharu}"/>
+			</middle>
+			<bottom origin=" 0, 96" offset="16">
+				<picture ref="{vhbi_017-picture-C000-0000-4C8B212Dharu}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="64, 0" offset="16">
+				<picture ref="{vhbi_017-picture-C000-0000-4C8B212Dharu}"/>
+			</top>
+			<middle origin="64, 48" offset="16">
+				<picture ref="{vhbi_017-picture-C000-0000-4C8B212Dharu}"/>
+			</middle>
+			<bottom origin="64, 96" offset="16">
+				<picture ref="{vhbi_017-picture-C000-0000-4C8B212Dharu}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="128, 0" offset="16">
+				<picture ref="{vhbi_017-picture-C000-0000-4C8B212Dharu}"/>
+			</top>
+			<middle origin="128, 48" offset="16">
+				<picture ref="{vhbi_017-picture-C000-0000-4C8B212Dharu}"/>
+			</middle>
+			<bottom origin="128, 96" offset="16">
+				<picture ref="{vhbi_017-picture-C000-0000-4C8B212Dharu}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="192, 0" offset="16">
+				<picture ref="{vhbi_017-picture-C000-0000-4C8B212Dharu}"/>
+			</top>
+			<middle origin="192, 48" offset="16">
+				<picture ref="{vhbi_017-picture-C000-0000-4C8B212Dharu}"/>
+			</middle>
+			<bottom origin="192, 96" offset="16">
+				<picture ref="{vhbi_017-picture-C000-0000-4C8B212Dharu}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+
+
+<!-- 雑居ビル(2x2)[B] -->
+	<contribution type="picture" id="{vhbi_019-picture-C000-0000-4C8B212Dharu}">
+		<picture src="vhbi_019.bmp">
+		 <override when="night" src="vhbi_019n.bmp"/>
+		</picture>
+	</contribution>
+
+<!-- 雑居ビル(2x2)[B] -->
+	<contribution type="GenericStructure" id="{vhbi_019-GenericStructure-C001-0000-4C8B212Dharu}">
+		<name>雑居ビル(2x2)</name>
+		<design>(タイプB)</design>
+		<structure>
+			<category byname="貸事務所"/>
+			<category byname="商業向けサービス" hide="true"/>
+		</structure>
+		<price>130000000</price>
+		<size>2,2</size>
+		<minHeight>2</minHeight>
+		<maxHeight>5</maxHeight>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>270</base>
+		</population>
+				&vhbi_017hueTransform_001;
+				&vhbi_017hueTransform_002;
+				&vhbi_017hueTransform_003;
+				&vhbi_017hueTransform_004;
+				&vhbi_017hueTransform_005;
+				&vhbi_017hueTransform_006;
+				&vhbi_017hueTransform_007;
+				&vhbi_017hueTransform_008;
+		<pictures>
+			<top    origin=" 0, 0" offset="24">
+				<picture ref="{vhbi_019-picture-C000-0000-4C8B212Dharu}"/>
+			</top>
+			<middle origin=" 0, 56" offset="16">
+				<picture ref="{vhbi_019-picture-C000-0000-4C8B212Dharu}"/>
+			</middle>
+			<bottom origin=" 0, 104" offset="16">
+				<picture ref="{vhbi_019-picture-C000-0000-4C8B212Dharu}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="64, 0" offset="24">
+				<picture ref="{vhbi_019-picture-C000-0000-4C8B212Dharu}"/>
+			</top>
+			<middle origin="64, 56" offset="16">
+				<picture ref="{vhbi_019-picture-C000-0000-4C8B212Dharu}"/>
+			</middle>
+			<bottom origin="64, 104" offset="16">
+				<picture ref="{vhbi_019-picture-C000-0000-4C8B212Dharu}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="128, 0" offset="24">
+				<picture ref="{vhbi_019-picture-C000-0000-4C8B212Dharu}"/>
+			</top>
+			<middle origin="128, 56" offset="16">
+				<picture ref="{vhbi_019-picture-C000-0000-4C8B212Dharu}"/>
+			</middle>
+			<bottom origin="128, 104" offset="16">
+				<picture ref="{vhbi_019-picture-C000-0000-4C8B212Dharu}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="192, 0" offset="24">
+				<picture ref="{vhbi_019-picture-C000-0000-4C8B212Dharu}"/>
+			</top>
+			<middle origin="192, 56" offset="16">
+				<picture ref="{vhbi_019-picture-C000-0000-4C8B212Dharu}"/>
+			</middle>
+			<bottom origin="192, 104" offset="16">
+				<picture ref="{vhbi_019-picture-C000-0000-4C8B212Dharu}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+</plug-in>

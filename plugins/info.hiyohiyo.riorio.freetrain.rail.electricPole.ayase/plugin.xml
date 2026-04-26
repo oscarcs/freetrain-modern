@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>架線柱</title>
+	<author>りおりお入換←綾瀬ヒロ</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+	
+	
+	<contribution type="electricPole" id="{riorio-ayasehiro-4ba7-BFE8-ABFBDF5DFA0A}">
+		<name>片柱(1)'</name>
+		<sprite>
+			<picture src="kasen4b.bmp"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="electricPole" id="{riorio-ayasehiro-41af-9185-4891B983E2A4}">
+		<name>片柱(2)'</name>
+		<sprite>
+			<picture src="kasen3b.bmp"/>
+		</sprite>
+	</contribution>
+</plug-in>

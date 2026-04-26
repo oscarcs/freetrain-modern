@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+  <!-- E233系京葉線先頭車 -->
+  <contribution type="trainCar" id="{CyberExpress1703d-E233-Keiyo}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="E233/E233Keiyo_a.bmp" />
+    </sprite>
+    <capacity>142</capacity>
+	<seatedcapacity>43</seatedcapacity>
+  </contribution>
+
+  <!-- E233系京葉線中間車 -->
+  <contribution type="trainCar" id="{CyberExpress1703d-E233-Keiyo}-m">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="E233/E233Keiyo_b.bmp" />
+    </sprite>
+    <capacity>160</capacity>
+	<seatedcapacity>54</seatedcapacity>
+  </contribution>
+
+  <!-- E233系京葉線後尾車 -->
+  <contribution type="trainCar" id="{CyberExpress1703d-E233-Keiyo}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{CyberExpress1703d-E233-Keiyo}-h" />
+  </contribution>
+
+  <!-- E233系京葉線 -->
+  <contribution type="train" id="{CyberExpress1703d-E233-Keiyo}">
+    <company>JR東日本</company>
+    <type>E233系</type>
+    <name>京葉線</name>
+    <author>いっちー</author>
+    <description>東京～蘇我間の京葉線と、内房線の上総湊・外房線の上総一ノ宮までを走るE233系です。</description>
+    <fare>400</fare>
+    <price>28000000</price>
+	<amenity>100</amenity>
+    <speed>medium</speed>
+    <class name="freetrain.contributions.train.ParamTrainImpl" />
+    <composition>
+      <head carRef="{CyberExpress1703d-E233-Keiyo}-h" />
+      <body carRef="{CyberExpress1703d-E233-Keiyo}-m" />
+      <tail carRef="{CyberExpress1703d-E233-Keiyo}-t" />
+    </composition>
+  </contribution>

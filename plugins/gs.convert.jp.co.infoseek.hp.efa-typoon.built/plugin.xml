@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>建物総合コンバート　たいふ～ん</title>
+	<author>りおりお</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+	<depend on="jp.co.infoseek.hp.efa-typoon.built" />
+	
+
+	<contribution type="GenericStructure" id="{TYPHOON-SUPERL-YOKADO-7567171D3CEF}-gs">
+		<group>超大型スーパー</group>
+		<price>30000000</price>
+		<height>3</height>
+		<size>8,8</size>
+		<structure>
+			<category byname="スーパー" />
+			<category byname="一般飲食店" hide="true" />
+			<category byname="ファーストフード" hide="true" />
+		</structure>
+	<population>
+		<class name="freetrain.contributions.population.CombinationPopulation"/>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>1500</base>
+		</population>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>60</base>
+		</population>
+	<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>150</base>
+	</population>
+	</population>
+		<sprite origin="0,0" offset="112">
+			<picture ref="{TYPHOON-GAZOU-SUPERL-YOKADO-7567171D3CEF}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+</plug-in>

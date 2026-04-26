@@ -1,0 +1,2602 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plug-in [
+<!ENTITY hc101 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,255,255"/>
+	</spriteType>	
+'>
+<!ENTITY hc102 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="208,198,174"/>
+	</spriteType>
+'>
+<!ENTITY hc103 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="64,64,64"/>
+	</spriteType>
+'>
+<!ENTITY hc111 '
+	<spriteType name="colorMapped">
+		<map from="70,86,90" to="100,40,40"/>
+		<map from="84,90,116" to="115,48,48"/>
+		<map from="87,107,113" to="120,50,50"/>
+		<map from="95,90,100" to="120,90,100"/>
+		<map from="115,108,122" to="140,108,122"/>
+		<map from="125,118,132" to="150,118,132"/>
+		<map from="134,159,166" to="220,90,90"/>
+		<map from="135,127,142" to="160,127,142"/>
+		<map from="145,138,152" to="180,138,152"/>
+		<map from="192,195,210" to="230,95,95"/>
+		<map from="192,204,208" to="240,100,100"/>
+	</spriteType>
+'>
+<!ENTITY h1 '
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+'>
+<!ENTITY h2 '
+		<computerCannotBuild/>
+		<class name="freetrain.world.land.forest.ForestBuilder"
+			codebase="../org.kohsuke.freetrain.land.forest/bin/Debug/FreeTrain.Forest.dll"/>
+'>
+<!ENTITY hrw '
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0019}" offset="16" >
+			<right_front>128,0</right_front>
+			<left_front>160,0</left_front>
+			<left_back>192,0</left_back>
+			<right_back>224,0</right_back>
+		</picture>
+		<price>1600000</price>
+'>
+<!ENTITY h2001 '
+		<group>トンネル坑口</group>
+		&h1;
+		<price>50000000</price>
+'>
+<!ENTITY h2501 '
+		<group>トンネル緩衝工</group>
+		&h1;
+		<price>40000000</price>
+'>
+<!ENTITY h5001 '
+		<group>峡谷</group>
+		&h1;
+		<price>20000</price>
+'>
+<!ENTITY h5101 '
+		<group>渓谷</group>
+		&h1;
+		<price>40000</price>
+'>
+<!ENTITY h6001 '
+		<name>A</name>
+		&h2;
+		<picture src="weed.bmp">
+			<override when="summer" src="weed_s.bmp" />
+			<override when="autumn" src="weed_a.bmp" />
+			<override when="winter" src="weed_w.bmp" />
+		</picture>
+		<size>192,16</size>
+		<count>6</count>
+'>
+<!ENTITY h6002 '
+		<name>B</name>
+		&h2;
+		<picture src="weed2.bmp">
+			<override when="summer" src="weed2_s.bmp" />
+			<override when="autumn" src="weed2_a.bmp" />
+			<override when="winter" src="weed2_w.bmp" />
+		</picture>
+		<size>192,16</size>
+		<count>6</count>
+'>
+<!ENTITY h6003 '
+		<name>C</name>
+		&h2;
+		<picture src="weed3.bmp">
+			<override when="summer" src="weed3_s.bmp" />
+			<override when="autumn" src="weed3_a.bmp" />
+			<override when="winter" src="weed3_w.bmp" />
+		</picture>
+		<size>192,16</size>
+		<count>6</count>
+'>
+<!ENTITY h6101 '
+		&h2;		
+		<picture src="wetland.bmp"/>
+		<size>192,16</size>
+		<count>6</count>
+'>
+<!ENTITY h6102 '
+		<name>A</name>
+		&h2;		
+		<picture src="wetland2.bmp"/>
+		<size>384,16</size>
+		<count>12</count>
+		<density>1</density>
+		<price>60000</price>
+'>
+]>
+
+<plug-in>
+	<title>FreeTrainExAVer用資材(地表・柵)</title>
+	<author>HEUER</author>
+	<homepage>http://freetrain.finito-web.com/</homepage>	
+
+	<contribution type="picture" id="{HEUER-0001-FENCE-PICTURE-0001}">
+		<picture src="wallslope.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-FENCE-PICTURE-0002}">
+		<picture src="wallslope2.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-FENCE-PICTURE-0011}">
+		<picture src="wallslope11.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-FENCE-PICTURE-0012}">
+		<picture src="wallslope12.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-FENCE-PICTURE-0013}">
+		<picture src="wallslope13.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-FENCE-PICTURE-0014}">
+		<picture src="wallslope14.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-FENCE-PICTURE-0015}">
+		<picture src="wallslope15.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-FENCE-PICTURE-0016}">
+		<picture src="wallslope16.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-FENCE-PICTURE-0017}">
+		<picture src="wallslope17.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-FENCE-PICTURE-0018}">
+		<picture src="wallslope18.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-FENCE-PICTURE-0019}">
+		<picture src="wallslope19.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-FENCE-PICTURE-1001}">
+		<picture src="wall1.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-FENCE-PICTURE-1002}">
+		<picture src="wall2a.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-FENCE-PICTURE-1003}">
+		<picture src="wall2b.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-FENCE-PICTURE-1004}">
+		<picture src="wall2c.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-FENCE-PICTURE-1005}">
+		<picture src="wall2d.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-FENCE-PICTURE-10051}">
+		<picture src="wall2e.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-FENCE-PICTURE-10052}">
+		<picture src="wall2f.bmp">
+			<override when="summer" src="wall2f_s.bmp" />
+			<override when="autumn" src="wall2f_a.bmp" />
+			<override when="winter" src="wall2f_w.bmp" />
+		</picture>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-FENCE-PICTURE-1006}">
+		<picture src="wall3a.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-FENCE-PICTURE-1007}">
+		<picture src="wall3b.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-FENCE-PICTURE-1008}">
+		<picture src="wall4.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-FENCE-PICTURE-10081}">
+		<picture src="wall4b.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-FENCE-PICTURE-10082}">
+		<picture src="wall4x.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-FENCE-PICTURE-10083}">
+		<picture src="wall4y.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-FENCE-PICTURE-1009}">
+		<picture src="wall5.bmp">
+			<override when="winter" src="wall5_w.bmp" />
+		</picture>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-FENCE-PICTURE-2001}">
+		<picture src="tn1.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-FENCE-PICTURE-2002}">
+		<picture src="tn2.bmp">
+			<override when="summer" src="tn2_s.bmp" />
+			<override when="autumn" src="tn2_a.bmp" />
+			<override when="winter" src="tn2_w.bmp" />
+		</picture>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-FENCE-PICTURE-2501}">
+		<picture src="tnb.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-FENCE-PICTURE-5001}">
+		<picture src="wallslope_wa.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-FENCE-PICTURE-5002}">
+		<picture src="wallslope_wb.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-FENCE-PICTURE-5101}">
+		<picture src="wallslope_wc.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-FENCE-PICTURE-5102}">
+		<picture src="wallslope_wd.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{HEUER-0001-GND-PICTURE-0001}">
+		<picture src="gnd.bmp">
+			<override when="summer" src="gnd_s.bmp" />
+			<override when="autumn" src="gnd_a.bmp" />
+			<override when="winter" src="gnd_w.bmp" />
+		</picture>
+	</contribution>
+
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-1001}">
+		<group>柵</group>
+		<name>枕木柵</name>
+		&h1;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-1001}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>100000</price>
+	</contribution>
+
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-1002}">
+		<group>柵(落石防護)</group>
+		<name>落石防護柵A</name>
+		&h1;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-1002}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>400000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-1003}">
+		<group>柵(落石防護)</group>
+		<name>落石防護柵B</name>
+		&h1;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>800000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-1004}">
+		<group>柵(落石防護)</group>
+		<name>落石防護柵C</name>
+		&h1;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-1004}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>1200000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-1005}">
+		<group>柵(落石防護)</group>
+		<name>落石防護柵D</name>
+		&h1;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-1005}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>1600000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-10051}">
+		<group>柵(落石防護)</group>
+		<name>落石防護柵E</name>
+		&h1;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-10051}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>1600000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-10052}">
+		<group>柵(落石防護)</group>
+		<name>ロックシェッドA</name>
+		&h1;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-10052}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-10053}">
+		<group>柵(落石防護)</group>
+		<name>ロックシェッドAx</name>
+		&h1;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-10052}" offset="16" >
+			<right_front>128,0</right_front>
+			<left_front>160,0</left_front>
+			<left_back>192,0</left_back>
+			<right_back>224,0</right_back>
+		</picture>
+		<price>12000000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-10054}">
+		<group>柵(落石防護)</group>
+		<name>ロックシェッドAy</name>
+		&h1;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-10052}" offset="16" >
+			<right_front>256,0</right_front>
+			<left_front>288,0</left_front>
+			<left_back>320,0</left_back>
+			<right_back>352,0</right_back>
+		</picture>
+		<price>12000000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-10055}">
+		<group>柵(落石防護)</group>
+		<name>ロックシェッドB</name>
+		&h1;
+		&hc111;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-10052}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-10056}">
+		<group>柵(落石防護)</group>
+		<name>ロックシェッドBx</name>
+		&h1;
+		&hc111;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-10052}" offset="16" >
+			<right_front>128,0</right_front>
+			<left_front>160,0</left_front>
+			<left_back>192,0</left_back>
+			<right_back>224,0</right_back>
+		</picture>
+		<price>12000000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-10057}">
+		<group>柵(落石防護)</group>
+		<name>ロックシェッドBy</name>
+		&h1;
+		&hc111;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-10052}" offset="16" >
+			<right_front>256,0</right_front>
+			<left_front>288,0</left_front>
+			<left_back>320,0</left_back>
+			<right_back>352,0</right_back>
+		</picture>
+		<price>12000000</price>
+	</contribution>
+
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-1006}">
+		<group>柵(岸壁用)</group>
+		<name>岸壁用車止めA</name>
+		&h1;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-1006}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>200000</price>
+	</contribution>
+
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-1007}">
+		<group>柵(岸壁用)</group>
+		<name>岸壁用車止めB</name>
+		&h1;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-1007}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>400000</price>
+	</contribution>
+
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-1008}">
+		<group>柵(雪崩防止)</group>
+		<name>雪崩防止柵A</name>
+		&h1;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-1008}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>1000000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-10081}">
+		<group>柵(雪崩防止)</group>
+		<name>雪崩防止柵B</name>
+		&h1;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-10081}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>1000000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-10082}">
+		<group>柵(雪崩防止)</group>
+		<name>雪崩防止柵X</name>
+		&h1;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-10082}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>1000000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-10083}">
+		<group>柵(雪崩防止)</group>
+		<name>雪崩防止柵Y</name>
+		&h1;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-10083}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>1000000</price>
+	</contribution>
+
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-1009}">
+		<group>柵(防雪)</group>
+		<name>防雪柵</name>
+		&h1;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-1009}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>1000000</price>
+	</contribution>
+
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0021}">
+		<group>柵(勾配用)</group>
+		<name>柵w0-1a</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>128,0</right_front>
+			<left_front>160,0</left_front>
+			<left_back>192,0</left_back>
+			<right_back>224,0</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0022}">
+		<group>柵(勾配用)</group>
+		<name>柵w1-2a</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>128,4</right_front>
+			<left_front>160,4</left_front>
+			<left_back>192,4</left_back>
+			<right_back>224,4</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0023}">
+		<group>柵(勾配用)</group>
+		<name>柵w2-3a</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>128,8</right_front>
+			<left_front>160,8</left_front>
+			<left_back>192,8</left_back>
+			<right_back>224,8</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0024}">
+		<group>柵(勾配用)</group>
+		<name>柵w3-4a</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>128,12</right_front>
+			<left_front>160,12</left_front>
+			<left_back>192,12</left_back>
+			<right_back>224,12</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0025}">
+		<group>柵(勾配用)</group>
+		<name>柵w0-1b</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>256,4</right_front>
+			<left_front>288,4</left_front>
+			<left_back>320,4</left_back>
+			<right_back>352,4</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0026}">
+		<group>柵(勾配用)</group>
+		<name>柵w1-2b</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>256,8</right_front>
+			<left_front>288,8</left_front>
+			<left_back>320,8</left_back>
+			<right_back>352,8</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0027}">
+		<group>柵(勾配用)</group>
+		<name>柵w2-3b</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>256,12</right_front>
+			<left_front>288,12</left_front>
+			<left_back>320,12</left_back>
+			<right_back>352,12</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0028}">
+		<group>柵(勾配用)</group>
+		<name>柵w3-4b</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>256,16</right_front>
+			<left_front>288,16</left_front>
+			<left_back>320,16</left_back>
+			<right_back>352,16</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0031}">
+		<group>柵(勾配用)</group>
+		<name>柵g0-1a</name>
+		&h1;
+		&hc103;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>128,0</right_front>
+			<left_front>160,0</left_front>
+			<left_back>192,0</left_back>
+			<right_back>224,0</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0032}">
+		<group>柵(勾配用)</group>
+		<name>柵g1-2a</name>
+		&h1;
+		&hc103;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>128,4</right_front>
+			<left_front>160,4</left_front>
+			<left_back>192,4</left_back>
+			<right_back>224,4</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0033}">
+		<group>柵(勾配用)</group>
+		<name>柵g2-3a</name>
+		&h1;
+		&hc103;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>128,8</right_front>
+			<left_front>160,8</left_front>
+			<left_back>192,8</left_back>
+			<right_back>224,8</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0034}">
+		<group>柵(勾配用)</group>
+		<name>柵g3-4a</name>
+		&h1;
+		&hc103;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>128,12</right_front>
+			<left_front>160,12</left_front>
+			<left_back>192,12</left_back>
+			<right_back>224,12</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0035}">
+		<group>柵(勾配用)</group>
+		<name>柵g0-1b</name>
+		&h1;
+		&hc103;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>256,4</right_front>
+			<left_front>288,4</left_front>
+			<left_back>320,4</left_back>
+			<right_back>352,4</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0036}">
+		<group>柵(勾配用)</group>
+		<name>柵g1-2b</name>
+		&h1;
+		&hc103;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>256,8</right_front>
+			<left_front>288,8</left_front>
+			<left_back>320,8</left_back>
+			<right_back>352,8</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0037}">
+		<group>柵(勾配用)</group>
+		<name>柵g2-3b</name>
+		&h1;
+		&hc103;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>256,12</right_front>
+			<left_front>288,12</left_front>
+			<left_back>320,12</left_back>
+			<right_back>352,12</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0038}">
+		<group>柵(勾配用)</group>
+		<name>柵g3-4b</name>
+		&h1;
+		&hc103;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>256,16</right_front>
+			<left_front>288,16</left_front>
+			<left_back>320,16</left_back>
+			<right_back>352,16</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0001}">
+		<group>柵(勾配用)</group>
+		<name>コンクリ塀0-1a</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>128,0</right_front>
+			<left_front>160,0</left_front>
+			<left_back>192,0</left_back>
+			<right_back>224,0</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0002}">
+		<group>柵(勾配用)</group>
+		<name>コンクリ塀1-2a</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>128,4</right_front>
+			<left_front>160,4</left_front>
+			<left_back>192,4</left_back>
+			<right_back>224,4</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0003}">
+		<group>柵(勾配用)</group>
+		<name>コンクリ塀2-3a</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>128,8</right_front>
+			<left_front>160,8</left_front>
+			<left_back>192,8</left_back>
+			<right_back>224,8</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0004}">
+		<group>柵(勾配用)</group>
+		<name>コンクリ塀3-4a</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>128,12</right_front>
+			<left_front>160,12</left_front>
+			<left_back>192,12</left_back>
+			<right_back>224,12</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0005}">
+		<group>柵(勾配用)</group>
+		<name>コンクリ塀0-1b</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>256,4</right_front>
+			<left_front>288,4</left_front>
+			<left_back>320,4</left_back>
+			<right_back>352,4</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0006}">
+		<group>柵(勾配用)</group>
+		<name>コンクリ塀1-2b</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>256,8</right_front>
+			<left_front>288,8</left_front>
+			<left_back>320,8</left_back>
+			<right_back>352,8</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0007}">
+		<group>柵(勾配用)</group>
+		<name>コンクリ塀2-3b</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>256,12</right_front>
+			<left_front>288,12</left_front>
+			<left_back>320,12</left_back>
+			<right_back>352,12</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0008}">
+		<group>柵(勾配用)</group>
+		<name>コンクリ塀3-4b</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>256,16</right_front>
+			<left_front>288,16</left_front>
+			<left_back>320,16</left_back>
+			<right_back>352,16</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0011}">
+		<group>柵(勾配用)</group>
+		<name>ブロック塀0-1a</name>
+		&h1;
+		&hc102;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>128,0</right_front>
+			<left_front>160,0</left_front>
+			<left_back>192,0</left_back>
+			<right_back>224,0</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0012}">
+		<group>柵(勾配用)</group>
+		<name>ブロック塀1-2a</name>
+		&h1;
+		&hc102;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>128,4</right_front>
+			<left_front>160,4</left_front>
+			<left_back>192,4</left_back>
+			<right_back>224,4</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0013}">
+		<group>柵(勾配用)</group>
+		<name>ブロック塀2-3a</name>
+		&h1;
+		&hc102;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>128,8</right_front>
+			<left_front>160,8</left_front>
+			<left_back>192,8</left_back>
+			<right_back>224,8</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0014}">
+		<group>柵(勾配用)</group>
+		<name>ブロック塀3-4a</name>
+		&h1;
+		&hc102;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>128,12</right_front>
+			<left_front>160,12</left_front>
+			<left_back>192,12</left_back>
+			<right_back>224,12</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0015}">
+		<group>柵(勾配用)</group>
+		<name>ブロック塀0-1b</name>
+		&h1;
+		&hc102;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>256,4</right_front>
+			<left_front>288,4</left_front>
+			<left_back>320,4</left_back>
+			<right_back>352,4</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0016}">
+		<group>柵(勾配用)</group>
+		<name>ブロック塀1-2b</name>
+		&h1;
+		&hc102;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>256,8</right_front>
+			<left_front>288,8</left_front>
+			<left_back>320,8</left_back>
+			<right_back>352,8</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0017}">
+		<group>柵(勾配用)</group>
+		<name>ブロック塀2-3b</name>
+		&h1;
+		&hc102;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>256,12</right_front>
+			<left_front>288,12</left_front>
+			<left_back>320,12</left_back>
+			<right_back>352,12</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0018}">
+		<group>柵(勾配用)</group>
+		<name>ブロック塀3-4b</name>
+		&h1;
+		&hc102;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>256,16</right_front>
+			<left_front>288,16</left_front>
+			<left_back>320,16</left_back>
+			<right_back>352,16</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0221}">
+		<group>柵(急勾配用)</group>
+		<name>柵w0-2a</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>384,0</right_front>
+			<left_front>416,0</left_front>
+			<left_back>448,0</left_back>
+			<right_back>480,0</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0222}">
+		<group>柵(急勾配用)</group>
+		<name>柵w1-3a</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>384,4</right_front>
+			<left_front>416,4</left_front>
+			<left_back>448,4</left_back>
+			<right_back>480,4</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0223}">
+		<group>柵(急勾配用)</group>
+		<name>柵w2-4a</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>384,8</right_front>
+			<left_front>416,8</left_front>
+			<left_back>448,8</left_back>
+			<right_back>480,8</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0224}">
+		<group>柵(急勾配用)</group>
+		<name>柵w0-2b</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>512,8</right_front>
+			<left_front>544,8</left_front>
+			<left_back>576,8</left_back>
+			<right_back>608,8</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0225}">
+		<group>柵(急勾配用)</group>
+		<name>柵w1-3b</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>512,12</right_front>
+			<left_front>544,12</left_front>
+			<left_back>576,12</left_back>
+			<right_back>608,12</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0226}">
+		<group>柵(急勾配用)</group>
+		<name>柵w2-4b</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>512,16</right_front>
+			<left_front>544,16</left_front>
+			<left_back>576,16</left_back>
+			<right_back>608,16</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0231}">
+		<group>柵(急勾配用)</group>
+		<name>柵g0-2a</name>
+		&h1;
+		&hc103;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>384,0</right_front>
+			<left_front>416,0</left_front>
+			<left_back>448,0</left_back>
+			<right_back>480,0</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0232}">
+		<group>柵(急勾配用)</group>
+		<name>柵g1-3a</name>
+		&h1;
+		&hc103;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>384,4</right_front>
+			<left_front>416,4</left_front>
+			<left_back>448,4</left_back>
+			<right_back>480,4</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0233}">
+		<group>柵(急勾配用)</group>
+		<name>柵g2-4a</name>
+		&h1;
+		&hc103;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>384,8</right_front>
+			<left_front>416,8</left_front>
+			<left_back>448,8</left_back>
+			<right_back>480,8</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0234}">
+		<group>柵(急勾配用)</group>
+		<name>柵g0-2b</name>
+		&h1;
+		&hc103;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>512,8</right_front>
+			<left_front>544,8</left_front>
+			<left_back>576,8</left_back>
+			<right_back>608,8</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0235}">
+		<group>柵(急勾配用)</group>
+		<name>柵g1-3b</name>
+		&h1;
+		&hc103;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>512,12</right_front>
+			<left_front>544,12</left_front>
+			<left_back>576,12</left_back>
+			<right_back>608,12</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0236}">
+		<group>柵(急勾配用)</group>
+		<name>柵g2-4b</name>
+		&h1;
+		&hc103;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>512,16</right_front>
+			<left_front>544,16</left_front>
+			<left_back>576,16</left_back>
+			<right_back>608,16</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0201}">
+		<group>柵(急勾配用)</group>
+		<name>コンクリ塀0-2a</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>384,0</right_front>
+			<left_front>416,0</left_front>
+			<left_back>448,0</left_back>
+			<right_back>480,0</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0202}">
+		<group>柵(急勾配用)</group>
+		<name>コンクリ塀1-3a</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>384,4</right_front>
+			<left_front>416,4</left_front>
+			<left_back>448,4</left_back>
+			<right_back>480,4</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0203}">
+		<group>柵(急勾配用)</group>
+		<name>コンクリ塀2-4a</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>384,8</right_front>
+			<left_front>416,8</left_front>
+			<left_back>448,8</left_back>
+			<right_back>480,8</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0204}">
+		<group>柵(急勾配用)</group>
+		<name>コンクリ塀0-2b</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>512,8</right_front>
+			<left_front>544,8</left_front>
+			<left_back>576,8</left_back>
+			<right_back>608,8</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0205}">
+		<group>柵(急勾配用)</group>
+		<name>コンクリ塀1-3b</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>512,12</right_front>
+			<left_front>544,12</left_front>
+			<left_back>576,12</left_back>
+			<right_back>608,12</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0206}">
+		<group>柵(急勾配用)</group>
+		<name>コンクリ塀2-4b</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>512,16</right_front>
+			<left_front>544,16</left_front>
+			<left_back>576,16</left_back>
+			<right_back>608,16</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0211}">
+		<group>柵(急勾配用)</group>
+		<name>ブロック塀0-2a</name>
+		&h1;
+		&hc102;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>384,0</right_front>
+			<left_front>416,0</left_front>
+			<left_back>448,0</left_back>
+			<right_back>480,0</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0212}">
+		<group>柵(急勾配用)</group>
+		<name>ブロック塀1-3a</name>
+		&h1;
+		&hc102;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>384,4</right_front>
+			<left_front>416,4</left_front>
+			<left_back>448,4</left_back>
+			<right_back>480,4</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0213}">
+		<group>柵(急勾配用)</group>
+		<name>ブロック塀2-4a</name>
+		&h1;
+		&hc102;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>384,8</right_front>
+			<left_front>416,8</left_front>
+			<left_back>448,8</left_back>
+			<right_back>480,8</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0214}">
+		<group>柵(急勾配用)</group>
+		<name>ブロック塀0-2b</name>
+		&h1;
+		&hc102;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>512,8</right_front>
+			<left_front>544,8</left_front>
+			<left_back>576,8</left_back>
+			<right_back>608,8</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0215}">
+		<group>柵(急勾配用)</group>
+		<name>ブロック塀1-3b</name>
+		&h1;
+		&hc102;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>512,12</right_front>
+			<left_front>544,12</left_front>
+			<left_back>576,12</left_back>
+			<right_back>608,12</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0216}">
+		<group>柵(急勾配用)</group>
+		<name>ブロック塀2-4b</name>
+		&h1;
+		&hc102;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>512,16</right_front>
+			<left_front>544,16</left_front>
+			<left_back>576,16</left_back>
+			<right_back>608,16</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0101}">
+		<group>柵(勾配擁壁用)</group>
+		<name>コンクリ擁壁0-1a</name>
+		&h1;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0011}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>400000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0102}">
+		<group>柵(勾配擁壁用)</group>
+		<name>コンクリ擁壁1-2a</name>
+		&h1;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0012}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>800000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0103}">
+		<group>柵(勾配擁壁用)</group>
+		<name>コンクリ擁壁2-3a</name>
+		&h1;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0013}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>1200000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0104}">
+		<group>柵(勾配擁壁用)</group>
+		<name>コンクリ擁壁3-4a</name>
+		&h1;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0014}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>1600000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0105}">
+		<group>柵(勾配擁壁用)</group>
+		<name>コンクリ擁壁0-1b</name>
+		&h1;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0015}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>400000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0106}">
+		<group>柵(勾配擁壁用)</group>
+		<name>コンクリ擁壁1-2b</name>
+		&h1;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0016}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>800000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0107}">
+		<group>柵(勾配擁壁用)</group>
+		<name>コンクリ擁壁2-3b</name>
+		&h1;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0017}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>1200000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0108}">
+		<group>柵(勾配擁壁用)</group>
+		<name>コンクリ擁壁3-4b</name>
+		&h1;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0018}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>1600000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0109}">
+		<group>柵(勾配擁壁用)</group>
+		<name>コンクリ擁壁4-4</name>
+		&h1;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0019}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>1600000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0110}">
+		<group>柵(擁壁)</group>
+		<name>コンクリ擁壁a</name>
+		&h1;
+		<spriteType name="hueTransform">
+			<map from="0,0,*" to="188,188,189"/>
+		</spriteType>
+		&hrw;
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0111}">
+		<group>柵(擁壁)</group>
+		<name>コンクリ擁壁b</name>
+		&h1;
+		<spriteType name="hueTransform">
+			<map from="0,0,*" to="197,179,162"/>
+		</spriteType>
+		&hrw;
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0112}">
+		<group>柵(擁壁)</group>
+		<name>コンクリ擁壁c</name>
+		&h1;
+		<spriteType name="hueTransform">
+			<map from="0,0,*" to="157,135,115"/>
+		</spriteType>
+		&hrw;
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0113}">
+		<group>柵(擁壁)</group>
+		<name>コンクリ擁壁d</name>
+		&h1;
+		<spriteType name="hueTransform">
+			<map from="0,0,*" to="134,141,127"/>
+		</spriteType>
+		&hrw;
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0114}">
+		<group>柵(擁壁)</group>
+		<name>コンクリ擁壁e</name>
+		&h1;
+		<spriteType name="hueTransform">
+			<map from="0,0,*" to="75,65,61"/>
+		</spriteType>
+		&hrw;
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0115}">
+		<group>柵(擁壁)</group>
+		<name>コンクリ擁壁f</name>
+		&h1;
+		<spriteType name="hueTransform">
+			<map from="0,0,*" to="223,130,73"/>
+		</spriteType>
+		&hrw;
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0116}">
+		<group>柵(擁壁)</group>
+		<name>コンクリ擁壁g</name>
+		&h1;
+		<spriteType name="hueTransform">
+			<map from="0,0,*" to="158,122,72"/>
+		</spriteType>
+		&hrw;
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0117}">
+		<group>柵(擁壁)</group>
+		<name>コンクリ擁壁h</name>
+		&h1;
+		<spriteType name="hueTransform">
+			<map from="0,0,*" to="137,97,46"/>
+		</spriteType>
+		&hrw;
+	</contribution>
+
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0520}">
+		<group>柵(勾配B用)</group>
+		<name>柵w0-0</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0521}">
+		<group>柵(勾配B用)</group>
+		<name>柵w1-1</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>0,4</right_front>
+			<left_front>32,4</left_front>
+			<left_back>64,4</left_back>
+			<right_back>96,4</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0522}">
+		<group>柵(勾配B用)</group>
+		<name>柵w2-2</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>0,8</right_front>
+			<left_front>32,8</left_front>
+			<left_back>64,8</left_back>
+			<right_back>96,8</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0523}">
+		<group>柵(勾配B用)</group>
+		<name>柵w3-3</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>0,12</right_front>
+			<left_front>32,12</left_front>
+			<left_back>64,12</left_back>
+			<right_back>96,12</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0530}">
+		<group>柵(勾配B用)</group>
+		<name>柵g0-0</name>
+		&h1;
+		&hc103;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0531}">
+		<group>柵(勾配B用)</group>
+		<name>柵g1-1</name>
+		&h1;
+		&hc103;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>0,4</right_front>
+			<left_front>32,4</left_front>
+			<left_back>64,4</left_back>
+			<right_back>96,4</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0532}">
+		<group>柵(勾配B用)</group>
+		<name>柵g2-2</name>
+		&h1;
+		&hc103;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>0,8</right_front>
+			<left_front>32,8</left_front>
+			<left_back>64,8</left_back>
+			<right_back>96,8</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0533}">
+		<group>柵(勾配B用)</group>
+		<name>柵g3-3</name>
+		&h1;
+		&hc103;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0002}" offset="16" >
+			<right_front>0,12</right_front>
+			<left_front>32,12</left_front>
+			<left_back>64,12</left_back>
+			<right_back>96,12</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0500}">
+		<group>柵(勾配B用)</group>
+		<name>コンクリ塀0-0</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0501}">
+		<group>柵(勾配B用)</group>
+		<name>コンクリ塀1-1</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>0,4</right_front>
+			<left_front>32,4</left_front>
+			<left_back>64,4</left_back>
+			<right_back>96,4</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0502}">
+		<group>柵(勾配B用)</group>
+		<name>コンクリ塀2-2</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>0,8</right_front>
+			<left_front>32,8</left_front>
+			<left_back>64,8</left_back>
+			<right_back>96,8</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0503}">
+		<group>柵(勾配B用)</group>
+		<name>コンクリ塀3-3</name>
+		&h1;
+		&hc101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>0,12</right_front>
+			<left_front>32,12</left_front>
+			<left_back>64,12</left_back>
+			<right_back>96,12</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0510}">
+		<group>柵(勾配B用)</group>
+		<name>ブロック塀0-0</name>
+		&h1;
+		&hc102;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0511}">
+		<group>柵(勾配B用)</group>
+		<name>ブロック塀1-1</name>
+		&h1;
+		&hc102;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>0,4</right_front>
+			<left_front>32,4</left_front>
+			<left_back>64,4</left_back>
+			<right_back>96,4</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0512}">
+		<group>柵(勾配B用)</group>
+		<name>ブロック塀2-2</name>
+		&h1;
+		&hc102;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>0,8</right_front>
+			<left_front>32,8</left_front>
+			<left_back>64,8</left_back>
+			<right_back>96,8</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-0513}">
+		<group>柵(勾配B用)</group>
+		<name>ブロック塀3-3</name>
+		&h1;
+		&hc102;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-0001}" offset="16" >
+			<right_front>0,12</right_front>
+			<left_front>32,12</left_front>
+			<left_back>64,12</left_back>
+			<right_back>96,12</right_back>
+		</picture>
+		<price>20000</price>
+	</contribution>
+
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-2001}">
+		<name>TN坑口単A</name>
+		&h2001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-2001}" offset="16" >
+			<right_front>32,0</right_front>
+			<left_front>64,0</left_front>
+			<left_back>0,0</left_back>
+			<right_back>0,0</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-2002}">
+		<name>TN坑口単A'</name>
+		&h2001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-2001}" offset="16" >
+			<right_front>96,0</right_front>
+			<left_front>128,0</left_front>
+			<left_back>0,0</left_back>
+			<right_back>0,0</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-2003}">
+		<name>TN坑口単B</name>
+		&h2001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-2001}" offset="16" >
+			<right_front>160,0</right_front>
+			<left_front>192,0</left_front>
+			<left_back>0,0</left_back>
+			<right_back>0,0</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-2004}">
+		<name>TN坑口単B'</name>
+		&h2001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-2001}" offset="16" >
+			<right_front>224,0</right_front>
+			<left_front>256,0</left_front>
+			<left_back>0,0</left_back>
+			<right_back>0,0</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-2011}">
+		<name>TN坑口単C</name>
+		&h2001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-2002}" offset="16" >
+			<right_front>32,0</right_front>
+			<left_front>64,0</left_front>
+			<left_back>0,0</left_back>
+			<right_back>0,0</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-2012}">
+		<name>TN坑口単Da</name>
+		&h2001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-2002}" offset="16" >
+			<right_front>96,0</right_front>
+			<left_front>128,0</left_front>
+			<left_back>0,0</left_back>
+			<right_back>0,0</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-2013}">
+		<name>TN坑口単Da'</name>
+		&h2001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-2002}" offset="16" >
+			<right_front>160,0</right_front>
+			<left_front>192,0</left_front>
+			<left_back>0,0</left_back>
+			<right_back>0,0</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-2014}">
+		<name>TN坑口単Db</name>
+		&h2001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-2002}" offset="16" >
+			<right_front>224,0</right_front>
+			<left_front>256,0</left_front>
+			<left_back>0,0</left_back>
+			<right_back>0,0</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-2101}">
+		<name>TN坑口複A左</name>
+		&h2001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-2001}" offset="16" >
+			<right_front>288,0</right_front>
+			<left_front>320,0</left_front>
+			<left_back>0,0</left_back>
+			<right_back>0,0</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-2102}">
+		<name>TN坑口複A'左</name>
+		&h2001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-2001}" offset="16" >
+			<right_front>352,0</right_front>
+			<left_front>384,0</left_front>
+			<left_back>0,0</left_back>
+			<right_back>0,0</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-2103}">
+		<name>TN坑口複A右</name>
+		&h2001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-2001}" offset="16" >
+			<right_front>416,0</right_front>
+			<left_front>448,0</left_front>
+			<left_back>0,0</left_back>
+			<right_back>0,0</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-2104}">
+		<name>TN坑口複B左</name>
+		&h2001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-2001}" offset="16" >
+			<right_front>480,0</right_front>
+			<left_front>512,0</left_front>
+			<left_back>0,0</left_back>
+			<right_back>0,0</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-2105}">
+		<name>TN坑口複B'左</name>
+		&h2001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-2001}" offset="16" >
+			<right_front>544,0</right_front>
+			<left_front>576,0</left_front>
+			<left_back>0,0</left_back>
+			<right_back>0,0</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-2106}">
+		<name>TN坑口複B右</name>
+		&h2001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-2001}" offset="16" >
+			<right_front>608,0</right_front>
+			<left_front>640,0</left_front>
+			<left_back>0,0</left_back>
+			<right_back>0,0</right_back>
+		</picture>
+	</contribution>
+
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-2501}">
+		<name>TN緩衝工単A</name>
+		&h2501;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-2501}" offset="16" >
+			<right_front>32,0</right_front>
+			<left_front>64,0</left_front>
+			<left_back>0,0</left_back>
+			<right_back>0,0</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-2502}">
+		<name>TN緩衝工複A左</name>
+		&h2501;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-2501}" offset="16" >
+			<right_front>96,0</right_front>
+			<left_front>128,0</left_front>
+			<left_back>0,0</left_back>
+			<right_back>0,0</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-2503}">
+		<name>TN緩衝工複A右</name>
+		&h2501;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-2501}" offset="16" >
+			<right_front>160,0</right_front>
+			<left_front>192,0</left_front>
+			<left_back>0,0</left_back>
+			<right_back>0,0</right_back>
+		</picture>
+	</contribution>
+
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5001}">
+		<name>峡谷0-1</name>
+		&h5001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5001}" offset="16" >
+			<right_front>0,4</right_front>
+			<left_front>32,4</left_front>
+			<left_back>320,4</left_back>
+			<right_back>320,4</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5002}">
+		<name>峡谷1-2</name>
+		&h5001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5001}" offset="16" >
+			<right_front>0,8</right_front>
+			<left_front>32,8</left_front>
+			<left_back>320,8</left_back>
+			<right_back>320,8</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5003}">
+		<name>峡谷2-3</name>
+		&h5001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5001}" offset="16" >
+			<right_front>0,12</right_front>
+			<left_front>32,12</left_front>
+			<left_back>320,12</left_back>
+			<right_back>320,12</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5004}">
+		<name>峡谷3-4</name>
+		&h5001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5001}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>320,16</left_back>
+			<right_back>320,16</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5005}">
+		<name>峡谷0-1a1</name>
+		&h5001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5001}" offset="16" >
+			<right_front>64,4</right_front>
+			<left_front>96,4</left_front>
+			<left_back>320,4</left_back>
+			<right_back>320,4</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5006}">
+		<name>峡谷1-2a1</name>
+		&h5001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5001}" offset="16" >
+			<right_front>64,8</right_front>
+			<left_front>96,8</left_front>
+			<left_back>320,8</left_back>
+			<right_back>320,8</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5007}">
+		<name>峡谷2-3a1</name>
+		&h5001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5001}" offset="16" >
+			<right_front>64,12</right_front>
+			<left_front>96,12</left_front>
+			<left_back>320,12</left_back>
+			<right_back>320,12</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5008}">
+		<name>峡谷3-4a1</name>
+		&h5001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5001}" offset="16" >
+			<right_front>64,16</right_front>
+			<left_front>96,16</left_front>
+			<left_back>320,16</left_back>
+			<right_back>320,16</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5009}">
+		<name>峡谷0-1b1</name>
+		&h5001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5002}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>256,0</left_back>
+			<right_back>256,0</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5010}">
+		<name>峡谷1-2b1</name>
+		&h5001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5002}" offset="16" >
+			<right_front>0,4</right_front>
+			<left_front>32,4</left_front>
+			<left_back>256,4</left_back>
+			<right_back>256,4</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5011}">
+		<name>峡谷2-3b1</name>
+		&h5001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5002}" offset="16" >
+			<right_front>0,8</right_front>
+			<left_front>32,8</left_front>
+			<left_back>256,8</left_back>
+			<right_back>256,8</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5012}">
+		<name>峡谷3-4b1</name>
+		&h5001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5002}" offset="16" >
+			<right_front>0,12</right_front>
+			<left_front>32,12</left_front>
+			<left_back>256,12</left_back>
+			<right_back>256,12</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5013}">
+		<name>峡谷0-2a2</name>
+		&h5001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5001}" offset="16" >
+			<right_front>128,4</right_front>
+			<left_front>160,4</left_front>
+			<left_back>320,4</left_back>
+			<right_back>320,4</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5014}">
+		<name>峡谷1-3a2</name>
+		&h5001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5001}" offset="16" >
+			<right_front>128,8</right_front>
+			<left_front>160,8</left_front>
+			<left_back>320,8</left_back>
+			<right_back>320,8</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5015}">
+		<name>峡谷2-4a2</name>
+		&h5001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5001}" offset="16" >
+			<right_front>128,12</right_front>
+			<left_front>160,12</left_front>
+			<left_back>320,12</left_back>
+			<right_back>320,12</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5016}">
+		<name>峡谷0-2b2</name>
+		&h5001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5002}" offset="16" >
+			<right_front>64,4</right_front>
+			<left_front>96,4</left_front>
+			<left_back>256,4</left_back>
+			<right_back>256,4</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5017}">
+		<name>峡谷1-3b2</name>
+		&h5001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5002}" offset="16" >
+			<right_front>64,8</right_front>
+			<left_front>96,8</left_front>
+			<left_back>256,8</left_back>
+			<right_back>256,8</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5018}">
+		<name>峡谷2-4b2</name>
+		&h5001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5002}" offset="16" >
+			<right_front>64,12</right_front>
+			<left_front>96,12</left_front>
+			<left_back>256,12</left_back>
+			<right_back>256,12</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5019}">
+		<name>峡谷0-3a3</name>
+		&h5001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5001}" offset="16" >
+			<right_front>192,4</right_front>
+			<left_front>224,4</left_front>
+			<left_back>320,4</left_back>
+			<right_back>320,4</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5020}">
+		<name>峡谷1-4a3</name>
+		&h5001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5001}" offset="16" >
+			<right_front>192,8</right_front>
+			<left_front>224,8</left_front>
+			<left_back>320,8</left_back>
+			<right_back>320,8</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5021}">
+		<name>峡谷0-3b3</name>
+		&h5001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5002}" offset="16" >
+			<right_front>128,8</right_front>
+			<left_front>160,8</left_front>
+			<left_back>256,8</left_back>
+			<right_back>256,8</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5022}">
+		<name>峡谷1-4b3</name>
+		&h5001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5002}" offset="16" >
+			<right_front>128,12</right_front>
+			<left_front>160,12</left_front>
+			<left_back>256,12</left_back>
+			<right_back>256,12</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5023}">
+		<name>峡谷0-4a4</name>
+		&h5001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5001}" offset="16" >
+			<right_front>256,4</right_front>
+			<left_front>288,4</left_front>
+			<left_back>320,4</left_back>
+			<right_back>320,4</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5024}">
+		<name>峡谷0-4b4</name>
+		&h5001;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5002}" offset="16" >
+			<right_front>192,12</right_front>
+			<left_front>224,12</left_front>
+			<left_back>256,12</left_back>
+			<right_back>256,12</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5101}">
+		<name>渓谷0-1</name>
+		&h5101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5101}" offset="16" >
+			<right_front>0,4</right_front>
+			<left_front>32,4</left_front>
+			<left_back>320,4</left_back>
+			<right_back>320,4</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5102}">
+		<name>渓谷1-2</name>
+		&h5101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5101}" offset="16" >
+			<right_front>0,8</right_front>
+			<left_front>32,8</left_front>
+			<left_back>320,8</left_back>
+			<right_back>320,8</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5103}">
+		<name>渓谷2-3</name>
+		&h5101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5101}" offset="16" >
+			<right_front>0,12</right_front>
+			<left_front>32,12</left_front>
+			<left_back>320,12</left_back>
+			<right_back>320,12</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5104}">
+		<name>渓谷3-4</name>
+		&h5101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5101}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>320,16</left_back>
+			<right_back>320,16</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5105}">
+		<name>渓谷0-1a1</name>
+		&h5101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5101}" offset="16" >
+			<right_front>64,4</right_front>
+			<left_front>96,4</left_front>
+			<left_back>320,4</left_back>
+			<right_back>320,4</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5106}">
+		<name>渓谷1-2a1</name>
+		&h5101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5101}" offset="16" >
+			<right_front>64,8</right_front>
+			<left_front>96,8</left_front>
+			<left_back>320,8</left_back>
+			<right_back>320,8</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5107}">
+		<name>渓谷2-3a1</name>
+		&h5101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5101}" offset="16" >
+			<right_front>64,12</right_front>
+			<left_front>96,12</left_front>
+			<left_back>320,12</left_back>
+			<right_back>320,12</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5108}">
+		<name>渓谷3-4a1</name>
+		&h5101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5101}" offset="16" >
+			<right_front>64,16</right_front>
+			<left_front>96,16</left_front>
+			<left_back>320,16</left_back>
+			<right_back>320,16</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5109}">
+		<name>渓谷0-1b1</name>
+		&h5101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5102}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>256,0</left_back>
+			<right_back>256,0</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5110}">
+		<name>渓谷1-2b1</name>
+		&h5101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5102}" offset="16" >
+			<right_front>0,4</right_front>
+			<left_front>32,4</left_front>
+			<left_back>256,4</left_back>
+			<right_back>256,4</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5111}">
+		<name>渓谷2-3b1</name>
+		&h5101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5102}" offset="16" >
+			<right_front>0,8</right_front>
+			<left_front>32,8</left_front>
+			<left_back>256,8</left_back>
+			<right_back>256,8</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5112}">
+		<name>渓谷3-4b1</name>
+		&h5101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5102}" offset="16" >
+			<right_front>0,12</right_front>
+			<left_front>32,12</left_front>
+			<left_back>256,12</left_back>
+			<right_back>256,12</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5113}">
+		<name>渓谷0-2a2</name>
+		&h5101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5101}" offset="16" >
+			<right_front>128,4</right_front>
+			<left_front>160,4</left_front>
+			<left_back>320,4</left_back>
+			<right_back>320,4</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5114}">
+		<name>渓谷1-3a2</name>
+		&h5101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5101}" offset="16" >
+			<right_front>128,8</right_front>
+			<left_front>160,8</left_front>
+			<left_back>320,8</left_back>
+			<right_back>320,8</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5115}">
+		<name>渓谷2-4a2</name>
+		&h5101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5101}" offset="16" >
+			<right_front>128,12</right_front>
+			<left_front>160,12</left_front>
+			<left_back>320,12</left_back>
+			<right_back>320,12</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5116}">
+		<name>渓谷0-2b2</name>
+		&h5101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5102}" offset="16" >
+			<right_front>64,4</right_front>
+			<left_front>96,4</left_front>
+			<left_back>256,4</left_back>
+			<right_back>256,4</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5117}">
+		<name>渓谷1-3b2</name>
+		&h5101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5102}" offset="16" >
+			<right_front>64,8</right_front>
+			<left_front>96,8</left_front>
+			<left_back>256,8</left_back>
+			<right_back>256,8</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5118}">
+		<name>渓谷2-4b2</name>
+		&h5101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5102}" offset="16" >
+			<right_front>64,12</right_front>
+			<left_front>96,12</left_front>
+			<left_back>256,12</left_back>
+			<right_back>256,12</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5119}">
+		<name>渓谷0-3a3</name>
+		&h5101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5101}" offset="16" >
+			<right_front>192,4</right_front>
+			<left_front>224,4</left_front>
+			<left_back>320,4</left_back>
+			<right_back>320,4</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5120}">
+		<name>渓谷1-4a3</name>
+		&h5101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5101}" offset="16" >
+			<right_front>192,8</right_front>
+			<left_front>224,8</left_front>
+			<left_back>320,8</left_back>
+			<right_back>320,8</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5121}">
+		<name>渓谷0-3b3</name>
+		&h5101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5102}" offset="16" >
+			<right_front>128,8</right_front>
+			<left_front>160,8</left_front>
+			<left_back>256,8</left_back>
+			<right_back>256,8</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5122}">
+		<name>渓谷1-4b3</name>
+		&h5101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5102}" offset="16" >
+			<right_front>128,12</right_front>
+			<left_front>160,12</left_front>
+			<left_back>256,12</left_back>
+			<right_back>256,12</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5123}">
+		<name>渓谷0-4a4</name>
+		&h5101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5101}" offset="16" >
+			<right_front>256,4</right_front>
+			<left_front>288,4</left_front>
+			<left_back>320,4</left_back>
+			<right_back>320,4</right_back>
+		</picture>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-FENCE-STRUCTURE-5124}">
+		<name>渓谷0-4b4</name>
+		&h5101;
+		<picture ref="{HEUER-0001-FENCE-PICTURE-5102}" offset="16" >
+			<right_front>192,12</right_front>
+			<left_front>224,12</left_front>
+			<left_back>256,12</left_back>
+			<right_back>256,12</right_back>
+		</picture>
+	</contribution>
+
+	<contribution type="land" id="{HEUER-0001-WEED-STRUCTURE-00011}">
+		<group>雑草</group>
+		&h6001;
+		<density>10</density>
+		<price>50000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WEED-STRUCTURE-00012}">
+		<group>雑草</group>
+		&h6001;
+		<density>20</density>
+		<price>50000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WEED-STRUCTURE-0001}">
+		<group>雑草</group>
+		&h6001;
+		<density>30</density>
+		<price>50000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WEED-STRUCTURE-00111}">
+		<group>雑草</group>
+		&h6002;
+		<density>10</density>
+		<price>50000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WEED-STRUCTURE-00112}">
+		<group>雑草</group>
+		&h6002;
+		<density>20</density>
+		<price>50000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WEED-STRUCTURE-0011}">
+		<group>雑草</group>
+		&h6002;
+		<density>30</density>
+		<price>50000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WEED-STRUCTURE-00211}">
+		<group>雑草</group>
+		&h6003;
+		<density>10</density>
+		<price>50000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WEED-STRUCTURE-00212}">
+		<group>雑草</group>
+		&h6003;
+		<density>20</density>
+		<price>50000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WEED-STRUCTURE-0021}">
+		<group>雑草</group>
+		&h6003;
+		<density>30</density>
+		<price>50000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WEED-STRUCTURE-00021}">
+		<group>雑草(山肌)</group>
+		<ground>
+			<picture ref = "{HEUER-0001-GND-PICTURE-0001}" origin="0,0"/>
+		</ground>
+		&h6001;
+		<density>10</density>
+		<price>55000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WEED-STRUCTURE-00022}">
+		<group>雑草(山肌)</group>
+		<ground>
+			<picture ref = "{HEUER-0001-GND-PICTURE-0001}" origin="0,0"/>
+		</ground>
+		&h6001;
+		<density>20</density>
+		<price>55000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WEED-STRUCTURE-0002}">
+		<group>雑草(山肌)</group>
+		<ground>
+			<picture ref = "{HEUER-0001-GND-PICTURE-0001}" origin="0,0"/>
+		</ground>
+		&h6001;
+		<density>30</density>
+		<price>55000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WEED-STRUCTURE-00121}">
+		<group>雑草(山肌)</group>
+		<ground>
+			<picture ref = "{HEUER-0001-GND-PICTURE-0001}" origin="0,0"/>
+		</ground>
+		&h6002;
+		<density>10</density>
+		<price>55000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WEED-STRUCTURE-00122}">
+		<group>雑草(山肌)</group>
+		<ground>
+			<picture ref = "{HEUER-0001-GND-PICTURE-0001}" origin="0,0"/>
+		</ground>
+		&h6002;
+		<density>20</density>
+		<price>55000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WEED-STRUCTURE-0012}">
+		<group>雑草(山肌)</group>
+		<ground>
+			<picture ref = "{HEUER-0001-GND-PICTURE-0001}" origin="0,0"/>
+		</ground>
+		&h6002;
+		<density>30</density>
+		<price>55000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WEED-STRUCTURE-00221}">
+		<group>雑草(山肌)</group>
+		<ground>
+			<picture ref = "{HEUER-0001-GND-PICTURE-0001}" origin="0,0"/>
+		</ground>
+		&h6003;
+		<density>10</density>
+		<price>55000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WEED-STRUCTURE-00222}">
+		<group>雑草(山肌)</group>
+		<ground>
+			<picture ref = "{HEUER-0001-GND-PICTURE-0001}" origin="0,0"/>
+		</ground>
+		&h6003;
+		<density>20</density>
+		<price>55000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WEED-STRUCTURE-0022}">
+		<group>雑草(山肌)</group>
+		<ground>
+			<picture ref = "{HEUER-0001-GND-PICTURE-0001}" origin="0,0"/>
+		</ground>
+		&h6003;
+		<density>30</density>
+		<price>55000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WEED-STRUCTURE-00031}">
+		<group>雑草(草原)</group>
+		<ground>
+			<picture ref = "{HEUER-0001-GND-PICTURE-0001}" origin="32,0"/>
+		</ground>
+		&h6001;
+		<density>10</density>
+		<price>60000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WEED-STRUCTURE-00032}">
+		<group>雑草(草原)</group>
+		<ground>
+			<picture ref = "{HEUER-0001-GND-PICTURE-0001}" origin="32,0"/>
+		</ground>
+		&h6001;
+		<density>20</density>
+		<price>60000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WEED-STRUCTURE-0003}">
+		<group>雑草(草原)</group>
+		<ground>
+			<picture ref = "{HEUER-0001-GND-PICTURE-0001}" origin="32,0"/>
+		</ground>
+		&h6001;
+		<density>30</density>
+		<price>60000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WEED-STRUCTURE-00131}">
+		<group>雑草(草原)</group>
+		<ground>
+			<picture ref = "{HEUER-0001-GND-PICTURE-0001}" origin="32,0"/>
+		</ground>
+		&h6002;
+		<density>10</density>
+		<price>60000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WEED-STRUCTURE-00132}">
+		<group>雑草(草原)</group>
+		<ground>
+			<picture ref = "{HEUER-0001-GND-PICTURE-0001}" origin="32,0"/>
+		</ground>
+		&h6002;
+		<density>20</density>
+		<price>60000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WEED-STRUCTURE-0013}">
+		<group>雑草(草原)</group>
+		<ground>
+			<picture ref = "{HEUER-0001-GND-PICTURE-0001}" origin="32,0"/>
+		</ground>
+		&h6002;
+		<density>30</density>
+		<price>60000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WEED-STRUCTURE-00231}">
+		<group>雑草(草原)</group>
+		<ground>
+			<picture ref = "{HEUER-0001-GND-PICTURE-0001}" origin="32,0"/>
+		</ground>
+		&h6003;
+		<density>10</density>
+		<price>60000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WEED-STRUCTURE-00232}">
+		<group>雑草(草原)</group>
+		<ground>
+			<picture ref = "{HEUER-0001-GND-PICTURE-0001}" origin="32,0"/>
+		</ground>
+		&h6003;
+		<density>20</density>
+		<price>60000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WEED-STRUCTURE-0023}">
+		<group>雑草(草原)</group>
+		<ground>
+			<picture ref = "{HEUER-0001-GND-PICTURE-0001}" origin="32,0"/>
+		</ground>
+		&h6003;
+		<density>30</density>
+		<price>60000</price>
+	</contribution>
+
+	<contribution type="land" id="{HEUER-0001-WL-STRUCTURE-0101}">
+		<group>湿地</group>
+		&h6102;
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WL-STRUCTURE-0102}">
+		<group>湿地(山肌)</group>
+		<ground>
+			<picture ref = "{HEUER-0001-GND-PICTURE-0001}" origin="0,0"/>
+		</ground>
+		&h6102;
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WL-STRUCTURE-0103}">
+		<group>湿地(草原)</group>
+		<ground>
+			<picture ref = "{HEUER-0001-GND-PICTURE-0001}" origin="32,0"/>
+		</ground>
+		&h6102;
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WL-STRUCTURE-0001}">
+		<group>湿地</group>
+		<name>A</name>
+		&h6101;
+		<density>2</density>
+		<price>50000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WL-STRUCTURE-0002}">
+		<group>湿地(山肌)</group>
+		<name>A</name>
+		<ground>
+			<picture ref = "{HEUER-0001-GND-PICTURE-0001}" origin="0,0"/>
+		</ground>
+		&h6101;
+		<density>2</density>
+		<price>55000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WL-STRUCTURE-0003}">
+		<group>湿地(草原)</group>
+		<name>A</name>
+		<ground>
+			<picture ref = "{HEUER-0001-GND-PICTURE-0001}" origin="32,0"/>
+		</ground>
+		&h6101;
+		<density>2</density>
+		<price>60000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WL-STRUCTURE-0011}">
+		<group>湿地</group>
+		<name>B</name>
+		&h6101;
+		<density>7</density>
+		<price>50000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WL-STRUCTURE-0012}">
+		<group>湿地(山肌)</group>
+		<name>B</name>
+		<ground>
+			<picture ref = "{HEUER-0001-GND-PICTURE-0001}" origin="0,0"/>
+		</ground>
+		&h6101;
+		<density>7</density>
+		<price>55000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WL-STRUCTURE-0013}">
+		<group>湿地(草原)</group>
+		<name>B</name>
+		<ground>
+			<picture ref = "{HEUER-0001-GND-PICTURE-0001}" origin="32,0"/>
+		</ground>
+		&h6101;
+		<density>7</density>
+		<price>60000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WL-STRUCTURE-0021}">
+		<group>湿地</group>
+		<name>C</name>
+		&h6101;
+		<density>18</density>
+		<price>50000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WL-STRUCTURE-0022}">
+		<group>湿地(山肌)</group>
+		<name>C</name>
+		<ground>
+			<picture ref = "{HEUER-0001-GND-PICTURE-0001}" origin="0,0"/>
+		</ground>
+		&h6101;
+		<density>18</density>
+		<price>55000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WL-STRUCTURE-0023}">
+		<group>湿地(草原)</group>
+		<name>C</name>
+		<ground>
+			<picture ref = "{HEUER-0001-GND-PICTURE-0001}" origin="32,0"/>
+		</ground>
+		&h6101;
+		<density>18</density>
+		<price>60000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WL-STRUCTURE-0031}">
+		<group>湿地</group>
+		<name>D</name>
+		&h6101;
+		<density>40</density>
+		<price>50000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WL-STRUCTURE-0032}">
+		<group>湿地(山肌)</group>
+		<name>D</name>
+		<ground>
+			<picture ref = "{HEUER-0001-GND-PICTURE-0001}" origin="0,0"/>
+		</ground>
+		&h6101;
+		<density>40</density>
+		<price>55000</price>
+	</contribution>
+	<contribution type="land" id="{HEUER-0001-WL-STRUCTURE-0033}">
+		<group>湿地(草原)</group>
+		<name>D</name>
+		<ground>
+			<picture ref = "{HEUER-0001-GND-PICTURE-0001}" origin="32,0"/>
+		</ground>
+		&h6101;
+		<density>40</density>
+		<price>60000</price>
+	</contribution>
+</plug-in>

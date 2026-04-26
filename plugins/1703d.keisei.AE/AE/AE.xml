@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+  <!-- AE形先頭車 -->
+  <contribution type="trainCar" id="{CyberExpress1703d-keisei-AE}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="AE/AEa.bmp" />
+    </sprite>
+    <capacity>40</capacity>
+    <seatedcapacity>40</seatedcapacity>
+  </contribution>
+
+  <!-- AE形中間車 -->
+  <contribution type="trainCar" id="{CyberExpress1703d-keisei-AE}-m">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="AE/AEb.bmp" />
+    </sprite>
+    <capacity>53</capacity>
+    <seatedcapacity>53</seatedcapacity>
+  </contribution>
+
+  <!-- AE形後尾車 -->
+  <contribution type="trainCar" id="{CyberExpress1703d-keisei-AE}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{CyberExpress1703d-keisei-AE}-h" />
+  </contribution>
+
+  <!-- 京成AE形(2代目) -->
+  <contribution type="train" id="{CyberExpress1703d-keisei-AE}">
+    <company>京成電鉄</company>
+    <type>AE形</type>
+    <name>スカイライナー</name>
+    <author>いっちー</author>
+    <description>2011年、成田新高速鉄道線開業とともにデビューする「新型スカイライナー」。山本寛斎氏が手掛けた力強く流麗なデザインの車体は軽量なアルミニウム合金製で、高度な安全性と高速走行性を両立する最新鋭のメカニズムを搭載。日本の在来線最速の時速160kmで走行し、日暮里駅～空港第2ビル駅をわずか36分で結ぶ。</description>
+    <fare>900</fare>
+    <price>65000000</price>
+	<amenity>130</amenity>
+	<triprange>long</triprange>
+    <speed>fast</speed>
+    <class name="freetrain.contributions.train.ParamTrainImpl" />
+    <composition>
+      <head carRef="{CyberExpress1703d-keisei-AE}-h" />
+      <body carRef="{CyberExpress1703d-keisei-AE}-m" />
+      <tail carRef="{CyberExpress1703d-keisei-AE}-t" />
+    </composition>
+  </contribution>

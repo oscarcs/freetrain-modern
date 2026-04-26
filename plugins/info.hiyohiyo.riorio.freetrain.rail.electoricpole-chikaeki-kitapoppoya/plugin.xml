@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>架線柱タイプ地下鉄区間壁</title>
+	<author>りおりお（原画・北の汽車屋）</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+	
+	<depends on="org.kohsuke.freetrain.rail.electricPole" />
+
+
+	<contribution type="picture" id="{riorio-ep-subwaywall-picture-0001-1784188A2626}">
+		<picture src="subway_wall1.bmp">
+		  <override when="night" src="subway_wall1_n.bmp"/>
+		</picture>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-ep-subwaywall-picture-0002-1784188A2626}">
+		<picture src="subway_wall2.bmp">
+		  <override when="night" src="subway_wall2_n.bmp"/>
+		</picture>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-ep-subwaywall-picture-0003-1784188A2626}">
+		<picture src="subway_wall3.bmp">
+		  <override when="night" src="subway_wall3_n.bmp"/>
+		</picture>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-ep-subwaywall-picture-0004-1784188A2626}">
+		<picture src="subway_wall4.bmp">
+		  <override when="night" src="subway_wall4_n.bmp"/>
+		</picture>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-ep-subwaywall-picture-0005-1784188A2626}">
+		<picture src="subway_wall5.bmp" />
+	</contribution>
+
+
+	<contribution type="picture" id="{riorio-ep-subwaywall-picture-0001-1784188A2626}-pf">
+		<picture src="subway_wall1p.bmp">
+		  <override when="night" src="subway_wall1p_n.bmp"/>
+		</picture>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-ep-subwaywall-picture-0002-1784188A2626}-pf">
+		<picture src="subway_wall2p.bmp">
+		  <override when="night" src="subway_wall2p_n.bmp"/>
+		</picture>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-ep-subwaywall-picture-0003-1784188A2626}-pf">
+		<picture src="subway_wall3p.bmp">
+		  <override when="night" src="subway_wall3p_n.bmp"/>
+		</picture>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-ep-subwaywall-picture-0004-1784188A2626}-pf">
+		<picture src="subway_wall4p.bmp">
+		  <override when="night" src="subway_wall4p_n.bmp"/>
+		</picture>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-ep-subwaywall-picture-0006-1784188A2626}-pf">
+		<picture src="subway_wall6p.bmp">
+		  <override when="night" src="subway_wall6p_n.bmp"/>
+		</picture>
+	</contribution>
+
+
+
+	<contribution type="electricPole" 
+id="{riorio-ep-subwaywall-object-0001-7F2AE70CF695}">
+		<name>地下駅壁駅名板</name>
+		<sprite>
+			<picture ref="{riorio-ep-subwaywall-picture-0001-1784188A2626}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="electricPole" 
+id="{riorio-ep-subwaywall-object-0002-7F2AE70CF695}">
+		<name>地下駅壁路線図</name>
+		<sprite>
+			<picture ref="{riorio-ep-subwaywall-picture-0002-1784188A2626}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="electricPole" 
+id="{riorio-ep-subwaywall-object-0003-7F2AE70CF695}">
+		<name>地下駅壁</name>
+		<sprite>
+			<picture ref="{riorio-ep-subwaywall-picture-0003-1784188A2626}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="electricPole" 
+id="{riorio-ep-subwaywall-object-0004-7F2AE70CF695}">
+		<name>地下鉄中柱</name>
+		<sprite>
+			<picture ref="{riorio-ep-subwaywall-picture-0004-1784188A2626}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="electricPole" 
+id="{riorio-ep-subwaywall-object-0005-7F2AE70CF695}">
+		<name>地下鉄壁</name>
+		<sprite>
+			<picture ref="{riorio-ep-subwaywall-picture-0005-1784188A2626}"/>
+		</sprite>
+	</contribution>
+
+
+	<contribution type="electricPole" 
+id="{riorio-ep-subwaywall-platform-0001-7F2AE70CF695}">
+		<name>地下ホーム駅名板</name>
+		<sprite>
+			<picture ref="{riorio-ep-subwaywall-picture-0001-1784188A2626}-pf"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="electricPole" 
+id="{riorio-ep-subwaywall-platform-0002-7F2AE70CF695}">
+		<name>地下ホーム路線図</name>
+		<sprite>
+			<picture ref="{riorio-ep-subwaywall-picture-0002-1784188A2626}-pf"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="electricPole" 
+id="{riorio-ep-subwaywall-platform-0003-7F2AE70CF695}">
+		<name>地下ホーム</name>
+		<sprite>
+			<picture ref="{riorio-ep-subwaywall-picture-0003-1784188A2626}-pf"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="electricPole" 
+id="{riorio-ep-subwaywall-platform-0004-7F2AE70CF695}">
+		<name>地下鉄中柱・ホーム</name>
+		<sprite>
+			<picture ref="{riorio-ep-subwaywall-picture-0004-1784188A2626}-pf"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="electricPole" 
+id="{riorio-ep-subwaywall-platform-0006-7F2AE70CF695}">
+		<name>地下鉄中柱無ホーム</name>
+		<sprite>
+			<picture ref="{riorio-ep-subwaywall-picture-0006-1784188A2626}-pf"/>
+		</sprite>
+	</contribution>
+
+
+</plug-in>

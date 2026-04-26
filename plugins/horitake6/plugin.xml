@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+
+<plug-in>
+
+<author>ホリタケ</author>
+<homepage></homepage>
+
+<title>勾配道路</title>
+
+<!-- 勾配道路１ -->
+
+<contribution type="picture" id="{98536417-A2C7-4189-9EB9-30AA059A2E84}">
+	<picture src = "02.bmp">
+		<override when="spring" src="02.bmp"/>
+		<override when="summer" src="02.bmp"/>
+		<override when="autumn" src="02.bmp"/>
+		<override when="winter" src="03.bmp"/>
+	</picture>
+</contribution>
+
+<contribution type="GenericStructure" id="{76B1107C-FE91-4608-9C44-408F1E1D0EC7}">
+	<group>道路関連物</group>
+	<name>勾配道路</name>
+	<design>二車線道路（屋根付き）</design>
+	<structure>
+		<category byname="道路関連物"/>
+	</structure>
+	<price>5000000</price>
+	<size>1,4</size>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.CombinationPopulation"/>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>0</base>
+		</population>
+	</population>
+
+	<computerCannotBuild />
+
+	<sprite origin="0,0" offset="16">
+		<picture ref="{98536417-A2C7-4189-9EB9-30AA059A2E84}"/>
+	</sprite>
+
+	<sprite origin="80,0" offset="40" opposite="true">
+		<picture ref="{98536417-A2C7-4189-9EB9-30AA059A2E84}"/>
+	</sprite>
+
+	<sprite origin="160,0" offset="16">
+		<picture ref="{98536417-A2C7-4189-9EB9-30AA059A2E84}"/>
+	</sprite>
+
+	<sprite origin="240,0" offset="40" opposite="true">
+		<picture ref="{98536417-A2C7-4189-9EB9-30AA059A2E84}"/>
+	</sprite>
+</contribution>
+
+<!-- 勾配道路２ -->
+
+<contribution type="picture" id="{3482F4F9-EFD2-4ABB-A00F-E2A9541F5543}">
+	<picture src = "01.bmp" />
+</contribution>
+
+<contribution type="GenericStructure" id="{CD6744B4-F172-481B-9658-C91A2E06A38F}">
+
+	<group>道路関連物</group>
+	<name>勾配道路</name>
+	<design>二車線道路（屋根なし）</design>
+	<structure>
+		<category byname="道路関連物"/>
+	</structure>
+	<price>1500000</price>
+	<size>1,4</size>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.CombinationPopulation"/>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>0</base>
+		</population>
+	</population>
+
+	<computerCannotBuild />
+
+	<sprite origin="0,0" offset="16">
+		<picture ref="{3482F4F9-EFD2-4ABB-A00F-E2A9541F5543}"/>
+	</sprite>
+
+	<sprite origin="80,0" offset="40" opposite="true">
+		<picture ref="{3482F4F9-EFD2-4ABB-A00F-E2A9541F5543}"/>
+	</sprite>
+
+	<sprite origin="160,0" offset="16">
+		<picture ref="{3482F4F9-EFD2-4ABB-A00F-E2A9541F5543}"/>
+	</sprite>
+
+	<sprite origin="240,0" offset="40" opposite="true">
+		<picture ref="{3482F4F9-EFD2-4ABB-A00F-E2A9541F5543}"/>
+	</sprite>
+
+</contribution>
+
+</plug-in>

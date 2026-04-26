@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>道路</title>
+	<author>花菱烈火</author>
+	<homepage></homepage>
+
+	<contribution type="road" id="{474B8BFD-R001-1411-1000-D0EA1049D28D}">
+		<class name="freetrain.contributions.road.A3RoadContribution" />
+		<style name="railballast"/>
+		<name>トラス（01）</name>
+		<description>トラス下</description>
+		<picture src="hasi01.bmp" size="32,32" offset="16" />
+	</contribution>
+
+	<contribution type="road" id="{474B8BFD-R001-1412-1000-D0EA1049D28D}">
+		<class name="freetrain.contributions.road.A3RoadContribution" />
+		<style name="railballast"/>
+		<name>トラス（02）</name>
+		<description>トラス下</description>
+		<picture src="hasi02.bmp" size="32,32" offset="16" />
+	</contribution>
+
+	<contribution type="road" id="{474B8BFD-R001-1413-1000-D0EA1049D28D}">
+		<class name="freetrain.contributions.road.A3RoadContribution" />
+		<style name="railballast"/>
+		<name>トラス（03）</name>
+		<description>トラス下</description>
+		<picture src="hasi03.bmp" size="32,32" offset="16" />
+	</contribution>
+
+	<contribution type="road" id="{474B8BFD-R001-1414-1000-D0EA1049D28D}">
+		<class name="freetrain.contributions.road.A3RoadContribution" />
+		<style name="railballast"/>
+		<name>トラス（04）</name>
+		<description>トラス下</description>
+		<picture src="hasi04.bmp" size="32,32" offset="16" />
+	</contribution>
+
+</plug-in>

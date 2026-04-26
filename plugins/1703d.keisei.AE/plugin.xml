@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plugin [
+
+<!ELEMENT contribution (class,sprite,capacity,seatedcapacity,company,type,name,author,description,fare,price,amenity,speed,composition,head,body,tail)>
+<!-- プラグイン内に登場するすべてのcontribution配下の要素を漏れなく記述する必要あり -->
+
+<!-- 車両 -->
+<!ELEMENT class (#PCDATA)>
+<!ELEMENT sprite (#PCDATA)>
+<!ELEMENT capacity (#PCDATA)>
+<!ELEMENT seatedcapacity (#PCDATA)>
+<!ATTLIST  contribution type CDATA #REQUIRED>
+<!ATTLIST  contribution id CDATA #REQUIRED>
+<!ATTLIST  class name CDATA #REQUIRED>
+<!ATTLIST  sprite origin CDATA #REQUIRED>
+
+<!-- 列車 -->
+<!ELEMENT company (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT fare (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT amenity (#PCDATA)>
+<!ELEMENT speed (#PCDATA)>
+
+<!-- 編成 -->
+<!ELEMENT composition (#PCDATA)>
+<!ELEMENT head (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
+<!ELEMENT tail (#PCDATA)>
+<!ATTLIST head carRef CDATA #REQUIRED>
+<!ATTLIST body carRef CDATA #REQUIRED>
+<!ATTLIST tail carRef CDATA #REQUIRED>
+
+<!ENTITY AE SYSTEM "AE/AE.xml">
+
+]>
+
+<plugin>
+     <title>新スカイライナーAE形</title>
+     <author>いっちー</author>
+     <homepage></homepage>
+
+<!-- AE形 -->
+	&AE;
+
+</plugin>

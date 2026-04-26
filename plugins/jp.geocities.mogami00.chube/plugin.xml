@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+<title>ガラスチューブ</title>
+<author>モガミ</author>
+<homepage>http://www.geocities.jp/mogami00/Kamikazekensetu.html</homepage>
+<depends on="org.kohsuke.freetrain.rail.electricPole" />
+<contribution type="picture" id="{mogami-katyusen-chube-picture-01B356F4352}">
+<picture src="chube1.bmp">
+<override when="night" src="chube1n.bmp"/>
+</picture>
+</contribution>
+<contribution type="electricPole" id="{mogami-katyusen-chube-B356FF43S5G}">
+<name>ガラスチューブ</name>
+<sprite origin=" 0, 0" offset="16">
+<picture ref="{mogami-katyusen-chube-picture-01B356F4352}" />
+</sprite>
+</contribution>
+</plug-in>

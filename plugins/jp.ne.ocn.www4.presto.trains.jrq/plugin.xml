@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>JR九州セット</title>
+	<homepage>http://www4.ocn.ne.jp/~presto/ft/</homepage>
+	<author>Hinoto</author>
+	
+
+<!-- キハ200 なのはな -->
+
+	<!-- 先頭車両 -->
+	<contribution type="trainCar" id="{7C9C5240-48F0-11D8-968B-0800460222F0-titech-jrq-nanohana}-h">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+		<spriteType name="colorMapped">
+			<map from="128,128,0" to="255,255,0"/>
+		</spriteType>
+		<picture src="kiha200_base.bmp" />
+		</sprite>
+		<capacity>122</capacity>
+		<seatedcapacity>52</seatedcapacity>
+	</contribution>
+
+	<!-- 後尾車両 -->
+	<contribution type="trainCar" id="{7C9C5240-48F0-11D8-968B-0800460222F0-titech-jrq-nanohana}-t">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{7C9C5240-48F0-11D8-968B-0800460222F0-titech-jrq-nanohana}-h"/>
+	</contribution>
+
+	<!-- なのはなDX -->
+	<contribution type="trainCar" id="{7C9C5240-48F0-11D8-968B-0800460222F0-titech-jrq-nanohana}-dx">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+		<spriteType name="colorMapped">
+			<map from="128,128,0" to="255,255,0"/>
+		</spriteType>
+		<picture src="kiha200_nanohanadx.bmp" />
+		</sprite>
+		<capacity>52</capacity>
+		<seatedcapacity>52</seatedcapacity>
+	</contribution>
+
+	<contribution type="train" id="{7C9C5240-48F0-11D8-968B-0800460222F0-titech-jrq-nanohana}">
+		<name></name>
+		<fare>500</fare>
+		<price>35000000</price>
+		<amenity>110</amenity>
+		<speed>medium</speed>
+		<triprange>middle</triprange>
+		<author>Hinoto</author>
+		<type>キハ200形 なのはな</type>
+		<company>JR九州</company>
+		<description></description>
+		
+		
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="＜" ref="{7C9C5240-48F0-11D8-968B-0800460222F0-titech-jrq-nanohana}-h"/>
+			<car char="＞" ref="{7C9C5240-48F0-11D8-968B-0800460222F0-titech-jrq-nanohana}-t"/>
+		
+			<composition>＜</composition>
+			<composition>＜＞</composition>
+			<composition>＜＞＞</composition>
+			<composition>＜＞＜＞</composition>
+			<composition>＜＞＜＞＞</composition>
+			<composition>＜＞＜＞＜＞</composition>
+			<composition>＜＞＜＞＜＞＞</composition>
+			<composition>＜＞＜＞＜＞＜＞</composition>
+			<composition>＜＞＜＞＜＞＜＞＞</composition>
+			<composition>＜＞＜＞＜＞＜＞＜＞</composition>
+			<composition>＜＞＜＞＜＞＜＞＜＞＞</composition>
+			<composition>＜＞＜＞＜＞＜＞＜＞＜＞</composition>
+			<composition>＜＞＜＞＜＞＜＞＜＞＜＞＞</composition>
+			<composition>＜＞＜＞＜＞＜＞＜＞＜＞＜＞</composition>
+			<composition>＜＞＜＞＜＞＜＞＜＞＜＞＜＞＞</composition>
+			<composition>＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞</composition>
+			<composition>＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞＞</composition>
+			<composition>＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞</composition>
+			<composition>＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞＞</composition>
+			<composition>＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{7C9C5240-48F0-11D8-968B-0800460222F1-titech-jrq-nanohanaDX}">
+		<name></name>
+		<fare>550</fare>
+		<price>38500000</price>
+		<amenity>110</amenity>
+		<triprange>middle</triprange>
+		<speed>medium</speed>
+		<author>Hinoto</author>
+		<type>キハ200形 なのはなDX</type>
+		<company>JR九州</company>
+		<description></description>
+		
+		
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="＜" ref="{7C9C5240-48F0-11D8-968B-0800460222F0-titech-jrq-nanohana}-h"/>
+			<car char="＞" ref="{7C9C5240-48F0-11D8-968B-0800460222F0-titech-jrq-nanohana}-t"/>
+			<car char="D" ref="{7C9C5240-48F0-11D8-968B-0800460222F0-titech-jrq-nanohana}-dx"/>
+		
+			<composition>D＜＞</composition>
+			<composition>D＜＞＞</composition>
+			<composition>D＜＞＜＞</composition>
+			<composition>D＜＞＜＞＞</composition>
+			<composition>D＜＞＜＞＜＞</composition>
+			<composition>D＜＞＜＞＜＞＞</composition>
+			<composition>D＜＞＜＞＜＞＜＞</composition>
+			<composition>D＜＞＜＞＜＞＜＞＞</composition>
+			<composition>D＜＞＜＞＜＞＜＞＜＞</composition>
+			<composition>D＜＞＜＞＜＞＜＞＜＞＞</composition>
+			<composition>D＜＞＜＞＜＞＜＞＜＞＜＞</composition>
+			<composition>D＜＞＜＞＜＞＜＞＜＞＜＞＞</composition>
+			<composition>D＜＞＜＞＜＞＜＞＜＞＜＞＜＞</composition>
+			<composition>D＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞</composition>
+			<composition>D＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞＞</composition>
+			<composition>D＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞＞</composition>
+			<composition>D＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞</composition>
+		</config>
+	</contribution>
+
+<!-- キハ200 シーサイドライナー -->
+	<!-- 先頭車両 -->
+	<contribution type="trainCar" id="{7C9C5240-48F0-11D8-968B-0800460222F0-titech-jrq-seeside}-h">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+		<picture src="kiha200_seeside.bmp" />
+		</sprite>
+		<capacity>122</capacity>
+		<seatedcapacity>52</seatedcapacity>
+	</contribution>
+
+	<!-- 後尾車両 -->
+	<contribution type="trainCar" id="{7C9C5240-48F0-11D8-968B-0800460222F0-titech-jrq-seeside}-t">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{7C9C5240-48F0-11D8-968B-0800460222F0-titech-jrq-seeside}-h"/>
+	</contribution>
+
+	<contribution type="train" id="{7C9C5240-48F0-11D8-968B-0800460222F0-titech-jrq-seeside}">
+		<name></name>
+		<fare>500</fare>
+		<price>35000000</price>
+		<amenity>110</amenity>
+		<triprange>middle</triprange>
+		<speed>medium</speed>
+		<author>Hinoto</author>
+		<type>キハ200形 シーサイドライナー</type>
+		<company>JR九州</company>
+		<description></description>
+		
+		
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="＜" ref="{7C9C5240-48F0-11D8-968B-0800460222F0-titech-jrq-seeside}-h"/>
+			<car char="＞" ref="{7C9C5240-48F0-11D8-968B-0800460222F0-titech-jrq-seeside}-t"/>
+		
+			<composition>＜</composition>
+			<composition>＜＞</composition>
+			<composition>＜＞＞</composition>
+			<composition>＜＞＜＞</composition>
+			<composition>＜＞＜＞＞</composition>
+			<composition>＜＞＜＞＜＞</composition>
+			<composition>＜＞＜＞＜＞＞</composition>
+			<composition>＜＞＜＞＜＞＜＞</composition>
+			<composition>＜＞＜＞＜＞＜＞＞</composition>
+			<composition>＜＞＜＞＜＞＜＞＜＞</composition>
+			<composition>＜＞＜＞＜＞＜＞＜＞＞</composition>
+			<composition>＜＞＜＞＜＞＜＞＜＞＜＞</composition>
+			<composition>＜＞＜＞＜＞＜＞＜＞＜＞＞</composition>
+			<composition>＜＞＜＞＜＞＜＞＜＞＜＞＜＞</composition>
+			<composition>＜＞＜＞＜＞＜＞＜＞＜＞＜＞＞</composition>
+			<composition>＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞</composition>
+			<composition>＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞＞</composition>
+			<composition>＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞</composition>
+			<composition>＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞＞</composition>
+			<composition>＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞</composition>
+		</config>
+	</contribution>
+
+</plug-in>

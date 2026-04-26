@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>トンネル坑口</title>
+	<author>HEUER</author>
+	<homepage>http://freetrain.finito-web.com/</homepage>	
+	<depends on="org.kohsuke.freetrain.rail.electricPole" />	
+	<contribution type="electricPole" id="{RAIL0100-8058-11D7-BB78-0090FE1AB959}">
+		<name>TN坑口(単線A)</name>
+		<sprite>
+			<picture src="tunnel.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0105-8058-11D7-BB78-0090FE1AB959}">
+		<name>TN坑口(単線B)</name>
+		<sprite>
+			<picture src="tunnel2.bmp">
+				<override when="winter" src="tunnel2w.bmp" />
+			</picture>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0110-8058-11D7-BB78-0090FE1AB959}">
+		<name>TN坑口(単線Ca)</name>
+		<sprite>
+			<picture src="tunnel3a.bmp">
+				<override when="summer" src="tunnel3a_s.bmp" />
+				<override when="autumn" src="tunnel3a_a.bmp" />
+				<override when="winter" src="tunnel3a_w.bmp" />
+			</picture>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0111-8058-11D7-BB78-0090FE1AB959}">
+		<name>TN坑口(単線Cb)</name>
+		<sprite>
+			<picture src="tunnel3b.bmp">
+				<override when="summer" src="tunnel3b_s.bmp" />
+				<override when="autumn" src="tunnel3b_a.bmp" />
+				<override when="winter" src="tunnel3b_w.bmp" />
+			</picture>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0101-8058-11D7-BB78-0090FE1AB959}">
+		<name>TN坑口(複線A左)</name>
+		<sprite>
+			<picture src="tunnel_l.bmp"/>
+		</sprite>
+	</contribution>	
+	<contribution type="electricPole" id="{RAIL0102-8058-11D7-BB78-0090FE1AB959}">
+		<name>TN坑口(複線A右)</name>
+		<sprite>
+			<picture src="tunnel_r.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0103-8058-11D7-BB78-0090FE1AB959}">
+		<name>TN坑口(複線B左)</name>
+		<sprite>
+			<picture src="tunnel2_l.bmp"/>
+		</sprite>
+	</contribution>	
+	<contribution type="electricPole" id="{RAIL0104-8058-11D7-BB78-0090FE1AB959}">
+		<name>TN坑口(複線B右)</name>
+		<sprite>
+			<picture src="tunnel2_r.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL5000-8058-11D7-BB78-0090FE1AB959}">
+		<name>TN緩衝工(単線)</name>
+		<sprite>
+			<picture src="tnb.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL5001-8058-11D7-BB78-0090FE1AB959}">
+		<name>TN緩衝工(複線左)</name>
+		<sprite>
+			<picture src="tnb_l.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL5002-8058-11D7-BB78-0090FE1AB959}">
+		<name>TN緩衝工(複線右)</name>
+		<sprite>
+			<picture src="tnb_r.bmp"/>
+		</sprite>
+	</contribution>
+
+	<title>踏切</title>
+	<author>HEUER</author>
+	<homepage>http://freetrain.finito-web.com/</homepage>	
+	<depends on="org.kohsuke.freetrain.rail.electricPole" />	
+	<contribution type="electricPole" id="{RAIL0401-8058-11D7-BB78-0090FE1AB959}">
+		<name>門型踏切</name>
+		<sprite>
+			<picture src="rc1.bmp">
+				<override when="night" src="rc1_n.bmp" />
+			</picture>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0402-8058-11D7-BB78-0090FE1AB959}">
+		<name>門型踏切/左</name>
+		<sprite>
+			<picture src="rc1l.bmp">
+				<override when="night" src="rc1l_n.bmp" />
+			</picture>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0403-8058-11D7-BB78-0090FE1AB959}">
+		<name>門型踏切/右</name>
+		<sprite>
+			<picture src="rc1r.bmp">
+				<override when="night" src="rc1r_n.bmp" />
+			</picture>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0404-8058-11D7-BB78-0090FE1AB959}">
+		<name>門型踏切/中</name>
+		<sprite>
+			<picture src="rc1o.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0411-8058-11D7-BB78-0090FE1AB959}">
+		<name>門型踏切/奥</name>
+		<sprite>
+			<picture src="rc1b.bmp">
+				<override when="night" src="rc1b_n.bmp" />
+			</picture>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0412-8058-11D7-BB78-0090FE1AB959}">
+		<name>門型踏切/前</name>
+		<sprite>
+			<picture src="rc1a.bmp">
+				<override when="night" src="rc1a_n.bmp" />
+			</picture>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0413-8058-11D7-BB78-0090FE1AB959}">
+		<name>門型踏切/左奥</name>
+		<sprite>
+			<picture src="rc1lb.bmp">
+				<override when="night" src="rc1lb_n.bmp" />
+			</picture>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0414-8058-11D7-BB78-0090FE1AB959}">
+		<name>門型踏切/左前</name>
+		<sprite>
+			<picture src="rc1la.bmp">
+				<override when="night" src="rc1la_n.bmp" />
+			</picture>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0415-8058-11D7-BB78-0090FE1AB959}">
+		<name>門型踏切/右奥</name>
+		<sprite>
+			<picture src="rc1rb.bmp">
+				<override when="night" src="rc1rb_n.bmp" />
+			</picture>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0416-8058-11D7-BB78-0090FE1AB959}">
+		<name>門型踏切/右前</name>
+		<sprite>
+			<picture src="rc1ra.bmp">
+				<override when="night" src="rc1ra_n.bmp" />
+			</picture>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0417-8058-11D7-BB78-0090FE1AB959}">
+		<name>門型踏切/中奥</name>
+		<sprite>
+			<picture src="rc1ob.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0418-8058-11D7-BB78-0090FE1AB959}">
+		<name>門型踏切/中前</name>
+		<sprite>
+			<picture src="rc1oa.bmp"/>
+		</sprite>
+	</contribution>
+
+	<title>車止め</title>
+	<author>HEUER</author>
+	<homepage>http://freetrain.finito-web.com/</homepage>	
+	<depends on="org.kohsuke.freetrain.rail.electricPole" />
+	<contribution type="electricPole" id="{RAIL0511-8058-11D7-BB78-0090FE1AB959}">
+		<name>車止め/A/前</name>
+		<sprite>
+			<picture src="sr1a.bmp"/>
+		</sprite>
+	</contribution>	
+	<contribution type="electricPole" id="{RAIL0512-8058-11D7-BB78-0090FE1AB959}">
+		<name>車止め/A/奥</name>
+		<sprite>
+			<picture src="sr1b.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0521-8058-11D7-BB78-0090FE1AB959}">
+		<name>車止め/B/前</name>
+		<sprite>
+			<picture src="sr2a.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0522-8058-11D7-BB78-0090FE1AB959}">
+		<name>車止め/B/奥</name>
+		<sprite>
+			<picture src="sr2b.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0531-8058-11D7-BB78-0090FE1AB959}">
+		<name>車止め/C/前</name>
+		<sprite>
+			<picture src="sr30a.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0532-8058-11D7-BB78-0090FE1AB959}">
+		<name>車止め/C/奥</name>
+		<sprite>
+			<picture src="sr30b.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0533-8058-11D7-BB78-0090FE1AB959}">
+		<name>車止め/C+A/前</name>
+		<sprite>
+			<picture src="sr31a.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0534-8058-11D7-BB78-0090FE1AB959}">
+		<name>車止め/C+A/奥</name>
+		<sprite>
+			<picture src="sr31b.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0535-8058-11D7-BB78-0090FE1AB959}">
+		<name>車止め/C+B/前</name>
+		<sprite>
+			<picture src="sr32a.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0536-8058-11D7-BB78-0090FE1AB959}">
+		<name>車止め/C+B/奥</name>
+		<sprite>
+			<picture src="sr32b.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0541-8058-11D7-BB78-0090FE1AB959}">
+		<name>車止め/D/前</name>
+		<sprite>
+			<picture src="sr40a.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0542-8058-11D7-BB78-0090FE1AB959}">
+		<name>車止め/D/奥</name>
+		<sprite>
+			<picture src="sr40b.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0543-8058-11D7-BB78-0090FE1AB959}">
+		<name>車止め/D+A/前</name>
+		<sprite>
+			<picture src="sr41a.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0544-8058-11D7-BB78-0090FE1AB959}">
+		<name>車止め/D+A/奥</name>
+		<sprite>
+			<picture src="sr41b.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0545-8058-11D7-BB78-0090FE1AB959}">
+		<name>車止め/D+B/前</name>
+		<sprite>
+			<picture src="sr42a.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0546-8058-11D7-BB78-0090FE1AB959}">
+		<name>車止め/D+B/奥</name>
+		<sprite>
+			<picture src="sr42b.bmp"/>
+		</sprite>
+	</contribution>
+
+	<title>ロックシェッド</title>
+	<author>HEUER</author>
+	<homepage>http://freetrain.finito-web.com/</homepage>	
+	<depends on="org.kohsuke.freetrain.rail.electricPole" />	
+	<contribution type="electricPole" id="{RAIL0200-8058-11D7-BB78-0090FE1AB959}">
+		<name>ロックシェッドA1</name>
+		<sprite>
+			<picture src="rsa1.bmp">
+				<override when="winter" src="rsa1w.bmp" />
+			</picture>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0201-8058-11D7-BB78-0090FE1AB959}">
+		<name>ロックシェッドA1c</name>
+		<sprite>
+			<picture src="rsa1c.bmp">
+				<override when="winter" src="rsa1cw.bmp" />
+			</picture>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0202-8058-11D7-BB78-0090FE1AB959}">
+		<name>ロックシェッドA2</name>
+		<sprite>
+			<picture src="rsa2.bmp">
+				<override when="winter" src="rsa2w.bmp" />
+			</picture>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0203-8058-11D7-BB78-0090FE1AB959}">
+		<name>ロックシェッドA2c</name>
+		<sprite>
+			<picture src="rsa2c.bmp">
+				<override when="winter" src="rsa2cw.bmp" />
+			</picture>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0204-8058-11D7-BB78-0090FE1AB959}">
+		<name>ロックシェッドAx</name>
+		<sprite>
+			<picture src="rsax.bmp">
+				<override when="winter" src="rsaxw.bmp" />
+			</picture>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0205-8058-11D7-BB78-0090FE1AB959}">
+		<name>ロックシェッドAy</name>
+		<sprite>
+			<picture src="rsay.bmp">
+				<override when="winter" src="rsayw.bmp" />
+			</picture>
+		</sprite>
+	</contribution>
+
+	<title>橋脚</title>
+	<author>HEUER</author>
+	<homepage>http://freetrain.finito-web.com/</homepage>	
+	<depends on="org.kohsuke.freetrain.rail.electricPole" />	
+	<contribution type="electricPole" id="{RAIL0251-8058-11D7-BB78-0090FE1AB959}">
+		<name>ラーメン橋脚A1</name>
+		<sprite>
+			<picture src="bpr1.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0252-8058-11D7-BB78-0090FE1AB959}">
+		<name>ラーメン橋脚A2</name>
+		<sprite>
+			<picture src="bpr2.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0253-8058-11D7-BB78-0090FE1AB959}">
+		<name>ラーメン橋脚A3</name>
+		<sprite>
+			<picture src="bpr3.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{RAIL0254-8058-11D7-BB78-0090FE1AB959}">
+		<name>ラーメン橋脚A4</name>
+		<sprite>
+			<picture src="bpr4.bmp"/>
+		</sprite>
+	</contribution>
+
+	<title>バラスト</title>
+	<author>HEUER</author>
+	<homepage>http://freetrain.finito-web.com/</homepage>
+	<contribution type="road" id="{RAIL0301-8058-11D7-BB78-0090FE1AB959}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>バラスト/砂利/[ Ｘ ]a</name>
+		<style name="railballast"/>
+		<description>バラスト</description>
+		<picture src="ballast_a1.bmp" size="32,16" offset="0"/>
+	</contribution>
+	<contribution type="road" id="{RAIL0302-8058-11D7-BB78-0090FE1AB959}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>バラスト/砂利/[ Ｘ ]b</name>
+		<style name="railballast"/>
+		<description>バラスト</description>
+		<picture src="ballast_a2.bmp" size="32,16" offset="0"/>
+	</contribution>
+	<contribution type="road" id="{RAIL0303-8058-11D7-BB78-0090FE1AB959}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>バラスト/砂利/[＋]単</name>
+		<style name="railballast"/>
+		<description>バラスト</description>
+		<picture src="ballast_a3.bmp" size="32,16" offset="0"/>
+	</contribution>
+	<contribution type="road" id="{RAIL0304-8058-11D7-BB78-0090FE1AB959}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>バラスト/砂利/[＋]複</name>
+		<style name="railballast"/>
+		<description>バラスト</description>
+		<picture src="ballast_a4.bmp" size="32,16" offset="0"/>
+	</contribution>
+	<contribution type="road" id="{RAIL0311-8058-11D7-BB78-0090FE1AB959}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>バラスト/草原/[ Ｘ ]a</name>
+		<style name="railballast"/>
+		<description>バラスト</description>
+		<picture src="ballast_b1.bmp" size="32,16" offset="0">
+			<override when="autumn" src="ballast_b1_a.bmp" />
+			<override when="winter" src="ballast_b1_w.bmp" />
+		</picture>
+	</contribution>
+	<contribution type="road" id="{RAIL0312-8058-11D7-BB78-0090FE1AB959}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>バラスト/草原/[ Ｘ ]b</name>
+		<style name="railballast"/>
+		<description>バラスト</description>
+		<picture src="ballast_b2.bmp" size="32,16" offset="0">
+			<override when="autumn" src="ballast_b2_a.bmp" />
+			<override when="winter" src="ballast_b2_w.bmp" />
+		</picture>
+	</contribution>
+	<contribution type="road" id="{RAIL0313-8058-11D7-BB78-0090FE1AB959}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>バラスト/草原/[＋]単</name>
+		<style name="railballast"/>
+		<description>バラスト</description>
+		<picture src="ballast_b3.bmp" size="32,16" offset="0">
+			<override when="autumn" src="ballast_b3_a.bmp" />
+			<override when="winter" src="ballast_b3_w.bmp" />
+		</picture>
+	</contribution>
+	<contribution type="road" id="{RAIL0314-8058-11D7-BB78-0090FE1AB959}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>バラスト/草原/[＋]複</name>
+		<style name="railballast"/>
+		<description>バラスト</description>
+		<picture src="ballast_b4.bmp" size="32,16" offset="0">
+			<override when="autumn" src="ballast_b4_a.bmp" />
+			<override when="winter" src="ballast_b4_w.bmp" />
+		</picture>
+	</contribution>
+	<contribution type="road" id="{RAIL0321-8058-11D7-BB78-0090FE1AB959}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>バラスト/山肌/[ Ｘ ]a</name>
+		<style name="railballast"/>
+		<description>バラスト</description>
+		<picture src="ballast_c1.bmp" size="32,16" offset="0">
+			<override when="summer" src="ballast_c1_s.bmp" />
+			<override when="autumn" src="ballast_c1_a.bmp" />
+			<override when="winter" src="ballast_c1_w.bmp" />
+		</picture>
+	</contribution>
+	<contribution type="road" id="{RAIL0322-8058-11D7-BB78-0090FE1AB959}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>バラスト/山肌/[ Ｘ ]b</name>
+		<style name="railballast"/>
+		<description>バラスト</description>
+		<picture src="ballast_c2.bmp" size="32,16" offset="0">
+			<override when="summer" src="ballast_c2_s.bmp" />
+			<override when="autumn" src="ballast_c2_a.bmp" />
+			<override when="winter" src="ballast_c2_w.bmp" />
+		</picture>
+	</contribution>
+	<contribution type="road" id="{RAIL0323-8058-11D7-BB78-0090FE1AB959}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>バラスト/山肌/[＋]単</name>
+		<style name="railballast"/>
+		<description>バラスト</description>
+		<picture src="ballast_c3.bmp" size="32,16" offset="0">
+			<override when="summer" src="ballast_c3_s.bmp" />
+			<override when="autumn" src="ballast_c3_a.bmp" />
+			<override when="winter" src="ballast_c3_w.bmp" />
+		</picture>
+	</contribution>
+	<contribution type="road" id="{RAIL0324-8058-11D7-BB78-0090FE1AB959}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>バラスト/山肌/[＋]複</name>
+		<style name="railballast"/>
+		<description>バラスト</description>
+		<picture src="ballast_c4.bmp" size="32,16" offset="0">
+			<override when="summer" src="ballast_c4_s.bmp" />
+			<override when="autumn" src="ballast_c4_a.bmp" />
+			<override when="winter" src="ballast_c4_w.bmp" />
+		</picture>
+	</contribution>
+</plug-in>

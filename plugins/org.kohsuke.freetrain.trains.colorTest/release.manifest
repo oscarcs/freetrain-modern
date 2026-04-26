@@ -1,0 +1,4 @@
+# list files that needs to be copied to the release package
+plugin.xml
+bin/FreeTrain.ColorTestTrain.dll
+bin/FreeTrain.ColorTestTrain.pdb

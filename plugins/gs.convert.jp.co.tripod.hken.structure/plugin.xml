@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+   <title>建物総合コンバート Ken</title>
+   <author>りおりお</author>
+   <homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+   <depend on="jp.co.tripod.hken.structure" />
+
+   <contribution type="picture" id="{riorio-gs-convert-ken-picture-gs2}">
+	<picture src="../jp.co.tripod.hken.structure/gs2.bmp" />
+   </contribution>
+
+   <contribution type="picture" id="{riorio-gs-convert-ken-picture-gs3}">
+	<picture src="../jp.co.tripod.hken.structure/gs3.bmp" />
+   </contribution>
+
+   <contribution type="picture" id="{riorio-gs-convert-ken-picture-cardr1}">
+	<picture src="../jp.co.tripod.hken.structure/cardr1.bmp" />
+   </contribution>
+
+   <contribution type="picture" id="{riorio-gs-convert-ken-picture-yubin2}">
+	<picture src="../jp.co.tripod.hken.structure/yubin2.bmp" />
+   </contribution>
+
+   <contribution type="picture" id="{riorio-gs-convert-ken-picture-con2}">
+	<picture src="../jp.co.tripod.hken.structure/con2.bmp" >
+		<override when="night" src="../jp.co.tripod.hken.structure/con2n.bmp" />
+	</picture>
+   </contribution>
+
+   <contribution type="picture" id="{riorio-gs-convert-ken-picture-con1}">
+	<picture src="../jp.co.tripod.hken.structure/con1.bmp" >
+		<override when="night" src="../jp.co.tripod.hken.structure/con1n.bmp" />
+	</picture>
+   </contribution>
+
+   <contribution type="picture" id="{riorio-gs-convert-ken-picture-con6}">
+	<picture src="../jp.co.tripod.hken.structure/con6.bmp" >
+		<override when="night" src="../jp.co.tripod.hken.structure/con6n.bmp" />
+	</picture>
+   </contribution>
+
+   <contribution type="picture" id="{riorio-gs-convert-ken-picture-con4}">
+	<picture src="../jp.co.tripod.hken.structure/con4.bmp" >
+		<override when="night" src="../jp.co.tripod.hken.structure/con4n.bmp" />
+	</picture>
+   </contribution>
+
+   <contribution type="picture" id="{riorio-gs-convert-ken-picture-con5}">
+	<picture src="../jp.co.tripod.hken.structure/con5.bmp" >
+		<override when="night" src="../jp.co.tripod.hken.structure/con5n.bmp" />
+	</picture>
+   </contribution>
+
+   <contribution type="picture" id="{riorio-gs-convert-ken-picture-con3}">
+	<picture src="../jp.co.tripod.hken.structure/con3.bmp" >
+		<override when="night" src="../jp.co.tripod.hken.structure/con3n.bmp" />
+	</picture>
+   </contribution>
+
+   <contribution type="picture" id="{riorio-gs-convert-ken-picture-con7}">
+	<picture src="../jp.co.tripod.hken.structure/con7.bmp" >
+		<override when="night" src="../jp.co.tripod.hken.structure/con7n.bmp" />
+	</picture>
+   </contribution>
+
+   <contribution type="picture" id="{riorio-gs-convert-ken-picture-rest1}">
+	<picture src="../jp.co.tripod.hken.structure/rest1.bmp" />
+   </contribution>
+
+   <contribution type="picture" id="{riorio-gs-convert-ken-picture-messe2}">
+	<picture src="../jp.co.tripod.hken.structure/messe2.bmp" />
+   </contribution>
+
+
+	<contribution type="GenericStructure" id="{3AAB6C26-8C58-4C8C-GSS1-94478B392AE7}-Ags">
+		<group>ガソリンスタンド</group>
+		<design>新日本石油 SS</design>
+		<price>15000000</price>
+		<size>1,2</size>
+		<height>1</height>
+		<structure>
+			<category byname="チェーン専門店" />
+		</structure>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>16</base>
+		</population>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{E6D105DA-77E2-41F0-9459-0FF29D5B81C6}" >
+			</picture>
+		</sprite>
+		<sprite origin="48,0" offset="24" opposite="true">
+			<picture ref="{E6D105DA-77E2-41F0-9459-0FF29D5B81C6}" >
+			</picture>
+		</sprite>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{AE1549EB-F7F9-433F-GSS2-1E2A913013FF}-Ags">
+		<group>ガソリンスタンド</group>
+		<design>JOMO SS</design>
+		<price>12000000</price>
+		<size>1,2</size>
+		<height>1</height>
+		<structure>
+			<category byname="チェーン専門店" />
+		</structure>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>16</base>
+		</population>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{E6D105DA-77E2-41F0-9459-0FF29D5B81C6}" >
+			</picture>
+		</sprite>
+		 <spriteType name="colorMapped">
+		   <map from="220,110,0" to="0,102,102"/>
+		   <map from="238,68,0" to="0,153,153"/>
+		 </spriteType>
+		<sprite origin="48,0" offset="24" opposite="true">
+			<picture ref="{E6D105DA-77E2-41F0-9459-0FF29D5B81C6}" >
+			</picture>
+		</sprite>
+		 <spriteType name="colorMapped">
+		   <map from="220,110,0" to="0,102,102"/>
+		   <map from="238,68,0" to="0,153,153"/>
+		 </spriteType>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{52B9BF4A-7AB7-4828-GSS3-249A1A149A24}-Ags">
+		<group>ガソリンスタンド</group>
+		<design>Shell GS</design>
+		<price>12000000</price>
+		<size>1,2</size>
+		<height>1</height>
+		<structure>
+			<category byname="チェーン専門店" />
+		</structure>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>15</base>
+		</population>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{E6D105DA-77E2-41F0-9459-0FF29D5B81C6}" >
+			</picture>
+		</sprite>
+		 <spriteType name="colorMapped">
+		   <map from="220,110,0" to="255,255,0"/>
+		   <map from="0,8,0" to="8,0,0"/>
+		   <map from="251,251,247" to="255,255,255"/>
+		   <map from="238,68,0" to="255,255,0"/>
+		 </spriteType>
+		<sprite origin="48,0" offset="24" opposite="true">
+			<picture ref="{E6D105DA-77E2-41F0-9459-0FF29D5B81C6}" >
+			</picture>
+		 <spriteType name="colorMapped">
+		   <map from="220,110,0" to="255,255,0"/>
+		   <map from="0,8,0" to="8,0,0"/>
+		   <map from="251,251,247" to="255,255,255"/>
+		   <map from="238,68,0" to="255,255,0"/>
+		 </spriteType>
+		</sprite>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{3AAB6C26-8C58-4C8C-GSS4-94478B392AE7}-Ags">
+		<group>ガソリンスタンド</group>
+		<design>コスモ石油 SS</design>
+		<price>15000000</price>
+		<size>1,2</size>
+		<height>1</height>
+		<structure>
+			<category byname="チェーン専門店" />
+		</structure>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>16</base>
+		</population>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{riorio-gs-convert-ken-picture-gs2}" >
+			</picture>
+		</sprite>
+		<sprite origin="48,0" offset="24" opposite="true">
+			<picture ref="{riorio-gs-convert-ken-picture-gs2}" >
+			</picture>
+		</sprite>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{52B9BF4A-7AB7-4828-GSS5-249A1A149A24}-Ags">
+		<group>ガソリンスタンド</group>
+		<design>Mobil GS</design>
+		<price>12000000</price>
+		<size>1,2</size>
+		<height>1</height>
+		<structure>
+			<category byname="チェーン専門店" />
+		</structure>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>15</base>
+		</population>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{riorio-gs-convert-ken-picture-gs3}" >
+			</picture>
+		</sprite>
+		<sprite origin="48,0" offset="24" opposite="true">
+			<picture ref="{riorio-gs-convert-ken-picture-gs3}" >
+			</picture>
+		</sprite>
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{7EDDCD3E-C592-4692-CDR1-9603E8E6CF18}-Ags">
+		<group>自動車販売会社</group>
+		<name>自動車販売会社</name>
+		<price>15000000</price>
+		<size>1,2</size>
+		<height>1</height>
+		<structure>
+			<category byname="自動車販売店" />
+		</structure>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>20</base>
+		</population>
+		 <spriteType name="colorMapped">
+		   <map from="237,0,0" to="237,0,0"/>
+		 </spriteType>
+		 <spriteType name="colorMapped">
+		   <map from="237,0,0" to="0,0,128"/>
+		 </spriteType>
+		 <spriteType name="colorMapped">
+		   <map from="237,0,0" to="0,128,128"/>
+		 </spriteType>
+		 <spriteType name="colorMapped">
+		   <map from="237,0,0" to="0,0,255"/>
+		 </spriteType>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{riorio-gs-convert-ken-picture-cardr1}" >
+			</picture>
+		</sprite>
+		<sprite origin="48,0" offset="24" opposite="true">
+			<picture ref="{riorio-gs-convert-ken-picture-cardr1}" >
+			</picture>
+		</sprite>
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{C193B660-3BFC-4F7C-BF2F-449BCED5AE9E}-Ags">
+		<group>郵便局</group>
+		<name>郵便局(小)</name>
+		<price>5000000</price>
+		<size>1,2</size>
+		<height>1</height>
+		<structure>
+			<category byname="郵便局" />
+		</structure>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>20</base>
+		</population>
+		<sprite origin="0,0" offset="16">
+		        <picture ref="{5AAB6C26-8C58-4C8C-8B46-94478B392AE7}" >
+			</picture>
+		</sprite>
+		<sprite origin="48,0" offset="24" opposite="true">
+		　　　　<picture ref="{5AAB6C26-8C58-4C8C-8B46-94478B392AE7}" >
+			</picture>
+		</sprite>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{3AAB6C26-8C58-4C8C-YUB2-94478B392AE7}-Ags">
+		<group>郵便局</group>
+		<name>郵便局大</name>
+		<price>10000000</price>
+		<size>1,2</size>
+		<height>2</height>
+		<structure>
+			<category byname="郵便局" />
+		</structure>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>35</base>
+		</population>
+		<sprite origin="0,0" offset="19">
+			<picture ref="{riorio-gs-convert-ken-picture-yubin2}" >
+			</picture>
+		</sprite>
+		<sprite origin="48,0" offset="27" opposite="true">
+			<picture ref="{riorio-gs-convert-ken-picture-yubin2}" >
+			</picture>
+		</sprite>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{568195AB-CEB3-42E9-CON2-5422C86D4DE9}-Ags">
+		<group>コンビニ(他７種)</group>
+		<design>ローソン</design>
+		<price>7000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>25</base>
+		</population>
+		<structure>
+			<category byname="コンビニ" />
+		</structure>
+		<sprite origin="0,0" offset="10">
+			<picture ref="{riorio-gs-convert-ken-picture-con2}" >
+			</picture>
+		</sprite>
+		<sprite origin="32,0" offset="10">
+			<picture ref="{riorio-gs-convert-ken-picture-con2}" >
+			</picture>
+		</sprite>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{EA3F5C47-D1EF-41A9-CON1-641E6CFEE22B}-Ags">
+		<group>コンビニ(他７種)</group>
+		<design>スリーエフ</design>
+		<price>7000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>25</base>
+		</population>
+		<structure>
+			<category byname="コンビニ" />
+		</structure>
+		<sprite origin="0,0" offset="10">
+			<picture ref="{riorio-gs-convert-ken-picture-con1}" >
+			</picture>
+		</sprite>
+		<sprite origin="32,0" offset="10">
+			<picture ref="{riorio-gs-convert-ken-picture-con1}" >
+			</picture>
+		</sprite>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{578195AB-CEB3-42E9-CON6-5422C86D4DC5}-Ags">
+		<group>コンビニ(他７種)</group>
+		<design>ａｍｐｍ</design>
+		<price>7000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>22</base>
+		</population>
+		<structure>
+			<category byname="コンビニ" />
+		</structure>
+		<sprite origin="0,0" offset="10">
+			<picture ref="{riorio-gs-convert-ken-picture-con6}" >
+			</picture>
+		</sprite>
+		<sprite origin="32,0" offset="10">
+			<picture ref="{riorio-gs-convert-ken-picture-con6}" >
+			</picture>
+		</sprite>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{578195AB-CEB3-42E9-CON4-5422C86D4DC5}-Ags">
+		<group>コンビニ(他７種)</group>
+		<design>ミニストップ</design>
+		<price>7000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>23</base>
+		</population>
+		<structure>
+			<category byname="コンビニ" />
+		</structure>
+		<sprite origin="0,0" offset="10">
+			<picture ref="{riorio-gs-convert-ken-picture-con4}" >
+			</picture>
+		</sprite>
+		<sprite origin="32,0" offset="10">
+			<picture ref="{riorio-gs-convert-ken-picture-con4}" >
+			</picture>
+		</sprite>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{578195AB-CEB3-42E9-CON5-5422C86D4DC5}-Ags">
+		<group>コンビニ(他７種)</group>
+		<design>サークルＫ</design>
+		<price>7000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>22</base>
+		</population>
+		<structure>
+			<category byname="コンビニ" />
+		</structure>
+		<sprite origin="0,0" offset="10">
+			<picture ref="{riorio-gs-convert-ken-picture-con5}" >
+			</picture>
+		</sprite>
+		<sprite origin="32,0" offset="10">
+			<picture ref="{riorio-gs-convert-ken-picture-con5}" >
+			</picture>
+		</sprite>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{568195AB-CEB3-42E9-CON3-5422C86D4DC5}-Ags">
+		<group>コンビニ(他７種)</group>
+		<design>サンクス</design>
+		<price>7000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>23</base>
+		</population>
+		<structure>
+			<category byname="コンビニ" />
+		</structure>
+		<sprite origin="0,0" offset="10">
+			<picture ref="{riorio-gs-convert-ken-picture-con3}" >
+			</picture>
+		</sprite>
+		<sprite origin="32,0" offset="10">
+			<picture ref="{riorio-gs-convert-ken-picture-con3}" >
+			</picture>
+		</sprite>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{578195AB-CEB3-42E9-CON7-5422C86D4DC5}-Ags">
+		<group>コンビニ(他７種)</group>
+		<design>デイリーヤマザキ</design>
+		<price>6000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>20</base>
+		</population>
+		<structure>
+			<category byname="コンビニ" />
+		</structure>
+		<sprite origin="0,0" offset="10">
+			<picture ref="{riorio-gs-convert-ken-picture-con7}" >
+			</picture>
+		</sprite>
+		<sprite origin="32,0" offset="10">
+			<picture ref="{riorio-gs-convert-ken-picture-con7}" >
+			</picture>
+		</sprite>
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{3AAB6C26-8C58-4C8C-RES1-94478B392AE7}-Ags">
+		<group>レストラン</group>
+		<name>レストラン</name>
+		<price>10000000</price>
+		<size>1,2</size>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>50</base>
+		</population>
+		<structure>
+			<category byname="一般飲食店" />
+		</structure>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{riorio-gs-convert-ken-picture-rest1}" >
+			</picture>
+		</sprite>
+		<sprite origin="48,0" offset="24" opposite="true">
+			<picture ref="{riorio-gs-convert-ken-picture-rest1}" >
+			</picture>
+		</sprite>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{3AAB6C26-8C58-4C8C-MES1-94478B392AE7}-Ags">
+		<group>展示場ホール</group>
+		<design>メッセ1</design>
+		<price>50000000</price>
+		<size>1,2</size>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>2500</base>
+		</population>
+		<structure>
+			<category byname="展示場" />
+			<category byname="イベント会場" />
+		</structure>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{riorio-gs-convert-ken-picture-messe2}" >
+			</picture>
+		</sprite>
+		<sprite origin="48,0" offset="24" opposite="true">
+			<picture ref="{riorio-gs-convert-ken-picture-messe2}" >
+			</picture>
+		</sprite>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{3AAB6C26-8C58-4C8C-MES1-94478B392AE7}-Cgs">
+		<group>展示場ホール</group>
+		<design>メッセ2</design>
+		<price>50000000</price>
+		<size>1,2</size>
+		<height>1</height>
+		<structure>
+			<category byname="展示場" />
+			<category byname="イベント会場" />
+		</structure>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>2500</base>
+		</population>
+		<sprite origin="96,0" offset="16">
+			<picture ref="{riorio-gs-convert-ken-picture-messe2}" >
+			</picture>
+		</sprite>
+		<sprite origin="144,0" offset="24" opposite="true">
+			<picture ref="{riorio-gs-convert-ken-picture-messe2}" >
+			</picture>
+		</sprite>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{3AAB6C26-8C58-4C8C-MES1-94478B392AE7}-Egs">
+		<group>展示場ホール</group>
+		<design>メッセ3</design>
+		<price>50000000</price>
+		<size>1,2</size>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>2500</base>
+		</population>
+		<structure>
+			<category byname="展示場" />
+			<category byname="イベント会場" />
+		</structure>
+		<sprite origin="192,0" offset="16">
+			<picture ref="{riorio-gs-convert-ken-picture-messe2}" >
+			</picture>
+		</sprite>
+		<sprite origin="240,0" offset="24" opposite="true">
+			<picture ref="{riorio-gs-convert-ken-picture-messe2}" >
+			</picture>
+		</sprite>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{3AAB6C26-8C58-4C8C-MES1-94478B392AE7}-Ggs">
+		<group>展示場ホール</group>
+		<design>メッセ4</design>
+		<price>50000000</price>
+		<size>1,2</size>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>2500</base>
+		</population>
+		<structure>
+			<category byname="展示場" />
+			<category byname="イベント会場" />
+		</structure>
+		<sprite origin="288,0" offset="16">
+			<picture ref="{riorio-gs-convert-ken-picture-messe2}" >
+			</picture>
+		</sprite>
+		<sprite origin="336,0" offset="24" opposite="true">
+			<picture ref="{riorio-gs-convert-ken-picture-messe2}" >
+			</picture>
+		</sprite>
+	</contribution>
+
+</plug-in>

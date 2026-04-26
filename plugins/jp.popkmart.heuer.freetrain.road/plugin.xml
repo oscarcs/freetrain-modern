@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>FreeTrainExAVer用道路プラグイン</title>
+	<author>HEUER</author>
+	<homepage>http://freetrain.finito-web.com/</homepage>
+	
+	<!--農道-->
+	<contribution type="road" id="{ROAD0001-8058-11D7-BB78-0090FE1AB959}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>農道/未舗装/盛土・花</name>
+		<style name="footpath"/>
+		<description>農道(未舗装)</description>
+		<picture src="un-paving.bmp" size="32,16" offset="0">
+			<override when="autumn" src="un-paving-a.bmp"/>
+			<override when="winter" src="un-paving-w.bmp"/>
+		</picture>
+	</contribution>
+	<contribution type="road" id="{ROAD0002-8058-11D7-BB78-0090FE1AB959}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>農道/未舗装/盛土・芝</name>
+		<style name="footpath"/>
+		<description>農道(未舗装)</description>
+		<picture src="un-paving2.bmp" size="32,16" offset="0">
+			<override when="autumn" src="un-paving2-a.bmp"/>
+			<override when="winter" src="un-paving2-w.bmp"/>
+		</picture>
+	</contribution>
+
+	<!--一車線生活道路-->
+	<contribution type="road" id="{ROAD1001-8058-11D7-BB78-0090FE1AB959}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>生活道路/無灯</name>
+		<style name="street" sidewalk="shoulder" lanes="1"/>
+		<description>生活道路(無灯)</description>
+		<picture src="road1.bmp" size="32,16" offset="0" />
+	</contribution>
+
+<!-- 半ボクセル道路 -->
+	<contribution type="picture" id="{ROAD1101-7058-11D7-BB78-0090FE1AB959}">
+		<picture src="hvroad1.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{ROAD1102-7058-11D7-BB78-0090FE1AB959}">
+		<picture src="hvroad2.bmp">
+			<override when="summer" src="hvroad2_s.bmp" />
+			<override when="autumn" src="hvroad2_a.bmp" />
+			<override when="winter" src="hvroad2_w.bmp" />
+		</picture>
+	</contribution>
+	<contribution type="picture" id="{ROAD1103-7058-11D7-BB78-0090FE1AB959}">
+		<picture src="hvroad3.bmp">
+			<override when="summer" src="hvroad3_s.bmp" />
+			<override when="autumn" src="hvroad3_a.bmp" />
+			<override when="winter" src="hvroad3_w.bmp" />
+		</picture>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{ROAD1101-8058-11D7-BB78-0090FE1AB959}">
+		<group>半ボクセル建築</group>
+		<subgroup>道路</subgroup>
+		<name>アスファルト</name>
+		<price>50000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{ROAD1101-7058-11D7-BB78-0090FE1AB959}"/>
+			<pattern direction="west" side="either" origin="0,0"/>
+			<pattern direction="south" side="either" origin="24,0"/>
+			<pattern direction="east" side="either" origin="48,0"/>
+			<pattern direction="north" side="either" origin="72,0"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{ROAD1102-8058-11D7-BB78-0090FE1AB959}">
+		<group>半ボクセル建築</group>
+		<subgroup>道路</subgroup>
+		<name>アスファルト(側溝付)</name>
+		<price>60000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{ROAD1101-7058-11D7-BB78-0090FE1AB959}"/>
+			<pattern direction="west" side="either" origin="0,24"/>
+			<pattern direction="south" side="either" origin="24,24"/>
+			<pattern direction="east" side="either" origin="48,24"/>
+			<pattern direction="north" side="either" origin="72,24"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{ROAD1103-8058-11D7-BB78-0090FE1AB959}">
+		<group>半ボクセル建築</group>
+		<subgroup>道路</subgroup>
+		<name>タイル舗装</name>
+		<price>80000</price>
+		<height>1</height>
+		<sprite>
+			<map from="0,0,*" to="{COLORLIB-BRICKS}"/>
+			<picture ref="{ROAD1101-7058-11D7-BB78-0090FE1AB959}"/>
+			<pattern direction="west" side="either" origin="0,48"/>
+			<pattern direction="south" side="either" origin="24,48"/>
+			<pattern direction="east" side="either" origin="48,48"/>
+			<pattern direction="north" side="either" origin="72,48"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{ROAD1103-8058-11D7-BB78-0090FE1AB960}">
+		<group>半ボクセル建築</group>
+		<subgroup>道路</subgroup>
+		<name>タイル舗装/アスファルト</name>
+		<price>90000</price>
+		<height>1</height>
+		<sprite>
+			<map from="0,0,*" to="{COLORLIB-BRICKS}"/>
+			<picture ref="{ROAD1101-7058-11D7-BB78-0090FE1AB959}"/>
+			<pattern direction="west" side="either" origin="0,144"/>
+			<pattern direction="south" side="either" origin="24,144"/>
+			<pattern direction="east" side="either" origin="48,144"/>
+			<pattern direction="north" side="either" origin="72,144"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{ROAD1103-8058-11D7-BB78-0090FE1AB961}">
+		<group>半ボクセル建築</group>
+		<subgroup>道路</subgroup>
+		<name>タイル舗装/一車線道路</name>
+		<price>90000</price>
+		<height>1</height>
+		<sprite>
+			<map from="0,0,*" to="{COLORLIB-BRICKS}"/>
+			<picture ref="{ROAD1101-7058-11D7-BB78-0090FE1AB959}"/>
+			<pattern direction="west" side="either" origin="96,144"/>
+			<pattern direction="south" side="either" origin="120,144"/>
+			<pattern direction="east" side="either" origin="144,144"/>
+			<pattern direction="north" side="either" origin="168,144"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{ROAD1103-8059-11D7-BB78-0090FE1AB959}">
+		<group>半ボクセル建築</group>
+		<subgroup>道路</subgroup>
+		<name>タイル舗装(植栽)</name>
+		<price>120000</price>
+		<height>1</height>
+		<sprite>
+			<map from="0,0,*" to="{COLORLIB-BRICKS}"/>
+			<picture ref="{ROAD1103-7058-11D7-BB78-0090FE1AB959}"/>
+			<pattern direction="west" side="either" origin="0,0"/>
+			<pattern direction="south" side="either" origin="24,0"/>
+			<pattern direction="east" side="either" origin="48,0"/>
+			<pattern direction="north" side="either" origin="72,0"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{ROAD1103-8060-11D7-BB78-0090FE1AB959}">
+		<group>半ボクセル建築</group>
+		<subgroup>道路</subgroup>
+		<name>タイル舗装(植栽)</name>
+		<price>160000</price>
+		<height>1</height>
+		<sprite>
+			<map from="0,0,*" to="{COLORLIB-BRICKS}"/>
+			<picture ref="{ROAD1103-7058-11D7-BB78-0090FE1AB959}"/>
+			<pattern direction="west" side="either" origin="0,24"/>
+			<pattern direction="south" side="either" origin="24,24"/>
+			<pattern direction="east" side="either" origin="48,24"/>
+			<pattern direction="north" side="either" origin="72,24"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{ROAD1103-8061-11D7-BB78-0090FE1AB959}">
+		<group>半ボクセル建築</group>
+		<subgroup>道路</subgroup>
+		<name>タイル舗装(植栽)</name>
+		<price>120000</price>
+		<height>1</height>
+		<sprite>
+			<map from="0,0,*" to="{COLORLIB-BRICKS}"/>
+			<picture ref="{ROAD1103-7058-11D7-BB78-0090FE1AB959}"/>
+			<pattern direction="west" side="either" origin="0,48"/>
+			<pattern direction="south" side="either" origin="24,48"/>
+			<pattern direction="east" side="either" origin="48,48"/>
+			<pattern direction="north" side="either" origin="72,48"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{ROAD1103-8062-11D7-BB78-0090FE1AB959}">
+		<group>半ボクセル建築</group>
+		<subgroup>道路</subgroup>
+		<name>タイル舗装(植栽)</name>
+		<price>160000</price>
+		<height>1</height>
+		<sprite>
+			<map from="0,0,*" to="{COLORLIB-BRICKS}"/>
+			<picture ref="{ROAD1103-7058-11D7-BB78-0090FE1AB959}"/>
+			<pattern direction="west" side="either" origin="0,72"/>
+			<pattern direction="south" side="either" origin="24,72"/>
+			<pattern direction="east" side="either" origin="48,72"/>
+			<pattern direction="north" side="either" origin="72,72"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{ROAD1104-8058-11D7-BB78-0090FE1AB959}">
+		<group>半ボクセル建築</group>
+		<subgroup>未舗装路</subgroup>
+		<name>直線</name>
+		<price>30000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{ROAD1102-7058-11D7-BB78-0090FE1AB959}"/>
+			<pattern direction="west" side="either" origin="0,0"/>
+			<pattern direction="south" side="either" origin="24,0"/>
+			<pattern direction="east" side="either" origin="48,0"/>
+			<pattern direction="north" side="either" origin="72,0"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{ROAD1105-8058-11D7-BB78-0090FE1AB959}">
+		<group>半ボクセル建築</group>
+		<subgroup>未舗装路</subgroup>
+		<name>直線/短</name>
+		<price>20000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{ROAD1102-7058-11D7-BB78-0090FE1AB959}"/>
+			<pattern direction="west" side="either" origin="0,24"/>
+			<pattern direction="south" side="either" origin="24,24"/>
+			<pattern direction="east" side="either" origin="48,24"/>
+			<pattern direction="north" side="either" origin="72,24"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{ROAD1105-8059-11D7-BB78-0090FE1AB959}">
+		<group>半ボクセル建築</group>
+		<subgroup>未舗装路</subgroup>
+		<name>直線/短/水路</name>
+		<price>30000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{ROAD1102-7058-11D7-BB78-0090FE1AB959}"/>
+			<pattern direction="west" side="either" origin="0,48"/>
+			<pattern direction="south" side="either" origin="24,48"/>
+			<pattern direction="east" side="either" origin="48,48"/>
+			<pattern direction="north" side="either" origin="72,48"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{ROAD1105-8060-11D7-BB78-0090FE1AB959}">
+		<group>半ボクセル建築</group>
+		<subgroup>未舗装路</subgroup>
+		<name>直線/短/水路</name>
+		<price>30000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{ROAD1102-7058-11D7-BB78-0090FE1AB959}"/>
+			<pattern direction="west" side="either" origin="0,240"/>
+			<pattern direction="south" side="either" origin="24,240"/>
+			<pattern direction="east" side="either" origin="48,240"/>
+			<pattern direction="north" side="either" origin="72,240"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{ROAD1106-8058-11D7-BB78-0090FE1AB959}">
+		<group>半ボクセル建築</group>
+		<subgroup>未舗装路</subgroup>
+		<name>カーブ</name>
+		<price>30000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{ROAD1102-7058-11D7-BB78-0090FE1AB959}"/>
+			<pattern direction="west" side="either" origin="0,72"/>
+			<pattern direction="south" side="either" origin="24,72"/>
+			<pattern direction="east" side="either" origin="48,72"/>
+			<pattern direction="north" side="either" origin="72,72"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{ROAD1107-8058-11D7-BB78-0090FE1AB959}">
+		<group>半ボクセル建築</group>
+		<subgroup>未舗装路</subgroup>
+		<name>カーブ</name>
+		<price>30000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{ROAD1102-7058-11D7-BB78-0090FE1AB959}"/>
+			<pattern direction="west" side="either" origin="0,96"/>
+			<pattern direction="south" side="either" origin="24,96"/>
+			<pattern direction="east" side="either" origin="48,96"/>
+			<pattern direction="north" side="either" origin="72,96"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{ROAD1107-8059-11D7-BB78-0090FE1AB959}">
+		<group>半ボクセル建築</group>
+		<subgroup>未舗装路</subgroup>
+		<name>カーブ/短</name>
+		<price>20000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{ROAD1102-7058-11D7-BB78-0090FE1AB959}"/>
+			<pattern direction="west" side="either" origin="0,120"/>
+			<pattern direction="south" side="either" origin="24,120"/>
+			<pattern direction="east" side="either" origin="48,120"/>
+			<pattern direction="north" side="either" origin="72,120"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{ROAD1107-8060-11D7-BB78-0090FE1AB959}">
+		<group>半ボクセル建築</group>
+		<subgroup>未舗装路</subgroup>
+		<name>カーブ/短</name>
+		<price>20000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{ROAD1102-7058-11D7-BB78-0090FE1AB959}"/>
+			<pattern direction="west" side="either" origin="0,144"/>
+			<pattern direction="south" side="either" origin="24,144"/>
+			<pattern direction="east" side="either" origin="48,144"/>
+			<pattern direction="north" side="either" origin="72,144"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{ROAD1108-8058-11D7-BB78-0090FE1AB959}">
+		<group>半ボクセル建築</group>
+		<subgroup>未舗装路</subgroup>
+		<name>三叉路</name>
+		<price>30000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{ROAD1102-7058-11D7-BB78-0090FE1AB959}"/>
+			<pattern direction="west" side="either" origin="0,168"/>
+			<pattern direction="south" side="either" origin="24,168"/>
+			<pattern direction="east" side="either" origin="48,168"/>
+			<pattern direction="north" side="either" origin="72,168"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{ROAD1109-8058-11D7-BB78-0090FE1AB959}">
+		<group>半ボクセル建築</group>
+		<subgroup>未舗装路</subgroup>
+		<name>三叉路</name>
+		<price>30000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{ROAD1102-7058-11D7-BB78-0090FE1AB959}"/>
+			<pattern direction="west" side="either" origin="0,192"/>
+			<pattern direction="south" side="either" origin="24,192"/>
+			<pattern direction="east" side="either" origin="48,192"/>
+			<pattern direction="north" side="either" origin="72,192"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{ROAD1110-8058-11D7-BB78-0090FE1AB959}">
+		<group>半ボクセル建築</group>
+		<subgroup>未舗装路</subgroup>
+		<name>十字路</name>
+		<price>30000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{ROAD1102-7058-11D7-BB78-0090FE1AB959}"/>
+			<pattern direction="west" side="either" origin="0,216"/>
+			<pattern direction="south" side="either" origin="24,216"/>
+			<pattern direction="east" side="either" origin="48,216"/>
+			<pattern direction="north" side="either" origin="72,216"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{ROAD1121-8059-11D7-BB78-0090FE1AB959}">
+		<group>半ボクセル建築</group>
+		<subgroup>一車線道路</subgroup>
+		<name>直線</name>
+		<price>60000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{ROAD1101-7058-11D7-BB78-0090FE1AB959}"/>
+			<pattern direction="west" side="either" origin="0,72"/>
+			<pattern direction="south" side="either" origin="24,72"/>
+			<pattern direction="east" side="either" origin="48,72"/>
+			<pattern direction="north" side="either" origin="72,72"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{ROAD1122-8059-11D7-BB78-0090FE1AB959}">
+		<group>半ボクセル建築</group>
+		<subgroup>一車線道路</subgroup>
+		<name>直線/短</name>
+		<price>55000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{ROAD1101-7058-11D7-BB78-0090FE1AB959}"/>
+			<pattern direction="west" side="either" origin="0,96"/>
+			<pattern direction="south" side="either" origin="24,96"/>
+			<pattern direction="east" side="either" origin="48,96"/>
+			<pattern direction="north" side="either" origin="72,96"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{ROAD1123-8059-11D7-BB78-0090FE1AB959}">
+		<group>半ボクセル建築</group>
+		<subgroup>一車線道路</subgroup>
+		<name>カーブ</name>
+		<price>60000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{ROAD1101-7058-11D7-BB78-0090FE1AB959}"/>
+			<pattern direction="west" side="either" origin="0,120"/>
+			<pattern direction="south" side="either" origin="24,120"/>
+			<pattern direction="east" side="either" origin="48,120"/>
+			<pattern direction="north" side="either" origin="72,120"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{ROAD1124-8059-11D7-BB78-0090FE1AB959}">
+		<group>半ボクセル建築</group>
+		<subgroup>一車線道路</subgroup>
+		<name>カーブ</name>
+		<price>60000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{ROAD1101-7058-11D7-BB78-0090FE1AB959}"/>
+			<pattern direction="west" side="either" origin="96,0"/>
+			<pattern direction="south" side="either" origin="120,0"/>
+			<pattern direction="east" side="either" origin="144,0"/>
+			<pattern direction="north" side="either" origin="168,0"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{ROAD1125-8059-11D7-BB78-0090FE1AB959}">
+		<group>半ボクセル建築</group>
+		<subgroup>一車線道路</subgroup>
+		<name>カーブ/短</name>
+		<price>55000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{ROAD1101-7058-11D7-BB78-0090FE1AB959}"/>
+			<pattern direction="west" side="either" origin="96,24"/>
+			<pattern direction="south" side="either" origin="120,24"/>
+			<pattern direction="east" side="either" origin="144,24"/>
+			<pattern direction="north" side="either" origin="168,24"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{ROAD1126-8059-11D7-BB78-0090FE1AB959}">
+		<group>半ボクセル建築</group>
+		<subgroup>一車線道路</subgroup>
+		<name>カーブ/短</name>
+		<price>55000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{ROAD1101-7058-11D7-BB78-0090FE1AB959}"/>
+			<pattern direction="west" side="either" origin="96,48"/>
+			<pattern direction="south" side="either" origin="120,48"/>
+			<pattern direction="east" side="either" origin="144,48"/>
+			<pattern direction="north" side="either" origin="168,48"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{ROAD1127-8059-11D7-BB78-0090FE1AB959}">
+		<group>半ボクセル建築</group>
+		<subgroup>一車線道路</subgroup>
+		<name>三叉路</name>
+		<price>60000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{ROAD1101-7058-11D7-BB78-0090FE1AB959}"/>
+			<pattern direction="west" side="either" origin="96,72"/>
+			<pattern direction="south" side="either" origin="120,72"/>
+			<pattern direction="east" side="either" origin="144,72"/>
+			<pattern direction="north" side="either" origin="168,72"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{ROAD1128-8059-11D7-BB78-0090FE1AB959}">
+		<group>半ボクセル建築</group>
+		<subgroup>一車線道路</subgroup>
+		<name>三叉路</name>
+		<price>60000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{ROAD1101-7058-11D7-BB78-0090FE1AB959}"/>
+			<pattern direction="west" side="either" origin="96,96"/>
+			<pattern direction="south" side="either" origin="120,96"/>
+			<pattern direction="east" side="either" origin="144,96"/>
+			<pattern direction="north" side="either" origin="168,96"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{ROAD1129-8059-11D7-BB78-0090FE1AB959}">
+		<group>半ボクセル建築</group>
+		<subgroup>一車線道路</subgroup>
+		<name>十字路</name>
+		<price>60000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{ROAD1101-7058-11D7-BB78-0090FE1AB959}"/>
+			<pattern direction="west" side="either" origin="96,120"/>
+			<pattern direction="south" side="either" origin="120,120"/>
+			<pattern direction="east" side="either" origin="144,120"/>
+			<pattern direction="north" side="either" origin="168,120"/>
+		</sprite>
+	</contribution>
+
+	<!--二車線道路-->
+	<contribution type="road" id="{ROAD2001-8058-11D7-BB78-0090FE1AB959}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>二車線道路/白破線/街灯A</name>
+		<style name="street" sidewalk="shoulder" lanes="2"/>
+		<description>白破線二車線道路</description>
+		<picture src="road2.bmp" size="32,32" offset="16">
+			<override when="night" src="road2n.bmp"/>
+		</picture>
+	</contribution>
+	<contribution type="road" id="{ROAD2001-8058-11D7-BB78-0090FE1AB960}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>二車線道路/白破線/街灯B</name>
+		<style name="street" sidewalk="shoulder" lanes="2"/>
+		<description>白破線二車線道路</description>
+		<picture src="road2r.bmp" size="32,32" offset="16">
+			<override when="night" src="road2rn.bmp"/>
+		</picture>
+	</contribution>
+	<contribution type="road" id="{ROAD2001-8058-11D7-BB78-0090FE1AB959A}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>二車線道路/白破線/無灯</name>
+		<style name="street" sidewalk="shoulder" lanes="2"/>
+		<description>白破線二車線道路</description>
+		<picture src="road2a.bmp" size="32,16" offset="0">
+		</picture>
+	</contribution>
+	<contribution type="road" id="{ROAD2002-8058-11D7-BB78-0090FE1AB959}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>二車線道路/白実線/街灯A</name>
+		<style name="street" sidewalk="shoulder" lanes="2"/>
+		<description>白実線二車線道路</description>
+		<picture src="road3.bmp" size="32,32" offset="16">
+			<override when="night" src="road3n.bmp"/>
+		</picture>
+	</contribution>
+	<contribution type="road" id="{ROAD2002-8058-11D7-BB78-0090FE1AB960}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>二車線道路/白実線/街灯B</name>
+		<style name="street" sidewalk="shoulder" lanes="2"/>
+		<description>白実線二車線道路</description>
+		<picture src="road3r.bmp" size="32,32" offset="16">
+			<override when="night" src="road3rn.bmp"/>
+		</picture>
+	</contribution>
+	<contribution type="road" id="{ROAD2002-8058-11D7-BB78-0090FE1AB959A}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>二車線道路/白実線/無灯</name>
+		<style name="street" sidewalk="shoulder" lanes="2"/>
+		<description>白実線二車線道路</description>
+		<picture src="road3a.bmp" size="32,16" offset="0">
+		</picture>
+	</contribution>
+	<contribution type="road" id="{ROAD2003-8058-11D7-BB78-0090FE1AB959}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>二車線道路/橙実線/街灯A</name>
+		<style name="street" sidewalk="shoulder" lanes="2"/>
+		<description>橙実線二車線道路</description>
+		<picture src="road4.bmp" size="32,32" offset="16">
+			<override when="night" src="road4n.bmp"/>
+		</picture>
+	</contribution>
+	<contribution type="road" id="{ROAD2003-8058-11D7-BB78-0090FE1AB960}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>二車線道路/橙実線/街灯B</name>
+		<style name="street" sidewalk="shoulder" lanes="2"/>
+		<description>橙実線二車線道路</description>
+		<picture src="road4r.bmp" size="32,32" offset="16">
+			<override when="night" src="road4rn.bmp"/>
+		</picture>
+	</contribution>
+	<contribution type="road" id="{ROAD2003-8058-11D7-BB78-0090FE1AB959A}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>二車線道路/橙実線/無灯</name>
+		<style name="street" sidewalk="shoulder" lanes="2"/>
+		<description>白実線二車線道路</description>
+		<picture src="road4a.bmp" size="32,16" offset="0">
+		</picture>
+	</contribution>
+
+	<!--三車線道路-->
+	<contribution type="road" id="{ROAD2501-8058-11D7-BB78-0090FE1AB959}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>三車線道路/左破線右実線/街灯A</name>
+		<style name="street" sidewalk="shoulder" lanes="3"/>
+		<description>白線三車線道路</description>
+		<picture src="road5l.bmp" size="32,32" offset="16">
+			<override when="night" src="road5ln.bmp"/>
+		</picture>
+	</contribution>
+	<contribution type="road" id="{ROAD2501-8058-11D7-BB78-0090FE1AB960}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>三車線道路/左破線右実線/街灯B</name>
+		<style name="street" sidewalk="shoulder" lanes="3"/>
+		<description>白線三車線道路</description>
+		<picture src="road5r.bmp" size="32,32" offset="16">
+			<override when="night" src="road5rn.bmp"/>
+		</picture>
+	</contribution>
+	<contribution type="road" id="{ROAD2501-8058-11D7-BB78-0090FE1AB959A}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>三車線道路/左破線右実線/無灯</name>
+		<style name="street" sidewalk="shoulder" lanes="3"/>
+		<description>白線三車線道路</description>
+		<picture src="road5.bmp" size="32,16" offset="0">
+		</picture>
+	</contribution>
+	<contribution type="road" id="{ROAD2502-8058-11D7-BB78-0090FE1AB959}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>三車線道路/左実線右破線/街灯A</name>
+		<style name="street" sidewalk="shoulder" lanes="3"/>
+		<description>白線三車線道路</description>
+		<picture src="road6l.bmp" size="32,32" offset="16">
+			<override when="night" src="road6ln.bmp"/>
+		</picture>
+	</contribution>
+	<contribution type="road" id="{ROAD2502-8058-11D7-BB78-0090FE1AB960}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>三車線道路/左実線右破線/街灯B</name>
+		<style name="street" sidewalk="shoulder" lanes="3"/>
+		<description>白線三車線道路</description>
+		<picture src="road6r.bmp" size="32,32" offset="16">
+			<override when="night" src="road6rn.bmp"/>
+		</picture>
+	</contribution>
+	<contribution type="road" id="{ROAD2502-8058-11D7-BB78-0090FE1AB959A}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>三車線道路/左実線右破線/無灯</name>
+		<style name="street" sidewalk="shoulder" lanes="3"/>
+		<description>白線三車線道路</description>
+		<picture src="road6.bmp" size="32,16" offset="0">
+		</picture>
+	</contribution>
+	<contribution type="road" id="{ROAD2503-8058-11D7-BB78-0090FE1AB959}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>三車線道路/白実線/街灯A</name>
+		<style name="street" sidewalk="shoulder" lanes="3"/>
+		<description>白線三車線道路</description>
+		<picture src="road7l.bmp" size="32,32" offset="16">
+			<override when="night" src="road7ln.bmp"/>
+		</picture>
+	</contribution>
+	<contribution type="road" id="{ROAD2503-8058-11D7-BB78-0090FE1AB960}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>三車線道路/白実線/街灯B</name>
+		<style name="street" sidewalk="shoulder" lanes="3"/>
+		<description>白線三車線道路</description>
+		<picture src="road7r.bmp" size="32,32" offset="16">
+			<override when="night" src="road7rn.bmp"/>
+		</picture>
+	</contribution>
+	<contribution type="road" id="{ROAD2503-8058-11D7-BB78-0090FE1AB959A}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>三車線道路/白実線/無灯</name>
+		<style name="street" sidewalk="shoulder" lanes="3"/>
+		<description>白線三車線道路</description>
+		<picture src="road7.bmp" size="32,16" offset="0">
+		</picture>
+	</contribution>
+	<contribution type="road" id="{ROAD2504-8058-11D7-BB78-0090FE1AB959}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>三車線道路/白破線A/街灯A</name>
+		<style name="street" sidewalk="shoulder" lanes="3"/>
+		<description>白線三車線道路</description>
+		<picture src="road8l.bmp" size="32,32" offset="16">
+			<override when="night" src="road8ln.bmp"/>
+		</picture>
+	</contribution>
+	<contribution type="road" id="{ROAD2504-8058-11D7-BB78-0090FE1AB960}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>三車線道路/白破線A/街灯B</name>
+		<style name="street" sidewalk="shoulder" lanes="3"/>
+		<description>白線三車線道路</description>
+		<picture src="road8r.bmp" size="32,32" offset="16">
+			<override when="night" src="road8rn.bmp"/>
+		</picture>
+	</contribution>
+	<contribution type="road" id="{ROAD2504-8058-11D7-BB78-0090FE1AB959A}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>三車線道路/白破線A/無灯</name>
+		<style name="street" sidewalk="shoulder" lanes="3"/>
+		<description>白線三車線道路</description>
+		<picture src="road8.bmp" size="32,16" offset="0">
+		</picture>
+	</contribution>
+	<contribution type="road" id="{ROAD2505-8058-11D7-BB78-0090FE1AB959}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>三車線道路/白破線B/街灯A</name>
+		<style name="street" sidewalk="shoulder" lanes="3"/>
+		<description>白線三車線道路</description>
+		<picture src="road9l.bmp" size="32,32" offset="16">
+			<override when="night" src="road9ln.bmp"/>
+		</picture>
+	</contribution>
+	<contribution type="road" id="{ROAD2505-8058-11D7-BB78-0090FE1AB960}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>三車線道路/白破線B/街灯B</name>
+		<style name="street" sidewalk="shoulder" lanes="3"/>
+		<description>白線三車線道路</description>
+		<picture src="road9r.bmp" size="32,32" offset="16">
+			<override when="night" src="road9rn.bmp"/>
+		</picture>
+	</contribution>
+	<contribution type="road" id="{ROAD2505-8058-11D7-BB78-0090FE1AB959A}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>三車線道路/白破線B/無灯</name>
+		<style name="street" sidewalk="shoulder" lanes="3"/>
+		<description>白線三車線道路</description>
+		<picture src="road9.bmp" size="32,16" offset="0">
+		</picture>
+	</contribution>
+
+	<!--高速道路-->
+	<contribution type="road" id="{ROAD3001-8058-11D7-BB78-0090FE1AB959}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>高速道路(白破線)</name>
+		<style name="highway" lanes="2"/>
+		<description>白破線高速道路</description>
+		<picture src="road10.bmp" size="32,32" offset="16">
+			<override when="night" src="road10n.bmp"/>
+		</picture>
+	</contribution>
+	<contribution type="road" id="{ROAD3002-8058-11D7-BB78-0090FE1AB959}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>高速道路(単線左)</name>
+		<style name="highway" lanes="1"/>
+		<description>単線左高速道路</description>
+		<picture src="road11.bmp" size="32,32" offset="16">
+			<override when="night" src="road11n.bmp"/>
+		</picture>
+	</contribution>
+	<contribution type="road" id="{ROAD3003-8058-11D7-BB78-0090FE1AB959}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>高速道路(単線右)</name>
+		<style name="highway" lanes="1"/>
+		<description>単線右高速道路</description>
+		<picture src="road12.bmp" size="32,32" offset="16">
+			<override when="night" src="road12n.bmp"/>
+		</picture>
+	</contribution>
+	<contribution type="road" id="{ROAD3004-8058-11D7-BB78-0090FE1AB959}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>高速道路(複線左)</name>
+		<style name="highway" lanes="2"/>
+		<description>複線左高速道路</description>
+		<picture src="road13.bmp" size="32,32" offset="16">
+			<override when="night" src="road13n.bmp"/>
+		</picture>
+	</contribution>
+	<contribution type="road" id="{ROAD3005-8058-11D7-BB78-0090FE1AB959}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>高速道路(複線右)</name>
+		<style name="highway" lanes="2"/>
+		<description>複線右高速道路</description>
+		<picture src="road14.bmp" size="32,32" offset="16">
+			<override when="night" src="road14n.bmp"/>
+		</picture>
+	</contribution>
+	<contribution type="road" id="{ROAD3006-8058-11D7-BB78-0090FE1AB959}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>高速道路(対面通行)</name>
+		<style name="highway" lanes="2"/>
+		<description>対面通行高速道路</description>
+		<picture src="road15.bmp" size="32,32" offset="16">
+			<override when="night" src="road15n.bmp"/>
+		</picture>
+	</contribution>
+
+	<!--交差点-->
+	<contribution type="road" id="{ROAD4001-8058-11D7-BB78-0090FE1AB959}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>交差点/ゼブラゾーン</name>
+		<style name="street" sidewalk="shoulder" lanes="2"/>
+		<description>ゼブラゾーン</description>
+		<picture src="road16.bmp" size="32,16" offset="0" />
+	</contribution>
+	<contribution type="road" id="{ROAD4002-8058-11D7-BB78-0090FE1AB959}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>交差点/横断歩道/スクランブル</name>
+		<style name="street" sidewalk="shoulder" lanes="2"/>
+		<description>スクランブル</description>
+		<picture src="road17.bmp" size="32,16" offset="0" />
+	</contribution>
+	<contribution type="road" id="{ROAD4003-8058-11D7-BB78-0090FE1AB959}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>交差点/横断歩道/通常</name>
+		<style name="street" sidewalk="shoulder" lanes="2"/>
+		<description>横断歩道</description>
+		<picture src="road18.bmp" size="32,16" offset="0" />
+	</contribution>
+	<contribution type="road" id="{ROAD4004-8058-11D7-BB78-0090FE1AB959}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>交差点/横断歩道/ゼブラ付</name>
+		<style name="street" sidewalk="shoulder" lanes="2"/>
+		<description>横断歩道ゼブラ付</description>
+		<picture src="road19.bmp" size="32,16" offset="0" />
+	</contribution>
+</plug-in>

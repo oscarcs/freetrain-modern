@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>建物セット</title>
+	<author>旅行の友さん</author>
+	<homepage>http://www.kohsuke.org/freetrain/</homepage>
+	<depend on="org.kohsuke.freetrain.structure.ryokounotomo"/>
+	
+	<contribution type="GenericStructure" id="{8361A9CC-DC1D-4432-8E21-7FB3564FA5CF}-gs">
+		<name>分譲マンション(2x2)</name>
+		<design>組込</design>
+		<structure>
+			<category byname="分譲マンション"/>
+		</structure>
+		<price>300000000</price><!-- 750*4 -->
+		<size>2,2</size>
+		<height>3</height>
+		<sprite origin="0,0" offset="56">
+			<picture ref="{8361A9CC-DC1D-4432-8E21-7FB3564FA5CF}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.ResidentialPopulation"/>
+			<base>150</base>
+		</population>
+	</contribution>
+	
+	<contribution type="GenericStructure" id="{9DEDC549-A1A8-4a14-A7A5-D18F388BE975}-gs">
+		<name>公園</name>
+		<structure>
+			<category byname="緑地"/>
+		</structure>
+		<price>10000000</price>
+		<size>2,2</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="11">
+			<picture ref="{9DEDC549-A1A8-4a14-A7A5-D18F388BE975}" />
+		</sprite>
+	</contribution>
+</plug-in>

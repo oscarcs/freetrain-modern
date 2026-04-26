@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>架線柱タイプレンガ橋脚</title>
+	<author>りおりお改造←綾瀬ヒロ</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+	
+	<depends on="org.kohsuke.freetrain.rail.electricPole" />
+
+	<contribution type="picture" id="{riorio-FreeTrain-AYASE-Hiro-RailStructureImg-Base-Right}">
+		<picture src="tras_s.bmp" />
+	</contribution>
+	<contribution type="picture" id="{riorio-FreeTrain-AYASE-Hiro-RailStructureImg-Base-Left}">
+		<picture src="tras_e.bmp" />
+	</contribution>
+	
+	
+	<contribution type="electricPole" id="{riorio-FreeTrain-RailStructureImpl-Base-Left}">
+		<name>鉄橋(橋脚, 左)</name>
+		<sprite>
+			<picture ref="{riorio-FreeTrain-AYASE-Hiro-RailStructureImg-Base-Left}"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{riorio-FreeTrain-AYASE-Hiro-RailStructureImpl-Base-Right-Red}">
+		<name>鉄橋(橋脚, 右)</name>
+		<sprite>
+			<picture ref="{riorio-FreeTrain-AYASE-Hiro-RailStructureImg-Base-Right}"/>
+		</sprite>
+	</contribution>
+
+</plug-in>

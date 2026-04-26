@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+<plug-in>
+  <title>相鉄パック</title> 
+  <author>北の汽車屋</author> 
+  <homepage>http://www.geocities.jp/kitapoppoya/</homepage> 
+<!-- 新7000先頭車 --> 
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-STN7000-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="SotetsuN7000_a.bmp" /> 
+  </sprite>
+  <capacity>150</capacity>
+    <seatedcapacity>48</seatedcapacity> 
+  </contribution>
+<!-- 新7000最後尾車 -->
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-STN7000-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{5ACFD81E-6A4E-4981-AEAF-D-STN7000-A}"/> 
+  <capacity>150</capacity>
+    <seatedcapacity>54</seatedcapacity> 
+  </contribution> 
+<!-- 新7000中間車-->
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-STN7000-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="SotetsuN7000_b.bmp" /> 
+  </sprite>
+  <capacity>162</capacity>
+    <seatedcapacity>54</seatedcapacity> 
+  </contribution>
+<!-- 9000先頭車 --> 
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-ST9000-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="Sotetsu9000_a.bmp" /> 
+  </sprite>
+  <capacity>150</capacity>
+    <seatedcapacity>48</seatedcapacity> 
+  </contribution>
+<!-- 9000最後尾車 -->
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-ST9000-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{5ACFD81E-6A4E-4981-AEAF-D-ST9000-A}"/> 
+  <capacity>150</capacity>
+    <seatedcapacity>48</seatedcapacity> 
+  </contribution> 
+<!-- 9000中間車-->
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-ST9000-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="Sotetsu9000_b.bmp" /> 
+  </sprite>
+  <capacity>162</capacity>
+    <seatedcapacity>54</seatedcapacity> 
+  </contribution>
+<!-- 10000先頭車 --> 
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-ST10000-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="Sotetsu10000_a.bmp" /> 
+  </sprite>
+  <capacity>146</capacity>
+    <seatedcapacity>54</seatedcapacity> 
+  </contribution>
+<!-- 10000最後尾車 -->
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-ST10000-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{5ACFD81E-6A4E-4981-AEAF-D-ST10000-A}"/> 
+  <capacity>146</capacity>
+    <seatedcapacity>54</seatedcapacity> 
+  </contribution> 
+<!-- 10000中間車-->
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-ST10000-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="Sotetsu10000_11000_b.bmp" /> 
+  </sprite>
+  <capacity>152</capacity>
+    <seatedcapacity>58</seatedcapacity> 
+  </contribution>
+<!-- 11000先頭車 --> 
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAFD-ST11000-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="Sotetsu11000_a.bmp" /> 
+  </sprite>
+  <capacity>146</capacity>
+    <seatedcapacity>54</seatedcapacity> 
+  </contribution>
+<!-- 11000最後尾車 -->
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAFD-ST11000-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{5ACFD81E-6A4E-4981-AEAFD-ST11000-A}"/> 
+  <capacity>146</capacity>
+    <seatedcapacity>54</seatedcapacity> 
+  </contribution> 
+<!-- 11000中間車-->
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAFD-ST11000-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="Sotetsu10000_11000_b.bmp" /> 
+  </sprite>
+  <capacity>152</capacity>   
+    <seatedcapacity>58</seatedcapacity>
+  </contribution>
+
+  <contribution type="train" id="{5ACFD81E-6A4E-4981-AEAF-D-STN7000}">
+<company>相模鉄道</company>
+<type>7000系</type>
+<name>新7000系</name>
+<author>北の汽車屋</author>
+<description>
+</description>
+<fare>520</fare>
+<price>8000000</price>
+	<amenity>100</amenity>
+<speed>medium</speed>
+ <class name="freetrain.contributions.train.ParamTrainImpl"/>
+ <composition>
+   <head carRef="{5ACFD81E-6A4E-4981-AEAF-D-STN7000-A}"/>
+   <body carRef="{5ACFD81E-6A4E-4981-AEAF-D-STN7000-C}"/>
+   <tail carRef="{5ACFD81E-6A4E-4981-AEAF-D-STN7000-B}"/>
+ </composition>
+</contribution>
+  <contribution type="train" id="{5ACFD81E-6A4E-4981-AEAF-D-ST9000}">
+<company>相模鉄道</company>
+<type>9000系</type>
+<name></name>
+<author>北の汽車屋</author>
+<description>
+</description>
+<fare>520</fare>
+<price>8000000</price>
+	<amenity>100</amenity>
+<speed>medium</speed>
+ <class name="freetrain.contributions.train.ParamTrainImpl"/>
+ <composition>
+   <head carRef="{5ACFD81E-6A4E-4981-AEAF-D-ST9000-A}"/>
+   <body carRef="{5ACFD81E-6A4E-4981-AEAF-D-ST9000-C}"/>
+   <tail carRef="{5ACFD81E-6A4E-4981-AEAF-D-ST9000-B}"/>
+ </composition>
+</contribution>
+ <contribution type="train" id="{5ACFD81E-6A4E-4981-AEAF-D-ST10000}">
+<company>相模鉄道</company>
+<type>10000系</type>
+<name></name>
+<author>北の汽車屋</author>
+<description>
+</description>
+<fare>540</fare>
+<price>10000000</price>
+	<amenity>100</amenity>
+<speed>medium</speed>
+ <class name="freetrain.contributions.train.ParamTrainImpl"/>
+ <composition>
+   <head carRef="{5ACFD81E-6A4E-4981-AEAF-D-ST10000-A}"/>
+   <body carRef="{5ACFD81E-6A4E-4981-AEAF-D-ST10000-C}"/>
+   <tail carRef="{5ACFD81E-6A4E-4981-AEAF-D-ST10000-B}"/>
+ </composition>
+</contribution>
+ <contribution type="train" id="{5ACFD81E-6A4E-4981-AEAF-D-ST11000}">
+<company>相模鉄道</company>
+<type>11000系</type>
+<name></name>
+<author>北の汽車屋</author>
+<description>
+</description>
+<fare>540</fare>
+<price>10000000</price>
+	<amenity>100</amenity>
+<speed>medium</speed>
+ <class name="freetrain.contributions.train.ParamTrainImpl"/>
+ <composition>
+   <head carRef="{5ACFD81E-6A4E-4981-AEAFD-ST11000-A}"/>
+   <body carRef="{5ACFD81E-6A4E-4981-AEAFD-ST11000-C}"/>
+   <tail carRef="{5ACFD81E-6A4E-4981-AEAFD-ST11000-B}"/>
+ </composition>
+</contribution>
+</plug-in>

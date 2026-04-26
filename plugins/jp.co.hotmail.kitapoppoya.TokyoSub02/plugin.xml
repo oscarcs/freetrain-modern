@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+<plug-in>
+  <title>東京地下鉄補完計画その2</title>
+  <author>北の汽車屋</author>
+  <homepage></homepage>
+<!-- 都営6300系先頭車 --> 
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TOEI6300-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="toei6300a.bmp" /> 
+  </sprite>
+  <capacity>136</capacity> 
+  <seatedcapacity>49</seatedcapacity>
+  </contribution>
+<!-- 都営6300系最後尾車 -->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TOEI6300-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{757F660D-9BC9-48E4-9E12-TOEI6300-A}"/> 
+  </contribution> 
+<!-- 都営6300系中間車-->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TOEI6300-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="toei6300b.bmp" /> 
+  </sprite>
+  <capacity>147</capacity> 
+  <seatedcapacity>55</seatedcapacity>
+  </contribution>
+<!-- 都営10-000系先頭車 --> 
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TOEI10000-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="toei10000a.bmp" /> 
+  </sprite>
+  <capacity>138</capacity> 
+  <seatedcapacity>48</seatedcapacity> 
+  </contribution>
+<!-- 都営10-000系最後尾車 -->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TOEI10000-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{757F660D-9BC9-48E4-9E12-TOEI10000-A}"/> 
+  </contribution> 
+<!-- 都営10-000系中間車-->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TOEI10000-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="toei10000b.bmp" /> 
+  </sprite>
+  <capacity>149</capacity> 
+  <seatedcapacity>54</seatedcapacity> 
+  </contribution>
+<!-- 都営10-270系先頭車 --> 
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TOEI10270-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="toei10270a.bmp" /> 
+  </sprite>
+  <capacity>138</capacity> 
+  <seatedcapacity>48</seatedcapacity> 
+  </contribution>
+<!-- 都営10-270系最後尾車 -->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TOEI10270-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{757F660D-9BC9-48E4-9E12-TOEI10270-A}"/> 
+  </contribution> 
+<!-- 都営10-270系中間車-->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TOEI10270-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="toei10270b.bmp" /> 
+  </sprite>
+  <capacity>149</capacity> 
+  <seatedcapacity>54</seatedcapacity> 
+  </contribution>
+<!-- 都営10-300系先頭車 --> 
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TOEI10300-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="toei10300a.bmp" /> 
+  </sprite>
+  <capacity>140</capacity> 
+  <seatedcapacity>48</seatedcapacity> 
+  </contribution>
+<!-- 都営10-300系最後尾車 -->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TOEI10300-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{757F660D-9BC9-48E4-9E12-TOEI10300-A}"/> 
+  </contribution> 
+<!-- 都営10-300系中間車-->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TOEI10300-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="toei10300b.bmp" /> 
+  </sprite>
+  <capacity>151</capacity> 
+  <seatedcapacity>54</seatedcapacity> 
+  </contribution>
+<!-- 都営10-300R系先頭車 --> 
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TOEI10300R-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="toei10300r.bmp" /> 
+  </sprite>
+  <capacity>140</capacity> 
+  <seatedcapacity>48</seatedcapacity> 
+  </contribution>
+<!-- 都営10-300R系最後尾車 -->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TOEI10300R-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{757F660D-9BC9-48E4-9E12-TOEI10300R-A}"/> 
+  </contribution> 
+<!-- 都営10-300R系中間車-->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TOEI10300R-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="toei10000b.bmp" /> 
+  </sprite>
+  <capacity>149</capacity> 
+  <seatedcapacity>54</seatedcapacity> 
+  </contribution>
+<!-- 都営12-000E系先頭車 --> 
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TOEI12000E-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="toei12000early_a.bmp" /> 
+  </sprite>
+  <capacity>90</capacity> 
+  <seatedcapacity>36</seatedcapacity> 
+  </contribution>
+<!-- 都営12-000E系最後尾車 -->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TOEI12000E-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{757F660D-9BC9-48E4-9E12-TOEI12000E-A}"/> 
+  </contribution> 
+<!-- 都営12-000E系中間車-->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TOEI12000E-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="toei12000early_b.bmp" /> 
+  </sprite>
+  <capacity>100</capacity> 
+  <seatedcapacity>44</seatedcapacity> 
+  </contribution>
+<!-- 都営12-000L系先頭車 --> 
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TOEI12000L-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="toei12000late_a.bmp" /> 
+  </sprite>
+  <capacity>90</capacity> 
+  <seatedcapacity>36</seatedcapacity> 
+  </contribution>
+<!-- 都営12-000L系最後尾車 -->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TOEI12000L-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{757F660D-9BC9-48E4-9E12-TOEI12000L-A}"/> 
+  </contribution> 
+<!-- 都営12-000L系中間車-->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TOEI12000L-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="toei12000late_b.bmp" /> 
+  </sprite>
+  <capacity>100</capacity> 
+  <seatedcapacity>44</seatedcapacity> 
+  </contribution>
+<!-- 東急3000系先頭車 --> 
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TOKYU3000-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="tokyu3000a.bmp" /> 
+  </sprite>
+  <capacity>141</capacity> 
+  <seatedcapacity>48</seatedcapacity> 
+  </contribution>
+<!-- 東急3000系最後尾車 -->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TOKYU3000-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{757F660D-9BC9-48E4-9E12-TOKYU3000-A}"/> 
+  </contribution> 
+<!-- 東急3000系中間車-->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TOKYU3000-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="tokyu3000b.bmp" /> 
+  </sprite>
+  <capacity>151</capacity> 
+  <seatedcapacity>54</seatedcapacity> 
+  </contribution>
+<!-- 都営5300系先頭車 --> 
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TOEI5300-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="toei5300a.bmp" /> 
+  </sprite>
+  <capacity>118</capacity> 
+  <seatedcapacity>42</seatedcapacity>
+  </contribution>
+<!-- 都営5300系最後尾車 -->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TOEI5300-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{757F660D-9BC9-48E4-9E12-TOEI5300-A}"/> 
+  </contribution> 
+<!-- 都営5300系中間車-->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TOEI5300-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="toei5300b.bmp" /> 
+  </sprite>
+  <capacity>134</capacity> 
+  <seatedcapacity>52</seatedcapacity>
+  </contribution>
+
+ <contribution type="train" id="{57644AE6-7FFA-A231-8FE0-75-TOEI6300}">
+<company>東京都交通局</company>
+<type>6300系</type>
+<name>三田線</name>
+<author>北の汽車屋</author>
+<description>旧式化した6000系置き換えと、東急目黒線相互乗り入れを目的に導入された車両。</description>
+<fare>400</fare>
+<price>28000000</price>
+<amenity>100</amenity>
+<speed>medium</speed>
+<composition>
+<head carRef="{757F660D-9BC9-48E4-9E12-TOEI6300-A}"/>
+<body carRef="{757F660D-9BC9-48E4-9E12-TOEI6300-C}"/>
+<tail carRef="{757F660D-9BC9-48E4-9E12-TOEI6300-B}"/>
+</composition>
+</contribution> 
+ <contribution type="train" id="{57644AE6-7FFA-A231-8FE0-75-TOKYU3000}">
+<company>東京急行電鉄</company>
+<type>3000系</type>
+<name>目黒線</name>
+<author>北の汽車屋</author>
+<description>都営三田線・東京メトロ南北線乗り入れに際し導入された車両。</description>
+<fare>400</fare>
+<price>28000000</price>
+<amenity>100</amenity>
+<speed>medium</speed>
+<composition>
+<head carRef="{757F660D-9BC9-48E4-9E12-TOKYU3000-A}"/>
+<body carRef="{757F660D-9BC9-48E4-9E12-TOKYU3000-C}"/>
+<tail carRef="{757F660D-9BC9-48E4-9E12-TOKYU3000-B}"/>
+</composition>
+</contribution> 
+ <contribution type="train" id="{57644AE6-7FFA-A231-8FE0-75-TOEI10000}">
+<company>東京都交通局(KP)</company>
+<type>10-000系(KP)</type>
+<name>新宿線</name>
+<author>北の汽車屋</author>
+<description>都営新宿線の主力車両。</description>
+<fare>400</fare>
+<price>28000000</price>
+<amenity>100</amenity>
+<speed>medium</speed>
+<composition>
+<head carRef="{757F660D-9BC9-48E4-9E12-TOEI10000-A}"/>
+<body carRef="{757F660D-9BC9-48E4-9E12-TOEI10000-C}"/>
+<tail carRef="{757F660D-9BC9-48E4-9E12-TOEI10000-B}"/>
+</composition>
+</contribution>
+ <contribution type="train" id="{57644AE6-7FFA-A231-8FE0-75-TOEI10270}">
+<company>東京都交通局(KP)</company>
+<type>10-270系(KP)</type>
+<name>新宿線</name>
+<author>北の汽車屋</author>
+<description>都営新宿線10-000系のマイナーチェンジ車両。前面の意匠などが異なっている。</description>
+<fare>400</fare>
+<price>28000000</price>
+<amenity>100</amenity>
+<speed>medium</speed>
+<composition>
+<head carRef="{757F660D-9BC9-48E4-9E12-TOEI10270-A}"/>
+<body carRef="{757F660D-9BC9-48E4-9E12-TOEI10270-C}"/>
+<tail carRef="{757F660D-9BC9-48E4-9E12-TOEI10270-B}"/>
+</composition>
+</contribution>
+ <contribution type="train" id="{57644AE6-7FFA-A231-8FE0-75-TOEI10300}">
+<company>東京都交通局</company>
+<type>10-300系</type>
+<name>新宿線</name>
+<author>北の汽車屋</author>
+<description>老朽化した10-000系一部編成の置き換えのため登場した車両。</description>
+<fare>400</fare>
+<price>28000000</price>
+<amenity>100</amenity>
+<speed>medium</speed>
+<composition>
+<head carRef="{757F660D-9BC9-48E4-9E12-TOEI10300-A}"/>
+<body carRef="{757F660D-9BC9-48E4-9E12-TOEI10300-C}"/>
+<tail carRef="{757F660D-9BC9-48E4-9E12-TOEI10300-B}"/>
+</composition>
+</contribution>
+ <contribution type="train" id="{57644AE6-7FFA-A231-8FE0-75-TOEI10300R}">
+<company>東京都交通局</company>
+<type>10-300R系</type>
+<name>新宿線</name>
+<author>北の汽車屋</author>
+<description>老朽化した10-000系編成のうち、経年の激しい先頭車のみを10-300系と同系の車両に交換したもの。</description>
+<fare>400</fare>
+<price>28000000</price>
+<amenity>100</amenity>
+<speed>medium</speed>
+<composition>
+<head carRef="{757F660D-9BC9-48E4-9E12-TOEI10300R-A}"/>
+<body carRef="{757F660D-9BC9-48E4-9E12-TOEI10300R-C}"/>
+<tail carRef="{757F660D-9BC9-48E4-9E12-TOEI10300R-B}"/>
+</composition>
+</contribution>
+ <contribution type="train" id="{57644AE6-7FFA-A231-8FE0-75-TOEI12000E}">
+<company>東京都交通局</company>
+<type>12-000系(初期型)</type>
+<name>大江戸線</name>
+<author>北の汽車屋</author>
+<description>都営大江戸線のうち、練馬-光が丘間の部分開業時に製造された車両。</description>
+<fare>400</fare>
+<price>32000000</price>
+<amenity>100</amenity>
+<speed>medium</speed>
+<composition>
+<head carRef="{757F660D-9BC9-48E4-9E12-TOEI12000E-A}"/>
+<body carRef="{757F660D-9BC9-48E4-9E12-TOEI12000E-C}"/>
+<tail carRef="{757F660D-9BC9-48E4-9E12-TOEI12000E-B}"/>
+</composition>
+</contribution>
+ <contribution type="train" id="{57644AE6-7FFA-A231-8FE0-75-TOEI12000L}">
+<company>東京都交通局</company>
+<type>12-000系</type>
+<name>大江戸線</name>
+<author>北の汽車屋</author>
+<description>都営大江戸線の車両。初期型と違い無塗装車体である。</description>
+<fare>400</fare>
+<price>30000000</price>
+<amenity>100</amenity>
+<speed>medium</speed>
+<composition>
+<head carRef="{757F660D-9BC9-48E4-9E12-TOEI12000L-A}"/>
+<body carRef="{757F660D-9BC9-48E4-9E12-TOEI12000L-C}"/>
+<tail carRef="{757F660D-9BC9-48E4-9E12-TOEI12000L-B}"/>
+</composition>
+</contribution>
+ <contribution type="train" id="{57644AE6-7FFA-A231-8FE0-75-TOEI5300}">
+<company>東京都交通局</company>
+<type>5300系</type>
+<name>浅草線</name>
+<author>北の汽車屋</author>
+<description>都営浅草線の旧型車置き換え・冷房化を目的として導入された車両。空港間連絡列車などにも利用される。</description>
+<fare>400</fare>
+<price>28000000</price>
+<amenity>100</amenity>
+<speed>medium</speed>
+<composition>
+<head carRef="{757F660D-9BC9-48E4-9E12-TOEI5300-A}"/>
+<body carRef="{757F660D-9BC9-48E4-9E12-TOEI5300-C}"/>
+<tail carRef="{757F660D-9BC9-48E4-9E12-TOEI5300-B}"/>
+</composition>
+</contribution>
+</plug-in>

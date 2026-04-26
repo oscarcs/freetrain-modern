@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title></title>
+	<homepage>http://www.kohsuke.org/freetrain/</homepage>
+	
+	
+	
+	
+	<!-- 京王通勤車タイプ -->
+	<contribution type="trainCar" id="{E5123166-35D8-4f00-B556-9FA6143EA539}">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+                <sprite origin="0,0">
+		     <picture src="KEIO.bmp"/>
+                </sprite>
+		<capacity>120</capacity>
+		<seatedcapacity>44</seatedcapacity>
+	</contribution>
+	
+	<contribution type="train" id="{2B3E6067-B2C3-43c5-BA0E-236DC69533CF}">
+		<company>京王電鉄</company>
+		<type>通勤車タイプ</type>
+		<name></name>
+		<author>無名の人さん</author>
+		<description>
+京王電鉄の通勤型電車。
+		</description>
+		<fare>400</fare>
+		<price>28000000</price>
+		<amenity>90</amenity>
+		<speed>medium</speed>
+		<composition>
+			<body carRef="{E5123166-35D8-4f00-B556-9FA6143EA539}"/>
+		</composition>
+	</contribution>
+</plug-in>

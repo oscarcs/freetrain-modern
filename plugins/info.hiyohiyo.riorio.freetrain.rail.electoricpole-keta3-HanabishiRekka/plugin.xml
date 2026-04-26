@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>架線柱タイプガーター橋</title>
+	<author>りおりお色替え←花菱烈火</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+	
+	<depends on="org.kohsuke.freetrain.rail.electricPole" />
+
+	<contribution type="picture" id="{riorio-ep-2000-9C5A-D0EA1049D28D}">
+		<picture src="keta00.bmp" />
+	</contribution>
+	<contribution type="picture" id="{riorio-ep-2001-9C5A-D0EA1049D28D}">
+		<picture src="keta01.bmp" />
+	</contribution>
+	<contribution type="picture" id="{riorio-ep-2002-9C5A-D0EA1049D28D}">
+		<picture src="keta02.bmp" />
+	</contribution>
+	<contribution type="picture" id="{riorio-ep-2003-9C5A-D0EA1049D28D}">
+		<picture src="keta03.bmp" />
+	</contribution>
+	<contribution type="picture" id="{riorio-ep-2004-9C5A-D0EA1049D28D}">
+		<picture src="keta04.bmp" />
+	</contribution>
+	<contribution type="picture" id="{riorio-ep-2005-9C5A-D0EA1049D28D}">
+		<picture src="keta05.bmp" />
+	</contribution>
+	<contribution type="picture" id="{riorio-ep-2006-9C5A-D0EA1049D28D}">
+		<picture src="keta06.bmp" />
+	</contribution>
+	
+	<contribution type="electricPole" id="{riorio-ep-3000-9C5A-D0EA1049D28D}">
+		<name>ガター橋・緑(桁)</name>
+		<sprite>
+			<picture ref="{riorio-ep-2000-9C5A-D0EA1049D28D}"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{riorio-ep-3001-9C5A-D0EA1049D28D}">
+		<name>ガター橋・緑(中)</name>
+		<sprite>
+			<picture ref="{riorio-ep-2001-9C5A-D0EA1049D28D}"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{riorio-ep-3002-9C5A-D0EA1049D28D}">
+		<name>ガター橋・緑(終A)</name>
+		<sprite>
+			<picture ref="{riorio-ep-2002-9C5A-D0EA1049D28D}"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{riorio-ep-3003-9C5A-D0EA1049D28D}">
+		<name>ガター橋・緑(終B)</name>
+		<sprite>
+			<picture ref="{riorio-ep-2003-9C5A-D0EA1049D28D}"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{riorio-ep-3004-9C5A-D0EA1049D28D}">
+		<name>ガター橋・緑(架線台・左)</name>
+		<sprite>
+			<picture ref="{riorio-ep-2004-9C5A-D0EA1049D28D}"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{riorio-ep-3005-9C5A-D0EA1049D28D}">
+		<name>ガター橋・緑(架線台・右)</name>
+		<sprite>
+			<picture ref="{riorio-ep-2005-9C5A-D0EA1049D28D}"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{riorio-ep-3006-9C5A-D0EA1049D28D}">
+		<name>ガター橋・緑(架線台・左右)</name>
+		<sprite>
+			<picture ref="{riorio-ep-2006-9C5A-D0EA1049D28D}"/>
+		</sprite>
+	</contribution>
+
+</plug-in>

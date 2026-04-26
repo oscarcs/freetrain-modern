@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+<plug-in>
+  <title>お台場行きパック+おまけ</title>
+  <author>北の汽車屋</author>
+  <homepage></homepage>
+<!-- 70-000系先頭車 --> 
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1F-9-TWR70000-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="70-000_a.bmp" /> 
+  </sprite>
+    <capacity>136</capacity>
+    <seatedcapacity>48</seatedcapacity>
+  </contribution>
+<!-- 70-000系最後尾車 -->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1F-9-TWR70000-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{757F660D-9BC9-48E4-9E1F-9-TWR70000-A}"/> 
+  </contribution> 
+<!-- 70-000系中間車-->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1F-9-TWR70000-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="70-000_b.bmp" /> 
+  </sprite>
+  <capacity>144</capacity>
+  <seatedcapacity>54</seatedcapacity>
+  </contribution>
+<!-- ゆりかもめ7000系先頭車 --> 
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-YURI7000-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="Yurikamome_7000_a.bmp" /> 
+  </sprite>
+  <capacity>117</capacity> 
+  <seatedcapacity>56</seatedcapacity> 
+  </contribution>
+<!-- ゆりかもめ7000系最後尾車 -->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-YURI7000-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{757F660D-9BC9-48E4-9E12-YURI7000-A}"/> 
+  </contribution> 
+<!-- ゆりかもめ7000系中間車-->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-YURI7000-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="Yurikamome_7000_b.bmp" /> 
+  </sprite>
+  <capacity>120</capacity> 
+  <seatedcapacity>56</seatedcapacity> 
+  </contribution>
+<!-- 舎人ライナー300系先頭車 --> 
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TONERI300-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="Toneri_Liner_300_a.bmp" /> 
+  </sprite>
+  <capacity>122</capacity> 
+  <seatedcapacity>56</seatedcapacity> 
+  </contribution>
+<!-- 舎人ライナー300系最後尾車 -->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TONERI300-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{757F660D-9BC9-48E4-9E12-TONERI300-A}"/> 
+  </contribution> 
+<!-- 舎人ライナー300系中間車-->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TONERI300-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="Toneri_Liner_300_b.bmp" /> 
+  </sprite>
+  <capacity>125</capacity> 
+  <seatedcapacity>58</seatedcapacity> 
+  </contribution>
+
+ <contribution type="train" id="{757F660D-9BC9-48E4-9E1F-9-TWR70000-W}">
+<company>東京臨海高速鉄道</company>
+<type>70-000系</type>
+<name>りんかい線</name>
+<author>北の汽車屋</author>
+<description>大崎と新木場を結ぶりんかい線の車両。209系ベースで、2003年度より埼京線への乗り入れを行っている。
+</description>
+<fare>400</fare>
+<price>28000000</price>
+<amenity>100</amenity>
+<speed>medium</speed>
+ <class name="freetrain.contributions.train.ParamTrainImpl"/>
+ <composition>
+   <head carRef="{757F660D-9BC9-48E4-9E1F-9-TWR70000-A}"/>
+   <body carRef="{757F660D-9BC9-48E4-9E1F-9-TWR70000-C}"/>
+   <tail carRef="{757F660D-9BC9-48E4-9E1F-9-TWR70000-B}"/>
+ </composition>
+</contribution>
+ <contribution type="train" id="{57644AE6-7FFA-A231-8FE0-75-YURI7000}">
+<company>東京臨海新交通</company>
+<type>7000系</type>
+<name>臨海線</name>
+<author>北の汽車屋</author>
+<description>ゆりかもめの愛称でおなじみの新交通システム。半ボクセル車両なので実車同様の編成にするなら3両となります。</description>
+<fare>500</fare>
+<price>35000000</price>
+<amenity>100</amenity>
+<speed>medium</speed>
+<composition>
+<head carRef="{757F660D-9BC9-48E4-9E12-YURI7000-A}"/>
+<body carRef="{757F660D-9BC9-48E4-9E12-YURI7000-C}"/>
+<tail carRef="{757F660D-9BC9-48E4-9E12-YURI7000-B}"/>
+</composition>
+</contribution> 
+ <contribution type="train" id="{57644AE6-7FFA-A231-8FE0-75-TONERI300}">
+<company>新交通日暮里・舎人線</company>
+<type>300系</type>
+<name>日暮里・舎人ライナー</name>
+<author>北の汽車屋</author>
+<description>東京都北部の新しい新交通システム路線の車両。ちなみに実車が奇数両編成なのに対し偶数両しか再現不可なのは仕様ですｗ</description>
+<fare>500</fare>
+<price>35000000</price>
+<amenity>100</amenity>
+<speed>medium</speed>
+<composition>
+<head carRef="{757F660D-9BC9-48E4-9E12-TONERI300-A}"/>
+<body carRef="{757F660D-9BC9-48E4-9E12-TONERI300-C}"/>
+<tail carRef="{757F660D-9BC9-48E4-9E12-TONERI300-B}"/>
+</composition>
+</contribution> 
+</plug-in>

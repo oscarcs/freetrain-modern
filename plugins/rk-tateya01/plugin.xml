@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+
+<plug-in>
+	<title>建物セット</title>
+	<author>烈火</author>
+	<homepage></homepage>
+
+	<contribution type="picture" id="{rk-tateya-tutaya001-cg-001}">
+		<picture src="tutaya01a.bmp">
+			<override when="night" src="tutaya01b.bmp"/>
+		</picture>
+	</contribution>
+
+	<contribution type="picture" id="{rk-tateya-tutaya001-cg-002}">
+		<picture src="tutaya02a.bmp">
+			<override when="night" src="tutaya02b.bmp"/>
+		</picture>
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{rk-tateya-tutaya001-001}">
+		<group>つたや上町店</group>
+		<name>つたや上町店</name>
+		<price>1000000</price>
+		<size>1,3</size>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>120</base>
+		</population>
+		<structure>
+			<category  byname="チェーン専門店"/>
+		</structure>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{rk-tateya-tutaya001-cg-001}"/>
+		</sprite>
+		<sprite origin="64,0" offset="32" opposite="true">
+			<picture ref="{rk-tateya-tutaya001-cg-001}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{rk-tateya-tutaya001-002}">
+		<group>つたや上町店</group>
+		<name>つたや上町店</name>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>10</base>
+		</population>
+		<structure>
+			<category  byname="チェーン専門店"/>
+		</structure>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{rk-tateya-tutaya001-cg-002}"/>
+		</sprite>
+		<sprite origin="32,0" offset="16">
+			<picture ref="{rk-tateya-tutaya001-cg-002}"/>
+		</sprite>
+	</contribution>
+
+</plug-in>

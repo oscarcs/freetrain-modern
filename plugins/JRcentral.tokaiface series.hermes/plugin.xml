@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+<plug-in>
+     <title>JR東海車両セット</title> 
+     <author>Hermes</author> 
+     <homepage>nothing</homepage> 
+ 
+   <!-- kumoha313 -->
+　   <contribution type="trainCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FD3131600}-A">
+　      <class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　      <sprite origin="0,0">
+        <picture src="313_T'c.bmp" /> 
+        </sprite>
+        <capacity>156</capacity> 
+        <seatedcapacity>56</seatedcapacity> 
+     </contribution>
+
+   <!-- kuha313 -->
+　   <contribution type="trainCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FD3131600}-Q">
+	<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+        <sprite origin="0,0">
+        <picture src="313_Tc.bmp" /> 
+        </sprite>
+        <capacity>156</capacity> 
+        <seatedcapacity>56</seatedcapacity> 
+     </contribution>
+
+
+   <!-- kuha313 Back -->
+　   <contribution type="trainCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FD3131600}-B">
+	<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+        <base carRef="{1CDCD81D-8368-4CBC-HERM-0F1FD3131600}-Q"/> 
+     </contribution>
+
+   <!-- saha313 -->
+　   <contribution type="trainCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FD3131600}-C">
+　      <class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+        <sprite origin="0,0">
+        <picture src="313_T.bmp" /> 
+        </sprite>
+        <capacity>156</capacity> 
+        <seatedcapacity>156</seatedcapacity> 
+     </contribution> 
+
+   <!-- moha313 -->
+　   <contribution type="trainCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FD3131600}-D">
+　      <class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+        <sprite origin="0,0">
+        <picture src="313_M'.bmp" /> 
+        </sprite>
+        <capacity>156</capacity> 
+        <seatedcapacity>156</seatedcapacity> 
+     </contribution> 
+
+   <!-- kumoha313 8000 -->
+　   <contribution type="trainCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FD3138000}-A">
+　      <class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　      <sprite origin="0,0">
+        <picture src="313_8000_T'c.bmp" /> 
+        </sprite>
+        <capacity>56</capacity> 
+        <seatedcapacity>56</seatedcapacity> 
+     </contribution>
+
+   <!-- kuha313 8000 -->
+　   <contribution type="trainCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FD3138000}-Q">
+	<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+        <sprite origin="0,0">
+        <picture src="313_8000_Tc.bmp" /> 
+        </sprite>
+        <capacity>56</capacity> 
+        <seatedcapacity>56</seatedcapacity> 
+     </contribution>
+
+   <!-- kuha313 8000 Back -->
+　   <contribution type="trainCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FD3138000}-B">
+	<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+        <base carRef="{1CDCD81D-8368-4CBC-HERM-0F1FD3138000}-Q"/> 
+     </contribution>
+
+   <!-- saha313 8000 -->
+　   <contribution type="trainCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FD3138000}-C">
+　      <class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+        <sprite origin="0,0">
+        <picture src="313_8000_T.bmp" /> 
+        </sprite>
+        <capacity>56</capacity> 
+        <seatedcapacity>56</seatedcapacity> 
+     </contribution> 
+
+   <!-- moha313 8000 -->
+　   <contribution type="trainCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FD3138000}-D">
+　      <class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+        <sprite origin="0,0">
+        <picture src="313_8000_M'.bmp" /> 
+        </sprite>
+        <capacity>56</capacity> 
+        <seatedcapacity>56</seatedcapacity> 
+     </contribution>
+
+   <!-- kumoha373 -->
+　   <contribution type="trainCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FD3730000}-A">
+　      <class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　      <sprite origin="0,0">
+        <picture src="373_T'c.bmp" /> 
+        </sprite>
+        <capacity>60</capacity> 
+        <seatedcapacity>60</seatedcapacity> 
+     </contribution>
+
+   <!-- kuha372 -->
+　   <contribution type="trainCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FD3730000}-Q">
+	<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+        <sprite origin="0,0">
+        <picture src="373_Tc.bmp" /> 
+        </sprite>
+        <capacity>51</capacity> 
+        <seatedcapacity>51</seatedcapacity> 
+     </contribution>
+
+   <!-- kuha372 Back -->
+　   <contribution type="trainCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FD3730000}-B">
+	<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+        <base carRef="{1CDCD81D-8368-4CBC-HERM-0F1FD3730000}-Q"/> 
+     </contribution>
+
+   <!-- saha373 -->
+　   <contribution type="trainCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FD3730000}-C">
+　      <class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+        <sprite origin="0,0">
+        <picture src="373_T.bmp" /> 
+        </sprite>
+        <capacity>68</capacity> 
+        <seatedcapacity>68</seatedcapacity> 
+     </contribution> 
+
+
+   <!-- kuro383 -->
+　   <contribution type="trainCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FD3830000}-A">
+　      <class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　      <sprite origin="0,0">
+        <picture src="383_Tsc1.bmp" /> 
+        </sprite>
+        <capacity>44</capacity> 
+        <seatedcapacity>44</seatedcapacity> 
+     </contribution>
+
+   <!-- kuro383 100 -->
+　   <contribution type="trainCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FD3830000}-B">
+　      <class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　      <sprite origin="0,0">
+        <picture src="383_Tsc2.bmp" /> 
+        </sprite>
+        <capacity>44</capacity> 
+        <seatedcapacity>44</seatedcapacity> 
+     </contribution>
+
+   <!-- kumoha383 -->
+　   <contribution type="trainCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FD3830000}-Q">
+	<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+        <sprite origin="0,0">
+        <picture src="383_Mc.bmp" /> 
+        </sprite>
+        <capacity>60</capacity> 
+        <seatedcapacity>60</seatedcapacity> 
+     </contribution>
+
+   <!-- kumoha383 Back -->
+　   <contribution type="trainCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FD3830000}-C">
+	<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+        <base carRef="{1CDCD81D-8368-4CBC-HERM-0F1FD3830000}-Q"/> 
+        <sprite origin="0,0">
+        </sprite>
+        <capacity>60</capacity> 
+        <seatedcapacity>60</seatedcapacity> 
+     </contribution>
+
+   <!-- moha383 -->
+　   <contribution type="trainCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FD3830000}-D">
+　      <class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+        <sprite origin="0,0">
+        <picture src="383_M.bmp" /> 
+        </sprite>
+        <capacity>68</capacity> 
+        <seatedcapacity>68</seatedcapacity> 
+     </contribution> 
+
+   <!-- saha383 -->
+　   <contribution type="trainCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FD3830000}-E">
+　      <class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+        <sprite origin="0,0">
+        <picture src="383_T.bmp" /> 
+        </sprite>
+        <capacity>60</capacity> 
+        <seatedcapacity>60</seatedcapacity> 
+     </contribution> 
+
+   <!-- kuha383 -->
+　   <contribution type="trainCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FD3830000}-F">
+　      <class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+        <sprite origin="0,0">
+        <picture src="383_Tsc2.bmp" /> 
+        </sprite>
+        <capacity>60</capacity> 
+        <seatedcapacity>60</seatedcapacity> 
+     </contribution> 
+
+   <!-- Dc48 toukai color -->
+　   <contribution type="trainCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FD000DC48}-H">
+	<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+        <sprite origin="0,0">
+        <picture src="Dc48_toukai color.bmp" /> 
+        </sprite>
+        <capacity>122</capacity> 
+        <seatedcapacity>72</seatedcapacity> 
+     </contribution>
+
+   <!-- Dc48 toukai color Back -->
+　   <contribution type="trainCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FD000DC48}-B">
+	<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+        <base carRef="{1CDCD81D-8368-4CBC-HERM-0F1FD000DC48}-H"/>
+     </contribution>
+
+
+   <!-- Dc65 toukai color -->
+　   <contribution type="trainCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FD000DC65}-H">
+	<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+        <sprite origin="0,0">
+        <picture src="Dc65_toukai color.bmp" /> 
+        </sprite>
+        <capacity>84</capacity> 
+        <seatedcapacity>84</seatedcapacity> 
+     </contribution>
+
+   <!-- Dc65 toukai color Back -->
+　   <contribution type="trainCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FD000DC65}-B">
+	<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+        <base carRef="{1CDCD81D-8368-4CBC-HERM-0F1FD000DC65}-H"/>
+     </contribution>
+  
+   <contribution type="train" id="{1CDCD81D-8368-4CBC-HERM-0B1FD3131600}">
+        <company>JR東海</company>
+        <type>313系1600番台</type>
+        <name>東海色</name>
+        <author>Hermes</author>
+        <description>JR東海によって1998年から投入が開始された近郊型車両です。
+        </description>
+        <speed>medium</speed>
+		<triprange>middle</triprange>
+		<fare>500</fare>
+		<price>35000000</price>
+		<amenity>115</amenity>
+
+        <class name="freetrain.contributions.train.PatternTrainImpl"/>
+        <config>
+           <car char="A" ref="{1CDCD81D-8368-4CBC-HERM-0F1FD3131600}-A"/>
+           <car char="B" ref="{1CDCD81D-8368-4CBC-HERM-0F1FD3131600}-B"/> 
+           <car char="C" ref="{1CDCD81D-8368-4CBC-HERM-0F1FD3131600}-C"/>
+           <car char="D" ref="{1CDCD81D-8368-4CBC-HERM-0F1FD3131600}-D"/> 
+           <composition>AB</composition>
+           <composition>ACB</composition>
+           <composition>ACDB</composition>
+           <composition>ACDCDB</composition>
+           <composition>ACDBACB</composition>
+           <composition>ACDBACDB</composition>
+        </config>
+   </contribution>
+
+   <contribution type="train" id="{1CDCD81D-8368-4CBC-HERM-0B1FD3138000}">
+        <company>JR東海</company>
+        <type>313系8000番台</type>
+        <name>東海色</name>
+        <author>Hermes</author>
+        <description>JR東海によって1999年から投入が開始された近郊型車両です。
+        </description>
+        <speed>medium</speed>
+		<triprange>middle</triprange>
+		<fare>550</fare>
+		<price>36000000</price>
+		<amenity>115</amenity>
+
+        <class name="freetrain.contributions.train.PatternTrainImpl"/>
+        <config>
+           <car char="E" ref="{1CDCD81D-8368-4CBC-HERM-0F1FD3138000}-A"/>
+           <car char="F" ref="{1CDCD81D-8368-4CBC-HERM-0F1FD3138000}-B"/> 
+           <car char="G" ref="{1CDCD81D-8368-4CBC-HERM-0F1FD3138000}-C"/>
+           <car char="H" ref="{1CDCD81D-8368-4CBC-HERM-0F1FD3138000}-D"/> 
+           <composition>EGF</composition>
+           <composition>EGFEGF</composition>
+           <composition>EGFEGFEGF</composition>
+        </config>
+   </contribution>
+
+   <contribution type="train" id="{1CDCD81D-8368-4CBC-HERM-0B1FD3730000}">
+        <company>JR東海</company>
+        <type>373系</type>
+        <name></name>
+        <author>Hermes</author>
+        <description>JR東海によって1995年から投入が開始された特急型車両です。
+        </description>
+        <speed>medium</speed>
+		<triprange>long</triprange>
+		<fare>700</fare>
+		<price>56000000</price>
+		<amenity>120</amenity>
+
+        <class name="freetrain.contributions.train.PatternTrainImpl"/>
+        <config>
+           <car char="E" ref="{1CDCD81D-8368-4CBC-HERM-0F1FD3730000}-A"/>
+           <car char="F" ref="{1CDCD81D-8368-4CBC-HERM-0F1FD3730000}-B"/> 
+           <car char="G" ref="{1CDCD81D-8368-4CBC-HERM-0F1FD3730000}-C"/>
+           <composition>EGF</composition>
+           <composition>EGFEGF</composition>
+           <composition>EGFEGFEGF</composition>
+        </config>
+   </contribution>
+
+   <contribution type="train" id="{1CDCD81D-8368-4CBC-HERM-0B1FD3830000}">
+        <company>JR東海</company>
+        <type>383系</type>
+        <name></name>
+        <author>Hermes</author>
+        <description>JR東海によって1996年から投入が開始された特急型車両です。
+        </description>
+        <speed>medium</speed>
+		<fare>800</fare>
+		<triprange>long</triprange>
+		<price>60000000</price>
+		<amenity>130</amenity>
+
+        <class name="freetrain.contributions.train.PatternTrainImpl"/>
+        <config>
+           <car char="A" ref="{1CDCD81D-8368-4CBC-HERM-0F1FD3830000}-A"/>
+           <car char="B" ref="{1CDCD81D-8368-4CBC-HERM-0F1FD3830000}-B"/> 
+           <car char="C" ref="{1CDCD81D-8368-4CBC-HERM-0F1FD3830000}-C"/>
+           <car char="D" ref="{1CDCD81D-8368-4CBC-HERM-0F1FD3830000}-D"/>
+           <car char="E" ref="{1CDCD81D-8368-4CBC-HERM-0F1FD3830000}-E"/>
+           <car char="F" ref="{1CDCD81D-8368-4CBC-HERM-0F1FD3830000}-F"/>
+           <composition>FC</composition>
+           <composition>BDEC</composition>
+           <composition>ADEDEC</composition>
+           <composition>ADEDECFC</composition>
+           <composition>ADEDECBDEC</composition>
+           <composition>ADEDECFCBDEC</composition>
+        </config>
+   </contribution>
+
+   <contribution type="train" id="{1CDCD81D-8368-4CBC-HERM-0F1BD000DC48}">
+	<company>JR東海</company>
+	<type>キハ48形</type>
+        <name>東海色</name>
+	<author>hermes</author>
+	<description>JR東海の非電化区間で力走するキハ48形です。
+　　　　</description>
+	<speed>slow</speed>
+		<fare>500</fare>
+		<price>35000000</price>
+		<triprange>middle</triprange>
+		<amenity>95</amenity>
+        <class name="freetrain.contributions.train.PatternTrainImpl"/>
+        <config>
+        <car char="I" ref="{1CDCD81D-8368-4CBC-HERM-0F1FD000DC48}-H"/>
+        <car char="J" ref="{1CDCD81D-8368-4CBC-HERM-0F1FD000DC48}-B"/> 
+        <composition>IJ</composition>
+        <composition>IJIJ</composition>
+        <composition>IJIJIJ</composition>
+        <composition>IJIJIJIJ</composition>
+        <composition>IJIJIJIJIJ</composition>
+        </config>
+   </contribution>
+
+   <contribution type="train" id="{1CDCD81D-8368-4CBC-HERM-0F1BD000DC65}">
+	<company>JR東海</company>
+	<type>キハ65形</type>
+        <name>東海色</name>
+	<author>hermes</author>
+	<description>JR東海の非電化区間で走行するキハ65形です。
+　　　　</description>
+	<speed>slow</speed>
+		<triprange>middle</triprange>
+		<fare>500</fare>
+		<price>35000000</price>
+		<amenity>100</amenity>
+        <class name="freetrain.contributions.train.PatternTrainImpl"/>
+        <config>
+        <car char="K" ref="{1CDCD81D-8368-4CBC-HERM-0F1FD000DC65}-H"/>
+        <car char="L" ref="{1CDCD81D-8368-4CBC-HERM-0F1FD000DC65}-B"/> 
+        <composition>KL</composition>
+        <composition>KLKL</composition>
+        <composition>KLKLKL</composition>
+        <composition>KLKLKLKL</composition>
+        <composition>KLKLKLKLKL</composition>
+        </config>
+   </contribution>
+</plug-in>

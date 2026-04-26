@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+<plug-in>
+  <title>E721系パック</title>
+  <author>北の汽車屋</author>
+  <homepage></homepage>
+<!-- E721系先頭車 --> 
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-E721-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="E721.bmp" /> 
+  </sprite>
+  <capacity>134</capacity> 
+  <seatedcapacity>53</seatedcapacity> 
+  </contribution>
+<!-- E721系最後尾車 -->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-E721-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{669D5BDE-23F1-43BD-AC36-E721-A}" />  
+  </contribution>
+<!-- E721系500番台先頭車 --> 
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-E721500-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="E721_500.bmp" /> 
+  </sprite>
+  <capacity>134</capacity> 
+  <seatedcapacity>52</seatedcapacity> 
+  </contribution>
+<!-- E721系500番台最後尾車 -->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-E721500-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{669D5BDE-23F1-43BD-AC36-E721500-A}" />  
+  </contribution> 
+<!-- SAT721系先頭車 --> 
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-SAT721-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="SAT721.bmp" /> 
+  </sprite>
+  <capacity>134</capacity> 
+  <seatedcapacity>52</seatedcapacity> 
+  </contribution>
+<!-- SAT721系番台最後尾車 -->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-SAT721-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{669D5BDE-23F1-43BD-AC36-SAT721-A}" />  
+  </contribution>
+
+<contribution type="train" id="{669D5BDE-23F1-43BD-AC-B-E721}">
+<company>JR東日本</company>
+<type>E721系</type>
+<name>東北本線･常磐線など</name>
+<author>北の汽車屋</author>
+<description>旧式化した仙台地区の急行型車両置き換えのため製造された車両。</description>
+<fare>500</fare>
+<price>35000000</price>
+<amenity>110</amenity>
+<triprange>middle</triprange>
+<speed>medium</speed>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<config>
+<car char="A" ref="{669D5BDE-23F1-43BD-AC36-E721-A}"/>
+<car char="B" ref="{669D5BDE-23F1-43BD-AC36-E721-B}"/>
+<composition>AB</composition>
+<composition>ABAB</composition>
+<composition>ABABAB</composition>
+<composition>ABABABAB</composition>
+</config>
+</contribution>
+
+<contribution type="train" id="{669D5BDE-23F1-43BD-AC-B-E721500}">
+<company>JR東日本</company>
+<type>E721系500番台</type>
+<name>仙台空港線</name>
+<author>北の汽車屋</author>
+<description>仙台空港線の開業に合わせて製造された車両。0番台に比べ空港アクセス鉄道としてのさまざまな改良が施されている。</description>
+<fare>500</fare>
+<price>35000000</price>
+<amenity>110</amenity>
+<triprange>middle</triprange>
+<speed>medium</speed>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<config>
+<car char="A" ref="{669D5BDE-23F1-43BD-AC36-E721500-A}"/>
+<car char="B" ref="{669D5BDE-23F1-43BD-AC36-E721500-B}"/>
+<composition>AB</composition>
+<composition>ABAB</composition>
+<composition>ABABAB</composition>
+<composition>ABABABAB</composition>
+</config>
+</contribution>
+<contribution type="train" id="{669D5BDE-23F1-43BD-AC-B-SAT721}">
+<company>仙台空港鉄道</company>
+<type>SAT721系</type>
+<name>仙台空港線</name>
+<author>北の汽車屋</author>
+<description>仙台空港線の開業に合わせて製造された車両。塗装以外はJRのE721系500番台とほぼ同仕様である。</description>
+<fare>500</fare>
+<price>35000000</price>
+<amenity>110</amenity>
+<triprange>middle</triprange>
+<speed>medium</speed>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<config>
+<car char="A" ref="{669D5BDE-23F1-43BD-AC36-SAT721-A}"/>
+<car char="B" ref="{669D5BDE-23F1-43BD-AC36-SAT721-B}"/>
+<composition>AB</composition>
+<composition>ABAB</composition>
+<composition>ABABAB</composition>
+<composition>ABABABAB</composition>
+</config>
+</contribution>
+</plug-in> 

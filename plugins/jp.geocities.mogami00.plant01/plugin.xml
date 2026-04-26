@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+<plug-in>
+ <title>化学反応塔</title> 
+ <author>モガミ</author> 
+ <homepage>http://www.geocities.jp/mogami00/Kamikazekensetu.html</homepage> 
+ <contribution type="picture" id="{mogami-buildingi-building-kagakuplant01-picture-2E1005005113}">
+ <picture src="plant01.bmp" /> 
+ </contribution>
+ <contribution type="GenericStructure" id="{mogami-building-kagakuplant01-E07234000ED8}">
+ <group>化学反応塔</group> 
+ <structure>
+ <category byname="化学工場" /> 
+ </structure>
+ <price>50000000</price> 
+ <size>1,1</size> 
+ <minHeight>2</minHeight> 
+ <maxHeight>5</maxHeight> 
+ <computerCannotBuild />
+ <population>
+ <class name="freetrain.contributions.population.OfficePopulation" /> 
+ <base>60</base> 
+ </population>
+ <pictures>
+ <top origin="0, 0" offset="13">
+ <picture ref="{mogami-buildingi-building-kagakuplant01-picture-2E1005005113}" /> 
+ </top>
+ <middle origin="0, 38" offset="7">
+ <picture ref="{mogami-buildingi-building-kagakuplant01-picture-2E1005005113}" /> 
+ </middle>
+ <bottom origin="0, 70" offset="7">
+ <picture ref="{mogami-buildingi-building-kagakuplant01-picture-2E1005005113}" /> 
+ </bottom>
+ </pictures>
+ </contribution>
+</plug-in>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plug-in [
+]>
+<plug-in>
+	<title>競輪場</title>
+	<author>こざてつ</author>
+	<homepage></homepage>
+		<contribution type="picture" id="{kozatetsu-build-keirin-69CB08B91D04}">
+		<picture src="keirin.bmp">
+		</picture>
+	</contribution>
+	
+		<contribution type="picture" id="{kozatetsu-build-keirin-red-69CB08B91D04}">
+		<picture src="keirin_r.bmp">
+		</picture>
+	</contribution>
+
+		<contribution type="picture" id="{kozatetsu-build-keirin-pool-69CB08B91D04}">
+		<picture src="keirin_pool.bmp">
+		<override when="night" src="keirin_pool_n.bmp" />
+		</picture>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{kozatetsu-build-keirin-1AB5F2BC8C08}">
+		<name>競輪場</name>
+		<structure>
+			<category byname="公営賭博場"/>
+		</structure>
+		<price>300000000</price>
+		<size>7,8</size>
+		<height>3</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>10000</base>
+		</population>
+		<sprite origin="0,0" offset="55">
+			<picture ref="{kozatetsu-build-keirin-69CB08B91D04}"/>
+		</sprite>
+		<computerCannotBuild />
+	</contribution>
+
+	<contribution type="GenericStructure" id="{kozatetsu-build-keirin-red-1AB5F2BC8C08}">
+		<name>競輪場</name>
+		<structure>
+			<category byname="公営賭博場"/>
+		</structure>
+		<price>300000000</price>
+		<size>7,8</size>
+		<height>3</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>10000</base>
+		</population>
+		<sprite origin="0,0" offset="55">
+			<picture ref="{kozatetsu-build-keirin-red-69CB08B91D04}"/>
+		</sprite>
+		<computerCannotBuild />
+	</contribution>
+
+	<contribution type="GenericStructure" id="{kozatetsu-build-keirin-pool-1AB5F2BC8C08}">
+		<name>競輪場</name>
+		<structure>
+			<category byname="公営賭博場"/>
+		</structure>
+		<price>300000000</price>
+		<size>7,8</size>
+		<height>3</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>10000</base>
+		</population>
+		<sprite origin="0,0" offset="55">
+			<picture ref="{kozatetsu-build-keirin-pool-69CB08B91D04}"/>
+		</sprite>
+		<computerCannotBuild />
+	</contribution>
+</plug-in>

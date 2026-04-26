@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+<plug-in>
+  <title>常磐パック</title> 
+  <author>北の汽車屋</author> 
+  <homepage>karlos427@hotmail.com</homepage> 
+<!-- 203系先頭車 --> 
+　<contribution type="trainCar" id="{69ADC1FD-A7A8-4963-B63C-C66852-203-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="203_a.bmp" /> 
+  </sprite>
+    <capacity>136</capacity>
+    <seatedcapacity>48</seatedcapacity>
+  </contribution>
+<!-- 203系最後尾車 -->
+　<contribution type="trainCar" id="{69ADC1FD-A7A8-4963-B63C-C66852-203-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{69ADC1FD-A7A8-4963-B63C-C66852-203-A}"/> 
+  </contribution> 
+<!-- 203系中間車-->
+　<contribution type="trainCar" id="{69ADC1FD-A7A8-4963-B63C-C66852-203-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="203_b.bmp" /> 
+  </sprite>
+    <capacity>144</capacity>
+    <seatedcapacity>54</seatedcapacity>
+  </contribution>
+<!-- 207系900先頭車 --> 
+　<contribution type="trainCar" id="{69ADC1FD-A7A8-4963-B63C-C66-207900-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="207_900_a.bmp" /> 
+  </sprite>
+    <capacity>136</capacity>
+    <seatedcapacity>48</seatedcapacity>
+  </contribution>
+<!-- 207系900最後尾車 -->
+　<contribution type="trainCar" id="{69ADC1FD-A7A8-4963-B63C-C66-207900-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{69ADC1FD-A7A8-4963-B63C-C66-207900-A}"/> 
+  </contribution> 
+<!-- 207系900中間車-->
+　<contribution type="trainCar" id="{69ADC1FD-A7A8-4963-B63C-C66-207900-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="207_900_b.bmp" /> 
+  </sprite>
+    <capacity>144</capacity>
+    <seatedcapacity>54</seatedcapacity>
+  </contribution>
+<!-- 209系1000先頭車 --> 
+　<contribution type="trainCar" id="{69ADC1FD-A7A8-4963-B63C-C6-2091000-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="209_1000_a.bmp" /> 
+  </sprite>
+    <capacity>136</capacity>
+    <seatedcapacity>48</seatedcapacity>
+  </contribution>
+<!-- 209系1000最後尾車 -->
+　<contribution type="trainCar" id="{69ADC1FD-A7A8-4963-B63C-C6-2091000-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{69ADC1FD-A7A8-4963-B63C-C6-2091000-A}"/> 
+  </contribution> 
+<!-- 209系1000中間車-->
+　<contribution type="trainCar" id="{69ADC1FD-A7A8-4963-B63C-C6-2091000-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="209_1000_b.bmp" /> 
+  </sprite>
+    <capacity>144</capacity>
+    <seatedcapacity>54</seatedcapacity>
+  </contribution>
+<!-- E531系先頭車 --> 
+　<contribution type="trainCar" id="{69ADC1FD-A7A8-4963-B63C-C6685-E531-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="E531_a.bmp" /> 
+  </sprite>
+    <capacity>137</capacity>
+    <seatedcapacity>52</seatedcapacity> 
+  </contribution>
+<!-- E531系最後尾車 -->
+　<contribution type="trainCar" id="{69ADC1FD-A7A8-4963-B63C-C6685-E531-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{69ADC1FD-A7A8-4963-B63C-C6685-E531-A}"/> 
+  </contribution> 
+<!-- E531系中間車-->
+　<contribution type="trainCar" id="{69ADC1FD-A7A8-4963-B63C-C6685-E531-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="E531_b.bmp" /> 
+  </sprite>
+    <capacity>162</capacity>
+    <seatedcapacity>64</seatedcapacity> 
+  </contribution>
+<!-- E531G先頭車 --> 
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-E531G-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="E531_a.bmp" /> 
+  </sprite>
+    <capacity>137</capacity>
+    <seatedcapacity>52</seatedcapacity> 
+  </contribution>
+<!-- E531G最後尾車 -->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-E531G-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{669D5BDE-23F1-43BD-AC36-E531G-A}" />  
+  </contribution> 
+<!--E531G中間車-->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-E531G-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="E531_b.bmp" /> 
+  </sprite>
+    <capacity>162</capacity>
+    <seatedcapacity>64</seatedcapacity> 
+  </contribution>
+<!--E531Gグリーン-->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-E531G-G}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="saroE530.bmp" /> 
+  </sprite>
+  <capacity>90</capacity> 
+  <seatedcapacity>90</seatedcapacity> 
+  </contribution>
+
+  <contribution type="train" id="{69ADC1FD-A7A8-4963-B63C-C66852-203-W}">
+<company>JR東日本</company>
+<type>203系</type>
+<name>常磐緩行線</name>
+<author>北の汽車屋</author>
+<description>現在の常磐緩行線の主役。201系がベース。100番代以降は205系に準じた台車を履いている。
+</description>
+<fare>400</fare>
+<price>35000000</price>
+<amenity>100</amenity>
+<speed>medium</speed>
+ <class name="freetrain.contributions.train.ParamTrainImpl"/>
+ <composition>
+   <head carRef="{69ADC1FD-A7A8-4963-B63C-C66852-203-A}"/>
+   <body carRef="{69ADC1FD-A7A8-4963-B63C-C66852-203-C}"/>
+   <tail carRef="{69ADC1FD-A7A8-4963-B63C-C66852-203-B}"/>
+ </composition>
+</contribution>
+  <contribution type="train" id="{69ADC1FD-A7A8-4963-B63C-C66-207900-W}">
+<company>JR東日本</company>
+<type>207系900番台</type>
+<name>常磐緩行線</name>
+<author>北の汽車屋</author>
+<description>旧国鉄唯一のVVVFインバータ制御車。205系をベースにしているが、あまりにも高価なため導入は試作一編成のみにとどまった。
+</description>
+<fare>400</fare>
+<price>35000000</price>
+<amenity>100</amenity>
+<speed>medium</speed>
+ <class name="freetrain.contributions.train.ParamTrainImpl"/>
+ <composition>
+   <head carRef="{69ADC1FD-A7A8-4963-B63C-C66-207900-A}"/>
+   <body carRef="{69ADC1FD-A7A8-4963-B63C-C66-207900-C}"/>
+   <tail carRef="{69ADC1FD-A7A8-4963-B63C-C66-207900-B}"/>
+ </composition>
+</contribution>
+ <contribution type="train" id="{69ADC1FD-A7A8-4963-B63C-C6-2091000-W}">
+<company>JR東日本</company>
+<type>209系1000番台</type>
+<name>常磐緩行線</name>
+<author>北の汽車屋</author>
+<description>輸送力増強を目的にして二編成が導入された、常磐緩行線の新顔。E231導入後ではあったものの209系をベースとしている。
+</description>
+<fare>400</fare>
+<price>25000000</price>
+<amenity>100</amenity>
+<speed>medium</speed>
+ <class name="freetrain.contributions.train.ParamTrainImpl"/>
+ <composition>
+   <head carRef="{69ADC1FD-A7A8-4963-B63C-C6-2091000-A}"/>
+   <body carRef="{69ADC1FD-A7A8-4963-B63C-C6-2091000-C}"/>
+   <tail carRef="{69ADC1FD-A7A8-4963-B63C-C6-2091000-B}"/>
+ </composition>
+</contribution>
+ <contribution type="train" id="{69ADC1FD-A7A8-4963-B63C-C6685-E531-W}">
+<company>JR東日本</company>
+<type>E531系</type>
+<name>常磐快速</name>
+<author>北の汽車屋</author>
+<description>2005年から導入が開始される、常磐線の新顔。E231系の近郊型をベースとし、交直流区間直通・130km/h走行を可能にする。
+</description>
+<fare>500</fare>
+<price>38000000</price>
+<amenity>100</amenity>
+<triprange>middle</triprange>
+<speed>medium</speed>
+ <class name="freetrain.contributions.train.ParamTrainImpl"/>
+ <composition>
+   <head carRef="{69ADC1FD-A7A8-4963-B63C-C6685-E531-A}"/>
+   <body carRef="{69ADC1FD-A7A8-4963-B63C-C6685-E531-C}"/>
+   <tail carRef="{69ADC1FD-A7A8-4963-B63C-C6685-E531-B}"/>
+ </composition>
+</contribution>
+<contribution type="train" id="{669D5BDE-23F1-43BD-AC36-B-E531G}">
+<company>JR東日本</company>
+<type>E531系(グリーン車組み込み編成)</type>
+<name>常磐快速</name>
+<author>北の汽車屋</author>
+<description>TXの開業に対抗し、常磐快速のE531系にもWデッカーのグリーン車組み込みが始まった。こちらは忠実の編成に従っています。
+</description>
+<fare>550</fare>
+<triprange>middle</triprange>
+<price>40000000</price>
+<amenity>110</amenity>
+<speed>medium</speed>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<config>
+<car char="A" ref="{669D5BDE-23F1-43BD-AC36-E531G-A}"/>
+<car char="C" ref="{669D5BDE-23F1-43BD-AC36-E531G-C}"/>
+<car char="B" ref="{669D5BDE-23F1-43BD-AC36-E531G-B}"/> 
+<car char="G" ref="{669D5BDE-23F1-43BD-AC36-E531G-G}"/> 
+<composition>ACCCB</composition>
+<composition>ACCGGCCCCB</composition>
+<composition>ACCCBACCGGCCCCB</composition>
+</config>
+</contribution>
+</plug-in>

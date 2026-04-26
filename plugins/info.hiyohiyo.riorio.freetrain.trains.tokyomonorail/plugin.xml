@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+  <title>東京モノレール700形・1000形</title>
+  <author>りおりお</author>
+  <homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+
+
+
+  <!-- 東京モノレール700形 先頭車-->
+  <contribution type="trainCar" id="{riorio-tokyomonorail-0700-823B-717DF0CC1911}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="tokyomono700.bmp" />
+    </sprite>
+    <capacity>88</capacity>
+    <seatedcapacity>64</seatedcapacity>
+  </contribution>
+
+  <!-- 東京モノレール800形 中間車-->
+  <contribution type="trainCar" id="{riorio-tokyomonorail-0700-823B-717DF0CC1911}-m">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="tokyomono800.bmp" />
+      </sprite>
+    <capacity>96</capacity>
+    <seatedcapacity>68</seatedcapacity>
+  </contribution>
+
+  <!-- 東京モノレール700形 後尾車-->
+  <contribution type="trainCar" id="{riorio-tokyomonorail-0700-823B-717DF0CC1911}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{riorio-tokyomonorail-0700-823B-717DF0CC1911}-h"/>
+  </contribution>
+
+  <contribution type="train" id="{riorio-train-tokyomonorail-0700-8AF2-087BD82FFB9C}">
+    <company>東京モノレール</company>
+    <type>700形</type>
+    <name> </name>
+    <author>りおりお</author>
+    <description>1982年から製造された15ｍ級アルミ車体のモノレール車両。東京モノレール・浜松町～羽田空港間で運転された。後継の1000形・2000形の増備により、1998年に全車廃車となった。</description>
+	<fare>500</fare>
+	<price>35000000</price>
+	<amenity>100</amenity>
+    <speed>slow</speed>
+    <composition>
+      <head carRef="{riorio-tokyomonorail-0700-823B-717DF0CC1911}-h"/>
+      <body carRef="{riorio-tokyomonorail-0700-823B-717DF0CC1911}-m"/>
+      <tail carRef="{riorio-tokyomonorail-0700-823B-717DF0CC1911}-t"/>
+    </composition>
+  </contribution>
+
+
+  <!-- 東京モノレール1000形グリーンガム 先頭車-->
+  <contribution type="trainCar" id="{riorio-tokyomonorail-1000-B87F-A0727178E5CF}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="TM1000green_a.bmp" />
+    </sprite>
+    <capacity>98</capacity>
+    <seatedcapacity>48</seatedcapacity>
+  </contribution>
+
+  <!-- 東京モノレール1000形グリーンガム 中間車-->
+  <contribution type="trainCar" id="{riorio-tokyomonorail-1000-B87F-A0727178E5CF}-m">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="TM1000green_b.bmp" />
+      </sprite>
+    <capacity>107</capacity>
+    <seatedcapacity>52</seatedcapacity>
+  </contribution>
+
+  <!-- 東京モノレール1000形グリーンガム 後尾車-->
+  <contribution type="trainCar" id="{riorio-tokyomonorail-1000-B87F-A0727178E5CF}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{riorio-tokyomonorail-1000-B87F-A0727178E5CF}-h"/>
+  </contribution>
+
+  <contribution type="train" id="{riorio-train-tokyomonorail-1000-4C69-6F2A830DD954}">
+    <company>東京モノレール</company>
+    <type>1000系</type>
+    <name>グリーンガム</name>
+    <author>りおりお</author>
+    <description>1989年から使用されている、現在の主力車両。ロッテの全面広告車となった編成があり、うち1編成はグリーンガムのパッケージカラーにペイントされている。</description>
+	<fare>500</fare>
+	<price>35000000</price>
+	<amenity>100</amenity>
+    <speed>slow</speed>
+    <composition>
+      <head carRef="{riorio-tokyomonorail-1000-B87F-A0727178E5CF}-h"/>
+      <body carRef="{riorio-tokyomonorail-1000-B87F-A0727178E5CF}-m"/>
+      <tail carRef="{riorio-tokyomonorail-1000-B87F-A0727178E5CF}-t"/>
+    </composition>
+  </contribution>
+
+
+  <!-- 東京モノレール1000形クールミントガム 先頭車-->
+  <contribution type="trainCar" id="{riorio-tokyomonorail-1000-9B29-7A7686852464}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="TM1000coolmint_a.bmp" />
+    </sprite>
+    <capacity>98</capacity>
+    <seatedcapacity>48</seatedcapacity>
+  </contribution>
+
+  <!-- 東京モノレール1000形クールミントガム 中間車-->
+  <contribution type="trainCar" id="{riorio-tokyomonorail-1000-9B29-7A7686852464}-m">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="TM1000coolmint_b.bmp" />
+      </sprite>
+    <capacity>107</capacity>
+    <seatedcapacity>52</seatedcapacity>
+  </contribution>
+
+  <!-- 東京モノレール1000形クールミントガム 後尾車-->
+  <contribution type="trainCar" id="{riorio-tokyomonorail-1000-9B29-7A7686852464}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{riorio-tokyomonorail-1000-9B29-7A7686852464}-h"/>
+  </contribution>
+
+  <contribution type="train" id="{riorio-train-tokyomonorail-1000-BC00-BB48C20F18B8}">
+    <company>東京モノレール</company>
+    <type>1000系</type>
+    <name>クールミントガム</name>
+    <author>りおりお</author>
+    <description>1989年から使用されている、現在の主力車両。ロッテの全面広告車となった編成があり、うち1編成はクールミントガムのパッケージカラーにペイントされている。</description>
+	<fare>500</fare>
+	<price>35000000</price>
+	<amenity>100</amenity>
+    <speed>slow</speed>
+    <composition>
+      <head carRef="{riorio-tokyomonorail-1000-9B29-7A7686852464}-h"/>
+      <body carRef="{riorio-tokyomonorail-1000-9B29-7A7686852464}-m"/>
+      <tail carRef="{riorio-tokyomonorail-1000-9B29-7A7686852464}-t"/>
+    </composition>
+  </contribution>
+
+
+  <!-- 東京モノレール1000形復刻塗装 先頭車-->
+  <contribution type="trainCar" id="{riorio-tokyomonorail-1000-8F41-EE6DD7B8163F}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="TM1000revival_a.bmp" />
+    </sprite>
+    <capacity>98</capacity>
+    <seatedcapacity>48</seatedcapacity>
+  </contribution>
+
+  <!-- 東京モノレール1000形復刻塗装 中間車-->
+  <contribution type="trainCar" id="{riorio-tokyomonorail-1000-8F41-EE6DD7B8163F}-m">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="TM1000revival_b.bmp" />
+      </sprite>
+    <capacity>107</capacity>
+    <seatedcapacity>52</seatedcapacity>
+  </contribution>
+
+  <!-- 東京モノレール1000形復刻塗装 後尾車-->
+  <contribution type="trainCar" id="{riorio-tokyomonorail-1000-8F41-EE6DD7B8163F}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{riorio-tokyomonorail-1000-8F41-EE6DD7B8163F}-h"/>
+  </contribution>
+
+  <contribution type="train" id="{riorio-train-tokyomonorail-1000-9525-13507227E2DD}">
+    <company>東京モノレール</company>
+    <type>1000系</type>
+    <name>復刻塗装</name>
+    <author>りおりお</author>
+    <description>1989年から使用されている、現在の主力車両。うち1編成は、東京モノレール開業時に走っていた100形の復刻カラーにペイントされている。</description>
+	<fare>500</fare>
+	<price>35000000</price>
+	<amenity>100</amenity>
+    <speed>slow</speed>
+    <composition>
+      <head carRef="{riorio-tokyomonorail-1000-8F41-EE6DD7B8163F}-h"/>
+      <body carRef="{riorio-tokyomonorail-1000-8F41-EE6DD7B8163F}-m"/>
+      <tail carRef="{riorio-tokyomonorail-1000-8F41-EE6DD7B8163F}-t"/>
+    </composition>
+  </contribution>
+
+
+</plug-in>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+<title>700T型</title>
+<author>Tyousen121</author>
+<homepage>http://www.geocities.jp/m3685jp/</homepage>
+	
+<contribution type="trainCar" id="{tyousen-923w-free-train-projectA}">
+<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+<sprite origin="0,0">
+<picture src="923a.bmp" />
+</sprite>
+<capacity>6</capacity>
+<seatedcapacity>6</seatedcapacity>
+</contribution>
+
+<contribution type="trainCar" id="{tyousen-923w-free-train-projectB}">
+<class name="freetrain.contributions.train.SymTrainCarImpl" />
+<sprite origin="0,0">
+<picture src="923b.bmp" />
+</sprite>
+<capacity>5</capacity>
+<seatedcapacity>5</seatedcapacity>
+</contribution>
+
+<contribution type="trainCar" id="{tyousen-923w-free-train-projectC}">
+<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+<base carRef="{tyousen-923w-free-train-projectA}" />  
+</contribution> 
+
+<contribution type="train" id="{tyousen-121-923w-train-projectZ}">
+<name></name>
+		<fare>1000</fare>
+		<price>70000000</price>
+		<amenity>100</amenity>
+<speed>superb</speed>
+<author>Tyousen121</author>
+<type>923形</type>
+<name>Dr.Yellow</name>
+<company>JR西日本</company>
+<description>
+700系をベースにした車両。
+7両のT5編成だが、
+車両はほぼ同一。
+車体中央に監視カメラが、
+設置されている。
+</description>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<config>
+<car char="1" ref="{tyousen-923w-free-train-projectA}"/>
+<car char="2" ref="{tyousen-923w-free-train-projectB}"/>
+<car char="3" ref="{tyousen-923w-free-train-projectC}"/> 
+<composition>1222223</composition>
+</config>
+</contribution>
+
+<contribution type="train" id="{tyousen-121-923w-train-projectX}">
+<name></name>
+		<fare>1000</fare>
+		<price>70000000</price>
+		<amenity>100</amenity>
+<speed>superb</speed>
+<author>Tyousen121</author>
+<type>923形</type>
+<name>Dr.Yellow</name>
+<company>JR東海</company>
+<description>
+700系をベースにした車両。
+7両のT4編成だが、
+車両はほぼ同一。
+車体中央に監視カメラが、
+設置されている。
+</description>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<config>
+<car char="1" ref="{tyousen-923w-free-train-projectA}"/>
+<car char="2" ref="{tyousen-923w-free-train-projectB}"/>
+<car char="3" ref="{tyousen-923w-free-train-projectC}"/> 
+<composition>1222223</composition>
+</config>
+</contribution>
+
+</plug-in>

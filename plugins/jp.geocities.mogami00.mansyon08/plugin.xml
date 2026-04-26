@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+  <plug-in>
+  <title>マンション08</title> 
+  <author>モガミ</author> 
+  <homepage>http://www.geocities.jp/mogami00/Kamikazekensetu.html</homepage> 
+  <contribution type="picture" id="{mogami-building-mansyon-picture-63A28TF0577D}">
+  <picture src="mansyon08.bmp">
+  </picture>
+  </contribution>
+  <contribution type="GenericStructure" id="{mogami-building-mansyon-6A48TD4J9A7D}">
+  <group>分譲マンション（3x4）</group> 
+  <structure>
+  <category byname="分譲マンション" /> 
+  </structure>
+  <size>3,4</size> 
+  <price>120000000</price> 
+  <computerCannotBuild /> 
+  <height>3</height> 
+  <population>
+  <class name="freetrain.contributions.population.ResidentialPopulation" /> 
+  <base>3000</base> 
+  </population>
+  <sprite origin="0,0" offset="83">
+  <picture ref="{mogami-building-mansyon-picture-63A28TF0577D}" /> 
+  </sprite>
+  <sprite origin="112,0" offset="91" opposite="true">
+  <picture ref="{mogami-building-mansyon-picture-63A28TF0577D}" /> 
+  </sprite>
+  </contribution>
+  </plug-in>

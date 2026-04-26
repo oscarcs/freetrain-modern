@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plugin [
+
+<!ELEMENT contribution (class,sprite,capacity,seatedcapacity,company,type,name,author,description,fare,price,amenity,speed,composition,head,body,tail)>
+<!-- プラグイン内に登場するすべてのcontribution配下の要素を漏れなく記述する必要あり -->
+
+<!-- 車両 -->
+<!ELEMENT class (#PCDATA)>
+<!ELEMENT sprite (#PCDATA)>
+<!ELEMENT capacity (#PCDATA)>
+<!ELEMENT seatedcapacity (#PCDATA)>
+<!ATTLIST  contribution type CDATA #REQUIRED>
+<!ATTLIST  contribution id CDATA #REQUIRED>
+<!ATTLIST  class name CDATA #REQUIRED>
+<!ATTLIST  sprite origin CDATA #REQUIRED>
+
+<!-- 列車 -->
+<!ELEMENT company (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT fare (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT speed (#PCDATA)>
+<!ELEMENT amenity (#PCDATA)>
+
+<!-- 編成 -->
+<!ELEMENT composition (#PCDATA)>
+<!ELEMENT head (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
+<!ELEMENT tail (#PCDATA)>
+<!ATTLIST head carRef CDATA #REQUIRED>
+<!ATTLIST body carRef CDATA #REQUIRED>
+<!ATTLIST tail carRef CDATA #REQUIRED>
+
+<!ENTITY E233keiyo SYSTEM "E233/E233keiyo.xml">
+<!ENTITY E233keiyo2 SYSTEM "E233/E233keiyo2.xml">
+<!ENTITY e209keiyo SYSTEM "209/209keiyo.xml">
+<!ENTITY e209sobu SYSTEM "209/209sobu.xml">
+<!ENTITY e209kt SYSTEM "209/209kt.xml">
+
+]>
+
+<plugin>
+     <title>京葉線233系＋209系500番代</title>
+     <author>いっちー</author>
+     <homepage></homepage>
+
+<!-- E233系5000番代 -->
+	&E233keiyo;
+	&E233keiyo2;
+
+<!-- 209系500番代 -->
+	&e209keiyo;
+	&e209sobu;
+	&e209kt;
+
+</plugin>

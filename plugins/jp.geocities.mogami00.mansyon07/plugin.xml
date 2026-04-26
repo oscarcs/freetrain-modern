@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+<plug-in>
+ <title>分譲マンション(2x2)</title> 
+ <author>モガミ</author> 
+ <homepage>http://www.geocities.jp/mogami00/Kamikazekensetu.html</homepage> 
+ <contribution type="picture" id="{mogami-building-mansyon07-picture-883E8A066814}">
+ <picture src="mansyon07.bmp" >
+   <override when="night" src="mansyon07n.bmp" />
+ </picture>
+ </contribution>
+ <contribution type="GenericStructure" id="{mogami-building-mansyon07-61CF542171A7}">
+ <group>分譲マンション(2x2)</group> 
+ <structure>
+ <category byname="分譲マンション" /> 
+ </structure>
+ <price>10000000</price> 
+ <size>2,2</size> 
+ <minHeight>2</minHeight> 
+ <maxHeight>8</maxHeight> 
+ <computerCannotBuild />
+ <population>
+ <class name="freetrain.contributions.population.ResidentialPopulation" />  
+ <base>400</base> 
+ </population>
+ <pictures>
+ <top origin="0,1" offset="32">
+ <picture ref="{mogami-building-mansyon07-picture-883E8A066814}" /> 
+ </top>
+ <middle origin="0,67" offset="32">
+ <picture ref="{mogami-building-mansyon07-picture-883E8A066814}" /> 
+ </middle>
+ <bottom origin="0,124" offset="32">
+ <picture ref="{mogami-building-mansyon07-picture-883E8A066814}" /> 
+ </bottom>
+ </pictures>
+ </contribution>
+</plug-in>

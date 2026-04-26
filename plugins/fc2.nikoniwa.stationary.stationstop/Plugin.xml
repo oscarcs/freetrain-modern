@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+ <plug-in>
+  <title>駅車止めプラグイン</title> 
+  <author>201-nishi(駅は綾瀬ヒロ氏、バラストは花菱烈火氏)</author> 
+  <homepage>http://niconiwa.wiki.fc2.com/</homepage> 
+  
+　<contribution type="picture" id="{201-nishi-picture-stoprailstation-A0DB42934E04}">
+  <picture src="stoprailstation.bmp" /> 
+  </contribution>
+  
+  <contribution type="railStationary" id="{201-nishi-railStationary-stoprailstation-A0DB42934E04-A}">
+  <group>花菱バラスト車止め(駅)</group> 
+  <price>100000</price> 
+  <size>1,1</size> 
+  <height>1</height> 
+  <sprite origin="0,0" offset="16">
+  <picture ref="{201-nishi-picture-stoprailstation-A0DB42934E04}" /> 
+  </sprite>
+  </contribution>
+  
+  <contribution type="railStationary" id="{201-nishi-railStationary-stoprailstation-A0DB42934E04-B}">
+  <group>花菱バラスト車止め(駅)</group> 
+  <price>100000</price> 
+  <size>1,1</size> 
+  <height>1</height> 
+  <sprite origin="32,0" offset="16">
+  <picture ref="{201-nishi-picture-stoprailstation-A0DB42934E04}" /> 
+  </sprite>
+  </contribution>
+  
+  <contribution type="railStationary" id="{201-nishi-railStationary-stoprailstation-A0DB42934E04-C}">
+  <group>花菱バラスト車止め(駅)</group> 
+  <price>100000</price> 
+  <size>1,1</size> 
+  <height>1</height> 
+  <sprite origin="64,0" offset="16">
+  <picture ref="{201-nishi-picture-stoprailstation-A0DB42934E04}" /> 
+  </sprite>
+  </contribution>
+  <contribution type="railStationary" id="{201-nishi-railStationary-stoprailstation-A0DB42934E04-D}">
+  <group>花菱バラスト車止め(駅)</group> 
+  <price>100000</price> 
+  <size>1,1</size> 
+  <height>1</height> 
+  <sprite origin="96,0" offset="16">
+  <picture ref="{201-nishi-picture-stoprailstation-A0DB42934E04}" /> 
+  </sprite>
+  </contribution>
+  <contribution type="railStationary" id="{201-nishi-railStationary-stoprailstation-A0DB42934E04-E}">
+  <group>花菱バラスト車止め(駅)</group> 
+  <price>100000</price> 
+  <size>1,1</size> 
+  <height>1</height> 
+  <sprite origin="128,0" offset="16">
+  <picture ref="{201-nishi-picture-stoprailstation-A0DB42934E04}" /> 
+  </sprite>
+  </contribution>
+  <contribution type="railStationary" id="{201-nishi-railStationary-stoprailstation-A0DB42934E04-F}">
+  <group>花菱バラスト車止め(駅)</group> 
+  <price>100000</price> 
+  <size>1,1</size> 
+  <height>1</height> 
+  <sprite origin="160,0" offset="16">
+  <picture ref="{201-nishi-picture-stoprailstation-A0DB42934E04}" /> 
+  </sprite>
+  </contribution>
+  <contribution type="railStationary" id="{201-nishi-railStationary-stoprailstation-A0DB42934E04-G}">
+  <group>花菱バラスト車止め(駅)</group> 
+  <price>100000</price> 
+  <size>1,1</size> 
+  <height>1</height> 
+  <sprite origin="192,0" offset="16">
+  <picture ref="{201-nishi-picture-stoprailstation-A0DB42934E04}" /> 
+  </sprite>
+  </contribution>
+  <contribution type="railStationary" id="{201-nishi-railStationary-stoprailstation-A0DB42934E04-H}">
+  <group>花菱バラスト車止め(駅)</group> 
+  <price>100000</price> 
+  <size>1,1</size> 
+  <height>1</height> 
+  <sprite origin="224,0" offset="16">
+  <picture ref="{201-nishi-picture-stoprailstation-A0DB42934E04}" /> 
+  </sprite>
+  </contribution>
+ </plug-in>

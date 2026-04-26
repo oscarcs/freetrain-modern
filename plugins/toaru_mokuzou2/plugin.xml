@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plug-in [
+<!ENTITY mokuzouA '
+	<group>木造民家</group>
+	<price>5000000</price>
+	<size>1,1</size>
+	<structure>
+		<category byname="一戸建て"/>
+	</structure>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.ResidentialPopulation"/>
+		<base>3</base>
+	</population>
+'>
+<!ENTITY mokuzouB '
+	<group>木造民家</group>
+	<price>5000000</price>
+	<size>1,1</size>
+	<structure>
+		<category byname="一戸建て"/>
+	</structure>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.ResidentialPopulation"/>
+		<base>5</base>
+	</population>
+
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="154,154,154"/>
+		<map from="0,*,0" to="243,152,53"/>
+		<map from="0,0,*" to="64,104,104"/>
+	</spriteType>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="147,82,98"/>
+		<map from="0,*,0" to="243,152,53"/>
+		<map from="0,0,*" to="154,154,154"/>
+	</spriteType>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="147,82,98"/>
+		<map from="0,*,0" to="243,152,53"/>
+		<map from="0,0,*" to="64,104,104"/>
+	</spriteType>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="33,122,12"/>
+		<map from="0,*,0" to="243,152,53"/>
+		<map from="0,0,*" to="147,82,98"/>
+	</spriteType>
+
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="147,82,98"/>
+		<map from="0,*,0" to="128,90,62"/>
+		<map from="0,0,*" to="64,104,104"/>
+	</spriteType>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="64,104,104"/>
+		<map from="0,*,0" to="128,90,62"/>
+		<map from="0,0,*" to="147,82,98"/>
+	</spriteType>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="154,154,154"/>
+		<map from="0,*,0" to="128,90,62"/>
+		<map from="0,0,*" to="147,82,98"/>
+	</spriteType>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="147,82,98"/>
+		<map from="0,*,0" to="128,90,62"/>
+		<map from="0,0,*" to="33,152,12"/>
+	</spriteType>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="33,152,12"/>
+		<map from="0,*,0" to="128,90,62"/>
+		<map from="0,0,*" to="64,104,104"/>
+	</spriteType>
+
+
+
+
+'>
+]>
+<plug-in>
+
+	<title>木造民家</title>
+	<author>toaru</author>
+	<homepage>-</homepage>
+		
+	<contribution type="picture" id="{3AA1CE70-2748-4FA6-8FA6-2701A55FFB2F}">
+		<picture src="11-13.bmp">
+		<override when="night" src="11-13_n.bmp">
+		</override>	
+		</picture>
+	</contribution>
+		
+	<contribution type="GenericStructure" id="{A1A8DF90-4F62-44CB-B629-C1EE1A4E7D7D}">
+		&mokuzouB;
+		<sprite origin="0,0" offset="16">
+			<picture ref="{3AA1CE70-2748-4FA6-8FA6-2701A55FFB2F}"/>
+			<map from="*,0,0" to="{COLORLIB-DIRTS}"/>
+			<map from="0,0,*" to="{COLORLIB-DIRTS}"/>
+			<map from="0,*,0" to="{COLORLIB-WOODS}"/>
+		</sprite>
+		<sprite origin="0,32" offset="16">
+			<picture ref="{3AA1CE70-2748-4FA6-8FA6-2701A55FFB2F}"/>
+			<map from="*,0,0" to="{COLORLIB-DIRTS}"/>
+			<map from="0,0,*" to="{COLORLIB-DIRTS}"/>
+			<map from="0,*,0" to="{COLORLIB-WOODS}"/>
+		</sprite>
+		<sprite origin="32,0" offset="16">
+			<picture ref="{3AA1CE70-2748-4FA6-8FA6-2701A55FFB2F}"/>
+			<map from="*,0,0" to="{COLORLIB-DIRTS}"/>
+			<map from="0,0,*" to="{COLORLIB-DIRTS}"/>
+			<map from="0,*,0" to="{COLORLIB-WOODS}"/>
+		</sprite>
+		<sprite origin="32,32" offset="16">
+			<picture ref="{3AA1CE70-2748-4FA6-8FA6-2701A55FFB2F}"/>
+			<map from="*,0,0" to="{COLORLIB-DIRTS}"/>
+			<map from="0,0,*" to="{COLORLIB-DIRTS}"/>
+			<map from="0,*,0" to="{COLORLIB-WOODS}"/>
+		</sprite>
+	</contribution>
+
+</plug-in>

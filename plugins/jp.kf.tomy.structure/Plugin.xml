@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+
+<plug-in>
+<title>建物プラグイン</title>
+<author>トミー</author>
+<homepage>Nothing</homepage>
+
+<!-- 船舶 -->
+<!-- 小型漁船 -->
+<contribution type="picture" id="{FreeTrain-TOMY-picture-gyosen-20050511-s01}">
+	<picture src = "fishing vessel_s.bmp"/>
+</contribution>
+<contribution type="GenericStructure" id="{FreeTrain-TOMY-structure-gyosen-20050511-s01}">
+	<group>漁船</group>
+	<design>小型漁船</design>
+	<structure>
+		<category byname="船舶関連施設"/>
+	</structure>
+	<price>2500000</price>
+	<size>1,1</size>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>2</base>
+	</population>
+	<computerCannotBuild />
+	<sprite origin="0,0" offset="0">
+		<picture ref="{FreeTrain-TOMY-picture-gyosen-20050511-s01}"/>
+	</sprite>
+        <sprite origin="32,0" offset="0" opposite="true">
+		<picture ref="{FreeTrain-TOMY-picture-gyosen-20050511-s01}"/>
+	</sprite>
+</contribution>
+
+<!-- 中型漁船 -->
+<contribution type="picture" id="{FreeTrain-TOMY-picture-gyosen-20050511-m01}">
+	<picture src = "fishing vessel_m.bmp"/>
+</contribution>
+<contribution type="GenericStructure" id="{FreeTrain-TOMY-structure-gyosen-20050511-m01}">
+	<group>漁船</group>
+	<design>中型漁船</design>
+	<structure>
+		<category byname="船舶関連施設"/>
+	</structure>
+	<price>5000000</price>
+	<size>1,2</size>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>6</base>
+	</population>
+	<computerCannotBuild />
+	<sprite origin="0,0" offset="0">
+		<picture ref="{FreeTrain-TOMY-picture-gyosen-20050511-m01}"/>
+	</sprite>
+        <sprite origin="48,0" offset="8" opposite="true">
+		<picture ref="{FreeTrain-TOMY-picture-gyosen-20050511-m01}"/>
+	</sprite>
+</contribution>
+
+<!-- ＬＮＧ運搬船 -->
+<contribution type="picture" id="{FreeTrain-TOMY-picture-LNGcarriers-20050609-01}">
+	<picture src = "LNG_carriers.bmp"/>
+</contribution>
+<contribution type="GenericStructure" id="{FreeTrain-TOMY-structure-LNGcarriers-20050609-01}">
+	<group>運搬船</group>
+	<design>LNG運搬船</design>
+	<structure>
+		<category byname="船舶関連施設"/>
+	</structure>
+	<price>200000000</price>
+	<size>1,5</size>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>15</base>
+	</population>
+	<computerCannotBuild />
+	<sprite origin="0,0" offset="16">
+		<picture ref="{FreeTrain-TOMY-picture-LNGcarriers-20050609-01}"/>
+	</sprite>
+        <sprite origin="96,0" offset="48" opposite="true">
+		<picture ref="{FreeTrain-TOMY-picture-LNGcarriers-20050609-01}"/>
+	</sprite>
+</contribution>
+
+<!-- ＯＩＬ運搬船 -->
+<contribution type="picture" id="{FreeTrain-TOMY-picture-OILcarriers-20050609-01}">
+	<picture src = "OIL_tankers.bmp"/>
+</contribution>
+<contribution type="GenericStructure" id="{FreeTrain-TOMY-structure-OILcarriers-20050609-01}">
+	<group>運搬船</group>
+	<design>OIL運搬船</design>
+	<structure>
+		<category byname="船舶関連施設"/>
+	</structure>
+	<price>195000000</price>
+	<size>1,5</size>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>15</base>
+	</population>
+	<computerCannotBuild />
+	<sprite origin="0,0" offset="16">
+		<picture ref="{FreeTrain-TOMY-picture-OILcarriers-20050609-01}"/>
+	</sprite>
+        <sprite origin="96,0" offset="48" opposite="true">
+		<picture ref="{FreeTrain-TOMY-picture-OILcarriers-20050609-01}"/>
+	</sprite>
+</contribution>
+
+<!-- 軍事施設 -->
+<!-- イージス艦 -->
+<contribution type="picture" id="{FreeTrain-TOMY-picture-navy-20041123-001}">
+	<picture src = "navy_ddg.bmp"/>
+</contribution>
+<contribution type="GenericStructure" id="{FreeTrain-TOMY-structure-navy-20041123-001}">
+	<group>軍事施設</group>
+	<name>海軍</name>
+	<design>イージス艦</design>
+	<structure>
+		<category byname="軍事施設"/>
+	</structure>
+	<price>3200000000</price>
+	<size>1,4</size>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.CombinationPopulation"/>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>0</base>
+		</population>
+	</population>
+	<computerCannotBuild />
+	<sprite origin="0,0" offset="0">
+		<picture ref="{FreeTrain-TOMY-picture-navy-20041123-001}"/>
+	</sprite>
+        <sprite origin="80,0" offset="24" opposite="true">
+		<picture ref="{FreeTrain-TOMY-picture-navy-20041123-001}"/>
+	</sprite>
+</contribution>
+
+<!-- 駆逐艦 -->
+<contribution type="picture" id="{FreeTrain-TOMY-picture-navy-20041123-002}">
+	<picture src = "navy_dd.bmp" />
+</contribution>
+<contribution type="GenericStructure" id="{FreeTrain-TOMY-structure-navy-20041123-002}">
+	<group>軍事施設</group>
+	<name>海軍</name>
+	<design>駆逐艦</design>
+	<structure>
+		<category byname="軍事施設"/>
+	</structure>
+	<price>2800000000</price>
+	<size>1,3</size>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.CombinationPopulation"/>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>0</base>
+		</population>
+	</population>
+	<computerCannotBuild />
+	<sprite origin="0,0" offset="1">
+		<picture ref="{FreeTrain-TOMY-picture-navy-20041123-002}"/>
+	</sprite>
+	<sprite origin="64,0" offset="17" opposite="true">
+		<picture ref="{FreeTrain-TOMY-picture-navy-20041123-002}"/>
+	</sprite>
+</contribution>
+
+<!-- 潜水艦 -->
+<contribution type="picture" id="{FreeTrain-TOMY-picture-navy-20041123-003}">
+	<picture src = "navy_ss.bmp" />
+</contribution>
+<contribution type="GenericStructure" id="{FreeTrain-TOMY-structure-navy-20041123-003}">
+	<group>軍事施設</group>
+	<name>海軍</name>
+	<design>潜水艦</design>
+	<structure>
+		<category byname="軍事施設"/>
+	</structure>
+	<price>2400000000</price>
+	<size>1,2</size>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.CombinationPopulation"/>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>0</base>
+		</population>
+	</population>
+	<computerCannotBuild />
+	<sprite origin="0,0" offset="0">
+		<picture ref="{FreeTrain-TOMY-picture-navy-20041123-003}"/>
+	</sprite>
+	<sprite origin="48,0" offset="8" opposite="true">
+		<picture ref="{FreeTrain-TOMY-picture-navy-20041123-003}"/>
+	</sprite>
+</contribution>
+
+<!-- 補給艦 -->
+<contribution type="picture" id="{FreeTrain-TOMY-picture-navy-20041123-004}">
+	<picture src = "navy_aoe.bmp" />
+</contribution>
+<contribution type="GenericStructure" id="{FreeTrain-TOMY-structure-navy-20041123-004}">
+	<group>軍事施設</group>
+	<name>海軍</name>
+	<design>補給艦</design>
+	<structure>
+		<category byname="軍事施設"/>
+	</structure>
+	<price>2500000000</price>
+	<size>1,4</size>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.CombinationPopulation"/>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>0</base>
+		</population>
+	</population>
+	<computerCannotBuild />
+	<sprite origin="0,0" offset="1">
+		<picture ref="{FreeTrain-TOMY-picture-navy-20041123-004}"/>
+	</sprite>
+	<sprite origin="80,0" offset="25" opposite="true">
+		<picture ref="{FreeTrain-TOMY-picture-navy-20041123-004}"/>
+	</sprite>
+</contribution>
+
+
+<!-- 放送事業用電波塔１ -->
+<contribution type="picture" id="{freetrain-tomy-tokyotoewr-20050606-p001}">
+	<picture src="tower_tokyo.bmp">
+                <override when="night" src="tower_tokyo_n.bmp"/>
+	</picture>
+</contribution>
+<contribution type="GenericStructure" id="{freetrain-tomy-tokyotower-20050606-s001}">
+	<group>ランドマーク</group>
+        <design>放送電波タワー</design>
+        <structure>
+	        <category byname="ランドマーク"/>
+	        <category byname="放送メディア"/>
+        </structure>
+	<price>11250000000</price>
+	<size>5,5</size>
+	<height>15</height>
+        <population>
+	        <class name="freetrain.contributions.population.CombinationPopulation"/>
+	        <population>
+		        <class name="freetrain.contributions.population.OfficePopulation"/>
+		        <base>150</base>
+	        </population>
+	        <population>
+		        <class name="freetrain.contributions.population.RestaurantPopulation"/>
+		        <base>350</base>
+	        </population>
+	        <population>
+		        <class name="freetrain.contributions.population.LeisureLandPopulation"/>
+		        <base>850</base>
+	        </population>
+        </population>
+	<computerCannotBuild />
+	<sprite origin="0,0" offset="272">
+		<picture ref="{freetrain-tomy-tokyotoewr-20050606-p001}"/>
+	</sprite>
+</contribution>
+
+<!-- 放送事業用電波塔２ -->
+<contribution type="picture" id="{freetrain-tomy-porttoewr-20050615-p001}">
+	<picture src="tower_port.bmp">
+                <override when="night" src="tower_port_n.bmp"/>
+	</picture>
+</contribution>
+<contribution type="GenericStructure" id="{freetrain-tomy-porttower-20050615-s001}">
+	<group>ランドマーク</group>
+        <design>ポートタワー</design>
+        <structure>
+	        <category byname="ランドマーク"/>
+	        <category byname="放送メディア"/>
+        </structure>
+	<price>2430000000</price>
+	<size>3,3</size>
+	<height>9</height>
+        <population>
+	        <class name="freetrain.contributions.population.CombinationPopulation"/>
+	        <population>
+		        <class name="freetrain.contributions.population.OfficePopulation"/>
+		        <base>75</base>
+	        </population>
+	        <population>
+		        <class name="freetrain.contributions.population.RestaurantPopulation"/>
+		        <base>150</base>
+	        </population>
+	        <population>
+		        <class name="freetrain.contributions.population.LeisureLandPopulation"/>
+		        <base>450</base>
+	        </population>
+        </population>
+	<computerCannotBuild />
+	<sprite origin="0,0" offset="160">
+		<picture ref="{freetrain-tomy-porttoewr-20050615-p001}"/>
+	</sprite>
+</contribution>
+
+
+<!-- 議事堂 -->
+<contribution type="picture" id="{freetrain-tomy-DietTemple-20050613-p001}">
+	<picture src="Diet temple.bmp">
+                <override when="autumn" src="Diet temple_au.bmp"/>
+                <override when="winter" src="Diet temple_wi.bmp"/>
+	</picture>
+</contribution>
+<contribution type="GenericStructure" id="{freetrain-tomy-DietTemple-20050613-s001}">
+	<group>議事堂</group>
+        <design>議事堂</design>
+        <structure>
+	        <category byname="役所"/>
+        </structure>
+	<price>1150000000</price>
+	<size>4,5</size>
+	<height>1</height>
+        <population>
+	        <class name="freetrain.contributions.population.CombinationPopulation"/>
+	        <population>
+		        <class name="freetrain.contributions.population.OfficePopulation"/>
+		        <base>400</base>
+	        </population>
+	        <population>
+		        <class name="freetrain.contributions.population.LeisureLandPopulation"/>
+		        <base>200</base>
+	        </population>
+        </population>
+	<computerCannotBuild />
+	<sprite origin="0,0" offset="32">
+		<picture ref="{freetrain-tomy-DietTemple-20050613-p001}"/>
+	</sprite>
+</contribution>
+
+
+<!-- 交番 -->
+<contribution type="picture" id="{freetrain-tomy-PoliceBox-20050619-p001}">
+	<picture src="police_box.bmp">
+                <override when="night" src="police_box_n.bmp"/>
+	</picture>
+</contribution>
+<contribution type="GenericStructure" id="{freetrain-tomy-PoliceBox-20050619-s001}">
+	<group>警察署</group>
+        <design>交番</design>
+        <structure>
+	        <category byname="警察署"/>
+        </structure>
+	<price>3000000</price>
+	<size>1,1</size>
+	<height>1</height>
+        <population>
+	        <class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>3</base>
+        </population>
+	<computerCannotBuild />
+	<sprite origin="0,0" offset="8">
+		<picture ref="{freetrain-tomy-PoliceBox-20050619-p001}"/>
+	</sprite>
+        <sprite origin="32,0" offset="8" opposite="true">
+		<picture ref="{freetrain-tomy-PoliceBox-20050619-p001}"/>
+	</sprite>
+	<sprite origin="64,0" offset="8">
+		<picture ref="{freetrain-tomy-PoliceBox-20050619-p001}"/>
+	</sprite>
+        <sprite origin="96,0" offset="8" opposite="true">
+		<picture ref="{freetrain-tomy-PoliceBox-20050619-p001}"/>
+	</sprite>
+</contribution>
+
+<!-- 警察署 -->
+<contribution type="picture" id="{freetrain-tomy-Police-20050621-p001}">
+	<picture src="police.bmp" />
+</contribution>
+<contribution type="GenericStructure" id="{freetrain-tomy-Police-20050621-s001}">
+	<group>警察署</group>
+        <design>警察署</design>
+        <structure>
+	        <category byname="警察署"/>
+        </structure>
+	<price>10500000</price>
+	<size>2,2</size>
+	<height>1</height>
+        <population>
+	        <class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>80</base>
+        </population>
+	<computerCannotBuild />
+	<sprite origin="0,0" offset="24">
+		<picture ref="{freetrain-tomy-Police-20050621-p001}"/>
+	</sprite>
+        <sprite origin="64,0" offset="24" opposite="true">
+		<picture ref="{freetrain-tomy-Police-20050621-p001}"/>
+	</sprite>
+	<sprite origin="128,0" offset="24">
+		<picture ref="{freetrain-tomy-Police-20050621-p001}"/>
+	</sprite>
+        <sprite origin="192,0" offset="24" opposite="true">
+		<picture ref="{freetrain-tomy-Police-20050621-p001}"/>
+	</sprite>
+</contribution>
+
+
+<!-- 消防局 -->
+<contribution type="picture" id="{freetrain-tomy-firehouse-20050622-p001}">
+	<picture src="firehouse.bmp" />
+</contribution>
+<contribution type="GenericStructure" id="{freetrain-tomy-firehouse-20050622-s001}">
+	<group>消防署</group>
+        <design>消防局</design>
+        <structure>
+	        <category byname="消防署"/>
+        </structure>
+	<price>12500000</price>
+	<size>2,2</size>
+	<height>1</height>
+        <population>
+	        <class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>45</base>
+        </population>
+	<computerCannotBuild />
+	<sprite origin="0,0" offset="24">
+		<picture ref="{freetrain-tomy-firehouse-20050622-p001}"/>
+	</sprite>
+        <sprite origin="64,0" offset="24" opposite="true">
+		<picture ref="{freetrain-tomy-firehouse-20050622-p001}"/>
+	</sprite>
+</contribution>
+
+
+<!-- 原子力発電所 -->
+<contribution type="picture" id="{freetrain-tomy-AtomicPowerPlant-20050824-p001}">
+	<picture src="AtomicPowerPlant.bmp" />
+</contribution>
+<contribution type="GenericStructure" id="{freetrain-tomy-AtomicPowerPlant-20050824-s001}">
+	<name>原子力発電所</name>
+        <design>原子力発電所</design>
+        <structure>
+	        <category byname="原子力発電所"/>
+        </structure>
+	<price>185000000</price>
+	<size>3,5</size>
+	<height>3</height>
+        <population>
+	        <class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>320</base>
+        </population>
+	<computerCannotBuild />
+	<sprite origin="0,0" offset="48">
+		<picture ref="{freetrain-tomy-AtomicPowerPlant-20050824-p001}"/>
+	</sprite>
+        <sprite origin="128,0" offset="64" opposite="true">
+		<picture ref="{freetrain-tomy-AtomicPowerPlant-20050824-p001}"/>
+	</sprite>
+</contribution>
+
+</plug-in>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>横丁飲み屋（４方向）</title>
+	<author>toaru</author>
+	<homepage> / </homepage>
+
+<contribution type="picture" id="{toaru-building-nomiya-picture-E7D95B0D8FCE}">
+		<picture src="nomiyagai.bmp">
+			<override when="night" src="nomiyagai_n.bmp" />
+		</picture>
+</contribution>
+	
+<contribution type="GenericStructure" id="{toaru-building-nomiya-gs01-E7D95B0D8FCE-1}">
+		<name>横丁飲み屋</name>
+		<price>16000000</price>
+		<size>1,1</size>
+		<structure>
+			<category byname="酒場"/>
+		</structure>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.BarPopulation"/>
+			<base>70</base>
+		</population>
+		<sprite origin="0,0" offset="47">
+			<picture ref="{toaru-building-nomiya-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="32,0" offset="47">
+			<picture ref="{toaru-building-nomiya-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="0,64" offset="47">
+			<picture ref="{toaru-building-nomiya-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="32,64" offset="47">
+			<picture ref="{toaru-building-nomiya-picture-E7D95B0D8FCE}"/>
+		</sprite>
+
+</contribution>
+
+<contribution type="GenericStructure" id="{toaru-building-nomiya-gs01-E7D95B0D8FCE-2}">
+		<name>横丁飲み屋</name>
+		<price>16000000</price>
+		<size>1,1</size>
+		<structure>
+			<category byname="酒場"/>
+		</structure>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.BarPopulation"/>
+			<base>70</base>
+		</population>
+		<sprite origin="64,0" offset="47">
+			<picture ref="{toaru-building-nomiya-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="96,0" offset="47">
+			<picture ref="{toaru-building-nomiya-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="64,64" offset="47">
+			<picture ref="{toaru-building-nomiya-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="96,64" offset="47">
+			<picture ref="{toaru-building-nomiya-picture-E7D95B0D8FCE}"/>
+		</sprite>
+
+</contribution>
+
+<contribution type="GenericStructure" id="{toaru-building-nomiya-gs01-E7D95B0D8FCE-3}">
+		<name>横丁飲み屋</name>
+		<price>16000000</price>
+		<size>1,1</size>
+		<structure>
+			<category byname="酒場"/>
+		</structure>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.BarPopulation"/>
+			<base>70</base>
+		</population>
+		<sprite origin="128,0" offset="47">
+			<picture ref="{toaru-building-nomiya-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="160,0" offset="47">
+			<picture ref="{toaru-building-nomiya-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="128,64" offset="47">
+			<picture ref="{toaru-building-nomiya-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="160,64" offset="47">
+			<picture ref="{toaru-building-nomiya-picture-E7D95B0D8FCE}"/>
+		</sprite>
+
+</contribution>
+
+<contribution type="GenericStructure" id="{toaru-building-nomiya-gs01-E7D95B0D8FCE-4-1}">
+		<name>特殊飲食店</name>
+		<price>160000000</price>
+		<size>1,1</size>
+		<structure>
+			<category byname="性風俗"/>
+		</structure>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.BarPopulation"/>
+			<base>70</base>
+		</population>
+		<sprite origin="192,0" offset="47">
+			<picture ref="{toaru-building-nomiya-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="224,0" offset="47">
+			<picture ref="{toaru-building-nomiya-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		
+</contribution>
+<contribution type="GenericStructure" id="{toaru-building-nomiya-gs01-E7D95B0D8FCE-4-2}">
+		<name>特殊飲食店</name>
+		<price>160000000</price>
+		<size>1,1</size>
+		<structure>
+			<category byname="性風俗"/>
+		</structure>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.BarPopulation"/>
+			<base>70</base>
+		</population>
+		
+		<sprite origin="192,64" offset="47">
+			<picture ref="{toaru-building-nomiya-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="224,64" offset="47">
+			<picture ref="{toaru-building-nomiya-picture-E7D95B0D8FCE}"/>
+		</sprite>
+
+</contribution>
+
+<contribution type="GenericStructure" id="{toaru-building-nomiya-gs01-E7D95B0D8FCE-5}">
+		<name>横丁飲み屋角地</name>
+		<price>16000000</price>
+		<size>1,1</size>
+		<structure>
+			<category byname="酒場"/>
+		</structure>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.BarPopulation"/>
+			<base>70</base>
+		</population>
+		<sprite origin="0,128" offset="47">
+			<picture ref="{toaru-building-nomiya-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="32,128" offset="47">
+			<picture ref="{toaru-building-nomiya-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="0,192" offset="47">
+			<picture ref="{toaru-building-nomiya-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="32,192" offset="47">
+			<picture ref="{toaru-building-nomiya-picture-E7D95B0D8FCE}"/>
+		</sprite>
+
+</contribution>
+
+<contribution type="GenericStructure" id="{toaru-building-nomiya-gs01-E7D95B0D8FCE-6}">
+		<name>横丁飲み屋角地</name>
+		<price>16000000</price>
+		<size>1,1</size>
+		<structure>
+			<category byname="酒場"/>
+		</structure>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.BarPopulation"/>
+			<base>70</base>
+		</population>
+		<sprite origin="64,128" offset="47">
+			<picture ref="{toaru-building-nomiya-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="96,128" offset="47">
+			<picture ref="{toaru-building-nomiya-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="64,192" offset="47">
+			<picture ref="{toaru-building-nomiya-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="96,192" offset="47">
+			<picture ref="{toaru-building-nomiya-picture-E7D95B0D8FCE}"/>
+		</sprite>
+
+</contribution>
+
+<contribution type="GenericStructure" id="{toaru-building-nomiya-gs01-E7D95B0D8FCE-7}">
+		<name>横丁飲み屋</name>
+		<price>16000000</price>
+		<size>1,1</size>
+		<structure>
+			<category byname="酒場"/>
+		</structure>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.BarPopulation"/>
+			<base>70</base>
+		</population>
+		<sprite origin="128,128" offset="47">
+			<picture ref="{toaru-building-nomiya-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="160,128" offset="47">
+			<picture ref="{toaru-building-nomiya-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="128,192" offset="47">
+			<picture ref="{toaru-building-nomiya-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="160,192" offset="47">
+			<picture ref="{toaru-building-nomiya-picture-E7D95B0D8FCE}"/>
+		</sprite>
+
+</contribution>
+
+<contribution type="GenericStructure" id="{toaru-building-nomiya-gs01-E7D95B0D8FCE-8-1}">
+		<name>特殊飲食店</name>
+		<price>160000000</price>
+		<size>1,1</size>
+		<structure>
+			<category byname="性風俗"/>
+		</structure>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.BarPopulation"/>
+			<base>70</base>
+		</population>
+		<sprite origin="192,128" offset="47">
+			<picture ref="{toaru-building-nomiya-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="224,128" offset="47">
+			<picture ref="{toaru-building-nomiya-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		
+</contribution>
+<contribution type="GenericStructure" id="{toaru-building-nomiya-gs01-E7D95B0D8FCE-8-2}">
+		<name>特殊飲食店</name>
+		<price>160000000</price>
+		<size>1,1</size>
+		<structure>
+			<category byname="性風俗"/>
+		</structure>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.BarPopulation"/>
+			<base>70</base>
+		</population>
+		
+		<sprite origin="192,192" offset="47">
+			<picture ref="{toaru-building-nomiya-picture-E7D95B0D8FCE}"/>
+		</sprite>
+		<sprite origin="224,192" offset="47">
+			<picture ref="{toaru-building-nomiya-picture-E7D95B0D8FCE}"/>
+		</sprite>
+
+</contribution>
+
+
+
+</plug-in>

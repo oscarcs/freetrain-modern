@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>建物総合コンバート　綾瀬ヒロ</title>
+	<author>りおりお</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+	<depend on="jp.big.ayase.freetrain.structure.plants" />
+	
+	
+	<contribution type="GenericStructure" id="{FreeTrain-AYASE-Hiro-StructureImpl-Plants-01a}-gs">
+		<group>工場(小)</group>
+		<price>20000000</price>
+		<height>5</height>
+		<size>2,2</size>
+		<structure>
+			<category byname="軽工業工場" />
+		</structure>
+		<sprite origin="0,0" offset="72">
+			<picture ref="{FreeTrain-AYASE-Hiro-StructureImage-Plants-01}"/>
+		</sprite>
+		<sprite origin="64,0" offset="72" opposite="true">
+			<picture ref="{FreeTrain-AYASE-Hiro-StructureImage-Plants-01}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	
+	
+	<contribution type="GenericStructure" id="{FreeTrain-AYASE-Hiro-StructureImpl-Plants-02a}-gs">
+		<group>倉庫</group>
+		<price>10000000</price>
+		<height>2</height>
+		<size>5,2</size>
+		<structure>
+			<category byname="倉庫" />
+		</structure>
+		<sprite origin="0,0" offset="56">
+			<picture ref="{FreeTrain-AYASE-Hiro-StructureImage-Plants-02}"/>
+		</sprite>
+		<sprite origin="112,0" offset="32" opposite="true">
+			<picture ref="{FreeTrain-AYASE-Hiro-StructureImage-Plants-02}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+</plug-in>

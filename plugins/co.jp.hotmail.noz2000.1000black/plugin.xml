@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+<plug-in>
+  <title>京急旧1000形（黒幕車）</title> 
+  <author>Noz</author> 
+  <homepage></homepage>
+ 
+<!-- 1000形 先頭車 --> 
+　<contribution type="trainCar" id="{ED2D4B27-9585-4005-93D3-DD71B2B9E875}-A">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="keikyu1000a.bmp" /> 
+  </sprite>
+  <capacity>140</capacity> 
+  <seatedcapacity>54</seatedcapacity>
+  </contribution>
+<!-- 1000形 パンタ先頭車 --> 
+　<contribution type="trainCar" id="{ED2D4B27-9585-4005-93D3-DD71B2B9E875}-AP">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="keikyu1000ap.bmp" /> 
+  </sprite>
+  <capacity>140</capacity> 
+  <seatedcapacity>54</seatedcapacity>
+  </contribution>
+
+<!-- 1000形 最後尾車 -->
+　<contribution type="trainCar" id="{ED2D4B27-9585-4005-93D3-DD71B2B9E875}-B">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{ED2D4B27-9585-4005-93D3-DD71B2B9E875}-A" />  
+  </contribution> 
+<!--1000形 中間車-->
+　<contribution type="trainCar" id="{ED2D4B27-9585-4005-93D3-DD71B2B9E875}-C">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="keikyu1000b.bmp" /> 
+  </sprite>
+  <capacity>140</capacity> 
+  <seatedcapacity>60</seatedcapacity>
+  </contribution>
+<!--1000形 パンタ車-->
+　<contribution type="trainCar" id="{ED2D4B27-9585-4005-93D3-DD71B2B9E875}-P">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="keikyu1000b-p.bmp" /> 
+  </sprite>
+  <capacity>140</capacity> 
+  <seatedcapacity>60</seatedcapacity>
+  </contribution>
+
+
+  <contribution type="train" id="{8482AE3A-8EC8-44B8-9D8A-7F9846E19F0C}">
+<company>京浜急行電鉄</company>
+<type>1000形黒幕車(高)</type>
+<name>京急線</name>
+<author>Noz</author>
+<description>1959年に登場した車両。このFグループは1971年から1978年にかけて製造されたものです。この車両は高速です。2、4、6、8、12（8+4）編成を用意しています。
+</description>
+<fare>400</fare>
+<price>28000000</price>
+<amenity>95</amenity>
+<speed>fast</speed>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<config>
+<car char="a" ref="{ED2D4B27-9585-4005-93D3-DD71B2B9E875}-AP"/>
+<car char="c" ref="{ED2D4B27-9585-4005-93D3-DD71B2B9E875}-C"/>
+<car char="d" ref="{ED2D4B27-9585-4005-93D3-DD71B2B9E875}-B"/> 
+<car char="b" ref="{ED2D4B27-9585-4005-93D3-DD71B2B9E875}-P"/> 
+<composition>ad</composition>
+<composition>acbd</composition>
+<composition>acbcbd</composition>
+<composition>acbcbcbd</composition>
+<composition>acbcbcbdacbd</composition>
+</config>
+</contribution>
+
+  <contribution type="train" id="{962B65D1-DE97-4DF1-B147-000542B29262}">
+<company>京浜急行電鉄</company>
+<type>1000形黒幕車(中)</type>
+<name>京急線</name>
+<author>Noz</author>
+<description>1959年に登場した車両。このFグループは1971年から1978年にかけて製造されたものです。この車両は中速です。2、4、6、8、12（8+4）編成を用意しています。
+</description>
+<fare>400</fare>
+<price>28000000</price>
+<amenity>95</amenity>
+<speed>medium</speed>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<config>
+<car char="a" ref="{ED2D4B27-9585-4005-93D3-DD71B2B9E875}-AP"/>
+<car char="c" ref="{ED2D4B27-9585-4005-93D3-DD71B2B9E875}-C"/>
+<car char="d" ref="{ED2D4B27-9585-4005-93D3-DD71B2B9E875}-B"/> 
+<car char="b" ref="{ED2D4B27-9585-4005-93D3-DD71B2B9E875}-P"/> 
+<composition>ad</composition>
+<composition>acbd</composition>
+<composition>acbcbd</composition>
+<composition>acbcbcbd</composition>
+<composition>acbcbcbdacbd</composition>
+</config>
+</contribution>
+
+
+  <contribution type="train" id="{1BFDB80B-FD4C-4DFD-BD51-0D05E2A21B79}">
+<company>京浜急行電鉄</company>
+<type>1000形黒幕車(低)</type>
+<name>京急線</name>
+<author>Noz</author>
+<description>1959年に登場した車両。このFグループは1971年から1978年にかけて製造されたものです。この車両は低速です。2、4、6、8、12（8+4）編成を用意しています。
+</description>
+<fare>400</fare>
+<price>28000000</price>
+<amenity>95</amenity>
+<speed>slow</speed>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<config>
+<car char="a" ref="{ED2D4B27-9585-4005-93D3-DD71B2B9E875}-AP"/>
+<car char="c" ref="{ED2D4B27-9585-4005-93D3-DD71B2B9E875}-C"/>
+<car char="d" ref="{ED2D4B27-9585-4005-93D3-DD71B2B9E875}-B"/> 
+<car char="b" ref="{ED2D4B27-9585-4005-93D3-DD71B2B9E875}-P"/> 
+<composition>ad</composition>
+<composition>acbd</composition>
+<composition>acbcbd</composition>
+<composition>acbcbcbd</composition>
+<composition>acbcbcbdacbd</composition>
+</config>
+</contribution>
+
+
+
+
+
+</plug-in>

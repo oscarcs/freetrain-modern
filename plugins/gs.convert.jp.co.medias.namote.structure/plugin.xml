@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>建物総合コンバート　なもー</title>
+	<author>りおりお</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+	<depend on="jp.co.medias.namote.structure" />
+
+	<contribution type="GenericStructure" id="{A5BD857C-F2A1-4218-936C-C61EA4D28084-1}-gs">
+		<group>サークルK</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<structure>
+			<category byname="コンビニ" />
+		</structure>
+		<sprite origin="0,0" offset="8">
+			<picture ref="{A5BD857C-F2A1-4218-936C-C61EA4D28084}"/>
+		</sprite>
+		<sprite origin="0,32" offset="8">
+			<picture ref="{A5BD857C-F2A1-4218-936C-C61EA4D28084}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{A5BD857C-F2A1-4218-936C-C61EA4D28085-1}-gs">
+		<group>美富士食堂</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<structure>
+			<category byname="一般飲食店" />
+		</structure>
+		<sprite origin="0,0" offset="8">
+			<picture ref="{A5BD857C-F2A1-4218-936C-C61EA4D28085}"/>
+		</sprite>
+		<sprite origin="0,32" offset="8">
+			<picture ref="{A5BD857C-F2A1-4218-936C-C61EA4D28085}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{FD978351-73CE-442E-8816-76DBA52E8875-1}-gs">
+		<group>小型ショッピングセンター</group>
+		<price>1000000</price>
+		<size>2,3</size>
+		<height>2</height>
+		<structure>
+			<category byname="ショッピングモール" />
+		</structure>
+		<sprite origin="0,0" offset="22">
+			<picture ref="{FD978351-73CE-442E-8816-76DBA52E8875}"/>
+		</sprite>
+		<sprite origin="0,64" offset="40" opposite="true">
+			<picture ref="{FD978351-73CE-442E-8816-76DBA52E8875}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{FD978351-73CE-442E-8816-76DBA52E8875-3}-gs">
+		<group>小型ショッピングセンター</group>
+		<price>1000000</price>
+		<size>2,3</size>
+		<height>2</height>
+		<structure>
+			<category byname="ショッピングモール" />
+		</structure>
+		<sprite origin="96,0" offset="22">
+			<picture ref="{FD978351-73CE-442E-8816-76DBA52E8875}"/>
+		</sprite>
+		<sprite origin="96,64" offset="40" opposite="true">
+			<picture ref="{FD978351-73CE-442E-8816-76DBA52E8875}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{FD978351-73CE-442E-8816-76DBA52E8875-5}-gs">
+		<group>小型ショッピングセンター</group>
+		<price>1000000</price>
+		<size>2,3</size>
+		<height>2</height>
+		<structure>
+			<category byname="ショッピングモール" />
+		</structure>
+		<sprite origin="192,0" offset="22">
+			<picture ref="{FD978351-73CE-442E-8816-76DBA52E8875}"/>
+		</sprite>
+		<sprite origin="192,64" offset="40" opposite="true">
+			<picture ref="{FD978351-73CE-442E-8816-76DBA52E8875}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{FD978351-73CE-442E-8816-76DBA52E8877-1}-gs">
+		<group>中型ショッピングセンター</group>
+		<price>1000000</price>
+		<size>3,3</size>
+		<height>2</height>
+		<structure>
+			<category byname="ショッピングモール" />
+		</structure>
+		<sprite origin="0,0" offset="31">
+			<picture ref="{FD978351-73CE-442E-8816-76DBA52E8877}"/>
+		</sprite>
+		<sprite origin="0,96" offset="32">
+			<picture ref="{FD978351-73CE-442E-8816-76DBA52E8877}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{FD978351-73CE-442E-8816-76DBA52E8877-3}-gs">
+		<group>中型ショッピングセンター</group>
+		<price>1000000</price>
+		<size>3,3</size>
+		<height>2</height>
+		<structure>
+			<category byname="ショッピングモール" />
+		</structure>
+		<sprite origin="96,0" offset="31">
+			<picture ref="{FD978351-73CE-442E-8816-76DBA52E8877}"/>
+		</sprite>
+		<sprite origin="96,96" offset="32">
+			<picture ref="{FD978351-73CE-442E-8816-76DBA52E8877}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{FD978351-73CE-442E-8816-76DBA52E8877-5}-gs">
+		<group>中型ショッピングセンター</group>
+		<price>1000000</price>
+		<size>3,3</size>
+		<height>2</height>
+		<structure>
+			<category byname="ショッピングモール" />
+		</structure>
+		<sprite origin="192,0" offset="31">
+			<picture ref="{FD978351-73CE-442E-8816-76DBA52E8877}"/>
+		</sprite>
+		<sprite origin="192,96" offset="32">
+			<picture ref="{FD978351-73CE-442E-8816-76DBA52E8877}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+
+</plug-in>

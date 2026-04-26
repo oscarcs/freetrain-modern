@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+<plug-in>
+  <title>800形（旧色）</title> 
+  <author>Noz</author> 
+  <homepage></homepage> 
+
+<!-- 京急800形先頭車(旧色) --> 
+　<contribution type="trainCar" id="{902A4BEB-9F84-4D5A-969D-0675037O800A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="kei800a-old.bmp" /> 
+  </sprite>
+  <capacity>136</capacity> 
+  <seatedcapacity>56</seatedcapacity>
+  </contribution>
+<!-- 京急800形最後尾車(旧色) -->
+　<contribution type="trainCar" id="{902A4BEB-9F84-4D5A-969D-0675037O800B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{902A4BEB-9F84-4D5A-969D-0675037O800A}" />  
+  </contribution> 
+<!--京急800形パンタ車(旧色)-->
+　<contribution type="trainCar" id="{902A4BEB-9F84-4D5A-969D-0675037O800P}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="kei800a3p-old.bmp" /> 
+  </sprite>
+  <capacity>144</capacity> 
+  <seatedcapacity>48</seatedcapacity>
+  </contribution>
+
+
+
+
+
+  <contribution type="train" id="{902A4BEB-9F84-4D5A-969D-0675037O800F}">
+<company>京浜急行電鉄</company>
+<type>800形(高)(旧色)</type>
+<name>京急線</name>
+<author>Noz</author>
+<description>
+1978年、ラッシュ時間帯の優等列車の速度向上を実現するために製造された車両。
+かつてはD急行などでも使われていました。
+この塗装は登場時のものです。
+3、6両編成を用意しております。
+</description>
+<fare>400</fare>
+<price>28000000</price>
+<amenity>100</amenity>
+<speed>fast</speed>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<config>
+<car char="a" ref="{902A4BEB-9F84-4D5A-969D-0675037O800A}"/>
+<car char="b" ref="{902A4BEB-9F84-4D5A-969D-0675037O800B}"/> 
+<car char="c" ref="{902A4BEB-9F84-4D5A-969D-0675037O800P}"/> 
+<composition>bca</composition>
+<composition>bcabca</composition>
+</config>
+</contribution>
+
+  <contribution type="train" id="{902A4BEB-9F84-4D5A-969D-0675037O800M}">
+<company>京浜急行電鉄</company>
+<type>800形(中)(旧色)</type>
+<name>京急線</name>
+<author>Noz</author>
+<description>
+1978年、ラッシュ時間帯の優等列車の速度向上を実現するために製造された車両。
+かつてはD急行などでも使われていました。
+この塗装は登場時のものです。
+3、6両編成を用意しております。
+</description>
+<fare>400</fare>
+<price>28000000</price>
+<amenity>100</amenity>
+<speed>medium</speed>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<config>
+<car char="a" ref="{902A4BEB-9F84-4D5A-969D-0675037O800A}"/>
+<car char="b" ref="{902A4BEB-9F84-4D5A-969D-0675037O800B}"/> 
+<car char="c" ref="{902A4BEB-9F84-4D5A-969D-0675037O800P}"/> 
+<composition>bca</composition>
+<composition>bcabca</composition>
+</config>
+</contribution>
+
+  <contribution type="train" id="{902A4BEB-9F84-4D5A-969D-0675037O800S}">
+<company>京浜急行電鉄</company>
+<type>800形(低)(旧色)</type>
+<name>京急線</name>
+<author>Noz</author>
+<description>
+1978年、ラッシュ時間帯の優等列車の速度向上を実現するために製造された車両。
+かつてはD急行などでも使われていました。
+この塗装は登場時のものです。
+3、6両編成を用意しております。
+</description>
+<fare>400</fare>
+<price>28000000</price>
+<amenity>100</amenity>
+<speed>slow</speed>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<config>
+<car char="a" ref="{902A4BEB-9F84-4D5A-969D-0675037O800A}"/>
+<car char="b" ref="{902A4BEB-9F84-4D5A-969D-0675037O800B}"/> 
+<car char="c" ref="{902A4BEB-9F84-4D5A-969D-0675037O800P}"/> 
+<composition>bca</composition>
+<composition>bcabca</composition>
+</config>
+</contribution>
+
+
+
+</plug-in>

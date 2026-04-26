@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plug-in [
+<!ENTITY t400 '
+	<name>T400</name>
+        <price>300000</price>
+	<size>1,1</size>
+	<structure>
+		<category byname="一般鉄道付属物"/>
+	</structure>
+	<height>1</height>
+	<population>
+	        <class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>1</base>
+	</population>
+'>
+<!ENTITY railtruck '
+	<name>レール運搬用トロッコ</name>
+        <price>120000</price>
+	<size>1,1</size>
+	<structure>
+		<category byname="一般鉄道付属物"/>
+	</structure>
+	<height>1</height>
+	<population>
+		 <class name="freetrain.contributions.population.OfficePopulation"/>
+		 <base>1</base>
+	</population>
+
+'>]>
+
+<plug-in>
+	<title>保線車両</title>
+	<author>Hermes</author>
+	<homepage>nothing</homepage>
+		
+	<contribution type="picture" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E400}">
+		<picture src="t400A.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E402}">
+		<picture src="railtruckA.bmp"/>
+	</contribution>
+
+	
+	<contribution type="GenericStructure" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E401}">
+		&t400;
+		<sprite origin="0,0" offset="16">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E400}"/>
+		</sprite>
+		<sprite origin="32,0" offset="16"> 
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E400}"/>
+		</sprite>
+                <sprite origin="64,0" offset="16">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E400}"/>
+		</sprite>
+		<sprite origin="128,0" offset="16">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E400}"/>
+		</sprite>
+		<computerCannotBuild />
+	</contribution>
+
+
+        <contribution type="GenericStructure" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E403}">
+		&railtruck;
+		<sprite origin="0,0" offset="16">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E402}"/>
+		</sprite>
+		<sprite origin="32,0" offset="16"> 
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E402}"/>
+		</sprite>
+		<computerCannotBuild />
+        </contribution>
+</plug-in>

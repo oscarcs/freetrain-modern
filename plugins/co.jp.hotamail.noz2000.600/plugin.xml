@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+<plug-in>
+  <title>京急新600形</title> 
+  <author>Noz</author> 
+  <homepage></homepage>
+ 
+<!-- 600先頭車 --> 
+　<contribution type="trainCar" id="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-A">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="keikyu600-a.bmp" /> 
+  </sprite>
+  <capacity>118</capacity> 
+  <seatedcapacity>40</seatedcapacity>
+  </contribution>
+<!-- 600パンタ先頭車 --> 
+　<contribution type="trainCar" id="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-AP">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="keikyu600-ap.bmp" /> 
+  </sprite>
+  <capacity>118</capacity> 
+  <seatedcapacity>40</seatedcapacity>
+  </contribution>
+
+<!-- 600最後尾車 -->
+　<contribution type="trainCar" id="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-B">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-A" />  
+  </contribution> 
+<!--600中間車-->
+　<contribution type="trainCar" id="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-C">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="keikyu600-c.bmp" /> 
+  </sprite>
+  <capacity>128</capacity> 
+  <seatedcapacity>40</seatedcapacity>
+  </contribution>
+<!--600Wパンタ車-->
+　<contribution type="trainCar" id="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-WP">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="keikyu600-2b.bmp" /> 
+  </sprite>
+  <capacity>128</capacity> 
+  <seatedcapacity>40</seatedcapacity>
+  </contribution>
+<!--600パンタ車-->
+　<contribution type="trainCar" id="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-P">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="keikyu600-1b.bmp" /> 
+  </sprite>
+  <capacity>128</capacity> 
+  <seatedcapacity>40</seatedcapacity>
+  </contribution>
+<!--600Wパンタ車4次車-->
+　<contribution type="trainCar" id="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-FP">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="keikyu600-b4.bmp" /> 
+  </sprite>
+  <capacity>128</capacity> 
+  <seatedcapacity>40</seatedcapacity>
+  </contribution>
+
+
+  <contribution type="train" id="{B6468B3E-0862-4234-82B0-6ABF087F1D63}">
+<company>京浜急行電鉄</company>
+<type>600形4次車(高)</type>
+<name>京急線</name>
+<author>Noz</author>
+<description>1994年に1000形の置換用都営地下鉄浅草線乗入車両として登場した車両。4次車はシングルアームが装備されています。この車両は高速です。4、8、12編成を用意しています。
+</description>
+<fare>500</fare>
+<price>35000000</price>
+<amenity>110</amenity>
+<triprange>middle</triprange>
+<speed>fast</speed>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<config>
+<car char="a" ref="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-A"/>
+<car char="c" ref="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-C"/>
+<car char="d" ref="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-B"/> 
+<car char="b" ref="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-FP"/> 
+<composition>acbd</composition>
+<composition>acbcccbd</composition>
+<composition>acbcccbdacbd</composition>
+</config>
+</contribution>
+
+  <contribution type="train" id="{4ABBEA82-DAF9-4C46-82DD-E660BC5335BF}">
+<company>京浜急行電鉄</company>
+<type>600形4次車(中)</type>
+<name>京急線</name>
+<author>Noz</author>
+<description>1994年に1000形の置換用都営地下鉄浅草線乗入車両として登場した車両。4次車はシングルアームが装備されています。この車両は中速です。4、8、12編成を用意しております。
+</description>
+<fare>500</fare>
+<price>35000000</price>
+<amenity>110</amenity>
+<triprange>middle</triprange>
+<speed>medium</speed>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<config>
+<car char="a" ref="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-A"/>
+<car char="c" ref="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-C"/>
+<car char="d" ref="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-B"/> 
+<car char="b" ref="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-FP"/> 
+<composition>acbd</composition>
+<composition>acbcccbd</composition>
+<composition>acbcccbdacbd</composition>
+</config>
+</contribution>
+
+  <contribution type="train" id="{6AC1450C-9506-48F1-8B49-D6D3BFEE3CB5}">
+<company>京浜急行電鉄</company>
+<type>600形1,2,3次車(高)</type>
+<name>京急線</name>
+<author>Noz</author>
+<description>1994年に1000形の置換用都営地下鉄浅草線乗入車両として登場した車両。この車両は高速です。8、12編成を用意しております。
+</description>
+<fare>500</fare>
+<price>35000000</price>
+<triprange>middle</triprange>
+<amenity>110</amenity>
+<speed>fast</speed>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<config>
+<car char="a" ref="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-AP"/>
+<car char="c" ref="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-C"/>
+<car char="d" ref="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-B"/>
+<car char="w" ref="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-WP"/>
+<car char="b" ref="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-P"/>
+<car char="x" ref="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-A"/>
+<car char="z" ref="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-FP"/>  
+<composition>acccwcbd</composition>
+<composition>acccwcbdxczd</composition>
+</config>
+</contribution>
+
+  <contribution type="train" id="{E6AF5AE6-AAA4-494A-B8C2-CA1BBD4F4649}">
+<company>京浜急行電鉄</company>
+<type>600形1,2,3次車(中)</type>
+<name>京急線</name>
+<author>Noz</author>
+<description>1994年に1000形の置換用都営地下鉄浅草線乗入車両として登場した車両。この車両は中速です。8、12編成を用意しています。
+</description>
+<fare>500</fare>
+<price>35000000</price>
+<triprange>middle</triprange>
+<amenity>110</amenity>
+<speed>medium</speed>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<config>
+<car char="a" ref="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-AP"/>
+<car char="c" ref="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-C"/>
+<car char="d" ref="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-B"/>
+<car char="w" ref="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-WP"/>
+<car char="b" ref="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-P"/>
+<car char="x" ref="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-A"/>
+<car char="z" ref="{28C10FF0-AC45-42CB-869C-D81DBE62DC4C}-FP"/>  
+<composition>acccwcbd</composition>
+<composition>acccwcbdxczd</composition>
+</config>
+</contribution>
+
+
+
+
+</plug-in>

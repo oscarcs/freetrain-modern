@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+  <plug-in>
+  <title>炭鉱</title> 
+  <author>モガミ</author> 
+  <homepage>hhttp://www.geocities.jp/mogami00/Kamikazekensetu.html</homepage> 
+  <contribution type="picture" id="{E7785798-1B39-487B-8647-6E7BB8B2DBDF}">
+  <picture src="tankou.bmp">
+  </picture>
+  </contribution>
+  <contribution type="GenericStructure" id="{14B295A3-7EC2-4265-842F-650B3F089A6A}-0">
+  <group>炭鉱・事務所</group> 
+  <structure>
+  <category byname="炭坑" /> 
+  </structure>
+  <size>1,1</size> 
+  <price>16000000</price> 
+  <computerCannotBuild /> 
+  <height>1</height> 
+  <sprite origin="0,0" offset="107">
+  <picture ref="{E7785798-1B39-487B-8647-6E7BB8B2DBDF}" /> 
+  </sprite>
+  </contribution>
+  <contribution type="GenericStructure" id="{14B295A3-7EC2-4265-842F-650B3F089A6A}-1">
+  <group>炭坑・竪抗櫓</group> 
+  <structure>
+  <category byname="炭坑" /> 
+  </structure>
+  <size>1,1</size> 
+  <price>50000000</price> 
+  <computerCannotBuild /> 
+  <height>7</height> 
+  <sprite origin="32,0" offset="107">
+  <picture ref="{E7785798-1B39-487B-8647-6E7BB8B2DBDF}" /> 
+  </sprite>
+  </contribution>
+  <contribution type="GenericStructure" id="{14B295A3-7EC2-4265-842F-650B3F089A6A}-2">
+  <group>炭坑・ドルシックナー</group> 
+  <structure>
+  <category byname="炭坑" /> 
+  </structure>
+  <size>1,1</size> 
+  <price>10000000</price> 
+  <computerCannotBuild /> 
+  <height>2</height> 
+  <sprite origin="64,0" offset="107">
+  <picture ref="{E7785798-1B39-487B-8647-6E7BB8B2DBDF}" /> 
+  </sprite>
+  </contribution>
+  <contribution type="GenericStructure" id="{14B295A3-7EC2-4265-842F-650B3F089A6A}-3">
+  <group>炭坑・ベルトコンベアー1</group> 
+  <structure>
+  <category byname="炭坑" /> 
+  </structure>
+  <size>1,1</size> 
+  <price>6000000</price> 
+  <computerCannotBuild /> 
+  <height>1</height> 
+  <sprite origin="96,0" offset="107">
+  <picture ref="{E7785798-1B39-487B-8647-6E7BB8B2DBDF}" /> 
+  </sprite>
+  </contribution>
+  <contribution type="GenericStructure" id="{14B295A3-7EC2-4265-842F-650B3F089A6A}-4">
+  <group>炭坑・ベルトコンベアー2</group> 
+  <structure>
+  <category byname="炭坑" /> 
+  </structure>
+  <size>1,1</size> 
+  <price>6000000</price> 
+  <computerCannotBuild /> 
+  <height>1</height> 
+  <sprite origin="128,0" offset="107">
+  <picture ref="{E7785798-1B39-487B-8647-6E7BB8B2DBDF}" /> 
+  </sprite>
+  </contribution>
+  <contribution type="GenericStructure" id="{14B295A3-7EC2-4265-842F-650B3F089A6A}-5">
+  <group>炭坑・倉庫諸施設</group> 
+  <structure>
+  <category byname="炭坑" /> 
+  </structure>
+  <size>1,1</size> 
+  <price>16000000</price> 
+  <computerCannotBuild /> 
+  <height>2</height> 
+  <sprite origin="160,0" offset="107">
+  <picture ref="{E7785798-1B39-487B-8647-6E7BB8B2DBDF}" /> 
+  </sprite>
+  </contribution>
+  </plug-in>

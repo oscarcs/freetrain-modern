@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<plug-in>
+  <title>113系湘南色・スカ色</title>
+    <author>りおりお←たいふ～ん</author>
+  <homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+
+
+  <!-- 113系スカ 先頭車-->
+  <contribution type="trainCar" id="{riorio-typhoon-113suka-8FE0-7567171D3CEF}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="113c.bmp" />
+      <spriteType name="colorMapped">
+        <map from="211,209,211" to="64,64,128" />
+        <map from="192,192,192" to="32,32,96" />
+        <map from="195,192,195" to="33,32,98" />
+        <map from="181,178,181" to="30,30,93" />
+        <map from="136,134,136" to="24,24,84" />
+        <map from="141,139,141" to="26,26,88" />
+      </spriteType>
+    </sprite>
+    <capacity>112</capacity>
+    <seatedcapacity>63</seatedcapacity>
+  </contribution>
+
+  <!-- 113系スカ 中間車-->
+  <contribution type="trainCar" id="{riorio-typhoon-113suka-8FE0-7567171D3CEF}-m">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="113d.bmp" />
+      <spriteType name="colorMapped">
+        <map from="211,209,211" to="64,64,128" />
+        <map from="192,192,192" to="32,32,96" />
+        <map from="195,192,195" to="33,32,98" />
+        <map from="181,178,181" to="30,30,93" />
+        <map from="136,134,136" to="24,24,84" />
+        <map from="141,139,141" to="26,26,88" />
+      </spriteType>
+    </sprite>
+    <capacity>128</capacity>
+    <seatedcapacity>76</seatedcapacity>
+  </contribution>
+
+  <!-- 113系スカ 後尾車-->
+  <contribution type="trainCar" id="{riorio-typhoon-113suka-8FE0-7567171D3CEF}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{riorio-typhoon-113suka-8FE0-7567171D3CEF}-h" />
+  </contribution>
+
+  <!-- サロ110スカ色 -->
+  <contribution type="trainCar" id="{riorio-typhoon-113suka-8FE0-7567171D3CEF}-s">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="saro110.bmp" />
+      <spriteType name="colorMapped">
+        <map from="211,209,211" to="64,64,128" />
+        <map from="192,192,192" to="32,32,96" />
+        <map from="195,192,195" to="33,32,98" />
+        <map from="181,178,181" to="30,30,93" />
+        <map from="136,134,136" to="24,24,84" />
+        <map from="141,139,141" to="26,26,88" />
+      </spriteType>
+    </sprite>
+    <capacity>60</capacity>
+    <seatedcapacity>60</seatedcapacity>
+  </contribution>
+
+    <!-- 113系スカ色モノクラス編成 -->
+  <contribution type="train" id="{riorio-typhoon-113sukaMONO-8FE0-7567171D3CEF}">
+    <company>旧日本国有鉄道</company>
+    <type>113系</type>
+    <name>横須賀色モノクラス</name>
+    <author>りおりお塗替←たいふ～ん</author>
+    <description>千葉方面ローカルや横須賀線ローカルのスカ色モノクラス113系です。</description>
+		<fare>500</fare>
+		<price>35000000</price>
+		<amenity>95</amenity>
+    <speed>medium</speed>
+	<triprange>middle</triprange>
+    <class name="freetrain.contributions.train.PatternTrainImpl"/>
+    <config>
+      <car char="＜" ref="{riorio-typhoon-113suka-8FE0-7567171D3CEF}-h" />
+      <car char="Ｍ" ref="{riorio-typhoon-113suka-8FE0-7567171D3CEF}-m" />
+      <car char="＞" ref="{riorio-typhoon-113suka-8FE0-7567171D3CEF}-t" />
+      <composition>＜ＭＭ＞</composition>
+      <composition>＜ＭＭ＞＞</composition>
+      <composition>＜ＭＭＭＭ＞</composition>
+      <composition>＜ＭＭＭＭＭ＞</composition>
+      <composition>＜ＭＭ＞＜ＭＭ＞</composition>
+      <composition>＜ＭＭ＞＜ＭＭ＞＞</composition>
+      <composition>＜ＭＭＭＭ＞＜ＭＭ＞</composition>
+      <composition>＜ＭＭＭＭＭ＞＜ＭＭ＞</composition>
+      <composition>＜ＭＭＭＭ＞＜ＭＭＭＭ＞</composition>
+      <composition>＜ＭＭＭＭＭ＞＜ＭＭＭＭ＞</composition>
+      <composition>＜ＭＭＭＭＭ＞＜ＭＭＭＭＭ＞</composition>
+      <composition>＜ＭＭＭＭＭ＞＜ＭＭ＞＜ＭＭ＞</composition>
+    </config>
+  </contribution>
+
+    <!-- 113系スカ色サロ入り編成 -->
+  <contribution type="train" id="{riorio-typhoon-113sukaTs-8FE0-7567171D3CEF}">
+    <company>旧日本国有鉄道</company>
+    <type>113系</type>
+    <name>横須賀色サロ入り</name>
+    <author>りおりお塗替←たいふ～ん</author>
+    <description>横須賀線・総武快速線のグリーン車入りスカ色113系です。7両から15両の編成になります。</description>
+		<fare>550</fare>
+		<price>38500000</price>
+		<amenity>110</amenity>
+	<triprange>middle</triprange>
+    <speed>medium</speed>
+    <class name="freetrain.contributions.train.PatternTrainImpl"/>
+    <config>
+      <car char="＜" ref="{riorio-typhoon-113suka-8FE0-7567171D3CEF}-h" />
+      <car char="Ｍ" ref="{riorio-typhoon-113suka-8FE0-7567171D3CEF}-m" />
+      <car char="Ｓ" ref="{riorio-typhoon-113suka-8FE0-7567171D3CEF}-s" />
+      <car char="＞" ref="{riorio-typhoon-113suka-8FE0-7567171D3CEF}-t" />
+      <composition>＜ＭＭＳＭＭ＞</composition>
+      <composition>＜ＭＭＳＭＭＭ＞</composition>
+      <composition>＜ＭＭＳＭＭＭＭ＞</composition>
+      <composition>＜ＭＭＳＳＭＭＭＭ＞</composition>
+      <composition>＜ＭＭＳＳＭＭＭＭＭ＞</composition>
+      <composition>＜ＭＭ＞＜ＭＭＳＳＭＭ＞</composition>
+      <composition>＜ＭＭ＞＜ＭＭＳＳＭＭＭ＞</composition>
+      <composition>＜ＭＭ＞＜ＭＭＳＳＭＭＭＭ＞</composition>
+      <composition>＜ＭＭ＞＜ＭＭＳＳＭＭＭＭＭ＞</composition>
+    </config>
+  </contribution>
+
+  <!-- 113系湘南色 先頭車-->
+  <contribution type="trainCar" id="{riorio-typhoon-113shonan-8FE0-7567171D3CEF}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <spriteType name="colorMapped">
+        <map from="64,64,128" to="30,109,51" />
+        <map from="32,32,96" to="0,64,0" />
+        <map from="64,64,192" to="0,128,0" />
+        <map from="0,64,192" to="44,158,32" />
+        <map from="210,201,132" to="224,128,0" />
+        <map from="224,224,128" to="255,155,15" />
+        <map from="254,243,159" to="255,166,45" />
+        <map from="174,166,109" to="224,128,0" />
+        <map from="132,120,67" to="151,102,0" />
+        <map from="211,209,211" to="0,128,0" />
+        <map from="192,192,192" to="0,64,0" />
+        <map from="195,192,195" to="0,62,0" />
+        <map from="181,178,181" to="0,60,0" />
+        <map from="136,134,136" to="0,54,0" />
+        <map from="141,139,141" to="0,56,0" />
+      </spriteType>
+      <picture ref="{riorio-typhoon-113suka-8FE0-7567171D3CEF}-h" />
+    </sprite>
+    <capacity>112</capacity>
+    <seatedcapacity>63</seatedcapacity>
+  </contribution>
+
+  <!-- 113系湘南色 中間車-->
+  <contribution type="trainCar" id="{riorio-typhoon-113shonan-8FE0-7567171D3CEF}-m">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+      <spriteType name="colorMapped">
+        <map from="64,64,128" to="30,109,51" />
+        <map from="32,32,96" to="0,64,0" />
+        <map from="64,64,192" to="0,128,0" />
+        <map from="210,201,132" to="224,128,0" />
+        <map from="224,224,128" to="255,155,15" />
+        <map from="174,166,109" to="224,128,0" />
+        <map from="132,120,67" to="151,102,0" />
+        <map from="211,209,211" to="0,128,0" />
+        <map from="192,192,192" to="0,64,0" />
+        <map from="195,192,195" to="0,62,0" />
+        <map from="181,178,181" to="0,60,0" />
+        <map from="136,134,136" to="0,54,0" />
+        <map from="141,139,141" to="0,56,0" />
+      </spriteType>
+      <picture ref="{riorio-typhoon-113suka-8FE0-7567171D3CEF}-m" />
+    </sprite>
+    <capacity>128</capacity>
+    <seatedcapacity>76</seatedcapacity>
+  </contribution>
+
+  <!-- 113系湘南色 後尾車-->
+  <contribution type="trainCar" id="{riorio-typhoon-113shonan-8FE0-7567171D3CEF}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{riorio-typhoon-113shonan-8FE0-7567171D3CEF}-h" />
+  </contribution>
+
+  <!-- サロ110湘南色 -->
+  <contribution type="trainCar" id="{riorio-typhoon-113shonan-8FE0-7567171D3CEF}-s">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture src="saro110.bmp" />
+      <spriteType name="colorMapped">
+        <map from="64,64,128" to="30,109,51" />
+        <map from="32,32,96" to="0,64,0" />
+        <map from="64,64,192" to="0,128,0" />
+        <map from="0,64,192" to="44,158,32" />
+        <map from="210,201,132" to="224,128,0" />
+        <map from="224,224,128" to="255,155,15" />
+        <map from="254,243,159" to="255,166,45" />
+        <map from="174,166,109" to="224,128,0" />
+        <map from="132,120,67" to="151,102,0" />
+        <map from="211,209,211" to="64,64,128" />
+        <map from="192,192,192" to="32,32,96" />
+        <map from="195,192,195" to="33,32,98" />
+        <map from="181,178,181" to="30,30,93" />
+        <map from="136,134,136" to="24,24,84" />
+        <map from="141,139,141" to="0,56,0" />
+      </spriteType>
+    </sprite>
+    <capacity>60</capacity>
+    <seatedcapacity>60</seatedcapacity>
+  </contribution>
+
+    <!-- 113系湘南色モノクラス編成 -->
+  <contribution type="train" id="{riorio-typhoon-113shonanMONO-8FE0-7567171D3CEF}">
+    <company>旧日本国有鉄道</company>
+    <type>113系</type>
+    <name>湘南色モノクラス</name>
+    <author>りおりお塗替←たいふ～ん</author>
+    <description>東海道本線・山陽本線・東北本線等で幅広く走っていた湘南色モノクラス113系です。</description>
+		<fare>500</fare>
+		<price>35000000</price>
+		<amenity>95</amenity>
+    <speed>medium</speed>
+	<triprange>middle</triprange>
+    <class name="freetrain.contributions.train.PatternTrainImpl"/>
+    <config>
+      <car char="＜" ref="{riorio-typhoon-113shonan-8FE0-7567171D3CEF}-h" />
+      <car char="Ｍ" ref="{riorio-typhoon-113shonan-8FE0-7567171D3CEF}-m" />
+      <car char="＞" ref="{riorio-typhoon-113shonan-8FE0-7567171D3CEF}-t" />
+      <composition>＜ＭＭ＞</composition>
+      <composition>＜ＭＭ＞＞</composition>
+      <composition>＜ＭＭＭＭ＞</composition>
+      <composition>＜ＭＭＭＭＭ＞</composition>
+      <composition>＜ＭＭ＞＜ＭＭ＞</composition>
+      <composition>＜ＭＭ＞＜ＭＭ＞＞</composition>
+      <composition>＜ＭＭＭＭ＞＜ＭＭ＞</composition>
+      <composition>＜ＭＭＭＭＭ＞＜ＭＭ＞</composition>
+      <composition>＜ＭＭＭＭ＞＜ＭＭＭＭ＞</composition>
+      <composition>＜ＭＭＭＭＭ＞＜ＭＭＭＭ＞</composition>
+      <composition>＜ＭＭＭＭＭ＞＜ＭＭＭＭＭ＞</composition>
+      <composition>＜ＭＭＭＭＭ＞＜ＭＭ＞＜ＭＭ＞</composition>
+    </config>
+  </contribution>
+
+    <!-- 113系湘南色サロ入り編成 -->
+  <contribution type="train" id="{riorio-typhoon-113shonanTs-8FE0-7567171D3CEF}">
+    <company>旧日本国有鉄道</company>
+    <type>113系</type>
+    <name>湘南色サロ入り</name>
+    <author>りおりお塗替←たいふ～ん</author>
+    <description>東海道線のグリーン車入り湘南色113系です。7両から15両の編成になります。</description>
+		<fare>550</fare>
+		<price>38500000</price>
+		<amenity>110</amenity>
+	<triprange>middle</triprange>
+    <speed>medium</speed>
+    <class name="freetrain.contributions.train.PatternTrainImpl"/>
+    <config>
+      <car char="＜" ref="{riorio-typhoon-113shonan-8FE0-7567171D3CEF}-h" />
+      <car char="Ｍ" ref="{riorio-typhoon-113shonan-8FE0-7567171D3CEF}-m" />
+      <car char="Ｓ" ref="{riorio-typhoon-113shonan-8FE0-7567171D3CEF}-s" />
+      <car char="＞" ref="{riorio-typhoon-113shonan-8FE0-7567171D3CEF}-t" />
+      <composition>＜ＭＭＳＭＭ＞</composition>
+      <composition>＜ＭＭＳＭＭＭ＞</composition>
+      <composition>＜ＭＭＳＭＭＭＭ＞</composition>
+      <composition>＜ＭＭＳＳＭＭＭＭ＞</composition>
+      <composition>＜ＭＭＳＳＭＭＭＭＭ＞</composition>
+      <composition>＜ＭＭＳＳＭＭ＞＜ＭＭ＞</composition>
+      <composition>＜ＭＭＳＳＭＭＭ＞＜ＭＭ＞</composition>
+      <composition>＜ＭＭＳＳＭＭＭＭ＞＜ＭＭ＞</composition>
+      <composition>＜ＭＭＳＳＭＭＭＭＭ＞＜ＭＭ＞</composition>
+    </config>
+  </contribution>
+
+</plug-in>

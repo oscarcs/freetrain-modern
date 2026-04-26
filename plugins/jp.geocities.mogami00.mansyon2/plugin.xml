@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+<plug-in>
+ <title>可変マンション</title> 
+ <author>モガミ</author> 
+ <homepage>http://www.geocities.jp/mogami00/Kamikazekensetu.html</homepage> 
+ <contribution type="picture" id="{mogami-buildingi-building-1kakeru1-mansyon-picture-5768848195AD}">
+ <picture src="mansyon1-1.bmp" /> 
+ </contribution>
+ <contribution type="GenericStructure" id="{mogami-building-1kakeru1-mansyon-B4CDC93FC6C5}">
+ <group>可変マンション</group> 
+ <structure>
+ <category byname="分譲マンション" /> 
+ </structure>
+ <price>30000000</price> 
+ <size>1,1</size> 
+ <minHeight>2</minHeight> 
+ <maxHeight>6</maxHeight> 
+ <population>
+ <class name="freetrain.contributions.population.ResidentialPopulation" /> 
+ <base>160</base> 
+ </population>
+ <pictures>
+ <top origin="0, 0" offset="13">
+ <picture ref="{mogami-buildingi-building-1kakeru1-mansyon-picture-5768848195AD}" /> 
+ </top>
+ <middle origin="0, 38" offset="7">
+ <picture ref="{mogami-buildingi-building-1kakeru1-mansyon-picture-5768848195AD}" /> 
+ </middle>
+ <bottom origin="0, 70" offset="7">
+ <picture ref="{mogami-buildingi-building-1kakeru1-mansyon-picture-5768848195AD}" /> 
+ </bottom>
+ </pictures>
+ </contribution>
+</plug-in>

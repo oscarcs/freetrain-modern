@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+
+<plug-in>
+	<title>建物セット</title>
+	<author>暇</author>
+	<homepage></homepage>
+	
+	<contribution type="picture" id="{kaden-js01-1001201801}">
+		<picture src="Joshin01_d.bmp">
+			<override when="night" src="Joshin01_n.bmp"/>
+		</picture>
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{kaden-js01d1-1001201801}">
+		<group>家電量販店</group>
+		<name>ジョーシンtype1</name>
+		<price>100000000</price>
+		<size>2,2</size>
+		<height>2</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>120</base>
+		</population>
+		<structure>
+			<category  byname="家電店"/>
+		</structure>
+		<sprite origin="0,0" offset="40">
+			<picture ref="{kaden-js01-1001201801}"/>
+		</sprite>
+		<sprite origin="64,0" offset="40">
+			<picture ref="{kaden-js01-1001201801}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="picture" id="{kaden-md01-1001242203}">
+		<picture src="midori01_d.bmp">
+			<override when="night" src="midori01_n.bmp"/>
+		</picture>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{kaden-md01d1-1001242203}">
+		<group>家電量販店</group>
+		<name>ミドリ電化type1</name>
+		<price>100000000</price>
+		<size>2,2</size>
+		<height>2</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>120</base>
+		</population>
+		<structure>
+			<category  byname="家電店"/>
+		</structure>
+		<sprite origin="0,0" offset="40">
+			<picture ref="{kaden-md01-1001242203}" />
+		</sprite>
+		<sprite origin="64,0" offset="40">
+			<picture ref="{kaden-md01-1001242203}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="picture" id="{DIY-kn01-1001242203}">
+		<picture src="konan01_d.bmp">
+			<override when="night" src="konan01_n.bmp" />
+		</picture>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{diy-kn01d1-1001302235}">
+		<group>日曜大工店</group>
+		<name>コーナンtype1</name>
+		<price>100000000</price>
+		<size>3,3</size>
+		<height>2</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>70</base>
+		</population>
+		<structure>
+			<category  byname="地域チェーン日用品店"/>
+		</structure>
+		<sprite origin="0,0" offset="27">
+			<picture ref="{DIY-kn01-1001242203}" />
+		</sprite>
+		<sprite origin="96,0" offset="27">
+			<picture ref="{DIY-kn01-1001242203}" />
+		</sprite>
+	</contribution>
+	<contribution type="picture" id="{DIY-km01-1001311926}">
+		<picture src="komeri01_d.bmp">
+			<override when="night" src="komeri01_n.bmp" />
+		</picture>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{DIY-km01d1-1001311926}">
+		<group>日曜大工店</group>
+		<name>コメリtype1</name>
+		<price>50000000</price>
+		<size>2,2</size>
+		<height>2</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>50</base>
+		</population>
+		<structure>
+			<category  byname="地域チェーン日用品店"/>
+		</structure>
+		<sprite origin="0,0" offset="14">
+			<picture ref="{DIY-km01-1001311926}" />
+		</sprite>
+		<sprite origin="64,0" offset="14">
+			<picture ref="{DIY-km01-1001311926}" />
+		</sprite>
+	</contribution>
+
+
+</plug-in>

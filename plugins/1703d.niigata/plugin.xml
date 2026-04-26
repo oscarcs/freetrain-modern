@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<plug-in>
+     <title>新潟車両セット</title>
+     <author>いっちー</author>
+     <homepage></homepage>
+
+	<!-- 115系新潟色 先頭車-->
+	<contribution type="trainCar" id="{CyberExpress1703d-115niigataold}-h">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+                <picture src="115olda.bmp" />
+                </sprite>
+		<capacity>112</capacity>
+		<seatedcapacity>62</seatedcapacity>
+	</contribution>
+	<!-- 115系新潟色 中間車-->
+	<contribution type="trainCar" id="{CyberExpress1703d-115niigataold}-m">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+                <picture src="115oldb.bmp" />
+                </sprite>
+		<capacity>132</capacity>
+		<seatedcapacity>68</seatedcapacity>
+	</contribution>
+	<!-- 115系新潟色 後尾車-->
+	<contribution type="trainCar" id="{CyberExpress1703d-115niigataold}-t">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{CyberExpress1703d-115niigataold}-h"/>
+		<capacity>114</capacity>
+		<seatedcapacity>64</seatedcapacity>
+	</contribution>
+
+	<!-- 115系新新潟色 先頭車-->
+	<contribution type="trainCar" id="{CyberExpress1703d-115niigatanew}-h">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+                <picture src="115newa.bmp" />
+                </sprite>
+		<capacity>112</capacity>
+		<seatedcapacity>62</seatedcapacity>
+	</contribution>
+	<!-- 115系新新潟色 中間車-->
+	<contribution type="trainCar" id="{CyberExpress1703d-115niigatanew}-m">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+                <picture src="115newb.bmp" />
+                </sprite>
+		<capacity>132</capacity>
+		<seatedcapacity>68</seatedcapacity>
+	</contribution>
+	<!-- 115系新新潟色 後尾車-->
+	<contribution type="trainCar" id="{CyberExpress1703d-115niigatanew}-t">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{CyberExpress1703d-115niigatanew}-h"/>
+		<capacity>114</capacity>
+		<seatedcapacity>64</seatedcapacity>
+	</contribution>
+
+     <!-- キハ40新潟色 -->
+     <contribution type="trainCar" id="{CyberExpress1703d-kiha40n-bmp}">
+           <class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+           <sprite origin="0,0">
+                <picture src="kiha40n.bmp" />
+           </sprite>
+           <capacity>96</capacity> 
+           <seatedcapacity>76</seatedcapacity> 
+     </contribution>
+
+     <!-- キハ40新 新潟色 -->
+     <contribution type="trainCar" id="{CyberExpress1703d-kiha40n2-bmp}">
+           <class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+           <sprite origin="0,0">
+                <picture src="kiha40n2.bmp" />
+           </sprite>
+           <capacity>96</capacity> 
+           <seatedcapacity>76</seatedcapacity> 
+     </contribution>
+
+     <!-- キハ52新潟色 -->
+     <contribution type="trainCar" id="{CyberExpress1703d-kiha52n-bmp}">
+           <class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+           <sprite origin="0,0">
+                <picture src="kiha52n.bmp" />
+           </sprite>
+           <capacity>88</capacity> 
+           <seatedcapacity>76</seatedcapacity> 
+     </contribution>
+
+     <!-- キハ52国鉄色 -->
+     <contribution type="trainCar" id="{CyberExpress1703d-kiha52k-bmp}">
+           <class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+           <sprite origin="0,0">
+                <picture src="kiha52k.bmp" />
+           </sprite>
+           <capacity>88</capacity> 
+           <seatedcapacity>76</seatedcapacity> 
+     </contribution>
+
+	<!-- C57-->
+	<contribution type="trainCar" id="{CyberExpress1703d-banetu}-L">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+                <picture src="c571.bmp" />
+                </sprite>
+		<capacity>0</capacity>
+		<seatedcapacity>0</seatedcapacity>
+	</contribution>
+
+<!-- 新塗装-->
+
+	<!-- 客車先頭車-->
+	<contribution type="trainCar" id="{CyberExpress1703d-banetu}-h">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+                <picture src="ohahu.bmp" />
+                </sprite>
+		<capacity>76</capacity>
+		<seatedcapacity>76</seatedcapacity>
+	</contribution>
+
+	<!-- 客車中間車-->
+	<contribution type="trainCar" id="{CyberExpress1703d-banetu}-m">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+		<picture src="oha.bmp" />
+               	 </sprite>
+		<capacity>79</capacity>
+		<seatedcapacity>79</seatedcapacity>
+	</contribution>
+
+	<!-- 客車後尾車-->
+	<contribution type="trainCar" id="{CyberExpress1703d-banetu}-t">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{CyberExpress1703d-banetu}-h"/>
+	</contribution>
+
+	<!-- 展望車-->
+	<contribution type="trainCar" id="{CyberExpress1703d-banetu}-v">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+                	<picture src="ten.bmp" />
+                </sprite>
+		<capacity>0</capacity>
+		<seatedcapacity>0</seatedcapacity>
+	</contribution>
+
+<!-- 旧塗装-->
+
+	<!-- 客車先頭車-->
+	<contribution type="trainCar" id="{CyberExpress1703d-banetu2}-h">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+		<spriteType name="colorMapped">
+			<map from="40,73,140" to="82,31,26"/>
+			<map from="29,52,100" to="57,21,18"/>
+			<map from="24,44,85" to="46,17,15"/>
+			<map from="35,65,125" to="72,27,23"/>
+			<map from="37,68,130" to="75,28,24"/>
+			<map from="29,54,105" to="57,22,19"/>
+			<map from="192,192,200" to="106,66,46"/>
+			<map from="153,155,172" to="85,52,39"/>
+			<map from="211,211,220" to="117,72,51"/>
+			<map from="182,182,190" to="101,63,44"/>
+		</spriteType>
+		<picture ref="{CyberExpress1703d-banetu}-h" /> 
+		</sprite>
+		<capacity>76</capacity>
+		<seatedcapacity>76</seatedcapacity>
+	</contribution>
+
+	<!-- 客車中間車-->
+	<contribution type="trainCar" id="{CyberExpress1703d-banetu2}-m">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+		<spriteType name="colorMapped">
+			<map from="40,73,140" to="82,31,26"/>
+			<map from="29,52,100" to="57,21,18"/>
+			<map from="24,44,85" to="46,17,15"/>
+			<map from="35,65,125" to="72,27,23"/>
+			<map from="37,68,130" to="75,28,24"/>
+			<map from="29,54,105" to="57,22,19"/>
+			<map from="192,192,200" to="106,66,46"/>
+			<map from="153,155,172" to="85,52,39"/>
+			<map from="211,211,220" to="117,72,51"/>
+			<map from="182,182,190" to="101,63,44"/>
+		</spriteType>
+		<picture ref="{CyberExpress1703d-banetu}-m" /> 
+		</sprite>
+		<capacity>79</capacity>
+		<seatedcapacity>79</seatedcapacity>
+	</contribution>
+
+	<!-- 客車後尾車-->
+	<contribution type="trainCar" id="{CyberExpress1703d-banetu2}-t">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{CyberExpress1703d-banetu2}-h"/>
+	</contribution>
+
+	<!-- 展望車-->
+	<contribution type="trainCar" id="{CyberExpress1703d-banetu2}-v">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+		<spriteType name="colorMapped">
+			<map from="40,73,140" to="82,31,26"/>
+			<map from="29,52,100" to="57,21,18"/>
+			<map from="24,44,85" to="46,17,15"/>
+			<map from="35,65,125" to="72,27,23"/>
+			<map from="37,68,130" to="75,28,24"/>
+			<map from="29,54,105" to="57,22,19"/>
+			<map from="192,192,200" to="106,66,46"/>
+			<map from="153,155,172" to="85,52,39"/>
+			<map from="211,211,220" to="117,72,51"/>
+			<map from="182,182,190" to="101,63,44"/>
+		</spriteType>
+		<picture ref="{CyberExpress1703d-banetu}-v" /> 
+		</sprite>
+		<capacity>0</capacity>
+		<seatedcapacity>0</seatedcapacity>
+	</contribution>
+
+     <contribution type="train" id="{CyberExpress1703d-kiha40n}">
+           <company>JR東日本</company>
+           <type>キハ40形</type>
+           <name>新潟色</name>
+           <author>いっちー</author>
+           <description>磐越西線や羽越本線、米坂線を走るキハ40系列です。</description>
+           <fare>500</fare>
+           <price>35000000</price>
+		   <amenity>100</amenity>
+		   <triprange>middle</triprange>
+           <speed>slow</speed>
+           <composition>
+               <body carRef="{CyberExpress1703d-kiha40n-bmp}" />  
+           </composition>
+     </contribution>
+
+     <contribution type="train" id="{CyberExpress1703d-kiha40n2}">
+           <company>JR東日本</company>
+           <type>キハ40形</type>
+           <name>新 新潟色</name>
+           <author>いっちー</author>
+           <description>磐越西線や羽越本線、米坂線を走るキハ40系列です。</description>
+           <fare>500</fare>
+           <price>35000000</price>
+		   <triprange>middle</triprange>
+		   <amenity>100</amenity>
+           <speed>slow</speed>
+           <composition>
+               <body carRef="{CyberExpress1703d-kiha40n2-bmp}" />  
+           </composition>
+     </contribution>
+
+     <contribution type="train" id="{CyberExpress1703d-kiha52n}">
+           <company>JR東日本</company>
+           <type>キハ52形</type>
+           <name>新潟色</name>
+           <author>いっちー</author>
+           <description>磐越西線や羽越本線、米坂線を走るキハ52形です。</description>
+           <fare>500</fare>
+           <price>35000000</price>
+		   <amenity>95</amenity>
+	  		<triprange>middle</triprange>
+           <speed>slow</speed>
+           <composition>
+               <body carRef="{CyberExpress1703d-kiha52n-bmp}" />  
+           </composition>
+     </contribution>
+
+     <contribution type="train" id="{CyberExpress1703d-kiha52k}">
+           <company>JR東日本</company>
+           <type>キハ52形</type>
+           <name>国鉄色</name>
+           <author>いっちー</author>
+           <description>磐越西線や羽越本線、米坂線を走るキハ52形です。</description>
+           <fare>500</fare>
+           <price>35000000</price>
+		   <triprange>middle</triprange>
+		   <amenity>95</amenity>
+           <speed>slow</speed>
+           <composition>
+               <body carRef="{CyberExpress1703d-kiha52k-bmp}" />  
+           </composition>
+     </contribution>
+
+     <contribution type="train" id="{CyberExpress1703d-niigata-kiha}">
+           <company>JR東日本</company>
+           <type>キハ40形・キハ52形</type>
+           <name>新潟色混結</name>
+           <author>いっちー</author>
+           <description>5両まで可能。磐越西線や羽越本線、米坂線を走る車両です。雑多な混結が日常的に行われています。</description>
+           <fare>500</fare>
+           <price>35000000</price>
+		   <triprange>middle</triprange>
+		   <amenity>100</amenity>
+           <speed>slow</speed>
+           	<class name="freetrain.contributions.train.PatternTrainImpl"/>
+ 	<config>
+  		<car char="A" ref="{CyberExpress1703d-kiha40n-bmp}"/>
+  		<car char="B" ref="{CyberExpress1703d-kiha40n2-bmp}"/>
+		<car char="C" ref="{CyberExpress1703d-kiha52n-bmp}"/>
+  		<car char="D" ref="{CyberExpress1703d-kiha52k-bmp}"/>		
+
+   		<composition>C</composition>
+   		<composition>AB</composition>
+   		<composition>CAB</composition>
+   		<composition>DACB</composition>
+   		<composition>DABBC</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{CyberExpress1703d-banetu}">
+		<company>JR東日本</company>
+		<type>C57</type>
+		<name>SLばんえつ物語号</name>
+		<author>いっちー</author>
+		<description>10両まで可能。機関車はしかしか氏のものを流用させて頂きました。</description>
+        <fare>550</fare>
+        <price>40000000</price>
+		<triprange>long</triprange>
+	    <amenity>150</amenity>
+		<speed>slow</speed>
+
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+ 		<config>
+  		<car char="L" ref="{CyberExpress1703d-banetu}-L"/>
+   		<car char="h" ref="{CyberExpress1703d-banetu}-h"/>
+   		<car char="m" ref="{CyberExpress1703d-banetu}-m"/>
+  		<car char="t" ref="{CyberExpress1703d-banetu}-t"/>
+  		<car char="v" ref="{CyberExpress1703d-banetu}-v"/>
+
+   		<composition>L</composition>
+   		<composition>Lt</composition>
+   		<composition>Lht</composition>
+   		<composition>Lhmt</composition>
+   		<composition>Lhmmt</composition>
+   		<composition>Lhmvmt</composition>
+   		<composition>Lhmmvmt</composition>
+   		<composition>Lhmmvmmt</composition>
+   		<composition>Lhmmmvmmt</composition>
+   		<composition>Lhmmmvmmmt</composition>
+
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{CyberExpress1703d-banetu2}">
+		<company>JR東日本</company>
+		<type>C57</type>
+		<name>SLばんえつ物語号(旧塗装)</name>
+		<author>いっちー</author>
+		<description>10両まで可能。機関車はしかしか氏のものを流用させて頂きました。</description>
+        <fare>550</fare>
+        <price>40000000</price>
+	    <amenity>150</amenity>
+		<triprange>long</triprange>
+		<speed>slow</speed>
+
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+ 		<config>
+  		<car char="L" ref="{CyberExpress1703d-banetu}-L"/>
+   		<car char="h" ref="{CyberExpress1703d-banetu2}-h"/>
+   		<car char="m" ref="{CyberExpress1703d-banetu2}-m"/>
+  		<car char="t" ref="{CyberExpress1703d-banetu2}-t"/>
+  		<car char="v" ref="{CyberExpress1703d-banetu2}-v"/>
+
+   		<composition>L</composition>
+   		<composition>Lt</composition>
+   		<composition>Lht</composition>
+   		<composition>Lhmt</composition>
+   		<composition>Lhmmt</composition>
+   		<composition>Lhmvmt</composition>
+   		<composition>Lhmmvmt</composition>
+   		<composition>Lhmmvmmt</composition>
+   		<composition>Lhmmmvmmt</composition>
+   		<composition>Lhmmmvmmmt</composition>
+
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{CyberExpress1703d-115niigataold}">
+		<company>JR東日本</company>
+		<type>115系</type>
+		<name>新潟色</name>
+		<author>いっちー</author>
+		<description>新潟県内で走っている115系です。</description>
+        <fare>500</fare>
+        <price>35000000</price>
+	    <amenity>95</amenity>
+		<triprange>middle</triprange>
+		<speed>medium</speed>
+		<composition>
+			<head carRef="{CyberExpress1703d-115niigataold}-h"/>
+			<body carRef="{CyberExpress1703d-115niigataold}-m"/>
+			<tail carRef="{CyberExpress1703d-115niigataold}-t"/>
+		</composition>
+	</contribution>
+
+	<contribution type="train" id="{CyberExpress1703d-115niigatanew}">
+		<company>JR東日本</company>
+		<type>115系</type>
+		<name>新 新潟色</name>
+		<author>いっちー</author>
+		<description>数年前に色を塗り替えられて新潟県内で走っている115系です。</description>
+        <fare>500</fare>
+        <price>35000000</price>
+	    <amenity>95</amenity>
+		<triprange>middle</triprange>
+		<speed>medium</speed>
+		<composition>
+			<head carRef="{CyberExpress1703d-115niigatanew}-h"/>
+			<body carRef="{CyberExpress1703d-115niigatanew}-m"/>
+			<tail carRef="{CyberExpress1703d-115niigatanew}-t"/>
+		</composition>
+	</contribution>
+
+	<contribution type="train" id="{CyberExpress1703d-115niigata}">
+		<name>115系新潟色混結</name>
+        <fare>500</fare>
+        <price>35000000</price>
+	    <amenity>95</amenity>
+		<triprange>middle</triprange>
+		<speed>medium</speed>
+		<author>いっちー</author>
+		<type>115系</type>
+		<company>JR東日本</company>
+		<description>新潟色混結。7両まで編成可能。</description>
+		
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+ 		<config>
+  		<car char="A" ref="{CyberExpress1703d-115niigatanew}-h"/>
+   		<car char="+" ref="{CyberExpress1703d-115niigatanew}-m"/>
+   		<car char="B" ref="{CyberExpress1703d-115niigatanew}-t"/>
+  		<car char="C" ref="{CyberExpress1703d-115niigataold}-h"/>
+  		<car char="-" ref="{CyberExpress1703d-115niigataold}-m"/>
+  		<car char="D" ref="{CyberExpress1703d-115niigataold}-t"/>
+
+   		<composition>A</composition>
+   		<composition>CD</composition>
+   		<composition>A+B</composition>
+   		<composition>ABCD</composition>
+   		<composition>A+BCD</composition>
+   		<composition>A+BC-D</composition>
+   		<composition>A+BC--D</composition>
+		</config>
+	</contribution>
+
+</plug-in>

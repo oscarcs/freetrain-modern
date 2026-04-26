@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>建物総合コンバート　綾瀬ヒロ</title>
+	<author>りおりお</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+	<depend on="org.kohsuke.freetrain.structure.ayase" />
+	
+
+	<contribution type="GenericStructure" id="{DBE8EACF-C94D-4e02-AA29-43AC34F96AC9}-gs">
+		<group>港湾施設(コンテナ埠頭)</group>
+		<price>100000000</price>
+		<size>2,4</size>
+		<height>2</height>
+		<structure>
+			<category byname="貨物埠頭" />
+		</structure>
+		<sprite origin="0,0" offset="8">
+			<picture ref="{000000-2002-1212-AYASE-Structure-img01}"/>
+		</sprite>
+		<sprite origin="96,0" offset="24" opposite="true">
+			<picture ref="{000000-2002-1212-AYASE-Structure-img01}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{B32B765C-C74C-4BD9-84C6-E75A3E6DFC27}-gs">
+		<group>港湾施設(鉄道桟橋)</group>
+		<price>50000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<structure>
+			<category byname="旅客埠頭" />
+		</structure>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{000000-2002-1212-AYASE-Structure-img02}"/>
+		</sprite>
+		<sprite origin="32,0" offset="16">
+			<picture ref="{000000-2002-1212-AYASE-Structure-img02}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	
+	<contribution type="GenericStructure" id="{E0F69A4B-A3EE-4605-8987-7E63737EA481}-gs">
+		<group>港湾施設(客船埠頭)</group>
+		<price>200000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<structure>
+			<category byname="旅客埠頭" />
+		</structure>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{000000-2002-1212-AYASE-Structure-img02}"/>
+		</sprite>
+		<sprite origin="96,0" offset="16">
+			<picture ref="{000000-2002-1212-AYASE-Structure-img02}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{32D21DEE-99A5-414F-BAF7-6BBD705A7485}-gs">
+		<group>倉庫</group>
+		<price>10000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<design>赤レンガ1</design>
+		<structure>
+			<category byname="倉庫" />
+		</structure>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{000000-2002-1212-AYASE-Structure-img03}"/>
+		</sprite>
+		<sprite origin="32,0" offset="16">
+			<picture ref="{000000-2002-1212-AYASE-Structure-img03}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="GenericStructure" id="{29D7FEFA-2491-4ED0-8479-596FD805ED03}-gs">
+		<group>倉庫</group>
+		<price>10000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<design>赤レンガ2</design>
+		<structure>
+			<category byname="倉庫" />
+		</structure>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{000000-2002-1212-AYASE-Structure-img03}"/>
+		</sprite>
+		<sprite origin="96,0" offset="16">
+			<picture ref="{000000-2002-1212-AYASE-Structure-img03}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{D7A9451D-6EAB-4A50-8B4F-F1F30764C105}-gs">
+		<group>倉庫</group>
+		<price>10000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<design>赤レンガ3</design>
+		<structure>
+			<category byname="倉庫" />
+		</structure>
+		<sprite origin="128,0" offset="16">
+			<picture ref="{000000-2002-1212-AYASE-Structure-img03}"/>
+		</sprite>
+		<sprite origin="160,0" offset="16">
+			<picture ref="{000000-2002-1212-AYASE-Structure-img03}"/>
+		</sprite>
+	</contribution>
+</plug-in>

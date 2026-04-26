@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+  <plug-in>
+  <title>砲台</title> 
+  <author>モガミ</author> 
+  <homepage>http://www.geocities.jp/mogami00/Kamikazekensetu.html</homepage> 
+  <contribution type="picture" id="{mogami-buildingi-building-yousaihou-picture-64A28EF056DD}">
+  <picture src="yousaihou.bmp">
+  </picture>
+  </contribution>
+  <contribution type="GenericStructure" id="{mogami-buildingi-building-yousaihou-C5EC9E5936B8}-0">
+  <group>砲台・機関砲</group> 
+  <structure>
+  <category byname="軍事施設" /> 
+  </structure>
+  <size>1,1</size> 
+  <price>80000000</price> 
+  <computerCannotBuild /> 
+  <height>1</height> 
+  <population>
+  <class name="freetrain.contributions.population.OfficePopulation" /> 
+  <base>10</base> 
+  </population>
+  <sprite origin="0,0" offset="8">
+  <picture ref="{mogami-buildingi-building-yousaihou-picture-64A28EF056DD}" /> 
+  </sprite>
+  <sprite origin="32,0" offset="8">
+  <picture ref="{mogami-buildingi-building-yousaihou-picture-64A28EF056DD}" /> 
+  </sprite>
+  </contribution>
+  <contribution type="GenericStructure" id="{mogami-buildingi-building-yousaihou-C5EC9E5936B8}-1">
+  <group>砲台・墳進砲</group> 
+  <structure>
+  <category byname="軍事施設" /> 
+  </structure>
+  <size>1,1</size> 
+  <price>80000000</price> 
+  <computerCannotBuild /> 
+  <height>1</height> 
+  <population>
+  <class name="freetrain.contributions.population.OfficePopulation" /> 
+  <base>10</base> 
+  </population>
+  <sprite origin="0,0" offset="40">
+  <picture ref="{mogami-buildingi-building-yousaihou-picture-64A28EF056DD}" /> 
+  </sprite>
+  <sprite origin="32,0" offset="40">
+  <picture ref="{mogami-buildingi-building-yousaihou-picture-64A28EF056DD}" /> 
+  </sprite>
+  </contribution>
+  </plug-in>

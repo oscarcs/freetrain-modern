@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+
+<plug-in>
+
+	<title>地表</title>
+	<author>rk</author>
+	<homepage></homepage>
+
+	<contribution type="road" id="{rk-MONO-001-001a}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<style name="railballast"/>
+		<name>モノレール(レール)</name>
+		<description>モノレール</description>
+		<picture src="mono.bmp" size="32,32" offset="16">
+		</picture>
+	</contribution>
+
+	<contribution type="road" id="{rk-m00A009-FENCE-PICTURE-1001}">
+		<class name="freetrain.contributions.road.A3RoadContribution" />
+		<style name="railballast"/>
+		<name>モノレール(車止め)</name>
+		<description>モノレール</description>
+		<picture src="mono-end.png" size="32,32" offset="16" />
+	</contribution>
+
+	<contribution type="picture" id="{rk-m00A001-FENCE-STRUCTURE-1001}">
+		<picture src="m001.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-m00A002-FENCE-STRUCTURE-1001}">
+		<picture src="m002.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-m00A003-FENCE-STRUCTURE-1001}">
+		<picture src="m003.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-m00A004-FENCE-STRUCTURE-1001}">
+		<picture src="m004.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-m00A005-FENCE-STRUCTURE-1001}">
+		<picture src="m005.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-m00A006-FENCE-STRUCTURE-1001}">
+		<picture src="m006.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-m00A007-FENCE-STRUCTURE-1001}">
+		<picture src="m007.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-m00A008-FENCE-STRUCTURE-1001}">
+		<picture src="m008.bmp"/>
+	</contribution>
+
+
+
+	<contribution type="land" id="{rk-m00A001-FENCE-PICTURE-1001}">
+		<group>モノレール勾配</group>
+		<name>勾配01</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{rk-m00A001-FENCE-STRUCTURE-1001}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-m00A002-FENCE-PICTURE-1001}">
+		<group>モノレール勾配</group>
+		<name>勾配02</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{rk-m00A002-FENCE-STRUCTURE-1001}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-m00A003-FENCE-PICTURE-1001}">
+		<group>モノレール勾配</group>
+		<name>勾配03</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{rk-m00A003-FENCE-STRUCTURE-1001}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-m00A004-FENCE-PICTURE-1001}">
+		<group>モノレール勾配</group>
+		<name>勾配04</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{rk-m00A004-FENCE-STRUCTURE-1001}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+
+
+	<contribution type="land" id="{rk-m00A005-FENCE-PICTURE-1001}">
+		<group>モノレール勾配</group>
+		<name>勾配01</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{rk-m00A005-FENCE-STRUCTURE-1001}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-m00A006-FENCE-PICTURE-1001}">
+		<group>モノレール勾配</group>
+		<name>勾配02</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{rk-m00A006-FENCE-STRUCTURE-1001}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-m00A007-FENCE-PICTURE-1001}">
+		<group>モノレール勾配</group>
+		<name>勾配03</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{rk-m00A007-FENCE-STRUCTURE-1001}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-m00A008-FENCE-PICTURE-1001}">
+		<group>モノレール勾配</group>
+		<name>勾配08</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{rk-m00A008-FENCE-STRUCTURE-1001}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+
+</plug-in>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>町ビルC</title>
+	<author>toaru</author>
+	<homepage>http://monatomachi-ft.jpn.org/</homepage>
+<contribution type="picture" id="{704D7DCE-04BB-4DF2-8309-7531A1E43A36}">
+		<picture src="matibiru_c.bmp">
+			<override when="night" src="matibiru_c_n.bmp" />
+		</picture>
+</contribution>
+		
+<contribution type="GenericStructure" id="{DB92672A-6A4E-4D89-833B-1DB58720B897}">
+		<name>町ビルC</name>
+		<price>9000000</price>
+		<size>1,1</size>
+		<structure>
+			<category byname="ナイトクラブ"/>
+		</structure>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.BarPopulation"/>
+		<base>75</base>
+		</population>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{704D7DCE-04BB-4DF2-8309-7531A1E43A36}"/>
+		</sprite>
+		<sprite origin="0,32" offset="16">
+			<picture ref="{704D7DCE-04BB-4DF2-8309-7531A1E43A36}"/>
+		</sprite>
+</contribution>
+
+<contribution type="GenericStructure" id="{E0205615-A94C-4393-9FBB-1F44341F724E}">
+		<name>町ビルC</name>
+		<price>9000000</price>
+		<size>1,1</size>
+		<structure>
+			<category byname="ナイトクラブ"/>
+		</structure>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.BarPopulation"/>
+			<base>75</base>
+		</population>
+		<sprite origin="32,0" offset="16">
+			<picture ref="{704D7DCE-04BB-4DF2-8309-7531A1E43A36}"/>
+		</sprite>
+		<sprite origin="32,32" offset="16">
+			<picture ref="{704D7DCE-04BB-4DF2-8309-7531A1E43A36}"/>
+		</sprite>
+</contribution>
+
+<contribution type="GenericStructure" id="{9EC44EC3-080D-453F-A57A-C605064EA80C}">
+		<name>町ビルC</name>
+		<price>9000000</price>
+		<size>1,1</size>
+		<structure>
+			<category byname="ナイトクラブ"/>
+		</structure>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.BarPopulation"/>
+			<base>75</base>
+		</population>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{704D7DCE-04BB-4DF2-8309-7531A1E43A36}"/>
+		</sprite>
+		<sprite origin="64,32" offset="16">
+			<picture ref="{704D7DCE-04BB-4DF2-8309-7531A1E43A36}"/>
+		</sprite>
+</contribution>
+
+<contribution type="GenericStructure" id="{EE55A5B4-48C6-4D15-957F-9746C1729F7F}">
+		<name>町ビルC</name>
+		<price>9000000</price>
+		<size>1,1</size>
+		<structure>
+			<category byname="ナイトクラブ"/>
+		</structure>
+		<height>1</height>
+		<population>
+		<class name="freetrain.contributions.population.BarPopulation"/>
+			<base>75</base>
+		</population>
+		<sprite origin="96,0" offset="16">
+			<picture ref="{704D7DCE-04BB-4DF2-8309-7531A1E43A36}"/>
+		</sprite>
+		<sprite origin="96,32" offset="16">
+			<picture ref="{704D7DCE-04BB-4DF2-8309-7531A1E43A36}"/>
+		</sprite>
+</contribution>
+</plug-in>

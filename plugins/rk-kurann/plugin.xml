@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+<author>RK</author>
+<homepage></homepage>
+
+<title>港クレーン</title>
+
+	<contribution type="trainCar" id="{rk-FreeTrain-FreightCar-picture-kuren}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+		<picture src="kuren01.bmp" />
+		</sprite>
+		<capacity>0</capacity>
+		<seatedcapacity>0</seatedcapacity>
+	</contribution>
+	<contribution type="train" id="{rk-FreeTrain-FreightCar-TrainCar-kuren}">
+		<company>その他</company>
+		<type>港クレーン</type>
+		<name>クレーン</name>
+		<author>花菱烈火</author>
+		<description>
+		</description>
+		<fare>100</fare>
+		<amenity>100</amenity>
+		<triprange>short></triprange>
+		<price>20000000</price>
+		<speed>40</speed>
+		<composition>
+			<body carRef="{rk-FreeTrain-FreightCar-picture-kuren}"/>
+		</composition>
+	</contribution>
+
+</plug-in>

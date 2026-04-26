@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>バラストつきコンクリート高架橋</title>
+	<author>りおりお　←暇さん</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+
+
+	<contribution type="picture" id="{riorio-hima-kokakyo-ballast01-7B84EED12DD8}">
+		<picture src="kokakyoA1BB.bmp"/>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast01-7B84EED12DD8}-A">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="20">
+			<picture ref="{riorio-hima-kokakyo-ballast01-7B84EED12DD8}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast01-7B84EED12DD8}-B">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="32,0" offset="20">
+			<picture ref="{riorio-hima-kokakyo-ballast01-7B84EED12DD8}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast01-7B84EED12DD8}-C">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="64,0" offset="20">
+			<picture ref="{riorio-hima-kokakyo-ballast01-7B84EED12DD8}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast01-7B84EED12DD8}-D">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="96,0" offset="20">
+			<picture ref="{riorio-hima-kokakyo-ballast01-7B84EED12DD8}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast01-7B84EED12DD8}-E">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="128,0" offset="20">
+			<picture ref="{riorio-hima-kokakyo-ballast01-7B84EED12DD8}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast01-7B84EED12DD8}-F">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="160,0" offset="20">
+			<picture ref="{riorio-hima-kokakyo-ballast01-7B84EED12DD8}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast01-7B84EED12DD8}-G">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="192,0" offset="20">
+			<picture ref="{riorio-hima-kokakyo-ballast01-7B84EED12DD8}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast01-7B84EED12DD8}-H">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="224,0" offset="20">
+			<picture ref="{riorio-hima-kokakyo-ballast01-7B84EED12DD8}" />
+		</sprite>
+	</contribution>
+
+
+
+	<contribution type="picture" id="{riorio-hima-kokakyo-ballast02-42614BE79B16}">
+		<picture src="kokakyoA2BB.bmp"/>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast02-42614BE79B16}-A">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,0" offset="37">
+			<picture ref="{riorio-hima-kokakyo-ballast02-42614BE79B16}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast02-42614BE79B16}-B">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,0" offset="37">
+			<picture ref="{riorio-hima-kokakyo-ballast02-42614BE79B16}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast02-42614BE79B16}-C">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,0" offset="37">
+			<picture ref="{riorio-hima-kokakyo-ballast02-42614BE79B16}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast02-42614BE79B16}-D">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,0" offset="37">
+			<picture ref="{riorio-hima-kokakyo-ballast02-42614BE79B16}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast02-42614BE79B16}-E">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="128,0" offset="37">
+			<picture ref="{riorio-hima-kokakyo-ballast02-42614BE79B16}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast02-42614BE79B16}-F">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="160,0" offset="37">
+			<picture ref="{riorio-hima-kokakyo-ballast02-42614BE79B16}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast02-42614BE79B16}-G">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="192,0" offset="37">
+			<picture ref="{riorio-hima-kokakyo-ballast02-42614BE79B16}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast02-42614BE79B16}-H">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="224,0" offset="37">
+			<picture ref="{riorio-hima-kokakyo-ballast02-42614BE79B16}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="picture" id="{riorio-hima-kokakyo-ballast03-F7484EE3F7DE}">
+		<picture src="kokakyoB1BB.bmp"/>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast03-F7484EE3F7DE}-A">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="20">
+			<picture ref="{riorio-hima-kokakyo-ballast03-F7484EE3F7DE}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast03-F7484EE3F7DE}-B">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="32,0" offset="20">
+			<picture ref="{riorio-hima-kokakyo-ballast03-F7484EE3F7DE}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast03-F7484EE3F7DE}-C">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="64,0" offset="20">
+			<picture ref="{riorio-hima-kokakyo-ballast03-F7484EE3F7DE}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast03-F7484EE3F7DE}-D">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="96,0" offset="20">
+			<picture ref="{riorio-hima-kokakyo-ballast03-F7484EE3F7DE}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast03-F7484EE3F7DE}-E">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="128,0" offset="20">
+			<picture ref="{riorio-hima-kokakyo-ballast03-F7484EE3F7DE}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast03-F7484EE3F7DE}-F">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="160,0" offset="20">
+			<picture ref="{riorio-hima-kokakyo-ballast03-F7484EE3F7DE}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast03-F7484EE3F7DE}-G">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="192,0" offset="20">
+			<picture ref="{riorio-hima-kokakyo-ballast03-F7484EE3F7DE}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast03-F7484EE3F7DE}-H">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="224,0" offset="20">
+			<picture ref="{riorio-hima-kokakyo-ballast03-F7484EE3F7DE}" />
+		</sprite>
+	</contribution>
+
+
+
+	<contribution type="picture" id="{riorio-hima-kokakyo-ballast04-3740BE653D45}">
+		<picture src="kokakyoB2BB.bmp"/>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast04-3740BE653D45}-A">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,0" offset="37">
+			<picture ref="{riorio-hima-kokakyo-ballast04-3740BE653D45}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast04-3740BE653D45}-B">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,0" offset="37">
+			<picture ref="{riorio-hima-kokakyo-ballast04-3740BE653D45}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast04-3740BE653D45}-C">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,0" offset="37">
+			<picture ref="{riorio-hima-kokakyo-ballast04-3740BE653D45}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast04-3740BE653D45}-D">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,0" offset="37">
+			<picture ref="{riorio-hima-kokakyo-ballast04-3740BE653D45}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast04-3740BE653D45}-E">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="128,0" offset="37">
+			<picture ref="{riorio-hima-kokakyo-ballast04-3740BE653D45}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast04-3740BE653D45}-F">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="160,0" offset="37">
+			<picture ref="{riorio-hima-kokakyo-ballast04-3740BE653D45}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast04-3740BE653D45}-G">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="192,0" offset="37">
+			<picture ref="{riorio-hima-kokakyo-ballast04-3740BE653D45}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast04-3740BE653D45}-H">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="224,0" offset="37">
+			<picture ref="{riorio-hima-kokakyo-ballast04-3740BE653D45}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-hima-kokakyo-ballast01-rk-7B84EED12DD8}">
+		<picture src="kokakyoA1Brk.bmp"/>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast01-rk-7B84EED12DD8}-A">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="20">
+			<picture ref="{riorio-hima-kokakyo-ballast01-rk-7B84EED12DD8}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast01-rk-7B84EED12DD8}-B">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="32,0" offset="20">
+			<picture ref="{riorio-hima-kokakyo-ballast01-rk-7B84EED12DD8}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast01-rk-7B84EED12DD8}-C">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="64,0" offset="20">
+			<picture ref="{riorio-hima-kokakyo-ballast01-rk-7B84EED12DD8}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast01-rk-7B84EED12DD8}-D">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="96,0" offset="20">
+			<picture ref="{riorio-hima-kokakyo-ballast01-rk-7B84EED12DD8}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast01-rk-7B84EED12DD8}-E">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="128,0" offset="20">
+			<picture ref="{riorio-hima-kokakyo-ballast01-rk-7B84EED12DD8}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast01-rk-7B84EED12DD8}-F">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="160,0" offset="20">
+			<picture ref="{riorio-hima-kokakyo-ballast01-rk-7B84EED12DD8}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast01-rk-7B84EED12DD8}-G">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="192,0" offset="20">
+			<picture ref="{riorio-hima-kokakyo-ballast01-rk-7B84EED12DD8}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast01-rk-7B84EED12DD8}-H">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="224,0" offset="20">
+			<picture ref="{riorio-hima-kokakyo-ballast01-rk-7B84EED12DD8}" />
+		</sprite>
+	</contribution>
+
+
+
+	<contribution type="picture" id="{riorio-hima-kokakyo-ballast02-rk-42614BE79B16}">
+		<picture src="kokakyoA2Brk.bmp"/>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast02-rk-42614BE79B16}-A">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,0" offset="37">
+			<picture ref="{riorio-hima-kokakyo-ballast02-rk-42614BE79B16}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast02-rk-42614BE79B16}-B">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,0" offset="37">
+			<picture ref="{riorio-hima-kokakyo-ballast02-rk-42614BE79B16}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast02-rk-42614BE79B16}-C">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,0" offset="37">
+			<picture ref="{riorio-hima-kokakyo-ballast02-rk-42614BE79B16}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast02-rk-42614BE79B16}-D">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,0" offset="37">
+			<picture ref="{riorio-hima-kokakyo-ballast02-rk-42614BE79B16}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast02-rk-42614BE79B16}-E">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="128,0" offset="37">
+			<picture ref="{riorio-hima-kokakyo-ballast02-rk-42614BE79B16}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast02-rk-42614BE79B16}-F">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="160,0" offset="37">
+			<picture ref="{riorio-hima-kokakyo-ballast02-rk-42614BE79B16}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast02-rk-42614BE79B16}-G">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="192,0" offset="37">
+			<picture ref="{riorio-hima-kokakyo-ballast02-rk-42614BE79B16}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast02-rk-42614BE79B16}-H">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="224,0" offset="37">
+			<picture ref="{riorio-hima-kokakyo-ballast02-rk-42614BE79B16}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="picture" id="{riorio-hima-kokakyo-ballast03-rk-F7484EE3F7DE}">
+		<picture src="kokakyoB1Brk.bmp"/>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast03-rk-F7484EE3F7DE}-A">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="20">
+			<picture ref="{riorio-hima-kokakyo-ballast03-rk-F7484EE3F7DE}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast03-rk-F7484EE3F7DE}-B">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="32,0" offset="20">
+			<picture ref="{riorio-hima-kokakyo-ballast03-rk-F7484EE3F7DE}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast03-rk-F7484EE3F7DE}-C">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="64,0" offset="20">
+			<picture ref="{riorio-hima-kokakyo-ballast03-rk-F7484EE3F7DE}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast03-rk-F7484EE3F7DE}-D">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="96,0" offset="20">
+			<picture ref="{riorio-hima-kokakyo-ballast03-rk-F7484EE3F7DE}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast03-rk-F7484EE3F7DE}-E">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="128,0" offset="20">
+			<picture ref="{riorio-hima-kokakyo-ballast03-rk-F7484EE3F7DE}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast03-rk-F7484EE3F7DE}-F">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="160,0" offset="20">
+			<picture ref="{riorio-hima-kokakyo-ballast03-rk-F7484EE3F7DE}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast03-rk-F7484EE3F7DE}-G">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="192,0" offset="20">
+			<picture ref="{riorio-hima-kokakyo-ballast03-rk-F7484EE3F7DE}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast03-rk-F7484EE3F7DE}-H">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="224,0" offset="20">
+			<picture ref="{riorio-hima-kokakyo-ballast03-rk-F7484EE3F7DE}" />
+		</sprite>
+	</contribution>
+
+
+
+	<contribution type="picture" id="{riorio-hima-kokakyo-ballast04-rk-3740BE653D45}">
+		<picture src="kokakyoB2Brk.bmp"/>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast04-rk-3740BE653D45}-A">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,0" offset="37">
+			<picture ref="{riorio-hima-kokakyo-ballast04-rk-3740BE653D45}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast04-rk-3740BE653D45}-B">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,0" offset="37">
+			<picture ref="{riorio-hima-kokakyo-ballast04-rk-3740BE653D45}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast04-rk-3740BE653D45}-C">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,0" offset="37">
+			<picture ref="{riorio-hima-kokakyo-ballast04-rk-3740BE653D45}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast04-rk-3740BE653D45}-D">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,0" offset="37">
+			<picture ref="{riorio-hima-kokakyo-ballast04-rk-3740BE653D45}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast04-rk-3740BE653D45}-E">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="128,0" offset="37">
+			<picture ref="{riorio-hima-kokakyo-ballast04-rk-3740BE653D45}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast04-rk-3740BE653D45}-F">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="160,0" offset="37">
+			<picture ref="{riorio-hima-kokakyo-ballast04-rk-3740BE653D45}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast04-rk-3740BE653D45}-G">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="192,0" offset="37">
+			<picture ref="{riorio-hima-kokakyo-ballast04-rk-3740BE653D45}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-hima-kokakyo-ballast04-rk-3740BE653D45}-H">
+		<group>コンクリート高架橋(バラスト)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="224,0" offset="37">
+			<picture ref="{riorio-hima-kokakyo-ballast04-rk-3740BE653D45}" />
+		</sprite>
+	</contribution>
+
+</plug-in>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plug-in [
+<!ENTITY gasshoA '
+	<group>合掌造り</group>
+	<design>切妻造</design>
+	<price>500000</price>
+	<size>1,1</size>
+	<structure>
+		<category byname="一戸建て"/>
+	</structure>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.ResidentialPopulation"/>
+		<base>6</base>
+	</population>
+'>
+<!ENTITY gasshoB '
+	<group>合掌造り</group>
+	<design>入母屋造</design>
+	<price>500000</price>
+	<size>1,1</size>
+	<structure>
+		<category byname="一戸建て"/>
+	</structure>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.ResidentialPopulation"/>
+		<base>6</base>
+	</population>
+
+'>
+<!ENTITY gasshoC '
+	<group>合掌造り</group>
+	<design>寄棟造</design>
+	<price>500000</price>
+	<size>1,1</size>
+	<structure>
+		<category byname="一戸建て"/>
+	</structure>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.ResidentialPopulation"/>
+		<base>6</base>
+	</population>
+
+'>
+<!ENTITY gasshoD '
+	<group>合掌造り</group>
+	<design>土蔵</design>
+	<price>500000</price>
+	<size>1,1</size>
+	<structure>
+		<category byname="一戸建て"/>
+	</structure>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.ResidentialPopulation"/>
+		<base>6</base>
+	</population>
+    <computerCannotBuild />
+
+'>
+<!ENTITY gasshoE '
+	<group>合掌造り</group>
+	<design>水車小屋</design>
+	<price>500000</price>
+	<size>1,1</size>
+	<structure>
+		<category byname="一戸建て"/>
+	</structure>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.ResidentialPopulation"/>
+		<base>6</base>
+	</population>
+    <computerCannotBuild />
+'>
+<!ENTITY gasshoF '
+	<group>合掌造り</group>
+	<design>道祖神</design>
+	<price>500000</price>
+	<size>1,1</size>
+	<structure>
+		<category byname="一戸建て"/>
+	</structure>
+	<height>1</height>
+	<population>
+		<class name="freetrain.contributions.population.ResidentialPopulation"/>
+		<base>6</base>
+	</population>
+    <computercannotbuild />
+'>]>
+
+<plug-in>
+	<title>合掌造り</title>
+	<author>Hermes</author>
+	<homepage>nothing</homepage>
+		
+	<contribution type="picture" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E905}">
+		<picture src="gasshoA.bmp">
+                        <override when="winter" src="gasshoA_win.bmp" />
+                </picture>
+	</contribution>
+	<contribution type="picture" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E915}">
+		<picture src="gasshoB.bmp">
+                        <override when="summer" src="gasshoB_sum.bmp" />
+                        <override when="winter" src="gasshoB_win.bmp" />
+                </picture>
+	</contribution>
+	<contribution type="picture" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E925}">
+		<picture src="gasshoC.bmp">
+                        <override when="summer" src="gasshoC_sum.bmp" />
+                        <override when="winter" src="gasshoC_win.bmp" />
+                </picture>
+	</contribution>
+	<contribution type="picture" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E935}">
+		<picture src="gasshoD.bmp">
+                        <override when="summer" src="gasshoD_sum.bmp" />
+                        <override when="winter" src="gasshoD_win.bmp" />
+                </picture>
+	</contribution>
+	<contribution type="picture" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E945}">
+		<picture src="gasshoE.bmp">
+                        <override when="summer" src="gasshoE_sum.bmp" />
+                        <override when="winter" src="gasshoE_win.bmp" />
+                </picture>
+	</contribution>
+	<contribution type="picture" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E955}">
+		<picture src="gasshoF.bmp">
+                        <override when="summer" src="gasshoF_sum.bmp" />
+                        <override when="winter" src="gasshoF_win.bmp" />
+                </picture>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E908}">
+		&gasshoA;
+		<sprite origin="0,0" offset="16">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E905}"/>
+		</sprite>
+		<sprite origin="32,0" offset="16">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E905}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E918}">
+		&gasshoB;
+		<sprite origin="0,0" offset="16">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E915}"/>
+		</sprite>
+		<sprite origin="32,0" offset="16">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E915}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E928}">
+		&gasshoC;
+		<sprite origin="0,0" offset="16">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E925}"/>
+		</sprite>
+		<sprite origin="32,0" offset="16">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E925}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E938}">
+		&gasshoD;
+		<sprite origin="0,0" offset="16">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E935}"/>
+		</sprite>
+		<sprite origin="32,0" offset="16">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E935}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E948}">
+		&gasshoE;
+		<sprite origin="0,0" offset="16">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E945}"/>
+		</sprite>
+		<sprite origin="32,0" offset="16">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E945}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E958}">
+		&gasshoF;
+		<sprite origin="0,0" offset="16">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E955}"/>
+		</sprite>
+		<sprite origin="32,0" offset="16">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E955}"/>
+		</sprite>
+	</contribution>
+
+</plug-in>

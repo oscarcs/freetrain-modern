@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plug-in [
+<!ENTITY JNRwhite '
+	<colorVariation><spriteType name="colorMapped">
+		<map from="180,180,0" to="180,180,180"/>
+		<map from="230,230,0" to="230,230,230"/>
+		<map from="142,142,0" to="142,142,142"/>
+	</spriteType></colorVariation>
+'>
+<!ENTITY JNRgreen '
+	<colorVariation><spriteType name="colorMapped">
+		<map from="180,180,0" to="91,170,75"/>
+		<map from="230,230,0" to="102,191,100"/>
+		<map from="142,142,0" to="78,146,64"/>
+		<map from="180,180,180" to="91,170,75"/>
+		<map from="230,230,230" to="102,191,100"/>
+		<map from="142,142,142" to="78,146,64"/>
+	</spriteType></colorVariation>
+'>
+<!ENTITY JNRblue '
+	<colorVariation><spriteType name="colorMapped">
+		<map from="180,180,0" to="91,160,170"/>
+		<map from="230,230,0" to="102,170,191"/>
+		<map from="142,142,0" to="78,138,146"/>
+		<map from="180,180,180" to="91,160,170"/>
+		<map from="230,230,230" to="102,170,191"/>
+		<map from="142,142,142" to="78,138,146"/>
+	</spriteType></colorVariation>
+'>
+<!ENTITY JNRblueANDgreen '
+	<colorVariation><spriteType name="colorMapped">
+		<map from="180,180,0" to="91,170,75"/>
+		<map from="230,230,0" to="102,191,100"/>
+		<map from="142,142,0" to="78,146,64"/>
+		<map from="180,180,180" to="91,160,170"/>
+		<map from="230,230,230" to="102,170,191"/>
+		<map from="142,142,142" to="78,138,146"/>
+	</spriteType></colorVariation>
+'>
+<!ENTITY JRred '
+	<colorVariation><spriteType name="colorMapped">
+		<map from="180,180,0" to="148,50,50"/>
+		<map from="230,230,0" to="176,48,64"/>
+		<map from="142,142,0" to="128,0,0"/>
+		<map from="180,180,180" to="148,50,50"/>
+		<map from="230,230,230" to="176,48,64"/>
+		<map from="142,142,142" to="128,0,0"/>
+	</spriteType></colorVariation>
+'>
+<!ENTITY JRredANDblue '
+	<colorVariation><spriteType name="colorMapped">
+		<map from="180,180,0" to="91,160,170"/>
+		<map from="230,230,0" to="102,170,191"/>
+		<map from="142,142,0" to="78,138,146"/>
+		<map from="180,180,180" to="148,50,50"/>
+		<map from="230,230,230" to="176,48,64"/>
+		<map from="142,142,142" to="128,0,0"/>
+	</spriteType></colorVariation>
+'>
+<!ENTITY JLblue '
+	<colorVariation><spriteType name="colorMapped">
+		<map from="180,180,0" to="82,82,174"/>
+		<map from="230,230,0" to="122,122,210"/>
+		<map from="142,142,0" to="2,10,172"/>
+		<map from="180,180,180" to="82,82,174"/>
+		<map from="230,230,230" to="122,122,210"/>
+		<map from="142,142,142" to="2,10,172"/>
+	</spriteType></colorVariation>
+'>
+<!ENTITY JLblueANDJRred '
+	<colorVariation><spriteType name="colorMapped">
+		<map from="180,180,0" to="148,50,50"/>
+		<map from="230,230,0" to="176,48,64"/>
+		<map from="142,142,0" to="128,0,0"/>
+		<map from="180,180,180" to="82,82,174"/>
+		<map from="230,230,230" to="122,122,210"/>
+		<map from="142,142,142" to="2,10,172"/>
+	</spriteType></colorVariation>
+'>
+<!ENTITY no_container '
+	<colorVariation/>
+'>
+]>
+
+<plug-in>
+	<title>自動車　コンテナトレーラ</title>
+	<author>りおりお書換←C477@2両目</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>	
+	<depend on="jp.co.tripod.chiname.lib" />	
+	
+	<contribution type="picture" id="{riorio-cars-4295-C477-FA9010ACD1B9}">
+		<picture src="cars_container.bmp"/>
+	</contribution>
+
+	<contribution type="DummyCar" id="{riorio-cars-4930-C477-9699E6F37DF8}-0,0">
+		<name>コンテナトレーラ(前)</name>
+		<sprite origin="0, 0" offset="4">
+			<picture src="cars_container.bmp"/>
+			<variations>
+				&JNRwhite;
+				&JNRgreen;
+				&JNRblue;
+				&JNRblueANDgreen;
+				&JRred;
+				&JRredANDblue;
+				&JLblue;
+				&JLblueANDJRred;
+			</variations>
+		</sprite>
+	</contribution>
+	<contribution type="DummyCar" id="{riorio-cars-4930-C477-9699E6F37DF8}-1,0">
+		<name>コンテナトレーラ(後)</name>
+		<sprite origin="64, 0" offset="4">
+			<picture src="cars_container.bmp"/>
+			<variations>
+				&JNRwhite;
+				&JNRgreen;
+				&JNRblue;
+				&JNRblueANDgreen;
+				&JRred;
+				&JRredANDblue;
+				&JLblue;
+				&JLblueANDJRred;
+			</variations>
+		</sprite>
+	</contribution>
+	<contribution type="DummyCar" id="{riorio-cars-4930-C477-9699E6F37DF8}-0,1">
+		<name>空トレーラ(前)</name>
+		<sprite origin="0,24" offset="4">
+			<picture src="cars_container.bmp"/>
+			<variations>
+				&no_container;
+			</variations>
+		</sprite>
+	</contribution>
+	<contribution type="DummyCar" id="{riorio-cars-4930-C477-9699E6F37DF8}-1,1">
+		<name>空トレーラ(後)</name>
+		<sprite origin="64,24" offset="4">
+			<picture src="cars_container.bmp"/>
+			<variations>
+				&no_container;
+			</variations>
+		</sprite>
+	</contribution>
+
+	<contribution type="DummyCar" id="{riorio-cars-4930-C477-9699E6F37DF8}-2,0">
+		<name>コンテナトレーラ*(前)</name>
+		<sprite origin="128, 0" offset="4">
+			<picture src="cars_container.bmp"/>
+			<variations>
+				&JNRwhite;
+				&JNRgreen;
+				&JNRblue;
+				&JNRblueANDgreen;
+				&JRred;
+				&JRredANDblue;
+				&JLblue;
+				&JLblueANDJRred;
+			</variations>
+		</sprite>
+	</contribution>
+	<contribution type="DummyCar" id="{riorio-cars-4930-C477-9699E6F37DF8}-3,0">
+		<name>コンテナトレーラ*(後)</name>
+		<sprite origin="192, 0" offset="4">
+			<picture src="cars_container.bmp"/>
+			<variations>
+				&JNRwhite;
+				&JNRgreen;
+				&JNRblue;
+				&JNRblueANDgreen;
+				&JRred;
+				&JRredANDblue;
+				&JLblue;
+				&JLblueANDJRred;
+			</variations>
+		</sprite>
+	</contribution>
+	<contribution type="DummyCar" id="{riorio-cars-4930-C477-9699E6F37DF8}-2,1">
+		<name>空トレーラ(前)*</name>
+		<sprite origin="128,24" offset="4">
+			<picture src="cars_container.bmp"/>
+			<variations>
+				&no_container;
+			</variations>
+		</sprite>
+	</contribution>
+	<contribution type="DummyCar" id="{riorio-cars-4930-C477-9699E6F37DF8}-3,1">
+		<name>空トレーラ(後)*</name>
+		<sprite origin="192,24" offset="4">
+			<picture src="cars_container.bmp"/>
+			<variations>
+				&no_container;
+			</variations>
+		</sprite>
+	</contribution>
+	
+</plug-in>

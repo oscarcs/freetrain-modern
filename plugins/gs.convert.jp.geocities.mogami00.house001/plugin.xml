@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+ <plug-in>
+ <title>建物総合コンバート　モガミ</title> 
+ <author>りおりお</author> 
+ <homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage> 
+ <depend on="jp.geocities.mogami00.house001" />
+
+ <contribution type="GenericStructure" id="{23BCFE49-F037-47DF-8D24-9D89749762B7}-gs">
+   <group>一戸建て</group> 
+   <price>1000000</price> 
+   <size>1,1</size> 
+   <height>1</height> 
+   <structure>
+     <category byname="一戸建て" />
+   </structure>
+   <population>
+     <class name="freetrain.contributions.population.ResidentialPopulation" /> 
+     <base>10</base> 
+   </population>
+   <sprite origin="0,0" offset="16">
+     <picture ref="{A1E2E312-7B44-42C9-B399-57673AEB809C}" /> 
+   </sprite>
+ </contribution>
+
+ <contribution type="GenericStructure" id="{23BCFE49-F037-47DF-8D24-9D89749762B7}-0gs">
+   <group>一戸建て</group> 
+   <price>1000000</price> 
+   <size>1,1</size> 
+   <height>1</height> 
+   <structure>
+     <category byname="一戸建て" />
+   </structure>
+   <population>
+     <class name="freetrain.contributions.population.ResidentialPopulation" /> 
+     <base>10</base> 
+   </population>
+   <sprite origin="32,0" offset="16">
+     <picture ref="{A1E2E312-7B44-42C9-B399-57673AEB809C}" /> 
+   </sprite>
+ </contribution>
+
+ <contribution type="GenericStructure" id="{23BCFE49-F037-47DF-8D24-9D89749762B7}-1gs">
+   <group>一戸建て</group> 
+   <price>1000000</price> 
+   <size>1,1</size> 
+   <height>1</height> 
+   <structure>
+     <category byname="一戸建て" />
+   </structure>
+   <population>
+     <class name="freetrain.contributions.population.ResidentialPopulation" /> 
+     <base>10</base> 
+   </population>
+   <sprite origin="64,0" offset="16">
+     <picture ref="{A1E2E312-7B44-42C9-B399-57673AEB809C}" /> 
+   </sprite>
+ </contribution>
+
+ <contribution type="GenericStructure" id="{23BCFE49-F037-47DF-8D24-9D89749762B7}-2gs">
+   <group>一戸建て</group> 
+   <price>1000000</price> 
+   <size>1,1</size> 
+   <height>1</height> 
+   <structure>
+     <category byname="一戸建て" />
+   </structure>
+   <population>
+     <class name="freetrain.contributions.population.ResidentialPopulation" /> 
+     <base>10</base> 
+   </population>
+   <sprite origin="96,0" offset="16">
+     <picture ref="{A1E2E312-7B44-42C9-B399-57673AEB809C}" /> 
+   </sprite>
+ </contribution>
+
+ <contribution type="GenericStructure" id="{23BCFE49-F037-47DF-8D24-9D89749762B7}-3gs">
+   <group>一戸建て</group> 
+   <price>1000000</price> 
+   <size>1,1</size> 
+   <height>1</height> 
+   <structure>
+     <category byname="一戸建て" />
+   </structure>
+   <population>
+     <class name="freetrain.contributions.population.ResidentialPopulation" /> 
+     <base>10</base> 
+   </population>
+   <sprite origin="128,0" offset="16">
+     <picture ref="{A1E2E312-7B44-42C9-B399-57673AEB809C}" /> 
+   </sprite>
+ </contribution>
+
+ <contribution type="GenericStructure" id="{23BCFE49-F037-47DF-8D24-9D89749762B7}-4gs">
+   <group>一戸建て</group> 
+   <price>1000000</price> 
+   <size>1,1</size> 
+   <height>1</height> 
+   <structure>
+     <category byname="一戸建て" />
+   </structure>
+   <population>
+     <class name="freetrain.contributions.population.ResidentialPopulation" /> 
+     <base>10</base> 
+   </population>
+   <sprite origin="160,0" offset="16">
+     <picture ref="{A1E2E312-7B44-42C9-B399-57673AEB809C}" /> 
+   </sprite>
+ </contribution>
+
+ <contribution type="GenericStructure" id="{23BCFE49-F037-47DF-8D24-9D89749762B7}-5gs">
+   <group>一戸建て</group> 
+   <price>1000000</price> 
+   <size>1,1</size> 
+   <height>1</height> 
+   <structure>
+     <category byname="一戸建て" />
+   </structure>
+   <population>
+     <class name="freetrain.contributions.population.ResidentialPopulation" /> 
+     <base>10</base> 
+   </population>
+   <sprite origin="192,0" offset="16">
+     <picture ref="{A1E2E312-7B44-42C9-B399-57673AEB809C}" /> 
+   </sprite>
+ </contribution>
+
+ <contribution type="GenericStructure" id="{23BCFE49-F037-47DF-8D24-9D89749762B7}-6gs">
+   <group>一戸建て</group> 
+   <price>1000000</price> 
+   <size>1,1</size> 
+   <height>1</height> 
+   <structure>
+     <category byname="一戸建て" />
+   </structure>
+   <population>
+     <class name="freetrain.contributions.population.ResidentialPopulation" /> 
+     <base>10</base> 
+   </population>
+   <sprite origin="224,0" offset="16">
+     <picture ref="{A1E2E312-7B44-42C9-B399-57673AEB809C}" /> 
+   </sprite>
+ </contribution>
+
+ <contribution type="GenericStructure" id="{23BCFE49-F037-47DF-8D24-9D89749762B7}-7gs">
+   <group>一戸建て</group> 
+   <price>1000000</price> 
+   <size>1,1</size> 
+   <height>1</height> 
+   <structure>
+     <category byname="一戸建て" />
+   </structure>
+   <population>
+     <class name="freetrain.contributions.population.ResidentialPopulation" /> 
+     <base>10</base> 
+   </population>
+   <sprite origin="256,0" offset="16">
+     <picture ref="{A1E2E312-7B44-42C9-B399-57673AEB809C}" /> 
+   </sprite>
+ </contribution>
+
+ </plug-in>

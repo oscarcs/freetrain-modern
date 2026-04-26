@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>建物総合コンバート　ては</title>
+	<author>りおりお</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+	<depend on="jp.zaq.pant012.structure.ctowers" />
+
+	<contribution type="picture" id="{riorio-gs-convert-teha-picture-ctowers}">
+		<picture src="../jp.zaq.pant012.structure.ctowers/ctowers.bmp" />
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{F5776500-E8E5-4D5E-B30A-A0036A6ECDEB}-gs">
+		<group>セントラルタワーズ</group>
+		<price>50000000</price>
+		<size>5,2</size>
+		<height>10</height>
+		<structure>
+			<category byname="貸事務所" />
+			<category byname="一般飲食店" hide="true" />
+			<category byname="高級ホテル" hide="true" />
+		</structure>
+		<sprite origin="0,0" offset="186">
+			<picture ref="{riorio-gs-convert-teha-picture-ctowers}" />
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+</plug-in>

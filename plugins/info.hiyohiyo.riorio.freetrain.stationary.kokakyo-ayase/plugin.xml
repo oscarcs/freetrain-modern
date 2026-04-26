@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>高架橋脚（スラブ軌道）</title>
+	<author>りおりお</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+	
+	<contribution type="picture" id="{riorio-ayase-kokakyorepaint01-picture-BFEA15454F81}">
+		<picture src="brick-girder.bmp"/>
+	</contribution>
+	
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint01-picture-BFEA15454F81}-A">
+		<group>コン橋脚</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint01-picture-BFEA15454F81}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint01-picture-BFEA15454F81}-B">
+		<group>コン橋脚</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="32,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint01-picture-BFEA15454F81}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint01-picture-BFEA15454F81}-C">
+		<group>コン橋脚</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="64,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint01-picture-BFEA15454F81}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint01-picture-BFEA15454F81}-D">
+		<group>コン橋脚</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="96,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint01-picture-BFEA15454F81}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint01-picture-BFEA15454F81}-E">
+		<group>コン橋脚</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="128,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint01-picture-BFEA15454F81}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint01-picture-BFEA15454F81}-F">
+		<group>コン橋脚</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="160,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint01-picture-BFEA15454F81}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint01-picture-BFEA15454F81}-G">
+		<group>コン橋脚</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="192,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint01-picture-BFEA15454F81}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint01-picture-BFEA15454F81}-H">
+		<group>コン橋脚</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="224,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint01-picture-BFEA15454F81}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint01-picture-BFEA15454F81}-II">
+		<group>コン橋脚</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint01-picture-BFEA15454F81}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint01-picture-BFEA15454F81}-JJ">
+		<group>コン橋脚</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="32,0" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint01-picture-BFEA15454F81}"/>
+		</sprite>
+	</contribution>
+	
+
+
+	<contribution type="picture" id="{riorio-ayase-kokakyorepaint02-picture-0D247E162113}">
+		<picture src="brick-girder2.bmp"/>
+	</contribution>
+
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint02-picture-0D247E162113}-A">
+		<group>コン橋脚(側道付)</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint02-picture-0D247E162113}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint02-picture-0D247E162113}-B">
+		<group>コン橋脚(側道付)</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="32,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint02-picture-0D247E162113}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint02-picture-0D247E162113}-C">
+		<group>コン橋脚(側道付)</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="64,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint02-picture-0D247E162113}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint02-picture-0D247E162113}-D">
+		<group>コン橋脚(側道付)</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="96,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint02-picture-0D247E162113}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint02-picture-0D247E162113}-E">
+		<group>コン橋脚(側道付)</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="128,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint02-picture-0D247E162113}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint02-picture-0D247E162113}-F">
+		<group>コン橋脚(側道付)</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="160,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint02-picture-0D247E162113}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint02-picture-0D247E162113}-G">
+		<group>コン橋脚(側道付)</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="192,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint02-picture-0D247E162113}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint02-picture-0D247E162113}-H">
+		<group>コン橋脚(側道付)</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="224,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint02-picture-0D247E162113}"/>
+		</sprite>
+	</contribution>
+
+
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint02-picture-0D247E162113}-II">
+		<group>コン橋脚(側道付)</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint02-picture-0D247E162113}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint02-picture-0D247E162113}-JJ">
+		<group>コン橋脚(側道付)</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="32,0" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint02-picture-0D247E162113}"/>
+		</sprite>
+	</contribution>
+	
+
+
+	<contribution type="picture" id="{riorio-ayase-kokakyorepaint03-picture-B470B202E927}">
+		<picture src="brick-girder3.bmp"/>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint03-picture-B470B202E927}-C">
+		<group>コン橋脚(複合)</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="64,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint03-picture-B470B202E927}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint03-picture-B470B202E927}-D">
+		<group>コン橋脚(複合)</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="96,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint03-picture-B470B202E927}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint03-picture-B470B202E927}-E">
+		<group>コン橋脚(複合)</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="128,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint03-picture-B470B202E927}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint03-picture-B470B202E927}-F">
+		<group>コン橋脚(複合)</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="160,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint03-picture-B470B202E927}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint03-picture-B470B202E927}-G">
+		<group>コン橋脚(複合)</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="192,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint03-picture-B470B202E927}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint03-picture-B470B202E927}-H">
+		<group>コン橋脚(複合)</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="224,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint03-picture-B470B202E927}"/>
+		</sprite>
+	</contribution>
+
+
+	<contribution type="picture" id="{riorio-ayase-kokakyorepaint04-picture-821A3444FBE1}">
+		<picture src="brick-girder4.bmp"/>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint04-picture-821A3444FBE1}-C">
+		<group>コン橋脚(複合)</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint04-picture-821A3444FBE1}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint04-picture-821A3444FBE1}-D">
+		<group>コン橋脚(複合)</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint04-picture-821A3444FBE1}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint04-picture-821A3444FBE1}-E">
+		<group>コン橋脚(複合)</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="128,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint04-picture-821A3444FBE1}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint04-picture-821A3444FBE1}-F">
+		<group>コン橋脚(複合)</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="160,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint04-picture-821A3444FBE1}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint04-picture-821A3444FBE1}-G">
+		<group>コン橋脚(複合)</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="192,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint04-picture-821A3444FBE1}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint04-picture-821A3444FBE1}-H">
+		<group>コン橋脚(複合)</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="224,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint04-picture-821A3444FBE1}"/>
+		</sprite>
+	</contribution>
+
+
+
+	<contribution type="picture" id="{riorio-ayase-kokakyorepaint05-picture-189F34FA2FBC}">
+		<picture src="brick-girder5.bmp"/>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint05-picture-189F34FA2FBC}-C">
+		<group>コン橋脚(複合)</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint05-picture-189F34FA2FBC}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint05-picture-189F34FA2FBC}-D">
+		<group>コン橋脚(複合)</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint05-picture-189F34FA2FBC}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint05-picture-189F34FA2FBC}-E">
+		<group>コン橋脚(複合)</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="128,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint05-picture-189F34FA2FBC}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint05-picture-189F34FA2FBC}-F">
+		<group>コン橋脚(複合)</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="160,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint05-picture-189F34FA2FBC}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint05-picture-189F34FA2FBC}-G">
+		<group>コン橋脚(複合)</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="192,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint05-picture-189F34FA2FBC}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{riorio-ayase-kokakyorepaint05-picture-189F34FA2FBC}-H">
+		<group>コン橋脚(複合)</group>
+		<price>1000000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="224,32" offset="16">
+			<picture ref="{riorio-ayase-kokakyorepaint05-picture-189F34FA2FBC}"/>
+		</sprite>
+	</contribution>
+
+
+</plug-in>

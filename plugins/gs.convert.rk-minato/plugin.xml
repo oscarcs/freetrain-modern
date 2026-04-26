@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>建物総合コンバート　花菱烈火　漁港</title>
+	<author>りおりお</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+
+	<contribution type="picture" id="{riorio-gsconvert-rekka-picture-minato-0001}">
+		<picture src="../rk-minato/minato001.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gsconvert-rekka-picture-minato-0002}">
+		<picture src="../rk-minato/minato002.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gsconvert-rekka-picture-minato-0003}">
+		<picture src="../rk-minato/minato003.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gsconvert-rekka-picture-minato-0005}">
+		<picture src="../rk-minato/minato005.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gsconvert-rekka-picture-minato-0006}">
+		<picture src="../rk-minato/minato006.bmp" />
+	</contribution>
+
+
+
+	<contribution type="GenericStructure" id="{rk-minato-n001}-gs">
+		<group>港</group>
+		<design>A</design>
+		<price>1000</price>
+		<size>3,3</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="25">
+			<picture ref="{riorio-gsconvert-rekka-picture-minato-0001}" />
+		</sprite>
+		<sprite origin="96,0" offset="25">
+			<picture ref="{riorio-gsconvert-rekka-picture-minato-0001}" />
+		</sprite>
+		<structure>
+			<category  byname="その他港湾設備" />
+		</structure>
+		<computerCannotBuild/>
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{rk-minato-n003}-gs">
+		<group>港</group>
+		<design>B</design>
+		<price>1000</price>
+		<size>3,3</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="25">
+			<picture ref="{riorio-gsconvert-rekka-picture-minato-0002}" />
+		</sprite>
+		<sprite origin="96,0" offset="25">
+			<picture ref="{riorio-gsconvert-rekka-picture-minato-0002}" />
+		</sprite>
+		<structure>
+			<category  byname="その他港湾設備" />
+		</structure>
+		<computerCannotBuild/>
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{rk-minato-n005}-gs">
+		<group>港</group>
+		<design>C</design>
+		<price>1000</price>
+		<size>3,2</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="25">
+			<picture ref="{riorio-gsconvert-rekka-picture-minato-0003}" />
+		</sprite>
+		<sprite origin="80,0" offset="25" opposite="true">
+opposite="true">
+			<picture ref="{riorio-gsconvert-rekka-picture-minato-0003}" />
+		</sprite>
+		<structure>
+			<category  byname="その他港湾設備" />
+		</structure>
+		<computerCannotBuild/>
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{rk-minato-n007}-gs">
+		<group>港</group>
+		<design>D</design>
+		<price>1000</price>
+		<size>3,3</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="27">
+			<picture ref="{riorio-gsconvert-rekka-picture-minato-0005}" />
+		</sprite>
+		<sprite origin="96,0" offset="27">
+			<picture ref="{riorio-gsconvert-rekka-picture-minato-0005}" />
+		</sprite>
+		<structure>
+			<category  byname="その他港湾設備" />
+		</structure>
+		<computerCannotBuild/>
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{rk-minato-n010}-gs">
+		<group>港</group>
+		<design>E</design>
+		<price>1000</price>
+		<size>3,3</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="27">
+			<picture ref="{riorio-gsconvert-rekka-picture-minato-0006}" />
+		</sprite>
+		<sprite origin="96,0" offset="27">
+			<picture ref="{riorio-gsconvert-rekka-picture-minato-0006}" />
+		</sprite>
+		<structure>
+			<category  byname="その他港湾設備" />
+		</structure>
+		<computerCannotBuild/>
+	</contribution>
+
+
+</plug-in>

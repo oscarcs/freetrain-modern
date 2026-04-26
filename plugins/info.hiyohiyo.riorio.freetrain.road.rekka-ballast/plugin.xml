@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>道路plugin線路バラスト</title>
+	<author>りおりお　画像：花菱烈火</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+	
+	<!-- 花菱烈火さんのバラスト画像をりおりおがplugin化したものです。 -->
+	
+	<!-- 新しい線路敷石 -->
+	<contribution type="road" id="{riorio-HanabishiRekka-Road-ballast-silver}">
+		<class name="freetrain.contributions.road.A3RoadContribution" />
+		<style name="railballast" />
+		<name>線路敷石/灰色</name>
+		<description>線路敷石</description>
+		<picture src="road_ballast_silver.bmp" />
+	</contribution>
+	
+
+</plug-in>

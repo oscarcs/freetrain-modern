@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>見えない駅舎</title>
+	<author>ホリタケ</author>
+	<homepage></homepage>
+	
+	<contribution type="station" id="{724AD4DD-9AF6-48E6-B72A-F71745821E34}">
+		<name>見えない駅舎　芝生</name>
+		<price>7000000</price>
+		<operationCost>120000</operationCost>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="8">
+			<picture src="Small01.bmp"/>
+		</sprite>
+	</contribution>
+
+        <contribution type="station" id="{5328E09C-531E-416B-9819-77630F59AAB9}">
+		<name>見えない駅舎　コンクリート</name>
+		<price>7000000</price>
+		<operationCost>120000</operationCost>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="32,0" offset="8">
+			<picture src="Small01.bmp"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="station" id="{C7A701BD-53CD-4918-BF5E-7182A3562632}">
+		<name>見えない駅舎　水面</name>
+		<price>7000000</price>
+		<operationCost>120000</operationCost>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="64,0" offset="8">
+			<picture src="Small01.bmp"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="station" id="{B2D4F35C-5649-47B4-8810-DFC1A30B1E96}">
+		<name>見えない駅舎　砂利</name>
+		<price>7000000</price>
+		<operationCost>120000</operationCost>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="96,0" offset="8">
+			<picture src="Small01.bmp"/>
+		</sprite>
+	</contribution>
+</plug-in>

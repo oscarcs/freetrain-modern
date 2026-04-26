@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>建物総合コンバート　花菱烈火　法枠</title>
+	<author>りおりお</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+
+	<contribution type="picture" id="{riorio-gsconvert-rekka-picture-0001}">
+		<picture src="../noriwaku/noriwaku01.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gsconvert-rekka-picture-0002}">
+		<picture src="../noriwaku/noriwaku02.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gsconvert-rekka-picture-0003}">
+		<picture src="../noriwaku/noriwaku03.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gsconvert-rekka-picture-0004}">
+		<picture src="../noriwaku/noriwaku04.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gsconvert-rekka-picture-0005}">
+		<picture src="../noriwaku/noriwaku05.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gsconvert-rekka-picture-0006}">
+		<picture src="../noriwaku/noriwaku06.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gsconvert-rekka-picture-0007}">
+		<picture src="../noriwaku/noriwaku07.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gsconvert-rekka-picture-0008}">
+		<picture src="../noriwaku/noriwaku08.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gsconvert-rekka-picture-0009}">
+		<picture src="../noriwaku/noriwaku09.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gsconvert-rekka-picture-0010}">
+		<picture src="../noriwaku/noriwaku10.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gsconvert-rekka-picture-0011}">
+		<picture src="../noriwaku/noriwaku11.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gsconvert-rekka-picture-0012}">
+		<picture src="../noriwaku/noriwaku12.bmp" />
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{rk-0003-A0036A6ECDEB}-gs">
+		<group>法枠(PC)</group>
+		<design>直線</design>
+		<price>5000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="20">
+			<picture ref="{riorio-gsconvert-rekka-picture-0003}" />
+		</sprite>
+		<sprite origin="0,0" offset="20">
+			<picture ref="{riorio-gsconvert-rekka-picture-0004}" />
+		</sprite>
+		<structure>
+			<category  byname="治山設備" />
+		</structure>
+		<computerCannotBuild/>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{rk-0001-A0036A6ECDEB}-gs">
+		<group>法枠(PC)</group>
+		<design>角斜</design>
+		<price>5000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="20">
+			<picture ref="{riorio-gsconvert-rekka-picture-0001}" />
+		</sprite>
+		<structure>
+			<category  byname="治山設備" />
+		</structure>
+		<computerCannotBuild/>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{rk-0002-A0036A6ECDEB}-gs">
+		<group>法枠(PC)</group>
+		<price>5000000</price>
+		<design>凹 斜</design>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="20">
+			<picture ref="{riorio-gsconvert-rekka-picture-0002}" />
+		</sprite>
+		<sprite origin="0,0" offset="20">
+			<picture ref="{riorio-gsconvert-rekka-picture-0010}" />
+		</sprite>
+		<sprite origin="0,0" offset="20">
+			<picture ref="{riorio-gsconvert-rekka-picture-0012}" />
+		</sprite>
+		<structure>
+			<category  byname="治山設備" />
+		</structure>
+		<computerCannotBuild/>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{rk-0005-A0036A6ECDEB}-gs">
+		<group>法枠(PC)</group>
+		<design>凹</design>
+		<price>5000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="20">
+			<picture ref="{riorio-gsconvert-rekka-picture-0005}" />
+		</sprite>
+		<structure>
+			<category  byname="治山設備" />
+		</structure>
+		<computerCannotBuild/>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{rk-0006-A0036A6ECDEB}-gs">
+		<group>法枠(PC)</group>
+		<design>凸 角</design>
+		<price>5000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="20">
+			<picture ref="{riorio-gsconvert-rekka-picture-0006}" />
+		</sprite>
+		<sprite origin="0,0" offset="20">
+			<picture ref="{riorio-gsconvert-rekka-picture-0007}" />
+		</sprite>
+		<sprite origin="0,0" offset="20">
+			<picture ref="{riorio-gsconvert-rekka-picture-0008}" />
+		</sprite>
+		<structure>
+			<category  byname="治山設備" />
+		</structure>
+		<computerCannotBuild/>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{rk-0009-A0036A6ECDEB}-gs">
+		<group>法枠(PC)</group>
+		<design>凸 斜</design>
+		<price>5000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="20">
+			<picture ref="{riorio-gsconvert-rekka-picture-0009}" />
+		</sprite>
+		<sprite origin="0,0" offset="20">
+			<picture ref="{riorio-gsconvert-rekka-picture-0011}" />
+		</sprite>
+		<structure>
+			<category  byname="治山設備" />
+		</structure>
+		<computerCannotBuild/>
+	</contribution>
+</plug-in>

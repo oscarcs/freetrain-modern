@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>町ビルD</title>
+	<author>toaru</author>
+	<homepage>http://monatomachi-ft.jpn.org/</homepage>
+
+<contribution type="picture" id="{4A1C7924-30C0-455F-994A-9E7CDD897D0D}">
+		<picture src="matibiru_d.bmp">
+			<override when="night" src="matibiru_d_n.bmp" />
+		</picture>
+</contribution>
+	
+<contribution type="GenericStructure" id="{4DB210FF-FB21-4A5A-A487-09B881D2E405}">
+		<name>町ビルD</name>
+		<price>16000000</price>
+		<size>1,1</size>
+		<structure>
+			<category byname="ナイトクラブ"/>
+		</structure>
+		<height>3</height>
+		<population>
+			<class name="freetrain.contributions.population.BarPopulation"/>
+			<base>70</base>
+		</population>
+		<sprite origin="0,0" offset="49">
+			<picture ref="{4A1C7924-30C0-455F-994A-9E7CDD897D0D}"/>
+		</sprite>
+		<sprite origin="32,0" offset="49">
+			<picture ref="{4A1C7924-30C0-455F-994A-9E7CDD897D0D}"/>
+		</sprite>
+</contribution>
+
+<contribution type="GenericStructure" id="{B66FDEE3-E59A-4C86-8665-DD2FDA1579B2}">
+		<name>町ビルD</name>
+		<price>16000000</price>
+		<size>1,1</size>
+		<structure>
+			<category byname="ナイトクラブ"/>
+		</structure>
+		<height>3</height>
+		<population>
+			<class name="freetrain.contributions.population.BarPopulation"/>
+			<base>70</base>
+		</population>
+		<sprite origin="64,0" offset="49">
+			<picture ref="{4A1C7924-30C0-455F-994A-9E7CDD897D0D}"/>
+		</sprite>
+		<sprite origin="96,0" offset="49">
+			<picture ref="{4A1C7924-30C0-455F-994A-9E7CDD897D0D}"/>
+		</sprite>
+</contribution>
+
+<contribution type="GenericStructure" id="{E229777E-EB73-4CAE-8932-04F0D7150350}">
+		<name>町ビルD</name>
+		<price>16000000</price>
+		<size>1,1</size>
+		<structure>
+			<category byname="ナイトクラブ"/>
+		</structure>
+		<height>3</height>
+		<population>
+			<class name="freetrain.contributions.population.BarPopulation"/>
+			<base>70</base>
+		</population>
+		<sprite origin="128,0" offset="49">
+			<picture ref="{4A1C7924-30C0-455F-994A-9E7CDD897D0D}"/>
+		</sprite>
+		<sprite origin="160,0" offset="49">
+			<picture ref="{4A1C7924-30C0-455F-994A-9E7CDD897D0D}"/>
+		</sprite>
+</contribution>
+
+<contribution type="GenericStructure" id="{D2F9E090-323C-4DEF-AA89-C173E8746B5B}">
+		<name>町ビルD</name>
+		<price>16000000</price>
+		<size>1,1</size>
+		<structure>
+			<category byname="ナイトクラブ"/>
+		</structure>
+		<height>3</height>
+		<population>
+			<class name="freetrain.contributions.population.BarPopulation"/>
+			<base>70</base>
+		</population>
+		<sprite origin="192,0" offset="49">
+			<picture ref="{4A1C7924-30C0-455F-994A-9E7CDD897D0D}"/>
+		</sprite>
+		<sprite origin="224,0" offset="49">
+			<picture ref="{4A1C7924-30C0-455F-994A-9E7CDD897D0D}"/>
+		</sprite>
+</contribution>
+</plug-in>

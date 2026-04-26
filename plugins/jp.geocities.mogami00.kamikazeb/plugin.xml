@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+ <plug-in>
+ <title>神風財閥ビル</title> 
+ <author>モガミ</author> 
+ <homepage>http://www.geocities.jp/mogami00/Kamikazekensetu.html</homepage> 
+ <contribution type="picture" id="{mogami-building-kamikaze-picture-27CE13BAF090}">
+ <picture src="kamikazeb.bmp">
+ <override when="night" src="kamikazebn.bmp" /> 
+ </picture>
+ </contribution>
+ <contribution type="GenericStructure" id="{mogami-building-kamikaze-14763E0C38D5}">
+ <group>神風財閥ビル</group> 
+ <structure>
+ <category byname="貸事務所" /> 
+ </structure>
+ <price>550000000</price>  
+ <computerCannotBuild /> 
+ <size>5,3</size>
+ <height>12</height> 
+ <population>
+ <class name="freetrain.contributions.population.OfficePopulation" /> 
+ <base>4000</base> 
+ </population>
+ <sprite origin="0,0" offset="201">
+ <picture ref="{mogami-building-kamikaze-picture-27CE13BAF090}" /> 
+ </sprite>
+ </contribution>
+ </plug-in>

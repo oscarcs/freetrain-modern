@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+
+<plug-in>
+	<title>駅舎プラグイン</title> 
+	<author>花菱</author> 
+	<homepage></homepage>
+
+	<contribution type="picture" id="{474B8BFD-rk001-eki003-cg-001}">
+		<picture src="kouka-001-01a.bmp" origin="0,0" offset="16" >
+			<override when="night" src="kouka-001-01b.bmp" /> 
+  		</picture> 
+	</contribution>
+
+	<contribution type="station" id="{474B8BFD-rk001-eki003-001}">
+	<group>高架駅舎02(本体)</group> 
+	<price>2000000</price> 
+	<height>1</height> 
+	<operationCost>10</operationCost> 
+	<size>1,2</size> 
+		<sprite origin="0,0" offset="16">
+			<picture ref="{474B8BFD-rk001-eki003-cg-001}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="station" id="{474B8BFD-rk001-eki003-002}">
+	<group>高架駅舎02(本体)</group> 
+	<price>2000000</price> 
+	<height>1</height> 
+	<operationCost>10</operationCost> 
+	<size>2,1</size> 
+		<sprite origin="48,0" offset="24">
+			<picture ref="{474B8BFD-rk001-eki003-cg-001}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="picture" id="{474B8BFD-rk001-eki003-cg-kandan-001}">
+		<picture src="kandan001.bmp"/>
+	</contribution>
+
+	<contribution type="land" id="{474B8BFD-rk001-eki003-kandan-001}">
+		<group>高架駅舎(階段)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{474B8BFD-rk001-eki003-cg-kandan-001}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>1</price>
+	</contribution>
+
+</plug-in>

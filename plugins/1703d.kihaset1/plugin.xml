@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<plug-in>
+     <title>気動車セット</title>
+     <author>いっちー</author>
+     <homepage></homepage>
+
+
+    <!-- キハ48びゅうコースター風っこA -->
+     <contribution type="trainCar" id="{CyberExpress1703d-kiha48kazekkoA-bmp}">
+           <class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+           <sprite origin="0,0">
+                <picture src="kazekkoA.bmp" />
+           </sprite>
+           <capacity>64</capacity> 
+           <seatedcapacity>64</seatedcapacity> 
+     </contribution>
+
+   <!-- キハ48びゅうコースター風っこB元画像 -->
+     <contribution type="trainCar" id="{CyberExpress1703d-kiha48kazekkoB-bmp}-x">
+           <class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+           <sprite origin="0,0">
+                <picture src="kazekkoB.bmp" />
+           </sprite>
+           <capacity>72</capacity> 
+           <seatedcapacity>72</seatedcapacity> 
+     </contribution>
+
+        <!-- キハ48びゅうコースター風っこB -->
+       <contribution type="trainCar" id="{CyberExpress1703d-kiha48kazekkoB-bmp}">
+             <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+             <base carRef="{CyberExpress1703d-kiha48kazekkoB-bmp}-x"/>
+       </contribution>
+
+
+     <!-- キハ40山陰本線 -->
+     <contribution type="trainCar" id="{CyberExpress1703d-kiha40sanin-bmp}">
+           <class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+           <sprite origin="0,0">
+                <picture src="kiha40sanin.bmp" />
+           </sprite>
+           <capacity>96</capacity> 
+           <seatedcapacity>76</seatedcapacity> 
+     </contribution>
+
+     <!-- キハ40氷見線 -->
+     <contribution type="trainCar" id="{CyberExpress1703d-kiha40himi-bmp}">
+           <class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+           <sprite origin="0,0">
+                <picture src="kiha40himi.bmp" />
+           </sprite>
+           <capacity>96</capacity> 
+           <seatedcapacity>76</seatedcapacity> 
+     </contribution>
+
+     <!-- キハ40吉備線 -->
+     <contribution type="trainCar" id="{CyberExpress1703d-kiha40kibi-bmp}">
+           <class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+           <sprite origin="0,0">
+                <picture src="kiha40kibi.bmp" />
+           </sprite>
+           <capacity>96</capacity> 
+           <seatedcapacity>76</seatedcapacity> 
+     </contribution>
+
+     <!-- キハ52大糸線 -->
+     <contribution type="trainCar" id="{CyberExpress1703d-kiha52oito-bmp}">
+           <class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+           <sprite origin="0,0">
+                <picture src="kiha52oito.bmp" />
+           </sprite>
+           <capacity>88</capacity> 
+           <seatedcapacity>76</seatedcapacity> 
+     </contribution>
+
+     <!-- キハ110陸羽線 -->
+     <contribution type="trainCar" id="{CyberExpress1703d-kiha110riku-bmp}">
+           <class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+           <sprite origin="0,0">
+                <picture src="kiha110riku.bmp" />
+           </sprite>
+           <capacity>126</capacity> 
+           <seatedcapacity>50</seatedcapacity> 
+     </contribution>
+
+     <!-- キハ101左沢線 -->
+     <contribution type="trainCar" id="{CyberExpress1703d-kiha101aterazawa-bmp}">
+           <class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+           <sprite origin="0,0">
+                <picture src="kiha101aterazawa.bmp" />
+           </sprite>
+           <capacity>120</capacity> 
+           <seatedcapacity>40</seatedcapacity> 
+     </contribution>
+
+     <!-- キハ111陸羽線A -->
+     <contribution type="trainCar" id="{CyberExpress1703d-kiha111rikuA-bmp}">
+           <class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+           <sprite origin="0,0">
+                <picture src="kiha111riku.bmp" />
+           </sprite>
+           <capacity>120</capacity> 
+           <seatedcapacity>56</seatedcapacity> 
+     </contribution>
+
+        <!-- キハ111陸羽線B -->
+       <contribution type="trainCar" id="{CyberExpress1703d-kiha111rikuB-bmp}">
+             <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+             <base carRef="{CyberExpress1703d-kiha111rikuA-bmp}"/>
+       </contribution>
+
+     <!-- キハE120 -->
+     <contribution type="trainCar" id="{CyberExpress1703d-kihaE120-bmp}">
+           <class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+           <sprite origin="0,0">
+                <picture src="kihaE120.bmp" />
+           </sprite>
+           <capacity>114</capacity> 
+           <seatedcapacity>39</seatedcapacity> 
+     </contribution>
+
+     <!-- キハE130 -->
+     <contribution type="trainCar" id="{CyberExpress1703d-kihaE130-bmp}">
+           <class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+           <sprite origin="0,0">
+                <picture src="kihaE130.bmp" />
+           </sprite>
+           <capacity>113</capacity> 
+           <seatedcapacity>39</seatedcapacity> 
+     </contribution>
+
+     <!-- キハE200 -->
+     <contribution type="trainCar" id="{CyberExpress1703d-kihaE200-bmp}">
+           <class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+           <sprite origin="0,0">
+                <picture src="kihaE200.bmp" />
+           </sprite>
+           <capacity>117</capacity> 
+           <seatedcapacity>46</seatedcapacity> 
+     </contribution>
+
+     <!-- キハE131･132A -->
+     <contribution type="trainCar" id="{CyberExpress1703d-kihaE131A-bmp}">
+           <class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+           <sprite origin="0,0">
+                <picture src="kihaE131.bmp" />
+           </sprite>
+           <capacity>125</capacity> 
+           <seatedcapacity>40</seatedcapacity> 
+     </contribution>
+
+        <!-- キハE131･132B -->
+       <contribution type="trainCar" id="{CyberExpress1703d-kihaE131B-bmp}">
+             <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+             <base carRef="{CyberExpress1703d-kihaE131A-bmp}"/>
+        </contribution>
+
+
+     <contribution type="train" id="{CyberExpress1703d-kiha48kazekko}">
+           <company>JR東日本</company>
+           <type>キハ48形 びゅうコースター風っこ</type>
+           <name>基本編成</name>
+           <author>いっちー</author>
+           <description>※2両編成のみ※　キハ48を改造したトロッコ車両です。足元まで開いた大きな窓と、レトロ調の車内が特徴です。所属は仙台ですが、JR東日本の各線に出張して運行しています。</description>
+           <fare>550</fare>
+           <price>38500000</price>
+		   <amenity>120</amenity>
+		   <triprange>middle</triprange>
+           <speed>slow</speed>
+
+	<class name="freetrain.contributions.train.PatternTrainImpl"/>
+ 	<config>
+  	<car char="A" ref="{CyberExpress1703d-kiha48kazekkoA-bmp}"/>
+   	<car char="B" ref="{CyberExpress1703d-kiha48kazekkoB-bmp}"/>
+   	<composition>AB</composition>
+	</config>
+
+     </contribution>
+
+     <contribution type="train" id="{CyberExpress1703d-kiha48kazekko-kururi}">
+           <company>JR東日本</company>
+           <type>キハ48形 びゅうコースター風っこ</type>
+           <name>風っこくるり号</name>
+           <author>いっちー</author>
+           <description>※4両編成のみ※　久留里線で運行する風っこは、先頭にキハ38系を連結します。</description>
+           <fare>550</fare>
+           <price>38500000</price>
+		   <amenity>120</amenity>
+		   <triprange>middle</triprange>
+           <speed>slow</speed>
+
+	<class name="freetrain.contributions.train.PatternTrainImpl"/>
+ 	<config>
+  	<car char="A" ref="{CyberExpress1703d-kiha48kazekkoA-bmp}"/>
+   	<car char="B" ref="{CyberExpress1703d-kiha48kazekkoB-bmp}"/>
+   	<car char="C" ref="{09D6B15A-6DAD-47DF-B8E1-4F413CC19942}"/>
+   	<composition>CCAB</composition>
+	</config>
+
+     </contribution>
+
+     <!-- 一般型はqra_raさんのプラグインからお借りしました。 -->
+     <contribution type="train" id="{CyberExpress1703d-kiha48kazekko-tadami}">
+           <company>JR東日本</company>
+           <type>キハ48形 びゅうコースター風っこ</type>
+           <name>風っこ会津只見号</name>
+           <author>いっちー</author>
+           <description>※3両編成のみ※　新潟県の長岡から福島県の只見まで運行した風っこ号です。途中に六十里越トンネルがあるため、風除け用に一般車両を連結しました。</description>
+           <fare>550</fare>
+           <price>38500000</price>
+		   <triprange>middle</triprange>
+		   <amenity>120</amenity>
+           <speed>slow</speed>
+
+	<class name="freetrain.contributions.train.PatternTrainImpl"/>
+ 	<config>
+  	<car char="A" ref="{CyberExpress1703d-kiha48kazekkoA-bmp}"/>
+   	<car char="B" ref="{CyberExpress1703d-kiha48kazekkoB-bmp}"/>
+   	<car char="C" ref="{ADF65878-9F9C-456A-9B73-72F846A0479D}"/>
+   	<composition>ABC</composition>
+	</config>
+
+     </contribution>
+
+     <!-- 一般型はqra_raさんのプラグインからお借りしました。 -->
+     <contribution type="train" id="{CyberExpress1703d-kiha48kazekko-senzan}">
+           <company>JR東日本</company>
+           <type>キハ48形 びゅうコースター風っこ</type>
+           <name>風っこ仙山もみじ号</name>
+           <author>いっちー</author>
+           <description>※2両編成のみ※　仙山線を運行した風っこ号です。途中に急勾配があるため、エンジンが強力な一般車両を連結しました。</description>
+           <fare>550</fare>
+           <price>38500000</price>
+		   <amenity>120</amenity>
+		   <triprange>middle</triprange>
+           <speed>slow</speed>
+
+	<class name="freetrain.contributions.train.PatternTrainImpl"/>
+ 	<config>
+  	<car char="A" ref="{CyberExpress1703d-kiha48kazekkoA-bmp}"/>
+   	<car char="C" ref="{ADF65878-9F9C-456A-9B73-72F846A0479D}"/>
+   	<composition>AC</composition>
+	</config>
+
+     </contribution>
+
+     <contribution type="train" id="{CyberExpress1703d-kiha48kazekko-hanakairo}">
+           <company>JR東日本</company>
+           <type>キハ48形 びゅうコースター風っこ</type>
+           <name>風っこ花回廊号</name>
+           <author>いっちー</author>
+           <description>※2両編成のみ※　山形鉄道フラワー長井線を運行した風っこ号です。途中に急勾配があるため、エンジンが強力な一般車両を連結しました。</description>
+           <fare>550</fare>
+           <price>38500000</price>
+		   <triprange>middle</triprange>
+		   <amenity>120</amenity>
+           <speed>slow</speed>
+
+	<class name="freetrain.contributions.train.PatternTrainImpl"/>
+ 	<config>
+  	<car char="A" ref="{CyberExpress1703d-kiha48kazekkoA-bmp}"/>
+   	<car char="C" ref="{CyberExpress1703d-kiha40n-bmp}"/>
+   	<composition>AC</composition>
+	</config>
+
+     </contribution>
+
+     <contribution type="train" id="{CyberExpress1703d-kiha40sanin}">
+           <company>JR西日本</company>
+           <type>キハ40形</type>
+           <name>山陰本線</name>
+           <author>いっちー</author>
+           <description>鳥取県、兵庫県内の山陰本線を走るキハ40系列です。</description>
+           <fare>500</fare>
+           <price>35000000</price>
+		   <amenity>100</amenity>
+           <speed>slow</speed>
+		   <triprange>middle</triprange>
+           <composition>
+               <body carRef="{CyberExpress1703d-kiha40sanin-bmp}" />  
+           </composition>
+     </contribution>
+
+     <contribution type="train" id="{CyberExpress1703d-kiha40himi}">
+           <company>JR西日本</company>
+           <type>キハ40形</type>
+           <name>氷見・城端線</name>
+           <author>いっちー</author>
+           <description>氷見線と城端線を走るキハ40系列です。</description>
+           <fare>500</fare>
+           <price>35000000</price>
+		   <amenity>100</amenity>
+		   <triprange>middle</triprange>
+           <speed>slow</speed>
+           <composition>
+               <body carRef="{CyberExpress1703d-kiha40himi-bmp}" />  
+           </composition>
+     </contribution>
+
+     <contribution type="train" id="{CyberExpress1703d-kiha40kibi}">
+           <company>JR西日本</company>
+           <type>キハ40形</type>
+           <name>吉備線ほか</name>
+           <author>いっちー</author>
+           <description>岡山地区を走るキハ40系列です。</description>
+           <fare>500</fare>
+           <price>35000000</price>
+		   <amenity>100</amenity>
+		   <triprange>middle</triprange>
+           <speed>slow</speed>
+           <composition>
+               <body carRef="{CyberExpress1703d-kiha40kibi-bmp}" />  
+           </composition>
+     </contribution>
+
+     <contribution type="train" id="{CyberExpress1703d-kiha52oito}">
+           <company>JR西日本</company>
+           <type>キハ52形</type>
+           <name>大糸線</name>
+           <author>いっちー</author>
+           <description>大糸線を走るキハ52形です。</description>
+           <fare>500</fare>
+           <price>35000000</price>
+		   <amenity>95</amenity>
+		   <triprange>middle</triprange>
+           <speed>slow</speed>
+           <composition>
+               <body carRef="{CyberExpress1703d-kiha52oito-bmp}" />  
+           </composition>
+     </contribution>
+
+     <contribution type="train" id="{CyberExpress1703d-kiha101aterazawa}">
+           <company>JR東日本</company>
+           <type>キハ100系</type>
+           <name>左沢線</name>
+           <author>いっちー</author>
+           <description>左沢線を走るキハ100系(キハ101形)です。トイレなし、オールロングシートの編成です。</description>
+           <fare>400</fare>
+           <price>35000000</price>
+		   <amenity>100</amenity>
+		   <triprange>middle</triprange>
+           <speed>medium</speed>
+           <composition>
+               <body carRef="{CyberExpress1703d-kiha101aterazawa-bmp}" />  
+           </composition>
+     </contribution>
+
+     <contribution type="train" id="{CyberExpress1703d-kiha110riku}">
+           <company>JR東日本</company>
+           <type>キハ110系</type>
+           <name>陸羽東線･陸羽西線</name>
+           <author>いっちー</author>
+           <description>陸羽東線・陸羽西線を走るキハ110系です。他の路線とは車体の色が異なります。</description>
+           <fare>500</fare>
+           <price>35000000</price>
+		   <amenity>110</amenity>
+		   <triprange>middle</triprange>
+           <speed>medium</speed>
+           <composition>
+               <body carRef="{CyberExpress1703d-kiha110riku-bmp}" />  
+           </composition>
+     </contribution>
+
+     <contribution type="train" id="{CyberExpress1703d-kiha111riku}">
+           <company>JR東日本</company>
+           <type>キハ111･112系</type>
+           <name>陸羽東線･陸羽西線</name>
+           <author>いっちー</author>
+           <description>陸羽東線･陸羽西線を走るキハ111･112系です。</description>
+           <fare>500</fare>
+           <price>35000000</price>
+		   <amenity>110</amenity>
+		   <triprange>middle</triprange>
+           <speed>medium</speed>
+ 	<class name="freetrain.contributions.train.PatternTrainImpl"/>
+ 	<config>
+  	<car char="A" ref="{CyberExpress1703d-kiha111rikuA-bmp}"/>
+   	<car char="B" ref="{CyberExpress1703d-kiha111rikuB-bmp}"/>
+   	<car char="C" ref="{CyberExpress1703d-kiha110riku-bmp}"/>
+   	<composition>C</composition>
+   	<composition>AB</composition>
+   	<composition>ABC</composition>
+   	<composition>ABAB</composition>
+   	<composition>ABABC</composition>
+   	<composition>ABABAB</composition>
+   	<composition>ABABABC</composition>
+   	<composition>ABABABAB</composition>
+   	<composition>ABABCABAB</composition>
+   	<composition>ABABCCABAB</composition>
+	</config>
+     </contribution>
+
+     <contribution type="train" id="{CyberExpress1703d-kihaE120}">
+           <company>JR東日本</company>
+           <type>キハE120形</type>
+           <name></name>
+           <author>いっちー</author>
+           <description>磐越西線・羽越線・米坂線を走る新型の気動車です。</description>
+           <fare>500</fare>
+           <price>35000000</price>
+		   <amenity>110</amenity>
+		   <triprange>middle</triprange>
+           <speed>medium</speed>
+           <composition>
+               <body carRef="{CyberExpress1703d-kihaE120-bmp}" />  
+           </composition>
+     </contribution>
+
+     <contribution type="train" id="{CyberExpress1703d-kihaE130}">
+           <company>JR東日本</company>
+           <type>キハE130形</type>
+           <name>水郡線</name>
+           <author>いっちー</author>
+           <description>水郡線を走る新型の気動車です。</description>
+           <fare>500</fare>
+           <price>35000000</price>
+		   <amenity>110</amenity>
+		   <triprange>middle</triprange>
+           <speed>medium</speed>
+           <composition>
+               <body carRef="{CyberExpress1703d-kihaE130-bmp}" />  
+           </composition>
+     </contribution>
+
+     <contribution type="train" id="{CyberExpress1703d-kihaE131}">
+           <company>JR東日本</company>
+           <type>キハE131･132系</type>
+           <name>水郡線</name>
+           <author>いっちー</author>
+           <description>水郡線を走る2両編成のキハE131･132系です。</description>
+           <fare>500</fare>
+           <price>35000000</price>
+		   <amenity>110</amenity>
+		   <triprange>middle</triprange>
+           <speed>medium</speed>
+ 	<class name="freetrain.contributions.train.PatternTrainImpl"/>
+ 	<config>
+  	<car char="A" ref="{CyberExpress1703d-kihaE131A-bmp}"/>
+   	<car char="B" ref="{CyberExpress1703d-kihaE131B-bmp}"/>
+   	<car char="C" ref="{CyberExpress1703d-kihaE130-bmp}"/>
+   	<composition>C</composition>
+   	<composition>AB</composition>
+   	<composition>ABC</composition>
+   	<composition>ABAB</composition>
+   	<composition>ABABC</composition>
+   	<composition>ABABAB</composition>
+   	<composition>ABABABC</composition>
+   	<composition>ABABABAB</composition>
+   	<composition>ABABCABAB</composition>
+   	<composition>ABABCCABAB</composition>
+	</config>
+     </contribution>
+
+     <contribution type="train" id="{CyberExpress1703d-kihaE200}">
+           <company>JR東日本</company>
+           <type>キハE200形</type>
+           <name>こうみ号</name>
+           <author>いっちー</author>
+           <description>2007年に、世界初のディーゼルハイブリッド電車として登場した車両です。小海線を走ります。</description>
+           <fare>500</fare>
+           <price>40000000</price>
+		   <amenity>110</amenity>
+		   <triprange>middle</triprange>
+           <speed>medium</speed>
+           <composition>
+               <body carRef="{CyberExpress1703d-kihaE200-bmp}" />  
+           </composition>
+     </contribution>
+
+</plug-in>

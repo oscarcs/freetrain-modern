@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+  <plug-in>
+  <title>NY風高層ビル</title> 
+  <author>モガミ</author> 
+  <homepage>hhttp://www.geocities.jp/mogami00/Kamikazekensetu.html</homepage> 
+  <contribution type="picture" id="{06D01A7D-1D38-4E31-AD3C-A4D4C9BE934A}">
+  <picture src="NY1bilding.bmp">
+  </picture>
+  </contribution>
+  <contribution type="GenericStructure" id="{D5810FA5-8DF4-4235-8D5A-C5BEA7828962}-0">
+  <group>NY風高層ビル</group> 
+  <structure>
+  <category byname="分譲マンション" /> 
+  </structure>
+  <size>2,2</size> 
+  <price>800000000</price> 
+  <computerCannotBuild /> 
+  <height>9</height> 
+  <population>
+  <class name="freetrain.contributions.population.OfficePopulation" /> 
+  <base>1000</base> 
+  </population>
+  <sprite origin="0,0" offset="156">
+  <picture ref="{06D01A7D-1D38-4E31-AD3C-A4D4C9BE934A}" /> 
+  </sprite>
+  </contribution>
+  <contribution type="GenericStructure" id="{D5810FA5-8DF4-4235-8D5A-C5BEA7828962}-1">
+  <group>NY風高層ビル</group> 
+  <structure>
+  <category byname="分譲マンション" /> 
+  </structure>
+  <size>2,2</size> 
+  <price>8000</price> 
+  <computerCannotBuild /> 
+  <height>9</height> 
+  <population>
+  <class name="freetrain.contributions.population.OfficePopulation" /> 
+  <base>1000</base> 
+  </population>
+  <sprite origin="64,0" offset="156">
+  <picture ref="{06D01A7D-1D38-4E31-AD3C-A4D4C9BE934A}" /> 
+  </sprite>
+  </contribution>
+  </plug-in>

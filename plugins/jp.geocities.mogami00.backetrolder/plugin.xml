@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+<plug-in>
+  <title>大型掘削機</title> 
+  <author>モガミ</author> 
+  <homepage>http://www.geocities.jp/mogami00/Kamikazekensetu.html</homepage> 
+ <contribution type="picture" id="{783BA0D7-1859-40C3-BDE0-ECC97B631E38}">
+  <picture src="backetrolder.bmp" /> 
+</contribution>
+ <contribution type="GenericStructure" id="{A0766684-6636-4F65-9A84-3D686206EA80}">
+  <group>大型掘削機</group> 
+ <structure>
+  <category byname="炭坑" /> 
+  </structure>
+  <size>6,2</size> 
+  <price>100000000</price> 
+  <computerCannotBuild /> 
+  <height>6</height> 
+ <sprite origin="0,0" offset="156">
+  <picture ref="{783BA0D7-1859-40C3-BDE0-ECC97B631E38}" /> 
+ </sprite>
+</contribution>
+</plug-in>

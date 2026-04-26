@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>列車プラグイン</title>
+	<author>TOMY</author>
+	<homepage>Nothing</homepage>
+
+<!-- 国鉄 -->
+	<!-- 415系先頭車両 -->
+	<contribution type="trainCar" id="{freetrain-tomy-20050530-jnr415}-h">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+		<picture src="jnr_415a.bmp" />
+		</sprite>
+		<capacity>92</capacity>
+		<seatedcapacity>68</seatedcapacity>
+	</contribution>
+	<!-- 415系中間車両 -->
+	<contribution type="trainCar" id="{freetrain-tomy-20050530-jnr415}-m">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+		<picture src="jnr_415b.bmp" />
+		</sprite>
+		<capacity>100</capacity>
+		<seatedcapacity>76</seatedcapacity>
+	</contribution>
+	<!-- 415系後尾車両 -->
+	<contribution type="trainCar" id="{freetrain-tomy-20050530-jnr415}-t">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{freetrain-tomy-20050530-jnr415}-h"/>
+	</contribution>
+	<contribution type="train" id="{freetrain-tomy-20050530-jnr415}">
+		<company>旧日本国有鉄道</company>
+		<type>415系</type>
+		<name></name>
+		<author>TOMY</author>
+		<description>1971年に登場した交流50/60Hz両用の整流器を搭載し、かつ直流との切替えができる｢三電気方式｣の近郊形電車</description>
+		<fare>500</fare>
+		<price>35000000</price>
+		<amenity>95</amenity>
+		<speed>medium</speed>
+		<triprange>middle</triprange>
+		<composition>
+			<head carRef="{freetrain-tomy-20050530-jnr415}-h"/>
+			<body carRef="{freetrain-tomy-20050530-jnr415}-m"/>
+			<tail carRef="{freetrain-tomy-20050530-jnr415}-t"/>
+		</composition>
+	</contribution>
+
+<!-- ＪＲ東 -->
+	<!-- 新251系先頭車両 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050531-jre251}-h">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+		     <picture src="jre_251a.bmp" />
+		</sprite>
+		<capacity>52</capacity>
+		<seatedcapacity>52</seatedcapacity>
+	</contribution>
+	<!-- 新251系中間車両１ -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050531-jre251}-d">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+		     <picture src="jre_251b.bmp" />
+		</sprite>
+		<capacity>80</capacity>
+		<seatedcapacity>80</seatedcapacity>
+	</contribution>
+	<!-- 新251系中間車両２ -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050531-jre251}-m">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+		     <picture src="jre_251c.bmp" />
+		</sprite>
+		<capacity>76</capacity>
+		<seatedcapacity>76</seatedcapacity>
+	</contribution>
+	<!-- 新251系後尾車両 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050531-jre251}-t">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{freetrain-tomy-train-20050531-jre251}-h"/>
+	</contribution>
+	<contribution type="train" id="{freetrain-tomy-train-20050531-jre251}">
+		<company>JR東日本</company>
+		<type>251系</type>
+		<name>スーパービュー踊り子(新)</name>
+		<author>TOMY</author>
+		<description>1990年,伊豆への行楽用に登場した特急型電車。見晴らしの良いハイデッカーとダブルデッカーの豪華な編成。2002年から,座席や塗装のリフレッシュが順次行われた。</description>
+		<fare>800</fare>
+		<price>58000000</price>
+		<amenity>130</amenity>
+		<triprange>long</triprange>
+		<speed>fast</speed> 
+
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="＜" ref="{freetrain-tomy-train-20050531-jre251}-h"/>
+			<car char="Ｄ" ref="{freetrain-tomy-train-20050531-jre251}-d"/>
+			<car char="Ｍ" ref="{freetrain-tomy-train-20050531-jre251}-m"/>
+			<car char="＞" ref="{freetrain-tomy-train-20050531-jre251}-t"/>
+
+                        <composition>＜ＤＭ＞</composition> 
+                        <composition>＜ＤＭＭ＞</composition> 
+                        <composition>＜ＤＭＭＭ＞</composition> 
+                        <composition>＜ＤＭＭＭＭ＞</composition> 
+                        <composition>＜ＤＭＭＭＭＭ＞</composition> 
+                        <composition>＜ＤＭＭＭＭＭＭ＞</composition> 
+                        <composition>＜ＤＭＭＭＭＭＭＭ＞</composition> 
+
+		</config>
+	</contribution>
+
+	<!-- 旧251系先頭車両 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050531-jre251o}-h">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+		     <picture src="jre_o251a.bmp" />
+		</sprite>
+		<capacity>52</capacity>
+		<seatedcapacity>52</seatedcapacity>
+	</contribution>
+	<!-- 旧251系中間車両１ -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050531-jre251o}-d">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+		     <picture src="jre_o251b.bmp" />
+		</sprite>
+		<capacity>80</capacity>
+		<seatedcapacity>80</seatedcapacity>
+	</contribution>
+	<!-- 旧251系中間車両２ -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050531-jre251o}-m">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+		     <picture src="jre_o251c.bmp" />
+		</sprite>
+		<capacity>76</capacity>
+		<seatedcapacity>76</seatedcapacity>
+	</contribution>
+	<!-- 旧251系後尾車両 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050531-jre251o}-t">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{freetrain-tomy-train-20050531-jre251o}-h"/>
+	</contribution>
+	<contribution type="train" id="{freetrain-tomy-train-20050531-jre251o}">
+		<company>JR東日本</company>
+		<type>251系</type>
+		<name>スーパービュー踊り子(旧)</name>
+		<author>TOMY</author>
+		<description>1990年,伊豆への行楽用に登場した特急型電車。見晴らしの良いハイデッカーとダブルデッカーの豪華な編成。</description>
+		<fare>800</fare>
+		<price>58000000</price>
+		<amenity>130</amenity>
+		<triprange>long</triprange>
+		<speed>fast</speed> 
+
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="＜" ref="{freetrain-tomy-train-20050531-jre251o}-h"/>
+			<car char="Ｄ" ref="{freetrain-tomy-train-20050531-jre251o}-d"/>
+			<car char="Ｍ" ref="{freetrain-tomy-train-20050531-jre251o}-m"/>
+			<car char="＞" ref="{freetrain-tomy-train-20050531-jre251o}-t"/>
+
+                        <composition>＜ＤＭ＞</composition> 
+                        <composition>＜ＤＭＭ＞</composition> 
+                        <composition>＜ＤＭＭＭ＞</composition> 
+                        <composition>＜ＤＭＭＭＭ＞</composition> 
+                        <composition>＜ＤＭＭＭＭＭ＞</composition> 
+                        <composition>＜ＤＭＭＭＭＭＭ＞</composition> 
+                        <composition>＜ＤＭＭＭＭＭＭＭ＞</composition> 
+
+		</config>
+	</contribution>
+
+	<!-- E233系先頭車 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20051005-jreE233}-h">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+		<picture src="jre_E531a.bmp" />
+		<spriteType name="colorMapped">
+			<map from="0,0,230" to="240,120,0"/>
+			<map from="0,0,180" to="180,90,0"/>
+			<map from="0,0,205" to="210,105,0"/>
+		</spriteType>
+		</sprite>
+		<capacity>130</capacity>
+		<seatedcapacity>48</seatedcapacity>
+	</contribution>
+	<!-- E233系中間車 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20051005-jreE233}-m">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+		<picture src="jre_E531b.bmp" />
+		<spriteType name="colorMapped">
+			<map from="0,0,230" to="240,120,0"/>
+			<map from="0,0,180" to="180,90,0"/>
+			<map from="0,0,205" to="210,105,0"/>
+		</spriteType>
+		</sprite>
+		<capacity>136</capacity>
+		<seatedcapacity>54</seatedcapacity>
+	</contribution>
+	<!-- E233系後尾車 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20051005-jreE233}-t">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{freetrain-tomy-train-20051005-jreE233}-h"/>
+	</contribution>
+	<contribution type="train" id="{freetrain-tomy-train-20051005-jreE233}">
+		<company>JR東日本</company>
+		<type>E233系</type>
+		<name>中央線(快速)</name>
+		<author>TOMY</author>
+		<fare>400</fare>
+		<price>28000000</price>
+		<amenity>100</amenity>
+		<description>201系の後継列車として2006年に登場する新型車輌。E231系を基に設計され、最高速度は120km/h、車体はステンレス製4扉(半自動機能付),主回路装置はVVVFインバータ,列車情報管理装置(TIMS),LED式車内案内表示機等が装備される。</description>
+		<speed>medium</speed> 
+		<composition>
+			<head carRef="{freetrain-tomy-train-20051005-jreE233}-h"/>
+			<body carRef="{freetrain-tomy-train-20051005-jreE233}-m"/>
+			<tail carRef="{freetrain-tomy-train-20051005-jreE233}-t"/>
+		</composition>
+	</contribution>
+
+	<!-- E531系先頭車両 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050531-jreE531}-h">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+		    <picture src="jre_E531a.bmp" />
+		</sprite>
+		<capacity>130</capacity>
+		<seatedcapacity>48</seatedcapacity>
+	</contribution>
+	<!-- E531系中間車両 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050531-jreE531}-m">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+		   <picture src="jre_E531b.bmp" />
+		</sprite>
+		<capacity>136</capacity>
+		<seatedcapacity>54</seatedcapacity>
+	</contribution>
+	<!-- E531系後尾車両 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050531-jreE531}-t">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{freetrain-tomy-train-20050531-jreE531}-h"/>
+	</contribution>
+	<contribution type="train" id="{freetrain-tomy-train-20050531-jreE531}">
+		<company>JR東日本</company>
+		<type>E531系</type>
+		<name>常磐線</name>
+		<author>TOMY</author>
+		<description>2005年開通の｢つくばエクスプレス｣に対抗するために,403,415系の置換え用として登場する新型の交直流車輌。車体はステンレス製4扉(半自動機能付),主回路装置はVVVFインバータ,列車情報管理装置(TIMS),LED式車内案内表示機等が装備される。E217,E501,E231系の最高速度は120km/hであったが,本車輌は130km/hと特急列車並になっている。</description>
+		<fare>500</fare>
+		<price>38000000</price>
+		<amenity>110</amenity>
+		<triprange>middle</triprange>
+		<speed>medium</speed> 
+		<composition>
+			<head carRef="{freetrain-tomy-train-20050531-jreE531}-h"/>
+			<body carRef="{freetrain-tomy-train-20050531-jreE531}-m"/>
+			<tail carRef="{freetrain-tomy-train-20050531-jreE531}-t"/>
+		</composition>
+	</contribution>
+
+	<!-- E993系先頭車両 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050531-jreE993}-h">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+		    <picture src="jre_E993a.bmp" />
+		</sprite>
+		<capacity>120</capacity>
+		<seatedcapacity>46</seatedcapacity>
+	</contribution>
+	<!-- E993系中間車両 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050531-jreE993}-m">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+		   <picture src="jre_E993b.bmp" />
+		</sprite>
+		<capacity>136</capacity>
+		<seatedcapacity>54</seatedcapacity>
+	</contribution>
+	<!-- E993系後尾車両 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050531-jreE993}-t">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{freetrain-tomy-train-20050531-jreE993}-h"/>
+	</contribution>
+	<contribution type="train" id="{freetrain-tomy-train-20050531-jreE993}">
+		<company>JR東日本</company>
+		<type>E993系</type>
+		<name>ＡＣトレイン</name>
+		<author>TOMY</author>
+		<description>次世代通勤車両を目指して技術開発を行っている試験用車輌。扉は客室空間の拡大を狙った外吊り式。JRでは初の連接台車を採用し,メンテナンスの省力化と騒音減少効果を狙っている。中間車は特急タイプの内装が施され,パソコン用電源やモニター画面が装備されている。埼京線の川越電車区を本拠地に,試験走行が埼京線や中央線で随時行われている。</description>
+		<fare>400</fare>
+		<price>28000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed> 
+		<composition>
+			<head carRef="{freetrain-tomy-train-20050531-jreE993}-h"/>
+			<body carRef="{freetrain-tomy-train-20050531-jreE993}-m"/>
+			<tail carRef="{freetrain-tomy-train-20050531-jreE993}-t"/>
+		</composition>
+	</contribution>
+
+<!-- ＪＲ西 -->
+        <!-- キハ120系(越美北線) -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050530-jrwK120etumi}-m">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture src="jrw_k120etumi.bmp" />
+		</sprite>
+		<capacity>105</capacity>
+		<seatedcapacity>49</seatedcapacity>
+	</contribution>
+        <contribution type="train" id="{freetrain-tomy-train-20050530-jrwK120etumi}">
+		<company>JR西日本</company>
+		<type>キハ120系</type>
+		<name>越美北線</name>
+		<author>TOMY</author>
+		<description>JR西日本発足後の初の新製軽快気動車。</description>
+		<fare>500</fare>
+		<price>35000000</price>
+		<triprange>middle</triprange>
+		<amenity>105</amenity>
+		<speed>medium</speed>
+		<!-- <class name="freetrain.contributions.train.PatternTrainImpl"/> -->
+		<composition>
+			<body carRef="{freetrain-tomy-train-20050530-jrwK120etumi}-m"/>
+		</composition>
+	</contribution>
+
+        <!-- キハ120系(福塩線) -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050530-jrwK120fukuen}-m">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture src="jrw_k120fukuen.bmp" />
+		</sprite>
+		<capacity>112</capacity>
+		<seatedcapacity>49</seatedcapacity>
+	</contribution>
+        <contribution type="train" id="{freetrain-tomy-train-20050530-jrwK120fukuen}">
+		<company>JR西日本</company>
+		<type>キハ120系</type>
+		<name>福塩線</name>
+		<author>TOMY</author>
+		<description>JR西日本発足後の初の新製軽快気動車。</description>
+		<fare>400</fare>
+		<price>28000000</price>
+		<amenity>100</amenity>
+		<triprange>middle</triprange>
+		<speed>medium</speed>
+		<!-- <class name="freetrain.contributions.train.PatternTrainImpl"/> -->
+		<composition>
+			<body carRef="{freetrain-tomy-train-20050530-jrwK120fukuen}-m"/>
+		</composition>
+	</contribution>
+
+        <!-- キハ120系(美祢線) -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050530-jrwK120mine}-m">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture src="jrw_k120mine.bmp" />
+		</sprite>
+		<capacity>112</capacity>
+		<seatedcapacity>49</seatedcapacity>
+	</contribution>
+        <contribution type="train" id="{freetrain-tomy-train-20050530-jrwK120mine}">
+		<company>JR西日本</company>
+		<type>キハ120系</type>
+		<name>美祢線</name>
+		<author>TOMY</author>
+		<description>JR西日本発足後の初の新製軽快気動車。</description>
+		<fare>400</fare>
+		<price>28000000</price>
+		<amenity>100</amenity>
+		<triprange>middle</triprange>
+		<speed>medium</speed>
+		<!-- <class name="freetrain.contributions.train.PatternTrainImpl"/> -->
+		<composition>
+			<body carRef="{freetrain-tomy-train-20050530-jrwK120mine}-m"/>
+		</composition>
+	</contribution>
+
+        <!-- キハ120系(三江線) -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050530-jrwK120sanko}-m">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture src="jrw_k120sanko.bmp" />
+		</sprite>
+		<capacity>112</capacity>
+		<seatedcapacity>49</seatedcapacity>
+	</contribution>
+        <contribution type="train" id="{freetrain-tomy-train-20050530-jrwK120sanko}">
+		<company>JR西日本</company>
+		<type>キハ120系</type>
+		<name>三江線</name>
+		<triprange>middle</triprange>
+		<author>TOMY</author>
+		<description>JR西日本発足後の初の新製軽快気動車。</description>
+		<fare>400</fare>
+		<price>28000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		<!-- <class name="freetrain.contributions.train.PatternTrainImpl"/> -->
+		<composition>
+			<body carRef="{freetrain-tomy-train-20050530-jrwK120sanko}-m"/>
+		</composition>
+	</contribution>
+
+        <!-- キハ120系(高山線：青) -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050530-jrwK120takayama-b}-m">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture src="jrw_k120takayama_blue.bmp" />
+		</sprite>
+		<capacity>112</capacity>
+		<seatedcapacity>49</seatedcapacity>
+	</contribution>
+        <contribution type="train" id="{freetrain-tomy-train-20050530-jrwK120takayama-b}">
+		<company>JR西日本</company>
+		<type>キハ120系</type>
+		<name>高山本線(青)</name>
+		<author>TOMY</author>
+		<description>JR西日本発足後の初の新製軽快気動車。</description>
+		<fare>500</fare>
+		<price>35000000</price>
+		<amenity>105</amenity>	
+		<triprange>middle</triprange>
+		<speed>medium</speed>
+		<!-- <class name="freetrain.contributions.train.PatternTrainImpl"/> -->
+		<composition>
+			<body carRef="{freetrain-tomy-train-20050530-jrwK120takayama-b}-m"/>
+		</composition>
+	</contribution>
+
+        <!-- キハ120系(高山線：赤) -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050530-jrwK120takayama-r}-m">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture src="jrw_k120takayama_red.bmp" />
+		</sprite>
+ 		<capacity>112</capacity>
+		<seatedcapacity>49</seatedcapacity>
+	</contribution>
+        <contribution type="train" id="{freetrain-tomy-train-20050530-jrwK120takayama-r}">
+		<company>JR西日本</company>
+		<type>キハ120系</type>
+		<name>高山本線(赤)</name>
+		<author>TOMY</author>
+		<description>JR西日本発足後の初の新製軽快気動車。</description>
+		<fare>500</fare>
+		<price>35000000</price>
+		<amenity>105</amenity>	
+		<triprange>middle</triprange>
+		<speed>medium</speed>
+		<!-- <class name="freetrain.contributions.train.PatternTrainImpl"/> -->
+		<composition>
+			<body carRef="{freetrain-tomy-train-20050530-jrwK120takayama-r}-m"/>
+		</composition>
+	</contribution>
+
+        <!-- キハ120系(津山線) -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050530-jrwK120tuyama}-m">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture src="jrw_k120tuyama.bmp" />
+		</sprite>
+ 		<capacity>112</capacity>
+		<seatedcapacity>49</seatedcapacity>
+	</contribution>
+        <contribution type="train" id="{freetrain-tomy-train-20050530-jrwK120tuyama}">
+		<company>JR西日本</company>
+		<type>キハ120系</type>
+		<name>津山線</name>
+		<author>TOMY</author>
+		<description>JR西日本発足後の初の新製軽快気動車。</description>
+		<fare>500</fare>
+		<price>35000000</price>
+		<triprange>middle</triprange>
+		<amenity>105</amenity>	
+		<speed>medium</speed>
+		<!-- <class name="freetrain.contributions.train.PatternTrainImpl"/> -->
+		<composition>
+			<body carRef="{freetrain-tomy-train-20050530-jrwK120tuyama}-m"/>
+		</composition>
+	</contribution>
+
+        <!-- キハ126系(山陰本線) -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050530-jrwK126sanin}-m">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture src="jrw_k126sanin.bmp" />
+		</sprite>
+		<capacity>114</capacity>
+		<seatedcapacity>56</seatedcapacity>
+	</contribution>
+        <contribution type="train" id="{freetrain-tomy-train-20050530-jrwK126sanin}">
+		<company>JR西日本</company>
+		<type>キハ126系</type>
+		<name></name>
+		<author>TOMY</author>
+		<description>2001年の山陰本線(安来～益田間)高速化工事にともなって登場した車輌。ワンマン運転に対応し,最高速度は100km/h。</description>
+		<fare>500</fare>
+		<price>35000000</price>
+		<triprange>middle</triprange>
+		<amenity>110</amenity>
+		<speed>medium</speed>
+		<!-- <class name="freetrain.contributions.train.PatternTrainImpl"/> -->
+		<composition>
+			<body carRef="{freetrain-tomy-train-20050530-jrwK126sanin}-m"/>
+		</composition>
+	</contribution>
+
+<!-- ＪＲ九州 -->
+	<!-- 457系先頭車両 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050530-jrq457}-h">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+		<picture src="jrq_457a.bmp" />
+		</sprite>
+		<capacity>88</capacity>
+		<seatedcapacity>54</seatedcapacity>
+	</contribution>
+	<!-- 457系中間車両 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050530-jrq457}-m">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+		<picture src="jrq_457b.bmp" />
+		</sprite>
+		<capacity>95</capacity>
+		<seatedcapacity>64</seatedcapacity>
+	</contribution>
+	<!-- 457系後尾車両 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050530-jrq457}-t">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{freetrain-tomy-train-20050530-jrq457}-h"/>
+	</contribution>
+	<contribution type="train" id="{freetrain-tomy-train-20050530-jrq457}">
+		<company>JR九州</company>
+		<type>457系</type>
+		<name></name>
+		<author>TOMY</author>
+		<speed>medium</speed> 
+		<description>国鉄時代に交直流用急行型電車として登場したが,現在では鹿児島本線のローカル線として運用。</description>
+		<fare>500</fare>
+		<price>35000000</price>
+		<triprange>middle</triprange>
+		<amenity>110</amenity>
+		<composition>
+			<head carRef="{freetrain-tomy-train-20050530-jrq457}-h"/>
+			<body carRef="{freetrain-tomy-train-20050530-jrq457}-m"/>
+			<tail carRef="{freetrain-tomy-train-20050530-jrq457}-t"/>
+		</composition>
+	</contribution>
+
+	<!-- 811系先頭車両(グリーンランド) -->
+	<contribution type="trainCar" id="{freetrain-20050325-train-811green}-h">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+		<picture src="811a_gr.bmp" />
+		</sprite>
+		<capacity>118</capacity>
+		<seatedcapacity>48</seatedcapacity>
+	</contribution>
+	<!-- 811系中間車両(グリーンランド) -->
+	<contribution type="trainCar" id="{freetrain-20050325-train-811green}-m">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+		<picture src="811b_gr.bmp" />
+		</sprite>
+		<capacity>136</capacity>
+		<seatedcapacity>56</seatedcapacity>
+	</contribution>
+	<!-- 811系後尾車両(グリーンランド) -->
+	<contribution type="trainCar" id="{freetrain-20050325-train-811green}-t">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{freetrain-20050325-train-811green}-h"/>
+	</contribution>
+	<contribution type="train" id="{freetrain-20050325-train-811green}">
+		<company>JR九州</company>
+		<type>811系</type>
+		<name>グリーンランド</name>
+		<author>TOMY</author>
+		<speed>medium</speed> 
+		<description>福岡･北九州都市圏の輸送改善のため421系等の置換え用として1989年に登場した。4両編成を基本とし813系との混結もできる。ステンレス車体のサイリスタ位相制御で最高速度は120km/h。</description>
+		<fare>500</fare>
+		<price>35000000</price>
+		<triprange>middle</triprange>
+		<amenity>110</amenity>
+		<composition>
+			<head carRef="{freetrain-20050325-train-811green}-h"/>
+			<body carRef="{freetrain-20050325-train-811green}-m"/>
+			<tail carRef="{freetrain-20050325-train-811green}-t"/>
+		</composition>
+	</contribution>
+
+	<!-- 811系先頭車両(スペースワールド) -->
+	<contribution type="trainCar" id="{freetrain-20050325-train-811space}-h">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+		<picture src="811a_sp.bmp" />
+		</sprite>
+		<capacity>118</capacity>
+		<seatedcapacity>48</seatedcapacity>
+	</contribution>
+	<!-- 811系中間車両(スペースワールド) -->
+	<contribution type="trainCar" id="{freetrain-20050325-train-811space}-m">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+		<picture src="811b_sp.bmp" />
+		</sprite>
+		<capacity>136</capacity>
+		<seatedcapacity>56</seatedcapacity>
+	</contribution>
+	<!-- 811系後尾車両(スペースワールド) -->
+	<contribution type="trainCar" id="{freetrain-20050325-train-811space}-t">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{freetrain-20050325-train-811space}-h"/>
+	</contribution>
+	<contribution type="train" id="{freetrain-20050325-train-811space}">
+		<company>JR九州</company>
+		<type>811系</type>
+		<name>スペースワールド</name>
+		<author>TOMY</author>
+		<speed>medium</speed> 
+		<description>福岡･北九州都市圏の輸送改善のため421系等の置換え用として1989年に登場した。4両編成を基本とし813系との混結もできる。ステンレス車体のサイリスタ位相制御で最高速度は120km/h。</description>
+		<fare>500</fare>
+		<price>35000000</price>
+		<triprange>middle</triprange>
+		<amenity>110</amenity>
+		<composition>
+			<head carRef="{freetrain-20050325-train-811space}-h"/>
+			<body carRef="{freetrain-20050325-train-811space}-m"/>
+			<tail carRef="{freetrain-20050325-train-811space}-t"/>
+		</composition>
+	</contribution>
+
+	<!-- 815系先頭車両 -->
+	<contribution type="trainCar" id="{freetrain-20050325-train815}-h">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+		<picture src="815.bmp" />
+		</sprite>
+		<capacity>136</capacity>
+		<seatedcapacity>46</seatedcapacity>
+	</contribution>
+	<!-- 815系後尾車両 -->
+	<contribution type="trainCar" id="{freetrain-20050325-train815}-t">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{freetrain-20050325-train815}-h"/>
+	</contribution>
+	<contribution type="train" id="{freetrain-20050325-train815}">
+		<company>JR九州</company>
+		<type>815系</type>
+		<name></name>
+		<author>TOMY</author>
+		<speed>medium</speed> 
+		<description>1999年の豊肥本線(熊本－肥後大津間)の電化開業に合わせて登場したワンマン運転対応電車。基本は2両編成で811系や813系とも併結が可能である。軽量化や機器の向上により大幅な省エネルギー化を達成している。</description>
+		<fare>400</fare>
+		<price>30000000</price>
+		<triprange>middle</triprange>
+		<amenity>100</amenity>
+                <class name="freetrain.contributions.train.PatternTrainImpl" /> 
+                <config>
+                <car char="＜" ref="{freetrain-20050325-train815}-h" /> 
+                <car char="＞" ref="{freetrain-20050325-train815}-t" /> 
+                     <composition>＜＞</composition> 
+                     <composition>＜＞＜＞</composition>
+                     <composition>＜＞＜＞＜＞</composition> 
+                </config>
+ 	</contribution>
+
+	<!-- 817系先頭車両 -->
+	<contribution type="trainCar" id="{freetrain-20050325-train817}-h">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+		<picture src="817a.bmp" />
+		</sprite>
+		<capacity>132</capacity>
+		<seatedcapacity>46</seatedcapacity>
+	</contribution>
+	<!-- 817系中間車両 -->
+	<contribution type="trainCar" id="{freetrain-20050325-train817}-m">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+		<picture src="817b.bmp" />
+		</sprite>
+		<capacity>142</capacity>
+		<seatedcapacity>50</seatedcapacity>
+	</contribution>
+	<!-- 817系後尾車両 -->
+	<contribution type="trainCar" id="{freetrain-20050325-train817}-t">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{freetrain-20050325-train817}-h"/>
+	</contribution>
+	<contribution type="train" id="{freetrain-20050325-train817}">
+		<company>JR九州</company>
+		<type>817系</type>
+		<name></name>
+		<author>TOMY</author>
+		<speed>medium</speed> 
+		<description>2001年の筑豊本線･篠栗線の電化開業に合わせて製造された通勤型電車。基本的には815系の流れを汲んでいるが座席はクロスシートで木と本皮を組み合わせたものになっているなど従来の通勤電車のイメージを一新したものになっている。</description>
+		<fare>500</fare>
+		<price>35000000</price>
+		<triprange>middle</triprange>
+		<amenity>110</amenity>
+		<composition>
+			<head carRef="{freetrain-20050325-train817}-h"/>
+			<body carRef="{freetrain-20050325-train817}-m"/>
+			<tail carRef="{freetrain-20050325-train817}-t"/>
+		</composition>
+	</contribution>
+
+	<!-- キハ31系 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050530-jrqk31}-m">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+		<picture src="jrq_k31.bmp" />
+		</sprite>
+		<capacity>96</capacity>
+		<seatedcapacity>38</seatedcapacity>
+	</contribution>
+	<contribution type="train" id="{freetrain-tomy-train-20050530-jrqk31}">
+		<company>JR九州</company>
+		<type>キハ31系</type>
+		<name></name>
+		<author>TOMY</author>
+		<speed>slow</speed> 
+		<description>1987年の国鉄分割民営化に先立ち,経営が厳しい地方路線に登場。ステンレス製車体で動力以外は廃車品を転用。肥薩線,三角線,日南線などで運用。 </description>
+		<fare>500</fare>
+		<price>35000000</price>
+		<triprange>middle</triprange>
+		<amenity>110</amenity>
+		<composition>
+			<body carRef="{freetrain-tomy-train-20050530-jrqk31}-m"/>
+		</composition>
+	</contribution>
+
+	<!-- 800系先頭車両 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050601-jrq800}-h">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+		<picture src="jrq_800a.bmp" />
+		</sprite>
+		<capacity>56</capacity>
+		<seatedcapacity>56</seatedcapacity>
+	</contribution>
+	<!-- 800系中間車両 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050601-jrq800}-m">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+		<picture src="jrq_800b.bmp" />
+		</sprite>
+		<capacity>72</capacity>
+		<seatedcapacity>72</seatedcapacity>
+	</contribution>
+	<!-- 800系後尾車両 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050601-jrq800}-t">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{freetrain-tomy-train-20050601-jrq800}-h"/>
+	</contribution>
+	<contribution type="train" id="{freetrain-tomy-train-20050601-jrq800}">
+		<company>JR九州</company>
+		<type>800系</type>
+		<name>つばめ</name>
+		<author>TOMY</author>
+		<fare>1000</fare>
+		<price>70000000</price>
+		<amenity>135</amenity>
+		<triprange>long</triprange>
+		<speed>superb</speed> 
+		<description>2004年,九州新幹線開業と供に登場。全通開通になると鹿児島～博多間の運用となる。700系を基に設計され,室内は｢和｣と｢木のぬくもり｣を強調した内装となっている。</description>
+		<composition>
+			<head carRef="{freetrain-tomy-train-20050601-jrq800}-h"/>
+			<body carRef="{freetrain-tomy-train-20050601-jrq800}-m"/>
+			<tail carRef="{freetrain-tomy-train-20050601-jrq800}-t"/>
+		</composition>
+	</contribution>
+
+<!-- ＪＲ四国 -->
+        <!-- 121系先頭車 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050603-jrs121}-h">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+                <sprite origin="0,0">
+		      <picture src="jrs_121.bmp" />
+                </sprite>
+		<capacity>118</capacity>
+		<seatedcapacity>62</seatedcapacity>
+	</contribution>
+        <!-- 121系後尾車 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050603-jrs121}-t">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+                <base carRef="{freetrain-tomy-train-20050603-jrs121}-h" />
+	</contribution>
+	<contribution type="train" id="{freetrain-tomy-train-20050603-jrs121}">
+		<company>JR四国</company>
+		<type>121系</type>
+		<name></name>
+		<fare>500</fare>
+		<price>35000000</price>
+		<amenity>100</amenity>
+		<triprange>middle</triprange>
+		<author>TOMY</author>
+		<description>国鉄末期の1986年に登場。205系を基に設計された車輌で,分割民営後の四国では独自に4桁カタカナ無しの型式番号となり,3桁型式は本車輌が最後である。予讃･土讃線で運用。</description>
+		<speed>medium</speed>
+                <class name="freetrain.contributions.train.PatternTrainImpl" /> 
+                <config>
+                     <car char="＜" ref="{freetrain-tomy-train-20050603-jrs121}-h" /> 
+                     <car char="＞" ref="{freetrain-tomy-train-20050603-jrs121}-t" /> 
+
+                     <composition>＜＞</composition>
+                     <composition>＜＞＜＞</composition> 
+                     <composition>＜＞＜＞＜＞</composition>
+               </config>
+        </contribution>
+
+        <!-- 5000系先頭車 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050603-jrs5000}-h">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+                <sprite origin="0,0">
+		      <picture src="jrs_5000c.bmp" />
+                </sprite>
+		<capacity>134</capacity>
+		<seatedcapacity>48</seatedcapacity>
+	</contribution>
+        <!-- 5000系中間車 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050603-jrs5000}-m">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+                <sprite origin="0,0">
+		      <picture src="jrs_5000b.bmp" />
+                </sprite>
+		<capacity>130</capacity>
+		<seatedcapacity>34</seatedcapacity>
+	</contribution>
+        <!-- 5000系後尾車 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050603-jrs5000}-th">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+                <sprite origin="0,0">
+		      <picture src="jrs_5000a.bmp" />
+                </sprite>
+		<capacity>100</capacity>
+		<seatedcapacity>100</seatedcapacity>
+	</contribution>
+        <!-- 5000系後尾車 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050603-jrs5000}-t">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+                <base carRef="{freetrain-tomy-train-20050603-jrs5000}-th" />
+	</contribution>
+	<contribution type="train" id="{freetrain-tomy-train-20050603-jrs5000}">
+		<company>JR四国</company>
+		<type>5000系</type>
+		<name>マリンライナー</name>
+		<author>TOMY</author>
+		<description>2003年に本四備讃線(瀬戸大橋線)の輸送改善を目的とし,213系の置換え用として登場した直流近郊形電車。平屋車輌は223系を,2階建て車輌はE217系を基に設計されており,狭小トンネルがある予讃線箕浦駅以遠への乗入れは考慮されていない。</description>
+		<fare>550</fare>
+		<price>38500000</price>
+		<amenity>115</amenity>
+		<triprange>middle</triprange>
+		<speed>medium</speed>
+		<composition>
+                        <head carRef="{freetrain-tomy-train-20050603-jrs5000}-h"/>
+			<body carRef="{freetrain-tomy-train-20050603-jrs5000}-m"/>
+			<tail carRef="{freetrain-tomy-train-20050603-jrs5000}-t"/>
+		</composition>
+        </contribution>
+	
+	<!-- 7000系 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050603-jrs7000}-m">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+                <sprite origin="0,0">
+		      <picture src="jrs_7000.bmp" />
+                </sprite>
+		<capacity>149</capacity>
+		<seatedcapacity>64</seatedcapacity>
+	</contribution>
+	<contribution type="train" id="{freetrain-tomy-train-20050603-jrs7000}">
+		<company>JR四国</company>
+		<type>7000系</type>
+		<name></name>
+		<author>TOMY</author>
+		<description>1990年の松山地区電化開業(予讃線･土讃線)に伴い登場した直流近郊形電車。トイレが設置されていないため本四備讃線(瀬戸大橋線)での運用はない。</description>
+		<fare>500</fare>
+		<price>35000000</price>
+		<amenity>100</amenity>
+		<triprange>middle</triprange>
+		<speed>medium</speed>
+		<composition>
+			<body carRef="{freetrain-tomy-train-20050603-jrs7000}-m"/>
+		</composition>
+	</contribution>
+
+        <!-- 8000系先頭車 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050603-jrs8000}-h">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+                <sprite origin="0,0">
+		      <picture src="jrs_8000a.bmp" />
+                </sprite>
+		<capacity>60</capacity>
+		<seatedcapacity>60</seatedcapacity>
+	</contribution>
+        <!-- 8000系中間車 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050603-jrs8000}-m">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+                <sprite origin="0,0">
+		      <picture src="jrs_8000b.bmp" />
+                </sprite>
+		<capacity>72</capacity>
+		<seatedcapacity>72</seatedcapacity>
+	</contribution>
+        <!-- 8000系グリーン車 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050603-jrs8000}-g">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+                <sprite origin="0,0">
+		      <picture src="jrs_8000c.bmp" />
+                </sprite>
+		<capacity>54</capacity>
+		<seatedcapacity>54</seatedcapacity>
+	</contribution>
+        <!-- 8000系後尾車 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050603-jrs8000}-t">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+                <base carRef="{freetrain-tomy-train-20050603-jrs8000}-h" />
+	</contribution>
+	<contribution type="train" id="{freetrain-tomy-train-20050603-jrs8000}">
+		<company>JR四国</company>
+		<type>8000系</type>
+		<name>しおかぜ</name>
+		<author>TOMY</author>
+		<description>1993年の新居浜駅～今治駅間電化開業に伴い登場した特急型直流電車。VVVFインバータ制御装置,制御付振り子装置,架線追従装置を装備。塗装面では,橙は指定席,赤はグリーン席,青は自由席と判別しやすくしている。</description>
+		<fare>750</fare>
+		<price>56000000</price>
+		<triprange>long</triprange>
+		<amenity>120</amenity>
+		<speed>fast</speed>
+                <class name="freetrain.contributions.train.PatternTrainImpl" /> 
+                <config>
+                     <car char="＜" ref="{freetrain-tomy-train-20050603-jrs8000}-h" />
+                     <car char="Ｍ" ref="{freetrain-tomy-train-20050603-jrs8000}-m" />
+                     <car char="Ｇ" ref="{freetrain-tomy-train-20050603-jrs8000}-g" /> 
+                     <car char="＞" ref="{freetrain-tomy-train-20050603-jrs8000}-t" /> 
+
+                     <composition>＜ＭＧ</composition>
+                     <composition>＜ＭＭＧ</composition> 
+                     <composition>＜ＭＧＭ＞</composition>
+                     <composition>＜ＭＭＧＭ＞</composition>
+                     <composition>＜ＭＭＧＭＭ＞</composition>
+                     <composition>＜ＭＭＧＧＭＭ＞</composition>
+                     <composition>＜ＭＭＭＧＧＭＭ＞</composition>
+                     <composition>＜ＭＭＭＧＧＭＭＭ＞</composition>
+               </config>
+        </contribution>
+
+        <!-- キハ185系先頭車 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050603-jrsK185}-h">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+                <sprite origin="0,0">
+		      <picture src="jrs_k185a.bmp" />
+                </sprite>
+		<capacity>72</capacity>
+		<seatedcapacity>72</seatedcapacity>
+	</contribution>
+        <!-- キハ185系中間車 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050603-jrsK185}-m">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+                <sprite origin="0,0">
+		      <picture src="jrs_k185b.bmp" />
+                </sprite>
+		<capacity>88</capacity>
+		<seatedcapacity>88</seatedcapacity>
+	</contribution>
+        <!-- キハ185系後尾車 -->
+	<contribution type="trainCar" id="{freetrain-tomy-train-20050603-jrsK185}-t">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+                <base carRef="{freetrain-tomy-train-20050603-jrsK185}-h" />
+	</contribution>
+	<contribution type="train" id="{freetrain-tomy-train-20050603-jrsK185}">
+		<company>JR四国</company>
+		<type>キハ185系</type>
+		<name></name>
+		<author>TOMY</author>
+		<description>国鉄末期の1986年に分割民営化後の経営を考慮し,四国用特急型気動車として登場。気動車としては初のステンレス製車体となった。</description>
+		<fare>750</fare>
+		<price>52000000</price>
+		<triprange>long</triprange>
+		<amenity>120</amenity>
+		<speed>medium</speed>
+                <class name="freetrain.contributions.train.PatternTrainImpl" /> 
+                <config>
+                     <car char="＜" ref="{freetrain-tomy-train-20050603-jrsK185}-h" />
+                     <car char="Ｍ" ref="{freetrain-tomy-train-20050603-jrsK185}-m" />
+                     <car char="＞" ref="{freetrain-tomy-train-20050603-jrsK185}-t" /> 
+
+                     <composition>＜Ｍ＞</composition>
+                     <composition>＜Ｍ＞＞</composition> 
+                     <composition>＜＜Ｍ＞＞</composition>
+                     <composition>＜Ｍ＞＜Ｍ＞</composition>
+                     <composition>＜Ｍ＞＞＜Ｍ＞</composition>
+                     <composition>＜Ｍ＞＞＜Ｍ＞＞</composition>
+                     <composition>＜Ｍ＞＞＞＜Ｍ＞＞</composition>
+                     <composition>＜Ｍ＞＞＞＜Ｍ＞＞＞</composition>
+               </config>
+        </contribution>
+
+<!-- ＪＲ北海道 -->
+        <!-- キハ183系先頭車 -->
+	<contribution type="trainCar" id="{freetrain-20050407-jrh-k183}-h">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+                <sprite origin="0,0">
+		      <picture src="k183h.bmp" />
+                </sprite>
+		<capacity>40</capacity>
+		<seatedcapacity>40</seatedcapacity>
+	</contribution>
+        <!-- キハ183系中間車 -->
+	<contribution type="trainCar" id="{freetrain-20050407-jrh-k183}-m">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+                <sprite origin="0,0">
+		      <picture src="k183m.bmp" />
+                </sprite>
+		<capacity>68</capacity>
+		<seatedcapacity>68</seatedcapacity>
+	</contribution>
+        <!-- キハ183系ハイデッカー中間車 -->
+	<contribution type="trainCar" id="{freetrain-20050407-jrh-k183}-D">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+                <sprite origin="0,0">
+		      <picture src="k183D.bmp" />
+                </sprite>
+		<capacity>48</capacity>
+		<seatedcapacity>48</seatedcapacity>
+	</contribution>
+        <!-- キハ183系後尾車Ａ -->
+	<contribution type="trainCar" id="{freetrain-20050407-jrh-k183}-th">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+                <sprite origin="0,0">
+		      <picture src="k183t.bmp" />
+                </sprite>
+		<capacity>68</capacity>
+		<seatedcapacity>68</seatedcapacity>
+	</contribution>
+        <!-- キハ183系後尾車Ｂ -->
+	<contribution type="trainCar" id="{freetrain-20050407-jrh-k183}-tt">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+                <base carRef="{freetrain-20050407-jrh-k183}-th" />
+	</contribution>
+        <!-- キハ183系後尾車Ｃ -->
+	<contribution type="trainCar" id="{freetrain-20050407-jrh-k183}-ht">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+                <base carRef="{freetrain-20050407-jrh-k183}-h" />
+	</contribution>
+	<contribution type="train" id="{freetrain-20050407-jrh-k183-0}">
+		<company>JR北海道</company>
+		<type>キハ183系</type>
+		<name></name>
+		<fare>750</fare>
+		<price>52500000</price>
+		<triprange>long</triprange>
+		<amenity>120</amenity>
+		<author>TOMY</author>
+		<description>老朽化した80系気動車の置換え用として投入された特急型気動車</description>
+		<speed>medium</speed>
+                <class name="freetrain.contributions.train.PatternTrainImpl" /> 
+                <config>
+                     <car char="Ｈ" ref="{freetrain-20050407-jrh-k183}-h" /> 
+                     <car char="Ｍ" ref="{freetrain-20050407-jrh-k183}-m" /> 
+                     <car char="Ｄ" ref="{freetrain-20050407-jrh-k183}-D" /> 
+                     <car char="Ｔ" ref="{freetrain-20050407-jrh-k183}-tt" /> 
+                     <car char="Ａ" ref="{freetrain-20050407-jrh-k183}-th" />
+                     <car char="Ｒ" ref="{freetrain-20050407-jrh-k183}-ht" />
+
+                     <composition>ＨＭＴ</composition>
+                     <composition>ＨＭＤＴ</composition> 
+                     <composition>ＨＭＤＭＴ</composition>
+                     <composition>ＨＭＭＤＭＴ</composition>
+                     <composition>ＨＭＭＤＭＭＴ</composition>
+                     <composition>ＨＭＤＭＴＡＭＲ</composition> 
+                     <composition>ＨＭＤＭＴＡＭＤＭＲ</composition> 
+               </config>
+        </contribution>
+
+</plug-in>

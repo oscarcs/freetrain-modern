@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title></title>
+	<homepage></homepage>
+
+
+	<!-- 1000系先頭車両 -->
+	<contribution type="trainCar" id="{hs1000k-1001182341}-h">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+                <sprite origin="0,0">
+		     <picture src="hs1000f.bmp"/>
+                </sprite>
+		<capacity>130</capacity>
+		<seatedcapacity>42</seatedcapacity>
+	</contribution>
+	
+	<!-- 1000系中間車両 -->
+	<contribution type="trainCar" id="{hs1000k-1001182341}-m">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+                <sprite origin="0,0">
+		     <picture src="hs1000c.bmp"/>
+                </sprite>
+		<capacity>130</capacity>
+		<seatedcapacity>50</seatedcapacity>
+	</contribution>
+	
+	<!-- 1000系後尾車両 -->
+	<contribution type="trainCar" id="{hs1000k-1001182341}-t">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{hs1000k-1001182341}-h"/>
+	</contribution>
+	
+	<contribution type="train" id="{hs1000k-1001182341}">
+		<company>阪神電気鉄道</company>
+		<type>1000系</type>
+		<name></name>
+		<author>暇</author>
+		<description>近鉄奈良線との相互直通運転を前に、2006年から製造を開始した次世代急行用車両である。尼崎～奈良間では10両編成でも運転される。
+		</description>
+		<fare>400</fare>
+		<price>28000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+		<car char="h" ref="{hs1000k-1001182341}-h"/>
+		<car char="m" ref="{hs1000k-1001182341}-m"/>
+		<car char="t" ref="{hs1000k-1001182341}-t"/>
+		<composition>ht</composition>
+		<composition>htht</composition>
+		<composition>hmmmmt</composition>
+		<composition>hmmmmtht</composition>
+		<composition>hmmmmththt</composition>
+		<composition>hthththththt</composition>
+		</config>
+	</contribution>
+
+</plug-in>

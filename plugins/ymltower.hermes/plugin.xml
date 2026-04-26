@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plug-in [
+<!ENTITY ylmtower '
+	<group>横浜ランドマークタワー</group>
+	<price>750000000</price>
+	<size>5,5</size>
+	<structure>
+		<category byname="貸事務所"/>
+	</structure>
+	<height>28</height>
+	<population>
+	          <class name="freetrain.contributions.population.OfficePopulation"/>
+                  <base>4500</base>
+	</population>
+
+'>]>
+
+<plug-in>
+	<title>横浜ランドマークタワー</title>
+	<author>Hermes</author>
+	<homepage>nothing</homepage>
+		
+	<contribution type="picture" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E800}">
+		<picture src="ylmt.bmp"/>
+	</contribution>
+
+	
+	<contribution type="GenericStructure" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E801}">
+		&ylmtower;
+		<sprite origin="0,0" offset="464">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E800}"/>
+		</sprite>
+	</contribution>
+
+</plug-in>

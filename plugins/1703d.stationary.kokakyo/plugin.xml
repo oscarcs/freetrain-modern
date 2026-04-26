@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>鉄道施設</title>
+	<author>いっちー</author>
+	<homepage></homepage>
+	
+
+	<contribution type="picture" id="{E02D2B53-B41A-4071-1703d-D63D20E84534}">
+		<picture src="kokakyoA12.bmp"/>
+	</contribution>
+	
+	<contribution type="railStationary" id="{E02D2B53-B41A-4071-1703d-D63D20E84534}-A">
+		<group>高架橋(側道付)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="19">
+			<picture ref="{E02D2B53-B41A-4071-1703d-D63D20E84534}" />
+		</sprite>
+	</contribution>
+	
+
+	<contribution type="picture" id="{1703d-kokakyoA1-sokudo}">
+		<picture src="kokakyoA1B2.bmp"/>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA1-sokudo}-A">
+		<group>高架橋(側道付)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="20">
+			<picture ref="{1703d-kokakyoA1-sokudo}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA1-sokudo}-B">
+		<group>高架橋(側道付)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="32,0" offset="20">
+			<picture ref="{1703d-kokakyoA1-sokudo}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{1703d-kokakyoA1-sokudo}-C">
+		<group>高架橋(側道付)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="64,0" offset="20">
+			<picture ref="{1703d-kokakyoA1-sokudo}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA1-sokudo}-D">
+		<group>高架橋(側道付)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="96,0" offset="20">
+			<picture ref="{1703d-kokakyoA1-sokudo}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{1703d-kokakyoA1-sokudo}-E">
+		<group>高架橋(側道付)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="128,0" offset="20">
+			<picture ref="{1703d-kokakyoA1-sokudo}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA1-sokudo}-F">
+		<group>高架橋(側道付)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="160,0" offset="20">
+			<picture ref="{1703d-kokakyoA1-sokudo}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{1703d-kokakyoA1-sokudo}-G">
+		<group>高架橋(側道付)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="192,0" offset="20">
+			<picture ref="{1703d-kokakyoA1-sokudo}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA1-sokudo}-H">
+		<group>高架橋(側道付)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="224,0" offset="20">
+			<picture ref="{1703d-kokakyoA1-sokudo}" />
+		</sprite>
+	</contribution>
+
+
+
+	<contribution type="picture" id="{D6CED176-6E27-4506-1703d-9952D5C4DEED}">
+		<picture src="kokakyoA22.bmp"/>
+	</contribution>
+	
+	<contribution type="railStationary" id="{D6CED176-6E27-4506-1703d-9952D5C4DEED}-A">
+		<group>高架橋(側道付)</group>
+		<price>500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,0" offset="37">
+			<picture ref="{D6CED176-6E27-4506-1703d-9952D5C4DEED}" />
+		</sprite>
+
+	</contribution>
+	
+
+	<contribution type="picture" id="{1703d-kokakyoA2-sokudo}">
+		<picture src="kokakyoA2B2.bmp"/>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA2-sokudo}-A">
+		<group>高架橋(側道付)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,0" offset="37">
+			<picture ref="{1703d-kokakyoA2-sokudo}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA2-sokudo}-B">
+		<group>高架橋(側道付)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,0" offset="37">
+			<picture ref="{1703d-kokakyoA2-sokudo}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{1703d-kokakyoA2-sokudo}-C">
+		<group>高架橋(側道付)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,0" offset="37">
+			<picture ref="{1703d-kokakyoA2-sokudo}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA2-sokudo}-D">
+		<group>高架橋(側道付)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,0" offset="37">
+			<picture ref="{1703d-kokakyoA2-sokudo}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="railStationary" id="{1703d-kokakyoA2-sokudo}-E">
+		<group>高架橋(側道付)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="128,0" offset="37">
+			<picture ref="{1703d-kokakyoA2-sokudo}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA2-sokudo}-F">
+		<group>高架橋(側道付)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="160,0" offset="37">
+			<picture ref="{1703d-kokakyoA2-sokudo}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{1703d-kokakyoA2-sokudo}-G">
+		<group>高架橋(側道付)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="192,0" offset="37">
+			<picture ref="{1703d-kokakyoA2-sokudo}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA2-sokudo}-H">
+		<group>高架橋(側道付)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="224,0" offset="37">
+			<picture ref="{1703d-kokakyoA2-sokudo}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="picture" id="{1703d-kokakyoA3-sokudo}">
+		<picture src="kokakyoA2B3.bmp"/>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA3-sokudo}-A">
+		<group>高架橋(複合)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,0" offset="37">
+			<picture ref="{1703d-kokakyoA3-sokudo}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA3-sokudo}-B">
+		<group>高架橋(複合)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,0" offset="37">
+			<picture ref="{1703d-kokakyoA3-sokudo}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{1703d-kokakyoA3-sokudo}-C">
+		<group>高架橋(複合)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,0" offset="37">
+			<picture ref="{1703d-kokakyoA3-sokudo}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA3-sokudo}-D">
+		<group>高架橋(複合)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,0" offset="37">
+			<picture ref="{1703d-kokakyoA3-sokudo}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="railStationary" id="{1703d-kokakyoA3-sokudo}-E">
+		<group>高架橋(複合)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="128,0" offset="37">
+			<picture ref="{1703d-kokakyoA3-sokudo}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA3-sokudo}-F">
+		<group>高架橋(複合)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="160,0" offset="37">
+			<picture ref="{1703d-kokakyoA3-sokudo}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{1703d-kokakyoA3-sokudo}-G">
+		<group>高架橋(複合)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="192,0" offset="37">
+			<picture ref="{1703d-kokakyoA3-sokudo}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA3-sokudo}-H">
+		<group>高架橋(複合)</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="224,0" offset="37">
+			<picture ref="{1703d-kokakyoA3-sokudo}" />
+		</sprite>
+	</contribution>
+
+
+
+
+
+
+	<contribution type="picture" id="{1703d-kokakyoA-kumi}">
+		<picture src="kokakyoComp1.bmp"/>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA-kumi}-A">
+		<group>高架橋(組合せ)</group>
+		<price>1200000</price>
+		<size>1,4</size>
+		<height>2</height>
+		<sprite origin="0,0" offset="42">
+			<picture ref="{1703d-kokakyoA-kumi}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA-kumi}-B">
+		<group>高架橋(組合せ)</group>
+		<price>1200000</price>
+		<size>4,1</size>
+		<height>2</height>
+		<sprite origin="80,0" offset="66">
+			<picture ref="{1703d-kokakyoA-kumi}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{1703d-kokakyoA-kumi}-C">
+		<group>高架橋(組合せ)</group>
+		<price>1200000</price>
+		<size>1,4</size>
+		<height>2</height>
+		<sprite origin="160,0" offset="42">
+			<picture ref="{1703d-kokakyoA-kumi}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA-kumi}-D">
+		<group>高架橋(組合せ)</group>
+		<price>1200000</price>
+		<size>4,1</size>
+		<height>2</height>
+		<sprite origin="240,0" offset="66">
+			<picture ref="{1703d-kokakyoA-kumi}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="railStationary" id="{1703d-kokakyoA-kumi}-E">
+		<group>高架橋(組合せ)</group>
+		<price>1200000</price>
+		<size>1,4</size>
+		<height>1</height>
+		<sprite origin="0,84" offset="20">
+			<picture ref="{1703d-kokakyoA-kumi}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA-kumi}-F">
+		<group>高架橋(組合せ)</group>
+		<price>1200000</price>
+		<size>4,1</size>
+		<height>1</height>
+		<sprite origin="80,84" offset="44">
+			<picture ref="{1703d-kokakyoA-kumi}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{1703d-kokakyoA-kumi}-G">
+		<group>高架橋(組合せ)</group>
+		<price>1200000</price>
+		<size>1,4</size>
+		<height>1</height>
+		<sprite origin="160,84" offset="20">
+			<picture ref="{1703d-kokakyoA-kumi}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA-kumi}-H">
+		<group>高架橋(組合せ)</group>
+		<price>1200000</price>
+		<size>4,1</size>
+		<height>1</height>
+		<sprite origin="240,84" offset="44">
+			<picture ref="{1703d-kokakyoA-kumi}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="picture" id="{1703d-kokakyoA-kumi2}">
+		<picture src="kokakyoComp2.bmp"/>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA-kumi2}-A">
+		<group>高架橋(組合せ)</group>
+		<price>1200000</price>
+		<size>2,3</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="23">
+			<picture ref="{1703d-kokakyoA-kumi2}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA-kumi2}-B">
+		<group>高架橋(組合せ)</group>
+		<price>1200000</price>
+		<size>3,2</size>
+		<height>1</height>
+		<sprite origin="80,0" offset="31">
+			<picture ref="{1703d-kokakyoA-kumi2}" />
+		</sprite>
+	</contribution>
+
+
+
+	<contribution type="picture" id="{1703d-kokakyoA-kan}">
+		<picture src="kokakyoSinkansen.bmp"/>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA-kan}-A">
+		<group>高架橋(新幹線)</group>
+		<price>2000000</price>
+		<size>5,2</size>
+		<height>2</height>
+		<sprite origin="0,0" offset="63">
+			<picture ref="{1703d-kokakyoA-kan}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA-kan}-B">
+		<group>高架橋(新幹線)</group>
+		<price>2000000</price>
+		<size>2,5</size>
+		<height>2</height>
+		<sprite origin="112,0" offset="39">
+			<picture ref="{1703d-kokakyoA-kan}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{1703d-kokakyoA-kan}-C">
+		<group>高架橋(新幹線)</group>
+		<price>2000000</price>
+		<size>5,2</size>
+		<height>2</height>
+		<sprite origin="224,0" offset="63">
+			<picture ref="{1703d-kokakyoA-kan}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA-kan}-D">
+		<group>高架橋(新幹線)</group>
+		<price>2000000</price>
+		<size>2,5</size>
+		<height>2</height>
+		<sprite origin="336,0" offset="39">
+			<picture ref="{1703d-kokakyoA-kan}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="railStationary" id="{1703d-kokakyoA-kan}-E">
+		<group>高架橋(新幹線)</group>
+		<price>2000000</price>
+		<size>5,2</size>
+		<height>2</height>
+		<sprite origin="448,0" offset="63">
+			<picture ref="{1703d-kokakyoA-kan}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA-kan}-F">
+		<group>高架橋(新幹線)</group>
+		<price>2000000</price>
+		<size>2,5</size>
+		<height>2</height>
+		<sprite origin="560,0" offset="39">
+			<picture ref="{1703d-kokakyoA-kan}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{1703d-kokakyoA-kan}-G">
+		<group>高架橋(新幹線)</group>
+		<price>2000000</price>
+		<size>5,2</size>
+		<height>2</height>
+		<sprite origin="672,0" offset="63">
+			<picture ref="{1703d-kokakyoA-kan}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA-kan}-H">
+		<group>高架橋(新幹線)</group>
+		<price>2000000</price>
+		<size>2,5</size>
+		<height>2</height>
+		<sprite origin="784,0" offset="39">
+			<picture ref="{1703d-kokakyoA-kan}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="railStationary" id="{1703d-kokakyoA-kan}-I">
+		<group>高架橋(新幹線)</group>
+		<price>1200000</price>
+		<size>2,2</size>
+		<height>2</height>
+		<sprite origin="896,0" offset="63">
+			<picture ref="{1703d-kokakyoA-kan}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA-kan}-J">
+		<group>高架橋(新幹線)</group>
+		<price>1200000</price>
+		<size>2,2</size>
+		<height>2</height>
+		<sprite origin="960,0" offset="63">
+			<picture ref="{1703d-kokakyoA-kan}" />
+		</sprite>
+	</contribution>
+
+
+
+	<contribution type="picture" id="{1703d-kokakyoA-kan2}">
+		<picture src="kokakyoSinkansen2.bmp"/>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA-kan2}-A">
+		<group>新幹線跨道橋1</group>
+		<price>2000000</price>
+		<size>5,2</size>
+		<height>2</height>
+		<sprite origin="0,0" offset="63">
+			<picture ref="{1703d-kokakyoA-kan2}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA-kan2}-B">
+		<group>新幹線跨道橋1</group>
+		<price>2000000</price>
+		<size>2,5</size>
+		<height>2</height>
+		<sprite origin="112,0" offset="39">
+			<picture ref="{1703d-kokakyoA-kan2}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{1703d-kokakyoA-kan2}-C">
+		<group>新幹線跨道橋1</group>
+		<price>2000000</price>
+		<size>5,2</size>
+		<height>2</height>
+		<sprite origin="224,0" offset="63">
+			<picture ref="{1703d-kokakyoA-kan2}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA-kan2}-D">
+		<group>新幹線跨道橋1</group>
+		<price>2000000</price>
+		<size>2,5</size>
+		<height>2</height>
+		<sprite origin="336,0" offset="39">
+			<picture ref="{1703d-kokakyoA-kan2}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="railStationary" id="{1703d-kokakyoA-kan2}-E">
+		<group>新幹線跨道橋1</group>
+		<price>2000000</price>
+		<size>5,2</size>
+		<height>2</height>
+		<sprite origin="448,0" offset="63">
+			<picture ref="{1703d-kokakyoA-kan2}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA-kan2}-F">
+		<group>新幹線跨道橋1</group>
+		<price>2000000</price>
+		<size>2,5</size>
+		<height>2</height>
+		<sprite origin="560,0" offset="39">
+			<picture ref="{1703d-kokakyoA-kan2}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{1703d-kokakyoA-kan2}-G">
+		<group>新幹線跨道橋1</group>
+		<price>2000000</price>
+		<size>5,2</size>
+		<height>2</height>
+		<sprite origin="672,0" offset="63">
+			<picture ref="{1703d-kokakyoA-kan2}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA-kan2}-H">
+		<group>新幹線跨道橋1</group>
+		<price>2000000</price>
+		<size>2,5</size>
+		<height>2</height>
+		<sprite origin="784,0" offset="39">
+			<picture ref="{1703d-kokakyoA-kan2}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="railStationary" id="{1703d-kokakyoA-kan2}-I">
+		<group>新幹線跨道橋1</group>
+		<price>2000000</price>
+		<size>5,2</size>
+		<height>2</height>
+		<sprite origin="896,0" offset="63">
+			<picture ref="{1703d-kokakyoA-kan2}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA-kan2}-J">
+		<group>新幹線跨道橋1</group>
+		<price>2000000</price>
+		<size>2,5</size>
+		<height>2</height>
+		<sprite origin="1008,0" offset="39">
+			<picture ref="{1703d-kokakyoA-kan2}" />
+		</sprite>
+	</contribution>
+
+
+
+	<contribution type="picture" id="{1703d-kokakyoA-kan3}">
+		<picture src="kokakyoSinkansen3_day.bmp">
+			<override when="night" src="kokakyoSinkansen3_night.bmp" />
+		</picture>
+	</contribution>
+
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA-kan3}-A">
+		<group>新幹線跨道橋2</group>
+		<price>2000000</price>
+		<size>5,2</size>
+		<height>2</height>
+		<sprite origin="0,0" offset="71">
+			<picture ref="{1703d-kokakyoA-kan3}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA-kan3}-B">
+		<group>新幹線跨道橋2</group>
+		<price>2000000</price>
+		<size>2,5</size>
+		<height>2</height>
+		<sprite origin="112,0" offset="47">
+			<picture ref="{1703d-kokakyoA-kan3}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{1703d-kokakyoA-kan3}-C">
+		<group>新幹線跨道橋2</group>
+		<price>3000000</price>
+		<size>6,2</size>
+		<height>2</height>
+		<sprite origin="224,0" offset="71">
+			<picture ref="{1703d-kokakyoA-kan3}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA-kan3}-D">
+		<group>新幹線跨道橋2</group>
+		<price>3000000</price>
+		<size>2,6</size>
+		<height>2</height>
+		<sprite origin="352,0" offset="39">
+			<picture ref="{1703d-kokakyoA-kan3}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="railStationary" id="{1703d-kokakyoA-kan3}-E">
+		<group>新幹線跨道橋2</group>
+		<price>3000000</price>
+		<size>6,2</size>
+		<height>2</height>
+		<sprite origin="480,0" offset="71">
+			<picture ref="{1703d-kokakyoA-kan3}" />
+		</sprite>
+	</contribution>
+	
+	<contribution type="railStationary" id="{1703d-kokakyoA-kan3}-F">
+		<group>新幹線跨道橋2</group>
+		<price>3000000</price>
+		<size>2,6</size>
+		<height>2</height>
+		<sprite origin="608,0" offset="39">
+			<picture ref="{1703d-kokakyoA-kan3}" />
+		</sprite>
+	</contribution>
+
+
+</plug-in>

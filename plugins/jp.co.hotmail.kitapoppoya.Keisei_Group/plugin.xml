@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+<plug-in>
+  <title>京成グループ+</title>
+  <author>北の汽車屋</author>
+  <homepage></homepage>
+<!-- AE100系先頭車 --> 
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1F-9-AE100-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="AE100ka.bmp" /> 
+  </sprite>
+  <capacity>60</capacity> 
+  <seatedcapacity>60</seatedcapacity> 
+  </contribution>
+<!-- AE100系最後尾車 -->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1F-9-AE100-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{757F660D-9BC9-48E4-9E1F-9-AE100-A}"/> 
+  </contribution> 
+<!-- AE100系中間車-->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1F-9-AE100-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="AE100kb.bmp" /> 
+  </sprite>
+  <capacity>72</capacity> 
+  <seatedcapacity>72</seatedcapacity> 
+  </contribution>
+<!-- 北総7300系先頭車 --> 
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-HOKUSO7300-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="hokuso7300a.bmp" /> 
+  </sprite>
+  <capacity>117</capacity> 
+  <seatedcapacity>46</seatedcapacity>
+  </contribution>
+<!-- 北総7300系最後尾車 -->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-HOKUSO7300-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{757F660D-9BC9-48E4-9E12-HOKUSO7300-A}"/> 
+  </contribution> 
+<!-- 北総7300系中間車-->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-HOKUSO7300-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="hokuso7300b.bmp" /> 
+  </sprite>
+  <capacity>136</capacity> 
+  <seatedcapacity>56</seatedcapacity>
+  </contribution>
+<!-- 北総7500系先頭車 --> 
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-HOKUSO7500-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="hokuso7500a.bmp" /> 
+  </sprite>
+  <capacity>122</capacity> 
+  <seatedcapacity>46</seatedcapacity> 
+  </contribution>
+<!-- 北総7500系最後尾車 -->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-HOKUSO7500-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{757F660D-9BC9-48E4-9E12-HOKUSO7500-A}"/> 
+  </contribution> 
+<!-- 北総7500系中間車-->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-HOKUSO7500-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="hokuso7500b.bmp" /> 
+  </sprite>
+  <capacity>131</capacity> 
+  <seatedcapacity>56</seatedcapacity>
+  </contribution>
+<!-- 千葉ニュータウン鉄道9100系先頭車A --> 
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-CNTR9100-SA}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="CNTR9100a.bmp" /> 
+  </sprite>
+  <capacity>122</capacity> 
+  <seatedcapacity>46</seatedcapacity> 
+  </contribution>
+<!-- 千葉ニュータウン鉄道9100系先頭車B -->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-CNTR9100-SB}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{757F660D-9BC9-48E4-9E12-CNTR9100-SA}"/> 
+  </contribution>
+<!-- 千葉ニュータウン鉄道9100系中間車A --> 
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-CNTR9100-CA}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="CNTR9100b.bmp" /> 
+  </sprite>
+  <capacity>132</capacity> 
+  <seatedcapacity>56</seatedcapacity>
+  </contribution>
+<!-- 千葉ニュータウン鉄道9100系中間者B -->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-CNTR9100-CB}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{757F660D-9BC9-48E4-9E12-CNTR9100-CA}"/> 
+  <capacity>132</capacity> 
+  <seatedcapacity>56</seatedcapacity>
+  </contribution> 
+
+ <contribution type="train" id="{757F660D-9BC9-48E4-9E1F-9-AE100}">
+<company>京成電鉄</company>
+<type>AE100系</type>
+<name>スカイライナー</name>
+<author>北の汽車屋</author>
+<description>成田空港特急でお馴染みの車両。新高速鉄道の開業時に置き換えが決まっている。
+</description>
+<fare>800</fare>
+<price>56000000</price>
+<triprange>long</triprange>
+<amenity>130</amenity>
+<speed>medium</speed>
+ <class name="freetrain.contributions.train.ParamTrainImpl"/>
+ <composition>
+   <head carRef="{757F660D-9BC9-48E4-9E1F-9-AE100-A}"/>
+   <body carRef="{757F660D-9BC9-48E4-9E1F-9-AE100-C}"/>
+   <tail carRef="{757F660D-9BC9-48E4-9E1F-9-AE100-B}"/>
+ </composition>
+</contribution>
+ <contribution type="train" id="{57644AE6-7FFA-A231-8FE0-75-HOKUSO7300}">
+<company>北総鉄道</company>
+<type>7300系</type>
+<name>北総線</name>
+<author>北の汽車屋</author>
+<description>京成3700系の姉妹車両。</description>
+<fare>400</fare>
+<price>28000000</price>
+<amenity>100</amenity>
+<speed>medium</speed>
+<composition>
+<head carRef="{757F660D-9BC9-48E4-9E12-HOKUSO7300-A}"/>
+<body carRef="{757F660D-9BC9-48E4-9E12-HOKUSO7300-C}"/>
+<tail carRef="{757F660D-9BC9-48E4-9E12-HOKUSO7300-B}"/>
+</composition>
+</contribution> 
+ <contribution type="train" id="{57644AE6-7FFA-A231-8FE0-75-HOKUSO7500}">
+<company>北総鉄道</company>
+<type>7500系</type>
+<name>北総線</name>
+<author>北の汽車屋</author>
+<description>京成3000系の姉妹車両。北総線の旧型車置き換えを目的として登場した。</description>
+<fare>400</fare>
+<price>28000000</price>
+<amenity>100</amenity>
+<speed>medium</speed>
+<composition>
+<head carRef="{757F660D-9BC9-48E4-9E12-HOKUSO7500-A}"/>
+<body carRef="{757F660D-9BC9-48E4-9E12-HOKUSO7500-C}"/>
+<tail carRef="{757F660D-9BC9-48E4-9E12-HOKUSO7500-B}"/>
+</composition>
+</contribution>
+ <contribution type="train" id="{57644AE6-7FFA-A231-8FE0-75-CNTR9100}">
+<company>千葉ニュータウン鉄道</company>
+<type>9100系</type>
+<name>北総線</name>
+<author>北の汽車屋</author>
+<description>もともとは住宅公団の所有車両。奇抜なデザインで知られる。</description>
+<fare>400</fare>
+<price>29000000</price>
+<amenity>100</amenity>
+<speed>medium</speed>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<config>
+<car char="A" ref="{757F660D-9BC9-48E4-9E12-CNTR9100-SA}"/>
+<car char="B" ref="{757F660D-9BC9-48E4-9E12-CNTR9100-SB}"/>
+<car char="X" ref="{757F660D-9BC9-48E4-9E12-CNTR9100-CA}"/> 
+<car char="Y" ref="{757F660D-9BC9-48E4-9E12-CNTR9100-CB}"/> 
+<composition>AXYB</composition>
+<composition>AXXYYB</composition>
+<composition>AXXXYYYB</composition>
+</config>
+</contribution>  
+</plug-in>

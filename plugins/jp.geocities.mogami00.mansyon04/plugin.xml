@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+<plug-in>
+ <title>分譲マンション(3x3)</title> 
+ <author>モガミ</author> 
+ <homepage>http://www.geocities.jp/mogami00/Kamikazekensetu.html</homepage> 
+ <contribution type="picture" id="{mogami-buildingi-building-mansyon04-picture-B8B9B32FD2F9}">
+ <picture src="mansyon04.bmp" /> 
+ </contribution>
+ <contribution type="GenericStructure" id="{mogami-building-mansyon04-C51CA211FBE8}">
+ <group>分譲マンション(3x3)</group> 
+ <structure>
+ <category byname="分譲マンション" /> 
+ </structure>
+ <price>60000000</price> 
+ <size>3,3</size> 
+ <minHeight>2</minHeight> 
+ <maxHeight>10</maxHeight> 
+ <computerCannotBuild />
+ <population>
+ <class name="freetrain.contributions.population.ResidentialPopulation" /> 
+ <base>400</base> 
+ </population>
+ <pictures>
+ <top origin="0,0" offset="38">
+ <picture ref="{mogami-buildingi-building-mansyon04-picture-B8B9B32FD2F9}" /> 
+ </top>
+ <middle origin="0,66" offset="32">
+ <picture ref="{mogami-buildingi-building-mansyon04-picture-B8B9B32FD2F9}" /> 
+ </middle>
+ <bottom origin="0,126" offset="32">
+ <picture ref="{mogami-buildingi-building-mansyon04-picture-B8B9B32FD2F9}" /> 
+ </bottom>
+ </pictures>
+ <pictures>
+ <top origin="96,0" offset="38">
+ <picture ref="{mogami-buildingi-building-mansyon04-picture-B8B9B32FD2F9}" /> 
+ </top>
+ <middle origin="96,66" offset="32">
+ <picture ref="{mogami-buildingi-building-mansyon04-picture-B8B9B32FD2F9}" /> 
+ </middle>
+ <bottom origin="96,126" offset="32">
+ <picture ref="{mogami-buildingi-building-mansyon04-picture-B8B9B32FD2F9}" /> 
+ </bottom>
+ </pictures>
+ <pictures>
+ <top origin="192,0" offset="38">
+ <picture ref="{mogami-buildingi-building-mansyon04-picture-B8B9B32FD2F9}" /> 
+ </top>
+ <middle origin="192,66" offset="32">
+ <picture ref="{mogami-buildingi-building-mansyon04-picture-B8B9B32FD2F9}" /> 
+ </middle>
+ <bottom origin="192,126" offset="32">
+ <picture ref="{mogami-buildingi-building-mansyon04-picture-B8B9B32FD2F9}" /> 
+ </bottom>
+ </pictures>
+ <pictures>
+ <top origin="288,0" offset="38">
+ <picture ref="{mogami-buildingi-building-mansyon04-picture-B8B9B32FD2F9}" /> 
+ </top>
+ <middle origin="288,66" offset="32">
+ <picture ref="{mogami-buildingi-building-mansyon04-picture-B8B9B32FD2F9}" /> 
+ </middle>
+ <bottom origin="288,126" offset="32">
+ <picture ref="{mogami-buildingi-building-mansyon04-picture-B8B9B32FD2F9}" /> 
+ </bottom>
+ </pictures>
+ </contribution>
+</plug-in>

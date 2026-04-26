@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>建物総合コンバート　ゆうあ建設</title>
+	<author>りおりお</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+	<depend on="yualove.freetrain.structure.2k" />
+
+	<contribution type="picture" id="{riorio-gs-convert-yua-picture-firestation}">
+		<picture src="../yualove.freetrain.structure.2k/903.fire station.bmp" />
+	</contribution>
+
+	<contribution type="GenericStructure" id="{D50BA778-25F4-465B-8A73-4C15F8772362}-gs">
+		<name>消防署</name>
+		<price>16000000</price>
+		<size>3,3</size>
+		<height>2</height>
+		<structure>
+			<category byname="消防署" />
+		</structure>
+		<sprite origin="0,0" offset="30">
+			<picture ref="{riorio-gs-convert-yua-picture-firestation}" />
+		</sprite>
+	</contribution>
+
+
+</plug-in>

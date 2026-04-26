@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+<plug-in>
+  <title>つくばエクスプレス</title>
+  <author>北の汽車屋</author>
+  <homepage></homepage>
+<!-- TX1000先頭車 --> 
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TX1000-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="TX2000_a.bmp" /> 
+  </sprite>
+  <capacity>147</capacity> 
+  <seatedcapacity>48</seatedcapacity> 
+  </contribution>
+<!-- TX1000最後尾車 -->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TX1000-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{757F660D-9BC9-48E4-9E12-TX1000-A}"/> 
+  </contribution> 
+<!-- TX1000中間車-->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TX1000-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="TX2000_b.bmp" /> 
+  </sprite>
+  <capacity>158</capacity> 
+  <seatedcapacity>54</seatedcapacity> 
+  </contribution>
+<!-- TX2000先頭車 --> 
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TX2000-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="TX2000_a.bmp" /> 
+  </sprite>
+  <capacity>147</capacity> 
+  <seatedcapacity>48</seatedcapacity> 
+  </contribution>
+<!-- TX2000最後尾車 -->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TX2000-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{757F660D-9BC9-48E4-9E12-TX2000-A}"/> 
+  </contribution> 
+<!-- TX2000中間ロング車-->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TX2000-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="TX2000_b.bmp" /> 
+  </sprite>
+  <capacity>158</capacity> 
+  <seatedcapacity>51</seatedcapacity> 
+  </contribution>
+<!-- TX2000中間クロス車-->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E12-TX2000-D}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="TX2000_b.bmp" /> 
+  </sprite>
+  <capacity>155</capacity> 
+  <seatedcapacity>60</seatedcapacity> 
+  </contribution>
+
+ <contribution type="train" id="{57644AE6-7FFA-A231-8FE0-75-TX1000}">
+<company>つくばエクスプレス</company>
+<type>TX1000系</type>
+<name>tukuba</name>
+<author>北の汽車屋</author>
+<description>2005年秋開業したつくばエクスプレス線用の通勤車両。秋葉原から守谷までの直流区間を走行する。</description>
+<fare>400</fare>
+<price>28000000</price>
+<amenity>100</amenity>
+<speed>medium</speed>
+<composition>
+<head carRef="{757F660D-9BC9-48E4-9E12-TX1000-A}"/>
+<body carRef="{757F660D-9BC9-48E4-9E12-TX1000-C}"/>
+<tail carRef="{757F660D-9BC9-48E4-9E12-TX1000-B}"/>
+</composition>
+</contribution> 
+ <contribution type="train" id="{57644AE6-7FFA-A231-8FE0-75-TX2000}">
+<company>つくばエクスプレス</company>
+<type>TX2000系</type>
+<name>tukuba</name>
+<author>北の汽車屋</author>
+<description>2005年秋開業したつくばエクスプレス線用の近郊車両。つくばまで運行する交直流電車。</description>
+<fare>500</fare>
+<price>38500000</price>
+<amenity>110</amenity>
+<triprange>middle</triprange>
+<speed>medium</speed>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<config>
+<car char="a" ref="{757F660D-9BC9-48E4-9E12-TX2000-A}"/>
+<car char="b" ref="{757F660D-9BC9-48E4-9E12-TX2000-B}"/>
+<car char="c" ref="{757F660D-9BC9-48E4-9E12-TX2000-C}"/>
+<car char="d" ref="{757F660D-9BC9-48E4-9E12-TX2000-D}"/>
+<composition>acdb</composition>
+<composition>acdcb</composition>
+<composition>acddcb</composition>
+<composition>acdcdcb</composition>
+<composition>acddddcb</composition>
+</config>
+</contribution> 
+</plug-in>

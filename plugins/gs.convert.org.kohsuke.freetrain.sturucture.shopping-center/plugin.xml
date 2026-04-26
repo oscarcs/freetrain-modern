@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>建物総合コンバート　TAKUROU</title>
+	<author>りおりお</author>
+ 	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+	<depend on="org.kohsuke.freetrain.sturucture.shopping-center" />
+
+             <!-- ばんかれさんの画像を拝借しました  -->
+ 
+             <contribution type="GenericStructure" id="{88FE76FB-7343-11D7-A4B7-A959391A9B37}-gs">
+		<group>ドラッグストアー</group>
+		<price>10000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<structure>
+			<category byname="チェーン専門店" />
+		</structure>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{88FE76FA-7343-11D7-A4B7-A959391A9B37}"/>
+		</sprite>
+		<sprite origin="32,0" offset="16">
+			<picture ref="{88FE76FA-7343-11D7-A4B7-A959391A9B37}"/>
+		</sprite>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{88FE76FA-7343-11D7-A4B7-A959391A9B37}"/>
+		</sprite>
+		<sprite origin="96,0" offset="16">
+			<picture ref="{88FE76FA-7343-11D7-A4B7-A959391A9B37}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{88FE76FF-7343-11D7-A4B7-A959391A9B37}-gs">
+		<group>ドラッグストアー</group>
+		<price>10000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<structure>
+			<category byname="チェーン専門店" />
+		</structure>
+		<sprite origin="128,0" offset="16">
+			<picture ref="{88FE76FA-7343-11D7-A4B7-A959391A9B37}"/>
+		</sprite>
+		<sprite origin="160,0" offset="16">
+			<picture ref="{88FE76FA-7343-11D7-A4B7-A959391A9B37}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+             <contribution type="GenericStructure" id="{88FE7702-7343-11D7-A4B7-A959391A9B37}-gs">
+		<group>スーパーマーケット（中型店）</group>
+		<price>10000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<structure>
+			<category byname="スーパー" />
+		</structure>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{88FE7701-7343-11D7-A4B7-A959391A9B37}"/>
+		</sprite>
+		<sprite origin="32,0" offset="16">
+			<picture ref="{88FE7701-7343-11D7-A4B7-A959391A9B37}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	
+	<contribution type="GenericStructure" id="{88FE7704-7343-11D7-A4B7-A959391A9B37}-gs">
+		<group>スーパーマーケット（中型店）</group>
+		<price>10000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<structure>
+			<category byname="スーパー" />
+		</structure>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{88FE7701-7343-11D7-A4B7-A959391A9B37}"/>
+		</sprite>
+		<sprite origin="96,0" offset="16">
+			<picture ref="{88FE7701-7343-11D7-A4B7-A959391A9B37}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{88FE7706-7343-11D7-A4B7-A959391A9B37}-gs">
+		<group>スーパーマーケット（中型店）</group>
+		<price>10000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<structure>
+			<category byname="スーパー" />
+		</structure>
+		<sprite origin="128,0" offset="16">
+			<picture ref="{88FE7701-7343-11D7-A4B7-A959391A9B37}"/>
+		</sprite>
+		<sprite origin="160,0" offset="16">
+			<picture ref="{88FE7701-7343-11D7-A4B7-A959391A9B37}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+</plug-in>

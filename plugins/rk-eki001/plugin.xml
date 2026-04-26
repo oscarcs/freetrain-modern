@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+
+<plug-in>
+	<title>駅舎プラグイン</title> 
+	<author>花菱</author> 
+	<homepage></homepage>
+
+	<contribution type="picture" id="{474B8BFD-rk001-1010-t-eki001-cg}">
+		<picture src="ti-eki001a.bmp" origin="0,0" offset="16" >
+			<override when="night" src="ti-eki001b.bmp" /> 
+  		</picture> 
+	</contribution>
+
+	<contribution type="station" id="{474B8BFD-rk001-1010-t-eki001}">
+	<group>地上駅01</group> 
+	<price>2000000</price> 
+	<height>1</height> 
+	<operationCost>1000</operationCost> 
+	<size>2,1</size> 
+	<sprite origin="0,0" offset="23">
+		<picture ref="{474B8BFD-rk001-1010-t-eki001-cg}" /> 
+	</sprite>
+	</contribution>
+	<contribution type="station" id="{474B8BFD-rk001-1010-t-eki002}">
+	<group>地上駅01</group> 
+	<price>2000000</price> 
+	<height>1</height> 
+	<operationCost>1000</operationCost> 
+	<size>1,2</size> 
+	<sprite origin="48,0" offset="15">
+		<picture ref="{474B8BFD-rk001-1010-t-eki001-cg}" /> 
+	</sprite>
+	</contribution>
+
+	<contribution type="station" id="{474B8BFD-rk001-1010-t-eki003}">
+	<group>地上駅01</group> 
+	<price>2000000</price> 
+	<height>1</height> 
+	<operationCost>10</operationCost> 
+	<size>2,1</size> 
+	<sprite origin="96,0" offset="23">
+		<picture ref="{474B8BFD-rk001-1010-t-eki001-cg}" /> 
+	</sprite>
+	</contribution>
+	<contribution type="station" id="{474B8BFD-rk001-1010-t-eki004}">
+	<group>地上駅01</group> 
+	<price>2000000</price> 
+	<height>1</height> 
+	<operationCost>1000</operationCost> 
+	<size>1,2</size> 
+	<sprite origin="144,0" offset="15">
+		<picture ref="{474B8BFD-rk001-1010-t-eki001-cg}" /> 
+	</sprite>
+	</contribution>
+
+	<contribution type="station" id="{474B8BFD-rk001-1010-t-eki005}">
+	<group>地上駅01</group> 
+	<price>2000000</price> 
+	<height>1</height> 
+	<operationCost>10</operationCost> 
+	<size>2,1</size> 
+	<sprite origin="192,0" offset="23">
+		<picture ref="{474B8BFD-rk001-1010-t-eki001-cg}" /> 
+	</sprite>
+	</contribution>
+	<contribution type="station" id="{474B8BFD-rk001-1010-t-eki006}">
+	<group>地上駅01</group> 
+	<price>2000000</price> 
+	<height>1</height> 
+	<operationCost>1000</operationCost> 
+	<size>1,2</size> 
+	<sprite origin="240,0" offset="15">
+		<picture ref="{474B8BFD-rk001-1010-t-eki001-cg}" /> 
+	</sprite>
+	</contribution>
+
+	<contribution type="station" id="{474B8BFD-rk001-1010-t-eki007}">
+	<group>地上駅01</group> 
+	<price>2000000</price> 
+	<height>1</height> 
+	<operationCost>10</operationCost> 
+	<size>2,1</size> 
+	<sprite origin="288,0" offset="23">
+		<picture ref="{474B8BFD-rk001-1010-t-eki001-cg}" /> 
+	</sprite>
+	</contribution>
+	<contribution type="station" id="{474B8BFD-rk001-1010-t-eki008}">
+	<group>地上駅01</group> 
+	<price>2000000</price> 
+	<height>1</height> 
+	<operationCost>1000</operationCost> 
+	<size>1,2</size> 
+	<sprite origin="336,0" offset="15">
+		<picture ref="{474B8BFD-rk001-1010-t-eki001-cg}" /> 
+	</sprite>
+	</contribution>
+
+
+
+	<contribution type="picture" id="{474B8BFD-rk001-1010-t-eki002-cg}">
+		<picture src="ti-eki002a.bmp" origin="0,0" offset="16" >
+			<override when="night" src="ti-eki002b.bmp" /> 
+  		</picture> 
+	</contribution>
+
+	<contribution type="station" id="{474B8BFD-rk001-1012-t-eki001}">
+	<group>地上駅02</group> 
+	<price>2000000</price> 
+	<height>1</height> 
+	<operationCost>1000</operationCost> 
+	<size>2,1</size> 
+		<sprite origin="0,0" offset="23">
+			<picture ref="{474B8BFD-rk001-1010-t-eki002-cg}" /> 
+		</sprite>
+	</contribution>
+	<contribution type="station" id="{474B8BFD-rk001-1012-t-eki002}">
+	<group>地上駅02</group> 
+	<price>2000000</price> 
+	<height>1</height> 
+	<operationCost>1000</operationCost> 
+	<size>1,2</size> 
+	<sprite origin="48,0" offset="15">
+		<picture ref="{474B8BFD-rk001-1010-t-eki002-cg}" /> 
+	</sprite>
+	</contribution>
+
+	<contribution type="station" id="{474B8BFD-rk001-1012-t-eki003}">
+	<group>地上駅02</group> 
+	<price>2000000</price> 
+	<height>1</height> 
+	<operationCost>10</operationCost> 
+	<size>2,1</size> 
+	<sprite origin="96,0" offset="23">
+		<picture ref="{474B8BFD-rk001-1010-t-eki002-cg}" /> 
+	</sprite>
+	</contribution>
+	<contribution type="station" id="{474B8BFD-rk001-1012-t-eki004}">
+	<group>地上駅02</group> 
+	<price>2000000</price> 
+	<height>1</height> 
+	<operationCost>1000</operationCost> 
+	<size>1,2</size> 
+	<sprite origin="144,0" offset="15">
+		<picture ref="{474B8BFD-rk001-1010-t-eki002-cg}" /> 
+	</sprite>
+	</contribution>
+
+	<contribution type="station" id="{474B8BFD-rk001-1012-t-eki005}">
+	<group>地上駅02</group> 
+	<price>2000000</price> 
+	<height>1</height> 
+	<operationCost>10</operationCost> 
+	<size>2,1</size> 
+	<sprite origin="192,0" offset="23">
+		<picture ref="{474B8BFD-rk001-1010-t-eki002-cg}" /> 
+	</sprite>
+	</contribution>
+	<contribution type="station" id="{474B8BFD-rk001-1012-t-eki006}">
+	<group>地上駅02</group> 
+	<price>2000000</price> 
+	<height>1</height> 
+	<operationCost>1000</operationCost> 
+	<size>1,2</size> 
+	<sprite origin="240,0" offset="15">
+		<picture ref="{474B8BFD-rk001-1010-t-eki002-cg}" /> 
+	</sprite>
+	</contribution>
+
+	<contribution type="station" id="{474B8BFD-rk001-1012-t-eki007}">
+	<group>地上駅02</group> 
+	<price>2000000</price> 
+	<height>1</height> 
+	<operationCost>10</operationCost> 
+	<size>2,1</size> 
+	<sprite origin="288,0" offset="23">
+		<picture ref="{474B8BFD-rk001-1010-t-eki002-cg}" /> 
+	</sprite>
+	</contribution>
+	<contribution type="station" id="{474B8BFD-rk001-1012-t-eki008}">
+	<group>地上駅02</group> 
+	<price>2000000</price> 
+	<height>1</height> 
+	<operationCost>1000</operationCost> 
+	<size>1,2</size> 
+	<sprite origin="336,0" offset="15">
+		<picture ref="{474B8BFD-rk001-1010-t-eki002-cg}" /> 
+	</sprite>
+	</contribution>
+
+
+	<contribution type="picture" id="{474B8BFD-rk001-1010-t-eki003-cg}">
+		<picture src="ti-eki003a.bmp" origin="0,0" offset="16" >
+			<override when="night" src="ti-eki003b.bmp" /> 
+  		</picture> 
+	</contribution>
+	<contribution type="station" id="{474B8BFD-rk001-1013-t-eki008}">
+	<group>地上駅03</group> 
+	<price>2000000</price> 
+	<height>1</height> 
+	<operationCost>10</operationCost> 
+	<size>1,1</size> 
+	<sprite origin="0,0" offset="15">
+		<picture ref="{474B8BFD-rk001-1010-t-eki003-cg}" /> 
+	</sprite>
+	</contribution>
+	<contribution type="station" id="{474B8BFD-rk001-1014-t-eki008}">
+	<group>地上駅03</group> 
+	<price>2000000</price> 
+	<height>1</height> 
+	<operationCost>10</operationCost> 
+	<size>1,1</size> 
+	<sprite origin="32,0" offset="15">
+		<picture ref="{474B8BFD-rk001-1010-t-eki003-cg}" /> 
+	</sprite>
+	</contribution>
+
+</plug-in>

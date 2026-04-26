@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>架線柱</title>
+	<author></author>
+	<homepage></homepage>
+	
+	<contribution type="electricPole" id="{rk-kasen-0001}">
+		<name>パイプ型01単線</name>
+		<sprite>
+			<picture src="k001.bmp"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="electricPole" id="{rk-kasen-0002}">
+		<name>パイプ型01中央</name>
+		<sprite>
+			<picture src="k002.bmp"/>
+		</sprite>
+	</contribution>	
+	<contribution type="electricPole" id="{rk-kasen-0003}">
+		<name>パイプ型01</name>
+		<sprite>
+			<picture src="k003.bmp"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="electricPole" id="{rk-kasen-0004}">
+		<name>パイプ型01</name>
+		<sprite>
+			<picture src="k004.bmp"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="electricPole" id="{rk-kasen-0005}">
+		<name>パイプ型単線02単線</name>
+		<sprite>
+			<picture src="k005.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{rk-kasen-0006}">
+		<name>パイプ型単線02中央</name>
+		<sprite>
+			<picture src="k006.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{rk-kasen-0007}">
+		<name>パイプ型単線02</name>
+		<sprite>
+			<picture src="k007.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{rk-kasen-0008}">
+		<name>パイプ型単線02</name>
+		<sprite>
+			<picture src="k008.bmp"/>
+		</sprite>
+	</contribution>
+
+
+
+	<contribution type="picture" id="{rk-kasen001-02a-FENCE-STRUCTURE-2001}">
+		<picture src="k009.bmp"/>
+	</contribution>
+	<contribution type="land" id="{rk-kasen-02a-001-FENCE-PICTURE-2001}">
+		<group>架線垂直パイプ</group>
+		<name>001</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{rk-kasen001-02a-FENCE-STRUCTURE-2001}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>1</price>
+	</contribution>
+	<contribution type="picture" id="{rk-kasen002-02a-FENCE-STRUCTURE-2001}">
+		<picture src="k010.bmp"/>
+	</contribution>
+	<contribution type="land" id="{rk-kasen-02a-002-FENCE-PICTURE-2001}">
+		<group>架線垂直パイプ</group>
+		<name>001</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{rk-kasen002-02a-FENCE-STRUCTURE-2001}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>1</price>
+	</contribution>
+
+	<contribution type="picture" id="{rk-kasen011-02a-FENCE-STRUCTURE-2001}">
+		<picture src="k011.bmp"/>
+	</contribution>
+	<contribution type="land" id="{rk-kasen-02a-011-FENCE-PICTURE-2001}">
+		<group>架線垂直パイプ</group>
+		<name>001</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{rk-kasen011-02a-FENCE-STRUCTURE-2001}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>1</price>
+	</contribution>
+	<contribution type="picture" id="{rk-kasen012-02a-FENCE-STRUCTURE-2001}">
+		<picture src="k012.bmp"/>
+	</contribution>
+	<contribution type="land" id="{rk-kasen-02a-012-FENCE-PICTURE-2001}">
+		<group>架線垂直パイプ</group>
+		<name>001</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{rk-kasen012-02a-FENCE-STRUCTURE-2001}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>1</price>
+	</contribution>
+
+	<contribution type="picture" id="{rk-kasen013-02a-FENCE-STRUCTURE-2001}">
+		<picture src="k013.bmp"/>
+	</contribution>
+	<contribution type="land" id="{rk-kasen-02a-013-FENCE-PICTURE-2001}">
+		<group>架線垂直パイプ</group>
+		<name>001</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{rk-kasen013-02a-FENCE-STRUCTURE-2001}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>1</price>
+	</contribution>
+	<contribution type="picture" id="{rk-kasen014-02a-FENCE-STRUCTURE-2001}">
+		<picture src="k014.bmp"/>
+	</contribution>
+	<contribution type="land" id="{rk-kasen-02a-0014-FENCE-PICTURE-2001}">
+		<group>架線垂直パイプ</group>
+		<name>001</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{rk-kasen014-02a-FENCE-STRUCTURE-2001}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>1</price>
+	</contribution>
+	<contribution type="picture" id="{rk-kasen015-02a-FENCE-STRUCTURE-2001}">
+		<picture src="k015.bmp"/>
+	</contribution>
+	<contribution type="land" id="{rk-kasen-02a-0015-FENCE-PICTURE-2001}">
+		<group>架線垂直パイプ</group>
+		<name>001</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{rk-kasen015-02a-FENCE-STRUCTURE-2001}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>1</price>
+	</contribution>
+
+
+</plug-in>

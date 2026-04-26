@@ -1,0 +1,3881 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>鉄道施設プラグイン　架線とバラスト</title>
+	<author>りおりお改造←花菱烈火＆TAKUROU</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+
+
+	<contribution type="picture" id="{riorio-hanabishirekka-stationary-electoricpole-0001}">
+			<picture src="kasen01.bmp">
+			<override when="autumn" src="kasen0102.bmp" />
+			<override when="winter" src="kasen0103.bmp" />
+			</picture>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-hanabishirekka-stationary-electoricpole-0002}">
+			<picture src="kasen02.bmp">
+			<override when="autumn" src="kasen0202.bmp" />
+			<override when="winter" src="kasen0203.bmp" />
+			</picture>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-hanabishirekka-stationary-electoricpole-0003}">
+			<picture src="kasen03.bmp">
+			<override when="autumn" src="kasen0302.bmp" />
+			<override when="winter" src="kasen0303.bmp" />
+			</picture>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-hanabishirekka-stationary-electoricpole-0004}">
+			<picture src="kasen04.bmp">
+			<override when="autumn" src="kasen0402.bmp" />
+			<override when="winter" src="kasen0403.bmp" />
+			</picture>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-hanabishirekka-stationary-electoricpole-0005}">
+			<picture src="kasen05.bmp">
+			<override when="autumn" src="kasen0502.bmp" />
+			<override when="winter" src="kasen0503.bmp" />
+			</picture>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-hanabishirekka-stationary-electoricpole-0006}">
+			<picture src="kasen06.bmp">
+			<override when="autumn" src="kasen0602.bmp" />
+			<override when="winter" src="kasen0603.bmp" />
+			</picture>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-hanabishirekka-stationary-electoricpole-0007}">
+			<picture src="kasen07.bmp">
+			<override when="autumn" src="kasen0702.bmp" />
+			<override when="winter" src="kasen0703.bmp" />
+			</picture>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-hanabishirekka-stationary-electoricpole-0008}">
+			<picture src="kasen08.bmp">
+			<override when="autumn" src="kasen0802.bmp" />
+			<override when="winter" src="kasen0803.bmp" />
+			</picture>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-hanabishirekka-stationary-electoricpole-0009}">
+			<picture src="kasen09.bmp">
+			<override when="autumn" src="kasen0902.bmp" />
+			<override when="winter" src="kasen0903.bmp" />
+			</picture>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-hanabishirekka-stationary-electoricpole-0010}">
+			<picture src="kasen10.bmp">
+			<override when="autumn" src="kasen1002.bmp" />
+			<override when="winter" src="kasen1003.bmp" />
+			</picture>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-hanabishirekka-stationary-electoricpole-0011}">
+			<picture src="kasen11.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-hanabishirekka-stationary-electoricpole-0012}">
+			<picture src="kasen12.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-hanabishirekka-stationary-electoricpole-0013}">
+			<picture src="kasen13.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-hanabishirekka-stationary-electoricpole-0014}">
+			<picture src="kasen14.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-hanabishirekka-stationary-electoricpole-0015}">
+			<picture src="kasen15.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-hanabishirekka-stationary-electoricpole-0016}">
+			<picture src="kasen16.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-hanabishirekka-stationary-electoricpole-0017}">
+			<picture src="kasen17.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-hanabishirekka-stationary-electoricpole-0018}">
+			<picture src="kasen18.bmp" />
+	</contribution>
+
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E66-4E604F3342C8}-aa">
+		<group>下線1</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0001}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E66-4E604F3342C8}-ab">
+		<group>下線1</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0001}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E66-4E604F3342C8}-ac">
+		<group>下線1</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0001}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E66-4E604F3342C8}-ad">
+		<group>下線1</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0001}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E66-4E604F3342C8}-ba">
+		<group>下線1</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0001}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E66-4E604F3342C8}-bb">
+		<group>下線1</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0001}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E66-4E604F3342C8}-bc">
+		<group>下線1</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0001}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E66-4E604F3342C8}-bd">
+		<group>下線1</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0001}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E66-4E604F3342C8}-ca">
+		<group>下線1</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0001}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E66-4E604F3342C8}-cb">
+		<group>下線1</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0001}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E66-4E604F3342C8}-cc">
+		<group>下線1</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0001}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E66-4E604F3342C8}-cd">
+		<group>下線1</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0001}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E67-4E604F3342C9}-aa">
+		<group>下線2</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0002}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E67-4E604F3342C9}-ab">
+		<group>下線2</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0002}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E67-4E604F3342C9}-ac">
+		<group>下線2</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0002}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E67-4E604F3342C9}-ad">
+		<group>下線2</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0002}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E67-4E604F3342C9}-ba">
+		<group>下線2</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0002}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E67-4E604F3342C9}-bb">
+		<group>下線2</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0002}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E67-4E604F3342C9}-bc">
+		<group>下線2</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0002}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E67-4E604F3342C9}-bd">
+		<group>下線2</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0002}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E67-4E604F3342C9}-ca">
+		<group>下線2</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0002}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E67-4E604F3342C9}-cb">
+		<group>下線2</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0002}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E67-4E604F3342C9}-cc">
+		<group>下線2</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0002}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E67-4E604F3342C9}-cd">
+		<group>下線2</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0002}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E70-5E604F3342CB}-aa">
+		<group>下線3</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0005}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E70-5E604F3342CB}-ab">
+		<group>下線3</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0005}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E70-5E604F3342CB}-ac">
+		<group>下線3</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0005}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E70-5E604F3342CB}-ad">
+		<group>下線3</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0005}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E70-5E604F3342CB}-ba">
+		<group>下線3</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0005}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E70-5E604F3342CB}-bb">
+		<group>下線3</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0005}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E70-5E604F3342CB}-bc">
+		<group>下線3</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0005}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E70-5E604F3342CB}-bd">
+		<group>下線3</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0005}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E70-5E604F3342CB}-ca">
+		<group>下線3</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0005}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E70-5E604F3342CB}-cb">
+		<group>下線3</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0005}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E70-5E604F3342CB}-cc">
+		<group>下線3</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0005}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E70-5E604F3342CB}-cd">
+		<group>下線3</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0005}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E71-6E604F3342CB}-aa">
+		<group>下線4</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0006}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E71-6E604F3342CB}-ab">
+		<group>下線4</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0006}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E71-6E604F3342CB}-ac">
+		<group>下線4</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0006}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E71-6E604F3342CB}-ad">
+		<group>下線4</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0006}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E71-6E604F3342CB}-ba">
+		<group>下線4</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0006}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E71-6E604F3342CB}-bb">
+		<group>下線4</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0006}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E71-6E604F3342CB}-bc">
+		<group>下線4</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0006}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E71-6E604F3342CB}-bd">
+		<group>下線4</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0006}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E71-6E604F3342CB}-ca">
+		<group>下線4</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0006}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E71-6E604F3342CB}-cb">
+		<group>下線4</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0006}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E71-6E604F3342CB}-cc">
+		<group>下線4</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0006}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E71-6E604F3342CB}-cd">
+		<group>下線4</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0006}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E72-7E604F3342CB}-aa">
+		<group>下線5</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0007}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E72-7E604F3342CB}-ab">
+		<group>下線5</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0007}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E72-7E604F3342CB}-ac">
+		<group>下線5</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0007}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E72-7E604F3342CB}-ad">
+		<group>下線5</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0007}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E72-7E604F3342CB}-ba">
+		<group>下線5</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0007}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E72-7E604F3342CB}-bb">
+		<group>下線5</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0007}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E72-7E604F3342CB}-bc">
+		<group>下線5</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0007}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E72-7E604F3342CB}-bd">
+		<group>下線5</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0007}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E72-7E604F3342CB}-ca">
+		<group>下線5</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0007}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E72-7E604F3342CB}-cb">
+		<group>下線5</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0007}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E72-7E604F3342CB}-cc">
+		<group>下線5</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0007}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E72-7E604F3342CB}-cd">
+		<group>下線5</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0007}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E70-4E604F3342CB}-aa">
+		<group>下線6</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0008}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E70-4E604F3342CB}-ab">
+		<group>下線6</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0008}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E70-4E604F3342CB}-ac">
+		<group>下線6</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0008}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E70-4E604F3342CB}-ad">
+		<group>下線6</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0008}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E70-4E604F3342CB}-ba">
+		<group>下線6</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0008}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E70-4E604F3342CB}-bb">
+		<group>下線6</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0008}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E70-4E604F3342CB}-bc">
+		<group>下線6</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0008}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E70-4E604F3342CB}-bd">
+		<group>下線6</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0008}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E70-4E604F3342CB}-ca">
+		<group>下線6</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0008}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E70-4E604F3342CB}-cb">
+		<group>下線6</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0008}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E70-4E604F3342CB}-cc">
+		<group>下線6</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0008}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E70-4E604F3342CB}-cd">
+		<group>下線6</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0008}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E68-4E604F3342CA}-aa">
+		<group>下線無し1</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0003}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E68-4E604F3342CA}-ab">
+		<group>下線無し1</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0003}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E68-4E604F3342CA}-ac">
+		<group>下線無し1</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0003}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E68-4E604F3342CA}-ad">
+		<group>下線無し1</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0003}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E68-4E604F3342CA}-ba">
+		<group>下線無し1</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0003}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E68-4E604F3342CA}-bb">
+		<group>下線無し1</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0003}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E68-4E604F3342CA}-bc">
+		<group>下線無し1</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0003}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E68-4E604F3342CA}-bd">
+		<group>下線無し1</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0003}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E80-8E604F3342CB}-aa">
+		<group>下線無し2</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0004}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E80-8E604F3342CB}-ab">
+		<group>下線無し2</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0004}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E80-8E604F3342CB}-ac">
+		<group>下線無し2</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0004}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E80-8E604F3342CB}-ad">
+		<group>下線無し2</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0004}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E80-8E604F3342CB}-ba">
+		<group>下線無し2</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0004}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E80-8E604F3342CB}-bb">
+		<group>下線無し2</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0004}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E80-8E604F3342CB}-bc">
+		<group>下線無し2</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0004}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E80-8E604F3342CB}-bd">
+		<group>下線無し2</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0004}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E82-7E604F3342CA}-aa">
+		<group>下線無し3</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0009}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E82-7E604F3342CA}-ab">
+		<group>下線無し3</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0009}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E82-7E604F3342CA}-ac">
+		<group>下線無し3</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0009}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E82-7E604F3342CA}-ad">
+		<group>下線無し3</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0009}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E82-7E604F3342CA}-ba">
+		<group>下線無し3</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0009}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E82-7E604F3342CA}-bb">
+		<group>下線無し3</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0009}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E82-7E604F3342CA}-bc">
+		<group>下線無し3</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0009}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E82-7E604F3342CA}-bd">
+		<group>下線無し3</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0009}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E85-5E604F3342CB}-aa">
+		<group>下線無し4</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0010}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E85-5E604F3342CB}-ab">
+		<group>下線無し4</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0010}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E85-5E604F3342CB}-ac">
+		<group>下線無し4</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0010}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E85-5E604F3342CB}-ad">
+		<group>下線無し4</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0010}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E85-5E604F3342CB}-ba">
+		<group>下線無し4</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0010}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E85-5E604F3342CB}-bb">
+		<group>下線無し4</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0010}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E85-5E604F3342CB}-bc">
+		<group>下線無し4</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0010}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-9E85-5E604F3342CB}-bd">
+		<group>下線無し4</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0010}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-AF1D-D85AD6207312}-ab">
+		<group>下線無し5</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0011}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-AF1D-D85AD6207312}-ac">
+		<group>下線無し5</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0011}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-AF1D-D85AD6207312}-ad">
+		<group>下線無し5</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0011}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-AF1D-D85AD6207312}-ba">
+		<group>下線無し5</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0011}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-AF1D-D85AD6207312}-bc">
+		<group>下線無し5</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0011}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-AF1D-D85AD6207312}-bd">
+		<group>下線無し5</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0011}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-AF1D-D85AD6207312}-ca">
+		<group>下線無し5</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0011}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-AF1D-D85AD6207312}-cb">
+		<group>下線無し5</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0011}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-AF1D-D85AD6207312}-cd">
+		<group>下線無し5</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0011}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-AF1D-D85AD6207312}-da">
+		<group>下線無し5</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,192" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0011}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-AF1D-D85AD6207312}-db">
+		<group>下線無し5</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,192" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0011}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-AF1D-D85AD6207312}-dc">
+		<group>下線無し5</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,192" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0011}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B7A5-169A8F6FE536}-ab">
+		<group>下線無し6</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0012}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B7A5-169A8F6FE536}-ac">
+		<group>下線無し6</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0012}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B7A5-169A8F6FE536}-ad">
+		<group>下線無し6</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0012}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B7A5-169A8F6FE536}-ba">
+		<group>下線無し6</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0012}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B7A5-169A8F6FE536}-bc">
+		<group>下線無し6</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0012}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B7A5-169A8F6FE536}-bd">
+		<group>下線無し6</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0012}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B7A5-169A8F6FE536}-ca">
+		<group>下線無し6</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0012}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B7A5-169A8F6FE536}-cb">
+		<group>下線無し6</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0012}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B7A5-169A8F6FE536}-cd">
+		<group>下線無し6</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0012}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B7A5-169A8F6FE536}-da">
+		<group>下線無し6</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,192" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0012}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B7A5-169A8F6FE536}-db">
+		<group>下線無し6</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,192" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0012}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B7A5-169A8F6FE536}-dc">
+		<group>下線無し6</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,192" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0012}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8F63-17359EF8A418}-a">
+		<group>下線7</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0013}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8F63-17359EF8A418}-b">
+		<group>下線7</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0013}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8F63-17359EF8A418}-c">
+		<group>下線7</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0013}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8F63-17359EF8A418}-d">
+		<group>下線7</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0013}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-AC6E-D8768DAA515E}-a">
+		<group>下線7</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0014}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-AC6E-D8768DAA515E}-b">
+		<group>下線7</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0014}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-AC6E-D8768DAA515E}-c">
+		<group>下線7</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0014}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-AC6E-D8768DAA515E}-d">
+		<group>下線7</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0014}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-1ab">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-1ac">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-1ad">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-1ba">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-1bc">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-1bd">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-1ca">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-1cb">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-1cd">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-1da">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,192" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-1db">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,192" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-1dc">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,192" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-2ab">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,256" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-2ac">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,256" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-2ad">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,256" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-2ba">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,320" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-2bc">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,320" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-2bd">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,320" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-2ca">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,384" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-2cb">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,384" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-2cd">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,384" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-2da">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,448" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-2db">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,448" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-2dc">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,448" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-3ab">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,512" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-3ac">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,512" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-3ad">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,512" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-3ba">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,576" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-3bc">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,576" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-3bd">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,576" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-3ca">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,640" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-3cb">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,640" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-3cd">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,640" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-3da">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,704" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-3db">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,704" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-403A837F-087EF7436175}-3dc">
+		<group>下線8</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,704" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0015}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-1ab">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-1ac">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-1ad">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-1ba">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-1bc">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-1bd">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-1ca">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-1cb">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-1cd">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-1da">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,192" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-1db">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,192" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-1dc">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,192" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-2ab">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,256" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-2ac">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,256" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-2ad">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,256" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-2ba">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,320" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-2bc">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,320" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-2bd">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,320" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-2ca">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,384" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-2cb">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,384" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-2cd">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,384" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-2da">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,448" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-2db">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,448" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-2dc">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,448" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-3ab">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,512" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-3ac">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,512" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-3ad">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,512" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-3ba">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,576" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-3bc">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,576" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-3bd">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,576" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-3ca">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,640" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-3cb">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,640" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-3cd">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,640" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-3da">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,704" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-3db">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,704" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-8A1D-3997EDE90C3D}-3dc">
+		<group>下線9</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,704" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0016}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B77B-25B3C3939801}-1ab">
+		<group>下線10</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0017}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B77B-25B3C3939801}-1ac">
+		<group>下線10</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0017}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B77B-25B3C3939801}-1ad">
+		<group>下線10</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0017}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B77B-25B3C3939801}-1ba">
+		<group>下線10</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0017}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B77B-25B3C3939801}-1bc">
+		<group>下線10</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0017}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B77B-25B3C3939801}-1bd">
+		<group>下線10</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0017}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B77B-25B3C3939801}-1ca">
+		<group>下線10</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0017}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B77B-25B3C3939801}-1cb">
+		<group>下線10</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0017}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B77B-25B3C3939801}-1cd">
+		<group>下線10</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0017}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B77B-25B3C3939801}-1da">
+		<group>下線10</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,192" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0017}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B77B-25B3C3939801}-1db">
+		<group>下線10</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,192" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0017}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B77B-25B3C3939801}-1dc">
+		<group>下線10</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,192" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0017}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B77B-25B3C3939801}-2ab">
+		<group>下線10</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,256" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0017}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B77B-25B3C3939801}-2ac">
+		<group>下線10</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,256" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0017}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B77B-25B3C3939801}-2ad">
+		<group>下線10</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,256" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0017}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B77B-25B3C3939801}-2ba">
+		<group>下線10</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,320" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0017}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B77B-25B3C3939801}-2bc">
+		<group>下線10</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,320" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0017}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B77B-25B3C3939801}-2bd">
+		<group>下線10</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,320" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0017}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B77B-25B3C3939801}-2ca">
+		<group>下線10</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,384" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0017}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B77B-25B3C3939801}-2cb">
+		<group>下線10</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,384" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0017}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B77B-25B3C3939801}-2cd">
+		<group>下線10</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,384" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0017}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B77B-25B3C3939801}-2da">
+		<group>下線10</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,448" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0017}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B77B-25B3C3939801}-2db">
+		<group>下線10</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,448" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0017}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-B77B-25B3C3939801}-2dc">
+		<group>下線10</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,448" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0017}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-1ab">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-1ac">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-1ad">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,0" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-1ba">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-1bc">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-1bd">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,64" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-1ca">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-1cb">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-1cd">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,128" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-1da">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,192" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-1db">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,192" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-1dc">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,192" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-2ab">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,256" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-2ac">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,256" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-2ad">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,256" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-2ba">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,320" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-2bc">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,320" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-2bd">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,320" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-2ca">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,384" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-2cb">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,384" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-2cd">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,384" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-2da">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,448" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-2db">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,448" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-2dc">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,448" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-3ab">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,512" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-3ac">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,512" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-3ad">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,512" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-3ba">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,576" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-3bc">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,576" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-3bd">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,576" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-3ca">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,640" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-3cb">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,640" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-3cd">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="96,640" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-3da">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="0,704" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-3db">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="32,704" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+	<contribution type="railStationary" id="{riorio-hanabishirekka-BBCA-6ADDC976BA58}-3dc">
+		<group>下線11</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<sprite origin="64,704" offset="21">
+			<picture ref="{riorio-hanabishirekka-stationary-electoricpole-0018}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+	</contribution>
+
+
+</plug-in>

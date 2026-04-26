@@ -1,0 +1,1298 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>柵(広告看板)</title>
+	<author>花菱烈火</author>
+	<homepage></homepage>
+
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1001}">
+		<picture src="kan001.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1002}">
+		<picture src="kan002.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1003}">
+		<picture src="kan003.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1004}">
+		<picture src="kan004.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1101}">
+		<picture src="kan101.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1102}">
+		<picture src="kan102.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1103}">
+		<picture src="kan103.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1104}">
+		<picture src="kan104.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1201}">
+		<picture src="kan105.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1202}">
+		<picture src="kan106.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1203}">
+		<picture src="kan107.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1204}">
+		<picture src="kan108.bmp"/>
+	</contribution>
+
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1005}">
+		<picture src="kan011.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1006}">
+		<picture src="kan012.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1007}">
+		<picture src="kan013.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1008}">
+		<picture src="kan014.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1105}">
+		<picture src="kan111.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1106}">
+		<picture src="kan112.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1107}">
+		<picture src="kan113.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1108}">
+		<picture src="kan114.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1205}">
+		<picture src="kan115.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1206}">
+		<picture src="kan116.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1207}">
+		<picture src="kan117.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1208}">
+		<picture src="kan118.bmp"/>
+	</contribution>
+
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1009}">
+		<picture src="kan021.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1010}">
+		<picture src="kan022.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1011}">
+		<picture src="kan023.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1012}">
+		<picture src="kan024.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-pc01-1001}">
+		<picture src="kan121.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-pc01-1002}">
+		<picture src="kan122.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-pc01-1003}">
+		<picture src="kan123.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-pc01-1004}">
+		<picture src="kan124.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-pc01-1005}">
+		<picture src="kan125.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-pc01-1006}">
+		<picture src="kan126.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-pc01-1007}">
+		<picture src="kan127.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-pc01-1008}">
+		<picture src="kan128.bmp"/>
+	</contribution>
+
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1013}">
+		<picture src="kan031.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1014}">
+		<picture src="kan032.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1015}">
+		<picture src="kan033.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1016}">
+		<picture src="kan034.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-pc02-1001}">
+		<picture src="kan131.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-pc02-1002}">
+		<picture src="kan132.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-pc02-1003}">
+		<picture src="kan133.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-pc02-1004}">
+		<picture src="kan134.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-pc02-1005}">
+		<picture src="kan135.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-pc02-1006}">
+		<picture src="kan136.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-pc02-1007}">
+		<picture src="kan137.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-pc02-1008}">
+		<picture src="kan138.bmp"/>
+	</contribution>
+
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1017}">
+		<picture src="kan041.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1018}">
+		<picture src="kan042.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1019}">
+		<picture src="kan043.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1020}">
+		<picture src="kan044.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-si01-1001}">
+		<picture src="kan141.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-si01-1002}">
+		<picture src="kan142.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-si01-1003}">
+		<picture src="kan143.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-si01-1004}">
+		<picture src="kan144.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-si01-1005}">
+		<picture src="kan145.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-si01-1006}">
+		<picture src="kan146.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-si01-1007}">
+		<picture src="kan147.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-si01-1008}">
+		<picture src="kan148.bmp"/>
+	</contribution>
+
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1021}">
+		<picture src="kan051.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1022}">
+		<picture src="kan052.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1023}">
+		<picture src="kan053.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-1024}">
+		<picture src="kan054.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-kn01-1001}">
+		<picture src="kan151.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-kn01-1002}">
+		<picture src="kan152.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-kn01-1003}">
+		<picture src="kan153.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-kn01-1004}">
+		<picture src="kan154.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-kn01-1005}">
+		<picture src="kan155.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-kn01-1006}">
+		<picture src="kan156.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-kn01-1007}">
+		<picture src="kan157.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-kn01-1008}">
+		<picture src="kan158.bmp"/>
+	</contribution>
+
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-ur01-1001}">
+		<picture src="kan200.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-ken0001-kannban-cg-ur01-1002}">
+		<picture src="kan201.bmp"/>
+	</contribution>
+
+
+	<contribution type="land" id="{rk-ken0001-kannban-1001}">
+		<group>柵(広告・木製)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1001}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-1002}">
+		<group>柵(広告・木製)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1002}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-1003}">
+		<group>柵(広告・木製)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-1004}">
+		<group>柵(広告・木製)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1004}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+
+	<contribution type="land" id="{rk-ken0001-kannban-1101}">
+		<group>柵(広告・木製)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1101}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-1102}">
+		<group>柵(広告・木製)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1102}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-1103}">
+		<group>柵(広告・木製)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1103}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-1104}">
+		<group>柵(広告・木製)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1104}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+
+	<contribution type="land" id="{rk-ken0001-kannban-1201}">
+		<group>柵(広告・木製)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1201}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-1202}">
+		<group>柵(広告・木製)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1202}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-1203}">
+		<group>柵(広告・木製)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1203}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-1204}">
+		<group>柵(広告・木製)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1204}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+
+
+
+	<contribution type="land" id="{rk-ken0001-kannban-1011}">
+		<group>柵(広告・金網)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1005}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-1012}">
+		<group>柵(広告・金網)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1006}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-1013}">
+		<group>柵(広告・金網)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1007}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-1014}">
+		<group>柵(広告・金網)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1008}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+
+	<contribution type="land" id="{rk-ken0001-kannban-1111}">
+		<group>柵(広告・金網)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1105}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-1112}">
+		<group>柵(広告・金網)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1106}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-1113}">
+		<group>柵(広告・金網)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1107}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-1114}">
+		<group>柵(広告・金網)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1108}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+
+	<contribution type="land" id="{rk-ken0001-kannban-1211}">
+		<group>柵(広告・金網)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1205}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-1212}">
+		<group>柵(広告・金網)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1206}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-1213}">
+		<group>柵(広告・金網)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1207}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-1214}">
+		<group>柵(広告・金網)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1208}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+
+
+	<contribution type="land" id="{rk-ken0001-kannban-1021}">
+		<group>柵(広告・ＰＣ)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1009}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-1022}">
+		<group>柵(広告・ＰＣ)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1010}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-1023}">
+		<group>柵(広告・ＰＣ)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1011}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-1024}">
+		<group>柵(広告・ＰＣ)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1012}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+
+	<contribution type="land" id="{rk-ken0001-kannban-pc01-1001}">
+		<group>柵(広告・ＰＣ)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-pc01-1001}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-pc01-1002}">
+		<group>柵(広告・ＰＣ)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-pc01-1002}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-pc01-1003}">
+		<group>柵(広告・ＰＣ)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-pc01-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-pc01-1004}">
+		<group>柵(広告・ＰＣ)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-pc01-1004}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+
+	<contribution type="land" id="{rk-ken0001-kannban-pc01-1005}">
+		<group>柵(広告・ＰＣ)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-pc01-1005}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-pc01-1006}">
+		<group>柵(広告・ＰＣ)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-pc01-1006}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-pc01-1007}">
+		<group>柵(広告・ＰＣ)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-pc01-1007}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-pc01-1008}">
+		<group>柵(広告・ＰＣ)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-pc01-1008}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+
+
+	<contribution type="land" id="{rk-ken0001-kannban-1031}">
+		<group>柵(広告・ＰＣ)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1013}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-1032}">
+		<group>柵(広告・ＰＣ)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1014}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-1033}">
+		<group>柵(広告・ＰＣ)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1015}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-1034}">
+		<group>柵(広告・ＰＣ)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1016}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-pc02-1001}">
+		<group>柵(広告・ＰＣ)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-pc02-1001}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-pc02-1002}">
+		<group>柵(広告・ＰＣ)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-pc02-1002}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-pc02-1003}">
+		<group>柵(広告・ＰＣ)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-pc02-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-pc02-1004}">
+		<group>柵(広告・ＰＣ)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-pc02-1004}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-pc02-1005}">
+		<group>柵(広告・ＰＣ)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-pc02-1005}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-pc02-1006}">
+		<group>柵(広告・ＰＣ)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-pc02-1006}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-pc02-1007}">
+		<group>柵(広告・ＰＣ)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-pc02-1007}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-pc02-1008}">
+		<group>柵(広告・ＰＣ)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-pc02-1008}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+
+
+	<contribution type="land" id="{rk-ken0001-kannban-1041}">
+		<group>柵(広告・芝生)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1017}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-1042}">
+		<group>柵(広告・芝生)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1018}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-1043}">
+		<group>柵(広告・芝生)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1019}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-1044}">
+		<group>柵(広告・芝生)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1020}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+
+	<contribution type="land" id="{rk-ken0001-kannban-si01-1001}">
+		<group>柵(広告・芝生)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-si01-1001}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-si01-1002}">
+		<group>柵(広告・芝生)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-si01-1002}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-si01-1003}">
+		<group>柵(広告・芝生)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-si01-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>100000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-si01-1004}">
+		<group>柵(広告・芝生)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-si01-1004}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+
+	<contribution type="land" id="{rk-ken0001-kannban-si01-1005}">
+		<group>柵(広告・芝生)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-si01-1005}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-si01-1006}">
+		<group>柵(広告・芝生)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-si01-1006}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-si01-1007}">
+		<group>柵(広告・芝生)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-si01-1007}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-si01-1008}">
+		<group>柵(広告・芝生)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-si01-1008}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+
+	<contribution type="land" id="{rk-ken0001-kannban-1051}">
+		<group>柵(広告)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1021}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-1052}">
+		<group>柵(広告)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1022}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-1053}">
+		<group>柵(広告)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1023}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-1054}">
+		<group>柵(広告)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-1024}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+
+	<contribution type="land" id="{rk-ken0001-kannban-kn01-1001}">
+		<group>柵(広告)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-kn01-1001}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-kn01-1002}">
+		<group>柵(広告)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-kn01-1002}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-kn01-1003}">
+		<group>柵(広告)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-kn01-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-kn01-1004}">
+		<group>柵(広告)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-kn01-1004}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+
+	<contribution type="land" id="{rk-ken0001-kannban-kn01-1005}">
+		<group>柵(広告)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-kn01-1005}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-kn01-1006}">
+		<group>柵(広告)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-kn01-1006}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-kn01-1007}">
+		<group>柵(広告)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-kn01-1007}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-ken0001-kannban-kn01-1008}">
+		<group>柵(広告)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-kn01-1008}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+
+
+
+	<contribution type="land" id="{rk-ken0001-kannban-ur01-1001}">
+		<group>柵(広告・裏)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-ur01-1001}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+
+	<contribution type="land" id="{rk-ken0001-kannban-ur01-1002}">
+		<group>柵(広告・裏)</group>
+		<name>広告看板</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Debug/Fence.DLL"/>
+		<picture ref="{rk-ken0001-kannban-cg-ur01-1002}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+
+</plug-in>

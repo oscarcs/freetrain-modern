@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+
+<!-- E233系京葉線分割編成 -->
+  <contribution type="train" id="{CyberExpress1703d-E233-Keiyo}-2">
+    <company>JR東日本</company>
+    <type>E233系</type>
+    <name>京葉線(分割編成)</name>
+    <author>いっちー</author>
+    <description>※8・10・12両編成のみ。東金線運用に就くため、201系と同様4+6両の分割編成があります。</description>
+    <fare>400</fare>
+    <price>28000000</price>
+	<amenity>100</amenity>
+    <speed>medium</speed>
+    <class name="freetrain.contributions.train.PatternTrainImpl" />
+    <config>
+      <car char="A" ref="{CyberExpress1703d-E233-Keiyo}-h" />
+      <car char="B" ref="{CyberExpress1703d-E233-Keiyo}-m" />
+      <car char="C" ref="{CyberExpress1703d-E233-Keiyo}-t" />
+      <composition>ABCAC</composition>
+      <composition>ABBCABBC</composition>
+      <composition>ABBCABBBBC</composition>
+      <composition>ABBBBCABBBBC</composition>
+    </config>
+  </contribution>

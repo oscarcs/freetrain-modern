@@ -1,0 +1,2303 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+
+<plug-in>
+	<title>勾配線路グラフィック2</title>
+	<author>りおりお</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+
+
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A1-KobaiRailGraphic-picture-1003}">
+		<picture src="005.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A2-KobaiRailGraphic-picture-1003}">
+		<picture src="006.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A3-KobaiRailGraphic-picture-1003}">
+		<picture src="007.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A4-KobaiRailGraphic-picture-1003}">
+		<picture src="008.bmp"/>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A5-KobaiRailGraphic-picture-1003}">
+		<picture src="001.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A6-KobaiRailGraphic-picture-1003}">
+		<picture src="002.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A7-KobaiRailGraphic-picture-1003}">
+		<picture src="003.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A8-KobaiRailGraphic-picture-1003}">
+		<picture src="004.bmp"/>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A9-KobaiRailGraphic-picture-1003}">
+		<picture src="009.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A10-KobaiRailGraphic-picture-1003}">
+		<picture src="010.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A11-KobaiRailGraphic-picture-1003}">
+		<picture src="011.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A12-KobaiRailGraphic-picture-1003}">
+		<picture src="012.bmp"/>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A13-KobaiRailGraphic-picture-1003}">
+		<picture src="013.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A14-KobaiRailGraphic-picture-1003}">
+		<picture src="014.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A15-KobaiRailGraphic-picture-1003}">
+		<picture src="015.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A16-KobaiRailGraphic-picture-1003}">
+		<picture src="016.bmp"/>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A17-KobaiRailGraphic-picture-1003}">
+		<picture src="017.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A18-KobaiRailGraphic-picture-1003}">
+		<picture src="018.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A19-KobaiRailGraphic-picture-1003}">
+		<picture src="019.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A20-KobaiRailGraphic-picture-1003}">
+		<picture src="020.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A21-KobaiRailGraphic-picture-1003}">
+		<picture src="021.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A22-KobaiRailGraphic-picture-1003}">
+		<picture src="022.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A23-KobaiRailGraphic-picture-1003}">
+		<picture src="023.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A24-KobaiRailGraphic-picture-1003}">
+		<picture src="024.bmp"/>
+	</contribution>
+
+
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A101-KobaiRailGraphic-picture-1003}">
+		<picture src="101.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A102-KobaiRailGraphic-picture-1003}">
+		<picture src="102.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A103-KobaiRailGraphic-picture-1003}">
+		<picture src="103.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A104-KobaiRailGraphic-picture-1003}">
+		<picture src="104.bmp"/>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A109-KobaiRailGraphic-picture-1003}">
+		<picture src="109.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A110-KobaiRailGraphic-picture-1003}">
+		<picture src="110.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A111-KobaiRailGraphic-picture-1003}">
+		<picture src="111.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A112-KobaiRailGraphic-picture-1003}">
+		<picture src="112.bmp"/>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A113-KobaiRailGraphic-picture-1003}">
+		<picture src="113.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A114-KobaiRailGraphic-picture-1003}">
+		<picture src="114.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A115-KobaiRailGraphic-picture-1003}">
+		<picture src="115.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A116-KobaiRailGraphic-picture-1003}">
+		<picture src="116.bmp"/>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A117-KobaiRailGraphic-picture-1003}">
+		<picture src="117.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A118-KobaiRailGraphic-picture-1003}">
+		<picture src="118.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A119-KobaiRailGraphic-picture-1003}">
+		<picture src="119.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A120-KobaiRailGraphic-picture-1003}">
+		<picture src="120.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A121-KobaiRailGraphic-picture-1003}">
+		<picture src="121.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A122-KobaiRailGraphic-picture-1003}">
+		<picture src="122.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A123-KobaiRailGraphic-picture-1003}">
+		<picture src="123.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A124-KobaiRailGraphic-picture-1003}">
+		<picture src="124.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A125-KobaiRailGraphic-picture-1003}">
+		<picture src="125.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A126-KobaiRailGraphic-picture-1003}">
+		<picture src="126.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A127-KobaiRailGraphic-picture-1003}">
+		<picture src="127.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A128-KobaiRailGraphic-picture-1003}">
+		<picture src="128.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A129-KobaiRailGraphic-picture-1003}">
+		<picture src="129.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A130-KobaiRailGraphic-picture-1003}">
+		<picture src="130.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A131-KobaiRailGraphic-picture-1003}">
+		<picture src="131.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A132-KobaiRailGraphic-picture-1003}">
+		<picture src="132.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A133-KobaiRailGraphic-picture-1003}">
+		<picture src="133.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A134-KobaiRailGraphic-picture-1003}">
+		<picture src="134.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A135-KobaiRailGraphic-picture-1003}">
+		<picture src="135.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A136-KobaiRailGraphic-picture-1003}">
+		<picture src="136.bmp"/>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A201-KobaiRailGraphic-picture-1003}">
+		<picture src="201.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A202-KobaiRailGraphic-picture-1003}">
+		<picture src="202.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A203-KobaiRailGraphic-picture-1003}">
+		<picture src="203.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A204-KobaiRailGraphic-picture-1003}">
+		<picture src="204.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A205-KobaiRailGraphic-picture-1003}">
+		<picture src="205.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A206-KobaiRailGraphic-picture-1003}">
+		<picture src="206.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A207-KobaiRailGraphic-picture-1003}">
+		<picture src="207.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A208-KobaiRailGraphic-picture-1003}">
+		<picture src="208.bmp"/>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A209-KobaiRailGraphic-picture-1003}">
+		<picture src="209.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A210-KobaiRailGraphic-picture-1003}">
+		<picture src="210.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A211-KobaiRailGraphic-picture-1003}">
+		<picture src="211.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A212-KobaiRailGraphic-picture-1003}">
+		<picture src="212.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A213-KobaiRailGraphic-picture-1003}">
+		<picture src="213.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A214-KobaiRailGraphic-picture-1003}">
+		<picture src="214.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A215-KobaiRailGraphic-picture-1003}">
+		<picture src="215.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A216-KobaiRailGraphic-picture-1003}">
+		<picture src="216.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A217-KobaiRailGraphic-picture-1003}">
+		<picture src="217.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A218-KobaiRailGraphic-picture-1003}">
+		<picture src="218.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A219-KobaiRailGraphic-picture-1003}">
+		<picture src="219.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A220-KobaiRailGraphic-picture-1003}">
+		<picture src="220.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A221-KobaiRailGraphic-picture-1003}">
+		<picture src="221.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A222-KobaiRailGraphic-picture-1003}">
+		<picture src="222.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A223-KobaiRailGraphic-picture-1003}">
+		<picture src="223.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A224-KobaiRailGraphic-picture-1003}">
+		<picture src="224.bmp"/>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A225-KobaiRailGraphic-picture-1003}">
+		<picture src="225.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A226-KobaiRailGraphic-picture-1003}">
+		<picture src="226.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A227-KobaiRailGraphic-picture-1003}">
+		<picture src="227.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A228-KobaiRailGraphic-picture-1003}">
+		<picture src="228.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A229-KobaiRailGraphic-picture-1003}">
+		<picture src="229.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A230-KobaiRailGraphic-picture-1003}">
+		<picture src="230.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A231-KobaiRailGraphic-picture-1003}">
+		<picture src="231.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A232-KobaiRailGraphic-picture-1003}">
+		<picture src="232.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A233-KobaiRailGraphic-picture-1003}">
+		<picture src="233.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A234-KobaiRailGraphic-picture-1003}">
+		<picture src="234.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A235-KobaiRailGraphic-picture-1003}">
+		<picture src="235.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A236-KobaiRailGraphic-picture-1003}">
+		<picture src="236.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A237-KobaiRailGraphic-picture-1003}">
+		<picture src="237.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A238-KobaiRailGraphic-picture-1003}">
+		<picture src="238.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A239-KobaiRailGraphic-picture-1003}">
+		<picture src="239.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A240-KobaiRailGraphic-picture-1003}">
+		<picture src="240.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A241-KobaiRailGraphic-picture-1003}">
+		<picture src="241.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A242-KobaiRailGraphic-picture-1003}">
+		<picture src="242.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A243-KobaiRailGraphic-picture-1003}">
+		<picture src="243.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A244-KobaiRailGraphic-picture-1003}">
+		<picture src="244.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A245-KobaiRailGraphic-picture-1003}">
+		<picture src="245.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A246-KobaiRailGraphic-picture-1003}">
+		<picture src="246.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A247-KobaiRailGraphic-picture-1003}">
+		<picture src="247.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A248-KobaiRailGraphic-picture-1003}">
+		<picture src="248.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A249-KobaiRailGraphic-picture-1003}">
+		<picture src="249.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A250-KobaiRailGraphic-picture-1003}">
+		<picture src="250.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A251-KobaiRailGraphic-picture-1003}">
+		<picture src="251.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A252-KobaiRailGraphic-picture-1003}">
+		<picture src="252.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A253-KobaiRailGraphic-picture-1003}">
+		<picture src="253.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A254-KobaiRailGraphic-picture-1003}">
+		<picture src="254.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A255-KobaiRailGraphic-picture-1003}">
+		<picture src="255.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A256-KobaiRailGraphic-picture-1003}">
+		<picture src="256.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A257-KobaiRailGraphic-picture-1003}">
+		<picture src="257.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A258-KobaiRailGraphic-picture-1003}">
+		<picture src="258.bmp"/>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A300-KobaiRailGraphic-picture-1003}">
+		<picture src="300.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A301-KobaiRailGraphic-picture-1003}">
+		<picture src="301.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A302-KobaiRailGraphic-picture-1003}">
+		<picture src="302.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A303-KobaiRailGraphic-picture-1003}">
+		<picture src="303.bmp"/>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A304-KobaiRailGraphic-picture-1003}">
+		<picture src="304.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A305-KobaiRailGraphic-picture-1003}">
+		<picture src="305.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A306-KobaiRailGraphic-picture-1003}">
+		<picture src="306.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A307-KobaiRailGraphic-picture-1003}">
+		<picture src="307.bmp"/>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A308-KobaiRailGraphic-picture-1003}">
+		<picture src="233.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A309-KobaiRailGraphic-picture-1003}">
+		<picture src="309.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A310-KobaiRailGraphic-picture-1003}">
+		<picture src="310.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A311-KobaiRailGraphic-picture-1003}">
+		<picture src="311.bmp"/>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A312-KobaiRailGraphic-picture-1003}">
+		<picture src="237.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A313-KobaiRailGraphic-picture-1003}">
+		<picture src="313.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A314-KobaiRailGraphic-picture-1003}">
+		<picture src="314.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A315-KobaiRailGraphic-picture-1003}">
+		<picture src="315.bmp"/>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A316-KobaiRailGraphic-picture-1003}">
+		<picture src="241.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A317-KobaiRailGraphic-picture-1003}">
+		<picture src="317.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A318-KobaiRailGraphic-picture-1003}">
+		<picture src="318.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A319-KobaiRailGraphic-picture-1003}">
+		<picture src="319.bmp"/>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A320-KobaiRailGraphic-picture-1003}">
+		<picture src="245.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A321-KobaiRailGraphic-picture-1003}">
+		<picture src="321.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A322-KobaiRailGraphic-picture-1003}">
+		<picture src="322.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A323-KobaiRailGraphic-picture-1003}">
+		<picture src="323.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HanabishiRekka-00A350-KobaiRailGraphic-picture-1003}">
+		<picture src="350.bmp"/>
+	</contribution>
+
+	<contribution type="land" id="{riorio-HanabishiRekka-00A1-KobaiRailGraphic-fence-1011}">
+		<group>勾配TB単線</group>
+		<name>勾配01</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A1-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A1-KobaiRailGraphic-fence-1012}">
+		<group>勾配TB単線</group>
+		<name>勾配02</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A2-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A1-KobaiRailGraphic-fence-1013}">
+		<group>勾配TB単線</group>
+		<name>勾配03</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A3-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A1-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB単線</group>
+		<name>勾配04</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A4-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+
+	<contribution type="land" id="{riorio-HanabishiRekka-00A5-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB単線</group>
+		<name>勾配05</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A5-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A6-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB単線</group>
+		<name>勾配06</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A6-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A7-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB単線</group>
+		<name>勾配07</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A7-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A8-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB単線</group>
+		<name>勾配08</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A8-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+
+	<contribution type="land" id="{riorio-HanabishiRekka-00A9-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線１</group>
+		<name>勾配09</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A9-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A10-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線１</group>
+		<name>勾配10</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A10-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A11-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線１</group>
+		<name>勾配11</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A11-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A12-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線１</group>
+		<name>勾配12</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A12-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A17-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線１</group>
+		<name>勾配09</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A17-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A18-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線１</group>
+		<name>勾配10</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A18-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A19-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線１</group>
+		<name>勾配11</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A19-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A20-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線１</group>
+		<name>勾配12</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A20-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+
+	<contribution type="land" id="{riorio-HanabishiRekka-00A13-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線２</group>
+		<name>勾配09</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A13-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A14-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線２</group>
+		<name>勾配10</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A14-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A15-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線２</group>
+		<name>勾配11</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A15-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A16-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線２</group>
+		<name>勾配12</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A16-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A21-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線２</group>
+		<name>勾配21</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A21-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A22-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線２</group>
+		<name>勾配22</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A22-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A23-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線２</group>
+		<name>勾配23</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A23-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A24-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線２</group>
+		<name>勾配24</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A24-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+
+
+	<contribution type="land" id="{riorio-HanabishiRekka-00A109-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線盛土１</group>
+		<name>勾配109</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A109-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A110-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線盛土１</group>
+		<name>勾配110</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A110-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A111-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線盛土１</group>
+		<name>勾配111</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A111-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A112-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線盛土１</group>
+		<name>勾配112</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A112-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A125-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線盛土１</group>
+		<name>勾配125</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A125-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A126-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線盛土１</group>
+		<name>勾配126</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A126-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A127-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線盛土１</group>
+		<name>勾配127</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A127-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A128-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線盛土１</group>
+		<name>勾配128</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A128-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+
+
+
+	<contribution type="land" id="{riorio-HanabishiRekka-00A113-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線盛土２</group>
+		<name>勾配113</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A113-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A114-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線盛土２</group>
+		<name>勾配114</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A114-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A115-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線盛土２</group>
+		<name>勾配115</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A115-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A116-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線盛土２</group>
+		<name>勾配116</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A116-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A133-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線盛土２</group>
+		<name>勾配133</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A133-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A134-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線盛土２</group>
+		<name>勾配134</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A134-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A135-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線盛土２</group>
+		<name>勾配135</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A135-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A136-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線盛土２</group>
+		<name>勾配136</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A136-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+
+
+	<contribution type="land" id="{riorio-HanabishiRekka-00A117-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線盛土中</group>
+		<name>勾配117</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A117-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A118-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線盛土中</group>
+		<name>勾配118</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A118-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A119-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線盛土中</group>
+		<name>勾配119</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A119-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A120-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線盛土中</group>
+		<name>勾配120</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A120-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A121-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線盛土中</group>
+		<name>勾配121</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A121-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A122-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線盛土中</group>
+		<name>勾配122</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A122-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A123-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線盛土中</group>
+		<name>勾配123</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A123-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A124-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線盛土中</group>
+		<name>勾配124</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A124-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+
+
+	<contribution type="land" id="{riorio-HanabishiRekka-00A201-KobaiRailGraphic-fence-1011}">
+		<group>勾配TB単線RC</group>
+		<name>勾配201</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A201-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A202-KobaiRailGraphic-fence-1012}">
+		<group>勾配TB単線RC</group>
+		<name>勾配202</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A202-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A203-KobaiRailGraphic-fence-1013}">
+		<group>勾配TB単線RC</group>
+		<name>勾配203</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A203-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A204-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB単線RC</group>
+		<name>勾配204</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A204-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A205-KobaiRailGraphic-fence-1011}">
+		<group>勾配TB単線RC</group>
+		<name>勾配205</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A205-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A206-KobaiRailGraphic-fence-1012}">
+		<group>勾配TB単線RC</group>
+		<name>勾配206</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A206-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A207-KobaiRailGraphic-fence-1013}">
+		<group>勾配TB単線RC</group>
+		<name>勾配207</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A207-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A208-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB単線RC</group>
+		<name>勾配208</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A208-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A209-KobaiRailGraphic-fence-1011}">
+		<group>勾配TB複線RC１</group>
+		<name>勾配209</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A209-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A210-KobaiRailGraphic-fence-1012}">
+		<group>勾配TB複線RC１</group>
+		<name>勾配210</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A210-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A211-KobaiRailGraphic-fence-1013}">
+		<group>勾配TB複線RC１</group>
+		<name>勾配211</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A211-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A212-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線RC１</group>
+		<name>勾配212</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A212-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A213-KobaiRailGraphic-fence-1011}">
+		<group>勾配TB複線RC１</group>
+		<name>勾配213</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A213-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A214-KobaiRailGraphic-fence-1012}">
+		<group>勾配TB複線RC１</group>
+		<name>勾配214</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A214-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A215-KobaiRailGraphic-fence-1013}">
+		<group>勾配TB複線RC１</group>
+		<name>勾配215</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A215-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A216-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線RC１</group>
+		<name>勾配216</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A216-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A217-KobaiRailGraphic-fence-1013}">
+		<group>勾配TB複線RC２</group>
+		<name>勾配217</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A217-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A218-KobaiRailGraphic-fence-1013}">
+		<group>勾配TB複線RC２</group>
+		<name>勾配218</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A218-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A219-KobaiRailGraphic-fence-1013}">
+		<group>勾配TB複線RC２</group>
+		<name>勾配219</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A219-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A220-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線RC２</group>
+		<name>勾配220</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A220-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A221-KobaiRailGraphic-fence-1013}">
+		<group>勾配TB複線RC２</group>
+		<name>勾配221</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A221-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A222-KobaiRailGraphic-fence-1013}">
+		<group>勾配TB複線RC２</group>
+		<name>勾配222</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A222-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A223-KobaiRailGraphic-fence-1013}">
+		<group>勾配TB複線RC２</group>
+		<name>勾配223</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A223-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A224-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線RC２</group>
+		<name>勾配224</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A224-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+
+	<contribution type="land" id="{riorio-HanabishiRekka-00A225-KobaiRailGraphic-fence-1011}">
+		<group>勾配TB単線Ｔ</group>
+		<name>勾配225</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A225-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A226-KobaiRailGraphic-fence-1012}">
+		<group>勾配TB単線Ｔ</group>
+		<name>勾配226</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A226-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A227-KobaiRailGraphic-fence-1013}">
+		<group>勾配TB単線Ｔ</group>
+		<name>勾配227</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A227-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A228-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB単線Ｔ</group>
+		<name>勾配228</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A228-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A229-KobaiRailGraphic-fence-1011}">
+		<group>勾配TB単線Ｔ</group>
+		<name>勾配229</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A229-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A230-KobaiRailGraphic-fence-1012}">
+		<group>勾配TB単線Ｔ</group>
+		<name>勾配230</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A230-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A231-KobaiRailGraphic-fence-1013}">
+		<group>勾配TB単線Ｔ</group>
+		<name>勾配231</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A231-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A232-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB単線Ｔ</group>
+		<name>勾配0232</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A232-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+
+	<contribution type="land" id="{riorio-HanabishiRekka-00A233-KobaiRailGraphic-fence-1011}">
+		<group>勾配TB複線Ｔ１</group>
+		<name>勾配233</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A233-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A234-KobaiRailGraphic-fence-1012}">
+		<group>勾配TB複線Ｔ１</group>
+		<name>勾配234</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A234-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A235-KobaiRailGraphic-fence-1013}">
+		<group>勾配TB複線Ｔ１</group>
+		<name>勾配235</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A235-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A236-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線Ｔ１</group>
+		<name>勾配0236</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A236-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A237-KobaiRailGraphic-fence-1011}">
+		<group>勾配TB複線Ｔ１</group>
+		<name>勾配237</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A237-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A238-KobaiRailGraphic-fence-1012}">
+		<group>勾配TB複線Ｔ１</group>
+		<name>勾配238</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A238-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A239-KobaiRailGraphic-fence-1013}">
+		<group>勾配TB複線Ｔ１</group>
+		<name>勾配239</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A239-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A240-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線Ｔ１</group>
+		<name>勾配0240</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A240-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+
+	<contribution type="land" id="{riorio-HanabishiRekka-00A241-KobaiRailGraphic-fence-1011}">
+		<group>勾配TB複線Ｔ２</group>
+		<name>勾配241</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A241-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A242-KobaiRailGraphic-fence-1012}">
+		<group>勾配TB複線Ｔ２</group>
+		<name>勾配242</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A242-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A243-KobaiRailGraphic-fence-1013}">
+		<group>勾配TB複線Ｔ２</group>
+		<name>勾配243</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A243-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A244-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線Ｔ２</group>
+		<name>勾配0244</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A244-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A245-KobaiRailGraphic-fence-1011}">
+		<group>勾配TB複線Ｔ２</group>
+		<name>勾配245</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A245-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A246-KobaiRailGraphic-fence-1012}">
+		<group>勾配TB複線Ｔ２</group>
+		<name>勾配246</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A246-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A247-KobaiRailGraphic-fence-1013}">
+		<group>勾配TB複線Ｔ２</group>
+		<name>勾配247</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A247-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A248-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線Ｔ２</group>
+		<name>勾配0248</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A248-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+
+	<contribution type="land" id="{riorio-HanabishiRekka-00A249-KobaiRailGraphic-fence-1012}">
+		<group>勾配TB複線Ｔ中１</group>
+		<name>勾配249</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A249-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A250-KobaiRailGraphic-fence-1012}">
+		<group>勾配TB複線Ｔ中１</group>
+		<name>勾配250</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A250-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A251-KobaiRailGraphic-fence-1013}">
+		<group>勾配TB複線Ｔ中１</group>
+		<name>勾配251</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A251-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A252-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線Ｔ中１</group>
+		<name>勾配0252</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A252-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A253-KobaiRailGraphic-fence-1012}">
+		<group>勾配TB複線Ｔ中１</group>
+		<name>勾配253</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A253-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A254-KobaiRailGraphic-fence-1012}">
+		<group>勾配TB複線Ｔ中１</group>
+		<name>勾配254</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A254-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A255-KobaiRailGraphic-fence-1013}">
+		<group>勾配TB複線Ｔ中１</group>
+		<name>勾配255</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A255-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A256-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線Ｔ中１</group>
+		<name>勾配0256</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A256-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+
+	<contribution type="land" id="{riorio-HanabishiRekka-00A257-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線Ｔ中２</group>
+		<name>勾配0257</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A257-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+
+	<contribution type="land" id="{riorio-HanabishiRekka-00A258-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線Ｔ中３</group>
+		<name>勾配0258</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A258-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+
+
+	<contribution type="land" id="{riorio-HanabishiRekka-00A300-KobaiRailGraphic-fence-1011}">
+		<group>勾配TB単線丸</group>
+		<name>勾配300</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A300-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A301-KobaiRailGraphic-fence-1012}">
+		<group>勾配TB単線丸</group>
+		<name>勾配301</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A301-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A302-KobaiRailGraphic-fence-1013}">
+		<group>勾配TB単線丸</group>
+		<name>勾配302</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A302-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A303-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB単線丸</group>
+		<name>勾配303</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A303-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A304-KobaiRailGraphic-fence-1011}">
+		<group>勾配TB単線丸</group>
+		<name>勾配304</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A304-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A305-KobaiRailGraphic-fence-1012}">
+		<group>勾配TB単線丸</group>
+		<name>勾配305</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A305-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A306-KobaiRailGraphic-fence-1013}">
+		<group>勾配TB単線丸</group>
+		<name>勾配306</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A306-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A307-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB単線丸</group>
+		<name>勾配307</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A307-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+
+	<contribution type="land" id="{riorio-HanabishiRekka-00A308-KobaiRailGraphic-fence-1011}">
+		<group>勾配TB複線丸１</group>
+		<name>勾配308</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A308-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A309-KobaiRailGraphic-fence-1012}">
+		<group>勾配TB複線丸１</group>
+		<name>勾配309</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A309-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A310-KobaiRailGraphic-fence-1013}">
+		<group>勾配TB複線丸１</group>
+		<name>勾配310</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A310-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A311-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線丸１</group>
+		<name>勾配311</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A311-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A312-KobaiRailGraphic-fence-1011}">
+		<group>勾配TB複線丸１</group>
+		<name>勾配312</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A312-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A313-KobaiRailGraphic-fence-1012}">
+		<group>勾配TB複線丸１</group>
+		<name>勾配313</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A313-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A314-KobaiRailGraphic-fence-1013}">
+		<group>勾配TB複線丸１</group>
+		<name>勾配314</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A314-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A315-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線丸１</group>
+		<name>勾配315</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A315-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+
+	<contribution type="land" id="{riorio-HanabishiRekka-00A316-KobaiRailGraphic-fence-1011}">
+		<group>勾配TB複線丸２</group>
+		<name>勾配316</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A316-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A317-KobaiRailGraphic-fence-1012}">
+		<group>勾配TB複線丸２</group>
+		<name>勾配317</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A317-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A318-KobaiRailGraphic-fence-1013}">
+		<group>勾配TB複線丸２</group>
+		<name>勾配318</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A318-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A319-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線丸２</group>
+		<name>勾配319</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A319-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A320-KobaiRailGraphic-fence-1011}">
+		<group>勾配TB複線丸２</group>
+		<name>勾配320</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A320-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A321-KobaiRailGraphic-fence-1012}">
+		<group>勾配TB複線丸２</group>
+		<name>勾配321</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A321-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A322-KobaiRailGraphic-fence-1013}">
+		<group>勾配TB複線丸２</group>
+		<name>勾配322</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A322-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{riorio-HanabishiRekka-00A323-KobaiRailGraphic-fence-1014}">
+		<group>勾配TB複線丸２</group>
+		<name>勾配323</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A323-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+
+	<contribution type="land" id="{riorio-HanabishiRekka-00A350-KobaiRailGraphic-fence-1014}">
+		<group>勾配TBその他丸</group>
+		<name>勾配350</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{riorio-HanabishiRekka-00A350-KobaiRailGraphic-picture-1003}" offset="16" >
+			<right_front>0,16</right_front>
+			<left_front>32,16</left_front>
+			<left_back>64,16</left_back>
+			<right_back>96,16</right_back>
+		</picture>
+		<price>30000</price>
+	</contribution>
+
+</plug-in>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>建物総合コンバート　花菱烈火</title>
+	<author>りおりお</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+	<depend on="org.kohsuke.freetrain.structure.tebou" />
+	
+	<contribution type="picture" id="{riorio-gs-convert-hanabishirekka-picture-teibou}">
+		<picture src="../org.kohsuke.freetrain.structure.tebou/teibou_haru.bmp" >
+			<override when="summer" src="../org.kohsuke.freetrain.structure.tebou/teibou_natu.bmp"/>
+			<override when="autumn" src="../org.kohsuke.freetrain.structure.tebou/teibou_kaki.bmp"/>
+			<override when="winter" src="../org.kohsuke.freetrain.structure.tebou/teibou_huyu.bmp"/>
+		</picture>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-hanabishirekka-picture-teibou01}">
+		<picture src="../org.kohsuke.freetrain.structure.tebou/teibou_haru01.bmp" >
+			<override when="summer" src="../org.kohsuke.freetrain.structure.tebou/teibou_natu01.bmp"/>
+			<override when="autumn" src="../org.kohsuke.freetrain.structure.tebou/teibou_kaki01.bmp"/>
+			<override when="winter" src="../org.kohsuke.freetrain.structure.tebou/teibou_huyu01.bmp"/>
+		</picture>
+	</contribution>
+
+
+	<contribution type="picture" id="{riorio-gs-convert-hanabishirekka-picture-teibou-A01}">
+		<picture src="../org.kohsuke.freetrain.structure.tebou/teibou_A01.bmp" >
+		</picture>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-hanabishirekka-picture-teibou-A02}">
+		<picture src="../org.kohsuke.freetrain.structure.tebou/teibou_A02.bmp" >
+		</picture>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-hanabishirekka-picture-teibou-A03}">
+		<picture src="../org.kohsuke.freetrain.structure.tebou/teibou_A03.bmp" >
+		</picture>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-hanabishirekka-picture-teibou-A04}">
+		<picture src="../org.kohsuke.freetrain.structure.tebou/teibou_A04.bmp" >
+		</picture>
+	</contribution>
+
+
+	<contribution type="picture" id="{riorio-gs-convert-hanabishirekka-picture-teibou-A05}">
+		<picture src="../org.kohsuke.freetrain.structure.tebou/teibou_A05.bmp" >
+		</picture>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-hanabishirekka-picture-teibou-A06}">
+		<picture src="../org.kohsuke.freetrain.structure.tebou/teibou_A06.bmp" >
+		</picture>
+	</contribution>
+
+
+	<contribution type="picture" id="{riorio-gs-convert-hanabishirekka-picture-teibou-A07}">
+		<picture src="../org.kohsuke.freetrain.structure.tebou/teibou_A07.bmp" >
+		</picture>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-hanabishirekka-picture-teibou-A08}">
+		<picture src="../org.kohsuke.freetrain.structure.tebou/teibou_A08.bmp" >
+		</picture>
+	</contribution>
+
+
+	<contribution type="picture" id="{riorio-gs-convert-hanabishirekka-picture-teibou-A09}">
+		<picture src="../org.kohsuke.freetrain.structure.tebou/teibou_A09.bmp" >
+		</picture>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-hanabishirekka-picture-teibou-A10}">
+		<picture src="../org.kohsuke.freetrain.structure.tebou/teibou_A10.bmp" >
+		</picture>
+	</contribution>
+
+
+	<contribution type="picture" id="{riorio-gs-convert-hanabishirekka-picture-teibou-A11}">
+		<picture src="../org.kohsuke.freetrain.structure.tebou/teibou_A11.bmp" >
+		</picture>
+	</contribution>
+
+	<contribution type="picture" id="{riorio-gs-convert-hanabishirekka-picture-teibou-A12}">
+		<picture src="../org.kohsuke.freetrain.structure.tebou/teibou_A12.bmp" >
+		</picture>
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{S5776500-11118-hana-C300-A0036A6ECDEB}-gs">
+		<group>水門</group>
+		<price>50000000</price>
+		<size>3,3</size>
+		<height>2</height>
+		<structure>
+			<category byname="治水防波設備" />
+		</structure>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{riorio-gs-convert-hanabishirekka-picture-teibou}">
+			</picture>
+		</sprite>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{riorio-gs-convert-hanabishirekka-picture-teibou01}">
+			</picture>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{S5776500-11118-hana-C302-A0036A6ECDEB}-gs">
+		<group>水門</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<structure>
+			<category byname="治水防波設備" />
+		</structure>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+		<sprite origin="0,0" offset="24">
+			<picture ref="{riorio-gs-convert-hanabishirekka-picture-teibou-A01}" />
+		</sprite>
+		<sprite origin="0,0" offset="24">
+			<picture ref="{riorio-gs-convert-hanabishirekka-picture-teibou-A02}" />
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{S5776500-11118-hana-C304-A0036A6ECDEB}-gs">
+		<group>水門</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<structure>
+			<category byname="治水防波設備" />
+		</structure>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+		<sprite origin="0,0" offset="24">
+			<picture ref="{riorio-gs-convert-hanabishirekka-picture-teibou-A03}" />
+		</sprite>
+		<sprite origin="0,0" offset="24">
+			<picture ref="{riorio-gs-convert-hanabishirekka-picture-teibou-A04}" />
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{S5776500-11118-hana-C306-A0036A6ECDEB}-gs">
+		<group>水門</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<structure>
+			<category byname="治水防波設備" />
+		</structure>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+		<sprite origin="0,0" offset="24">
+			<picture ref="{riorio-gs-convert-hanabishirekka-picture-teibou-A05}">
+			</picture>
+		</sprite>
+		<sprite origin="0,0" offset="24">
+			<picture ref="{riorio-gs-convert-hanabishirekka-picture-teibou-A06}">
+			</picture>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{S5776500-11118-hana-C308-A0036A6ECDEB}-gs">
+		<group>水門</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<structure>
+			<category byname="治水防波設備" />
+		</structure>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+		<sprite origin="0,0" offset="24">
+			<picture ref="{riorio-gs-convert-hanabishirekka-picture-teibou-A07}">
+			</picture>
+		</sprite>
+		<sprite origin="0,0" offset="24">
+			<picture ref="{riorio-gs-convert-hanabishirekka-picture-teibou-A08}">
+			</picture>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{S5776500-11118-hana-C310-A0036A6ECDEB}-gs">
+		<group>水門</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<structure>
+			<category byname="治水防波設備" />
+		</structure>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{riorio-gs-convert-hanabishirekka-picture-teibou-A09}">
+			</picture>
+		</sprite>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{riorio-gs-convert-hanabishirekka-picture-teibou-A10}">
+			</picture>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{S5776500-11118-hana-C312-A0036A6ECDEB}-gs">
+		<group>水門</group>
+		<price>2500000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<structure>
+			<category byname="治水防波設備" />
+		</structure>
+		<population>
+			<class name="freetrain.contributions.population.RestaurantPopulation"/>
+			<base>35</base>
+		</population>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{riorio-gs-convert-hanabishirekka-picture-teibou-A11}">
+			</picture>
+		</sprite>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{riorio-gs-convert-hanabishirekka-picture-teibou-A12}">
+			</picture>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+</plug-in>

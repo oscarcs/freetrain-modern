@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+<plug-in>
+  <title>東京モノレールパック</title> 
+  <author>北の汽車屋</author> 
+  <homepage>http://www.geocities.jp/kitapoppoya/</homepage> 
+<!-- 1000系旧塗装先頭車 --> 
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-TM1000-Q-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="TM1000old_a.bmp" /> 
+  </sprite>
+  <capacity>98</capacity>
+  <seatedcapacity>48</seatedcapacity>
+  </contribution>
+<!-- 1000系旧塗装最後尾車 -->
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-TM1000-Q-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{5ACFD81E-6A4E-4981-AEAF-D-TM1000-Q-A}"/> 
+  </contribution> 
+<!-- 1000系旧塗装中間車-->
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-TM1000-Q-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="TM1000old_b.bmp" /> 
+  </sprite>
+  <capacity>107</capacity>
+  <seatedcapacity>52</seatedcapacity>
+  </contribution>
+<!-- 1000系新塗装先頭車 --> 
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-TM1000-N-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="TM1000_a.bmp" /> 
+  </sprite>
+  <capacity>98</capacity>
+  <seatedcapacity>48</seatedcapacity>
+  </contribution>
+<!-- 1000系新塗装最後尾車 -->
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-TM1000-N-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{5ACFD81E-6A4E-4981-AEAF-D-TM1000-N-A}"/> 
+  </contribution> 
+<!-- 1000系新塗装中間車-->
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-TM1000-N-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="TM1000or2000_b.bmp" /> 
+  </sprite>
+  <capacity>107</capacity>
+  <seatedcapacity>52</seatedcapacity>
+  </contribution>
+<!-- 2000系先頭車 --> 
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-TM2000-N-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="TM2000_a.bmp" /> 
+  </sprite>
+  <capacity>100</capacity> 
+  <seatedcapacity>40</seatedcapacity> 
+  </contribution>
+<!-- 2000系最後尾車 -->
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-TM2000-N-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{5ACFD81E-6A4E-4981-AEAF-D-TM2000-N-A}"/> 
+  </contribution> 
+<!-- 2000系中間車-->
+　<contribution type="trainCar" id="{5ACFD81E-6A4E-4981-AEAF-D-TM2000-N-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="TM1000or2000_b.bmp" /> 
+  </sprite>
+  <capacity>100</capacity> 
+  <seatedcapacity>40</seatedcapacity> 
+  </contribution>
+
+  <contribution type="train" id="{5ACFD81E-6A4E-4981-AEAF-D-TM1000-Q-W}">
+<company>東京モノレール</company>
+<type>1000系</type>
+<name>旧塗装</name>
+<author>北の汽車屋</author>
+<description>1000系は塗装変更までこの塗装で活躍していた。
+</description>
+<fare>500</fare>
+<price>35000000</price>
+<amenity>100</amenity>
+<speed>medium</speed>
+ <class name="freetrain.contributions.train.ParamTrainImpl"/>
+ <composition>
+   <head carRef="{5ACFD81E-6A4E-4981-AEAF-D-TM1000-Q-A}"/>
+   <body carRef="{5ACFD81E-6A4E-4981-AEAF-D-TM1000-Q-C}"/>
+   <tail carRef="{5ACFD81E-6A4E-4981-AEAF-D-TM1000-Q-B}"/>
+ </composition>
+</contribution>
+  <contribution type="train" id="{5ACFD81E-6A4E-4981-AEAF-D-TM1000-N-W}">
+<company>東京モノレール</company>
+<type>1000系</type>
+<name>新塗装</name>
+<author>北の汽車屋</author>
+<description>現在、新型の2000系とともに主力である車両。2000系導入時に塗装変更が行われた。
+</description>
+<fare>500</fare>
+<price>35000000</price>
+<amenity>100</amenity>
+<speed>medium</speed>
+ <class name="freetrain.contributions.train.ParamTrainImpl"/>
+ <composition>
+   <head carRef="{5ACFD81E-6A4E-4981-AEAF-D-TM1000-N-A}"/>
+   <body carRef="{5ACFD81E-6A4E-4981-AEAF-D-TM1000-N-C}"/>
+   <tail carRef="{5ACFD81E-6A4E-4981-AEAF-D-TM1000-N-B}"/>
+ </composition>
+</contribution>
+ <contribution type="train" id="{5ACFD81E-6A4E-4981-AEAF-D-TM2000-N-W}">
+<company>東京モノレール</company>
+<type>2000系</type>
+<name></name>
+<author>北の汽車屋</author>
+<description>旧型車を一掃するために導入された東京モノレールの新型。VVVFインバータ制御。
+</description>
+<fare>400</fare>
+<price>35000000</price>
+<amenity>100</amenity>
+<speed>medium</speed>
+ <class name="freetrain.contributions.train.ParamTrainImpl"/>
+ <composition>
+   <head carRef="{5ACFD81E-6A4E-4981-AEAF-D-TM2000-N-A}"/>
+   <body carRef="{5ACFD81E-6A4E-4981-AEAF-D-TM2000-N-C}"/>
+   <tail carRef="{5ACFD81E-6A4E-4981-AEAF-D-TM2000-N-B}"/>
+ </composition>
+</contribution>
+</plug-in>

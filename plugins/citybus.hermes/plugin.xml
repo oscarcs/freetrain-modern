@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plug-in [
+<!ENTITY ycbus '
+	<colorVariation/>
+'>
+]>
+<plug-in>
+	<title>公営バスセット</title>
+	<author>Hermes</author>
+	<homepage>nothing</homepage>	
+	<depend on="jp.co.tripod.chiname.lib" />
+
+	<contribution type="picture" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1Y001}">
+		<picture src="ycbus.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1T001}">
+		<picture src="ttbus.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1N001}">
+		<picture src="ncbus.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1K001}">
+		<picture src="kcbus.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1S001}">
+		<picture src="scbus.bmp"/>
+	</contribution>
+	<contribution type="DummyCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1Y002}">
+		<name>横浜市営バス(前)</name>
+		<sprite origin="0,0" offset="8">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1Y001}"/>
+			<variations>
+			&ycbus;
+			</variations>
+		</sprite>
+	</contribution>
+	<contribution type="DummyCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1Y003}">
+		<name>横浜市営バス(後)</name>
+		<sprite origin="64,0" offset="8">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1Y001}"/>
+			<variations>
+			&ycbus;
+			</variations>
+		</sprite>
+	</contribution>
+	<contribution type="DummyCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD4Y004}">
+		<name>横浜市営バス(前)*</name>
+		<sprite origin="128,0" offset="8">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1Y001}"/>
+			<variations>
+			&ycbus;
+			</variations>
+		</sprite>
+	</contribution>
+	<contribution type="DummyCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD4Y005}">
+		<name>横浜市営バス(後)*</name>
+		<sprite origin="192,0" offset="8">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1Y001}"/>
+			<variations>
+			&ycbus;
+			</variations>
+		</sprite>
+	</contribution>
+	<contribution type="DummyCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1T002}">
+		<name>東京都営バス(前)</name>
+		<sprite origin="0,0" offset="8">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1T001}"/>
+			<variations>
+			&ycbus;
+			</variations>
+		</sprite>
+	</contribution>
+	<contribution type="DummyCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1T003}">
+		<name>東京都営バス(後)</name>
+		<sprite origin="64,0" offset="8">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1T001}"/>
+			<variations>
+			&ycbus;
+			</variations>
+		</sprite>
+	</contribution>
+	<contribution type="DummyCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD4T004}">
+		<name>東京都営バス(前)*</name>
+		<sprite origin="128,0" offset="8">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1T001}"/>
+			<variations>
+			&ycbus;
+			</variations>
+		</sprite>
+	</contribution>
+	<contribution type="DummyCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD4T005}">
+		<name>東京都営バス(後)*</name>
+		<sprite origin="192,0" offset="8">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1T001}"/>
+			<variations>
+			&ycbus;
+			</variations>
+		</sprite>
+	</contribution>
+	<contribution type="DummyCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1N002}">
+		<name>名古屋市営バス(前)</name>
+		<sprite origin="0,0" offset="8">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1N001}"/>
+			<variations>
+			&ycbus;
+			</variations>
+		</sprite>
+	</contribution>
+	<contribution type="DummyCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1N003}">
+		<name>名古屋市営バス(後)</name>
+		<sprite origin="64,0" offset="8">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1N001}"/>
+			<variations>
+			&ycbus;
+			</variations>
+		</sprite>
+	</contribution>
+	<contribution type="DummyCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD4N004}">
+		<name>名古屋市営バス(前)*</name>
+		<sprite origin="128,0" offset="8">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1N001}"/>
+			<variations>
+			&ycbus;
+			</variations>
+		</sprite>
+	</contribution>
+	<contribution type="DummyCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD4N005}">
+		<name>名古屋市営バス(後)*</name>
+		<sprite origin="192,0" offset="8">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1N001}"/>
+			<variations>
+			&ycbus;
+			</variations>
+		</sprite>
+        </contribution>
+	<contribution type="DummyCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1K002}">
+		<name>京都市営バス(前)</name>
+		<sprite origin="0,0" offset="8">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1K001}"/>
+			<variations>
+			&ycbus;
+			</variations>
+		</sprite>
+	</contribution>
+	<contribution type="DummyCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1K003}">
+		<name>京都市営バス(後)</name>
+		<sprite origin="64,0" offset="8">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1K001}"/>
+			<variations>
+			&ycbus;
+			</variations>
+		</sprite>
+	</contribution>
+	<contribution type="DummyCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD4K004}">
+		<name>京都市営バス(前)*</name>
+		<sprite origin="128,0" offset="8">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1K001}"/>
+			<variations>
+			&ycbus;
+			</variations>
+		</sprite>
+	</contribution>
+	<contribution type="DummyCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD4K005}">
+		<name>京都市営バス(後)*</name>
+		<sprite origin="192,0" offset="8">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1K001}"/>
+			<variations>
+			&ycbus;
+			</variations>
+		</sprite>
+        </contribution>
+	<contribution type="DummyCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1S002}">
+		<name>仙台市営バス(前)</name>
+		<sprite origin="0,0" offset="8">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1S001}"/>
+			<variations>
+			&ycbus;
+			</variations>
+		</sprite>
+	</contribution>
+	<contribution type="DummyCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1S003}">
+		<name>仙台市営バス(後)</name>
+		<sprite origin="64,0" offset="8">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1S001}"/>
+			<variations>
+			&ycbus;
+			</variations>
+		</sprite>
+	</contribution>
+	<contribution type="DummyCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD4S004}">
+		<name>仙台市営バス(前)*</name>
+		<sprite origin="128,0" offset="8">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1S001}"/>
+			<variations>
+			&ycbus;
+			</variations>
+		</sprite>
+	</contribution>
+	<contribution type="DummyCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD4S005}">
+		<name>仙台市営バス(後)*</name>
+		<sprite origin="192,0" offset="8">
+			<picture ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD1S001}"/>
+			<variations>
+			&ycbus;
+			</variations>
+		</sprite>
+        </contribution>
+</plug-in>

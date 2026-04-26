@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+  <plug-in>
+  <title>炭鉱2</title> 
+  <author>モガミ</author> 
+  <homepage>hhttp://www.geocities.jp/mogami00/Kamikazekensetu.html</homepage> 
+  <contribution type="picture" id="{5EDD5701-A0F8-404C-9741-2CF47DAE4C48}">
+  <picture src="tankou2.bmp">
+  </picture>
+  </contribution>
+  <contribution type="GenericStructure" id="{5AB1D030-BB7A-431C-943D-B8F9EBC5B857}-0">
+  <group>炭鉱・倉庫</group> 
+  <structure>
+  <category byname="炭坑" /> 
+  </structure>
+  <size>1,1</size> 
+  <price>10000000</price> 
+  <computerCannotBuild /> 
+  <height>2</height> 
+  <sprite origin="0,0" offset="47">
+  <picture ref="{5EDD5701-A0F8-404C-9741-2CF47DAE4C48}" /> 
+  </sprite>
+  </contribution>
+  <contribution type="GenericStructure" id="{5AB1D030-BB7A-431C-943D-B8F9EBC5B857}-1">
+  <group>炭坑・ボタ山1</group> 
+  <structure>
+  <category byname="炭坑" /> 
+  </structure>
+  <size>2,1</size> 
+  <price>1000000</price> 
+  <computerCannotBuild /> 
+  <height>2</height> 
+  <sprite origin="32,0" offset="47">
+  <picture ref="{5EDD5701-A0F8-404C-9741-2CF47DAE4C48}" /> 
+  </sprite>
+  </contribution>
+  <contribution type="GenericStructure" id="{5AB1D030-BB7A-431C-943D-B8F9EBC5B857}-2">
+  <group>炭坑・ボタ山2</group> 
+  <structure>
+  <category byname="炭坑" /> 
+  </structure>
+  <size>1,2</size> 
+  <price>1000000</price> 
+  <computerCannotBuild /> 
+  <height>2</height> 
+  <sprite origin="80,0" offset="39">
+  <picture ref="{5EDD5701-A0F8-404C-9741-2CF47DAE4C48}" /> 
+  </sprite>
+  </contribution>
+  <contribution type="GenericStructure" id="{5AB1D030-BB7A-431C-943D-B8F9EBC5B857}-3">
+  <group>炭坑・クレーン</group> 
+  <structure>
+  <category byname="炭坑" /> 
+  </structure>
+  <size>1,1</size> 
+  <price>6000000</price> 
+  <computerCannotBuild /> 
+  <height>2</height> 
+  <sprite origin="128,0" offset="47">
+  <picture ref="{5EDD5701-A0F8-404C-9741-2CF47DAE4C48}" /> 
+  </sprite>
+  </contribution>
+  </plug-in>

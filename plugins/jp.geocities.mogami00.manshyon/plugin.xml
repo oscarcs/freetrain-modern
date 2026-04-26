@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+ <plug-in>
+  <title>都市部型分譲マンション</title> 
+  <author>モガミ</author> 
+  <homepage>http://www.geocities.jp/mogami00/Kamikazekensetu.html</homepage> 
+  <contribution type="picture" id="{FF38347E-DC40-406B-ABAB-86E84704B9D6}">
+  <picture src="manshyon.bmp" /> 
+  </contribution>
+  <contribution type="commercial" id="{9D6EAF63-19A7-4E51-A313-C7E2067D105E}">
+  <group>都市部型分譲マンション2</group> 
+  <price>3000</price> 
+  <size>2,2</size> 
+  <structure>
+  <category byname="分譲マンション" /> 
+  </structure>
+  <height>8</height> 
+  <population>
+  <class name="freetrain.contributions.population.OfficePopulation" /> 
+  <base>1100</base> 
+  </population>
+  <sprite origin="0,0" offset="195">
+  <picture ref="{FF38347E-DC40-406B-ABAB-86E84704B9D6}" /> 
+  </sprite>
+　<computerCannotBuild />
+  </contribution>
+  </plug-in>

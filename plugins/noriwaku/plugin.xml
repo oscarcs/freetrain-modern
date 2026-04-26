@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>桁</title>
+	<author>花菱烈火</author>
+	<homepage></homepage>
+
+	<contribution type="commercial" id="{rk-0001-A0036A6ECDEB}">
+		<group>法枠(PC)</group>
+		<price>5000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="20">
+			<picture src="noriwaku01.bmp" />
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+	<contribution type="commercial" id="{rk-0002-A0036A6ECDEB}">
+		<group>法枠(PC)</group>
+		<price>500</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="20">
+			<picture src="noriwaku02.bmp" />
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+	<contribution type="commercial" id="{rk-0003-A0036A6ECDEB}">
+		<group>法枠(PC)</group>
+		<price>500</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="20">
+			<picture src="noriwaku03.bmp" />
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+	<contribution type="commercial" id="{rk-0004-A0036A6ECDEB}">
+		<group>法枠(PC)</group>
+		<price>500</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="20">
+			<picture src="noriwaku04.bmp" />
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+	<contribution type="commercial" id="{rk-0005-A0036A6ECDEB}">
+		<group>法枠(PC)</group>
+		<price>500</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="20">
+			<picture src="noriwaku05.bmp" />
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+	<contribution type="commercial" id="{rk-0006-A0036A6ECDEB}">
+		<group>法枠(PC)</group>
+		<price>500</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="20">
+			<picture src="noriwaku06.bmp" />
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+	<contribution type="commercial" id="{rk-0007-A0036A6ECDEB}">
+		<group>法枠(PC)</group>
+		<price>500</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="20">
+			<picture src="noriwaku07.bmp" />
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+	<contribution type="commercial" id="{rk-0008-A0036A6ECDEB}">
+		<group>法枠(PC)</group>
+		<price>500</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="20">
+			<picture src="noriwaku08.bmp" />
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{rk-0009-A0036A6ECDEB}">
+		<group>法枠(PC)</group>
+		<price>500</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="20">
+			<picture src="noriwaku09.bmp" />
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{rk-0010-A0036A6ECDEB}">
+		<group>法枠(PC)</group>
+		<price>500</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="20">
+			<picture src="noriwaku10.bmp" />
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{rk-0011-A0036A6ECDEB}">
+		<group>法枠(PC)</group>
+		<price>500</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="20">
+			<picture src="noriwaku11.bmp" />
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="commercial" id="{rk-0012-A0036A6ECDEB}">
+		<group>法枠(PC)</group>
+		<price>500</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="20">
+			<picture src="noriwaku12.bmp" />
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+</plug-in>

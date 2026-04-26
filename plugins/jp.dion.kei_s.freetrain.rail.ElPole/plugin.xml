@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+ <title>架線柱</title>
+ <author>Kei</author>
+ <homepage>kei@viola.club.ne.jp</homepage>
+  <depend on="org.kohsuke.freetrain.rail.electricPole"/>
+	<contribution type="electricPole" id="{357BF062-3812-44D7-B46C-6CEE9FF2CFA6}">
+		<name>非電化電信柱</name>
+		<sprite>
+			<picture src="signal.bmp"/>
+		</sprite>
+	</contribution>
+
+
+</plug-in>

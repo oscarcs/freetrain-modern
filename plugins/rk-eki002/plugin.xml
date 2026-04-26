@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+
+<plug-in>
+	<title>駅舎プラグイン</title> 
+	<author>花菱</author> 
+	<homepage></homepage>
+
+	<contribution type="picture" id="{474B8BFD-rk001-eki002-cg-001}">
+		<picture src="kouka-eki-001a.bmp" origin="0,0" offset="16" >
+			<override when="night" src="kouka-eki-001b.bmp" /> 
+  		</picture> 
+	</contribution>
+
+	<contribution type="station" id="{474B8BFD-rk001-eki002-001}">
+	<group>高架駅舎01(本体)</group> 
+	<price>2000000</price> 
+	<height>1</height> 
+	<operationCost>10</operationCost> 
+	<size>1,2</size> 
+		<sprite origin="0,0" offset="16">
+			<picture ref="{474B8BFD-rk001-eki002-cg-001}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="station" id="{474B8BFD-rk001-eki002-002}">
+	<group>高架駅舎01(本体)</group> 
+	<price>2000000</price> 
+	<height>1</height> 
+	<operationCost>10</operationCost> 
+	<size>2,1</size> 
+		<sprite origin="48,0" offset="24">
+			<picture ref="{474B8BFD-rk001-eki002-cg-001}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="station" id="{474B8BFD-rk001-eki002-003}">
+	<group>高架駅舎01(本体)</group> 
+	<price>2000000</price> 
+	<height>1</height> 
+	<operationCost>10</operationCost> 
+	<size>1,2</size> 
+		<sprite origin="96,0" offset="16">
+			<picture ref="{474B8BFD-rk001-eki002-cg-001}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="station" id="{474B8BFD-rk001-eki002-004}">
+	<group>高架駅舎01(本体)</group> 
+	<price>2000000</price> 
+	<height>1</height> 
+	<operationCost>10</operationCost> 
+	<size>2,1</size> 
+		<sprite origin="144,0" offset="24">
+			<picture ref="{474B8BFD-rk001-eki002-cg-001}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="picture" id="{474B8BFD-rk001-eki002-cg-002}">
+		<picture src="kouka-eki-002a.bmp" origin="0,0" offset="16" >
+			<override when="night" src="kouka-eki-002b.bmp" /> 
+  		</picture> 
+	</contribution>
+	<contribution type="station" id="{474B8BFD-rk001-eki002-005}">
+	<group>高架駅舎01(本体)</group> 
+	<price>2000000</price> 
+	<height>1</height> 
+	<operationCost>10</operationCost> 
+	<size>1,1</size> 
+		<sprite origin="0,0" offset="16">
+			<picture ref="{474B8BFD-rk001-eki002-cg-002}" />
+		</sprite>
+	</contribution>
+	<contribution type="station" id="{474B8BFD-rk001-eki002-006}">
+	<group>高架駅舎01(本体)</group> 
+	<price>2000000</price> 
+	<height>1</height> 
+	<operationCost>10</operationCost> 
+	<size>1,1</size> 
+		<sprite origin="32,0" offset="16">
+			<picture ref="{474B8BFD-rk001-eki002-cg-002}" />
+		</sprite>
+	</contribution>
+	<contribution type="station" id="{474B8BFD-rk001-eki002-007}">
+	<group>高架駅舎01(本体)</group> 
+	<price>2000000</price> 
+	<height>1</height> 
+	<operationCost>10</operationCost> 
+	<size>1,1</size> 
+		<sprite origin="64,0" offset="16">
+			<picture ref="{474B8BFD-rk001-eki002-cg-002}" />
+		</sprite>
+	</contribution>
+	<contribution type="station" id="{474B8BFD-rk001-eki002-008}">
+	<group>高架駅舎01(本体)</group> 
+	<price>2000000</price> 
+	<height>1</height> 
+	<operationCost>10</operationCost> 
+	<size>1,1</size> 
+		<sprite origin="96,0" offset="16">
+			<picture ref="{474B8BFD-rk001-eki002-cg-002}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="picture" id="{474B8BFD-rk001-eki002-cg-ya-001}">
+		<picture src="kouka-e-ya-001a.bmp" origin="0,0" offset="16" >
+			<override when="night" src="kouka-e-ya-001b.bmp" /> 
+  		</picture> 
+	</contribution>
+	<contribution type="electricPole" id="{474B8BFD-rk001-eki002-yane-001}">
+		<name>高架駅舎屋根1</name>
+		<sprite>
+			<picture ref="{474B8BFD-rk001-eki002-cg-ya-001}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="picture" id="{474B8BFD-rk001-eki002-cg-ya-002}">
+		<picture src="kouka-e-ya-002a.bmp" origin="0,0" offset="16" >
+			<override when="night" src="kouka-e-ya-002b.bmp" /> 
+  		</picture> 
+	</contribution>
+	<contribution type="electricPole" id="{474B8BFD-rk001-eki002-yane-002}">
+		<name>高架駅舎屋根2</name>
+		<sprite>
+			<picture ref="{474B8BFD-rk001-eki002-cg-ya-002}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="picture" id="{474B8BFD-rk001-eki002-cg-ya-003}">
+		<picture src="kouka-e-ya-003a.bmp" origin="0,0" offset="16" >
+			<override when="night" src="kouka-e-ya-003b.bmp" /> 
+  		</picture> 
+	</contribution>
+	<contribution type="electricPole" id="{474B8BFD-rk001-eki002-yane-003}">
+		<name>高架駅舎屋根3</name>
+		<sprite>
+			<picture ref="{474B8BFD-rk001-eki002-cg-ya-003}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="picture" id="{474B8BFD-rk001-eki002-cg-ya-004}">
+		<picture src="kouka-e-ya-004a.bmp" origin="0,0" offset="16" >
+			<override when="night" src="kouka-e-ya-004b.bmp" /> 
+  		</picture> 
+	</contribution>
+	<contribution type="electricPole" id="{474B8BFD-rk001-eki002-yane-004}">
+		<name>高架駅舎屋根4</name>
+		<sprite>
+			<picture ref="{474B8BFD-rk001-eki002-cg-ya-004}" />
+		</sprite>
+	</contribution>
+
+
+	<contribution type="picture" id="{474B8BFD-rk001-eki002-cg-ya-005}">
+		<picture src="kouka-e-ya-005a.bmp" origin="0,0" offset="16" >
+			<override when="night" src="kouka-e-ya-005b.bmp" /> 
+  		</picture> 
+	</contribution>
+	<contribution type="electricPole" id="{474B8BFD-rk001-eki002-yane-005}">
+		<name>高架駅舎屋根5</name>
+		<sprite>
+			<picture ref="{474B8BFD-rk001-eki002-cg-ya-005}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="picture" id="{474B8BFD-rk001-eki002-cg-ya-006}">
+		<picture src="kouka-e-ya-006a.bmp" origin="0,0" offset="16" >
+			<override when="night" src="kouka-e-ya-006b.bmp" /> 
+  		</picture> 
+	</contribution>
+	<contribution type="electricPole" id="{474B8BFD-rk001-eki002-yane-006}">
+		<name>高架駅舎屋根6</name>
+		<sprite>
+			<picture ref="{474B8BFD-rk001-eki002-cg-ya-006}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="picture" id="{474B8BFD-rk001-eki002-cg-ya-007}">
+		<picture src="kouka-e-ya-007a.bmp" origin="0,0" offset="16" >
+			<override when="night" src="kouka-e-ya-007b.bmp" /> 
+  		</picture> 
+	</contribution>
+	<contribution type="electricPole" id="{474B8BFD-rk001-eki002-yane-007}">
+		<name>高架駅舎屋根7</name>
+		<sprite>
+			<picture ref="{474B8BFD-rk001-eki002-cg-ya-007}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="picture" id="{474B8BFD-rk001-eki002-cg-ya-008}">
+		<picture src="kouka-e-ya-008a.bmp" origin="0,0" offset="16" >
+			<override when="night" src="kouka-e-ya-008b.bmp" /> 
+  		</picture> 
+	</contribution>
+	<contribution type="electricPole" id="{474B8BFD-rk001-eki002-yane-008}">
+		<name>高架駅舎屋根8</name>
+		<sprite>
+			<picture ref="{474B8BFD-rk001-eki002-cg-ya-008}" />
+		</sprite>
+	</contribution>
+
+
+
+	<contribution type="electricPole" id="{474B8BFD-rk001-eki002-yane-009}">
+		<name>高架駅舎屋根A</name>
+		<sprite>
+			<picture src="kouka-e-ya-009a.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{474B8BFD-rk001-eki002-yane-010}">
+		<name>高架駅舎屋根B</name>
+		<sprite>
+			<picture src="kouka-e-ya-010a.bmp"/>
+		</sprite>
+	</contribution>
+</plug-in>

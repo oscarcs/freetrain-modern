@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+<plug-in>
+  <title>415系1900番台 りくわいあーどQua_Ra氏415系1500番台</title>
+  <author>北の汽車屋</author>
+  <homepage></homepage>
+<!-- 415系1900番台先頭車 --> 
+  <contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1-4151900-A}">
+  <class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+  <sprite origin="0,0">
+  <picture src="4151900.bmp" />
+  </sprite>
+  <capacity>140</capacity>
+  <seatedcapacity>140</seatedcapacity> 
+<!-- 415系1900番台最後尾車 --> 
+　</contribution>
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1-4151900-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{757F660D-9BC9-48E4-9E1-4151900-A}"/> 
+  <capacity>140</capacity> 
+  <seatedcapacity>140</seatedcapacity> 
+</contribution>
+<!-- 415系1900番台中間車-->
+　<contribution type="trainCar" id="{757F660D-9BC9-48E4-9E1-4151900-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+  <sprite origin="0,0">
+  <picture src="4151910.bmp" /> 
+  </sprite>
+  <capacity>160</capacity> 
+  <seatedcapacity>160</seatedcapacity> 
+  </contribution>
+
+
+ <contribution type="train" id="{669D5BDE-23F1-43BD-AC3-B-4151901H}">
+<company>JR東日本</company>
+<type>415系1500番台</type>
+<name>常磐線1901番台先頭</name>
+<author>北の汽車屋</author>
+<description>急増する常磐線の通勤客に対応し、なおかつ着席通勤率を向上させるために一両だけ生産された415系のダブルデッカー車を組み込む編成。</description>
+<fare>500</fare>
+<price>35000000</price>
+<amenity>100</amenity>
+<triprange>middle</triprange>
+<speed>medium</speed>
+<composition>
+<head carRef="{757F660D-9BC9-48E4-9E1-4151900-A}"/>
+<body carRef="{BDF87135-9F9C-005A-9B45-04F891A0479D}-m"/>
+<tail carRef="{BDF87135-9F9C-005A-9B45-04F891A0479D}-t"/>
+</composition>
+</contribution>
+ <contribution type="train" id="{669D5BDE-23F1-43BD-AC3-B-4151901T}">
+<company>JR東日本</company>
+<type>415系1500番台</type>
+<name>常磐線1901番台最後尾</name>
+<author>北の汽車屋</author>
+<description>急増する常磐線の通勤客に対応し、なおかつ着席通勤率を向上させるために一両だけ生産された415系のダブルデッカー車を組み込む編成。最後尾に連結したい場合はこちらをどうぞ。</description>
+<fare>500</fare>
+<price>35000000</price>
+<amenity>100</amenity>
+<triprange>middle</triprange>
+<speed>medium</speed>
+<composition>
+<head carRef="{BDF87135-9F9C-005A-9B45-04F891A0479D}-h"/>
+<body carRef="{BDF87135-9F9C-005A-9B45-04F891A0479D}-m"/>
+<tail carRef="{757F660D-9BC9-48E4-9E1-4151900-B}"/>
+</composition>
+</contribution>
+ <contribution type="train" id="{669D5BDE-23F1-43BD-AC3-B-4151900}">
+<company>JR東日本</company>
+<type>415系1900番台</type>
+<name>常磐線</name>
+<author>北の汽車屋</author>
+<description>おふざけが過ぎました・・・orz。電装機器はどこへｲｯﾁﾏｯﾀﾝﾀﾞ・・・？</description>
+<fare>500</fare>
+<price>45000000</price>
+<triprange>middle</triprange>
+<amenity>105</amenity>
+<speed>medium</speed>
+<composition>
+<head carRef="{757F660D-9BC9-48E4-9E1-4151900-A}"/>
+<body carRef="{757F660D-9BC9-48E4-9E1-4151900-C}"/>
+<tail carRef="{757F660D-9BC9-48E4-9E1-4151900-B}"/>
+</composition>
+</contribution>
+</plug-in>

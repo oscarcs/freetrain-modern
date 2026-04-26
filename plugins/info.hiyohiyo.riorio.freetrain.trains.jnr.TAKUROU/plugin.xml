@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>列車セット</title>
+	<author>りおりお←TAKUROU</author>
+ 	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+	<depend on="jp.dion.kei_s.freetrain.train.TAKUROU"/>
+ 	
+
+	<contribution type="picture" id="{AD070310-riorio-11D7-A4B7-Tsc157A}">
+		<picture src="157d.bmp" />
+	</contribution>
+
+	<contribution type="trainCar" id="{AD070310-riorio-11D7-A4B7-Tsc157-A}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{AD070310-riorio-11D7-A4B7-Tsc157A}" />
+		</sprite>
+		<capacity>20</capacity>
+		<seatedcapacity>20</seatedcapacity>
+	</contribution>
+
+
+	<!-- 編成の定義 -->
+          
+             <contribution type="train" id="{FreeTrain-riorio-TAKUROURailroadTrain-ECJ157}">
+		<company>旧日本国有鉄道</company>
+		<type>157系</type>
+		<name>皇室列車編成</name>
+		<author>TAKUROU→組換りおりお</author>
+		<description>157系は今でいうところのリゾートＥｘｐｒｅｓｓとして首都圏を中心に運転されるとともに、
+ご静養などで那須や伊豆の御用邸へ往復される際のお召列車としても活躍。
+お召列車ではクロ157を中央に挟んだ５両編成で運転された。
+最後まで残ったお召し列車編成も183系に譲って、昭和57年に廃車となった。
+		</description>
+		<fare>1000</fare>
+		<price>70000000</price>
+		<amenity>150</amenity>
+		<triprange>long</triprange>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="A" ref="{AD070310-7653-11D7-A4B7-Mc157-A}"/>
+			<car char="B" ref="{AD070310-7653-11D7-A4B7-M156-A}"/>
+            <car char="C" ref="{AD070310-riorio-11D7-A4B7-Tsc157-A}"/>
+			<car char="D" ref="{AD070310-7653-11D7-A4B7-Mc157_100-A}"/>
+                                        
+                                        <composition>ABCBD</composition>
+		</config>
+             </contribution>  
+         
+</plug-in>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+<plug-in>
+ <title>マンション03</title> 
+ <author>モガミ</author> 
+ <homepage>http://www.geocities.jp/mogami00/Kamikazekensetu.html</homepage> 
+ <contribution type="picture" id="{mogami-buildingi-building-mansyon03-picture-C2A7D0E836C1}">
+ <picture src="mansyon03.bmp" /> 
+ </contribution>
+ <contribution type="GenericStructure" id="{mogami-building-mansyon03-FD6BDFB39635}">
+ <group>分譲マンション(4x2)</group> 
+ <structure>
+ <category byname="分譲マンション" /> 
+ </structure>
+ <price>50000000</price> 
+ <size>4,2</size> 
+ <minHeight>2</minHeight> 
+ <maxHeight>6</maxHeight> 
+ <computerCannotBuild />
+ <population>
+ <class name="freetrain.contributions.population.ResidentialPopulation" />
+ <base>330</base> 
+ </population>
+ <pictures>
+ <top origin="0, 0" offset="32">
+ <picture ref="{mogami-buildingi-building-mansyon03-picture-C2A7D0E836C1}" /> 
+ </top>
+ <middle origin="0, 80" offset="32">
+ <picture ref="{mogami-buildingi-building-mansyon03-picture-C2A7D0E836C1}" /> 
+ </middle>
+ <bottom origin="0, 160" offset="32">
+ <picture ref="{mogami-buildingi-building-mansyon03-picture-C2A7D0E836C1}" /> 
+ </bottom>
+ </pictures>
+ <pictures opposite="true">
+ <top origin="96, 0" offset="16">
+ <picture ref="{mogami-buildingi-building-mansyon03-picture-C2A7D0E836C1}" /> 
+ </top>
+ <middle origin="96, 80" offset="16">
+ <picture ref="{mogami-buildingi-building-mansyon03-picture-C2A7D0E836C1}" /> 
+ </middle>
+ <bottom origin="96, 160" offset="16">
+ <picture ref="{mogami-buildingi-building-mansyon03-picture-C2A7D0E836C1}" /> 
+ </bottom>
+ </pictures>
+ </contribution>
+</plug-in>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>町ビルE</title>
+	<author>toaru</author>
+	<homepage>http://monatomachi-ft.jpn.org/</homepage>
+
+<contribution type="picture" id="{1E12E84E-275F-4543-802A-2331826D0D2D}">
+		<picture src="matibiru_e.bmp">
+			<override when="night" src="matibiru_e_n.bmp" />
+		</picture>
+</contribution>
+	
+<contribution type="GenericStructure" id="{D7EE5449-93CF-4AF8-924F-CAB63726715B}">
+		<name>町ビルE</name>
+		<price>160000000</price>
+		<size>1,1</size>
+		<structure>
+			<category byname="貸事務所"/>
+		</structure>
+		<height>3</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>70</base>
+		</population>
+		<sprite origin="0,0" offset="49">
+			<picture ref="{1E12E84E-275F-4543-802A-2331826D0D2D}"/>
+		</sprite>
+		<sprite origin="32,0" offset="49">
+			<picture ref="{1E12E84E-275F-4543-802A-2331826D0D2D}"/>
+		</sprite>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,255,255"/>
+	</spriteType>
+		<spriteType name="hueTransform">
+		<map from="*,0,0" to="192,136,126"/>
+	</spriteType>
+		<spriteType name="hueTransform">
+		<map from="*,0,0" to="122,79,31"/>
+	</spriteType>
+		<spriteType name="hueTransform">
+		<map from="*,0,0" to="154,159,180"/>
+	</spriteType>
+		<spriteType name="hueTransform">
+		<map from="*,0,0" to="201,195,141"/>
+	</spriteType>
+		<spriteType name="hueTransform">
+		<map from="*,0,0" to="60,60,60"/>
+	</spriteType>
+</contribution>
+
+<contribution type="GenericStructure" id="{4D0D0EAB-AFF0-45D5-B924-5C1A91A6CA4F}">
+		<name>町ビルE</name>
+		<price>160000000</price>
+		<size>1,1</size>
+		<structure>
+			<category byname="貸事務所"/>
+		</structure>
+		<height>3</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>70</base>
+		</population>
+		<sprite origin="64,0" offset="49">
+			<picture ref="{1E12E84E-275F-4543-802A-2331826D0D2D}"/>
+		</sprite>
+		<sprite origin="96,0" offset="49">
+			<picture ref="{1E12E84E-275F-4543-802A-2331826D0D2D}"/>
+		</sprite>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,255,255"/>
+	</spriteType>
+		<spriteType name="hueTransform">
+		<map from="*,0,0" to="192,136,126"/>
+	</spriteType>
+		<spriteType name="hueTransform">
+		<map from="*,0,0" to="122,79,31"/>
+	</spriteType>
+		<spriteType name="hueTransform">
+		<map from="*,0,0" to="154,159,180"/>
+	</spriteType>
+		<spriteType name="hueTransform">
+		<map from="*,0,0" to="201,195,141"/>
+	</spriteType>
+		<spriteType name="hueTransform">
+		<map from="*,0,0" to="60,60,60"/>
+	</spriteType>
+</contribution>
+
+<contribution type="GenericStructure" id="{8F177057-3FC4-4234-B3E9-18D4DAEAC415}">
+		<name>町ビルE</name>
+		<price>160000000</price>
+		<size>1,1</size>
+		<structure>
+			<category byname="貸事務所"/>
+		</structure>
+		<height>3</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>70</base>
+		</population>
+		<sprite origin="128,0" offset="49">
+			<picture ref="{1E12E84E-275F-4543-802A-2331826D0D2D}"/>
+		</sprite>
+		<sprite origin="160,0" offset="49">
+			<picture ref="{1E12E84E-275F-4543-802A-2331826D0D2D}"/>
+		</sprite>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,255,255"/>
+	</spriteType>
+		<spriteType name="hueTransform">
+		<map from="*,0,0" to="192,136,126"/>
+	</spriteType>
+		<spriteType name="hueTransform">
+		<map from="*,0,0" to="122,79,31"/>
+	</spriteType>
+		<spriteType name="hueTransform">
+		<map from="*,0,0" to="154,159,180"/>
+	</spriteType>
+		<spriteType name="hueTransform">
+		<map from="*,0,0" to="201,195,141"/>
+	</spriteType>
+		<spriteType name="hueTransform">
+		<map from="*,0,0" to="60,60,60"/>
+	</spriteType>
+</contribution>
+
+<contribution type="GenericStructure" id="{A85557D5-D1ED-4CF8-86E8-48C49669ACA0}">
+		<name>町ビルE</name>
+		<price>160000000</price>
+		<size>1,1</size>
+		<structure>
+			<category byname="貸事務所"/>
+		</structure>
+		<height>3</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>70</base>
+		</population>
+		<sprite origin="192,0" offset="49">
+			<picture ref="{1E12E84E-275F-4543-802A-2331826D0D2D}"/>
+		</sprite>
+		<sprite origin="224,0" offset="49">
+			<picture ref="{1E12E84E-275F-4543-802A-2331826D0D2D}"/>
+		</sprite>
+<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,255,255"/>
+	</spriteType>
+		<spriteType name="hueTransform">
+		<map from="*,0,0" to="192,136,126"/>
+	</spriteType>
+		<spriteType name="hueTransform">
+		<map from="*,0,0" to="122,79,31"/>
+	</spriteType>
+		<spriteType name="hueTransform">
+		<map from="*,0,0" to="154,159,180"/>
+	</spriteType>
+		<spriteType name="hueTransform">
+		<map from="*,0,0" to="201,195,141"/>
+	</spriteType>
+		<spriteType name="hueTransform">
+		<map from="*,0,0" to="60,60,60"/>
+	</spriteType>
+</contribution>
+</plug-in>

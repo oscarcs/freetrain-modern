@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plug-in [
+
+
+<!ENTITY vhbi_016hueTransform_001 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,252,246"/>
+		<map from="0,*,0" to="223,223,223"/>
+		<map from="0,0,*" to="229,223,211"/>
+	</spriteType>
+'>
+<!ENTITY vhbi_016hueTransform_002 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,252,246"/>
+		<map from="0,*,0" to="223,223,223"/>
+		<map from="0,0,*" to="255,209,159"/>
+	</spriteType>
+'>
+<!ENTITY vhbi_016hueTransform_003 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="255,198,187"/>
+		<map from="0,*,0" to="198,175,146"/>
+		<map from="0,0,*" to="229,223,211"/>
+	</spriteType>
+'>
+<!ENTITY vhbi_016hueTransform_004 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="183,167,158"/>
+		<map from="0,*,0" to="198,175,146"/>
+		<map from="0,0,*" to="229,223,211"/>
+	</spriteType>
+'>
+<!ENTITY vhbi_016hueTransform_005 '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="203,229,255"/>
+		<map from="0,*,0" to="223,223,223"/>
+		<map from="0,0,*" to="229,223,211"/>
+	</spriteType>
+'>
+
+]>
+
+
+
+<plug-in>
+	<title>建物"picture"(FreeTrain-想作館)</title>
+	<author>haru</author>
+	<homepage>http://hb4.seikyou.ne.jp/home/Go-Ro/FreeTrain/</homepage>
+
+
+
+
+<!-- vhbi_016 -->
+	<contribution type="picture" id="{vhbi_016-picture-C000-0000-4C8B212Dharu}">
+		<picture src="vhbi_016.bmp">
+		  <override when="night" src="vhbi_016n.bmp"/>
+		</picture>
+	</contribution>
+
+
+<!-- インテリジェントビル[B] -->
+	<contribution type="GenericStructure" id="{vhbi_016-GenericStructure-C001-000A-4C8B212Dharu}">
+		<name>インテリジェントビル</name>
+		<design>(タイプB)</design>
+		<structure>
+			<category byname="貸事務所"/>
+		</structure>
+		<price>1500000000</price>
+		<size>2,2</size>
+		<minHeight>5</minHeight>
+		<maxHeight>10</maxHeight>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>300</base>
+		</population>
+				&vhbi_016hueTransform_001;
+				&vhbi_016hueTransform_002;
+				&vhbi_016hueTransform_003;
+				&vhbi_016hueTransform_004;
+				&vhbi_016hueTransform_005;
+		<pictures>
+			<top    origin=" 0, 48" offset="24">
+				<picture ref="{vhbi_016-picture-C000-0000-4C8B212Dharu}"/>
+			</top>
+			<middle origin=" 0, 96" offset="24">
+				<picture ref="{vhbi_016-picture-C000-0000-4C8B212Dharu}"/>
+			</middle>
+			<bottom origin=" 0, 144" offset="24">
+				<picture ref="{vhbi_016-picture-C000-0000-4C8B212Dharu}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+
+<!-- 雑居ビル(2x2) -->
+	<contribution type="GenericStructure" id="{vhbi_016-GenericStructure-C001-000B-4C8B212Dharu}">
+		<name>雑居ビル(2x2)</name>
+		<design>(タイプA)</design>
+		<structure>
+			<category byname="貸事務所"/>
+		</structure>
+		<price>1500000000</price>
+		<size>2,2</size>
+		<minHeight>3</minHeight>
+		<maxHeight>5</maxHeight>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>300</base>
+		</population>
+				&vhbi_016hueTransform_001;
+				&vhbi_016hueTransform_002;
+				&vhbi_016hueTransform_003;
+				&vhbi_016hueTransform_004;
+				&vhbi_016hueTransform_005;
+		<pictures>
+			<top    origin=" 0, 0" offset="24">
+				<picture ref="{vhbi_016-picture-C000-0000-4C8B212Dharu}"/>
+			</top>
+			<middle origin=" 0, 96" offset="24">
+				<picture ref="{vhbi_016-picture-C000-0000-4C8B212Dharu}"/>
+			</middle>
+			<bottom origin=" 0, 144" offset="24">
+				<picture ref="{vhbi_016-picture-C000-0000-4C8B212Dharu}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+
+
+
+</plug-in>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>民家(小)</title>
+	<author>syousei</author>
+	<homepage>http://www.kohsuke.org/freetrain/</homepage>
+	<depend on="org.kohsuke.freetrain.structure.syousei"/>
+	
+	<contribution type="GenericStructure" id="{D6DE0AED-AECF-4d7f-8455-488016997FFF}-gs">
+		<name>民家(小)</name>
+		<structure>
+			<category byname="一戸建て"/>
+		</structure>
+		<price>15000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="0">
+			<picture ref="{D6DE0AED-AECF-4d7f-8455-488016997FFF}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.ResidentialPopulation"/>
+			<base>10</base>
+		</population>
+	</contribution>
+</plug-in>

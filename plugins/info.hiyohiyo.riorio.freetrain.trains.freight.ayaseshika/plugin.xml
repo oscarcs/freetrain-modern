@@ -1,0 +1,1412 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+<author>りおりお組換←綾瀬ヒロ・しかしか</author>
+<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+
+<depend on="jp.big.ayase.freetrain.trains"/>
+<depend on="shikashika.freetrain.traincar.freight"/>
+<depend on="shikashika.freetrain.traincar.locomotive"/>
+
+<title>列車(旧日本国有鉄道)</title>
+
+	<!-- 車両画像の定義 -->
+
+	<contribution type="picture" id="{FreeTrain-riorio-AYASE-Hiro-TrainCarImg-EF60-1}">
+		<picture src="EF60-1.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{FreeTrain-riorio-AYASE-Hiro-TrainCarImg-EF60-3}">
+		<picture src="EF60-3.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{FreeTrain-riorio-AYASE-Hiro-TrainCarPic-EF64-0001}">
+		<picture src="EF64b.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{FreeTrain-riorio-AYASE-Hiro-TrainCarPic-EF65-500-01}">
+		<picture src="EF65-500b.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-shikashika-TrainCarPic-EF200-0}">
+		<picture src="EF200b.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-shikashika-TrainCarPic-EF210-0}">
+		<picture src="EF210_000b.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-shikashika-TrainCarPic-EF210-100SA}">
+		<picture src="EF210_100_singlearmb.bmp" />
+	</contribution>
+
+	<contribution type="picture" id="{riorio-shikashika-TrainCarPic-DD51-0}">
+		<picture src="DD51_b.bmp" />
+	</contribution>
+
+
+	<!-- 車両の定義 -->
+
+	<!-- EF60一次車 青 -->
+	<contribution type="trainCar" id="{FreeTrain-riorio-AYASE-Hiro-TrainImg-EF60-1blue}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-riorio-AYASE-Hiro-TrainCarImg-EF60-1}" />
+		</sprite>
+		<capacity>0</capacity>
+		<seatedcapacity>0</seatedcapacity>
+	</contribution>
+
+	<!-- EF60一次車 茶 -->
+	<contribution type="trainCar" id="{FreeTrain-riorio-AYASE-Hiro-TrainImg-EF60-1brown}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-riorio-AYASE-Hiro-TrainCarImg-EF60-1}" />
+			<spriteType name="colorMapped">
+			  <map from="46,78,138" to="80,54,46" />
+			  <map from="64,86,190" to="120,80,70" />
+			  <map from="210,194,118" to="96,66,54" />
+			  <map from="178,150,104" to="80,54,46" />
+			  <map from="70,76,118" to="80,54,46" />
+			  <map from="50,50,128" to="58,37,35" />
+			  <map from="40,40,72" to="48,33,30" />
+			  <map from="20,20,48" to="26,20,18" />
+			  <map from="128,128,96" to="72,72,72" />
+			  <map from="64,64,64" to="36,36,36" />
+			</spriteType>
+		</sprite>
+		<capacity>0</capacity>
+		<seatedcapacity>0</seatedcapacity>
+	</contribution>
+
+	<!-- EF60三次車 青 -->
+	<contribution type="trainCar" id="{FreeTrain-riorio-AYASE-Hiro-TrainImg-EF60-3blue}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-riorio-AYASE-Hiro-TrainCarImg-EF60-3}" />
+		</sprite>
+		<capacity>0</capacity>
+		<seatedcapacity>0</seatedcapacity>
+	</contribution>
+
+	<!-- EF60三次車 茶 -->
+	<contribution type="trainCar" id="{FreeTrain-riorio-AYASE-Hiro-TrainImg-EF60-3brown}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-riorio-AYASE-Hiro-TrainCarImg-EF60-3}" />
+			<spriteType name="colorMapped">
+			  <map from="46,78,138" to="80,54,46" />
+			  <map from="64,86,190" to="120,80,70" />
+			  <map from="210,194,118" to="96,66,54" />
+			  <map from="178,150,104" to="80,54,46" />
+			  <map from="70,76,118" to="80,54,46" />
+			  <map from="50,50,128" to="58,37,35" />
+			  <map from="40,40,72" to="48,33,30" />
+			  <map from="20,20,48" to="26,20,18" />
+			  <map from="128,128,96" to="72,72,72" />
+			  <map from="64,64,64" to="36,36,36" />
+			</spriteType>
+		</sprite>
+		<capacity>0</capacity>
+		<seatedcapacity>0</seatedcapacity>
+	</contribution>
+
+	<!-- ワム60000 -->
+	<contribution type="trainCar" id="{FreeTrain-riorio-shikashika-TrainImg-wamu60000}">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture src="wamu60000.bmp" />
+		</sprite>
+		<capacity>0</capacity>
+		<seatedcapacity>0</seatedcapacity>
+	</contribution>
+
+	<!-- ワム80000 -->
+	<contribution type="trainCar" id="{FreeTrain-riorio-shikashika-TrainImg-wamu80000}">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture src="wamu80000.bmp" />
+		</sprite>
+		<capacity>0</capacity>
+		<seatedcapacity>0</seatedcapacity>
+	</contribution>
+
+	<!-- EF65-500特急色 -->
+	<contribution type="trainCar" id="{FreeTrain-riorio-AYASE-Hiro-TrainImg-EF65-501}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture src="EF65-501.bmp" />
+		</sprite>
+		<capacity>0</capacity>
+		<seatedcapacity>0</seatedcapacity>
+	</contribution>
+
+	<contribution type="trainCar" id="{FreeTrain-riorio-AYASE-Hiro-TrainImg-EF65-500}">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture src="EF65-500.bmp" />
+		</sprite>
+		<capacity>0</capacity>
+		<seatedcapacity>0</seatedcapacity>
+	</contribution>
+
+	<contribution type="trainCar" id="{FreeTrain-riorio-AYASE-Hiro-TrainImg-EF65-503}">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture src="EF65-500b.bmp" />
+		</sprite>
+		<capacity>0</capacity>
+		<seatedcapacity>0</seatedcapacity>
+	</contribution>
+
+	<!-- EF64 -->
+	<contribution type="trainCar" id="{FreeTrain-riorio-AYASE-Hiro-TrainImg-EF64-0001}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture src="EF64-1.bmp" />
+		</sprite>
+		<capacity>0</capacity>
+		<seatedcapacity>0</seatedcapacity>
+	</contribution>
+
+	<contribution type="trainCar" id="{FreeTrain-riorio-AYASE-Hiro-TrainImg-EF64-0002}">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture src="EF64.bmp" />
+		</sprite>
+		<capacity>0</capacity>
+		<seatedcapacity>0</seatedcapacity>
+	</contribution>
+
+	<contribution type="trainCar" id="{FreeTrain-riorio-AYASE-Hiro-TrainImg-EF64-0003}">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture src="EF64b.bmp" />
+		</sprite>
+		<capacity>0</capacity>
+		<seatedcapacity>0</seatedcapacity>
+	</contribution>
+
+
+	<!-- EF200 単機-->
+	<contribution type="trainCar" id="{riorio-shikashika-TrainImg-EF200-1}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{riorio-shikashika-TrainCarPic-EF200-0}" />
+		</sprite>
+		<capacity>0</capacity>
+		<seatedcapacity>0</seatedcapacity>
+	</contribution>
+
+	<!-- EF210-0 単機-->
+	<contribution type="trainCar" id="{riorio-shikashika-TrainImg-EF210-000-1}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{riorio-shikashika-TrainCarPic-EF210-0}" />
+		</sprite>
+		<capacity>0</capacity>
+		<seatedcapacity>0</seatedcapacity>
+	</contribution>
+
+	<!-- EF210-100シングルアーム 単機-->
+	<contribution type="trainCar" id="{riorio-shikashika-TrainImg-EF210-100-SA1}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{riorio-shikashika-TrainCarPic-EF210-100SA}" />
+		</sprite>
+		<capacity>0</capacity>
+		<seatedcapacity>0</seatedcapacity>
+	</contribution>
+
+	<!-- DD51 単機-->
+	<contribution type="trainCar" id="{riorio-shikashika-TrainImg-DD51-1}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{riorio-shikashika-TrainCarPic-DD51-0}" />
+		</sprite>
+		<capacity>0</capacity>
+		<seatedcapacity>0</seatedcapacity>
+	</contribution>
+
+	<!-- 旅客列車の定義 -->
+
+	<!-- 貨物列車の定義 -->
+
+	<contribution type="train" id="{FreeTrain-riorio-AYASE-Hiro-TrainHensei-EF60-1blue-tank-YO}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 60</type>
+		<name>一次青 ガソリン輸送貨物列車</name>
+		<author>りおりお←綾瀬ヒロ・しかしか</author>
+		<description>ガソリン等揮発油輸送を目的とした貨物列車。牽引はEF60一次車の青。
+		</description>
+		<fare>0</fare>
+		<price>35000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="＜" ref="{FreeTrain-riorio-AYASE-Hiro-TrainImg-EF60-1blue}"/>
+			<car char="Ｔ" ref="{FreeTrain-AYASE-Hiro-TrainImg-TAKI8000BLK}"/>
+			<car char="よ" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}"/>
+			
+			<composition>＜Ｔよ</composition>
+			<composition>＜ＴＴよ</composition>
+			<composition>＜ＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴよ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-riorio-AYASE-Hiro-TrainHensei-EF60-1brown-tank-YO}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 60</type>
+		<name>一次茶 ガソリン輸送貨物列車</name>
+		<author>りおりお←綾瀬ヒロ・しかしか</author>
+		<description>ガソリン等揮発油輸送を目的とした貨物列車。牽引はEF60一次車の茶。
+		</description>
+		<fare>0</fare>
+		<price>35000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="＜" ref="{FreeTrain-riorio-AYASE-Hiro-TrainImg-EF60-1brown}"/>
+			<car char="Ｔ" ref="{FreeTrain-AYASE-Hiro-TrainImg-TAKI8000BLK}"/>
+			<car char="よ" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}"/>
+			
+			<composition>＜Ｔよ</composition>
+			<composition>＜ＴＴよ</composition>
+			<composition>＜ＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴよ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-riorio-AYASE-Hiro-TrainHensei-EF60-3blue-tank-YO}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 60</type>
+		<name>三次青 ガソリン輸送貨物列車</name>
+		<author>りおりお←綾瀬ヒロ・しかしか</author>
+		<description>ガソリン等揮発油輸送を目的とした貨物列車。牽引はEF60三次車の青。
+		</description>
+		<fare>0</fare>
+		<price>35000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="＜" ref="{FreeTrain-riorio-AYASE-Hiro-TrainImg-EF60-3blue}"/>
+			<car char="Ｔ" ref="{FreeTrain-AYASE-Hiro-TrainImg-TAKI8000BLK}"/>
+			<car char="よ" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}"/>
+			
+			<composition>＜Ｔよ</composition>
+			<composition>＜ＴＴよ</composition>
+			<composition>＜ＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴよ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-riorio-AYASE-Hiro-TrainHensei-EF60-3brown-tank-YO}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 60</type>
+		<name>三次茶 ガソリン輸送貨物列車</name>
+		<author>りおりお←綾瀬ヒロ・しかしか</author>
+		<description>ガソリン等揮発油輸送を目的とした貨物列車。牽引はEF60三次車の茶。
+		</description>
+		<fare>0</fare>
+		<price>35000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="＜" ref="{FreeTrain-riorio-AYASE-Hiro-TrainImg-EF60-3brown}"/>
+			<car char="Ｔ" ref="{FreeTrain-AYASE-Hiro-TrainImg-TAKI8000BLK}"/>
+			<car char="よ" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}"/>
+			
+			<composition>＜Ｔよ</composition>
+			<composition>＜ＴＴよ</composition>
+			<composition>＜ＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴＴＴＴＴＴＴＴＴよ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-1brown-Freight-mix}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 60</type>
+		<name>一次茶 雑貨物列車</name>
+		<author>りおりお←しかしか・綾瀬ヒロ</author>
+		<description>電気機関車EF60一次車茶が牽引する、雑貨物列車です。最後尾に昭和37年から製造された車掌車を連結しています。
+		</description>
+		<fare>0</fare>
+		<price>35000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-riorio-AYASE-Hiro-TrainImg-EF60-1brown}"/>
+			<car char="ワ" ref="{FreeTrain-riorio-shikashika-TrainImg-wamu80000}"/>
+			<car char="ト" ref="{FreeTrain-Shika-FreightCar-TrainCar-toki15000}"/>
+			<car char="器" ref="{FreeTrain-Shika-FreightCar-TrainCar-taki43000k}"/>
+			<car char="せ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki5500-5t5g}"/>
+			<car char="そ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki5500-5t2g}"/>
+			<car char="わ" 			
+ref="{FreeTrain-riorio-shikashika-TrainImg-wamu60000}"/>
+			<car char="よ" 			
+ref="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}"/>
+
+			<composition>電わよ</composition>
+			<composition>電わせよ</composition>
+			<composition>電わ器そよ</composition>
+			<composition>電わ器せワよ</composition>
+			<composition>電わそわ器ワよ</composition>
+			<composition>電わワ器せトわよ</composition>
+			<composition>電ワそわわ器トトよ</composition>
+			<composition>電わワワト器器せわよ</composition>
+			<composition>電わワワせ器トわわせよ</composition>
+			<composition>電わトワワ器そわわ器トよ</composition>
+			<composition>電わそワトトわわ器器わワよ</composition>
+			<composition>電わワせそ器ワワトトわわ器よ</composition>
+			<composition>電わワワそ器トワせわわワわわよ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-3brown-Freight-mix}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 60</type>
+		<name>三次茶 雑貨物列車</name>
+		<author>りおりお←しかしか・綾瀬ヒロ</author>
+		<description>電気機関車EF60三次車茶が牽引する、雑貨物列車です。最後尾に昭和37年から製造された車掌車を連結しています。
+		</description>
+		<fare>0</fare>
+		<price>35000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-riorio-AYASE-Hiro-TrainImg-EF60-3brown}"/>
+			<car char="ワ" ref="{FreeTrain-riorio-shikashika-TrainImg-wamu80000}"/>
+			<car char="ト" ref="{FreeTrain-Shika-FreightCar-TrainCar-toki15000}"/>
+			<car char="器" ref="{FreeTrain-Shika-FreightCar-TrainCar-taki43000k}"/>
+			<car char="せ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki5500-5t5g}"/>
+			<car char="そ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki5500-5t2g}"/>
+			<car char="わ" 			
+ref="{FreeTrain-riorio-shikashika-TrainImg-wamu60000}"/>
+			<car char="よ" 			
+ref="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}"/>
+
+			<composition>電わよ</composition>
+			<composition>電そわよ</composition>
+			<composition>電わせ器よ</composition>
+			<composition>電わワそ器よ</composition>
+			<composition>電器ワわわそよ</composition>
+			<composition>電わわ器トワせよ</composition>
+			<composition>電ワワせそわ器器よ</composition>
+			<composition>電ト器器せわわワそよ</composition>
+			<composition>電せせわト器わせわワよ</composition>
+			<composition>電わトワ器器そわワトわよ</composition>
+			<composition>電器器わわワトト器わせそよ</composition>
+			<composition>電ワわそせわわ器器トわわトよ</composition>
+			<composition>電わわわ器トワそワトトせわわよ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-1blue-Freight-mix}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 60</type>
+		<name>一次青 雑貨物列車</name>
+		<author>りおりお←しかしか・綾瀬ヒロ</author>
+		<description>電気機関車EF60一次車青が牽引する、雑貨物列車です。最後尾に昭和37年から製造された車掌車を連結しています。
+		</description>
+		<fare>0</fare>
+		<price>35000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-riorio-AYASE-Hiro-TrainImg-EF60-1blue}"/>
+			<car char="ワ" ref="{FreeTrain-riorio-shikashika-TrainImg-wamu80000}"/>
+			<car char="ト" ref="{FreeTrain-Shika-FreightCar-TrainCar-toki15000}"/>
+			<car char="器" ref="{FreeTrain-Shika-FreightCar-TrainCar-taki43000k}"/>
+			<car char="せ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki5500-5t5g}"/>
+			<car char="そ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki5500-5t2g}"/>
+			<car char="わ" 			
+ref="{FreeTrain-riorio-shikashika-TrainImg-wamu60000}"/>
+			<car char="よ" 			
+ref="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}"/>
+
+			<composition>電わよ</composition>
+			<composition>電わせよ</composition>
+			<composition>電わ器そよ</composition>
+			<composition>電わ器せワよ</composition>
+			<composition>電わそわ器ワよ</composition>
+			<composition>電わワ器せトわよ</composition>
+			<composition>電ワそわわ器トトよ</composition>
+			<composition>電わワワト器器せわよ</composition>
+			<composition>電わワそせ器トわわせよ</composition>
+			<composition>電わトワワ器そわわ器トよ</composition>
+			<composition>電わそワトトわわ器器わワよ</composition>
+			<composition>電わワせそ器ワワトトわわ器よ</composition>
+			<composition>電わワワそ器トワせわわワトわよ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-3blue-Freight-mix}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 60</type>
+		<name>三次青 雑貨物列車</name>
+		<author>りおりお←しかしか・綾瀬ヒロ</author>
+		<description>電気機関車EF60三次車青が牽引する、雑貨物列車です。最後尾に昭和37年から製造された車掌車を連結しています。
+		</description>
+		<fare>0</fare>
+		<price>35000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-riorio-AYASE-Hiro-TrainImg-EF60-3blue}"/>
+			<car char="ワ" ref="{FreeTrain-riorio-shikashika-TrainImg-wamu80000}"/>
+			<car char="ト" ref="{FreeTrain-Shika-FreightCar-TrainCar-toki15000}"/>
+			<car char="器" ref="{FreeTrain-Shika-FreightCar-TrainCar-taki43000k}"/>
+			<car char="せ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki5500-5t5g}"/>
+			<car char="そ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki5500-5t2g}"/>
+			<car char="わ" ref="{FreeTrain-riorio-shikashika-TrainImg-wamu60000}"/>
+			<car char="よ" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}"/>
+
+			<composition>電わよ</composition>
+			<composition>電そわよ</composition>
+			<composition>電わせ器よ</composition>
+			<composition>電わワそ器よ</composition>
+			<composition>電器ワわわそよ</composition>
+			<composition>電わわ器トトせよ</composition>
+			<composition>電ワワせそわ器器よ</composition>
+			<composition>電ト器器せわわワそよ</composition>
+			<composition>電せせわト器わせわワよ</composition>
+			<composition>電わトワわ器そわ器トわよ</composition>
+			<composition>電器器わわワトト器わワそよ</composition>
+			<composition>電ワわそせわわ器器トわわトよ</composition>
+			<composition>電わわわ器トワそワワトせせわよ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-1brown-container}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 60</type>
+		<name>一次茶 コンテナ列車</name>
+		<author>りおりお←しかしか・綾瀬ヒロ</author>
+		<description>電気機関車EF60一次車茶が牽引する、コンテナ貨物列車です。最後尾に昭和37年から製造された車掌車を連結しています。
+		</description>
+		<fare>0</fare>
+		<price>35000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-riorio-AYASE-Hiro-TrainImg-EF60-1brown}"/>
+			<car char="せ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki5500-5t5g}"/>
+			<car char="そ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki5500-5t2g}"/>
+			<car char="よ" 			
+ref="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}"/>
+
+			<composition>電</composition>
+			<composition>電そよ</composition>
+			<composition>電そそよ</composition>
+			<composition>電そせそよ</composition>
+			<composition>電せそそせよ</composition>
+			<composition>電せせそせそよ</composition>
+			<composition>電そそせそせせよ</composition>
+			<composition>電そせせそせせせよ</composition>
+			<composition>電せそそせそそせせよ</composition>
+			<composition>電せせそそせそそせそよ</composition>
+			<composition>電せそそせそせせそそそよ</composition>
+			<composition>電そせそそせそせせそせそよ</composition>
+			<composition>電そそそせそせせそせそせせよ</composition>
+			<composition>電そそせそそせせそせそそせせよ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-3brown-container}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 60</type>
+		<name>三次茶 コンテナ列車</name>
+		<author>りおりお←しかしか・綾瀬ヒロ</author>
+		<description>電気機関車EF60三次車茶が牽引する、コンテナ貨物列車です。最後尾に昭和37年から製造された車掌車を連結しています。
+		</description>
+		<fare>0</fare>
+		<price>35000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-riorio-AYASE-Hiro-TrainImg-EF60-3brown}"/>
+			<car char="せ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki5500-5t5g}"/>
+			<car char="そ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki5500-5t2g}"/>
+			<car char="よ" 			
+ref="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}"/>
+
+			<composition>電</composition>
+			<composition>電そよ</composition>
+			<composition>電せそよ</composition>
+			<composition>電そせせよ</composition>
+			<composition>電そそせそよ</composition>
+			<composition>電せそせそそよ</composition>
+			<composition>電せそせせそそよ</composition>
+			<composition>電そせそせせそそよ</composition>
+			<composition>電そそせそそそせせよ</composition>
+			<composition>電せそそせそそそせそよ</composition>
+			<composition>電せそせそせせそそそせよ</composition>
+			<composition>電そそそせせせそそせそそよ</composition>
+			<composition>電せせそせそそせそそせそせよ</composition>
+			<composition>電そせそそせそせそそそせそせよ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-1blue-container}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 60</type>
+		<name>一次青 コンテナ列車</name>
+		<author>りおりお←しかしか・綾瀬ヒロ</author>
+		<description>電気機関車EF60一次車青が牽引する、コンテナ貨物列車です。最後尾に昭和37年から製造された車掌車を連結しています。
+		</description>
+		<fare>0</fare>
+		<price>35000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-riorio-AYASE-Hiro-TrainImg-EF60-1blue}"/>
+			<car char="せ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki5500-5t5g}"/>
+			<car char="そ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki5500-5t2g}"/>
+			<car char="よ" 			
+ref="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}"/>
+
+			<composition>電</composition>
+			<composition>電そよ</composition>
+			<composition>電せそよ</composition>
+			<composition>電せそせよ</composition>
+			<composition>電そそせせよ</composition>
+			<composition>電せそせそそよ</composition>
+			<composition>電そせそせせそよ</composition>
+			<composition>電せせそせせせそよ</composition>
+			<composition>電せそそそそせせそよ</composition>
+			<composition>電せそそせそせそそせよ</composition>
+			<composition>電せそせそせせせそそせよ</composition>
+			<composition>電そせそそせせそせそせせよ</composition>
+			<composition>電そそせそせそせそそせせそよ</composition>
+			<composition>電そそそそせそせそせそせせそよ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-3blue-container}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 60</type>
+		<name>三次青 コンテナ列車</name>
+		<author>りおりお←しかしか・綾瀬ヒロ</author>
+		<description>電気機関車EF60三次車青が牽引する、コンテナ貨物列車です。最後尾に昭和37年から製造された車掌車を連結しています。
+		</description>
+		<fare>0</fare>
+		<price>35000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-riorio-AYASE-Hiro-TrainImg-EF60-3blue}"/>
+			<car char="せ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki5500-5t5g}"/>
+			<car char="そ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki5500-5t2g}"/>
+			<car char="よ" 			
+ref="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}"/>
+
+			<composition>電</composition>
+			<composition>電せよ</composition>
+			<composition>電せせよ</composition>
+			<composition>電そそせよ</composition>
+			<composition>電そせそそよ</composition>
+			<composition>電そせせそそよ</composition>
+			<composition>電そせそせそそよ</composition>
+			<composition>電そせせそそせそよ</composition>
+			<composition>電そせそそせせそせよ</composition>
+			<composition>電せそせそそせそそせよ</composition>
+			<composition>電せせそせせそせそせそよ</composition>
+			<composition>電そそせそそせそそせせそよ</composition>
+			<composition>電せそそそせせせそせそせそよ</composition>
+			<composition>電そそそそせそせそそそせせそよ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-1brown-Freight-wamu}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 60</type>
+		<name>一次茶 有蓋貨物列車</name>
+		<author>りおりお←しかしか・綾瀬ヒロ</author>
+		<description>電気機関車EF60一次車茶がワム80000を牽引する貨物列車です。ワム80000は紙やビールの輸送に使われていました。
+		</description>
+		<fare>0</fare>
+		<price>35000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-riorio-AYASE-Hiro-TrainImg-EF60-1brown}"/>
+			<car char="ワ" ref="{FreeTrain-riorio-shikashika-TrainImg-wamu80000}"/>
+			<car char="よ" 			
+ref="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}"/>
+
+			<composition>電ワよ</composition>
+			<composition>電ワワよ</composition>
+			<composition>電ワワワよ</composition>
+			<composition>電ワワワワよ</composition>
+			<composition>電ワワワワワよ</composition>
+			<composition>電ワワワワワワよ</composition>
+			<composition>電ワワワワワワワよ</composition>
+			<composition>電ワワワワワワワワよ</composition>
+			<composition>電ワワワワワワワワワよ</composition>
+			<composition>電ワワワワワワワワワワよ</composition>
+			<composition>電ワワワワワワワワワワワよ</composition>
+			<composition>電ワワワワワワワワワワワワよ</composition>
+			<composition>電ワワワワワワワワワワワワワよ</composition>
+			<composition>電ワワワワワワワワワワワワワワよ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-3blue-Freight-wamu}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 60</type>
+		<name>三次青 有蓋貨物列車</name>
+		<author>りおりお←しかしか・綾瀬ヒロ</author>
+		<description>電気機関車EF60三次車青がワム80000を牽引する貨物列車です。ワム80000は紙やビールの輸送に使われていました。
+		</description>
+		<fare>0</fare>
+		<price>35000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-riorio-AYASE-Hiro-TrainImg-EF60-3blue}"/>
+			<car char="ワ" ref="{FreeTrain-riorio-shikashika-TrainImg-wamu80000}"/>
+			<car char="よ" 			
+ref="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}"/>
+
+			<composition>電ワよ</composition>
+			<composition>電ワワよ</composition>
+			<composition>電ワワワよ</composition>
+			<composition>電ワワワワよ</composition>
+			<composition>電ワワワワワよ</composition>
+			<composition>電ワワワワワワよ</composition>
+			<composition>電ワワワワワワワよ</composition>
+			<composition>電ワワワワワワワワよ</composition>
+			<composition>電ワワワワワワワワワよ</composition>
+			<composition>電ワワワワワワワワワワよ</composition>
+			<composition>電ワワワワワワワワワワワよ</composition>
+			<composition>電ワワワワワワワワワワワワよ</composition>
+			<composition>電ワワワワワワワワワワワワワよ</composition>
+			<composition>電ワワワワワワワワワワワワワワよ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-riorio-AYASE-Hiro-TrainHensei-K02-05-YO}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 65 特急色</type>
+		<name>ガソリン輸送貨物列車（ヨつき）</name>
+		<author>りおりお←綾瀬ヒロ（ヨ＝しかしか）</author>
+		<description>ガソリン等揮発油輸送を目的とした貨物列車。牽引はEF65単機または重連。
+		</description>
+		<fare>0</fare>
+		<price>35000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="＜" ref="{FreeTrain-riorio-AYASE-Hiro-TrainImg-EF65-501}"/>
+			<car char="≪" ref="{FreeTrain-riorio-AYASE-Hiro-TrainImg-EF65-500}"/>
+			<car char="Ｔ" ref="{FreeTrain-AYASE-Hiro-TrainImg-TAKI8000BLK}"/>
+			<car char="よ" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}"/>
+			
+			<composition>＜Ｔよ</composition>
+			<composition>＜ＴＴよ</composition>
+			<composition>＜ＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴよ</composition>
+			<composition>＜ＴＴＴＴＴＴＴよ</composition>
+			<composition>＜≪ＴＴＴＴＴＴＴよ</composition>
+			<composition>＜≪ＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜≪ＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜≪ＴＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜≪ＴＴＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜≪ＴＴＴＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜≪ＴＴＴＴＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>＜≪ＴＴＴＴＴＴＴＴＴＴＴＴＴＴよ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-riorio-AYASE-Hiro-TrainHensei-K02-02-YO}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 64</type>
+		<name>ガソリン輸送貨物列車（ヨつき）</name>
+		<author>りおりお←綾瀬ヒロ（ヨ＝しかしか）</author>
+		<description>ガソリン等揮発油輸送を目的とした貨物列車。牽引はEF64単機または重連。
+		</description>
+		<fare>0</fare>
+		<price>35000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="＜" ref="{FreeTrain-riorio-AYASE-Hiro-TrainImg-EF64-0002}"/>
+			<car char="≪" ref="{FreeTrain-riorio-AYASE-Hiro-TrainImg-EF64-0001}"/>
+			<car char="Ｔ" ref="{FreeTrain-AYASE-Hiro-TrainImg-TAKI8000BLK}"/>
+			<car char="よ" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}"/>
+			
+			<composition>≪Ｔよ</composition>
+			<composition>≪ＴＴよ</composition>
+			<composition>≪ＴＴＴよ</composition>
+			<composition>≪ＴＴＴＴよ</composition>
+			<composition>≪ＴＴＴＴＴよ</composition>
+			<composition>≪ＴＴＴＴＴＴよ</composition>
+			<composition>≪ＴＴＴＴＴＴＴよ</composition>
+			<composition>≪＜ＴＴＴＴＴＴＴよ</composition>
+			<composition>≪＜ＴＴＴＴＴＴＴＴよ</composition>
+			<composition>≪＜ＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>≪＜ＴＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>≪＜ＴＴＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>≪＜ＴＴＴＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>≪＜ＴＴＴＴＴＴＴＴＴＴＴＴＴよ</composition>
+			<composition>≪＜ＴＴＴＴＴＴＴＴＴＴＴＴＴＴよ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF64-Freight-mix}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 64</type>
+		<name>雑貨物列車</name>
+		<author>りおりお←しかしか・機関車綾瀬ヒロ</author>
+		<description>電気機関車EF64が牽引する、雑貨物列車です。最後尾に昭和37年から製造された車掌車を連結しています。
+		</description>
+		<fare>0</fare>
+		<price>35000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-riorio-AYASE-Hiro-TrainImg-EF64-0002}"/>
+			<car char="≪" ref="{FreeTrain-riorio-AYASE-Hiro-TrainImg-EF64-0001}"/>
+			<car char="ワ" ref="{FreeTrain-riorio-shikashika-TrainImg-wamu80000}"/>
+			<car char="ト" ref="{FreeTrain-Shika-FreightCar-TrainCar-toki15000}"/>
+			<car char="器" ref="{FreeTrain-Shika-FreightCar-TrainCar-taki43000k}"/>
+			<car char="せ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki5500-5t5g}"/>
+			<car char="そ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki5500-5t2g}"/>
+			<car char="わ" 			
+ref="{FreeTrain-riorio-shikashika-TrainImg-wamu60000}"/>
+			<car char="よ" 			
+ref="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}"/>
+
+			<composition>≪ワよ</composition>
+			<composition>≪ワせよ</composition>
+			<composition>≪わ器そよ</composition>
+			<composition>≪ワ器せわよ</composition>
+			<composition>≪ワせわわ器よ</composition>
+			<composition>≪わわせト器ワよ</composition>
+			<composition>≪わそ器わワトトよ</composition>
+			<composition>≪電ワワト器器わせよ</composition>
+			<composition>≪電ワそせ器トわわせよ</composition>
+			<composition>≪電トわわ器そワ器トトよ</composition>
+			<composition>≪電そわトトわワワワ器器よ</composition>
+			<composition>≪電ワせせ器わわトトそワ器よ</composition>
+			<composition>≪電ワワそ器トワせわわわトせよ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-riorio-Shika-RailroadTrain-EF58-Freight-Tank}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 58</type>
+		<name>タンカー列車</name>
+		<author>りおりお←しかしか</author>
+		<description>電気機関車EF58(デッキ付)が牽引する、タンク貨物です。最後尾に昭和37年から製造された車掌車を連結しています。貨物だとEF18かもしれませんが。
+		</description>
+		<fare>0</fare>
+		<price>35000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EF58-Deck}"/>
+			<car char="器" ref="{FreeTrain-Shika-FreightCar-TrainCar-taki43000k}"/>
+			<car char="よ" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}"/>
+
+			<composition>電器よ</composition>
+			<composition>電器器よ</composition>
+			<composition>電器器器よ</composition>
+			<composition>電器器器器よ</composition>
+			<composition>電器器器器器よ</composition>
+			<composition>電器器器器器器よ</composition>
+			<composition>電器器器器器器器よ</composition>
+			<composition>電器器器器器器器器よ</composition>
+			<composition>電器器器器器器器器器よ</composition>
+			<composition>電器器器器器器器器器器よ</composition>
+			<composition>電器器器器器器器器器器器よ</composition>
+			<composition>電器器器器器器器器器器器器よ</composition>
+			<composition>電器器器器器器器器器器器器器よ</composition>
+			<composition>電器器器器器器器器器器器器器器よ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-riorio-Shika-RailroadTrain-EF58-Freight-Waki}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 58</type>
+		<name>有蓋貨物列車</name>
+		<author>りおりお←しかしか</author>
+		<description>電気機関車EF58(デッキ付)が牽引する、ワム80000有蓋貨物です。ワム80000は紙やビールの輸送に使用されました。貨物だとEF18かもしれませんが。
+		</description>
+		<fare>0</fare>
+		<price>35000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EF58-Deck}"/>
+			<car char="ワ" ref="{FreeTrain-riorio-shikashika-TrainImg-wamu80000}"/>
+			<car char="よ" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}"/>
+
+			<composition>電ワよ</composition>
+			<composition>電ワワよ</composition>
+			<composition>電ワワワよ</composition>
+			<composition>電ワワワワよ</composition>
+			<composition>電ワワワワワよ</composition>
+			<composition>電ワワワワワワよ</composition>
+			<composition>電ワワワワワワワよ</composition>
+			<composition>電ワワワワワワワワよ</composition>
+			<composition>電ワワワワワワワワワよ</composition>
+			<composition>電ワワワワワワワワワワよ</composition>
+			<composition>電ワワワワワワワワワワワよ</composition>
+			<composition>電ワワワワワワワワワワワワよ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-riorio-Shika-RailroadTrain-EF58-Freight-mix}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 58</type>
+		<name>雑貨物列車</name>
+		<author>りおりお←しかしか</author>
+		<description>電気機関車EF58(デッキ付)が牽引する、雑貨物列車です。最後尾に昭和37年から製造された車掌車を連結しています。貨物だとEF18かもしれませんが。
+		</description>
+		<fare>0</fare>
+		<price>35000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EF58-Deck}"/>
+			<car char="ワ" ref="{FreeTrain-riorio-shikashika-TrainImg-wamu80000}"/>
+			<car char="ト" ref="{FreeTrain-Shika-FreightCar-TrainCar-toki15000}"/>
+			<car char="器" ref="{FreeTrain-Shika-FreightCar-TrainCar-taki43000k}"/>
+			<car char="せ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki5500-5t5g}"/>
+			<car char="そ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki5500-5t2g}"/>
+			<car char="わ" ref="{FreeTrain-riorio-shikashika-TrainImg-wamu60000}"/>
+			<car char="よ" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}"/>
+
+			<composition>電わよ</composition>
+			<composition>電ワせよ</composition>
+			<composition>電わ器せよ</composition>
+			<composition>電ワわ器せよ</composition>
+			<composition>電ワせ器わわよ</composition>
+			<composition>電わせワト器わよ</composition>
+			<composition>電わそ器ワワトわよ</composition>
+			<composition>電せワワトト器わせよ</composition>
+			<composition>電わわそわ器ワトトワよ</composition>
+			<composition>電ワトわわわそワ器トトよ</composition>
+			<composition>電せそワトトわわわワ器器よ</composition>
+			<composition>電わわ器せせワトワワわト器よ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-riorio-shikashika-RailroadTrain-EF58-brown-container}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 58</type>
+		<name>デッキ コンテナ列車</name>
+		<author>りおりお←しかしか</author>
+		<description>電気機関車EF58デッキ形が牽引する、コンテナ貨物列車です。最後尾に昭和37年から製造された車掌車を連結しています。
+		</description>
+		<fare>0</fare>
+		<price>35000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EF58-Deck}"/>
+			<car char="せ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki5500-5t5g}"/>
+			<car char="そ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki5500-5t2g}"/>
+			<car char="よ" 			
+ref="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}"/>
+
+			<composition>電</composition>
+			<composition>電そよ</composition>
+			<composition>電せそよ</composition>
+			<composition>電せせそよ</composition>
+			<composition>電そそそせよ</composition>
+			<composition>電せそそせそよ</composition>
+			<composition>電そそせそそそよ</composition>
+			<composition>電せそせそせそそよ</composition>
+			<composition>電せそそせそそそせよ</composition>
+			<composition>電そそせそそせそせそよ</composition>
+			<composition>電せそせせそせせそそせよ</composition>
+			<composition>電そせそそそそせそせそそよ</composition>
+			<composition>電そそせそせせそせせせそそよ</composition>
+			<composition>電そせそそせそせそそせそそせよ</composition>
+		</config>
+	</contribution>
+
+
+
+	<contribution type="train" id="{FreeTrain-Shika-RailroadTrain-EH10-2-Freight-koki}">
+		<company>旧日本国有鉄道</company>
+		<type>EH 10</type>
+		<name>*2コンテナ列車</name>
+		<author>りおりお←しかしか</author>
+		<description>重貨物用電気機関車EH10が牽引する、一般コンテナ荷物列車です。
+		</description>
+		<fare>0</fare>
+		<price>40000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EH10-2a}"/>
+			<car char="気" ref="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EH10-2b-R}"/>
+			<car char="せ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki5500-5t5g}"/>
+			<car char="そ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki5500-5t2g}"/>
+
+			<car char="よ" ref="{FreeTrain-Shika-FreightCar-TrainCar-yo6000}"/>
+
+			<composition>電気せよ</composition>
+			<composition>電気せせよ</composition>
+			<composition>電気せせそよ</composition>
+			<composition>電気せそせそよ</composition>
+			<composition>電気せそそせせよ</composition>
+			<composition>電気そせそせそせよ</composition>
+			<composition>電気せせせせそそせよ</composition>
+			<composition>電気せせそそせせせそよ</composition>
+			<composition>電気せそそせそせそそせよ</composition>
+			<composition>電気せそせそそせせせそせよ</composition>
+			<composition>電気せせせそせそそせそせそよ</composition>
+			<composition>電気せそそせせそそせせせそせよ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{riorio-shikashika-train-Freight-Container-koki100101-JRF-01}">
+		<company>JR貨物</company>
+		<type>コキ101</type>
+		<name>コンテナ貨物列車A</name>
+		<author>りおりお</author>
+		<description>コキ100とコキ101が4両でユニットを組んでいます。パターンA。
+		</description>
+		<fare>0</fare>
+		<price>5000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="あ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-0}"/>
+			<car char="か" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft2-jr1}"/>
+			<car char="き" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft2-jr2}"/>
+			<car char="さ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft3-jr1}"/>
+			<car char="し" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft3-jr2}"/>
+			<car char="た" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft4-jr1}"/>
+			<car char="ち" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft4-jr2}"/>
+			<car char="つ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft4-jr3}"/>
+			<car char="て" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft4-jr4}"/>
+			<car char="な" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft5-jr1}"/>
+			<car char="に" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft5-jr2}"/>
+			<car char="ぬ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft5-jr3}"/>
+			<car char="ね" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft5-jr4}"/>
+			<car char="の" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft5-jr5}"/>
+
+			<car char="ア" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-0}"/>
+			<car char="イ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-0-R}"/>
+			<car char="ウ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-0t-R}"/>
+			<car char="カ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft2-jr1}"/>
+			<car char="キ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft2-jr1-R}"/>
+			<car char="ク" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft2-jr1t-R}"/>
+			<car char="ガ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft2-jr2}"/>
+			<car char="ギ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft2-jr2-R}"/>
+			<car char="グ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft2-jr2t-R}"/>
+			<car char="サ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr1}"/>
+			<car char="シ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr1-R}"/>
+			<car char="ス" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr1t-R}"/>
+			<car char="ザ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr2}"/>
+			<car char="ジ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr2-R}"/>
+			<car char="ズ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr2t-R}"/>
+			<car char="タ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr3}"/>
+			<car char="チ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr3-R}"/>
+			<car char="ツ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr3t-R}"/>
+			<car char="ダ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft4-jr1}"/>
+			<car char="ヂ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft4-jr1-R}"/>
+			<car char="ヅ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft4-jr1t-R}"/>
+			<car char="ナ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft4-jr2}"/>
+			<car char="ニ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft4-jr2-R}"/>
+			<car char="ヌ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft4-jr2t-R}"/>
+			<car char="ハ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft5-jr1}"/>
+			<car char="ヒ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft5-jr1-R}"/>
+			<car char="フ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft5-jr1t-R}"/>
+			<car char="バ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft5-jr2}"/>
+			<car char="ビ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft5-jr2-R}"/>
+			<car char="ブ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft5-jr2t-R}"/>
+
+			<composition>ガたしズ</composition>
+			<composition>ガたしジハつきヌ</composition>
+			<composition>ガたしジハつきニナさねツ</composition>
+			<composition>ガたしジハつきニナさねチタかにグ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{riorio-shikashika-train-Freight-Container-koki100101-JRF-02}">
+		<company>JR貨物</company>
+		<type>コキ101</type>
+		<name>コンテナ貨物列車B</name>
+		<author>りおりお</author>
+		<description>コキ100とコキ101が4両でユニットを組んでいます。パターンB。
+		</description>
+		<fare>0</fare>
+		<price>5000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="あ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-0}"/>
+			<car char="か" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft2-jr1}"/>
+			<car char="き" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft2-jr2}"/>
+			<car char="さ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft3-jr1}"/>
+			<car char="し" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft3-jr2}"/>
+			<car char="た" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft4-jr1}"/>
+			<car char="ち" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft4-jr2}"/>
+			<car char="つ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft4-jr3}"/>
+			<car char="て" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft4-jr4}"/>
+			<car char="な" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft5-jr1}"/>
+			<car char="に" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft5-jr2}"/>
+			<car char="ぬ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft5-jr3}"/>
+			<car char="ね" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft5-jr4}"/>
+			<car char="の" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft5-jr5}"/>
+
+			<car char="ア" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-0}"/>
+			<car char="イ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-0-R}"/>
+			<car char="ウ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-0t-R}"/>
+			<car char="カ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft2-jr1}"/>
+			<car char="キ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft2-jr1-R}"/>
+			<car char="ク" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft2-jr1t-R}"/>
+			<car char="ガ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft2-jr2}"/>
+			<car char="ギ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft2-jr2-R}"/>
+			<car char="グ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft2-jr2t-R}"/>
+			<car char="サ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr1}"/>
+			<car char="シ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr1-R}"/>
+			<car char="ス" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr1t-R}"/>
+			<car char="ザ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr2}"/>
+			<car char="ジ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr2-R}"/>
+			<car char="ズ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr2t-R}"/>
+			<car char="タ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr3}"/>
+			<car char="チ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr3-R}"/>
+			<car char="ツ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr3t-R}"/>
+			<car char="ダ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft4-jr1}"/>
+			<car char="ヂ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft4-jr1-R}"/>
+			<car char="ヅ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft4-jr1t-R}"/>
+			<car char="ナ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft4-jr2}"/>
+			<car char="ニ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft4-jr2-R}"/>
+			<car char="ヌ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft4-jr2t-R}"/>
+			<car char="ハ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft5-jr1}"/>
+			<car char="ヒ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft5-jr1-R}"/>
+			<car char="フ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft5-jr1t-R}"/>
+			<car char="バ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft5-jr2}"/>
+			<car char="ビ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft5-jr2-R}"/>
+			<car char="ブ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft5-jr2t-R}"/>
+			<composition>ザにしフ</composition>
+			<composition>ザにしヒガたぬク</composition>
+			<composition>ザにしヒガたぬキダきのヅ</composition>
+			<composition>ザにしヒガたぬキダきのヂバかなヌ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{riorio-shikashika-train-Freight-Container-koki100101-JRF-03}">
+		<company>JR貨物</company>
+		<type>コキ101</type>
+		<name>コンテナ貨物列車C</name>
+		<author>りおりお</author>
+		<description>コキ100とコキ101が4両でユニットを組んでいます。パターンC。
+		</description>
+		<fare>0</fare>
+		<price>5000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="あ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-0}"/>
+			<car char="か" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft2-jr1}"/>
+			<car char="き" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft2-jr2}"/>
+			<car char="さ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft3-jr1}"/>
+			<car char="し" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft3-jr2}"/>
+			<car char="た" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft4-jr1}"/>
+			<car char="ち" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft4-jr2}"/>
+			<car char="つ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft4-jr3}"/>
+			<car char="て" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft4-jr4}"/>
+			<car char="な" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft5-jr1}"/>
+			<car char="に" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft5-jr2}"/>
+			<car char="ぬ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft5-jr3}"/>
+			<car char="ね" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft5-jr4}"/>
+			<car char="の" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft5-jr5}"/>
+
+			<car char="ア" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-0}"/>
+			<car char="イ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-0-R}"/>
+			<car char="ウ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-0t-R}"/>
+			<car char="カ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft2-jr1}"/>
+			<car char="キ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft2-jr1-R}"/>
+			<car char="ク" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft2-jr1t-R}"/>
+			<car char="ガ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft2-jr2}"/>
+			<car char="ギ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft2-jr2-R}"/>
+			<car char="グ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft2-jr2t-R}"/>
+			<car char="サ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr1}"/>
+			<car char="シ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr1-R}"/>
+			<car char="ス" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr1t-R}"/>
+			<car char="ザ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr2}"/>
+			<car char="ジ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr2-R}"/>
+			<car char="ズ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr2t-R}"/>
+			<car char="タ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr3}"/>
+			<car char="チ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr3-R}"/>
+			<car char="ツ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr3t-R}"/>
+			<car char="ダ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft4-jr1}"/>
+			<car char="ヂ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft4-jr1-R}"/>
+			<car char="ヅ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft4-jr1t-R}"/>
+			<car char="ナ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft4-jr2}"/>
+			<car char="ニ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft4-jr2-R}"/>
+			<car char="ヌ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft4-jr2t-R}"/>
+			<car char="ハ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft5-jr1}"/>
+			<car char="ヒ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft5-jr1-R}"/>
+			<car char="フ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft5-jr1t-R}"/>
+			<car char="バ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft5-jr2}"/>
+			<car char="ビ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft5-jr2-R}"/>
+			<car char="ブ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft5-jr2t-R}"/>
+			<composition>バしねフ</composition>
+			<composition>バしねヒカたのヌ</composition>
+			<composition>バしねヒカたのニサなきグ</composition>
+			<composition>バしねヒカたのニサなきギザなしヅ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{riorio-shikashika-train-Freight-Container-koki100101-JRF-04}">
+		<company>JR貨物</company>
+		<type>コキ101</type>
+		<name>コンテナ貨物列車D</name>
+		<author>りおりお</author>
+		<description>コキ100とコキ101が4両でユニットを組んでいます。パターンD。
+		</description>
+		<fare>0</fare>
+		<price>5000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="あ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-0}"/>
+			<car char="か" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft2-jr1}"/>
+			<car char="き" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft2-jr2}"/>
+			<car char="さ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft3-jr1}"/>
+			<car char="し" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft3-jr2}"/>
+			<car char="た" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft4-jr1}"/>
+			<car char="ち" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft4-jr2}"/>
+			<car char="つ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft4-jr3}"/>
+			<car char="て" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft4-jr4}"/>
+			<car char="な" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft5-jr1}"/>
+			<car char="に" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft5-jr2}"/>
+			<car char="ぬ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft5-jr3}"/>
+			<car char="ね" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft5-jr4}"/>
+			<car char="の" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki100-12ft5-jr5}"/>
+
+			<car char="ア" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-0}"/>
+			<car char="イ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-0-R}"/>
+			<car char="ウ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-0t-R}"/>
+			<car char="カ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft2-jr1}"/>
+			<car char="キ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft2-jr1-R}"/>
+			<car char="ク" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft2-jr1t-R}"/>
+			<car char="ガ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft2-jr2}"/>
+			<car char="ギ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft2-jr2-R}"/>
+			<car char="グ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft2-jr2t-R}"/>
+			<car char="サ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr1}"/>
+			<car char="シ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr1-R}"/>
+			<car char="ス" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr1t-R}"/>
+			<car char="ザ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr2}"/>
+			<car char="ジ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr2-R}"/>
+			<car char="ズ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr2t-R}"/>
+			<car char="タ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr3}"/>
+			<car char="チ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr3-R}"/>
+			<car char="ツ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft3-jr3t-R}"/>
+			<car char="ダ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft4-jr1}"/>
+			<car char="ヂ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft4-jr1-R}"/>
+			<car char="ヅ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft4-jr1t-R}"/>
+			<car char="ナ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft4-jr2}"/>
+			<car char="ニ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft4-jr2-R}"/>
+			<car char="ヌ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft4-jr2t-R}"/>
+			<car char="ハ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft5-jr1}"/>
+			<car char="ヒ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft5-jr1-R}"/>
+			<car char="フ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft5-jr1t-R}"/>
+			<car char="バ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft5-jr2}"/>
+			<car char="ビ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft5-jr2-R}"/>
+			<car char="ブ" ref="{FreeTrain-Shika-FreightCar-TrainCar-koki101-12ft5-jr2t-R}"/>
+			<composition>ガさかフ</composition>
+			<composition>ガさかチサなきヌ</composition>
+			<composition>ガさかチサなきニタちしズ</composition>
+			<composition>ガさかチサなきニタちしギザにたヅ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{riorio-shikashika-RailroadTrain-EF200-Freight-only1-JRF}">
+		<company>JR貨物</company>
+		<type>EF 200</type>
+		<name>単機</name>
+		<author>りおりお　←しかしか</author>
+		<description>6000kWという狭軌で世界一の出力を誇る貨物用直流電気機関車EF200です。
+		</description>
+		<fare>0</fare>
+		<price>50000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{riorio-shikashika-TrainImg-EF200-1}"/>
+			<composition>電</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{riorio-shikashika-RailroadTrain-EF210-000-Freight-only1-JRF}">
+		<company>JR貨物</company>
+		<type>EF 210</type>
+		<name>-0番台 単機</name>
+		<author>りおりお　←しかしか</author>
+		<description>「ECO-POWER桃太郎」の愛称をもつ貨物用直流電気機関車EF210(0番台)です。
+		</description>
+		<fare>0</fare>
+		<price>40000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{riorio-shikashika-TrainImg-EF210-000-1}"/>
+			<composition>電</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{riorio-shikashika-RailroadTrain-EF210-100SA-Freight-only1-JRF}">
+		<company>JR貨物</company>
+		<type>EF 210</type>
+		<name>シングルアームパンタグラフ 単機</name>
+		<author>りおりお　←しかしか</author>
+		<description>「ECO-POWER桃太郎」の愛称をもつ貨物用直流電気機関車EF210(100番台シングルアームパンタグラフ)です。
+		</description>
+		<fare>0</fare>
+		<price>40000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{riorio-shikashika-TrainImg-EF210-100-SA1}"/>
+			<composition>電</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{riorio-shikashika-RailroadTrain-DD51-Freight-only1-JRF}">
+		<company>JR貨物</company>
+		<type>DD 51</type>
+		<name>単機</name>
+		<author>りおりお　←しかしか</author>
+		<description>液体式ディーゼル機関車DD51(JR貨物更新機)です。
+		</description>
+		<fare>0</fare>
+		<price>35000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="D" ref="{riorio-shikashika-TrainImg-DD51-1}"/>
+			<composition>D</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{riorio-AYASE-Hiroa-RailroadTrain-EF64-Freight-only1-JRF}">
+		<company>JR貨物</company>
+		<type>EF 64</type>
+		<name>単機</name>
+		<author>りおりお　←綾瀬ヒロ</author>
+		<description>中央線などの勾配線区むけに製造された直流形電気機関車です。
+		</description>
+		<fare>0</fare>
+		<price>40000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-riorio-AYASE-Hiro-TrainImg-EF64-0003}"/>
+			<composition>電</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{riorio-AYASE-Hiroa-RailroadTrain-EF65-500-Freight-only1-JRF}">
+		<company>JR貨物</company>
+		<type>EF 65 特急色</type>
+		<name>単機</name>
+		<author>りおりお　←綾瀬ヒロ</author>
+		<description>東海道線などの平坦線区むけに製造された直流形電気機関車です。
+		</description>
+		<fare>0</fare>
+		<price>40000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="電" ref="{FreeTrain-riorio-AYASE-Hiro-TrainImg-EF65-503}"/>
+			<composition>電</composition>
+		</config>
+	</contribution>
+
+
+
+</plug-in>

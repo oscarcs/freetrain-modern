@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>underpath</title>
+	<author>ては</author>
+	<homepage></homepage>
+	
+	<contribution type="commercial" id="{nekoneko-nyanyanya-underpath-1}">
+		<group>アンダーパス</group>
+		<price>1000000</price>
+		<size>4,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="29">
+		<picture src="underpath.bmp" />
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+	<contribution type="commercial" id="{nekoneko-nyanyanya-underpath-2}">
+		<group>アンダーパス</group>
+		<price>1000000</price>
+		<size>4,1</size>
+		<height>1</height>
+		<sprite origin="80,0" offset="26">
+		<picture src="underpath.bmp" />
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+	<contribution type="commercial" id="{nekoneko-nyanyanya-underpath-3}">
+		<group>アンダーパス</group>
+		<price>1000000</price>
+		<size>1,4</size>
+		<height>1</height>
+		<sprite origin="160,0" offset="5">
+		<picture src="underpath.bmp" />
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+	<contribution type="commercial" id="{nekoneko-nyanyanya-underpath-4}">
+		<group>アンダーパス</group>
+		<price>1000000</price>
+		<size>1,4</size>
+		<height>1</height>
+		<sprite origin="240,0" offset="2">
+		<picture src="underpath.bmp" />
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+	<contribution type="commercial" id="{nekoneko-nyanyanya-underpath-5}">
+		<group>アンダーパス</group>
+		<price>2000000</price>
+		<size>4,2</size>
+		<height>1</height>
+		<sprite origin="0,45" offset="29">
+		<picture src="underpath.bmp" />
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+	<contribution type="commercial" id="{nekoneko-nyanyanya-underpath-6}">
+		<group>アンダーパス</group>
+		<price>2000000</price>
+		<size>4,2</size>
+		<height>1</height>
+		<sprite origin="96,45" offset="26">
+		<picture src="underpath.bmp" />
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+	<contribution type="commercial" id="{nekoneko-nyanyanya-underpath-7}">
+		<group>アンダーパス</group>
+		<price>2000000</price>
+		<size>2,4</size>
+		<height>1</height>
+		<sprite origin="192,64" offset="6">
+		<picture src="underpath.bmp" />
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+	<contribution type="commercial" id="{nekoneko-nyanyanya-underpath-8}">
+		<group>アンダーパス</group>
+		<price>2000000</price>
+		<size>2,4</size>
+		<height>1</height>
+		<sprite origin="288,64" offset="6">
+		<picture src="underpath.bmp" />
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+</plug-in>

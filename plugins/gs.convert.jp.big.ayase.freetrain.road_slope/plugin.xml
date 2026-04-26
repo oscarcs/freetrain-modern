@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>建物総合コンバート　綾瀬ヒロ</title>
+	<author>りおりお</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+	<depend on="jp.big.ayase.freetrain.road_slope" />
+	
+
+	<contribution type="GenericStructure" id="{FreeTrain-AYASE-Hiro-RoadImg-SlopeN}-gs">
+		<group>勾配道路(一般)</group>
+		<price>10000000</price>
+		<size>1,4</size>
+		<height>1</height>
+		<structure>
+			<category byname="道路関連物" />
+		</structure>
+		<sprite origin="0,0" offset="24">
+			<picture ref="{FreeTrain-AYASE-Hiro-RoadImg-Slope}"/>
+		</sprite>
+
+		<sprite origin="80,0" offset="48" opposite="true">
+			<picture ref="{FreeTrain-AYASE-Hiro-RoadImg-Slope}"/>
+		</sprite>
+
+		<sprite origin="160,0" offset="24">
+			<picture ref="{FreeTrain-AYASE-Hiro-RoadImg-Slope}"/>
+		</sprite>
+
+		<sprite origin="240,0" offset="48" opposite="true">
+			<picture ref="{FreeTrain-AYASE-Hiro-RoadImg-Slope}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	
+	<contribution type="GenericStructure" id="{FreeTrain-AYASE-Hiro-RoadImg-Slope2N}-gs">
+		<group>勾配道路(高速)</group>
+		<price>10000000</price>
+		<size>1,4</size>
+		<height>2</height>
+		<structure>
+			<category byname="道路関連物" />
+		</structure>
+		<sprite origin="0,0" offset="24">
+			<picture ref="{FreeTrain-AYASE-Hiro-RoadImg-Slope2}"/>
+		</sprite>
+
+		<sprite origin="80,0" offset="48" opposite="true">
+			<picture ref="{FreeTrain-AYASE-Hiro-RoadImg-Slope2}"/>
+		</sprite>
+
+		<sprite origin="160,0" offset="24">
+			<picture ref="{FreeTrain-AYASE-Hiro-RoadImg-Slope2}"/>
+		</sprite>
+
+		<sprite origin="240,0" offset="48" opposite="true">
+			<picture ref="{FreeTrain-AYASE-Hiro-RoadImg-Slope2}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+</plug-in>

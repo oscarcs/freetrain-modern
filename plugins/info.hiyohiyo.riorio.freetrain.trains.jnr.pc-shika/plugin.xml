@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+<author>りおりお組換←しかしか</author>
+<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+
+<depend on="shikashika.freetrain.traincar.locomotive"/>
+<depend on="shikashika.freetrain.traincar.passenger"/>
+
+<title>列車(旧日本国有鉄道)</title>
+
+
+	<!-- 車両の定義 -->
+
+	<!-- 郵便車 オユ10茶(郵政省所有) -->
+	<contribution type="trainCar" id="{FreeTrain-riorio-shikashika-PassengerCar-TrainCar-oyu10}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-oyu10}" />
+		</sprite>
+		<capacity>0</capacity>
+		<seatedcapacity>0</seatedcapacity>
+	</contribution>
+
+	<!-- 荷物車 マニ60茶　末尾 -->
+
+	<contribution type="picture" id="{FreeTrain-riorio-shikashika-PassengerCar-picture-mani60t}">
+		<picture src="mani60t.bmp" />
+	</contribution>
+
+	<contribution type="trainCar" id="{FreeTrain-riorio-shikashika-PassengerCar-TrainCar-mani60t}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-riorio-shikashika-PassengerCar-picture-mani60t}" />
+		</sprite>
+		<capacity>0</capacity>
+		<seatedcapacity>0</seatedcapacity>
+	</contribution>
+
+	<!-- 一般形客車 スハフ42茶　末尾 -->
+
+	<contribution type="picture" id="{FreeTrain-riorio-shikashika-PassengerCar-picture-shuhahu42t}">
+		<picture src="shuhahu42t.bmp" />
+	</contribution>
+
+	<contribution type="trainCar" id="{FreeTrain-riorio-shikashika-PassengerCar-TrainCar-shuhahu42t}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-riorio-shikashika-PassengerCar-picture-shuhahu42t}" />
+		</sprite>
+		<capacity>80</capacity>
+		<seatedcapacity>80</seatedcapacity>
+	</contribution>
+
+	<!-- 1等客車 スロ60茶　淡緑帯 -->
+
+	<contribution type="trainCar" id="{FreeTrain-riorio-shikashika-PassengerCar-TrainCar-shuro60green}">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+			<picture ref="{FreeTrain-Shika-PassengerCar-picture-shuro60}" />
+		<spriteType name="colorMapped">
+			<map from="63,63,130" to="151,188,148"/>
+		</spriteType>
+		</sprite>
+		<capacity>44</capacity>
+		<seatedcapacity>44</seatedcapacity>
+	</contribution>
+
+
+	<!-- 旅客列車の定義 -->
+
+	<contribution type="train" id="{FreeTrain-riorio-shikashika-TrainHensei-EF58boxbrown-laggageonly}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 58</type>
+		<name>茶 荷物列車</name>
+		<author>りおりお←しかしか</author>
+		<description>荷物列車。牽引はEF58の茶。
+		</description>
+		<fare>0</fare>
+		<price>35000000</price>
+		<amenity>100</amenity>
+		<speed>medium</speed>
+		
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="＜" ref="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EF58}"/>
+			<car char="荷" ref="{FreeTrain-Shika-PassengerCar-TrainCar-mani60}"/>
+			<car char="ユ" ref="{FreeTrain-riorio-shikashika-PassengerCar-TrainCar-oyu10}"/>
+			<car char="フ" ref="{FreeTrain-riorio-shikashika-PassengerCar-TrainCar-mani60t}"/>
+			
+			<composition>＜フ</composition>
+			<composition>＜荷フ</composition>
+			<composition>＜荷荷フ</composition>
+			<composition>＜ユ荷荷フ</composition>
+			<composition>＜荷ユ荷荷フ</composition>
+			<composition>＜荷ユ荷荷荷フ</composition>
+			<composition>＜荷ユ荷荷荷荷フ</composition>
+			<composition>＜荷荷荷ユ荷荷荷フ</composition>
+			<composition>＜荷荷荷ユ荷荷荷荷フ</composition>
+			<composition>＜荷荷荷ユ荷荷荷荷荷フ</composition>
+			<composition>＜荷荷荷ユ荷荷荷荷荷荷フ</composition>
+			<composition>＜荷荷荷ユ荷荷荷荷荷荷荷フ</composition>
+			<composition>＜荷荷荷ユ荷荷荷荷荷荷荷荷フ</composition>
+			<composition>＜荷荷荷ユ荷荷荷荷荷荷荷荷荷フ</composition>
+			<composition>＜荷荷荷ユ荷荷荷荷荷荷荷荷荷荷フ</composition>
+			<composition>＜荷荷荷ユ荷荷荷荷荷荷荷荷荷荷荷フ</composition>
+		</config>
+	</contribution>
+
+	<contribution type="train" id="{FreeTrain-riorio-shikashika-TrainHensei-EF58boxbrown-pcexpress}">
+		<company>旧日本国有鉄道</company>
+		<type>EF 58</type>
+		<name>茶 急行列車</name>
+		<author>りおりお←しかしか</author>
+		<description>急行列車。牽引はEF58の茶。
+		</description>
+		<fare>600</fare>
+		<price>42000000</price>
+		<amenity>95</amenity>
+		<triprange>long</triprange>
+		<speed>medium</speed>
+		
+		<class name="freetrain.contributions.train.PatternTrainImpl"/>
+		<config>
+			<car char="＜" ref="{FreeTrain-Shika-ElectricLocomotive-TrainCar-EF58}"/>
+			<car char="荷" ref="{FreeTrain-Shika-PassengerCar-TrainCar-mani60}"/>
+			<car char="ロ" ref="{FreeTrain-riorio-shikashika-PassengerCar-TrainCar-shuro60green}"/>
+			<car char="ハ" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuha43}"/>
+			<car char="〕" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuhahu42}"/>
+			<car char="〔" ref="{FreeTrain-Shika-PassengerCar-TrainCar-shuhahu42-R}" />
+			<car char="フ" ref="{FreeTrain-riorio-shikashika-PassengerCar-TrainCar-shuhahu42t}"/>
+			
+			<composition>＜フ</composition>
+			<composition>＜〔フ</composition>
+			<composition>＜〔ハフ</composition>
+			<composition>＜〔ハハフ</composition>
+			<composition>＜荷〔ロハフ</composition>
+			<composition>＜荷〔ロハハフ</composition>
+			<composition>＜荷〔ロハハハフ</composition>
+			<composition>＜荷〔ロロハハハフ</composition>
+			<composition>＜荷〔ロロハハ〕ハフ</composition>
+			<composition>＜荷〔ロロハハ〕ハハフ</composition>
+			<composition>＜荷〔ロロハハ〕〔ハハフ</composition>
+			<composition>＜荷〔ロロハハ〕〔ハハハフ</composition>
+			<composition>＜荷〔ロロハハ〕〔ハハハハフ</composition>
+		</config>
+	</contribution>
+
+	<!-- 貨物列車の定義 -->
+
+
+</plug-in>

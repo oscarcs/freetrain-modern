@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<author>foobarbazer</author>
+	<homepage>http://foobar.ifdef.jp</homepage>
+	<title></title>
+
+<!-- ダム端 -->
+	<contribution type="picture" id="{B0B0B26E-19DC-416c-BBBF-7589AA5C0037}">
+		<picture src="dam/dam.spr.png">
+			<override when="summer" src="dam/dam.sum.png"/>
+			<override when="autumn" src="dam/dam.aut.png"/>
+			<override when="winter" src="dam/dam.win.png"/>
+		</picture>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{5C700856-435D-4724-8E61-6193D9063569}">
+		<group>ダム端(1)</group>
+		<price>10000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<computerCannotBuild/>
+		<sprite origin="0,0"  offset="32"><picture ref="{B0B0B26E-19DC-416c-BBBF-7589AA5C0037}"/></sprite>
+		<sprite origin="96,0"  offset="32"><picture ref="{B0B0B26E-19DC-416c-BBBF-7589AA5C0037}"/></sprite>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{A5E73063-8C97-487b-9A00-AFF11975584A}">
+		<group>ダム端(2)</group>
+		<price>10000</price>
+		<size>1,1</size>
+		<height>2</height>
+		<computerCannotBuild/>
+		<sprite origin="32,0"  offset="32"><picture ref="{B0B0B26E-19DC-416c-BBBF-7589AA5C0037}"/></sprite>
+		<sprite origin="64,0"  offset="32"><picture ref="{B0B0B26E-19DC-416c-BBBF-7589AA5C0037}"/></sprite>
+	</contribution>
+
+<!-- 半ボクセル田畑 -->
+	<contribution type="picture" id="{5CCE8223-041D-4ea7-B282-38D64A92CB29}">
+		<picture src="halfvoxel/ricefield.1.spr.png">
+			<override when="summer" src="halfvoxel/ricefield.1.sum.png" />
+			<override when="autumn" src="halfvoxel/ricefield.1.aut.png" />
+			<override when="winter" src="halfvoxel/ricefield.1.win.png" />
+		</picture>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{DD96A532-925B-4719-83DD-CAC4C48AF9E2}">
+		<group>半ボクセル建築</group>
+		<subgroup>田畑</subgroup>
+		<name>田１</name>
+		<price>500000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{5CCE8223-041D-4ea7-B282-38D64A92CB29}"/>
+			<pattern direction="west" side="fore" origin="0,0"/>
+			<pattern direction="west" side="back" origin="48,0"/>
+			<pattern direction="south" side="back" origin="24,0"/>
+			<pattern direction="south" side="fore" origin="72,0"/>
+			<pattern direction="east" side="back" origin="48,0"/>
+			<pattern direction="east" side="fore" origin="0,0"/>
+			<pattern direction="north" side="fore" origin="72,0"/>
+			<pattern direction="north" side="back" origin="24,0"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{D955C0FE-16D0-485f-BE08-FDD46FB9A5FA}">
+		<group>半ボクセル建築</group>
+		<subgroup>田畑</subgroup>
+		<name>田１-２</name>
+		<price>500000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{5CCE8223-041D-4ea7-B282-38D64A92CB29}"/>
+			<pattern direction="west" side="fore" origin="0,72"/>
+			<pattern direction="west" side="back" origin="48,72"/>
+			<pattern direction="south" side="back" origin="24,72"/>
+			<pattern direction="south" side="fore" origin="72,72"/>
+			<pattern direction="east" side="back" origin="48,72"/>
+			<pattern direction="east" side="fore" origin="0,72"/>
+			<pattern direction="north" side="fore" origin="72,72"/>
+			<pattern direction="north" side="back" origin="24,72"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{C2884FB8-06FB-4c8d-884E-D272D525406A}">
+		<group>半ボクセル建築</group>
+		<subgroup>田畑</subgroup>
+		<name>田２</name>
+		<price>500000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{5CCE8223-041D-4ea7-B282-38D64A92CB29}"/>
+			<pattern direction="west" side="fore" origin="0,24"/>
+			<pattern direction="west" side="back" origin="48,24"/>
+			<pattern direction="south" side="back" origin="24,24"/>
+			<pattern direction="south" side="fore" origin="72,24"/>
+			<pattern direction="east" side="back" origin="48,24"/>
+			<pattern direction="east" side="fore" origin="0,24"/>
+			<pattern direction="north" side="fore" origin="72,24"/>
+			<pattern direction="north" side="back" origin="24,24"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{D9D5AC67-99C5-404d-87DB-8CEF5B94D649}">
+		<group>半ボクセル建築</group>
+		<subgroup>田畑</subgroup>
+		<name>田２-２</name>
+		<price>500000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{5CCE8223-041D-4ea7-B282-38D64A92CB29}"/>
+			<pattern direction="west" side="fore" origin="0,96"/>
+			<pattern direction="west" side="back" origin="48,96"/>
+			<pattern direction="south" side="back" origin="24,96"/>
+			<pattern direction="south" side="fore" origin="72,96"/>
+			<pattern direction="east" side="back" origin="48,96"/>
+			<pattern direction="east" side="fore" origin="0,96"/>
+			<pattern direction="north" side="fore" origin="72,96"/>
+			<pattern direction="north" side="back" origin="24,96"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{D25A9AFA-AF22-4c61-9124-2D022CF5B656}">
+		<group>半ボクセル建築</group>
+		<subgroup>田畑</subgroup>
+		<name>田３</name>
+		<price>500000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{5CCE8223-041D-4ea7-B282-38D64A92CB29}"/>
+			<pattern direction="west" side="fore" origin="0,48"/>
+			<pattern direction="west" side="back" origin="48,48"/>
+			<pattern direction="south" side="back" origin="24,48"/>
+			<pattern direction="south" side="fore" origin="72,48"/>
+			<pattern direction="east" side="back" origin="48,48"/>
+			<pattern direction="east" side="fore" origin="0,48"/>
+			<pattern direction="north" side="fore" origin="72,48"/>
+			<pattern direction="north" side="back" origin="24,48"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{6DF5518B-7EB9-4f30-9087-9452DF773873}">
+		<group>半ボクセル建築</group>
+		<subgroup>田畑</subgroup>
+		<name>田３-２</name>
+		<price>500000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{5CCE8223-041D-4ea7-B282-38D64A92CB29}"/>
+			<pattern direction="west" side="fore" origin="0,120"/>
+			<pattern direction="west" side="back" origin="48,120"/>
+			<pattern direction="south" side="back" origin="24,120"/>
+			<pattern direction="south" side="fore" origin="72,120"/>
+			<pattern direction="east" side="back" origin="48,120"/>
+			<pattern direction="east" side="fore" origin="0,120"/>
+			<pattern direction="north" side="fore" origin="72,120"/>
+			<pattern direction="north" side="back" origin="24,120"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="picture" id="{F03FC37D-6559-4fc4-B263-9E8B73593AEE}">
+		<picture src="halfvoxel/hatake.1.sum.png">
+			<override when="autumn" src="halfvoxel/hatake.1.aut.png" />
+			<override when="winter" src="halfvoxel/hatake.1.win.png" />
+		</picture>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{D7C0FE0A-CC11-41f0-9671-107701B94800}">
+		<group>半ボクセル建築</group>
+		<subgroup>田畑</subgroup>
+		<name>畑１-１</name>
+		<price>500000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{F03FC37D-6559-4fc4-B263-9E8B73593AEE}"/>
+			<pattern direction="west" side="back" origin="0,0"/>
+			<pattern direction="west" side="fore" origin="48,0"/>
+			<pattern direction="south" side="back" origin="24,0"/>
+			<pattern direction="south" side="fore" origin="72,0"/>
+			<pattern direction="east" side="fore" origin="48,0"/>
+			<pattern direction="east" side="back" origin="0,0"/>
+			<pattern direction="north" side="fore" origin="72,0"/>
+			<pattern direction="north" side="back" origin="24,0"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{D7C0FE0A-CC11-41f0-9671-107701B94801}">
+		<group>半ボクセル建築</group>
+		<subgroup>田畑</subgroup>
+		<name>畑１-２</name>
+		<price>500000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{F03FC37D-6559-4fc4-B263-9E8B73593AEE}"/>
+			<pattern direction="west" side="back" origin="0,24"/>
+			<pattern direction="west" side="fore" origin="48,24"/>
+			<pattern direction="south" side="back" origin="24,24"/>
+			<pattern direction="south" side="fore" origin="72,24"/>
+			<pattern direction="east" side="fore" origin="48,24"/>
+			<pattern direction="east" side="back" origin="0,24"/>
+			<pattern direction="north" side="fore" origin="72,24"/>
+			<pattern direction="north" side="back" origin="24,24"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="picture" id="{DA7EDC5A-C959-4083-95A3-101673A9656D}">
+		<picture src="halfvoxel/hatake.2.sum.png">
+			<override when="autumn" src="halfvoxel/hatake.2.aut.png" />
+			<override when="winter" src="halfvoxel/hatake.2.win.png" />
+		</picture>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{29D5227E-2133-4333-AB4E-6922AC459895}">
+		<group>半ボクセル建築</group>
+		<subgroup>田畑</subgroup>
+		<name>畑２-１</name>
+		<price>500000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{DA7EDC5A-C959-4083-95A3-101673A9656D}"/>
+			<pattern direction="west" side="either" origin="0,0"/>
+			<pattern direction="south" side="either" origin="24,0"/>
+			<pattern direction="east" side="either" origin="48,0"/>
+			<pattern direction="north" side="either" origin="72,0"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{29D5227E-2133-4333-AB4E-6922AC459896}">
+		<group>半ボクセル建築</group>
+		<subgroup>田畑</subgroup>
+		<name>畑２-２</name>
+		<price>500000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{DA7EDC5A-C959-4083-95A3-101673A9656D}"/>
+			<pattern direction="west" side="back" origin="0,24"/>
+			<pattern direction="west" side="fore" origin="48,24"/>
+			<pattern direction="south" side="back" origin="24,24"/>
+			<pattern direction="south" side="fore" origin="72,24"/>
+			<pattern direction="east" side="fore" origin="48,24"/>
+			<pattern direction="east" side="back" origin="0,24"/>
+			<pattern direction="north" side="fore" origin="72,24"/>
+			<pattern direction="north" side="back" origin="24,24"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="picture" id="{57834383-C11D-49ca-87A0-BC82D186644E}">
+		<picture src="halfvoxel/hatake.3.sum.png">
+			<override when="autumn" src="halfvoxel/hatake.3.aut.png" />
+			<override when="winter" src="halfvoxel/hatake.3.win.png" />
+		</picture>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{CB71B47B-D373-4ba7-8981-770244248B60}">
+		<group>半ボクセル建築</group>
+		<subgroup>田畑</subgroup>
+		<name>畑３</name>
+		<price>500000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{57834383-C11D-49ca-87A0-BC82D186644E}"/>
+			<pattern direction="west" side="back" origin="0,0"/>
+			<pattern direction="west" side="fore" origin="48,0"/>
+			<pattern direction="south" side="back" origin="24,0"/>
+			<pattern direction="south" side="fore" origin="72,0"/>
+			<pattern direction="east" side="fore" origin="48,0"/>
+			<pattern direction="east" side="back" origin="0,0"/>
+			<pattern direction="north" side="fore" origin="72,0"/>
+			<pattern direction="north" side="back" origin="24,0"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{CB71B47B-D373-4ba7-8981-770244248B61}">
+		<group>半ボクセル建築</group>
+		<subgroup>田畑</subgroup>
+		<name>畑４</name>
+		<price>500000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{57834383-C11D-49ca-87A0-BC82D186644E}"/>
+			<pattern direction="west" side="back" origin="0,24"/>
+			<pattern direction="west" side="fore" origin="48,24"/>
+			<pattern direction="south" side="back" origin="24,24"/>
+			<pattern direction="south" side="fore" origin="72,24"/>
+			<pattern direction="east" side="fore" origin="48,24"/>
+			<pattern direction="east" side="back" origin="0,24"/>
+			<pattern direction="north" side="fore" origin="72,24"/>
+			<pattern direction="north" side="back" origin="24,24"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="picture" id="{B6D3FFA5-74B1-431d-9FBE-FBD95CBF99B0}">
+		<picture src="halfvoxel/hatake.4.sum.png">
+			<override when="autumn" src="halfvoxel/hatake.4.aut.png" />
+			<override when="winter" src="halfvoxel/hatake.4.win.png" />
+		</picture>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{E3A535C3-5CD9-489d-96AC-79E0F32DB568}">
+		<group>半ボクセル建築</group>
+		<subgroup>田畑</subgroup>
+		<name>畑５-１</name>
+		<price>500000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{B6D3FFA5-74B1-431d-9FBE-FBD95CBF99B0}"/>
+			<pattern direction="west" side="back" origin="0,0"/>
+			<pattern direction="west" side="fore" origin="48,0"/>
+			<pattern direction="south" side="back" origin="24,0"/>
+			<pattern direction="south" side="fore" origin="72,0"/>
+			<pattern direction="east" side="fore" origin="48,0"/>
+			<pattern direction="east" side="back" origin="0,0"/>
+			<pattern direction="north" side="fore" origin="72,0"/>
+			<pattern direction="north" side="back" origin="24,0"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{B337355B-1804-40de-9442-659046A4A760}">
+		<group>半ボクセル建築</group>
+		<subgroup>田畑</subgroup>
+		<name>畑５-２</name>
+		<price>500000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{B6D3FFA5-74B1-431d-9FBE-FBD95CBF99B0}"/>
+			<pattern direction="west" side="back" origin="0,24"/>
+			<pattern direction="west" side="fore" origin="48,24"/>
+			<pattern direction="south" side="back" origin="24,24"/>
+			<pattern direction="south" side="fore" origin="72,24"/>
+			<pattern direction="east" side="fore" origin="48,24"/>
+			<pattern direction="east" side="back" origin="0,24"/>
+			<pattern direction="north" side="fore" origin="72,24"/>
+			<pattern direction="north" side="back" origin="24,24"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="picture" id="{4DC0CE06-08B9-4349-AE38-1BFA9FAD3986}">
+		<picture src="halfvoxel/hatake.5.sum.png">
+			<override when="autumn" src="halfvoxel/hatake.5.aut.png" />
+			<override when="winter" src="halfvoxel/hatake.5.win.png" />
+		</picture>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{EF529302-4B96-4976-9F6F-5856040AA25B}">
+		<group>半ボクセル建築</group>
+		<subgroup>田畑</subgroup>
+		<name>畑６-１</name>
+		<price>500000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{4DC0CE06-08B9-4349-AE38-1BFA9FAD3986}"/>
+			<pattern direction="west" side="back" origin="0,0"/>
+			<pattern direction="west" side="fore" origin="48,0"/>
+			<pattern direction="south" side="back" origin="24,0"/>
+			<pattern direction="south" side="fore" origin="72,0"/>
+			<pattern direction="east" side="fore" origin="48,0"/>
+			<pattern direction="east" side="back" origin="0,0"/>
+			<pattern direction="north" side="back" origin="24,0"/>
+			<pattern direction="north" side="fore" origin="72,0"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{70F598B3-4B55-454c-A5DB-73B20CF32A49}">
+		<group>半ボクセル建築</group>
+		<subgroup>田畑</subgroup>
+		<name>畑６-２</name>
+		<price>500000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{4DC0CE06-08B9-4349-AE38-1BFA9FAD3986}"/>
+			<pattern direction="west" side="back" origin="0,24"/>
+			<pattern direction="west" side="fore" origin="48,24"/>
+			<pattern direction="south" side="back" origin="24,24"/>
+			<pattern direction="south" side="fore" origin="72,24"/>
+			<pattern direction="east" side="fore" origin="48,24"/>
+			<pattern direction="east" side="back" origin="0,24"/>
+			<pattern direction="north" side="fore" origin="72,24"/>
+			<pattern direction="north" side="back" origin="24,24"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="picture" id="{D3BED221-FCB3-4e37-8E91-C6B4837B2A2A}">
+		<picture src="halfvoxel/hatake.6.sum.png">
+			<override when="autumn" src="halfvoxel/hatake.6.aut.png" />
+			<override when="winter" src="halfvoxel/hatake.6.win.png" />
+		</picture>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{A40BB456-A349-4d44-9142-E78AE827FA6C}">
+		<group>半ボクセル建築</group>
+		<subgroup>田畑</subgroup>
+		<name>畑７-１</name>
+		<price>500000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{D3BED221-FCB3-4e37-8E91-C6B4837B2A2A}"/>
+			<pattern direction="west" side="back" origin="0,0"/>
+			<pattern direction="west" side="fore" origin="48,0"/>
+			<pattern direction="south" side="back" origin="24,0"/>
+			<pattern direction="south" side="fore" origin="72,0"/>
+			<pattern direction="east" side="fore" origin="48,0"/>
+			<pattern direction="east" side="back" origin="0,0"/>
+			<pattern direction="north" side="fore" origin="72,0"/>
+			<pattern direction="north" side="back" origin="24,0"/>
+		</sprite>
+	</contribution>
+	<contribution type="HalfVoxelStructure" id="{23C75D58-E59A-4b07-95B8-6DF988EBA255}">
+		<group>半ボクセル建築</group>
+		<subgroup>田畑</subgroup>
+		<name>畑７-２</name>
+		<price>500000</price>
+		<height>1</height>
+		<sprite>
+			<picture ref="{D3BED221-FCB3-4e37-8E91-C6B4837B2A2A}"/>
+			<pattern direction="west" side="back" origin="0,24"/>
+			<pattern direction="west" side="fore" origin="48,24"/>
+			<pattern direction="south" side="back" origin="24,24"/>
+			<pattern direction="south" side="fore" origin="72,24"/>
+			<pattern direction="east" side="fore" origin="48,24"/>
+			<pattern direction="east" side="back" origin="0,24"/>
+			<pattern direction="north" side="fore" origin="72,24"/>
+			<pattern direction="north" side="back" origin="24,24"/>
+		</sprite>
+	</contribution>
+
+</plug-in>
+

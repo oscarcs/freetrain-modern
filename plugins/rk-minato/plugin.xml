@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+ <plug-in>
+ <title>水門</title> 
+ <author>花菱烈火</author> 
+ <homepage /> 
+ <contribution type="picture" id="{rk-miato-cg-n01}">
+ <picture src="minato001.bmp" /> 
+ </contribution>
+ <contribution type="picture" id="{rk-miato-cg-n02}">
+ <picture src="minato002.bmp" /> 
+ </contribution>
+ <contribution type="picture" id="{rk-miato-cg-n03}">
+ <picture src="minato003.bmp" /> 
+ </contribution>
+ <contribution type="picture" id="{rk-miato-cg-n05}">
+ <picture src="minato005.bmp" /> 
+ </contribution>
+ <contribution type="picture" id="{rk-miato-cg-n06}">
+ <picture src="minato006.bmp" /> 
+ </contribution>
+ <contribution type="GenericStructure" id="{rk-miato-n001}">
+ <group>港Ａ</group> 
+ <structure>
+ <category byname="漁港" /> 
+ </structure>
+ <price>10000000</price> 
+ <size>3,3</size> 
+ <height>1</height> 
+ <population>
+ <class name="freetrain.contributions.population.OfficePopulation" /> 
+ <base>10</base> 
+ </population>
+ <sprite origin="0,0" offset="25">
+ <picture ref="{rk-miato-cg-n01}" /> 
+ </sprite>
+ <computerCannotBuild /> 
+ </contribution>
+ <contribution type="GenericStructure" id="{rk-miato-n002}">
+ <group>港Ａ</group> 
+ <structure>
+ <category byname="漁港" /> 
+ </structure>
+ <price>10000000</price> 
+ <size>3,3</size> 
+ <height>1</height> 
+ <population>
+ <class name="freetrain.contributions.population.OfficePopulation" /> 
+ <base>10</base> 
+ </population>
+ <sprite origin="96,0" offset="25">
+ <picture ref="{rk-miato-cg-n01}" /> 
+ </sprite>
+ <computerCannotBuild /> 
+ </contribution>
+ <contribution type="GenericStructure" id="{rk-miato-n003}">
+ <group>港Ｂ</group> 
+ <structure>
+ <category byname="漁港" /> 
+ </structure>
+ <price>10000000</price> 
+ <size>3,3</size> 
+ <height>1</height> 
+ <population>
+ <class name="freetrain.contributions.population.OfficePopulation" /> 
+ <base>10</base> 
+ </population>
+ <sprite origin="0,0" offset="25">
+ <picture ref="{rk-miato-cg-n02}" /> 
+ </sprite>
+ <computerCannotBuild /> 
+ </contribution>
+ <contribution type="GenericStructure" id="{rk-miato-n004}">
+ <group>港Ｂ</group> 
+ <structure>
+ <category byname="漁港" /> 
+ </structure>
+ <price>10000000</price> 
+ <size>3,3</size> 
+ <height>1</height> 
+ <population>
+ <class name="freetrain.contributions.population.OfficePopulation" /> 
+ <base>10</base> 
+ </population>
+ <sprite origin="96,0" offset="25">
+ <picture ref="{rk-miato-cg-n02}" /> 
+ </sprite>
+ <computerCannotBuild /> 
+ </contribution>
+ <contribution type="GenericStructure" id="{rk-miato-n005}">
+ <group>港パーツ</group> 
+ <structure>
+ <category byname="漁港" /> 
+ </structure>
+ <price>10000000</price>  
+ <size>3,2</size> 
+ <height>1</height> 
+ <population>
+ <class name="freetrain.contributions.population.OfficePopulation" /> 
+ <base>10</base> 
+ </population>
+ <sprite origin="0,0" offset="25">
+ <picture ref="{rk-miato-cg-n03}" /> 
+ </sprite>
+ <computerCannotBuild /> 
+ </contribution>
+ <contribution type="GenericStructure" id="{rk-miato-n006}">
+ <group>港パーツ</group> 
+ <structure>
+ <category byname="漁港" /> 
+ </structure>
+ <price>10000000</price> 
+ <size>2,3</size> 
+ <height>1</height> 
+ <population>
+ <class name="freetrain.contributions.population.OfficePopulation" /> 
+ <base>10</base> 
+ </population>
+ <sprite origin="80,0" offset="25">
+ <picture ref="{rk-miato-cg-n03}" />  
+ </sprite>
+ <computerCannotBuild /> 
+ </contribution>
+ <contribution type="GenericStructure" id="{rk-miato-n007}">
+ <group>港Ｃ</group> 
+ <structure>
+ <category byname="漁港" /> 
+ </structure>
+ <price>10000000</price> 
+ <size>3,3</size> 
+ <height>1</height> 
+ <population>
+ <class name="freetrain.contributions.population.OfficePopulation" /> 
+ <base>10</base> 
+ </population>
+ <sprite origin="0,0" offset="27">
+ <picture ref="{rk-miato-cg-n05}" /> 
+ </sprite>
+ <computerCannotBuild /> 
+ </contribution>
+ <contribution type="GenericStructure" id="{rk-miato-n008}">
+ <group>港Ｃ</group> 
+ <structure>
+ <category byname="漁港" /> 
+ </structure>
+ <price>10000000</price> 
+ <size>3,3</size> 
+ <height>1</height> 
+ <population>
+ <class name="freetrain.contributions.population.OfficePopulation" /> 
+ <base>10</base> 
+ </population>
+ <sprite origin="96,0" offset="27">
+ <picture ref="{rk-miato-cg-n05}" /> 
+ </sprite>
+ <computerCannotBuild /> 
+ </contribution>
+ <contribution type="GenericStructure" id="{rk-miato-n009}">
+ <group>港Ｄ</group> 
+ <structure>
+ <category byname="漁港" /> 
+ </structure>
+ <price>10000000</price> 
+ <size>3,3</size> 
+ <height>1</height> 
+ <population>
+ <class name="freetrain.contributions.population.OfficePopulation" /> 
+ <base>10</base> 
+ </population>
+ <sprite origin="0,0" offset="27">
+ <picture ref="{rk-miato-cg-n06}" /> 
+ </sprite>
+ <computerCannotBuild /> 
+ </contribution>
+ <contribution type="GenericStructure" id="{rk-miato-n010}">
+ <group>港Ｄ</group> 
+ <structure>
+ <category byname="漁港" /> 
+ </structure>
+ <price>10000000</price> 
+ <size>3,3</size> 
+ <height>1</height> 
+ <population>
+ <class name="freetrain.contributions.population.OfficePopulation" /> 
+ <base>10</base> 
+ </population>
+ <sprite origin="96,0" offset="27">
+ <picture ref="{rk-miato-cg-n06}" /> 
+ </sprite>
+ <computerCannotBuild /> 
+ </contribution>
+</plug-in>

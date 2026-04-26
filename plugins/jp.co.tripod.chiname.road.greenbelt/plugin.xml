@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plug-in []>
+
+<plug-in>
+
+	<title>遊園地セット３</title>
+	<author>C477@2両目</author>
+	<homepage>http://www.rocket.ne.jp/~nao/</homepage>
+		
+	<contribution type="picture" id="{842088C1-9785-4B50-C477-35EA9C7F468C}">
+		<picture src="road_asphalt_green.bmp">
+			<override when="autumn" src="road_asphalt_green.aut.bmp"/>
+			<override when="winter" src="road_asphalt_green.win.bmp"/>
+		</picture>
+	</contribution>
+	<contribution type="picture" id="{54321743-B610-48A2-C477-FF1D43BC94CF}">
+		<picture src="road_asphalt_trees.bmp">
+			<override when="autumn" src="road_asphalt_trees.aut.bmp"/>
+			<override when="winter" src="road_asphalt_trees.win.bmp"/>
+		</picture>
+	</contribution>
+			
+	<contribution type="road" id="{04D7D6D1-7072-4699-C477-2A92BE0F968E}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>緑地帯(芝生)</name>
+		<description>グリーンベルト</description>
+		<picture ref="{842088C1-9785-4B50-C477-35EA9C7F468C}" size="32,24" offset="8"/>
+	</contribution>
+	<contribution type="road" id="{419E1E0E-808B-463E-C477-BD718F7BE7A7}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<name>緑地帯(並木)</name>
+		<description>グリーンベルト</description>
+		<picture ref="{54321743-B610-48A2-C477-FF1D43BC94CF}" size="32,24" offset="8"/>
+	</contribution>
+
+</plug-in>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>建物総合コンバート　綾瀬ヒロ</title>
+	<author>りおりお</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+	<depend on="jp.big.ayase.freetrain.structure.ganpeki" />
+	
+	
+	<contribution type="GenericStructure" id="{FreeTrain-AYASE-Hiro-StructureImpl-ganpeki-01}-gs">
+		<group>岸壁</group>
+		<price>1000000</price>
+		<height>1</height>
+		<size>1,1</size>
+		<structure>
+			<category byname="その他港湾設備" />
+		</structure>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{FreeTrain-AYASE-Hiro-StructureImage-ganpeki-01}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="GenericStructure" id="{FreeTrain-AYASE-Hiro-StructureImpl-ganpeki-02}-gs">
+		<group>岸壁</group>
+		<price>1000000</price>
+		<height>1</height>
+		<size>1,1</size>
+		<structure>
+			<category byname="その他港湾設備" />
+		</structure>
+		<sprite origin="32,0" offset="16">
+			<picture ref="{FreeTrain-AYASE-Hiro-StructureImage-ganpeki-01}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="GenericStructure" id="{FreeTrain-AYASE-Hiro-StructureImpl-ganpeki-03}-gs">
+		<group>岸壁</group>
+		<price>1000000</price>
+		<height>1</height>
+		<size>1,1</size>
+		<structure>
+			<category byname="その他港湾設備" />
+		</structure>
+		<sprite origin="64,0" offset="16">
+			<picture ref="{FreeTrain-AYASE-Hiro-StructureImage-ganpeki-01}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="GenericStructure" id="{FreeTrain-AYASE-Hiro-StructureImpl-ganpeki-04}-gs">
+		<group>岸壁</group>
+		<price>1000000</price>
+		<height>1</height>
+		<size>1,1</size>
+		<structure>
+			<category byname="その他港湾設備" />
+		</structure>
+		<sprite origin="0,32" offset="16">
+			<picture ref="{FreeTrain-AYASE-Hiro-StructureImage-ganpeki-01}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="GenericStructure" id="{FreeTrain-AYASE-Hiro-StructureImpl-ganpeki-05}-gs">
+		<group>岸壁</group>
+		<price>1000000</price>
+		<height>1</height>
+		<size>1,1</size>
+		<structure>
+			<category byname="その他港湾設備" />
+		</structure>
+		<sprite origin="32,32" offset="16">
+			<picture ref="{FreeTrain-AYASE-Hiro-StructureImage-ganpeki-01}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="GenericStructure" id="{FreeTrain-AYASE-Hiro-StructureImpl-ganpeki-06}-gs">
+		<group>岸壁</group>
+		<price>1000000</price>
+		<height>1</height>
+		<size>1,1</size>
+		<structure>
+			<category byname="その他港湾設備" />
+		</structure>
+		<sprite origin="64,32" offset="16">
+			<picture ref="{FreeTrain-AYASE-Hiro-StructureImage-ganpeki-01}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="GenericStructure" id="{FreeTrain-AYASE-Hiro-StructureImpl-ganpeki-07}-gs">
+		<group>岸壁</group>
+		<price>1000000</price>
+		<height>1</height>
+		<size>1,1</size>
+		<structure>
+			<category byname="その他港湾設備" />
+		</structure>
+		<sprite origin="0,64" offset="16">
+			<picture ref="{FreeTrain-AYASE-Hiro-StructureImage-ganpeki-01}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+	<contribution type="GenericStructure" id="{FreeTrain-AYASE-Hiro-StructureImpl-ganpeki-08}-gs">
+		<group>岸壁</group>
+		<price>1000000</price>
+		<height>1</height>
+		<size>1,1</size>
+		<structure>
+			<category byname="その他港湾設備" />
+		</structure>
+		<sprite origin="32,64" offset="16">
+			<picture ref="{FreeTrain-AYASE-Hiro-StructureImage-ganpeki-01}"/>
+		</sprite>
+		<computerCannotBuild/>
+	</contribution>
+
+</plug-in>

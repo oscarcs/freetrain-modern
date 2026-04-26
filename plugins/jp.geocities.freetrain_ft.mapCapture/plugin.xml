@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+
+	<title>マップキャプチャ</title>
+	<author>nanashi</author>
+	<homepage>http://www.geocities.jp/freetrain_ft/</homepage>
+	
+	
+	<!-- メニューに「マップ全体の画像を保存」を追加 -->
+	<contribution type="menu" id="{66C11D9F-0784-4C53-8FD5-9659BD44C2E1}">
+		<class name="freetrain.tools.capture.MenuContributionImpl" 
+			codebase="bin/Debug/FreeTrain.MapCapture.dll" />
+	</contribution>
+
+</plug-in>

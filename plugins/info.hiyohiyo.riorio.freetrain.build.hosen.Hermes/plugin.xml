@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plug-in [
+<!ENTITY t400 '
+	<name>T400</name>
+        <price>300000</price>
+	<size>1,1</size>
+	<structure>
+		<category byname="一般鉄道付属物"/>
+	</structure>
+	<height>1</height>
+	<population>
+	        <class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>1</base>
+	</population>
+'>
+<!ENTITY railtruck '
+	<name>レール運搬用トロッコ</name>
+        <price>120000</price>
+	<size>1,1</size>
+	<structure>
+		<category byname="一般鉄道付属物"/>
+	</structure>
+	<height>1</height>
+	<population>
+		 <class name="freetrain.contributions.population.OfficePopulation"/>
+		 <base>1</base>
+	</population>
+
+'>]>
+
+<plug-in>
+	<title>保線車両</title>
+	<author>りおりお　←作画Hermes</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/fretrain/</homepage>
+		
+	<contribution type="picture" id="{riorio-HERM-railbuilding-picture-t400A-0001}">
+		<picture src="t400Brekka.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HERM-railbuilding-picture-t400A-0002}">
+		<picture src="t400CTAKUROU.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HERM-railbuilding-picture-rtruck-0001}">
+		<picture src="railtruckBrekka.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{riorio-HERM-railbuilding-picture-rtruck-0002}">
+		<picture src="railtruckCTAKUROU.bmp"/>
+	</contribution>
+
+	
+	<contribution type="GenericStructure" id="{riorio-HERM-railbuilding-t400-01-9DC15A63C612}">
+		&t400;
+		<design>烈火バラスト</design>
+
+		<sprite origin="0,0" offset="16">
+			<picture ref="{riorio-HERM-railbuilding-picture-t400A-0001}"/>
+		</sprite>
+		<sprite origin="32,0" offset="16"> 
+			<picture ref="{riorio-HERM-railbuilding-picture-t400A-0001}"/>
+		</sprite>
+                <sprite origin="64,0" offset="16">
+			<picture ref="{riorio-HERM-railbuilding-picture-t400A-0001}"/>
+		</sprite>
+		<sprite origin="96,0" offset="16">
+			<picture ref="{riorio-HERM-railbuilding-picture-t400A-0001}"/>
+		</sprite>
+		<computerCannotBuild />
+	</contribution>
+
+	<contribution type="GenericStructure" id="{riorio-HERM-railbuilding-t400-02-9DC15A63C612}">
+		&t400;
+		<design>TAKUROUバラスト</design>
+
+		<sprite origin="0,0" offset="16">
+			<picture ref="{riorio-HERM-railbuilding-picture-t400A-0002}"/>
+		</sprite>
+		<sprite origin="32,0" offset="16"> 
+			<picture ref="{riorio-HERM-railbuilding-picture-t400A-0002}"/>
+		</sprite>
+                <sprite origin="64,0" offset="16">
+			<picture ref="{riorio-HERM-railbuilding-picture-t400A-0002}"/>
+		</sprite>
+		<sprite origin="96,0" offset="16">
+			<picture ref="{riorio-HERM-railbuilding-picture-t400A-0002}"/>
+		</sprite>
+		<computerCannotBuild />
+	</contribution>
+
+
+        <contribution type="GenericStructure" id="{riorio-HERM-railbuild-truck-01-739EC56EF56D}">
+		&railtruck;
+		<design>烈火バラスト</design>
+
+		<sprite origin="0,0" offset="16">
+			<picture ref="{riorio-HERM-railbuilding-picture-rtruck-0001}"/>
+		</sprite>
+		<sprite origin="32,0" offset="16"> 
+			<picture ref="{riorio-HERM-railbuilding-picture-rtruck-0001}"/>
+		</sprite>
+		<computerCannotBuild />
+        </contribution>
+
+        <contribution type="GenericStructure" id="{riorio-HERM-railbuild-truck-02-739EC56EF56D}">
+		&railtruck;
+		<design>TAKUROUバラスト</design>
+
+		<sprite origin="0,0" offset="16">
+			<picture ref="{riorio-HERM-railbuilding-picture-rtruck-0002}"/>
+		</sprite>
+		<sprite origin="32,0" offset="16"> 
+			<picture ref="{riorio-HERM-railbuilding-picture-rtruck-0002}"/>
+		</sprite>
+		<computerCannotBuild />
+        </contribution>
+</plug-in>

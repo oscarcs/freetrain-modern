@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+
+<plug-in>
+	<title>建物セット</title>
+	<author>烈火</author>
+	<homepage></homepage>
+
+	<contribution type="picture" id="{rk-tateya-tutaya002-cg-001}">
+		<picture src="gaso001a.bmp">
+			<override when="night" src="gaso001b.bmp"/>
+		</picture>
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{rk-tateya-tutaya002-001}">
+
+		<name>ガソリンスタンド(中)</name>
+		<price>10000000</price>
+		<size>2,2</size>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>120</base>
+		</population>
+		<design>ガソリンスタンド</design>
+		<structure>
+			<category  byname="チェーン専門店"/>
+		</structure>
+		<sprite origin="0,0" offset="21">
+			<picture ref="{rk-tateya-tutaya002-cg-001}"/>
+		</sprite>
+		<sprite origin="64,0" offset="21">
+			<picture ref="{rk-tateya-tutaya002-cg-001}"/>
+		</sprite>
+		<sprite origin="128,0" offset="21">
+			<picture ref="{rk-tateya-tutaya002-cg-001}"/>
+		</sprite>
+		<sprite origin="192,0" offset="21">
+			<picture ref="{rk-tateya-tutaya002-cg-001}"/>
+		</sprite>
+
+	</contribution>
+
+	<contribution type="GenericStructure" id="{rk-tateya-tutaya002-002}">
+
+		<name>ガソリンスタンド(中)</name>
+		<price>10000000</price>
+		<size>2,2</size>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>120</base>
+		</population>
+		<design>ガソリンスタンド</design>
+		<structure>
+			<category  byname="チェーン専門店"/>
+		</structure>
+
+		<sprite origin="256,0" offset="21">
+			<picture ref="{rk-tateya-tutaya002-cg-001}"/>
+		</sprite>
+		<sprite origin="320,0" offset="21">
+			<picture ref="{rk-tateya-tutaya002-cg-001}"/>
+		</sprite>
+		<sprite origin="384,0" offset="21">
+			<picture ref="{rk-tateya-tutaya002-cg-001}"/>
+		</sprite>
+		<sprite origin="448,0" offset="21">
+			<picture ref="{rk-tateya-tutaya002-cg-001}"/>
+		</sprite>
+
+	</contribution>
+
+
+	<contribution type="GenericStructure" id="{rk-tateya-tutaya002-003}">
+
+		<name>ガソリンスタンド(中)</name>
+		<price>10000000</price>
+		<size>2,2</size>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>120</base>
+		</population>
+		<design>ガソリンスタンド</design>
+		<structure>
+			<category  byname="チェーン専門店"/>
+		</structure>
+
+		<sprite origin="512,0" offset="21">
+			<picture ref="{rk-tateya-tutaya002-cg-001}"/>
+		</sprite>
+		<sprite origin="576,0" offset="21">
+			<picture ref="{rk-tateya-tutaya002-cg-001}"/>
+		</sprite>
+		<sprite origin="640,0" offset="21">
+			<picture ref="{rk-tateya-tutaya002-cg-001}"/>
+		</sprite>
+		<sprite origin="704,0" offset="21">
+			<picture ref="{rk-tateya-tutaya002-cg-001}"/>
+		</sprite>
+
+	</contribution>
+
+	<contribution type="GenericStructure" id="{rk-tateya-tutaya002-004}">
+
+		<name>ガソリンスタンド(中)</name>
+		<price>10000000</price>
+		<size>2,2</size>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>120</base>
+		</population>
+		<design>ガソリンスタンド</design>
+		<structure>
+			<category  byname="チェーン専門店"/>
+		</structure>
+
+		<sprite origin="768,0" offset="21">
+			<picture ref="{rk-tateya-tutaya002-cg-001}"/>
+		</sprite>
+		<sprite origin="832,0" offset="21">
+			<picture ref="{rk-tateya-tutaya002-cg-001}"/>
+		</sprite>
+		<sprite origin="896,0" offset="21">
+			<picture ref="{rk-tateya-tutaya002-cg-001}"/>
+		</sprite>
+		<sprite origin="960,0" offset="21">
+			<picture ref="{rk-tateya-tutaya002-cg-001}"/>
+		</sprite>
+
+	</contribution>
+
+</plug-in>

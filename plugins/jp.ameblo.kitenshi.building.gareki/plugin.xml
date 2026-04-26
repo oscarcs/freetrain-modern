@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+
+<plug-in>
+
+<title>瓦礫</title>
+
+<author>げんき</author>
+
+<homepage>http://www19.atwiki.jp/freetrain-exav/</homepage>
+
+<contribution type="picture" id="{1FD2AE8B-75FE-4847-9831-31747A7F4EBB}">
+ <picture src="gareki.bmp" /> 
+</contribution>
+
+<contribution type="GenericStructure" id="{B985E561-5E47-4FCE-8F0C-17DA82C3470C}">
+
+<group>瓦礫</group>
+
+<structure>
+  　<category byname="特殊" /> 
+  </structure>
+
+<size>1,1</size>
+
+<price>100000</price>
+
+<computerCannotBuild />
+
+<height>1</height>
+
+<sprite origin="0,0" offset="0">
+   <picture ref="{1FD2AE8B-75FE-4847-9831-31747A7F4EBB}" /> 
+  </sprite>
+
+</contribution>
+
+</plug-in>

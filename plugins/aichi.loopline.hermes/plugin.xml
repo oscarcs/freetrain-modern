@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+<plug-in>
+  <title>愛環線車両詰め合わせ</title> 
+  <author>Hermes</author> 
+  <homepage>nothing</homepage> 
+ 
+<!-- 2100 -->
+      <contribution type="trainCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD12000}-A">
+         <class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　       <sprite origin="0,0">
+            <picture src="aikan2100.bmp" /> 
+         </sprite>
+         <capacity>146</capacity>
+         <seatedcapacity>56</seatedcapacity>
+      </contribution>
+
+<!-- 2200 -->
+　   <contribution type="trainCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD12000}-Q">
+　      <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+        <sprite origin="0,0">
+           <picture src="aikan2200.bmp" /> 
+        </sprite>
+        <capacity>140</capacity> 
+         <seatedcapacity>51</seatedcapacity>
+     </contribution> 
+ 
+<!-- 2200back -->
+　   <contribution type="trainCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD12000}-B">
+　      <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+        <base carRef="{1CDCD81D-8368-4CBC-HERM-0F1FDBD12000}-Q" />  
+     </contribution>
+
+<!-- 100 -->
+      <contribution type="trainCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD10100}-A">
+         <class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　       <sprite origin="0,0">
+            <picture src="aikan100.bmp" /> 
+         </sprite>
+         <capacity>136</capacity> 
+         <seatedcapacity>56</seatedcapacity>
+      </contribution>
+
+<!-- 200 -->
+　   <contribution type="trainCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD10100}-Q">
+　      <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+        <sprite origin="0,0">
+           <picture src="aikan200.bmp" /> 
+        </sprite>
+        <capacity>136</capacity> 
+         <seatedcapacity>56</seatedcapacity>
+     </contribution> 
+ 
+<!-- 200back -->
+　   <contribution type="trainCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD10100}-B">
+　      <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+        <base carRef="{1CDCD81D-8368-4CBC-HERM-0F1FDBD10100}-Q" />  
+     </contribution>
+
+
+<!-- 300 -->
+　   <contribution type="trainCar" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD10100}-C">
+　      <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+        <sprite origin="0,0">
+           <picture src="aikan300.bmp" /> 
+        </sprite>
+        <capacity>123</capacity> 
+         <seatedcapacity>52</seatedcapacity>
+     </contribution> 
+  
+   <contribution type="train" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD12200}">
+      <company>愛知環状鉄道</company>
+      <type>2000系</type>
+      <name>愛知環状鉄道線</name>
+      <author>白川郷の人</author>
+         <description>愛知環状鉄道線、通称「愛環」に2003年から導入された新型車両です。
+JR東海313系をベースに製造されました。
+         </description>
+      <fare>500</fare>
+      <price>35000000</price>
+	  <triprange>middle</triprange>
+	  <amenity>110</amenity>
+      <speed>medium</speed>
+      <class name="freetrain.contributions.train.PatternTrainImpl"/>
+         <config>
+            <car char="前" ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD12000}-A"/>
+            <car char="後" ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD12000}-B"/> 
+            <composition>前後</composition>
+            <composition>前後前後</composition>
+         </config>
+   </contribution>
+
+   <contribution type="train" id="{1CDCD81D-8368-4CBC-HERM-0F1FDBD10100}">
+      <company>愛知環状鉄道</company>
+      <type>100系</type>
+      <name>愛知環状鉄道線</name>
+      <author>白川郷の人</author>
+         <description>愛知環状鉄道線、通称「愛環」に1988年の開業から導入された車両です。
+2005年の愛・地球博開催と同時に引退しました。
+         </description>
+      <fare>500</fare>
+      <price>30000000</price>
+	  <triprange>middle</triprange>
+	  <amenity>100</amenity>
+      <speed>medium</speed>
+      <class name="freetrain.contributions.train.PatternTrainImpl"/>
+         <config>
+            <car char="前" ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD10100}-A"/>
+            <car char="後" ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD10100}-B"/>
+            <car char="単" ref="{1CDCD81D-8368-4CBC-HERM-0F1FDBD10100}-C"/>  
+            <composition>単</composition>
+            <composition>前後</composition>
+            <composition>前後単</composition>
+            <composition>前後前後</composition>
+         </config>
+   </contribution>
+</plug-in>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+ <plug-in>
+  <title>戦車</title>
+  <author>モガミ</author>
+  <homepage>http://www.geocities.jp/mogami00/Kamikazekensetu.html</homepage>
+  <contribution type="picture" id="{7A1D7E15-8345-43EB-8D31-F9D26ECCBFBB}" >
+   <picture src="tank.bmp"/>
+  </contribution>
+  <contribution type="commercial" id="{FE61055B-ACE7-4E6D-B10F-C73DDA698A2B}" >
+   <group>戦車</group>
+   <price>10000000</price>
+   <size>1,1</size>
+   <structure>
+    <category byname="軍事施設"/> 
+   </structure>
+   <height>1</height>
+   <population>
+    <class name="freetrain.contributions.population.OfficePopulation"/>
+    <base>1200</base>
+   </population>
+   <sprite origin="0,0" offset="5">
+    <picture ref="{7A1D7E15-8345-43EB-8D31-F9D26ECCBFBB}"/>
+   </sprite>
+  </contribution>
+ </plug-in>

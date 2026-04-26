@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+  <title>北九州モノレールせっと</title>
+  <author>りおりお</author>
+  <homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+
+  <!-- 北九州高速鉄道1000系青 先頭車グラフィック-->
+  <contribution type="picture" id="{riorio-kitakyushumonorail-1000-picture-blue}-h">
+      <picture src="kk1000-bluea.bmp" />
+  </contribution>
+
+  <!-- 北九州高速鉄道1000系青 中間車グラフィック-->
+  <contribution type="picture" id="{riorio-kitakyushumonorail-1000-picture-blue}-m">
+      <picture src="kk1000-blueb.bmp" />
+  </contribution>
+
+  <!-- 北九州高速鉄道1000系青 先頭車-->
+  <contribution type="trainCar" id="{riorio-kitakyushumonorail-1000-blue-51E0A0DAC82A}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture ref="{riorio-kitakyushumonorail-1000-picture-blue}-h" />
+    </sprite>
+    <capacity>107</capacity>
+    <seatedcapacity>34</seatedcapacity>
+  </contribution>
+
+  <!-- 北九州高速鉄道1000系青 中間車-->
+  <contribution type="trainCar" id="{riorio-kitakyushumonorail-1000-blue-51E0A0DAC82A}-m">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture ref="{riorio-kitakyushumonorail-1000-picture-blue}-m" />
+      </sprite>
+    <capacity>140</capacity>
+    <seatedcapacity>40</seatedcapacity>
+  </contribution>
+
+  <!-- 北九州高速鉄道1000系青 後尾車-->
+  <contribution type="trainCar" id="{riorio-kitakyushumonorail-1000-blue-51E0A0DAC82A}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{riorio-kitakyushumonorail-1000-blue-51E0A0DAC82A}-h"/>
+  </contribution>
+
+  <contribution type="train" id="{riorio-train-kitakyushumonorail-1000-blue-11CA747B62F9}">
+    <company>北九州高速鉄道</company>
+    <type>1000系</type>
+    <name>青</name>
+    <author>りおりお</author>
+    <description>1985年から製造された北九州高速鉄道のモノレール車両。開業当初は全編成がクリームの車体にブルー帯の塗装一種類のみだった。
+現在は4両固定編成で運転されている。</description>
+		<fare>400</fare>
+		<price>28000000</price>
+		<amenity>100</amenity>
+    <speed>slow</speed>
+    <composition>
+      <head carRef="{riorio-kitakyushumonorail-1000-blue-51E0A0DAC82A}-h"/>
+      <body carRef="{riorio-kitakyushumonorail-1000-blue-51E0A0DAC82A}-m"/>
+      <tail carRef="{riorio-kitakyushumonorail-1000-blue-51E0A0DAC82A}-t"/>
+    </composition>
+  </contribution>
+
+
+  <!-- 北九州高速鉄道1000系緑 先頭車-->
+  <contribution type="trainCar" id="{riorio-kitakyushumonorail-1000-green-51E0A0DAC82A}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture ref="{riorio-kitakyushumonorail-1000-picture-blue}-h" />
+      	<spriteType name="colorMapped">
+	<map from="26,13,200" to="4,100,70"/>
+	<map from="21,10,155" to="3,78,54"/>
+	<map from="23,11,172" to="3,86,60"/>
+	<map from="25,13,190" to="4,95,66"/>
+	<map from="28,14,212" to="4,106,74"/>
+	</spriteType>
+    </sprite>
+    <capacity>107</capacity>
+    <seatedcapacity>34</seatedcapacity>
+  </contribution>
+
+  <!-- 北九州高速鉄道1000系緑 中間車-->
+  <contribution type="trainCar" id="{riorio-kitakyushumonorail-1000-green-51E0A0DAC82A}-m">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture ref="{riorio-kitakyushumonorail-1000-picture-blue}-m" />
+      	<spriteType name="colorMapped">
+	<map from="26,13,200" to="4,100,70"/>
+	<map from="21,10,155" to="3,78,54"/>
+	<map from="23,11,172" to="3,86,60"/>
+	<map from="25,13,190" to="4,95,66"/>
+	<map from="28,14,212" to="4,106,74"/>
+	</spriteType>
+      </sprite>
+    <capacity>140</capacity>
+    <seatedcapacity>40</seatedcapacity>
+  </contribution>
+
+  <!-- 北九州高速鉄道1000系緑 後尾車-->
+  <contribution type="trainCar" id="{riorio-kitakyushumonorail-1000-green-51E0A0DAC82A}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{riorio-kitakyushumonorail-1000-green-51E0A0DAC82A}-h"/>
+  </contribution>
+
+  <contribution type="train" id="{riorio-train-kitakyushumonorail-1000-green-11CA747B62F9}">
+    <company>北九州高速鉄道</company>
+    <type>1000系</type>
+    <name>緑</name>
+    <author>りおりお</author>
+    <description>1985年から製造された北九州高速鉄道のモノレール車両。開業当初は全編成がクリームの車体にブルー帯の塗装一種類のみだったが、後にカラーバリエーションが作られた。
+現在は4両固定編成で運転されている。</description>
+		<fare>400</fare>
+		<price>28000000</price>
+		<amenity>100</amenity>
+    <speed>slow</speed>
+    <composition>
+      <head carRef="{riorio-kitakyushumonorail-1000-green-51E0A0DAC82A}-h"/>
+      <body carRef="{riorio-kitakyushumonorail-1000-green-51E0A0DAC82A}-m"/>
+      <tail carRef="{riorio-kitakyushumonorail-1000-green-51E0A0DAC82A}-t"/>
+    </composition>
+  </contribution>
+
+
+  <!-- 北九州高速鉄道1000系オレンジ 先頭車-->
+  <contribution type="trainCar" id="{riorio-kitakyushumonorail-1000-orange-51E0A0DAC82A}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture ref="{riorio-kitakyushumonorail-1000-picture-blue}-h" />
+      	<spriteType name="colorMapped">
+	<map from="26,13,200" to="215,126,41"/>
+	<map from="21,10,155" to="167,98,32"/>
+	<map from="23,11,172" to="185,108,35"/>
+	<map from="25,13,190" to="204,119,38"/>
+	<map from="28,14,212" to="228,133,43"/>
+	</spriteType>
+    </sprite>
+    <capacity>107</capacity>
+    <seatedcapacity>34</seatedcapacity>
+  </contribution>
+
+  <!-- 北九州高速鉄道1000系オレンジ 中間車-->
+  <contribution type="trainCar" id="{riorio-kitakyushumonorail-1000-orange-51E0A0DAC82A}-m">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture ref="{riorio-kitakyushumonorail-1000-picture-blue}-m" />
+      	<spriteType name="colorMapped">
+	<map from="26,13,200" to="215,126,41"/>
+	<map from="21,10,155" to="167,98,32"/>
+	<map from="23,11,172" to="185,108,35"/>
+	<map from="25,13,190" to="204,119,38"/>
+	<map from="28,14,212" to="228,133,43"/>
+	</spriteType>
+      </sprite>
+    <capacity>140</capacity>
+    <seatedcapacity>40</seatedcapacity>
+  </contribution>
+
+  <!-- 北九州高速鉄道1000系オレンジ 後尾車-->
+  <contribution type="trainCar" id="{riorio-kitakyushumonorail-1000-orange-51E0A0DAC82A}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{riorio-kitakyushumonorail-1000-orange-51E0A0DAC82A}-h"/>
+  </contribution>
+
+  <contribution type="train" id="{riorio-train-kitakyushumonorail-1000-orange-11CA747B62F9}">
+    <company>北九州高速鉄道</company>
+    <type>1000系</type>
+    <name>オレンジ</name>
+    <author>りおりお</author>
+    <description>1985年から製造された北九州高速鉄道のモノレール車両。開業当初は全編成がクリームの車体にブルー帯の塗装一種類のみだったが、後にカラーバリエーションが作られた。
+現在は4両固定編成で運転されている。</description>
+		<fare>400</fare>
+		<price>28000000</price>
+		<amenity>100</amenity>
+    <speed>slow</speed>
+    <composition>
+      <head carRef="{riorio-kitakyushumonorail-1000-orange-51E0A0DAC82A}-h"/>
+      <body carRef="{riorio-kitakyushumonorail-1000-orange-51E0A0DAC82A}-m"/>
+      <tail carRef="{riorio-kitakyushumonorail-1000-orange-51E0A0DAC82A}-t"/>
+    </composition>
+  </contribution>
+
+
+  <!-- 北九州高速鉄道1000系紫 先頭車-->
+  <contribution type="trainCar" id="{riorio-kitakyushumonorail-1000-purple-51E0A0DAC82A}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture ref="{riorio-kitakyushumonorail-1000-picture-blue}-h" />
+      	<spriteType name="colorMapped">
+	<map from="26,13,200" to="212,83,212"/>
+	<map from="21,10,155" to="164,65,164"/>
+	<map from="23,11,172" to="182,71,182"/>
+	<map from="25,13,190" to="200,79,200"/>
+	<map from="28,14,212" to="224,88,224"/>
+	</spriteType>
+    </sprite>
+    <capacity>107</capacity>
+    <seatedcapacity>34</seatedcapacity>
+  </contribution>
+
+  <!-- 北九州高速鉄道1000系紫 中間車-->
+  <contribution type="trainCar" id="{riorio-kitakyushumonorail-1000-purple-51E0A0DAC82A}-m">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture ref="{riorio-kitakyushumonorail-1000-picture-blue}-m" />
+      	<spriteType name="colorMapped">
+	<map from="26,13,200" to="212,83,212"/>
+	<map from="21,10,155" to="164,65,164"/>
+	<map from="23,11,172" to="182,71,182"/>
+	<map from="25,13,190" to="200,79,200"/>
+	<map from="28,14,212" to="224,88,224"/>
+	</spriteType>
+      </sprite>
+    <capacity>140</capacity>
+    <seatedcapacity>40</seatedcapacity>
+  </contribution>
+
+  <!-- 北九州高速鉄道1000系紫 後尾車-->
+  <contribution type="trainCar" id="{riorio-kitakyushumonorail-1000-purple-51E0A0DAC82A}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{riorio-kitakyushumonorail-1000-purple-51E0A0DAC82A}-h"/>
+  </contribution>
+
+  <contribution type="train" id="{riorio-train-kitakyushumonorail-1000-purple-11CA747B62F9}">
+    <company>北九州高速鉄道</company>
+    <type>1000系</type>
+    <name>紫</name>
+    <author>りおりお</author>
+    <description>1985年から製造された北九州高速鉄道のモノレール車両。開業当初は全編成がクリームの車体にブルー帯の塗装一種類のみだったが、後にカラーバリエーションが作られた。
+現在は4両固定編成で運転されている。</description>
+		<fare>400</fare>
+		<price>28000000</price>
+		<amenity>100</amenity>
+    <speed>slow</speed>
+    <composition>
+      <head carRef="{riorio-kitakyushumonorail-1000-purple-51E0A0DAC82A}-h"/>
+      <body carRef="{riorio-kitakyushumonorail-1000-purple-51E0A0DAC82A}-m"/>
+      <tail carRef="{riorio-kitakyushumonorail-1000-purple-51E0A0DAC82A}-t"/>
+    </composition>
+  </contribution>
+
+
+  <!-- 北九州高速鉄道1000系赤 先頭車-->
+  <contribution type="trainCar" id="{riorio-kitakyushumonorail-1000-red-51E0A0DAC82A}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture ref="{riorio-kitakyushumonorail-1000-picture-blue}-h" />
+      	<spriteType name="colorMapped">
+	<map from="26,13,200" to="205,10,10"/>
+	<map from="21,10,155" to="159,8,8"/>
+	<map from="23,11,172" to="176,9,9"/>
+	<map from="25,13,190" to="194,10,10"/>
+	<map from="28,14,212" to="217,11,11"/>
+	</spriteType>
+    </sprite>
+    <capacity>107</capacity>
+    <seatedcapacity>34</seatedcapacity>
+  </contribution>
+
+  <!-- 北九州高速鉄道1000系赤 中間車-->
+  <contribution type="trainCar" id="{riorio-kitakyushumonorail-1000-red-51E0A0DAC82A}-m">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture ref="{riorio-kitakyushumonorail-1000-picture-blue}-m" />
+      	<spriteType name="colorMapped">
+	<map from="26,13,200" to="205,10,10"/>
+	<map from="21,10,155" to="159,8,8"/>
+	<map from="23,11,172" to="176,9,9"/>
+	<map from="25,13,190" to="194,10,10"/>
+	<map from="28,14,212" to="217,11,11"/>
+	</spriteType>
+      </sprite>
+    <capacity>140</capacity>
+    <seatedcapacity>40</seatedcapacity>
+  </contribution>
+
+  <!-- 北九州高速鉄道1000系赤 後尾車-->
+  <contribution type="trainCar" id="{riorio-kitakyushumonorail-1000-red-51E0A0DAC82A}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{riorio-kitakyushumonorail-1000-red-51E0A0DAC82A}-h"/>
+  </contribution>
+
+  <contribution type="train" id="{riorio-train-kitakyushumonorail-1000-red-11CA747B62F9}">
+    <company>北九州高速鉄道</company>
+    <type>1000系</type>
+    <name>赤</name>
+    <author>りおりお</author>
+    <description>1985年から製造された北九州高速鉄道のモノレール車両。開業当初は全編成がクリームの車体にブルー帯の塗装一種類のみだったが、後にカラーバリエーションが作られた。
+現在は4両固定編成で運転されている。</description>
+		<fare>400</fare>
+		<price>28000000</price>
+		<amenity>100</amenity>
+    <speed>slow</speed>
+    <composition>
+      <head carRef="{riorio-kitakyushumonorail-1000-red-51E0A0DAC82A}-h"/>
+      <body carRef="{riorio-kitakyushumonorail-1000-red-51E0A0DAC82A}-m"/>
+      <tail carRef="{riorio-kitakyushumonorail-1000-red-51E0A0DAC82A}-t"/>
+    </composition>
+  </contribution>
+
+
+  <!-- 北九州高速鉄道1000系水色 先頭車-->
+  <contribution type="trainCar" id="{riorio-kitakyushumonorail-1000-sky-51E0A0DAC82A}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture ref="{riorio-kitakyushumonorail-1000-picture-blue}-h" />
+      	<spriteType name="colorMapped">
+	<map from="26,13,200" to="26,143,209"/>
+	<map from="21,10,155" to="20,111,162"/>
+	<map from="23,11,172" to="22,123,179"/>
+	<map from="25,13,190" to="24,135,198"/>
+	<map from="28,14,212" to="27,151,221"/>
+	</spriteType>
+    </sprite>
+    <capacity>107</capacity>
+    <seatedcapacity>34</seatedcapacity>
+  </contribution>
+
+  <!-- 北九州高速鉄道1000系水色 中間車-->
+  <contribution type="trainCar" id="{riorio-kitakyushumonorail-1000-sky-51E0A0DAC82A}-m">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture ref="{riorio-kitakyushumonorail-1000-picture-blue}-m" />
+      	<spriteType name="colorMapped">
+	<map from="26,13,200" to="26,143,209"/>
+	<map from="21,10,155" to="20,111,162"/>
+	<map from="23,11,172" to="22,123,179"/>
+	<map from="25,13,190" to="24,135,198"/>
+	<map from="28,14,212" to="27,151,221"/>
+	</spriteType>
+      </sprite>
+    <capacity>140</capacity>
+    <seatedcapacity>40</seatedcapacity>
+  </contribution>
+
+  <!-- 北九州高速鉄道1000系水色 後尾車-->
+  <contribution type="trainCar" id="{riorio-kitakyushumonorail-1000-sky-51E0A0DAC82A}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{riorio-kitakyushumonorail-1000-sky-51E0A0DAC82A}-h"/>
+  </contribution>
+
+  <contribution type="train" id="{riorio-train-kitakyushumonorail-1000-sky-11CA747B62F9}">
+    <company>北九州高速鉄道</company>
+    <type>1000系</type>
+    <name>水色</name>
+    <author>りおりお</author>
+    <description>1985年から製造された北九州高速鉄道のモノレール車両。開業当初は全編成がクリームの車体にブルー帯の塗装一種類のみだったが、後にカラーバリエーションが作られた。
+現在は4両固定編成で運転されている。</description>
+		<fare>400</fare>
+		<price>28000000</price>
+		<amenity>100</amenity>
+    <speed>slow</speed>
+    <composition>
+      <head carRef="{riorio-kitakyushumonorail-1000-sky-51E0A0DAC82A}-h"/>
+      <body carRef="{riorio-kitakyushumonorail-1000-sky-51E0A0DAC82A}-m"/>
+      <tail carRef="{riorio-kitakyushumonorail-1000-sky-51E0A0DAC82A}-t"/>
+    </composition>
+  </contribution>
+
+
+  <!-- 北九州高速鉄道1000系黄 先頭車-->
+  <contribution type="trainCar" id="{riorio-kitakyushumonorail-1000-yellow-51E0A0DAC82A}-h">
+    <class name="freetrain.contributions.train.AsymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture ref="{riorio-kitakyushumonorail-1000-picture-blue}-h" />
+      	<spriteType name="colorMapped">
+	<map from="26,13,200" to="205,205,12"/>
+	<map from="21,10,155" to="159,159,10"/>
+	<map from="23,11,172" to="176,176,11"/>
+	<map from="25,13,190" to="194,194,12"/>
+	<map from="28,14,212" to="217,217,13"/>
+	</spriteType>
+    </sprite>
+    <capacity>107</capacity>
+    <seatedcapacity>34</seatedcapacity>
+  </contribution>
+
+  <!-- 北九州高速鉄道1000系黄 中間車-->
+  <contribution type="trainCar" id="{riorio-kitakyushumonorail-1000-yellow-51E0A0DAC82A}-m">
+    <class name="freetrain.contributions.train.SymTrainCarImpl" />
+    <sprite origin="0,0">
+      <picture ref="{riorio-kitakyushumonorail-1000-picture-blue}-m" />
+      	<spriteType name="colorMapped">
+	<map from="26,13,200" to="205,205,12"/>
+	<map from="21,10,155" to="159,159,10"/>
+	<map from="23,11,172" to="176,176,11"/>
+	<map from="25,13,190" to="194,194,12"/>
+	<map from="28,14,212" to="217,217,13"/>
+	</spriteType>
+      </sprite>
+    <capacity>140</capacity>
+    <seatedcapacity>40</seatedcapacity>
+  </contribution>
+
+  <!-- 北九州高速鉄道1000系黄 後尾車-->
+  <contribution type="trainCar" id="{riorio-kitakyushumonorail-1000-yellow-51E0A0DAC82A}-t">
+    <class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+    <base carRef="{riorio-kitakyushumonorail-1000-yellow-51E0A0DAC82A}-h"/>
+  </contribution>
+
+  <contribution type="train" id="{riorio-train-kitakyushumonorail-1000-yellow-11CA747B62F9}">
+    <company>北九州高速鉄道</company>
+    <type>1000系</type>
+    <name>黄</name>
+    <author>りおりお</author>
+    <description>1985年から製造された北九州高速鉄道のモノレール車両。開業当初は全編成がクリームの車体にブルー帯の塗装一種類のみだったが、後にカラーバリエーションが作られた。
+現在は4両固定編成で運転されている。</description>
+		<fare>400</fare>
+		<price>28000000</price>
+		<amenity>100</amenity>
+    <speed>slow</speed>
+    <composition>
+      <head carRef="{riorio-kitakyushumonorail-1000-yellow-51E0A0DAC82A}-h"/>
+      <body carRef="{riorio-kitakyushumonorail-1000-yellow-51E0A0DAC82A}-m"/>
+      <tail carRef="{riorio-kitakyushumonorail-1000-yellow-51E0A0DAC82A}-t"/>
+    </composition>
+  </contribution>
+
+
+
+</plug-in>

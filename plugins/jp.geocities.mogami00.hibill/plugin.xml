@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+<plug-in>
+ <title>貸しビル(3x4)</title> 
+ <author>モガミ</author> 
+ <homepage>http://www.geocities.jp/mogami00/Kamikazekensetu.html</homepage> 
+ <contribution type="picture" id="{mogami-buildingi-building-hibill2-picture-2E1004005113}">
+ <picture src="hibill.bmp" /> 
+ </contribution>
+ <contribution type="GenericStructure" id="{mogami-building-hibill2-E07233000ED8}">
+ <group>貸しビル(3x4)</group> 
+ <structure>
+ <category byname="貸事務所" /> 
+ </structure>
+ <price>500000000</price> 
+ <size>3,4</size> 
+ <minHeight>3</minHeight> 
+ <maxHeight>12</maxHeight> 
+ <computerCannotBuild />
+ <population>
+ <class name="freetrain.contributions.population.OfficePopulation" /> 
+ <base>400</base> 
+ </population>
+ <pictures>
+ <top origin="0,0" offset="32">
+ <picture ref="{mogami-buildingi-building-hibill2-picture-2E1004005113}" /> 
+ </top>
+ <middle origin="0,69" offset="32">
+ <picture ref="{mogami-buildingi-building-hibill2-picture-2E1004005113}" /> 
+ </middle>
+ <bottom origin="0,168" offset="32">
+ <picture ref="{mogami-buildingi-building-hibill2-picture-2E1004005113}" /> 
+ </bottom>
+ </pictures>
+ <pictures opposite="true">
+ <top origin="112,8" offset="32">
+ <picture ref="{mogami-buildingi-building-hibill2-picture-2E1004005113}" /> 
+ </top>
+ <middle origin="112,77" offset="32">
+ <picture ref="{mogami-buildingi-building-hibill2-picture-2E1004005113}" /> 
+ </middle>
+ <bottom origin="112,176" offset="32">
+ <picture ref="{mogami-buildingi-building-hibill2-picture-2E1004005113}" /> 
+ </bottom>
+ </pictures>
+ </contribution>
+</plug-in>

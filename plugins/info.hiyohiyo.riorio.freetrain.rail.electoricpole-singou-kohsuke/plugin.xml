@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>架線柱</title>
+	<author>りおりお（画像・川口耕介）</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+	
+	<depends on="org.kohsuke.freetrain.rail.electricPole" />
+
+	<contribution type="picture" id="{riorio-DummySignal-2000-1000-D0EA1049D28D}">
+		<picture src="santou00.bmp" />
+	</contribution>
+	<contribution type="picture" id="{riorio-DummySignal-1EF4-2000-1001-D0EA1049D28D}">
+		<picture src="santou01.bmp" />
+	</contribution>
+
+
+	<contribution type="electricPole" id="{riorio-Dummy-1001-1000-D0EA1049D28D}">
+		<name>三灯信号機1(Dummy)</name>
+		<sprite>
+			<picture ref="{riorio-DummySignal-2000-1000-D0EA1049D28D}"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="electricPole" id="{riorio-Dummy-1002-1000-D0EA1049D28D}">
+		<name>三灯信号機2(Dummy)</name>
+		<sprite>
+			<picture ref="{riorio-DummySignal-1EF4-2000-1001-D0EA1049D28D}"/>
+		</sprite>
+	</contribution>
+
+
+</plug-in>

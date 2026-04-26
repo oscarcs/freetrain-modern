@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+ <plug-in>
+  <title>NY風高層分譲マンション2</title> 
+  <author>モガミ</author> 
+  <homepage>http://www.geocities.jp/mogami00/Kamikazekensetu.html</homepage> 
+  <contribution type="picture" id="{1A457D7C-E7EB-47F6-843B-6ECCE3FEEE23}">
+  <picture src="NY2bilding.bmp" /> 
+  </contribution>
+  <contribution type="commercial" id="{39A2426B-3B43-4B0F-9BFD-F6850EE9476A}">
+  <group>NY風高層分譲マンション2</group> 
+  <price>6000</price> 
+  <size>2,2</size> 
+  <structure>
+  <category byname="分譲マンション" /> 
+  </structure>
+  <height>13</height> 
+  <population>
+  <class name="freetrain.contributions.population.OfficePopulation" /> 
+  <base>2100000000</base> 
+  </population>
+  <sprite origin="0,0" offset="195">
+  <picture ref="{1A457D7C-E7EB-47F6-843B-6ECCE3FEEE23}" /> 
+  </sprite>
+　<computerCannotBuild />
+  </contribution>
+  </plug-in>

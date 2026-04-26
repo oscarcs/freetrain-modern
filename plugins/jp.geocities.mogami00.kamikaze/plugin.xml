@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+ <plug-in>
+  <title>神風財閥ビル</title>
+  <author>モガミ</author>
+  <homepage>http://www.geocities.jp/mogami00/Kamikazekensetu.html</homepage>
+  <contribution type="picture" id="{0EA559E2-57A4-4D7F-BCFF-27CE13BAF090}" >
+   <picture src="kamikaze.bmp"/>
+  </contribution>
+  <contribution type="commercial" id="{8753CB0B-6B55-4508-8A01-14763E0C38D5}" >
+   <group>神風財閥ビル</group>
+   <price>5500000000</price>
+   <size>5,3</size>
+   <structure>
+    <category byname="貸事務所"/> 
+   </structure>
+   <height>12</height>
+   <population>
+    <class name="freetrain.contributions.population.OfficePopulation"/>
+    <base>4000</base>
+   </population>
+   <sprite origin="0,0" offset="201">
+    <picture ref="{0EA559E2-57A4-4D7F-BCFF-27CE13BAF090}"/>
+   </sprite>
+  </contribution>
+ </plug-in>

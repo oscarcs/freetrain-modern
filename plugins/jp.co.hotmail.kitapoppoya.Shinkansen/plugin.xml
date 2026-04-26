@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+<plug-in>
+  <title>新幹線セット</title>
+  <author>北の汽車屋</author>
+  <homepage></homepage>
+<!-- N700系先頭車 --> 
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-N700-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="N700a.bmp" /> 
+  </sprite>
+  <capacity>65</capacity>
+  <seatedcapacity>65</seatedcapacity> 
+  </contribution>
+<!-- N700系最後尾車 -->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-N700-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{669D5BDE-23F1-43BD-AC36-N700-A}" />  
+  <capacity>75</capacity>
+  <seatedcapacity>75</seatedcapacity> 
+  </contribution> 
+<!-- N700系中間車 -->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-N700-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="N700b.bmp" /> 
+  </sprite>
+  <capacity>90</capacity>
+  <seatedcapacity>90</seatedcapacity> 
+  </contribution>
+<!-- N700系7000番台先頭車 --> 
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-N7007000-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="N700_7000a.bmp" /> 
+  </sprite>
+  <capacity>60</capacity>
+  <seatedcapacity>60</seatedcapacity> 
+  </contribution>
+<!-- N700系7000番台最後尾車 -->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-N7007000-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{669D5BDE-23F1-43BD-AC36-N7007000-A}" />  
+  <capacity>56</capacity>
+  <seatedcapacity>56</seatedcapacity> 
+  </contribution> 
+<!-- N700系7000番台中間車 -->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-N7007000-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="N700_7000b.bmp" /> 
+  </sprite>
+  <capacity>80</capacity>
+  <seatedcapacity>80</seatedcapacity> 
+  </contribution>
+<!-- E5系先頭車 --> 
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-E5-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="E5_a.bmp" /> 
+  </sprite>
+  <capacity>29</capacity>
+  <seatedcapacity>29</seatedcapacity> 
+  </contribution>
+<!-- E5系最後尾車 -->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-E5-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{669D5BDE-23F1-43BD-AC36-E5-A}" />  
+  <capacity>18</capacity>
+  <seatedcapacity>18</seatedcapacity> 
+  </contribution> 
+<!-- E5系中間車 -->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-E5-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="E5_b.bmp" /> 
+  </sprite>
+  <capacity>100</capacity>
+  <seatedcapacity>100</seatedcapacity> 
+  </contribution>
+<!-- E6系先頭車 --> 
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-E6-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="E6_a.bmp" /> 
+  </sprite>
+  <capacity>23</capacity>
+  <seatedcapacity>23</seatedcapacity> 
+  </contribution>
+<!-- E6系最後尾車 -->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-E6-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{669D5BDE-23F1-43BD-AC36-E6-A}" />  
+  <capacity>32</capacity>
+  <seatedcapacity>32</seatedcapacity> 
+  </contribution> 
+<!-- E6系中間車 -->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-E6-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="E6_b.bmp" /> 
+  </sprite>
+  <capacity>60</capacity>
+  <seatedcapacity>60</seatedcapacity> 
+  </contribution>
+
+ <contribution type="train" id="{57644AE6-7FFA-A231-8FE0-75-N700CE}">
+<company>JR東海</company>
+<type>N700系</type>
+<name>のぞみ</name>
+<author>北の汽車屋</author>
+<description></description>
+<price>5600000</price>
+<fare>1100</fare> 
+<amenity>130</amenity>
+<triprange>long</triprange>
+<speed>superb</speed>
+<composition>
+<head carRef="{669D5BDE-23F1-43BD-AC36-N700-A}"/>
+<body carRef="{669D5BDE-23F1-43BD-AC36-N700-C}"/>
+<tail carRef="{669D5BDE-23F1-43BD-AC36-N700-B}"/>
+</composition>
+</contribution>
+ <contribution type="train" id="{57644AE6-7FFA-A231-8FE0-75-N700WE}">
+<company>JR西日本</company>
+<type>N700系</type>
+<name>のぞみ</name>
+<author>北の汽車屋</author>
+<description></description>
+<price>56000000</price>
+<fare>1100</fare> 
+<amenity>130</amenity>
+<triprange>long</triprange>
+<speed>superb</speed>
+<composition>
+<head carRef="{669D5BDE-23F1-43BD-AC36-N700-A}"/>
+<body carRef="{669D5BDE-23F1-43BD-AC36-N700-C}"/>
+<tail carRef="{669D5BDE-23F1-43BD-AC36-N700-B}"/>
+</composition>
+</contribution>
+ <contribution type="train" id="{57644AE6-7FFA-A231-8FE0-75-N700WS}">
+<company>JR西日本</company>
+<type>N700系7000番台</type>
+<name>さくら･みずほ</name>
+<author>北の汽車屋</author>
+<description></description>
+<price>54000000</price>
+<fare>950</fare>
+<amenity>130</amenity>
+<triprange>long</triprange>
+<speed>superb</speed>
+<composition>
+<head carRef="{669D5BDE-23F1-43BD-AC36-N7007000-A}"/>
+<body carRef="{669D5BDE-23F1-43BD-AC36-N7007000-C}"/>
+<tail carRef="{669D5BDE-23F1-43BD-AC36-N7007000-B}"/>
+</composition>
+</contribution>
+ <contribution type="train" id="{57644AE6-7FFA-A231-8FE0-75-N700KS}">
+<company>JR九州</company>
+<type>N700系7000番台</type>
+<name>さくら･みずほ</name>
+<author>北の汽車屋</author>
+<description></description>
+<price>54000000</price>
+<fare>950</fare> 
+<amenity>130</amenity>
+<triprange>long</triprange>
+<speed>superb</speed>
+<composition>
+<head carRef="{669D5BDE-23F1-43BD-AC36-N7007000-A}"/>
+<body carRef="{669D5BDE-23F1-43BD-AC36-N7007000-C}"/>
+<tail carRef="{669D5BDE-23F1-43BD-AC36-N7007000-B}"/>
+</composition>
+</contribution>
+ <contribution type="train" id="{57644AE6-7FFA-A231-8FE0-75-E5}">
+<company>JR東日本</company>
+<type>E5系</type>
+<name>はやぶさ</name>
+<author>北の汽車屋</author>
+<description></description>
+<price>60000000</price>
+<fare>1200</fare> 
+<amenity>130</amenity>
+<triprange>long</triprange>
+<speed>superb</speed>
+<composition>
+<head carRef="{669D5BDE-23F1-43BD-AC36-E5-A}"/>
+<body carRef="{669D5BDE-23F1-43BD-AC36-E5-C}"/>
+<tail carRef="{669D5BDE-23F1-43BD-AC36-E5-B}"/>
+</composition>
+</contribution>
+ <contribution type="train" id="{57644AE6-7FFA-A231-8FE0-75-E6}">
+<company>JR東日本</company>
+<type>E6系</type>
+<name>こまち</name>
+<author>北の汽車屋</author>
+<description></description>
+<price>60000000</price>
+<fare>1100</fare> 
+<amenity>130</amenity>
+<triprange>long</triprange>
+<speed>superb</speed>
+<composition>
+<head carRef="{669D5BDE-23F1-43BD-AC36-E6-A}"/>
+<body carRef="{669D5BDE-23F1-43BD-AC36-E6-C}"/>
+<tail carRef="{669D5BDE-23F1-43BD-AC36-E6-B}"/>
+</composition>
+</contribution>
+ <contribution type="train" id="{669D5BDE-23F1-43BD-AC36-B-E5E6}">
+<company>JR東日本</company>
+<type>E5系+E6系</type>
+<name>はやぶさ+こまち</name>
+<author>北の汽車屋</author>
+<description></description>
+<fare>1200</fare>
+<price>60000000</price>
+<triprange>long</triprange>
+<amenity>130</amenity>
+<speed>superb</speed>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<class name="freetrain.contributions.train.PatternTrainImpl"/>
+<config>
+<car char="A" ref="{669D5BDE-23F1-43BD-AC36-E5-A}"/>
+<car char="C" ref="{669D5BDE-23F1-43BD-AC36-E5-C}"/>
+<car char="B" ref="{669D5BDE-23F1-43BD-AC36-E5-B}"/>
+<car char="D" ref="{669D5BDE-23F1-43BD-AC36-E6-A}"/>
+<car char="F" ref="{669D5BDE-23F1-43BD-AC36-E6-C}"/>
+<car char="E" ref="{669D5BDE-23F1-43BD-AC36-E6-B}"/>  
+<composition>ACCCCCCCCBDFFFFFE</composition>
+</config>
+</contribution>
+</plug-in>

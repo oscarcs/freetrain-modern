@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>架線柱</title>
+	<author></author>
+	<homepage></homepage>
+	
+	<contribution type="road" id="{DD1224B0-B003-1100-hana-4E604F3342C8}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<style name="railballast" />
+		<name>スラブ軌道</name>
+		<description>スラブ軌道</description>
+		<picture src="surabu01.bmp" size="32,32" offset="16" />
+	</contribution>
+
+	<contribution type="picture" id="{rk-sura200306011157001}">
+		<picture src="surabu-kouka.bmp"/>
+	</contribution>
+	<contribution type="railStationary" id="{rk-sura200306011157001}-A">
+		<group>スラブ高架</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="20">
+			<picture ref="{rk-sura200306011157001}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{rk-sura200306011157001}-B">
+		<group>スラブ高架</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="32,0" offset="20">
+			<picture ref="{rk-sura200306011157001}" />
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{rk-sura200306011157001}-C">
+		<group>スラブ高架</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="64,0" offset="20">
+			<picture ref="{rk-sura200306011157001}" />
+		</sprite>
+	</contribution>	
+	<contribution type="railStationary" id="{rk-sura200306011157001}-D">
+		<group>スラブ高架</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="96,0" offset="20">
+			<picture ref="{rk-sura200306011157001}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="railStationary" id="{ra-suraC001-1400-4C8B212DD67}">
+		<group>スラブ高架カーブ</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="20">
+			<picture src="surabu-kabu01a.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{ra-suraC002-1400-4C8B212DD67}">
+		<group>スラブ高架カーブ</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="20">
+			<picture src="surabu-kabu02a.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{ra-suraC003-1400-4C8B212DD67}">
+		<group>スラブ高架カーブ</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="20">
+			<picture src="surabu-kabu03a.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{ra-suraC004-1400-4C8B212DD67}">
+		<group>スラブ高架カーブ</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="20">
+			<picture src="surabu-kabu04a.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="railStationary" id="{ra-suraC005-1400-4C8B212DD67}">
+		<group>スラブ高架</group>
+		<price>300000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="20">
+			<picture src="surabu-kabu05a.bmp"/>
+		</sprite>
+	</contribution>
+</plug-in>

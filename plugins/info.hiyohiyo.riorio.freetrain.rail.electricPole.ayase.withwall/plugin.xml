@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>架線柱壁つき</title>
+	<author>りおりお　←綾瀬ヒロ・暇</author>
+	<homepage>http://www.hiyohiyo.info/~riorio/freetrain/</homepage>
+	
+	<depends on="org.kohsuke.freetrain.rail.electricPole" />
+	
+	<contribution type="electricPole" id="{riorio-AYASE-Hiro-RailStructure-epwall-dual1-Left}">
+		<name>壁複線用(左)</name>
+		<sprite>
+			<picture src="kasen1left.bmp"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="electricPole" id="{riorio-AYASE-Hiro-RailStructure-epwall-dual1-Right}">
+		<name>壁複線用(右)</name>
+		<sprite>
+			<picture src="kasen1right.bmp"/>
+		</sprite>
+	</contribution>
+
+	<contribution type="electricPole" id="{riorio-AYASE-Hiro-RailStructure-epwall-single1-0001}">
+		<name>壁単両柱1</name>
+		<sprite>
+			<picture src="kasen1.bmp"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="electricPole" id="{riorio-AYASE-Hiro-RailStructure-epwall-single2-0002}">
+		<name>壁単両柱2</name>
+		<sprite>
+			<picture src="kasen2.bmp"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="electricPole" id="{riorio-AYASE-Hiro-RailStructure-epwall-single3-0003}">
+		<name>壁単片柱1</name>
+		<sprite>
+			<picture src="kasen33tan.bmp"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="electricPole" id="{riorio-AYASE-Hiro-RailStructure-epwall-single4-0004}">
+		<name>壁単片柱2</name>
+		<sprite>
+			<picture src="kasen44tan.bmp"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="electricPole" id="{riorio-AYASE-Hiro-RailStructure-epwall-single3-0033}">
+		<name>壁単片柱1'</name>
+		<sprite>
+			<picture src="kasen33btan.bmp"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="electricPole" id="{riorio-AYASE-Hiro-RailStructure-epwall-single4-0044}">
+		<name>壁単片柱2'</name>
+		<sprite>
+			<picture src="kasen44btan.bmp"/>
+		</sprite>
+	</contribution>
+	<contribution type="electricPole" id="{riorio-AYASE-Hiro-RailStructure-epwall-dual3-0003}">
+		<name>壁複片柱1</name>
+		<sprite>
+			<picture src="kasen33fuku.bmp"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="electricPole" id="{riorio-AYASE-Hiro-RailStructure-epwall-dual4-0004}">
+		<name>壁複片柱2</name>
+		<sprite>
+			<picture src="kasen44fuku.bmp"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="electricPole" id="{riorio-AYASE-Hiro-RailStructure-epwall-dual3-0033}">
+		<name>壁複片柱1'</name>
+		<sprite>
+			<picture src="kasen33bfuku.bmp"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="electricPole" id="{riorio-AYASE-Hiro-RailStructure-epwall-dual4-0044}">
+		<name>壁複片柱2'</name>
+		<sprite>
+			<picture src="kasen44bfuku.bmp"/>
+		</sprite>
+	</contribution>
+	
+</plug-in>

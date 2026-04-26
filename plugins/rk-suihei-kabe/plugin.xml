@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>柵(水平)</title>
+	<author>花菱烈火</author>
+	<homepage></homepage>
+
+	<contribution type="picture" id="{rk-kabe0001-FENCE-STRUCTURE-1001}">
+		<picture src="kabe001.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-kabe0001-FENCE-STRUCTURE-1002}">
+		<picture src="kabe002.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-kabe0001-FENCE-STRUCTURE-1003}">
+		<picture src="kabe003.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-kabe0001-FENCE-STRUCTURE-1004}">
+		<picture src="kabe004.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-kabe0001-FENCE-STRUCTURE-1005}">
+		<picture src="kabe005.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-kabe0001-FENCE-STRUCTURE-1006}">
+		<picture src="kabe006.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-kabe0001-FENCE-STRUCTURE-1007}">
+		<picture src="kabe007.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-kabe0001-FENCE-STRUCTURE-1008}">
+		<picture src="kabe008.bmp"/>
+	</contribution>
+	<contribution type="picture" id="{rk-kabe0001-FENCE-STRUCTURE-1009}">
+		<picture src="kabe009.bmp">
+			<override when="summer" src="kabe009.bmp" />
+			<override when="autumn" src="kabe009.bmp" />
+			<override when="winter" src="kabe009-01.bmp" />
+		</picture>
+
+	</contribution>
+	<contribution type="picture" id="{rk-kabe0001-FENCE-STRUCTURE-1010}">
+		<picture src="kabe010.bmp"/>
+	</contribution>
+
+	<contribution type="land" id="{rk-kabe0001-FENCE-PICTURE-1001}">
+		<group>柵(水平)</group>
+		<name>PC壁</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{rk-kabe0001-FENCE-STRUCTURE-1001}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-kabe0001-FENCE-PICTURE-1002}">
+		<group>柵(水平)</group>
+		<name>PC壁</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{rk-kabe0001-FENCE-STRUCTURE-1002}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-kabe0001-FENCE-PICTURE-1003}">
+		<group>柵(水平)</group>
+		<name>PC壁</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{rk-kabe0001-FENCE-STRUCTURE-1003}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-kabe0001-FENCE-PICTURE-1004}">
+		<group>柵(水平)</group>
+		<name>PC壁</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{rk-kabe0001-FENCE-STRUCTURE-1004}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-kabe0001-FENCE-PICTURE-1005}">
+		<group>柵(水平)</group>
+		<name>PC壁</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{rk-kabe0001-FENCE-STRUCTURE-1005}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-kabe0001-FENCE-PICTURE-1006}">
+		<group>柵(水平)</group>
+		<name>PC壁</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{rk-kabe0001-FENCE-STRUCTURE-1006}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-kabe0001-FENCE-PICTURE-1007}">
+		<group>柵(水平)</group>
+		<name>PC壁</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{rk-kabe0001-FENCE-STRUCTURE-1007}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-kabe0001-FENCE-PICTURE-1008}">
+		<group>柵(水平)</group>
+		<name>PC壁</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{rk-kabe0001-FENCE-STRUCTURE-1008}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-kabe0001-FENCE-PICTURE-1009}">
+		<group>柵(水平)</group>
+		<name>PC壁</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{rk-kabe0001-FENCE-STRUCTURE-1009}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+	<contribution type="land" id="{rk-kabe0001-FENCE-PICTURE-1010}">
+		<group>柵(水平)</group>
+		<name>PC壁</name>
+		<computerCannotBuild/>
+		<class name="freetrain.contributions.fence.FenceBuilder"
+			codebase="../jp.co.tripod.chiname.lib.fence/bin/Fence.DLL"/>
+		<picture ref="{rk-kabe0001-FENCE-STRUCTURE-1010}" offset="16" >
+			<right_front>0,0</right_front>
+			<left_front>32,0</left_front>
+			<left_back>64,0</left_back>
+			<right_back>96,0</right_back>
+		</picture>
+		<price>10000</price>
+	</contribution>
+</plug-in>

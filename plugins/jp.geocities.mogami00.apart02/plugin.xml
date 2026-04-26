@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+<plug-in>
+ <title>NY風アパート</title> 
+ <author>モガミ</author> 
+ <homepage>http://www.geocities.jp/mogami00/Kamikazekensetu.html</homepage> 
+ <contribution type="picture" id="{mogami-building-nyfuu-apart-02-picture-9D51EF1C1E2D}">
+ <picture src="apart02.bmp" /> 
+ </contribution>
+ <contribution type="GenericStructure" id="{mogami-building-nyfuu-apart-02-CDE9E6520A01}-1">
+  <group>NY風アパート</group> 
+  <price>300000000</price> 
+  <size>2,2</size> 
+  <structure>
+   <category byname="分譲マンション" /> 
+  </structure>
+  <height>2</height> 
+  <population>
+   <class name="freetrain.contributions.population.OfficePopulation" /> 
+   <base>300</base> 
+  </population>
+  <sprite origin="0,0" offset="196">
+   <picture ref="{mogami-building-nyfuu-apart-02-picture-9D51EF1C1E2D}" /> 
+  </sprite> 
+  <sprite origin="64,0" offset="196">
+   <picture ref="{mogami-building-nyfuu-apart-02-picture-9D51EF1C1E2D}" /> 
+  </sprite> 
+  <computerCannotBuild /> 
+ </contribution>
+ <contribution type="GenericStructure" id="{mogami-building-nyfuu-apart-02-CDE9E6520A01}-2">
+  <group>NY風アパート</group> 
+  <price>300000000</price> 
+  <size>2,2</size> 
+  <structure>
+   <category byname="分譲マンション" /> 
+  </structure>
+  <height>2</height> 
+  <population>
+   <class name="freetrain.contributions.population.OfficePopulation" /> 
+   <base>300</base> 
+  </population>
+  <sprite origin="0,0" offset="127">
+   <picture ref="{mogami-building-nyfuu-apart-02-picture-9D51EF1C1E2D}" /> 
+  </sprite> 
+  <sprite origin="64,0" offset="127">
+   <picture ref="{mogami-building-nyfuu-apart-02-picture-9D51EF1C1E2D}" /> 
+  </sprite> 
+  <computerCannotBuild /> 
+ </contribution>
+</plug-in>

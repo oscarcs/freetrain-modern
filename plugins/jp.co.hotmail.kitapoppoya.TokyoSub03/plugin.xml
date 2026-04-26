@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+<plug-in>
+  <title>東京地下鉄保管計画その3</title>
+  <author>北の汽車屋</author>
+  <homepage></homepage>
+<!-- 15000系先頭車 --> 
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-TM15000-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="eidan15000_a.bmp" /> 
+  </sprite>
+  <capacity>143</capacity>
+  <seatedcapacity>38</seatedcapacity> 
+  </contribution>
+<!-- 15000系最後尾車 -->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-TM15000-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{669D5BDE-23F1-43BD-AC36-TM15000-A}" />  
+  <capacity>143</capacity>
+  <seatedcapacity>38</seatedcapacity> 
+  </contribution> 
+<!-- 15000系中間車 -->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-TM15000-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="eidan15000_b.bmp" /> 
+  </sprite>
+  <capacity>154</capacity>
+  <seatedcapacity>44</seatedcapacity> 
+  </contribution>
+<!-- 16000系先頭車 --> 
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-TM16000-A}">
+　<class name="freetrain.contributions.train.AsymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="eidan16000_a.bmp" /> 
+  </sprite>
+  <capacity>143</capacity>
+  <seatedcapacity>48</seatedcapacity> 
+  </contribution>
+<!-- 16000系最後尾車 -->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-TM16000-B}">
+　<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+  <base carRef="{669D5BDE-23F1-43BD-AC36-TM16000-A}" />  
+  <capacity>143</capacity>
+  <seatedcapacity>48</seatedcapacity> 
+  </contribution> 
+<!-- 16000系中間車 -->
+　<contribution type="trainCar" id="{669D5BDE-23F1-43BD-AC36-TM16000-C}">
+　<class name="freetrain.contributions.train.SymTrainCarImpl" /> 
+　<sprite origin="0,0">
+  <picture src="eidan16000_b.bmp" /> 
+  </sprite>
+  <capacity>154</capacity>
+  <seatedcapacity>54</seatedcapacity> 
+  </contribution>
+
+ <contribution type="train" id="{57644AE6-7FFA-A231-8FE0-75-TM15000}">
+<company>東京メトロ</company>
+<type>15000系</type>
+<name>東西線</name>
+<author>北の汽車屋</author>
+<description></description>
+<price>5600000</price>
+<fare>500</fare> 
+<amenity>110</amenity>
+<speed>medium</speed>
+<composition>
+<head carRef="{669D5BDE-23F1-43BD-AC36-TM15000-A}"/>
+<body carRef="{669D5BDE-23F1-43BD-AC36-TM15000-C}"/>
+<tail carRef="{669D5BDE-23F1-43BD-AC36-TM15000-B}"/>
+</composition>
+</contribution>
+ <contribution type="train" id="{57644AE6-7FFA-A231-8FE0-75-TM16000}">
+<company>東京メトロ</company>
+<type>16000系</type>
+<name>千代田線</name>
+<author>北の汽車屋</author>
+<description></description>
+<price>5600000</price>
+<fare>520</fare> 
+<amenity>110</amenity>
+<speed>medium</speed>
+<composition>
+<head carRef="{669D5BDE-23F1-43BD-AC36-TM16000-A}"/>
+<body carRef="{669D5BDE-23F1-43BD-AC36-TM16000-C}"/>
+<tail carRef="{669D5BDE-23F1-43BD-AC36-TM16000-B}"/>
+</composition>
+</contribution>
+</plug-in>

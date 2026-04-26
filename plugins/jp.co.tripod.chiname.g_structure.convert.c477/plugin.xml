@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE plug-in [
+<!ENTITY colorMapTest '
+	<spriteType name="colorMapped">
+		<map from="213,205,186" to="196,202,216" />
+		<map from="188,175,150" to="165,175,193" />
+		<map from="188,174,144" to="160,170,192" />
+		<map from="170,159,134" to="150,158,177" />
+		<map from="166,149,116" to="135,148,172" />
+		<map from="162,148,121" to="140,150,170" />
+		<map from="143,127, 97" to="119,130,152" />
+		<map from="103, 91, 79" to="102,111,119" />
+		<map from=" 91, 78, 64" to=" 88, 97,108" />
+	</spriteType>
+'>
+<!ENTITY crKhaki '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="188,174,144"/>
+	</spriteType>
+'>
+<!ENTITY crLtBlue '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="144,158,188"/>
+	</spriteType>
+'>
+<!ENTITY crSilver '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="190,190,190"/>
+	</spriteType>
+'>
+<!ENTITY crCyan '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="166,189,203"/>
+	</spriteType>
+'>
+<!ENTITY crDkGray '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="90,90,90"/>
+	</spriteType>
+'>
+<!ENTITY crBrown '
+	<spriteType name="hueTransform">
+		<map from="*,0,0" to="127,74,57"/>
+	</spriteType>
+'>
+
+<!ENTITY smallBuildingPopulation '
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>35</base>
+	</population>
+'>
+<!ENTITY officeBuildingAPopulation '
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>200</base>
+	</population>
+'>
+<!ENTITY officeBuildingWithHeliportPopulation '
+	<population>
+		<class name="freetrain.contributions.population.OfficePopulation"/>
+		<base>250</base>
+	</population>
+'>
+
+]>
+
+
+
+
+<plug-in>
+	<depend on="org.kohsuke.freetrain.structure.c477"/>
+	
+	<title>建物セット</title>
+	<homepage>http://www.rocket.ne.jp/~nao/</homepage>
+	<author>477@２両目</author>
+	<depend on="org.kohsuke.freetrain.structure.osakaCastle"/>	
+	
+	<contribution type="GenericStructure" id="{BC43CE38-601A-42c7-992A-6049CCD29B94}-gs">
+		<group>住居兼コンビニ</group>
+		<design>セブンイレブン</design>
+		<structure>
+			<category byname="コンビニ"/>
+			<category byname="一戸建て" hide="true"/>
+		</structure>
+		<price>2000000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>35</base>
+		</population>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{BC43CE38-601A-42c7-992A-6049CCD29B94}" />
+		</sprite>
+	</contribution>
+
+	<contribution type="GenericStructure" id="{2C3ED0DA-FBA1-4586-9691-67DC93B851C9}-gs">
+		<name>老舗百貨店</name>
+		<structure>
+			<category byname="デパート"/>
+		</structure>
+		<price>28000000</price>
+		<size>2,2</size>
+		<height>3</height>
+		<population>
+			<class name="freetrain.contributions.population.ShopperPopulation"/>
+			<base>600</base>
+		</population>
+		<sprite origin="0,0" offset="49">
+			<picture ref="{2C3ED0DA-FBA1-4586-9691-67DC93B851C9}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="GenericStructure" id="{9F3E82AD-2A49-4aef-954C-E872F535B3D8}-gs">
+		<name>分譲マンション(2x2)</name>
+		<design>組込</design>
+		<structure>
+			<category byname="分譲マンション"/>
+		</structure>
+		<price>24000000</price>
+		<size>2,2</size>
+		<height>3</height>
+		<sprite origin="0,0" offset="40">
+			<picture ref="{9F3E82AD-2A49-4aef-954C-E872F535B3D8}"/>
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.ResidentialPopulation"/>
+			<base>200</base>
+		</population>
+	</contribution>
+	<contribution type="GenericStructure" id="{27D6D0C0-2B1A-4494-9257-14C208168075}-gs">
+		<name>分譲住宅</name>
+		<structure>
+			<category byname="一戸建て"/>
+		</structure>
+		<price>1100000</price>
+		<size>1,1</size>
+		<height>1</height>
+		<sprite origin="0,0" offset="16">
+			<picture ref="{27D6D0C0-2B1A-4494-9257-14C208168075}" />
+		</sprite>
+		<population>
+			<class name="freetrain.contributions.population.ResidentialPopulation"/>
+			<base>10</base>
+		</population>
+	</contribution>
+	
+	<contribution type="GenericStructure" id="{B99FA2F7-F138-46a1-99F7-34AE23A157F6}-gs">
+		<name>中層雑居オフィスビル</name>
+		<structure>
+			<category byname="貸事務所"/>
+		</structure>
+		<price>16000000</price>
+		<size>2,2</size>
+		<height>3</height>
+		<population>
+			<class name="freetrain.contributions.population.OfficePopulation"/>
+			<base>300</base>
+		</population>
+		&crSilver;
+		&crCyan;
+		&crDkGray;
+		&crBrown;
+		<sprite origin="0,0" offset="48">
+			<picture ref="{B99FA2F7-F138-46a1-99F7-34AE23A157F6}"/>
+		</sprite>
+		<sprite origin="64,0" offset="48">
+			<picture ref="{B99FA2F7-F138-46a1-99F7-34AE23A157F6}"/>
+		</sprite>
+	</contribution>
+	
+	<contribution type="GenericStructure" id="{442C7E12-A3BA-4c25-9129-C3803EA760BC}-gs">
+		<group>貸しビル(A)</group>
+		<structure>
+			<category byname="貸事務所"/>
+		</structure>
+		<price>39000000</price>
+		<size>3,2</size>
+		<minHeight>2</minHeight>
+		<maxHeight>10</maxHeight>
+		&officeBuildingAPopulation;
+		&crKhaki;
+		&crLtBlue;
+		&crSilver;
+		<pictures>			
+			<top    origin=" 0,  0" offset="24">
+				<picture ref="{2E8E24AC-4242-4801-A4DD-2947A0800794}"/>
+			</top>
+			<middle origin=" 0, 48" offset="24">
+				<picture ref="{2E8E24AC-4242-4801-A4DD-2947A0800794}"/>
+			</middle>
+			<bottom origin=" 0, 96" offset="24">
+				<picture ref="{2E8E24AC-4242-4801-A4DD-2947A0800794}"/>
+			</bottom>
+		</pictures>
+		<pictures opposite="true">
+			<top    origin="80,  0" offset="16">
+				<picture ref="{2E8E24AC-4242-4801-A4DD-2947A0800794}"/>
+			</top>
+			<middle origin="80, 48" offset="16">
+				<picture ref="{2E8E24AC-4242-4801-A4DD-2947A0800794}"/>
+			</middle>
+			<bottom origin="80, 96" offset="16">
+				<picture ref="{2E8E24AC-4242-4801-A4DD-2947A0800794}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="160,  0" offset="24">
+				<picture ref="{2E8E24AC-4242-4801-A4DD-2947A0800794}"/>
+			</top>
+			<middle origin="160, 48" offset="24">
+				<picture ref="{2E8E24AC-4242-4801-A4DD-2947A0800794}"/>
+			</middle>
+			<bottom origin="160, 96" offset="24">
+				<picture ref="{2E8E24AC-4242-4801-A4DD-2947A0800794}"/>
+			</bottom>
+		</pictures>
+		<pictures opposite="true">
+			<top    origin="240,  0" offset="16">
+				<picture ref="{2E8E24AC-4242-4801-A4DD-2947A0800794}"/>
+			</top>
+			<middle origin="240, 48" offset="16">
+				<picture ref="{2E8E24AC-4242-4801-A4DD-2947A0800794}"/>
+			</middle>
+			<bottom origin="240, 96" offset="16">
+				<picture ref="{2E8E24AC-4242-4801-A4DD-2947A0800794}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+		
+	<contribution type="GenericStructure" id="{9BF4DD25-050A-4633-BC8B-0B8B226FC5E8}-gs">
+		<group>貸しビル(ヘリポート付)</group>
+		<structure>
+			<category byname="貸事務所"/>
+			<category byname="一般飲食店" hide="true"/>
+			<category byname="個人専門店" hide="true"/>
+		</structure>
+		<price>48000000</price>
+		<size>3,2</size>
+		<minHeight>3</minHeight>
+		<maxHeight>10</maxHeight>
+		&officeBuildingWithHeliportPopulation;
+		<pictures>
+			<top    origin="  0,  0" offset="24">
+				<picture ref="{16D97ECA-5387-4D2C-B51D-E54663B21B2B}"/>
+			</top>
+			<middle origin="  0, 48" offset="24">
+				<picture ref="{16D97ECA-5387-4D2C-B51D-E54663B21B2B}"/>
+			</middle>
+			<bottom origin="  0, 96" offset="24">
+				<picture ref="{16D97ECA-5387-4D2C-B51D-E54663B21B2B}"/>
+			</bottom>
+		</pictures>
+		<pictures opposite="true">
+			<top    origin=" 80,  0" offset="16">
+				<picture ref="{16D97ECA-5387-4D2C-B51D-E54663B21B2B}"/>
+			</top>
+			<middle origin=" 80, 48" offset="16">
+				<picture ref="{16D97ECA-5387-4D2C-B51D-E54663B21B2B}"/>
+			</middle>
+			<bottom origin=" 80, 96" offset="16">
+				<picture ref="{16D97ECA-5387-4D2C-B51D-E54663B21B2B}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	
+	<contribution type="GenericStructure" id="{D57200E0-8E73-4899-8EEC-0E9AC95C3D40}-gs">
+		<group>新宿三井ビル</group>
+		<structure>
+			<category byname="貸事務所"/>
+			<category byname="一般飲食店" hide="true"/>
+			<category byname="店舗" hide="true"/>
+		</structure>
+		<price>390000000</price>
+		<minHeight>3</minHeight>
+		<maxHeight>10</maxHeight>
+		<population>
+			<class name="freetrain.contributions.population.CombinationPopulation"/>
+			<population>
+				<class name="freetrain.contributions.population.OfficePopulation"/>
+				<base>1200</base>
+			</population>
+			<population>
+				<class name="freetrain.contributions.population.ShopperPopulation"/>
+				<base>300</base>
+			</population>
+		</population>
+		<size>5,6</size>
+		<pictures>
+			<top    origin="-32,  0" offset="24">
+				<picture ref="{98D10236-1A52-455B-8D86-7FD3B9B26994}"/>
+			</top>
+			<middle origin="-32, 88" offset=" 8">
+				<picture ref="{98D10236-1A52-455B-8D86-7FD3B9B26994}"/>
+			</middle>
+			<bottom origin="  0,264" offset="32">
+				<picture ref="{98D10236-1A52-455B-8D86-7FD3B9B26994}"/>
+			</bottom>
+		</pictures>
+		<pictures opposite="true">
+			<top    origin="176,  0" offset="48" height="88">
+				<picture ref="{98D10236-1A52-455B-8D86-7FD3B9B26994}"/>
+			</top>
+			<middle origin="176, 88" offset="32">
+				<picture ref="{98D10236-1A52-455B-8D86-7FD3B9B26994}"/>
+			</middle>
+			<bottom origin="176,168" offset="40">
+				<picture ref="{98D10236-1A52-455B-8D86-7FD3B9B26994}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="  0,  0" offset="40" height="88">
+				<picture ref="{98D10236-1A52-455B-8D86-7FD3B9B26994}"/>
+			</top>
+			<middle origin="  0, 88" offset="24">
+				<picture ref="{98D10236-1A52-455B-8D86-7FD3B9B26994}"/>
+			</middle>
+			<bottom origin="  0,168" offset="32">
+				<picture ref="{98D10236-1A52-455B-8D86-7FD3B9B26994}"/>
+			</bottom>
+		</pictures>
+		<pictures opposite="true">
+			<top    origin="208,  0" offset="32">
+				<picture ref="{98D10236-1A52-455B-8D86-7FD3B9B26994}"/>
+			</top>
+			<middle origin="208, 88" offset="16">
+				<picture ref="{98D10236-1A52-455B-8D86-7FD3B9B26994}"/>
+			</middle>
+			<bottom origin="176,264" offset="40">
+				<picture ref="{98D10236-1A52-455B-8D86-7FD3B9B26994}"/>
+			</bottom>
+		</pictures>
+	</contribution>
+	
+	<contribution type="GenericStructure" id="{C35B9F7A-7D69-4D1B-9B92-D05CBF4C20D7}-gs">
+		<group>新宿住友ビル</group>
+		<structure>
+			<category byname="貸事務所"/>
+			<category byname="一般飲食店" hide="true"/>
+			<category byname="店舗" hide="true"/>
+		</structure>
+		<price>300000000</price>
+		<size>5,5</size>
+		<minHeight>3</minHeight>
+		<maxHeight>10</maxHeight>
+		<population>
+			<class name="freetrain.contributions.population.CombinationPopulation"/>
+			<population>
+				<class name="freetrain.contributions.population.OfficePopulation"/>
+				<base>1000</base>
+			</population>
+			<population>
+				<class name="freetrain.contributions.population.ShopperPopulation"/>
+				<base>200</base>
+			</population>
+		</population>
+		&crKhaki;
+		&crSilver;
+		&crCyan;
+		<pictures>
+			<top    origin="  0, 88" offset="40">
+				<picture ref="{6D2631CB-336E-4DD4-AEF7-B915EC5D8B25}"/>
+			</top>
+			<middle origin="  0,272" offset="32">
+				<picture ref="{6D2631CB-336E-4DD4-AEF7-B915EC5D8B25}"/>
+			</middle>
+			<bottom origin="  0,448" offset="32">
+				<picture ref="{6D2631CB-336E-4DD4-AEF7-B915EC5D8B25}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="  0,  8" offset="40" height="80">
+				<picture ref="{6D2631CB-336E-4DD4-AEF7-B915EC5D8B25}"/>
+			</top>
+			<middle origin="  0,192" offset="32">
+				<picture ref="{6D2631CB-336E-4DD4-AEF7-B915EC5D8B25}"/>
+			</middle>
+			<bottom origin="  0,368" offset="32">
+				<picture ref="{6D2631CB-336E-4DD4-AEF7-B915EC5D8B25}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="160, 88" offset="40">
+				<picture ref="{6D2631CB-336E-4DD4-AEF7-B915EC5D8B25}"/>
+			</top>
+			<middle origin="160,272" offset="32">
+				<picture ref="{6D2631CB-336E-4DD4-AEF7-B915EC5D8B25}"/>
+			</middle>
+			<bottom origin="160,448" offset="32">
+				<picture ref="{6D2631CB-336E-4DD4-AEF7-B915EC5D8B25}"/>
+			</bottom>
+		</pictures>
+		<pictures>
+			<top    origin="160,  8" offset="40">
+				<picture ref="{6D2631CB-336E-4DD4-AEF7-B915EC5D8B25}"/>
+			</top>
+			<middle origin="160,192" offset="32">
+				<picture ref="{6D2631CB-336E-4DD4-AEF7-B915EC5D8B25}"/>
+			</middle>
+			<bottom origin="160,368" offset="32">
+				<picture ref="{6D2631CB-336E-4DD4-AEF7-B915EC5D8B25}"/>
+			</bottom>
+		</pictures>
+	</contribution>	
+
+</plug-in>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="Shift_JIS" ?> 
+  <plug-in>
+  <title>取手とうきゅう</title> 
+  <author>白河・モガミ</author> 
+  <homepage></homepage> 
+  <contribution type="picture" id="{shirakawa-building-toridetoukyu-picture-64A28EF056D1}">
+  <picture src="toukyu.bmp">
+  </picture>
+  </contribution>
+  <contribution type="GenericStructure" id="{shirakawa-building-toridetoukyu-C7EC9E5936B7}">
+  <group>取手とうきゅう</group> 
+  <structure>
+  <category byname="ショッピングモール" /> 
+  </structure>
+  <size>3,4</size> 
+  <price>800000000</price> 
+  <computerCannotBuild /> 
+  <height>3</height> 
+  <population>
+  <class name="freetrain.contributions.population.CombinationPopulation" /> 
+   <population>
+   <class name="freetrain.contributions.population.RestaurantPopulation"/>
+   <base>3500</base>
+   </population>
+   <population>
+   <class name="freetrain.contributions.population.OfficePopulation"/>
+   <base>500</base>
+   </population> 
+  </population>
+  <sprite origin="0,0" offset="73">
+  <picture ref="{shirakawa-building-toridetoukyu-picture-64A28EF056D1}" /> 
+  </sprite>
+  <sprite origin="112,8" offset="73" opposite="true">
+  <picture ref="{shirakawa-building-toridetoukyu-picture-64A28EF056D1}" /> 
+  </sprite>
+  <sprite origin="224,0" offset="73">
+  <picture ref="{shirakawa-building-toridetoukyu-picture-64A28EF056D1}" /> 
+  </sprite>
+  <sprite origin="336,8" offset="73" opposite="true">
+  <picture ref="{shirakawa-building-toridetoukyu-picture-64A28EF056D1}" /> 
+  </sprite>
+  </contribution>
+  </plug-in>

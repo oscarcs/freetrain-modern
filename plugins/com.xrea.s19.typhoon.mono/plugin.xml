@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<plug-in>
+	<title>モノレールせっと</title>
+	<author>たいふ～ん</author>
+	<homepage></homepage>
+
+	<contribution type="road" id="{TYPHOON-MONO-ROAD-7567171D3CEF}">
+		<class name="freetrain.contributions.road.StandardRoadContribution" />
+		<style name="railballast" />
+		<name>モノレール用レール</name>
+		<description>モノレール用レール</description>
+		<picture src="road_mono.bmp" size="32,32" offset="16">
+		</picture>
+	</contribution>
+
+
+
+
+	<!-- 多摩1000系 先頭車-->
+	<contribution type="trainCar" id="{TYPHOON-TAMATOSHI-1000-7567171D3CEF}-h">
+		<class name="freetrain.contributions.train.AsymTrainCarImpl" />
+		<sprite origin="0,0">
+                <picture src="tama1000a.bmp" />
+                </sprite>
+		<capacity>100</capacity>
+		<seatedcapacity>38</seatedcapacity>
+	</contribution>
+	<!-- 多摩1000系 中間車-->
+	<contribution type="trainCar" id="{TYPHOON-TAMATOSHI-1000-7567171D3CEF}-m">
+		<class name="freetrain.contributions.train.SymTrainCarImpl" />
+		<sprite origin="0,0">
+                <picture src="tama1000b.bmp" />
+                </sprite>
+		<capacity>107</capacity>
+		<seatedcapacity>41</seatedcapacity>
+	</contribution>
+	<!-- 多摩1000系 後尾車-->
+	<contribution type="trainCar" id="{TYPHOON-TAMATOSHI-1000-7567171D3CEF}-t">
+		<class name="freetrain.contributions.train.ReverseTrainCarImpl" />
+		<base carRef="{TYPHOON-TAMATOSHI-1000-7567171D3CEF}-h"/>
+	</contribution>
+
+	<contribution type="train" id="{TYPHOON-TAMATOSHI-1000-HENSEI-7567171D3CEF}">
+		<company>多摩都市モノレール</company>
+		<type>1000系</type>
+		<name></name>
+		<author>たいふ～ん</author>
+		<description>多摩センターから北上し立川を超えて上北台までを結んでいる多摩都市モノレールで使用されている車両です。14編成が存在します。</description>
+		<fare>400</fare>
+		<price>28000000</price>
+		<amenity>100</amenity>
+		<speed>slow</speed>
+		<composition>
+			<head carRef="{TYPHOON-TAMATOSHI-1000-7567171D3CEF}-h"/>
+			<body carRef="{TYPHOON-TAMATOSHI-1000-7567171D3CEF}-m"/>
+			<tail carRef="{TYPHOON-TAMATOSHI-1000-7567171D3CEF}-t"/>
+		</composition>
+	</contribution></plug-in>
