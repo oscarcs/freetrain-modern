@@ -4,6 +4,104 @@ namespace FreeTrain.Modern;
 
 public sealed record MapRailObject(int H, int V, RailPatternDefinition Pattern);
 
+public enum ModernRailRoadKind
+{
+    Single,
+    Junction,
+    Unsupported
+}
+
+public sealed record ModernRailRoad(
+    ModernVoxelKey Location,
+    byte DirectionMask,
+    ModernRailRoadKind Kind,
+    RailPatternDefinition? Pattern)
+{
+    public bool IsJunction => Kind == ModernRailRoadKind.Junction;
+
+    public IReadOnlyList<ModernDirection> Directions => ModernDirection.All
+        .Where(direction => HasRail(direction))
+        .ToArray();
+
+    public bool HasRail(ModernDirection direction)
+    {
+        return (DirectionMask & (1 << direction.Index)) != 0;
+    }
+
+    public ModernDirection Dir1 => Directions.FirstOrDefault() ?? ModernDirection.North;
+    public ModernDirection Dir2 => Directions.LastOrDefault() ?? Dir1.Opposite;
+
+    public ModernDirection? StraightDirection
+    {
+        get
+        {
+            foreach (ModernDirection direction in ModernDirection.All)
+            {
+                if (HasRail(direction) && HasRail(direction.Opposite))
+                {
+                    return HasRail(direction.Left) || HasRail(direction.Right)
+                        ? direction
+                        : direction.Opposite;
+                }
+            }
+
+            return null;
+        }
+    }
+
+    public ModernDirection? CurveDirection => ModernDirection.All.FirstOrDefault(direction => HasRail(direction) && !HasRail(direction.Opposite));
+
+    public bool CanAttach(ModernDirection direction, bool isWellConnected)
+    {
+        if (HasRail(direction))
+        {
+            return true;
+        }
+
+        if (Kind == ModernRailRoadKind.Junction)
+        {
+            return false;
+        }
+
+        ModernDirection d1 = Dir1;
+        ModernDirection d2 = Dir2;
+        return isWellConnected
+            ? IsJunctionAttachAngle(ModernDirection.Angle(d1, direction)) && IsJunctionAttachAngle(ModernDirection.Angle(d2, direction))
+            : ModernDirection.Angle(d1, direction) >= 3 || ModernDirection.Angle(d2, direction) >= 3;
+    }
+
+    public ModernDirection Guide(ModernDirection incomingDirection, bool takeCurve = false)
+    {
+        if (Kind == ModernRailRoadKind.Junction
+            && HasRail(incomingDirection)
+            && (HasRail(incomingDirection.Left) || HasRail(incomingDirection.Right)))
+        {
+            if (!takeCurve)
+            {
+                return incomingDirection;
+            }
+
+            return HasRail(incomingDirection.Left)
+                ? incomingDirection.Left
+                : incomingDirection.Right;
+        }
+
+        if (HasRail(incomingDirection))
+        {
+            return incomingDirection;
+        }
+
+        return HasRail(incomingDirection.Left)
+            ? incomingDirection.Left
+            : incomingDirection.Right;
+    }
+
+    private static bool IsJunctionAttachAngle(int angle)
+    {
+        return angle is 1 or 3 or 4;
+    }
+}
+
 public readonly record struct RailPatternDefinition(int SourceX, int SourceY, int SourceWidth, int SourceHeight, int OffsetY, byte DirectionMask)
 {
     public Rect SourceRect => new(SourceX, SourceY, SourceWidth, SourceHeight);
@@ -55,6 +153,16 @@ public static class ModernRailPattern
             2 => SinglePatterns.FirstOrDefault(pattern => pattern.DirectionMask == directionMask),
             3 => JunctionPatterns.FirstOrDefault(pattern => pattern.DirectionMask == directionMask),
             _ => null
+        };
+    }
+
+    public static ModernRailRoadKind KindFromDirectionMask(byte directionMask)
+    {
+        return CountBits(directionMask) switch
+        {
+            2 => ModernRailRoadKind.Single,
+            3 => ModernRailRoadKind.Junction,
+            _ => ModernRailRoadKind.Unsupported
         };
     }
 

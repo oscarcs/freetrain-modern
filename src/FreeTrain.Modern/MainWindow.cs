@@ -7,6 +7,7 @@ using Avalonia.Media;
 using Avalonia.Media.Imaging;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
+using System.Text.Json;
 
 namespace FreeTrain.Modern;
 
@@ -18,6 +19,7 @@ public sealed class MainWindow : Window
     private readonly TextBlock selectionText;
     private readonly MapViewport mapViewport;
     private readonly TextBlock mapStatusText;
+    private readonly string worldSnapshotPath;
 
     public MainWindow(LegacyAssetCatalog assets)
     {
@@ -50,6 +52,7 @@ public sealed class MainWindow : Window
         };
         mapViewport = new MapViewport(assets, plugins);
         mapViewport.StatusChanged += status => mapStatusText.Text = status;
+        worldSnapshotPath = Path.Combine(AppContext.BaseDirectory, "modern-world.snapshot.json");
 
         Content = BuildLayout();
         LoadInitialPreview();
@@ -65,6 +68,16 @@ public sealed class MainWindow : Window
         {
             Header = "_Open Legacy Resource Folder",
             Command = MiniCommand.Create(OpenResourceFolder)
+        });
+        file.Items.Add(new MenuItem
+        {
+            Header = "_Save World Snapshot",
+            Command = MiniCommand.Create(SaveWorldSnapshot)
+        });
+        file.Items.Add(new MenuItem
+        {
+            Header = "_Load World Snapshot",
+            Command = MiniCommand.Create(LoadWorldSnapshot)
         });
         file.Items.Add(new Separator());
         file.Items.Add(new MenuItem
@@ -107,6 +120,11 @@ public sealed class MainWindow : Window
                 {
                     Header = "Sprites",
                     Content = BuildSpriteContributionBrowser()
+                },
+                new TabItem
+                {
+                    Header = "Roads",
+                    Content = BuildRoadContributionBrowser()
                 },
                 new TabItem
                 {
@@ -170,6 +188,14 @@ public sealed class MainWindow : Window
         controls.Children.Add(ToolButton("1:1", (_, _) => mapViewport.Zoom = 1.0, "Reset zoom"));
         controls.Children.Add(ToolButton("Raise", (_, _) => mapViewport.RaiseSelectedTerrain(), "Raise selected terrain"));
         controls.Children.Add(ToolButton("Lower", (_, _) => mapViewport.LowerSelectedTerrain(), "Lower selected terrain"));
+        controls.Children.Add(ToolButton("Select", (_, _) => mapViewport.EditMode = MapEditMode.Select, "Select tiles"));
+        controls.Children.Add(ToolButton("Rail", (_, _) => mapViewport.EditMode = MapEditMode.Rail, "Place rails between selected tiles"));
+        controls.Children.Add(ToolButton("Road", (_, _) => mapViewport.EditMode = MapEditMode.Road, "Place roads between selected tiles"));
+        controls.Children.Add(ToolButton("Erase", (_, _) => mapViewport.EditMode = MapEditMode.Erase, "Erase rail or road on selected tile"));
+        controls.Children.Add(ToolButton("< Road", (_, _) => mapViewport.SelectPreviousRoad(), "Previous road plugin"));
+        controls.Children.Add(ToolButton("Road >", (_, _) => mapViewport.SelectNextRoad(), "Next road plugin"));
+        controls.Children.Add(ToolButton("+10m", (_, _) => mapViewport.AdvanceClock(10), "Advance world clock ten minutes"));
+        controls.Children.Add(ToolButton("+1h", (_, _) => mapViewport.AdvanceClock(60), "Advance world clock one hour"));
 
         CheckBox grid = new()
         {
@@ -474,6 +500,51 @@ public sealed class MainWindow : Window
         return panel;
     }
 
+    private Control BuildRoadContributionBrowser()
+    {
+        IReadOnlyList<RoadContribution> loadableRoads = plugins.Roads
+            .Where(road => road.IsLoadable)
+            .Take(600)
+            .ToList()
+            .AsReadOnly();
+
+        DockPanel panel = new()
+        {
+            Margin = new Avalonia.Thickness(12)
+        };
+
+        TextBlock summary = new()
+        {
+            Text = $"{loadableRoads.Count} loadable road contributions shown | {plugins.Roads.Count} parsed",
+            FontWeight = FontWeight.SemiBold,
+            Margin = new Avalonia.Thickness(0, 0, 0, 10)
+        };
+        DockPanel.SetDock(summary, Dock.Top);
+        panel.Children.Add(summary);
+
+        WrapPanel wrap = new()
+        {
+            ItemWidth = 172,
+            ItemHeight = 152
+        };
+
+        foreach (RoadContribution road in loadableRoads)
+        {
+            RoadContributionPreview preview = new(road);
+            ToolTip.SetTip(preview, $"{road.DisplayName}\n{road.Kind}\n{road.PluginDirectoryName}/{road.Id}");
+            wrap.Children.Add(preview);
+        }
+
+        panel.Children.Add(new ScrollViewer
+        {
+            Content = wrap,
+            HorizontalScrollBarVisibility = ScrollBarVisibility.Disabled,
+            VerticalScrollBarVisibility = ScrollBarVisibility.Auto
+        });
+
+        return panel;
+    }
+
     private static Control BuildPluginDetails(PluginManifest plugin)
     {
         StackPanel panel = new()
@@ -572,5 +643,32 @@ public sealed class MainWindow : Window
         }
 
         Process.Start(new ProcessStartInfo(command, arguments) { UseShellExecute = false });
+    }
+
+    private void SaveWorldSnapshot()
+    {
+        ModernWorldSnapshot snapshot = mapViewport.CreateWorldSnapshot();
+        JsonSerializerOptions options = new() { WriteIndented = true };
+        File.WriteAllText(worldSnapshotPath, JsonSerializer.Serialize(snapshot, options));
+        mapStatusText.Text = $"Saved world snapshot: {worldSnapshotPath}";
+    }
+
+    private void LoadWorldSnapshot()
+    {
+        if (!File.Exists(worldSnapshotPath))
+        {
+            mapStatusText.Text = $"No world snapshot found: {worldSnapshotPath}";
+            return;
+        }
+
+        ModernWorldSnapshot? snapshot = JsonSerializer.Deserialize<ModernWorldSnapshot>(File.ReadAllText(worldSnapshotPath));
+        if (snapshot is null)
+        {
+            mapStatusText.Text = $"Could not load world snapshot: {worldSnapshotPath}";
+            return;
+        }
+
+        mapViewport.LoadWorldSnapshot(snapshot);
+        mapStatusText.Text = $"Loaded world snapshot: {worldSnapshotPath}";
     }
 }

@@ -62,7 +62,7 @@ public sealed class TerrainRenderer : IDisposable
 
     public void DrawTerrainTile(
         DrawingContext context,
-        WorldPreview world,
+        ModernWorld world,
         LegacySpriteSheet groundTiles,
         int h,
         int v,
@@ -96,7 +96,7 @@ public sealed class TerrainRenderer : IDisposable
         FillOutline(context, pen, top, right, bottom, left);
     }
 
-    private void DrawNeighborCliffs(DrawingContext context, WorldPreview world, int h, int v, Point p, TerrainTilePreview terrain)
+    private void DrawNeighborCliffs(DrawingContext context, ModernWorld world, int h, int v, Point p, TerrainTilePreview terrain)
     {
         (int westH, int westV) = OffsetLocation(h, v, -1, 0, world.Height);
         (int southH, int southV) = OffsetLocation(h, v, 0, 1, world.Height);

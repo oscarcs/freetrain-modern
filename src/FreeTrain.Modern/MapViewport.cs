@@ -6,10 +6,19 @@ using Avalonia.Media.Imaging;
 
 namespace FreeTrain.Modern;
 
-    public sealed class MapViewport : Control, IDisposable
-    {
+public enum MapEditMode
+{
+    Select,
+    Rail,
+    Road,
+    Erase
+}
+
+public sealed class MapViewport : Control, IDisposable
+{
     private const int TileWidth = 32;
     private const int TileHeight = 16;
+    private const string RailRoadCrossingPictureId = "{F4380415-A2F2-41d8-8FCD-ED25A470A84D}";
 
     private readonly LegacySpriteSheet groundTiles;
     private readonly Bitmap railBitmap;
@@ -18,11 +27,13 @@ namespace FreeTrain.Modern;
     private readonly IBrush nightBrush = new SolidColorBrush(Color.FromArgb(82, 15, 28, 54));
     private readonly Pen hoverPen = new(new SolidColorBrush(Color.FromRgb(255, 247, 153)), 2);
     private readonly Pen selectionPen = new(new SolidColorBrush(Color.FromRgb(243, 97, 72)), 2);
-    private readonly WorldPreview world;
+    private readonly Pen buildAnchorPen = new(new SolidColorBrush(Color.FromRgb(80, 156, 236)), 2);
+    private ModernWorld world;
     private readonly TerrainRenderer terrainRenderer;
-    private readonly IReadOnlyList<MapLandObject> landObjects;
-    private readonly IReadOnlyList<MapRailObject> railObjects;
-    private readonly IReadOnlyList<MapSpriteObject> mapObjects;
+    private readonly IReadOnlyList<RoadContribution> roadContributions;
+    private readonly IReadOnlyList<LandContribution> landContributions;
+    private readonly IReadOnlyList<SpriteContribution> spriteContributions;
+    private readonly string? railRoadCrossingPath;
     private readonly Dictionary<string, Bitmap> pluginBitmaps = new(StringComparer.OrdinalIgnoreCase);
     private readonly RenderOptions pixelArtRenderOptions = new()
     {
@@ -31,10 +42,13 @@ namespace FreeTrain.Modern;
     };
     private TileLocation? hoverLocation;
     private TileLocation? selectedLocation;
+    private TileLocation? buildAnchorLocation;
     private double zoom = 2.0;
     private bool showGrid = true;
     private bool useNightView;
     private int maxVisibleLevel;
+    private MapEditMode editMode = MapEditMode.Select;
+    private int activeRoadIndex;
 
     public MapViewport(LegacyAssetCatalog assets, PluginManifestCatalog plugins)
     {
@@ -50,11 +64,16 @@ namespace FreeTrain.Modern;
         groundTiles = new LegacySpriteSheet(groundPath, TileWidth, TileHeight);
         railBitmap = LegacyBitmap.LoadWithColorKey(railPath);
         terrainRenderer = new TerrainRenderer(palettePath, cliffPath);
-        world = WorldPreview.CreateSample();
-        HashSet<(int H, int V)> occupied = new();
-        landObjects = CreateSampleLandObjects(plugins, occupied);
-        railObjects = CreateSampleRailObjects();
-        mapObjects = CreateSampleObjects(plugins, occupied);
+        roadContributions = plugins.Roads.Where(road => road.IsLoadable).ToList().AsReadOnly();
+        landContributions = plugins.Lands.Where(land => land.IsLoadable).ToList().AsReadOnly();
+        spriteContributions = plugins.Sprites.Where(sprite => sprite.IsLoadable).ToList().AsReadOnly();
+        railRoadCrossingPath = FindRailRoadCrossingPath(assets, plugins);
+        activeRoadIndex = SelectInitialRoadIndex(roadContributions);
+        world = ModernWorld.CreateSample(roadContributions);
+        world.Changed += OnWorldChanged;
+        HashSet<(int H, int V)> occupied = CreateInitialOccupiedTiles();
+        AddSampleLandEntities(plugins, occupied);
+        AddSampleStructureEntities(plugins, occupied);
         maxVisibleLevel = world.MaxHeightCutLevel;
         Focusable = true;
         ClipToBounds = true;
@@ -131,6 +150,69 @@ namespace FreeTrain.Modern;
 
     public int WorldMaxGroundLevel => world.MaxGroundLevel;
     public int WorldMaxHeightCutLevel => world.MaxHeightCutLevel;
+    public MapEditMode EditMode
+    {
+        get => editMode;
+        set
+        {
+            if (editMode == value)
+            {
+                return;
+            }
+
+            editMode = value;
+            if (!ToolUsesAnchor)
+            {
+                buildAnchorLocation = null;
+            }
+
+            InvalidateVisual();
+            PublishStatus();
+        }
+    }
+
+    public string ActiveRoadName => ActiveRoadContribution?.DisplayName ?? "No road plugins loaded";
+
+    public ModernWorldSnapshot CreateWorldSnapshot()
+    {
+        return world.ToSnapshot();
+    }
+
+    public void LoadWorldSnapshot(ModernWorldSnapshot snapshot)
+    {
+        Dictionary<string, RoadContribution> roadLookup = roadContributions
+            .Where(road => !string.IsNullOrWhiteSpace(road.Id))
+            .GroupBy(road => road.Id, StringComparer.OrdinalIgnoreCase)
+            .ToDictionary(group => group.Key, group => group.First(), StringComparer.OrdinalIgnoreCase);
+        Dictionary<string, LandContribution> landLookup = landContributions
+            .Where(land => !string.IsNullOrWhiteSpace(land.Id))
+            .GroupBy(land => land.Id, StringComparer.OrdinalIgnoreCase)
+            .ToDictionary(group => group.Key, group => group.First(), StringComparer.OrdinalIgnoreCase);
+        Dictionary<string, SpriteContribution> spriteLookup = spriteContributions
+            .Where(sprite => !string.IsNullOrWhiteSpace(sprite.Id))
+            .GroupBy(sprite => sprite.Id, StringComparer.OrdinalIgnoreCase)
+            .ToDictionary(group => group.Key, group => group.First(), StringComparer.OrdinalIgnoreCase);
+
+        world.Changed -= OnWorldChanged;
+        world = ModernWorld.FromSnapshot(snapshot, roadLookup, landLookup, spriteLookup);
+        world.Changed += OnWorldChanged;
+        selectedLocation = null;
+        hoverLocation = null;
+        buildAnchorLocation = null;
+        maxVisibleLevel = Math.Min(maxVisibleLevel, world.MaxHeightCutLevel);
+        InvalidateMeasure();
+        InvalidateVisual();
+        PublishStatus();
+    }
+
+    private RoadContribution? ActiveRoadContribution => roadContributions.Count == 0
+        ? null
+        : roadContributions[Math.Clamp(activeRoadIndex, 0, roadContributions.Count - 1)];
+
+    private void OnWorldChanged(object? sender, ModernWorldChangedEventArgs e)
+    {
+        InvalidateVisual();
+    }
 
     private double MapOriginX => 64;
     private double MapOriginY => 40 + world.MaxGroundLevel * 8;
@@ -147,7 +229,10 @@ namespace FreeTrain.Modern;
             RenderWater(context);
             RenderGround(context);
             RenderLandObjects(context);
+            RenderRoadObjects(context);
+            RenderRailRoadCrossings(context, behindRail: true);
             RenderRailObjects(context);
+            RenderRailRoadCrossings(context, behindRail: false);
             RenderMapObjects(context);
             RenderMapMarkers(context);
 
@@ -231,7 +316,7 @@ namespace FreeTrain.Modern;
 
     private void RenderMapObjects(DrawingContext context)
     {
-        foreach (MapSpriteObject mapObject in mapObjects.OrderBy(obj => obj.H + obj.V).ThenBy(obj => obj.V))
+        foreach (ModernPlacedEntity mapObject in world.StructureEntities.OrderBy(obj => obj.H + obj.V).ThenBy(obj => obj.V))
         {
             int z = world.GetTerrainTile(mapObject.H, mapObject.V).SurfaceLevel;
             if (z > MaxVisibleLevel)
@@ -240,20 +325,20 @@ namespace FreeTrain.Modern;
             }
 
             Point tilePoint = FromHvzToScreen(mapObject.H, mapObject.V, z);
-            if (mapObject.Contribution.SpriteSet3D is { IsLoadable: true } spriteSet)
+            if (mapObject.StructureContribution?.SpriteSet3D is { IsLoadable: true } spriteSet)
             {
                 DrawSpriteSet3D(context, spriteSet, tilePoint);
             }
-            else
+            else if (mapObject.StructureFrame is { } frame)
             {
-                DrawSpriteFrame(context, mapObject.Frame, tilePoint);
+                DrawSpriteFrame(context, frame, tilePoint);
             }
         }
     }
 
     private void RenderLandObjects(DrawingContext context)
     {
-        foreach (MapLandObject landObject in landObjects.OrderBy(obj => obj.H + obj.V).ThenBy(obj => obj.V))
+        foreach (ModernPlacedEntity landObject in world.LandEntities.OrderBy(obj => obj.H + obj.V).ThenBy(obj => obj.V))
         {
             TerrainTilePreview terrain = world.GetTerrainTile(landObject.H, landObject.V);
             int z = terrain.SurfaceLevel;
@@ -263,10 +348,15 @@ namespace FreeTrain.Modern;
             }
 
             Point tilePoint = FromHvzToScreen(landObject.H, landObject.V, z);
-            switch (landObject.Contribution.Kind)
+            if (landObject.LandContribution is not { } land)
+            {
+                continue;
+            }
+
+            switch (land.Kind)
             {
                 case LandContributionKind.Static:
-                    if (landObject.Contribution.StaticSprite is { } staticSprite)
+                    if (land.StaticSprite is { } staticSprite)
                     {
                         DrawSpriteFrame(context, staticSprite, tilePoint);
                     }
@@ -278,7 +368,7 @@ namespace FreeTrain.Modern;
                     }
                     break;
                 case LandContributionKind.Forest:
-                    if (landObject.Contribution.Forest is { } forest)
+                    if (land.Forest is { } forest)
                     {
                         DrawForest(context, forest, landObject.H, landObject.V, tilePoint);
                     }
@@ -289,7 +379,7 @@ namespace FreeTrain.Modern;
 
     private void RenderRailObjects(DrawingContext context)
     {
-        foreach (MapRailObject railObject in railObjects.OrderBy(obj => obj.H + obj.V).ThenBy(obj => obj.V))
+        foreach (MapRailObject railObject in world.CreateRailObjects().OrderBy(obj => obj.H + obj.V).ThenBy(obj => obj.V))
         {
             TerrainTilePreview terrain = world.GetTerrainTile(railObject.H, railObject.V);
             int z = terrain.SurfaceLevel;
@@ -307,11 +397,56 @@ namespace FreeTrain.Modern;
         }
     }
 
+    private void RenderRoadObjects(DrawingContext context)
+    {
+        foreach (MapRoadObject roadObject in world.CreateRoadObjects().OrderBy(obj => obj.H + obj.V).ThenBy(obj => obj.V))
+        {
+            TerrainTilePreview terrain = world.GetTerrainTile(roadObject.H, roadObject.V);
+            int z = terrain.SurfaceLevel;
+            if (z > MaxVisibleLevel || roadObject.Frame is not { } frame)
+            {
+                continue;
+            }
+
+            DrawSpriteFrame(context, frame, FromHvzToScreen(roadObject.H, roadObject.V, z));
+        }
+    }
+
+    private void RenderRailRoadCrossings(DrawingContext context, bool behindRail)
+    {
+        if (railRoadCrossingPath is null)
+        {
+            return;
+        }
+
+        foreach (ModernTrafficVoxel traffic in world.TrafficVoxels
+            .Where(voxel => voxel.Accessory?.Kind == ModernTrafficAccessoryKind.RailRoadCrossing)
+            .OrderBy(voxel => voxel.Location.H + voxel.Location.V)
+            .ThenBy(voxel => voxel.Location.V))
+        {
+            int h = traffic.Location.H;
+            int v = traffic.Location.V;
+            int z = traffic.Location.Z;
+            if (z > MaxVisibleLevel || traffic.Accessory?.CrossingOrientation is not { } orientation)
+            {
+                continue;
+            }
+
+            SpriteFrame frame = CreateRailRoadCrossingFrame(orientation, behindRail);
+            DrawSpriteFrame(context, frame, FromHvzToScreen(h, v, z));
+        }
+    }
+
     private void RenderMapMarkers(DrawingContext context)
     {
         if (selectedLocation is { } selected && selected.Z <= MaxVisibleLevel)
         {
             terrainRenderer.DrawDiamond(context, FromHvzToScreen(selected.H, selected.V, selected.Z), selectionPen);
+        }
+
+        if (buildAnchorLocation is { } anchor && anchor.Z <= MaxVisibleLevel)
+        {
+            terrainRenderer.DrawDiamond(context, FromHvzToScreen(anchor.H, anchor.V, anchor.Z), buildAnchorPen);
         }
 
         if (hoverLocation is { } hover && hover.Z <= MaxVisibleLevel)
@@ -355,6 +490,34 @@ namespace FreeTrain.Modern;
         }
     }
 
+    public void SelectNextRoad()
+    {
+        if (roadContributions.Count == 0)
+        {
+            return;
+        }
+
+        activeRoadIndex = (activeRoadIndex + 1) % roadContributions.Count;
+        PublishStatus();
+    }
+
+    public void SelectPreviousRoad()
+    {
+        if (roadContributions.Count == 0)
+        {
+            return;
+        }
+
+        activeRoadIndex = (activeRoadIndex + roadContributions.Count - 1) % roadContributions.Count;
+        PublishStatus();
+    }
+
+    public void AdvanceClock(long minutes)
+    {
+        world.AdvanceClock(minutes);
+        PublishStatus();
+    }
+
     private void DrawSpriteFrame(DrawingContext context, SpriteFrame frame, Point tilePoint)
     {
         if (!frame.IsLoadable)
@@ -377,6 +540,24 @@ namespace FreeTrain.Modern;
         Rect source = new(sourceX, sourceY, sourceWidth, sourceHeight);
         Point targetPoint = new(tilePoint.X - frame.OffsetX, tilePoint.Y - frame.OffsetY);
         context.DrawImage(bitmap, source, new Rect(targetPoint, source.Size));
+    }
+
+    private SpriteFrame CreateRailRoadCrossingFrame(ModernRailRoadCrossingOrientation orientation, bool behindRail)
+    {
+        int orientationIndex = orientation == ModernRailRoadCrossingOrientation.RailNorthSouth ? 0 : 1;
+        int layerIndex = behindRail ? 1 : 0;
+        int sourceColumn = (orientationIndex == 0 ? 2 : 0) + layerIndex;
+        return new SpriteFrame(
+            RailRoadCrossingPictureId,
+            "crossing.bmp",
+            railRoadCrossingPath!,
+            sourceColumn * 32,
+            0,
+            32,
+            32,
+            0,
+            16,
+            null);
     }
 
     private void DrawSpriteSet3D(DrawingContext context, ModernSpriteSet3D spriteSet, Point basePoint)
@@ -416,7 +597,18 @@ namespace FreeTrain.Modern;
         return bitmap;
     }
 
-    private MapSpriteObject[] CreateSampleObjects(PluginManifestCatalog plugins, HashSet<(int H, int V)> occupied)
+    private HashSet<(int H, int V)> CreateInitialOccupiedTiles()
+    {
+        HashSet<(int H, int V)> occupied = new(world.Transport.RailTiles);
+        foreach (KeyValuePair<(int H, int V), RoadContribution> road in world.Transport.RoadTiles)
+        {
+            occupied.Add(road.Key);
+        }
+
+        return occupied;
+    }
+
+    private void AddSampleStructureEntities(PluginManifestCatalog plugins, HashSet<(int H, int V)> occupied)
     {
         (int H, int V)[] positions =
         {
@@ -441,7 +633,6 @@ namespace FreeTrain.Modern;
 
         SpriteContribution[] candidates = SelectFixedStructureSamples(plugins, positions.Length);
 
-        List<MapSpriteObject> objects = new();
         for (int i = 0; i < candidates.Length; i++)
         {
             SpriteFrame? frame = candidates[i].Frames.FirstOrDefault(candidate => candidate.IsLoadable);
@@ -454,64 +645,16 @@ namespace FreeTrain.Modern;
             TileLocation? location = FindFlatDryLocation(h, v, candidates[i], frame, occupied);
             if (location is { } placed)
             {
-                MarkOccupied(placed.H, placed.V, candidates[i], occupied);
-                objects.Add(new MapSpriteObject(placed.H, placed.V, candidates[i], frame));
-            }
-        }
-
-        return objects.ToArray();
-    }
-
-    private MapRailObject[] CreateSampleRailObjects()
-    {
-        HashSet<(int H, int V)> railTiles = new();
-        AddRailLine(railTiles, (5, 10), (17, 10));
-        AddRailLine(railTiles, (17, 10), (25, 18));
-        AddRailLine(railTiles, (25, 18), (17, 26));
-        AddRailLine(railTiles, (17, 26), (5, 26));
-        AddRailLine(railTiles, (5, 26), (5, 10));
-
-        Dictionary<(int H, int V), byte> masks = new();
-        foreach ((int h, int v) in railTiles)
-        {
-            byte mask = 0;
-            foreach ((int dh, int dv) in EightWayNeighbors)
-            {
-                if (!railTiles.Contains((h + dh, v + dv)))
+                ModernPlacedEntity entity = ModernPlacedEntity.Structure(placed.H, placed.V, placed.Z, candidates[i], frame);
+                if (world.AddEntity(entity))
                 {
-                    continue;
+                    MarkOccupied(placed.H, placed.V, candidates[i], occupied);
                 }
-
-                int direction = ModernRailPattern.DirectionFromDelta(dh, dv);
-                mask |= (byte)(1 << direction);
             }
-
-            masks[(h, v)] = mask;
-        }
-
-        return masks
-            .Select(entry => ModernRailPattern.FromDirectionMask(entry.Value) is { } pattern
-                ? new MapRailObject(entry.Key.H, entry.Key.V, pattern)
-                : null)
-            .Where(rail => rail is not null)
-            .Cast<MapRailObject>()
-            .ToArray();
-    }
-
-    private static void AddRailLine(HashSet<(int H, int V)> railTiles, (int H, int V) from, (int H, int V) to)
-    {
-        int h = from.H;
-        int v = from.V;
-        railTiles.Add((h, v));
-        while (h != to.H || v != to.V)
-        {
-            h += Math.Sign(to.H - h);
-            v += Math.Sign(to.V - v);
-            railTiles.Add((h, v));
         }
     }
 
-    private MapLandObject[] CreateSampleLandObjects(PluginManifestCatalog plugins, HashSet<(int H, int V)> occupied)
+    private void AddSampleLandEntities(PluginManifestCatalog plugins, HashSet<(int H, int V)> occupied)
     {
         Dictionary<string, LandContribution> staticLands = plugins.Lands
             .Where(land => land.Kind == LandContributionKind.Static && land.StaticSprite?.IsLoadable == true)
@@ -534,28 +677,24 @@ namespace FreeTrain.Modern;
             .ThenBy(land => land.Id, StringComparer.OrdinalIgnoreCase)
             .FirstOrDefault();
 
-        List<MapLandObject> objects = new();
         if (forest is not null)
         {
-            AddLandPatch(objects, occupied, forest, staticLands, 3, 18, 7, 6);
-            AddLandPatch(objects, occupied, forest, staticLands, 23, 4, 5, 5);
+            AddLandPatch(occupied, forest, staticLands, 3, 18, 7, 6);
+            AddLandPatch(occupied, forest, staticLands, 23, 4, 5, 5);
         }
 
         if (random is not null)
         {
-            AddLandPatch(objects, occupied, random, staticLands, 18, 18, 7, 4);
+            AddLandPatch(occupied, random, staticLands, 18, 18, 7, 4);
         }
 
         if (basicStatic is not null)
         {
-            AddLandPatch(objects, occupied, basicStatic, staticLands, 7, 28, 6, 3);
+            AddLandPatch(occupied, basicStatic, staticLands, 7, 28, 6, 3);
         }
-
-        return objects.ToArray();
     }
 
     private void AddLandPatch(
-        List<MapLandObject> objects,
         HashSet<(int H, int V)> occupied,
         LandContribution land,
         IReadOnlyDictionary<string, LandContribution> staticLands,
@@ -594,8 +733,11 @@ namespace FreeTrain.Modern;
                     }
                 }
 
-                objects.Add(new MapLandObject(h, v, land, resolved));
-                occupied.Add((h, v));
+                ModernPlacedEntity entity = ModernPlacedEntity.Land(h, v, terrain.SurfaceLevel, land, resolved);
+                if (world.AddEntity(entity))
+                {
+                    occupied.Add((h, v));
+                }
             }
         }
     }
@@ -926,6 +1068,24 @@ namespace FreeTrain.Modern;
         if (point.Properties.IsLeftButtonPressed)
         {
             selectedLocation = PickTile(point.Position);
+            if (selectedLocation is { } location)
+            {
+                ApplyEdit(location);
+            }
+
+            PublishStatus();
+            InvalidateVisual();
+            e.Handled = true;
+        }
+        else if (point.Properties.IsRightButtonPressed && PickTile(point.Position) is { } location)
+        {
+            selectedLocation = location;
+            world.RemoveTransportAt(location);
+            if (buildAnchorLocation is { } anchor && anchor.H == location.H && anchor.V == location.V)
+            {
+                buildAnchorLocation = null;
+            }
+
             PublishStatus();
             InvalidateVisual();
             e.Handled = true;
@@ -1006,9 +1166,13 @@ namespace FreeTrain.Modern;
             y++;
         }
 
-        return TryXyToHv(x, y, out int h, out int v)
-            ? new TileLocation(h, v, selected.Z)
-            : selected;
+        if (!TryXyToHv(x, y, out int h, out int v))
+        {
+            return selected;
+        }
+
+        TerrainTilePreview pickedTerrain = world.GetTerrainTile(h, v);
+        return new TileLocation(h, v, pickedTerrain.SurfaceLevel);
     }
 
     private (int X, int Y) HvToXy(int h, int v)
@@ -1034,9 +1198,123 @@ namespace FreeTrain.Modern;
         string selected = selectedLocation is { } sel
             ? $"selected H {sel.H}, V {sel.V}, Z {sel.Z}, {sel.Corner}"
             : "nothing selected";
+        string anchor = buildAnchorLocation is { } start
+            ? $"anchor H {start.H}, V {start.V}, Z {start.Z}"
+            : ToolUsesAnchor ? "click a buildable tile to set an anchor" : "no anchor";
+        string hint = EditMode switch
+        {
+            MapEditMode.Rail => "rail: second click must be straight or diagonal",
+            MapEditMode.Road => "road: second click must be north/south/east/west",
+            MapEditMode.Erase => "erase: click or right-click transport",
+            _ => "select"
+        };
 
-        StatusChanged?.Invoke($"{hover} | {selected} | zoom {Zoom:0.##}x | height cut {MaxVisibleLevel}");
+        StatusChanged?.Invoke($"{hover} | {selected} | {anchor} | {hint} | road {ActiveRoadName} | {world.Clock.Format(ModernTextLanguage.English)} | cash {world.Account.Cash:N0} | entities {world.Entities.Count} | traffic {world.TrafficVoxels.Count} | zoom {Zoom:0.##}x | height cut {MaxVisibleLevel}");
     }
+
+    private void ApplyEdit(TileLocation location)
+    {
+        if (EditMode == MapEditMode.Select)
+        {
+            buildAnchorLocation = null;
+            return;
+        }
+
+        if (EditMode == MapEditMode.Erase)
+        {
+            world.RemoveTransportAt(location);
+            if (buildAnchorLocation is { } anchor && anchor.H == location.H && anchor.V == location.V)
+            {
+                buildAnchorLocation = null;
+            }
+
+            return;
+        }
+
+        if (!CanBuildTransportAt(location))
+        {
+            return;
+        }
+
+        if (EditMode == MapEditMode.Rail)
+        {
+            if (buildAnchorLocation is { } start && CanBuildRailLine(start, location))
+            {
+                world.AddRailLine(start, location);
+                buildAnchorLocation = location;
+            }
+            else
+            {
+                world.AddRailTile(location);
+                buildAnchorLocation = location;
+            }
+        }
+
+        if (EditMode == MapEditMode.Road && ActiveRoadContribution is { } road)
+        {
+            if (buildAnchorLocation is { } start && CanBuildRoadLine(start, location))
+            {
+                world.AddRoadLine(start, location, road);
+                buildAnchorLocation = location;
+            }
+            else
+            {
+                world.AddRoadTile(location, road);
+                buildAnchorLocation = location;
+            }
+        }
+    }
+
+    private bool CanBuildTransportAt(TileLocation location)
+    {
+        return world.IsBuildableSurface(location);
+    }
+
+    private bool CanBuildRailLine(TileLocation from, TileLocation to)
+    {
+        return world.CanBuildRailLine(from, to);
+    }
+
+    private bool CanBuildRoadLine(TileLocation from, TileLocation to)
+    {
+        return world.CanBuildRoadLine(from, to);
+    }
+
+    private static int SelectInitialRoadIndex(IReadOnlyList<RoadContribution> roads)
+    {
+        if (roads.Count == 0)
+        {
+            return 0;
+        }
+
+        int preferred = roads
+            .Select((road, index) => new { Road = road, Index = index })
+            .OrderByDescending(entry => entry.Road.Kind == RoadContributionKind.Standard)
+            .ThenByDescending(entry => entry.Road.Style.MajorType.Equals("street", StringComparison.OrdinalIgnoreCase))
+            .ThenByDescending(entry => entry.Road.Style.Lanes)
+            .ThenBy(entry => entry.Road.PluginDirectoryName, StringComparer.OrdinalIgnoreCase)
+            .ThenBy(entry => entry.Road.DisplayName, StringComparer.OrdinalIgnoreCase)
+            .First()
+            .Index;
+        return preferred;
+    }
+
+    private static string? FindRailRoadCrossingPath(LegacyAssetCatalog assets, PluginManifestCatalog plugins)
+    {
+        string? pluginPicture = plugins.Pictures
+            .FirstOrDefault(picture => string.Equals(picture.Id, RailRoadCrossingPictureId, StringComparison.OrdinalIgnoreCase)
+                && picture.IsLoadable)
+            ?.ResolvedPath;
+        if (pluginPicture is not null)
+        {
+            return pluginPicture;
+        }
+
+        string fallback = Path.Combine(assets.PluginDirectory, "system", "crossing.bmp");
+        return File.Exists(fallback) ? fallback : null;
+    }
+
+    private bool ToolUsesAnchor => EditMode is MapEditMode.Rail or MapEditMode.Road;
 
     public void Dispose()
     {
@@ -1051,7 +1329,6 @@ namespace FreeTrain.Modern;
         pluginBitmaps.Clear();
     }
 
-    private sealed record MapSpriteObject(int H, int V, SpriteContribution Contribution, SpriteFrame Frame);
     private readonly record struct ForestTreePattern(int OffsetX, int OffsetY, int SpriteIndex);
     private static readonly (int H, int V)[] EightWayNeighbors =
     {

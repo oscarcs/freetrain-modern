@@ -71,6 +71,7 @@ public sealed record PluginManifest(
     IReadOnlyList<PictureContribution> Pictures,
     IReadOnlyList<SpriteContribution> Sprites,
     IReadOnlyList<LandContribution> Lands,
+    IReadOnlyList<RoadContribution> Roads,
     string? Error)
 {
     public bool IsLoaded => Error is null;
@@ -116,6 +117,12 @@ public sealed class PluginManifestCatalog
             .ThenBy(land => land.DisplayName, StringComparer.OrdinalIgnoreCase)
             .ToList()
             .AsReadOnly();
+        Roads = Plugins
+            .SelectMany(plugin => plugin.Roads)
+            .OrderBy(road => road.PluginDirectoryName, StringComparer.OrdinalIgnoreCase)
+            .ThenBy(road => road.DisplayName, StringComparer.OrdinalIgnoreCase)
+            .ToList()
+            .AsReadOnly();
     }
 
     public string PluginDirectory { get; }
@@ -126,6 +133,7 @@ public sealed class PluginManifestCatalog
     public IReadOnlyList<PictureContribution> Pictures { get; }
     public IReadOnlyList<SpriteContribution> Sprites { get; }
     public IReadOnlyList<LandContribution> Lands { get; }
+    public IReadOnlyList<RoadContribution> Roads { get; }
 
     private static ReadOnlyCollection<PluginManifest> LoadPlugins(string pluginDirectory)
     {
@@ -177,6 +185,11 @@ public sealed class PluginManifestCatalog
                 .Select(element => ParseLandContribution(manifestPath, directoryName, ElementValue(root, "title"), element, pictureLookup))
                 .ToList()
                 .AsReadOnly();
+            IReadOnlyList<RoadContribution> roads = root.Elements("contribution")
+                .Where(element => string.Equals(AttributeValue(element, "type"), "road", StringComparison.OrdinalIgnoreCase))
+                .Select(element => ParseRoadContribution(manifestPath, directoryName, ElementValue(root, "title"), element, pictureLookup))
+                .ToList()
+                .AsReadOnly();
 
             return new PluginManifest(
                 directoryName,
@@ -189,6 +202,7 @@ public sealed class PluginManifestCatalog
                 pictures,
                 sprites,
                 lands,
+                roads,
                 null);
         }
         catch (Exception ex)
@@ -204,6 +218,7 @@ public sealed class PluginManifestCatalog
                 Array.Empty<PictureContribution>(),
                 Array.Empty<SpriteContribution>(),
                 Array.Empty<LandContribution>(),
+                Array.Empty<RoadContribution>(),
                 ex.Message);
         }
     }
@@ -357,6 +372,121 @@ public sealed class PluginManifestCatalog
             Array.Empty<string>(),
             null,
             string.IsNullOrWhiteSpace(className) ? "Land builder class not found." : $"Unsupported land builder '{className}'.");
+    }
+
+    private static RoadContribution ParseRoadContribution(
+        string manifestPath,
+        string directoryName,
+        string pluginTitle,
+        XElement contribution,
+        IReadOnlyDictionary<string, PictureContribution> pictures)
+    {
+        string pluginDirectory = Path.GetDirectoryName(manifestPath) ?? "";
+        string className = OptionalAttributeValue(contribution.Element("class"), "name");
+        RoadContributionKind kind = className.EndsWith(".StandardRoadContribution", StringComparison.OrdinalIgnoreCase)
+            ? RoadContributionKind.Standard
+            : className.EndsWith(".A3RoadContribution", StringComparison.OrdinalIgnoreCase)
+                ? RoadContributionKind.A3
+                : RoadContributionKind.Unsupported;
+        RoadStyle style = ParseRoadStyle(contribution.Element("style"));
+        IReadOnlyDictionary<byte, SpriteFrame> frames = kind switch
+        {
+            RoadContributionKind.Standard => ParseStandardRoadFrames(pluginDirectory, contribution, pictures),
+            RoadContributionKind.A3 => ParseA3RoadFrames(pluginDirectory, contribution, pictures),
+            _ => new Dictionary<byte, SpriteFrame>()
+        };
+        string? error = kind == RoadContributionKind.Unsupported
+            ? string.IsNullOrWhiteSpace(className) ? "Road builder class not found." : $"Unsupported road builder '{className}'."
+            : frames.Count == 0
+                ? "No road sprites found."
+                : frames.Values.Any(frame => frame.IsLoadable)
+                    ? null
+                    : string.Join("; ", frames.Values.Select(frame => frame.Error).Where(message => !string.IsNullOrWhiteSpace(message)).Distinct());
+
+        return new RoadContribution(
+            directoryName,
+            pluginTitle,
+            AttributeValue(contribution, "id"),
+            ElementValue(contribution, "name"),
+            ElementValue(contribution, "description"),
+            kind,
+            style,
+            frames,
+            string.IsNullOrWhiteSpace(error) ? null : error);
+    }
+
+    private static RoadStyle ParseRoadStyle(XElement? style)
+    {
+        if (style is null)
+        {
+            return new RoadStyle("unknown", "none", 0);
+        }
+
+        int lanes = int.TryParse(AttributeValue(style, "lanes"), out int parsedLanes) ? parsedLanes : 0;
+        return new RoadStyle(
+            AttributeValue(style, "name"),
+            AttributeValue(style, "sidewalk"),
+            lanes);
+    }
+
+    private static IReadOnlyDictionary<byte, SpriteFrame> ParseStandardRoadFrames(
+        string pluginDirectory,
+        XElement contribution,
+        IReadOnlyDictionary<string, PictureContribution> pictures)
+    {
+        XElement? pictureElement = contribution.Element("picture");
+        if (pictureElement is null)
+        {
+            return new Dictionary<byte, SpriteFrame>();
+        }
+
+        ResolvedSpritePicture picture = ResolvePictureElement(pluginDirectory, pictureElement, pictures);
+        (int width, int height) = ParseSize(AttributeValue(pictureElement, "size"));
+        width = width <= 0 ? 32 : width;
+        height = height <= 0 ? 32 : height;
+        int offsetY = ParseInt(AttributeValue(pictureElement, "offset"));
+
+        Dictionary<byte, SpriteFrame> frames = new();
+        for (byte mask = 1; mask <= 15; mask++)
+        {
+            (int x, int y) = StandardRoadLocations[mask - 1];
+            frames[mask] = CreateSpriteFrame(picture, x * width, y * height, width, height, 0, offsetY);
+        }
+
+        return frames;
+    }
+
+    private static IReadOnlyDictionary<byte, SpriteFrame> ParseA3RoadFrames(
+        string pluginDirectory,
+        XElement contribution,
+        IReadOnlyDictionary<string, PictureContribution> pictures)
+    {
+        XElement? pictureElement = contribution.Element("picture");
+        if (pictureElement is null)
+        {
+            return new Dictionary<byte, SpriteFrame>();
+        }
+
+        ResolvedSpritePicture picture = ResolvePictureElement(pluginDirectory, pictureElement, pictures);
+        Dictionary<byte, SpriteFrame> baseFrames = new()
+        {
+            [0] = CreateSpriteFrame(picture, 0, 0, 32, 32, 0, 16),
+            [1] = CreateSpriteFrame(picture, 32, 0, 32, 32, 0, 16),
+            [2] = CreateSpriteFrame(picture, 64, 0, 32, 32, 0, 16)
+        };
+
+        Dictionary<byte, SpriteFrame> frames = new();
+        for (byte mask = 1; mask <= 15; mask++)
+        {
+            int a3Index = mask is 2 or 8 or 10
+                ? 0
+                : mask is 1 or 4 or 5
+                    ? 1
+                    : 2;
+            frames[mask] = baseFrames[(byte)a3Index];
+        }
+
+        return frames;
     }
 
     private static ForestSpriteSet? ParseForestSpriteSet(
@@ -839,6 +969,25 @@ public sealed class PluginManifestCatalog
     {
         return element?.Attribute(name)?.Value.Trim() ?? "";
     }
+
+    private static readonly (int X, int Y)[] StandardRoadLocations =
+    {
+        (2, 4),
+        (1, 4),
+        (1, 1),
+        (1, 3),
+        (0, 1),
+        (2, 0),
+        (0, 2),
+        (2, 3),
+        (2, 1),
+        (0, 0),
+        (0, 3),
+        (1, 0),
+        (2, 2),
+        (1, 2),
+        (0, 4)
+    };
 
     private readonly record struct ResolvedSpritePicture(string PictureId, string Source, string ResolvedPath, string? Error);
 }
