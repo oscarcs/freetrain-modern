@@ -1,0 +1,792 @@
+{
+  "language": "en",
+  "plugin": "jp.dion.kei_s.freetrain.train.TAKUROU",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "列車セット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070315-7653-11D7-A4B7-444553540000}.name",
+      "source": "0番台（秋田）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070315-7653-11D7-A4B7-444553540000}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070315-7653-11D7-A4B7-444553540000}.type",
+      "source": "701系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070315-7653-11D7-A4B7-444553540000}.description",
+      "source": "1993年、東北地区に残っていた客車列車の置換えとワンマン運転実施により\n効率化を図るために登場した交流専用の3扉ロングシート車。羽越線酒田以北、奥羽線青森近郊や津軽線も乗り入れる。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C1C4ED5F-7662-11D7-A4B7-8B95A9BCF237}.name",
+      "source": "100番台/3両編成（秋田）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C1C4ED5F-7662-11D7-A4B7-8B95A9BCF237}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C1C4ED5F-7662-11D7-A4B7-8B95A9BCF237}.type",
+      "source": "701系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C1C4ED5F-7662-11D7-A4B7-8B95A9BCF237}.description",
+      "source": "1993年、東北地区に残っていた客車列車の置換えとワンマン運転実施により\n効率化を図るために登場した交流専用の3扉ロングシート車。補助電源装置をMGからSIVに変更した94年に登場。\n山形新幹線新庄延長時に仙台電車区に転属された。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C1C4ED5A-7662-11D7-A4B7-8B95A9BCF237}.name",
+      "source": "1000番台(仙台 /2両編成)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C1C4ED5A-7662-11D7-A4B7-8B95A9BCF237}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C1C4ED5A-7662-11D7-A4B7-8B95A9BCF237}.type",
+      "source": "701系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C1C4ED5A-7662-11D7-A4B7-8B95A9BCF237}.description",
+      "source": "仙台地区では、715系や455系を置き換えとして701系電車が投入された。\n（クハ700＋クモハ701）と4両編成（クハ700＋モハ701＋サハ700＋クモハ701）があり、\n2両編成はワンマン運転設備を持つのに対し、4両編成は，ワンマン運転の設備を持たずドアチャイムもない。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C1C4ED5B-7662-11D7-A4B7-8B95A9BCF237}.name",
+      "source": "1000番台（仙台/4両編成）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C1C4ED5B-7662-11D7-A4B7-8B95A9BCF237}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C1C4ED5B-7662-11D7-A4B7-8B95A9BCF237}.type",
+      "source": "701系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C1C4ED5B-7662-11D7-A4B7-8B95A9BCF237}.description",
+      "source": "仙台地区では、715系や455系を置き換えとして701系電車が投入された。\n（クハ700＋クモハ701）と4両編成（クハ700＋モハ701＋サハ700＋クモハ701）があり、\n4両編成は，ワンマン運転の設備を持たずドアチャイムもない。一ノ関－白石間に運用が限定される。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C1C4ED75-7662-11D7-A4B7-8B95A9BCF237}.name",
+      "source": "5000番台（田沢湖線）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C1C4ED75-7662-11D7-A4B7-8B95A9BCF237}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C1C4ED75-7662-11D7-A4B7-8B95A9BCF237}.type",
+      "source": "701系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C1C4ED75-7662-11D7-A4B7-8B95A9BCF237}.description",
+      "source": "秋田新幹線開業に伴い，改軌された田沢湖線に投入されたのが標準軌車。\n田沢湖線でのみ営業運転される。（大曲－秋田間は回送だが，大曲花火大会の臨時列車で営業運転されることもある）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B92219D6-7650-11D7-A4B7-D7D370C4F037}.name",
+      "source": "5500番台（山形）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B92219D6-7650-11D7-A4B7-D7D370C4F037}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B92219D6-7650-11D7-A4B7-D7D370C4F037}.type",
+      "source": "701系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B92219D6-7650-11D7-A4B7-D7D370C4F037}.description",
+      "source": "１９９３年に、奥羽・羽越本線の客車列車淘汰を目的につくられた電車。\n以降、東北各地区に投入される。5500番台は、山形新幹線新庄延長時に標準軌用普通電車として登場。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C1C4ED4A-7662-11D7-A4B7-8B95A9BCF237}.name",
+      "source": "第三セクター鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C1C4ED4A-7662-11D7-A4B7-8B95A9BCF237}.company",
+      "source": "青い森鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C1C4ED4A-7662-11D7-A4B7-8B95A9BCF237}.type",
+      "source": "701系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C1C4ED4A-7662-11D7-A4B7-8B95A9BCF237}.description",
+      "source": "東北新幹線盛岡～八戸間延伸に伴うJR在来線区間第三セクター化により誕生。\n車両の基本構造はJR701系と同じだが、車内はセミクロスシートを採用した。いわて銀河鉄道と共用運転。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C1C4ED4B-7662-11D7-A4B7-8B95A9BCF237}.name",
+      "source": "第三セクター鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C1C4ED4B-7662-11D7-A4B7-8B95A9BCF237}.company",
+      "source": "いわて銀河鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C1C4ED4B-7662-11D7-A4B7-8B95A9BCF237}.type",
+      "source": "IGR7000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C1C4ED4B-7662-11D7-A4B7-8B95A9BCF237}.description",
+      "source": "東北新幹線盛岡～八戸間延伸に伴うJR在来線区間第三セクター化により誕生。\n車両の基本構造はJR701系と同じだが、車内はセミクロスシートでトイレが設置されている。青い森鉄道と共用運転。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C1C4ED65-7662-11D7-A4B7-8B95A9BCF237}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C1C4ED65-7662-11D7-A4B7-8B95A9BCF237}.type",
+      "source": "E127系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C1C4ED65-7662-11D7-A4B7-8B95A9BCF237}.description",
+      "source": "新潟近郊のローカル輸送の一部は165系を使っていたが、老朽化が進み、\nまた２扉デッキ付きでラッシュ時の乗り降りが不便であるため、置換え用に製造された。\n701系の直流版というべき車両で、ステンレス製の3扉ロングシート、VVVFインパータ制御車である。\n主に新潟近郊を運転。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CBAF5396-76A7-11D7-A4B7-E675BA55FD37}.name",
+      "source": "大糸線色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CBAF5396-76A7-11D7-A4B7-E675BA55FD37}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CBAF5396-76A7-11D7-A4B7-E675BA55FD37}.type",
+      "source": "E127系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CBAF5396-76A7-11D7-A4B7-E675BA55FD37}.description",
+      "source": "車体には軽量ステンレスを使用し、VVVFインバータ制御などの新技術を導入、省エネ化と\n保守の省力化を図っている。車体は３ドア構造で、室内は片側が（ボックス型）、もう片方が（ロングシート形）となっています。\n編成は２両編成が基本で98年12月から導入された。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D772F862-76A0-11D7-A4B7-E675BA55FD37}.name",
+      "source": "近郊形電車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D772F862-76A0-11D7-A4B7-E675BA55FD37}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D772F862-76A0-11D7-A4B7-E675BA55FD37}.type",
+      "source": "125系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D772F862-76A0-11D7-A4B7-E675BA55FD37}.description",
+      "source": "2003年3月、JR西日本小浜線(東舞鶴～敦賀)の電化開業により登場。\n１形式クモハ１２５のみで、単行＆ワンマン運転が可能。最高速度は120km/h（小浜線内での最高速度は85km/h）。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECE165-M}.name",
+      "source": "急行ムーンライトえちご",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECE165-M}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECE165-M}.type",
+      "source": "165系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECE165-M}.description",
+      "source": "上沼垂区１６５系Ｍ編成は新宿～新潟・村上菅野夜行快速「ムーンライトえちご号」として運転されている。\nまた、間合い運用として「フェアウェイ号(新宿～黒磯)」としても運転されている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECE455-S}.name",
+      "source": "快速仙台シティラビット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECE455-S}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECE455-S}.type",
+      "source": "455系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECE455-S}.description",
+      "source": "かつて急行「まつしま」「ざおう」などで活躍していた455系もいまは車内を近郊形改造され3両編成でローカル運用に就いている。\n昭和63年から平成3年までの間、若番車を中心に一部の車両は車体更新工事が行われた。東北本線の黒磯－仙台－利府・一ノ関間、常磐線の仙台－水戸間、\n磐越西線で運用される。常磐線では堂々の9両編成が見られる。\n下り快速「仙台シティラビット」として福島→仙台間で運転されるが、これは現在唯一の快速運用である。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECE455-Ｙ}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECE455-Ｙ}.type",
+      "source": "455系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECE455-Ｙ}.description",
+      "source": "'97年10月14日から仙山線で営業運転を開始。\nイメージアップのために塗色を青をベースに蔵王の雪景色をイメージした白に6編成が変更された。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECE455-Ｂ}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECE455-Ｂ}.type",
+      "source": "455系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECE455-Ｂ}.description",
+      "source": "平成8年から磐越西線の活性化を図るために塗色変更車が登場した。\n全7編成が磐越西線の郡山－喜多方間で運用に就いている。塗色変更車はすべて車体更新車。\n'99年12月改正で廃止となり、現在では仙台周辺で不定期に運用されている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECE169-H}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECE169-H}.type",
+      "source": "169系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECE169-H}.description",
+      "source": "長野地区にＥ１２７系が投入され、三鷹区の１６９系を置き換えるために転属。\n同車は新幹線リレー号、ホリデー快速、大垣救済臨などの運用に入り、中央快速線を９両（ホリデー快速ピクニック）で走る姿は\n塗装こそ違うが、往年の１６９系を彷彿させる。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECE169-S}.name",
+      "source": "長野色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECE169-S}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECE169-S}.type",
+      "source": "169系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECE169-S}.description",
+      "source": "長野冬季五輪に合わせ、長野支社管内車両のイメージアップを図るため、\n'93年(平成５年)頃から長野・松本両区に所属する115・165・169系に採用された塗装。\nこれは車内アコモデーションに関わりなく塗色変更が行われた。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECE169-M}.name",
+      "source": "みすず色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECE169-M}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECE169-M}.type",
+      "source": "169系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECE169-M}.description",
+      "source": "車両は信越本線で使用された長野運転所の169系３両編成の中間にサハ165系を挟んだ４両編成。\n外観はＮストライプと呼ばれるアイボリーの車体にグリーンのＮをあしらったデザイン。\n車内も廃車となった新幹線のリクライニングシートを使用して、室内サービスの向上を図った。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DCC75}.name",
+      "source": "汎用型気動車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DCC75}.company",
+      "source": "JR東海",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DCC75}.type",
+      "source": "キハ75系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-N1K2J-KeiH-TrainHensei-DCC75}.description",
+      "source": "老朽化したキハ58系などの置換え用として製造された。エンジンなどの下回りはキハ85系と同等で、出力350ps、最高速度120km/hである。ステンレス車体の３扉車で、転換クロスシートである。\n\u3000快速みえ、急行かすが、武豊線で使われている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6CAFE163-74FE-11D7-A4B7-444553540000}.name",
+      "source": "近郊形気動車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6CAFE163-74FE-11D7-A4B7-444553540000}.company",
+      "source": "JR東海",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6CAFE163-74FE-11D7-A4B7-444553540000}.type",
+      "source": "キハ11系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6CAFE163-74FE-11D7-A4B7-444553540000}.description",
+      "source": "近距離近郊型車輛として投入した新型ディーゼル車輛。一部が東海交通事業所(城北線)から借り入れている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6CAFE167-74FE-11D7-A4B7-444553540000}.name",
+      "source": "特急型気動車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6CAFE167-74FE-11D7-A4B7-444553540000}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6CAFE167-74FE-11D7-A4B7-444553540000}.type",
+      "source": "キハ187系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6CAFE167-74FE-11D7-A4B7-444553540000}.description",
+      "source": "山陰本線西部の高速化に向けに造られた、新型特急気動車。今後も鳥取方面に投入予定。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6CAFE16A-74FE-11D7-A4B7-444553540000}.name",
+      "source": "近郊形気動車（YDC125）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6CAFE16A-74FE-11D7-A4B7-444553540000}.company",
+      "source": "JR九州",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6CAFE16A-74FE-11D7-A4B7-444553540000}.type",
+      "source": "キハ125系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6CAFE16A-74FE-11D7-A4B7-444553540000}.description",
+      "source": "大型のキハ200では輸送力が過剰な路線があり、それに合わせて小型のキハ125が作られた。\n車体は新潟鉄工製作のレールバス（ＮＤＣ）規格。\n内装と外部の塗装はドーンデザイン研究所の水戸岡鋭冶氏によるもの。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6CAFE16E-74FE-11D7-A4B7-444553540000}.name",
+      "source": "近郊形気動車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6CAFE16E-74FE-11D7-A4B7-444553540000}.company",
+      "source": "JR九州",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6CAFE16E-74FE-11D7-A4B7-444553540000}.type",
+      "source": "キハ31系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6CAFE16E-74FE-11D7-A4B7-444553540000}.description",
+      "source": "国鉄最後の新形式、ステンレス車体で転換クロスシート装備。豊肥・久大・肥薩線に運用。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6CAFE173-74FE-11D7-A4B7-444553540000}.name",
+      "source": "関西線色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6CAFE173-74FE-11D7-A4B7-444553540000}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6CAFE173-74FE-11D7-A4B7-444553540000}.type",
+      "source": "キハ120系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6CAFE173-74FE-11D7-A4B7-444553540000}.description",
+      "source": "JR西日本発足後の初の新製軽快気動車。エンジンが３３０PSに変更された０番台。ロングシートの編成。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECE185-M}.name",
+      "source": "新特急電車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECE185-M}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECE185-M}.type",
+      "source": "185系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECE185-M}.description",
+      "source": "新幹線上野開業後に在来線特急への転用を考慮し、185系0番代を耐寒・耐雪構造として\n1982(昭和57)年に185系200番代が新製された。\n200番台は165系との併結が考慮され、碓氷峠の通過に備えて横軽対策車となっている。\nリニューアル工事が行われ、普通車のリクライニングシート化が完了した。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ185-J}.name",
+      "source": "伊豆特急「踊り子」",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ185-J}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ185-J}.type",
+      "source": "185系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ185-J}.description",
+      "source": "東京と伊豆を結ぶ優等列車として急行伊豆の特急化を前提に、\n153系と同様に普通列車への間合運用を考慮した特急形電車として、1981(昭和56)年に新製されたのが185系0番代である。\n185系は関西地区で新快速用として使用されていた117系近郊形直流電車を基本とし、順次置換予定の153系とも併結可能な構造としている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECE185-T}.name",
+      "source": "伊豆特急「踊り子」",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECE185-T}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECE185-T}.type",
+      "source": "185系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECE185-T}.description",
+      "source": "東京と伊豆を結ぶ優等列車として急行伊豆の特急化を前提に、\n153系と同様に普通列車への間合運用を考慮した特急形電車として、1981(昭和56)年に新製されたのが185系0番代である。\n185系は関西地区で新快速用として使用されていた117系近郊形直流電車を基本とし、順次置換予定の153系とも併結可能な構造としている。\n現在はリニューアル工事が行われ、白地に湘南色を配した外部色への変更、普通車のリクライニングシート化が完了した。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ185-I}.name",
+      "source": "急行「伊豆」混編成",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ185-I}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ185-I}.type",
+      "source": "185系＆153系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ185-I}.description",
+      "source": "１８５系登場当時に見られた、１５３系との併結編成。基本１０両と付属５両がそれぞれ１８５系だったり１５３系だったりと、組み合わせいろいろ。\n特急「踊り子」運転開始前の急行「伊豆」や普通列車の運用に充当されていました。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ157-A}.name",
+      "source": "特急「あまぎ」「白根」編成",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ157-A}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ157-A}.type",
+      "source": "157系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ157-A}.description",
+      "source": "157系は今でいうところのリゾートＥｘｐｒｅｓｓとして首都圏を中心に運転されるとともに、\nご静養などで那須や伊豆の御用邸へ往復される際のお召列車としても活躍。\n特急並みの設備を有するDX準急 … という登場時の車両コンセプトゆえに、通勤電車から特急電車に至る国鉄電車の\n体系からやや外れたポジションにあったことも157系の魅力であった。昭和51年に特急あまぎ運用から降り、最後まで残った\nお召し列車編成も183系に譲って、昭和57年に廃車となった。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ153-S}.name",
+      "source": "湘南急行電車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ153-S}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ153-S}.type",
+      "source": "153系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ165-S}.name",
+      "source": "湘南急行電車(HMあり)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ165-S}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ165-S}.type",
+      "source": "165系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ164-S}.name",
+      "source": "湘南急行電車(HMなし)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ164-S}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ164-S}.type",
+      "source": "165系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ455-K}.name",
+      "source": "東北急行電車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ455-K}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ455-K}.type",
+      "source": "455系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ475-K}.name",
+      "source": "北陸急行電車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ475-K}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ475-K}.type",
+      "source": "475系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ475-K}.description",
+      "source": "６０Hzの北陸本線に登場した４７１系統で、抑速ブレーキ付となり勾配区間がある線区で活躍するようになった。\n数々の急行列車で活躍し、次第に特急化されるにつれ、普通列車にも使われるようになった。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ153-B}.name",
+      "source": "ブルーライナー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ153-B}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ153-B}.type",
+      "source": "153系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ153-B}.description",
+      "source": "昭和47年に新幹線が岡山まで延長されると、急行用153系の捻出が可能となり、冷房化、スピードアップを含め、\n空気バネつき台車の乗り心地良さ、また列車ダイヤのネット化・増発などにより新快速電車として登場した。しかし、私鉄との競合という地域の特殊性から、\n列車の陳腐化なども重なり、ついに後継の座を117系に譲った。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ117-S}.name",
+      "source": "シティーライナー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ117-S}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ117-S}.type",
+      "source": "117系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ117-S}.description",
+      "source": "昭和55年から私鉄と競合する京阪神間でのスピードアップやリクライニングシートを導入して快適さ、\n流線型の先頭車など独特なスタイルで、陳腐化した153系ブルーライナーに変って新快速の役割を担った。\nまた、二年後には関西圏だけでなく名鉄と競合する中京地区でも東海ライナーとして投入された。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECC117-C}.name",
+      "source": "東海ライナー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECC117-C}.company",
+      "source": "JR東海",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECC117-C}.type",
+      "source": "117系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECC117-C}.description",
+      "source": "関西圏に続き名古屋圏でも昭和57年から東海ライナーという愛称で暫定投入され、153系・165系の快速から置き換えられた。\n昭和61年から、中央西線にも投入される事になり６連から４連に組み返られ、以降211系などと活躍したが、平成元年から311系が新製されて快速の運用から外れた。\nこの時から会社のコーポレートカラーに塗り替えられた。1992年度で一部の車両が車端部ロングシート化改造を受けている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW117-F}.name",
+      "source": "300番台福知山色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW117-F}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW117-F}.type",
+      "source": "117系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW117-F}.description",
+      "source": "福知山線向けに改造された１１７系の中でも３００番台に分類される編成。\n色は白地にグリーンのカラーリングで、塗り分けは東海色のようだが、ライト周りまで及んでいない。\nまた、３００番台は、ドアから中より２シート分をロングシートに改造してあり、乗降口の混雑緩和を図っている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW117-O}.name",
+      "source": "サンライナー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW117-O}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW117-O}.type",
+      "source": "117系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW117-O}.description",
+      "source": "平成4年3月改正に117系の中間車を115系3500番台(岡山電車区・広島運転所)に改造され、\n残りの４連が同改正から30分ヘッドとなった岡山～福山間快速「サンライナー」に投入された。\n岡山地区の普通運用や平成６年には臨時快速「三都ライナー」として京都まで乗り入れた。\n三都ライナー廃止後の翌年から福山～広島間のホリデー快速「スーパーラビット」の運用に就く（Ｈ14年廃止）。\n現在ではワンマン運転に改造されている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW117-W}.name",
+      "source": "オーシャン色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW117-W}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW117-W}.type",
+      "source": "117系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW117-W}.description",
+      "source": "平成13年末から和歌山地区（きのくに線、和歌山線）向けに０・300番台がワンマン改造されて投入された。\n塗装は同地区を通過する南紀特急オーシャンアロー車（285系）のカラーを採用。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW117-S}.name",
+      "source": "混色新快速",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW117-S}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW117-S}.type",
+      "source": "117系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW117-S}.description",
+      "source": "221系新快速の補完として、朝夕のみ新快速として投入された。",
+      "translation": ""
+    }
+  ]
+}

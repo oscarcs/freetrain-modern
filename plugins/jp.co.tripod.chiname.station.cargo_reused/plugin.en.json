@@ -1,0 +1,172 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.station.cargo_reused",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "貨車改造駅舎",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{66C569DC-6022-45D3-C477-595155F5AD3C}-a0.group",
+      "source": "貨車改造駅舎(空色:A)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{66C569DC-6022-45D3-C477-595155F5AD3C}-a1.group",
+      "source": "貨車改造駅舎(空色:A)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{66C569DC-6022-45D3-C477-595155F5AD3C}-a2.group",
+      "source": "貨車改造駅舎(空色:A)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{66C569DC-6022-45D3-C477-595155F5AD3C}-a3.group",
+      "source": "貨車改造駅舎(空色:A)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{66C569DC-6022-45D3-C477-595155F5AD3C}-a4.group",
+      "source": "貨車改造駅舎(二色:A)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{66C569DC-6022-45D3-C477-595155F5AD3C}-a5.group",
+      "source": "貨車改造駅舎(二色:A)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{66C569DC-6022-45D3-C477-595155F5AD3C}-a6.group",
+      "source": "貨車改造駅舎(二色:A)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{66C569DC-6022-45D3-C477-595155F5AD3C}-a7.group",
+      "source": "貨車改造駅舎(二色:A)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{66C569DC-6022-45D3-C477-595155F5AD3C}-b0.group",
+      "source": "貨車改造駅舎(赤線:B)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{66C569DC-6022-45D3-C477-595155F5AD3C}-b1.group",
+      "source": "貨車改造駅舎(赤線:B)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{66C569DC-6022-45D3-C477-595155F5AD3C}-b2.group",
+      "source": "貨車改造駅舎(赤線:B)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{66C569DC-6022-45D3-C477-595155F5AD3C}-b3.group",
+      "source": "貨車改造駅舎(赤線:B)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{66C569DC-6022-45D3-C477-595155F5AD3C}-b4.group",
+      "source": "貨車改造駅舎(青線:B)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{66C569DC-6022-45D3-C477-595155F5AD3C}-b5.group",
+      "source": "貨車改造駅舎(青線:B)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{66C569DC-6022-45D3-C477-595155F5AD3C}-b6.group",
+      "source": "貨車改造駅舎(青線:B)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{66C569DC-6022-45D3-C477-595155F5AD3C}-b7.group",
+      "source": "貨車改造駅舎(青線:B)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{66C569DC-6022-45D3-C477-595155F5AD3C}-c0.group",
+      "source": "貨車改造駅舎(橙線:C)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{66C569DC-6022-45D3-C477-595155F5AD3C}-c1.group",
+      "source": "貨車改造駅舎(橙線:C)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{66C569DC-6022-45D3-C477-595155F5AD3C}-c2.group",
+      "source": "貨車改造駅舎(橙線:C)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{66C569DC-6022-45D3-C477-595155F5AD3C}-c3.group",
+      "source": "貨車改造駅舎(橙線:C)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{66C569DC-6022-45D3-C477-595155F5AD3C}-c4.group",
+      "source": "貨車改造駅舎(水色線:C)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{66C569DC-6022-45D3-C477-595155F5AD3C}-c5.group",
+      "source": "貨車改造駅舎(水色線:C)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{66C569DC-6022-45D3-C477-595155F5AD3C}-c6.group",
+      "source": "貨車改造駅舎(水色線:C)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{66C569DC-6022-45D3-C477-595155F5AD3C}-c7.group",
+      "source": "貨車改造駅舎(水色線:C)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{66C569DC-6022-45D3-C477-595155F5AD3C}-d0.group",
+      "source": "貨車改造駅舎(緑線:D)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{66C569DC-6022-45D3-C477-595155F5AD3C}-d1.group",
+      "source": "貨車改造駅舎(緑線:D)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{66C569DC-6022-45D3-C477-595155F5AD3C}-d2.group",
+      "source": "貨車改造駅舎(緑線:D)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{66C569DC-6022-45D3-C477-595155F5AD3C}-d3.group",
+      "source": "貨車改造駅舎(緑線:D)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{66C569DC-6022-45D3-C477-595155F5AD3C}-d4.group",
+      "source": "貨車改造駅舎(無地:D)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{66C569DC-6022-45D3-C477-595155F5AD3C}-d5.group",
+      "source": "貨車改造駅舎(無地:D)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{66C569DC-6022-45D3-C477-595155F5AD3C}-d6.group",
+      "source": "貨車改造駅舎(無地:D)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{66C569DC-6022-45D3-C477-595155F5AD3C}-d7.group",
+      "source": "貨車改造駅舎(無地:D)",
+      "translation": ""
+    }
+  ]
+}

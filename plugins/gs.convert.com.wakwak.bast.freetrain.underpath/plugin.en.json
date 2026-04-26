@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "gs.convert.com.wakwak.bast.freetrain.underpath",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "GenericStructure convert underpath ては",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{nekoneko-nyanyanya-underpath-1}-gs.group",
+      "source": "アンダーパス",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{nekoneko-nyanyanya-underpath-5}-gs.group",
+      "source": "アンダーパス",
+      "translation": ""
+    }
+  ]
+}

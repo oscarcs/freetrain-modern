@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "FreeTrain.structure.piugin.4.shino",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "ビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6C9498F6-839C-464F-B824-26DFA4154ED7}.group",
+      "source": "貸しビル(2x2)",
+      "translation": ""
+    }
+  ]
+}

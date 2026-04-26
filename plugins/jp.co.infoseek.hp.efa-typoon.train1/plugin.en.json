@@ -1,0 +1,252 @@
+{
+  "language": "en",
+  "plugin": "jp.co.infoseek.hp.efa-typoon.train1",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "車両セット\u30001号車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-E351-8FE0-7567171D3CEF}.name",
+      "source": "スーパーあずさ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-E351-8FE0-7567171D3CEF}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-E351-8FE0-7567171D3CEF}.type",
+      "source": "E351系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-E351-8FE0-7567171D3CEF}.description",
+      "source": "中央東線のスーパーあずさ。12両まで編成可能。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-H731-8FE0-7567171D3CEF}.company",
+      "source": "JR北海道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-H731-8FE0-7567171D3CEF}.type",
+      "source": "731系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-H731-8FE0-7567171D3CEF}.description",
+      "source": "JR北海道の731系です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-K201-8FE0-7567171D3CEF}.company",
+      "source": "JR北海道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-K201-8FE0-7567171D3CEF}.type",
+      "source": "キハ201系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-K201-8FE0-7567171D3CEF}.description",
+      "source": "JR北海道のキハ201系です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-H201-8FE0-7567171D3CEF}.company",
+      "source": "JR北海道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-H201-8FE0-7567171D3CEF}.type",
+      "source": "731系+キハ201系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-H201-8FE0-7567171D3CEF}.description",
+      "source": "6両のみ編成可能。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-D115-8FE0-7567171D3CEF}.name",
+      "source": "横須賀色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-D115-8FE0-7567171D3CEF}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-D115-8FE0-7567171D3CEF}.type",
+      "source": "115系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-D115-8FE0-7567171D3CEF}.description",
+      "source": "中央本線などで見られる横須賀色の115系です。豊田電車区の115系が減ったため、スカ色115系も減っている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-E115-8FE0-7567171D3CEF}.name",
+      "source": "しなの鉄道色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-E115-8FE0-7567171D3CEF}.company",
+      "source": "しなの鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-E115-8FE0-7567171D3CEF}.type",
+      "source": "115系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-E115-8FE0-7567171D3CEF}.description",
+      "source": "しなの鉄道にJR東日本から譲渡された115系です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-F115-8FE0-7567171D3CEF}.name",
+      "source": "湘南色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-F115-8FE0-7567171D3CEF}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-F115-8FE0-7567171D3CEF}.type",
+      "source": "115系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-F115-8FE0-7567171D3CEF}.description",
+      "source": "湘南色の115系です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-I115-8FE0-7567171D3CEF}.name",
+      "source": "湘南色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-I115-8FE0-7567171D3CEF}.company",
+      "source": "JR東海",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-I115-8FE0-7567171D3CEF}.type",
+      "source": "115系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-I115-8FE0-7567171D3CEF}.description",
+      "source": "湘南色の115系です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-G115-8FE0-7567171D3CEF}.name",
+      "source": "長野色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-G115-8FE0-7567171D3CEF}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-G115-8FE0-7567171D3CEF}.type",
+      "source": "115系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-G115-8FE0-7567171D3CEF}.description",
+      "source": "長野色の115系です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-H115-8FE0-7567171D3CEF}.name",
+      "source": "2000番台\u3000身延色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-H115-8FE0-7567171D3CEF}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-H115-8FE0-7567171D3CEF}.type",
+      "source": "115系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-H115-8FE0-7567171D3CEF}.description",
+      "source": "旧形国電を淘汰するため85年に新造された身延線向け115系2000番台。甲州のぶどうをイメージした塗装で身延線の名物だった。現在はこの塗装は見られない。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRE-115YAHI-HENSEI-7567171D3CEF}.name",
+      "source": "弥彦線色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRE-115YAHI-HENSEI-7567171D3CEF}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRE-115YAHI-HENSEI-7567171D3CEF}.type",
+      "source": "115系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRE-115YAHI-HENSEI-7567171D3CEF}.description",
+      "source": "本当はこの色の中間車はないはず。12両まで編成可。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-E215-8FE0-7567171D3CEF}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-E215-8FE0-7567171D3CEF}.type",
+      "source": "215系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-E215-8FE0-7567171D3CEF}.description",
+      "source": "JR東日本215系。東海道線の混雑緩和をめざして開発された車両。「湘南ライナー」や「湘南新宿ライン」などに使用されている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRW-113OBAMA-HENSEI-7567171D3CEF}.name",
+      "source": "小浜線色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRW-113OBAMA-HENSEI-7567171D3CEF}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRW-113OBAMA-HENSEI-7567171D3CEF}.type",
+      "source": "113系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRW-113OBAMA-HENSEI-7567171D3CEF}.description",
+      "source": "小浜線電化開業時に草津線・湖西線用の113系を改造・転用したもの。ラッシュ時に4両で運転。N40更新を受けているので転換クロスシートである。",
+      "translation": ""
+    }
+  ]
+}

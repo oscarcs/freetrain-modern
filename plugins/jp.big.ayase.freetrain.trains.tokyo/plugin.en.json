@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "plugin": "jp.big.ayase.freetrain.trains.tokyo",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "東京都交通局",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-T01}.name",
+      "source": "7500系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-T01}.company",
+      "source": "東京都交通局",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-T01}.type",
+      "source": "都電",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-TrainHensei-T01}.description",
+      "source": "東京都交通局の路面電車用車両。通常、単行で運転される。",
+      "translation": ""
+    }
+  ]
+}

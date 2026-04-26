@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "plugin": "info.hiyohiyo.riorio.freetrain.rail.structure.horitake",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "鉄道施設プラグイン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{66D8CEFC-HORITAKE-44E9-BA8E-53F2986E3D8F}.group",
+      "source": "車止め(地面)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{60EA6394-HORITAKE-4C97-822C-1B06458D42B4}.group",
+      "source": "車止め(地面)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{988C4797-HORITAKE-478F-BB3D-34F1E1ACD2D5}.group",
+      "source": "車止め(地面)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5A9F67BA-HORITAKE-4248-A6AA-FE2CFBA0C76F}.group",
+      "source": "車止め(地面)",
+      "translation": ""
+    }
+  ]
+}

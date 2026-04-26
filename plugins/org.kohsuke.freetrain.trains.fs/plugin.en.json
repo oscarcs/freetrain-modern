@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.trains.fs",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "イタリア国鉄車両セット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Malpensa-Express0306192133}.company",
+      "source": "イタリア国鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Malpensa-Express0306192133}.description",
+      "source": "イタリアのマルペンサ空港とミラノを結ぶ空港特急。30分ごとに発車しており、その性格は「はるか」や「成田エクスプレス」とよく似ている。",
+      "translation": ""
+    }
+  ]
+}

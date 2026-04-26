@@ -1,0 +1,12 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.aircrafts.b747_and_dc10",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "ジャンボ機(改)",
+      "translation": ""
+    }
+  ]
+}

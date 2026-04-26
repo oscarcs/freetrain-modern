@@ -1,0 +1,357 @@
+{
+  "language": "en",
+  "plugin": "jp.co.infoseek.hp.efa-typoon.train3",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "車両セット\u30003号車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-B209-8FE0-7567171D3CEF}.name",
+      "source": "京浜東北線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-B209-8FE0-7567171D3CEF}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-B209-8FE0-7567171D3CEF}.type",
+      "source": "209系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-B209-8FE0-7567171D3CEF}.description",
+      "source": "水色ラインの京浜東北線用209系。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-C209-8FE0-7567171D3CEF}.name",
+      "source": "八高線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-C209-8FE0-7567171D3CEF}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-C209-8FE0-7567171D3CEF}.type",
+      "source": "209系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-C209-8FE0-7567171D3CEF}.description",
+      "source": "緑とオレンジのラインの八高線用209系。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-D209-8FE0-7567171D3CEF}.name",
+      "source": "南武線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-D209-8FE0-7567171D3CEF}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-D209-8FE0-7567171D3CEF}.type",
+      "source": "209系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-D209-8FE0-7567171D3CEF}.description",
+      "source": "黄色とオレンジのラインの南武線用209系。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A501-8FE0-7567171D3CEF}.name",
+      "source": "常磐線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A501-8FE0-7567171D3CEF}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A501-8FE0-7567171D3CEF}.type",
+      "source": "E501系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A501-8FE0-7567171D3CEF}.description",
+      "source": "常磐線取手以遠にも投入できるように、209系をベースに交直両用、最高速度120kmとして制作された。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-7567171D3CEF}.name",
+      "source": "中央・総武線（緩行）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-7567171D3CEF}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-7567171D3CEF}.type",
+      "source": "E231系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-7567171D3CEF}.description",
+      "source": "黄色のラインの中央・総武線（緩行）用E231系。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-B231-8FE0-7567171D3CEF}.name",
+      "source": "山手線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-B231-8FE0-7567171D3CEF}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-B231-8FE0-7567171D3CEF}.type",
+      "source": "E231系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-B231-8FE0-7567171D3CEF}.description",
+      "source": "黄緑色のラインのE231系。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-C231-8FE0-7567171D3CEF}.name",
+      "source": "東北・高崎線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-C231-8FE0-7567171D3CEF}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-C231-8FE0-7567171D3CEF}.type",
+      "source": "E231系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-C231-8FE0-7567171D3CEF}.description",
+      "source": "緑とオレンジの近郊型のE231系。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-D231-8FE0-7567171D3CEF}.name",
+      "source": "常磐線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-D231-8FE0-7567171D3CEF}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-D231-8FE0-7567171D3CEF}.type",
+      "source": "E231系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-D231-8FE0-7567171D3CEF}.description",
+      "source": "青緑と緑のE231系。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-E231-8FE0-7567171D3CEF}.name",
+      "source": "800番台",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-E231-8FE0-7567171D3CEF}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-E231-8FE0-7567171D3CEF}.type",
+      "source": "E231系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-E231-8FE0-7567171D3CEF}.description",
+      "source": "地下鉄東西線に直通する301系、103系1200番台の置き換えとして用として投入された車両。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-K283-8FE0-7567171D3CEF}.name",
+      "source": "スーパーおおぞら、スーパーとかち など",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-K283-8FE0-7567171D3CEF}.company",
+      "source": "JR北海道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-K283-8FE0-7567171D3CEF}.type",
+      "source": "キハ283系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-K283-8FE0-7567171D3CEF}.description",
+      "source": "石勝線、根室本線を高速化するために開発された。キハ281系をベースとした振り子車である。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-K261-8FE0-7567171D3CEF}.name",
+      "source": "スーパー宗谷 など",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-K261-8FE0-7567171D3CEF}.company",
+      "source": "JR北海道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-K261-8FE0-7567171D3CEF}.type",
+      "source": "キハ261系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-K261-8FE0-7567171D3CEF}.description",
+      "source": "宗谷本線旭川～名寄間を高速化するために開発された。外見はキハ281系、キハ283系によく似ている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040105-ec789}.name",
+      "source": "スーパー白鳥",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040105-ec789}.company",
+      "source": "JR北海道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040105-ec789}.type",
+      "source": "789系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040105-ec789}.description",
+      "source": "青函トンネル用車両。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-80KH-8FE0-7567171D3CEF}.name",
+      "source": "半蔵門線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-80KH-8FE0-7567171D3CEF}.company",
+      "source": "帝都高速度交通営団",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-80KH-8FE0-7567171D3CEF}.type",
+      "source": "8000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-9KTK-8FE0-7567171D3CEF}.company",
+      "source": "東京急行電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-9KTK-8FE0-7567171D3CEF}.type",
+      "source": "9000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-9KTK-8FE0-7567171D3CEF}.description",
+      "source": "東急東横線などで使われている9000系です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-2KTK-8FE0-7567171D3CEF}.company",
+      "source": "東京急行電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-2KTK-8FE0-7567171D3CEF}.type",
+      "source": "2000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-2KTK-8FE0-7567171D3CEF}.description",
+      "source": "東急田園都市線で使われている2000系です。3編成しかないので結構レア？",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-1KTK-8FE0-7567171D3CEF}.company",
+      "source": "東京急行電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-1KTK-8FE0-7567171D3CEF}.type",
+      "source": "1000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-1KTK-8FE0-7567171D3CEF}.description",
+      "source": "東急東横線、池上線などで使われている1000系です。東横線では地下鉄乗り入れ用に、池上線ではワンマン運転用に使われています。9000系との外見の大きな違いはドアとエアコンの室外機が3つなこと。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-5KTK-8FE0-7567171D3CEF}.company",
+      "source": "東京急行電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-5KTK-8FE0-7567171D3CEF}.type",
+      "source": "5000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-5KTK-8FE0-7567171D3CEF}.description",
+      "source": "東急田園都市線で使われている5000系です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-109-5050-HENSEI-7567171D3CEF}.company",
+      "source": "東京急行電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-109-5050-HENSEI-7567171D3CEF}.type",
+      "source": "5050系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-109-5050-HENSEI-7567171D3CEF}.description",
+      "source": "5000系がベースの東横線用5050系です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-109-5080-HENSEI-7567171D3CEF}.company",
+      "source": "東京急行電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-109-5080-HENSEI-7567171D3CEF}.type",
+      "source": "5080系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-109-5080-HENSEI-7567171D3CEF}.description",
+      "source": "5000系がベースの目黒線用5080系です。",
+      "translation": ""
+    }
+  ]
+}

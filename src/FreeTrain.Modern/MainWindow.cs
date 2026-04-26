@@ -771,7 +771,7 @@ public sealed class MainWindow : Window
 
         TextBlock summary = new()
         {
-            Text = $"{plugins.LoadedCount} manifests parsed | {plugins.ErrorCount} errors | {plugins.ContributionTypeCounts.Values.Sum()} contributions",
+            Text = $"{plugins.LoadedCount} manifests parsed | {plugins.ErrorCount} errors | {plugins.ContributionTypeCounts.Values.Sum()} contributions | {plugins.Localization.AvailableTranslationCount} {plugins.Localization.Language} translations",
             Foreground = TextBrush,
             FontWeight = FontWeight.Bold,
             Margin = new Thickness(0, 0, 0, 8)

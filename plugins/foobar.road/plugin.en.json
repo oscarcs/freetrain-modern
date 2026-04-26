@@ -1,0 +1,192 @@
+{
+  "language": "en",
+  "plugin": "foobar.road",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "contribution.{A2A82101-EFEE-4467-8461-4BFAAA6C0A30-001}.name",
+      "source": "道路交差点パターン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A2A82101-EFEE-4467-8461-4BFAAA6C0A30-002}.name",
+      "source": "道路交差点パターン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A2A82101-EFEE-4467-8461-4BFAAA6C0A30-003}.name",
+      "source": "道路交差点パターン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A2A82101-EFEE-4467-8461-4BFAAA6C0A30-004}.name",
+      "source": "道路交差点パターン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A2A82101-EFEE-4467-8461-4BFAAA6C0A30-005}.name",
+      "source": "道路交差点パターン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9D373E16-8647-49e5-A560-6305AD7481B0}.name",
+      "source": "田一般道/二車線/橙実線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9D373E16-8647-49e5-A560-6305AD7481B0}.description",
+      "source": "一般道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7405549B-7BE2-4b69-B725-5BF6230A5C64}.name",
+      "source": "都一般道/二車線/橙実線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7405549B-7BE2-4b69-B725-5BF6230A5C64}.description",
+      "source": "一般道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B46015A3-490D-48b1-8070-C02B49CCBB5B}.name",
+      "source": "都無一般道/二車線/橙実線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B46015A3-490D-48b1-8070-C02B49CCBB5B}.description",
+      "source": "一般道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3D628D01-939C-4127-891D-9FF144E604D4}.name",
+      "source": "街一般道/一車線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3D628D01-939C-4127-891D-9FF144E604D4}.description",
+      "source": "一般道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{33F46588-41D0-40b9-B02B-9FF5C7111492}.name",
+      "source": "街一般道/二車線/白破線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{33F46588-41D0-40b9-B02B-9FF5C7111492}.description",
+      "source": "一般道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B1A057ED-155E-4911-964E-5E9F1527A48A}.name",
+      "source": "街一般道/二車線/橙実線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B1A057ED-155E-4911-964E-5E9F1527A48A}.description",
+      "source": "一般道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CA3F96DE-A6A3-47dd-9F70-4AC38983C8F9}.name",
+      "source": "山一般道/一車線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CA3F96DE-A6A3-47dd-9F70-4AC38983C8F9}.description",
+      "source": "一般道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5DB000BD-01E1-4ed5-B840-C7F456023AB1}.name",
+      "source": "山一般道/白線二車線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5DB000BD-01E1-4ed5-B840-C7F456023AB1}.description",
+      "source": "一般道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9C180355-9601-4420-8B16-BC50D1FAEF0A}.name",
+      "source": "山一般道/橙色二車線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9C180355-9601-4420-8B16-BC50D1FAEF0A}.description",
+      "source": "一般道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{13024108-B745-40de-8E13-A8363D65EDF1}.name",
+      "source": "バラスト/茶/街",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{13024108-B745-40de-8E13-A8363D65EDF1}.description",
+      "source": "バラスト",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{13024108-B745-40de-8E13-A8363D65EDF3}.name",
+      "source": "バラスト/茶/田",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{13024108-B745-40de-8E13-A8363D65EDF3}.description",
+      "source": "バラスト",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{13024108-B745-40de-8E13-A8363D65EDF4}.name",
+      "source": "バラスト/灰/街",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{13024108-B745-40de-8E13-A8363D65EDF4}.description",
+      "source": "バラスト",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{13024108-B745-40de-8E13-A8363D65EDF5}.name",
+      "source": "バラスト/灰/茶",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{13024108-B745-40de-8E13-A8363D65EDF5}.description",
+      "source": "バラスト",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{13024108-B745-40de-8E13-A8363D65EDF7}.name",
+      "source": "バラスト/灰/田",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{13024108-B745-40de-8E13-A8363D65EDF7}.description",
+      "source": "バラスト",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{874ED10E-9727-41ee-B6A4-7A7566776F30}.name",
+      "source": "バラスト/茶/山",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{874ED10E-9727-41ee-B6A4-7A7566776F30}.description",
+      "source": "バラスト",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B5C2040A-6DE0-46f9-A48D-EB7A952D506F}.name",
+      "source": "バラスト/灰/山",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B5C2040A-6DE0-46f9-A48D-EB7A952D506F}.description",
+      "source": "バラスト",
+      "translation": ""
+    }
+  ]
+}

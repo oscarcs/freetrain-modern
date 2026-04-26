@@ -1,0 +1,82 @@
+{
+  "language": "en",
+  "plugin": "gs.convert.jp.big.ayase.freetrain.road_station",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物総合コンバート\u3000綾瀬ヒロ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-StationImpl01a1}-gs.group",
+      "source": "駅前広場(端その１)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-StationImpl01a2}-gs.group",
+      "source": "駅前広場(端その１)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-StationImpl01b1}-gs.group",
+      "source": "駅前広場(端その２)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-StationImpl01b2}-gs.group",
+      "source": "駅前広場(端その２)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-StationImpl01c1}-gs.group",
+      "source": "駅前広場(端その３)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-StationImpl01c2}-gs.group",
+      "source": "駅前広場(端その３)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-StationImpl01d1}-gs.group",
+      "source": "駅前広場(端その４)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-StationImpl01d2}-gs.group",
+      "source": "駅前広場(端その４)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-StationImpl02a1}-gs.group",
+      "source": "駅前広場(中その１)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-StationImpl02a2}-gs.group",
+      "source": "駅前広場(中その１)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-StationImpl02b1}-gs.group",
+      "source": "駅前広場(中その２)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-StationImpl02b2}-gs.group",
+      "source": "駅前広場(中その２)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-StationImpl02c1}-gs.group",
+      "source": "駅前広場(中その３)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-StationImpl02c2}-gs.group",
+      "source": "駅前広場(中その３)",
+      "translation": ""
+    }
+  ]
+}

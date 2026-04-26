@@ -1,0 +1,37 @@
+{
+  "language": "en",
+  "plugin": "com.xrea.s19.typhoon.mono",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "モノレールせっと",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-MONO-ROAD-7567171D3CEF}.name",
+      "source": "モノレール用レール",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-MONO-ROAD-7567171D3CEF}.description",
+      "source": "モノレール用レール",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-TAMATOSHI-1000-HENSEI-7567171D3CEF}.company",
+      "source": "多摩都市モノレール",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-TAMATOSHI-1000-HENSEI-7567171D3CEF}.type",
+      "source": "1000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-TAMATOSHI-1000-HENSEI-7567171D3CEF}.description",
+      "source": "多摩センターから北上し立川を超えて上北台までを結んでいる多摩都市モノレールで使用されている車両です。14編成が存在します。",
+      "translation": ""
+    }
+  ]
+}

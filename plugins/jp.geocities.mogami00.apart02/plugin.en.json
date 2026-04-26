@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "jp.geocities.mogami00.apart02",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "NY風アパート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{mogami-building-nyfuu-apart-02-CDE9E6520A01}-1.group",
+      "source": "NY風アパート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{mogami-building-nyfuu-apart-02-CDE9E6520A01}-2.group",
+      "source": "NY風アパート",
+      "translation": ""
+    }
+  ]
+}

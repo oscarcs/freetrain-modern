@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "plugin": "jp.co.medias.namote.nagoyarinkai",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "名古屋臨海高速鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{DD0220E0-7998-4E8B-A17D-C6116089B1CF}.name",
+      "source": "あおなみ線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{DD0220E0-7998-4E8B-A17D-C6116089B1CF}.company",
+      "source": "名古屋臨海高速鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{DD0220E0-7998-4E8B-A17D-C6116089B1CF}.type",
+      "source": "1000形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{DD0220E0-7998-4E8B-A17D-C6116089B1CF}.description",
+      "source": "国際港湾・名古屋港と名古屋都心部を直結する路線として、平成16年10月6日、全線開業いたしました。",
+      "translation": ""
+    }
+  ]
+}

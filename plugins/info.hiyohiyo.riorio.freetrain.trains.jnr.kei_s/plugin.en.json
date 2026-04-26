@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "plugin": "info.hiyohiyo.riorio.freetrain.trains.jnr.kei_s",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-freetrain-KeiH-TrainHensei-kiha30only}.name",
+      "source": "一般色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-freetrain-KeiH-TrainHensei-kiha30only}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-freetrain-KeiH-TrainHensei-kiha30only}.type",
+      "source": "キハ30系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-freetrain-KeiH-TrainHensei-kiha30only}.description",
+      "source": "一般色に塗装されたキハ30系のみで編成された列車。",
+      "translation": ""
+    }
+  ]
+}

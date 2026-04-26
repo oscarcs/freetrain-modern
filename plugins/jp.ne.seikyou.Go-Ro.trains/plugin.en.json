@@ -1,0 +1,482 @@
+{
+  "language": "en",
+  "plugin": "jp.ne.seikyou.Go-Ro.trains",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "車両（FreeTrain-想作館）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ADF87135-9F9C-117A-9B45-04F846A0479D}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ADF87135-9F9C-117A-9B45-04F846A0479D}.type",
+      "source": "117系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ADF87135-9F9C-117A-9B45-04F846A0479D}.description",
+      "source": "国鉄が京阪神の競合私鉄に対抗すべく新製した形式。同地区の新快速に投入されたほか、中京圏にも投入された。2扉の転換クロスシートの室内に空気バネの台車を履くなど、他の国鉄近郊型車両とは一線を画していた。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{BDF87135-9F9C-117A-9B45-04F846A0479D}.name",
+      "source": "福知山色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{BDF87135-9F9C-117A-9B45-04F846A0479D}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{BDF87135-9F9C-117A-9B45-04F846A0479D}.type",
+      "source": "117系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{BDF87135-9F9C-117A-9B45-04F846A0479D}.description",
+      "source": "国鉄が京阪神の競合私鉄に対抗すべく新製した形式。同地区の新快速に投入されたほか、中京圏にも投入された。2扉の転換クロスシートの室内に空気バネの台車を履くなど、他の国鉄近郊型車両とは一線を画していた。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CDF87135-9F9C-117A-9B45-04F846A0479D}.name",
+      "source": "オーシャンカラー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CDF87135-9F9C-117A-9B45-04F846A0479D}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CDF87135-9F9C-117A-9B45-04F846A0479D}.type",
+      "source": "117系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CDF87135-9F9C-117A-9B45-04F846A0479D}.description",
+      "source": "国鉄が京阪神の競合私鉄に対抗すべく新製した形式。同地区の新快速に投入されたほか、中京圏にも投入された。2扉の転換クロスシートの室内に空気バネの台車を履くなど、他の国鉄近郊型車両とは一線を画していた。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{DDF87135-9F9C-117A-9B45-04F846A0479D}.name",
+      "source": "サンライナー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{DDF87135-9F9C-117A-9B45-04F846A0479D}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{DDF87135-9F9C-117A-9B45-04F846A0479D}.type",
+      "source": "117系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{DDF87135-9F9C-117A-9B45-04F846A0479D}.description",
+      "source": "国鉄が京阪神の競合私鉄に対抗すべく新製した形式。同地区の新快速に投入されたほか、中京圏にも投入された。2扉の転換クロスシートの室内に空気バネの台車を履くなど、他の国鉄近郊型車両とは一線を画していた。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{EDF87135-9F9C-117A-9B45-04F846A0479D}.name",
+      "source": "東海色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{EDF87135-9F9C-117A-9B45-04F846A0479D}.company",
+      "source": "JR東海",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{EDF87135-9F9C-117A-9B45-04F846A0479D}.type",
+      "source": "117系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{EDF87135-9F9C-117A-9B45-04F846A0479D}.description",
+      "source": "国鉄が京阪神の競合私鉄に対抗すべく新製した形式。同地区の新快速に投入されたほか、中京圏にも投入された。2扉の転換クロスシートの室内に空気バネの台車を履くなど、他の国鉄近郊型車両とは一線を画していた。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{train-oct60-3311-A95D-9570512E5210}.name",
+      "source": "堺筋線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{train-oct60-3311-A95D-9570512E5210}.company",
+      "source": "大阪市交通局",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{train-oct60-3311-A95D-9570512E5210}.type",
+      "source": "60系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{train-oct60-3311-A95D-9570512E5210}.description",
+      "source": "大阪市営地下鉄堺筋線で開通時から使用されている車両。天神橋筋六丁目から阪急に乗り入れるため、大阪市営地下鉄としては珍しい架線集電方式を採用している。\n今では一般的なフロントガラスを上部屋根付近まで延長したデザインは製造当時は斬新だった。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{train-oct10-0001-A95D-9570512E5210}.name",
+      "source": "御堂筋線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{train-oct10-0001-A95D-9570512E5210}.company",
+      "source": "大阪市交通局",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{train-oct10-0001-A95D-9570512E5210}.type",
+      "source": "10系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{train-oct10-0001-A95D-9570512E5210}.description",
+      "source": "御堂筋線で使われているサイリスタチョッパ制御車両。多くの路線がトンネル上部にスペースの少ない第三軌条方式を採用している大阪市営地下鉄で、初の冷房搭載車となった。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{train-oct10-0002-A95D-9570512E5210}.name",
+      "source": "御堂筋線（新塗装）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{train-oct10-0002-A95D-9570512E5210}.company",
+      "source": "大阪市交通局",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{train-oct10-0002-A95D-9570512E5210}.type",
+      "source": "10系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{train-oct10-0002-A95D-9570512E5210}.description",
+      "source": "御堂筋線で使われているサイリスタチョッパ制御車両。多くの路線がトンネル上部にスペースの少ない第三軌条方式を採用している大阪市営地下鉄で、初の冷房搭載車となった。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{train-oct10-0003-A95D-9570512E5210}.name",
+      "source": "谷町線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{train-oct10-0003-A95D-9570512E5210}.company",
+      "source": "大阪市交通局",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{train-oct10-0003-A95D-9570512E5210}.type",
+      "source": "20系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{train-oct10-0003-A95D-9570512E5210}.description",
+      "source": "昭和59年に登場した大阪市交通局初のVVVFインバータ制御車両。中央線と谷町線に投入された。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{train-oct10-0004-A95D-9570512E5210}.name",
+      "source": "谷町線（新塗装）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{train-oct10-0004-A95D-9570512E5210}.company",
+      "source": "大阪市交通局",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{train-oct10-0004-A95D-9570512E5210}.type",
+      "source": "20系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{train-oct10-0004-A95D-9570512E5210}.description",
+      "source": "昭和59年に登場した大阪市交通局初のVVVFインバータ制御車両。中央線と谷町線に投入された。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{train-oct10-0005-A95D-9570512E5210}.name",
+      "source": "中央線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{train-oct10-0005-A95D-9570512E5210}.company",
+      "source": "大阪市交通局",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{train-oct10-0005-A95D-9570512E5210}.type",
+      "source": "20系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{train-oct10-0005-A95D-9570512E5210}.description",
+      "source": "昭和59年に登場した大阪市交通局初のVVVFインバータ制御車両。中央線と谷町線に投入された。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{train-oct10-0006-A95D-9570512E5210}.name",
+      "source": "中央線（新塗装）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{train-oct10-0006-A95D-9570512E5210}.company",
+      "source": "大阪市交通局",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{train-oct10-0006-A95D-9570512E5210}.type",
+      "source": "20系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{train-oct10-0006-A95D-9570512E5210}.description",
+      "source": "昭和59年に登場した大阪市交通局初のVVVFインバータ制御車両。中央線と谷町線に投入された。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{train-e257-0001-A95D-1570512E5210}.name",
+      "source": "あずさ、かいじ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{train-e257-0001-A95D-1570512E5210}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{train-e257-0001-A95D-1570512E5210}.type",
+      "source": "E257系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{train-e257-0001-A95D-1570512E5210}.description",
+      "source": "中央線の183系、189系を置き換えるため製造された車両。基本の9両編成か2両増結した11両編成で運転される。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{BDEFADEA-5581-8000-75CF-885D7EDMO510}.company",
+      "source": "名古屋鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{BDEFADEA-5581-8000-75CF-885D7EDMO510}.type",
+      "source": "モ510形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{BDEFADEA-5581-8000-75CF-885D7EDMO510}.description",
+      "source": "大正15年生まれの古豪であるが、2両が健在。現在は予備車として揖斐線、岐阜市内線で使用されている。\n路面電車区間である岐阜市内線に乗り入れるため、扉下にはステップが装備されている。\n昭和62年、鉄道友の会「エバーグリーン賞」を受賞。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{e653-train-C001-0000-4C8B212Dharu}.name",
+      "source": "(赤)フレッシュひたち",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{e653-train-C001-0000-4C8B212Dharu}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{e653-train-C001-0000-4C8B212Dharu}.type",
+      "source": "E653系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{e653-train-C001-0000-4C8B212Dharu}.description",
+      "source": "5,7,11,14両編成のみ購入可能\n11両→7両(赤)+4両(橙)\n14両→7両(赤)+7両(青)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{e653-train-C002-0000-4C8B212Dharu}.name",
+      "source": "(青)フレッシュひたち",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{e653-train-C002-0000-4C8B212Dharu}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{e653-train-C002-0000-4C8B212Dharu}.type",
+      "source": "E653系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{e653-train-C002-0000-4C8B212Dharu}.description",
+      "source": "5,7,11,14両編成のみ購入可能\n11両→7両(青)+4両(橙)\n14両→7両(青)+7両(黄)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{e653-train-C003-0000-4C8B212Dharu}.name",
+      "source": "(黄)フレッシュひたち",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{e653-train-C003-0000-4C8B212Dharu}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{e653-train-C003-0000-4C8B212Dharu}.type",
+      "source": "E653系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{e653-train-C003-0000-4C8B212Dharu}.description",
+      "source": "5,7,11,14両編成のみ購入可能\n11両→7両(黄)+4両(橙)\n14両→7両(黄)+7両(緑)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{e653-train-C004-0000-4C8B212Dharu}.name",
+      "source": "(緑)フレッシュひたち",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{e653-train-C004-0000-4C8B212Dharu}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{e653-train-C004-0000-4C8B212Dharu}.type",
+      "source": "E653系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{e653-train-C004-0000-4C8B212Dharu}.description",
+      "source": "5,7,11,14両編成のみ購入可能\n11両→7両(緑)+4両(橙)\n14両→7両(緑)+7両(赤)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{e653-train-C005-0000-4C8B212Dharu}.name",
+      "source": "(オレンジ)フレッシュひたち",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{e653-train-C005-0000-4C8B212Dharu}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{e653-train-C005-0000-4C8B212Dharu}.type",
+      "source": "E653系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{e653-train-C005-0000-4C8B212Dharu}.description",
+      "source": "4両編成のみ購入可能",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{721-train-C000-0010-4C8B212Dharu}.name",
+      "source": "快速エアポート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{721-train-C000-0010-4C8B212Dharu}.company",
+      "source": "JR北海道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{721-train-C000-0010-4C8B212Dharu}.type",
+      "source": "721系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{721-train-C000-0010-4C8B212Dharu}.description",
+      "source": "3,5,6両編成のみ購入可能",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{721-train-C000-0020-4C8B212Dharu}.name",
+      "source": "快速エアポート（uシート車クハ編成）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{721-train-C000-0020-4C8B212Dharu}.company",
+      "source": "JR北海道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{721-train-C000-0020-4C8B212Dharu}.type",
+      "source": "721系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{721-train-C000-0020-4C8B212Dharu}.description",
+      "source": "3,5,6両編成のみ購入可能",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{721-train-C000-0030-4C8B212Dharu}.name",
+      "source": "uシート無し編成",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{721-train-C000-0030-4C8B212Dharu}.company",
+      "source": "JR北海道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{721-train-C000-0030-4C8B212Dharu}.type",
+      "source": "721系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{721-train-C000-0030-4C8B212Dharu}.description",
+      "source": "3,5,6両編成のみ購入可能",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{885-train-C001-0000-4C8B212Dharu}.name",
+      "source": "白いかもめ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{885-train-C001-0000-4C8B212Dharu}.company",
+      "source": "JR九州",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{885-train-C001-0000-4C8B212Dharu}.type",
+      "source": "885系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{885-train-C002-0000-4C8B212Dharu}.name",
+      "source": "白いソニック",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{885-train-C002-0000-4C8B212Dharu}.company",
+      "source": "JR九州",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{885-train-C002-0000-4C8B212Dharu}.type",
+      "source": "885系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{787-train-C001-0000-4C8B212Dharu}.company",
+      "source": "JR九州",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{787-train-C001-0000-4C8B212Dharu}.type",
+      "source": "787系",
+      "translation": ""
+    }
+  ]
+}

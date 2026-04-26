@@ -1,0 +1,312 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.land.gardentrees",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "庭木",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C3080F44-5E50-498A-C477-55D35714735F}.name",
+      "source": "カイヅカイブキ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C3080F44-5E50-498A-C477-55D35714735F}.group",
+      "source": "庭木",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{99C59EC8-AFC0-4B3F-C477-4D726BF571E0}.name",
+      "source": "マツ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{99C59EC8-AFC0-4B3F-C477-4D726BF571E0}.group",
+      "source": "庭木",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{93F0C934-FA6E-471A-851B-CEA0B0F450CD}.name",
+      "source": "ウメ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{93F0C934-FA6E-471A-851B-CEA0B0F450CD}.group",
+      "source": "庭木",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C3B290F6-F0FB-4E74-C477-CE4E7B76AD42}.name",
+      "source": "モチノキ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C3B290F6-F0FB-4E74-C477-CE4E7B76AD42}.group",
+      "source": "庭木",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C9DA88FE-5D6C-4D90-C477-E5B4C8AFE28D}.name",
+      "source": "イチョウ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C9DA88FE-5D6C-4D90-C477-E5B4C8AFE28D}.group",
+      "source": "庭木",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7674C65E-36CF-4363-C477-14A4E8F3F412}.name",
+      "source": "ミズキ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7674C65E-36CF-4363-C477-14A4E8F3F412}.group",
+      "source": "庭木",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{53D70F12-1416-496F-C477-0B6D5E3EA701}.name",
+      "source": "シダレヤナギ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{53D70F12-1416-496F-C477-0B6D5E3EA701}.group",
+      "source": "庭木",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{88868086-3B45-46B5-C477-8D0E735DBD1C}.name",
+      "source": "桜",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{88868086-3B45-46B5-C477-8D0E735DBD1C}.group",
+      "source": "森林",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{49042FF9-C376-4A3A-C477-9F45D8922A23}.name",
+      "source": "ヤシ(低)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{49042FF9-C376-4A3A-C477-9F45D8922A23}.group",
+      "source": "庭木",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{56003BEB-B11C-4DFA-C477-1A913AB9D208}.name",
+      "source": "ヤシ(高)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{56003BEB-B11C-4DFA-C477-1A913AB9D208}.group",
+      "source": "庭木",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C3080F44-5E50-498A-C477-55D35714735F}-m.name",
+      "source": "カイヅカイブキ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C3080F44-5E50-498A-C477-55D35714735F}-m.group",
+      "source": "庭木(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{99C59EC8-AFC0-4B3F-C477-4D726BF571E0}-m.name",
+      "source": "マツ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{99C59EC8-AFC0-4B3F-C477-4D726BF571E0}-m.group",
+      "source": "庭木(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{93F0C934-FA6E-471A-851B-CEA0B0F450CD}-m.name",
+      "source": "ウメ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{93F0C934-FA6E-471A-851B-CEA0B0F450CD}-m.group",
+      "source": "庭木(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C3B290F6-F0FB-4E74-C477-CE4E7B76AD42}-m.name",
+      "source": "モチノキ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C3B290F6-F0FB-4E74-C477-CE4E7B76AD42}-m.group",
+      "source": "庭木(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C9DA88FE-5D6C-4D90-C477-E5B4C8AFE28D}-m.name",
+      "source": "イチョウ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C9DA88FE-5D6C-4D90-C477-E5B4C8AFE28D}-m.group",
+      "source": "庭木(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7674C65E-36CF-4363-C477-14A4E8F3F412}-m.name",
+      "source": "ミズキ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7674C65E-36CF-4363-C477-14A4E8F3F412}-m.group",
+      "source": "庭木(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{53D70F12-1416-496F-C477-0B6D5E3EA701}-m.name",
+      "source": "シダレヤナギ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{53D70F12-1416-496F-C477-0B6D5E3EA701}-m.group",
+      "source": "庭木(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{88868086-3B45-46B5-C477-8D0E735DBD1C}-m.name",
+      "source": "桜",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{88868086-3B45-46B5-C477-8D0E735DBD1C}-m.group",
+      "source": "森林(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{49042FF9-C376-4A3A-C477-9F45D8922A23}-m.name",
+      "source": "ヤシ(低)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{49042FF9-C376-4A3A-C477-9F45D8922A23}-m.group",
+      "source": "庭木(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{56003BEB-B11C-4DFA-C477-1A913AB9D208}-m.name",
+      "source": "ヤシ(高)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{56003BEB-B11C-4DFA-C477-1A913AB9D208}-m.group",
+      "source": "庭木(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C3080F44-5E50-498A-C477-55D35714735F}-g.name",
+      "source": "カイヅカイブキ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C3080F44-5E50-498A-C477-55D35714735F}-g.group",
+      "source": "庭木(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{99C59EC8-AFC0-4B3F-C477-4D726BF571E0}-g.name",
+      "source": "マツ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{99C59EC8-AFC0-4B3F-C477-4D726BF571E0}-g.group",
+      "source": "庭木(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{93F0C934-FA6E-471A-851B-CEA0B0F450CD}-g.name",
+      "source": "ウメ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{93F0C934-FA6E-471A-851B-CEA0B0F450CD}-g.group",
+      "source": "庭木(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C3B290F6-F0FB-4E74-C477-CE4E7B76AD42}-g.name",
+      "source": "モチノキ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C3B290F6-F0FB-4E74-C477-CE4E7B76AD42}-g.group",
+      "source": "庭木(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C9DA88FE-5D6C-4D90-C477-E5B4C8AFE28D}-g.name",
+      "source": "イチョウ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C9DA88FE-5D6C-4D90-C477-E5B4C8AFE28D}-g.group",
+      "source": "庭木(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7674C65E-36CF-4363-C477-14A4E8F3F412}-g.name",
+      "source": "ミズキ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7674C65E-36CF-4363-C477-14A4E8F3F412}-g.group",
+      "source": "庭木(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{53D70F12-1416-496F-C477-0B6D5E3EA701}-g.name",
+      "source": "シダレヤナギ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{53D70F12-1416-496F-C477-0B6D5E3EA701}-g.group",
+      "source": "庭木(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{88868086-3B45-46B5-C477-8D0E735DBD1C}-g.name",
+      "source": "桜",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{88868086-3B45-46B5-C477-8D0E735DBD1C}-g.group",
+      "source": "森林(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{49042FF9-C376-4A3A-C477-9F45D8922A23}-g.name",
+      "source": "ヤシ(低)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{49042FF9-C376-4A3A-C477-9F45D8922A23}-g.group",
+      "source": "庭木(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{56003BEB-B11C-4DFA-C477-1A913AB9D208}-g.name",
+      "source": "ヤシ(高)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{56003BEB-B11C-4DFA-C477-1A913AB9D208}-g.group",
+      "source": "庭木(草原)",
+      "translation": ""
+    }
+  ]
+}

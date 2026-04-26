@@ -1,0 +1,102 @@
+{
+  "language": "en",
+  "plugin": "jp.big.ayase.freetrain.rail.electricPole2",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{DD1224B0-K003-1000-hana-4E604F3342C8}.name",
+      "source": "複線用(中下)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{DD1224B0-B001-1000-hana-4E604F3342C8}.name",
+      "source": "バラスト（線路無しＡ）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{DD1224B0-B001-1000-hana-4E604F3342C8}.description",
+      "source": "バラスト",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{DD1224B0-B002-1000-hana-4E604F3342C8}.name",
+      "source": "バラスト（線路有りＢ）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{DD1224B0-B002-1000-hana-4E604F3342C8}.description",
+      "source": "バラスト",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{DD1224B0-B002-1100-hana-4E604F3342C8}.name",
+      "source": "強化バラスト（芝生有）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{DD1224B0-B002-1100-hana-4E604F3342C8}.description",
+      "source": "バラスト",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{DD1224B0-B002-1101-hana-4E604F3342C8}.name",
+      "source": "強化バラスト（芝生無）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{DD1224B0-B002-1101-hana-4E604F3342C8}.description",
+      "source": "バラスト",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-kasen-01a-001-FENCE-PICTURE-1001}.group",
+      "source": "架線垂直",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-kasen-02a-001-FENCE-PICTURE-1001}.group",
+      "source": "架線垂直",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-kasen-04a-001-FENCE-PICTURE-1001}.group",
+      "source": "架線垂直",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-kasen-05a-001-FENCE-PICTURE-1001}.group",
+      "source": "架線垂直",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-kasen-06a-001-FENCE-PICTURE-1001}.group",
+      "source": "架線水平",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-kasen-07a-001-FENCE-PICTURE-1001}.group",
+      "source": "架線水平",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-kasen-08a-001-FENCE-PICTURE-1001}.group",
+      "source": "架線水平",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-kasen-09a-001-FENCE-PICTURE-1001}.group",
+      "source": "架線垂直",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-kasen-10a-001-FENCE-PICTURE-1001}.group",
+      "source": "架線垂直",
+      "translation": ""
+    }
+  ]
+}

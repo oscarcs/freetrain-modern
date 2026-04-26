@@ -1,0 +1,37 @@
+{
+  "language": "en",
+  "plugin": "gs.convert.org.kohsuke.freetrain.sturucture.shopping-center",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物総合コンバート\u3000TAKUROU",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{88FE76FB-7343-11D7-A4B7-A959391A9B37}-gs.group",
+      "source": "ドラッグストアー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{88FE76FF-7343-11D7-A4B7-A959391A9B37}-gs.group",
+      "source": "ドラッグストアー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{88FE7702-7343-11D7-A4B7-A959391A9B37}-gs.group",
+      "source": "スーパーマーケット（中型店）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{88FE7704-7343-11D7-A4B7-A959391A9B37}-gs.group",
+      "source": "スーパーマーケット（中型店）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{88FE7706-7343-11D7-A4B7-A959391A9B37}-gs.group",
+      "source": "スーパーマーケット（中型店）",
+      "translation": ""
+    }
+  ]
+}

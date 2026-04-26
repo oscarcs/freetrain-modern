@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.structure.others",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物セット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B83A15E9-9284-4569-A1BF-266DF9B1560A}.name",
+      "source": "ほっかほっか亭",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8CE18936-7C28-4a91-8B40-9CCED1F48968}.name",
+      "source": "高級マンション",
+      "translation": ""
+    }
+  ]
+}

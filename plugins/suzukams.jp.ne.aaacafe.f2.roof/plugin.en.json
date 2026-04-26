@@ -1,0 +1,57 @@
+{
+  "language": "en",
+  "plugin": "suzukams.jp.ne.aaacafe.f2.roof",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "ホーム屋根",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{200405290950Roof01A}12457.name",
+      "source": "HIMA屋根01A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{200405291007Roof01B}16477.name",
+      "source": "HIMA屋根01B",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{200405291007Roof01C}12587.name",
+      "source": "HIMA屋根01C",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{200405291107Roof01A}42457.name",
+      "source": "HIMA屋根02A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{200405291107Roof01B}10477.name",
+      "source": "HIMA屋根02B",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{200405291107Roof01C}22587.name",
+      "source": "HIMA屋根02C",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{200405300146Roof01A}4212747.name",
+      "source": "HIMA屋根03A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{200405300146Roof01B}45865737.name",
+      "source": "HIMA屋根03B",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{200405300146Roof01C}22478947.name",
+      "source": "HIMA屋根03C",
+      "translation": ""
+    }
+  ]
+}

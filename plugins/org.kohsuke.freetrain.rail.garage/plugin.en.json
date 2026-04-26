@@ -1,0 +1,12 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.rail.garage",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "機関庫",
+      "translation": ""
+    }
+  ]
+}

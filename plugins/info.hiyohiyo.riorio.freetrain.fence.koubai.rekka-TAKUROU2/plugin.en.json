@@ -1,0 +1,1322 @@
+{
+  "language": "en",
+  "plugin": "info.hiyohiyo.riorio.freetrain.fence.koubai.rekka-TAKUROU2",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "勾配線路グラフィック2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A1-KobaiRailGraphic-fence-1011}.name",
+      "source": "勾配01",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A1-KobaiRailGraphic-fence-1011}.group",
+      "source": "勾配TB単線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A1-KobaiRailGraphic-fence-1012}.name",
+      "source": "勾配02",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A1-KobaiRailGraphic-fence-1012}.group",
+      "source": "勾配TB単線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A1-KobaiRailGraphic-fence-1013}.name",
+      "source": "勾配03",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A1-KobaiRailGraphic-fence-1013}.group",
+      "source": "勾配TB単線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A1-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配04",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A1-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB単線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A5-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配05",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A5-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB単線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A6-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配06",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A6-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB単線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A7-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配07",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A7-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB単線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A8-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配08",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A8-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB単線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A9-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配09",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A9-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A10-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配10",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A10-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A11-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A11-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A12-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配12",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A12-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A17-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配09",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A17-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A18-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配10",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A18-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A19-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A19-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A20-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配12",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A20-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A13-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配09",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A13-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A14-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配10",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A14-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A15-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A15-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A16-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配12",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A16-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A21-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配21",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A21-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A22-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配22",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A22-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A23-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配23",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A23-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A24-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配24",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A24-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A109-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配109",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A109-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線盛土１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A110-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配110",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A110-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線盛土１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A111-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配111",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A111-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線盛土１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A112-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配112",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A112-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線盛土１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A125-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配125",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A125-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線盛土１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A126-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配126",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A126-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線盛土１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A127-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配127",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A127-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線盛土１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A128-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配128",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A128-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線盛土１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A113-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配113",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A113-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線盛土２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A114-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配114",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A114-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線盛土２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A115-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配115",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A115-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線盛土２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A116-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配116",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A116-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線盛土２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A133-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配133",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A133-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線盛土２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A134-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配134",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A134-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線盛土２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A135-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配135",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A135-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線盛土２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A136-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配136",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A136-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線盛土２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A117-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配117",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A117-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線盛土中",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A118-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配118",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A118-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線盛土中",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A119-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配119",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A119-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線盛土中",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A120-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配120",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A120-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線盛土中",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A121-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配121",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A121-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線盛土中",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A122-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配122",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A122-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線盛土中",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A123-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配123",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A123-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線盛土中",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A124-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配124",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A124-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線盛土中",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A201-KobaiRailGraphic-fence-1011}.name",
+      "source": "勾配201",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A201-KobaiRailGraphic-fence-1011}.group",
+      "source": "勾配TB単線RC",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A202-KobaiRailGraphic-fence-1012}.name",
+      "source": "勾配202",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A202-KobaiRailGraphic-fence-1012}.group",
+      "source": "勾配TB単線RC",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A203-KobaiRailGraphic-fence-1013}.name",
+      "source": "勾配203",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A203-KobaiRailGraphic-fence-1013}.group",
+      "source": "勾配TB単線RC",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A204-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配204",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A204-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB単線RC",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A205-KobaiRailGraphic-fence-1011}.name",
+      "source": "勾配205",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A205-KobaiRailGraphic-fence-1011}.group",
+      "source": "勾配TB単線RC",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A206-KobaiRailGraphic-fence-1012}.name",
+      "source": "勾配206",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A206-KobaiRailGraphic-fence-1012}.group",
+      "source": "勾配TB単線RC",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A207-KobaiRailGraphic-fence-1013}.name",
+      "source": "勾配207",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A207-KobaiRailGraphic-fence-1013}.group",
+      "source": "勾配TB単線RC",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A208-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配208",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A208-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB単線RC",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A209-KobaiRailGraphic-fence-1011}.name",
+      "source": "勾配209",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A209-KobaiRailGraphic-fence-1011}.group",
+      "source": "勾配TB複線RC１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A210-KobaiRailGraphic-fence-1012}.name",
+      "source": "勾配210",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A210-KobaiRailGraphic-fence-1012}.group",
+      "source": "勾配TB複線RC１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A211-KobaiRailGraphic-fence-1013}.name",
+      "source": "勾配211",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A211-KobaiRailGraphic-fence-1013}.group",
+      "source": "勾配TB複線RC１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A212-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配212",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A212-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線RC１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A213-KobaiRailGraphic-fence-1011}.name",
+      "source": "勾配213",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A213-KobaiRailGraphic-fence-1011}.group",
+      "source": "勾配TB複線RC１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A214-KobaiRailGraphic-fence-1012}.name",
+      "source": "勾配214",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A214-KobaiRailGraphic-fence-1012}.group",
+      "source": "勾配TB複線RC１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A215-KobaiRailGraphic-fence-1013}.name",
+      "source": "勾配215",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A215-KobaiRailGraphic-fence-1013}.group",
+      "source": "勾配TB複線RC１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A216-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配216",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A216-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線RC１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A217-KobaiRailGraphic-fence-1013}.name",
+      "source": "勾配217",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A217-KobaiRailGraphic-fence-1013}.group",
+      "source": "勾配TB複線RC２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A218-KobaiRailGraphic-fence-1013}.name",
+      "source": "勾配218",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A218-KobaiRailGraphic-fence-1013}.group",
+      "source": "勾配TB複線RC２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A219-KobaiRailGraphic-fence-1013}.name",
+      "source": "勾配219",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A219-KobaiRailGraphic-fence-1013}.group",
+      "source": "勾配TB複線RC２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A220-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配220",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A220-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線RC２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A221-KobaiRailGraphic-fence-1013}.name",
+      "source": "勾配221",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A221-KobaiRailGraphic-fence-1013}.group",
+      "source": "勾配TB複線RC２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A222-KobaiRailGraphic-fence-1013}.name",
+      "source": "勾配222",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A222-KobaiRailGraphic-fence-1013}.group",
+      "source": "勾配TB複線RC２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A223-KobaiRailGraphic-fence-1013}.name",
+      "source": "勾配223",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A223-KobaiRailGraphic-fence-1013}.group",
+      "source": "勾配TB複線RC２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A224-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配224",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A224-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線RC２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A225-KobaiRailGraphic-fence-1011}.name",
+      "source": "勾配225",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A225-KobaiRailGraphic-fence-1011}.group",
+      "source": "勾配TB単線Ｔ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A226-KobaiRailGraphic-fence-1012}.name",
+      "source": "勾配226",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A226-KobaiRailGraphic-fence-1012}.group",
+      "source": "勾配TB単線Ｔ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A227-KobaiRailGraphic-fence-1013}.name",
+      "source": "勾配227",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A227-KobaiRailGraphic-fence-1013}.group",
+      "source": "勾配TB単線Ｔ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A228-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配228",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A228-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB単線Ｔ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A229-KobaiRailGraphic-fence-1011}.name",
+      "source": "勾配229",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A229-KobaiRailGraphic-fence-1011}.group",
+      "source": "勾配TB単線Ｔ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A230-KobaiRailGraphic-fence-1012}.name",
+      "source": "勾配230",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A230-KobaiRailGraphic-fence-1012}.group",
+      "source": "勾配TB単線Ｔ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A231-KobaiRailGraphic-fence-1013}.name",
+      "source": "勾配231",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A231-KobaiRailGraphic-fence-1013}.group",
+      "source": "勾配TB単線Ｔ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A232-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配0232",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A232-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB単線Ｔ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A233-KobaiRailGraphic-fence-1011}.name",
+      "source": "勾配233",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A233-KobaiRailGraphic-fence-1011}.group",
+      "source": "勾配TB複線Ｔ１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A234-KobaiRailGraphic-fence-1012}.name",
+      "source": "勾配234",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A234-KobaiRailGraphic-fence-1012}.group",
+      "source": "勾配TB複線Ｔ１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A235-KobaiRailGraphic-fence-1013}.name",
+      "source": "勾配235",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A235-KobaiRailGraphic-fence-1013}.group",
+      "source": "勾配TB複線Ｔ１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A236-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配0236",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A236-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線Ｔ１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A237-KobaiRailGraphic-fence-1011}.name",
+      "source": "勾配237",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A237-KobaiRailGraphic-fence-1011}.group",
+      "source": "勾配TB複線Ｔ１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A238-KobaiRailGraphic-fence-1012}.name",
+      "source": "勾配238",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A238-KobaiRailGraphic-fence-1012}.group",
+      "source": "勾配TB複線Ｔ１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A239-KobaiRailGraphic-fence-1013}.name",
+      "source": "勾配239",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A239-KobaiRailGraphic-fence-1013}.group",
+      "source": "勾配TB複線Ｔ１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A240-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配0240",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A240-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線Ｔ１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A241-KobaiRailGraphic-fence-1011}.name",
+      "source": "勾配241",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A241-KobaiRailGraphic-fence-1011}.group",
+      "source": "勾配TB複線Ｔ２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A242-KobaiRailGraphic-fence-1012}.name",
+      "source": "勾配242",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A242-KobaiRailGraphic-fence-1012}.group",
+      "source": "勾配TB複線Ｔ２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A243-KobaiRailGraphic-fence-1013}.name",
+      "source": "勾配243",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A243-KobaiRailGraphic-fence-1013}.group",
+      "source": "勾配TB複線Ｔ２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A244-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配0244",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A244-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線Ｔ２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A245-KobaiRailGraphic-fence-1011}.name",
+      "source": "勾配245",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A245-KobaiRailGraphic-fence-1011}.group",
+      "source": "勾配TB複線Ｔ２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A246-KobaiRailGraphic-fence-1012}.name",
+      "source": "勾配246",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A246-KobaiRailGraphic-fence-1012}.group",
+      "source": "勾配TB複線Ｔ２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A247-KobaiRailGraphic-fence-1013}.name",
+      "source": "勾配247",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A247-KobaiRailGraphic-fence-1013}.group",
+      "source": "勾配TB複線Ｔ２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A248-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配0248",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A248-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線Ｔ２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A249-KobaiRailGraphic-fence-1012}.name",
+      "source": "勾配249",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A249-KobaiRailGraphic-fence-1012}.group",
+      "source": "勾配TB複線Ｔ中１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A250-KobaiRailGraphic-fence-1012}.name",
+      "source": "勾配250",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A250-KobaiRailGraphic-fence-1012}.group",
+      "source": "勾配TB複線Ｔ中１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A251-KobaiRailGraphic-fence-1013}.name",
+      "source": "勾配251",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A251-KobaiRailGraphic-fence-1013}.group",
+      "source": "勾配TB複線Ｔ中１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A252-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配0252",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A252-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線Ｔ中１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A253-KobaiRailGraphic-fence-1012}.name",
+      "source": "勾配253",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A253-KobaiRailGraphic-fence-1012}.group",
+      "source": "勾配TB複線Ｔ中１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A254-KobaiRailGraphic-fence-1012}.name",
+      "source": "勾配254",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A254-KobaiRailGraphic-fence-1012}.group",
+      "source": "勾配TB複線Ｔ中１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A255-KobaiRailGraphic-fence-1013}.name",
+      "source": "勾配255",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A255-KobaiRailGraphic-fence-1013}.group",
+      "source": "勾配TB複線Ｔ中１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A256-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配0256",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A256-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線Ｔ中１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A257-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配0257",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A257-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線Ｔ中２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A258-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配0258",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A258-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線Ｔ中３",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A300-KobaiRailGraphic-fence-1011}.name",
+      "source": "勾配300",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A300-KobaiRailGraphic-fence-1011}.group",
+      "source": "勾配TB単線丸",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A301-KobaiRailGraphic-fence-1012}.name",
+      "source": "勾配301",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A301-KobaiRailGraphic-fence-1012}.group",
+      "source": "勾配TB単線丸",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A302-KobaiRailGraphic-fence-1013}.name",
+      "source": "勾配302",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A302-KobaiRailGraphic-fence-1013}.group",
+      "source": "勾配TB単線丸",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A303-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配303",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A303-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB単線丸",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A304-KobaiRailGraphic-fence-1011}.name",
+      "source": "勾配304",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A304-KobaiRailGraphic-fence-1011}.group",
+      "source": "勾配TB単線丸",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A305-KobaiRailGraphic-fence-1012}.name",
+      "source": "勾配305",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A305-KobaiRailGraphic-fence-1012}.group",
+      "source": "勾配TB単線丸",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A306-KobaiRailGraphic-fence-1013}.name",
+      "source": "勾配306",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A306-KobaiRailGraphic-fence-1013}.group",
+      "source": "勾配TB単線丸",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A307-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配307",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A307-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB単線丸",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A308-KobaiRailGraphic-fence-1011}.name",
+      "source": "勾配308",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A308-KobaiRailGraphic-fence-1011}.group",
+      "source": "勾配TB複線丸１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A309-KobaiRailGraphic-fence-1012}.name",
+      "source": "勾配309",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A309-KobaiRailGraphic-fence-1012}.group",
+      "source": "勾配TB複線丸１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A310-KobaiRailGraphic-fence-1013}.name",
+      "source": "勾配310",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A310-KobaiRailGraphic-fence-1013}.group",
+      "source": "勾配TB複線丸１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A311-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配311",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A311-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線丸１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A312-KobaiRailGraphic-fence-1011}.name",
+      "source": "勾配312",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A312-KobaiRailGraphic-fence-1011}.group",
+      "source": "勾配TB複線丸１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A313-KobaiRailGraphic-fence-1012}.name",
+      "source": "勾配313",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A313-KobaiRailGraphic-fence-1012}.group",
+      "source": "勾配TB複線丸１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A314-KobaiRailGraphic-fence-1013}.name",
+      "source": "勾配314",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A314-KobaiRailGraphic-fence-1013}.group",
+      "source": "勾配TB複線丸１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A315-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配315",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A315-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線丸１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A316-KobaiRailGraphic-fence-1011}.name",
+      "source": "勾配316",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A316-KobaiRailGraphic-fence-1011}.group",
+      "source": "勾配TB複線丸２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A317-KobaiRailGraphic-fence-1012}.name",
+      "source": "勾配317",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A317-KobaiRailGraphic-fence-1012}.group",
+      "source": "勾配TB複線丸２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A318-KobaiRailGraphic-fence-1013}.name",
+      "source": "勾配318",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A318-KobaiRailGraphic-fence-1013}.group",
+      "source": "勾配TB複線丸２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A319-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配319",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A319-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線丸２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A320-KobaiRailGraphic-fence-1011}.name",
+      "source": "勾配320",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A320-KobaiRailGraphic-fence-1011}.group",
+      "source": "勾配TB複線丸２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A321-KobaiRailGraphic-fence-1012}.name",
+      "source": "勾配321",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A321-KobaiRailGraphic-fence-1012}.group",
+      "source": "勾配TB複線丸２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A322-KobaiRailGraphic-fence-1013}.name",
+      "source": "勾配322",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A322-KobaiRailGraphic-fence-1013}.group",
+      "source": "勾配TB複線丸２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A323-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配323",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A323-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TB複線丸２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A350-KobaiRailGraphic-fence-1014}.name",
+      "source": "勾配350",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-00A350-KobaiRailGraphic-fence-1014}.group",
+      "source": "勾配TBその他丸",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.station.eki2",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "高架下",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-2503-1014-8800-D0EA1049D28D}.group",
+      "source": "高架駅（テナント）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-2503-1015-8800-D0EA1049D28D}.group",
+      "source": "高架駅（テナント）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-3000-1010-8800-D0EA1049D28D}.group",
+      "source": "高架駅（民家）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-3001-1010-8800-D0EA1049D28D}.group",
+      "source": "高架駅（民家）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-3002-1010-8800-D0EA1049D28D}.group",
+      "source": "高架駅（民家）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-3003-1010-8800-D0EA1049D28D}.group",
+      "source": "高架駅（民家）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-3004-1010-8800-D0EA1049D28D}.group",
+      "source": "高架駅（民家）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-3005-1010-8800-D0EA1049D28D}.group",
+      "source": "高架駅（民家）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-3006-1010-8800-D0EA1049D28D}.group",
+      "source": "高架駅（民家）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-3007-1010-8800-D0EA1049D28D}.group",
+      "source": "高架駅（民家）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-3008-1010-8800-D0EA1049D28D}.group",
+      "source": "高架駅（民家）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-3009-1010-8800-D0EA1049D28D}.group",
+      "source": "高架駅（民家）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-3010-1010-8800-D0EA1049D28D}.group",
+      "source": "高架駅（民家）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-3011-1010-8800-D0EA1049D28D}.group",
+      "source": "高架駅（民家）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-3012-1010-8800-D0EA1049D28D}.group",
+      "source": "高架駅（民家）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-3013-1010-8800-D0EA1049D28D}.group",
+      "source": "高架駅（民家）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-3014-1010-8800-D0EA1049D28D}.group",
+      "source": "高架駅（民家）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-3015-1010-8800-D0EA1049D28D}.group",
+      "source": "高架駅（民家）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-3016-1010-8800-D0EA1049D28D}.group",
+      "source": "高架駅（民家）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-3017-1010-8800-D0EA1049D28D}.group",
+      "source": "高架駅（民家）",
+      "translation": ""
+    }
+  ]
+}

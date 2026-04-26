@@ -1,0 +1,87 @@
+{
+  "language": "en",
+  "plugin": "info.hiyohiyo.riorio.freetrain.trains.tokyomonorail",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "東京モノレール700形・1000形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-tokyomonorail-0700-8AF2-087BD82FFB9C}.company",
+      "source": "東京モノレール",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-tokyomonorail-0700-8AF2-087BD82FFB9C}.type",
+      "source": "700形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-tokyomonorail-0700-8AF2-087BD82FFB9C}.description",
+      "source": "1982年から製造された15ｍ級アルミ車体のモノレール車両。東京モノレール・浜松町～羽田空港間で運転された。後継の1000形・2000形の増備により、1998年に全車廃車となった。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-tokyomonorail-1000-4C69-6F2A830DD954}.name",
+      "source": "グリーンガム",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-tokyomonorail-1000-4C69-6F2A830DD954}.company",
+      "source": "東京モノレール",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-tokyomonorail-1000-4C69-6F2A830DD954}.type",
+      "source": "1000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-tokyomonorail-1000-4C69-6F2A830DD954}.description",
+      "source": "1989年から使用されている、現在の主力車両。ロッテの全面広告車となった編成があり、うち1編成はグリーンガムのパッケージカラーにペイントされている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-tokyomonorail-1000-BC00-BB48C20F18B8}.name",
+      "source": "クールミントガム",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-tokyomonorail-1000-BC00-BB48C20F18B8}.company",
+      "source": "東京モノレール",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-tokyomonorail-1000-BC00-BB48C20F18B8}.type",
+      "source": "1000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-tokyomonorail-1000-BC00-BB48C20F18B8}.description",
+      "source": "1989年から使用されている、現在の主力車両。ロッテの全面広告車となった編成があり、うち1編成はクールミントガムのパッケージカラーにペイントされている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-tokyomonorail-1000-9525-13507227E2DD}.name",
+      "source": "復刻塗装",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-tokyomonorail-1000-9525-13507227E2DD}.company",
+      "source": "東京モノレール",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-tokyomonorail-1000-9525-13507227E2DD}.type",
+      "source": "1000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-tokyomonorail-1000-9525-13507227E2DD}.description",
+      "source": "1989年から使用されている、現在の主力車両。うち1編成は、東京モノレール開業時に走っていた100形の復刻カラーにペイントされている。",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "language": "en",
+  "plugin": "SpeedLimit",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "速度制限モジュール",
+      "translation": ""
+    }
+  ]
+}

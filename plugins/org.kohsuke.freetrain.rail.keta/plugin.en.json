@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.rail.keta",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{874B8BFD-1EF4-5000-9C5A-D0EA1049D28D}.name",
+      "source": "橋桁(下)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{874B8BFD-1EF4-5001-9C5A-D0EA1049D28D}.name",
+      "source": "橋桁(上)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{874B8BFD-1EF4-5002-9C5A-D0EA1049D28D}.name",
+      "source": "橋桁(無)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{874B8BFD-1EF4-5003-9C5A-D0EA1049D28D}.name",
+      "source": "橋桁(土手)",
+      "translation": ""
+    }
+  ]
+}

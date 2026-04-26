@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.structure.airport.cargo",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "貨物ターミナル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C3BB57FE-9B46-4E39-C477-1F8129BBDFFA}-1.group",
+      "source": "貨物ターミナル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C3BB57FE-9B46-4E39-C477-1F8129BBDFFA}-2.group",
+      "source": "貨物ターミナル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C3BB57FE-9B46-4E39-C477-1F8129BBDFFA}-3.group",
+      "source": "貨物ターミナル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C3BB57FE-9B46-4E39-C477-1F8129BBDFFA}-4.group",
+      "source": "貨物ターミナル",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "language": "en",
+  "plugin": "jp.co.infoseek.altima.trains.odakyu",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "小田急電鉄車両パック",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-2600-2670F}.company",
+      "source": "小田急電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-2600-2670F}.type",
+      "source": "2600形旧塗装 2670F",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-2600-2670F}.description",
+      "source": "1964年に小田急初の20m通勤車として登場。広幅・裾絞り車体、両開き4扉など近代の小田急電車の基本となった。最後まで残った2670Fは、ダークブルーとオレンジイエローの旧塗装に復元された。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-5000}.company",
+      "source": "小田急電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-5000}.type",
+      "source": "5000形/5200形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-5000}.description",
+      "source": "1969年に優等列車向けの車両として登場。2600形を基本とし、電動カム軸抵抗バーニア制御を採用。4連は5000形、6連は5200形となっている。1990年からは修繕・更新工事を順次実施している。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-8000}.company",
+      "source": "小田急電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-8000}.type",
+      "source": "8000形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-8000}.description",
+      "source": "1982年に地上線用として登場。当時流行のブラックフェイスを取り入れたスタイル。制御装置は9000形と同じ界磁チョッパ。一部車両はIGBT-VVVF採用などの更新工事を実施している。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-1000}.company",
+      "source": "小田急電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-1000}.type",
+      "source": "1000形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-1000}.description",
+      "source": "1987年に登場。同社初のステンレス車体、GTO-VVVF車で、一部を除き地下鉄直通に対応。長期間増備され形式バリエーションが豊富で、200両近い大所帯を誇る。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-1700}.company",
+      "source": "小田急電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-1700}.type",
+      "source": "1500形/1700形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-1700}.description",
+      "source": "1991年に登場した車両で、乗降時間対策として2mドアを採用。その後1.6m開口制限と座席の増加改造を行なった。4連は1500形、6連は1700形となっていたが、2004年からは6連化改造と改番を行なう。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-2000}.company",
+      "source": "小田急電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-2000}.type",
+      "source": "2000形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-2000}.description",
+      "source": "1995年に登場した車両。車体は1000形とほとんど同じだが、IGBT-VVVFやLED表示器・案内装置、1.6mドアを採用している。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-3000-1ST}.company",
+      "source": "小田急電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-3000-1ST}.type",
+      "source": "3000形 1次車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-3000-1ST}.description",
+      "source": "2001年デビューの最新型車両。ストレート車体や前面非貫通構造など、近年の小田急電車の特徴を覆す車両となった。1次車は1.6mワイドドアを採用、ブロック工法を用いた車体構造となっている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-3000-2ND}.company",
+      "source": "小田急電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-3000-2ND}.type",
+      "source": "3000形 2次車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-3000-2ND}.description",
+      "source": "2001年デビューの最新型車両。ストレート車体や前面非貫通構造など、近年の小田急電車の特徴を覆す車両となった。2次車は戸袋窓の廃止、ドア幅1.3m、内装仕様の変更などが行なわれた。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-3000-3RD}.company",
+      "source": "小田急電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-3000-3RD}.type",
+      "source": "3000形 3次車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-3000-3RD}.description",
+      "source": "2001年デビューの最新型車両。ストレート車体や前面非貫通構造など、近年の小田急電車の特徴を覆す車両となった。3次車は制御装置の変更、ドアエンジンの変更、フルカバースカートの採用など。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-3000-3263F}.company",
+      "source": "小田急電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-3000-3263F}.type",
+      "source": "3000形 3次車 3263F",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-3000-3263F}.description",
+      "source": "2001年デビューの最新型車両。ストレート車体や前面非貫通構造など、近年の小田急電車の特徴を覆す車両となった。3次車トップバッターの3263Fは、防音効果実証試験の為、床下機器を覆うマウントカバーを装着、特徴的な外観となっている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-2600+5000}.company",
+      "source": "小田急電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-2600+5000}.type",
+      "source": "2600形＋5000形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-2600+5000}.description",
+      "source": "2600形6連と5000形4連の10両編成",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-5200+8000}.company",
+      "source": "小田急電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-5200+8000}.type",
+      "source": "5200形＋8000形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-5200+8000}.description",
+      "source": "5200形6連と8000形4連の10両編成",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-5200+1000}.company",
+      "source": "小田急電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-5200+1000}.type",
+      "source": "5200形＋1000形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-5200+1000}.description",
+      "source": "5200形6連と1000形4連の10両編成",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-8000+5000}.company",
+      "source": "小田急電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-8000+5000}.type",
+      "source": "8000形＋5000形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-8000+5000}.description",
+      "source": "8000形6連と5000形4連の10両編成",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-8000+1000}.company",
+      "source": "小田急電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-8000+1000}.type",
+      "source": "8000形＋1000形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-8000+1000}.description",
+      "source": "8000形6連と1000形4連の10両編成",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-1000+5000}.company",
+      "source": "小田急電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-1000+5000}.type",
+      "source": "1000形＋5000形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-1000+5000}.description",
+      "source": "1000形6連と5000形4連の10両編成",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-1000+8000}.company",
+      "source": "小田急電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-1000+8000}.type",
+      "source": "1000形＋8000形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-1000+8000}.description",
+      "source": "1000形6連と8000形4連の10両編成",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-3000-1+5000}.company",
+      "source": "小田急電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-3000-1+5000}.type",
+      "source": "3000形1次車＋5000形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-3000-1+5000}.description",
+      "source": "3000形1次車6連と5000形4連の10両編成",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-3000-2+8000}.company",
+      "source": "小田急電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-3000-2+8000}.type",
+      "source": "3000形2次車＋8000形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-3000-2+8000}.description",
+      "source": "3000形2次車6連と8000形4連の10両編成",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-3000-3+1000}.company",
+      "source": "小田急電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-3000-3+1000}.type",
+      "source": "3000形3次車＋1000形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-ODAKYU-3000-3+1000}.description",
+      "source": "3000形3次車6連と1000形4連の10両編成",
+      "translation": ""
+    }
+  ]
+}

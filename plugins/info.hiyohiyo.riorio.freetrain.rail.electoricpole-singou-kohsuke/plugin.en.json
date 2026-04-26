@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "info.hiyohiyo.riorio.freetrain.rail.electoricpole-singou-kohsuke",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-Dummy-1001-1000-D0EA1049D28D}.name",
+      "source": "三灯信号機1(Dummy)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-Dummy-1002-1000-D0EA1049D28D}.name",
+      "source": "三灯信号機2(Dummy)",
+      "translation": ""
+    }
+  ]
+}

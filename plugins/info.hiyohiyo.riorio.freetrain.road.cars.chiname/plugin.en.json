@@ -1,0 +1,52 @@
+{
+  "language": "en",
+  "plugin": "info.hiyohiyo.riorio.freetrain.road.cars.chiname",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "自動車\u3000コンテナトレーラ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-cars-4930-C477-9699E6F37DF8}-0,0.name",
+      "source": "コンテナトレーラ(前)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-cars-4930-C477-9699E6F37DF8}-1,0.name",
+      "source": "コンテナトレーラ(後)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-cars-4930-C477-9699E6F37DF8}-0,1.name",
+      "source": "空トレーラ(前)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-cars-4930-C477-9699E6F37DF8}-1,1.name",
+      "source": "空トレーラ(後)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-cars-4930-C477-9699E6F37DF8}-2,0.name",
+      "source": "コンテナトレーラ*(前)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-cars-4930-C477-9699E6F37DF8}-3,0.name",
+      "source": "コンテナトレーラ*(後)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-cars-4930-C477-9699E6F37DF8}-2,1.name",
+      "source": "空トレーラ(前)*",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-cars-4930-C477-9699E6F37DF8}-3,1.name",
+      "source": "空トレーラ(後)*",
+      "translation": ""
+    }
+  ]
+}

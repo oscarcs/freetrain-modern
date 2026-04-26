@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "plugin": "rk-tateya01",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物セット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-tateya-tutaya001-001}.name",
+      "source": "つたや上町店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-tateya-tutaya001-001}.group",
+      "source": "つたや上町店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-tateya-tutaya001-002}.name",
+      "source": "つたや上町店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-tateya-tutaya001-002}.group",
+      "source": "つたや上町店",
+      "translation": ""
+    }
+  ]
+}

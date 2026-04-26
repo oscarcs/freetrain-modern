@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "info.hiyohiyo.riorio.freetrain.build.hosen.Hermes",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "保線車両",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HERM-railbuild-truck-01-739EC56EF56D}.name",
+      "source": "レール運搬用トロッコ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HERM-railbuild-truck-02-739EC56EF56D}.name",
+      "source": "レール運搬用トロッコ",
+      "translation": ""
+    }
+  ]
+}

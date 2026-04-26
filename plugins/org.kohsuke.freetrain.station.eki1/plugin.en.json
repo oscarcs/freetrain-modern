@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.station.eki1",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "駅舎プラグイン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-2501-1010-8800-D0EA1049D28D}.group",
+      "source": "高架下駅舎(tomix)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-2502-1010-8800-D0EA1049D28D}.group",
+      "source": "高架下駅舎(tomix)",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "jp.geocities.mogami00.kamikaze",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "神風財閥ビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8753CB0B-6B55-4508-8A01-14763E0C38D5}.group",
+      "source": "神風財閥ビル",
+      "translation": ""
+    }
+  ]
+}

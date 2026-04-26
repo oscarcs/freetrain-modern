@@ -1,0 +1,42 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.structure.plant.distill",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "プラント蒸留塔",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ACBF75F4-9DE8-4972-C477-12633D583C38}-0.group",
+      "source": "PM-蒸留塔",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ACBF75F4-9DE8-4972-C477-12633D583C38}-1.group",
+      "source": "PM-蒸留塔",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ACBF75F4-9DE8-4972-C477-12633D583C38}-2.group",
+      "source": "PM-蒸留塔",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ACBF75F4-9DE8-4972-C477-12633D583C38}-3.group",
+      "source": "PM-蒸留塔",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ACBF75F4-9DE8-4972-C477-12633D583C38}-4.group",
+      "source": "PM-蒸留塔",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ACBF75F4-9DE8-4972-C477-12633D583C38}-5.group",
+      "source": "PM-蒸留塔",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.trains.teha",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "ては",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4161129C-2C3C-493A-B703-16825455D353}.name",
+      "source": "トワイライトエクスプレス",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4161129C-2C3C-493A-B703-16825455D353}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4161129C-2C3C-493A-B703-16825455D353}.description",
+      "source": "大阪～札幌間を走行する豪華寝台特急。ホテル並みの設備を揃える。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4B41FC2E-DFFE-4F57-9412-74F2A368577C}.name",
+      "source": "USJ\u3000アメリカの町並",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4B41FC2E-DFFE-4F57-9412-74F2A368577C}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4B41FC2E-DFFE-4F57-9412-74F2A368577C}.type",
+      "source": "103系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4B41FC2E-DFFE-4F57-9412-74F2A368577C}.description",
+      "source": "USJの開業に合わせてラッピングされた103系、全車N40改造車である。(メモリ食い…)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5174FFB3-C406-41C1-9198-CD23D40DCA3F}.name",
+      "source": "USJ\u3000ユニバーサルグローブ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5174FFB3-C406-41C1-9198-CD23D40DCA3F}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5174FFB3-C406-41C1-9198-CD23D40DCA3F}.type",
+      "source": "103系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5174FFB3-C406-41C1-9198-CD23D40DCA3F}.description",
+      "source": "USJの開業に合わせてラッピングされた103系、全車N40改造車である。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2C7C4B10-8BBB-4196-873A-764A5BFC53D0}.name",
+      "source": "103系朱色\u3000低運転台",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2C7C4B10-8BBB-4196-873A-764A5BFC53D0}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2C7C4B10-8BBB-4196-873A-764A5BFC53D0}.type",
+      "source": "103系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2C7C4B10-8BBB-4196-873A-764A5BFC53D0}.description",
+      "source": "N40延命改造を受けた103系、シート等は207系レベルに変更されているが乗り心地は103系…\u3000大阪環状線等で使用されている",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{97C123C3-89A2-488C-AB83-1D9AB108741F}.name",
+      "source": "207系\u30000番台",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{97C123C3-89A2-488C-AB83-1D9AB108741F}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{97C123C3-89A2-488C-AB83-1D9AB108741F}.type",
+      "source": "207系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{97C123C3-89A2-488C-AB83-1D9AB108741F}.description",
+      "source": "JR西日本の標準型通勤車、乗り心地が良いがかなり高額なのが…ちなみにJR東日本に900番台が在籍しているが、全く別物である。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B2F41693-134A-4044-9D13-49990166AD47}.name",
+      "source": "207系\u3000学研都市、東西線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B2F41693-134A-4044-9D13-49990166AD47}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B2F41693-134A-4044-9D13-49990166AD47}.type",
+      "source": "207系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B2F41693-134A-4044-9D13-49990166AD47}.description",
+      "source": "学研都市、東西線では4+3で走っている、松井山手で前3両を切り離して運転するからである。また、東西線区間はダブルパンタで走行する。",
+      "translation": ""
+    }
+  ]
+}

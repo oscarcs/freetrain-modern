@@ -1,0 +1,72 @@
+{
+  "language": "en",
+  "plugin": "jp.co.hotmail.kitapoppoya.ST",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "札幌市交地下鉄セット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-ST5000}.name",
+      "source": "南北線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-ST5000}.company",
+      "source": "札幌市交通局",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-ST5000}.type",
+      "source": "5000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-ST8000}.name",
+      "source": "東西線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-ST8000}.company",
+      "source": "札幌市交通局",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-ST8000}.type",
+      "source": "8000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-ST7000K}.name",
+      "source": "東豊線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-ST7000K}.company",
+      "source": "札幌市交通局",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-ST7000K}.type",
+      "source": "7000系(旧塗装)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-ST7000N}.name",
+      "source": "東豊線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-ST7000N}.company",
+      "source": "札幌市交通局",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-ST7000N}.type",
+      "source": "7000系(新塗装)",
+      "translation": ""
+    }
+  ]
+}

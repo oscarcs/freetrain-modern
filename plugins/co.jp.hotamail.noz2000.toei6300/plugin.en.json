@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "plugin": "co.jp.hotamail.noz2000.toei6300",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "三田線 6300形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1D0D0131-DD35-4FE5-9F7E-9CBDA44CE22F}.name",
+      "source": "三田線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1D0D0131-DD35-4FE5-9F7E-9CBDA44CE22F}.company",
+      "source": "東京都交通局",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1D0D0131-DD35-4FE5-9F7E-9CBDA44CE22F}.type",
+      "source": "6300形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1D0D0131-DD35-4FE5-9F7E-9CBDA44CE22F}.description",
+      "source": "1993年に6000形を置き換える事目的に登場した車両。6両編成のみです。",
+      "translation": ""
+    }
+  ]
+}

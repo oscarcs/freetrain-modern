@@ -1,0 +1,52 @@
+{
+  "language": "en",
+  "plugin": "jp.big.ayase.freetrain.road_slope",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "道路プラグイン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-SlopeN}.group",
+      "source": "勾配道路(一般)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-SlopeS}.group",
+      "source": "勾配道路(一般)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-SlopeW}.group",
+      "source": "勾配道路(一般)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-SlopeE}.group",
+      "source": "勾配道路(一般)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-Slope2N}.group",
+      "source": "勾配道路(高速)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-Slope2S}.group",
+      "source": "勾配道路(高速)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-Slope2W}.group",
+      "source": "勾配道路(高速)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-Slope2E}.group",
+      "source": "勾配道路(高速)",
+      "translation": ""
+    }
+  ]
+}

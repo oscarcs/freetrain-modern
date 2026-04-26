@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "toaru_mokuzou2",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "木造民家",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A1A8DF90-4F62-44CB-B629-C1EE1A4E7D7D}.group",
+      "source": "木造民家",
+      "translation": ""
+    }
+  ]
+}

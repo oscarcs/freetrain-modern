@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "plugin": "toraru_matibiru_d",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "町ビルD",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4DB210FF-FB21-4A5A-A487-09B881D2E405}.name",
+      "source": "町ビルD",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B66FDEE3-E59A-4C86-8665-DD2FDA1579B2}.name",
+      "source": "町ビルD",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E229777E-EB73-4CAE-8932-04F0D7150350}.name",
+      "source": "町ビルD",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D2F9E090-323C-4DEF-AA89-C173E8746B5B}.name",
+      "source": "町ビルD",
+      "translation": ""
+    }
+  ]
+}

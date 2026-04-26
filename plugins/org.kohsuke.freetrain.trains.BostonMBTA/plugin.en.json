@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.trains.BostonMBTA",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "BostonMBTA 車両キット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1524D523-85C2-465c-8240-BC55EA511D3B}.description",
+      "source": "Lenchmere-Kenmore。野球場を通る路面電車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5830F166-5E53-4fd1-8FFD-A6B69B1BB8A5}.description",
+      "source": "Oak Grove-Forest Hills。Amtrakと接続します。",
+      "translation": ""
+    }
+  ]
+}

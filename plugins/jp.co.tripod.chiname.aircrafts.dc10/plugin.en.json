@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.aircrafts.dc10",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "DC-10型旅客機",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7606EA2B-5FD5-497B-9111-9D34B8F183C0}-00.group",
+      "source": "Douglas DC10(大)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{312FC9AA-6B14-4E6E-86E0-13BB9B4ABFAF}-00.group",
+      "source": "Douglas DC10(大)",
+      "translation": ""
+    }
+  ]
+}

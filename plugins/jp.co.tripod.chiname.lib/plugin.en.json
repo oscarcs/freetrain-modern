@@ -1,0 +1,12 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.lib",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "横断歩道",
+      "translation": ""
+    }
+  ]
+}

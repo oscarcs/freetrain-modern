@@ -1,0 +1,42 @@
+{
+  "language": "en",
+  "plugin": "jp.big.ayase.freetrain.rail.tras",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-Tras-Center-Red}.name",
+      "source": "鉄橋(赤, 中)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-Tras-Left-Red}.name",
+      "source": "鉄橋(赤, 左)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-Tras-Right-Red}.name",
+      "source": "鉄橋(赤, 右)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-Tras-Center-Green}.name",
+      "source": "鉄橋(緑, 中)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-Tras-Left-Green}.name",
+      "source": "鉄橋(緑, 左)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-Tras-Right-Green}.name",
+      "source": "鉄橋(緑, 右)",
+      "translation": ""
+    }
+  ]
+}

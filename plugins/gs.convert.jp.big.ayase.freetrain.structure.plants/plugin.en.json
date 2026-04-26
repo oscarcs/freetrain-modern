@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "gs.convert.jp.big.ayase.freetrain.structure.plants",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物総合コンバート\u3000綾瀬ヒロ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-Plants-01a}-gs.group",
+      "source": "工場(小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-Plants-02a}-gs.group",
+      "source": "倉庫",
+      "translation": ""
+    }
+  ]
+}

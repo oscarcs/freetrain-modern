@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.suzukams.hima.electricPole",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "鉄骨架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{200305100047-0001}.name",
+      "source": "鉄骨架線柱単線用",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{200305100047-0002}.name",
+      "source": "鉄骨架線柱複線用左",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{200305100047-0003}.name",
+      "source": "鉄骨架線柱複線用中央",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{200305100047-0004}.name",
+      "source": "鉄骨架線柱複線用右",
+      "translation": ""
+    }
+  ]
+}

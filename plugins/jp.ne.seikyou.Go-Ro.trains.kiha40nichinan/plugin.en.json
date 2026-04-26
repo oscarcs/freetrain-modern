@@ -1,0 +1,47 @@
+{
+  "language": "en",
+  "plugin": "jp.ne.seikyou.Go-Ro.trains.kiha40nichinan",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "キハ40日南色（車両所プラグイン依存）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{kiha40-train-nichinan-0001-4C8B212Dharu}.name",
+      "source": "日南色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{kiha40-train-nichinan-0001-4C8B212Dharu}.company",
+      "source": "JR九州",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{kiha40-train-nichinan-0001-4C8B212Dharu}.type",
+      "source": "キハ40形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{kiha40-train-nichinan-0002-4C8B212Dharu}.name",
+      "source": "九州色+日南色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{kiha40-train-nichinan-0002-4C8B212Dharu}.company",
+      "source": "JR九州",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{kiha40-train-nichinan-0002-4C8B212Dharu}.type",
+      "source": "キハ40形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{kiha40-train-nichinan-0002-4C8B212Dharu}.description",
+      "source": "２～５両購入可",
+      "translation": ""
+    }
+  ]
+}

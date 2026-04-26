@@ -1,0 +1,92 @@
+{
+  "language": "en",
+  "plugin": "co.jp.hotamail.noz2000.600",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "京急新600形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B6468B3E-0862-4234-82B0-6ABF087F1D63}.name",
+      "source": "京急線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B6468B3E-0862-4234-82B0-6ABF087F1D63}.company",
+      "source": "京浜急行電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B6468B3E-0862-4234-82B0-6ABF087F1D63}.type",
+      "source": "600形4次車(高)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B6468B3E-0862-4234-82B0-6ABF087F1D63}.description",
+      "source": "1994年に1000形の置換用都営地下鉄浅草線乗入車両として登場した車両。4次車はシングルアームが装備されています。この車両は高速です。4、8、12編成を用意しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4ABBEA82-DAF9-4C46-82DD-E660BC5335BF}.name",
+      "source": "京急線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4ABBEA82-DAF9-4C46-82DD-E660BC5335BF}.company",
+      "source": "京浜急行電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4ABBEA82-DAF9-4C46-82DD-E660BC5335BF}.type",
+      "source": "600形4次車(中)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4ABBEA82-DAF9-4C46-82DD-E660BC5335BF}.description",
+      "source": "1994年に1000形の置換用都営地下鉄浅草線乗入車両として登場した車両。4次車はシングルアームが装備されています。この車両は中速です。4、8、12編成を用意しております。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6AC1450C-9506-48F1-8B49-D6D3BFEE3CB5}.name",
+      "source": "京急線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6AC1450C-9506-48F1-8B49-D6D3BFEE3CB5}.company",
+      "source": "京浜急行電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6AC1450C-9506-48F1-8B49-D6D3BFEE3CB5}.type",
+      "source": "600形1,2,3次車(高)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6AC1450C-9506-48F1-8B49-D6D3BFEE3CB5}.description",
+      "source": "1994年に1000形の置換用都営地下鉄浅草線乗入車両として登場した車両。この車両は高速です。8、12編成を用意しております。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E6AF5AE6-AAA4-494A-B8C2-CA1BBD4F4649}.name",
+      "source": "京急線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E6AF5AE6-AAA4-494A-B8C2-CA1BBD4F4649}.company",
+      "source": "京浜急行電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E6AF5AE6-AAA4-494A-B8C2-CA1BBD4F4649}.type",
+      "source": "600形1,2,3次車(中)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E6AF5AE6-AAA4-494A-B8C2-CA1BBD4F4649}.description",
+      "source": "1994年に1000形の置換用都営地下鉄浅草線乗入車両として登場した車両。この車両は中速です。8、12編成を用意しています。",
+      "translation": ""
+    }
+  ]
+}

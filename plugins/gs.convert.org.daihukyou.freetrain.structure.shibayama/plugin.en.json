@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "gs.convert.org.daihukyou.freetrain.structure.shibayama",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物総合コンバート\u3000柴山親方",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1EBA4A26-C35D-4209-9C71-AA9B1237C14C}-gs.group",
+      "source": "テクノガーデンビル",
+      "translation": ""
+    }
+  ]
+}

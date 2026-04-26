@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "jp.geocities.mogami00.backetrolder",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "大型掘削機",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A0766684-6636-4F65-9A84-3D686206EA80}.group",
+      "source": "大型掘削機",
+      "translation": ""
+    }
+  ]
+}

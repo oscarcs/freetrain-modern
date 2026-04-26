@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "jp.co.daihukyou.freetrain.road.003",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{daihukyou-road-4BC1-8160-9706FDF6FB6B}.name",
+      "source": "街燈付き橙線二車線道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{daihukyou-road-4BC1-8160-9706FDF6FB6B}.description",
+      "source": "追い越し禁止、街燈付きの二車線の道路",
+      "translation": ""
+    }
+  ]
+}

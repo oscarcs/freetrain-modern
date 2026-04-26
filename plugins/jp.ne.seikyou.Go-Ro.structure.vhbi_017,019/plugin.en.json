@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "jp.ne.seikyou.Go-Ro.structure.vhbi_017,019",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物\"picture\"(FreeTrain-想作館)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{vhbi_017-GenericStructure-C001-0000-4C8B212Dharu}.name",
+      "source": "インテリジェントビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{vhbi_019-GenericStructure-C001-0000-4C8B212Dharu}.name",
+      "source": "雑居ビル(2x2)",
+      "translation": ""
+    }
+  ]
+}

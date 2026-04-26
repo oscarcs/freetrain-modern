@@ -1,0 +1,52 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.structure.shop.conveni",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "コンビニ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E853F67E-FA07-4365-C477-79EEA8EDA0F5}-0.group",
+      "source": "コンビニ（郊外型）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E853F67E-FA07-4365-C477-79EEA8EDA0F5}-1.group",
+      "source": "コンビニ（郊外型）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E853F67E-FA07-4365-C477-79EEA8EDA0F5}-2.group",
+      "source": "コンビニ（郊外型）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E853F67E-FA07-4365-C477-79EEA8EDA0F5}-3.group",
+      "source": "コンビニ（郊外型）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E853F67E-FA07-4365-C477-79EEA8EDA0F5}-4.group",
+      "source": "コンビニ（郊外型）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E853F67E-FA07-4365-C477-79EEA8EDA0F5}-5.group",
+      "source": "コンビニ（郊外型）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E853F67E-FA07-4365-C477-79EEA8EDA0F5}-6.group",
+      "source": "コンビニ（郊外型）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E853F67E-FA07-4365-C477-79EEA8EDA0F5}-7.group",
+      "source": "コンビニ（郊外型）",
+      "translation": ""
+    }
+  ]
+}

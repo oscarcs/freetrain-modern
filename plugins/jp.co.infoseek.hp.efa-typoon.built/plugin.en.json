@@ -1,0 +1,192 @@
+{
+  "language": "en",
+  "plugin": "jp.co.infoseek.hp.efa-typoon.built",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物セット1号館",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-HMY1-8FE0-7567171D3CEF}.name",
+      "source": "ホーム壁・土色1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-HMY2-8FE0-7567171D3CEF}.name",
+      "source": "ホーム壁・土色2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-HMY3-8FE0-7567171D3CEF}.name",
+      "source": "ホーム壁・灰青1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-HMY4-8FE0-7567171D3CEF}.name",
+      "source": "ホーム壁・灰青2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-HMY5-8FE0-7567171D3CEF}.name",
+      "source": "ホーム壁・赤茶1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-HMY6-8FE0-7567171D3CEF}.name",
+      "source": "ホーム壁・赤茶2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-HUE1-8FE0-7567171D3CEF}.name",
+      "source": "橋上駅（土色）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-MST1-8FE0-7567171D3CEF}.name",
+      "source": "橋上駅（土色・階段右）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-MST2-8FE0-7567171D3CEF}.name",
+      "source": "橋上駅（土色・階段左）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-MST3-8FE0-7567171D3CEF}.name",
+      "source": "橋上駅（土色・階段右奥）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-MST4-8FE0-7567171D3CEF}.name",
+      "source": "橋上駅（土色・階段左奥）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-MDS9-8FE0-7567171D3CEF}.group",
+      "source": "橋上駅(土色・本体)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-MDS10-8FE0-7567171D3CEF}.group",
+      "source": "橋上駅(土色・本体)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-HUE2-8FE0-7567171D3CEF}.name",
+      "source": "橋上駅（灰青）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-MSH1-8FE0-7567171D3CEF}.name",
+      "source": "橋上駅（灰青・階段右）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-MSH2-8FE0-7567171D3CEF}.name",
+      "source": "橋上駅（灰青・階段左）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-MSH3-8FE0-7567171D3CEF}.name",
+      "source": "橋上駅（灰青・階段右奥）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-MSH4-8FE0-7567171D3CEF}.name",
+      "source": "橋上駅（灰青・階段左奥）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-MDS19-8FE0-7567171D3CEF}.group",
+      "source": "橋上駅(灰青・本体)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-MDS20-8FE0-7567171D3CEF}.group",
+      "source": "橋上駅(灰青・本体)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-HUE3-8FE0-7567171D3CEF}.name",
+      "source": "橋上駅（赤茶）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-MSC1-8FE0-7567171D3CEF}.name",
+      "source": "橋上駅（赤茶・階段右）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-MSC2-8FE0-7567171D3CEF}.name",
+      "source": "橋上駅（赤茶・階段左）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-MSC3-8FE0-7567171D3CEF}.name",
+      "source": "橋上駅（赤茶・階段右奥）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-MSC4-8FE0-7567171D3CEF}.name",
+      "source": "橋上駅（赤茶・階段左奥）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-MDS29-8FE0-7567171D3CEF}.group",
+      "source": "橋上駅(赤茶・本体)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-MDS30-8FE0-7567171D3CEF}.group",
+      "source": "橋上駅(赤茶・本体)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-SUPERL-YOKADO-7567171D3CEF}.group",
+      "source": "超大型スーパー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-Military-Rader1-7567171D3CEF}.name",
+      "source": "早期警戒レーダー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-Military-Rader1-7567171D3CEF}.group",
+      "source": "レーダー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-Military-Rader2-7567171D3CEF}.name",
+      "source": "空港監視レーダーA",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-Military-Rader2-7567171D3CEF}.group",
+      "source": "レーダー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-Military-Rader3-7567171D3CEF}.name",
+      "source": "空港監視レーダーB",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-Military-Rader3-7567171D3CEF}.group",
+      "source": "レーダー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-Military-F-15DJ2-7567171D3CEF}.name",
+      "source": "F-15DJ黒",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-Military-F-15DJ2-7567171D3CEF}.group",
+      "source": "戦闘機",
+      "translation": ""
+    }
+  ]
+}

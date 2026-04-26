@@ -1,0 +1,57 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.g_structure.convert.c477",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物セット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{BC43CE38-601A-42c7-992A-6049CCD29B94}-gs.group",
+      "source": "住居兼コンビニ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2C3ED0DA-FBA1-4586-9691-67DC93B851C9}-gs.name",
+      "source": "老舗百貨店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9F3E82AD-2A49-4aef-954C-E872F535B3D8}-gs.name",
+      "source": "分譲マンション(2x2)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{27D6D0C0-2B1A-4494-9257-14C208168075}-gs.name",
+      "source": "分譲住宅",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B99FA2F7-F138-46a1-99F7-34AE23A157F6}-gs.name",
+      "source": "中層雑居オフィスビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{442C7E12-A3BA-4c25-9129-C3803EA760BC}-gs.group",
+      "source": "貸しビル(A)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9BF4DD25-050A-4633-BC8B-0B8B226FC5E8}-gs.group",
+      "source": "貸しビル(ヘリポート付)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D57200E0-8E73-4899-8EEC-0E9AC95C3D40}-gs.group",
+      "source": "新宿三井ビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C35B9F7A-7D69-4D1B-9B92-D05CBF4C20D7}-gs.group",
+      "source": "新宿住友ビル",
+      "translation": ""
+    }
+  ]
+}

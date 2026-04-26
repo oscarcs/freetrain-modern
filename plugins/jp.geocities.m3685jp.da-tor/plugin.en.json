@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "jp.geocities.m3685jp.da-tor",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "ダート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7254CD19-38B1-42DB-84E1-88F9A5C88E42}.name",
+      "source": "ダート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7254CD19-38B1-42DB-84E1-88F9A5C88E42}.description",
+      "source": "普通のダートのやつ",
+      "translation": ""
+    }
+  ]
+}

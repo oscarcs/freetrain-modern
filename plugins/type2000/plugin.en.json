@@ -1,0 +1,147 @@
+{
+  "language": "en",
+  "plugin": "type2000",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "contribution.{79C7B654-0E5E-402D-87CB-525CA403F917}.name",
+      "source": "京急線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{79C7B654-0E5E-402D-87CB-525CA403F917}.company",
+      "source": "京浜急行電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{79C7B654-0E5E-402D-87CB-525CA403F917}.type",
+      "source": "2000形改造後(低)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{79C7B654-0E5E-402D-87CB-525CA403F917}.description",
+      "source": "1982年に登場した2000形2扉クロスシート車を改造した車両。改造後の車両は、扉を中央に増設し3扉化され、座席がクロスシートからロングシートに変更された。だが、性能はもともとの2扉クロスシート車時代のまま残されたため、快特運用の基本＆付属編成ともに活躍の場を広げた。(この車両は低速型)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{52C7B654-0E5E-402D-87CB-525CA403F917}.name",
+      "source": "京急線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{52C7B654-0E5E-402D-87CB-525CA403F917}.company",
+      "source": "京浜急行電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{52C7B654-0E5E-402D-87CB-525CA403F917}.type",
+      "source": "2000形改造後(中)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{52C7B654-0E5E-402D-87CB-525CA403F917}.description",
+      "source": "1982年に登場した2000形2扉クロスシート車を改造した車両。改造後の車両は、扉を中央に増設し3扉化され、座席がクロスシートからロングシートに変更された。だが、性能はもともとの2扉クロスシート車時代のまま残されたため、快特運用の基本＆付属編成ともに活躍の場を広げた。(この車両は中速型)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{75G3A011-0E5E-402D-87CB-525CA403F917}.name",
+      "source": "京急線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{75G3A011-0E5E-402D-87CB-525CA403F917}.company",
+      "source": "京浜急行電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{75G3A011-0E5E-402D-87CB-525CA403F917}.type",
+      "source": "2000形改造後(高)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{75G3A011-0E5E-402D-87CB-525CA403F917}.description",
+      "source": "1982年に登場した2000形2扉クロスシート車を改造した車両。改造後の車両は、扉を中央に増設し3扉化され、座席がクロスシートからロングシートに変更された。だが、性能はもともとの2扉クロスシート車時代のまま残されたため、快特運用の基本＆付属編成ともに活躍の場を広げた。(この車両は高速型)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{628615F9-AECD-4E43-A179-088290B7B216}.name",
+      "source": "京急線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{628615F9-AECD-4E43-A179-088290B7B216}.company",
+      "source": "京浜急行電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{628615F9-AECD-4E43-A179-088290B7B216}.type",
+      "source": "2000形改造前(低)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{628615F9-AECD-4E43-A179-088290B7B216}.description",
+      "source": "快速特急用として活躍してきた旧600形の後継車両として1982(昭和57)年に登場しました。室内は運転室の直後を除いてクロスシートが配列されています。編成は8輌固定編成の他に、12両編成に対応するための4輌編成が1985(昭和60)年から製造され、朝方夕方ラッシュ時の増結や、4輌＋4輌の8輌編成で運用されていました。(この車両は低速型)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{123F092D-91F0-449C-BCB3-9A2A189650B8}.name",
+      "source": "京急線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{123F092D-91F0-449C-BCB3-9A2A189650B8}.company",
+      "source": "京浜急行電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{123F092D-91F0-449C-BCB3-9A2A189650B8}.type",
+      "source": "2000形改造前(中)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{123F092D-91F0-449C-BCB3-9A2A189650B8}.description",
+      "source": "快速特急用として活躍してきた旧600形の後継車両として1982(昭和57)年に登場しました。室内は運転室の直後を除いてクロスシートが配列されています。編成は8輌固定編成の他に、12両編成に対応するための4輌編成が1985(昭和60)年から製造され、朝方夕方ラッシュ時の増結や、4輌＋4輌の8輌編成で運用されていました。(この車両は中速型)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6204E5B8-6EB6-4F64-A14D-44694A5C5D02}.name",
+      "source": "京急線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6204E5B8-6EB6-4F64-A14D-44694A5C5D02}.company",
+      "source": "京浜急行電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6204E5B8-6EB6-4F64-A14D-44694A5C5D02}.type",
+      "source": "2000形改造前(高)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6204E5B8-6EB6-4F64-A14D-44694A5C5D02}.description",
+      "source": "快速特急用として活躍してきた旧600形の後継車両として1982(昭和57)年に登場しました。室内は運転室の直後を除いてクロスシートが配列されています。編成は8輌固定編成の他に、12両編成に対応するための4輌編成が1985(昭和60)年から製造され、朝方夕方ラッシュ時の増結や、4輌＋4輌の8輌編成で運用されていました。(この車両は高速型)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{90G4AE26-7EB6-9D32-H49F-44694A5C5D02}.name",
+      "source": "京急線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{90G4AE26-7EB6-9D32-H49F-44694A5C5D02}.company",
+      "source": "京浜急行電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{90G4AE26-7EB6-9D32-H49F-44694A5C5D02}.type",
+      "source": "2000形改造前4輌＋4輌(高)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{90G4AE26-7EB6-9D32-H49F-44694A5C5D02}.description",
+      "source": "快速特急用として活躍してきた旧600形の後継車両として1982(昭和57)年に登場しました。室内は運転室の直後を除いてクロスシートが配列されています。編成は8輌固定編成の他に、12両編成に対応するための4輌編成が1985(昭和60)年から製造され、朝方夕方ラッシュ時の増結や、4輌＋4輌の8輌編成で運用されていました。(4輌＆4輌＋4輌編成高速型)",
+      "translation": ""
+    }
+  ]
+}

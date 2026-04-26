@@ -1,0 +1,192 @@
+{
+  "language": "en",
+  "plugin": "freetrain.trains.jnr",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "国電プラグイン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8B8C5CB2-T80-43a5-ooito-4528788BF74E}.name",
+      "source": "80系大糸線色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8B8C5CB2-T80-43a5-ooito-4528788BF74E}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8B8C5CB2-T80-43a5-ooito-4528788BF74E}.type",
+      "source": "80系電車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8B8C5CB2-T80-43a5-ooito-4528788BF74E}.description",
+      "source": "80系の大糸線で使われていたスカイブルーの塗装です。\n\t\t\t実際は大糸線の80系はクモユニ810003のみの在籍で、旧型電車と共に運行されていました。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8B8C5CB2-T80-43a5-kansai-4528788BF74E}.name",
+      "source": "マーブル色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8B8C5CB2-T80-43a5-kansai-4528788BF74E}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8B8C5CB2-T80-43a5-kansai-4528788BF74E}.type",
+      "source": "80系電車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8B8C5CB2-T80-43a5-kansai-4528788BF74E}.description",
+      "source": "関西地方の80系はクリーム色とぶどう色に塗られて活躍しました。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8B8C5CB2-T80-43a5-kansaiEX-4528788BF74E}.name",
+      "source": "関西急電",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8B8C5CB2-T80-43a5-kansaiEX-4528788BF74E}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8B8C5CB2-T80-43a5-kansaiEX-4528788BF74E}.type",
+      "source": "80系電車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8B8C5CB2-T80-43a5-kansaiEX-4528788BF74E}.description",
+      "source": "関西地方で急マークのヘッドマークをつけて快速として走行してました。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{67705E9E-4ED1-T63-duralumin-FE45DAC33699}.name",
+      "source": "900番台ジュラ電",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{67705E9E-4ED1-T63-duralumin-FE45DAC33699}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{67705E9E-4ED1-T63-duralumin-FE45DAC33699}.type",
+      "source": "62/63系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{67705E9E-4ED1-T63-duralumin-FE45DAC33699}.description",
+      "source": "63形900番台はジュラルミンで車体を作られ、\n\t\t\t通称ジュラ電といわれましたが無塗装ため腐食が激しく\n\t\t\t一般車両のように塗装され、最終的には鋼体車体に改造されました。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{67705E9E-4ED1-T63-budou-FE45DAC33699}.name",
+      "source": "ぶどう色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{67705E9E-4ED1-T63-budou-FE45DAC33699}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{67705E9E-4ED1-T63-budou-FE45DAC33699}.type",
+      "source": "62/63系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{67705E9E-4ED1-T63-budou-FE45DAC33699}.description",
+      "source": "初期は戦時中に作られた電車で、戦後になると電車不足から大量に増備去れました。\n\t\t\t鋼体車、半鋼体車のほか、ジュラルミンでつくられたジュラ電などがありました。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{67705E9E-4ED1-T63A-budou-FE45DAC33699}.name",
+      "source": "ぶどう色(2扉・クロスシート)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{67705E9E-4ED1-T63A-budou-FE45DAC33699}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{67705E9E-4ED1-T63A-budou-FE45DAC33699}.type",
+      "source": "62/63系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{67705E9E-4ED1-T63A-budou-FE45DAC33699}.description",
+      "source": "ローカル専用にクロスシート化および、2扉化されたタイプ。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{67705E9E-4ED1-T63-bd-FE45DAC33699}.name",
+      "source": "ぶどう色+ジュラ電",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{67705E9E-4ED1-T63-bd-FE45DAC33699}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{67705E9E-4ED1-T63-bd-FE45DAC33699}.type",
+      "source": "62/63系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{67705E9E-4ED1-T63-bd-FE45DAC33699}.description",
+      "source": "一般車+ジュラ電の編成です",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3991CE43-T101-4923-JNR-9DA7803AW}.name",
+      "source": "オレンジ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3991CE43-T101-4923-JNR-9DA7803AW}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3991CE43-T101-4923-JNR-9DA7803AW}.type",
+      "source": "101系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3991CE43-T101-4923-JNR-9DA7803AW}.description",
+      "source": "老朽化した72系電車を置き換えるために作られたのが101系。\n\t\t\t当初はオールM車であったが、電力設備の能力を超えたため最終的には6M4Tに変更された。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3991CE43-T101-4923-JRE-9DA7803A}.name",
+      "source": "南武支線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3991CE43-T101-4923-JRE-9DA7803A}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3991CE43-T101-4923-JRE-9DA7803A}.type",
+      "source": "101系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3991CE43-T101-4923-JRE-9DA7803A}.description",
+      "source": "南武の浜川崎支線で使われたいた塗装です。\n\t\t\t浜川崎支線は最後の101系の活躍の場であったが、2003年12月を最後に205系に置き換われ引退しました。",
+      "translation": ""
+    }
+  ]
+}

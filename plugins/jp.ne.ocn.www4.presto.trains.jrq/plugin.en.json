@@ -1,0 +1,42 @@
+{
+  "language": "en",
+  "plugin": "jp.ne.ocn.www4.presto.trains.jrq",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "JR九州セット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7C9C5240-48F0-11D8-968B-0800460222F0-titech-jrq-nanohana}.company",
+      "source": "JR九州",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7C9C5240-48F0-11D8-968B-0800460222F0-titech-jrq-nanohana}.type",
+      "source": "キハ200形 なのはな",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7C9C5240-48F0-11D8-968B-0800460222F1-titech-jrq-nanohanaDX}.company",
+      "source": "JR九州",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7C9C5240-48F0-11D8-968B-0800460222F1-titech-jrq-nanohanaDX}.type",
+      "source": "キハ200形 なのはなDX",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7C9C5240-48F0-11D8-968B-0800460222F0-titech-jrq-seeside}.company",
+      "source": "JR九州",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7C9C5240-48F0-11D8-968B-0800460222F0-titech-jrq-seeside}.type",
+      "source": "キハ200形 シーサイドライナー",
+      "translation": ""
+    }
+  ]
+}

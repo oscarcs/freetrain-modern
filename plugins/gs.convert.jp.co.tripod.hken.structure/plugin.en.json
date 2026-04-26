@@ -1,0 +1,132 @@
+{
+  "language": "en",
+  "plugin": "gs.convert.jp.co.tripod.hken.structure",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物総合コンバート Ken",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3AAB6C26-8C58-4C8C-GSS1-94478B392AE7}-Ags.group",
+      "source": "ガソリンスタンド",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AE1549EB-F7F9-433F-GSS2-1E2A913013FF}-Ags.group",
+      "source": "ガソリンスタンド",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{52B9BF4A-7AB7-4828-GSS3-249A1A149A24}-Ags.group",
+      "source": "ガソリンスタンド",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3AAB6C26-8C58-4C8C-GSS4-94478B392AE7}-Ags.group",
+      "source": "ガソリンスタンド",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{52B9BF4A-7AB7-4828-GSS5-249A1A149A24}-Ags.group",
+      "source": "ガソリンスタンド",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7EDDCD3E-C592-4692-CDR1-9603E8E6CF18}-Ags.name",
+      "source": "自動車販売会社",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7EDDCD3E-C592-4692-CDR1-9603E8E6CF18}-Ags.group",
+      "source": "自動車販売会社",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C193B660-3BFC-4F7C-BF2F-449BCED5AE9E}-Ags.name",
+      "source": "郵便局(小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C193B660-3BFC-4F7C-BF2F-449BCED5AE9E}-Ags.group",
+      "source": "郵便局",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3AAB6C26-8C58-4C8C-YUB2-94478B392AE7}-Ags.name",
+      "source": "郵便局大",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3AAB6C26-8C58-4C8C-YUB2-94478B392AE7}-Ags.group",
+      "source": "郵便局",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{568195AB-CEB3-42E9-CON2-5422C86D4DE9}-Ags.group",
+      "source": "コンビニ(他７種)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{EA3F5C47-D1EF-41A9-CON1-641E6CFEE22B}-Ags.group",
+      "source": "コンビニ(他７種)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{578195AB-CEB3-42E9-CON6-5422C86D4DC5}-Ags.group",
+      "source": "コンビニ(他７種)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{578195AB-CEB3-42E9-CON4-5422C86D4DC5}-Ags.group",
+      "source": "コンビニ(他７種)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{578195AB-CEB3-42E9-CON5-5422C86D4DC5}-Ags.group",
+      "source": "コンビニ(他７種)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{568195AB-CEB3-42E9-CON3-5422C86D4DC5}-Ags.group",
+      "source": "コンビニ(他７種)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{578195AB-CEB3-42E9-CON7-5422C86D4DC5}-Ags.group",
+      "source": "コンビニ(他７種)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3AAB6C26-8C58-4C8C-RES1-94478B392AE7}-Ags.name",
+      "source": "レストラン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3AAB6C26-8C58-4C8C-RES1-94478B392AE7}-Ags.group",
+      "source": "レストラン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3AAB6C26-8C58-4C8C-MES1-94478B392AE7}-Ags.group",
+      "source": "展示場ホール",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3AAB6C26-8C58-4C8C-MES1-94478B392AE7}-Cgs.group",
+      "source": "展示場ホール",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3AAB6C26-8C58-4C8C-MES1-94478B392AE7}-Egs.group",
+      "source": "展示場ホール",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3AAB6C26-8C58-4C8C-MES1-94478B392AE7}-Ggs.group",
+      "source": "展示場ホール",
+      "translation": ""
+    }
+  ]
+}

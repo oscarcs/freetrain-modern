@@ -1,0 +1,42 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.structure.factory",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "工場",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2A14C189-6FDF-49AB-C477-05E02E9BA3C7}-00.group",
+      "source": "工場屋舎",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2A14C189-6FDF-49AB-C477-05E02E9BA3C7}-01.group",
+      "source": "工場屋舎",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2A14C189-6FDF-49AB-C477-05E02E9BA3C7}-02.group",
+      "source": "工場屋舎",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C33F60C4-A1C6-4813-C477-4AE8D3B442D2}-00.group",
+      "source": "工場屋舎",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C33F60C4-A1C6-4813-C477-4AE8D3B442D2}-01.group",
+      "source": "工場屋舎",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C33F60C4-A1C6-4813-C477-4AE8D3B442D2}-02.group",
+      "source": "工場屋舎",
+      "translation": ""
+    }
+  ]
+}

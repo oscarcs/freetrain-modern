@@ -1,0 +1,42 @@
+{
+  "language": "en",
+  "plugin": "jp.co.hotmail.kitapoppoya.TX1000",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "つくばエクスプレス",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TX1000}.company",
+      "source": "つくばエクスプレス",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TX1000}.type",
+      "source": "TX1000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TX1000}.description",
+      "source": "2005年秋開業したつくばエクスプレス線用の通勤車両。秋葉原から守谷までの直流区間を走行する。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TX2000}.company",
+      "source": "つくばエクスプレス",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TX2000}.type",
+      "source": "TX2000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TX2000}.description",
+      "source": "2005年秋開業したつくばエクスプレス線用の近郊車両。つくばまで運行する交直流電車。",
+      "translation": ""
+    }
+  ]
+}

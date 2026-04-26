@@ -1,0 +1,72 @@
+{
+  "language": "en",
+  "plugin": "jp.co.hotmail.kitapoppoya.E721",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "E721系パック",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{669D5BDE-23F1-43BD-AC-B-E721}.name",
+      "source": "東北本線･常磐線など",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{669D5BDE-23F1-43BD-AC-B-E721}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{669D5BDE-23F1-43BD-AC-B-E721}.type",
+      "source": "E721系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{669D5BDE-23F1-43BD-AC-B-E721}.description",
+      "source": "旧式化した仙台地区の急行型車両置き換えのため製造された車両。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{669D5BDE-23F1-43BD-AC-B-E721500}.name",
+      "source": "仙台空港線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{669D5BDE-23F1-43BD-AC-B-E721500}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{669D5BDE-23F1-43BD-AC-B-E721500}.type",
+      "source": "E721系500番台",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{669D5BDE-23F1-43BD-AC-B-E721500}.description",
+      "source": "仙台空港線の開業に合わせて製造された車両。0番台に比べ空港アクセス鉄道としてのさまざまな改良が施されている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{669D5BDE-23F1-43BD-AC-B-SAT721}.name",
+      "source": "仙台空港線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{669D5BDE-23F1-43BD-AC-B-SAT721}.company",
+      "source": "仙台空港鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{669D5BDE-23F1-43BD-AC-B-SAT721}.type",
+      "source": "SAT721系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{669D5BDE-23F1-43BD-AC-B-SAT721}.description",
+      "source": "仙台空港線の開業に合わせて製造された車両。塗装以外はJRのE721系500番台とほぼ同仕様である。",
+      "translation": ""
+    }
+  ]
+}

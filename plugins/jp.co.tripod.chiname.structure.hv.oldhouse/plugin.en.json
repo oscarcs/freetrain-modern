@@ -1,0 +1,92 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.structure.hv.oldhouse",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "半ボクセル住宅",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A5AD425E-BE10-4470-C477-204D881878E5}-0.name",
+      "source": "切妻二階建てA",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A5AD425E-BE10-4470-C477-204D881878E5}-0.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A5AD425E-BE10-4470-C477-204D881878E5}-1.name",
+      "source": "切妻二階建てB",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A5AD425E-BE10-4470-C477-204D881878E5}-1.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A5AD425E-BE10-4470-C477-204D881878E5}-2.name",
+      "source": "切妻二階建てC",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A5AD425E-BE10-4470-C477-204D881878E5}-2.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A5AD425E-BE10-4470-C477-204D881878E5}-3.name",
+      "source": "切妻二階建てD",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A5AD425E-BE10-4470-C477-204D881878E5}-3.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A5AD425E-BE10-4470-C477-204D881878E5}-4.name",
+      "source": "切妻二階建てE",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A5AD425E-BE10-4470-C477-204D881878E5}-4.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A5AD425E-BE10-4470-C477-204D881878E5}-5.name",
+      "source": "切妻二階建てF",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A5AD425E-BE10-4470-C477-204D881878E5}-5.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A5AD425E-BE10-4470-C477-204D881878E5}-6.name",
+      "source": "切妻二階建てG",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A5AD425E-BE10-4470-C477-204D881878E5}-6.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A5AD425E-BE10-4470-C477-204D881878E5}-7.name",
+      "source": "切妻二階建てH",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A5AD425E-BE10-4470-C477-204D881878E5}-7.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    }
+  ]
+}

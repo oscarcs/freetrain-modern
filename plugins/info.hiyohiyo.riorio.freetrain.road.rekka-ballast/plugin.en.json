@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "info.hiyohiyo.riorio.freetrain.road.rekka-ballast",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "道路plugin線路バラスト",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-Road-ballast-silver}.name",
+      "source": "線路敷石/灰色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-Road-ballast-silver}.description",
+      "source": "線路敷石",
+      "translation": ""
+    }
+  ]
+}

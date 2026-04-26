@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "gs.convert.jp.big.ayase.freetrain.structure_patlabor",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物総合コンバート\u3000綾瀬ヒロ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-Patlabor01a}-gs.group",
+      "source": "特車２課棟",
+      "translation": ""
+    }
+  ]
+}

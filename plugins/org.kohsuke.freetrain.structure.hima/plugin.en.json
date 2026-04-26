@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.structure.hima",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物セット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3D8FA264-BE4A-4a4f-97E6-950779C89599}.group",
+      "source": "一戸建て",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8B0106A0-64A4-4680-B258-232B1A5E0B0E}.group",
+      "source": "一戸建て",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{982E924F-BA22-4ace-A71C-4523719A8444}.group",
+      "source": "一戸建て",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{F193C000-DFEB-4588-B658-D11CD80C39D5}.group",
+      "source": "一戸建て",
+      "translation": ""
+    }
+  ]
+}

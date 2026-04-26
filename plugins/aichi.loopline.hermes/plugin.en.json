@@ -1,0 +1,52 @@
+{
+  "language": "en",
+  "plugin": "aichi.loopline.hermes",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "愛環線車両詰め合わせ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD12200}.name",
+      "source": "愛知環状鉄道線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD12200}.company",
+      "source": "愛知環状鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD12200}.type",
+      "source": "2000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD12200}.description",
+      "source": "愛知環状鉄道線、通称「愛環」に2003年から導入された新型車両です。\nJR東海313系をベースに製造されました。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD10100}.name",
+      "source": "愛知環状鉄道線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD10100}.company",
+      "source": "愛知環状鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD10100}.type",
+      "source": "100系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD10100}.description",
+      "source": "愛知環状鉄道線、通称「愛環」に1988年の開業から導入された車両です。\n2005年の愛・地球博開催と同時に引退しました。",
+      "translation": ""
+    }
+  ]
+}

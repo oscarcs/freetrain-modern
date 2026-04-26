@@ -1,0 +1,12 @@
+{
+  "language": "en",
+  "plugin": "1703d.E233_keiyo",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "京葉線233系＋209系500番代",
+      "translation": ""
+    }
+  ]
+}

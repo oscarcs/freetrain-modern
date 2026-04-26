@@ -1,0 +1,12 @@
+{
+  "language": "en",
+  "plugin": "jp.geocities.freetrain_ft.mapCapture",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "マップキャプチャ",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "language": "en",
+  "plugin": "shikashika.freetrain.trains.jrk",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "列車(JR九州)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-LocalTrein-50}.name",
+      "source": "普通列車(50系)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-LocalTrein-50}.company",
+      "source": "JR九州",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-LocalTrein-50}.description",
+      "source": "液体式ディーゼル機関車DD51が牽引する、50系(オハ50、オハフ50)客車普通列車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-LocalTrein-50-12}.name",
+      "source": "普通列車(50系+12系)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-LocalTrein-50-12}.company",
+      "source": "JR九州",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-LocalTrein-50-12}.description",
+      "source": "液体式ディーゼル機関車DD51が牽引する、冷房化された50系1000番台(オハ50、オハフ50)と12系(スハフ12)の客車普通列車です。",
+      "translation": ""
+    }
+  ]
+}

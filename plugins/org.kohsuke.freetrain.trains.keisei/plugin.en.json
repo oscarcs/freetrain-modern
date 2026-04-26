@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.trains.keisei",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "京成電鉄車両セット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3700-keisei-iw200309301114}.name",
+      "source": "特急など",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3700-keisei-iw200309301114}.company",
+      "source": "京成電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3700-keisei-iw200309301114}.type",
+      "source": "3700形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3700-keisei-iw200309301114}.description",
+      "source": "特急などに活躍している電車です。",
+      "translation": ""
+    }
+  ]
+}

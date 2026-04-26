@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.trains.hanshin",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "contribution.{hs1000k-1001182341}.company",
+      "source": "阪神電気鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{hs1000k-1001182341}.type",
+      "source": "1000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{hs1000k-1001182341}.description",
+      "source": "近鉄奈良線との相互直通運転を前に、2006年から製造を開始した次世代急行用車両である。尼崎～奈良間では10両編成でも運転される。",
+      "translation": ""
+    }
+  ]
+}

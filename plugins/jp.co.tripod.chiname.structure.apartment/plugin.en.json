@@ -1,0 +1,52 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.structure.apartment",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "アパート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0916B378-8A3F-4DD3-C477-568137E44244}-00.group",
+      "source": "低層アパート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0916B378-8A3F-4DD3-C477-568137E44244}-04.group",
+      "source": "低層アパート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0916B378-8A3F-4DD3-C477-568137E44244}-08.group",
+      "source": "低層アパート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0916B378-8A3F-4DD3-C477-568137E44244}-12.group",
+      "source": "低層アパート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0916B378-8A3F-4DD3-C477-568137E44244}-20.group",
+      "source": "60年代アパート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0916B378-8A3F-4DD3-C477-568137E44244}-24.group",
+      "source": "60年代アパート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0916B378-8A3F-4DD3-C477-568137E44244}-28.group",
+      "source": "60年代アパート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0916B378-8A3F-4DD3-C477-568137E44244}-32.group",
+      "source": "60年代アパート",
+      "translation": ""
+    }
+  ]
+}

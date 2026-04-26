@@ -1,0 +1,117 @@
+{
+  "language": "en",
+  "plugin": "suzukams.jp.ne.aaacafe.f2.roadaccessory",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "HIMA道路アクセサリ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0405292252}qw354361.name",
+      "source": "バス停赤屋無A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0405292252}qw354362.name",
+      "source": "バス停赤屋無B",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0405292252}qw354363.name",
+      "source": "バス停赤屋無C",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0405292252}qw354365.name",
+      "source": "バス停青屋無A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0405292252}qw3543562.name",
+      "source": "バス停青屋無B",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0405292252}qw3543563.name",
+      "source": "バス停青屋無C",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0405292252}fdgj354365.name",
+      "source": "バス停緑屋無A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0405292252}stj3543562.name",
+      "source": "バス停緑屋無B",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0405292252}3yt3543563.name",
+      "source": "バス停緑屋無C",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0405300000}qw3453565.name",
+      "source": "バス停赤屋有A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0405300000}qw7848562.name",
+      "source": "バス停赤屋有B",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0405300000}qw1734563.name",
+      "source": "バス停赤屋有C",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0405300000}qw3564565.name",
+      "source": "バス停青屋有A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0405300000}qw789662.name",
+      "source": "バス停青屋有B",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0405300000}qw153563.name",
+      "source": "バス停青屋有C",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0405300000}rtj3564565.name",
+      "source": "バス停緑屋有A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0405300000}hgk789662.name",
+      "source": "バス停緑屋有B",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0405300000}te1545163.name",
+      "source": "バス停緑屋有C",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0405300059}sshf513.name",
+      "source": "屋根01A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0405300059}sshf51533.name",
+      "source": "屋根01B",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0405300120}sshf48653.name",
+      "source": "屋根02",
+      "translation": ""
+    }
+  ]
+}

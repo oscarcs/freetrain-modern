@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "plugin": "jp.co.infoseek.hp.efa-typoon.builtb",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物セット1号館・拡張セット用",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-Military-Rader1B-7567171D3CEF}.name",
+      "source": "レーダー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-Military-Rader2B-7567171D3CEF}.name",
+      "source": "レーダー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-Military-Rader3C-7567171D3CEF}.name",
+      "source": "レーダー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-Military-F-15DJ2B-7567171D3CEF}.name",
+      "source": "戦闘機",
+      "translation": ""
+    }
+  ]
+}

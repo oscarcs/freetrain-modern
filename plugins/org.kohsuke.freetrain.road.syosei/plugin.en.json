@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.road.syosei",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FAF0E7F9-3BCA-49B4-9F80-D0216B2D136A}.name",
+      "source": "一車線道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FAF0E7F9-3BCA-49B4-9F80-D0216B2D136A}.description",
+      "source": "一車線の道路",
+      "translation": ""
+    }
+  ]
+}

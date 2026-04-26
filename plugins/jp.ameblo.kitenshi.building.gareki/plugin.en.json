@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "jp.ameblo.kitenshi.building.gareki",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "瓦礫",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B985E561-5E47-4FCE-8F0C-17DA82C3470C}.group",
+      "source": "瓦礫",
+      "translation": ""
+    }
+  ]
+}

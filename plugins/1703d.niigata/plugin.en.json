@@ -1,0 +1,202 @@
+{
+  "language": "en",
+  "plugin": "1703d.niigata",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "新潟車両セット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha40n}.name",
+      "source": "新潟色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha40n}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha40n}.type",
+      "source": "キハ40形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha40n}.description",
+      "source": "磐越西線や羽越本線、米坂線を走るキハ40系列です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha40n2}.name",
+      "source": "新 新潟色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha40n2}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha40n2}.type",
+      "source": "キハ40形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha40n2}.description",
+      "source": "磐越西線や羽越本線、米坂線を走るキハ40系列です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha52n}.name",
+      "source": "新潟色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha52n}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha52n}.type",
+      "source": "キハ52形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha52n}.description",
+      "source": "磐越西線や羽越本線、米坂線を走るキハ52形です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha52k}.name",
+      "source": "国鉄色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha52k}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha52k}.type",
+      "source": "キハ52形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha52k}.description",
+      "source": "磐越西線や羽越本線、米坂線を走るキハ52形です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-niigata-kiha}.name",
+      "source": "新潟色混結",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-niigata-kiha}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-niigata-kiha}.type",
+      "source": "キハ40形・キハ52形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-niigata-kiha}.description",
+      "source": "5両まで可能。磐越西線や羽越本線、米坂線を走る車両です。雑多な混結が日常的に行われています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-banetu}.name",
+      "source": "SLばんえつ物語号",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-banetu}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-banetu}.description",
+      "source": "10両まで可能。機関車はしかしか氏のものを流用させて頂きました。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-banetu2}.name",
+      "source": "SLばんえつ物語号(旧塗装)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-banetu2}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-banetu2}.description",
+      "source": "10両まで可能。機関車はしかしか氏のものを流用させて頂きました。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-115niigataold}.name",
+      "source": "新潟色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-115niigataold}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-115niigataold}.type",
+      "source": "115系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-115niigataold}.description",
+      "source": "新潟県内で走っている115系です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-115niigatanew}.name",
+      "source": "新 新潟色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-115niigatanew}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-115niigatanew}.type",
+      "source": "115系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-115niigatanew}.description",
+      "source": "数年前に色を塗り替えられて新潟県内で走っている115系です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-115niigata}.name",
+      "source": "115系新潟色混結",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-115niigata}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-115niigata}.type",
+      "source": "115系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-115niigata}.description",
+      "source": "新潟色混結。7両まで編成可能。",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "language": "en",
+  "plugin": "jp.co.hotmail.kitapoppoya.E233",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "E233系パック",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-E233CHUO}.name",
+      "source": "中央･総武快速線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-E233CHUO}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-E233CHUO}.type",
+      "source": "E233系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-E233CHUO}.description",
+      "source": "201系置き換えのため登場した新形式。E231系で習得した新機軸が導入されている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-E233KEHINTOHOKU}.name",
+      "source": "京浜東北線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-E233KEHINTOHOKU}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-E233KEHINTOHOKU}.type",
+      "source": "E233系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-E233KEHINTOHOKU}.description",
+      "source": "209系置き換えのため登場した新形式。E231系で習得した新機軸が導入されている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-E233JOBAN}.name",
+      "source": "常磐緩行･千代田線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-E233JOBAN}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-E233JOBAN}.type",
+      "source": "E233系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-E233JOBAN}.description",
+      "source": "203系置き換えのため登場した新形式。胴体はE231系800番台や209系1000番台と同様一般形である。",
+      "translation": ""
+    }
+  ]
+}

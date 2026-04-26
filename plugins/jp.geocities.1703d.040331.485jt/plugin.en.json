@@ -1,0 +1,152 @@
+{
+  "language": "en",
+  "plugin": "jp.geocities.1703d.040331.485jt",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "ＪＲ東日本485系改造ジョイフルトレイン車両プラグインセット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040331-485uetsu}.name",
+      "source": "きらきらうえつ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040331-485uetsu}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040331-485uetsu}.type",
+      "source": "485系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040331-485uetsu}.description",
+      "source": "羽越線方面を訪れる観光客用として2001年11月に登場した。\n車両は485系特急形電車を改造した4両編成で、先頭車は展望車、2号車はラウンジ車で、茶屋と和風ラウンジスペースが設けられている。\nまた、改造に合わせてバリアフリーに対応した設備に変更した。主に新潟～酒田間で、週末を中心に運転されている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040331-485nnanohana}.name",
+      "source": "ニューなのはな",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040331-485nnanohana}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040331-485nnanohana}.type",
+      "source": "485系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040331-485nnanohana}.description",
+      "source": "房総方面へ訪れる観光客用として1998年に登場した。車両は485系特急形電車を改造した6両編成。\n座席は、掘りごたつ付きのお座敷にも4人がけボックスシートにも変更可能な構造となっている。\n千葉県内からの団体列車や、臨時の特急列車等に使用されている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040331-485yamanami}.name",
+      "source": "やまなみ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040331-485yamanami}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040331-485yamanami}.type",
+      "source": "485系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040331-485yamanami}.description",
+      "source": "群馬県方面へ訪れる観光客用として1999年に登場した。\n車両は485系特急形電車を改造した4両編成で、掘りごたつ付きのお座敷車両である。\n「せせらぎ」と共に、群馬県内からの団体列車や高崎線・上越線の臨時快速列車として使用されている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040331-485seseragi}.name",
+      "source": "せせらぎ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040331-485seseragi}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040331-485seseragi}.type",
+      "source": "485系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040331-485seseragi}.description",
+      "source": "群馬県方面へ訪れる観光客用として2001年に登場した。\n車両は485系特急形電車を改造した4両編成で「やまなみ」とほぼ同じ構造の掘りごたつ付きお座敷車両である。\n「やまなみ」と共に、群馬県内からの団体列車や高崎線・上越線の臨時快速列車として使用されている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040331-485yamasese}.name",
+      "source": "やまなみ＋せせらぎ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040331-485yamasese}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040331-485yamasese}.type",
+      "source": "485系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040331-485yamasese}.description",
+      "source": "※8両編成のみです。\nそれぞれ4両編成の「やまなみ」「せせらぎ」を併結し、8両編成の「やまなみ・せせらぎ号」として団体列車や臨時快速列車として使用する事もある。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040331-485utage}.name",
+      "source": "宴",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040331-485utage}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040331-485utage}.type",
+      "source": "485系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040331-485utage}.description",
+      "source": "1994年に登場したジョイフルトレイン。\n車両は485系特急形電車を改造した6両編成の掘りごたつ付きお座敷車両である。\nほとんど全ての電化区間の他、ディーゼル機関車と併結して非電化区間も走る事ができる。\n「華」と共に東京、神奈川、山梨方面での団体列車や、東海道線や中央線で臨時快速列車として使用されている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040331-485hana}.name",
+      "source": "華",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040331-485hana}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040331-485hana}.type",
+      "source": "485系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040331-485hana}.description",
+      "source": "1996年に登場したジョイフルトレイン。\n車両は485系特急形電車を改造した6両編成の掘りごたつ付きお座敷車両である。\nほとんど全ての電化区間の他、ディーゼル機関車と併結して非電化区間も走る事ができる。\n「宴」と共に、東京、神奈川、山梨方面で団体列車や、東海道線や中央線で臨時快速列車として使用されている。",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,1347 @@
+{
+  "language": "en",
+  "plugin": "shikashika.freetrain.trains.jrf",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "列車(JR貨物)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-Freight-Container-JR}.name",
+      "source": "コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-Freight-Container-JR}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-Freight-Container-JR}.description",
+      "source": "高速貨車用大型電気機関車EF66が牽引する、コンテナ貨物列車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-Freight-Container-JR-mani30}.name",
+      "source": "コンテナ貨物列車(現金輸送)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-Freight-Container-JR-mani30}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-Freight-Container-JR-mani30}.description",
+      "source": "高速貨車用大型電気機関車EF66が牽引する、コンテナ貨物列車です。現金輸送用荷物車マニ30も牽引しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-B-Freight-Container-JR}.name",
+      "source": "コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-B-Freight-Container-JR}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-B-Freight-Container-JR}.description",
+      "source": "電気機関車EF58(一般色)が牽引する、コンテナ貨物列車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-B-Freight-Container-JR-mani30}.name",
+      "source": "コンテナ貨物列車(現金輸送)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-B-Freight-Container-JR-mani30}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-B-Freight-Container-JR-mani30}.description",
+      "source": "電気機関車EF58(一般色)が牽引する、コンテナ貨物列車です。現金輸送用荷物車マニ30も牽引しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-0-Freight-Container-koki100-JRF}.name",
+      "source": "コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-0-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-0-Freight-Container-koki100-JRF}.description",
+      "source": "交流用電気機関車ED75が牽引する、コンテナ貨物列車です。コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-0-Freight-Tank-kaki43000}.name",
+      "source": "タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-0-Freight-Tank-kaki43000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-0-Freight-Tank-kaki43000}.description",
+      "source": "交流用電気機関車ED75が牽引する、タンク貨物です。偶数で機関車が重連になっています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-0-Freight-m-toki250000}.name",
+      "source": "無蓋貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-0-Freight-m-toki250000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-0-Freight-m-toki250000}.description",
+      "source": "交流用電気機関車ED75が牽引する、無蓋貨車です。偶数で機関車が重連になっています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-700-Freight-Container-koki100-JRF}.name",
+      "source": "700番台 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-700-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-700-Freight-Container-koki100-JRF}.description",
+      "source": "交流用電気機関車ED75(700番台)が牽引する、コンテナ貨物列車です。コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-700-Freight-Tank-kaki43000}.name",
+      "source": "700番台 タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-700-Freight-Tank-kaki43000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-700-Freight-Tank-kaki43000}.description",
+      "source": "交流用電気機関車ED75(700番台)が牽引する、タンク貨物です。偶数で機関車が重連になっています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-700-Freight-m-toki250000}.name",
+      "source": "700番台 無蓋貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-700-Freight-m-toki250000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-700-Freight-m-toki250000}.description",
+      "source": "交流用電気機関車ED75(700番台)が牽引する、無蓋貨車です。偶数で機関車が重連になっています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-1000-Freight-Container-koki100-JRF}.name",
+      "source": "1000番台 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-1000-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-1000-Freight-Container-koki100-JRF}.description",
+      "source": "交流用電気機関車ED75(1000番台)が牽引する、コンテナ貨物列車です。コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-1000-Freight-Tank-kaki43000}.name",
+      "source": "1000番台 タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-1000-Freight-Tank-kaki43000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-1000-Freight-Tank-kaki43000}.description",
+      "source": "交流用電気機関車ED75(1000番台)が牽引する、タンク貨物です。偶数で機関車が重連になっています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-1000-Freight-m-toki250000}.name",
+      "source": "1000番台 無蓋貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-1000-Freight-m-toki250000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-1000-Freight-m-toki250000}.description",
+      "source": "交流用電気機関車ED75(1000番台)が牽引する、無蓋貨車です。偶数で機関車が重連になっています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-renew-Freight-Container-koki100-JRF}.name",
+      "source": "更新機 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-renew-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-renew-Freight-Container-koki100-JRF}.description",
+      "source": "交流用電気機関車ED75(JR貨物更新機)が牽引する、コンテナ貨物列車です。コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-renew-Freight-Tank-kaki43000}.name",
+      "source": "更新機 タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-renew-Freight-Tank-kaki43000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-renew-Freight-Tank-kaki43000}.description",
+      "source": "交流用電気機関車ED75(JR貨物更新機)が牽引する、タンク貨物です。偶数で機関車が重連になっています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-renew-Freight-m-toki250000}.name",
+      "source": "更新機 無蓋貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-renew-Freight-m-toki250000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-renew-Freight-m-toki250000}.description",
+      "source": "交流用電気機関車ED75(JR貨物更新機)が牽引する、無蓋貨車です。偶数で機関車が重連になっています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-1028-Freight-Container-koki100-JRF}.name",
+      "source": "1028号機 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-1028-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-1028-Freight-Container-koki100-JRF}.description",
+      "source": "交流用電気機関車ED75(1028号機)が牽引する、コンテナ貨物列車です。コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-1028-Freight-Tank-kaki43000}.name",
+      "source": "1028号機 タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-1028-Freight-Tank-kaki43000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-1028-Freight-Tank-kaki43000}.description",
+      "source": "交流用電気機関車ED75(1028号機)が牽引する、タンク貨物です。偶数で機関車が重連になっています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-1028-Freight-m-toki250000}.name",
+      "source": "1028号機 無蓋貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-1028-Freight-m-toki250000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-1028-Freight-m-toki250000}.description",
+      "source": "交流用電気機関車ED75(1028号機)が牽引する、無蓋貨車です。偶数で機関車が重連になっています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-panda-Freight-Container-koki100-JRF}.name",
+      "source": "試験塗色 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-panda-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-panda-Freight-Container-koki100-JRF}.description",
+      "source": "交流用電気機関車ED75(JR貨物試験塗色)が牽引する、コンテナ貨物列車です。コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-panda-Freight-Tank-kaki43000}.name",
+      "source": "試験塗色 タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-panda-Freight-Tank-kaki43000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-panda-Freight-Tank-kaki43000}.description",
+      "source": "交流用電気機関車ED75(JR貨物試験塗色)が牽引する、タンク貨物です。偶数で機関車が重連になっています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-panda-Freight-m-toki250000}.name",
+      "source": "試験塗色 無蓋貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-panda-Freight-m-toki250000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-panda-Freight-m-toki250000}.description",
+      "source": "交流用電気機関車ED75(JR貨物試験塗色)が牽引する、無蓋貨車です。偶数で機関車が重連になっています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED79-0-Freight-Container-koki100-JRF}.name",
+      "source": "0番台 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED79-0-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED79-0-Freight-Container-koki100-JRF}.description",
+      "source": "津軽海峡線用の交流用電気機関車ED79重連(0番台と100番台)が牽引する、コンテナ貨物列車です。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED79-0-Freight-Tank-kaki43000}.name",
+      "source": "0番台 タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED79-0-Freight-Tank-kaki43000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED79-0-Freight-Tank-kaki43000}.description",
+      "source": "津軽海峡線用の交流用電気機関車ED79重連(0番台と100番台)が牽引する、タンク貨物です。偶数で機関車が重連になっています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED79-0-Freight-m-toki250000}.name",
+      "source": "0番台 無蓋貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED79-0-Freight-m-toki250000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED79-0-Freight-m-toki250000}.description",
+      "source": "津軽海峡線用の交流用電気機関車ED79重連(0番台と100番台)が牽引する、無蓋貨車です。偶数で機関車が重連になっています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED79-50-Freight-Container-koki100-JRF}.name",
+      "source": "50番台 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED79-50-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED79-50-Freight-Container-koki100-JRF}.description",
+      "source": "津軽海峡線用の交流用電気機関車ED79(50番台)が牽引する、コンテナ貨物列車です。コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED79-50-Freight-Tank-kaki43000}.name",
+      "source": "50番台 タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED79-50-Freight-Tank-kaki43000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED79-50-Freight-Tank-kaki43000}.description",
+      "source": "津軽海峡線用の交流用電気機関車ED79(50番台)が牽引する、タンク貨物です。偶数で機関車が重連になっています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED79-50-Freight-m-toki250000}.name",
+      "source": "50番台 無蓋貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED79-50-Freight-m-toki250000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED79-50-Freight-m-toki250000}.description",
+      "source": "津軽海峡線用の交流用電気機関車ED79(50番台)が牽引する、無蓋貨車です。偶数で機関車が重連になっています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-renew-Freight-Container-koki100-JRF}.name",
+      "source": "更新車 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-renew-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-renew-Freight-Container-koki100-JRF}.description",
+      "source": "交直両用電気機関車EF81(JR貨物更新機)が牽引する、コンテナ貨物列車です。コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-renew-Freight-Tank-kaki43000}.name",
+      "source": "更新車 タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-renew-Freight-Tank-kaki43000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-renew-Freight-Tank-kaki43000}.description",
+      "source": "交直両用電気機関車EF81(JR貨物更新機)が牽引する、タンク貨物です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-renew-Freight-m-toki250000}.name",
+      "source": "更新車 無蓋貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-renew-Freight-m-toki250000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-renew-Freight-m-toki250000}.description",
+      "source": "交直両用電気機関車EF81(JR貨物更新機)が牽引する、無蓋貨車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-301p-renew-Freight-Container-koki100-JRF}.name",
+      "source": "301号機 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-301p-renew-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-301p-renew-Freight-Container-koki100-JRF}.description",
+      "source": "交直両用電気機関車EF81(301号機ステンレス赤13号塗装JR貨物更新機)が牽引する、コンテナ貨物列車です。コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-301p-renew-Freight-Tank-kaki43000}.name",
+      "source": "301号機 タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-301p-renew-Freight-Tank-kaki43000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-301p-renew-Freight-Tank-kaki43000}.description",
+      "source": "交直両用電気機関車EF81(301号機ステンレス赤13号塗装JR貨物更新機)が牽引する、タンク貨物です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-301p-renew-Freight-m-toki250000}.name",
+      "source": "301号機 無蓋貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-301p-renew-Freight-m-toki250000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-301p-renew-Freight-m-toki250000}.description",
+      "source": "交直両用電気機関車EF81(301号機ステンレス赤13号塗装JR貨物更新機)が牽引する、無蓋貨車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-304s-renew-Freight-Container-koki100-JRF}.name",
+      "source": "304号機 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-304s-renew-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-304s-renew-Freight-Container-koki100-JRF}.description",
+      "source": "交直両用電気機関車EF81(304号機ステンレス無塗装JR貨物更新機)が牽引する、コンテナ貨物列車です。コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-304s-renew-Freight-Tank-kaki43000}.name",
+      "source": "304号機 タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-304s-renew-Freight-Tank-kaki43000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-304s-renew-Freight-Tank-kaki43000}.description",
+      "source": "交直両用電気機関車EF81(304号機ステンレス無塗装JR貨物更新機)が牽引する、タンク貨物です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-304s-renew-Freight-m-toki250000}.name",
+      "source": "304号機 無蓋貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-304s-renew-Freight-m-toki250000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-304s-renew-Freight-m-toki250000}.description",
+      "source": "交直両用電気機関車EF81(304号機ステンレス無塗装JR貨物更新機)が牽引する、無蓋貨車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-400-renew-Freight-Container-koki100-JRF}.name",
+      "source": "400番台 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-400-renew-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-400-renew-Freight-Container-koki100-JRF}.description",
+      "source": "交直両用電気機関車EF81(400番台JR貨物更新機)が牽引する、コンテナ貨物列車です。コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-400-renew-Freight-Tank-kaki43000}.name",
+      "source": "400番台 タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-400-renew-Freight-Tank-kaki43000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-400-renew-Freight-Tank-kaki43000}.description",
+      "source": "交直両用電気機関車EF81(400番台JR貨物更新機)が牽引する、タンク貨物です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-400-renew-Freight-m-toki250000}.name",
+      "source": "400番台 無蓋貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-400-renew-Freight-m-toki250000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-400-renew-Freight-m-toki250000}.description",
+      "source": "交直両用電気機関車EF81(400番台JR貨物更新機)が牽引する、無蓋貨車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-408-test-Freight-Container-koki100-JRF}.name",
+      "source": "408号機 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-408-test-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-408-test-Freight-Container-koki100-JRF}.description",
+      "source": "交直両用電気機関車EF81(408号機試験塗色)が牽引する、コンテナ貨物列車です。コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-408-test-Freight-Tank-kaki43000}.name",
+      "source": "408号機 タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-408-test-Freight-Tank-kaki43000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-408-test-Freight-Tank-kaki43000}.description",
+      "source": "交直両用電気機関車EF81(408号機試験塗色)が牽引する、タンク貨物です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-408-test-Freight-m-toki250000}.name",
+      "source": "408号機 無蓋貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-408-test-Freight-m-toki250000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-408-test-Freight-m-toki250000}.description",
+      "source": "交直両用電気機関車EF81(408号機試験塗色)が牽引する、無蓋貨車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-451-Freight-Container-koki100-JRF}.name",
+      "source": "451号機 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-451-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-451-Freight-Container-koki100-JRF}.description",
+      "source": "交直両用電気機関車EF81(451号機)が牽引する、コンテナ貨物列車です。451、452号機は他のEF81と違ってヘッドライトが下にあります。コンテナ車はコキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-451-Freight-Tank-kaki43000}.name",
+      "source": "451号機 タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-451-Freight-Tank-kaki43000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-451-Freight-Tank-kaki43000}.description",
+      "source": "交直両用電気機関車EF81(451号機)が牽引する、タンク貨物です。451、452号機は他のEF81と違ってヘッドライトが下にあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-451-Freight-m-toki250000}.name",
+      "source": "451号機 無蓋貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-451-Freight-m-toki250000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-451-Freight-m-toki250000}.description",
+      "source": "交直両用電気機関車EF81(451号機)が牽引する、無蓋貨車です。451、452号機は他のEF81と違ってヘッドライトが下にあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-453-Freight-Container-koki100-JRF}.name",
+      "source": "450番台 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-453-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-453-Freight-Container-koki100-JRF}.description",
+      "source": "交直両用電気機関車EF81(450番台)が牽引する、コンテナ貨物列車です。コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-453-Freight-Tank-kaki43000}.name",
+      "source": "450番台 タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-453-Freight-Tank-kaki43000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-453-Freight-Tank-kaki43000}.description",
+      "source": "交直両用電気機関車EF81(450番台)が牽引する、タンク貨物です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-453-Freight-m-toki250000}.name",
+      "source": "450番台 無蓋貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-453-Freight-m-toki250000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-453-Freight-m-toki250000}.description",
+      "source": "交直両用電気機関車EF81(450番台)が牽引する、無蓋貨車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-500-Freight-Container-koki100-JRF}.name",
+      "source": "500番台 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-500-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-500-Freight-Container-koki100-JRF}.description",
+      "source": "交直両用電気機関車EF81(500番台)が牽引する、コンテナ貨物列車です。コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-500-Freight-Tank-kaki43000}.name",
+      "source": "500番台 タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-500-Freight-Tank-kaki43000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-500-Freight-Tank-kaki43000}.description",
+      "source": "交直両用電気機関車EF81(500番台)が牽引する、タンク貨物です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-500-Freight-m-toki250000}.name",
+      "source": "500番台 無蓋貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-500-Freight-m-toki250000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-500-Freight-m-toki250000}.description",
+      "source": "交直両用電気機関車EF81(500番台)が牽引する、無蓋貨車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-p-Freight-Container-koki100-JRF}.name",
+      "source": "赤13号 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-p-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-p-Freight-Container-koki100-JRF}.description",
+      "source": "交直両用電気機関車EF81(赤13号塗色)が牽引する、コンテナ貨物列車です。コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-p-Freight-Tank-kaki43000}.name",
+      "source": "赤13号 タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-p-Freight-Tank-kaki43000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-p-Freight-Tank-kaki43000}.description",
+      "source": "交直両用電気機関車EF81(赤13号塗色)が牽引する、タンク貨物です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-p-Freight-m-toki250000}.name",
+      "source": "赤13号 無蓋貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-p-Freight-m-toki250000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-p-Freight-m-toki250000}.description",
+      "source": "交直両用電気機関車EF81(赤13号塗色)が牽引する、無蓋貨車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-r-Freight-Container-koki100-JRF}.name",
+      "source": "赤2号 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-r-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-r-Freight-Container-koki100-JRF}.description",
+      "source": "交直両用電気機関車EF81(赤2号塗色)が牽引する、コンテナ貨物列車です。コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-r-Freight-Tank-kaki43000}.name",
+      "source": "赤2号 タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-r-Freight-Tank-kaki43000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-r-Freight-Tank-kaki43000}.description",
+      "source": "交直両用電気機関車EF81(赤2号塗色)が牽引する、タンク貨物です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-r-Freight-m-toki250000}.name",
+      "source": "赤2号 無蓋貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-r-Freight-m-toki250000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-r-Freight-m-toki250000}.description",
+      "source": "交直両用電気機関車EF81(赤2号塗色)が牽引する、無蓋貨車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-hokuto-Freight-Container-koki100-JRF}.name",
+      "source": "北斗星 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-hokuto-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-hokuto-Freight-Container-koki100-JRF}.description",
+      "source": "交直両用電気機関車EF81(北斗星塗装)が牽引する、コンテナ貨物列車です。コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-hokuto-Freight-Tank-kaki43000}.name",
+      "source": "北斗星 タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-hokuto-Freight-Tank-kaki43000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-hokuto-Freight-Tank-kaki43000}.description",
+      "source": "交直両用電気機関車EF81(北斗星塗装)が牽引する、タンク貨物です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-hokuto-Freight-m-toki250000}.name",
+      "source": "北斗星 無蓋貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-hokuto-Freight-m-toki250000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-hokuto-Freight-m-toki250000}.description",
+      "source": "交直両用電気機関車EF81(北斗星塗装)が牽引する、無蓋貨車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-rainbow-Freight-Container-koki100-JRF}.name",
+      "source": "レインボー コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-rainbow-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-rainbow-Freight-Container-koki100-JRF}.description",
+      "source": "交直両用電気機関車EF81-95号機(スーパー・エクスプレス・レインボー塗装)が牽引する、コンテナ貨物列車です。コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-rainbow-Freight-Tank-kaki43000}.name",
+      "source": "レインボー タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-rainbow-Freight-Tank-kaki43000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-rainbow-Freight-Tank-kaki43000}.description",
+      "source": "交直両用電気機関車EF81-95号機(スーパー・エクスプレス・レインボー塗装)が牽引する、タンク貨物です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-rainbow-Freight-m-toki250000}.name",
+      "source": "レインボー 無蓋貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-rainbow-Freight-m-toki250000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-rainbow-Freight-m-toki250000}.description",
+      "source": "交直両用電気機関車EF81-95号機(スーパー・エクスプレス・レインボー塗装)が牽引する、無蓋貨車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF200-Freight-Container-koki100-JRF}.name",
+      "source": "コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF200-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF200-Freight-Container-koki100-JRF}.description",
+      "source": "6000kWという狭軌で世界一の出力を誇る貨物用直流電気機関車EF200が牽引する、コンテナ貨物列車です。あまりに出力が大きいので変電所の能力が追いつかないとか…。コンテナ車の方は、コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF200-Freight-big-shiki1000}.name",
+      "source": "大物貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF200-Freight-big-shiki1000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF200-Freight-big-shiki1000}.description",
+      "source": "6000kWという狭軌で世界一の出力を誇る貨物用直流電気機関車EF200が牽引する、大物貨物列車です。あまりに出力が大きいので変電所の能力が追いつかないとか…。大物車はシキ1000で、2両分で1両となっています。最後尾に車掌車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF210-000-Freight-Container-koki100-JRF}.name",
+      "source": "-0番台 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF210-000-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF210-000-Freight-Container-koki100-JRF}.description",
+      "source": "「ECO-POWER桃太郎」の愛称をもつ貨物用直流電気機関車EF210(0番台)が牽引する、コンテナ貨物列車です。コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF210-100-Freight-Container-koki100-JRF}.name",
+      "source": "-100番台 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF210-100-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF210-100-Freight-Container-koki100-JRF}.description",
+      "source": "「ECO-POWER桃太郎」の愛称をもつ貨物用直流電気機関車EF210(100番台)が牽引する、コンテナ貨物列車です。コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF210-100-sa-Freight-Container-koki100-JRF}.name",
+      "source": "シングルアームパンタグラフ コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF210-100-sa-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF210-100-sa-Freight-Container-koki100-JRF}.description",
+      "source": "「ECO-POWER桃太郎」の愛称をもつ貨物用直流電気機関車EF210(シングルアームパンタグラフタイプ)が牽引する、コンテナ貨物列車です。コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH500-901-2-Freight-Container-koki100-JRF}.name",
+      "source": "*2-901号機 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH500-901-2-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH500-901-2-Freight-Container-koki100-JRF}.description",
+      "source": "｢ECO-POWER金太郎」の愛称をもつ2車体永久連結･動軸8軸の交直流電気機関車EH500(901号機試作機)が牽引する、コンテナ貨物列車です。コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH500-001-2-Freight-Container-koki100-JRF}.name",
+      "source": "*2-1次 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH500-001-2-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH500-001-2-Freight-Container-koki100-JRF}.description",
+      "source": "｢ECO-POWER金太郎」の愛称をもつ2車体永久連結･動軸8軸の交直流電気機関車EH500(1次)が牽引する、コンテナ貨物列車です。コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH500-003-2-Freight-Container-koki100-JRF}.name",
+      "source": "*2-2次 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH500-003-2-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH500-003-2-Freight-Container-koki100-JRF}.description",
+      "source": "｢ECO-POWER金太郎」の愛称をもつ2車体永久連結･動軸8軸の交直流電気機関車EH500(2次)が牽引する、コンテナ貨物列車です。コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH500-010-2-Freight-Container-koki100-JRF}.name",
+      "source": "*2-3次 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH500-010-2-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH500-010-2-Freight-Container-koki100-JRF}.description",
+      "source": "｢ECO-POWER金太郎」の愛称をもつ2車体永久連結･動軸8軸の交直流電気機関車EH500(3次)が牽引する、コンテナ貨物列車です。コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH200-901-2-Freight-Container-koki100-JRF}.name",
+      "source": "*2-901号機 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH200-901-2-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH200-901-2-Freight-Container-koki100-JRF}.description",
+      "source": "｢ECO-POWER BlueThunder」の愛称をもつ2分割車体方式の8軸構造の直流電気機関車EH200(901号機試作機)です。EF64型機関車の後継車として急勾配線区用に開発され、試作機は2001年に東芝府中事業所で製造されました。コンテナ貨物列車で、コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH200-901-2-Freight-Tank-kaki43000}.name",
+      "source": "*2-901号機 タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH200-901-2-Freight-Tank-kaki43000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH200-901-2-Freight-Tank-kaki43000}.description",
+      "source": "｢ECO-POWER BlueThunder」の愛称をもつ2分割車体方式の8軸構造の直流電気機関車EH200(901号機試作機)です。EF64型機関車の後継車として急勾配線区用に開発され、試作機は2001年に東芝府中事業所で製造されました。タキ43000のタンク貨物列車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH200-001-2-Freight-Container-koki100-JRF}.name",
+      "source": "*2 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH200-001-2-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH200-001-2-Freight-Container-koki100-JRF}.description",
+      "source": "｢ECO-POWER BlueThunder」の愛称をもつ2分割車体方式の8軸構造の直流電気機関車EH200(量産型)です。EF64型機関車の後継車として急勾配線区用に開発され、2003年3月28日から量産型の製造が東芝府中事業所でされています。コンテナ貨物列車で、コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH200-001-2-Freight-Tank-kaki43000}.name",
+      "source": "*2 タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH200-001-2-Freight-Tank-kaki43000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH200-001-2-Freight-Tank-kaki43000}.description",
+      "source": "｢ECO-POWER BlueThunder」の愛称をもつ2分割車体方式の8軸構造の直流電気機関車EH200(量産型)です。EF64型機関車の後継車として急勾配線区用に開発され、2003年3月28日から量産型の製造が東芝府中事業所でされています。タキ43000のタンク貨物列車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-JRF-Freight-Container-koki100-JRF}.name",
+      "source": "更新機 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-JRF-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-JRF-Freight-Container-koki100-JRF}.description",
+      "source": "液体式ディーゼル機関車DD51(JR貨物更新機)が牽引する、コンテナ貨物列車です。コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-JRF-Freight-Tank-kaki43000}.name",
+      "source": "更新機 タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-JRF-Freight-Tank-kaki43000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-JRF-Freight-Tank-kaki43000}.description",
+      "source": "液体式ディーゼル機関車DD51(JR貨物更新機)が牽引する、タンク貨物です。偶数で機関車が重連になっています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-JRF-Freight-m-toki250000}.name",
+      "source": "更新機 無蓋貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-JRF-Freight-m-toki250000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-JRF-Freight-m-toki250000}.description",
+      "source": "液体式ディーゼル機関車DD51(JR貨物更新機)が牽引する、無蓋貨車です。偶数で機関車が重連になっています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-renew-Freight-Container-koki100-JRF}.name",
+      "source": "更新機(北海道仕様) コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-renew-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-renew-Freight-Container-koki100-JRF}.description",
+      "source": "液体式ディーゼル機関車DD51(JR貨物更新機北海道仕様)が牽引する、コンテナ貨物列車です。コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-renew-Freight-Tank-kaki43000}.name",
+      "source": "更新機(北海道仕様) タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-renew-Freight-Tank-kaki43000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-renew-Freight-Tank-kaki43000}.description",
+      "source": "液体式ディーゼル機関車DD51(JR貨物更新機北海道仕様)が牽引する、タンク貨物です。偶数で機関車が重連になっています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-renew-Freight-m-toki250000}.name",
+      "source": "更新機(北海道仕様) 無蓋貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-renew-Freight-m-toki250000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-renew-Freight-m-toki250000}.description",
+      "source": "液体式ディーゼル機関車DD51(JR貨物更新機北海道仕様)が牽引する、無蓋貨車です。偶数で機関車が重連になっています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-hokuto-Freight-Container-koki100-JRF}.name",
+      "source": "北斗星 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-hokuto-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-hokuto-Freight-Container-koki100-JRF}.description",
+      "source": "液体式ディーゼル機関車DD51(北斗星塗色)が牽引する、コンテナ貨物列車です。コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-hokuto-Freight-Tank-kaki43000}.name",
+      "source": "北斗星 タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-hokuto-Freight-Tank-kaki43000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-hokuto-Freight-Tank-kaki43000}.description",
+      "source": "液体式ディーゼル機関車DD51(北斗星塗色)が牽引する、タンク貨物です。偶数で機関車が重連になっています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-hokuto-Freight-m-toki250000}.name",
+      "source": "北斗星 無蓋貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-hokuto-Freight-m-toki250000}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-hokuto-Freight-m-toki250000}.description",
+      "source": "液体式ディーゼル機関車DD51(北斗星塗色)が牽引する、無蓋貨車です。偶数で機関車が重連になっています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DF200-901-Freight-Container-koki100-JRF}.name",
+      "source": "-901号機 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DF200-901-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DF200-901-Freight-Container-koki100-JRF}.description",
+      "source": "電気式ディーゼル機関車DF200(試作901号機)が牽引する、コンテナ貨物列車です。コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DF200-001-Freight-Container-koki100-JRF}.name",
+      "source": "-001号機 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DF200-001-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DF200-001-Freight-Container-koki100-JRF}.description",
+      "source": "電気式ディーゼル機関車DF200(1～9号機)が牽引する、コンテナ貨物列車です。コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DF200-010-Freight-Container-koki100-JRF}.name",
+      "source": "-010号機 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DF200-010-Freight-Container-koki100-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DF200-010-Freight-Container-koki100-JRF}.description",
+      "source": "電気式ディーゼル機関車DF200(10号機～)が牽引する、コンテナ貨物列車です。コキ100とコキ101が4両でユニットを組んでいます。また現金輸送用荷物車マニ30を牽引する組み合わせもあります。",
+      "translation": ""
+    }
+  ]
+}

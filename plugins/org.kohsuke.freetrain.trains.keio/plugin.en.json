@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.trains.keio",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "contribution.{2B3E6067-B2C3-43c5-BA0E-236DC69533CF}.company",
+      "source": "京王電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2B3E6067-B2C3-43c5-BA0E-236DC69533CF}.type",
+      "source": "通勤車タイプ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2B3E6067-B2C3-43c5-BA0E-236DC69533CF}.description",
+      "source": "京王電鉄の通勤型電車。",
+      "translation": ""
+    }
+  ]
+}

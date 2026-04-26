@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "jp.geocities.mogami00.ssa",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "ソエビトスタイルアパート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{mogami-building-SSA-C51CA251FBE8}.group",
+      "source": "ソエビトスタイルアパート",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.structure.plant.pipeline",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "プラントパイプライン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3B7AC01D-FB25-453B-C477-7FBD850FE893}.name",
+      "source": "パイプライン(青)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3B7AC01D-FB25-453B-C477-7FBD850FE893}.description",
+      "source": "ブルー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{F53F79E8-CCAA-40BD-C477-1F749B1D03B7}.name",
+      "source": "パイプライン(銀)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{F53F79E8-CCAA-40BD-C477-1F749B1D03B7}.description",
+      "source": "シルバー",
+      "translation": ""
+    }
+  ]
+}

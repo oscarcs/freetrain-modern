@@ -1,0 +1,42 @@
+{
+  "language": "en",
+  "plugin": "jp.geocities.mogami00.tankou",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "炭鉱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{14B295A3-7EC2-4265-842F-650B3F089A6A}-0.group",
+      "source": "炭鉱・事務所",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{14B295A3-7EC2-4265-842F-650B3F089A6A}-1.group",
+      "source": "炭坑・竪抗櫓",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{14B295A3-7EC2-4265-842F-650B3F089A6A}-2.group",
+      "source": "炭坑・ドルシックナー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{14B295A3-7EC2-4265-842F-650B3F089A6A}-3.group",
+      "source": "炭坑・ベルトコンベアー1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{14B295A3-7EC2-4265-842F-650B3F089A6A}-4.group",
+      "source": "炭坑・ベルトコンベアー2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{14B295A3-7EC2-4265-842F-650B3F089A6A}-5.group",
+      "source": "炭坑・倉庫諸施設",
+      "translation": ""
+    }
+  ]
+}

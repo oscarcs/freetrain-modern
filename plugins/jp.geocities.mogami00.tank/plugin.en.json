@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "jp.geocities.mogami00.tank",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "戦車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FE61055B-ACE7-4E6D-B10F-C73DDA698A2B}.group",
+      "source": "戦車",
+      "translation": ""
+    }
+  ]
+}

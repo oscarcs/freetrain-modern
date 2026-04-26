@@ -1,0 +1,152 @@
+{
+  "language": "en",
+  "plugin": "freetrain.trains.jnr.express",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "国鉄急行電車プラグイン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Freetrain-ytpe153-JNR-shounan-express}.name",
+      "source": "0番台サハシ付",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Freetrain-ytpe153-JNR-shounan-express}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Freetrain-ytpe153-JNR-shounan-express}.type",
+      "source": "153系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Freetrain-ytpe153-JNR-shounan-express}.description",
+      "source": "80系電車の置き換えとして平坦線区用に開発された。\n\t\t\t当初は準急用であったが、運用変更で準急が消えたため急行形に変更された。\n\t\t\t登場当時は低運転台であったが、踏み切り事故対策のため高運転台化された500番台が後に登場している。\n\t\t\t最盛期は国鉄初のビュッフェ付のサハシ153や163系として開発されたサロ163などを組み込んで大所帯となったが\n\t\t\t後継の165系などに順次置き換わったり老朽化などで昭和58年に全廃となった。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Freetrain-ytpe153-JNR-saro153-900-express}.name",
+      "source": "0番台(サロ153-900付)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Freetrain-ytpe153-JNR-saro153-900-express}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Freetrain-ytpe153-JNR-saro153-900-express}.type",
+      "source": "153系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Freetrain-ytpe153-JNR-saro153-900-express}.description",
+      "source": "ステンレス車体試験のために作られたサロ153-900付の編成。\n\t\t\t当時では非常に珍しかったステンレス車体だが、2両のみの製造に終わった。\n\t\t\t最終的には湘南色に塗られサロ110-900として113系に組み込まれた。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Freetrain-ytpe153-JNR-saro153-semi-express}.name",
+      "source": "0番台(サロ153)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Freetrain-ytpe153-JNR-saro153-semi-express}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Freetrain-ytpe153-JNR-saro153-semi-express}.type",
+      "source": "153系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Freetrain-ytpe153-JNR-saro153-semi-express}.description",
+      "source": "サロ153付の準急編成。\n\t\t\t最終的にはサロ110として113系に組み込まれた。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Freetrain-ytpe153-JNR-shounan-express-nosaro}.name",
+      "source": "0番台(サロなし)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Freetrain-ytpe153-JNR-shounan-express-nosaro}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Freetrain-ytpe153-JNR-shounan-express-nosaro}.type",
+      "source": "153系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Freetrain-ytpe153-JNR-shounan-express-nosaro}.description",
+      "source": "急行で活躍した153系も晩年は房総急行としてモノクラス・短編成化されました。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Freetrain-ytpe165-JNR-chouou-express}.name",
+      "source": "湘南色(モハ164-800番台)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Freetrain-ytpe165-JNR-chouou-express}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Freetrain-ytpe165-JNR-chouou-express}.type",
+      "source": "165系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Freetrain-ytpe165-JNR-chouou-express}.description",
+      "source": "153系の出力を上げ、山岳路線用に開発されました。最初は非冷房でしたが、後に冷房準備車や冷房試験車などが作られ順次冷房化されていきました。\n\t\t\tサハシ・サロ組み込みで中央線の急行アルプスに投入され、全国の直流区間の急行は165系になったがJR化以後は急行列車が削減されていき2003年で全車引退となった。\n\t\t\t\n\t\t\tパンタグラフ低屋根構造のモハ164-800番台の急行アルプスの編成です。4･5両編成はサロなし非冷房の急行富士川。\n\t\t\t7両編成は全冷房車・サロ2両の急行東海後期編成、8両編成は一部冷房車サロ2両の急行信州、11両編成は非冷房・サロ1両、サハシなし。12両はサロ2両・サハシあり一部冷房試作車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Freetrain-ytpe165-JNR-tokai-express}.name",
+      "source": "湘南色（東海道・山陽線）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Freetrain-ytpe165-JNR-tokai-express}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Freetrain-ytpe165-JNR-tokai-express}.type",
+      "source": "165系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Freetrain-ytpe165-JNR-tokai-express}.description",
+      "source": "モハ164-0番台を組み込んだ急行の編成です。\t\t\t\n\t\t\t7両編成は非冷房車の急行山陽編成、12両編成は1983年の急行東海の全冷房車編成となっています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Freetrain-ytpe165-JNR-shounan-express}.name",
+      "source": "湘南色(サロ・サハシなし)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Freetrain-ytpe165-JNR-shounan-express}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Freetrain-ytpe165-JNR-shounan-express}.type",
+      "source": "165系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Freetrain-ytpe165-JNR-shounan-express}.description",
+      "source": "冷房化されたモノクラスのモハ164（通常屋根タイプ）編成です。",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "jp.big.ayase.freetrain.rail.turntable",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "鉄道施設プラグイン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-TurnTable-1}.group",
+      "source": "転車台",
+      "translation": ""
+    }
+  ]
+}

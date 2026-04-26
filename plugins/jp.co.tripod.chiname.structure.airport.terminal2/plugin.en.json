@@ -1,0 +1,27 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.structure.airport.terminal2",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "空港ターミナルＢ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{DC4BD38D-FA51-4CDC-C477-9D6F5FFC8A34}.group",
+      "source": "空港国際線ターミナル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D73E9558-7685-4A09-C477-54902A0FAF7B}.group",
+      "source": "空港国際線ターミナル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{731CF80D-81C9-41B0-C477-E06FB565850D}.group",
+      "source": "空港搭乗口",
+      "translation": ""
+    }
+  ]
+}

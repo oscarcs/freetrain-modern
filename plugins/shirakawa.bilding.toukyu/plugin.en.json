@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "shirakawa.bilding.toukyu",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "取手とうきゅう",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{shirakawa-building-toridetoukyu-C7EC9E5936B7}.group",
+      "source": "取手とうきゅう",
+      "translation": ""
+    }
+  ]
+}

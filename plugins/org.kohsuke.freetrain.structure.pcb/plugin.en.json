@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.structure.pcb",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物セット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{72AF542C-3251-43ad-9094-43E6FDDE9420}.group",
+      "source": "立体駐車場",
+      "translation": ""
+    }
+  ]
+}

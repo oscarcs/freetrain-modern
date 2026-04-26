@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.stationary.hima",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "信号所",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{DF1FC459-80D0-4A83-8F6E-63255E7ACA17}.group",
+      "source": "信号所",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FCD0126A-4B66-48D4-824A-936EB06FC44B}.group",
+      "source": "信号所",
+      "translation": ""
+    }
+  ]
+}

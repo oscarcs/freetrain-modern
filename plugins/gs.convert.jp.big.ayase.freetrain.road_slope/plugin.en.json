@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "gs.convert.jp.big.ayase.freetrain.road_slope",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物総合コンバート\u3000綾瀬ヒロ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-SlopeN}-gs.group",
+      "source": "勾配道路(一般)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-Slope2N}-gs.group",
+      "source": "勾配道路(高速)",
+      "translation": ""
+    }
+  ]
+}

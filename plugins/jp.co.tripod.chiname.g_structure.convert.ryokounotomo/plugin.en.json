@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.g_structure.convert.ryokounotomo",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物セット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8361A9CC-DC1D-4432-8E21-7FB3564FA5CF}-gs.name",
+      "source": "分譲マンション(2x2)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9DEDC549-A1A8-4a14-A7A5-D18F388BE975}-gs.name",
+      "source": "公園",
+      "translation": ""
+    }
+  ]
+}

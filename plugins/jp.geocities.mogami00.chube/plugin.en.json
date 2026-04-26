@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "jp.geocities.mogami00.chube",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "ガラスチューブ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{mogami-katyusen-chube-B356FF43S5G}.name",
+      "source": "ガラスチューブ",
+      "translation": ""
+    }
+  ]
+}

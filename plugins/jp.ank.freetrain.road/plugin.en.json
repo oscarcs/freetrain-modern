@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "plugin": "jp.ank.freetrain.road",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "バラスト",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Amoon-Kisaragi-RoadImg-Siba3}.name",
+      "source": "バラスト(灰)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Amoon-Kisaragi-RoadImg-Siba3}.description",
+      "source": "バラスト(灰)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Amoon-Kisaragi-RoadImg-Siba2}.name",
+      "source": "バラスト(茶)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Amoon-Kisaragi-RoadImg-Siba2}.description",
+      "source": "バラスト(茶)",
+      "translation": ""
+    }
+  ]
+}

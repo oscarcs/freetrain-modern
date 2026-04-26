@@ -1,0 +1,182 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.lib.fence",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "柵",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CEA6341-70DA-4C06-C477-D67403CBD03E}.name",
+      "source": "削除",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CEA6341-70DA-4C06-C477-D67403CBD03E}.group",
+      "source": "柵",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3C004934-9F91-46C1-C477-CA3AD090FC3A}-0.name",
+      "source": "工事現場",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3C004934-9F91-46C1-C477-CA3AD090FC3A}-0.group",
+      "source": "柵",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3C004934-9F91-46C1-C477-CA3AD090FC3A}-1a.name",
+      "source": "柵",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3C004934-9F91-46C1-C477-CA3AD090FC3A}-1a.group",
+      "source": "柵",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3C004934-9F91-46C1-C477-CA3AD090FC3A}-1b.name",
+      "source": "柵",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3C004934-9F91-46C1-C477-CA3AD090FC3A}-1b.group",
+      "source": "柵",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3C004934-9F91-46C1-C477-CA3AD090FC3A}-2.name",
+      "source": "金網",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3C004934-9F91-46C1-C477-CA3AD090FC3A}-2.group",
+      "source": "柵",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3C004934-9F91-46C1-C477-CA3AD090FC3A}-3.name",
+      "source": "柵付き塀",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3C004934-9F91-46C1-C477-CA3AD090FC3A}-3.group",
+      "source": "柵",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3C004934-9F91-46C1-C477-CA3AD090FC3A}-4.name",
+      "source": "生垣(低)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3C004934-9F91-46C1-C477-CA3AD090FC3A}-4.group",
+      "source": "柵",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3C004934-9F91-46C1-C477-CA3AD090FC3A}-5.name",
+      "source": "生垣(高)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3C004934-9F91-46C1-C477-CA3AD090FC3A}-5.group",
+      "source": "柵",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3C004934-9F91-46C1-C477-CA3AD090FC3A}-6a.name",
+      "source": "コンクリ塀",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3C004934-9F91-46C1-C477-CA3AD090FC3A}-6a.group",
+      "source": "柵",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3C004934-9F91-46C1-C477-CA3AD090FC3A}-6b.name",
+      "source": "ブロック塀",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3C004934-9F91-46C1-C477-CA3AD090FC3A}-6b.group",
+      "source": "柵",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3C004934-9F91-46C1-C477-CA3AD090FC3A}-7.name",
+      "source": "レンガ塀",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3C004934-9F91-46C1-C477-CA3AD090FC3A}-7.group",
+      "source": "柵",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3C004934-9F91-46C1-C477-CA3AD090FC3A}-8.name",
+      "source": "植込",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3C004934-9F91-46C1-C477-CA3AD090FC3A}-8.group",
+      "source": "柵",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3C004934-9F91-46C1-C477-CA3AD090FC3A}-8a.name",
+      "source": "植込+金網",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3C004934-9F91-46C1-C477-CA3AD090FC3A}-8a.group",
+      "source": "柵",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3C004934-9F91-46C1-C477-CA3AD090FC3A}-8b.name",
+      "source": "植込+生垣",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3C004934-9F91-46C1-C477-CA3AD090FC3A}-8b.group",
+      "source": "柵",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3C004934-9F91-46C1-C477-CA3AD090FC3A}-8c.name",
+      "source": "植込+コンクリ塀",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3C004934-9F91-46C1-C477-CA3AD090FC3A}-8c.group",
+      "source": "柵",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3C004934-9F91-46C1-C477-CA3AD090FC3A}-8c2.name",
+      "source": "植込+ブロック塀",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3C004934-9F91-46C1-C477-CA3AD090FC3A}-8c2.group",
+      "source": "柵",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3C004934-9F91-46C1-C477-CA3AD090FC3A}-8d.name",
+      "source": "植込+レンガ塀",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3C004934-9F91-46C1-C477-CA3AD090FC3A}-8d.group",
+      "source": "柵",
+      "translation": ""
+    }
+  ]
+}

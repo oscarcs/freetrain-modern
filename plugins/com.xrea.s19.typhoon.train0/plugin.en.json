@@ -1,0 +1,67 @@
+{
+  "language": "en",
+  "plugin": "com.xrea.s19.typhoon.train0",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "車両セット\u30000号車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JNR-k55-HENSEI-7567171D3CEF}.name",
+      "source": "急行色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JNR-k55-HENSEI-7567171D3CEF}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JNR-k55-HENSEI-7567171D3CEF}.type",
+      "source": "キハ55系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JNR-k55-HENSEI-7567171D3CEF}.description",
+      "source": "8両まで編成可",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-NANKAI-k5501-HENSEI-7567171D3CEF}.company",
+      "source": "南海電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-NANKAI-k5501-HENSEI-7567171D3CEF}.type",
+      "source": "キハ5501系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-NANKAI-k5501-HENSEI-7567171D3CEF}.description",
+      "source": "南海電気鉄道が国鉄紀勢本線への乗り入れの為、国鉄キハ55を基に昭和34年に製造した気動車。準急きのくにとして走り、後に急行に格上げされました。昭和60年の国鉄ダイヤ改正で廃止となりキハ5501も引退しました。\n（8両まで編成可）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-NANKAI-KINOKUNI-HENSEI-7567171D3CEF}.name",
+      "source": "きのくに",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-NANKAI-KINOKUNI-HENSEI-7567171D3CEF}.company",
+      "source": "南海電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-NANKAI-KINOKUNI-HENSEI-7567171D3CEF}.type",
+      "source": "キハ5501系+キハ58系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-NANKAI-KINOKUNI-HENSEI-7567171D3CEF}.description",
+      "source": "（8両のみ編成可）",
+      "translation": ""
+    }
+  ]
+}

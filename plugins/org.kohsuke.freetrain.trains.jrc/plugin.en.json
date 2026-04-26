@@ -1,0 +1,207 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.trains.jrc",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "JR東海 車両キット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{311-tokai-200309291050}.name",
+      "source": "東海道本線快速",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{311-tokai-200309291050}.company",
+      "source": "JR東海",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{311-tokai-200309291050}.type",
+      "source": "311系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{311-tokai-200309291050}.description",
+      "source": "東海道本線などに使われている快速電車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7E7B6658-46A4-4e05-AFC3-8F24BE41100A}.name",
+      "source": "湘南色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7E7B6658-46A4-4e05-AFC3-8F24BE41100A}.company",
+      "source": "JR東海",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7E7B6658-46A4-4e05-AFC3-8F24BE41100A}.type",
+      "source": "165系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7E7B6658-46A4-4e05-AFC3-8F24BE41100A}.description",
+      "source": "急行型電車。現在この色での定期運用はないはず。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{222426E9-EFD9-4318-8291-2B3EBCA8AAC2}.name",
+      "source": "セントラルライナー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{222426E9-EFD9-4318-8291-2B3EBCA8AAC2}.company",
+      "source": "JR東海",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{222426E9-EFD9-4318-8291-2B3EBCA8AAC2}.type",
+      "source": "313系8000番台",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{222426E9-EFD9-4318-8291-2B3EBCA8AAC2}.description",
+      "source": "座席定員制の快速列車「セントラルライナー」用の車両。最高時速は120km/hだが、130km/hでも走行できる性能を持つ。間合いで各駅停車などに使用されることがある。3両編成または6両編成。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1E8B6EF2-78D6-496d-99B2-E761056C4EF2}.name",
+      "source": "500系のぞみ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1E8B6EF2-78D6-496d-99B2-E761056C4EF2}.company",
+      "source": "JR東海",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1E8B6EF2-78D6-496d-99B2-E761056C4EF2}.type",
+      "source": "500系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1E8B6EF2-78D6-496d-99B2-E761056C4EF2}.description",
+      "source": "1997年山陽新幹線でデビューし当時のフランス・TGVと並ぶ世界最高の300㎞／hでの営業運転を開始した\n先頭形状が従来新幹線より超ロングノーズになり、１５／２７ｍもの長さに達する。\n車体断面もよりチューブ化が進み、航空機を思わせる車体形状をしている。\n「グッドデザイン賞」、「1998年ブルーリボン賞」「1998年ブルネル賞奨励賞」を受賞。\n16両編成。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{05CB9ED5-D61A-4151-93DA-4E8964438AC2}.name",
+      "source": "のぞみ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{05CB9ED5-D61A-4151-93DA-4E8964438AC2}.company",
+      "source": "JR東海",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{05CB9ED5-D61A-4151-93DA-4E8964438AC2}.type",
+      "source": "500系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{05CB9ED5-D61A-4151-93DA-4E8964438AC2}.description",
+      "source": "山陽区間では最高速度300km/hで運転される、まさに超高速な列車。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{846EE27C-1B58-46b0-BBEB-D96F153DC750}.name",
+      "source": "のぞみ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{846EE27C-1B58-46b0-BBEB-D96F153DC750}.company",
+      "source": "JR東海",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{846EE27C-1B58-46b0-BBEB-D96F153DC750}.type",
+      "source": "700系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{846EE27C-1B58-46b0-BBEB-D96F153DC750}.description",
+      "source": "JR東海とJR西日本の共同開発による東海道・山陽新幹線用車両。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8106BB92-BC09-4279-A4A8-BEABE1070F6A}.company",
+      "source": "JR東海",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8106BB92-BC09-4279-A4A8-BEABE1070F6A}.type",
+      "source": "922系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8106BB92-BC09-4279-A4A8-BEABE1070F6A}.description",
+      "source": "東海道・山陽新幹線用のDr.Yellow",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{BAD1975C-42B0-4225-ACF2-800B433CD1C1}.name",
+      "source": "ひかり、こだま",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{BAD1975C-42B0-4225-ACF2-800B433CD1C1}.company",
+      "source": "JR東海",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{BAD1975C-42B0-4225-ACF2-800B433CD1C1}.type",
+      "source": "0系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{BAD1975C-42B0-4225-ACF2-800B433CD1C1}.description",
+      "source": "新幹線最初の東海道・山陽新幹線用車両",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2003-0211-KIGAMI-TrainImg-100}.name",
+      "source": "X編成 ひかり・こだま",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2003-0211-KIGAMI-TrainImg-100}.company",
+      "source": "JR東海",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2003-0211-KIGAMI-TrainImg-100}.type",
+      "source": "100系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2003-0211-KIGAMI-TrainImg-100}.description",
+      "source": "東海道・山陽新幹線用車両。\n当時0系のみだった新幹線に衝撃を与えた車両。\n16両編成では2階建て車両があり、そこからの景色は格別\nこのX編成は食堂車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2003-0211-KIGAMI-TrainImg-100-G}.name",
+      "source": "G編成 ひかり・こだま",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2003-0211-KIGAMI-TrainImg-100-G}.company",
+      "source": "JR東海",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2003-0211-KIGAMI-TrainImg-100-G}.type",
+      "source": "100系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2003-0211-KIGAMI-TrainImg-100-G}.description",
+      "source": "東海道・山陽新幹線用車両。\n当時0系のみだった新幹線に衝撃を与えた車両。\n16両編成では2階建て車両があり、そこからの景色は格別\nこのG編成は主に東海道区間の運用につき、2階建てグリーン車を2両連結しています。",
+      "translation": ""
+    }
+  ]
+}

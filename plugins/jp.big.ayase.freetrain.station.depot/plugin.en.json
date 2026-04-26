@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "jp.big.ayase.freetrain.station.depot",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-StationDepot-01a}.name",
+      "source": "検修庫",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-StationDepot-01b}.name",
+      "source": "検修庫",
+      "translation": ""
+    }
+  ]
+}

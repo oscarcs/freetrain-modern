@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "plugin": "jp.geocities.mogami00.tankou2",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "炭鉱2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5AB1D030-BB7A-431C-943D-B8F9EBC5B857}-0.group",
+      "source": "炭鉱・倉庫",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5AB1D030-BB7A-431C-943D-B8F9EBC5B857}-1.group",
+      "source": "炭坑・ボタ山1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5AB1D030-BB7A-431C-943D-B8F9EBC5B857}-2.group",
+      "source": "炭坑・ボタ山2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5AB1D030-BB7A-431C-943D-B8F9EBC5B857}-3.group",
+      "source": "炭坑・クレーン",
+      "translation": ""
+    }
+  ]
+}

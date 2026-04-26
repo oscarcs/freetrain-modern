@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "plugin": "gs.convert.jp.big.ayase.freetrain.structure.roadbridge",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物総合コンバート\u3000綾瀬ヒロ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-hashi-01a}-gs.group",
+      "source": "道路橋",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-hashi-02a}-gs.group",
+      "source": "道路橋",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-hashi-03a}-gs.group",
+      "source": "道路橋",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-hashi-04a}-gs.group",
+      "source": "道路橋",
+      "translation": ""
+    }
+  ]
+}

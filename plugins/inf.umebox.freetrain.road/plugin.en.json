@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "inf.umebox.freetrain.road",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "コンクリート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8DB8W0Q2-B695-4YD1-7694-9706FDF6FB8M}.name",
+      "source": "コンクリート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8DB8W0Q2-B695-4YD1-7694-9706FDF6FB8M}.description",
+      "source": "コンクリート",
+      "translation": ""
+    }
+  ]
+}

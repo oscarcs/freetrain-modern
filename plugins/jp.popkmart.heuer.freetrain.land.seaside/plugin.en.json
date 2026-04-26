@@ -1,0 +1,917 @@
+{
+  "language": "en",
+  "plugin": "jp.popkmart.heuer.freetrain.land.seaside",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "海岸・河岸構造物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0102-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "砂浜",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0104-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "砂浜",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0103-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "砂浜",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0101-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "砂浜",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0105-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "砂浜",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0107-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "砂浜",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0106-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "砂浜",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0108-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "砂浜",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0112-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "砂浜",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0109-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "砂浜",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0111-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "砂浜",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0110-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "砂浜",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0151-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "砂浜",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0152-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "砂浜",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0153-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "砂浜",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0154-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "砂浜",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND01541-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "砂浜",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0155-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "砂浜",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0156-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "砂浜",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0157-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "砂浜",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0158-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "砂浜",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND01581-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "砂浜",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0113-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "砂浜",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0115-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "消波ブロック",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0117-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "消波ブロック",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0116-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "消波ブロック",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0114-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "消波ブロック",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0118-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "消波ブロック",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0120-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "消波ブロック",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0119-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "消波ブロック",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0121-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "消波ブロック",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0125-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "消波ブロック",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0122-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "消波ブロック",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0124-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "消波ブロック",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0123-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "消波ブロック",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0171-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "消波ブロック",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0172-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "消波ブロック",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0173-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "消波ブロック",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0174-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "消波ブロック",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND01741-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "消波ブロック",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0175-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "消波ブロック",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0176-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "消波ブロック",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0177-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "消波ブロック",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0178-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "消波ブロック",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND01781-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "消波ブロック",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0126-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "消波ブロック",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0202-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0204-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0203-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0201-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0205-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0207-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0206-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0208-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0212-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0209-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0211-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0210-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0213-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0214-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0215-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0216-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND02161-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0217-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0218-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0219-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0220-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND02201-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0221-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0401-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0402-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0403-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0404-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0405-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0406-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0407-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0408-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0409-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0410-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0411-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0412-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0413-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0414-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0415-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0416-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0417-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0418-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0419-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0420-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0421-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0422-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(草原/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0302-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0304-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0303-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0301-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0305-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0307-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0306-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0308-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0312-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0309-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0311-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0310-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0313-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0314-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0315-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0316-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND03161-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0317-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0318-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0319-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0320-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND03201-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0321-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0501-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0502-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0503-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0504-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0505-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0506-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0507-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0508-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0509-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0510-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0511-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0512-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0513-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0514-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0515-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0516-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0517-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0518-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0519-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0520-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0521-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0522-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(砂利/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0702-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0704-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0703-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0701-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0705-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0707-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0706-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0708-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0712-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0709-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0711-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0710-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0713-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0714-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0715-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0716-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND07161-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0717-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0718-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0719-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0720-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND07201-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0721-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0601-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0602-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0603-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0604-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0605-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0606-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0607-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0608-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0609-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0610-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0611-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0612-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0613-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0614-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0615-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0616-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0617-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0618-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0619-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0620-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0621-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌/小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{LAND0622-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "河岸(山肌/小)",
+      "translation": ""
+    }
+  ]
+}

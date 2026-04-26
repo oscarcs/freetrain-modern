@@ -1,0 +1,152 @@
+{
+  "language": "en",
+  "plugin": "info.hiyohiyo.riorio.freetrain.trains.kitakyushumonorail",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "北九州モノレールせっと",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-kitakyushumonorail-1000-blue-11CA747B62F9}.name",
+      "source": "青",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-kitakyushumonorail-1000-blue-11CA747B62F9}.company",
+      "source": "北九州高速鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-kitakyushumonorail-1000-blue-11CA747B62F9}.type",
+      "source": "1000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-kitakyushumonorail-1000-blue-11CA747B62F9}.description",
+      "source": "1985年から製造された北九州高速鉄道のモノレール車両。開業当初は全編成がクリームの車体にブルー帯の塗装一種類のみだった。\n現在は4両固定編成で運転されている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-kitakyushumonorail-1000-green-11CA747B62F9}.name",
+      "source": "緑",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-kitakyushumonorail-1000-green-11CA747B62F9}.company",
+      "source": "北九州高速鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-kitakyushumonorail-1000-green-11CA747B62F9}.type",
+      "source": "1000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-kitakyushumonorail-1000-green-11CA747B62F9}.description",
+      "source": "1985年から製造された北九州高速鉄道のモノレール車両。開業当初は全編成がクリームの車体にブルー帯の塗装一種類のみだったが、後にカラーバリエーションが作られた。\n現在は4両固定編成で運転されている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-kitakyushumonorail-1000-orange-11CA747B62F9}.name",
+      "source": "オレンジ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-kitakyushumonorail-1000-orange-11CA747B62F9}.company",
+      "source": "北九州高速鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-kitakyushumonorail-1000-orange-11CA747B62F9}.type",
+      "source": "1000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-kitakyushumonorail-1000-orange-11CA747B62F9}.description",
+      "source": "1985年から製造された北九州高速鉄道のモノレール車両。開業当初は全編成がクリームの車体にブルー帯の塗装一種類のみだったが、後にカラーバリエーションが作られた。\n現在は4両固定編成で運転されている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-kitakyushumonorail-1000-purple-11CA747B62F9}.name",
+      "source": "紫",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-kitakyushumonorail-1000-purple-11CA747B62F9}.company",
+      "source": "北九州高速鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-kitakyushumonorail-1000-purple-11CA747B62F9}.type",
+      "source": "1000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-kitakyushumonorail-1000-purple-11CA747B62F9}.description",
+      "source": "1985年から製造された北九州高速鉄道のモノレール車両。開業当初は全編成がクリームの車体にブルー帯の塗装一種類のみだったが、後にカラーバリエーションが作られた。\n現在は4両固定編成で運転されている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-kitakyushumonorail-1000-red-11CA747B62F9}.name",
+      "source": "赤",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-kitakyushumonorail-1000-red-11CA747B62F9}.company",
+      "source": "北九州高速鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-kitakyushumonorail-1000-red-11CA747B62F9}.type",
+      "source": "1000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-kitakyushumonorail-1000-red-11CA747B62F9}.description",
+      "source": "1985年から製造された北九州高速鉄道のモノレール車両。開業当初は全編成がクリームの車体にブルー帯の塗装一種類のみだったが、後にカラーバリエーションが作られた。\n現在は4両固定編成で運転されている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-kitakyushumonorail-1000-sky-11CA747B62F9}.name",
+      "source": "水色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-kitakyushumonorail-1000-sky-11CA747B62F9}.company",
+      "source": "北九州高速鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-kitakyushumonorail-1000-sky-11CA747B62F9}.type",
+      "source": "1000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-kitakyushumonorail-1000-sky-11CA747B62F9}.description",
+      "source": "1985年から製造された北九州高速鉄道のモノレール車両。開業当初は全編成がクリームの車体にブルー帯の塗装一種類のみだったが、後にカラーバリエーションが作られた。\n現在は4両固定編成で運転されている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-kitakyushumonorail-1000-yellow-11CA747B62F9}.name",
+      "source": "黄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-kitakyushumonorail-1000-yellow-11CA747B62F9}.company",
+      "source": "北九州高速鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-kitakyushumonorail-1000-yellow-11CA747B62F9}.type",
+      "source": "1000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-train-kitakyushumonorail-1000-yellow-11CA747B62F9}.description",
+      "source": "1985年から製造された北九州高速鉄道のモノレール車両。開業当初は全編成がクリームの車体にブルー帯の塗装一種類のみだったが、後にカラーバリエーションが作られた。\n現在は4両固定編成で運転されている。",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "gs.convert.jp.zaq.pant012.structure.baseballstadium",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物総合コンバート\u3000ては",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{hanshin-yuusyou-mezasite-gangare}-gs.group",
+      "source": "野球場",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{nekoneko-nyanyanya-ground-overridtest}-gs.name",
+      "source": "多目的グラウンド",
+      "translation": ""
+    }
+  ]
+}

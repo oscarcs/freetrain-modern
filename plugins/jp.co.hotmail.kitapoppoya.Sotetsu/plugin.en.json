@@ -1,0 +1,57 @@
+{
+  "language": "en",
+  "plugin": "jp.co.hotmail.kitapoppoya.Sotetsu",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "相鉄パック",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-STN7000}.name",
+      "source": "新7000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-STN7000}.company",
+      "source": "相模鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-STN7000}.type",
+      "source": "7000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-ST9000}.company",
+      "source": "相模鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-ST9000}.type",
+      "source": "9000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-ST10000}.company",
+      "source": "相模鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-ST10000}.type",
+      "source": "10000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-ST11000}.company",
+      "source": "相模鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-ST11000}.type",
+      "source": "11000系",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.station.redbrick",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "赤煉瓦の駅舎",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A3A3BD91-FD9E-494D-C477-B886E452A437}-0.group",
+      "source": "赤煉瓦の駅舎A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A3A3BD91-FD9E-494D-C477-B886E452A437}-1.group",
+      "source": "赤煉瓦の駅舎A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A3A3BD91-FD9E-494D-C477-B886E452A437}-2.group",
+      "source": "赤煉瓦の駅舎A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A3A3BD91-FD9E-494D-C477-B886E452A437}-3.group",
+      "source": "赤煉瓦の駅舎A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A3A3BD91-FD9E-494D-C477-B886E452A437}-4.group",
+      "source": "赤煉瓦の駅舎A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A3A3BD91-FD9E-494D-C477-B886E452A437}-5.group",
+      "source": "赤煉瓦の駅舎B",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A3A3BD91-FD9E-494D-C477-B886E452A437}-6.group",
+      "source": "赤煉瓦の駅舎B",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A3A3BD91-FD9E-494D-C477-B886E452A437}-7.group",
+      "source": "赤煉瓦の駅舎B",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A3A3BD91-FD9E-494D-C477-B886E452A437}-8.group",
+      "source": "赤煉瓦の駅舎B",
+      "translation": ""
+    }
+  ]
+}

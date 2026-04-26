@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "jp.geocities.mogami00.NY1bilding",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "NY風高層ビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D5810FA5-8DF4-4235-8D5A-C5BEA7828962}-0.group",
+      "source": "NY風高層ビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D5810FA5-8DF4-4235-8D5A-C5BEA7828962}-1.group",
+      "source": "NY風高層ビル",
+      "translation": ""
+    }
+  ]
+}

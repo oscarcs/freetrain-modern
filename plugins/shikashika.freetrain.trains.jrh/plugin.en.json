@@ -1,0 +1,72 @@
+{
+  "language": "en",
+  "plugin": "shikashika.freetrain.trains.jrh",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "JR北海道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-hokuto-Cassiopeia-1}.name",
+      "source": "カシオペア",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-hokuto-Cassiopeia-1}.company",
+      "source": "JR北海道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-hokuto-Cassiopeia-1}.description",
+      "source": "ディーゼル機関車DD51(北斗星色)が牽引する、オール2階建寝台列車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-hokuto-Cassiopeia-2}.name",
+      "source": "カシオペア(予備)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-hokuto-Cassiopeia-2}.company",
+      "source": "JR北海道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-hokuto-Cassiopeia-2}.description",
+      "source": "ディーゼル機関車DD51(北斗星色)が牽引する、オール2階建寝台列車です。電源車は予備のカヤ２７です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED79-0-Cassiopeia-1}.name",
+      "source": "カシオペア",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED79-0-Cassiopeia-1}.company",
+      "source": "JR北海道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED79-0-Cassiopeia-1}.description",
+      "source": "津軽海峡線用の交流用電気機関車ED79が牽引する、オール2階建寝台列車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED79-0-Cassiopeia-2}.name",
+      "source": "カシオペア(予備)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED79-0-Cassiopeia-2}.company",
+      "source": "JR北海道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED79-0-Cassiopeia-2}.description",
+      "source": "津軽海峡線用の交流用電気機関車ED79が牽引する、オール2階建寝台列車です。電源車は予備のカヤ２７です。",
+      "translation": ""
+    }
+  ]
+}

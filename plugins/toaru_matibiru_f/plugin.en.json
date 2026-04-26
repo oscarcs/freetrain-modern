@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "plugin": "toaru_matibiru_f",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "町ビルF",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{974E127D-910B-440C-920E-E135EBFDA10C}.name",
+      "source": "町ビルF",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{79D5F4D9-9312-410D-B542-1232212768E4}.name",
+      "source": "町ビルF",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A4DB259A-AE6E-4911-8DA4-2A95EE06EEEC}.name",
+      "source": "町ビルF",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6D037F84-DEBA-4ECD-A207-437DAED4B90B}.name",
+      "source": "町ビルF",
+      "translation": ""
+    }
+  ]
+}

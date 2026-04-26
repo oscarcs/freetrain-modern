@@ -1,0 +1,72 @@
+{
+  "language": "en",
+  "plugin": "jp.co.infoseek.altima.train.jre",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "JRE205系後期型車両プラグイン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-JREAST-205KY}.name",
+      "source": "京葉線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-JREAST-205KY}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-JREAST-205KY}.type",
+      "source": "205系後期型",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-JREAST-205KY}.description",
+      "source": "1990年の京葉線東京-蘇我間全通の際に205系が新製投入された。投入された車両は、従来車と大幅にイメージが異なるFRP製の白いフロントマスクになっているが、番台区分はされていない。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-JREAST-205MS}.name",
+      "source": "武蔵野線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-JREAST-205MS}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-JREAST-205MS}.type",
+      "source": "205系後期型",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-JREAST-205MS}.description",
+      "source": "1991年の武蔵野線8両編成化に合わせて205系が新製投入された。京葉線に準じた後期型仕様になっているが、前面が銀色、スカート未装備、ドアエンジンの変更など差異も多い。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-JREAST-205SG}.name",
+      "source": "相模線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-JREAST-205SG}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-JREAST-205SG}.type",
+      "source": "205系500番台",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AltimaTRAINS-EC-JREAST-205SG}.description",
+      "source": "1991年の相模線電化の際にこの205系500番台が新製投入された。半自動扉や乗務員支援装置を装備していて、0番台とはまったく異なるフロントマスクを持つ。",
+      "translation": ""
+    }
+  ]
+}

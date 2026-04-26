@@ -1,0 +1,72 @@
+{
+  "language": "en",
+  "plugin": "jp.co.hotmail.kitapoppoya.Odaiva",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "お台場行きパック+おまけ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{757F660D-9BC9-48E4-9E1F-9-TWR70000-W}.name",
+      "source": "りんかい線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{757F660D-9BC9-48E4-9E1F-9-TWR70000-W}.company",
+      "source": "東京臨海高速鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{757F660D-9BC9-48E4-9E1F-9-TWR70000-W}.type",
+      "source": "70-000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{757F660D-9BC9-48E4-9E1F-9-TWR70000-W}.description",
+      "source": "大崎と新木場を結ぶりんかい線の車両。209系ベースで、2003年度より埼京線への乗り入れを行っている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-YURI7000}.name",
+      "source": "臨海線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-YURI7000}.company",
+      "source": "東京臨海新交通",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-YURI7000}.type",
+      "source": "7000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-YURI7000}.description",
+      "source": "ゆりかもめの愛称でおなじみの新交通システム。半ボクセル車両なので実車同様の編成にするなら3両となります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TONERI300}.name",
+      "source": "日暮里・舎人ライナー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TONERI300}.company",
+      "source": "新交通日暮里・舎人線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TONERI300}.type",
+      "source": "300系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-TONERI300}.description",
+      "source": "東京都北部の新しい新交通システム路線の車両。ちなみに実車が奇数両編成なのに対し偶数両しか再現不可なのは仕様ですｗ",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "plugin": "jp.geocities.mogami00.transfercrane",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "トランスファークレーン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{mogami-building-transfercrane-6626CC7B95F1}-0.group",
+      "source": "トランスファークレーン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{mogami-building-transfercrane-6626CC7B95F1}-1.group",
+      "source": "トランスファークレーン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{mogami-building-transfercrane-6626CC7B95F1}-2.group",
+      "source": "トランスファークレーン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{mogami-building-transfercrane-6626CC7B95F1}-3.group",
+      "source": "トランスファークレーン",
+      "translation": ""
+    }
+  ]
+}

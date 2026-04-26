@@ -1,0 +1,27 @@
+{
+  "language": "en",
+  "plugin": "jp.geocities.m3685jp.train.700T",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "700T型",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{tyousen-121-700T-train-projectZ}.company",
+      "source": "台湾高速鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{tyousen-121-700T-train-projectZ}.type",
+      "source": "700T型",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{tyousen-121-700T-train-projectZ}.description",
+      "source": "初の輸出用新幹線車両として、700系新幹線車両をベースに製造された。\n700系の編成に対し、700T型は12両編成である。",
+      "translation": ""
+    }
+  ]
+}

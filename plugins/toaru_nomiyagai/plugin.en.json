@@ -1,0 +1,62 @@
+{
+  "language": "en",
+  "plugin": "toaru_nomiyagai",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "横丁飲み屋（４方向）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{toaru-building-nomiya-gs01-E7D95B0D8FCE-1}.name",
+      "source": "横丁飲み屋",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{toaru-building-nomiya-gs01-E7D95B0D8FCE-2}.name",
+      "source": "横丁飲み屋",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{toaru-building-nomiya-gs01-E7D95B0D8FCE-3}.name",
+      "source": "横丁飲み屋",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{toaru-building-nomiya-gs01-E7D95B0D8FCE-4-1}.name",
+      "source": "特殊飲食店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{toaru-building-nomiya-gs01-E7D95B0D8FCE-4-2}.name",
+      "source": "特殊飲食店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{toaru-building-nomiya-gs01-E7D95B0D8FCE-5}.name",
+      "source": "横丁飲み屋角地",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{toaru-building-nomiya-gs01-E7D95B0D8FCE-6}.name",
+      "source": "横丁飲み屋角地",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{toaru-building-nomiya-gs01-E7D95B0D8FCE-7}.name",
+      "source": "横丁飲み屋",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{toaru-building-nomiya-gs01-E7D95B0D8FCE-8-1}.name",
+      "source": "特殊飲食店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{toaru-building-nomiya-gs01-E7D95B0D8FCE-8-2}.name",
+      "source": "特殊飲食店",
+      "translation": ""
+    }
+  ]
+}

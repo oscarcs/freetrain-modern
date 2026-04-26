@@ -1,0 +1,67 @@
+{
+  "language": "en",
+  "plugin": "jp.co.hotmail.kitapoppoya.TokyoMono",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "東京モノレールパック",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-TM1000-Q-W}.name",
+      "source": "旧塗装",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-TM1000-Q-W}.company",
+      "source": "東京モノレール",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-TM1000-Q-W}.type",
+      "source": "1000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-TM1000-Q-W}.description",
+      "source": "1000系は塗装変更までこの塗装で活躍していた。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-TM1000-N-W}.name",
+      "source": "新塗装",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-TM1000-N-W}.company",
+      "source": "東京モノレール",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-TM1000-N-W}.type",
+      "source": "1000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-TM1000-N-W}.description",
+      "source": "現在、新型の2000系とともに主力である車両。2000系導入時に塗装変更が行われた。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-TM2000-N-W}.company",
+      "source": "東京モノレール",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-TM2000-N-W}.type",
+      "source": "2000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5ACFD81E-6A4E-4981-AEAF-D-TM2000-N-W}.description",
+      "source": "旧型車を一掃するために導入された東京モノレールの新型。VVVFインバータ制御。",
+      "translation": ""
+    }
+  ]
+}

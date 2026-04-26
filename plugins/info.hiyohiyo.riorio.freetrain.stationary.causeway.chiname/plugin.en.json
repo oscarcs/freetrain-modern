@@ -1,0 +1,227 @@
+{
+  "language": "en",
+  "plugin": "info.hiyohiyo.riorio.freetrain.stationary.causeway.chiname",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "盛土高架・架線柱追加と地平バラスト追加",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-15B32B21C8C8}.group",
+      "source": "盛土高架・架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-15B32B21C8C8}-1,0.group",
+      "source": "盛土高架・架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-15B32B21C8C8}-2,0.group",
+      "source": "盛土高架・架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-15B32B21C8C8}-3,0.group",
+      "source": "盛土高架・架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-15B32B21C8C8}-0,1.group",
+      "source": "盛土高架・架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-15B32B21C8C8}-1,1.group",
+      "source": "盛土高架・架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-15B32B21C8C8}-2,1.group",
+      "source": "盛土高架・架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-15B32B21C8C8}-3,1.group",
+      "source": "盛土高架・架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-F6A827D00951}.group",
+      "source": "盛土高架・砂利",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-F6A827D00951}-1,0.group",
+      "source": "盛土高架・砂利",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-F6A827D00951}-2,0.group",
+      "source": "盛土高架・砂利",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-F6A827D00951}-0,1.group",
+      "source": "盛土高架・砂利",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-F6A827D00951}-1,1.group",
+      "source": "盛土高架・砂利",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-F6A827D00951}-2,1.group",
+      "source": "盛土高架・砂利",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-F6A827D00951}-0,2.group",
+      "source": "盛土高架・砂利",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-F6A827D00951}-1,2.group",
+      "source": "盛土高架・砂利",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-F6A827D00951}-2,2.group",
+      "source": "盛土高架・砂利",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-F6A827D00951}-0,3.group",
+      "source": "盛土高架・砂利",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-F6A827D00951}-1,3.group",
+      "source": "盛土高架・砂利",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-F6A827D00951}-2,3.group",
+      "source": "盛土高架・砂利",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-F6A827D00951}-0,4.group",
+      "source": "盛土高架・砂利",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-F6A827D00951}-1,4.group",
+      "source": "盛土高架・砂利",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-F6A827D00951}-2,4.group",
+      "source": "盛土高架・砂利",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-36247AF81E7A}.group",
+      "source": "盛土高架・砂利架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-36247AF81E7A}-1,0.group",
+      "source": "盛土高架・砂利架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-36247AF81E7A}-2,0.group",
+      "source": "盛土高架・砂利架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-36247AF81E7A}-3,0.group",
+      "source": "盛土高架・砂利架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-36247AF81E7A}-4,0.group",
+      "source": "盛土高架・砂利架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-36247AF81E7A}-0,1.group",
+      "source": "盛土高架・砂利架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-36247AF81E7A}-1,1.group",
+      "source": "盛土高架・砂利架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-36247AF81E7A}-2,1.group",
+      "source": "盛土高架・砂利架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-36247AF81E7A}-3,1.group",
+      "source": "盛土高架・砂利架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-36247AF81E7A}-4,1.group",
+      "source": "盛土高架・砂利架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-36247AF81E7A}-0,2.group",
+      "source": "盛土高架・砂利架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-36247AF81E7A}-1,2.group",
+      "source": "盛土高架・砂利架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-36247AF81E7A}-2,2.group",
+      "source": "盛土高架・砂利架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-36247AF81E7A}-3,2.group",
+      "source": "盛土高架・砂利架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-36247AF81E7A}-4,2.group",
+      "source": "盛土高架・砂利架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-36247AF81E7A}-0,3.group",
+      "source": "盛土高架・砂利架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-36247AF81E7A}-1,3.group",
+      "source": "盛土高架・砂利架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-36247AF81E7A}-2,3.group",
+      "source": "盛土高架・砂利架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-36247AF81E7A}-3,3.group",
+      "source": "盛土高架・砂利架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-c477-causeway-railstationary-36247AF81E7A}-4,3.group",
+      "source": "盛土高架・砂利架線柱",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "jp.geocities.mogami00.mansyon06",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "分譲マンション(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{mogami-building-mansyon06-E81DC0B796DA}.group",
+      "source": "分譲マンション(1x1)",
+      "translation": ""
+    }
+  ]
+}

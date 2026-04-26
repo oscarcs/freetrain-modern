@@ -1,0 +1,47 @@
+{
+  "language": "en",
+  "plugin": "jp.geocities.1703d.kominato_isumi.0418",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "小湊鐵道・いすみ鉄道車両プラグイン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040417-isumi200}.name",
+      "source": "いすみ線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040417-isumi200}.company",
+      "source": "いすみ鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040417-isumi200}.type",
+      "source": "いすみ200形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040417-isumi200}.description",
+      "source": "千葉県の大原～上総中野を結ぶ第三セクター、いすみ鉄道の車両です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040417-kominato200}.company",
+      "source": "小湊鐵道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040417-kominato200}.type",
+      "source": "キハ200形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{cyber-express-1703d-040417-kominato200}.description",
+      "source": "千葉県の五井～上総中野を結ぶ私鉄、小湊鐵道の車両。\n国鉄への乗入れを考慮し国鉄キハ20形に準じて製作された車両で、以前は国鉄千葉駅へ乗入れていたが現在は設定されていない。\n編成両数は1両から5両。全14両が製作され現在も活躍中である。",
+      "translation": ""
+    }
+  ]
+}

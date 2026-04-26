@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "jp.geocities.mogami00.high_apart1",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "5×3高層マンション",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{062B8F4A-F404-4B74-B40E-D8F44124A050}.group",
+      "source": "5×3高層マンション",
+      "translation": ""
+    }
+  ]
+}

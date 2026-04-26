@@ -1,0 +1,52 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.trains.meitetsu",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "名古屋鉄道 車両キット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{EB30F347-A83A-46e2-8E3B-35BAF50E96BC}.name",
+      "source": "パノラマSuper",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{EB30F347-A83A-46e2-8E3B-35BAF50E96BC}.company",
+      "source": "名古屋鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{EB30F347-A83A-46e2-8E3B-35BAF50E96BC}.type",
+      "source": "1000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{EB30F347-A83A-46e2-8E3B-35BAF50E96BC}.description",
+      "source": "昭和63年、7000系の後継車として登場した名鉄の看板車両。\n車内電話、飲料水販売機、ＬＥＤ式案内装置など\n車内設備も7000系に比べ格段に充実した特急専用車。\n先頭部ハイデッカー構造の展望席となっており(運転席は１階)\nパノラマsuperの愛称で呼ばれる。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{50313BB1-442B-4017-BB52-D158809C6724}.name",
+      "source": "パノラマカー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{50313BB1-442B-4017-BB52-D158809C6724}.company",
+      "source": "名古屋鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{50313BB1-442B-4017-BB52-D158809C6724}.type",
+      "source": "7500系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{50313BB1-442B-4017-BB52-D158809C6724}.description",
+      "source": "昭和38年、7000系をベースに定速度制御（現在は撤去）、\n回生ブレーキなど下回りを大幅に改良して登場。\n外見は7000系に似るが、低重心化のため床が低い。\n先頭車両に展望席を持ち、パノラマカーの愛称で呼ばれる。\n全Ｍ組成。",
+      "translation": ""
+    }
+  ]
+}

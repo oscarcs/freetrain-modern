@@ -1,0 +1,187 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.trains.kintetsu",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "近鉄 車両キット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0F9CA3B7-1674-48b0-9E8F-5AB781CA5590}.name",
+      "source": "新スナックカー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0F9CA3B7-1674-48b0-9E8F-5AB781CA5590}.company",
+      "source": "近畿日本鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0F9CA3B7-1674-48b0-9E8F-5AB781CA5590}.type",
+      "source": "12200系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0F9CA3B7-1674-48b0-9E8F-5AB781CA5590}.description",
+      "source": "新幹線登場後乗客が減った名阪間の利用を増やすため車内にスナックコーナーという簡易ビュッフェを設置した車両。しかし経費増大などの理由でこのスナックコーナーは廃止、一般座席に改装し現在も運転されている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2BE05AC0-1ABD-4437-AE45-C7630C136952}.company",
+      "source": "近畿日本鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2BE05AC0-1ABD-4437-AE45-C7630C136952}.type",
+      "source": "3200系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2BE05AC0-1ABD-4437-AE45-C7630C136952}.description",
+      "source": "京都線内で京都市交通局烏丸線と相互直通運転するため製作された車両。この車両は多数の部分が今の通勤車両に受け継がれ、今のVVVF車の原点とも言える車両。登場時は4両編成だったが相互直通開始前に6両固定編成となった。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{04CFD232-9837-40d7-B5F8-465C081D688F}.company",
+      "source": "近畿日本鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{04CFD232-9837-40d7-B5F8-465C081D688F}.type",
+      "source": "1020系、6400系など",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{04CFD232-9837-40d7-B5F8-465C081D688F}.description",
+      "source": "近鉄のほぼ全線で見られる。全線共通車体に見えても鋼製であったり裾を絞ってなかったり、果ては同じ形で系式が違うことも多々あり、ここでは○○系と一概に言えない。2～4,6両編成が存在する。これで再現可能な形式は1420,1220,1230,1020,1430,1620,6400,6620,1400,1200,2050,8810,9000,9200,6600系。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{79F5A6B4-89E3-42ec-A9D0-072511836B55}.company",
+      "source": "近畿日本鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{79F5A6B4-89E3-42ec-A9D0-072511836B55}.type",
+      "source": "鋼製通勤電車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{79F5A6B4-89E3-42ec-A9D0-072511836B55}.description",
+      "source": "近鉄の鋼製車両。やや四角い前面が特徴である。全線で見られる顔(裾絞りの有無を含め)で、非常に沢山形式が存在する。2両、3両、4両編成。クーラーの種類等に若干違いがあるが再現可能系式は2410,2800,2400,2610,1481,2430,2600,2050,1000,2000,1810,2680,1010,2470,1480,8600,8400,8000,8800,900,6200,6020,6000,860系。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9F65AF1F-FCB7-48a1-83FC-3A2BD7F057D5}.name",
+      "source": "伊勢志摩ライナー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9F65AF1F-FCB7-48a1-83FC-3A2BD7F057D5}.company",
+      "source": "近畿日本鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9F65AF1F-FCB7-48a1-83FC-3A2BD7F057D5}.type",
+      "source": "23000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9F65AF1F-FCB7-48a1-83FC-3A2BD7F057D5}.description",
+      "source": "近鉄が製作した私鉄初の130km/h運転車両。観光特急としての性格が強く、座席は華やかでカラーリングも黄色に白とかなり明るい。運転室仕切りはガラスとなっていて前面展望を楽しめる。6両固定編成。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A02260C4-A40D-4d13-9C4C-AA1F5E7EC535}.name",
+      "source": "ビスタEX",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A02260C4-A40D-4d13-9C4C-AA1F5E7EC535}.company",
+      "source": "近畿日本鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A02260C4-A40D-4d13-9C4C-AA1F5E7EC535}.type",
+      "source": "30000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{71DCD39C-9534-49d8-B055-AC8D561D20A7}.name",
+      "source": "シリーズ21",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{71DCD39C-9534-49d8-B055-AC8D561D20A7}.company",
+      "source": "近畿日本鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{71DCD39C-9534-49d8-B055-AC8D561D20A7}.type",
+      "source": "3220系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{71DCD39C-9534-49d8-B055-AC8D561D20A7}.description",
+      "source": "近鉄の次世代通勤型車両、シリーズ21の先行投入車。京都市営地下鉄に乗り入れることができ、3200系と共通運用されている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7CFEDA31-6B73-4e40-BA03-4B1DFB7BFCAB}.name",
+      "source": "シリーズ21",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7CFEDA31-6B73-4e40-BA03-4B1DFB7BFCAB}.company",
+      "source": "近畿日本鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7CFEDA31-6B73-4e40-BA03-4B1DFB7BFCAB}.type",
+      "source": "9020系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7CFEDA31-6B73-4e40-BA03-4B1DFB7BFCAB}.description",
+      "source": "近鉄の次世代通勤型車両。9020系は2両編成で、2+2の4両や付属編成として使用されるが、たまに3編成つないで6両ということも。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FBBCA305-EB52-4b8e-87F4-03FF8F84A98A}.name",
+      "source": "シリーズ21",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FBBCA305-EB52-4b8e-87F4-03FF8F84A98A}.company",
+      "source": "近畿日本鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FBBCA305-EB52-4b8e-87F4-03FF8F84A98A}.type",
+      "source": "9820/5820系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FBBCA305-EB52-4b8e-87F4-03FF8F84A98A}.description",
+      "source": "近鉄の次世代通勤型車両。9820系と5820系はともに6両編成で、奈良・京都線の主力になっている。9820系はロングシート、5820系はL/Cカーである。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8D7AE30D-D12E-4208-A2DE-216CA85ECDF5}.company",
+      "source": "近畿日本鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8D7AE30D-D12E-4208-A2DE-216CA85ECDF5}.type",
+      "source": "3000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8D7AE30D-D12E-4208-A2DE-216CA85ECDF5}.description",
+      "source": "近鉄に4両1編成だけ存在する、チョッパ制御試験のため1979年に製作された車両。3+1両で登場したが、1991年にMc車をM車化し4両固定編成化された。",
+      "translation": ""
+    }
+  ]
+}

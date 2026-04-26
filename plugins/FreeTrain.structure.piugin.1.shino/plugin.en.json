@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "FreeTrain.structure.piugin.1.shino",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "国際展示場",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{S5776500-E8E5-4D5E-B30A-A0036A6ECDEB}.group",
+      "source": "国際展示場",
+      "translation": ""
+    }
+  ]
+}

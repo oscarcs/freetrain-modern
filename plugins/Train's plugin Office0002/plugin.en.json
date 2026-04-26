@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "Train's plugin Office0002",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物セット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D50BA778-25F4-465B-8A73-4\\6C15F-building0002}.name",
+      "source": "中－小規模オフィスビル",
+      "translation": ""
+    }
+  ]
+}

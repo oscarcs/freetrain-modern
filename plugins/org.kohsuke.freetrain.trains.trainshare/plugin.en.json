@@ -1,0 +1,12 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.trains.trainshare",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "車両画像共有",
+      "translation": ""
+    }
+  ]
+}

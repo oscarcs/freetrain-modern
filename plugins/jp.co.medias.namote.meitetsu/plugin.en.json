@@ -1,0 +1,147 @@
+{
+  "language": "en",
+  "plugin": "jp.co.medias.namote.meitetsu",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "名古屋鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A0867E85-A539-4C26-BF3A-1C956A7ECB86}.name",
+      "source": "パノラマSUPER",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A0867E85-A539-4C26-BF3A-1C956A7ECB86}.company",
+      "source": "名古屋鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A0867E85-A539-4C26-BF3A-1C956A7ECB86}.type",
+      "source": "1600系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A0867E85-A539-4C26-BF3A-1C956A7ECB86}.description",
+      "source": "平成11年デビューした全車特別車の特急車両。\n車体は将来の速度向上に対応できるように、最高速度130km/hで運転できる性能を有し、曲線通過速度も向上できるよう当社初の空気ばねによる車体傾斜制御装置を導入している。\nまた先頭部に自動幌連結装置を設置したことにより、通常3両の組成を連結して6両運転する場合でも車両間の自由な行き来が可能となった。\n車内は移動制約者の方にもご利用できる車イス対応の洋式便座トイレと座席を中間車に設けているのに加え、環境面でも省エネ型VVVF車両で、冷房装置の冷媒に代替フロンR407Cを使用するという、人にも地球にもやさしい特急車両である。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{F346CBE8-313C-407E-9E80-92C7C2FC8E21}.company",
+      "source": "名古屋鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{F346CBE8-313C-407E-9E80-92C7C2FC8E21}.type",
+      "source": "キハ30系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{F346CBE8-313C-407E-9E80-92C7C2FC8E21}.description",
+      "source": "老朽化した初代LE-Carキハ10形の置換え用として、平成7年に増備された。\nキハ20形よりも車体をさらに大型化し、片側3扉の引き戸を採用、キハ20形同様一部の座席を収納式とするなど、ラッシュ対策を強化している。\n現在は、おもに三河線（猿投～西中金）のワンマン車で活躍中。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FCD1F8A9-A797-4B4A-90F8-ABA865294302}.name",
+      "source": "通勤型 ECB CAr",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FCD1F8A9-A797-4B4A-90F8-ABA865294302}.company",
+      "source": "名古屋鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FCD1F8A9-A797-4B4A-90F8-ABA865294302}.type",
+      "source": "3500系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FCD1F8A9-A797-4B4A-90F8-ABA865294302}.description",
+      "source": "通勤型6000系列車両（6000・6500・6800系）の後継車として平成５年に登場。\nVVVFインバータ制御・電気指令式ブレーキ・ワンハンドルマスコンの採用など、さまざまな新機軸が盛り込まれている。2M2T組成。\n車体は6500系後期車に準じているが、前面スカートや前照灯上の「ECB」のロゴなどで区別できる。\n片側3扉・オールロングシートの通勤型車両ながら、最高120km/hで走行でき、車内案内表示器も備えている。\n平成9年からは、この3500系をベースに客室の天井や窓、乗降扉などを高くした4両組成の3700系と、2両組成の3100系に継承された。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AAC51152-3B8F-40D5-BAA9-DD569FD29F02}.name",
+      "source": "北アルプス",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AAC51152-3B8F-40D5-BAA9-DD569FD29F02}.company",
+      "source": "名古屋鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AAC51152-3B8F-40D5-BAA9-DD569FD29F02}.type",
+      "source": "キハ8500系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AAC51152-3B8F-40D5-BAA9-DD569FD29F02}.description",
+      "source": "キハ8500系はJR高山線直通の特急「北アルプス」で活躍していたキハ8000系の置き換えのために 1991(平成3)年に登場しました。\n足回りはJR東海のキハ85系と同一とし、車体の塗色や角の丸い側窓などに名鉄色を出しています。\n残念ながら2001年9月30日をもって「北アルプス」号は廃止された。\n2001年12月23～24日に渡って会津鉄道へ甲種回送され、2002年3月23日から「AIZUマウントエクスプレス」として活躍を開始している。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{21D61F4D-5671-4D8E-BB12-66327837F2D6}.name",
+      "source": "通勤型",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{21D61F4D-5671-4D8E-BB12-66327837F2D6}.company",
+      "source": "名古屋鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{21D61F4D-5671-4D8E-BB12-66327837F2D6}.type",
+      "source": "6500系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{21D61F4D-5671-4D8E-BB12-66327837F2D6}.description",
+      "source": "6000系の発展型として界磁チョッパ・回生ブレーキを採用した省エネルギー車両として昭和59年にデビュー。2M2T組成。\n正面を非貫通型としてスタイルを一新したほか、扉の位置を先頭車と中間車を同一にして整列乗車に対応した。\n片側3扉のセミクロスシート車であるが、6000系のシートよりも大型化し居住性の向上を図った。\n平成元年の増備車からは前面を大型曲面ガラスに、側面を連続窓に変更するなど、大幅にモデルチェンジを行った。\nまた、最終増備の2編成はラッシュ時の混雑緩和を考慮してオールロングシート車で登場した。\nさらに、セミクロスシート車については順次ロングシート化が予定されている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{BF9616B6-B721-41C4-9011-D539211CF02D}.name",
+      "source": "急行",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{BF9616B6-B721-41C4-9011-D539211CF02D}.company",
+      "source": "名古屋鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{BF9616B6-B721-41C4-9011-D539211CF02D}.type",
+      "source": "5700系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{BF9616B6-B721-41C4-9011-D539211CF02D}.description",
+      "source": "5700系は昭和61年、本線系の高速・急行用車両としてデビュー。\n車掌台側のガラスを大型のものにして「パノラマカー」以来の伝統である前面展望を確保している。\n片側2扉の転換クロスシート車でありながら1400mmの両開き扉を採用、出入口付近のスペースを広くしてラッシュ対策を考慮しているほか、扉付近に折りたたみの補助イスを設け、閑散時の着席率向上をはかっている。3M3Tまたは2M2T組成。 \n5系は5700系と同じ車体と、廃車となった初期のカルダン車5000・5200系の足まわりを組み合わせた車両として登場。\n制御装置は私鉄では初めての界磁添加励磁制御で、回生ブレーキ付。全M組成。順次新型台車に取り替え中。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A0867E85-A539-4C26-BF3A-1C956A7ECB22}.name",
+      "source": "ミュースカイ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A0867E85-A539-4C26-BF3A-1C956A7ECB22}.company",
+      "source": "名古屋鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A0867E85-A539-4C26-BF3A-1C956A7ECB22}.type",
+      "source": "2000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A0867E85-A539-4C26-BF3A-1C956A7ECB22}.description",
+      "source": "最高運転速度120km/h、中部国際空港－名古屋を28分台で結ぶ。\n最新技術で極上の座り心地を実現。また、各車に荷物置き場を配置するほか、座席にバリアフリー対応グリップを取り付けるなど、すべてにグローバルな設計。",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "language": "en",
+  "plugin": "rk-surabukidou",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{DD1224B0-B003-1100-hana-4E604F3342C8}.name",
+      "source": "スラブ軌道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{DD1224B0-B003-1100-hana-4E604F3342C8}.description",
+      "source": "スラブ軌道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-sura200306011157001}-A.group",
+      "source": "スラブ高架",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-sura200306011157001}-B.group",
+      "source": "スラブ高架",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-sura200306011157001}-C.group",
+      "source": "スラブ高架",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-sura200306011157001}-D.group",
+      "source": "スラブ高架",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ra-suraC001-1400-4C8B212DD67}.group",
+      "source": "スラブ高架カーブ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ra-suraC002-1400-4C8B212DD67}.group",
+      "source": "スラブ高架カーブ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ra-suraC003-1400-4C8B212DD67}.group",
+      "source": "スラブ高架カーブ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ra-suraC004-1400-4C8B212DD67}.group",
+      "source": "スラブ高架カーブ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ra-suraC005-1400-4C8B212DD67}.group",
+      "source": "スラブ高架",
+      "translation": ""
+    }
+  ]
+}

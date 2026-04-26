@@ -1,0 +1,252 @@
+{
+  "language": "en",
+  "plugin": "shikashika.freetrain.trains.ichibata",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "一畑電気鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-ED22}.name",
+      "source": "荷物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-ED22}.company",
+      "source": "一畑電気鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-ED22}.description",
+      "source": "昭和02年ボールドウイン・ウェスチングハウス社製造の電気機関車ED22です。元信濃鉄道1号で、国鉄ED221、西武鉄道ED1、近江鉄道ED1と変遷して昭和30年ED221に改番、昭和35年一畑電鉄に入線しました。一畑電鉄の貨物営業廃止以後、昭和49年に弘南鉄道に譲渡されています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-dehani50}.company",
+      "source": "一畑電気鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-dehani50}.type",
+      "source": "デハニ50形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-dehani50}.description",
+      "source": "昭和03年日本車輌製造の荷物合造車。荷物輸送の減少と共に、デハニ51は昭和26年にデハ21に、デハニ54は昭和42年にデハ11に改造され、デハニ52は定員36名のお座敷列車デハ52に改造されています。3扉全て手動扉です。ラッシュ時の増強や、無蓋貨車を引いてバラスト散布作業などに使用されたりしています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha50}.company",
+      "source": "一畑電気鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha50}.type",
+      "source": "デハ  50形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha50}.description",
+      "source": "昭和03年日本車輌製造の荷物合造車デハニ52を、お座敷列車に改造したものです。畳は難燃性のものを使用しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha1}.name",
+      "source": "大社線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha1}.company",
+      "source": "一畑電気鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha1}.type",
+      "source": "デハ   1形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha1}.description",
+      "source": "昭和02年日本車輌製造。昭和53年にアルナ工機でワンマン化の改造がされ、大社線専用車となりました。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha10}.company",
+      "source": "一畑電気鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha10}.type",
+      "source": "デハ  10形+クハ110形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha10}.description",
+      "source": "デハ10形とクハ110形の編成。デハ11は、昭和05年日本車輌製造のデハニ54を昭和42年に改造して製造されました。クハ111は、昭和03年日本車輌製造の制御車クハ101を昭和23年に電動車デハ7に改造し、それを昭和37年に再び制御車として改造して製造されました。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha20}.name",
+      "source": "松江線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha20}.company",
+      "source": "一畑電気鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha20}.type",
+      "source": "デハ  20形+クハ100形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha20}.description",
+      "source": "デハ20形とクハ100形の編成。デハ20形は、日本車輌製造のデハニ50形やデハ1形を、長距離輸送用に2扉セミクロスシートにナニワ工機で改造して製造されました。クハ100形は、昭和15年木南車両製造の武蔵野鉄道クハ5860形(西部1235～)を昭和33年～34年に移籍し、昭和37年には両運転台だったものを片運転台に改造してスペースを確保し、車椅子にも対応しています。どちらの車両もドアは手動です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha60}.company",
+      "source": "一畑電気鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha60}.type",
+      "source": "デハ  60系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha60}.description",
+      "source": "昭和36年西武所沢車輌工場製造の元西武鉄道クモハ551系です。クモハ552に551の、554に553の運転台を搭載して両運転台の車両に改造して、昭和61年に入線しました。当初はデハ92と93でしたが、改番されました。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha70}.name",
+      "source": "松江線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha70}.company",
+      "source": "一畑電気鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha70}.type",
+      "source": "デハ  70系+クハ170系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha70}.description",
+      "source": "デハ70系とクハ170系の編成。デハ70系は、元武蔵野鉄道の制御車のクハ5570系で、昭和22年に電装化され西武モハ300系(クモハ300系)になり、昭和39年に西武所沢車両工場で改造して入線しました。クハ170系は、同じく元武蔵野鉄道クハ5570系で、電装化されていた西武モハ300系(クモハ300系)を電装解除して、再び制御車に改造されました。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha80}.company",
+      "source": "一畑電気鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha80}.type",
+      "source": "デハ  80系+クハ180系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha80}.description",
+      "source": "昭和34年西武所沢車輌工場製造の元西武鉄道451系です。昭和57年に入線しました。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha90}.company",
+      "source": "一畑電気鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha90}.type",
+      "source": "デハ  90系+クハ190系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha90}.description",
+      "source": "昭和37年西武所沢車輌工場製造の元西武鉄道551系です。昭和60年に入線しました。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha2101}.name",
+      "source": "3扉",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha2101}.company",
+      "source": "一畑電気鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha2101}.type",
+      "source": "デハ2100+2110系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha2101}.description",
+      "source": "昭和43年日本車輌製造の元京王電鉄5000系です。平成06年に入線しました。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha2103}.name",
+      "source": "2扉",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha2103}.company",
+      "source": "一畑電気鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha2103}.type",
+      "source": "デハ2100+2110系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha2103}.description",
+      "source": "昭和43年日本車輌製造の元京王電鉄5000系です。平成07年に入線しました。2扉に改造され座席定員が増えています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha3010}.company",
+      "source": "一畑電気鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha3010}.type",
+      "source": "デハ3000+3010系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha3010}.description",
+      "source": "昭和34年帝国車輌製造の元南海電鉄21000系です。平成08年に入線しました。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha5000}.name",
+      "source": "出雲大社号",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha5000}.company",
+      "source": "一畑電気鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha5000}.type",
+      "source": "デハ5000+5100系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Streetcar-Tramcar-Train-deha5000}.description",
+      "source": "昭和42年日本車輌製造の元京王電鉄5000系です。平成10年に入線しました。",
+      "translation": ""
+    }
+  ]
+}

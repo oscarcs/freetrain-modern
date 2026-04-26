@@ -1,0 +1,47 @@
+{
+  "language": "en",
+  "plugin": "com.wakwak.bast.freetrain.underpath",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "contribution.{nekoneko-nyanyanya-underpath-1}.group",
+      "source": "アンダーパス",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{nekoneko-nyanyanya-underpath-2}.group",
+      "source": "アンダーパス",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{nekoneko-nyanyanya-underpath-3}.group",
+      "source": "アンダーパス",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{nekoneko-nyanyanya-underpath-4}.group",
+      "source": "アンダーパス",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{nekoneko-nyanyanya-underpath-5}.group",
+      "source": "アンダーパス",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{nekoneko-nyanyanya-underpath-6}.group",
+      "source": "アンダーパス",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{nekoneko-nyanyanya-underpath-7}.group",
+      "source": "アンダーパス",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{nekoneko-nyanyanya-underpath-8}.group",
+      "source": "アンダーパス",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.structure.airport.runway",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "滑走路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0D5808D6-787C-4498-C477-EE5C79ECE244}-S0.group",
+      "source": "滑走路(タイヤ跡)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0D5808D6-787C-4498-C477-EE5C79ECE244}-S1.group",
+      "source": "滑走路(タイヤ跡)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0D5808D6-787C-4498-C477-EE5C79ECE244}-S2.group",
+      "source": "滑走路(タイヤ跡)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8755ECDC-6A76-46AA-C477-3ACFCFA1202B}-S0.group",
+      "source": "滑走路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8755ECDC-6A76-46AA-C477-3ACFCFA1202B}-S1.group",
+      "source": "滑走路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8755ECDC-6A76-46AA-C477-3ACFCFA1202B}-S2.group",
+      "source": "滑走路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5F1C1092-23ED-410B-C477-036FE255FC6E}-S0.group",
+      "source": "滑走路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5F1C1092-23ED-410B-C477-036FE255FC6E}-S1.group",
+      "source": "滑走路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5F1C1092-23ED-410B-C477-036FE255FC6E}-S2.group",
+      "source": "滑走路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5F1C1092-23ED-410B-C477-036FE255FC6E}-S12.group",
+      "source": "滑走路(タイヤ跡)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2B1C7FD8-1F38-4B7C-C477-5A7DCFD577F9}-S00.group",
+      "source": "滑走路進入燈",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2B1C7FD8-1F38-4B7C-C477-5A7DCFD577F9}-S04.group",
+      "source": "滑走路進入燈",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2B1C7FD8-1F38-4B7C-C477-5A7DCFD577F9}-S10.group",
+      "source": "滑走路進入燈",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2B1C7FD8-1F38-4B7C-C477-5A7DCFD577F9}-S11.group",
+      "source": "滑走路進入燈",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2B1C7FD8-1F38-4B7C-C477-5A7DCFD577F9}-S12.group",
+      "source": "滑走路進入燈",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{31F65668-5D60-4F47-C477-0025430882BB}}-S00.group",
+      "source": "滑走路進入燈",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{31F65668-5D60-4F47-C477-0025430882BB}}-S01.group",
+      "source": "滑走路進入燈",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{31F65668-5D60-4F47-C477-0025430882BB}}-S02.group",
+      "source": "滑走路進入燈",
+      "translation": ""
+    }
+  ]
+}

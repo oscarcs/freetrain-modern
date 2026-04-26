@@ -1,0 +1,27 @@
+{
+  "language": "en",
+  "plugin": "rk-kurann",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "港クレーン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-FreeTrain-FreightCar-TrainCar-kuren}.name",
+      "source": "クレーン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-FreeTrain-FreightCar-TrainCar-kuren}.company",
+      "source": "その他",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-FreeTrain-FreightCar-TrainCar-kuren}.type",
+      "source": "港クレーン",
+      "translation": ""
+    }
+  ]
+}

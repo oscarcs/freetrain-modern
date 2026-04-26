@@ -1,0 +1,67 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.structure.amusementpark3",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "遊園地セット３",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{97BEE6FC-374C-466E-C477-FB44359ADB7A}.group",
+      "source": "アトラクション2x2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1978F3FC-2AFA-4902-C477-EA2911D58A5E}.group",
+      "source": "アトラクション2x2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1ECF7E51-A426-48F9-C477-95F20BB2F5E9}.group",
+      "source": "アトラクション2x2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{BB3DB14A-555E-4C03-C477-68824A2A589A}.group",
+      "source": "アトラクション2x2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6FCBB406-FB00-4B52-C477-00B631A6DFDF}.group",
+      "source": "アトラクション2x2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{DD832F36-77AE-465C-C477-0830EAA652D1}.name",
+      "source": "遊園地舗装(芝生)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{DD832F36-77AE-465C-C477-0830EAA652D1}.description",
+      "source": "遊園地内の舗装",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{383868BC-5662-42BD-C477-211A3356C8AA}.name",
+      "source": "遊園地舗装(並木)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{383868BC-5662-42BD-C477-211A3356C8AA}.description",
+      "source": "遊園地内の舗装",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6C2DC3D9-7836-4F79-C477-8C0580C248E8}.name",
+      "source": "遊園地舗装(噴水)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6C2DC3D9-7836-4F79-C477-8C0580C248E8}.description",
+      "source": "遊園地内の舗装",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.rail.keta3",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{874B8BFD-1EF4-3000-9C5A-D0EA1049D28D}.name",
+      "source": "ガター橋(桁）)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{874B8BFD-1EF4-3001-9C5A-D0EA1049D28D}.name",
+      "source": "ガター橋(中)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{874B8BFD-1EF4-3002-9C5A-D0EA1049D28D}.name",
+      "source": "ガター橋(終端A)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{874B8BFD-1EF4-3003-9C5A-D0EA1049D28D}.name",
+      "source": "ガター橋(終B)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{874B8BFD-1EF4-3004-9C5A-D0EA1049D28D}.name",
+      "source": "ガター橋(架線台・左)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{874B8BFD-1EF4-3005-9C5A-D0EA1049D28D}.name",
+      "source": "ガター橋(架線台・右)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{874B8BFD-1EF4-3006-9C5A-D0EA1049D28D}.name",
+      "source": "ガター橋(架線台・左右)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{874B8BFD-1EF4-3007-9C5A-D0EA1049D28D}.name",
+      "source": "トラス台",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{874B8BFD-1EF4-3008-9C5A-D0EA1049D28D}.name",
+      "source": "ガター橋(A)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{874B8BFD-1EF4-3009-9C5A-D0EA1049D28D}.name",
+      "source": "ガター橋(B)",
+      "translation": ""
+    }
+  ]
+}

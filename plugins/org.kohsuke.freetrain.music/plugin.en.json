@@ -1,0 +1,27 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.music",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "基本ＢＧＭセット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4DFF42D2-FD4A-4d45-A18A-F2882D936C73}.name",
+      "source": "開拓",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{32A3B9EB-8E86-4F4A-A314-891115B97A9F}.name",
+      "source": "新興住宅地",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4435A2E7-8B1D-4342-BA93-F2750EF48C41}.name",
+      "source": "都市",
+      "translation": ""
+    }
+  ]
+}

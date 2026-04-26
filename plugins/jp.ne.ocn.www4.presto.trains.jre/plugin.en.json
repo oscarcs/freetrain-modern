@@ -1,0 +1,147 @@
+{
+  "language": "en",
+  "plugin": "jp.ne.ocn.www4.presto.trains.jre",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "JR東日本 車両セット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{005BDC20-4885-11D8-968B-0800460222F0-titech-485K60}.name",
+      "source": "勝田区K60編成",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{005BDC20-4885-11D8-968B-0800460222F0-titech-485K60}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{005BDC20-4885-11D8-968B-0800460222F0-titech-485K60}.type",
+      "source": "485系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{005BDC20-4885-11D8-968B-0800460222F0-titech-485K60}.description",
+      "source": "勝田電車区の臨時・団臨用485系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9AD58640-3D5C-11D8-968B-0800460222F0-titech-e926}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9AD58640-3D5C-11D8-968B-0800460222F0-titech-e926}.type",
+      "source": "E926形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9AD58640-3D5C-11D8-968B-0800460222F0-titech-e926}.description",
+      "source": "JR東日本のフル規格・ミニ新幹線全線区における\n架線・線路の検査を行う新幹線電気軌道総合試験車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9AD58641-3D5C-11D8-968B-0800460222F0-titech-e2-hayate}.name",
+      "source": "はやて(ピンク帯)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9AD58641-3D5C-11D8-968B-0800460222F0-titech-e2-hayate}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9AD58641-3D5C-11D8-968B-0800460222F0-titech-e2-hayate}.type",
+      "source": "E2系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9AD58641-3D5C-11D8-968B-0800460222F0-titech-e2-hayate}.description",
+      "source": "東北新幹線八戸開業時に登場した\nピンク帯のE2系です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8773C1E0-3EDB-11D8-968B-0800460222F0-titech-e3-tsubasa}.name",
+      "source": "つばさ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8773C1E0-3EDB-11D8-968B-0800460222F0-titech-e3-tsubasa}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8773C1E0-3EDB-11D8-968B-0800460222F0-titech-e3-tsubasa}.type",
+      "source": "E3系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8773C1E0-3EDB-11D8-968B-0800460222F0-titech-e3-tsubasa}.description",
+      "source": "山形新幹線新庄延伸にともなう増備車は400系ではなく\"こまち\"と同型のE3系となった。\n銀色の車体に緑色の帯という塗色は後に400系でも採用されている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8773C1E9-3EDB-11D8-968B-0800460222F0-titech-e1-renewal}.name",
+      "source": "Max リニューアル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8773C1E9-3EDB-11D8-968B-0800460222F0-titech-e1-renewal}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8773C1E9-3EDB-11D8-968B-0800460222F0-titech-e1-renewal}.type",
+      "source": "E1系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8773C1E9-3EDB-11D8-968B-0800460222F0-titech-e1-renewal}.description",
+      "source": "平成15年末に登場したE1系Maxのリニューアル車。\n塗色がE4系と同様の塗り分けとなったが、帯の色は朱鷺色になっている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9AD58642-3D5C-11D8-968B-0800460222F0-hyate-plus-komachi}.name",
+      "source": "はやて+こまち",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9AD58642-3D5C-11D8-968B-0800460222F0-hyate-plus-komachi}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9AD58642-3D5C-11D8-968B-0800460222F0-hyate-plus-komachi}.type",
+      "source": "E2系+E3系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9AD58642-3D5C-11D8-968B-0800460222F0-hyate-plus-komachi}.description",
+      "source": "E2系\"はやて\"とE3系\"こまち\"を併結した16両編成です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8773C1E0-3EDB-11D8-968B-0800460222F0-e3pluse4}.name",
+      "source": "つばさ+Maxやまびこ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8773C1E0-3EDB-11D8-968B-0800460222F0-e3pluse4}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8773C1E0-3EDB-11D8-968B-0800460222F0-e3pluse4}.type",
+      "source": "E3系+E4系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8773C1E0-3EDB-11D8-968B-0800460222F0-e3pluse4}.description",
+      "source": "東京～福島間で見られる\"つばさ\"と\"Maxやまびこ\"の併結編成",
+      "translation": ""
+    }
+  ]
+}

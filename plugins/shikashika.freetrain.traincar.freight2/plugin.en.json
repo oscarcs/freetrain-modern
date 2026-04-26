@@ -1,0 +1,27 @@
+{
+  "language": "en",
+  "plugin": "shikashika.freetrain.traincar.freight2",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "車輌レール専用",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9D2E8E41-7777-43DE3-8C54-99470E371046}.name",
+      "source": "入換専用機",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9D2E8E41-7777-43DE3-8C54-99470E371046}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9D2E8E41-7777-43DE3-8C54-99470E371046}.description",
+      "source": "ＤＥ１０入換専用機…",
+      "translation": ""
+    }
+  ]
+}

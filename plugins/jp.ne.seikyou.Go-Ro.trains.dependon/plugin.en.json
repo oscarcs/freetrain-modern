@@ -1,0 +1,52 @@
+{
+  "language": "en",
+  "plugin": "jp.ne.seikyou.Go-Ro.trains.dependon",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "車両（車両所プラグイン依存）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{381-train-S_kuroshio-0001-4C8B212Dharu}.name",
+      "source": "スーパーくろしお",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{381-train-S_kuroshio-0001-4C8B212Dharu}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{381-train-S_kuroshio-0001-4C8B212Dharu}.type",
+      "source": "381系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{381-train-S_kuroshio-0001-4C8B212Dharu}.description",
+      "source": "4,5,6,9両編成のみ購入可能",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{kiha58-train-gassan-0001-4C8B212Dharu}.name",
+      "source": "月山色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{kiha58-train-gassan-0001-4C8B212Dharu}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{kiha58-train-gassan-0001-4C8B212Dharu}.type",
+      "source": "キハ58系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{kiha58-train-gassan-0001-4C8B212Dharu}.description",
+      "source": "2,3両編成のみ購入可能",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "language": "en",
+  "plugin": "JRcentral.tokaiface series.hermes",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "JR東海車両セット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0B1FD3131600}.name",
+      "source": "東海色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0B1FD3131600}.company",
+      "source": "JR東海",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0B1FD3131600}.type",
+      "source": "313系1600番台",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0B1FD3131600}.description",
+      "source": "JR東海によって1998年から投入が開始された近郊型車両です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0B1FD3138000}.name",
+      "source": "東海色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0B1FD3138000}.company",
+      "source": "JR東海",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0B1FD3138000}.type",
+      "source": "313系8000番台",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0B1FD3138000}.description",
+      "source": "JR東海によって1999年から投入が開始された近郊型車両です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0B1FD3730000}.company",
+      "source": "JR東海",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0B1FD3730000}.type",
+      "source": "373系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0B1FD3730000}.description",
+      "source": "JR東海によって1995年から投入が開始された特急型車両です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0B1FD3830000}.company",
+      "source": "JR東海",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0B1FD3830000}.type",
+      "source": "383系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0B1FD3830000}.description",
+      "source": "JR東海によって1996年から投入が開始された特急型車両です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1BD000DC48}.name",
+      "source": "東海色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1BD000DC48}.company",
+      "source": "JR東海",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1BD000DC48}.type",
+      "source": "キハ48形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1BD000DC48}.description",
+      "source": "JR東海の非電化区間で力走するキハ48形です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1BD000DC65}.name",
+      "source": "東海色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1BD000DC65}.company",
+      "source": "JR東海",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1BD000DC65}.type",
+      "source": "キハ65形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1BD000DC65}.description",
+      "source": "JR東海の非電化区間で走行するキハ65形です。",
+      "translation": ""
+    }
+  ]
+}

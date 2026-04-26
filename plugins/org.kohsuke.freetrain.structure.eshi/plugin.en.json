@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.structure.eshi",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物セット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{DD1224B9-2F1A-4c25-9E65-4E604F3342C7}.group",
+      "source": "吉野家",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{19F42929-9606-4cfb-A2F0-EFE323487DC6}.group",
+      "source": "吉野家",
+      "translation": ""
+    }
+  ]
+}

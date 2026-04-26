@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "jp.dion.kei_s.freetrain.rail.signal",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "鉄道用信号機",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D73E8459-D03E-4080-8147-CC76CD851C29}.name",
+      "source": "腕木式停車信号機",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{BC140A67-69E6-430E-A012-85D60577C7F5}.name",
+      "source": "腕木式通過信号機",
+      "translation": ""
+    }
+  ]
+}

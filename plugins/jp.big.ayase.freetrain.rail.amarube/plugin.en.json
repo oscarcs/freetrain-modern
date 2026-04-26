@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "jp.big.ayase.freetrain.rail.amarube",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "鉄道施設プラグイン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-AmarubeBridge-1}.group",
+      "source": "餘部鉄橋",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-AmarubeBridge-2}.group",
+      "source": "餘部鉄橋",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "language": "en",
+  "plugin": "jp.big.ayase.freetrain.rail.electricPole",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-Kasen-1-Left}.name",
+      "source": "複線用(左)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-Kasen-1-Center}.name",
+      "source": "複線用(中)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-Kasen-1-Right}.name",
+      "source": "複線用(右)",
+      "translation": ""
+    }
+  ]
+}

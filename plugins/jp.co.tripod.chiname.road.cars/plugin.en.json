@@ -1,0 +1,132 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.road.cars",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "自動車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FE805631-E213-4930-C477-9699E6F37DF8}-0,0.name",
+      "source": "ワゴン車(前)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FE805631-E213-4930-C477-9699E6F37DF8}-1,0.name",
+      "source": "ワゴン車(後)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FE805631-E213-4930-C477-9699E6F37DF8}-0,1.name",
+      "source": "1-BOX車(前)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FE805631-E213-4930-C477-9699E6F37DF8}-1,1.name",
+      "source": "1-BOX車(後)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FE805631-E213-4930-C477-9699E6F37DF8}-0,2.name",
+      "source": "セダン(前)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FE805631-E213-4930-C477-9699E6F37DF8}-1,2.name",
+      "source": "セダン(後)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FE805631-E213-4930-C477-9699E6F37DF8}-0,3.name",
+      "source": "軽自動車(前)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FE805631-E213-4930-C477-9699E6F37DF8}-1,3.name",
+      "source": "軽自動車(後)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FE805631-E213-4930-C477-9699E6F37DF8}-0,4.name",
+      "source": "トレーラ(前)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FE805631-E213-4930-C477-9699E6F37DF8}-1,4.name",
+      "source": "トレーラ(後)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FE805631-E213-4930-C477-9699E6F37DF8}-0,5.name",
+      "source": "バス(前)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FE805631-E213-4930-C477-9699E6F37DF8}-1,5.name",
+      "source": "バス(後)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FE805631-E213-4930-C477-9699E6F37DF8}-2,0.name",
+      "source": "ワゴン車*(前)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FE805631-E213-4930-C477-9699E6F37DF8}-3,0.name",
+      "source": "ワゴン車*(後)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FE805631-E213-4930-C477-9699E6F37DF8}-2,1.name",
+      "source": "1-BOX車*(前)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FE805631-E213-4930-C477-9699E6F37DF8}-3,1.name",
+      "source": "1-BOX車*(後)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FE805631-E213-4930-C477-9699E6F37DF8}-2,2.name",
+      "source": "セダン(前)*",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FE805631-E213-4930-C477-9699E6F37DF8}-3,2.name",
+      "source": "セダン(後)*",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FE805631-E213-4930-C477-9699E6F37DF8}-2,3.name",
+      "source": "軽自動車(前)*",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FE805631-E213-4930-C477-9699E6F37DF8}-3,3.name",
+      "source": "軽自動車(後)*",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FE805631-E213-4930-C477-9699E6F37DF8}-2,4.name",
+      "source": "トレーラ(前)*",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FE805631-E213-4930-C477-9699E6F37DF8}-3,4.name",
+      "source": "トレーラ(後)*",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FE805631-E213-4930-C477-9699E6F37DF8}-2,5.name",
+      "source": "バス(前)*",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FE805631-E213-4930-C477-9699E6F37DF8}-3,5.name",
+      "source": "バス(後)*",
+      "translation": ""
+    }
+  ]
+}

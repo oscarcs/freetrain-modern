@@ -1,0 +1,62 @@
+{
+  "language": "en",
+  "plugin": "info.hiyohiyo.riorio.freetrain.structure.finito-web.bridgepier",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物\u3000ボクセル端橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HEUER-BRIDGEPIER-STRUCTURE-0001}.name",
+      "source": "端高架橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HEUER-BRIDGEPIER-STRUCTURE-0003}.name",
+      "source": "端高架橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HEUER-BRIDGEPIER-STRUCTURE-0005}.name",
+      "source": "端高架橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HEUER-BRIDGEPIER-STRUCTURE-0007}.name",
+      "source": "端高架橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HEUER-BRIDGEPIER-STRUCTURE-0009}.name",
+      "source": "端高架橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HEUER-BRIDGEPIER-STRUCTURE-0011}.name",
+      "source": "端橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HEUER-BRIDGEPIER-STRUCTURE-0013}.name",
+      "source": "端橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HEUER-BRIDGEPIER-STRUCTURE-0015}.name",
+      "source": "端橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HEUER-BRIDGEPIER-STRUCTURE-0017}.name",
+      "source": "端橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HEUER-BRIDGEPIER-STRUCTURE-0019}.name",
+      "source": "端橋脚",
+      "translation": ""
+    }
+  ]
+}

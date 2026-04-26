@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "jp.big.ayase.freetrain.stationary.station",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "橋脚プラグイン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-Station-03a}.group",
+      "source": "駅下橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-Station-03b}.group",
+      "source": "駅下橋脚",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "language": "en",
+  "plugin": "1703d.kihaset1",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "気動車セット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha48kazekko}.name",
+      "source": "基本編成",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha48kazekko}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha48kazekko}.type",
+      "source": "キハ48形 びゅうコースター風っこ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha48kazekko}.description",
+      "source": "※2両編成のみ※\u3000キハ48を改造したトロッコ車両です。足元まで開いた大きな窓と、レトロ調の車内が特徴です。所属は仙台ですが、JR東日本の各線に出張して運行しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha48kazekko-kururi}.name",
+      "source": "風っこくるり号",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha48kazekko-kururi}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha48kazekko-kururi}.type",
+      "source": "キハ48形 びゅうコースター風っこ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha48kazekko-kururi}.description",
+      "source": "※4両編成のみ※\u3000久留里線で運行する風っこは、先頭にキハ38系を連結します。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha48kazekko-tadami}.name",
+      "source": "風っこ会津只見号",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha48kazekko-tadami}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha48kazekko-tadami}.type",
+      "source": "キハ48形 びゅうコースター風っこ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha48kazekko-tadami}.description",
+      "source": "※3両編成のみ※\u3000新潟県の長岡から福島県の只見まで運行した風っこ号です。途中に六十里越トンネルがあるため、風除け用に一般車両を連結しました。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha48kazekko-senzan}.name",
+      "source": "風っこ仙山もみじ号",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha48kazekko-senzan}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha48kazekko-senzan}.type",
+      "source": "キハ48形 びゅうコースター風っこ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha48kazekko-senzan}.description",
+      "source": "※2両編成のみ※\u3000仙山線を運行した風っこ号です。途中に急勾配があるため、エンジンが強力な一般車両を連結しました。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha48kazekko-hanakairo}.name",
+      "source": "風っこ花回廊号",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha48kazekko-hanakairo}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha48kazekko-hanakairo}.type",
+      "source": "キハ48形 びゅうコースター風っこ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha48kazekko-hanakairo}.description",
+      "source": "※2両編成のみ※\u3000山形鉄道フラワー長井線を運行した風っこ号です。途中に急勾配があるため、エンジンが強力な一般車両を連結しました。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha40sanin}.name",
+      "source": "山陰本線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha40sanin}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha40sanin}.type",
+      "source": "キハ40形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha40sanin}.description",
+      "source": "鳥取県、兵庫県内の山陰本線を走るキハ40系列です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha40himi}.name",
+      "source": "氷見・城端線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha40himi}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha40himi}.type",
+      "source": "キハ40形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha40himi}.description",
+      "source": "氷見線と城端線を走るキハ40系列です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha40kibi}.name",
+      "source": "吉備線ほか",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha40kibi}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha40kibi}.type",
+      "source": "キハ40形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha40kibi}.description",
+      "source": "岡山地区を走るキハ40系列です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha52oito}.name",
+      "source": "大糸線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha52oito}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha52oito}.type",
+      "source": "キハ52形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha52oito}.description",
+      "source": "大糸線を走るキハ52形です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha101aterazawa}.name",
+      "source": "左沢線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha101aterazawa}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha101aterazawa}.type",
+      "source": "キハ100系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha101aterazawa}.description",
+      "source": "左沢線を走るキハ100系(キハ101形)です。トイレなし、オールロングシートの編成です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha110riku}.name",
+      "source": "陸羽東線･陸羽西線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha110riku}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha110riku}.type",
+      "source": "キハ110系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha110riku}.description",
+      "source": "陸羽東線・陸羽西線を走るキハ110系です。他の路線とは車体の色が異なります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha111riku}.name",
+      "source": "陸羽東線･陸羽西線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha111riku}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha111riku}.type",
+      "source": "キハ111･112系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kiha111riku}.description",
+      "source": "陸羽東線･陸羽西線を走るキハ111･112系です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kihaE120}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kihaE120}.type",
+      "source": "キハE120形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kihaE120}.description",
+      "source": "磐越西線・羽越線・米坂線を走る新型の気動車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kihaE130}.name",
+      "source": "水郡線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kihaE130}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kihaE130}.type",
+      "source": "キハE130形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kihaE130}.description",
+      "source": "水郡線を走る新型の気動車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kihaE131}.name",
+      "source": "水郡線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kihaE131}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kihaE131}.type",
+      "source": "キハE131･132系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kihaE131}.description",
+      "source": "水郡線を走る2両編成のキハE131･132系です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kihaE200}.name",
+      "source": "こうみ号",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kihaE200}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kihaE200}.type",
+      "source": "キハE200形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-kihaE200}.description",
+      "source": "2007年に、世界初のディーゼルハイブリッド電車として登場した車両です。小海線を走ります。",
+      "translation": ""
+    }
+  ]
+}

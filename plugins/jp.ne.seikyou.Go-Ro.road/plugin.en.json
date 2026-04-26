@@ -1,0 +1,62 @@
+{
+  "language": "en",
+  "plugin": "jp.ne.seikyou.Go-Ro.road",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "道路（FreeTrain-想作館）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9257AF06-6515-6BC1-8160-5336FDF6FB6B}.name",
+      "source": "アーケード",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9257AF06-6515-6BC1-8160-5336FDF6FB6B}.description",
+      "source": "アーケード",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{road_001-road-C000-0000-4C8B212DD67q}.name",
+      "source": "生活道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{road_001-road-C000-0000-4C8B212DD67q}.description",
+      "source": "生活道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{road_002-road-C000-0000-4C8B212DD67q}.name",
+      "source": "橋脚（重層高架対応）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{road_002-road-C000-0000-4C8B212DD67q}.description",
+      "source": "橋脚（重層高架対応）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{road_003-road-C000-0000-4C8B212DD67q}.name",
+      "source": "高架橋桁",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{road_003-road-C000-0000-4C8B212DD67q}.description",
+      "source": "高架橋桁",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{sidewalk_001-road-C000-0000-4C8B212DD67q}.name",
+      "source": "けやき並木の歩道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{sidewalk_001-road-C000-0000-4C8B212DD67q}.description",
+      "source": "けやき並木の歩道",
+      "translation": ""
+    }
+  ]
+}

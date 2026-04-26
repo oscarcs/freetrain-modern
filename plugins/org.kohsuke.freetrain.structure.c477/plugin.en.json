@@ -1,0 +1,257 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.structure.c477",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物セット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{BC43CE38-601A-42c7-992A-6049CCD29B94}.name",
+      "source": "セブンイレブン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{BC43CE38-601A-42c7-992A-6049CCD29B94}.group",
+      "source": "コンビニ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2C3ED0DA-FBA1-4586-9691-67DC93B851C9}.name",
+      "source": "老舗百貨店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9F3E82AD-2A49-4aef-954C-E872F535B3D8}.name",
+      "source": "分譲マンション",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{27D6D0C0-2B1A-4494-9257-14C208168075}.name",
+      "source": "分譲住宅一戸建て",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B99FA2F7-F138-46a1-99F7-34AE23A157F6}-0.name",
+      "source": "中層雑居オフィスビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B99FA2F7-F138-46a1-99F7-34AE23A157F6}-1.name",
+      "source": "中層雑居オフィスビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B99FA2F7-F138-46a1-99F7-34AE23A157F6}-2.name",
+      "source": "中層雑居オフィスビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B99FA2F7-F138-46a1-99F7-34AE23A157F6}-3.name",
+      "source": "中層雑居オフィスビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B99FA2F7-F138-46a1-99F7-34AE23A157F6}-4.name",
+      "source": "中層雑居オフィスビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B99FA2F7-F138-46a1-99F7-34AE23A157F6}-5.name",
+      "source": "中層雑居オフィスビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B99FA2F7-F138-46a1-99F7-34AE23A157F6}-6.name",
+      "source": "中層雑居オフィスビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B99FA2F7-F138-46a1-99F7-34AE23A157F6}-7.name",
+      "source": "中層雑居オフィスビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{442C7E12-A3BA-4c25-9129-C3803EA760BC}.group",
+      "source": "貸しビル(A)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8495D468-B2EF-4816-9C2A-67D8D68FCBDA}.group",
+      "source": "貸しビル(A)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1E3FC997-DD98-4b47-82E0-D1C5914B9537}.group",
+      "source": "貸しビル(A)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{615FF4AA-898E-466f-8004-1855F82C1B5B}.group",
+      "source": "貸しビル(A)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9BF4DD25-050A-4633-BC8B-0B8B226FC5E8}.group",
+      "source": "貸しビル(ヘリポート付)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5E12C371-F928-40f4-B661-FFC2DC71750E}.group",
+      "source": "貸しビル(ヘリポート付)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D57200E0-8E73-4899-8EEC-0E9AC95C3D40}.group",
+      "source": "新宿三井ビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{200CC5B5-6F63-4A49-99FF-537DC8EE3DC2}.group",
+      "source": "新宿三井ビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6E3D2FBA-4A74-426C-88E3-4787E3946543}.group",
+      "source": "新宿三井ビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{488D9D06-46B1-45EA-8DCE-61B1041254A2}.group",
+      "source": "新宿三井ビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C35B9F7A-7D69-4D1B-9B92-D05CBF4C20D7}.group",
+      "source": "新宿住友ビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A9E3F58D-5DB9-4CEF-8BC1-26DDBDD356C1}.group",
+      "source": "新宿住友ビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5BD744B4-195B-4609-91A0-42B69A747349}.group",
+      "source": "新宿住友ビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{409ECEB5-C9A9-4516-B96C-C87FB2B93F32}.group",
+      "source": "新宿住友ビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C35B9F7A-7D69-4D1B-9B92-D05CBF4C20D7}-a.group",
+      "source": "新宿住友ビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A9E3F58D-5DB9-4CEF-8BC1-26DDBDD356C1}-a.group",
+      "source": "新宿住友ビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5BD744B4-195B-4609-91A0-42B69A747349}-a.group",
+      "source": "新宿住友ビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{409ECEB5-C9A9-4516-B96C-C87FB2B93F32}-a.group",
+      "source": "新宿住友ビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C35B9F7A-7D69-4D1B-9B92-D05CBF4C20D7}-b.group",
+      "source": "新宿住友ビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A9E3F58D-5DB9-4CEF-8BC1-26DDBDD356C1}-b.group",
+      "source": "新宿住友ビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5BD744B4-195B-4609-91A0-42B69A747349}-b.group",
+      "source": "新宿住友ビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{409ECEB5-C9A9-4516-B96C-C87FB2B93F32}-b.group",
+      "source": "新宿住友ビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1F81CA6C-4D44-418B-A242-A9E4104648D3}.name",
+      "source": "小規模雑居ビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5FACC378-154D-4FAE-8BDE-3C2DA1BAB635}.name",
+      "source": "小規模雑居ビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{736F1D68-3796-43F7-8495-11AE63F86F8E}.name",
+      "source": "小規模雑居ビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{813736D4-63A5-44DE-884C-7B10CFAEA582}.name",
+      "source": "小規模雑居ビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{542C633F-5F59-495E-9CF2-9BB46980F9EA}.name",
+      "source": "小規模雑居ビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{346B2781-75A7-4EE3-BF36-9C8B212DD678}.name",
+      "source": "小規模雑居ビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{40CBC11A-36B2-40BB-9A2D-EAA48973C478}.group",
+      "source": "貸しビル(A)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8495D468-B2EF-4816-9C2A-67D8D68F0002}.group",
+      "source": "貸しビル(A)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1E3FC997-DD98-4b47-82E0-D1C5914B0002}.group",
+      "source": "貸しビル(A)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{615FF4AA-898E-466f-8004-1855F82C0002}.group",
+      "source": "貸しビル(A)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{40CBC11A-36B2-40BB-C477-EAA48973C478}.group",
+      "source": "貸しビル(A)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8495D468-B2EF-4816-C477-67D8D68F0002}.group",
+      "source": "貸しビル(A)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1E3FC997-DD98-4b47-C477-D1C5914B0002}.group",
+      "source": "貸しビル(A)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{615FF4AA-898E-466f-C477-1855F82C0002}.group",
+      "source": "貸しビル(A)",
+      "translation": ""
+    }
+  ]
+}

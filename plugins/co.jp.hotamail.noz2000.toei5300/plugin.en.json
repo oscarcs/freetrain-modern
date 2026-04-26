@@ -1,0 +1,52 @@
+{
+  "language": "en",
+  "plugin": "co.jp.hotamail.noz2000.toei5300",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "浅草線5300形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CDFFEE93-834A-425D-AF78-AB902D199D58}.name",
+      "source": "浅草線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CDFFEE93-834A-425D-AF78-AB902D199D58}.company",
+      "source": "東京都交通局",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CDFFEE93-834A-425D-AF78-AB902D199D58}.type",
+      "source": "5300形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CDFFEE93-834A-425D-AF78-AB902D199D58}.description",
+      "source": "1991年に老朽化した5000形の置き換えのために登場した車両。この車両は高速です。4、8両編を用意しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{663188F5-8DF2-4396-989A-E44B17CD2DE4}.name",
+      "source": "浅草線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{663188F5-8DF2-4396-989A-E44B17CD2DE4}.company",
+      "source": "東京都交通局",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{663188F5-8DF2-4396-989A-E44B17CD2DE4}.type",
+      "source": "5300形（高）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{663188F5-8DF2-4396-989A-E44B17CD2DE4}.description",
+      "source": "1991年に老朽化した5000形の置き換えのために登場した車両。この車両は中速です。4、8両編を用意しています。",
+      "translation": ""
+    }
+  ]
+}

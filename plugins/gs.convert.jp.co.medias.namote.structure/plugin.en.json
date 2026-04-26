@@ -1,0 +1,52 @@
+{
+  "language": "en",
+  "plugin": "gs.convert.jp.co.medias.namote.structure",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物総合コンバート\u3000なもー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A5BD857C-F2A1-4218-936C-C61EA4D28084-1}-gs.group",
+      "source": "サークルK",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A5BD857C-F2A1-4218-936C-C61EA4D28085-1}-gs.group",
+      "source": "美富士食堂",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FD978351-73CE-442E-8816-76DBA52E8875-1}-gs.group",
+      "source": "小型ショッピングセンター",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FD978351-73CE-442E-8816-76DBA52E8875-3}-gs.group",
+      "source": "小型ショッピングセンター",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FD978351-73CE-442E-8816-76DBA52E8875-5}-gs.group",
+      "source": "小型ショッピングセンター",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FD978351-73CE-442E-8816-76DBA52E8877-1}-gs.group",
+      "source": "中型ショッピングセンター",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FD978351-73CE-442E-8816-76DBA52E8877-3}-gs.group",
+      "source": "中型ショッピングセンター",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FD978351-73CE-442E-8816-76DBA52E8877-5}-gs.group",
+      "source": "中型ショッピングセンター",
+      "translation": ""
+    }
+  ]
+}

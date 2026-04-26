@@ -1,0 +1,912 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.trains.jrw",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "JR西日本 車両キット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{105-west-hirosima-200309291117}.name",
+      "source": "普通",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{105-west-hirosima-200309291117}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{105-west-hirosima-200309291117}.type",
+      "source": "105系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{105-west-hirosima-200309291117}.description",
+      "source": "広島・下関などで走っている電車。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{kiha48-yamaguchi-200309291044}.name",
+      "source": "山陰本線山口地区",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{kiha48-yamaguchi-200309291044}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{kiha48-yamaguchi-200309291044}.type",
+      "source": "キハ48系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{kiha48-yamaguchi-200309291044}.description",
+      "source": "山陰本線の長門市～小串間などで運転されています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9C545BB6-A759-4373-9D62-3E3E2A6F489E}.name",
+      "source": "広島",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9C545BB6-A759-4373-9D62-3E3E2A6F489E}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9C545BB6-A759-4373-9D62-3E3E2A6F489E}.type",
+      "source": "103系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9C545BB6-A759-4373-9D62-3E3E2A6F489E}.description",
+      "source": "広島色の１０３系電車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{113-westsanyo-200309301056}.name",
+      "source": "山陽本線など",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{113-westsanyo-200309301056}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{113-westsanyo-200309301056}.type",
+      "source": "113系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{113-westsanyo-200309301056}.description",
+      "source": "山陽本線の普通などです。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1E0A8EAD-2345-474E-8954-09FFEF25C901}.name",
+      "source": "カナリア(高運)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1E0A8EAD-2345-474E-8954-09FFEF25C901}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1E0A8EAD-2345-474E-8954-09FFEF25C901}.type",
+      "source": "103系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1E0A8EAD-2345-474E-8954-09FFEF25C901}.description",
+      "source": "国鉄で製作された車両だが、今もJR西日本には大量に残っている。主に大阪環状線など東海道本線に隣接する各線に投入されている。アコモ改善車も出ており、まだまだ残りそうな気がする。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{126EFCAE-3BD0-4A2F-9EAC-1373A0D5C91E}.name",
+      "source": "カナリア",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{126EFCAE-3BD0-4A2F-9EAC-1373A0D5C91E}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{126EFCAE-3BD0-4A2F-9EAC-1373A0D5C91E}.type",
+      "source": "103系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{126EFCAE-3BD0-4A2F-9EAC-1373A0D5C91E}.description",
+      "source": "国鉄で製作された車両だが、今もJR西日本には大量に残っている。主に大阪環状線など東海道本線に隣接する各線に投入されている。アコモ改善車も出ており、まだまだ残りそうな気がする。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{47D5B403-16FE-4449-A673-0DF75C1CC7D9}.name",
+      "source": "カナリア(帯)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{47D5B403-16FE-4449-A673-0DF75C1CC7D9}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{47D5B403-16FE-4449-A673-0DF75C1CC7D9}.type",
+      "source": "103系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{47D5B403-16FE-4449-A673-0DF75C1CC7D9}.description",
+      "source": "国鉄で製作された車両だが、今もJR西日本には大量に残っている。主に大阪環状線など東海道本線に隣接する各線に投入されている。アコモ改善車も出ており、まだまだ残りそうな気がする。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{635BCE32-9A65-4586-B9F4-23790926567F}.name",
+      "source": "カナリア(高/帯)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{635BCE32-9A65-4586-B9F4-23790926567F}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{635BCE32-9A65-4586-B9F4-23790926567F}.type",
+      "source": "103系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{635BCE32-9A65-4586-B9F4-23790926567F}.description",
+      "source": "国鉄で製作された車両だが、今もJR西日本には大量に残っている。主に大阪環状線など東海道本線に隣接する各線に投入されている。アコモ改善車も出ており、まだまだ残りそうな気がする。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D6910F49-998A-4DCA-840D-654ACEFB3B8B}.name",
+      "source": "スカイブルー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D6910F49-998A-4DCA-840D-654ACEFB3B8B}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D6910F49-998A-4DCA-840D-654ACEFB3B8B}.type",
+      "source": "103系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D6910F49-998A-4DCA-840D-654ACEFB3B8B}.description",
+      "source": "国鉄で製作された車両だが、今もJR西日本には大量に残っている。主に大阪環状線など東海道本線に隣接する各線に投入されている。アコモ改善車も出ており、まだまだ残りそうな気がする。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2EE9B1AF-4FCD-416D-8C82-EC8EFC0CF1E9}.name",
+      "source": "スカイブルー(帯)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2EE9B1AF-4FCD-416D-8C82-EC8EFC0CF1E9}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2EE9B1AF-4FCD-416D-8C82-EC8EFC0CF1E9}.type",
+      "source": "103系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2EE9B1AF-4FCD-416D-8C82-EC8EFC0CF1E9}.description",
+      "source": "国鉄で製作された車両だが、今もJR西日本には大量に残っている。主に大阪環状線など東海道本線に隣接する各線に投入されている。アコモ改善車も出ており、まだまだ残りそうな気がする。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{37AA1DA0-40DB-4041-B19B-13FA223E5A12}.name",
+      "source": "ウグイス(帯)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{37AA1DA0-40DB-4041-B19B-13FA223E5A12}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{37AA1DA0-40DB-4041-B19B-13FA223E5A12}.type",
+      "source": "103系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{37AA1DA0-40DB-4041-B19B-13FA223E5A12}.description",
+      "source": "国鉄で製作された車両だが、今もJR西日本には大量に残っている。主に大阪環状線など東海道本線に隣接する各線に投入されている。アコモ改善車も出ており、まだまだ残りそうな気がする。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7D30E5FA-A1E8-442b-9E07-8F993B5C898E}.name",
+      "source": "ウグイス",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7D30E5FA-A1E8-442b-9E07-8F993B5C898E}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7D30E5FA-A1E8-442b-9E07-8F993B5C898E}.type",
+      "source": "103系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7D30E5FA-A1E8-442b-9E07-8F993B5C898E}.description",
+      "source": "国鉄で製作された車両だが、今もJR西日本には大量に残っている。主に大阪環状線など東海道本線に隣接する各線に投入されている。アコモ改善車も出ており、まだまだ残りそうな気がする。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{37B8F72F-9366-414A-AEFF-0CC2BC84496E}.name",
+      "source": "ウグイス(高運)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{37B8F72F-9366-414A-AEFF-0CC2BC84496E}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{37B8F72F-9366-414A-AEFF-0CC2BC84496E}.type",
+      "source": "103系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{37B8F72F-9366-414A-AEFF-0CC2BC84496E}.description",
+      "source": "国鉄で製作された車両だが、今もJR西日本には大量に残っている。主に大阪環状線など東海道本線に隣接する各線に投入されている。アコモ改善車も出ており、まだまだ残りそうな気がする。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FDB8C7BA-2280-4AAB-8700-75DFDFE234BA}.name",
+      "source": "ウグイス(高/帯)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FDB8C7BA-2280-4AAB-8700-75DFDFE234BA}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FDB8C7BA-2280-4AAB-8700-75DFDFE234BA}.type",
+      "source": "103系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FDB8C7BA-2280-4AAB-8700-75DFDFE234BA}.description",
+      "source": "国鉄で製作された車両だが、今もJR西日本には大量に残っている。主に大阪環状線など東海道本線に隣接する各線に投入されている。アコモ改善車も出ており、まだまだ残りそうな気がする。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D451BE6E-0B9B-4627-B284-C1BC9380E006}.name",
+      "source": "ウグイス(高運)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D451BE6E-0B9B-4627-B284-C1BC9380E006}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D451BE6E-0B9B-4627-B284-C1BC9380E006}.type",
+      "source": "103系(更新)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D451BE6E-0B9B-4627-B284-C1BC9380E006}.description",
+      "source": "国鉄で製作された車両だが、今もJR西日本には大量に残っている。主に大阪環状線など東海道本線に隣接する各線に投入されている。アコモ改善車も出ており、まだまだ残りそうな気がする。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{30671293-7818-42DC-9393-91AB30F05796}.name",
+      "source": "ウグイス",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{30671293-7818-42DC-9393-91AB30F05796}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{30671293-7818-42DC-9393-91AB30F05796}.type",
+      "source": "103系(更新)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{30671293-7818-42DC-9393-91AB30F05796}.description",
+      "source": "国鉄で製作された車両だが、今もJR西日本には大量に残っている。主に大阪環状線など東海道本線に隣接する各線に投入されている。アコモ改善車も出ており、まだまだ残りそうな気がする。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{757C3EA4-7222-4800-AB0B-34E137EC90BD}.name",
+      "source": "オレンジ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{757C3EA4-7222-4800-AB0B-34E137EC90BD}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{757C3EA4-7222-4800-AB0B-34E137EC90BD}.type",
+      "source": "103系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{757C3EA4-7222-4800-AB0B-34E137EC90BD}.description",
+      "source": "国鉄で製作された車両だが、今もJR西日本には大量に残っている。主に大阪環状線など東海道本線に隣接する各線に投入されている。アコモ改善車も出ており、まだまだ残りそうな気がする。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{39C6DEAB-E46E-46AB-9D7C-DD9F5BB49B9B}.name",
+      "source": "オレンジ(帯)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{39C6DEAB-E46E-46AB-9D7C-DD9F5BB49B9B}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{39C6DEAB-E46E-46AB-9D7C-DD9F5BB49B9B}.type",
+      "source": "103系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{39C6DEAB-E46E-46AB-9D7C-DD9F5BB49B9B}.description",
+      "source": "国鉄で製作された車両だが、今もJR西日本には大量に残っている。主に大阪環状線など東海道本線に隣接する各線に投入されている。アコモ改善車も出ており、まだまだ残りそうな気がする。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4EC47FBE-50BB-4BB6-A635-F539BD7F9696}.name",
+      "source": "オレンジ(高/帯)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4EC47FBE-50BB-4BB6-A635-F539BD7F9696}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4EC47FBE-50BB-4BB6-A635-F539BD7F9696}.type",
+      "source": "103系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4EC47FBE-50BB-4BB6-A635-F539BD7F9696}.description",
+      "source": "国鉄で製作された車両だが、今もJR西日本には大量に残っている。主に大阪環状線など東海道本線に隣接する各線に投入されている。アコモ改善車も出ており、まだまだ残りそうな気がする。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{F36364AB-A04D-417B-AEDF-A6001776868E}.name",
+      "source": "オレンジ(高運)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{F36364AB-A04D-417B-AEDF-A6001776868E}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{F36364AB-A04D-417B-AEDF-A6001776868E}.type",
+      "source": "103系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{F36364AB-A04D-417B-AEDF-A6001776868E}.description",
+      "source": "国鉄で製作された車両だが、今もJR西日本には大量に残っている。主に大阪環状線など東海道本線に隣接する各線に投入されている。アコモ改善車も出ており、まだまだ残りそうな気がする。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{824FEBCF-DA7E-4F15-82BD-4FF84ADF2081}.name",
+      "source": "オレンジ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{824FEBCF-DA7E-4F15-82BD-4FF84ADF2081}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{824FEBCF-DA7E-4F15-82BD-4FF84ADF2081}.type",
+      "source": "103系(更新)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{824FEBCF-DA7E-4F15-82BD-4FF84ADF2081}.description",
+      "source": "国鉄で製作された車両だが、今もJR西日本には大量に残っている。主に大阪環状線など東海道本線に隣接する各線に投入されている。アコモ改善車も出ており、まだまだ残りそうな気がする。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{927DFD1A-BC83-4D69-9C4A-43849E32A6A3}.name",
+      "source": "オレンジ(高運)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{927DFD1A-BC83-4D69-9C4A-43849E32A6A3}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{927DFD1A-BC83-4D69-9C4A-43849E32A6A3}.type",
+      "source": "103系(更新)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{927DFD1A-BC83-4D69-9C4A-43849E32A6A3}.description",
+      "source": "国鉄で製作された車両だが、今もJR西日本には大量に残っている。主に大阪環状線など東海道本線に隣接する各線に投入されている。アコモ改善車も出ており、まだまだ残りそうな気がする。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{601EB279-695B-4A1C-AC30-501BB922FCAB}.name",
+      "source": "ワインレッド",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{601EB279-695B-4A1C-AC30-501BB922FCAB}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{601EB279-695B-4A1C-AC30-501BB922FCAB}.type",
+      "source": "103系3500番台",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{601EB279-695B-4A1C-AC30-501BB922FCAB}.description",
+      "source": "電化された播但線にアコモ更新工事を行い２両編成化され、ニューカラーのワインレッドをまとった103系が登場した。系式が多少変わり3500番台となった。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D58C512B-EF18-4f09-ABD6-4548F51FC8F4}.name",
+      "source": "広島色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D58C512B-EF18-4f09-ABD6-4548F51FC8F4}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D58C512B-EF18-4f09-ABD6-4548F51FC8F4}.type",
+      "source": "103系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D58C512B-EF18-4f09-ABD6-4548F51FC8F4}.description",
+      "source": "広島運転所の103系。山陽・呉・可部線を走る。広島地区のラッシュ時に威力を発揮。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3CEAE6F4-3D11-4aef-B301-4D5236B380F6}.name",
+      "source": "岡山色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3CEAE6F4-3D11-4aef-B301-4D5236B380F6}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3CEAE6F4-3D11-4aef-B301-4D5236B380F6}.type",
+      "source": "103系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3CEAE6F4-3D11-4aef-B301-4D5236B380F6}.description",
+      "source": "岡山電車区の103系。ウグイス地に白のラインが入る。主に三原～岡山間の運用。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0C7E97A3-5F15-4694-92F5-8905846A8305}.name",
+      "source": "湘南色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0C7E97A3-5F15-4694-92F5-8905846A8305}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0C7E97A3-5F15-4694-92F5-8905846A8305}.type",
+      "source": "165系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0C7E97A3-5F15-4694-92F5-8905846A8305}.description",
+      "source": "急行型電車。現在この色での定期運用はないはず。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AE18014C-4049-4FA8-997E-D2CEF86DDAA5}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AE18014C-4049-4FA8-997E-D2CEF86DDAA5}.type",
+      "source": "221系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AE18014C-4049-4FA8-997E-D2CEF86DDAA5}.description",
+      "source": "JR西日本に転換された後、新快速用電車として登場した。今はその座を223系に譲り、持ち味の設備のよさをウリに各地の快速電車に使用されている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{74783521-233A-4e40-8CDD-296816AF2D4A}.name",
+      "source": "湘南色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{74783521-233A-4e40-8CDD-296816AF2D4A}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{74783521-233A-4e40-8CDD-296816AF2D4A}.type",
+      "source": "113系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{74783521-233A-4e40-8CDD-296816AF2D4A}.description",
+      "source": "JR西日本では主にJR京都線、嵯峨野線などで使用されている。しかし、現在走っているほぼ全ての車両は110km/h運転対応の5000番台である。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CACFA13E-CF0B-4aa3-BBF2-1160F39D7EEE}.name",
+      "source": "広島色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CACFA13E-CF0B-4aa3-BBF2-1160F39D7EEE}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CACFA13E-CF0B-4aa3-BBF2-1160F39D7EEE}.type",
+      "source": "115系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CACFA13E-CF0B-4aa3-BBF2-1160F39D7EEE}.description",
+      "source": "主に山陽本線の、広島・山口県を走る電車。揺れるわトイレがない車両があるわ・・・。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{28A61792-A817-408a-8020-E60F09EDDE14}.name",
+      "source": "はるか",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{28A61792-A817-408a-8020-E60F09EDDE14}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{28A61792-A817-408a-8020-E60F09EDDE14}.type",
+      "source": "281系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{28A61792-A817-408a-8020-E60F09EDDE14}.description",
+      "source": "関西空港開業に合わせて運転を開始する関空アクセス特急「はるか」用に製作された車両。JR京都線～梅田貨物線～大阪環状線～阪和線～関西空港線と多彩な線区を通って空港と京都を結ぶ。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A4285FD3-A30E-46ab-A6D6-AAB0AB629E73}.name",
+      "source": "前面ボンネット無・雷鳥",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A4285FD3-A30E-46ab-A6D6-AAB0AB629E73}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A4285FD3-A30E-46ab-A6D6-AAB0AB629E73}.type",
+      "source": "485系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A4285FD3-A30E-46ab-A6D6-AAB0AB629E73}.description",
+      "source": "昭和43年に登場した交直両用特急電車。登場以来数々の特急の代名詞となった。関西では主に「雷鳥」と呼ばれる。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{34EAB05E-16BD-407f-A546-1CFC1B7EA960}.name",
+      "source": "月光形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{34EAB05E-16BD-407f-A546-1CFC1B7EA960}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{34EAB05E-16BD-407f-A546-1CFC1B7EA960}.type",
+      "source": "581/583系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{34EAB05E-16BD-407f-A546-1CFC1B7EA960}.description",
+      "source": "高度経済成長のさなか車両運用の効率化を図るため登場した世界で初めての電車寝台特急。愛称となった「月光」をはじめ、「ゆうづる」や「彗星」など数々の特急として運転された。現在、定期運用されるのは大阪～新潟間の急行「きたぐに」だけである。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{590AEC5B-F34F-40df-ADD2-62CF53A7086A}.name",
+      "source": "オーシャンアロー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{590AEC5B-F34F-40df-ADD2-62CF53A7086A}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{590AEC5B-F34F-40df-ADD2-62CF53A7086A}.type",
+      "source": "283系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{590AEC5B-F34F-40df-ADD2-62CF53A7086A}.description",
+      "source": "京都・新大阪～新宮間の特急「オーシャンアロー」に使用されている制御振り子式特急車。併結が可能な先頭車もあり、多客期の増解結に対応している。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9DB3034D-D1C6-459c-A7ED-D169005F38E3}.name",
+      "source": "関空快速、ウイング",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9DB3034D-D1C6-459c-A7ED-D169005F38E3}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9DB3034D-D1C6-459c-A7ED-D169005F38E3}.type",
+      "source": "223系0番台",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9DB3034D-D1C6-459c-A7ED-D169005F38E3}.description",
+      "source": "阪神大震災によって失った車両を補うために予定よりも早く登場した車両。以前は関空特快「ウイング」に使用されていたが、現在は主に関空快速や紀州路快速として運転されている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{833B259F-DD28-4b64-9C53-1D4BBB6FB23F}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{833B259F-DD28-4b64-9C53-1D4BBB6FB23F}.type",
+      "source": "223系1000番台",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{833B259F-DD28-4b64-9C53-1D4BBB6FB23F}.description",
+      "source": "JR京都線の新快速を130km/hで運転するために製作された車両。座席が221系より減ったため補助座席を設けている。主に8両から12両で運転されている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C7E851E8-8F28-4e10-93FD-8BDABC0A7A6F}.name",
+      "source": "500系のぞみ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C7E851E8-8F28-4e10-93FD-8BDABC0A7A6F}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C7E851E8-8F28-4e10-93FD-8BDABC0A7A6F}.type",
+      "source": "500系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C7E851E8-8F28-4e10-93FD-8BDABC0A7A6F}.description",
+      "source": "1997年山陽新幹線でデビューし当時のフランス・TGVと並ぶ世界最高の300㎞／hでの営業運転を開始した\n先頭形状が従来新幹線より超ロングノーズになり、１５／２７ｍもの長さに達する。\n車体断面もよりチューブ化が進み、航空機を思わせる車体形状をしている。\n「グッドデザイン賞」、「1998年ブルーリボン賞」「1998年ブルネル賞奨励賞」を受賞。\n16両編成。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C07DEFB7-001D-48de-9B73-79002176DFE8}.name",
+      "source": "のぞみ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C07DEFB7-001D-48de-9B73-79002176DFE8}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C07DEFB7-001D-48de-9B73-79002176DFE8}.type",
+      "source": "500系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C07DEFB7-001D-48de-9B73-79002176DFE8}.description",
+      "source": "山陽区間では最高速度300km/hで運転される、まさに超高速な列車。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{98F356BA-CC4A-4408-A79A-C1518259C3AD}.name",
+      "source": "のぞみ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{98F356BA-CC4A-4408-A79A-C1518259C3AD}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{98F356BA-CC4A-4408-A79A-C1518259C3AD}.type",
+      "source": "700系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{98F356BA-CC4A-4408-A79A-C1518259C3AD}.description",
+      "source": "JR東海とJR西日本の共同開発による東海道・山陽新幹線用車両。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3895E321-4D84-43eb-ADC4-64A52BF225D6}.name",
+      "source": "ひかりRail Star",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3895E321-4D84-43eb-ADC4-64A52BF225D6}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3895E321-4D84-43eb-ADC4-64A52BF225D6}.type",
+      "source": "700系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3895E321-4D84-43eb-ADC4-64A52BF225D6}.description",
+      "source": "山陽区間限定の「ひかりRail Star」用の700系E編成。8両編成。\n左右2人掛けの指定席やコンパートメント、サイレンスカーなどが特徴。\n最高速度は285km/h。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7BCF90BF-2FA5-4e88-B50D-91BBDA656C8A}.name",
+      "source": "ひかり、こだま",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7BCF90BF-2FA5-4e88-B50D-91BBDA656C8A}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7BCF90BF-2FA5-4e88-B50D-91BBDA656C8A}.type",
+      "source": "0系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7BCF90BF-2FA5-4e88-B50D-91BBDA656C8A}.description",
+      "source": "新幹線最初の東海道・山陽新幹線用車両",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6CF0D819-D01C-4fb5-BAF8-B1944499582B}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6CF0D819-D01C-4fb5-BAF8-B1944499582B}.type",
+      "source": "922系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6CF0D819-D01C-4fb5-BAF8-B1944499582B}.description",
+      "source": "東海道・山陽新幹線用のDr.Yellow",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2003-0211-KIGAMI-TrainImg-100re}.name",
+      "source": "ひかり・こだま リニューアルカラー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2003-0211-KIGAMI-TrainImg-100re}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2003-0211-KIGAMI-TrainImg-100re}.type",
+      "source": "100系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2003-0211-KIGAMI-TrainImg-100re}.description",
+      "source": "現役を退いた100系を改造、リニューアルして山陽新幹線区間を主に4,6両で運行されています",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2003-0211-KIGAMI-TrainImg-500-900}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2003-0211-KIGAMI-TrainImg-500-900}.type",
+      "source": "500系900番台",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2003-0211-KIGAMI-TrainImg-500-900}.description",
+      "source": "JR西日本の新幹線試験車両",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0406060154}nanao.name",
+      "source": "七尾線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0406060154}nanao.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0406060154}nanao.type",
+      "source": "415系800番台",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0406060154}nanao.description",
+      "source": "七尾線用415系。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2003-0211-KIGAMI-TrainImg-100-Gw}.name",
+      "source": "G編成 ひかり・こだま",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2003-0211-KIGAMI-TrainImg-100-Gw}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2003-0211-KIGAMI-TrainImg-100-Gw}.type",
+      "source": "100系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2003-0211-KIGAMI-TrainImg-100-Gw}.description",
+      "source": "東海道・山陽新幹線用車両。\n当時0系のみだった新幹線に衝撃を与えた車両。\n16両編成では2階建て車両があり、そこからの景色は格別\nこのG編成は、2階建てグリーン車を2両連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2003-0211-KIGAMI-TrainImg-100-V}.name",
+      "source": "V編成 ひかり",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2003-0211-KIGAMI-TrainImg-100-V}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2003-0211-KIGAMI-TrainImg-100-V}.type",
+      "source": "100系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2003-0211-KIGAMI-TrainImg-100-V}.description",
+      "source": "東海道・山陽新幹線用車両。\n当時0系のみだった新幹線に衝撃を与えた車両。\n16両編成では2階建て車両があり、そこからの景色は格別。\nこのV編成はグランドひかりの愛称を与えられ、2階建て食堂車とグリーン車3両を連結しています。",
+      "translation": ""
+    }
+  ]
+}

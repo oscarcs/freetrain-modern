@@ -1,0 +1,52 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.structure.campus",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "学園",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-00.group",
+      "source": "校舎風建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-04.group",
+      "source": "校舎風建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-08.group",
+      "source": "校舎風建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6DB9A7A9-EC5C-4501-C477-F7D99D54D45C}-12.group",
+      "source": "校舎風建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E69A12C2-1599-420D-C477-4E2DE896A251}-20.group",
+      "source": "校舎風建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E69A12C2-1599-420D-C477-4E2DE896A251}-21.group",
+      "source": "校舎風建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E69A12C2-1599-420D-C477-4E2DE896A251}-28.group",
+      "source": "校舎風建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E69A12C2-1599-420D-C477-4E2DE896A251}-29.group",
+      "source": "校舎風建築",
+      "translation": ""
+    }
+  ]
+}

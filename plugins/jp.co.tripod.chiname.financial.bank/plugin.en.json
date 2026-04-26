@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.financial.bank",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "銀行モジュール",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8254AA45-A93B-4989-C477-3D3BD31F7A8D}.name",
+      "source": "借入金・預金一覧",
+      "translation": ""
+    }
+  ]
+}

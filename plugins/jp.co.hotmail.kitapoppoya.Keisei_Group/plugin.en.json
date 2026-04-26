@@ -1,0 +1,92 @@
+{
+  "language": "en",
+  "plugin": "jp.co.hotmail.kitapoppoya.Keisei_Group",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "京成グループ+",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{757F660D-9BC9-48E4-9E1F-9-AE100}.name",
+      "source": "スカイライナー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{757F660D-9BC9-48E4-9E1F-9-AE100}.company",
+      "source": "京成電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{757F660D-9BC9-48E4-9E1F-9-AE100}.type",
+      "source": "AE100系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{757F660D-9BC9-48E4-9E1F-9-AE100}.description",
+      "source": "成田空港特急でお馴染みの車両。新高速鉄道の開業時に置き換えが決まっている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-HOKUSO7300}.name",
+      "source": "北総線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-HOKUSO7300}.company",
+      "source": "北総鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-HOKUSO7300}.type",
+      "source": "7300系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-HOKUSO7300}.description",
+      "source": "京成3700系の姉妹車両。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-HOKUSO7500}.name",
+      "source": "北総線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-HOKUSO7500}.company",
+      "source": "北総鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-HOKUSO7500}.type",
+      "source": "7500系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-HOKUSO7500}.description",
+      "source": "京成3000系の姉妹車両。北総線の旧型車置き換えを目的として登場した。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-CNTR9100}.name",
+      "source": "北総線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-CNTR9100}.company",
+      "source": "千葉ニュータウン鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-CNTR9100}.type",
+      "source": "9100系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-CNTR9100}.description",
+      "source": "もともとは住宅公団の所有車両。奇抜なデザインで知られる。",
+      "translation": ""
+    }
+  ]
+}

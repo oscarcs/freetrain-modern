@@ -1,0 +1,42 @@
+{
+  "language": "en",
+  "plugin": "jp.co.infoseek.hp.t-tomonori.road1",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Tomonori-road-gb-ballast}.name",
+      "source": "軌道/灰色+茶色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Tomonori-road-gb-ballast}.description",
+      "source": "軌道用石",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Tomonori-road-ob-ballast}.name",
+      "source": "軌道/黄土色+茶色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Tomonori-road-ob-ballast}.description",
+      "source": "軌道用石",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Tomonori-road-brown-ballast}.name",
+      "source": "軌道/茶色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{Tomonori-road-brown-ballast}.description",
+      "source": "軌道用石",
+      "translation": ""
+    }
+  ]
+}

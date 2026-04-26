@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.structure.hotel",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "ホテル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4004B6D4-55BE-4F15-C477-DDD891E6D0E7}-1.name",
+      "source": "高級ホテル",
+      "translation": ""
+    }
+  ]
+}

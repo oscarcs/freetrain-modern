@@ -1,0 +1,52 @@
+{
+  "language": "en",
+  "plugin": "co.jp.hotamail.noz2000.N1000",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "京急新1000形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7755F2D4-F415-4E68-A51F-52F0C63EA2A1}.name",
+      "source": "京急線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7755F2D4-F415-4E68-A51F-52F0C63EA2A1}.company",
+      "source": "京浜急行電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7755F2D4-F415-4E68-A51F-52F0C63EA2A1}.type",
+      "source": "新1000形(高)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7755F2D4-F415-4E68-A51F-52F0C63EA2A1}.description",
+      "source": "2002年に老朽化した1000形と700形の置き換えを目的に登場した車両。この車両は高速です。4、6、8、12編成を用意しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{346DFADB-BA65-427A-904F-8A2669871FD8}.name",
+      "source": "京急線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{346DFADB-BA65-427A-904F-8A2669871FD8}.company",
+      "source": "京浜急行電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{346DFADB-BA65-427A-904F-8A2669871FD8}.type",
+      "source": "新1000形(中)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{346DFADB-BA65-427A-904F-8A2669871FD8}.description",
+      "source": "2002年に老朽化した1000形と700形の置き換えを目的に登場した車両。この車両は中速です。4、6、8、12編成を用意しています。",
+      "translation": ""
+    }
+  ]
+}

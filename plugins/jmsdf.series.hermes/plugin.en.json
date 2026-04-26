@@ -1,0 +1,27 @@
+{
+  "language": "en",
+  "plugin": "jmsdf.series.hermes",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "海上自衛隊艦艇",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-JMSDFBD1E900}-01.group",
+      "source": "海上自衛隊艦艇",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-JMSDFBD1E910}-01.group",
+      "source": "海上自衛隊艦艇",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-JMSDFBD1E920}-01.group",
+      "source": "海上自衛隊艦艇",
+      "translation": ""
+    }
+  ]
+}

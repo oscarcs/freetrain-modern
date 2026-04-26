@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "info.hiyohiyo.riorio.freetrain.rail.electricPole.ayase",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayasehiro-4ba7-BFE8-ABFBDF5DFA0A}.name",
+      "source": "片柱(1)'",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayasehiro-41af-9185-4891B983E2A4}.name",
+      "source": "片柱(2)'",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.g_structure.convert.hima",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "一戸建てセット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3D8FA264-BE4A-4a4f-97E6-950779C89599}-gs.group",
+      "source": "一戸建て",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8B0106A0-64A4-4680-B258-232B1A5E0B0E}-gs.group",
+      "source": "一戸建て",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{982E924F-BA22-4ace-A71C-4523719A8444}-gs.group",
+      "source": "一戸建て",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{F193C000-DFEB-4588-B658-D11CD80C39D5}-gs.group",
+      "source": "一戸建て",
+      "translation": ""
+    }
+  ]
+}

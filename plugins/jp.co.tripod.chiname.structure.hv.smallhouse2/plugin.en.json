@@ -1,0 +1,72 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.structure.hv.smallhouse2",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "半ボクセル住宅",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2A8208CD-67C7-46A6-C477-830F25C8F3D2}-0.name",
+      "source": "切妻三階建てA",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2A8208CD-67C7-46A6-C477-830F25C8F3D2}-0.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2A8208CD-67C7-46A6-C477-830F25C8F3D2}-1.name",
+      "source": "切妻三階建てB",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2A8208CD-67C7-46A6-C477-830F25C8F3D2}-1.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2A8208CD-67C7-46A6-C477-830F25C8F3D2}-2.name",
+      "source": "車庫付切妻三階建てA",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2A8208CD-67C7-46A6-C477-830F25C8F3D2}-2.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2A8208CD-67C7-46A6-C477-830F25C8F3D2}-3.name",
+      "source": "車庫付切妻三階建てB",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2A8208CD-67C7-46A6-C477-830F25C8F3D2}-3.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2A8208CD-67C7-46A6-C477-830F25C8F3D2}-4.name",
+      "source": "車庫付切妻三階建てC",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2A8208CD-67C7-46A6-C477-830F25C8F3D2}-4.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2A8208CD-67C7-46A6-C477-830F25C8F3D2}-5.name",
+      "source": "寄棟三階建て",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2A8208CD-67C7-46A6-C477-830F25C8F3D2}-5.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    }
+  ]
+}

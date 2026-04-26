@@ -1,0 +1,57 @@
+{
+  "language": "en",
+  "plugin": "gs.convert.jp.geocities.mogami00.house001",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物総合コンバート\u3000モガミ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{23BCFE49-F037-47DF-8D24-9D89749762B7}-gs.group",
+      "source": "一戸建て",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{23BCFE49-F037-47DF-8D24-9D89749762B7}-0gs.group",
+      "source": "一戸建て",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{23BCFE49-F037-47DF-8D24-9D89749762B7}-1gs.group",
+      "source": "一戸建て",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{23BCFE49-F037-47DF-8D24-9D89749762B7}-2gs.group",
+      "source": "一戸建て",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{23BCFE49-F037-47DF-8D24-9D89749762B7}-3gs.group",
+      "source": "一戸建て",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{23BCFE49-F037-47DF-8D24-9D89749762B7}-4gs.group",
+      "source": "一戸建て",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{23BCFE49-F037-47DF-8D24-9D89749762B7}-5gs.group",
+      "source": "一戸建て",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{23BCFE49-F037-47DF-8D24-9D89749762B7}-6gs.group",
+      "source": "一戸建て",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{23BCFE49-F037-47DF-8D24-9D89749762B7}-7gs.group",
+      "source": "一戸建て",
+      "translation": ""
+    }
+  ]
+}

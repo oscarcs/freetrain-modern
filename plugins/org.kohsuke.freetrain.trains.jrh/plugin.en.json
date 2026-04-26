@@ -1,0 +1,102 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.trains.jrh",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "JR北海道 車両キット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{734ED621-D6D6-4F11-8485-12F057F387F0}.company",
+      "source": "JR北海道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{734ED621-D6D6-4F11-8485-12F057F387F0}.type",
+      "source": "711系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{734ED621-D6D6-4F11-8485-12F057F387F0}.description",
+      "source": "在来線初の交流専用車。3両で1ユニットを組み、普通列車や快速で運転されている。中には3扉化改造やロングシート化などが図られている車両もある。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A7AC0005-8FCA-4e60-907C-2EF681CAC9AE}.company",
+      "source": "JR北海道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A7AC0005-8FCA-4e60-907C-2EF681CAC9AE}.type",
+      "source": "721系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A7AC0005-8FCA-4e60-907C-2EF681CAC9AE}.description",
+      "source": "輸送近代化などのため昭和63年に登場。空港アクセス列車にも使用されるため、大きな荷物を持った乗客に対応できるようになっている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{61B9A951-B0B2-4190-B35F-CA83E5B9DC0A}.name",
+      "source": "日高線色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{61B9A951-B0B2-4190-B35F-CA83E5B9DC0A}.company",
+      "source": "JR北海道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{61B9A951-B0B2-4190-B35F-CA83E5B9DC0A}.type",
+      "source": "キハ40系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{61B9A951-B0B2-4190-B35F-CA83E5B9DC0A}.description",
+      "source": "北海道の日高線(苫小牧-様似)を走っている列車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{09503B8F-57FE-44a5-B82A-5109F3044D8D}.name",
+      "source": "北海道色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{09503B8F-57FE-44a5-B82A-5109F3044D8D}.company",
+      "source": "JR北海道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{09503B8F-57FE-44a5-B82A-5109F3044D8D}.type",
+      "source": "キハ40系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{09503B8F-57FE-44a5-B82A-5109F3044D8D}.description",
+      "source": "北海道各地を走る列車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{F74FCD8F-F9D7-4a78-8D09-97A8D6FF05A7}.name",
+      "source": "スーパー北斗",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{F74FCD8F-F9D7-4a78-8D09-97A8D6FF05A7}.company",
+      "source": "JR北海道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{F74FCD8F-F9D7-4a78-8D09-97A8D6FF05A7}.type",
+      "source": "キハ281系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{F74FCD8F-F9D7-4a78-8D09-97A8D6FF05A7}.description",
+      "source": "札幌-函館間を結ぶ振り子式特急。最高速度130km/h。",
+      "translation": ""
+    }
+  ]
+}

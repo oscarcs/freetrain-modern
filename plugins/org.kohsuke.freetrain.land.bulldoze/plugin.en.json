@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.land.bulldoze",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "地表の整地",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AE43E6DB-39F0-49FE-BE18-EE3FAC248FDE}.group",
+      "source": "ブルドーザー",
+      "translation": ""
+    }
+  ]
+}

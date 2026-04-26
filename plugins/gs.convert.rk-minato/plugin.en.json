@@ -1,0 +1,37 @@
+{
+  "language": "en",
+  "plugin": "gs.convert.rk-minato",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物総合コンバート\u3000花菱烈火\u3000漁港",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-minato-n001}-gs.group",
+      "source": "港",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-minato-n003}-gs.group",
+      "source": "港",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-minato-n005}-gs.group",
+      "source": "港",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-minato-n007}-gs.group",
+      "source": "港",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-minato-n010}-gs.group",
+      "source": "港",
+      "translation": ""
+    }
+  ]
+}

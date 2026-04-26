@@ -1,0 +1,197 @@
+{
+  "language": "en",
+  "plugin": "foobar.structure",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "contribution.{5C700856-435D-4724-8E61-6193D9063569}.group",
+      "source": "ダム端(1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A5E73063-8C97-487b-9A00-AFF11975584A}.group",
+      "source": "ダム端(2)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{DD96A532-925B-4719-83DD-CAC4C48AF9E2}.name",
+      "source": "田１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{DD96A532-925B-4719-83DD-CAC4C48AF9E2}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D955C0FE-16D0-485f-BE08-FDD46FB9A5FA}.name",
+      "source": "田１-２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D955C0FE-16D0-485f-BE08-FDD46FB9A5FA}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2884FB8-06FB-4c8d-884E-D272D525406A}.name",
+      "source": "田２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2884FB8-06FB-4c8d-884E-D272D525406A}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D9D5AC67-99C5-404d-87DB-8CEF5B94D649}.name",
+      "source": "田２-２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D9D5AC67-99C5-404d-87DB-8CEF5B94D649}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D25A9AFA-AF22-4c61-9124-2D022CF5B656}.name",
+      "source": "田３",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D25A9AFA-AF22-4c61-9124-2D022CF5B656}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6DF5518B-7EB9-4f30-9087-9452DF773873}.name",
+      "source": "田３-２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6DF5518B-7EB9-4f30-9087-9452DF773873}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D7C0FE0A-CC11-41f0-9671-107701B94800}.name",
+      "source": "畑１-１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D7C0FE0A-CC11-41f0-9671-107701B94800}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D7C0FE0A-CC11-41f0-9671-107701B94801}.name",
+      "source": "畑１-２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D7C0FE0A-CC11-41f0-9671-107701B94801}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{29D5227E-2133-4333-AB4E-6922AC459895}.name",
+      "source": "畑２-１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{29D5227E-2133-4333-AB4E-6922AC459895}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{29D5227E-2133-4333-AB4E-6922AC459896}.name",
+      "source": "畑２-２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{29D5227E-2133-4333-AB4E-6922AC459896}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CB71B47B-D373-4ba7-8981-770244248B60}.name",
+      "source": "畑３",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CB71B47B-D373-4ba7-8981-770244248B60}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CB71B47B-D373-4ba7-8981-770244248B61}.name",
+      "source": "畑４",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CB71B47B-D373-4ba7-8981-770244248B61}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E3A535C3-5CD9-489d-96AC-79E0F32DB568}.name",
+      "source": "畑５-１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E3A535C3-5CD9-489d-96AC-79E0F32DB568}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B337355B-1804-40de-9442-659046A4A760}.name",
+      "source": "畑５-２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B337355B-1804-40de-9442-659046A4A760}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{EF529302-4B96-4976-9F6F-5856040AA25B}.name",
+      "source": "畑６-１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{EF529302-4B96-4976-9F6F-5856040AA25B}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{70F598B3-4B55-454c-A5DB-73B20CF32A49}.name",
+      "source": "畑６-２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{70F598B3-4B55-454c-A5DB-73B20CF32A49}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A40BB456-A349-4d44-9142-E78AE827FA6C}.name",
+      "source": "畑７-１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A40BB456-A349-4d44-9142-E78AE827FA6C}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{23C75D58-E59A-4b07-95B8-6DF988EBA255}.name",
+      "source": "畑７-２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{23C75D58-E59A-4b07-95B8-6DF988EBA255}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    }
+  ]
+}

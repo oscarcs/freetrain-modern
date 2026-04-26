@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "plugin": "FreeTrain.structure.piugin.5.shino",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物プラグイン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0290147F-5B99-463B-978A-E4900510D64E}.group",
+      "source": "貸しビル(2x2)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{131FA597-1242-44A8-9AFE-5BF09AC94C6B}.group",
+      "source": "貸しビル(2x2)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3AE6CDFF-187C-4603-A8AA-6B1D720803F3}.group",
+      "source": "貸しビル(2x2)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C44CF4C8-F4EE-4375-B04A-10C06BDD3E44}.group",
+      "source": "貸しビル(2x2)",
+      "translation": ""
+    }
+  ]
+}

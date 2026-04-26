@@ -1,0 +1,72 @@
+{
+  "language": "en",
+  "plugin": "info.hiyohiyo.riorio.freetrain.rail.electricPole.ayase.withwall",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "架線柱壁つき",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-AYASE-Hiro-RailStructure-epwall-dual1-Left}.name",
+      "source": "壁複線用(左)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-AYASE-Hiro-RailStructure-epwall-dual1-Right}.name",
+      "source": "壁複線用(右)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-AYASE-Hiro-RailStructure-epwall-single1-0001}.name",
+      "source": "壁単両柱1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-AYASE-Hiro-RailStructure-epwall-single2-0002}.name",
+      "source": "壁単両柱2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-AYASE-Hiro-RailStructure-epwall-single3-0003}.name",
+      "source": "壁単片柱1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-AYASE-Hiro-RailStructure-epwall-single4-0004}.name",
+      "source": "壁単片柱2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-AYASE-Hiro-RailStructure-epwall-single3-0033}.name",
+      "source": "壁単片柱1'",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-AYASE-Hiro-RailStructure-epwall-single4-0044}.name",
+      "source": "壁単片柱2'",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-AYASE-Hiro-RailStructure-epwall-dual3-0003}.name",
+      "source": "壁複片柱1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-AYASE-Hiro-RailStructure-epwall-dual4-0004}.name",
+      "source": "壁複片柱2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-AYASE-Hiro-RailStructure-epwall-dual3-0033}.name",
+      "source": "壁複片柱1'",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-AYASE-Hiro-RailStructure-epwall-dual4-0044}.name",
+      "source": "壁複片柱2'",
+      "translation": ""
+    }
+  ]
+}

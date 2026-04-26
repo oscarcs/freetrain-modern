@@ -1,0 +1,1442 @@
+{
+  "language": "en",
+  "plugin": "koubai",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "地表",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A1-FENCE-PICTURE-1001}.name",
+      "source": "勾配01",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A1-FENCE-PICTURE-1001}.group",
+      "source": "勾配単線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A1-FENCE-PICTURE-1002}.name",
+      "source": "勾配02",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A1-FENCE-PICTURE-1002}.group",
+      "source": "勾配単線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A1-FENCE-PICTURE-1003}.name",
+      "source": "勾配03",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A1-FENCE-PICTURE-1003}.group",
+      "source": "勾配単線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A1-FENCE-PICTURE-1004}.name",
+      "source": "勾配04",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A1-FENCE-PICTURE-1004}.group",
+      "source": "勾配単線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A5-FENCE-PICTURE-1004}.name",
+      "source": "勾配05",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A5-FENCE-PICTURE-1004}.group",
+      "source": "勾配単線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A6-FENCE-PICTURE-1004}.name",
+      "source": "勾配06",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A6-FENCE-PICTURE-1004}.group",
+      "source": "勾配単線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A7-FENCE-PICTURE-1004}.name",
+      "source": "勾配07",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A7-FENCE-PICTURE-1004}.group",
+      "source": "勾配単線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A8-FENCE-PICTURE-1004}.name",
+      "source": "勾配08",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A8-FENCE-PICTURE-1004}.group",
+      "source": "勾配単線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A9-FENCE-PICTURE-1004}.name",
+      "source": "勾配09",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A9-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A10-FENCE-PICTURE-1004}.name",
+      "source": "勾配10",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A10-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A11-FENCE-PICTURE-1004}.name",
+      "source": "勾配11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A11-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A12-FENCE-PICTURE-1004}.name",
+      "source": "勾配12",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A12-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A17-FENCE-PICTURE-1004}.name",
+      "source": "勾配09",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A17-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A18-FENCE-PICTURE-1004}.name",
+      "source": "勾配10",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A18-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A19-FENCE-PICTURE-1004}.name",
+      "source": "勾配11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A19-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A20-FENCE-PICTURE-1004}.name",
+      "source": "勾配12",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A20-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A13-FENCE-PICTURE-1004}.name",
+      "source": "勾配09",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A13-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A14-FENCE-PICTURE-1004}.name",
+      "source": "勾配10",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A14-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A15-FENCE-PICTURE-1004}.name",
+      "source": "勾配11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A15-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A16-FENCE-PICTURE-1004}.name",
+      "source": "勾配12",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A16-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A21-FENCE-PICTURE-1004}.name",
+      "source": "勾配21",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A21-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A22-FENCE-PICTURE-1004}.name",
+      "source": "勾配22",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A22-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A23-FENCE-PICTURE-1004}.name",
+      "source": "勾配23",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A23-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A24-FENCE-PICTURE-1004}.name",
+      "source": "勾配24",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A24-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A101-FENCE-PICTURE-1004}.name",
+      "source": "勾配101",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A101-FENCE-PICTURE-1004}.group",
+      "source": "勾配単線盛土",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A102-FENCE-PICTURE-1004}.name",
+      "source": "勾配102",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A102-FENCE-PICTURE-1004}.group",
+      "source": "勾配単線盛土",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A103-FENCE-PICTURE-1004}.name",
+      "source": "勾配103",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A103-FENCE-PICTURE-1004}.group",
+      "source": "勾配単線盛土",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A104-FENCE-PICTURE-1004}.name",
+      "source": "勾配104",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A104-FENCE-PICTURE-1004}.group",
+      "source": "勾配単線盛土",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A129-FENCE-PICTURE-1004}.name",
+      "source": "勾配129",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A129-FENCE-PICTURE-1004}.group",
+      "source": "勾配単線盛土",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A130-FENCE-PICTURE-1004}.name",
+      "source": "勾配130",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A130-FENCE-PICTURE-1004}.group",
+      "source": "勾配単線盛土",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A131-FENCE-PICTURE-1004}.name",
+      "source": "勾配131",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A131-FENCE-PICTURE-1004}.group",
+      "source": "勾配単線盛土",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A132-FENCE-PICTURE-1004}.name",
+      "source": "勾配132",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A132-FENCE-PICTURE-1004}.group",
+      "source": "勾配単線盛土",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A109-FENCE-PICTURE-1004}.name",
+      "source": "勾配109",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A109-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線盛土１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A110-FENCE-PICTURE-1004}.name",
+      "source": "勾配110",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A110-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線盛土１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A111-FENCE-PICTURE-1004}.name",
+      "source": "勾配111",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A111-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線盛土１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A112-FENCE-PICTURE-1004}.name",
+      "source": "勾配112",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A112-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線盛土１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A125-FENCE-PICTURE-1004}.name",
+      "source": "勾配125",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A125-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線盛土１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A126-FENCE-PICTURE-1004}.name",
+      "source": "勾配126",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A126-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線盛土１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A127-FENCE-PICTURE-1004}.name",
+      "source": "勾配127",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A127-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線盛土１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A128-FENCE-PICTURE-1004}.name",
+      "source": "勾配128",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A128-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線盛土１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A113-FENCE-PICTURE-1004}.name",
+      "source": "勾配113",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A113-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線盛土２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A114-FENCE-PICTURE-1004}.name",
+      "source": "勾配114",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A114-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線盛土２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A115-FENCE-PICTURE-1004}.name",
+      "source": "勾配115",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A115-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線盛土２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A116-FENCE-PICTURE-1004}.name",
+      "source": "勾配116",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A116-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線盛土２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A133-FENCE-PICTURE-1004}.name",
+      "source": "勾配133",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A133-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線盛土２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A134-FENCE-PICTURE-1004}.name",
+      "source": "勾配134",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A134-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線盛土２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A135-FENCE-PICTURE-1004}.name",
+      "source": "勾配135",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A135-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線盛土２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A136-FENCE-PICTURE-1004}.name",
+      "source": "勾配136",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A136-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線盛土２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A117-FENCE-PICTURE-1004}.name",
+      "source": "勾配117",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A117-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線盛土中",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A118-FENCE-PICTURE-1004}.name",
+      "source": "勾配118",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A118-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線盛土中",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A119-FENCE-PICTURE-1004}.name",
+      "source": "勾配119",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A119-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線盛土中",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A120-FENCE-PICTURE-1004}.name",
+      "source": "勾配120",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A120-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線盛土中",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A121-FENCE-PICTURE-1004}.name",
+      "source": "勾配121",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A121-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線盛土中",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A122-FENCE-PICTURE-1004}.name",
+      "source": "勾配122",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A122-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線盛土中",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A123-FENCE-PICTURE-1004}.name",
+      "source": "勾配123",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A123-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線盛土中",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A124-FENCE-PICTURE-1004}.name",
+      "source": "勾配124",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A124-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線盛土中",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A201-FENCE-PICTURE-1001}.name",
+      "source": "勾配201",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A201-FENCE-PICTURE-1001}.group",
+      "source": "勾配単線RC",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A202-FENCE-PICTURE-1002}.name",
+      "source": "勾配202",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A202-FENCE-PICTURE-1002}.group",
+      "source": "勾配単線RC",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A203-FENCE-PICTURE-1003}.name",
+      "source": "勾配203",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A203-FENCE-PICTURE-1003}.group",
+      "source": "勾配単線RC",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A204-FENCE-PICTURE-1004}.name",
+      "source": "勾配204",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A204-FENCE-PICTURE-1004}.group",
+      "source": "勾配単線RC",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A205-FENCE-PICTURE-1001}.name",
+      "source": "勾配205",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A205-FENCE-PICTURE-1001}.group",
+      "source": "勾配単線RC",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A206-FENCE-PICTURE-1002}.name",
+      "source": "勾配206",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A206-FENCE-PICTURE-1002}.group",
+      "source": "勾配単線RC",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A207-FENCE-PICTURE-1003}.name",
+      "source": "勾配207",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A207-FENCE-PICTURE-1003}.group",
+      "source": "勾配単線RC",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A208-FENCE-PICTURE-1004}.name",
+      "source": "勾配208",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A208-FENCE-PICTURE-1004}.group",
+      "source": "勾配単線RC",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A209-FENCE-PICTURE-1001}.name",
+      "source": "勾配209",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A209-FENCE-PICTURE-1001}.group",
+      "source": "勾配複線RC１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A210-FENCE-PICTURE-1002}.name",
+      "source": "勾配210",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A210-FENCE-PICTURE-1002}.group",
+      "source": "勾配複線RC１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A211-FENCE-PICTURE-1003}.name",
+      "source": "勾配211",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A211-FENCE-PICTURE-1003}.group",
+      "source": "勾配複線RC１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A212-FENCE-PICTURE-1004}.name",
+      "source": "勾配212",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A212-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線RC１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A213-FENCE-PICTURE-1001}.name",
+      "source": "勾配213",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A213-FENCE-PICTURE-1001}.group",
+      "source": "勾配複線RC１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A214-FENCE-PICTURE-1002}.name",
+      "source": "勾配214",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A214-FENCE-PICTURE-1002}.group",
+      "source": "勾配複線RC１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A215-FENCE-PICTURE-1003}.name",
+      "source": "勾配215",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A215-FENCE-PICTURE-1003}.group",
+      "source": "勾配複線RC１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A216-FENCE-PICTURE-1004}.name",
+      "source": "勾配216",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A216-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線RC１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A217-FENCE-PICTURE-1003}.name",
+      "source": "勾配217",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A217-FENCE-PICTURE-1003}.group",
+      "source": "勾配複線RC２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A218-FENCE-PICTURE-1003}.name",
+      "source": "勾配218",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A218-FENCE-PICTURE-1003}.group",
+      "source": "勾配複線RC２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A219-FENCE-PICTURE-1003}.name",
+      "source": "勾配219",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A219-FENCE-PICTURE-1003}.group",
+      "source": "勾配複線RC２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A220-FENCE-PICTURE-1004}.name",
+      "source": "勾配220",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A220-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線RC２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A221-FENCE-PICTURE-1003}.name",
+      "source": "勾配221",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A221-FENCE-PICTURE-1003}.group",
+      "source": "勾配複線RC２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A222-FENCE-PICTURE-1003}.name",
+      "source": "勾配222",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A222-FENCE-PICTURE-1003}.group",
+      "source": "勾配複線RC２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A223-FENCE-PICTURE-1003}.name",
+      "source": "勾配223",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A223-FENCE-PICTURE-1003}.group",
+      "source": "勾配複線RC２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A224-FENCE-PICTURE-1004}.name",
+      "source": "勾配224",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A224-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線RC２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A225-FENCE-PICTURE-1001}.name",
+      "source": "勾配225",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A225-FENCE-PICTURE-1001}.group",
+      "source": "勾配単線Ｔ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A226-FENCE-PICTURE-1002}.name",
+      "source": "勾配226",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A226-FENCE-PICTURE-1002}.group",
+      "source": "勾配単線Ｔ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A227-FENCE-PICTURE-1003}.name",
+      "source": "勾配227",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A227-FENCE-PICTURE-1003}.group",
+      "source": "勾配単線Ｔ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A228-FENCE-PICTURE-1004}.name",
+      "source": "勾配228",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A228-FENCE-PICTURE-1004}.group",
+      "source": "勾配単線Ｔ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A229-FENCE-PICTURE-1001}.name",
+      "source": "勾配229",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A229-FENCE-PICTURE-1001}.group",
+      "source": "勾配単線Ｔ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A230-FENCE-PICTURE-1002}.name",
+      "source": "勾配230",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A230-FENCE-PICTURE-1002}.group",
+      "source": "勾配単線Ｔ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A231-FENCE-PICTURE-1003}.name",
+      "source": "勾配231",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A231-FENCE-PICTURE-1003}.group",
+      "source": "勾配単線Ｔ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A232-FENCE-PICTURE-1004}.name",
+      "source": "勾配0232",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A232-FENCE-PICTURE-1004}.group",
+      "source": "勾配単線Ｔ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A233-FENCE-PICTURE-1001}.name",
+      "source": "勾配233",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A233-FENCE-PICTURE-1001}.group",
+      "source": "勾配複線Ｔ１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A234-FENCE-PICTURE-1002}.name",
+      "source": "勾配234",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A234-FENCE-PICTURE-1002}.group",
+      "source": "勾配複線Ｔ１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A235-FENCE-PICTURE-1003}.name",
+      "source": "勾配235",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A235-FENCE-PICTURE-1003}.group",
+      "source": "勾配複線Ｔ１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A236-FENCE-PICTURE-1004}.name",
+      "source": "勾配0236",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A236-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線Ｔ１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A237-FENCE-PICTURE-1001}.name",
+      "source": "勾配237",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A237-FENCE-PICTURE-1001}.group",
+      "source": "勾配複線Ｔ１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A238-FENCE-PICTURE-1002}.name",
+      "source": "勾配238",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A238-FENCE-PICTURE-1002}.group",
+      "source": "勾配複線Ｔ１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A239-FENCE-PICTURE-1003}.name",
+      "source": "勾配239",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A239-FENCE-PICTURE-1003}.group",
+      "source": "勾配複線Ｔ１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A240-FENCE-PICTURE-1004}.name",
+      "source": "勾配0240",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A240-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線Ｔ１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A241-FENCE-PICTURE-1001}.name",
+      "source": "勾配241",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A241-FENCE-PICTURE-1001}.group",
+      "source": "勾配複線Ｔ２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A242-FENCE-PICTURE-1002}.name",
+      "source": "勾配242",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A242-FENCE-PICTURE-1002}.group",
+      "source": "勾配複線Ｔ２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A243-FENCE-PICTURE-1003}.name",
+      "source": "勾配243",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A243-FENCE-PICTURE-1003}.group",
+      "source": "勾配複線Ｔ２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A244-FENCE-PICTURE-1004}.name",
+      "source": "勾配0244",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A244-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線Ｔ２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A245-FENCE-PICTURE-1001}.name",
+      "source": "勾配245",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A245-FENCE-PICTURE-1001}.group",
+      "source": "勾配複線Ｔ２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A246-FENCE-PICTURE-1002}.name",
+      "source": "勾配246",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A246-FENCE-PICTURE-1002}.group",
+      "source": "勾配複線Ｔ２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A247-FENCE-PICTURE-1003}.name",
+      "source": "勾配247",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A247-FENCE-PICTURE-1003}.group",
+      "source": "勾配複線Ｔ２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A248-FENCE-PICTURE-1004}.name",
+      "source": "勾配0248",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A248-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線Ｔ２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A249-FENCE-PICTURE-1002}.name",
+      "source": "勾配249",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A249-FENCE-PICTURE-1002}.group",
+      "source": "勾配複線Ｔ中１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A250-FENCE-PICTURE-1002}.name",
+      "source": "勾配250",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A250-FENCE-PICTURE-1002}.group",
+      "source": "勾配複線Ｔ中１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A251-FENCE-PICTURE-1003}.name",
+      "source": "勾配251",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A251-FENCE-PICTURE-1003}.group",
+      "source": "勾配複線Ｔ中１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A252-FENCE-PICTURE-1004}.name",
+      "source": "勾配0252",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A252-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線Ｔ中１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A253-FENCE-PICTURE-1002}.name",
+      "source": "勾配253",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A253-FENCE-PICTURE-1002}.group",
+      "source": "勾配複線Ｔ中１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A254-FENCE-PICTURE-1002}.name",
+      "source": "勾配254",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A254-FENCE-PICTURE-1002}.group",
+      "source": "勾配複線Ｔ中１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A255-FENCE-PICTURE-1003}.name",
+      "source": "勾配255",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A255-FENCE-PICTURE-1003}.group",
+      "source": "勾配複線Ｔ中１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A256-FENCE-PICTURE-1004}.name",
+      "source": "勾配0256",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A256-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線Ｔ中１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A257-FENCE-PICTURE-1004}.name",
+      "source": "勾配0257",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A257-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線Ｔ中２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A258-FENCE-PICTURE-1004}.name",
+      "source": "勾配0258",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A258-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線Ｔ中３",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A300-FENCE-PICTURE-1001}.name",
+      "source": "勾配300",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A300-FENCE-PICTURE-1001}.group",
+      "source": "勾配単線丸",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A301-FENCE-PICTURE-1002}.name",
+      "source": "勾配301",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A301-FENCE-PICTURE-1002}.group",
+      "source": "勾配単線丸",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A302-FENCE-PICTURE-1003}.name",
+      "source": "勾配302",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A302-FENCE-PICTURE-1003}.group",
+      "source": "勾配単線丸",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A303-FENCE-PICTURE-1004}.name",
+      "source": "勾配303",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A303-FENCE-PICTURE-1004}.group",
+      "source": "勾配単線丸",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A304-FENCE-PICTURE-1001}.name",
+      "source": "勾配304",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A304-FENCE-PICTURE-1001}.group",
+      "source": "勾配単線丸",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A305-FENCE-PICTURE-1002}.name",
+      "source": "勾配305",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A305-FENCE-PICTURE-1002}.group",
+      "source": "勾配単線丸",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A306-FENCE-PICTURE-1003}.name",
+      "source": "勾配306",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A306-FENCE-PICTURE-1003}.group",
+      "source": "勾配単線丸",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A307-FENCE-PICTURE-1004}.name",
+      "source": "勾配307",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A307-FENCE-PICTURE-1004}.group",
+      "source": "勾配単線丸",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A308-FENCE-PICTURE-1001}.name",
+      "source": "勾配308",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A308-FENCE-PICTURE-1001}.group",
+      "source": "勾配複線丸１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A309-FENCE-PICTURE-1002}.name",
+      "source": "勾配309",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A309-FENCE-PICTURE-1002}.group",
+      "source": "勾配複線丸１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A310-FENCE-PICTURE-1003}.name",
+      "source": "勾配310",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A310-FENCE-PICTURE-1003}.group",
+      "source": "勾配複線丸１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A311-FENCE-PICTURE-1004}.name",
+      "source": "勾配311",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A311-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線丸１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A312-FENCE-PICTURE-1001}.name",
+      "source": "勾配312",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A312-FENCE-PICTURE-1001}.group",
+      "source": "勾配複線丸１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A313-FENCE-PICTURE-1002}.name",
+      "source": "勾配313",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A313-FENCE-PICTURE-1002}.group",
+      "source": "勾配複線丸１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A314-FENCE-PICTURE-1003}.name",
+      "source": "勾配314",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A314-FENCE-PICTURE-1003}.group",
+      "source": "勾配複線丸１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A315-FENCE-PICTURE-1004}.name",
+      "source": "勾配315",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A315-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線丸１",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A316-FENCE-PICTURE-1001}.name",
+      "source": "勾配316",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A316-FENCE-PICTURE-1001}.group",
+      "source": "勾配複線丸２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A317-FENCE-PICTURE-1002}.name",
+      "source": "勾配317",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A317-FENCE-PICTURE-1002}.group",
+      "source": "勾配複線丸２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A318-FENCE-PICTURE-1003}.name",
+      "source": "勾配318",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A318-FENCE-PICTURE-1003}.group",
+      "source": "勾配複線丸２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A319-FENCE-PICTURE-1004}.name",
+      "source": "勾配319",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A319-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線丸２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A320-FENCE-PICTURE-1001}.name",
+      "source": "勾配320",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A320-FENCE-PICTURE-1001}.group",
+      "source": "勾配複線丸２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A321-FENCE-PICTURE-1002}.name",
+      "source": "勾配321",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A321-FENCE-PICTURE-1002}.group",
+      "source": "勾配複線丸２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A322-FENCE-PICTURE-1003}.name",
+      "source": "勾配322",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A322-FENCE-PICTURE-1003}.group",
+      "source": "勾配複線丸２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A323-FENCE-PICTURE-1004}.name",
+      "source": "勾配323",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A323-FENCE-PICTURE-1004}.group",
+      "source": "勾配複線丸２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A350-FENCE-PICTURE-1004}.name",
+      "source": "勾配350",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A350-FENCE-PICTURE-1004}.group",
+      "source": "勾配その他丸",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A351-FENCE-PICTURE-1003}.name",
+      "source": "勾配351",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A351-FENCE-PICTURE-1003}.group",
+      "source": "勾配その他丸",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A352-FENCE-PICTURE-1003}.name",
+      "source": "勾配351",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A352-FENCE-PICTURE-1003}.group",
+      "source": "勾配その他丸",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A353-FENCE-PICTURE-1003}.name",
+      "source": "勾配353",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A353-FENCE-PICTURE-1003}.group",
+      "source": "勾配その他丸",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A354-FENCE-PICTURE-1003}.name",
+      "source": "勾配354",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-00A354-FENCE-PICTURE-1003}.group",
+      "source": "勾配その他丸",
+      "translation": ""
+    }
+  ]
+}

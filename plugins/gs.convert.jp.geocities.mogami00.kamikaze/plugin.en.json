@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "gs.convert.jp.geocities.mogami00.kamikaze",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物総合コンバート\u3000モガミ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8753CB0B-6B55-4508-8A01-14763E0C38D5}-gs.group",
+      "source": "神風財閥ビル",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "language": "en",
+  "plugin": "jagaimo.freetrain.land.cemetery",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "墓地",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{jagaimo-freetrain-land-cemetery}-1,1.name",
+      "source": "墓地1-1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{jagaimo-freetrain-land-cemetery}-1,1.group",
+      "source": "墓地",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{jagaimo-freetrain-land-cemetery}-1,2.name",
+      "source": "墓地1-2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{jagaimo-freetrain-land-cemetery}-1,2.group",
+      "source": "墓地",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{jagaimo-freetrain-land-cemetery}-1,3.name",
+      "source": "墓地1-3",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{jagaimo-freetrain-land-cemetery}-1,3.group",
+      "source": "墓地",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{jagaimo-freetrain-land-cemetery}-1,4.name",
+      "source": "墓地1-4",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{jagaimo-freetrain-land-cemetery}-1,4.group",
+      "source": "墓地",
+      "translation": ""
+    }
+  ]
+}

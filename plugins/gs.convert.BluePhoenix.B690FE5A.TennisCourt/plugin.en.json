@@ -1,0 +1,42 @@
+{
+  "language": "en",
+  "plugin": "gs.convert.BluePhoenix.B690FE5A.TennisCourt",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物総合コンバート\u3000狼月楼夜",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TennisCourt-commercial-C000-000a-B690FE5A-狼月}-gs.name",
+      "source": "テニスコート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TennisCourt-commercial-C000-000a-B690FE5A-狼月}-gs.group",
+      "source": "テニスコート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TennisCourt-commercial-C000-000c-B690FE5A-狼月}-gs.name",
+      "source": "テニスコート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TennisCourt-commercial-C000-000c-B690FE5A-狼月}-gs.group",
+      "source": "テニスコート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TennisCourt-commercial-C000-000e-B690FE5A-狼月}-gs.name",
+      "source": "テニスコート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TennisCourt-commercial-C000-000e-B690FE5A-狼月}-gs.group",
+      "source": "テニスコート",
+      "translation": ""
+    }
+  ]
+}

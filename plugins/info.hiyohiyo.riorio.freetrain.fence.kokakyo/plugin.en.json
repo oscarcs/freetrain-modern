@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "plugin": "info.hiyohiyo.riorio.freetrain.fence.kokakyo",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "柵type高架橋壁",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{landfence-riorio-kokakyo-0001-a3c212b354}.name",
+      "source": "柵",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{landfence-riorio-kokakyo-0001-a3c212b354}.group",
+      "source": "高架橋壁",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{landfence-riorio-kokakyo-0002-45c321a321b}.name",
+      "source": "柵 新",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{landfence-riorio-kokakyo-0002-45c321a321b}.group",
+      "source": "高架橋壁",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "language": "en",
+  "plugin": "jp.big.TAKUROU.freetrain.train-kiha85",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-DCT85-W}.name",
+      "source": "ワイドビュー気動車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-DCT85-W}.company",
+      "source": "JR東海",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-DCT85-W}.type",
+      "source": "キハ85系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-DCT85-W}.description",
+      "source": "「キハ85系は、老朽化したキハ80系を置き換える為に導入されました。\n 1989年3月に特急｢ひだ｣(名古屋～高山･富山)に、1992年3月に特急｢南紀｣(名古屋～紀伊勝浦)に投入され、計80両が活躍しています。 \n当初は｢ひだ｣用(キハ85,85-100,84,キロハ84)と｢南紀｣用(キハ85-200,84-200,84-300,キロ85)に分かれて運用されていましたが、 2001年3月のダイヤ改正で｢南紀｣のグリーン車連結を廃止された。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECT383-S}.name",
+      "source": "ワイドビュー電車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECT383-S}.company",
+      "source": "JR東海",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECT383-S}.type",
+      "source": "383系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECT383-S}.description",
+      "source": "しなのの老朽取り替え用として製造された。\nステンレス車体のVVVFインバータ車で、381系に引き続き展望グリーン車はあるものの、制御車は増解結を考慮した貫通路付きが主体である。\n中央西線・篠ノ井線の特急しなの、急行ちくまに用いられ、一部は大阪や白馬まで足をのばす。",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "language": "en",
+  "plugin": "suzukams.jp.ne.aaacafe.f2.structure",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物セット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{kaden-js01d1-1001201801}.name",
+      "source": "ジョーシンtype1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{kaden-js01d1-1001201801}.group",
+      "source": "家電量販店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{kaden-md01d1-1001242203}.name",
+      "source": "ミドリ電化type1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{kaden-md01d1-1001242203}.group",
+      "source": "家電量販店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{diy-kn01d1-1001302235}.name",
+      "source": "コーナンtype1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{diy-kn01d1-1001302235}.group",
+      "source": "日曜大工店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{DIY-km01d1-1001311926}.name",
+      "source": "コメリtype1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{DIY-km01d1-1001311926}.group",
+      "source": "日曜大工店",
+      "translation": ""
+    }
+  ]
+}

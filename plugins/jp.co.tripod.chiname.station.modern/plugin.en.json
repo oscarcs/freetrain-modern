@@ -1,0 +1,282 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.station.modern",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "赤煉瓦の駅舎",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A2F61D15-C6F6-4C0D-C477-3D4D9321FC39}-l0.group",
+      "source": "モダン駅舎(土色:左)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A2F61D15-C6F6-4C0D-C477-3D4D9321FC39}-l1.group",
+      "source": "モダン駅舎(土色:左)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A2F61D15-C6F6-4C0D-C477-3D4D9321FC39}-l2.group",
+      "source": "モダン駅舎(土色:左)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A2F61D15-C6F6-4C0D-C477-3D4D9321FC39}-l3.group",
+      "source": "モダン駅舎(土色:左)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A2F61D15-C6F6-4C0D-C477-3D4D9321FC39}-l4.group",
+      "source": "モダン駅舎(土色:左)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A2F61D15-C6F6-4C0D-C477-3D4D9321FC39}-l5.group",
+      "source": "モダン駅舎(土色:左)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A2F61D15-C6F6-4C0D-C477-3D4D9321FC39}-r0.group",
+      "source": "モダン駅舎(土色:右)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A2F61D15-C6F6-4C0D-C477-3D4D9321FC39}-r1.group",
+      "source": "モダン駅舎(土色:右)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A2F61D15-C6F6-4C0D-C477-3D4D9321FC39}-r2.group",
+      "source": "モダン駅舎(土色:右)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A2F61D15-C6F6-4C0D-C477-3D4D9321FC39}-r3.group",
+      "source": "モダン駅舎(土色:右)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A2F61D15-C6F6-4C0D-C477-3D4D9321FC39}-r4.group",
+      "source": "モダン駅舎(土色:右)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A2F61D15-C6F6-4C0D-C477-3D4D9321FC39}-r5.group",
+      "source": "モダン駅舎(土色:右)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A2F61D15-C6F6-4C0D-C477-3D4D9321FC39}-b0.group",
+      "source": "モダン駅舎(土色:裏)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A2F61D15-C6F6-4C0D-C477-3D4D9321FC39}-b1.group",
+      "source": "モダン駅舎(土色:裏)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A2F61D15-C6F6-4C0D-C477-3D4D9321FC39}-b2.group",
+      "source": "モダン駅舎(土色:裏)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A2F61D15-C6F6-4C0D-C477-3D4D9321FC39}-b3.group",
+      "source": "モダン駅舎(土色:裏)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A2F61D15-C6F6-4C0D-C477-3D4D9321FC39}-b4.group",
+      "source": "モダン駅舎(土色:裏)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A2F61D15-C6F6-4C0D-C477-3D4D9321FC39}-b5.group",
+      "source": "モダン駅舎(土色:裏)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9DE34974-5F2B-4D5F-C477-A04A6736D625}-l0.group",
+      "source": "モダン駅舎(赤茶:左)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9DE34974-5F2B-4D5F-C477-A04A6736D625}-l1.group",
+      "source": "モダン駅舎(赤茶:左)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9DE34974-5F2B-4D5F-C477-A04A6736D625}-l2.group",
+      "source": "モダン駅舎(赤茶:左)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9DE34974-5F2B-4D5F-C477-A04A6736D625}-l3.group",
+      "source": "モダン駅舎(赤茶:左)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9DE34974-5F2B-4D5F-C477-A04A6736D625}-l4.group",
+      "source": "モダン駅舎(赤茶:左)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9DE34974-5F2B-4D5F-C477-A04A6736D625}-l5.group",
+      "source": "モダン駅舎(赤茶:左)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9DE34974-5F2B-4D5F-C477-A04A6736D625}-r0.group",
+      "source": "モダン駅舎(赤茶:右)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9DE34974-5F2B-4D5F-C477-A04A6736D625}-r1.group",
+      "source": "モダン駅舎(赤茶:右)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9DE34974-5F2B-4D5F-C477-A04A6736D625}-r2.group",
+      "source": "モダン駅舎(赤茶:右)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9DE34974-5F2B-4D5F-C477-A04A6736D625}-r3.group",
+      "source": "モダン駅舎(赤茶:右)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9DE34974-5F2B-4D5F-C477-A04A6736D625}-r4.group",
+      "source": "モダン駅舎(赤茶:右)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9DE34974-5F2B-4D5F-C477-A04A6736D625}-r5.group",
+      "source": "モダン駅舎(赤茶:右)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9DE34974-5F2B-4D5F-C477-A04A6736D625}-b0.group",
+      "source": "モダン駅舎(赤茶:裏)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9DE34974-5F2B-4D5F-C477-A04A6736D625}-b1.group",
+      "source": "モダン駅舎(赤茶:裏)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9DE34974-5F2B-4D5F-C477-A04A6736D625}-b2.group",
+      "source": "モダン駅舎(赤茶:裏)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9DE34974-5F2B-4D5F-C477-A04A6736D625}-b3.group",
+      "source": "モダン駅舎(赤茶:裏)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9DE34974-5F2B-4D5F-C477-A04A6736D625}-b4.group",
+      "source": "モダン駅舎(赤茶:裏)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9DE34974-5F2B-4D5F-C477-A04A6736D625}-b5.group",
+      "source": "モダン駅舎(赤茶:裏)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{38DCCBC7-F86F-4881-C477-7DBB6A369059}-l0.group",
+      "source": "モダン駅舎(灰青:左)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{38DCCBC7-F86F-4881-C477-7DBB6A369059}-l1.group",
+      "source": "モダン駅舎(灰青:左)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{38DCCBC7-F86F-4881-C477-7DBB6A369059}-l2.group",
+      "source": "モダン駅舎(灰青:左)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{38DCCBC7-F86F-4881-C477-7DBB6A369059}-l3.group",
+      "source": "モダン駅舎(灰青:左)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{38DCCBC7-F86F-4881-C477-7DBB6A369059}-l4.group",
+      "source": "モダン駅舎(灰青:左)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{38DCCBC7-F86F-4881-C477-7DBB6A369059}-l5.group",
+      "source": "モダン駅舎(灰青:左)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{38DCCBC7-F86F-4881-C477-7DBB6A369059}-r0.group",
+      "source": "モダン駅舎(灰青:右)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{38DCCBC7-F86F-4881-C477-7DBB6A369059}-r1.group",
+      "source": "モダン駅舎(灰青:右)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{38DCCBC7-F86F-4881-C477-7DBB6A369059}-r2.group",
+      "source": "モダン駅舎(灰青:右)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{38DCCBC7-F86F-4881-C477-7DBB6A369059}-r3.group",
+      "source": "モダン駅舎(灰青:右)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{38DCCBC7-F86F-4881-C477-7DBB6A369059}-r4.group",
+      "source": "モダン駅舎(灰青:右)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{38DCCBC7-F86F-4881-C477-7DBB6A369059}-r5.group",
+      "source": "モダン駅舎(灰青:右)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{38DCCBC7-F86F-4881-C477-7DBB6A369059}-b0.group",
+      "source": "モダン駅舎(灰青:裏)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{38DCCBC7-F86F-4881-C477-7DBB6A369059}-b1.group",
+      "source": "モダン駅舎(灰青:裏)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{38DCCBC7-F86F-4881-C477-7DBB6A369059}-b2.group",
+      "source": "モダン駅舎(灰青:裏)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{38DCCBC7-F86F-4881-C477-7DBB6A369059}-b3.group",
+      "source": "モダン駅舎(灰青:裏)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{38DCCBC7-F86F-4881-C477-7DBB6A369059}-b4.group",
+      "source": "モダン駅舎(灰青:裏)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{38DCCBC7-F86F-4881-C477-7DBB6A369059}-b5.group",
+      "source": "モダン駅舎(灰青:裏)",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.structure.hv.smallhouse3",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "半ボクセル住宅",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0D38E912-C4E3-48DF-C477-2F9C1D332FFE}-0.name",
+      "source": "RC造二階建て",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0D38E912-C4E3-48DF-C477-2F9C1D332FFE}-0.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0D38E912-C4E3-48DF-C477-2F9C1D332FFE}-1.name",
+      "source": "RC造三階建A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0D38E912-C4E3-48DF-C477-2F9C1D332FFE}-1.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0D38E912-C4E3-48DF-C477-2F9C1D332FFE}-4.name",
+      "source": "RC造三階建てB",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0D38E912-C4E3-48DF-C477-2F9C1D332FFE}-4.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0D38E912-C4E3-48DF-C477-2F9C1D332FFE}-2.name",
+      "source": "S造三階建てA",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0D38E912-C4E3-48DF-C477-2F9C1D332FFE}-2.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0D38E912-C4E3-48DF-C477-2F9C1D332FFE}-3.name",
+      "source": "S造三階建てB",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0D38E912-C4E3-48DF-C477-2F9C1D332FFE}-3.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0D38E912-C4E3-48DF-C477-2F9C1D332FFE}-5.name",
+      "source": "平屋根S造三階建てC",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0D38E912-C4E3-48DF-C477-2F9C1D332FFE}-5.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    }
+  ]
+}

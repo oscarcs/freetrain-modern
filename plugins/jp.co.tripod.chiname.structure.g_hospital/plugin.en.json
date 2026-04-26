@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.structure.g_hospital",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "総合病院",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{45E15A82-EC17-48FE-C477-27F07E6130F9}.name",
+      "source": "総合病院",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4A9A4AFC-3351-4B3D-C477-8D0AC25D5D0F}.name",
+      "source": "総合病院",
+      "translation": ""
+    }
+  ]
+}

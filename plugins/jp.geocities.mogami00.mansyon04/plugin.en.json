@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "jp.geocities.mogami00.mansyon04",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "分譲マンション(3x3)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{mogami-building-mansyon04-C51CA211FBE8}.group",
+      "source": "分譲マンション(3x3)",
+      "translation": ""
+    }
+  ]
+}

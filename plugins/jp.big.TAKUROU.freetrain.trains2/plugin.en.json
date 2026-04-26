@@ -1,0 +1,227 @@
+{
+  "language": "en",
+  "plugin": "jp.big.TAKUROU.freetrain.trains2",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-B}.name",
+      "source": "7000番台阪和色(旧新快速色)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-B}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-B}.type",
+      "source": "113系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-B}.description",
+      "source": "最高速度110km/h対応の改造に伴い7000番代となった。\n塗装も阪和線快速色と呼ばれるものです。国鉄時代から存在したこの塗装も、最近では東海道線系統からの湘南色での転属車もあり、\n今後注目すべきものかもしれない。阪和線やきのくに(紀勢西)線で活躍。かつては阪和線新快速にも使われていた。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW105-H}.name",
+      "source": "広島地区対応色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW105-H}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW105-H}.type",
+      "source": "105系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW105-H}.description",
+      "source": "新性能電車は電動車2両ユニットが原則であったが、地方線区は輸送量の少ない所が多く、MMユニット方式では全電動車となって性能過剰となってしまう。\nこのため福塩線や宇部線・小野田線の新性能化の際、1M方式の105系が製造された。\n新製車は鋼製３扉ロングシート車である。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-F}.name",
+      "source": "福知山色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-F}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-F}.type",
+      "source": "115系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-F}.description",
+      "source": "115系は、当初1995(平成７)年の阪神淡路大震災後、阪神間の輸送力増強用として広島区より網干区に転入したもので、その後福知山区が借入した。\nその時に福知山色に塗色変更している｡\n当初115系６連貫通編成として運転。その後クハ111が1995(平成７)年10月改造落成し編成を組んだ。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ113-Y}.name",
+      "source": "800番台旧福知山線色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ113-Y}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ113-Y}.type",
+      "source": "113系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECJ113-Y}.description",
+      "source": "1986(昭和61)年の城崎電化に際して、当時の国鉄財政状況から新車投入は見合わされ、\n各地の各地より捻出した113系０番台を降雪地帯の運用もあるため、耐寒耐雪改造を施した113系800番台となりました。\n後に岡山運転所から転属した115系があります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-R}.name",
+      "source": "春日色(旧関西本線快速)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-R}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-R}.type",
+      "source": "113系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-R}.description",
+      "source": "1972(昭和47)年に関西本線(湊町～奈良間)の電化によって投入された。\n以降、桜井・和歌山・奈良線が電化されると４両編成が誕生した。ＪＲ化後の1989(平成元)年に221系が投入されて、\n大阪環状線直通列車(現大和路快速)から撤退。奈良地区の普通列車も103・105系が投入されて、現在では消滅。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW105-Y}.name",
+      "source": "福塩線色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW105-Y}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW105-Y}.type",
+      "source": "105系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW105-Y}.description",
+      "source": "新性能電車は電動車2両ユニットが原則であったが、地方線区は輸送量の少ない所が多く、MMユニット方式では全電動車となって性能過剰となってしまう。\nこのため福塩線や宇部線・小野田線の新性能化の際、1M方式の105系が製造された。\n新製車は鋼製３扉ロングシート車である。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW115-H}.name",
+      "source": "山陽色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW115-H}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW115-H}.type",
+      "source": "115系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW115-H}.description",
+      "source": "主に山陽本線の、広島・山口県を走る電車。揺れるわトイレがない車両があるわ・・・。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW115_3000-S}.name",
+      "source": "山陽シティライナー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW115_3000-S}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW115_3000-S}.type",
+      "source": "115系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW115_3000-S}.description",
+      "source": "1982(昭和57)年のダイヤ改正で広島地区の輸送改善の一貫として投入された。\n113系ベースでありながら、117系と同様のシートや２扉の設計がされてある。関西地区での転属で中間車を先頭化させ、\n４両編成を基本としている。1993(平成5)年に下関運転所から広島運転所に転属して、現在の瀬戸内カラーに変更した。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-W}.name",
+      "source": "湘南色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-W}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-W}.type",
+      "source": "113系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-W}.description",
+      "source": "関西圏で活躍する113系関西圏は比較的古い型の113系が多い。\n特に京阪神地区は私鉄とのスピード輸送サービスで110km/h対応に改造されている。\n京阪神地区で快速電車として親しまれていたが､223系が新快速車として量産され、221系が快速運用するようになり、\n113系は徐々に他線区への転属が多くなり東海道山陽本線から引退する傾向にある。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-N}.name",
+      "source": "N40リニューアル車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-N}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-N}.type",
+      "source": "113系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW113-N}.description",
+      "source": "ＪＲ西日本で他車種にわたって行われているリニューアル更新車が登場している。\nカラーも湘南色からアーバンネットワークカラーに変更されて113系の面影が半減した。\n現在、東海道山陽本線快速運用(一部湘南色と混編成有り)や湖西・草津線などにも登場している。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW115-N}.name",
+      "source": "N40リニューアル車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW115-N}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW115-N}.type",
+      "source": "115系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AD070310-7653-11D7-A4B7-ECW115-N}.description",
+      "source": "ＪＲ西日本では新製車の投入を進める一方、在来車でまだ活躍が見込める車両についてリニューアル改造を行い新車同様に活躍出来るよう、\nハイ・ローミックスの体制で車両サービスの向上を図っています。\n115系も大幅なリニューアルが図られ、関西地区に登場したN40改造車と同じ規模の改善が図られています。関西のものとはクリーム色の部分がより白いものとなっています。",
+      "translation": ""
+    }
+  ]
+}

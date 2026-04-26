@@ -1,0 +1,62 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.structure.factory2",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "工場その２",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6DC0B940-3DD3-45DF-A67C-2A633C466036}-00.group",
+      "source": "工場屋舎(鋸屋根)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6DC0B940-3DD3-45DF-A67C-2A633C466036}-01.group",
+      "source": "工場屋舎(鋸屋根)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6DC0B940-3DD3-45DF-A67C-2A633C466036}-02.group",
+      "source": "工場屋舎(鋸屋根)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6DC0B940-3DD3-45DF-A67C-2A633C466036}-03.group",
+      "source": "工場屋舎(鋸屋根)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6DC0B940-3DD3-45DF-A67C-2A633C466036}-04.group",
+      "source": "工場屋舎(鋸屋根)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6DC0B940-3DD3-45DF-A67C-2A633C466036}-05.group",
+      "source": "工場屋舎(鋸屋根)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6DC0B940-3DD3-45DF-A67C-2A633C466036}-06.group",
+      "source": "工場屋舎(鋸屋根)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6DC0B940-3DD3-45DF-A67C-2A633C466036}-07.group",
+      "source": "工場屋舎(鋸屋根)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6DC0B940-3DD3-45DF-A67C-2A633C466036}-08.group",
+      "source": "工場屋舎(鋸屋根)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6DC0B940-3DD3-45DF-A67C-2A633C466036}-09.group",
+      "source": "工場屋舎(鋸屋根)",
+      "translation": ""
+    }
+  ]
+}

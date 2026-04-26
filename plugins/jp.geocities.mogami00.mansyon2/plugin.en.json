@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "jp.geocities.mogami00.mansyon2",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "可変マンション",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{mogami-building-1kakeru1-mansyon-B4CDC93FC6C5}.group",
+      "source": "可変マンション",
+      "translation": ""
+    }
+  ]
+}

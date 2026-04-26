@@ -1,0 +1,112 @@
+{
+  "language": "en",
+  "plugin": "rk-mono-koubai",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "地表",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-MONO-001-001a}.name",
+      "source": "モノレール(レール)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-MONO-001-001a}.description",
+      "source": "モノレール",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-m00A009-FENCE-PICTURE-1001}.name",
+      "source": "モノレール(車止め)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-m00A009-FENCE-PICTURE-1001}.description",
+      "source": "モノレール",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-m00A001-FENCE-PICTURE-1001}.name",
+      "source": "勾配01",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-m00A001-FENCE-PICTURE-1001}.group",
+      "source": "モノレール勾配",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-m00A002-FENCE-PICTURE-1001}.name",
+      "source": "勾配02",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-m00A002-FENCE-PICTURE-1001}.group",
+      "source": "モノレール勾配",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-m00A003-FENCE-PICTURE-1001}.name",
+      "source": "勾配03",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-m00A003-FENCE-PICTURE-1001}.group",
+      "source": "モノレール勾配",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-m00A004-FENCE-PICTURE-1001}.name",
+      "source": "勾配04",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-m00A004-FENCE-PICTURE-1001}.group",
+      "source": "モノレール勾配",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-m00A005-FENCE-PICTURE-1001}.name",
+      "source": "勾配01",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-m00A005-FENCE-PICTURE-1001}.group",
+      "source": "モノレール勾配",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-m00A006-FENCE-PICTURE-1001}.name",
+      "source": "勾配02",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-m00A006-FENCE-PICTURE-1001}.group",
+      "source": "モノレール勾配",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-m00A007-FENCE-PICTURE-1001}.name",
+      "source": "勾配03",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-m00A007-FENCE-PICTURE-1001}.group",
+      "source": "モノレール勾配",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-m00A008-FENCE-PICTURE-1001}.name",
+      "source": "勾配08",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-m00A008-FENCE-PICTURE-1001}.group",
+      "source": "モノレール勾配",
+      "translation": ""
+    }
+  ]
+}

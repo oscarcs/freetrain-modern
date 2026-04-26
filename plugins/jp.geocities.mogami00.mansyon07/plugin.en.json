@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "jp.geocities.mogami00.mansyon07",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "分譲マンション(2x2)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{mogami-building-mansyon07-61CF542171A7}.group",
+      "source": "分譲マンション(2x2)",
+      "translation": ""
+    }
+  ]
+}

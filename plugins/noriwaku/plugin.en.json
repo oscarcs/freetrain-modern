@@ -1,0 +1,72 @@
+{
+  "language": "en",
+  "plugin": "noriwaku",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "桁",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-0001-A0036A6ECDEB}.group",
+      "source": "法枠(PC)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-0002-A0036A6ECDEB}.group",
+      "source": "法枠(PC)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-0003-A0036A6ECDEB}.group",
+      "source": "法枠(PC)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-0004-A0036A6ECDEB}.group",
+      "source": "法枠(PC)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-0005-A0036A6ECDEB}.group",
+      "source": "法枠(PC)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-0006-A0036A6ECDEB}.group",
+      "source": "法枠(PC)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-0007-A0036A6ECDEB}.group",
+      "source": "法枠(PC)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-0008-A0036A6ECDEB}.group",
+      "source": "法枠(PC)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-0009-A0036A6ECDEB}.group",
+      "source": "法枠(PC)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-0010-A0036A6ECDEB}.group",
+      "source": "法枠(PC)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-0011-A0036A6ECDEB}.group",
+      "source": "法枠(PC)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-0012-A0036A6ECDEB}.group",
+      "source": "法枠(PC)",
+      "translation": ""
+    }
+  ]
+}

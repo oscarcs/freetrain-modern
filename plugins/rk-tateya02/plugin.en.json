@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "plugin": "rk-tateya02",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物セット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-tateya-tutaya002-001}.name",
+      "source": "ガソリンスタンド(中)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-tateya-tutaya002-002}.name",
+      "source": "ガソリンスタンド(中)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-tateya-tutaya002-003}.name",
+      "source": "ガソリンスタンド(中)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-tateya-tutaya002-004}.name",
+      "source": "ガソリンスタンド(中)",
+      "translation": ""
+    }
+  ]
+}

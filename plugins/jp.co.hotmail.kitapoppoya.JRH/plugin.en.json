@@ -1,0 +1,157 @@
+{
+  "language": "en",
+  "plugin": "jp.co.hotmail.kitapoppoya.JRH",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "JR北海道セット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-711}.name",
+      "source": "函館本線･室蘭本線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-711}.company",
+      "source": "JR北海道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-711}.type",
+      "source": "711系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-711-3}.name",
+      "source": "函館本線･室蘭本線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-711-3}.company",
+      "source": "JR北海道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-711-3}.type",
+      "source": "711系(3ドア改造車)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-785}.name",
+      "source": "スーパーカムイ･すずらん",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-785}.company",
+      "source": "JR北海道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-785}.type",
+      "source": "785系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-7891000}.name",
+      "source": "スーパーカムイ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-7891000}.company",
+      "source": "JR北海道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-7891000}.type",
+      "source": "789系1000番台",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-KIHA281}.name",
+      "source": "スーパー北斗",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-KIHA281}.company",
+      "source": "JR北海道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-KIHA281}.type",
+      "source": "キハ281系(fixed by kitapoppoya)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-KIHA141}.name",
+      "source": "学園都市線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-KIHA141}.company",
+      "source": "JR北海道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-KIHA141}.type",
+      "source": "キハ141系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-KIHA150NAE}.name",
+      "source": "苗穂色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-KIHA150NAE}.company",
+      "source": "JR北海道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-KIHA150NAE}.type",
+      "source": "キハ150系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-KIHA150ASA}.name",
+      "source": "旭川色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-KIHA150ASA}.company",
+      "source": "JR北海道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-KIHA150ASA}.type",
+      "source": "キハ150系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-KIHA150100}.name",
+      "source": "100番台",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-KIHA150100}.company",
+      "source": "JR北海道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-KIHA150100}.type",
+      "source": "キハ150系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-50KAIKYO}.name",
+      "source": "快速海峡",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-50KAIKYO}.company",
+      "source": "JR北海道",
+      "translation": ""
+    }
+  ]
+}

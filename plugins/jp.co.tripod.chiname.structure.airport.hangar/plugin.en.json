@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.structure.airport.hangar",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "旅客機格納庫",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1C33D56E-01ED-4ECA-C477-5C80C7E52854}-l1.group",
+      "source": "旅客機格納庫",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1C33D56E-01ED-4ECA-C477-5C80C7E52854}-l2.group",
+      "source": "旅客機格納庫",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1C33D56E-01ED-4ECA-C477-5C80C7E52854}-m1.group",
+      "source": "旅客機格納庫",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1C33D56E-01ED-4ECA-C477-5C80C7E52854}-m2.group",
+      "source": "旅客機格納庫",
+      "translation": ""
+    }
+  ]
+}

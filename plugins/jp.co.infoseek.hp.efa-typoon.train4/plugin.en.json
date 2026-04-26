@@ -1,0 +1,267 @@
+{
+  "language": "en",
+  "plugin": "jp.co.infoseek.hp.efa-typoon.train4",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "車両セット\u30001号車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-71KN-8FE0-7567171D3CEF}.name",
+      "source": "旧塗装",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-71KN-8FE0-7567171D3CEF}.company",
+      "source": "南海電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-71KN-8FE0-7567171D3CEF}.type",
+      "source": "7000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-70KN-8FE0-7567171D3CEF}.company",
+      "source": "南海電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-70KN-8FE0-7567171D3CEF}.type",
+      "source": "7000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-11KN-8FE0-7567171D3CEF}.name",
+      "source": "四国など",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-11KN-8FE0-7567171D3CEF}.company",
+      "source": "南海電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-11KN-8FE0-7567171D3CEF}.type",
+      "source": "旧1000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-20KN-8FE0-7567171D3CEF}.company",
+      "source": "南海電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-20KN-8FE0-7567171D3CEF}.type",
+      "source": "2000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-20KN-8FE0-7567171D3CEF}.description",
+      "source": "(12両までの偶数両のみ編成可)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-NANKAI-NEW10000-HENSEI-7567171D3CEF}.name",
+      "source": "サザン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-NANKAI-NEW10000-HENSEI-7567171D3CEF}.company",
+      "source": "南海電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-NANKAI-NEW10000-HENSEI-7567171D3CEF}.type",
+      "source": "10000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-NANKAI-NEW10000-HENSEI-7567171D3CEF}.description",
+      "source": "(4・8・12両のみ編成可)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-NANKAI-NEW17000-HENSEI-7567171D3CEF}.name",
+      "source": "サザン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-NANKAI-NEW17000-HENSEI-7567171D3CEF}.company",
+      "source": "南海電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-NANKAI-NEW17000-HENSEI-7567171D3CEF}.type",
+      "source": "10000系+7000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-NANKAI-NEW17000-HENSEI-7567171D3CEF}.description",
+      "source": "(8両のみ編成可)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-NANKAI-OLD10000-HENSEI-7567171D3CEF}.name",
+      "source": "旧塗装\u3000サザン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-NANKAI-OLD10000-HENSEI-7567171D3CEF}.company",
+      "source": "南海電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-NANKAI-OLD10000-HENSEI-7567171D3CEF}.type",
+      "source": "10000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-NANKAI-OLD10000-HENSEI-7567171D3CEF}.description",
+      "source": "(12両までの偶数両のみ編成可)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-NANKAI-OLD17000-HENSEI-7567171D3CEF}.name",
+      "source": "旧塗装\u3000サザン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-NANKAI-OLD17000-HENSEI-7567171D3CEF}.company",
+      "source": "南海電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-NANKAI-OLD17000-HENSEI-7567171D3CEF}.type",
+      "source": "10000系+7000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-NANKAI-OLD17000-HENSEI-7567171D3CEF}.description",
+      "source": "(6両のみ編成可)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-10KN-8FE0-7567171D3CEF}.company",
+      "source": "南海電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-10KN-8FE0-7567171D3CEF}.type",
+      "source": "1000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-10KN-8FE0-7567171D3CEF}.description",
+      "source": "(12両までの偶数両のみ編成可)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-55MT-8FE0-7567171D3CEF}.company",
+      "source": "名古屋鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-55MT-8FE0-7567171D3CEF}.type",
+      "source": "5500系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-MT55A-8FE0-7567171D3CEF}.name",
+      "source": "スカーレット白帯",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-MT55A-8FE0-7567171D3CEF}.company",
+      "source": "名古屋鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-MT55A-8FE0-7567171D3CEF}.type",
+      "source": "5500系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-MT55A-8FE0-7567171D3CEF}.description",
+      "source": "(8両までの偶数両のみ編成可)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-MT55B-8FE0-7567171D3CEF}.name",
+      "source": "ストロークリーム赤帯",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-MT55B-8FE0-7567171D3CEF}.company",
+      "source": "名古屋鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-MT55B-8FE0-7567171D3CEF}.type",
+      "source": "5500系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-MT55B-8FE0-7567171D3CEF}.description",
+      "source": "(8両までの偶数両のみ編成可)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-MEITETSU-CHO5500-HENSEI-7567171D3CEF}.name",
+      "source": "チョコレート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-MEITETSU-CHO5500-HENSEI-7567171D3CEF}.company",
+      "source": "名古屋鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-MEITETSU-CHO5500-HENSEI-7567171D3CEF}.type",
+      "source": "5500系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-MEITETSU-CHO5500-HENSEI-7567171D3CEF}.description",
+      "source": "(8両までの偶数両のみ編成可)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-MT55D-8FE0-7567171D3CEF}.name",
+      "source": "重連",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-MT55D-8FE0-7567171D3CEF}.company",
+      "source": "名古屋鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-MT55D-8FE0-7567171D3CEF}.type",
+      "source": "5500系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-MT55D-8FE0-7567171D3CEF}.description",
+      "source": "(6・12両までの偶数両のみ編成可)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-TOBU-30000-HENSEI-7567171D3CEF}.company",
+      "source": "東武鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-TOBU-30000-HENSEI-7567171D3CEF}.type",
+      "source": "30000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-TOBU-30000-HENSEI-7567171D3CEF}.description",
+      "source": "半蔵門線、田園都市線直通の電車です。",
+      "translation": ""
+    }
+  ]
+}

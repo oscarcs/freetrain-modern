@@ -1,0 +1,52 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.trains.sncf",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "フランス国鉄車両キット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E732E738-5151-423A-B214-012F94C029C0}.company",
+      "source": "フランス国鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E732E738-5151-423A-B214-012F94C029C0}.description",
+      "source": "1996年登場のワインレッドの美しいTGV型車両タリス。最高速度300km。\nフランス、ベルギー、オランダ、ドイツが協力した国際高速車両。\nこれはフランス国鉄所有のTGV-R型のタリス。基本編成：機関車+客車8両+機関車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{EA733861-452A-4FAC-80D3-D8274FB6FE7A}.name",
+      "source": "大西洋線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{EA733861-452A-4FAC-80D3-D8274FB6FE7A}.company",
+      "source": "フランス国鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{EA733861-452A-4FAC-80D3-D8274FB6FE7A}.description",
+      "source": "1989年に最高速度300kmで大西洋線にて営業運転を開始したフランスの高速鉄道。\n外装がオレンジから銀色へと変更され、現在の主流となる。\n1990年5月18日、試験線＆特別車両にて粘着式鉄道世界最高速度515.3kmを達成。基本編成：機関車+客車10両+機関車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8DAA8764-10A7-4F32-A8E0-6154ECBCFC01}.name",
+      "source": "南東線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8DAA8764-10A7-4F32-A8E0-6154ECBCFC01}.company",
+      "source": "フランス国鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8DAA8764-10A7-4F32-A8E0-6154ECBCFC01}.description",
+      "source": "1981年に最高速度270kmで南東線にて営業運転を開始したフランスの高速鉄道。\n経年による更新工事により最高速度300kmが可能になった。と同時に外装も銀色へと塗り替えられる。基本編成：機関車+客車8両+機関車",
+      "translation": ""
+    }
+  ]
+}

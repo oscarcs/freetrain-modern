@@ -1,0 +1,1217 @@
+{
+  "language": "en",
+  "plugin": "finito-web.freetrain.g_structure.standard",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "FreeTrainExAVer用建物総合(建築)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0001-WINDMILL-STRUCTURE-0002}.name",
+      "source": "風力発電用風車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0001-WINDMILL-STRUCTURE-0003}.name",
+      "source": "風力発電用風車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0001-WINDMILL-STRUCTURE-0004}.name",
+      "source": "風力発電用風車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0001-WINDMILL-STRUCTURE-0001}.name",
+      "source": "風力発電用風車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0001-WINDMILL-STRUCTURE-0005}.name",
+      "source": "風力発電用風車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0002-BUTURYU-STRUCTURE-0001}.name",
+      "source": "物流センター",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0002-BUTURYU-STRUCTURE-0002}.name",
+      "source": "物流センター",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0002-BUTURYU-STRUCTURE-0003}.name",
+      "source": "物流センター",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0002-BUTURYU-STRUCTURE-0004}.name",
+      "source": "物流センター",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0002-BUTURYU-STRUCTURE-0005}.name",
+      "source": "物流センター",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0003-OILTANK-STRUCTURE-0001}.name",
+      "source": "石油タンク",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0003-OILTANK-STRUCTURE-0002}.name",
+      "source": "石油タンク",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0003-OILTANK-STRUCTURE-0003}.name",
+      "source": "石油タンク",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0003-OILTANK-STRUCTURE-0004}.name",
+      "source": "石油タンク",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0003-OILTANK-STRUCTURE-0005}.name",
+      "source": "石油タンク",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0003-OILTANK-STRUCTURE-0006}.name",
+      "source": "石油タンク",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0003-OILTANK-STRUCTURE-0007}.name",
+      "source": "石油タンク",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0003-OILTANK-STRUCTURE-0008}.name",
+      "source": "石油タンク",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0003-GASTANK-STRUCTURE-0001}.name",
+      "source": "ガスタンク",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0003-GASTANK-STRUCTURE-0002}.name",
+      "source": "ガスタンク",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0003-GASTANK-STRUCTURE-0003}.name",
+      "source": "ガスタンク",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0003-WATERTANK-STRUCTURE-0001}.name",
+      "source": "配水池",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0003-WATERTANK-STRUCTURE-0002}.name",
+      "source": "配水池",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0003-WATERTANK-STRUCTURE-0003}.name",
+      "source": "配水池",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0003-WPP-STRUCTURE-0001}.name",
+      "source": "浄水場",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-BREAKWATER-STRUCTURE-0001}.name",
+      "source": "防波堤",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-BREAKWATER-STRUCTURE-0002}.name",
+      "source": "防波堤",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-BREAKWATER-STRUCTURE-0003}.name",
+      "source": "防波堤",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-BREAKWATER-STRUCTURE-0004}.name",
+      "source": "防波堤(雛壇風)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-BREAKWATER-STRUCTURE-0005}.name",
+      "source": "防波堤(雛壇風)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-BREAKWATER-STRUCTURE-0006}.name",
+      "source": "防波堤(雛壇風)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-BREAKWATER-STRUCTURE-0007}.name",
+      "source": "防波堤(雛壇風)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-BREAKWATER-STRUCTURE-0008}.name",
+      "source": "防波堤(雛壇風)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-BREAKWATER-STRUCTURE-0009}.name",
+      "source": "防波堤(砂浜)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-BREAKWATER-STRUCTURE-0010}.name",
+      "source": "防波堤(砂浜)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-BREAKWATER-STRUCTURE-0011}.name",
+      "source": "防波堤(砂浜)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-BREAKWATER-STRUCTURE-0012}.name",
+      "source": "防波堤(砂浜)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-BREAKWATER-STRUCTURE-0013}.name",
+      "source": "防波堤(砂浜)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-BREAKWATER-STRUCTURE-0014}.name",
+      "source": "防波堤(砂浜)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-BREAKWATER-STRUCTURE-0015}.name",
+      "source": "防波堤(波消ブロック)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-BREAKWATER-STRUCTURE-0016}.name",
+      "source": "防波堤(波消ブロック)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-BREAKWATER-STRUCTURE-0017}.name",
+      "source": "防波堤(波消ブロック)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-BREAKWATER-STRUCTURE-0018}.name",
+      "source": "防波堤(波消ブロック)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-BREAKWATER-STRUCTURE-0019}.name",
+      "source": "防波堤(波消ブロック)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-BREAKWATER-STRUCTURE-0020}.name",
+      "source": "防波堤(波消ブロック)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-DAM-STRUCTURE-0001}.name",
+      "source": "砂防ダム",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-DAM-STRUCTURE-0002}.name",
+      "source": "砂防ダム",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-DAM-STRUCTURE-0003}.name",
+      "source": "砂防ダム",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-DAM-STRUCTURE-0004}.name",
+      "source": "砂防ダム",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0001}.name",
+      "source": "法枠",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0002}.name",
+      "source": "法枠",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0003}.name",
+      "source": "法枠",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0004}.name",
+      "source": "法枠",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0005}.name",
+      "source": "法枠",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0006}.name",
+      "source": "法枠",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0011}.name",
+      "source": "法枠α",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0012}.name",
+      "source": "法枠α",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0013}.name",
+      "source": "法枠α",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0014}.name",
+      "source": "法枠α",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-00141}.name",
+      "source": "法枠α",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-00142}.name",
+      "source": "法枠α",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-00143}.name",
+      "source": "法枠α",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-00144}.name",
+      "source": "法枠α",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-00145}.name",
+      "source": "法枠α",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-00146}.name",
+      "source": "法枠α",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0015}.name",
+      "source": "法枠α",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0016}.name",
+      "source": "法枠α",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0017}.name",
+      "source": "法枠α",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0018}.name",
+      "source": "法枠α",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0019}.name",
+      "source": "法枠α",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0020}.name",
+      "source": "法枠α",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0021}.name",
+      "source": "法枠α",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0022}.name",
+      "source": "法枠α",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0023}.name",
+      "source": "法枠α",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0024}.name",
+      "source": "法枠α",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0025}.name",
+      "source": "法枠α",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0026}.name",
+      "source": "法枠α",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0031}.name",
+      "source": "法枠β",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0032}.name",
+      "source": "法枠β",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0033}.name",
+      "source": "法枠β",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0034}.name",
+      "source": "法枠β",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-00341}.name",
+      "source": "法枠β",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-00342}.name",
+      "source": "法枠β",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-00343}.name",
+      "source": "法枠β",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-00344}.name",
+      "source": "法枠β",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-00345}.name",
+      "source": "法枠β",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-00346}.name",
+      "source": "法枠β",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0035}.name",
+      "source": "法枠β",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0036}.name",
+      "source": "法枠β",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0037}.name",
+      "source": "法枠β",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0038}.name",
+      "source": "法枠β",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0039}.name",
+      "source": "法枠β",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0040}.name",
+      "source": "法枠β",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0041}.name",
+      "source": "法枠β",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0042}.name",
+      "source": "法枠β",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0043}.name",
+      "source": "法枠β",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0044}.name",
+      "source": "法枠β",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0045}.name",
+      "source": "法枠β",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0046}.name",
+      "source": "法枠β",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0051}.name",
+      "source": "法枠γ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0004-FRAME-STRUCTURE-0052}.name",
+      "source": "法枠γ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0007-CONDO-STRUCTURE-0001}.name",
+      "source": "分譲マンション(3x3)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0007-CONDO-STRUCTURE-0002}.name",
+      "source": "分譲マンション(3x2)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0008-PLANT-STRUCTURE-0001}.name",
+      "source": "火力発電所",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0008-PLANT-STRUCTURE-0002}.name",
+      "source": "火力発電所",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0001}.name",
+      "source": "高橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0002}.name",
+      "source": "高橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0101}.name",
+      "source": "高橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0201}.name",
+      "source": "高橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0003}.name",
+      "source": "高橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0004}.name",
+      "source": "高橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0102}.name",
+      "source": "高橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0202}.name",
+      "source": "高橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0005}.name",
+      "source": "高橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0006}.name",
+      "source": "高橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0103}.name",
+      "source": "高橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0203}.name",
+      "source": "高橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0007}.name",
+      "source": "高橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0008}.name",
+      "source": "高橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0104}.name",
+      "source": "高橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0204}.name",
+      "source": "高橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-00071}.name",
+      "source": "高橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-00072}.name",
+      "source": "高橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-00081}.name",
+      "source": "高橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-00082}.name",
+      "source": "高橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-01041}.name",
+      "source": "高橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-01042}.name",
+      "source": "高橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0009}.name",
+      "source": "高橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0010}.name",
+      "source": "高橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0105}.name",
+      "source": "高橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0205}.name",
+      "source": "高橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0011}.name",
+      "source": "橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0012}.name",
+      "source": "橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0106}.name",
+      "source": "橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0206}.name",
+      "source": "橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0013}.name",
+      "source": "橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0014}.name",
+      "source": "橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0107}.name",
+      "source": "橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0207}.name",
+      "source": "橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0015}.name",
+      "source": "橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0016}.name",
+      "source": "橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0108}.name",
+      "source": "橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0208}.name",
+      "source": "橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0017}.name",
+      "source": "橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0018}.name",
+      "source": "橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0109}.name",
+      "source": "橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0209}.name",
+      "source": "橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-00171}.name",
+      "source": "橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-00172}.name",
+      "source": "橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-00181}.name",
+      "source": "橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-00182}.name",
+      "source": "橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-01191}.name",
+      "source": "橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-01192}.name",
+      "source": "橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0019}.name",
+      "source": "橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0020}.name",
+      "source": "橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0110}.name",
+      "source": "橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0010-BRIDGEPIER-STRUCTURE-0210}.name",
+      "source": "橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0011-DSCHOOL-STRUCTURE-0001}.name",
+      "source": "自動車学校",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0011-DSCHOOL-STRUCTURE-0002}.name",
+      "source": "自動車学校",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0011-DSCHOOL-STRUCTURE-0003}.name",
+      "source": "自動車学校",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-0012-CE-STRUCTURE-0001}.name",
+      "source": "カントリーエレベーター",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1301-FD-STRUCTURE-0001}.name",
+      "source": "消防署",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1301-FD-STRUCTURE-0002}.name",
+      "source": "消防署",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1301-FD-STRUCTURE-0003}.name",
+      "source": "消防署",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1301-FD-STRUCTURE-0004}.name",
+      "source": "消防署",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1301-FD-STRUCTURE-0005}.name",
+      "source": "消防署",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1301-FD-STRUCTURE-0006}.name",
+      "source": "消防署",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1301-FD-STRUCTURE-0007}.name",
+      "source": "消防署",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1401-PD-STRUCTURE-0001}.name",
+      "source": "警察署",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1401-PD-STRUCTURE-0004}.name",
+      "source": "警察署",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1401-PD-STRUCTURE-0005}.name",
+      "source": "警察署",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1601-BS-STRUCTURE-0001}.name",
+      "source": "基地局",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1602-BS-STRUCTURE-0001}.name",
+      "source": "基地局",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1603-BS-STRUCTURE-0001}.name",
+      "source": "基地局",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1604-BS-STRUCTURE-0001}.name",
+      "source": "基地局",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1701-ROCKS-STRUCTURE-0001}.name",
+      "source": "自然岩",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1701-ROCKS-STRUCTURE-0002}.name",
+      "source": "自然岩",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1701-ROCKS-STRUCTURE-0011}.name",
+      "source": "自然岩",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1701-ROCKS-STRUCTURE-0012}.name",
+      "source": "自然岩",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1701-ROCKS-STRUCTURE-0013}.name",
+      "source": "自然岩",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1701-ROCKS-STRUCTURE-0014}.name",
+      "source": "自然岩",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1701-ROCKS-STRUCTURE-0015}.name",
+      "source": "自然岩",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1701-ROCKS-STRUCTURE-0016}.name",
+      "source": "自然岩",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1702-ROCKS-STRUCTURE-0001}.name",
+      "source": "自然岩",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1702-ROCKS-STRUCTURE-0002}.name",
+      "source": "自然岩",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1702-ROCKS-STRUCTURE-0011}.name",
+      "source": "自然岩",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1702-ROCKS-STRUCTURE-0012}.name",
+      "source": "自然岩",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1702-ROCKS-STRUCTURE-0013}.name",
+      "source": "自然岩",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1702-ROCKS-STRUCTURE-0014}.name",
+      "source": "自然岩",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1702-ROCKS-STRUCTURE-0015}.name",
+      "source": "自然岩",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1702-ROCKS-STRUCTURE-0016}.name",
+      "source": "自然岩",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1501-HVF-STRUCTURE-0001}.name",
+      "source": "小",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1501-HVF-STRUCTURE-0001}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1501-HVF-STRUCTURE-0002}.name",
+      "source": "小",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1501-HVF-STRUCTURE-0002}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1501-HVF-STRUCTURE-0003}.name",
+      "source": "小",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1501-HVF-STRUCTURE-0003}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1501-HVF-STRUCTURE-0004}.name",
+      "source": "大",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1501-HVF-STRUCTURE-0004}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1501-HVF-STRUCTURE-0005}.name",
+      "source": "大",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1501-HVF-STRUCTURE-0005}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1501-HVF-STRUCTURE-0006}.name",
+      "source": "芝",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1501-HVF-STRUCTURE-0006}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1502-HVM-STRUCTURE-0001}.name",
+      "source": "直線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1502-HVM-STRUCTURE-0001}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1502-HVM-STRUCTURE-0002}.name",
+      "source": "直線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1502-HVM-STRUCTURE-0002}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1502-HVM-STRUCTURE-0003}.name",
+      "source": "カーブ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1502-HVM-STRUCTURE-0003}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1502-HVM-STRUCTURE-0004}.name",
+      "source": "カーブ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1502-HVM-STRUCTURE-0004}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1502-HVM-STRUCTURE-0005}.name",
+      "source": "カーブ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1502-HVM-STRUCTURE-0005}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1502-HVM-STRUCTURE-0006}.name",
+      "source": "カーブ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1502-HVM-STRUCTURE-0006}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1502-HVM-STRUCTURE-0007}.name",
+      "source": "三叉路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1502-HVM-STRUCTURE-0007}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1502-HVM-STRUCTURE-0008}.name",
+      "source": "三叉路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1502-HVM-STRUCTURE-0008}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1502-HVM-STRUCTURE-0009}.name",
+      "source": "十字路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1502-HVM-STRUCTURE-0009}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1503-HVT-STRUCTURE-0001}.name",
+      "source": "植木",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1503-HVT-STRUCTURE-0001}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1503-HVT-STRUCTURE-0002}.name",
+      "source": "植木",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1503-HVT-STRUCTURE-0002}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1503-HVT-STRUCTURE-0003}.name",
+      "source": "庭木",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1503-HVT-STRUCTURE-0003}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1503-HVT-STRUCTURE-0004}.name",
+      "source": "庭木",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1503-HVT-STRUCTURE-0004}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1503-HVT-STRUCTURE-0005}.name",
+      "source": "庭木",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1503-HVT-STRUCTURE-0005}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1503-HVT-STRUCTURE-0006}.name",
+      "source": "庭木",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1503-HVT-STRUCTURE-0006}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1504-HVS-STRUCTURE-0001}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1504-HVS-STRUCTURE-0002}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1505-HVM-STRUCTURE-0001}.name",
+      "source": "山肌",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1505-HVM-STRUCTURE-0001}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1505-HVM-STRUCTURE-0002}.name",
+      "source": "山肌/雑草",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1505-HVM-STRUCTURE-0002}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1505-HVM-STRUCTURE-0003}.name",
+      "source": "法枠",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{HEUER-1505-HVM-STRUCTURE-0003}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    }
+  ]
+}

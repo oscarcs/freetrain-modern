@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "gs.convert.yualove.freetrain.structure.2k",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物総合コンバート\u3000ゆうあ建設",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D50BA778-25F4-465B-8A73-4C15F8772362}-gs.name",
+      "source": "消防署",
+      "translation": ""
+    }
+  ]
+}

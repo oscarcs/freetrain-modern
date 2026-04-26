@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "rk-tateya07",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物セット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-tateya-tutaya007-001}.name",
+      "source": "市民サッカーグランド",
+      "translation": ""
+    }
+  ]
+}

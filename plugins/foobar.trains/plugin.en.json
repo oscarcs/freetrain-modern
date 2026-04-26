@@ -1,0 +1,52 @@
+{
+  "language": "en",
+  "plugin": "foobar.trains",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C9FC390D-64A1-42bf-A456-F8D8A95867B2}.name",
+      "source": "キハ54-500のみ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C9FC390D-64A1-42bf-A456-F8D8A95867B2}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C9FC390D-64A1-42bf-A456-F8D8A95867B2}.type",
+      "source": "キハ54系500番台",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C9FC390D-64A1-42bf-A456-F8D8A95867B2}.description",
+      "source": "キハ54-500のみの編成",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2111E09F-6C00-48d7-AE20-7EC1E4910E6E}.name",
+      "source": "キハ53-500のみ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2111E09F-6C00-48d7-AE20-7EC1E4910E6E}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2111E09F-6C00-48d7-AE20-7EC1E4910E6E}.type",
+      "source": "キハ53系500番台",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2111E09F-6C00-48d7-AE20-7EC1E4910E6E}.description",
+      "source": "キハ53-500のみの編成",
+      "translation": ""
+    }
+  ]
+}

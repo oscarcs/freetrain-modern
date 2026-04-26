@@ -1,0 +1,62 @@
+{
+  "language": "en",
+  "plugin": "info.hiyohiyo.riorio.freetrain.rail.electoricpole-keta1-HanabishiRekka",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "架線柱タイプ桁",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ep-slice-1EF4-6001-9C5A-D0EA1049D28D}.name",
+      "source": "斜橋桁A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ep-slice-1EF4-6002-9C5A-D0EA1049D28D}.name",
+      "source": "斜橋桁B",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ep-slice-1EF4-6003-9C5A-D0EA1049D28D}.name",
+      "source": "斜橋桁C",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ep-slice-1EF4-6004-9C5A-D0EA1049D28D}.name",
+      "source": "斜橋桁D",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ep-slice-1EF4-6005-9C5A-D0EA1049D28D}.name",
+      "source": "斜橋桁E",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ep-slice-1EF4-6006-9C5A-D0EA1049D28D}.name",
+      "source": "斜橋桁F",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ep-slice-1EF4-6007-9C5A-D0EA1049D28D}.name",
+      "source": "斜橋桁G複",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ep-slice-1EF4-6008-9C5A-D0EA1049D28D}.name",
+      "source": "斜橋桁H複",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ep-slice-1EF4-6009-9C5A-D0EA1049D28D}.name",
+      "source": "斜橋桁I複",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ep-slice-1EF4-6010-9C5A-D0EA1049D28D}.name",
+      "source": "斜橋桁J複",
+      "translation": ""
+    }
+  ]
+}

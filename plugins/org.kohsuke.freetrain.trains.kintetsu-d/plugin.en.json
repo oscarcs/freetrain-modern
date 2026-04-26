@@ -1,0 +1,67 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.trains.kintetsu-d",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "ては",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0D5E7A3E-FC17-4196-85B2-106A1C6CBBAE}.name",
+      "source": "スナックカー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0D5E7A3E-FC17-4196-85B2-106A1C6CBBAE}.company",
+      "source": "近畿日本鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0D5E7A3E-FC17-4196-85B2-106A1C6CBBAE}.type",
+      "source": "12000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{93CD3ED6-A252-40C0-B9DF-3DA8762FB1D8}.name",
+      "source": "ビスタカーIII",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{93CD3ED6-A252-40C0-B9DF-3DA8762FB1D8}.company",
+      "source": "近畿日本鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{93CD3ED6-A252-40C0-B9DF-3DA8762FB1D8}.type",
+      "source": "30000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{43F6F375-0F31-41F1-86D0-D367068EAA35}.name",
+      "source": "サニーカー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{43F6F375-0F31-41F1-86D0-D367068EAA35}.company",
+      "source": "近畿日本鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{43F6F375-0F31-41F1-86D0-D367068EAA35}.type",
+      "source": "12400系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0845A7E9-7E6D-48C1-BA93-89BB1E5A4F1A}.company",
+      "source": "近畿日本鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0845A7E9-7E6D-48C1-BA93-89BB1E5A4F1A}.type",
+      "source": "22000系",
+      "translation": ""
+    }
+  ]
+}

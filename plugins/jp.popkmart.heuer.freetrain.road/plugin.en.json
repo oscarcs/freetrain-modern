@@ -1,0 +1,672 @@
+{
+  "language": "en",
+  "plugin": "jp.popkmart.heuer.freetrain.road",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "FreeTrainExAVer用道路プラグイン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD0001-8058-11D7-BB78-0090FE1AB959}.name",
+      "source": "農道/未舗装/盛土・花",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD0001-8058-11D7-BB78-0090FE1AB959}.description",
+      "source": "農道(未舗装)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD0002-8058-11D7-BB78-0090FE1AB959}.name",
+      "source": "農道/未舗装/盛土・芝",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD0002-8058-11D7-BB78-0090FE1AB959}.description",
+      "source": "農道(未舗装)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1001-8058-11D7-BB78-0090FE1AB959}.name",
+      "source": "生活道路/無灯",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1001-8058-11D7-BB78-0090FE1AB959}.description",
+      "source": "生活道路(無灯)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1101-8058-11D7-BB78-0090FE1AB959}.name",
+      "source": "アスファルト",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1101-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1102-8058-11D7-BB78-0090FE1AB959}.name",
+      "source": "アスファルト(側溝付)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1102-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1103-8058-11D7-BB78-0090FE1AB959}.name",
+      "source": "タイル舗装",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1103-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1103-8058-11D7-BB78-0090FE1AB960}.name",
+      "source": "タイル舗装/アスファルト",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1103-8058-11D7-BB78-0090FE1AB960}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1103-8058-11D7-BB78-0090FE1AB961}.name",
+      "source": "タイル舗装/一車線道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1103-8058-11D7-BB78-0090FE1AB961}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1103-8059-11D7-BB78-0090FE1AB959}.name",
+      "source": "タイル舗装(植栽)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1103-8059-11D7-BB78-0090FE1AB959}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1103-8060-11D7-BB78-0090FE1AB959}.name",
+      "source": "タイル舗装(植栽)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1103-8060-11D7-BB78-0090FE1AB959}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1103-8061-11D7-BB78-0090FE1AB959}.name",
+      "source": "タイル舗装(植栽)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1103-8061-11D7-BB78-0090FE1AB959}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1103-8062-11D7-BB78-0090FE1AB959}.name",
+      "source": "タイル舗装(植栽)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1103-8062-11D7-BB78-0090FE1AB959}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1104-8058-11D7-BB78-0090FE1AB959}.name",
+      "source": "直線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1104-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1105-8058-11D7-BB78-0090FE1AB959}.name",
+      "source": "直線/短",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1105-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1105-8059-11D7-BB78-0090FE1AB959}.name",
+      "source": "直線/短/水路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1105-8059-11D7-BB78-0090FE1AB959}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1105-8060-11D7-BB78-0090FE1AB959}.name",
+      "source": "直線/短/水路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1105-8060-11D7-BB78-0090FE1AB959}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1106-8058-11D7-BB78-0090FE1AB959}.name",
+      "source": "カーブ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1106-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1107-8058-11D7-BB78-0090FE1AB959}.name",
+      "source": "カーブ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1107-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1107-8059-11D7-BB78-0090FE1AB959}.name",
+      "source": "カーブ/短",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1107-8059-11D7-BB78-0090FE1AB959}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1107-8060-11D7-BB78-0090FE1AB959}.name",
+      "source": "カーブ/短",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1107-8060-11D7-BB78-0090FE1AB959}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1108-8058-11D7-BB78-0090FE1AB959}.name",
+      "source": "三叉路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1108-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1109-8058-11D7-BB78-0090FE1AB959}.name",
+      "source": "三叉路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1109-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1110-8058-11D7-BB78-0090FE1AB959}.name",
+      "source": "十字路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1110-8058-11D7-BB78-0090FE1AB959}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1121-8059-11D7-BB78-0090FE1AB959}.name",
+      "source": "直線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1121-8059-11D7-BB78-0090FE1AB959}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1122-8059-11D7-BB78-0090FE1AB959}.name",
+      "source": "直線/短",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1122-8059-11D7-BB78-0090FE1AB959}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1123-8059-11D7-BB78-0090FE1AB959}.name",
+      "source": "カーブ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1123-8059-11D7-BB78-0090FE1AB959}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1124-8059-11D7-BB78-0090FE1AB959}.name",
+      "source": "カーブ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1124-8059-11D7-BB78-0090FE1AB959}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1125-8059-11D7-BB78-0090FE1AB959}.name",
+      "source": "カーブ/短",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1125-8059-11D7-BB78-0090FE1AB959}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1126-8059-11D7-BB78-0090FE1AB959}.name",
+      "source": "カーブ/短",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1126-8059-11D7-BB78-0090FE1AB959}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1127-8059-11D7-BB78-0090FE1AB959}.name",
+      "source": "三叉路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1127-8059-11D7-BB78-0090FE1AB959}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1128-8059-11D7-BB78-0090FE1AB959}.name",
+      "source": "三叉路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1128-8059-11D7-BB78-0090FE1AB959}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1129-8059-11D7-BB78-0090FE1AB959}.name",
+      "source": "十字路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD1129-8059-11D7-BB78-0090FE1AB959}.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2001-8058-11D7-BB78-0090FE1AB959}.name",
+      "source": "二車線道路/白破線/街灯A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2001-8058-11D7-BB78-0090FE1AB959}.description",
+      "source": "白破線二車線道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2001-8058-11D7-BB78-0090FE1AB960}.name",
+      "source": "二車線道路/白破線/街灯B",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2001-8058-11D7-BB78-0090FE1AB960}.description",
+      "source": "白破線二車線道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2001-8058-11D7-BB78-0090FE1AB959A}.name",
+      "source": "二車線道路/白破線/無灯",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2001-8058-11D7-BB78-0090FE1AB959A}.description",
+      "source": "白破線二車線道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2002-8058-11D7-BB78-0090FE1AB959}.name",
+      "source": "二車線道路/白実線/街灯A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2002-8058-11D7-BB78-0090FE1AB959}.description",
+      "source": "白実線二車線道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2002-8058-11D7-BB78-0090FE1AB960}.name",
+      "source": "二車線道路/白実線/街灯B",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2002-8058-11D7-BB78-0090FE1AB960}.description",
+      "source": "白実線二車線道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2002-8058-11D7-BB78-0090FE1AB959A}.name",
+      "source": "二車線道路/白実線/無灯",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2002-8058-11D7-BB78-0090FE1AB959A}.description",
+      "source": "白実線二車線道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2003-8058-11D7-BB78-0090FE1AB959}.name",
+      "source": "二車線道路/橙実線/街灯A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2003-8058-11D7-BB78-0090FE1AB959}.description",
+      "source": "橙実線二車線道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2003-8058-11D7-BB78-0090FE1AB960}.name",
+      "source": "二車線道路/橙実線/街灯B",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2003-8058-11D7-BB78-0090FE1AB960}.description",
+      "source": "橙実線二車線道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2003-8058-11D7-BB78-0090FE1AB959A}.name",
+      "source": "二車線道路/橙実線/無灯",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2003-8058-11D7-BB78-0090FE1AB959A}.description",
+      "source": "白実線二車線道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2501-8058-11D7-BB78-0090FE1AB959}.name",
+      "source": "三車線道路/左破線右実線/街灯A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2501-8058-11D7-BB78-0090FE1AB959}.description",
+      "source": "白線三車線道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2501-8058-11D7-BB78-0090FE1AB960}.name",
+      "source": "三車線道路/左破線右実線/街灯B",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2501-8058-11D7-BB78-0090FE1AB960}.description",
+      "source": "白線三車線道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2501-8058-11D7-BB78-0090FE1AB959A}.name",
+      "source": "三車線道路/左破線右実線/無灯",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2501-8058-11D7-BB78-0090FE1AB959A}.description",
+      "source": "白線三車線道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2502-8058-11D7-BB78-0090FE1AB959}.name",
+      "source": "三車線道路/左実線右破線/街灯A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2502-8058-11D7-BB78-0090FE1AB959}.description",
+      "source": "白線三車線道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2502-8058-11D7-BB78-0090FE1AB960}.name",
+      "source": "三車線道路/左実線右破線/街灯B",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2502-8058-11D7-BB78-0090FE1AB960}.description",
+      "source": "白線三車線道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2502-8058-11D7-BB78-0090FE1AB959A}.name",
+      "source": "三車線道路/左実線右破線/無灯",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2502-8058-11D7-BB78-0090FE1AB959A}.description",
+      "source": "白線三車線道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2503-8058-11D7-BB78-0090FE1AB959}.name",
+      "source": "三車線道路/白実線/街灯A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2503-8058-11D7-BB78-0090FE1AB959}.description",
+      "source": "白線三車線道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2503-8058-11D7-BB78-0090FE1AB960}.name",
+      "source": "三車線道路/白実線/街灯B",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2503-8058-11D7-BB78-0090FE1AB960}.description",
+      "source": "白線三車線道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2503-8058-11D7-BB78-0090FE1AB959A}.name",
+      "source": "三車線道路/白実線/無灯",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2503-8058-11D7-BB78-0090FE1AB959A}.description",
+      "source": "白線三車線道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2504-8058-11D7-BB78-0090FE1AB959}.name",
+      "source": "三車線道路/白破線A/街灯A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2504-8058-11D7-BB78-0090FE1AB959}.description",
+      "source": "白線三車線道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2504-8058-11D7-BB78-0090FE1AB960}.name",
+      "source": "三車線道路/白破線A/街灯B",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2504-8058-11D7-BB78-0090FE1AB960}.description",
+      "source": "白線三車線道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2504-8058-11D7-BB78-0090FE1AB959A}.name",
+      "source": "三車線道路/白破線A/無灯",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2504-8058-11D7-BB78-0090FE1AB959A}.description",
+      "source": "白線三車線道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2505-8058-11D7-BB78-0090FE1AB959}.name",
+      "source": "三車線道路/白破線B/街灯A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2505-8058-11D7-BB78-0090FE1AB959}.description",
+      "source": "白線三車線道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2505-8058-11D7-BB78-0090FE1AB960}.name",
+      "source": "三車線道路/白破線B/街灯B",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2505-8058-11D7-BB78-0090FE1AB960}.description",
+      "source": "白線三車線道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2505-8058-11D7-BB78-0090FE1AB959A}.name",
+      "source": "三車線道路/白破線B/無灯",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD2505-8058-11D7-BB78-0090FE1AB959A}.description",
+      "source": "白線三車線道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD3001-8058-11D7-BB78-0090FE1AB959}.name",
+      "source": "高速道路(白破線)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD3001-8058-11D7-BB78-0090FE1AB959}.description",
+      "source": "白破線高速道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD3002-8058-11D7-BB78-0090FE1AB959}.name",
+      "source": "高速道路(単線左)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD3002-8058-11D7-BB78-0090FE1AB959}.description",
+      "source": "単線左高速道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD3003-8058-11D7-BB78-0090FE1AB959}.name",
+      "source": "高速道路(単線右)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD3003-8058-11D7-BB78-0090FE1AB959}.description",
+      "source": "単線右高速道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD3004-8058-11D7-BB78-0090FE1AB959}.name",
+      "source": "高速道路(複線左)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD3004-8058-11D7-BB78-0090FE1AB959}.description",
+      "source": "複線左高速道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD3005-8058-11D7-BB78-0090FE1AB959}.name",
+      "source": "高速道路(複線右)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD3005-8058-11D7-BB78-0090FE1AB959}.description",
+      "source": "複線右高速道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD3006-8058-11D7-BB78-0090FE1AB959}.name",
+      "source": "高速道路(対面通行)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD3006-8058-11D7-BB78-0090FE1AB959}.description",
+      "source": "対面通行高速道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD4001-8058-11D7-BB78-0090FE1AB959}.name",
+      "source": "交差点/ゼブラゾーン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD4001-8058-11D7-BB78-0090FE1AB959}.description",
+      "source": "ゼブラゾーン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD4002-8058-11D7-BB78-0090FE1AB959}.name",
+      "source": "交差点/横断歩道/スクランブル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD4002-8058-11D7-BB78-0090FE1AB959}.description",
+      "source": "スクランブル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD4003-8058-11D7-BB78-0090FE1AB959}.name",
+      "source": "交差点/横断歩道/通常",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD4003-8058-11D7-BB78-0090FE1AB959}.description",
+      "source": "横断歩道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD4004-8058-11D7-BB78-0090FE1AB959}.name",
+      "source": "交差点/横断歩道/ゼブラ付",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{ROAD4004-8058-11D7-BB78-0090FE1AB959}.description",
+      "source": "横断歩道ゼブラ付",
+      "translation": ""
+    }
+  ]
+}

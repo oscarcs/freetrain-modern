@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.g_structure.convert.syousei",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "民家(小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D6DE0AED-AECF-4d7f-8455-488016997FFF}-gs.name",
+      "source": "民家(小)",
+      "translation": ""
+    }
+  ]
+}

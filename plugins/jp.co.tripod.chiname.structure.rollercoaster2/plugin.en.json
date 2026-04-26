@@ -1,0 +1,87 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.structure.rollercoaster2",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "ジェットコースター",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{83211A18-7B5B-420A-C477-631608F3D05E}.group",
+      "source": "コースター(完成品)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{BE10082E-D7AC-4C15-C477-BC4EF2A56A9C}.group",
+      "source": "コースター(完成品)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E583A63F-044F-4384-C477-0A280C67FAC4}-str.group",
+      "source": "コースターB(直線・坂)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E583A63F-044F-4384-C477-0A280C67FAC4}-slp.group",
+      "source": "コースターB(直線・坂)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E583A63F-044F-4384-C477-0A280C67FAC4}-top.group",
+      "source": "コースターB(直線・坂)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E583A63F-044F-4384-C477-0A280C67FAC4}-btm.group",
+      "source": "コースターB(直線・坂)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E583A63F-044F-4384-C477-0A280C67FAC4}-vlp.group",
+      "source": "コースターB(特殊)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E583A63F-044F-4384-C477-0A280C67FAC4}-csw.group",
+      "source": "コースターB(特殊)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E583A63F-044F-4384-C477-0A280C67FAC4}-scv.group",
+      "source": "コースターB(カーブ)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E583A63F-044F-4384-C477-0A280C67FAC4}-lcv.group",
+      "source": "コースターB(カーブ)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E583A63F-044F-4384-C477-0A280C67FAC4}-S.group",
+      "source": "コースターB(カーブ)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E583A63F-044F-4384-C477-0A280C67FAC4}-1tL.group",
+      "source": "コースターB(カーブ)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E583A63F-044F-4384-C477-0A280C67FAC4}-1tR.group",
+      "source": "コースターB(カーブ)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E583A63F-044F-4384-C477-0A280C67FAC4}-1.5tL.group",
+      "source": "コースターB(カーブ)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E583A63F-044F-4384-C477-0A280C67FAC4}-1.5tR.group",
+      "source": "コースターB(カーブ)",
+      "translation": ""
+    }
+  ]
+}

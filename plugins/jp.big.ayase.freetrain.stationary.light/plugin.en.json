@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "jp.big.ayase.freetrain.stationary.light",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "鉄道施設プラグイン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-Light-1}.group",
+      "source": "投光台",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-Light-2}.group",
+      "source": "投光台",
+      "translation": ""
+    }
+  ]
+}

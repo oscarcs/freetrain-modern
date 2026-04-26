@@ -1,0 +1,27 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.trains.2ch",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "ぞぬ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3DCBE7F9-2977-42A3-BBD6-3FB0EB582213}.name",
+      "source": "ゾヌー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3DCBE7F9-2977-42A3-BBD6-3FB0EB582213}.type",
+      "source": "超特急",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3DCBE7F9-2977-42A3-BBD6-3FB0EB582213}.description",
+      "source": "形に騙されては(・∀・)ｲｹﾅｲ、300km/hを余裕で超える高性能だ！びゅんびゅん速いぞ！",
+      "translation": ""
+    }
+  ]
+}

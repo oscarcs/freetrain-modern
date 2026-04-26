@@ -1,0 +1,132 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.land.bush",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "茂み",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4307947B-3E50-4467-C477-37938B23AB89}.name",
+      "source": "ツゲ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4307947B-3E50-4467-C477-37938B23AB89}.group",
+      "source": "灌木",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7FA5C87F-2C70-460E-C477-405D5DFEB16A}.name",
+      "source": "ススキ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7FA5C87F-2C70-460E-C477-405D5DFEB16A}.group",
+      "source": "灌木",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1C67B6F8-65D2-4837-C477-D2FDF1E3102A}.name",
+      "source": "落葉樹A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1C67B6F8-65D2-4837-C477-D2FDF1E3102A}.group",
+      "source": "灌木",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D828F5C5-2C45-43F7-C477-AB619FB21F03}.name",
+      "source": "常緑樹A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D828F5C5-2C45-43F7-C477-AB619FB21F03}.group",
+      "source": "灌木",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4307947B-3E50-4467-C477-37938B23AB89}-m.name",
+      "source": "ツゲ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4307947B-3E50-4467-C477-37938B23AB89}-m.group",
+      "source": "灌木(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7FA5C87F-2C70-460E-C477-405D5DFEB16A}-m.name",
+      "source": "ススキ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7FA5C87F-2C70-460E-C477-405D5DFEB16A}-m.group",
+      "source": "灌木(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1C67B6F8-65D2-4837-C477-D2FDF1E3102A}-m.name",
+      "source": "落葉樹A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1C67B6F8-65D2-4837-C477-D2FDF1E3102A}-m.group",
+      "source": "灌木(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D828F5C5-2C45-43F7-C477-AB619FB21F03}-m.name",
+      "source": "常緑樹A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D828F5C5-2C45-43F7-C477-AB619FB21F03}-m.group",
+      "source": "灌木(山肌)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4307947B-3E50-4467-C477-37938B23AB89}-g.name",
+      "source": "ツゲ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4307947B-3E50-4467-C477-37938B23AB89}-g.group",
+      "source": "灌木(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7FA5C87F-2C70-460E-C477-405D5DFEB16A}-g.name",
+      "source": "ススキ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7FA5C87F-2C70-460E-C477-405D5DFEB16A}-g.group",
+      "source": "灌木(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1C67B6F8-65D2-4837-C477-D2FDF1E3102A}-g.name",
+      "source": "落葉樹A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1C67B6F8-65D2-4837-C477-D2FDF1E3102A}-g.group",
+      "source": "灌木(草原)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D828F5C5-2C45-43F7-C477-AB619FB21F03}-g.name",
+      "source": "常緑樹A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D828F5C5-2C45-43F7-C477-AB619FB21F03}-g.group",
+      "source": "灌木(草原)",
+      "translation": ""
+    }
+  ]
+}

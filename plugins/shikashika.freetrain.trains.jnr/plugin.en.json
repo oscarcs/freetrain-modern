@@ -1,0 +1,1197 @@
+{
+  "language": "en",
+  "plugin": "shikashika.freetrain.trains.jnr",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "列車(旧日本国有鉄道)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LimitedExpressTrain-swallowangel}.name",
+      "source": "特急つばめ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LimitedExpressTrain-swallowangel}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LimitedExpressTrain-swallowangel}.description",
+      "source": "国鉄最大最後の旅客用機関車C62が牽引する、特急つばめです。客車はスハ44系で、最後尾には1等展望車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LimitedExpressTrain-hatukari-B}.name",
+      "source": "特急はつかり",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LimitedExpressTrain-hatukari-B}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LimitedExpressTrain-hatukari-B}.description",
+      "source": "国鉄最大最後の旅客用機関車C62が牽引する、特急はつかりです。客車は客車はスハ44系で、昭和39年以降の青に塗り替えられたものです。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein}.name",
+      "source": "旧普通列車(茶)郵便車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein}.description",
+      "source": "国鉄最大最後の旅客用機関車C62が牽引する、客車普通列車です。客車は昭和26年から製造された急行用3等車(3等緩急車)スハ43系で、郵便車オユ10を併結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein-mani60}.name",
+      "source": "旧普通列車(茶)荷物車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein-mani60}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein-mani60}.description",
+      "source": "国鉄最大最後の旅客用機関車C62が牽引する、客車普通列車です。客車は昭和26年から製造された急行用3等車(3等緩急車)スハ43系で、荷物車マニ60を併結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein-mani30}.name",
+      "source": "旧普通列車(茶)現金輸送荷物車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein-mani30}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein-mani30}.description",
+      "source": "国鉄最大最後の旅客用機関車C62が牽引する、客車普通列車です。客車は昭和26年から製造された急行用3等車(3等緩急車)スハ43系で、最後尾に現金輸送用荷物車マニ30を併結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein-B}.name",
+      "source": "旧普通列車(青)荷物車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein-B}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein-B}.description",
+      "source": "国鉄最大最後の旅客用機関車C62が牽引する、客車普通列車です。客車はスハ43系で、改良を施して青に塗り替えられたものです。最後尾に荷物車を併結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein-B-oyu10}.name",
+      "source": "旧普通列車(青)郵便車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein-B-oyu10}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein-B-oyu10}.description",
+      "source": "国鉄最大最後の旅客用機関車C62が牽引する、客車普通列車です。客車はスハ43系で、改良を施して青に塗り替えられたものです。最後尾に郵便車オユ10を併結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein-B-mani30}.name",
+      "source": "旧普通列車(青)現金輸送用荷物車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein-B-mani30}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C622-LocalTrein-B-mani30}.description",
+      "source": "国鉄最大最後の旅客用機関車C62が牽引する、客車普通列車です。客車はスハ43系で、改良を施して青に塗り替えられたものです。現金輸送用荷物車マニ30を併結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-ExpressTrain-yamagutigou}.name",
+      "source": "ＳＬ山口号(青)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-ExpressTrain-yamagutigou}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-ExpressTrain-yamagutigou}.description",
+      "source": "貴婦人と呼ばれたC57が牽引するSL山口号です。C571号機には、白いラインが引かれ集煙装置が付けられています。客車は昭和44年に登場した12系の急行形客車を牽引しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein}.name",
+      "source": "旧普通列車(茶)郵便車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein}.description",
+      "source": "貴婦人と呼ばれたC57が牽引する、客車普通列車です。客車は昭和26年から製造された急行用3等車(3等緩急車)スハ43系で、郵便車オユ10を併結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein-mani60}.name",
+      "source": "旧普通列車(茶)荷物車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein-mani60}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein-mani60}.description",
+      "source": "貴婦人と呼ばれたC57が牽引する、客車普通列車です。客車は昭和26年から製造された急行用3等車(3等緩急車)スハ43系で、荷物車マニ60を併結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein-mani30}.name",
+      "source": "旧普通列車(茶)現金輸送用荷物車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein-mani30}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein-mani30}.description",
+      "source": "貴婦人と呼ばれたC57が牽引する、客車普通列車です。客車は昭和26年から製造された急行用3等車(3等緩急車)スハ43系で、最後尾に現金輸送用荷物車マニ30を併結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein-B}.name",
+      "source": "旧普通列車(青)荷物車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein-B}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein-B}.description",
+      "source": "貴婦人と呼ばれたC57が牽引する、客車普通列車です。客車はスハ43系で、改良を施して青に塗り替えられたものです。最後尾に荷物車マニ60を併結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein-B-oyu10}.name",
+      "source": "旧普通列車(青)郵便車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein-B-oyu10}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein-B-oyu10}.description",
+      "source": "貴婦人と呼ばれたC57が牽引する、客車普通列車です。客車はスハ43系で、改良を施して青に塗り替えられたものです。最後尾に郵便車オユ10を併結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein-B-mani30}.name",
+      "source": "旧普通列車(青)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein-B-mani30}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C57-LocalTrein-B-mani30}.description",
+      "source": "貴婦人と呼ばれたC57が牽引する、客車普通列車です。客車はスハ43系で、改良を施して青に塗り替えられたものです。現金輸送用荷物車マニ30を併結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein}.name",
+      "source": "旧普通列車(茶)郵便車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein}.description",
+      "source": "客貨両用機関車のC58が牽引する、客車普通列車です。客車は昭和26年から製造された急行用3等車(3等緩急車)スハ43系で、郵便車オユ10を併結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein-mani60}.name",
+      "source": "旧普通列車(茶)荷物車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein-mani60}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein-mani60}.description",
+      "source": "客貨両用機関車のC58が牽引する、客車普通列車です。客車は昭和26年から製造された急行用3等車(3等緩急車)スハ43系で、荷物車マニ60を併結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein-mani30}.name",
+      "source": "旧普通列車(茶)現金輸送用荷物車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein-mani30}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein-mani30}.description",
+      "source": "客貨両用機関車のC58が牽引する、客車普通列車です。客車は昭和26年から製造された急行用3等車(3等緩急車)スハ43系で、最後尾に現金輸送用荷物車マニ30を併結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein-B}.name",
+      "source": "旧普通列車(青)荷物車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein-B}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein-B}.description",
+      "source": "客貨両用機関車のC58が牽引する、客車普通列車です。客車はスハ43系で、改良を施して青に塗り替えられたものです。最後尾に荷物車を併結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein-B-oyu10}.name",
+      "source": "旧普通列車(青)郵便車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein-B-oyu10}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein-B-oyu10}.description",
+      "source": "客貨両用機関車のC58が牽引する、客車普通列車です。客車はスハ43系で、改良を施して青に塗り替えられたものです。郵便車オユ10を併結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein-B-mani30}.name",
+      "source": "旧普通列車(青)現金輸送用荷物車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein-B-mani30}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-LocalTrein-B-mani30}.description",
+      "source": "客貨両用機関車のC58が牽引する、客車普通列車です。客車はスハ43系で、改良を施して青に塗り替えられたものです。最後尾に現金輸送用荷物車マニ30を併結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-LimitedExpressTrain-swallowangel}.name",
+      "source": "特急つばめ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-LimitedExpressTrain-swallowangel}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-LimitedExpressTrain-swallowangel}.description",
+      "source": "昭和26年から製造された戦後初の急行旅客用機関車EF58が牽引する、特急つばめです。塗装はかつての電気機関車の標準色であったぶどう色です。客車はスハ44系で、最後尾には1等展望車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-LimitedExpressTrain-Pigeon-A}.name",
+      "source": "特急はと",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-LimitedExpressTrain-Pigeon-A}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-LimitedExpressTrain-Pigeon-A}.description",
+      "source": "EF58(青大将色)が牽引する、特急はとです。客車はスハ44系で、青大将と呼ばれた淡緑色に塗装されています。昭和31年東海道全線電化に伴い新設されました。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-LimitedExpressTrain-hatukari-B}.name",
+      "source": "特急はつかり",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-LimitedExpressTrain-hatukari-B}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-LimitedExpressTrain-hatukari-B}.description",
+      "source": "EF58(特急色)が牽引する、特急はつかりです。客車はスハ44系で、昭和39年以降の青に塗り替えられたものです。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein}.name",
+      "source": "旧普通列車(茶)郵便車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein}.description",
+      "source": "EF58(ぶどう色)が牽引する、客車普通列車です。客車はスハ43系で、昔のぶどう色のものです。郵便車オユ10を併結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein-mini60}.name",
+      "source": "旧普通列車(茶)荷物車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein-mini60}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein-mini60}.description",
+      "source": "EF58(ぶどう色)が牽引する、客車普通列車です。客車はスハ43系で、昔のぶどう色のものです。荷物車マニ60を併結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein-mani30}.name",
+      "source": "旧普通列車(茶)現金輸送用荷物車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein-mani30}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein-mani30}.description",
+      "source": "EF58(ぶどう色)が牽引する、客車普通列車です。客車はスハ43系で、昔のぶどう色のものです。現金輸送用荷物車マニ30を併結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein-B}.name",
+      "source": "旧普通列車(青)荷物車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein-B}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein-B}.description",
+      "source": "EF58(一般色)が牽引する、客車普通列車です。客車はスハ43系で、改良を施して青に塗り替えられたものです。荷物車マニ60を併結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein-B-oyu10}.name",
+      "source": "旧普通列車(青)郵便車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein-B-oyu10}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein-B-oyu10}.description",
+      "source": "EF58(一般色)が牽引する、客車普通列車です。客車はスハ43系で、改良を施して青に塗り替えられたものです。最後尾に郵便車オユ10を併結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein-B-mani30}.name",
+      "source": "旧普通列車(青)現金輸送用荷物車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein-B-mani30}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Railroad-Train-EF58-LocalTrein-B-mani30}.description",
+      "source": "EF58(一般色)が牽引する、客車普通列車です。客車はスハ43系で、改良を施して青に塗り替えられたものです。現金輸送用荷物車マニ30を併結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-B-ex-LimitedExpressTrain-tugaru}.name",
+      "source": "特急津軽",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-B-ex-LimitedExpressTrain-tugaru}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-B-ex-LimitedExpressTrain-tugaru}.description",
+      "source": "EF58(一般色)が牽引する、特急津軽です。客車は14系特急形寝台客車と14系特急形客車の併結です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-LimitedExpressTrain-sakura}.name",
+      "source": "特急さくら",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-LimitedExpressTrain-sakura}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-LimitedExpressTrain-sakura}.description",
+      "source": "高速貨車用大型電気機関車EF66が牽引する、特急さくらです。客車は14系特急形寝台客車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-LimitedExpressTrain-hayabusa}.name",
+      "source": "特急はやぶさ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-LimitedExpressTrain-hayabusa}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-LimitedExpressTrain-hayabusa}.description",
+      "source": "高速貨車用大型電気機関車EF66が牽引する、特急はやぶさです。客車は24系25形特急形寝台客車で、中間にロビーカーを連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-LocalTrein-50-mani50}.name",
+      "source": "普通列車(50系)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-LocalTrein-50-mani50}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-LocalTrein-50-mani50}.description",
+      "source": "液体式ディーゼル機関車DD51が牽引する、客車普通列車です。客車は50系(オハ50、オハフ50)で、最後尾に荷物車マニ50を併結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-745-LocalTrein-50-mani50}.name",
+      "source": "745号機 普通列車(50系)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-745-LocalTrein-50-mani50}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-745-LocalTrein-50-mani50}.description",
+      "source": "三つ目(ヘッドライトが3灯ある)に改造された液体式ディーゼル機関車DD51-745号機が牽引する、客車普通列車です。客車は50系(オハ50、オハフ50)で、荷物車マニ50を併結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-D511115-Freight-Container}.name",
+      "source": "コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-D511115-Freight-Container}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-D511115-Freight-Container}.description",
+      "source": "国鉄貨物用標準型機関車D51が牽引する、コンテナ貨物列車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-D511115-Freight}.name",
+      "source": "荷物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-D511115-Freight}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-D511115-Freight}.description",
+      "source": "国鉄貨物用標準型機関車D51が牽引する、貨物列車です。最後尾に昭和50年に登場した車掌車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-D51-Freight-Tank}.name",
+      "source": "タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-D51-Freight-Tank}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-D51-Freight-Tank}.description",
+      "source": "国鉄貨物用標準型機関車D51が牽引する、タンク貨物です。最後尾に昭和50年に登場した車掌車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-D51100-Freight}.name",
+      "source": "荷物列車(なめくじ)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-D51100-Freight}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-D51100-Freight}.description",
+      "source": "煙突からスチームドームまでカバーされたなめくじドームタイプのD51が牽引する貨物列車です。最後尾に昭和37年から製造された車掌車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-Local}.name",
+      "source": "荷物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-Local}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-Local}.description",
+      "source": "国鉄客貨両用機関車C58が牽引する貨物です。ワキで編成しています。最後尾に緩急車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-Local-mani30}.name",
+      "source": "荷物列車･現金輸送用荷物車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-Local-mani30}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-Local-mani30}.description",
+      "source": "国鉄客貨両用機関車C58が牽引する貨物です。ワキで編成しています。現金輸送用荷物車マニ30や、最後尾に緩急車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-m}.name",
+      "source": "無蓋貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-m}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-m}.description",
+      "source": "国鉄客貨両用機関車C58が牽引する、無蓋貨車です。最後尾には昭和34年に最高許容速度が85km/hに改造された車掌車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-long}.name",
+      "source": "長物輸送列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-long}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-long}.description",
+      "source": "客貨両用機関車C58が牽引する、長物輸送貨車(積荷は制作中の為、空荷)です。最後尾に昭和37年から製造された車掌車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight}.name",
+      "source": "貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight}.description",
+      "source": "客貨両用機関車C58が牽引する貨物です。最後尾に昭和50年に登場した車掌車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-Tank}.name",
+      "source": "タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-Tank}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-Tank}.description",
+      "source": "客貨両用機関車C58が牽引する、タンク貨物です。最後尾に昭和37年から製造された車掌車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-Test}.name",
+      "source": "テスト貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-Test}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-C58-Freight-Test}.description",
+      "source": "客貨両用機関車C58が牽引する、貨車製作用テスト列車です。制作中の貨車のテスト走行に使用しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-Freight-takara}.name",
+      "source": "コンテナ特急貨物たから",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-Freight-takara}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-Freight-takara}.description",
+      "source": "重貨物用電気機関車EH10が牽引する、コンテナ特急貨物列車たからです。コンテナと同じ色に塗られた車掌車を牽引しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-Freight-Local}.name",
+      "source": "荷物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-Freight-Local}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-Freight-Local}.description",
+      "source": "重貨物用電気機関車EH10が牽引する、荷物列車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-Freight-Local-mani30}.name",
+      "source": "荷物列車･現金輸送用荷物車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-Freight-Local-mani30}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-Freight-Local-mani30}.description",
+      "source": "重貨物用電気機関車EH10が牽引する、荷物列車です。現金輸送用荷物車マニ30を併結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-Freight-FreightLiner-Tank}.name",
+      "source": "タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-Freight-FreightLiner-Tank}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-Freight-FreightLiner-Tank}.description",
+      "source": "重貨物用電気機関車EH10が牽引する、タンク貨物です。最後尾に昭和34年に最高許容速度が85km/hに改造された車掌車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-2-Freight-takara}.name",
+      "source": "*2コンテナ特急貨物たから",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-2-Freight-takara}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-2-Freight-takara}.description",
+      "source": "重貨物用電気機関車EH10が牽引する、コンテナ特急貨物列車たからです。コンテナと同じ色に塗られた車掌車を牽引しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-2-Freight-Local}.name",
+      "source": "*2荷物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-2-Freight-Local}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-2-Freight-Local}.description",
+      "source": "重貨物用電気機関車EH10が牽引する、荷物列車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-2-Freight-Local-mani30}.name",
+      "source": "*2荷物列車･現金輸送用荷物車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-2-Freight-Local-mani30}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-2-Freight-Local-mani30}.description",
+      "source": "重貨物用電気機関車EH10が牽引する、荷物列車です。現金輸送用荷物車マニ30を併結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-2-Freight-FreightLiner-Tank}.name",
+      "source": "*2タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-2-Freight-FreightLiner-Tank}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-2-Freight-FreightLiner-Tank}.description",
+      "source": "重貨物用電気機関車EH10が牽引する、タンク貨物です。最後尾に昭和34年に最高許容速度が85km/hに改造された車掌車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-Freight-Freshfish}.name",
+      "source": "鮮魚特急貨物(とびうお号)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-Freight-Freshfish}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-Freight-Freshfish}.description",
+      "source": "高速貨車用大型電気機関車EF66が牽引する、鮮魚特急貨物(通称とびうお号)です。冷凍魚や鮮魚輸送用の大型冷蔵車の編成で、前後に緩急車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-Freight-FreightLiner-Tank}.name",
+      "source": "タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-Freight-FreightLiner-Tank}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-Freight-FreightLiner-Tank}.description",
+      "source": "高速貨車用大型電気機関車EF66が牽引する、タンク貨物です。最後尾に昭和50年に登場した車掌車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-Freight-FreightLiner}.name",
+      "source": "フレートライナー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-Freight-FreightLiner}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF66-Freight-FreightLiner}.description",
+      "source": "高速貨車用大型電気機関車EF66が牽引する、コンテナ貨物列車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-Deck-Freight-Local}.name",
+      "source": "荷物列車(デッキ付)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-Deck-Freight-Local}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-Deck-Freight-Local}.description",
+      "source": "電気機関車EF58(デッキ付)が牽引する、荷物列車です。最後尾に緩急車を連結しています。貨物ならFE18かもしれませんが…。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-Deck-Freight-Local-mani30}.name",
+      "source": "荷物列車(デッキ付)現金輸送用荷物車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-Deck-Freight-Local-mani30}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-Deck-Freight-Local-mani30}.description",
+      "source": "電気機関車EF58(デッキ付)が牽引する、荷物列車です。現金輸送用荷物車マニ30や、最後尾には緩急車を連結しています。貨物ならFE18かもしれませんが…。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-Freight-Local}.name",
+      "source": "荷物列車(茶)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-Freight-Local}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-Freight-Local}.description",
+      "source": "電気機関車EF58(ぶどう色)が牽引する、荷物列車です。最後尾に緩急車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-Freight-Local-mani30}.name",
+      "source": "荷物列車(茶)現金輸送用荷物車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-Freight-Local-mani30}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-Freight-Local-mani30}.description",
+      "source": "電気機関車EF58(ぶどう色)が牽引する、荷物列車です。現金輸送用荷物車マニ30や、最後尾には緩急車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-B-Freight-express}.name",
+      "source": "急行荷物列車(青)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-B-Freight-express}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-B-Freight-express}.description",
+      "source": "電気機関車EF58(一般色)が牽引する、急行荷物列車です。最後尾に緩急車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-B-Freight-express-mani30}.name",
+      "source": "急行荷物列車(青)現金輸送用荷物車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-B-Freight-express-mani30}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-B-Freight-express-mani30}.description",
+      "source": "電気機関車EF58(一般色)が牽引する、急行荷物列車です。現金輸送用荷物車マニ30や、最後尾には緩急車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-Deck-Freight-FreightLiner}.name",
+      "source": "フレートライナー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-Deck-Freight-FreightLiner}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF58-Deck-Freight-FreightLiner}.description",
+      "source": "電気機関車EF58(デッキ付)が牽引する、コンテナ貨物列車です。貨物ならFE18かもしれませんが…。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300s-Freight-Container-koki10000}.name",
+      "source": "303号機 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300s-Freight-Container-koki10000}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300s-Freight-Container-koki10000}.description",
+      "source": "関門海底トンネル区間用に煙害対策がされた交直両用電気機関車EF81(ステンレス無塗装)が牽引する、コンテナ貨物列車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300s-Freight-Tank-kaki43000-yo8000}.name",
+      "source": "303号機 タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300s-Freight-Tank-kaki43000-yo8000}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300s-Freight-Tank-kaki43000-yo8000}.description",
+      "source": "関門海底トンネル区間用に煙害対策がされた交直両用電気機関車EF81(ステンレス無塗装)が牽引する、タンク貨物です。最後尾に昭和50年に登場した車掌車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300s-Freight-m-toki25000-yo5000}.name",
+      "source": "303号機 無蓋貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300s-Freight-m-toki25000-yo5000}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300s-Freight-m-toki25000-yo5000}.description",
+      "source": "関門海底トンネル区間用に煙害対策がされた交直両用電気機関車EF81(ステンレス無塗装)が牽引する、無蓋貨車です。最後尾には昭和34年に最高許容速度が85km/hに改造された車掌車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300p-Freight-Container-koki10000}.name",
+      "source": "302号機 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300p-Freight-Container-koki10000}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300p-Freight-Container-koki10000}.description",
+      "source": "交直両用電気機関車EF81(ステンレス赤13号塗装)が牽引する、コンテナ貨物列車です。元々は関門海底トンネル区間用でしたが、常磐線転属で塗装されました。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300p-Freight-Tank-kaki43000-yo5000}.name",
+      "source": "302号機 タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300p-Freight-Tank-kaki43000-yo5000}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300p-Freight-Tank-kaki43000-yo5000}.description",
+      "source": "交直両用電気機関車EF81(ステンレス赤13号塗装)が牽引する、タンク貨物です。元々は関門海底トンネル区間用でしたが、常磐線転属で塗装されました。最後尾に昭和34年に最高許容速度が85km/hに改造された車掌車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300p-Freight-m-toki25000-yo8000}.name",
+      "source": "302号機 無蓋貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300p-Freight-m-toki25000-yo8000}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-300p-Freight-m-toki25000-yo8000}.description",
+      "source": "交直両用電気機関車EF81(ステンレス赤13号塗装)が牽引する、無蓋貨車です。元々は関門海底トンネル区間用でしたが、常磐線転属で塗装されました。最後尾に昭和50年に登場した車掌車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-81-Freight-Container-koki10000}.name",
+      "source": "81号機 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-81-Freight-Container-koki10000}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-81-Freight-Container-koki10000}.description",
+      "source": "交直両用電気機関車EF81(81号機お召し塗装)が牽引する、コンテナ貨物列車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-81-Freight-Tank-kaki43000-yo6000}.name",
+      "source": "81号機 タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-81-Freight-Tank-kaki43000-yo6000}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-81-Freight-Tank-kaki43000-yo6000}.description",
+      "source": "交直両用電気機関車EF81(81号機お召し塗装)が牽引する、タンク貨物です。最後尾に昭和37年から製造された車掌車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-81-Freight-m-toki25000-yo5000}.name",
+      "source": "81号機 無蓋貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-81-Freight-m-toki25000-yo5000}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-81-Freight-m-toki25000-yo5000}.description",
+      "source": "交直両用電気機関車EF81(81号機お召し塗装)が牽引する、無蓋貨車です。最後尾に昭和34年に最高許容速度が85km/hに改造された車掌車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-745-Freight-Container-koki10000}.name",
+      "source": "745号機 コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-745-Freight-Container-koki10000}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-745-Freight-Container-koki10000}.description",
+      "source": "三つ目(ヘッドライトが3灯ある)に改造された液体式ディーゼル機関車DD51-745号機が牽引する、コンテナ貨物列車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-745-Freight-Tank-kaki43000-yo5000}.name",
+      "source": "745号機 タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-745-Freight-Tank-kaki43000-yo5000}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-745-Freight-Tank-kaki43000-yo5000}.description",
+      "source": "三つ目(ヘッドライトが3灯ある)に改造された液体式ディーゼル機関車DD51-745号機が牽引する、タンク貨物です。最後尾に昭和34年に最高許容速度が85km/hに改造された車掌車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-745-Freight-m-toki250000-yo6000}.name",
+      "source": "745号機 無蓋貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-745-Freight-m-toki250000-yo6000}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-745-Freight-m-toki250000-yo6000}.description",
+      "source": "三つ目(ヘッドライトが3灯ある)に改造された液体式ディーゼル機関車DD51-745号機が牽引する、無蓋貨車です。最後尾に昭和37年から製造された車掌車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-592-Freight-Container-koki10000}.name",
+      "source": "ユーロライナー コンテナ貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-592-Freight-Container-koki10000}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-592-Freight-Container-koki10000}.description",
+      "source": "液体式ディーゼル機関車DD51(ユーロライナー)が牽引する、コンテナ貨物列車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-592-Freight-Tank-kaki43000-yo8000}.name",
+      "source": "ユーロライナー タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-592-Freight-Tank-kaki43000-yo8000}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-592-Freight-Tank-kaki43000-yo8000}.description",
+      "source": "液体式ディーゼル機関車DD51(ユーロライナー)が牽引する、タンク貨物です。最後尾に昭和50年に登場した車掌車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-592-Freight-m-toki25000-yo5000}.name",
+      "source": "ユーロライナー 無蓋貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-592-Freight-m-toki25000-yo5000}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-DD51-592-Freight-m-toki25000-yo5000}.description",
+      "source": "液体式ディーゼル機関車DD51(ユーロライナー)が牽引する、無蓋貨車です。最後尾に昭和34年に最高許容速度が85km/hに改造された車掌車を連結しています。",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "language": "en",
+  "plugin": "jp.co.infoseek.hp.t-tomonori.land2",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "しかしかさんのバラスト地表版",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{tomonori-ballast-grey-8D86-7FD3B9B26994}.name",
+      "source": "灰色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{tomonori-ballast-grey-8D86-7FD3B9B26994}.group",
+      "source": "バラスト",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{tomonori-ballast-ocher-8D86-7FD3B9B26994}.name",
+      "source": "土色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{tomonori-ballast-ocher-8D86-7FD3B9B26994}.group",
+      "source": "バラスト",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{tomonori-ballast-brown-8D86-7FD3B9B26994}.name",
+      "source": "茶色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{tomonori-ballast-brown-8D86-7FD3B9B26994}.group",
+      "source": "バラスト",
+      "translation": ""
+    }
+  ]
+}

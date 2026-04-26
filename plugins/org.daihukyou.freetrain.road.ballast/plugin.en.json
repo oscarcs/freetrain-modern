@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "plugin": "org.daihukyou.freetrain.road.ballast",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "バラスト",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Uploder-RoadImg-Siba3}.name",
+      "source": "バラスト(灰)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Uploder-RoadImg-Siba3}.description",
+      "source": "バラスト(灰)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Uploder-RoadImg-Siba2}.name",
+      "source": "バラスト(茶)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Uploder-RoadImg-Siba2}.description",
+      "source": "バラスト(茶)",
+      "translation": ""
+    }
+  ]
+}

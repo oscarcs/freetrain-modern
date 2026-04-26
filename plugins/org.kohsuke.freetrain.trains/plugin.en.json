@@ -1,0 +1,82 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.trains",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "基本車両キット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{F3604C61-D0D5-4c9c-ADD6-405610FA6250}.name",
+      "source": "ＦＴ１型",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{F3604C61-D0D5-4c9c-ADD6-405610FA6250}.description",
+      "source": "架空の列車です",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2C6F6C72-FA4B-4941-84C1-57553C8A5C2A}.name",
+      "source": "ＦＴ２型",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2C6F6C72-FA4B-4941-84C1-57553C8A5C2A}.description",
+      "source": "架空の列車です",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{F7134C8E-6B63-4780-AF16-90D33131CD07}.name",
+      "source": "ＦＴ３型",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{F7134C8E-6B63-4780-AF16-90D33131CD07}.description",
+      "source": "架空の列車です",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3983B298-ADB1-4905-94E5-03B7AAE5A221}.name",
+      "source": "雷鳥",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3983B298-ADB1-4905-94E5-03B7AAE5A221}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3983B298-ADB1-4905-94E5-03B7AAE5A221}.type",
+      "source": "485系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{3983B298-ADB1-4905-94E5-03B7AAE5A221}.description",
+      "source": "説明募集中",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{F4D54B1E-534E-47b0-9EA7-76CE075423E4}.name",
+      "source": "こまち",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{F4D54B1E-534E-47b0-9EA7-76CE075423E4}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{F4D54B1E-534E-47b0-9EA7-76CE075423E4}.type",
+      "source": "E3系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{F4D54B1E-534E-47b0-9EA7-76CE075423E4}.description",
+      "source": "説明募集中",
+      "translation": ""
+    }
+  ]
+}

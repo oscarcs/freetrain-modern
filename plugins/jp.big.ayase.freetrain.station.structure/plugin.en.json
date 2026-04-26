@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "jp.big.ayase.freetrain.station.structure",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "駅舎プラグイン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-Station-02a}.group",
+      "source": "高架下駅舎(新幹線)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RailStructureImpl-Station-02b}.group",
+      "source": "高架下駅舎(新幹線)",
+      "translation": ""
+    }
+  ]
+}

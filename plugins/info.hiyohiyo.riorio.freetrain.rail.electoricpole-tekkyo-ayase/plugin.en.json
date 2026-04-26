@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "info.hiyohiyo.riorio.freetrain.rail.electoricpole-tekkyo-ayase",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "架線柱タイプレンガ橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-FreeTrain-RailStructureImpl-Base-Left}.name",
+      "source": "鉄橋(橋脚, 左)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-FreeTrain-AYASE-Hiro-RailStructureImpl-Base-Right-Red}.name",
+      "source": "鉄橋(橋脚, 右)",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "language": "en",
+  "plugin": "BluePhoenix.B690FE5A.TennisCourt",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "テニスコート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TennisCourt-commercial-C000-000a-B690FE5A-狼月}.name",
+      "source": "テニスコート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TennisCourt-commercial-C000-000a-B690FE5A-狼月}.group",
+      "source": "テニスコート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TennisCourt-commercial-C000-000b-B690FE5A-狼月}.name",
+      "source": "テニスコート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TennisCourt-commercial-C000-000b-B690FE5A-狼月}.group",
+      "source": "テニスコート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TennisCourt-commercial-C000-000c-B690FE5A-狼月}.name",
+      "source": "テニスコート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TennisCourt-commercial-C000-000c-B690FE5A-狼月}.group",
+      "source": "テニスコート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TennisCourt-commercial-C000-000d-B690FE5A-狼月}.name",
+      "source": "テニスコート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TennisCourt-commercial-C000-000d-B690FE5A-狼月}.group",
+      "source": "テニスコート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TennisCourt-commercial-C000-000e-B690FE5A-狼月}.name",
+      "source": "テニスコート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TennisCourt-commercial-C000-000e-B690FE5A-狼月}.group",
+      "source": "テニスコート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TennisCourt-commercial-C000-000f-B690FE5A-狼月}.name",
+      "source": "テニスコート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TennisCourt-commercial-C000-000f-B690FE5A-狼月}.group",
+      "source": "テニスコート",
+      "translation": ""
+    }
+  ]
+}

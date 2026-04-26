@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "gs.convert.FreeTrain.structure.piugin.2.shino",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物総合コンバート\u3000しの",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{AE49208E-BEB2-4319-8477-F20E0BF1F1BB}-gs.group",
+      "source": "工場(大)",
+      "translation": ""
+    }
+  ]
+}

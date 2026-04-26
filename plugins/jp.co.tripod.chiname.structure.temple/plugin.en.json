@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.structure.temple",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "寺社セット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A672D45E-FA9B-405F-C477-0EE109E8B38D}.group",
+      "source": "五重塔",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{DEBD4FD7-C11D-43E3-C477-84D3A2979DB8}.group",
+      "source": "五重塔",
+      "translation": ""
+    }
+  ]
+}

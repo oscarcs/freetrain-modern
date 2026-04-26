@@ -1,0 +1,82 @@
+{
+  "language": "en",
+  "plugin": "jp.big.ayase.freetrain.road",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-Left}.name",
+      "source": "歩道付道路(左車線用)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-Left}.description",
+      "source": "左車線用道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-Right}.name",
+      "source": "歩道付道路(右車線用)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-Right}.description",
+      "source": "左車線用道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-Center}.name",
+      "source": "歩道付道路(中央車線用)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-Center}.description",
+      "source": "左車線用道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-Single}.name",
+      "source": "２車線道路(一般)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-Single}.description",
+      "source": "２車線道路(一般)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-Highway}.name",
+      "source": "２車線道路(高速)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-Highway}.description",
+      "source": "２車線道路(高速)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-Siba}.name",
+      "source": "線路下草",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-Siba}.description",
+      "source": "線路下草",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-Water}.name",
+      "source": "水面",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-RoadImg-Water}.description",
+      "source": "水面",
+      "translation": ""
+    }
+  ]
+}

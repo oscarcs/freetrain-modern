@@ -1,0 +1,62 @@
+{
+  "language": "en",
+  "plugin": "rk-minato",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "水門",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-miato-n001}.group",
+      "source": "港Ａ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-miato-n002}.group",
+      "source": "港Ａ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-miato-n003}.group",
+      "source": "港Ｂ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-miato-n004}.group",
+      "source": "港Ｂ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-miato-n005}.group",
+      "source": "港パーツ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-miato-n006}.group",
+      "source": "港パーツ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-miato-n007}.group",
+      "source": "港Ｃ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-miato-n008}.group",
+      "source": "港Ｃ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-miato-n009}.group",
+      "source": "港Ｄ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{rk-miato-n010}.group",
+      "source": "港Ｄ",
+      "translation": ""
+    }
+  ]
+}

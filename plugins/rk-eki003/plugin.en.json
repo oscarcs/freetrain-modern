@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "plugin": "rk-eki003",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "駅舎プラグイン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-rk001-eki003-001}.group",
+      "source": "高架駅舎02(本体)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-rk001-eki003-002}.group",
+      "source": "高架駅舎02(本体)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-rk001-eki003-kandan-001}.name",
+      "source": "広告看板",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-rk001-eki003-kandan-001}.group",
+      "source": "高架駅舎(階段)",
+      "translation": ""
+    }
+  ]
+}

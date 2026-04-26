@@ -1,0 +1,132 @@
+{
+  "language": "en",
+  "plugin": "shikashika.freetrain.structure.amusement",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物(娯楽)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-amusement-park-001straight}.name",
+      "source": "公園(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-amusement-park-001straight}.group",
+      "source": "緑地",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-amusement-park-001crossroads}.name",
+      "source": "公園(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-amusement-park-001crossroads}.group",
+      "source": "緑地",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-amusement-park-001t-shape}.name",
+      "source": "公園(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-amusement-park-001t-shape}.group",
+      "source": "緑地",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-amusement-park-001corner}.name",
+      "source": "公園(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-amusement-park-001corner}.group",
+      "source": "緑地",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-amusement-park-002flowerclock}.name",
+      "source": "公園(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-amusement-park-002flowerclock}.group",
+      "source": "緑地",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-amusement-park-002fountain}.name",
+      "source": "公園(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-amusement-park-002fountain}.group",
+      "source": "緑地",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-amusement-park-002brat}.name",
+      "source": "公園(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-amusement-park-002brat}.group",
+      "source": "緑地",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-amusement-park-002bench}.name",
+      "source": "公園(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-amusement-park-002bench}.group",
+      "source": "緑地",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-amusement-park-003gate-a}.name",
+      "source": "公園(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-amusement-park-003gate-a}.group",
+      "source": "緑地",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-amusement-park-003gate-b}.name",
+      "source": "公園(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-amusement-park-003gate-b}.group",
+      "source": "緑地",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-amusement-park-003toilets}.name",
+      "source": "公園(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-amusement-park-003toilets}.group",
+      "source": "緑地",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-amusement-park-003post}.name",
+      "source": "公園(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-amusement-park-003post}.group",
+      "source": "緑地",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "language": "en",
+  "plugin": "info.hiyohiyo.riorio.freetrain.rail.structure.foku.HanabishiRekka",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "フォークリフト",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-3000-1010-HRE-D0EA1049D201}.group",
+      "source": "フォークリフト",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-3000-1010-HRE-D0EA1049D202}.group",
+      "source": "フォークリフト",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-3000-1010-HRE-D0EA1049D203}.group",
+      "source": "フォークリフト",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-3000-1010-HRE-D0EA1049D204}.group",
+      "source": "フォークリフト",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-3000-1010-HRE-D0EA1049D205}.group",
+      "source": "フォークリフト",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-HanabishiRekka-3000-1010-HRE-D0EA1049D206}.group",
+      "source": "フォークリフト",
+      "translation": ""
+    }
+  ]
+}

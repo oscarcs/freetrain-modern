@@ -1,0 +1,47 @@
+{
+  "language": "en",
+  "plugin": "gs.convert.org.kohsuke.freetrain.structure.tebou",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物総合コンバート\u3000花菱烈火",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{S5776500-11118-hana-C300-A0036A6ECDEB}-gs.group",
+      "source": "水門",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{S5776500-11118-hana-C302-A0036A6ECDEB}-gs.group",
+      "source": "水門",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{S5776500-11118-hana-C304-A0036A6ECDEB}-gs.group",
+      "source": "水門",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{S5776500-11118-hana-C306-A0036A6ECDEB}-gs.group",
+      "source": "水門",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{S5776500-11118-hana-C308-A0036A6ECDEB}-gs.group",
+      "source": "水門",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{S5776500-11118-hana-C310-A0036A6ECDEB}-gs.group",
+      "source": "水門",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{S5776500-11118-hana-C312-A0036A6ECDEB}-gs.group",
+      "source": "水門",
+      "translation": ""
+    }
+  ]
+}

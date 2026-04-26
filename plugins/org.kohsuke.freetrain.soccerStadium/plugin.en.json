@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.soccerStadium",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "サッカースタジアム",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0EB17496-838E-43c8-941F-896EAF9396AF}.name",
+      "source": "サッカースタジアム",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2669F15B-66F2-4c77-8A48-1A20783EB9F5}.name",
+      "source": "サッカーチーム",
+      "translation": ""
+    }
+  ]
+}

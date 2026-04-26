@@ -1,0 +1,12 @@
+{
+  "language": "en",
+  "plugin": "jp.ne.seikyou.Go-Ro.structure.dependon",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物（FreeTrain-想作館）(477さんの絵の改造)",
+      "translation": ""
+    }
+  ]
+}

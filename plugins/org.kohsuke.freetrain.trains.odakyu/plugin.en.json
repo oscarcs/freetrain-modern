@@ -1,0 +1,37 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.trains.odakyu",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "contribution.{2F672A7D-537E-4f71-ACD1-EEC76D6CAEC0}.company",
+      "source": "小田急電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2F672A7D-537E-4f71-ACD1-EEC76D6CAEC0}.type",
+      "source": "通勤車タイプ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2F672A7D-537E-4f71-ACD1-EEC76D6CAEC0}.description",
+      "source": "小田急電鉄の通勤車タイプ。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5BA3B71C-4DFD-4b48-839D-BE68CCFA9C09}.company",
+      "source": "小田急電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5BA3B71C-4DFD-4b48-839D-BE68CCFA9C09}.type",
+      "source": "10000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5BA3B71C-4DFD-4b48-839D-BE68CCFA9C09}.description",
+      "source": "小田急開業６０周年の昭和62年運行開始。小田急最後の展望席付き車輌。\nフルハイデッカーの客室からワイドなパノラマを楽しむことができます。\n昭和63年ブルーリボン賞受賞。",
+      "translation": ""
+    }
+  ]
+}

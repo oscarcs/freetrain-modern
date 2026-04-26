@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "jp.zaq.pant012.structure.ctowers",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "セントラルタワーズ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{F5776500-E8E5-4D5E-B30A-A0036A6ECDEB}.group",
+      "source": "セントラルタワーズ",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.lib.halfvoxel",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{COLORLIB-HIGHLIGHT}.name",
+      "source": "ハイライト",
+      "translation": ""
+    }
+  ]
+}

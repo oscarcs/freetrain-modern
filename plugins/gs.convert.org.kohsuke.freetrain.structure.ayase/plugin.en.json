@@ -1,0 +1,42 @@
+{
+  "language": "en",
+  "plugin": "gs.convert.org.kohsuke.freetrain.structure.ayase",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物総合コンバート\u3000綾瀬ヒロ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{DBE8EACF-C94D-4e02-AA29-43AC34F96AC9}-gs.group",
+      "source": "港湾施設(コンテナ埠頭)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B32B765C-C74C-4BD9-84C6-E75A3E6DFC27}-gs.group",
+      "source": "港湾施設(鉄道桟橋)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E0F69A4B-A3EE-4605-8987-7E63737EA481}-gs.group",
+      "source": "港湾施設(客船埠頭)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{32D21DEE-99A5-414F-BAF7-6BBD705A7485}-gs.group",
+      "source": "倉庫",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{29D7FEFA-2491-4ED0-8479-596FD805ED03}-gs.group",
+      "source": "倉庫",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D7A9451D-6EAB-4A50-8B4F-F1F30764C105}-gs.group",
+      "source": "倉庫",
+      "translation": ""
+    }
+  ]
+}

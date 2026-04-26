@@ -1,0 +1,1352 @@
+{
+  "language": "en",
+  "plugin": "info.hiyohiyo.riorio.freetrain.rail.kasen",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "鉄道施設プラグイン\u3000架線とバラスト",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E66-4E604F3342C8}-aa.group",
+      "source": "下線1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E66-4E604F3342C8}-ab.group",
+      "source": "下線1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E66-4E604F3342C8}-ac.group",
+      "source": "下線1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E66-4E604F3342C8}-ad.group",
+      "source": "下線1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E66-4E604F3342C8}-ba.group",
+      "source": "下線1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E66-4E604F3342C8}-bb.group",
+      "source": "下線1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E66-4E604F3342C8}-bc.group",
+      "source": "下線1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E66-4E604F3342C8}-bd.group",
+      "source": "下線1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E66-4E604F3342C8}-ca.group",
+      "source": "下線1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E66-4E604F3342C8}-cb.group",
+      "source": "下線1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E66-4E604F3342C8}-cc.group",
+      "source": "下線1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E66-4E604F3342C8}-cd.group",
+      "source": "下線1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E67-4E604F3342C9}-aa.group",
+      "source": "下線2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E67-4E604F3342C9}-ab.group",
+      "source": "下線2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E67-4E604F3342C9}-ac.group",
+      "source": "下線2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E67-4E604F3342C9}-ad.group",
+      "source": "下線2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E67-4E604F3342C9}-ba.group",
+      "source": "下線2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E67-4E604F3342C9}-bb.group",
+      "source": "下線2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E67-4E604F3342C9}-bc.group",
+      "source": "下線2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E67-4E604F3342C9}-bd.group",
+      "source": "下線2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E67-4E604F3342C9}-ca.group",
+      "source": "下線2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E67-4E604F3342C9}-cb.group",
+      "source": "下線2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E67-4E604F3342C9}-cc.group",
+      "source": "下線2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E67-4E604F3342C9}-cd.group",
+      "source": "下線2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E70-5E604F3342CB}-aa.group",
+      "source": "下線3",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E70-5E604F3342CB}-ab.group",
+      "source": "下線3",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E70-5E604F3342CB}-ac.group",
+      "source": "下線3",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E70-5E604F3342CB}-ad.group",
+      "source": "下線3",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E70-5E604F3342CB}-ba.group",
+      "source": "下線3",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E70-5E604F3342CB}-bb.group",
+      "source": "下線3",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E70-5E604F3342CB}-bc.group",
+      "source": "下線3",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E70-5E604F3342CB}-bd.group",
+      "source": "下線3",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E70-5E604F3342CB}-ca.group",
+      "source": "下線3",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E70-5E604F3342CB}-cb.group",
+      "source": "下線3",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E70-5E604F3342CB}-cc.group",
+      "source": "下線3",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E70-5E604F3342CB}-cd.group",
+      "source": "下線3",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E71-6E604F3342CB}-aa.group",
+      "source": "下線4",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E71-6E604F3342CB}-ab.group",
+      "source": "下線4",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E71-6E604F3342CB}-ac.group",
+      "source": "下線4",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E71-6E604F3342CB}-ad.group",
+      "source": "下線4",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E71-6E604F3342CB}-ba.group",
+      "source": "下線4",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E71-6E604F3342CB}-bb.group",
+      "source": "下線4",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E71-6E604F3342CB}-bc.group",
+      "source": "下線4",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E71-6E604F3342CB}-bd.group",
+      "source": "下線4",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E71-6E604F3342CB}-ca.group",
+      "source": "下線4",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E71-6E604F3342CB}-cb.group",
+      "source": "下線4",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E71-6E604F3342CB}-cc.group",
+      "source": "下線4",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E71-6E604F3342CB}-cd.group",
+      "source": "下線4",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E72-7E604F3342CB}-aa.group",
+      "source": "下線5",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E72-7E604F3342CB}-ab.group",
+      "source": "下線5",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E72-7E604F3342CB}-ac.group",
+      "source": "下線5",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E72-7E604F3342CB}-ad.group",
+      "source": "下線5",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E72-7E604F3342CB}-ba.group",
+      "source": "下線5",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E72-7E604F3342CB}-bb.group",
+      "source": "下線5",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E72-7E604F3342CB}-bc.group",
+      "source": "下線5",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E72-7E604F3342CB}-bd.group",
+      "source": "下線5",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E72-7E604F3342CB}-ca.group",
+      "source": "下線5",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E72-7E604F3342CB}-cb.group",
+      "source": "下線5",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E72-7E604F3342CB}-cc.group",
+      "source": "下線5",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E72-7E604F3342CB}-cd.group",
+      "source": "下線5",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E70-4E604F3342CB}-aa.group",
+      "source": "下線6",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E70-4E604F3342CB}-ab.group",
+      "source": "下線6",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E70-4E604F3342CB}-ac.group",
+      "source": "下線6",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E70-4E604F3342CB}-ad.group",
+      "source": "下線6",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E70-4E604F3342CB}-ba.group",
+      "source": "下線6",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E70-4E604F3342CB}-bb.group",
+      "source": "下線6",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E70-4E604F3342CB}-bc.group",
+      "source": "下線6",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E70-4E604F3342CB}-bd.group",
+      "source": "下線6",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E70-4E604F3342CB}-ca.group",
+      "source": "下線6",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E70-4E604F3342CB}-cb.group",
+      "source": "下線6",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E70-4E604F3342CB}-cc.group",
+      "source": "下線6",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E70-4E604F3342CB}-cd.group",
+      "source": "下線6",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E68-4E604F3342CA}-aa.group",
+      "source": "下線無し1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E68-4E604F3342CA}-ab.group",
+      "source": "下線無し1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E68-4E604F3342CA}-ac.group",
+      "source": "下線無し1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E68-4E604F3342CA}-ad.group",
+      "source": "下線無し1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E68-4E604F3342CA}-ba.group",
+      "source": "下線無し1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E68-4E604F3342CA}-bb.group",
+      "source": "下線無し1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E68-4E604F3342CA}-bc.group",
+      "source": "下線無し1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E68-4E604F3342CA}-bd.group",
+      "source": "下線無し1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E80-8E604F3342CB}-aa.group",
+      "source": "下線無し2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E80-8E604F3342CB}-ab.group",
+      "source": "下線無し2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E80-8E604F3342CB}-ac.group",
+      "source": "下線無し2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E80-8E604F3342CB}-ad.group",
+      "source": "下線無し2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E80-8E604F3342CB}-ba.group",
+      "source": "下線無し2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E80-8E604F3342CB}-bb.group",
+      "source": "下線無し2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E80-8E604F3342CB}-bc.group",
+      "source": "下線無し2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E80-8E604F3342CB}-bd.group",
+      "source": "下線無し2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E82-7E604F3342CA}-aa.group",
+      "source": "下線無し3",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E82-7E604F3342CA}-ab.group",
+      "source": "下線無し3",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E82-7E604F3342CA}-ac.group",
+      "source": "下線無し3",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E82-7E604F3342CA}-ad.group",
+      "source": "下線無し3",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E82-7E604F3342CA}-ba.group",
+      "source": "下線無し3",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E82-7E604F3342CA}-bb.group",
+      "source": "下線無し3",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E82-7E604F3342CA}-bc.group",
+      "source": "下線無し3",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E82-7E604F3342CA}-bd.group",
+      "source": "下線無し3",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E85-5E604F3342CB}-aa.group",
+      "source": "下線無し4",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E85-5E604F3342CB}-ab.group",
+      "source": "下線無し4",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E85-5E604F3342CB}-ac.group",
+      "source": "下線無し4",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E85-5E604F3342CB}-ad.group",
+      "source": "下線無し4",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E85-5E604F3342CB}-ba.group",
+      "source": "下線無し4",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E85-5E604F3342CB}-bb.group",
+      "source": "下線無し4",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E85-5E604F3342CB}-bc.group",
+      "source": "下線無し4",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-9E85-5E604F3342CB}-bd.group",
+      "source": "下線無し4",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-AF1D-D85AD6207312}-ab.group",
+      "source": "下線無し5",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-AF1D-D85AD6207312}-ac.group",
+      "source": "下線無し5",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-AF1D-D85AD6207312}-ad.group",
+      "source": "下線無し5",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-AF1D-D85AD6207312}-ba.group",
+      "source": "下線無し5",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-AF1D-D85AD6207312}-bc.group",
+      "source": "下線無し5",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-AF1D-D85AD6207312}-bd.group",
+      "source": "下線無し5",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-AF1D-D85AD6207312}-ca.group",
+      "source": "下線無し5",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-AF1D-D85AD6207312}-cb.group",
+      "source": "下線無し5",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-AF1D-D85AD6207312}-cd.group",
+      "source": "下線無し5",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-AF1D-D85AD6207312}-da.group",
+      "source": "下線無し5",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-AF1D-D85AD6207312}-db.group",
+      "source": "下線無し5",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-AF1D-D85AD6207312}-dc.group",
+      "source": "下線無し5",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B7A5-169A8F6FE536}-ab.group",
+      "source": "下線無し6",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B7A5-169A8F6FE536}-ac.group",
+      "source": "下線無し6",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B7A5-169A8F6FE536}-ad.group",
+      "source": "下線無し6",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B7A5-169A8F6FE536}-ba.group",
+      "source": "下線無し6",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B7A5-169A8F6FE536}-bc.group",
+      "source": "下線無し6",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B7A5-169A8F6FE536}-bd.group",
+      "source": "下線無し6",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B7A5-169A8F6FE536}-ca.group",
+      "source": "下線無し6",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B7A5-169A8F6FE536}-cb.group",
+      "source": "下線無し6",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B7A5-169A8F6FE536}-cd.group",
+      "source": "下線無し6",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B7A5-169A8F6FE536}-da.group",
+      "source": "下線無し6",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B7A5-169A8F6FE536}-db.group",
+      "source": "下線無し6",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B7A5-169A8F6FE536}-dc.group",
+      "source": "下線無し6",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8F63-17359EF8A418}-a.group",
+      "source": "下線7",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8F63-17359EF8A418}-b.group",
+      "source": "下線7",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8F63-17359EF8A418}-c.group",
+      "source": "下線7",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8F63-17359EF8A418}-d.group",
+      "source": "下線7",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-AC6E-D8768DAA515E}-a.group",
+      "source": "下線7",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-AC6E-D8768DAA515E}-b.group",
+      "source": "下線7",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-AC6E-D8768DAA515E}-c.group",
+      "source": "下線7",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-AC6E-D8768DAA515E}-d.group",
+      "source": "下線7",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-1ab.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-1ac.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-1ad.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-1ba.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-1bc.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-1bd.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-1ca.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-1cb.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-1cd.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-1da.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-1db.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-1dc.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-2ab.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-2ac.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-2ad.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-2ba.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-2bc.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-2bd.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-2ca.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-2cb.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-2cd.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-2da.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-2db.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-2dc.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-3ab.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-3ac.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-3ad.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-3ba.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-3bc.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-3bd.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-3ca.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-3cb.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-3cd.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-3da.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-3db.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-403A837F-087EF7436175}-3dc.group",
+      "source": "下線8",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-1ab.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-1ac.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-1ad.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-1ba.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-1bc.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-1bd.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-1ca.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-1cb.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-1cd.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-1da.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-1db.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-1dc.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-2ab.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-2ac.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-2ad.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-2ba.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-2bc.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-2bd.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-2ca.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-2cb.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-2cd.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-2da.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-2db.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-2dc.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-3ab.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-3ac.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-3ad.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-3ba.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-3bc.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-3bd.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-3ca.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-3cb.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-3cd.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-3da.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-3db.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-8A1D-3997EDE90C3D}-3dc.group",
+      "source": "下線9",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B77B-25B3C3939801}-1ab.group",
+      "source": "下線10",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B77B-25B3C3939801}-1ac.group",
+      "source": "下線10",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B77B-25B3C3939801}-1ad.group",
+      "source": "下線10",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B77B-25B3C3939801}-1ba.group",
+      "source": "下線10",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B77B-25B3C3939801}-1bc.group",
+      "source": "下線10",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B77B-25B3C3939801}-1bd.group",
+      "source": "下線10",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B77B-25B3C3939801}-1ca.group",
+      "source": "下線10",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B77B-25B3C3939801}-1cb.group",
+      "source": "下線10",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B77B-25B3C3939801}-1cd.group",
+      "source": "下線10",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B77B-25B3C3939801}-1da.group",
+      "source": "下線10",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B77B-25B3C3939801}-1db.group",
+      "source": "下線10",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B77B-25B3C3939801}-1dc.group",
+      "source": "下線10",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B77B-25B3C3939801}-2ab.group",
+      "source": "下線10",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B77B-25B3C3939801}-2ac.group",
+      "source": "下線10",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B77B-25B3C3939801}-2ad.group",
+      "source": "下線10",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B77B-25B3C3939801}-2ba.group",
+      "source": "下線10",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B77B-25B3C3939801}-2bc.group",
+      "source": "下線10",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B77B-25B3C3939801}-2bd.group",
+      "source": "下線10",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B77B-25B3C3939801}-2ca.group",
+      "source": "下線10",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B77B-25B3C3939801}-2cb.group",
+      "source": "下線10",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B77B-25B3C3939801}-2cd.group",
+      "source": "下線10",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B77B-25B3C3939801}-2da.group",
+      "source": "下線10",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B77B-25B3C3939801}-2db.group",
+      "source": "下線10",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-B77B-25B3C3939801}-2dc.group",
+      "source": "下線10",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-1ab.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-1ac.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-1ad.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-1ba.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-1bc.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-1bd.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-1ca.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-1cb.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-1cd.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-1da.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-1db.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-1dc.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-2ab.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-2ac.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-2ad.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-2ba.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-2bc.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-2bd.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-2ca.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-2cb.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-2cd.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-2da.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-2db.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-2dc.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-3ab.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-3ac.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-3ad.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-3ba.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-3bc.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-3bd.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-3ca.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-3cb.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-3cd.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-3da.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-3db.group",
+      "source": "下線11",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-hanabishirekka-BBCA-6ADDC976BA58}-3dc.group",
+      "source": "下線11",
+      "translation": ""
+    }
+  ]
+}

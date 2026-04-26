@@ -1,0 +1,292 @@
+{
+  "language": "en",
+  "plugin": "shikashika.freetrain.structure.restaurant",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物(飲食)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-lamian-01-a}.name",
+      "source": "ラーメン屋(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-lamian-01-a}.group",
+      "source": "一般飲食店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-lamian-02-a}.name",
+      "source": "ラーメン屋(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-lamian-02-a}.group",
+      "source": "一般飲食店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-lamian-01-b}.name",
+      "source": "ラーメン屋(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-lamian-01-b}.group",
+      "source": "一般飲食店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-lamian-02-b}.name",
+      "source": "ラーメン屋(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-lamian-02-b}.group",
+      "source": "一般飲食店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-lamian-01-c}.name",
+      "source": "ラーメン屋(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-lamian-01-c}.group",
+      "source": "一般飲食店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-lamian-02-c}.name",
+      "source": "ラーメン屋(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-lamian-02-c}.group",
+      "source": "一般飲食店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-lamian-01-d}.name",
+      "source": "ラーメン屋(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-lamian-01-d}.group",
+      "source": "一般飲食店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-lamian-02-d}.name",
+      "source": "ラーメン屋(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-lamian-02-d}.group",
+      "source": "一般飲食店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-noodle-01-a}.name",
+      "source": "うどん･そば屋(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-noodle-01-a}.group",
+      "source": "一般飲食店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-noodle-02-a}.name",
+      "source": "うどん･そば屋(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-noodle-02-a}.group",
+      "source": "一般飲食店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-noodle-01-b}.name",
+      "source": "うどん･そば屋(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-noodle-01-b}.group",
+      "source": "一般飲食店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-noodle-02-b}.name",
+      "source": "うどん･そば屋(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-noodle-02-b}.group",
+      "source": "一般飲食店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-noodle-01-c}.name",
+      "source": "うどん･そば屋(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-noodle-01-c}.group",
+      "source": "一般飲食店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-noodle-02-c}.name",
+      "source": "うどん･そば屋(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-noodle-02-c}.group",
+      "source": "一般飲食店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-noodle-01-d}.name",
+      "source": "うどん･そば屋(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-noodle-01-d}.group",
+      "source": "一般飲食店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-noodle-02-d}.name",
+      "source": "うどん･そば屋(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-noodle-02-d}.group",
+      "source": "一般飲食店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-thin-01-a}.name",
+      "source": "お好み焼き屋(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-thin-01-a}.group",
+      "source": "一般飲食店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-thin-02-a}.name",
+      "source": "お好み焼き屋(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-thin-02-a}.group",
+      "source": "一般飲食店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-thin-01-b}.name",
+      "source": "お好み焼き屋(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-thin-01-b}.group",
+      "source": "一般飲食店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-thin-02-b}.name",
+      "source": "お好み焼き屋(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-thin-02-b}.group",
+      "source": "一般飲食店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-thin-01-c}.name",
+      "source": "お好み焼き屋(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-thin-01-c}.group",
+      "source": "一般飲食店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-thin-02-c}.name",
+      "source": "お好み焼き屋(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-thin-02-c}.group",
+      "source": "一般飲食店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-thin-01-d}.name",
+      "source": "お好み焼き屋(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-thin-01-d}.group",
+      "source": "一般飲食店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-thin-02-d}.name",
+      "source": "お好み焼き屋(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-thin-02-d}.group",
+      "source": "一般飲食店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-teahouse-001-a}.name",
+      "source": "茶店(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-teahouse-001-a}.group",
+      "source": "一般飲食店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-teahouse-001-b}.name",
+      "source": "茶店(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-teahouse-001-b}.group",
+      "source": "一般飲食店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-teahouse-001-c}.name",
+      "source": "茶店(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-teahouse-001-c}.group",
+      "source": "一般飲食店",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-teahouse-001-d}.name",
+      "source": "茶店(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-building-restaurant-teahouse-001-d}.group",
+      "source": "一般飲食店",
+      "translation": ""
+    }
+  ]
+}

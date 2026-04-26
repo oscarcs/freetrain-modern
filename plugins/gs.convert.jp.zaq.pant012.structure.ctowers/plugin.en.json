@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "gs.convert.jp.zaq.pant012.structure.ctowers",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物総合コンバート\u3000ては",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{F5776500-E8E5-4D5E-B30A-A0036A6ECDEB}-gs.group",
+      "source": "セントラルタワーズ",
+      "translation": ""
+    }
+  ]
+}

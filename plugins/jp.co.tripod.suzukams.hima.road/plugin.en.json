@@ -1,0 +1,72 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.suzukams.hima.road",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "二車線道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9B8BE657-6A04-4969-9FF8-0C9A04F12D9F}-A.name",
+      "source": "白線二車線道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9B8BE657-6A04-4969-9FF8-0C9A04F12D9F}-A.description",
+      "source": "白破線の道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9B8BE657-6A04-4969-9FF8-0C9A04F12D9F}-B.name",
+      "source": "橙線二車線道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9B8BE657-6A04-4969-9FF8-0C9A04F12D9F}-B.description",
+      "source": "橙線の道路",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9B8BE657-6A04-4969-9FF8-0C9A04F12D9F}-C.name",
+      "source": "アスファルト",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9B8BE657-6A04-4969-9FF8-0C9A04F12D9F}-C.description",
+      "source": "アスファルト",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0405292136}B4573646.name",
+      "source": "駅前歩道(交差青)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0405292136}B4573646.description",
+      "source": "駅前などの広い歩道。十字の交差点に青●マークがついてます。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0405292136}g24734354.name",
+      "source": "駅前歩道(交差赤)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0405292136}g24734354.description",
+      "source": "駅前などの広い歩道。十字の交差点に赤●マークがついてます。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0405292136}n1673126.name",
+      "source": "駅前歩道(交差黄)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0405292136}n1673126.description",
+      "source": "駅前などの広い歩道。十字の交差点に黄●マークがついてます。",
+      "translation": ""
+    }
+  ]
+}

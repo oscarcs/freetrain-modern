@@ -1,0 +1,92 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.station.shop",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "都市近郊の駅舎",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A6771F32-1657-4F51-C477-406C8F6B2B27}-0a.group",
+      "source": "都市近郊の駅舎",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A6771F32-1657-4F51-C477-406C8F6B2B27}-1a.group",
+      "source": "都市近郊の駅舎",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A6771F32-1657-4F51-C477-406C8F6B2B27}-2a.group",
+      "source": "都市近郊の駅舎",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A6771F32-1657-4F51-C477-406C8F6B2B27}-3a.group",
+      "source": "都市近郊の駅舎",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A6771F32-1657-4F51-C477-406C8F6B2B27}-0b.group",
+      "source": "都市近郊の駅舎",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A6771F32-1657-4F51-C477-406C8F6B2B27}-1b.group",
+      "source": "都市近郊の駅舎",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A6771F32-1657-4F51-C477-406C8F6B2B27}-2b.group",
+      "source": "都市近郊の駅舎",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A6771F32-1657-4F51-C477-406C8F6B2B27}-3b.group",
+      "source": "都市近郊の駅舎",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A6771F32-1657-4F51-C477-406C8F6B2B27}-0c.group",
+      "source": "都市近郊の駅舎",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A6771F32-1657-4F51-C477-406C8F6B2B27}-1c.group",
+      "source": "都市近郊の駅舎",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A6771F32-1657-4F51-C477-406C8F6B2B27}-2c.group",
+      "source": "都市近郊の駅舎",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A6771F32-1657-4F51-C477-406C8F6B2B27}-3c.group",
+      "source": "都市近郊の駅舎",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A6771F32-1657-4F51-C477-406C8F6B2B27}-0d.group",
+      "source": "都市近郊の駅舎",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A6771F32-1657-4F51-C477-406C8F6B2B27}-1d.group",
+      "source": "都市近郊の駅舎",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A6771F32-1657-4F51-C477-406C8F6B2B27}-2d.group",
+      "source": "都市近郊の駅舎",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A6771F32-1657-4F51-C477-406C8F6B2B27}-3d.group",
+      "source": "都市近郊の駅舎",
+      "translation": ""
+    }
+  ]
+}

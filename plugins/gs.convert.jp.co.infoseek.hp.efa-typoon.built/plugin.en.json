@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "gs.convert.jp.co.infoseek.hp.efa-typoon.built",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物総合コンバート\u3000たいふ～ん",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-SUPERL-YOKADO-7567171D3CEF}-gs.group",
+      "source": "超大型スーパー",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "language": "en",
+  "plugin": "fc2.niconiwa.keikyu1000a2",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "京急1000系列プラグイン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-Keikyu-1000-train-Kotei-4ECEE83C543B-Aa}.name",
+      "source": "固定編成(中速)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-Keikyu-1000-train-Kotei-4ECEE83C543B-Aa}.company",
+      "source": "京浜急行電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-Keikyu-1000-train-Kotei-4ECEE83C543B-Aa}.type",
+      "source": "1000形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-Keikyu-1000-train-Kotei-4ECEE83C543B-Aa}.description",
+      "source": "1959年に登場し、それ以来京急線の全線で使用されてきた車種。2～8両までの偶数両のみ購入可能。2・8両固定編成は現存せず。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-Keikyu-1000-train-Kotei-4ECEE83C543B-Ab}.name",
+      "source": "固定編成(高速)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-Keikyu-1000-train-Kotei-4ECEE83C543B-Ab}.company",
+      "source": "京浜急行電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-Keikyu-1000-train-Kotei-4ECEE83C543B-Ab}.type",
+      "source": "1000形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-Keikyu-1000-train-Kotei-4ECEE83C543B-Ab}.description",
+      "source": "1959年に登場し、それ以来京急線の全線で使用されてきた車種。2～8両までの偶数両のみ購入可能。2・8両固定編成は現存せず。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-Keikyu-1000-train-Bunkatsu-4ECEE83C543B-Ba}.name",
+      "source": "分割編成(中速)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-Keikyu-1000-train-Bunkatsu-4ECEE83C543B-Ba}.company",
+      "source": "京浜急行電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-Keikyu-1000-train-Bunkatsu-4ECEE83C543B-Ba}.type",
+      "source": "1000形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-Keikyu-1000-train-Bunkatsu-4ECEE83C543B-Ba}.description",
+      "source": "1959年に登場し、それ以来京急線の全線で使用されてきた車種。8・12両のみ購入可能。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-Keikyu-1000-train-Bunkatsu-4ECEE83C543B-Bb}.name",
+      "source": "分割編成(高速)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-Keikyu-1000-train-Bunkatsu-4ECEE83C543B-Bb}.company",
+      "source": "京浜急行電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-Keikyu-1000-train-Bunkatsu-4ECEE83C543B-Bb}.type",
+      "source": "1000形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-Keikyu-1000-train-Bunkatsu-4ECEE83C543B-Bb}.description",
+      "source": "1959年に登場し、それ以来京急線の全線で使用されてきた車種。8・12両のみ購入可能。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-kotoden-1080-train-4ECEE83C543B-A}.name",
+      "source": "琴平線(中速)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-kotoden-1080-train-4ECEE83C543B-A}.company",
+      "source": "高松琴平電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-kotoden-1080-train-4ECEE83C543B-A}.type",
+      "source": "1080形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-kotoden-1080-train-4ECEE83C543B-A}.description",
+      "source": "当時非冷房車が多かった琴電の冷房化をするため、京急で廃車になった1000形を改造して琴電で使用している車両。1080形は琴平線の車両で、黄色の帯が塗られている。2、4両編成のみ購入可能。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-kotoden-1080-train-4ECEE83C543B-B}.name",
+      "source": "琴平線(低速)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-kotoden-1080-train-4ECEE83C543B-B}.company",
+      "source": "高松琴平電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-kotoden-1080-train-4ECEE83C543B-B}.type",
+      "source": "1080形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-kotoden-1080-train-4ECEE83C543B-B}.description",
+      "source": "当時非冷房車が多かった琴電の冷房化をするため、京急で廃車になった1000形を改造して琴電で使用している車両。1080形は琴平線の車両で、黄色の帯が塗られている。2、4両編成のみ購入可能。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-kotoden-1300-train-4ECEE83C543B-A}.name",
+      "source": "長尾線(中速)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-kotoden-1300-train-4ECEE83C543B-A}.company",
+      "source": "高松琴平電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-kotoden-1300-train-4ECEE83C543B-A}.type",
+      "source": "1300形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-kotoden-1300-train-4ECEE83C543B-A}.description",
+      "source": "当時非冷房車が多かった琴電の冷房化をするため、京急で廃車になった1000形を改造して琴電で使用している車両。1300形は長尾線の車両で、緑色の帯が塗られている。2、4両編成のみ購入可能。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-kotoden-1300-train-4ECEE83C543B-B}.name",
+      "source": "長尾線(低速)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-kotoden-1300-train-4ECEE83C543B-B}.company",
+      "source": "高松琴平電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-kotoden-1300-train-4ECEE83C543B-B}.type",
+      "source": "1300形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-kotoden-1300-train-4ECEE83C543B-B}.description",
+      "source": "当時非冷房車が多かった琴電の冷房化をするため、京急で廃車になった1000形を改造して琴電で使用している車両。1300形は長尾線の車両で、緑色の帯が塗られている。2、4両編成のみ購入可能。",
+      "translation": ""
+    }
+  ]
+}

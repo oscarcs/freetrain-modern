@@ -88,10 +88,11 @@ public sealed class PluginManifestCatalog
         Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
     }
 
-    public PluginManifestCatalog(string pluginDirectory)
+    public PluginManifestCatalog(string pluginDirectory, string? language = PluginLocalizationCatalog.DefaultLanguage)
     {
         PluginDirectory = pluginDirectory;
-        Plugins = LoadPlugins(pluginDirectory);
+        Localization = PluginLocalizationCatalog.Load(pluginDirectory, language);
+        Plugins = LoadPlugins(pluginDirectory, Localization);
         LoadedCount = Plugins.Count(plugin => plugin.IsLoaded);
         ErrorCount = Plugins.Count(plugin => !plugin.IsLoaded);
         ContributionTypeCounts = Plugins
@@ -147,6 +148,7 @@ public sealed class PluginManifestCatalog
     }
 
     public string PluginDirectory { get; }
+    public PluginLocalizationCatalog Localization { get; }
     public IReadOnlyList<PluginManifest> Plugins { get; }
     public int LoadedCount { get; }
     public int ErrorCount { get; }
@@ -159,7 +161,7 @@ public sealed class PluginManifestCatalog
     public IReadOnlyList<TrainCarContribution> TrainCars { get; }
     public IReadOnlyList<TrainContribution> Trains { get; }
 
-    private static ReadOnlyCollection<PluginManifest> LoadPlugins(string pluginDirectory)
+    private static ReadOnlyCollection<PluginManifest> LoadPlugins(string pluginDirectory, PluginLocalizationCatalog localization)
     {
         if (!Directory.Exists(pluginDirectory))
         {
@@ -168,12 +170,12 @@ public sealed class PluginManifestCatalog
 
         return Directory.EnumerateFiles(pluginDirectory, "plugin.xml", SearchOption.AllDirectories)
             .OrderBy(path => path, StringComparer.OrdinalIgnoreCase)
-            .Select(ParsePlugin)
+            .Select(path => ParsePlugin(path, localization))
             .ToList()
             .AsReadOnly();
     }
 
-    private static PluginManifest ParsePlugin(string manifestPath)
+    private static PluginManifest ParsePlugin(string manifestPath, PluginLocalizationCatalog localization)
     {
         string directoryName = Path.GetFileName(Path.GetDirectoryName(manifestPath)) ?? "";
 
@@ -181,6 +183,7 @@ public sealed class PluginManifestCatalog
         {
             XDocument document = LoadXml(manifestPath);
             XElement root = document.Root ?? throw new XmlException("Missing document root.");
+            localization.ApplyToManifest(directoryName, root);
 
             IReadOnlyList<ContributionSummary> contributions = root.Elements("contribution")
                 .Select(element => new ContributionSummary(

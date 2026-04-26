@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.structure.oldshop",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "下町商店街",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B208DD4E-CC9F-4654-C477-F170DDA2E8AE}.group",
+      "source": "下町商店(小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{A5B309F8-52E9-4462-C477-760BA4B011AC}.group",
+      "source": "下町商店(小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D2BC3598-3CD8-42F6-C477-906CF24BF77D}.group",
+      "source": "下町商店(小)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{945BB736-C273-40B4-C477-D5D6B2AFD679}.group",
+      "source": "下町商店(小)",
+      "translation": ""
+    }
+  ]
+}

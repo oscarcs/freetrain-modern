@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "jp.geocities.mogami00.manshyon",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "都市部型分譲マンション",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{9D6EAF63-19A7-4E51-A313-C7E2067D105E}.group",
+      "source": "都市部型分譲マンション2",
+      "translation": ""
+    }
+  ]
+}

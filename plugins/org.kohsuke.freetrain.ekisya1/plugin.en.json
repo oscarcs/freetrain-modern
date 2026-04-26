@@ -1,0 +1,62 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.ekisya1",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "架線柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{10000000-1000-2004-9C5A-D0EA1049D28D}.name",
+      "source": "下松駅駅（左階段奥）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{10000000-1000-2005-9C5A-D0EA1049D28D}.name",
+      "source": "下松駅駅（右階段奥）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{200000000-1000-3001-9C5A-D0EA1049D28D}.name",
+      "source": "下松駅駅舎Ａ0",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{200000000-1001-3001-9C5A-D0EA1049D28D}.name",
+      "source": "下松駅駅舎Ｂ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{200000000-1002-3001-9C5A-D0EA1049D28D}.name",
+      "source": "下松駅駅舎Ｃ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{200000000-1003-3001-9C5A-D0EA1049D28D}.name",
+      "source": "下松駅駅舎Ａ0",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{s0000100-0001-1000-b400-12300000000A}.group",
+      "source": "下松駅1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{s0000100-0001-1000-b400-12300000000B}.group",
+      "source": "下松駅1",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{s0000100-0001-2202-b400-12300000000A}.group",
+      "source": "下松駅2",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{s0000100-0001-2202-b400-12300000000B}.group",
+      "source": "下松駅2",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.structure.syousei",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "民家",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D6DE0AED-AECF-4d7f-8455-488016997FFF}.name",
+      "source": "民家(小)",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "language": "en",
+  "plugin": "jp.ne.ocn.www4.presto.trains.jrs",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "JR四国 車両セット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8773C1E0-3EDB-11D8-968B-0800460222F9-titech-jrs-TSE}.company",
+      "source": "JR四国",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8773C1E0-3EDB-11D8-968B-0800460222F9-titech-jrs-TSE}.type",
+      "source": "2000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8773C1E0-3EDB-11D8-968B-0800460222F9-titech-jrs-N2000-0}.name",
+      "source": "N2000 登場時",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8773C1E0-3EDB-11D8-968B-0800460222F9-titech-jrs-N2000-0}.company",
+      "source": "JR四国",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8773C1E0-3EDB-11D8-968B-0800460222F9-titech-jrs-N2000-0}.type",
+      "source": "2000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8773C1E0-3EDB-11D8-968B-0800460222F9-titech-jrs-N2000}.company",
+      "source": "JR四国",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8773C1E0-3EDB-11D8-968B-0800460222F9-titech-jrs-N2000}.type",
+      "source": "2000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8773C1E0-3EDB-11D8-968B-0800460222F9-titech-jrs-N2000-2}.name",
+      "source": "N2000 量産車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8773C1E0-3EDB-11D8-968B-0800460222F9-titech-jrs-N2000-2}.company",
+      "source": "JR四国",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8773C1E0-3EDB-11D8-968B-0800460222F9-titech-jrs-N2000-2}.type",
+      "source": "2000系",
+      "translation": ""
+    }
+  ]
+}

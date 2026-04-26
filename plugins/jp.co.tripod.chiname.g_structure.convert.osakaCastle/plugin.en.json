@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.g_structure.convert.osakaCastle",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "大阪城",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{12CA8CE9-7D92-44CA-BB96-47C4A60A8316}-gs.group",
+      "source": "大阪城",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "language": "en",
+  "plugin": "info.hiyohiyo.riorio.freetrain.trains.jnr.typoon",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "113系湘南色・スカ色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-typhoon-113sukaMONO-8FE0-7567171D3CEF}.name",
+      "source": "横須賀色モノクラス",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-typhoon-113sukaMONO-8FE0-7567171D3CEF}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-typhoon-113sukaMONO-8FE0-7567171D3CEF}.type",
+      "source": "113系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-typhoon-113sukaMONO-8FE0-7567171D3CEF}.description",
+      "source": "千葉方面ローカルや横須賀線ローカルのスカ色モノクラス113系です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-typhoon-113sukaTs-8FE0-7567171D3CEF}.name",
+      "source": "横須賀色サロ入り",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-typhoon-113sukaTs-8FE0-7567171D3CEF}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-typhoon-113sukaTs-8FE0-7567171D3CEF}.type",
+      "source": "113系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-typhoon-113sukaTs-8FE0-7567171D3CEF}.description",
+      "source": "横須賀線・総武快速線のグリーン車入りスカ色113系です。7両から15両の編成になります。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-typhoon-113shonanMONO-8FE0-7567171D3CEF}.name",
+      "source": "湘南色モノクラス",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-typhoon-113shonanMONO-8FE0-7567171D3CEF}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-typhoon-113shonanMONO-8FE0-7567171D3CEF}.type",
+      "source": "113系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-typhoon-113shonanMONO-8FE0-7567171D3CEF}.description",
+      "source": "東海道本線・山陽本線・東北本線等で幅広く走っていた湘南色モノクラス113系です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-typhoon-113shonanTs-8FE0-7567171D3CEF}.name",
+      "source": "湘南色サロ入り",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-typhoon-113shonanTs-8FE0-7567171D3CEF}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-typhoon-113shonanTs-8FE0-7567171D3CEF}.type",
+      "source": "113系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-typhoon-113shonanTs-8FE0-7567171D3CEF}.description",
+      "source": "東海道線のグリーン車入り湘南色113系です。7両から15両の編成になります。",
+      "translation": ""
+    }
+  ]
+}

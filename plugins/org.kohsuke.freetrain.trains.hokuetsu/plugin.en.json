@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "org.kohsuke.freetrain.trains.hokuetsu",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "テスト",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{601F4004-9318-417B-B027-9138F8D37C35}.company",
+      "source": "北越急行",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{601F4004-9318-417B-B027-9138F8D37C35}.description",
+      "source": "高規格路線として設計されたほくほく線用に設計された車両。加速･ブレーキ性能に優れた車体である。",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "language": "en",
+  "plugin": "jp.zaq.pant012.Trains.deo900",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "デオ900",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7661CAC2-57EE-4F0B-957A-E6DF86A148C4-901}.name",
+      "source": "きらら\u3000紅色(901編成)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7661CAC2-57EE-4F0B-957A-E6DF86A148C4-901}.company",
+      "source": "叡山電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7661CAC2-57EE-4F0B-957A-E6DF86A148C4-901}.type",
+      "source": "デオ900",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7661CAC2-57EE-4F0B-957A-E6DF86A148C4-901}.description",
+      "source": "出町柳～鞍馬を結ぶ観光用電車として平成9年に誕生した電車です。窓を大きく取ったダイナミックなデザイン、叡電初のクロスシート等、乗っていて楽しい電車です。(中間車を連結していますが、実車には中間車はありません)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7661CAC2-57EE-4F0B-957A-E6DF86A148C4-903}.name",
+      "source": "きらら\u3000朱色(903編成)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7661CAC2-57EE-4F0B-957A-E6DF86A148C4-903}.company",
+      "source": "叡山電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7661CAC2-57EE-4F0B-957A-E6DF86A148C4-903}.type",
+      "source": "デオ900",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{7661CAC2-57EE-4F0B-957A-E6DF86A148C4-903}.description",
+      "source": "第一編成が好評だった為、急遽製造された第二編成です。ちなみに車名の\"きらら\"とは沿線近くにある｢雲母坂(きらら坂)｣から命名された。(中間車を連結していますが、実車には中間車はありません)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{nyaganyaga-deo600}.company",
+      "source": "叡山電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{nyaganyaga-deo600}.type",
+      "source": "デオ600",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{nyaganyaga-deo600}.description",
+      "source": "デナ500の足回りを使用して製作された車両。冷房化されていないので現在2両を残すのみです。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{nyaganyaga-deo700}.company",
+      "source": "叡山電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{nyaganyaga-deo700}.type",
+      "source": "デオ700",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{nyaganyaga-deo700}.description",
+      "source": "叡電初の冷房車でワンマン対応の車両です。余談ながら叡電の車両は武庫川車両製で阪神の部品がかなり使われています",
+      "translation": ""
+    }
+  ]
+}

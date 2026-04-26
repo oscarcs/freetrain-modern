@@ -1,0 +1,62 @@
+{
+  "language": "en",
+  "plugin": "info.hiyohiyo.riorio.freetrain.rail.electoricpole-chikaeki-kitapoppoya",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "架線柱タイプ地下鉄区間壁",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ep-subwaywall-object-0001-7F2AE70CF695}.name",
+      "source": "地下駅壁駅名板",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ep-subwaywall-object-0002-7F2AE70CF695}.name",
+      "source": "地下駅壁路線図",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ep-subwaywall-object-0003-7F2AE70CF695}.name",
+      "source": "地下駅壁",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ep-subwaywall-object-0004-7F2AE70CF695}.name",
+      "source": "地下鉄中柱",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ep-subwaywall-object-0005-7F2AE70CF695}.name",
+      "source": "地下鉄壁",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ep-subwaywall-platform-0001-7F2AE70CF695}.name",
+      "source": "地下ホーム駅名板",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ep-subwaywall-platform-0002-7F2AE70CF695}.name",
+      "source": "地下ホーム路線図",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ep-subwaywall-platform-0003-7F2AE70CF695}.name",
+      "source": "地下ホーム",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ep-subwaywall-platform-0004-7F2AE70CF695}.name",
+      "source": "地下鉄中柱・ホーム",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ep-subwaywall-platform-0006-7F2AE70CF695}.name",
+      "source": "地下鉄中柱無ホーム",
+      "translation": ""
+    }
+  ]
+}

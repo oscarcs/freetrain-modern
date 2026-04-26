@@ -1,0 +1,72 @@
+{
+  "language": "en",
+  "plugin": "co.jp.hotmail.noz2000.1000black",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "京急旧1000形（黒幕車）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8482AE3A-8EC8-44B8-9D8A-7F9846E19F0C}.name",
+      "source": "京急線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8482AE3A-8EC8-44B8-9D8A-7F9846E19F0C}.company",
+      "source": "京浜急行電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8482AE3A-8EC8-44B8-9D8A-7F9846E19F0C}.type",
+      "source": "1000形黒幕車(高)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8482AE3A-8EC8-44B8-9D8A-7F9846E19F0C}.description",
+      "source": "1959年に登場した車両。このFグループは1971年から1978年にかけて製造されたものです。この車両は高速です。2、4、6、8、12（8+4）編成を用意しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{962B65D1-DE97-4DF1-B147-000542B29262}.name",
+      "source": "京急線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{962B65D1-DE97-4DF1-B147-000542B29262}.company",
+      "source": "京浜急行電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{962B65D1-DE97-4DF1-B147-000542B29262}.type",
+      "source": "1000形黒幕車(中)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{962B65D1-DE97-4DF1-B147-000542B29262}.description",
+      "source": "1959年に登場した車両。このFグループは1971年から1978年にかけて製造されたものです。この車両は中速です。2、4、6、8、12（8+4）編成を用意しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1BFDB80B-FD4C-4DFD-BD51-0D05E2A21B79}.name",
+      "source": "京急線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1BFDB80B-FD4C-4DFD-BD51-0D05E2A21B79}.company",
+      "source": "京浜急行電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1BFDB80B-FD4C-4DFD-BD51-0D05E2A21B79}.type",
+      "source": "1000形黒幕車(低)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1BFDB80B-FD4C-4DFD-BD51-0D05E2A21B79}.description",
+      "source": "1959年に登場した車両。このFグループは1971年から1978年にかけて製造されたものです。この車両は低速です。2、4、6、8、12（8+4）編成を用意しています。",
+      "translation": ""
+    }
+  ]
+}

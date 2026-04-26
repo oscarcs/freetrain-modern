@@ -1,0 +1,152 @@
+{
+  "language": "en",
+  "plugin": "1703d.ToyamaLR",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "新潟車両セット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-toyama0600r}.name",
+      "source": "01\u3000レッド",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-toyama0600r}.company",
+      "source": "富山ライトレール",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-toyama0600r}.type",
+      "source": "0600形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-toyama0600r}.description",
+      "source": "2両編成のみ。JR富山港線をLRTとして蘇らせた路線を走る、低床の路面電車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-toyama0600o}.name",
+      "source": "02\u3000オレンジ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-toyama0600o}.company",
+      "source": "富山ライトレール",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-toyama0600o}.type",
+      "source": "0600形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-toyama0600o}.description",
+      "source": "2両編成のみ。JR富山港線をLRTとして蘇らせた路線を走る、低床の路面電車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-toyama0600y}.name",
+      "source": "03\u3000イエロー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-toyama0600y}.company",
+      "source": "富山ライトレール",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-toyama0600y}.type",
+      "source": "0600形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-toyama0600y}.description",
+      "source": "2両編成のみ。JR富山港線をLRTとして蘇らせた路線を走る、低床の路面電車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-toyama0600yg}.name",
+      "source": "04\u3000イエローグリーン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-toyama0600yg}.company",
+      "source": "富山ライトレール",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-toyama0600yg}.type",
+      "source": "0600形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-toyama0600yg}.description",
+      "source": "2両編成のみ。JR富山港線をLRTとして蘇らせた路線を走る、低床の路面電車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-toyama0600g}.name",
+      "source": "05\u3000グリーン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-toyama0600g}.company",
+      "source": "富山ライトレール",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-toyama0600g}.type",
+      "source": "0600形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-toyama0600g}.description",
+      "source": "2両編成のみ。JR富山港線をLRTとして蘇らせた路線を走る、低床の路面電車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-toyama0600b}.name",
+      "source": "06\u3000ブルー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-toyama0600b}.company",
+      "source": "富山ライトレール",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-toyama0600b}.type",
+      "source": "0600形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-toyama0600b}.description",
+      "source": "2両編成のみ。JR富山港線をLRTとして蘇らせた路線を走る、低床の路面電車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-toyama0600p}.name",
+      "source": "07\u3000パープル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-toyama0600p}.company",
+      "source": "富山ライトレール",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-toyama0600p}.type",
+      "source": "0600形",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{CyberExpress1703d-toyama0600p}.description",
+      "source": "2両編成のみ。JR富山港線をLRTとして蘇らせた路線を走る、低床の路面電車です。",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.station.sapporo",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "札幌駅",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E82EF732-605C-4284-C477-0239AD9521D7}-a0.group",
+      "source": "札幌駅",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E82EF732-605C-4284-C477-0239AD9521D7}-a1.group",
+      "source": "札幌駅",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E82EF732-605C-4284-C477-0239AD9521D7}-a2.group",
+      "source": "札幌駅",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{E82EF732-605C-4284-C477-0239AD9521D7}-a3.group",
+      "source": "札幌駅",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{99604146-2F69-437A-C477-96E5F6959A7B}-0.group",
+      "source": "札幌JRタワー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{99604146-2F69-437A-C477-96E5F6959A7B}-1.group",
+      "source": "札幌JRタワー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{99604146-2F69-437A-C477-96E5F6959A7B}-2.group",
+      "source": "札幌JRタワー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{99604146-2F69-437A-C477-96E5F6959A7B}-3.group",
+      "source": "札幌JRタワー",
+      "translation": ""
+    }
+  ]
+}

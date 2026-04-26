@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "ymltower.hermes",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "横浜ランドマークタワー",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E801}.group",
+      "source": "横浜ランドマークタワー",
+      "translation": ""
+    }
+  ]
+}

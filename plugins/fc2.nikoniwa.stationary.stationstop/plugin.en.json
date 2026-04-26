@@ -1,0 +1,52 @@
+{
+  "language": "en",
+  "plugin": "fc2.nikoniwa.stationary.stationstop",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "駅車止めプラグイン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-railStationary-stoprailstation-A0DB42934E04-A}.group",
+      "source": "花菱バラスト車止め(駅)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-railStationary-stoprailstation-A0DB42934E04-B}.group",
+      "source": "花菱バラスト車止め(駅)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-railStationary-stoprailstation-A0DB42934E04-C}.group",
+      "source": "花菱バラスト車止め(駅)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-railStationary-stoprailstation-A0DB42934E04-D}.group",
+      "source": "花菱バラスト車止め(駅)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-railStationary-stoprailstation-A0DB42934E04-E}.group",
+      "source": "花菱バラスト車止め(駅)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-railStationary-stoprailstation-A0DB42934E04-F}.group",
+      "source": "花菱バラスト車止め(駅)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-railStationary-stoprailstation-A0DB42934E04-G}.group",
+      "source": "花菱バラスト車止め(駅)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{201-nishi-railStationary-stoprailstation-A0DB42934E04-H}.group",
+      "source": "花菱バラスト車止め(駅)",
+      "translation": ""
+    }
+  ]
+}

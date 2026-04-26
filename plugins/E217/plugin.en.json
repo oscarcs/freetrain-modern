@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "plugin": "E217",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "E217系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{669D5BDE-23F1-43BD-AC36-B4B5A4-E217-W}.name",
+      "source": "総武快速・横須賀線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{669D5BDE-23F1-43BD-AC36-B4B5A4-E217-W}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{669D5BDE-23F1-43BD-AC36-B4B5A4-E217-W}.type",
+      "source": "E217系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{669D5BDE-23F1-43BD-AC36-B4B5A4-E217-W}.description",
+      "source": "総武快速・横須賀線の混雑緩和、スピードアップを目的として登場した車両。\nＪＲ東日本の通勤路線として初めて120ｋｍ/ｈ運転を開始した。\n4ドア、ロングシート配列という209系のスタイルを踏襲しつつ、長距離客に配慮して3両のセミクロスシート車を連結。\n横須賀線ならではのグリーン車(２階建て)を2両連結している。\n現在は湘南新宿ラインとして新宿駅にも乗り入れしている。\n編成は4両、11両、15両の3種類に、4両編成を2・3編成連結した８・12両を用意しました。",
+      "translation": ""
+    }
+  ]
+}

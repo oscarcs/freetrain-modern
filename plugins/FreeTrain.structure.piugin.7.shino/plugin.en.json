@@ -1,0 +1,72 @@
+{
+  "language": "en",
+  "plugin": "FreeTrain.structure.piugin.7.shino",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "ビルプラグイン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{21ECC7D2-E865-493D-9FBD-3E945EB219D9}.group",
+      "source": "貸しビル(2x2)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C7CF36F1-0E8E-4846-BDE3-147779C776B4}.group",
+      "source": "貸しビル(2x2)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{8D8A3E10-5A2A-4948-83AB-EC566D0416DD}.group",
+      "source": "貸しビル(2x2)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{74F83902-D791-4468-8AEC-0E4A66B613A0}.group",
+      "source": "貸しビル(2x2)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{F6519424-C47C-4281-B06E-12D21CDAF121}.group",
+      "source": "貸しビル(2x2)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2E2DA89B-9847-468A-B457-8302D7728194}.group",
+      "source": "貸しビル(2x2)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{235025D1-9B10-4BDE-AFD9-AB998451D42B}.group",
+      "source": "貸しビル(2x2)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6C559D81-7CCF-4D6E-8DC7-F9F49E2F0674}.group",
+      "source": "貸しビル(2x2)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{D4ED7A69-2849-49BC-8A72-05B334E2D7B3}.group",
+      "source": "貸しビル(2x2)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{035F693E-70F6-4CD5-B60E-29623097612D}.group",
+      "source": "貸しビル(2x2)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{138ED158-FCC1-4FC0-8060-C768FF6F32FB}.group",
+      "source": "貸しビル(2x2)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{98E66816-638B-4699-A88B-EF2818D56D17}.group",
+      "source": "貸しビル(2x2)",
+      "translation": ""
+    }
+  ]
+}

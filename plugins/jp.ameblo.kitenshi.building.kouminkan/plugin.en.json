@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "jp.ameblo.kitenshi.building.kouminkan",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "公民館",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B615E561-5E57-4FCE-8F5C-17DA82C3470C}.group",
+      "source": "公民館",
+      "translation": ""
+    }
+  ]
+}

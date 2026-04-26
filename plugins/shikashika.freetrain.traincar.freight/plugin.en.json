@@ -1,0 +1,12 @@
+{
+  "language": "en",
+  "plugin": "shikashika.freetrain.traincar.freight",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "車輌(貨車:旧国鉄及びJR各社)",
+      "translation": ""
+    }
+  ]
+}

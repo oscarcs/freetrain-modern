@@ -1,0 +1,252 @@
+{
+  "language": "en",
+  "plugin": "jp.co.infoseek.hp.efa-typoon.train2",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "車両セット\u30002号車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-R485-8FE0-7567171D3CEF}.name",
+      "source": "レッドエクスプレス",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-R485-8FE0-7567171D3CEF}.company",
+      "source": "JR九州",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-R485-8FE0-7567171D3CEF}.type",
+      "source": "485系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-R485-8FE0-7567171D3CEF}.description",
+      "source": "JR九州の485系のうち、赤くなってみた485系。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-K485-8FE0-7567171D3CEF}.name",
+      "source": "きりしま・ひゅうが",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-K485-8FE0-7567171D3CEF}.company",
+      "source": "JR九州",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-K485-8FE0-7567171D3CEF}.type",
+      "source": "485系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-K485-8FE0-7567171D3CEF}.description",
+      "source": "きりしま用の緑の485系はひゅうがとの共通運転を行うために、旧ハウステンボス色をベースにした塗装に変更された。3,6,9両のみ編成可能。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-H485-8FE0-7567171D3CEF}.name",
+      "source": "北越、くびき野 など",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-H485-8FE0-7567171D3CEF}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-H485-8FE0-7567171D3CEF}.type",
+      "source": "485系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-H485-8FE0-7567171D3CEF}.description",
+      "source": "上沼垂色の485系。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-I485-8FE0-7567171D3CEF}.name",
+      "source": "3000番台\u3000はくたか など",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-I485-8FE0-7567171D3CEF}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-I485-8FE0-7567171D3CEF}.type",
+      "source": "485系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-I485-8FE0-7567171D3CEF}.description",
+      "source": "上沼垂色の485系3000番台。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-J485-8FE0-7567171D3CEF}.name",
+      "source": "3000番台\u3000はつかり、白鳥",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-J485-8FE0-7567171D3CEF}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-J485-8FE0-7567171D3CEF}.type",
+      "source": "485系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-J485-8FE0-7567171D3CEF}.description",
+      "source": "「はつかり」用に485系を改造した車両。青函トンネル内で140km/hで運転できる。東北新幹線の八戸\n延長に伴い、「白鳥」として運転されるようになった。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRE-485HITA-HENSEI-7567171D3CEF}.name",
+      "source": "ひたち色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRE-485HITA-HENSEI-7567171D3CEF}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRE-485HITA-HENSEI-7567171D3CEF}.type",
+      "source": "485系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRE-485HITA-HENSEI-7567171D3CEF}.description",
+      "source": "ひたち色の485系ボンネット無し。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRE-485KAMO-HENSEI-7567171D3CEF}.name",
+      "source": "かもしか など",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRE-485KAMO-HENSEI-7567171D3CEF}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRE-485KAMO-HENSEI-7567171D3CEF}.type",
+      "source": "485系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRE-485KAMO-HENSEI-7567171D3CEF}.description",
+      "source": "3,6,9両のみ編成可能。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-L485-8FE0-7567171D3CEF}.name",
+      "source": "はくたか など",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-L485-8FE0-7567171D3CEF}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-L485-8FE0-7567171D3CEF}.type",
+      "source": "485系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-L485-8FE0-7567171D3CEF}.description",
+      "source": "「はくたか」などで使われているJR西日本の485系。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-M485-8FE0-7567171D3CEF}.name",
+      "source": "白山色・ボンネット無し",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-M485-8FE0-7567171D3CEF}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-M485-8FE0-7567171D3CEF}.type",
+      "source": "489系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-M485-8FE0-7567171D3CEF}.description",
+      "source": "「白山」で使われていた専用カラーの489系。「はくたか」や新幹線の前の「あさま」でも使われることがあった。北陸新幹線の開業で「白山」は廃止され、現在は特急色に戻されている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRW-485SHIRAP-HENSEI-7567171D3CEF}.name",
+      "source": "しらさぎ色(Pあり)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRW-485SHIRAP-HENSEI-7567171D3CEF}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRW-485SHIRAP-HENSEI-7567171D3CEF}.type",
+      "source": "485系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRW-485SHIRAP-HENSEI-7567171D3CEF}.description",
+      "source": "しらさぎなどで使われていたパノラマ車つきの485系。10両まで編成可。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRW-485SHIRA-HENSEI-7567171D3CEF}.name",
+      "source": "しらさぎ色(Pなし)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRW-485SHIRA-HENSEI-7567171D3CEF}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRW-485SHIRA-HENSEI-7567171D3CEF}.type",
+      "source": "485系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRW-485SHIRA-HENSEI-7567171D3CEF}.description",
+      "source": "しらさぎなどで使われていたパノラマ車なしの485系。10両まで編成可。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRW-485KIRA-HENSEI-7567171D3CEF}.name",
+      "source": "かがやき・きらめき色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRW-485KIRA-HENSEI-7567171D3CEF}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRW-485KIRA-HENSEI-7567171D3CEF}.type",
+      "source": "485系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRW-485KIRA-HENSEI-7567171D3CEF}.description",
+      "source": "かがやき・きらめき色の485系。",
+      "translation": ""
+    }
+  ]
+}

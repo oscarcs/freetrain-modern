@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "plugin": "jp.big.ayase.freetrain.structure_patlabor",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物プラグイン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-Patlabor01a}.group",
+      "source": "特車２課棟",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-AYASE-Hiro-StructureImpl-Patlabor01b}.group",
+      "source": "特車２課棟",
+      "translation": ""
+    }
+  ]
+}

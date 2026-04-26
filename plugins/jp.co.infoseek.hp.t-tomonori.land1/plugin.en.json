@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "plugin": "jp.co.infoseek.hp.t-tomonori.land1",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "水",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{tomonori-water-land-8D86-7FD3B9B26994}.name",
+      "source": "水",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{tomonori-water-land-8D86-7FD3B9B26994}.group",
+      "source": "水",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{tomonori-asfa-land-8D86-7FD3B9B26994}.name",
+      "source": "アスファルト",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{tomonori-asfa-land-8D86-7FD3B9B26994}.group",
+      "source": "アスファルト",
+      "translation": ""
+    }
+  ]
+}

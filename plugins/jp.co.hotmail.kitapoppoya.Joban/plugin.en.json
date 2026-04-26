@@ -1,0 +1,112 @@
+{
+  "language": "en",
+  "plugin": "jp.co.hotmail.kitapoppoya.Joban",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "常磐パック",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{69ADC1FD-A7A8-4963-B63C-C66852-203-W}.name",
+      "source": "常磐緩行線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{69ADC1FD-A7A8-4963-B63C-C66852-203-W}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{69ADC1FD-A7A8-4963-B63C-C66852-203-W}.type",
+      "source": "203系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{69ADC1FD-A7A8-4963-B63C-C66852-203-W}.description",
+      "source": "現在の常磐緩行線の主役。201系がベース。100番代以降は205系に準じた台車を履いている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{69ADC1FD-A7A8-4963-B63C-C66-207900-W}.name",
+      "source": "常磐緩行線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{69ADC1FD-A7A8-4963-B63C-C66-207900-W}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{69ADC1FD-A7A8-4963-B63C-C66-207900-W}.type",
+      "source": "207系900番台",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{69ADC1FD-A7A8-4963-B63C-C66-207900-W}.description",
+      "source": "旧国鉄唯一のVVVFインバータ制御車。205系をベースにしているが、あまりにも高価なため導入は試作一編成のみにとどまった。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{69ADC1FD-A7A8-4963-B63C-C6-2091000-W}.name",
+      "source": "常磐緩行線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{69ADC1FD-A7A8-4963-B63C-C6-2091000-W}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{69ADC1FD-A7A8-4963-B63C-C6-2091000-W}.type",
+      "source": "209系1000番台",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{69ADC1FD-A7A8-4963-B63C-C6-2091000-W}.description",
+      "source": "輸送力増強を目的にして二編成が導入された、常磐緩行線の新顔。E231導入後ではあったものの209系をベースとしている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{69ADC1FD-A7A8-4963-B63C-C6685-E531-W}.name",
+      "source": "常磐快速",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{69ADC1FD-A7A8-4963-B63C-C6685-E531-W}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{69ADC1FD-A7A8-4963-B63C-C6685-E531-W}.type",
+      "source": "E531系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{69ADC1FD-A7A8-4963-B63C-C6685-E531-W}.description",
+      "source": "2005年から導入が開始される、常磐線の新顔。E231系の近郊型をベースとし、交直流区間直通・130km/h走行を可能にする。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-E531G}.name",
+      "source": "常磐快速",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-E531G}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-E531G}.type",
+      "source": "E531系(グリーン車組み込み編成)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-E531G}.description",
+      "source": "TXの開業に対抗し、常磐快速のE531系にもWデッカーのグリーン車組み込みが始まった。こちらは忠実の編成に従っています。",
+      "translation": ""
+    }
+  ]
+}

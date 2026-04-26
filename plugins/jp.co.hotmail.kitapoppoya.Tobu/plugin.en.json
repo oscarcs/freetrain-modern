@@ -1,0 +1,217 @@
+{
+  "language": "en",
+  "plugin": "jp.co.hotmail.kitapoppoya.Tobu",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "東武パック",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-690D8A00C35D-tb9000}.name",
+      "source": "9000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-690D8A00C35D-tb9000}.company",
+      "source": "東武鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-690D8A00C35D-tb9000}.type",
+      "source": "10000系系列",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-690D8A00C35D-tb9000}.description",
+      "source": "東武東上線から東京メトロ有楽町線に直通乗り入れする車両のうち、初期のものです。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-690D8A03C35D-tb10000}.name",
+      "source": "10000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-690D8A03C35D-tb10000}.company",
+      "source": "東武鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-690D8A03C35D-tb10000}.type",
+      "source": "10000系系列",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-690D8A03C35D-tb10000}.description",
+      "source": "1985年から製造された地上線用20m級通勤電車。本線系統では2・6両編成を連結して、東上線では10両編成で運用されている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-690D8A03C35D-tb10030}.name",
+      "source": "10030系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-690D8A03C35D-tb10030}.company",
+      "source": "東武鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-690D8A03C35D-tb10030}.type",
+      "source": "10000系系列",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-690D8A03C35D-tb10030}.description",
+      "source": "10000系列のマイナーチェンジ型で、前面マスクが現代的な容貌になった。本線系統・東上線で見ることができる。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-690D8A03C35D-tb20000}.name",
+      "source": "20000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-690D8A03C35D-tb20000}.company",
+      "source": "東武鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-690D8A03C35D-tb20000}.type",
+      "source": "20000系系列",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-690D8A03C35D-tb20000}.description",
+      "source": "東武本線系統から東京メトロ日比谷線に直通するために製造された18m級通勤電車。日比谷線での冷房化をはじめとする接客設備改善に働いた。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-690D8A03C35D-tb20050}.name",
+      "source": "20050系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-690D8A03C35D-tb20050}.company",
+      "source": "東武鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-690D8A03C35D-tb20050}.type",
+      "source": "20000系系列",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-690D8A03C35D-tb20050}.description",
+      "source": "東武本線系統から東京メトロ日比谷線に直通するために製造された18m級通勤電車。先頭車が5扉から3扉に再び戻った。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-690D8A03C35D-tb6050}.company",
+      "source": "東武鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-690D8A03C35D-tb6050}.type",
+      "source": "6050系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-690D8A003C35D-tb8000-1}.name",
+      "source": "8000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-690D8A003C35D-tb8000-1}.company",
+      "source": "東武鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-690D8A003C35D-tb8000-1}.type",
+      "source": "8000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-690D8A003C35D-tb8000-1}.description",
+      "source": "本線系統・東上線の全線にわたり幅広く活躍する20m級通勤電車。あまりに多数のファミリーを持つため、「私鉄の103系」と呼ばれたこともある。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-690D8A003C35D-tb8000-2}.name",
+      "source": "8000系\u3000更新車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-690D8A003C35D-tb8000-2}.company",
+      "source": "東武鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-690D8A003C35D-tb8000-2}.type",
+      "source": "8000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-690D8A003C35D-tb8000-2}.description",
+      "source": "8000系をまだまだ使い続けるつもりの東武は、ヘッドライトのHID化など更新工事を進めている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-69D8A00C35DA-tb200}.name",
+      "source": "りょうもう",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-69D8A00C35DA-tb200}.company",
+      "source": "東武鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-69D8A00C35DA-tb200}.type",
+      "source": "200系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-69D8A00C35DA-tb200}.description",
+      "source": "有料特急「りょうもう」に使用されている特急電車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-69D8A00C35DA-tb100}.name",
+      "source": "スペーシア",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-69D8A00C35DA-tb100}.company",
+      "source": "東武鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-69D8A00C35DA-tb100}.type",
+      "source": "100系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-69D8A00C35DA-tb100}.description",
+      "source": "東武浅草から日光方面に向かう「きぬ」「けごん」に使用されている特急電車。JRとの直通運転が開始され、新宿・池袋にも顔をだすようになった。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-69D8A00C35DA-tb300}.name",
+      "source": "300系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-69D8A00C35DA-tb300}.company",
+      "source": "東武鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C2CC877A-466D-43FC-81E7-69D8A00C35DA-tb300}.type",
+      "source": "300系",
+      "translation": ""
+    }
+  ]
+}

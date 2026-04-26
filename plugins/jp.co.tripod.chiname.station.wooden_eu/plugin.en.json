@@ -1,0 +1,92 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.station.wooden_eu",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "洋風木造駅舎",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2A279F76-C913-4692-C477-04FF49922523}-1a.group",
+      "source": "洋風木造駅舎A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2A279F76-C913-4692-C477-04FF49922523}-0a.group",
+      "source": "洋風木造駅舎A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2A279F76-C913-4692-C477-04FF49922523}-2a.group",
+      "source": "洋風木造駅舎A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2A279F76-C913-4692-C477-04FF49922523}-3a.group",
+      "source": "洋風木造駅舎A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2A279F76-C913-4692-C477-04FF49922523}-1b.group",
+      "source": "洋風木造駅舎A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2A279F76-C913-4692-C477-04FF49922523}-0b.group",
+      "source": "洋風木造駅舎A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2A279F76-C913-4692-C477-04FF49922523}-2b.group",
+      "source": "洋風木造駅舎A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2A279F76-C913-4692-C477-04FF49922523}-3b.group",
+      "source": "洋風木造駅舎A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2A279F76-C913-4692-C477-04FF49922523}-1c.group",
+      "source": "洋風木造駅舎A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2A279F76-C913-4692-C477-04FF49922523}-0c.group",
+      "source": "洋風木造駅舎A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2A279F76-C913-4692-C477-04FF49922523}-2c.group",
+      "source": "洋風木造駅舎A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2A279F76-C913-4692-C477-04FF49922523}-3c.group",
+      "source": "洋風木造駅舎A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2A279F76-C913-4692-C477-04FF49922523}-1d.group",
+      "source": "洋風木造駅舎A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2A279F76-C913-4692-C477-04FF49922523}-0d.group",
+      "source": "洋風木造駅舎A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2A279F76-C913-4692-C477-04FF49922523}-2d.group",
+      "source": "洋風木造駅舎A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2A279F76-C913-4692-C477-04FF49922523}-3d.group",
+      "source": "洋風木造駅舎A",
+      "translation": ""
+    }
+  ]
+}

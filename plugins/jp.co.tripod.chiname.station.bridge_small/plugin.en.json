@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.station.bridge_small",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "小さな橋上駅舎",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{754F536C-E367-4B9A-C477-A15D3C2E05BA}-0.group",
+      "source": "小さな橋上駅舎",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{754F536C-E367-4B9A-C477-A15D3C2E05BA}-1.group",
+      "source": "小さな橋上駅舎",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{754F536C-E367-4B9A-C477-A15D3C2E05BA}-2.group",
+      "source": "小さな橋上駅舎",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{754F536C-E367-4B9A-C477-A15D3C2E05BA}-3.group",
+      "source": "小さな橋上駅舎",
+      "translation": ""
+    }
+  ]
+}

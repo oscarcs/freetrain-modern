@@ -1,0 +1,102 @@
+{
+  "language": "en",
+  "plugin": "rk-eki001",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "駅舎プラグイン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-rk001-1010-t-eki001}.group",
+      "source": "地上駅01",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-rk001-1010-t-eki002}.group",
+      "source": "地上駅01",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-rk001-1010-t-eki003}.group",
+      "source": "地上駅01",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-rk001-1010-t-eki004}.group",
+      "source": "地上駅01",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-rk001-1010-t-eki005}.group",
+      "source": "地上駅01",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-rk001-1010-t-eki006}.group",
+      "source": "地上駅01",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-rk001-1010-t-eki007}.group",
+      "source": "地上駅01",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-rk001-1010-t-eki008}.group",
+      "source": "地上駅01",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-rk001-1012-t-eki001}.group",
+      "source": "地上駅02",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-rk001-1012-t-eki002}.group",
+      "source": "地上駅02",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-rk001-1012-t-eki003}.group",
+      "source": "地上駅02",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-rk001-1012-t-eki004}.group",
+      "source": "地上駅02",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-rk001-1012-t-eki005}.group",
+      "source": "地上駅02",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-rk001-1012-t-eki006}.group",
+      "source": "地上駅02",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-rk001-1012-t-eki007}.group",
+      "source": "地上駅02",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-rk001-1012-t-eki008}.group",
+      "source": "地上駅02",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-rk001-1013-t-eki008}.group",
+      "source": "地上駅03",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{474B8BFD-rk001-1014-t-eki008}.group",
+      "source": "地上駅03",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "language": "en",
+  "plugin": "com.xrea.s19.typhoon.train5",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "車両セット\u30005号車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A413-8FE0-7567171D3CEF}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A413-8FE0-7567171D3CEF}.type",
+      "source": "413系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A413-8FE0-7567171D3CEF}.description",
+      "source": "1986年から1989年にかけて北陸本線のローカル列車用として、471・473系急行形交直流電車の機器を流用して417系に準じた2扉セミクロスシートの新製車体を組み合わせた車両です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A205-8FE0-7567171D3CEF}.name",
+      "source": "1000番台 南武支線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A205-8FE0-7567171D3CEF}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A205-8FE0-7567171D3CEF}.type",
+      "source": "205系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A205-8FE0-7567171D3CEF}.description",
+      "source": "(8両までの偶数両のみ編成可)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-B205-8FE0-7567171D3CEF}.name",
+      "source": "3100番台 仙石線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-B205-8FE0-7567171D3CEF}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-B205-8FE0-7567171D3CEF}.type",
+      "source": "205系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-C205-8FE0-7567171D3CEF}.name",
+      "source": "3100番台2wayシート 仙石線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-C205-8FE0-7567171D3CEF}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-C205-8FE0-7567171D3CEF}.type",
+      "source": "205系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-C205-8FE0-7567171D3CEF}.description",
+      "source": "(4両、8両のみ編成可)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRE-20530K-HENSEI-7567171D3CEF}.name",
+      "source": "3000番台 八高線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRE-20530K-HENSEI-7567171D3CEF}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRE-20530K-HENSEI-7567171D3CEF}.type",
+      "source": "205系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRE-20530K-HENSEI-7567171D3CEF}.description",
+      "source": "山手線で使用されていた205系をもとに、サハ2両に運転台取り付け改造を行いクハとしてモハを挟んで生まれた4両編成である。\n半自動ドアボタンの増設なども行われている。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRE-20512K-HENSEI-7567171D3CEF}.name",
+      "source": "1200番台 南武線",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRE-20512K-HENSEI-7567171D3CEF}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRE-20512K-HENSEI-7567171D3CEF}.type",
+      "source": "205系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRE-20512K-HENSEI-7567171D3CEF}.description",
+      "source": "南武線の205系のうち、先頭車両を山手線で使用されていたサハに運転台取り付け改造でまかなったものが1200番台です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A883-8FE0-7567171D3CEF}.company",
+      "source": "JR九州",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A883-8FE0-7567171D3CEF}.type",
+      "source": "883系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A883-8FE0-7567171D3CEF}.description",
+      "source": "博多と大分を結ぶ「ソニック」に使用されている特急形列車。制御付き振り子で曲線も高速通過できる。\nこの編成はリニューアル前の姿です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-B883-8FE0-7567171D3CEF}.name",
+      "source": "前面白",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-B883-8FE0-7567171D3CEF}.company",
+      "source": "JR九州",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-B883-8FE0-7567171D3CEF}.type",
+      "source": "883系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-B883-8FE0-7567171D3CEF}.description",
+      "source": "博多と大分を結ぶ「ソニック」に使用されている特急形列車。制御付き振り子で曲線も高速通過できる。\nこの編成はリニューアル前の姿です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRE-651-HENSEI-7567171D3CEF}.name",
+      "source": "スーパーひたち",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRE-651-HENSEI-7567171D3CEF}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRE-651-HENSEI-7567171D3CEF}.type",
+      "source": "651系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRE-651-HENSEI-7567171D3CEF}.description",
+      "source": "1989年から営業を開始した、「スーパーひたち」用特急車両。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRS-113AOMIDO-HENSEI-7567171D3CEF}.name",
+      "source": "更新車（青・緑）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRS-113AOMIDO-HENSEI-7567171D3CEF}.company",
+      "source": "JR四国",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRS-113AOMIDO-HENSEI-7567171D3CEF}.type",
+      "source": "113系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRS-113AOMIDO-HENSEI-7567171D3CEF}.description",
+      "source": "JR四国では、JR東日本から譲渡された113系を、転換クロスシートに取り替え塗装も一新するなど更新を行って使用している。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRS-113MOAKA-HENSEI-7567171D3CEF}.name",
+      "source": "更新車（桃・赤）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRS-113MOAKA-HENSEI-7567171D3CEF}.company",
+      "source": "JR四国",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRS-113MOAKA-HENSEI-7567171D3CEF}.type",
+      "source": "113系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRS-113MOAKA-HENSEI-7567171D3CEF}.description",
+      "source": "JR四国では、JR東日本から譲渡された113系を、転換クロスシートに取り替え塗装も一新するなど更新を行って使用している。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRS-113OREKI-HENSEI-7567171D3CEF}.name",
+      "source": "更新車（黄・橙）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRS-113OREKI-HENSEI-7567171D3CEF}.company",
+      "source": "JR四国",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRS-113OREKI-HENSEI-7567171D3CEF}.type",
+      "source": "113系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRS-113OREKI-HENSEI-7567171D3CEF}.description",
+      "source": "JR四国では、JR東日本から譲渡された113系を、転換クロスシートに取り替え塗装も一新するなど更新を行って使用している。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-KAYA-KIHA083-HENSEI-7567171D3CEF}.company",
+      "source": "加悦鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-KAYA-KIHA083-HENSEI-7567171D3CEF}.type",
+      "source": "キハ08 3",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-KAYA-KIHA083-HENSEI-7567171D3CEF}.description",
+      "source": "国鉄宮津線丹後山田駅から加悦町の加悦駅を結んでいた私鉄が加悦鉄道です。\n国鉄から譲り受けた客車改造気動車のキハ08が走っていました。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-KEISEI-3000-HENSEI-7567171D3CEF}.company",
+      "source": "京成電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-KEISEI-3000-HENSEI-7567171D3CEF}.type",
+      "source": "3000系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-KEISEI-3000-HENSEI-7567171D3CEF}.description",
+      "source": "2003年から営業している京成電鉄の通勤電車です。都営浅草線・京急線へも直通運転しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-KEISEI-3400-HENSEI-7567171D3CEF}.company",
+      "source": "京成電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-KEISEI-3400-HENSEI-7567171D3CEF}.type",
+      "source": "3400系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-KEISEI-3400-HENSEI-7567171D3CEF}.description",
+      "source": "1993年に営業を開始した京成電鉄の通勤型電車です。初代AE形スカイライナーの走行機器を流用し、新造した車体をのせました。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-KEISEI-3700-HENSEI-7567171D3CEF}.company",
+      "source": "京成電鉄",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-KEISEI-3700-HENSEI-7567171D3CEF}.type",
+      "source": "3700系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-KEISEI-3700-HENSEI-7567171D3CEF}.description",
+      "source": "1991年に営業開始した通勤型電車で、京成電鉄の通勤車では初のVVVF制御を採用した。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JNR-211CK-HENSEI-7567171D3CEF}.name",
+      "source": "中京色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JNR-211CK-HENSEI-7567171D3CEF}.company",
+      "source": "JR東海",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JNR-211CK-HENSEI-7567171D3CEF}.type",
+      "source": "211系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JNR-211CK-HENSEI-7567171D3CEF}.description",
+      "source": "1986年に名古屋地区向けに2編成投入された211系は、ここ独自のブルーのラインの外観で登場した。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRE-E257500-HENSEI-7567171D3CEF}.name",
+      "source": "500番台\u3000さざなみ・わかしお",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRE-E257500-HENSEI-7567171D3CEF}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRE-E257500-HENSEI-7567171D3CEF}.type",
+      "source": "E257系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{TYPHOON-JRE-E257500-HENSEI-7567171D3CEF}.description",
+      "source": "東京から千葉・房総方面へ向かう特急列車に使用されている車両です。",
+      "translation": ""
+    }
+  ]
+}

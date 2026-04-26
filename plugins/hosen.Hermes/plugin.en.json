@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "hosen.Hermes",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "保線車両",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1CDCD81D-8368-4CBC-HERM-0F1FDBD1E403}.name",
+      "source": "レール運搬用トロッコ",
+      "translation": ""
+    }
+  ]
+}

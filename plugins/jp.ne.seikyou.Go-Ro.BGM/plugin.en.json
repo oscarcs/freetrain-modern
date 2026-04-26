@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "jp.ne.seikyou.Go-Ro.BGM",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "BGM(FreeTrain-想作館)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{473_FT-bgm-C000-0000-4C8B212Dharu}.name",
+      "source": "摩天楼",
+      "translation": ""
+    }
+  ]
+}

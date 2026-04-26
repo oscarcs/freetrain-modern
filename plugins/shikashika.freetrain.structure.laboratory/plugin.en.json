@@ -1,0 +1,72 @@
+{
+  "language": "en",
+  "plugin": "shikashika.freetrain.structure.laboratory",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物(研究施設)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-astronomicalobservatory-001a}.name",
+      "source": "天体観測所(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-astronomicalobservatory-001a}.group",
+      "source": "天体観測所",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-astronomicalobservatory-001b}.name",
+      "source": "天体観測所(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-astronomicalobservatory-001b}.group",
+      "source": "天体観測所",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-astronomicalobservatory-001c}.name",
+      "source": "天体観測所(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-astronomicalobservatory-001c}.group",
+      "source": "天体観測所",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-astronomicalobservatory-001d}.name",
+      "source": "天体観測所(1x1)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-astronomicalobservatory-001d}.group",
+      "source": "天体観測所",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-astronomicalobservatory-002a}.name",
+      "source": "天体観測所(2x2)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-astronomicalobservatory-002a}.group",
+      "source": "天体観測所",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-astronomicalobservatory-002b}.name",
+      "source": "天体観測所(2x2)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-structure-astronomicalobservatory-002b}.group",
+      "source": "天体観測所",
+      "translation": ""
+    }
+  ]
+}

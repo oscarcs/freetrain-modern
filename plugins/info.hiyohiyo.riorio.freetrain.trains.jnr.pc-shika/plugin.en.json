@@ -1,0 +1,42 @@
+{
+  "language": "en",
+  "plugin": "info.hiyohiyo.riorio.freetrain.trains.jnr.pc-shika",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "列車(旧日本国有鉄道)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-shikashika-TrainHensei-EF58boxbrown-laggageonly}.name",
+      "source": "茶 荷物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-shikashika-TrainHensei-EF58boxbrown-laggageonly}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-shikashika-TrainHensei-EF58boxbrown-laggageonly}.description",
+      "source": "荷物列車。牽引はEF58の茶。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-shikashika-TrainHensei-EF58boxbrown-pcexpress}.name",
+      "source": "茶 急行列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-shikashika-TrainHensei-EF58boxbrown-pcexpress}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-shikashika-TrainHensei-EF58boxbrown-pcexpress}.description",
+      "source": "急行列車。牽引はEF58の茶。",
+      "translation": ""
+    }
+  ]
+}

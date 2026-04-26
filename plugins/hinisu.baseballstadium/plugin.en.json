@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "hinisu.baseballstadium",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "野球場",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{hinisu-build-baseballstadium-1-126BC73B58B}.name",
+      "source": "野球場",
+      "translation": ""
+    }
+  ]
+}

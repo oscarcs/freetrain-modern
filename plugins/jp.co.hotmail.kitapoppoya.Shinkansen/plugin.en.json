@@ -1,0 +1,117 @@
+{
+  "language": "en",
+  "plugin": "jp.co.hotmail.kitapoppoya.Shinkansen",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "新幹線セット",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-N700CE}.name",
+      "source": "のぞみ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-N700CE}.company",
+      "source": "JR東海",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-N700CE}.type",
+      "source": "N700系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-N700WE}.name",
+      "source": "のぞみ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-N700WE}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-N700WE}.type",
+      "source": "N700系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-N700WS}.name",
+      "source": "さくら･みずほ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-N700WS}.company",
+      "source": "JR西日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-N700WS}.type",
+      "source": "N700系7000番台",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-N700KS}.name",
+      "source": "さくら･みずほ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-N700KS}.company",
+      "source": "JR九州",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-N700KS}.type",
+      "source": "N700系7000番台",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-E5}.name",
+      "source": "はやぶさ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-E5}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-E5}.type",
+      "source": "E5系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-E6}.name",
+      "source": "こまち",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-E6}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{57644AE6-7FFA-A231-8FE0-75-E6}.type",
+      "source": "E6系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-E5E6}.name",
+      "source": "はやぶさ+こまち",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-E5E6}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{669D5BDE-23F1-43BD-AC36-B-E5E6}.type",
+      "source": "E5系+E6系",
+      "translation": ""
+    }
+  ]
+}

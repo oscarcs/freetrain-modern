@@ -1,0 +1,202 @@
+{
+  "language": "en",
+  "plugin": "info.hiyohiyo.riorio.freetrain.stationary.kokakyo-ayase",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "高架橋脚（スラブ軌道）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint01-picture-BFEA15454F81}-A.group",
+      "source": "コン橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint01-picture-BFEA15454F81}-B.group",
+      "source": "コン橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint01-picture-BFEA15454F81}-C.group",
+      "source": "コン橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint01-picture-BFEA15454F81}-D.group",
+      "source": "コン橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint01-picture-BFEA15454F81}-E.group",
+      "source": "コン橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint01-picture-BFEA15454F81}-F.group",
+      "source": "コン橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint01-picture-BFEA15454F81}-G.group",
+      "source": "コン橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint01-picture-BFEA15454F81}-H.group",
+      "source": "コン橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint01-picture-BFEA15454F81}-II.group",
+      "source": "コン橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint01-picture-BFEA15454F81}-JJ.group",
+      "source": "コン橋脚",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint02-picture-0D247E162113}-A.group",
+      "source": "コン橋脚(側道付)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint02-picture-0D247E162113}-B.group",
+      "source": "コン橋脚(側道付)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint02-picture-0D247E162113}-C.group",
+      "source": "コン橋脚(側道付)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint02-picture-0D247E162113}-D.group",
+      "source": "コン橋脚(側道付)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint02-picture-0D247E162113}-E.group",
+      "source": "コン橋脚(側道付)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint02-picture-0D247E162113}-F.group",
+      "source": "コン橋脚(側道付)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint02-picture-0D247E162113}-G.group",
+      "source": "コン橋脚(側道付)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint02-picture-0D247E162113}-H.group",
+      "source": "コン橋脚(側道付)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint02-picture-0D247E162113}-II.group",
+      "source": "コン橋脚(側道付)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint02-picture-0D247E162113}-JJ.group",
+      "source": "コン橋脚(側道付)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint03-picture-B470B202E927}-C.group",
+      "source": "コン橋脚(複合)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint03-picture-B470B202E927}-D.group",
+      "source": "コン橋脚(複合)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint03-picture-B470B202E927}-E.group",
+      "source": "コン橋脚(複合)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint03-picture-B470B202E927}-F.group",
+      "source": "コン橋脚(複合)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint03-picture-B470B202E927}-G.group",
+      "source": "コン橋脚(複合)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint03-picture-B470B202E927}-H.group",
+      "source": "コン橋脚(複合)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint04-picture-821A3444FBE1}-C.group",
+      "source": "コン橋脚(複合)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint04-picture-821A3444FBE1}-D.group",
+      "source": "コン橋脚(複合)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint04-picture-821A3444FBE1}-E.group",
+      "source": "コン橋脚(複合)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint04-picture-821A3444FBE1}-F.group",
+      "source": "コン橋脚(複合)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint04-picture-821A3444FBE1}-G.group",
+      "source": "コン橋脚(複合)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint04-picture-821A3444FBE1}-H.group",
+      "source": "コン橋脚(複合)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint05-picture-189F34FA2FBC}-C.group",
+      "source": "コン橋脚(複合)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint05-picture-189F34FA2FBC}-D.group",
+      "source": "コン橋脚(複合)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint05-picture-189F34FA2FBC}-E.group",
+      "source": "コン橋脚(複合)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint05-picture-189F34FA2FBC}-F.group",
+      "source": "コン橋脚(複合)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint05-picture-189F34FA2FBC}-G.group",
+      "source": "コン橋脚(複合)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-ayase-kokakyorepaint05-picture-189F34FA2FBC}-H.group",
+      "source": "コン橋脚(複合)",
+      "translation": ""
+    }
+  ]
+}

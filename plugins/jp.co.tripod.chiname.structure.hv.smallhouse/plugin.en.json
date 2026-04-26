@@ -1,0 +1,72 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.structure.hv.smallhouse",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "半ボクセル住宅",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0BBC6983-D9AC-4348-C477-A93C14D9BBBC}-0.name",
+      "source": "切妻二階建てA",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0BBC6983-D9AC-4348-C477-A93C14D9BBBC}-0.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0BBC6983-D9AC-4348-C477-A93C14D9BBBC}-1.name",
+      "source": "切妻二階建てB",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0BBC6983-D9AC-4348-C477-A93C14D9BBBC}-1.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0BBC6983-D9AC-4348-C477-A93C14D9BBBC}-2.name",
+      "source": "切妻二階建てC",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0BBC6983-D9AC-4348-C477-A93C14D9BBBC}-2.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0BBC6983-D9AC-4348-C477-A93C14D9BBBC}-3.name",
+      "source": "車庫付切妻二階建て",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0BBC6983-D9AC-4348-C477-A93C14D9BBBC}-3.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0BBC6983-D9AC-4348-C477-A93C14D9BBBC}-4.name",
+      "source": "寄棟二階建てA",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0BBC6983-D9AC-4348-C477-A93C14D9BBBC}-4.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0BBC6983-D9AC-4348-C477-A93C14D9BBBC}-5.name",
+      "source": "寄棟二階建てB",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{0BBC6983-D9AC-4348-C477-A93C14D9BBBC}-5.group",
+      "source": "半ボクセル建築",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,522 @@
+{
+  "language": "en",
+  "plugin": "info.hiyohiyo.riorio.freetrain.trains.freight.ayaseshika",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "列車(旧日本国有鉄道)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-Hiro-TrainHensei-EF60-1blue-tank-YO}.name",
+      "source": "一次青 ガソリン輸送貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-Hiro-TrainHensei-EF60-1blue-tank-YO}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-Hiro-TrainHensei-EF60-1blue-tank-YO}.description",
+      "source": "ガソリン等揮発油輸送を目的とした貨物列車。牽引はEF60一次車の青。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-Hiro-TrainHensei-EF60-1brown-tank-YO}.name",
+      "source": "一次茶 ガソリン輸送貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-Hiro-TrainHensei-EF60-1brown-tank-YO}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-Hiro-TrainHensei-EF60-1brown-tank-YO}.description",
+      "source": "ガソリン等揮発油輸送を目的とした貨物列車。牽引はEF60一次車の茶。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-Hiro-TrainHensei-EF60-3blue-tank-YO}.name",
+      "source": "三次青 ガソリン輸送貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-Hiro-TrainHensei-EF60-3blue-tank-YO}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-Hiro-TrainHensei-EF60-3blue-tank-YO}.description",
+      "source": "ガソリン等揮発油輸送を目的とした貨物列車。牽引はEF60三次車の青。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-Hiro-TrainHensei-EF60-3brown-tank-YO}.name",
+      "source": "三次茶 ガソリン輸送貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-Hiro-TrainHensei-EF60-3brown-tank-YO}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-Hiro-TrainHensei-EF60-3brown-tank-YO}.description",
+      "source": "ガソリン等揮発油輸送を目的とした貨物列車。牽引はEF60三次車の茶。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-1brown-Freight-mix}.name",
+      "source": "一次茶 雑貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-1brown-Freight-mix}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-1brown-Freight-mix}.description",
+      "source": "電気機関車EF60一次車茶が牽引する、雑貨物列車です。最後尾に昭和37年から製造された車掌車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-3brown-Freight-mix}.name",
+      "source": "三次茶 雑貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-3brown-Freight-mix}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-3brown-Freight-mix}.description",
+      "source": "電気機関車EF60三次車茶が牽引する、雑貨物列車です。最後尾に昭和37年から製造された車掌車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-1blue-Freight-mix}.name",
+      "source": "一次青 雑貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-1blue-Freight-mix}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-1blue-Freight-mix}.description",
+      "source": "電気機関車EF60一次車青が牽引する、雑貨物列車です。最後尾に昭和37年から製造された車掌車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-3blue-Freight-mix}.name",
+      "source": "三次青 雑貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-3blue-Freight-mix}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-3blue-Freight-mix}.description",
+      "source": "電気機関車EF60三次車青が牽引する、雑貨物列車です。最後尾に昭和37年から製造された車掌車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-1brown-container}.name",
+      "source": "一次茶 コンテナ列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-1brown-container}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-1brown-container}.description",
+      "source": "電気機関車EF60一次車茶が牽引する、コンテナ貨物列車です。最後尾に昭和37年から製造された車掌車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-3brown-container}.name",
+      "source": "三次茶 コンテナ列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-3brown-container}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-3brown-container}.description",
+      "source": "電気機関車EF60三次車茶が牽引する、コンテナ貨物列車です。最後尾に昭和37年から製造された車掌車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-1blue-container}.name",
+      "source": "一次青 コンテナ列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-1blue-container}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-1blue-container}.description",
+      "source": "電気機関車EF60一次車青が牽引する、コンテナ貨物列車です。最後尾に昭和37年から製造された車掌車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-3blue-container}.name",
+      "source": "三次青 コンテナ列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-3blue-container}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-3blue-container}.description",
+      "source": "電気機関車EF60三次車青が牽引する、コンテナ貨物列車です。最後尾に昭和37年から製造された車掌車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-1brown-Freight-wamu}.name",
+      "source": "一次茶 有蓋貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-1brown-Freight-wamu}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-1brown-Freight-wamu}.description",
+      "source": "電気機関車EF60一次車茶がワム80000を牽引する貨物列車です。ワム80000は紙やビールの輸送に使われていました。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-3blue-Freight-wamu}.name",
+      "source": "三次青 有蓋貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-3blue-Freight-wamu}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF60-3blue-Freight-wamu}.description",
+      "source": "電気機関車EF60三次車青がワム80000を牽引する貨物列車です。ワム80000は紙やビールの輸送に使われていました。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-Hiro-TrainHensei-K02-05-YO}.name",
+      "source": "ガソリン輸送貨物列車（ヨつき）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-Hiro-TrainHensei-K02-05-YO}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-Hiro-TrainHensei-K02-05-YO}.type",
+      "source": "EF 65 特急色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-Hiro-TrainHensei-K02-05-YO}.description",
+      "source": "ガソリン等揮発油輸送を目的とした貨物列車。牽引はEF65単機または重連。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-Hiro-TrainHensei-K02-02-YO}.name",
+      "source": "ガソリン輸送貨物列車（ヨつき）",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-Hiro-TrainHensei-K02-02-YO}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-Hiro-TrainHensei-K02-02-YO}.description",
+      "source": "ガソリン等揮発油輸送を目的とした貨物列車。牽引はEF64単機または重連。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF64-Freight-mix}.name",
+      "source": "雑貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF64-Freight-mix}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-AYASE-HIRO-Shika-RailroadTrain-EF64-Freight-mix}.description",
+      "source": "電気機関車EF64が牽引する、雑貨物列車です。最後尾に昭和37年から製造された車掌車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-Shika-RailroadTrain-EF58-Freight-Tank}.name",
+      "source": "タンカー列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-Shika-RailroadTrain-EF58-Freight-Tank}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-Shika-RailroadTrain-EF58-Freight-Tank}.description",
+      "source": "電気機関車EF58(デッキ付)が牽引する、タンク貨物です。最後尾に昭和37年から製造された車掌車を連結しています。貨物だとEF18かもしれませんが。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-Shika-RailroadTrain-EF58-Freight-Waki}.name",
+      "source": "有蓋貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-Shika-RailroadTrain-EF58-Freight-Waki}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-Shika-RailroadTrain-EF58-Freight-Waki}.description",
+      "source": "電気機関車EF58(デッキ付)が牽引する、ワム80000有蓋貨物です。ワム80000は紙やビールの輸送に使用されました。貨物だとEF18かもしれませんが。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-Shika-RailroadTrain-EF58-Freight-mix}.name",
+      "source": "雑貨物列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-Shika-RailroadTrain-EF58-Freight-mix}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-Shika-RailroadTrain-EF58-Freight-mix}.description",
+      "source": "電気機関車EF58(デッキ付)が牽引する、雑貨物列車です。最後尾に昭和37年から製造された車掌車を連結しています。貨物だとEF18かもしれませんが。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-shikashika-RailroadTrain-EF58-brown-container}.name",
+      "source": "デッキ コンテナ列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-shikashika-RailroadTrain-EF58-brown-container}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-riorio-shikashika-RailroadTrain-EF58-brown-container}.description",
+      "source": "電気機関車EF58デッキ形が牽引する、コンテナ貨物列車です。最後尾に昭和37年から製造された車掌車を連結しています。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-2-Freight-koki}.name",
+      "source": "*2コンテナ列車",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-2-Freight-koki}.company",
+      "source": "旧日本国有鉄道",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EH10-2-Freight-koki}.description",
+      "source": "重貨物用電気機関車EH10が牽引する、一般コンテナ荷物列車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-shikashika-train-Freight-Container-koki100101-JRF-01}.name",
+      "source": "コンテナ貨物列車A",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-shikashika-train-Freight-Container-koki100101-JRF-01}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-shikashika-train-Freight-Container-koki100101-JRF-01}.type",
+      "source": "コキ101",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-shikashika-train-Freight-Container-koki100101-JRF-01}.description",
+      "source": "コキ100とコキ101が4両でユニットを組んでいます。パターンA。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-shikashika-train-Freight-Container-koki100101-JRF-02}.name",
+      "source": "コンテナ貨物列車B",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-shikashika-train-Freight-Container-koki100101-JRF-02}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-shikashika-train-Freight-Container-koki100101-JRF-02}.type",
+      "source": "コキ101",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-shikashika-train-Freight-Container-koki100101-JRF-02}.description",
+      "source": "コキ100とコキ101が4両でユニットを組んでいます。パターンB。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-shikashika-train-Freight-Container-koki100101-JRF-03}.name",
+      "source": "コンテナ貨物列車C",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-shikashika-train-Freight-Container-koki100101-JRF-03}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-shikashika-train-Freight-Container-koki100101-JRF-03}.type",
+      "source": "コキ101",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-shikashika-train-Freight-Container-koki100101-JRF-03}.description",
+      "source": "コキ100とコキ101が4両でユニットを組んでいます。パターンC。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-shikashika-train-Freight-Container-koki100101-JRF-04}.name",
+      "source": "コンテナ貨物列車D",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-shikashika-train-Freight-Container-koki100101-JRF-04}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-shikashika-train-Freight-Container-koki100101-JRF-04}.type",
+      "source": "コキ101",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-shikashika-train-Freight-Container-koki100101-JRF-04}.description",
+      "source": "コキ100とコキ101が4両でユニットを組んでいます。パターンD。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-shikashika-RailroadTrain-EF200-Freight-only1-JRF}.name",
+      "source": "単機",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-shikashika-RailroadTrain-EF200-Freight-only1-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-shikashika-RailroadTrain-EF200-Freight-only1-JRF}.description",
+      "source": "6000kWという狭軌で世界一の出力を誇る貨物用直流電気機関車EF200です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-shikashika-RailroadTrain-EF210-000-Freight-only1-JRF}.name",
+      "source": "-0番台 単機",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-shikashika-RailroadTrain-EF210-000-Freight-only1-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-shikashika-RailroadTrain-EF210-000-Freight-only1-JRF}.description",
+      "source": "「ECO-POWER桃太郎」の愛称をもつ貨物用直流電気機関車EF210(0番台)です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-shikashika-RailroadTrain-EF210-100SA-Freight-only1-JRF}.name",
+      "source": "シングルアームパンタグラフ 単機",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-shikashika-RailroadTrain-EF210-100SA-Freight-only1-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-shikashika-RailroadTrain-EF210-100SA-Freight-only1-JRF}.description",
+      "source": "「ECO-POWER桃太郎」の愛称をもつ貨物用直流電気機関車EF210(100番台シングルアームパンタグラフ)です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-shikashika-RailroadTrain-DD51-Freight-only1-JRF}.name",
+      "source": "単機",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-shikashika-RailroadTrain-DD51-Freight-only1-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-shikashika-RailroadTrain-DD51-Freight-only1-JRF}.description",
+      "source": "液体式ディーゼル機関車DD51(JR貨物更新機)です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-AYASE-Hiroa-RailroadTrain-EF64-Freight-only1-JRF}.name",
+      "source": "単機",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-AYASE-Hiroa-RailroadTrain-EF64-Freight-only1-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-AYASE-Hiroa-RailroadTrain-EF64-Freight-only1-JRF}.description",
+      "source": "中央線などの勾配線区むけに製造された直流形電気機関車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-AYASE-Hiroa-RailroadTrain-EF65-500-Freight-only1-JRF}.name",
+      "source": "単機",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-AYASE-Hiroa-RailroadTrain-EF65-500-Freight-only1-JRF}.company",
+      "source": "JR貨物",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-AYASE-Hiroa-RailroadTrain-EF65-500-Freight-only1-JRF}.type",
+      "source": "EF 65 特急色",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{riorio-AYASE-Hiroa-RailroadTrain-EF65-500-Freight-only1-JRF}.description",
+      "source": "東海道線などの平坦線区むけに製造された直流形電気機関車です。",
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "plugin": "horitake5",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "見えない駅舎",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{724AD4DD-9AF6-48E6-B72A-F71745821E34}.name",
+      "source": "見えない駅舎\u3000芝生",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{5328E09C-531E-416B-9819-77630F59AAB9}.name",
+      "source": "見えない駅舎\u3000コンクリート",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{C7A701BD-53CD-4918-BF5E-7182A3562632}.name",
+      "source": "見えない駅舎\u3000水面",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{B2D4F35C-5649-47B4-8810-DFC1A30B1E96}.name",
+      "source": "見えない駅舎\u3000砂利",
+      "translation": ""
+    }
+  ]
+}

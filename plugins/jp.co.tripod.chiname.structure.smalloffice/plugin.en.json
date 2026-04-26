@@ -1,0 +1,37 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.structure.smalloffice",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "小規模オフィスビル",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4D807084-365D-4327-C477-857A7306B9DA}-1.group",
+      "source": "小規模雑居ビルC",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{092F0578-BC6B-4784-C477-0843663D1745}-0.group",
+      "source": "小規模雑居ビルC",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{83D4A6F5-D277-4A04-C477-2A317435893E}-0.group",
+      "source": "小規模雑居ビルC",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{6A1789CF-B2B1-4543-C477-95318FB8C3CD}-l0.group",
+      "source": "小規模雑居ビルC",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{2B44E129-F03C-46CE-C477-EC02F2856643}-l0.group",
+      "source": "小規模雑居ビルC",
+      "translation": ""
+    }
+  ]
+}

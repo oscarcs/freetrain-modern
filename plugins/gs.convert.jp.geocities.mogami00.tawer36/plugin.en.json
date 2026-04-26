@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "plugin": "gs.convert.jp.geocities.mogami00.tawer36",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "建物総合コンバート\u3000モガミ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{37DF0EE7-6EA7-4D07-BE5A-FDD33FC9E91A}-gs.group",
+      "source": "貸しビル01号",
+      "translation": ""
+    }
+  ]
+}

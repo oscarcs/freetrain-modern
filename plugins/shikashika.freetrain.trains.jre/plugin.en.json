@@ -1,0 +1,72 @@
+{
+  "language": "en",
+  "plugin": "shikashika.freetrain.trains.jre",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "列車(JR東日本)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-700-LocalTrein-50}.name",
+      "source": "700番台 普通列車(50系)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-700-LocalTrein-50}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-ED75-700-LocalTrein-50}.description",
+      "source": "電気機関車ED75-700番台が牽引する、50系(オハ50、オハフ50)客車普通列車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-hokuto-LocalTrein-50}.name",
+      "source": "北斗星色 普通列車(50系)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-hokuto-LocalTrein-50}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-hokuto-LocalTrein-50}.description",
+      "source": "電気機関車EF81(北斗星塗装)が牽引する、50系(オハ50、オハフ50)客車普通列車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-Cassiopeia-1}.name",
+      "source": "カシオペア",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-Cassiopeia-1}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-Cassiopeia-1}.description",
+      "source": "電気機関車EF81(カシオペア塗装)が牽引する、オール2階建寝台列車です。",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-Cassiopeia-2}.name",
+      "source": "カシオペア(予備)",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-Cassiopeia-2}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{FreeTrain-Shika-RailroadTrain-EF81-Cassiopeia-2}.description",
+      "source": "電気機関車EF81(カシオペア塗装)が牽引する、オール2階建寝台列車です。電源車は予備のカヤ２７です。",
+      "translation": ""
+    }
+  ]
+}

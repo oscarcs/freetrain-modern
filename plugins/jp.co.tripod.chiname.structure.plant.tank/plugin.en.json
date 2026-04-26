@@ -1,0 +1,82 @@
+{
+  "language": "en",
+  "plugin": "jp.co.tripod.chiname.structure.plant.tank",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "プラントタンク",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1AA3CB42-243C-40AB-C477-8F0118B689A9}-0.group",
+      "source": "PM-サイロ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1AA3CB42-243C-40AB-C477-8F0118B689A9}-1.group",
+      "source": "PM-サイロ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1AA3CB42-243C-40AB-C477-8F0118B689A9}-2.group",
+      "source": "PM-サイロ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1AA3CB42-243C-40AB-C477-8F0118B689A9}-3.group",
+      "source": "PM-サイロ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1AA3CB42-243C-40AB-C477-8F0118B689A9}-4.group",
+      "source": "PM-サイロ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1AA3CB42-243C-40AB-C477-8F0118B689A9}-5.group",
+      "source": "PM-サイロ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{1AA3CB42-243C-40AB-C477-8F0118B689A9}-6.group",
+      "source": "PM-サイロ",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4892DDB3-904E-447E-C477-D6C743D0C04F}-0.group",
+      "source": "PM-タンク",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4892DDB3-904E-447E-C477-D6C743D0C04F}-1.group",
+      "source": "PM-タンク",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4892DDB3-904E-447E-C477-D6C743D0C04F}-2.group",
+      "source": "PM-タンク",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4892DDB3-904E-447E-C477-D6C743D0C04F}-3.group",
+      "source": "PM-タンク",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4892DDB3-904E-447E-C477-D6C743D0C04F}-4.group",
+      "source": "PM-タンク",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4892DDB3-904E-447E-C477-D6C743D0C04F}-5.group",
+      "source": "PM-タンク",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{4892DDB3-904E-447E-C477-D6C743D0C04F}-6.group",
+      "source": "PM-タンク",
+      "translation": ""
+    }
+  ]
+}

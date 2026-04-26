@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "plugin": "jp.geocities.1703d.train255.0911",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "255系特急型電車車両プラグイン",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{187DF275-70DE-ec255-8F66-BF0E327B80CF}.name",
+      "source": "房総ビューエクスプレス",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{187DF275-70DE-ec255-8F66-BF0E327B80CF}.company",
+      "source": "JR東日本",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{187DF275-70DE-ec255-8F66-BF0E327B80CF}.type",
+      "source": "255系",
+      "translation": ""
+    },
+    {
+      "key": "contribution.{187DF275-70DE-ec255-8F66-BF0E327B80CF}.description",
+      "source": "1993年、房総方面で活躍している183系の置き換え用として登場。\n南房総の観光客や通年利用のビジネスマン等の多目的な利用を考え、ハイブリットモビリティ（複合移動空間）というトータルコンセプトを元にデザインされた。 \nJR東日本の特急車両としては初めてVVVFインバータ制御を採用した車両で、従来の特急車に比べＭＴ比を下げて省エネ化を図っている。\n塗装は太平洋をイメージするブルーと砂浜・海辺をイメージするホワイトを基調にして、ドア付近と車端に菜の花をイメージするイエローを配色。 \n臨時列車で中央東線にも乗り入れする。運転最高速度は130km/h。",
+      "translation": ""
+    }
+  ]
+}

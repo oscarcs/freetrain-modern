@@ -1,0 +1,12 @@
+{
+  "language": "en",
+  "plugin": "1703d.keisei.AE",
+  "sourceManifest": "plugin.xml",
+  "texts": [
+    {
+      "key": "plugin.title",
+      "source": "新スカイライナーAE形",
+      "translation": ""
+    }
+  ]
+}
