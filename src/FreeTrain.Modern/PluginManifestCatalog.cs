@@ -72,6 +72,9 @@ public sealed record PluginManifest(
     IReadOnlyList<SpriteContribution> Sprites,
     IReadOnlyList<LandContribution> Lands,
     IReadOnlyList<RoadContribution> Roads,
+    IReadOnlyList<StationContribution> Stations,
+    IReadOnlyList<TrainCarContribution> TrainCars,
+    IReadOnlyList<TrainContribution> Trains,
     string? Error)
 {
     public bool IsLoaded => Error is null;
@@ -123,6 +126,24 @@ public sealed class PluginManifestCatalog
             .ThenBy(road => road.DisplayName, StringComparer.OrdinalIgnoreCase)
             .ToList()
             .AsReadOnly();
+        Stations = Plugins
+            .SelectMany(plugin => plugin.Stations)
+            .OrderBy(station => station.PluginDirectoryName, StringComparer.OrdinalIgnoreCase)
+            .ThenBy(station => station.DisplayName, StringComparer.OrdinalIgnoreCase)
+            .ToList()
+            .AsReadOnly();
+        TrainCars = Plugins
+            .SelectMany(plugin => plugin.TrainCars)
+            .OrderBy(car => car.PluginDirectoryName, StringComparer.OrdinalIgnoreCase)
+            .ThenBy(car => car.DisplayName, StringComparer.OrdinalIgnoreCase)
+            .ToList()
+            .AsReadOnly();
+        Trains = Plugins
+            .SelectMany(plugin => plugin.Trains)
+            .OrderBy(train => train.PluginDirectoryName, StringComparer.OrdinalIgnoreCase)
+            .ThenBy(train => train.DisplayName, StringComparer.OrdinalIgnoreCase)
+            .ToList()
+            .AsReadOnly();
     }
 
     public string PluginDirectory { get; }
@@ -134,6 +155,9 @@ public sealed class PluginManifestCatalog
     public IReadOnlyList<SpriteContribution> Sprites { get; }
     public IReadOnlyList<LandContribution> Lands { get; }
     public IReadOnlyList<RoadContribution> Roads { get; }
+    public IReadOnlyList<StationContribution> Stations { get; }
+    public IReadOnlyList<TrainCarContribution> TrainCars { get; }
+    public IReadOnlyList<TrainContribution> Trains { get; }
 
     private static ReadOnlyCollection<PluginManifest> LoadPlugins(string pluginDirectory)
     {
@@ -190,6 +214,21 @@ public sealed class PluginManifestCatalog
                 .Select(element => ParseRoadContribution(manifestPath, directoryName, ElementValue(root, "title"), element, pictureLookup))
                 .ToList()
                 .AsReadOnly();
+            IReadOnlyList<StationContribution> stations = root.Elements("contribution")
+                .Where(element => string.Equals(AttributeValue(element, "type"), "station", StringComparison.OrdinalIgnoreCase))
+                .Select(element => ParseStationContribution(manifestPath, directoryName, ElementValue(root, "title"), element, pictureLookup))
+                .ToList()
+                .AsReadOnly();
+            IReadOnlyList<TrainCarContribution> trainCars = root.Elements("contribution")
+                .Where(element => string.Equals(AttributeValue(element, "type"), "trainCar", StringComparison.OrdinalIgnoreCase))
+                .Select(element => ParseTrainCarContribution(manifestPath, directoryName, ElementValue(root, "title"), element, pictureLookup))
+                .ToList()
+                .AsReadOnly();
+            IReadOnlyList<TrainContribution> trains = root.Elements("contribution")
+                .Where(element => string.Equals(AttributeValue(element, "type"), "train", StringComparison.OrdinalIgnoreCase))
+                .Select(element => ParseTrainContribution(directoryName, ElementValue(root, "title"), element))
+                .ToList()
+                .AsReadOnly();
 
             return new PluginManifest(
                 directoryName,
@@ -203,6 +242,9 @@ public sealed class PluginManifestCatalog
                 sprites,
                 lands,
                 roads,
+                stations,
+                trainCars,
+                trains,
                 null);
         }
         catch (Exception ex)
@@ -219,6 +261,9 @@ public sealed class PluginManifestCatalog
                 Array.Empty<SpriteContribution>(),
                 Array.Empty<LandContribution>(),
                 Array.Empty<RoadContribution>(),
+                Array.Empty<StationContribution>(),
+                Array.Empty<TrainCarContribution>(),
+                Array.Empty<TrainContribution>(),
                 ex.Message);
         }
     }
@@ -427,6 +472,146 @@ public sealed class PluginManifestCatalog
             AttributeValue(style, "name"),
             AttributeValue(style, "sidewalk"),
             lanes);
+    }
+
+    private static StationContribution ParseStationContribution(
+        string manifestPath,
+        string directoryName,
+        string pluginTitle,
+        XElement contribution,
+        IReadOnlyDictionary<string, PictureContribution> pictures)
+    {
+        string pluginDirectory = Path.GetDirectoryName(manifestPath) ?? "";
+        (int sizeH, int sizeV) = ParseSize(ElementValue(contribution, "size"));
+        sizeH = Math.Max(1, sizeH);
+        sizeV = Math.Max(1, sizeV);
+        int operationCost = int.TryParse(ElementValue(contribution, "operationCost"), out int parsedCost)
+            ? parsedCost
+            : 0;
+        XElement? spriteElement = contribution.Element("sprite");
+        SpriteFrame? frame = spriteElement is null
+            ? null
+            : ParseSpriteFrame(pluginDirectory, contribution, spriteElement, pictures);
+        ModernSpriteSet2D? spriteSet = spriteElement is null
+            ? null
+            : Load2DSpriteSet(pluginDirectory, contribution, spriteElement, pictures, sizeH, sizeV, 1);
+        string? error = frame is null && spriteSet is null
+            ? "Station has no sprite."
+            : frame?.IsLoadable == true || spriteSet?.IsLoadable == true
+                ? null
+                : frame?.Error ?? "Station sprite is not loadable.";
+
+        return new StationContribution(
+            directoryName,
+            pluginTitle,
+            AttributeValue(contribution, "id"),
+            ElementValue(contribution, "group"),
+            ElementValue(contribution, "name"),
+            sizeH,
+            sizeV,
+            operationCost,
+            frame,
+            spriteSet,
+            string.IsNullOrWhiteSpace(error) ? null : error);
+    }
+
+    private static TrainCarContribution ParseTrainCarContribution(
+        string manifestPath,
+        string directoryName,
+        string pluginTitle,
+        XElement contribution,
+        IReadOnlyDictionary<string, PictureContribution> pictures)
+    {
+        string pluginDirectory = Path.GetDirectoryName(manifestPath) ?? "";
+        string className = OptionalAttributeValue(contribution.Element("class"), "name");
+        bool isAsymmetric = className.EndsWith(".AsymTrainCarImpl", StringComparison.OrdinalIgnoreCase);
+        bool isSymmetric = className.EndsWith(".SymTrainCarImpl", StringComparison.OrdinalIgnoreCase)
+            || className.EndsWith(".ColoredTrainCarImpl", StringComparison.OrdinalIgnoreCase)
+            || className.EndsWith(".ReverseTrainCarImpl", StringComparison.OrdinalIgnoreCase);
+        XElement? spriteElement = contribution.Element("sprite");
+        Dictionary<int, SpriteFrame> frames = new();
+        string? error = null;
+
+        if (spriteElement is null)
+        {
+            error = "Train car has no sprite.";
+        }
+        else if (!isAsymmetric && !isSymmetric)
+        {
+            error = string.IsNullOrWhiteSpace(className) ? "Train car class not found." : $"Unsupported train car class '{className}'.";
+        }
+        else
+        {
+            ResolvedSpritePicture picture = ResolveSpritePicture(pluginDirectory, spriteElement, pictures);
+            (int originX, int originY) = ParsePoint(AttributeValue(spriteElement, "origin"));
+            int frameCount = isAsymmetric ? 16 : 8;
+            for (int i = 0; i < frameCount; i++)
+            {
+                int sourceX = originX + (i % 8) * 32;
+                int sourceY = originY + (i / 8) * 32;
+                frames[i] = CreateSpriteFrame(picture, sourceX, sourceY, 32, 32, 0, 0);
+            }
+
+            if (!frames.Values.Any(frame => frame.IsLoadable))
+            {
+                error = string.Join("; ", frames.Values.Select(frame => frame.Error).Where(message => !string.IsNullOrWhiteSpace(message)).Distinct());
+            }
+        }
+
+        return new TrainCarContribution(
+            directoryName,
+            pluginTitle,
+            AttributeValue(contribution, "id"),
+            ElementValue(contribution, "name"),
+            ParseInt(ElementValue(contribution, "capacity")),
+            ParseInt(ElementValue(contribution, "seatedcapacity")),
+            isAsymmetric,
+            frames,
+            string.IsNullOrWhiteSpace(error) ? null : error);
+    }
+
+    private static TrainContribution ParseTrainContribution(
+        string directoryName,
+        string pluginTitle,
+        XElement contribution)
+    {
+        XElement? composition = contribution.Element("composition");
+        string? head = OptionalAttributeValue(composition?.Element("head"), "carRef");
+        string? body = OptionalAttributeValue(composition?.Element("body"), "carRef");
+        string? tail = OptionalAttributeValue(composition?.Element("tail"), "carRef");
+        body = string.IsNullOrWhiteSpace(body)
+            ? OptionalAttributeValue(composition?.Elements().FirstOrDefault(), "carRef")
+            : body;
+        int speed = ElementValue(contribution, "speed").Trim().ToLowerInvariant() switch
+        {
+            "superexpress" or "superfast" or "veryfast" => 1,
+            "express" or "fast" => 2,
+            "middle" or "medium" or "normal" => 3,
+            "slow" => 4,
+            _ => 5
+        };
+        string? error = string.IsNullOrWhiteSpace(body)
+            ? "Train composition has no body car."
+            : null;
+
+        return new TrainContribution(
+            directoryName,
+            pluginTitle,
+            AttributeValue(contribution, "id"),
+            ElementValue(contribution, "company"),
+            ElementValue(contribution, "type"),
+            ElementValue(contribution, "name"),
+            ElementValue(contribution, "author"),
+            ElementValue(contribution, "description"),
+            ParseInt(ElementValue(contribution, "fare")),
+            ParseInt(ElementValue(contribution, "price")),
+            ParseInt(ElementValue(contribution, "amenity")),
+            ElementValue(contribution, "triprange"),
+            speed,
+            string.IsNullOrWhiteSpace(head) ? null : head,
+            string.IsNullOrWhiteSpace(body) ? null : body,
+            string.IsNullOrWhiteSpace(tail) ? null : tail,
+            error);
     }
 
     private static IReadOnlyDictionary<byte, SpriteFrame> ParseStandardRoadFrames(

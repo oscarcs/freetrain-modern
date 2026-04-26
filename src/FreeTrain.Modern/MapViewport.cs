@@ -11,18 +11,25 @@ public enum MapEditMode
     Select,
     Rail,
     Road,
+    Station,
+    Platform,
+    Train,
     Terrain,
     Erase
 }
 
 public sealed class MapViewport : Control, IDisposable
 {
+    private readonly record struct RenderQueueItem(int H, int V, int Z, int Layer, Action<DrawingContext> Draw);
+
     private const int TileWidth = 32;
     private const int TileHeight = 16;
     private const string RailRoadCrossingPictureId = "{F4380415-A2F2-41d8-8FCD-ED25A470A84D}";
 
     private readonly LegacySpriteSheet groundTiles;
     private readonly Bitmap railBitmap;
+    private readonly Bitmap thinPlatformBitmap;
+    private readonly Bitmap fatPlatformBitmap;
     private readonly IBrush background = new SolidColorBrush(Color.FromRgb(219, 232, 226));
     private readonly IBrush waterBrush = new SolidColorBrush(Color.FromRgb(107, 156, 178));
     private readonly IBrush waterTileBrush = new SolidColorBrush(Color.FromRgb(81, 148, 181));
@@ -42,6 +49,9 @@ public sealed class MapViewport : Control, IDisposable
     private readonly IReadOnlyList<RoadContribution> roadContributions;
     private readonly IReadOnlyList<LandContribution> landContributions;
     private readonly IReadOnlyList<SpriteContribution> spriteContributions;
+    private readonly IReadOnlyList<StationContribution> stationContributions;
+    private readonly IReadOnlyList<TrainContribution> trainContributions;
+    private readonly IReadOnlyDictionary<string, TrainCarContribution> trainCarContributions;
     private readonly string? railRoadCrossingPath;
     private readonly Dictionary<string, Bitmap> pluginBitmaps = new(StringComparer.OrdinalIgnoreCase);
     private readonly RenderOptions pixelArtRenderOptions = new()
@@ -58,6 +68,11 @@ public sealed class MapViewport : Control, IDisposable
     private int maxVisibleLevel;
     private MapEditMode editMode = MapEditMode.Select;
     private int activeRoadIndex;
+    private int activeStationIndex;
+    private int activeTrainIndex;
+    private int activePlatformDirectionIndex = 2;
+    private int activePlatformLength = 4;
+    private PlatformStyle activePlatformStyle = PlatformStyle.ThinRoof;
     private string lastMessage = "Ready.";
     private Rect visibleContentBounds;
     private bool hasVisibleContentBounds;
@@ -72,20 +87,34 @@ public sealed class MapViewport : Control, IDisposable
             ?? throw new FileNotFoundException("Missing legacy cliff sprite sheet.", "Cliff.bmp");
         string railPath = assets.FindResource("RailRoads.bmp")
             ?? throw new FileNotFoundException("Missing legacy rail sprite sheet.", "RailRoads.bmp");
+        string thinPlatformPath = Path.Combine(assets.PluginDirectory, "system", "ThinPlatform.bmp");
+        if (!File.Exists(thinPlatformPath))
+        {
+            throw new FileNotFoundException("Missing legacy thin platform sprite sheet.", thinPlatformPath);
+        }
+
+        string fatPlatformPath = assets.FindResource("FatPlatform.bmp")
+            ?? throw new FileNotFoundException("Missing legacy fat platform sprite sheet.", "FatPlatform.bmp");
 
         groundTiles = new LegacySpriteSheet(groundPath, TileWidth, TileHeight);
         railBitmap = LegacyBitmap.LoadWithColorKey(railPath);
+        thinPlatformBitmap = LegacyBitmap.LoadWithColorKey(thinPlatformPath);
+        fatPlatformBitmap = LegacyBitmap.LoadWithColorKey(fatPlatformPath);
         terrainRenderer = new TerrainRenderer(palettePath, cliffPath);
         roadContributions = plugins.Roads.Where(road => road.IsLoadable).ToList().AsReadOnly();
         landContributions = plugins.Lands.Where(land => land.IsLoadable).ToList().AsReadOnly();
         spriteContributions = plugins.Sprites.Where(sprite => sprite.IsLoadable).ToList().AsReadOnly();
+        stationContributions = plugins.Stations.Where(station => station.IsLoadable).ToList().AsReadOnly();
+        trainContributions = plugins.Trains.Where(train => train.IsLoadable).ToList().AsReadOnly();
+        trainCarContributions = plugins.TrainCars
+            .Where(car => car.IsLoadable)
+            .GroupBy(car => car.Id, StringComparer.OrdinalIgnoreCase)
+            .ToDictionary(group => group.Key, group => group.First(), StringComparer.OrdinalIgnoreCase);
         railRoadCrossingPath = FindRailRoadCrossingPath(assets, plugins);
         activeRoadIndex = SelectInitialRoadIndex(roadContributions);
         world = ModernWorld.CreateSample(roadContributions);
         world.Changed += OnWorldChanged;
-        HashSet<(int H, int V)> occupied = CreateInitialOccupiedTiles();
-        AddSampleLandEntities(plugins, occupied);
-        AddSampleStructureEntities(plugins, occupied);
+        AddSampleRailService();
         maxVisibleLevel = world.MaxHeightCutLevel;
         Focusable = true;
         ClipToBounds = true;
@@ -186,6 +215,9 @@ public sealed class MapViewport : Control, IDisposable
     }
 
     public string ActiveRoadName => ActiveRoadContribution?.DisplayName ?? "No road plugins loaded";
+    public string ActiveStationName => ActiveStationContribution?.DisplayName ?? "No station plugins loaded";
+    public string ActiveTrainName => ActiveTrainContribution?.DisplayName ?? "No train plugins loaded";
+    public string ActivePlatformDescription => $"{ModernDirection.FromIndex(activePlatformDirectionIndex).EnglishName}, {activePlatformLength} tile(s), {FormatPlatformStyle(activePlatformStyle)}";
 
     public MapViewportStatus CurrentStatus => CreateStatus();
 
@@ -227,9 +259,17 @@ public sealed class MapViewport : Control, IDisposable
             .Where(sprite => !string.IsNullOrWhiteSpace(sprite.Id))
             .GroupBy(sprite => sprite.Id, StringComparer.OrdinalIgnoreCase)
             .ToDictionary(group => group.Key, group => group.First(), StringComparer.OrdinalIgnoreCase);
+        Dictionary<string, StationContribution> stationLookup = stationContributions
+            .Where(station => !string.IsNullOrWhiteSpace(station.Id))
+            .GroupBy(station => station.Id, StringComparer.OrdinalIgnoreCase)
+            .ToDictionary(group => group.Key, group => group.First(), StringComparer.OrdinalIgnoreCase);
+        Dictionary<string, TrainContribution> trainLookup = trainContributions
+            .Where(train => !string.IsNullOrWhiteSpace(train.Id))
+            .GroupBy(train => train.Id, StringComparer.OrdinalIgnoreCase)
+            .ToDictionary(group => group.Key, group => group.First(), StringComparer.OrdinalIgnoreCase);
 
         world.Changed -= OnWorldChanged;
-        world = ModernWorld.FromSnapshot(snapshot, roadLookup, landLookup, spriteLookup);
+        world = ModernWorld.FromSnapshot(snapshot, roadLookup, landLookup, spriteLookup, stationLookup, trainLookup);
         world.Changed += OnWorldChanged;
         selectedLocation = null;
         hoverLocation = null;
@@ -243,6 +283,12 @@ public sealed class MapViewport : Control, IDisposable
     private RoadContribution? ActiveRoadContribution => roadContributions.Count == 0
         ? null
         : roadContributions[Math.Clamp(activeRoadIndex, 0, roadContributions.Count - 1)];
+    private StationContribution? ActiveStationContribution => stationContributions.Count == 0
+        ? null
+        : stationContributions[Math.Clamp(activeStationIndex, 0, stationContributions.Count - 1)];
+    private TrainContribution? ActiveTrainContribution => trainContributions.Count == 0
+        ? null
+        : trainContributions[Math.Clamp(activeTrainIndex, 0, trainContributions.Count - 1)];
 
     private void OnWorldChanged(object? sender, ModernWorldChangedEventArgs e)
     {
@@ -276,7 +322,7 @@ public sealed class MapViewport : Control, IDisposable
             RenderRailRoadCrossings(context, behindRail: true, expandedVisibleMapRect);
             RenderRailObjects(context, expandedVisibleMapRect);
             RenderRailRoadCrossings(context, behindRail: false, expandedVisibleMapRect);
-            RenderMapObjects(context, expandedVisibleMapRect);
+            RenderWorldObjects(context, expandedVisibleMapRect);
             RenderMapMarkers(context);
 
             if (UseNightView)
@@ -356,9 +402,79 @@ public sealed class MapViewport : Control, IDisposable
         }
     }
 
-    private void RenderMapObjects(DrawingContext context, Rect visibleMapRect)
+    private void RenderWorldObjects(DrawingContext context, Rect visibleMapRect)
     {
-        foreach (ModernPlacedEntity mapObject in world.StructureEntities.OrderBy(obj => obj.H + obj.V).ThenBy(obj => obj.V))
+        List<RenderQueueItem> items = new();
+
+        foreach (ModernPlatform platform in world.Platforms)
+        {
+            IReadOnlyList<ModernVoxelKey> voxels = world.GetPlatformVoxels(platform);
+            for (int i = 0; i < voxels.Count; i++)
+            {
+                ModernVoxelKey voxel = voxels[i];
+                if (voxel.Z > MaxVisibleLevel || !IsTilePotentiallyVisible(voxel.H, voxel.V, voxel.Z, visibleMapRect, 64, 80, 64, 64))
+                {
+                    continue;
+                }
+
+                int index = i;
+                int layer = PlatformDrawsAfterTrain(platform) ? 40 : 0;
+                items.Add(new RenderQueueItem(voxel.H, voxel.V, voxel.Z, layer, drawContext =>
+                    DrawPlatformTile(drawContext, platform, index, FromHvzToScreen(voxel.H, voxel.V, voxel.Z))));
+            }
+        }
+
+        foreach ((ModernTrain Train, ModernTrainCarPlacement Car, int Index) train in world.Trains.SelectMany(train => train.Cars.Select((car, index) => (Train: train, Car: car, Index: index))))
+        {
+            ModernTrainCarPlacement car = train.Car;
+            ModernTrainCarRenderPose pose = world.GetTrainCarRenderPose(car);
+            if (car.Location.Z > MaxVisibleLevel
+                || !trainCarContributions.TryGetValue(car.CarContributionId, out TrainCarContribution? contribution)
+                || contribution.FrameForAngle(pose.Angle) is not { } frame
+                || !IsTilePotentiallyVisible(car.Location.H, car.Location.V, car.Location.Z, visibleMapRect, 64, 96, 64, 64))
+            {
+                continue;
+            }
+
+            items.Add(new RenderQueueItem(car.Location.H, car.Location.V, car.Location.Z, 20, drawContext =>
+            {
+                Point tilePoint = FromHvzToScreen(car.Location.H, car.Location.V, car.Location.Z);
+                DrawSpriteFrame(drawContext, frame, new Point(tilePoint.X + pose.OffsetX, tilePoint.Y + pose.OffsetY - 9));
+            }));
+        }
+
+        foreach (ModernStation station in world.Stations)
+        {
+            if (station.Z > MaxVisibleLevel || !IsTilePotentiallyVisible(station.H, station.V, station.Z, visibleMapRect, 260, 320, 260, 160))
+            {
+                continue;
+            }
+
+            if (station.Contribution.SpriteSet2D is { IsLoadable: true } spriteSet)
+            {
+                Point tilePoint = FromHvzToScreen(station.H, station.V, station.Z);
+                foreach (ModernSpriteVoxel2D voxel in spriteSet.InVoxelDrawOrder())
+                {
+                    ModernSpriteVoxel2D stationVoxel = voxel;
+                    int sortH = station.H + stationVoxel.X;
+                    int sortV = station.V + stationVoxel.Y;
+                    Point voxelPoint = new(
+                        tilePoint.X + (stationVoxel.X + stationVoxel.Y) * 16,
+                        tilePoint.Y + (-stationVoxel.X + stationVoxel.Y) * 8);
+                    items.Add(new RenderQueueItem(sortH, sortV, station.Z, 30, drawContext =>
+                        DrawSpriteFrame(drawContext, stationVoxel.Frame, voxelPoint)));
+                }
+            }
+            else if (station.Contribution.Frame is { } frame)
+            {
+                int sortH = station.H + station.FootprintH - 1;
+                int sortV = station.V + station.FootprintV - 1;
+                items.Add(new RenderQueueItem(sortH, sortV, station.Z, 30, drawContext =>
+                    DrawSpriteFrame(drawContext, frame, FromHvzToScreen(station.H, station.V, station.Z))));
+            }
+        }
+
+        foreach (ModernPlacedEntity mapObject in world.StructureEntities)
         {
             int z = world.GetTerrainTile(mapObject.H, mapObject.V).SurfaceLevel;
             if (z > MaxVisibleLevel || !IsTilePotentiallyVisible(mapObject.H, mapObject.V, z, visibleMapRect, 320, 560, 160, 120))
@@ -366,15 +482,29 @@ public sealed class MapViewport : Control, IDisposable
                 continue;
             }
 
-            Point tilePoint = FromHvzToScreen(mapObject.H, mapObject.V, z);
-            if (mapObject.StructureContribution?.SpriteSet3D is { IsLoadable: true } spriteSet)
+            int sortH = mapObject.H + Math.Max(1, mapObject.FootprintH) - 1;
+            int sortV = mapObject.V + Math.Max(1, mapObject.FootprintV) - 1;
+            items.Add(new RenderQueueItem(sortH, sortV, z, 30, drawContext =>
             {
-                DrawSpriteSet3D(context, spriteSet, tilePoint);
-            }
-            else if (mapObject.StructureFrame is { } frame)
-            {
-                DrawSpriteFrame(context, frame, tilePoint);
-            }
+                Point tilePoint = FromHvzToScreen(mapObject.H, mapObject.V, z);
+                if (mapObject.StructureContribution?.SpriteSet3D is { IsLoadable: true } spriteSet)
+                {
+                    DrawSpriteSet3D(drawContext, spriteSet, tilePoint);
+                }
+                else if (mapObject.StructureFrame is { } frame)
+                {
+                    DrawSpriteFrame(drawContext, frame, tilePoint);
+                }
+            }));
+        }
+
+        foreach (RenderQueueItem item in items
+            .OrderBy(item => item.H + item.V)
+            .ThenBy(item => item.V)
+            .ThenBy(item => item.Z)
+            .ThenBy(item => item.Layer))
+        {
+            item.Draw(context);
         }
     }
 
@@ -625,6 +755,73 @@ public sealed class MapViewport : Control, IDisposable
         PublishStatus();
     }
 
+    public void SelectNextStation()
+    {
+        if (stationContributions.Count == 0)
+        {
+            return;
+        }
+
+        activeStationIndex = (activeStationIndex + 1) % stationContributions.Count;
+        PublishStatus();
+    }
+
+    public void SelectPreviousStation()
+    {
+        if (stationContributions.Count == 0)
+        {
+            return;
+        }
+
+        activeStationIndex = (activeStationIndex + stationContributions.Count - 1) % stationContributions.Count;
+        PublishStatus();
+    }
+
+    public void SelectNextTrain()
+    {
+        if (trainContributions.Count == 0)
+        {
+            return;
+        }
+
+        activeTrainIndex = (activeTrainIndex + 1) % trainContributions.Count;
+        PublishStatus();
+    }
+
+    public void SelectPreviousTrain()
+    {
+        if (trainContributions.Count == 0)
+        {
+            return;
+        }
+
+        activeTrainIndex = (activeTrainIndex + trainContributions.Count - 1) % trainContributions.Count;
+        PublishStatus();
+    }
+
+    public void ChangePlatformLength(int delta)
+    {
+        activePlatformLength = Math.Clamp(activePlatformLength + delta, 1, 12);
+        PublishStatus();
+    }
+
+    public void RotatePlatformDirection()
+    {
+        activePlatformDirectionIndex = (activePlatformDirectionIndex + 2) % 8;
+        PublishStatus();
+    }
+
+    public void CyclePlatformStyle()
+    {
+        activePlatformStyle = activePlatformStyle switch
+        {
+            PlatformStyle.ThinNoRoof => PlatformStyle.ThinRoof,
+            PlatformStyle.ThinRoof => PlatformStyle.Fat,
+            _ => PlatformStyle.ThinNoRoof
+        };
+        PublishStatus();
+    }
+
     public void AdvanceClock(long minutes)
     {
         world.AdvanceClock(minutes);
@@ -682,6 +879,43 @@ public sealed class MapViewport : Control, IDisposable
                 basePoint.Y + (-voxel.X + voxel.Y) * 8 - voxel.Z * 16);
             DrawSpriteFrame(context, voxel.Frame, voxelPoint);
         }
+    }
+
+    private void DrawSpriteSet2D(DrawingContext context, ModernSpriteSet2D spriteSet, Point basePoint)
+    {
+        foreach (ModernSpriteVoxel2D voxel in spriteSet.InVoxelDrawOrder())
+        {
+            Point voxelPoint = new(
+                basePoint.X + (voxel.X + voxel.Y) * 16,
+                basePoint.Y + (-voxel.X + voxel.Y) * 8);
+            DrawSpriteFrame(context, voxel.Frame, voxelPoint);
+        }
+    }
+
+    private void DrawPlatformTile(DrawingContext context, ModernPlatform platform, int index, Point tilePoint)
+    {
+        if (platform.Style == PlatformStyle.Fat)
+        {
+            int sourceColumn = platform.Direction.IsParallelToY ? 0 : 1;
+            Rect source = new(sourceColumn * 32, 0, 32, 32);
+            Rect target = new(new Point(tilePoint.X, tilePoint.Y - 16), source.Size);
+            context.DrawImage(fatPlatformBitmap, source, target);
+            return;
+        }
+
+        bool hasRoof = platform.Style == PlatformStyle.ThinRoof
+            && platform.Length / 4 <= index
+            && index < platform.Length - platform.Length / 4;
+        int thinSourceColumn = platform.Direction.Index + (hasRoof ? 1 : 0);
+        Rect thinSource = new(thinSourceColumn * 32, 0, 32, 24);
+        Rect thinTarget = new(new Point(tilePoint.X, tilePoint.Y - 8), thinSource.Size);
+        context.DrawImage(thinPlatformBitmap, thinSource, thinTarget);
+    }
+
+    private static bool PlatformDrawsAfterTrain(ModernPlatform platform)
+    {
+        return platform.Style != PlatformStyle.Fat
+            && (platform.Direction == ModernDirection.West || platform.Direction == ModernDirection.North);
     }
 
     private void DrawForest(DrawingContext context, ForestSpriteSet forest, int h, int v, Point tilePoint)
@@ -765,6 +999,42 @@ public sealed class MapViewport : Control, IDisposable
                 }
             }
         }
+    }
+
+    private void AddSampleRailService()
+    {
+        StationContribution? station = stationContributions
+            .OrderBy(candidate => Math.Max(1, candidate.SizeH) * Math.Max(1, candidate.SizeV))
+            .ThenBy(candidate => candidate.DisplayName, StringComparer.OrdinalIgnoreCase)
+            .FirstOrDefault();
+        if (station is not null)
+        {
+            TryAddSampleStation(station, 12, 13, "Loop North");
+            TryAddSampleStation(station, 21, 22, "Loop South");
+        }
+
+        TryAddSamplePlatform("north", 12, 11, ModernDirection.East, 5, PlatformStyle.ThinRoof);
+        TryAddSamplePlatform("south", 21, 20, ModernDirection.West, 5, PlatformStyle.ThinRoof);
+
+        TrainContribution? train = trainContributions.FirstOrDefault(candidate => candidate.CreateCarIds(3).All(trainCarContributions.ContainsKey));
+        if (train is not null)
+        {
+            string trainId = "train:sample";
+            world.AddTrain(new ModernTrain(trainId, train, Array.Empty<ModernTrainCarPlacement>(), 0));
+            world.PlaceTrain(trainId, new ModernVoxelKey(14, 7, world.GetGroundLevel(14, 7)), ModernDirection.East, trainCarContributions);
+        }
+    }
+
+    private void TryAddSampleStation(StationContribution station, int h, int v, string name)
+    {
+        int z = world.GetGroundLevel(h, v);
+        world.AddStation(new ModernStation($"station:sample:{h}:{v}", h, v, z, station) { Name = name });
+    }
+
+    private void TryAddSamplePlatform(string id, int h, int v, ModernDirection direction, int length, PlatformStyle style)
+    {
+        int z = world.GetGroundLevel(h, v);
+        world.AddPlatform(new ModernPlatform($"platform:sample:{id}", h, v, z, direction.Index, length, style, null));
     }
 
     private void AddSampleLandEntities(PluginManifestCatalog plugins, HashSet<(int H, int V)> occupied)
@@ -1407,14 +1677,20 @@ public sealed class MapViewport : Control, IDisposable
             buildAnchorLocation,
             EditMode,
             ActiveRoadName,
+            ActiveStationName,
+            ActivePlatformDescription,
+            ActiveTrainName,
             world.Clock,
             world.Account.Cash,
             world.Account.TotalDebt,
-            world.Entities.Count,
+            world.Entities.Count + world.Stations.Count + world.Platforms.Count + world.Trains.Count,
             world.TrafficVoxels.Count,
             world.Transport.RailTiles.Count,
             world.Transport.RoadTiles.Count,
             world.Cars.Count,
+            world.Stations.Count,
+            world.Platforms.Count,
+            world.Trains.Count,
             Zoom,
             MaxVisibleLevel,
             world.MaxHeightCutLevel,
@@ -1437,8 +1713,11 @@ public sealed class MapViewport : Control, IDisposable
             MapEditMode.Rail => "Rail: click a straight or diagonal destination to place track.",
             MapEditMode.Road when buildAnchorLocation is null => "Road: click a buildable tile to set the start point.",
             MapEditMode.Road => "Road: click a north/south/east/west destination to place road.",
+            MapEditMode.Station => $"Station building: click flat dry land to build {ActiveStationName}.",
+            MapEditMode.Platform => $"Platform: click rail to build {ActivePlatformDescription}.",
+            MapEditMode.Train => $"Train: click rail to place {ActiveTrainName}.",
             MapEditMode.Terrain => "Terrain: select a tile corner, then raise or lower it.",
-            MapEditMode.Erase => "Erase: click or right-click transport on the map.",
+            MapEditMode.Erase => "Erase: click or right-click stations, platforms, rail, or road.",
             _ => "Select: click a tile to inspect it. Ctrl-scroll zooms the map."
         };
     }
@@ -1459,6 +1738,40 @@ public sealed class MapViewport : Control, IDisposable
                 buildAnchorLocation = null;
             }
 
+            return;
+        }
+
+        if (EditMode == MapEditMode.Station && ActiveStationContribution is { } station)
+        {
+            world.AddStation(new ModernStation(
+                $"station:{location.H}:{location.V}:{station.Id}",
+                location.H,
+                location.V,
+                location.Z,
+                station));
+            return;
+        }
+
+        if (EditMode == MapEditMode.Platform)
+        {
+            ModernPlatform platform = new(
+                $"platform:{location.H}:{location.V}:{activePlatformDirectionIndex}:{activePlatformLength}:{activePlatformStyle}",
+                location.H,
+                location.V,
+                location.Z,
+                activePlatformDirectionIndex,
+                activePlatformLength,
+                activePlatformStyle,
+                null);
+            world.AddPlatform(platform);
+            return;
+        }
+
+        if (EditMode == MapEditMode.Train && ActiveTrainContribution is { } train)
+        {
+            string trainId = $"train:{location.H}:{location.V}:{train.Id}";
+            world.AddTrain(new ModernTrain(trainId, train, Array.Empty<ModernTrainCarPlacement>(), 0));
+            world.PlaceTrain(trainId, new ModernVoxelKey(location.H, location.V, location.Z), ModernDirection.FromIndex(activePlatformDirectionIndex), trainCarContributions);
             return;
         }
 
@@ -1560,6 +1873,17 @@ public sealed class MapViewport : Control, IDisposable
         return File.Exists(fallback) ? fallback : null;
     }
 
+    private static string FormatPlatformStyle(PlatformStyle style)
+    {
+        return style switch
+        {
+            PlatformStyle.ThinNoRoof => "thin/no roof",
+            PlatformStyle.ThinRoof => "thin/roof",
+            PlatformStyle.Fat => "wide",
+            _ => style.ToString()
+        };
+    }
+
     private bool ToolUsesAnchor => EditMode is MapEditMode.Rail or MapEditMode.Road;
 
     public void Dispose()
@@ -1567,6 +1891,8 @@ public sealed class MapViewport : Control, IDisposable
         groundTiles.Dispose();
         terrainRenderer.Dispose();
         railBitmap.Dispose();
+        thinPlatformBitmap.Dispose();
+        fatPlatformBitmap.Dispose();
         foreach (Bitmap bitmap in pluginBitmaps.Values)
         {
             bitmap.Dispose();

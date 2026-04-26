@@ -76,6 +76,13 @@ public sealed class ModernWorld
     private readonly Dictionary<ModernVoxelKey, string> trafficCars = new();
     private readonly Dictionary<string, ModernPlacedEntity> entities = new(StringComparer.OrdinalIgnoreCase);
     private readonly Dictionary<ModernVoxelKey, string> entityVoxels = new();
+    private readonly Dictionary<string, ModernStation> stations = new(StringComparer.OrdinalIgnoreCase);
+    private readonly Dictionary<ModernVoxelKey, string> stationVoxels = new();
+    private readonly Dictionary<string, ModernPlatform> platforms = new(StringComparer.OrdinalIgnoreCase);
+    private readonly Dictionary<ModernVoxelKey, string> platformVoxels = new();
+    private readonly Dictionary<string, ModernTrain> trains = new(StringComparer.OrdinalIgnoreCase);
+
+    private readonly record struct PlatformStop(ModernPlatform Platform, int Index);
 
     private ModernWorld(
         string name,
@@ -113,6 +120,9 @@ public sealed class ModernWorld
     public ModernAccountState Account { get; private set; }
     public IReadOnlyCollection<ModernTrafficVoxel> TrafficVoxels => trafficVoxels.Values;
     public IReadOnlyCollection<ModernCar> Cars => cars.Values;
+    public IReadOnlyCollection<ModernStation> Stations => stations.Values;
+    public IReadOnlyCollection<ModernPlatform> Platforms => platforms.Values;
+    public IReadOnlyCollection<ModernTrain> Trains => trains.Values;
     public IReadOnlyCollection<ModernPlacedEntity> Entities => entities.Values;
     public IEnumerable<KeyValuePair<ModernVoxelKey, ModernVoxelOccupancy>> OccupiedVoxels => voxels.Entries;
     public IEnumerable<ModernPlacedEntity> LandEntities => entities.Values.Where(entity => entity.Kind == ModernEntityKind.Land);
@@ -268,6 +278,129 @@ public sealed class ModernWorld
         return true;
     }
 
+    public bool CanPlaceStation(ModernStation station)
+    {
+        foreach (ModernVoxelKey voxel in station.OccupiedVoxels)
+        {
+            TerrainTilePreview terrain = GetTerrainTile(voxel.H, voxel.V);
+            if (!IsInside(voxel)
+                || !IsReusable(voxel)
+                || Transport.HasRail(voxel.H, voxel.V)
+                || Transport.HasRoad(voxel.H, voxel.V)
+                || stationVoxels.ContainsKey(voxel)
+                || platformVoxels.ContainsKey(voxel)
+                || !terrain.IsFlat
+                || terrain.SurfaceLevel != station.Z
+                || terrain.SurfaceLevel < WaterLevel)
+            {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    public bool AddStation(ModernStation station)
+    {
+        if (stations.ContainsKey(station.StationId) || !CanPlaceStation(station))
+        {
+            return false;
+        }
+
+        stations[station.StationId] = station;
+        foreach (ModernVoxelKey voxel in station.OccupiedVoxels)
+        {
+            RemoveReusableEntityAt(voxel);
+            stationVoxels[voxel] = station.StationId;
+            voxels[voxel] = new ModernVoxelOccupancy(voxel, ModernVoxelKind.Structure, station.StationId, null);
+        }
+
+        Publish(ModernWorldChangeKind.Entity, new ModernVoxelKey(station.H, station.V, station.Z), "Station built.");
+        return true;
+    }
+
+    public bool CanPlacePlatform(ModernPlatform platform)
+    {
+        if (!platform.Direction.IsSharp)
+        {
+            return false;
+        }
+
+        foreach (ModernVoxelKey voxel in EnumeratePlatformVoxels(platform))
+        {
+            if (!IsInside(voxel)
+                || platformVoxels.ContainsKey(voxel)
+                || stationVoxels.ContainsKey(voxel)
+                || !Transport.HasRail(voxel.H, voxel.V)
+                || GetGroundLevel(voxel.H, voxel.V) != platform.Z
+                || !IsStraightRailAlong(voxel.H, voxel.V, platform.Direction))
+            {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    public bool AddPlatform(ModernPlatform platform)
+    {
+        if (platforms.ContainsKey(platform.PlatformId) || !CanPlacePlatform(platform))
+        {
+            return false;
+        }
+
+        ModernPlatform attached = platform with { StationId = platform.StationId ?? FindNearestStationId(platform) };
+        platforms[attached.PlatformId] = attached;
+        foreach (ModernVoxelKey voxel in EnumeratePlatformVoxels(attached))
+        {
+            platformVoxels[voxel] = attached.PlatformId;
+        }
+
+        Publish(ModernWorldChangeKind.Entity, new ModernVoxelKey(attached.H, attached.V, attached.Z), "Platform built.");
+        return true;
+    }
+
+    public bool RemoveRailServiceAt(TileLocation location)
+    {
+        ModernVoxelKey key = ToVoxelKey(location);
+        if (platformVoxels.TryGetValue(key, out string? platformId))
+        {
+            ModernPlatform platform = platforms[platformId];
+            platforms.Remove(platformId);
+            foreach (ModernVoxelKey voxel in EnumeratePlatformVoxels(platform))
+            {
+                platformVoxels.Remove(voxel);
+            }
+
+            Publish(ModernWorldChangeKind.Entity, key, "Platform removed.");
+            return true;
+        }
+
+        if (stationVoxels.TryGetValue(key, out string? stationId))
+        {
+            ModernStation station = stations[stationId];
+            stations.Remove(stationId);
+            foreach (ModernVoxelKey voxel in station.OccupiedVoxels)
+            {
+                stationVoxels.Remove(voxel);
+                if (voxels[voxel]?.EntityId == station.StationId)
+                {
+                    voxels.Remove(voxel);
+                }
+            }
+
+            foreach (ModernPlatform platform in platforms.Values.Where(platform => platform.StationId == stationId).ToArray())
+            {
+                platforms[platform.PlatformId] = platform with { StationId = null };
+            }
+
+            Publish(ModernWorldChangeKind.Entity, key, "Station removed.");
+            return true;
+        }
+
+        return false;
+    }
+
     public bool AddEntity(ModernPlacedEntity entity)
     {
         if (entities.ContainsKey(entity.EntityId) || !CanPlaceEntity(entity))
@@ -325,9 +458,17 @@ public sealed class ModernWorld
             return;
         }
 
+        long previousDay = Clock.AbsoluteMinute / (24 * 60);
         ModernDayNight previousDayNight = Clock.DayOrNight;
         ModernSeason previousSeason = Clock.Season;
         Clock = Clock.AdvanceMinutes(minutes);
+        long currentDay = Clock.AbsoluteMinute / (24 * 60);
+        if (currentDay > previousDay)
+        {
+            ChargeDailyRailServiceCosts(currentDay - previousDay);
+        }
+
+        AdvanceTrains(minutes);
         Publish(ModernWorldChangeKind.Clock, null, "Clock advanced.");
 
         if (Clock.DayOrNight != previousDayNight || Clock.Season != previousSeason)
@@ -369,6 +510,80 @@ public sealed class ModernWorld
 
         cars[car.CarId] = car;
         Publish(ModernWorldChangeKind.Entity, car.State.Location, "Car added.");
+        return true;
+    }
+
+    public bool AddTrain(ModernTrain train)
+    {
+        if (trains.ContainsKey(train.TrainId))
+        {
+            return false;
+        }
+
+        trains[train.TrainId] = train;
+        Publish(ModernWorldChangeKind.Entity, train.Head?.Location, "Train added.");
+        return true;
+    }
+
+    public bool PlaceTrain(string trainId, ModernVoxelKey location, ModernDirection direction, IReadOnlyDictionary<string, TrainCarContribution> trainCars)
+    {
+        if (!trains.TryGetValue(trainId, out ModernTrain? train) || !Transport.HasRail(location.H, location.V))
+        {
+            return false;
+        }
+
+        IReadOnlyList<string> carIds = train.Contribution.CreateCarIds(3);
+        ModernVoxelKey[] locations = new ModernVoxelKey[carIds.Count];
+        ModernDirection[] directions = new ModernDirection[carIds.Count];
+        ModernVoxelKey current = location;
+        ModernDirection? currentDirection = null;
+
+        for (int index = carIds.Count - 1; index >= 0; index--)
+        {
+            ModernRailRoad? railRoad = CreateRailRoad(current.H, current.V);
+            if (!trainCars.ContainsKey(carIds[index])
+                || railRoad is null
+                || IsTrainOccupying(current))
+            {
+                return false;
+            }
+
+            currentDirection ??= railRoad.Dir1;
+            locations[index] = current;
+            directions[index] = currentDirection;
+            currentDirection = railRoad.Guide(currentDirection);
+
+            if (index > 0 && !TryStepOnRail(current, currentDirection, out current))
+            {
+                return false;
+            }
+        }
+
+        for (int i = 0; i < locations.Length - 1; i++)
+        {
+            for (int j = i + 1; j < locations.Length; j++)
+            {
+                if (locations[i] == locations[j])
+                {
+                    return false;
+                }
+            }
+        }
+
+        ModernTrainCarPlacement[] placements = carIds
+            .Select((carId, index) => new ModernTrainCarPlacement(carId, locations[index], directions[index].Index))
+            .ToArray();
+
+        trains[trainId] = train with
+        {
+            Cars = placements,
+            MinuteAccumulator = 0,
+            State = ModernTrainState.Moving,
+            StopRemainingMinutes = 0,
+            CurrentStopPlatformId = null,
+            LastStoppedPlatformId = null
+        };
+        Publish(ModernWorldChangeKind.Entity, location, "Train placed.");
         return true;
     }
 
@@ -486,6 +701,11 @@ public sealed class ModernWorld
 
     public bool RemoveTransportAt(TileLocation location)
     {
+        if (RemoveRailServiceAt(location))
+        {
+            return true;
+        }
+
         bool changed = Transport.RemoveAt(location.H, location.V);
         if (changed)
         {
@@ -525,12 +745,38 @@ public sealed class ModernWorld
 
     public IReadOnlyList<MapRailObject> CreateRailObjects()
     {
-        return Transport.CreateRailObjects();
+        return Transport.RailTiles
+            .Select(tile => CreateRailObject(tile.H, tile.V))
+            .Where(rail => rail is not null)
+            .Cast<MapRailObject>()
+            .ToArray();
     }
 
     public IReadOnlyList<ModernRailRoad> CreateRailRoads()
     {
-        return Transport.CreateRailRoads(GetGroundLevel);
+        return Transport.RailTiles
+            .Select(tile => CreateRailRoad(tile.H, tile.V))
+            .Where(rail => rail is not null)
+            .Cast<ModernRailRoad>()
+            .ToArray();
+    }
+
+    private MapRailObject? CreateRailObject(int h, int v)
+    {
+        byte mask = GetLegacyRailMask(h, v);
+        return ModernRailPattern.FromDirectionMask(mask) is { } pattern
+            ? new MapRailObject(h, v, pattern)
+            : null;
+    }
+
+    private ModernRailRoad? CreateRailRoad(int h, int v)
+    {
+        byte mask = GetLegacyRailMask(h, v);
+        RailPatternDefinition? pattern = ModernRailPattern.FromDirectionMask(mask);
+        ModernRailRoadKind kind = ModernRailPattern.KindFromDirectionMask(mask);
+        return kind == ModernRailRoadKind.Unsupported
+            ? null
+            : new ModernRailRoad(new ModernVoxelKey(h, v, GetGroundLevel(h, v)), mask, kind, pattern);
     }
 
     public IReadOnlyList<MapRoadObject> CreateRoadObjects()
@@ -541,6 +787,39 @@ public sealed class ModernWorld
     public IReadOnlyList<ModernRoadSegment> CreateRoadSegments()
     {
         return Transport.CreateRoadSegments(GetGroundLevel);
+    }
+
+    public IReadOnlyList<ModernVoxelKey> GetPlatformVoxels(ModernPlatform platform)
+    {
+        return EnumeratePlatformVoxels(platform).ToArray();
+    }
+
+    public ModernTrainCarRenderPose GetTrainCarRenderPose(ModernTrainCarPlacement car)
+    {
+        ModernRailRoad? railRoad = CreateRailRoad(car.Location.H, car.Location.V);
+        if (railRoad is null)
+        {
+            return new ModernTrainCarRenderPose((car.DirectionIndex * 2) & 15, 0, 0);
+        }
+
+        int d1 = car.DirectionIndex;
+        int d2 = railRoad.Guide(car.Direction).Index;
+        if (d1 == d2)
+        {
+            return new ModernTrainCarRenderPose((d1 * 2) & 15, 0, 0);
+        }
+
+        int diff = (d2 - d1) & 7;
+        if (diff == 7)
+        {
+            diff = -1;
+        }
+
+        int dd = (d2 * 2 + diff * 3) & 15;
+        int offsetX = 2 < dd && dd < 10 ? 3 : -3;
+        int offsetY = 6 < dd && dd <= 14 ? 2 : -2;
+        int angle = (d1 * 2 + diff) & 15;
+        return new ModernTrainCarRenderPose(angle, offsetX, offsetY);
     }
 
     public ModernWorldSnapshot ToSnapshot()
@@ -592,6 +871,47 @@ public sealed class ModernWorld
                 car.State.DirectionIndex))
             .ToArray();
 
+        ModernStationSnapshot[] stationSnapshots = stations.Values
+            .Select(station => new ModernStationSnapshot(
+                station.StationId,
+                station.H,
+                station.V,
+                station.Z,
+                station.Contribution.Id,
+                station.Name))
+            .ToArray();
+
+        ModernPlatformSnapshot[] platformSnapshots = platforms.Values
+            .Select(platform => new ModernPlatformSnapshot(
+                platform.PlatformId,
+                platform.H,
+                platform.V,
+                platform.Z,
+                platform.DirectionIndex,
+                platform.Length,
+                platform.Style,
+                platform.StationId))
+            .ToArray();
+
+        ModernTrainSnapshot[] trainSnapshots = trains.Values
+            .Select(train => new ModernTrainSnapshot(
+                train.TrainId,
+                train.Contribution.Id,
+                train.Cars.Select(car => new ModernTrainCarPlacementSnapshot(
+                    car.CarContributionId,
+                    car.Location.H,
+                    car.Location.V,
+                    car.Location.Z,
+                    car.DirectionIndex)).ToArray(),
+                train.MinuteAccumulator,
+                train.State,
+                train.StopRemainingMinutes,
+                train.MoveCount,
+                train.PassengerCount,
+                train.CurrentStopPlatformId,
+                train.LastStoppedPlatformId))
+            .ToArray();
+
         return new ModernWorldSnapshot(
             Name,
             Width,
@@ -605,14 +925,19 @@ public sealed class ModernWorld
             rails,
             roads,
             carSnapshots,
-            entitySnapshots);
+            entitySnapshots,
+            stationSnapshots,
+            platformSnapshots,
+            trainSnapshots);
     }
 
     public static ModernWorld FromSnapshot(
         ModernWorldSnapshot snapshot,
         IReadOnlyDictionary<string, RoadContribution> roadContributions,
         IReadOnlyDictionary<string, LandContribution> landContributions,
-        IReadOnlyDictionary<string, SpriteContribution> spriteContributions)
+        IReadOnlyDictionary<string, SpriteContribution> spriteContributions,
+        IReadOnlyDictionary<string, StationContribution> stationContributions,
+        IReadOnlyDictionary<string, TrainContribution> trainContributions)
     {
         int[,] fineHeights = new int[snapshot.FineHeightWidth, snapshot.FineHeightHeight];
         for (int y = 0; y < snapshot.FineHeightHeight; y++)
@@ -677,39 +1002,120 @@ public sealed class ModernWorld
             }
         }
 
+        foreach (ModernStationSnapshot stationSnapshot in snapshot.Stations ?? Array.Empty<ModernStationSnapshot>())
+        {
+            if (stationContributions.TryGetValue(stationSnapshot.ContributionId, out StationContribution? contribution))
+            {
+                world.AddStation(new ModernStation(
+                    stationSnapshot.StationId,
+                    stationSnapshot.H,
+                    stationSnapshot.V,
+                    stationSnapshot.Z,
+                    contribution)
+                {
+                    Name = stationSnapshot.Name
+                });
+            }
+        }
+
+        foreach (ModernPlatformSnapshot platformSnapshot in snapshot.Platforms ?? Array.Empty<ModernPlatformSnapshot>())
+        {
+            world.AddPlatform(new ModernPlatform(
+                platformSnapshot.PlatformId,
+                platformSnapshot.H,
+                platformSnapshot.V,
+                platformSnapshot.Z,
+                platformSnapshot.DirectionIndex,
+                platformSnapshot.Length,
+                platformSnapshot.Style,
+                platformSnapshot.StationId));
+        }
+
+        foreach (ModernTrainSnapshot trainSnapshot in snapshot.Trains ?? Array.Empty<ModernTrainSnapshot>())
+        {
+            if (trainContributions.TryGetValue(trainSnapshot.ContributionId, out TrainContribution? contribution))
+            {
+                ModernTrainCarPlacement[] placements = trainSnapshot.Cars
+                    .Select(car => new ModernTrainCarPlacement(
+                        car.CarContributionId,
+                        new ModernVoxelKey(car.H, car.V, car.Z),
+                        car.DirectionIndex))
+                    .ToArray();
+                world.AddTrain(new ModernTrain(
+                    trainSnapshot.TrainId,
+                    contribution,
+                    placements,
+                    trainSnapshot.MinuteAccumulator,
+                    trainSnapshot.State,
+                    trainSnapshot.StopRemainingMinutes,
+                    trainSnapshot.MoveCount,
+                    trainSnapshot.PassengerCount,
+                    trainSnapshot.CurrentStopPlatformId,
+                    trainSnapshot.LastStoppedPlatformId));
+            }
+        }
+
         world.RebuildTrafficVoxels();
         world.Publish(ModernWorldChangeKind.Reset, null, "World loaded from snapshot.");
         return world;
     }
 
-    public static ModernWorld CreateSample(IReadOnlyList<RoadContribution> roads, int width = 34, int height = 34, int waterLevel = 2)
+    public static ModernWorld CreateSample(IReadOnlyList<RoadContribution> roads, int width = 34, int height = 34, int waterLevel = 0)
     {
         ModernWorld world = new(
-            "Sample modern world",
+            "Flat rail loop test world",
             width,
             height,
             waterLevel,
-            BuildRepresentableFineHeights(width, height, waterLevel),
+            BuildFlatFineHeights(width, height),
             ModernWorldClock.Default,
             ModernAccountState.Default);
 
-        world.Transport.AddRailLine((5, 10), (17, 10));
-        world.Transport.AddRailLine((17, 10), (25, 18));
-        world.Transport.AddRailLine((25, 18), (17, 26));
-        world.Transport.AddRailLine((17, 26), (5, 26));
-        world.Transport.AddRailLine((5, 26), (5, 10));
-
-        RoadContribution? road = SelectInitialRoad(roads);
-        if (road is not null)
-        {
-            world.Transport.AddRoadLine((8, 15), (22, 15), road);
-            world.Transport.AddRoadLine((15, 9), (15, 23), road);
-            world.Transport.AddRoadLine((22, 15), (22, 22), road);
-            world.Transport.AddRoadLine((22, 22), (27, 22), road);
-        }
+        world.AddFlatRailLoop();
 
         world.RebuildTrafficVoxels();
         return world;
+    }
+
+    private void AddFlatRailLoop()
+    {
+        ModernLocation[] loop =
+        {
+            new(20, 18, 0),
+            new(30, 18, 0),
+            new(34, 22, 0),
+            new(34, 27, 0),
+            new(30, 31, 0),
+            new(20, 31, 0),
+            new(16, 27, 0),
+            new(16, 22, 0)
+        };
+
+        for (int i = 0; i < loop.Length; i++)
+        {
+            AddRailLocationLine(loop[i], loop[(i + 1) % loop.Length]);
+        }
+    }
+
+    private void AddRailLocationLine(ModernLocation from, ModernLocation to)
+    {
+        ModernLocation current = from;
+        AddRailAtLocation(current);
+        int guard = 0;
+        while (current != to && guard++ < 512)
+        {
+            current = current.Toward(to);
+            AddRailAtLocation(current);
+        }
+    }
+
+    private void AddRailAtLocation(ModernLocation location)
+    {
+        (int h, int v) = ToHv(location);
+        if (IsInside(h, v))
+        {
+            Transport.AddRailTile(h, v);
+        }
     }
 
     private static ModernPlacedEntity? RestoreLandEntity(
@@ -741,6 +1147,296 @@ public sealed class ModernWorld
 
         SpriteFrame? frame = contribution.Frames.FirstOrDefault(candidate => candidate.IsLoadable);
         return frame is null ? null : ModernPlacedEntity.Structure(snapshot.H, snapshot.V, snapshot.Z, contribution, frame);
+    }
+
+    private string? FindNearestStationId(ModernPlatform platform)
+    {
+        ModernVoxelKey[] platformVoxels = EnumeratePlatformVoxels(platform).ToArray();
+        return stations.Values
+            .Select(station => new
+            {
+                Station = station,
+                Distance = station.OccupiedVoxels
+                    .SelectMany(stationVoxel => platformVoxels.Select(platformVoxel =>
+                        Math.Abs(stationVoxel.H - platformVoxel.H) + Math.Abs(stationVoxel.V - platformVoxel.V) + Math.Abs(stationVoxel.Z - platformVoxel.Z)))
+                    .DefaultIfEmpty(int.MaxValue)
+                    .Min()
+            })
+            .Where(candidate => candidate.Distance <= 3)
+            .OrderBy(candidate => candidate.Distance)
+            .Select(candidate => candidate.Station.StationId)
+            .FirstOrDefault();
+    }
+
+    private IEnumerable<ModernVoxelKey> EnumeratePlatformVoxels(ModernPlatform platform)
+    {
+        ModernLocation current = ToLocation(new ModernVoxelKey(platform.H, platform.V, platform.Z));
+        for (int i = 0; i < Math.Max(1, platform.Length); i++)
+        {
+            (int h, int v) = ToHv(current);
+            yield return new ModernVoxelKey(h, v, current.Z);
+            current += platform.Direction;
+        }
+    }
+
+    private bool IsStraightRailAlong(int h, int v, ModernDirection direction)
+    {
+        ModernRailRoad? railRoad = CreateRailRoad(h, v);
+        return railRoad is not null
+            && railRoad.Kind == ModernRailRoadKind.Single
+            && railRoad.HasRail(direction)
+            && railRoad.HasRail(direction.Opposite);
+    }
+
+    private void AdvanceTrains(long minutes)
+    {
+        if (minutes <= 0 || trains.Count == 0)
+        {
+            return;
+        }
+
+        foreach (ModernTrain train in trains.Values.ToArray())
+        {
+            if (!train.IsPlaced)
+            {
+                continue;
+            }
+
+            long accumulator = train.MinuteAccumulator + minutes;
+            ModernTrain current = train;
+            int guard = 0;
+            while (accumulator > 0 && guard++ < 256)
+            {
+                if (current.State == ModernTrainState.StoppingAtStation)
+                {
+                    long consumed = Math.Min(accumulator, Math.Max(1, current.StopRemainingMinutes));
+                    accumulator -= consumed;
+                    current = current with { StopRemainingMinutes = Math.Max(0, current.StopRemainingMinutes - consumed) };
+                    if (current.StopRemainingMinutes > 0)
+                    {
+                        break;
+                    }
+
+                    current = LoadPassengersAndResume(current);
+                    continue;
+                }
+
+                int stepMinutes = Math.Max(1, current.Contribution.MinutesPerVoxel);
+                if (accumulator < stepMinutes)
+                {
+                    break;
+                }
+
+                ModernTrain? stopping = TryBeginStationStop(current);
+                if (stopping is not null)
+                {
+                    current = stopping;
+                    continue;
+                }
+
+                accumulator -= stepMinutes;
+                current = MoveTrainOneTile(current);
+            }
+
+            trains[current.TrainId] = current with { MinuteAccumulator = accumulator };
+        }
+    }
+
+    private ModernTrain MoveTrainOneTile(ModernTrain train)
+    {
+        if (train.Head is not { } head)
+        {
+            return train;
+        }
+
+        ModernRailRoad? railRoad = CreateRailRoad(head.Location.H, head.Location.V);
+        if (railRoad is null)
+        {
+            return train with { State = ModernTrainState.EmergencyStopping };
+        }
+
+        ModernDirection direction = railRoad.Guide(head.Direction);
+        if (!TryStepOnRail(head.Location, direction, out ModernVoxelKey next))
+        {
+            return ReverseTrain(train) with { State = ModernTrainState.EmergencyStopping };
+        }
+
+        List<ModernTrainCarPlacement> moved = new()
+        {
+            new ModernTrainCarPlacement(head.CarContributionId, next, direction.Index)
+        };
+
+        for (int i = 1; i < train.Cars.Count; i++)
+        {
+            ModernTrainCarPlacement previous = train.Cars[i - 1];
+            moved.Add(new ModernTrainCarPlacement(
+                train.Cars[i].CarContributionId,
+                previous.Location,
+                previous.DirectionIndex));
+        }
+
+        int moveCount = train.MoveCount + 1;
+        if ((train.MoveCount & 3) == 0)
+        {
+            Spend((train.Length * 20L + train.PassengerCount / 20L) * 2_000L, ModernAccountGenre.Railway, "Train running cost.");
+        }
+
+        string? lastStoppedPlatformId = GetPlatformIdAt(next) == train.LastStoppedPlatformId
+            ? train.LastStoppedPlatformId
+            : null;
+
+        return train with
+        {
+            Cars = moved,
+            State = ModernTrainState.Moving,
+            MoveCount = moveCount,
+            LastStoppedPlatformId = lastStoppedPlatformId
+        };
+    }
+
+    private ModernTrain ReverseTrain(ModernTrain train)
+    {
+        ModernTrainCarPlacement[] reversed = train.Cars
+            .Reverse()
+            .Select(car => car with { DirectionIndex = car.Direction.Opposite.Index })
+            .ToArray();
+        return train with { Cars = reversed };
+    }
+
+    private ModernTrain? TryBeginStationStop(ModernTrain train)
+    {
+        if (train.Head is not { } head)
+        {
+            return null;
+        }
+
+        PlatformStop? stop = FindPlatformStop(train, head);
+        if (stop is null || stop.Value.Platform.StationId is null || stop.Value.Platform.PlatformId == train.LastStoppedPlatformId)
+        {
+            return null;
+        }
+
+        return train with
+        {
+            State = ModernTrainState.StoppingAtStation,
+            StopRemainingMinutes = 30,
+            CurrentStopPlatformId = stop.Value.Platform.PlatformId,
+            LastStoppedPlatformId = stop.Value.Platform.PlatformId,
+            PassengerCount = 0
+        };
+    }
+
+    private ModernTrain LoadPassengersAndResume(ModernTrain train)
+    {
+        int capacity = train.Length * 100;
+        return train with
+        {
+            State = ModernTrainState.Moving,
+            StopRemainingMinutes = 0,
+            PassengerCount = Math.Min(100, Math.Max(0, capacity)),
+            CurrentStopPlatformId = null
+        };
+    }
+
+    private PlatformStop? FindPlatformStop(ModernTrain train, ModernTrainCarPlacement head)
+    {
+        if (!platformVoxels.TryGetValue(head.Location, out string? platformId)
+            || !platforms.TryGetValue(platformId, out ModernPlatform? platform)
+            || platform.StationId is null)
+        {
+            return null;
+        }
+
+        ModernVoxelKey[] platformVoxelsForPlatform = EnumeratePlatformVoxels(platform).ToArray();
+        int index = Array.IndexOf(platformVoxelsForPlatform, head.Location);
+        if (index < 0)
+        {
+            return null;
+        }
+
+        if (platform.Direction != head.Direction && platform.Direction != head.Direction.Opposite)
+        {
+            return null;
+        }
+
+        int stopIndex = platform.Direction == head.Direction
+            ? (platform.Length + train.Length) / 2 - 1
+            : (platform.Length - train.Length) / 2;
+
+        return stopIndex == index && stopIndex >= 0 && stopIndex < platform.Length
+            ? new PlatformStop(platform, index)
+            : null;
+    }
+
+    private string? GetPlatformIdAt(ModernVoxelKey key)
+    {
+        return platformVoxels.TryGetValue(key, out string? platformId)
+            ? platformId
+            : null;
+    }
+
+    private bool IsTrainOccupying(ModernVoxelKey key)
+    {
+        return trains.Values
+            .SelectMany(train => train.Cars)
+            .Any(car => car.Location == key);
+    }
+
+    private void ChargeDailyRailServiceCosts(long days)
+    {
+        long stationCosts = stations.Values.Sum(station => Math.Max(0, station.OperationCost));
+        long platformCosts = platforms.Values.Sum(platform => Math.Max(1, platform.Length) * 180_000L);
+        long total = (stationCosts + platformCosts) * Math.Max(1, days);
+        if (total > 0)
+        {
+            Spend(total, ModernAccountGenre.Railway, "Daily rail service costs.");
+        }
+    }
+
+    private bool TryStepOnRail(ModernVoxelKey location, ModernDirection direction, out ModernVoxelKey next)
+    {
+        ModernLocation current = ToLocation(location);
+        ModernLocation nextLocation = current + direction;
+        (int h, int v) = ToHv(nextLocation);
+        next = new ModernVoxelKey(h, v, IsInside(h, v) ? GetGroundLevel(h, v) : location.Z);
+        return IsInside(h, v) && Transport.HasRail(h, v);
+    }
+
+    private byte GetLegacyRailMask(int h, int v)
+    {
+        if (!IsInside(h, v) || !Transport.HasRail(h, v))
+        {
+            return 0;
+        }
+
+        ModernLocation location = ToLocation(h, v, GetGroundLevel(h, v));
+        byte mask = 0;
+        foreach (ModernDirection direction in ModernDirection.All)
+        {
+            ModernLocation neighbor = location + direction;
+            (int neighborH, int neighborV) = ToHv(neighbor);
+            if (IsInside(neighborH, neighborV) && Transport.HasRail(neighborH, neighborV))
+            {
+                mask |= (byte)(1 << direction.Index);
+            }
+        }
+
+        if (mask == 0)
+        {
+            mask = ModernRailPattern.DirectionMask(0, 4);
+        }
+
+        if (CountBits(mask) == 1)
+        {
+            int direction = FirstSetDirection(mask);
+            mask |= (byte)(1 << ((direction + 4) % 8));
+        }
+        else if (CountBits(mask) > 3)
+        {
+            mask = KeepFirstDirections(mask, 3);
+        }
+
+        return mask;
     }
 
     private void RebuildTilesFromFineHeights()
@@ -847,7 +1543,7 @@ public sealed class ModernWorld
         }
 
         ModernVoxelKey key = new(h, v, GetGroundLevel(h, v));
-        byte railMask = Transport.GetRailMask(h, v);
+        byte railMask = GetLegacyRailMask(h, v);
         byte roadMask = Transport.GetRoadMask(h, v);
         string? roadId = Transport.RoadTiles
             .FirstOrDefault(entry => entry.Key == (h, v))
@@ -908,6 +1604,36 @@ public sealed class ModernWorld
         }
 
         return count;
+    }
+
+    private static int FirstSetDirection(byte mask)
+    {
+        for (int i = 0; i < 8; i++)
+        {
+            if ((mask & (1 << i)) != 0)
+            {
+                return i;
+            }
+        }
+
+        return 0;
+    }
+
+    private static byte KeepFirstDirections(byte mask, int count)
+    {
+        byte kept = 0;
+        for (int i = 0; i < 8 && count > 0; i++)
+        {
+            if ((mask & (1 << i)) == 0)
+            {
+                continue;
+            }
+
+            kept |= (byte)(1 << i);
+            count--;
+        }
+
+        return kept;
     }
 
     private void ClearTrafficVoxelOccupancy()
@@ -1011,7 +1737,9 @@ public sealed class ModernWorld
         int z = GetGroundLevel(tile.H, tile.V);
         return Transport.HasRail(tile.H, tile.V)
             || Transport.HasRoad(tile.H, tile.V)
-            || entityVoxels.ContainsKey(new ModernVoxelKey(tile.H, tile.V, z));
+            || entityVoxels.ContainsKey(new ModernVoxelKey(tile.H, tile.V, z))
+            || stationVoxels.ContainsKey(new ModernVoxelKey(tile.H, tile.V, z))
+            || platformVoxels.ContainsKey(new ModernVoxelKey(tile.H, tile.V, z));
     }
 
     private bool TileUsesVertex(int h, int v, int vertexX, int vertexY)
@@ -1026,6 +1754,11 @@ public sealed class ModernWorld
     {
         (int x, int y) = GetCornerVertex(h, v, corner);
         return x == replacementX && y == replacementY ? replacementValue : fineHeights[x, y];
+    }
+
+    private static int[,] BuildFlatFineHeights(int width, int height)
+    {
+        return new int[width * 2 + 2, height + 2];
     }
 
     private static int[,] BuildRepresentableFineHeights(int width, int height, int waterLevel)

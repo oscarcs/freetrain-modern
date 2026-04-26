@@ -38,6 +38,9 @@ public sealed class MainWindow : Window
     private Border selectContextPanel = null!;
     private Border railContextPanel = null!;
     private Border roadContextPanel = null!;
+    private Border stationContextPanel = null!;
+    private Border platformContextPanel = null!;
+    private Border trainContextPanel = null!;
     private Border terrainContextPanel = null!;
     private Border eraseContextPanel = null!;
     private TextBlock hudCashValue = null!;
@@ -379,6 +382,9 @@ public sealed class MainWindow : Window
         primaryTools.Children.Add(ModeButton(IconLabel(new ToolGlyph(ToolGlyphKind.Pointer), "Select"), MapEditMode.Select, "Inspect tiles and objects"));
         primaryTools.Children.Add(ModeButton(IconLabel(ToolbarIcon(0, ToolGlyphKind.Rail), "Rail"), MapEditMode.Rail, "Place rails between selected tiles"));
         primaryTools.Children.Add(ModeButton(IconLabel(new ToolGlyph(ToolGlyphKind.Road), "Road"), MapEditMode.Road, "Place roads between selected tiles"));
+        primaryTools.Children.Add(ModeButton(IconLabel(new ToolGlyph(ToolGlyphKind.Station), "Station"), MapEditMode.Station, "Build station buildings"));
+        primaryTools.Children.Add(ModeButton(IconLabel(new ToolGlyph(ToolGlyphKind.Platform), "Platform"), MapEditMode.Platform, "Build station platforms on rail"));
+        primaryTools.Children.Add(ModeButton(IconLabel(new ToolGlyph(ToolGlyphKind.Train), "Train"), MapEditMode.Train, "Place a train on rail"));
         primaryTools.Children.Add(ModeButton(IconLabel(ToolbarIcon(7, ToolGlyphKind.Terrain), "Terrain"), MapEditMode.Terrain, "Raise or lower terrain"));
         primaryTools.Children.Add(ModeButton(IconLabel(ToolbarIcon(9, ToolGlyphKind.Bulldoze), "Bulldoze"), MapEditMode.Erase, "Erase rail or road"));
         toolbar.Children.Add(primaryTools);
@@ -406,6 +412,17 @@ public sealed class MainWindow : Window
         roadContextPanel = ContextPanel("Road",
             ToolButton("Prev", (_, _) => mapViewport.SelectPreviousRoad(), "Previous road contribution"),
             ToolButton("Next", (_, _) => mapViewport.SelectNextRoad(), "Next road contribution"));
+        stationContextPanel = ContextPanel("Station Building",
+            ToolButton("Prev", (_, _) => mapViewport.SelectPreviousStation(), "Previous station contribution"),
+            ToolButton("Next", (_, _) => mapViewport.SelectNextStation(), "Next station contribution"));
+        platformContextPanel = ContextPanel("Platform",
+            ToolButton("-Len", (_, _) => mapViewport.ChangePlatformLength(-1), "Shorter platform"),
+            ToolButton("+Len", (_, _) => mapViewport.ChangePlatformLength(1), "Longer platform"),
+            ToolButton("Dir", (_, _) => mapViewport.RotatePlatformDirection(), "Rotate platform direction"),
+            ToolButton("Style", (_, _) => mapViewport.CyclePlatformStyle(), "Cycle thin, roofed, and wide platforms"));
+        trainContextPanel = ContextPanel("Train",
+            ToolButton("Prev", (_, _) => mapViewport.SelectPreviousTrain(), "Previous train contribution"),
+            ToolButton("Next", (_, _) => mapViewport.SelectNextTrain(), "Next train contribution"));
         terrainContextPanel = ContextPanel("Terrain",
             ToolButton("Raise", (_, _) => mapViewport.RaiseSelectedTerrain(), "Raise the selected terrain corner"),
             ToolButton("Lower", (_, _) => mapViewport.LowerSelectedTerrain(), "Lower the selected terrain corner"));
@@ -419,6 +436,9 @@ public sealed class MainWindow : Window
         contextGrid.Children.Add(selectContextPanel);
         contextGrid.Children.Add(railContextPanel);
         contextGrid.Children.Add(roadContextPanel);
+        contextGrid.Children.Add(stationContextPanel);
+        contextGrid.Children.Add(platformContextPanel);
+        contextGrid.Children.Add(trainContextPanel);
         contextGrid.Children.Add(terrainContextPanel);
         contextGrid.Children.Add(eraseContextPanel);
         toolbar.Children.Add(contextGrid);
@@ -1188,6 +1208,9 @@ public sealed class MainWindow : Window
         selectContextPanel.IsVisible = activeMode == MapEditMode.Select;
         railContextPanel.IsVisible = activeMode == MapEditMode.Rail;
         roadContextPanel.IsVisible = activeMode == MapEditMode.Road;
+        stationContextPanel.IsVisible = activeMode == MapEditMode.Station;
+        platformContextPanel.IsVisible = activeMode == MapEditMode.Platform;
+        trainContextPanel.IsVisible = activeMode == MapEditMode.Train;
         terrainContextPanel.IsVisible = activeMode == MapEditMode.Terrain;
         eraseContextPanel.IsVisible = activeMode == MapEditMode.Erase;
     }
@@ -1260,7 +1283,7 @@ public sealed class MainWindow : Window
         string anchor = status.BuildAnchorLocation is null
             ? ""
             : $" | Anchor {FormatCompactLocation(status.BuildAnchorLocation)}";
-        return $"Hover {FormatCompactLocation(status.HoverLocation)} | Selected {FormatCompactLocation(status.SelectedLocation)}{anchor} | {status.EditMode} | Road {status.ActiveRoadName} | Zoom {status.Zoom:0.##}x | Cut {status.MaxVisibleLevel}/{status.WorldMaxHeightCutLevel} | Rail {status.RailTileCount:N0} Road {status.RoadTileCount:N0}";
+        return $"Hover {FormatCompactLocation(status.HoverLocation)} | Selected {FormatCompactLocation(status.SelectedLocation)}{anchor} | {status.EditMode} | Road {status.ActiveRoadName} | Station {status.ActiveStationName} | Platform {status.ActivePlatformDescription} | Train {status.ActiveTrainName} | Zoom {status.Zoom:0.##}x | Cut {status.MaxVisibleLevel}/{status.WorldMaxHeightCutLevel} | Rail {status.RailTileCount:N0} Road {status.RoadTileCount:N0} Stations {status.StationCount:N0} Platforms {status.PlatformCount:N0} Trains {status.TrainCount:N0}";
     }
 
     private static string FormatMoney(long amount)
@@ -1367,6 +1390,9 @@ public sealed class MainWindow : Window
         Pointer,
         Road,
         Rail,
+        Station,
+        Platform,
+        Train,
         Terrain,
         Bulldoze,
         ZoomOut,
@@ -1457,6 +1483,24 @@ public sealed class MainWindow : Window
                     context.DrawLine(pen, new Point(w * 0.20, h * 0.78), new Point(w * 0.88, h * 0.46));
                     context.DrawLine(new Pen(Brushes.White, 1.5), new Point(w * 0.36, h * 0.62), new Point(w * 0.48, h * 0.56));
                     context.DrawLine(new Pen(Brushes.White, 1.5), new Point(w * 0.58, h * 0.51), new Point(w * 0.70, h * 0.45));
+                    break;
+                case ToolGlyphKind.Station:
+                    DrawDiamond(context, new SolidColorBrush(Color.FromRgb(197, 207, 188)), new Pen(brush, 1.5), w, h);
+                    context.DrawRectangle(brush, null, new Rect(w * 0.30, h * 0.40, w * 0.40, h * 0.28));
+                    DrawPolygon(context, brush, new Point(w * 0.24, h * 0.42), new Point(w * 0.50, h * 0.24), new Point(w * 0.76, h * 0.42));
+                    context.DrawRectangle(Brushes.White, null, new Rect(w * 0.46, h * 0.52, w * 0.08, h * 0.16));
+                    break;
+                case ToolGlyphKind.Platform:
+                    DrawDiamond(context, new SolidColorBrush(Color.FromRgb(190, 187, 172)), new Pen(brush, 1.5), w, h);
+                    context.DrawLine(new Pen(brush, 3), new Point(w * 0.22, h * 0.62), new Point(w * 0.78, h * 0.38));
+                    context.DrawLine(new Pen(Brushes.White, 2), new Point(w * 0.28, h * 0.50), new Point(w * 0.72, h * 0.30));
+                    break;
+                case ToolGlyphKind.Train:
+                    context.DrawRectangle(brush, null, new Rect(w * 0.22, h * 0.38, w * 0.56, h * 0.24));
+                    DrawPolygon(context, brush, new Point(w * 0.78, h * 0.38), new Point(w * 0.88, h * 0.50), new Point(w * 0.78, h * 0.62));
+                    context.DrawRectangle(Brushes.White, null, new Rect(w * 0.32, h * 0.43, w * 0.10, h * 0.08));
+                    context.DrawRectangle(Brushes.White, null, new Rect(w * 0.48, h * 0.43, w * 0.10, h * 0.08));
+                    context.DrawLine(pen, new Point(w * 0.20, h * 0.72), new Point(w * 0.82, h * 0.72));
                     break;
                 case ToolGlyphKind.Terrain:
                     DrawDiamond(context, new SolidColorBrush(Color.FromRgb(80, 150, 88)), new Pen(brush, 1.5), w, h);
