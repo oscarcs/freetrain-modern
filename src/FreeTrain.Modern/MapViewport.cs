@@ -112,9 +112,8 @@ public sealed class MapViewport : Control, IDisposable
             .ToDictionary(group => group.Key, group => group.First(), StringComparer.OrdinalIgnoreCase);
         railRoadCrossingPath = FindRailRoadCrossingPath(assets, plugins);
         activeRoadIndex = SelectInitialRoadIndex(roadContributions);
-        world = ModernWorld.CreateSample(roadContributions);
+        world = ModernWorld.CreateNew(ModernWorldCreationOptions.Default);
         world.Changed += OnWorldChanged;
-        AddSampleRailService();
         maxVisibleLevel = world.MaxHeightCutLevel;
         Focusable = true;
         ClipToBounds = true;
@@ -245,6 +244,11 @@ public sealed class MapViewport : Control, IDisposable
         return world.ToSnapshot();
     }
 
+    public void CreateNewWorld(ModernWorldCreationOptions options)
+    {
+        SetWorld(ModernWorld.CreateNew(options));
+    }
+
     public void LoadWorldSnapshot(ModernWorldSnapshot snapshot)
     {
         Dictionary<string, RoadContribution> roadLookup = roadContributions
@@ -268,13 +272,19 @@ public sealed class MapViewport : Control, IDisposable
             .GroupBy(train => train.Id, StringComparer.OrdinalIgnoreCase)
             .ToDictionary(group => group.Key, group => group.First(), StringComparer.OrdinalIgnoreCase);
 
+        SetWorld(ModernWorld.FromSnapshot(snapshot, roadLookup, landLookup, spriteLookup, stationLookup, trainLookup));
+    }
+
+    private void SetWorld(ModernWorld nextWorld)
+    {
         world.Changed -= OnWorldChanged;
-        world = ModernWorld.FromSnapshot(snapshot, roadLookup, landLookup, spriteLookup, stationLookup, trainLookup);
+        world = nextWorld;
         world.Changed += OnWorldChanged;
         selectedLocation = null;
         hoverLocation = null;
         buildAnchorLocation = null;
-        maxVisibleLevel = Math.Min(maxVisibleLevel, world.MaxHeightCutLevel);
+        maxVisibleLevel = world.MaxHeightCutLevel;
+        lastMessage = $"World ready: {world.Name}.";
         InvalidateMeasure();
         InvalidateVisual();
         PublishStatus();
@@ -565,7 +575,11 @@ public sealed class MapViewport : Control, IDisposable
             Point targetPoint = new(tilePoint.X, tilePoint.Y - railObject.Pattern.OffsetY);
             context.DrawImage(
                 railBitmap,
-                railObject.Pattern.SourceRect,
+                new Rect(
+                    railObject.Pattern.SourceX,
+                    railObject.Pattern.SourceY,
+                    railObject.Pattern.SourceWidth,
+                    railObject.Pattern.SourceHeight),
                 new Rect(targetPoint, new Size(railObject.Pattern.SourceWidth, railObject.Pattern.SourceHeight)));
         }
     }

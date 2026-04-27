@@ -200,6 +200,12 @@ public sealed class MainWindow : Window
         MenuItem file = new() { Header = "_File" };
         file.Items.Add(new MenuItem
         {
+            Header = "_New World...",
+            Command = MiniCommand.Create(() => _ = ShowNewWorldDialogAsync())
+        });
+        file.Items.Add(new Separator());
+        file.Items.Add(new MenuItem
+        {
             Header = "_Open Legacy Resource Folder",
             Command = MiniCommand.Create(OpenResourceFolder)
         });
@@ -1324,6 +1330,19 @@ public sealed class MainWindow : Window
         }
 
         Process.Start(new ProcessStartInfo(command, arguments) { UseShellExecute = false });
+    }
+
+    private async Task ShowNewWorldDialogAsync()
+    {
+        NewWorldDialog dialog = new(ModernWorldCreationOptions.Default);
+        ModernWorldCreationOptions? options = await dialog.ShowDialog<ModernWorldCreationOptions?>(this);
+        if (options is null)
+        {
+            return;
+        }
+
+        mapViewport.CreateNewWorld(options);
+        ShowMessage($"Created new world: {options.Normalize().Name}");
     }
 
     private void SaveWorldSnapshot()

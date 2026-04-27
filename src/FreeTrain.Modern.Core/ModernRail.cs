@@ -1,5 +1,3 @@
-using Avalonia;
-
 namespace FreeTrain.Modern;
 
 public sealed record MapRailObject(int H, int V, RailPatternDefinition Pattern);
@@ -102,10 +100,7 @@ public sealed record ModernRailRoad(
     }
 }
 
-public readonly record struct RailPatternDefinition(int SourceX, int SourceY, int SourceWidth, int SourceHeight, int OffsetY, byte DirectionMask)
-{
-    public Rect SourceRect => new(SourceX, SourceY, SourceWidth, SourceHeight);
-}
+public readonly record struct RailPatternDefinition(int SourceX, int SourceY, int SourceWidth, int SourceHeight, int OffsetY, byte DirectionMask);
 
 public static class ModernRailPattern
 {

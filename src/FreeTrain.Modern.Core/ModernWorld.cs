@@ -1109,6 +1109,29 @@ public sealed class ModernWorld
         return world;
     }
 
+    public static ModernWorld CreateNew(ModernWorldCreationOptions options)
+    {
+        ModernWorldCreationOptions normalized = options.Normalize();
+        int[,] heights = normalized.TerrainKind switch
+        {
+            ModernWorldTerrainKind.Flat => BuildFlatFineHeights(normalized.Width, normalized.Height),
+            _ => BuildRepresentableFineHeights(normalized.Width, normalized.Height, normalized.WaterLevel)
+        };
+
+        ModernWorld world = new(
+            normalized.Name,
+            normalized.Width,
+            normalized.Height,
+            normalized.WaterLevel,
+            heights,
+            normalized.Clock ?? ModernWorldClock.Default,
+            new ModernAccountState(normalized.InitialCash));
+
+        world.RebuildTrafficVoxels();
+        world.Publish(ModernWorldChangeKind.Reset, null, "New world created.");
+        return world;
+    }
+
     private void AddFlatRailLoop()
     {
         ModernLocation[] loop =

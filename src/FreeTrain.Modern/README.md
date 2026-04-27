@@ -9,6 +9,7 @@ logic available for incremental porting.
 ```sh
 dotnet restore FreeTrain.Modern.sln --disable-parallel
 dotnet build FreeTrain.Modern.sln
+dotnet test FreeTrain.Modern.sln
 ```
 
 ## Run
@@ -17,11 +18,15 @@ dotnet build FreeTrain.Modern.sln
 dotnet run --project src/FreeTrain.Modern/FreeTrain.Modern.csproj
 ```
 
-The first milestone loads the legacy `core/res` assets, scans `plugin.xml`
-manifests, previews plugin picture and sprite contributions, and renders a
-simple isometric H/V/Z map preview from `EmptyChip.bmp` with sample plugin
-sprites placed onto dry terrain.
+The modern solution is split into a portable core library and an Avalonia host.
+The core loads legacy resources, scans `plugin.xml` manifests, applies plugin
+translation sidecars, owns world state, snapshots, terrain, accounting, and
+transport simulation. The Avalonia host renders the isometric map and plugin
+previews from the original bitmap assets.
 
-Next migration steps are to replace the temporary terrain preview with the real
-world model, preserve more of the original sprite sizing metadata, add rail and
-station placement tools, then replace WinForms dialogs one workflow at a time.
+The app now starts from a real new-world creation path instead of the old rail
+loop sample. `File > New World...` creates an empty player-built world from
+modern creation options. Next migration steps are to expand the new-game dialog
+into full scenario/options support, preserve more of the original sprite sizing
+metadata, deepen rail and station behavior, then replace WinForms dialogs one
+workflow at a time.

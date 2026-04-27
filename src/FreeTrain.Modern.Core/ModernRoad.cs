@@ -1,5 +1,3 @@
-using Avalonia;
-
 namespace FreeTrain.Modern;
 
 public enum RoadContributionKind
