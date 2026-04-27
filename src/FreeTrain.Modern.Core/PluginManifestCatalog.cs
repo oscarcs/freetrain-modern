@@ -36,15 +36,34 @@ public sealed record SpriteFrame(
     public bool IsLoadable => Error is null && File.Exists(ResolvedPath);
 }
 
+public enum SpriteContributionPlacementKind
+{
+    Generic,
+    Structure,
+    RailStationary,
+    RoadAccessory,
+    ElectricPole,
+    VariableHeightBuilding
+}
+
 public sealed record SpriteContribution(
     string PluginDirectoryName,
     string PluginTitle,
     string Id,
     string Type,
+    string Group,
+    string Subgroup,
     string Name,
+    string Description,
+    int Price,
     int SizeX,
     int SizeY,
     int Height,
+    int MinHeight,
+    int MaxHeight,
+    int PopulationBase,
+    bool ComputerCanBuild,
+    SpriteContributionPlacementKind PlacementKind,
     IReadOnlyList<SpriteFrame> Frames,
     ModernSpriteSet2D? SpriteSet2D,
     ModernSpriteSet3D? SpriteSet3D,
@@ -55,9 +74,18 @@ public sealed record SpriteContribution(
         || SpriteSet3D?.IsLoadable == true;
     public string DisplayName => !string.IsNullOrWhiteSpace(Name)
         ? Name
-        : string.IsNullOrWhiteSpace(PluginTitle)
-            ? PluginDirectoryName
-            : PluginTitle;
+        : !string.IsNullOrWhiteSpace(Subgroup)
+            ? Subgroup
+            : !string.IsNullOrWhiteSpace(Group)
+                ? Group
+                : string.IsNullOrWhiteSpace(PluginTitle)
+                    ? PluginDirectoryName
+                    : PluginTitle;
+    public bool IsBuildableMapObject => PlacementKind is SpriteContributionPlacementKind.Structure
+        or SpriteContributionPlacementKind.RailStationary
+        or SpriteContributionPlacementKind.RoadAccessory
+        or SpriteContributionPlacementKind.ElectricPole
+        or SpriteContributionPlacementKind.VariableHeightBuilding;
 }
 
 public sealed record PluginManifest(
@@ -70,6 +98,10 @@ public sealed record PluginManifest(
     IReadOnlyList<ContributionSummary> Contributions,
     IReadOnlyList<PictureContribution> Pictures,
     IReadOnlyList<SpriteContribution> Sprites,
+    IReadOnlyList<SpriteContribution> Structures,
+    IReadOnlyList<SpriteContribution> RailStationaries,
+    IReadOnlyList<SpriteContribution> RoadAccessories,
+    IReadOnlyList<SpriteContribution> ElectricPoles,
     IReadOnlyList<LandContribution> Lands,
     IReadOnlyList<RoadContribution> Roads,
     IReadOnlyList<StationContribution> Stations,
@@ -115,6 +147,30 @@ public sealed class PluginManifestCatalog
             .ThenBy(sprite => sprite.DisplayName, StringComparer.OrdinalIgnoreCase)
             .ToList()
             .AsReadOnly();
+        Structures = Sprites
+            .Where(sprite => sprite.PlacementKind is SpriteContributionPlacementKind.Structure or SpriteContributionPlacementKind.VariableHeightBuilding)
+            .OrderBy(sprite => sprite.Group, StringComparer.OrdinalIgnoreCase)
+            .ThenBy(sprite => sprite.DisplayName, StringComparer.OrdinalIgnoreCase)
+            .ToList()
+            .AsReadOnly();
+        RailStationaries = Sprites
+            .Where(sprite => sprite.PlacementKind == SpriteContributionPlacementKind.RailStationary)
+            .OrderBy(sprite => sprite.Group, StringComparer.OrdinalIgnoreCase)
+            .ThenBy(sprite => sprite.DisplayName, StringComparer.OrdinalIgnoreCase)
+            .ToList()
+            .AsReadOnly();
+        RoadAccessories = Sprites
+            .Where(sprite => sprite.PlacementKind == SpriteContributionPlacementKind.RoadAccessory)
+            .OrderBy(sprite => sprite.Group, StringComparer.OrdinalIgnoreCase)
+            .ThenBy(sprite => sprite.DisplayName, StringComparer.OrdinalIgnoreCase)
+            .ToList()
+            .AsReadOnly();
+        ElectricPoles = Sprites
+            .Where(sprite => sprite.PlacementKind == SpriteContributionPlacementKind.ElectricPole)
+            .OrderBy(sprite => sprite.Group, StringComparer.OrdinalIgnoreCase)
+            .ThenBy(sprite => sprite.DisplayName, StringComparer.OrdinalIgnoreCase)
+            .ToList()
+            .AsReadOnly();
         Lands = Plugins
             .SelectMany(plugin => plugin.Lands)
             .OrderBy(land => land.PluginDirectoryName, StringComparer.OrdinalIgnoreCase)
@@ -155,6 +211,10 @@ public sealed class PluginManifestCatalog
     public IReadOnlyDictionary<string, int> ContributionTypeCounts { get; }
     public IReadOnlyList<PictureContribution> Pictures { get; }
     public IReadOnlyList<SpriteContribution> Sprites { get; }
+    public IReadOnlyList<SpriteContribution> Structures { get; }
+    public IReadOnlyList<SpriteContribution> RailStationaries { get; }
+    public IReadOnlyList<SpriteContribution> RoadAccessories { get; }
+    public IReadOnlyList<SpriteContribution> ElectricPoles { get; }
     public IReadOnlyList<LandContribution> Lands { get; }
     public IReadOnlyList<RoadContribution> Roads { get; }
     public IReadOnlyList<StationContribution> Stations { get; }
@@ -243,6 +303,10 @@ public sealed class PluginManifestCatalog
                 contributions,
                 pictures,
                 sprites,
+                sprites.Where(sprite => sprite.PlacementKind is SpriteContributionPlacementKind.Structure or SpriteContributionPlacementKind.VariableHeightBuilding).ToList().AsReadOnly(),
+                sprites.Where(sprite => sprite.PlacementKind == SpriteContributionPlacementKind.RailStationary).ToList().AsReadOnly(),
+                sprites.Where(sprite => sprite.PlacementKind == SpriteContributionPlacementKind.RoadAccessory).ToList().AsReadOnly(),
+                sprites.Where(sprite => sprite.PlacementKind == SpriteContributionPlacementKind.ElectricPole).ToList().AsReadOnly(),
                 lands,
                 roads,
                 stations,
@@ -261,6 +325,10 @@ public sealed class PluginManifestCatalog
                 "",
                 Array.Empty<ContributionSummary>(),
                 Array.Empty<PictureContribution>(),
+                Array.Empty<SpriteContribution>(),
+                Array.Empty<SpriteContribution>(),
+                Array.Empty<SpriteContribution>(),
+                Array.Empty<SpriteContribution>(),
                 Array.Empty<SpriteContribution>(),
                 Array.Empty<LandContribution>(),
                 Array.Empty<RoadContribution>(),
@@ -308,12 +376,15 @@ public sealed class PluginManifestCatalog
         int height = int.TryParse(ElementValue(contribution, "height"), out int parsedHeight)
             ? parsedHeight
             : 0;
-        IReadOnlyList<SpriteFrame> frames = contribution.Descendants("sprite")
+        IReadOnlyList<SpriteFrame> regularFrames = contribution.Descendants("sprite")
             .Select(sprite => ParseSpriteFrame(pluginDirectory, contribution, sprite, pictures))
             .Where(frame => frame is not null)
             .Cast<SpriteFrame>()
             .ToList()
             .AsReadOnly();
+        IReadOnlyList<SpriteFrame> frames = regularFrames.Count > 0
+            ? regularFrames
+            : ParseVariableHeightBuildingFrames(pluginDirectory, contribution, pictures);
         XElement? firstSprite = contribution.Elements("sprite").FirstOrDefault()
             ?? contribution.Descendants("sprite").FirstOrDefault();
         ModernSpriteSet2D? spriteSet2D = firstSprite is not null && sizeX > 0 && sizeY > 0
@@ -333,10 +404,19 @@ public sealed class PluginManifestCatalog
             pluginTitle,
             AttributeValue(contribution, "id"),
             AttributeValue(contribution, "type"),
+            ElementValue(contribution, "group"),
+            ElementValue(contribution, "subgroup"),
             ElementValue(contribution, "name"),
+            ElementValue(contribution, "description"),
+            ParseInt(ElementValue(contribution, "price")),
             sizeX,
             sizeY,
             height,
+            ParseInt(ElementValue(contribution, "minHeight")),
+            ParseInt(ElementValue(contribution, "maxHeight")),
+            ParsePopulationBase(contribution),
+            contribution.Element("computerCannotBuild") is null,
+            ClassifySpritePlacement(contribution),
             frames,
             spriteSet2D,
             spriteSet3D,
@@ -723,6 +803,49 @@ public sealed class PluginManifestCatalog
         return new ForestSpriteSet(treeSprites.AsReadOnly(), ground, Math.Max(0, density));
     }
 
+    private static IReadOnlyList<SpriteFrame> ParseVariableHeightBuildingFrames(
+        string pluginDirectory,
+        XElement contribution,
+        IReadOnlyDictionary<string, PictureContribution> pictures)
+    {
+        if (!string.Equals(AttributeValue(contribution, "type"), "varHeightBuilding", StringComparison.OrdinalIgnoreCase)
+            || contribution.Element("pictures") is not { } pictureSet)
+        {
+            return Array.Empty<SpriteFrame>();
+        }
+
+        List<SpriteFrame> frames = new();
+        foreach (string partName in new[] { "bottom", "middle", "top" })
+        {
+            if (pictureSet.Element(partName) is not { } part)
+            {
+                continue;
+            }
+
+            frames.Add(ParsePicturePartFrame(pluginDirectory, contribution, part, pictures));
+        }
+
+        return frames.AsReadOnly();
+    }
+
+    private static SpriteFrame ParsePicturePartFrame(
+        string pluginDirectory,
+        XElement contribution,
+        XElement part,
+        IReadOnlyDictionary<string, PictureContribution> pictures)
+    {
+        ResolvedSpritePicture picture = ResolvePictureElement(pluginDirectory, part.Element("picture") ?? part, pictures);
+        (int sourceX, int sourceY) = ParsePoint(AttributeValue(part, "origin"));
+        string offset = AttributeValue(part, "offset");
+        (int offsetX, int offsetY) = string.IsNullOrWhiteSpace(offset)
+            ? (0, DefaultOffsetY(contribution))
+            : ParseOffset(offset);
+        (int sizeX, int sizeY) = ParseSize(ElementValue(contribution, "size"));
+        int sourceWidth = Math.Max(32, (Math.Max(1, sizeX) + Math.Max(1, sizeY)) * 16);
+        int sourceHeight = Math.Max(16, offsetY + 16);
+        return CreateSpriteFrame(picture, sourceX, sourceY, sourceWidth, sourceHeight, offsetX, offsetY);
+    }
+
     private static SpriteFrame? ParseSpriteFrame(
         string pluginDirectory,
         XElement contribution,
@@ -1062,7 +1185,48 @@ public sealed class PluginManifestCatalog
         string type = AttributeValue(contribution, "type");
         return type.Contains("structure", StringComparison.OrdinalIgnoreCase)
             || type.Contains("station", StringComparison.OrdinalIgnoreCase)
-            || type.Contains("commercial", StringComparison.OrdinalIgnoreCase);
+            || type.Contains("commercial", StringComparison.OrdinalIgnoreCase)
+            || type.Contains("railStationary", StringComparison.OrdinalIgnoreCase);
+    }
+
+    private static SpriteContributionPlacementKind ClassifySpritePlacement(XElement contribution)
+    {
+        string type = AttributeValue(contribution, "type");
+        if (type.Equals("varHeightBuilding", StringComparison.OrdinalIgnoreCase))
+        {
+            return SpriteContributionPlacementKind.VariableHeightBuilding;
+        }
+
+        if (type.Equals("railStationary", StringComparison.OrdinalIgnoreCase))
+        {
+            return SpriteContributionPlacementKind.RailStationary;
+        }
+
+        if (type.Equals("roadAccessory", StringComparison.OrdinalIgnoreCase))
+        {
+            return SpriteContributionPlacementKind.RoadAccessory;
+        }
+
+        if (type.Equals("electricPole", StringComparison.OrdinalIgnoreCase))
+        {
+            return SpriteContributionPlacementKind.ElectricPole;
+        }
+
+        if (type.Contains("structure", StringComparison.OrdinalIgnoreCase)
+            || type.Equals("commercial", StringComparison.OrdinalIgnoreCase)
+            || type.Equals("specialStructure", StringComparison.OrdinalIgnoreCase))
+        {
+            return SpriteContributionPlacementKind.Structure;
+        }
+
+        return SpriteContributionPlacementKind.Generic;
+    }
+
+    private static int ParsePopulationBase(XElement contribution)
+    {
+        return contribution.Element("population") is { } population
+            ? ParseInt(ElementValue(population, "base"))
+            : 0;
     }
 
     private static (int X, int Y) ParsePoint(string value)

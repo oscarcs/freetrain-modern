@@ -112,7 +112,7 @@ public sealed record ModernPlacedEntity(
             frame,
             true,
             false,
-            EstimateStructureValue(contribution));
+            contribution.Price > 0 ? contribution.Price : EstimateStructureValue(contribution));
     }
 
     internal void PublishRemoved()

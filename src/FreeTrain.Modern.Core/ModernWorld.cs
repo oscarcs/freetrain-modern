@@ -267,14 +267,18 @@ public sealed class ModernWorld
         return IsBuildableSurface(location) && IsReusable(ToVoxelKey(location));
     }
 
-    public bool CanPlaceEntity(ModernPlacedEntity entity)
+    public bool CanPlaceEntity(ModernPlacedEntity entity, bool allowTransportOverlap = false)
     {
         foreach (ModernVoxelKey voxel in entity.OccupiedVoxels)
         {
+            ModernVoxelOccupancy? occupancy = GetVoxel(voxel);
+            bool canReuseVoxel = occupancy is null
+                || IsReusable(voxel)
+                || allowTransportOverlap && occupancy.IsTraffic;
             if (!IsInside(voxel)
-                || !IsReusable(voxel)
-                || Transport.HasRail(voxel.H, voxel.V)
-                || Transport.HasRoad(voxel.H, voxel.V))
+                || !canReuseVoxel
+                || (!allowTransportOverlap && Transport.HasRail(voxel.H, voxel.V))
+                || (!allowTransportOverlap && Transport.HasRoad(voxel.H, voxel.V)))
             {
                 return false;
             }
@@ -412,9 +416,9 @@ public sealed class ModernWorld
         return false;
     }
 
-    public bool AddEntity(ModernPlacedEntity entity)
+    public bool AddEntity(ModernPlacedEntity entity, bool allowTransportOverlap = false)
     {
-        if (entities.ContainsKey(entity.EntityId) || !CanPlaceEntity(entity))
+        if (entities.ContainsKey(entity.EntityId) || !CanPlaceEntity(entity, allowTransportOverlap))
         {
             return false;
         }
@@ -730,11 +734,17 @@ public sealed class ModernWorld
             return true;
         }
 
+        ModernVoxelKey key = ToVoxelKey(location);
+        if (GetEntityAt(key) is { } entity && RemoveEntity(entity.EntityId))
+        {
+            return true;
+        }
+
         bool changed = Transport.RemoveAt(location.H, location.V);
         if (changed)
         {
             SynchronizeTrafficVoxelsAround(location.H, location.V);
-            Publish(ModernWorldChangeKind.Transport, ToVoxelKey(location), "Transport removed.");
+            Publish(ModernWorldChangeKind.Transport, key, "Transport removed.");
         }
 
         return changed;

@@ -12,6 +12,7 @@ public enum MapEditMode
     Rail,
     Road,
     Station,
+    Structure,
     Platform,
     Train,
     Terrain,
@@ -49,6 +50,7 @@ public sealed class MapViewport : Control, IDisposable
     private readonly IReadOnlyList<RoadContribution> roadContributions;
     private readonly IReadOnlyList<LandContribution> landContributions;
     private readonly IReadOnlyList<SpriteContribution> spriteContributions;
+    private readonly IReadOnlyList<SpriteContribution> structureContributions;
     private readonly IReadOnlyList<StationContribution> stationContributions;
     private readonly IReadOnlyList<TrainContribution> trainContributions;
     private readonly IReadOnlyDictionary<string, TrainCarContribution> trainCarContributions;
@@ -69,6 +71,7 @@ public sealed class MapViewport : Control, IDisposable
     private MapEditMode editMode = MapEditMode.Select;
     private int activeRoadIndex;
     private int activeStationIndex;
+    private int activeStructureIndex;
     private int activeTrainIndex;
     private int activePlatformDirectionIndex = 2;
     private int activePlatformLength = 4;
@@ -104,6 +107,16 @@ public sealed class MapViewport : Control, IDisposable
         roadContributions = plugins.Roads.Where(road => road.IsLoadable).ToList().AsReadOnly();
         landContributions = plugins.Lands.Where(land => land.IsLoadable).ToList().AsReadOnly();
         spriteContributions = plugins.Sprites.Where(sprite => sprite.IsLoadable).ToList().AsReadOnly();
+        structureContributions = plugins.Structures
+            .Concat(plugins.RailStationaries)
+            .Concat(plugins.RoadAccessories)
+            .Concat(plugins.ElectricPoles)
+            .Where(sprite => sprite.IsLoadable)
+            .OrderBy(sprite => StructurePlacementPriority(sprite.PlacementKind))
+            .ThenBy(sprite => sprite.Group, StringComparer.OrdinalIgnoreCase)
+            .ThenBy(sprite => sprite.DisplayName, StringComparer.OrdinalIgnoreCase)
+            .ToList()
+            .AsReadOnly();
         stationContributions = plugins.Stations.Where(station => station.IsLoadable).ToList().AsReadOnly();
         trainContributions = plugins.Trains.Where(train => train.IsLoadable).ToList().AsReadOnly();
         trainCarContributions = plugins.TrainCars
@@ -215,6 +228,7 @@ public sealed class MapViewport : Control, IDisposable
 
     public string ActiveRoadName => ActiveRoadContribution?.DisplayName ?? "No road plugins loaded";
     public string ActiveStationName => ActiveStationContribution?.DisplayName ?? "No station plugins loaded";
+    public string ActiveStructureName => ActiveStructureContribution?.DisplayName ?? "No structure plugins loaded";
     public string ActiveTrainName => ActiveTrainContribution?.DisplayName ?? "No train plugins loaded";
     public string ActivePlatformDescription => $"{ModernDirection.FromIndex(activePlatformDirectionIndex).EnglishName}, {activePlatformLength} tile(s), {FormatPlatformStyle(activePlatformStyle)}";
 
@@ -296,6 +310,9 @@ public sealed class MapViewport : Control, IDisposable
     public StationContribution? ActiveStationContribution => stationContributions.Count == 0
         ? null
         : stationContributions[Math.Clamp(activeStationIndex, 0, stationContributions.Count - 1)];
+    public SpriteContribution? ActiveStructureContribution => structureContributions.Count == 0
+        ? null
+        : structureContributions[Math.Clamp(activeStructureIndex, 0, structureContributions.Count - 1)];
     public TrainContribution? ActiveTrainContribution => trainContributions.Count == 0
         ? null
         : trainContributions[Math.Clamp(activeTrainIndex, 0, trainContributions.Count - 1)];
@@ -788,6 +805,28 @@ public sealed class MapViewport : Control, IDisposable
         }
 
         activeStationIndex = (activeStationIndex + stationContributions.Count - 1) % stationContributions.Count;
+        PublishStatus();
+    }
+
+    public void SelectNextStructure()
+    {
+        if (structureContributions.Count == 0)
+        {
+            return;
+        }
+
+        activeStructureIndex = (activeStructureIndex + 1) % structureContributions.Count;
+        PublishStatus();
+    }
+
+    public void SelectPreviousStructure()
+    {
+        if (structureContributions.Count == 0)
+        {
+            return;
+        }
+
+        activeStructureIndex = (activeStructureIndex + structureContributions.Count - 1) % structureContributions.Count;
         PublishStatus();
     }
 
@@ -1692,6 +1731,7 @@ public sealed class MapViewport : Control, IDisposable
             EditMode,
             ActiveRoadName,
             ActiveStationName,
+            ActiveStructureName,
             ActivePlatformDescription,
             ActiveTrainName,
             world.Clock,
@@ -1733,6 +1773,7 @@ public sealed class MapViewport : Control, IDisposable
             MapEditMode.Road when buildAnchorLocation is null => "Road: click a buildable tile to set the start point.",
             MapEditMode.Road => "Road: click a north/south/east/west destination to place road.",
             MapEditMode.Station => $"Station building: click flat dry land to build {ActiveStationName}.",
+            MapEditMode.Structure => $"Structure: click flat dry land to build {ActiveStructureName}.",
             MapEditMode.Platform => $"Platform: click rail to build {ActivePlatformDescription}.",
             MapEditMode.Train => $"Train: click rail to place {ActiveTrainName}.",
             MapEditMode.Terrain => "Terrain: select a tile corner, then raise or lower it.",
@@ -1768,6 +1809,34 @@ public sealed class MapViewport : Control, IDisposable
                 location.V,
                 location.Z,
                 station));
+            return;
+        }
+
+        if (EditMode == MapEditMode.Structure
+            && ActiveStructureContribution is { } structure
+            && structure.Frames.FirstOrDefault(frame => frame.IsLoadable) is { } structureFrame)
+        {
+            bool allowTransportOverlap = structure.PlacementKind is SpriteContributionPlacementKind.RailStationary
+                or SpriteContributionPlacementKind.RoadAccessory;
+            if (structure.PlacementKind == SpriteContributionPlacementKind.RailStationary
+                && !world.Transport.HasRail(location.H, location.V))
+            {
+                return;
+            }
+
+            if (structure.PlacementKind == SpriteContributionPlacementKind.RoadAccessory
+                && !world.Transport.HasRoad(location.H, location.V))
+            {
+                return;
+            }
+
+            world.AddEntity(ModernPlacedEntity.Structure(
+                location.H,
+                location.V,
+                location.Z,
+                structure,
+                structureFrame),
+                allowTransportOverlap);
             return;
         }
 
@@ -1875,6 +1944,19 @@ public sealed class MapViewport : Control, IDisposable
             .First()
             .Index;
         return preferred;
+    }
+
+    private static int StructurePlacementPriority(SpriteContributionPlacementKind kind)
+    {
+        return kind switch
+        {
+            SpriteContributionPlacementKind.Structure => 0,
+            SpriteContributionPlacementKind.VariableHeightBuilding => 1,
+            SpriteContributionPlacementKind.RailStationary => 2,
+            SpriteContributionPlacementKind.RoadAccessory => 3,
+            SpriteContributionPlacementKind.ElectricPole => 4,
+            _ => 9
+        };
     }
 
     private static string? FindRailRoadCrossingPath(LegacyAssetCatalog assets, PluginManifestCatalog plugins)

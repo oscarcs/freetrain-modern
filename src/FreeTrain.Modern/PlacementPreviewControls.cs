@@ -78,6 +78,40 @@ internal abstract class PlacementPreviewControl : Control, IDisposable
         }
     }
 
+    protected void DrawSpriteSet3D(DrawingContext context, ModernSpriteSet3D spriteSet)
+    {
+        Rect? sourceBounds = null;
+        foreach (ModernSpriteVoxel3D voxel in spriteSet.InVoxelDrawOrder())
+        {
+            Rect frameBounds = GetVoxelDestination(voxel);
+            sourceBounds = sourceBounds is null ? frameBounds : sourceBounds.Value.Union(frameBounds);
+        }
+
+        if (sourceBounds is null || sourceBounds.Value.Width <= 0 || sourceBounds.Value.Height <= 0)
+        {
+            return;
+        }
+
+        double scale = Math.Min(1.0, Math.Min((Bounds.Width - 12) / sourceBounds.Value.Width, (Bounds.Height - 10) / sourceBounds.Value.Height));
+        Point origin = new(
+            (Bounds.Width - sourceBounds.Value.Width * scale) / 2 - sourceBounds.Value.X * scale,
+            6 + (Bounds.Height - 10 - sourceBounds.Value.Height * scale) / 2 - sourceBounds.Value.Y * scale);
+
+        using (context.PushTransform(Matrix.CreateScale(scale, scale)))
+        {
+            foreach (ModernSpriteVoxel3D voxel in spriteSet.InVoxelDrawOrder())
+            {
+                if (!voxel.Frame.IsLoadable)
+                {
+                    continue;
+                }
+
+                Point voxelPoint = GetVoxelPoint(voxel.X, voxel.Y, voxel.Z);
+                DrawSpriteFrame(context, voxel.Frame, new Point(origin.X / scale + voxelPoint.X, origin.Y / scale + voxelPoint.Y), Bounds.Width / scale, Bounds.Height / scale);
+            }
+        }
+    }
+
     protected Bitmap GetBitmap(string path)
     {
         if (!bitmaps.TryGetValue(path, out Bitmap? bitmap))
@@ -109,9 +143,24 @@ internal abstract class PlacementPreviewControl : Control, IDisposable
             Math.Max(0, voxel.Frame.SourceHeight));
     }
 
+    private static Rect GetVoxelDestination(ModernSpriteVoxel3D voxel)
+    {
+        Point voxelPoint = GetVoxelPoint(voxel.X, voxel.Y, voxel.Z);
+        return new Rect(
+            voxelPoint.X - voxel.Frame.OffsetX,
+            voxelPoint.Y - voxel.Frame.OffsetY,
+            Math.Max(0, voxel.Frame.SourceWidth),
+            Math.Max(0, voxel.Frame.SourceHeight));
+    }
+
     private static Point GetVoxelPoint(int x, int y)
     {
         return new Point((x + y) * 16, (-x + y) * 8);
+    }
+
+    private static Point GetVoxelPoint(int x, int y, int z)
+    {
+        return new Point((x + y) * 16, (-x + y) * 8 - z * 16);
     }
 
     public void Dispose()
@@ -212,6 +261,31 @@ internal sealed class StationPlacementPreviewControl : PlacementPreviewControl
         if (station.Frame is { IsLoadable: true } frame)
         {
             DrawSpriteFrame(context, frame, new Point(62, 42), Bounds.Width - 12, Bounds.Height - 10);
+        }
+    }
+}
+
+internal sealed class StructurePlacementPreviewControl : PlacementPreviewControl
+{
+    private readonly SpriteContribution structure;
+
+    public StructurePlacementPreviewControl(SpriteContribution structure)
+    {
+        this.structure = structure;
+    }
+
+    public override void Render(DrawingContext context)
+    {
+        base.Render(context);
+        if (structure.SpriteSet3D is { IsLoadable: true } spriteSet)
+        {
+            DrawSpriteSet3D(context, spriteSet);
+            return;
+        }
+
+        if (structure.Frames.FirstOrDefault(frame => frame.IsLoadable) is { } frame)
+        {
+            DrawSpriteFrame(context, frame, new Point(62, 44), Bounds.Width - 12, Bounds.Height - 10);
         }
     }
 }

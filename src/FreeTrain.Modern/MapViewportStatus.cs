@@ -8,6 +8,7 @@ public sealed record MapViewportStatus(
     MapEditMode EditMode,
     string ActiveRoadName,
     string ActiveStationName,
+    string ActiveStructureName,
     string ActivePlatformDescription,
     string ActiveTrainName,
     ModernWorldClock Clock,

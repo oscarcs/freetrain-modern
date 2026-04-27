@@ -38,6 +38,7 @@ public sealed class MainWindow : Window
     private Border railContextPanel = null!;
     private Border roadContextPanel = null!;
     private Border stationContextPanel = null!;
+    private Border structureContextPanel = null!;
     private Border platformContextPanel = null!;
     private Border trainContextPanel = null!;
     private Border terrainContextPanel = null!;
@@ -396,6 +397,7 @@ public sealed class MainWindow : Window
         primaryTools.Children.Add(ModeButton(ToolbarIcon(0, ToolGlyphKind.Rail), MapEditMode.Rail, "Rail: place track between selected tiles"));
         primaryTools.Children.Add(ModeButton(new ToolGlyph(ToolGlyphKind.Road, 22), MapEditMode.Road, "Road: place road between selected tiles"));
         primaryTools.Children.Add(ModeButton(new ToolGlyph(ToolGlyphKind.Station, 22), MapEditMode.Station, "Station: build station buildings"));
+        primaryTools.Children.Add(ModeButton(new ToolGlyph(ToolGlyphKind.Structure, 22), MapEditMode.Structure, "Structure: build plugin structures and accessories"));
         primaryTools.Children.Add(ModeButton(new ToolGlyph(ToolGlyphKind.Platform, 22), MapEditMode.Platform, "Platform: build station platforms on rail"));
         primaryTools.Children.Add(ModeButton(new ToolGlyph(ToolGlyphKind.Train, 22), MapEditMode.Train, "Train: place a train on rail"));
         primaryTools.Children.Add(ModeButton(ToolbarIcon(7, ToolGlyphKind.Terrain), MapEditMode.Terrain, "Terrain: raise or lower corners"));
@@ -490,6 +492,9 @@ public sealed class MainWindow : Window
         stationContextPanel = ContextPanel("Station Building",
             ToolButton("<", (_, _) => mapViewport.SelectPreviousStation(), "Previous station contribution"),
             ToolButton(">", (_, _) => mapViewport.SelectNextStation(), "Next station contribution"));
+        structureContextPanel = ContextPanel("Structure",
+            ToolButton("<", (_, _) => mapViewport.SelectPreviousStructure(), "Previous structure contribution"),
+            ToolButton(">", (_, _) => mapViewport.SelectNextStructure(), "Next structure contribution"));
         platformContextPanel = ContextPanel("Platform",
             ToolButton("-", (_, _) => mapViewport.ChangePlatformLength(-1), "Shorter platform"),
             ToolButton("+", (_, _) => mapViewport.ChangePlatformLength(1), "Longer platform"),
@@ -506,6 +511,7 @@ public sealed class MainWindow : Window
         contextGrid.Children.Add(railContextPanel);
         contextGrid.Children.Add(roadContextPanel);
         contextGrid.Children.Add(stationContextPanel);
+        contextGrid.Children.Add(structureContextPanel);
         contextGrid.Children.Add(platformContextPanel);
         contextGrid.Children.Add(trainContextPanel);
         contextGrid.Children.Add(terrainContextPanel);
@@ -676,6 +682,7 @@ public sealed class MainWindow : Window
                 new TabItem { Header = "Assets", Content = BuildAssetDebugBrowser() },
                 new TabItem { Header = "Pictures", Content = BuildPictureContributionBrowser() },
                 new TabItem { Header = "Sprites", Content = BuildSpriteContributionBrowser() },
+                new TabItem { Header = "Structures", Content = BuildStructureContributionBrowser() },
                 new TabItem { Header = "Roads", Content = BuildRoadContributionBrowser() },
                 new TabItem { Header = "Plugins", Content = BuildPluginBrowser() }
             }
@@ -963,6 +970,58 @@ public sealed class MainWindow : Window
         return panel;
     }
 
+    private Control BuildStructureContributionBrowser()
+    {
+        IReadOnlyList<SpriteContribution> loadableStructures = plugins.Structures
+            .Concat(plugins.RailStationaries)
+            .Concat(plugins.RoadAccessories)
+            .Concat(plugins.ElectricPoles)
+            .Where(sprite => sprite.IsLoadable)
+            .OrderBy(sprite => sprite.PlacementKind)
+            .ThenBy(sprite => sprite.Group, StringComparer.OrdinalIgnoreCase)
+            .ThenBy(sprite => sprite.DisplayName, StringComparer.OrdinalIgnoreCase)
+            .Take(600)
+            .ToList()
+            .AsReadOnly();
+
+        DockPanel panel = new()
+        {
+            Margin = new Thickness(10)
+        };
+
+        TextBlock summary = new()
+        {
+            Text = $"{loadableStructures.Count} loadable structure/accessory contributions shown | {plugins.Structures.Count} structures | {plugins.RailStationaries.Count} rail accessories | {plugins.RoadAccessories.Count} road accessories | {plugins.ElectricPoles.Count} electric poles",
+            Foreground = TextBrush,
+            FontWeight = FontWeight.Bold,
+            Margin = new Thickness(0, 0, 0, 8)
+        };
+        DockPanel.SetDock(summary, Dock.Top);
+        panel.Children.Add(summary);
+
+        WrapPanel wrap = new()
+        {
+            ItemWidth = 164,
+            ItemHeight = 144
+        };
+
+        foreach (SpriteContribution structure in loadableStructures)
+        {
+            SpriteContributionPreview preview = new(structure);
+            ToolTip.SetTip(preview, $"{structure.DisplayName}\n{structure.PlacementKind} / {structure.Type}\n{structure.PluginDirectoryName}/{structure.Id}");
+            wrap.Children.Add(preview);
+        }
+
+        panel.Children.Add(new ScrollViewer
+        {
+            Content = wrap,
+            HorizontalScrollBarVisibility = ScrollBarVisibility.Disabled,
+            VerticalScrollBarVisibility = ScrollBarVisibility.Auto
+        });
+
+        return panel;
+    }
+
     private Control BuildSpriteContributionBrowser()
     {
         IReadOnlyList<SpriteContribution> loadableSprites = plugins.Sprites
@@ -1085,6 +1144,11 @@ public sealed class MainWindow : Window
                 station.DisplayName,
                 $"{station.SizeH}x{station.SizeV} | {FormatMoney(station.OperationCost)} upkeep",
                 () => new StationPlacementPreviewControl(station)),
+            MapEditMode.Structure when mapViewport.ActiveStructureContribution is { } structure => (
+                $"structure:{structure.Id}",
+                structure.DisplayName,
+                StructureDetail(structure),
+                () => new StructurePlacementPreviewControl(structure)),
             MapEditMode.Platform => (
                 $"platform:{status.ActivePlatformDescription}",
                 PlatformTitle,
@@ -1109,6 +1173,7 @@ public sealed class MainWindow : Window
 
         bool hasPreview = status.EditMode is MapEditMode.Road
             or MapEditMode.Station
+            or MapEditMode.Structure
             or MapEditMode.Platform
             or MapEditMode.Train
             or MapEditMode.Terrain;
@@ -1152,6 +1217,23 @@ public sealed class MainWindow : Window
             : road.Kind.ToString();
     }
 
+    private static string StructureDetail(SpriteContribution structure)
+    {
+        string kind = structure.PlacementKind switch
+        {
+            SpriteContributionPlacementKind.RailStationary => "rail accessory",
+            SpriteContributionPlacementKind.RoadAccessory => "road accessory",
+            SpriteContributionPlacementKind.ElectricPole => "electric pole",
+            SpriteContributionPlacementKind.VariableHeightBuilding => "variable-height building",
+            _ => "structure"
+        };
+        int height = Math.Max(structure.Height, structure.MaxHeight);
+        string size = $"{Math.Max(1, structure.SizeX)}x{Math.Max(1, structure.SizeY)}";
+        string price = structure.Price > 0 ? $" | {FormatMoney(structure.Price)}" : "";
+        string population = structure.PopulationBase > 0 ? $" | pop {structure.PopulationBase:N0}" : "";
+        return $"{kind}, {size}x{Math.Max(1, height)}{price}{population}";
+    }
+
     private static (string Title, string Detail) PlatformPreviewLabels(string description)
     {
         string[] parts = description.Split(", ", 3, StringSplitOptions.TrimEntries);
@@ -1168,10 +1250,11 @@ public sealed class MainWindow : Window
             MapEditMode.Rail => 1,
             MapEditMode.Road => 2,
             MapEditMode.Station => 3,
-            MapEditMode.Platform => 4,
-            MapEditMode.Train => 5,
-            MapEditMode.Terrain => 6,
-            MapEditMode.Erase => 7,
+            MapEditMode.Structure => 4,
+            MapEditMode.Platform => 5,
+            MapEditMode.Train => 6,
+            MapEditMode.Terrain => 7,
+            MapEditMode.Erase => 8,
             _ => 0
         };
         return 6 + index * 44;
@@ -1194,6 +1277,7 @@ public sealed class MainWindow : Window
         railContextPanel.IsVisible = activeMode == MapEditMode.Rail;
         roadContextPanel.IsVisible = activeMode == MapEditMode.Road;
         stationContextPanel.IsVisible = activeMode == MapEditMode.Station;
+        structureContextPanel.IsVisible = activeMode == MapEditMode.Structure;
         platformContextPanel.IsVisible = activeMode == MapEditMode.Platform;
         trainContextPanel.IsVisible = activeMode == MapEditMode.Train;
         terrainContextPanel.IsVisible = activeMode == MapEditMode.Terrain;
@@ -1397,6 +1481,7 @@ public sealed class MainWindow : Window
         Road,
         Rail,
         Station,
+        Structure,
         Platform,
         Train,
         Terrain,
@@ -1495,6 +1580,13 @@ public sealed class MainWindow : Window
                     context.DrawRectangle(brush, null, new Rect(w * 0.30, h * 0.40, w * 0.40, h * 0.28));
                     DrawPolygon(context, brush, new Point(w * 0.24, h * 0.42), new Point(w * 0.50, h * 0.24), new Point(w * 0.76, h * 0.42));
                     context.DrawRectangle(Brushes.White, null, new Rect(w * 0.46, h * 0.52, w * 0.08, h * 0.16));
+                    break;
+                case ToolGlyphKind.Structure:
+                    DrawDiamond(context, new SolidColorBrush(Color.FromRgb(210, 203, 186)), new Pen(brush, 1.5), w, h);
+                    context.DrawRectangle(brush, null, new Rect(w * 0.28, h * 0.42, w * 0.44, h * 0.26));
+                    context.DrawRectangle(brush, null, new Rect(w * 0.36, h * 0.26, w * 0.28, h * 0.18));
+                    context.DrawLine(new Pen(Brushes.White, 1.5), new Point(w * 0.42, h * 0.47), new Point(w * 0.42, h * 0.62));
+                    context.DrawLine(new Pen(Brushes.White, 1.5), new Point(w * 0.58, h * 0.47), new Point(w * 0.58, h * 0.62));
                     break;
                 case ToolGlyphKind.Platform:
                     DrawDiamond(context, new SolidColorBrush(Color.FromRgb(190, 187, 172)), new Pen(brush, 1.5), w, h);
