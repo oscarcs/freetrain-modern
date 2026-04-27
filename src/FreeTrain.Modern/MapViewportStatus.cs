@@ -6,6 +6,7 @@ public sealed record MapViewportStatus(
     TileLocation? SelectedLocation,
     TileLocation? BuildAnchorLocation,
     MapEditMode EditMode,
+    string ActiveRailName,
     string ActiveRoadName,
     string ActiveStationName,
     string ActiveStructureName,

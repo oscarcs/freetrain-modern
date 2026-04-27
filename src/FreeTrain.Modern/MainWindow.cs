@@ -485,7 +485,9 @@ public sealed class MainWindow : Window
             VerticalAlignment = VerticalAlignment.Top
         };
         selectContextPanel = ContextPanel("Selection");
-        railContextPanel = ContextPanel("Rail");
+        railContextPanel = ContextPanel("Rail",
+            ToolButton("<", (_, _) => mapViewport.SelectPreviousSpecialRail(), "Previous rail type"),
+            ToolButton(">", (_, _) => mapViewport.SelectNextSpecialRail(), "Next rail type"));
         roadContextPanel = ContextPanel("Road",
             ToolButton("<", (_, _) => mapViewport.SelectPreviousRoad(), "Previous road contribution"),
             ToolButton(">", (_, _) => mapViewport.SelectNextRoad(), "Next road contribution"));
@@ -494,7 +496,8 @@ public sealed class MainWindow : Window
             ToolButton(">", (_, _) => mapViewport.SelectNextStation(), "Next station contribution"));
         structureContextPanel = ContextPanel("Structure",
             ToolButton("<", (_, _) => mapViewport.SelectPreviousStructure(), "Previous structure contribution"),
-            ToolButton(">", (_, _) => mapViewport.SelectNextStructure(), "Next structure contribution"));
+            ToolButton(">", (_, _) => mapViewport.SelectNextStructure(), "Next structure contribution"),
+            ToolButton("Dir", (_, _) => mapViewport.CycleStructureVariant(), "Cycle structure/accessory variant"));
         platformContextPanel = ContextPanel("Platform",
             ToolButton("-", (_, _) => mapViewport.ChangePlatformLength(-1), "Shorter platform"),
             ToolButton("+", (_, _) => mapViewport.ChangePlatformLength(1), "Longer platform"),
@@ -684,6 +687,7 @@ public sealed class MainWindow : Window
                 new TabItem { Header = "Sprites", Content = BuildSpriteContributionBrowser() },
                 new TabItem { Header = "Structures", Content = BuildStructureContributionBrowser() },
                 new TabItem { Header = "Roads", Content = BuildRoadContributionBrowser() },
+                new TabItem { Header = "Metadata", Content = BuildContributionMetadataBrowser() },
                 new TabItem { Header = "Plugins", Content = BuildPluginBrowser() }
             }
         };
@@ -906,6 +910,26 @@ public sealed class MainWindow : Window
             .ThenBy(group => group.Key, StringComparer.OrdinalIgnoreCase)
             .Select(group => $"{group.Key}: {group.Count()}"));
 
+        string parsedSummary = string.Join("\n", new[]
+        {
+            ("factories", plugin.ContributionFactories.Count),
+            ("menus", plugin.Menus.Count),
+            ("docking", plugin.DockingContents.Count),
+            ("account genres", plugin.AccountGenres.Count),
+            ("special rails", plugin.SpecialRails.Count),
+            ("special structures", plugin.SpecialStructures.Count),
+            ("train controllers", plugin.TrainControllers.Count),
+            ("new games", plugin.NewGames.Count),
+            ("sprite factories", plugin.SpriteFactories.Count),
+            ("sprite loaders", plugin.SpriteLoaders.Count),
+            ("color libraries", plugin.ColorLibraries.Count),
+            ("color-map train pictures", plugin.ColorMapTrainPictures.Count),
+            ("departure bells", plugin.TrainDepartureBells.Count),
+            ("rail signals", plugin.RailSignals.Count),
+            ("dummy cars", plugin.DummyCars.Count),
+            ("half-voxel structures", plugin.HalfVoxelStructures.Count)
+        }.Where(item => item.Count > 0).Select(item => $"{item.Item1}: {item.Count}"));
+
         panel.Children.Add(new TextBlock
         {
             Text = contributionSummary.Length == 0 ? "No parsed contributions." : contributionSummary,
@@ -914,6 +938,17 @@ public sealed class MainWindow : Window
             FontSize = 12,
             TextWrapping = TextWrapping.Wrap
         });
+        if (parsedSummary.Length > 0)
+        {
+            panel.Children.Add(new TextBlock
+            {
+                Text = parsedSummary,
+                Foreground = DebugMutedBrush,
+                FontFamily = FontFamily.Parse("Menlo, Consolas, monospace"),
+                FontSize = 12,
+                TextWrapping = TextWrapping.Wrap
+            });
+        }
 
         return new Border
         {
@@ -922,6 +957,127 @@ public sealed class MainWindow : Window
             Padding = new Thickness(10),
             Child = new ScrollViewer { Content = panel }
         };
+    }
+
+    private Control BuildContributionMetadataBrowser()
+    {
+        StackPanel panel = new()
+        {
+            Spacing = 10,
+            Margin = new Thickness(10)
+        };
+
+        panel.Children.Add(DebugSection("Runtime hooks",
+            ("Contribution factories", plugins.ContributionFactories.Count),
+            ("Menus", plugins.Menus.Count),
+            ("Docking contents", plugins.DockingContents.Count),
+            ("New-game providers", plugins.NewGames.Count),
+            ("Train controllers", plugins.TrainControllers.Count)));
+        panel.Children.Add(DebugSection("Simulation extensions",
+            ("Account genres", plugins.AccountGenres.Count),
+            ("Special rails", plugins.SpecialRails.Count),
+            ("Special structures", plugins.SpecialStructures.Count),
+            ("Rail signals", plugins.RailSignals.Count),
+            ("Dummy cars", plugins.DummyCars.Count),
+            ("Half-voxel structures", plugins.HalfVoxelStructures.Count)));
+        panel.Children.Add(DebugSection("Graphics helpers",
+            ("Sprite factories", plugins.SpriteFactories.Count),
+            ("Sprite loaders", plugins.SpriteLoaders.Count),
+            ("Color libraries", plugins.ColorLibraries.Count),
+            ("Color-map train pictures", plugins.ColorMapTrainPictures.Count),
+            ("Departure bells", plugins.TrainDepartureBells.Count)));
+
+        panel.Children.Add(DebugList("Special rails", plugins.SpecialRails
+            .Take(40)
+            .Select(rail => $"{rail.PluginDirectoryName}: {rail.Class.Name}")));
+        panel.Children.Add(DebugList("Train controllers", plugins.TrainControllers
+            .Take(40)
+            .Select(controller => $"{controller.PluginDirectoryName}: {FallbackName(controller.Name, controller.Class.Name)}")));
+        panel.Children.Add(DebugList("New games", plugins.NewGames
+            .Take(40)
+            .Select(newGame => $"{newGame.PluginDirectoryName}: {FallbackName(newGame.Name, newGame.Class.Name)}")));
+        panel.Children.Add(DebugList("Signals and vehicles", plugins.RailSignals
+            .Take(25)
+            .Select(signal => $"{signal.PluginDirectoryName}: {signal.Name} ({signal.Side})")
+            .Concat(plugins.DummyCars.Take(25).Select(car => $"{car.PluginDirectoryName}: {car.Name}"))));
+
+        return new ScrollViewer { Content = panel };
+    }
+
+    private static Control DebugSection(string title, params (string Label, int Count)[] counts)
+    {
+        Grid grid = new()
+        {
+            ColumnDefinitions = new ColumnDefinitions("*,Auto"),
+            RowDefinitions = new RowDefinitions(string.Join(",", Enumerable.Repeat("Auto", counts.Length + 1))),
+            Margin = new Thickness(0, 0, 0, 2)
+        };
+
+        TextBlock header = new()
+        {
+            Text = title,
+            Foreground = TextBrush,
+            FontWeight = FontWeight.Bold,
+            FontSize = 14
+        };
+        Grid.SetColumnSpan(header, 2);
+        grid.Children.Add(header);
+
+        for (int i = 0; i < counts.Length; i++)
+        {
+            TextBlock label = new()
+            {
+                Text = counts[i].Label,
+                Foreground = DebugMutedBrush,
+                Margin = new Thickness(0, 4, 18, 0)
+            };
+            TextBlock value = new()
+            {
+                Text = counts[i].Count.ToString("N0"),
+                Foreground = TextBrush,
+                FontFamily = FontFamily.Parse("Menlo, Consolas, monospace"),
+                Margin = new Thickness(0, 4, 0, 0)
+            };
+            Grid.SetRow(label, i + 1);
+            Grid.SetRow(value, i + 1);
+            Grid.SetColumn(value, 1);
+            grid.Children.Add(label);
+            grid.Children.Add(value);
+        }
+
+        return new Border
+        {
+            Background = ChromeRaisedBrush,
+            CornerRadius = new CornerRadius(6),
+            Padding = new Thickness(10),
+            Child = grid
+        };
+    }
+
+    private static Control DebugList(string title, IEnumerable<string> lines)
+    {
+        string text = string.Join("\n", lines.Where(line => !string.IsNullOrWhiteSpace(line)));
+        return new Border
+        {
+            Background = ChromeRaisedBrush,
+            CornerRadius = new CornerRadius(6),
+            Padding = new Thickness(10),
+            Child = new TextBlock
+            {
+                Text = text.Length == 0 ? $"{title}: none" : $"{title}\n{text}",
+                Foreground = TextBrush,
+                FontFamily = FontFamily.Parse("Menlo, Consolas, monospace"),
+                FontSize = 12,
+                TextWrapping = TextWrapping.Wrap
+            }
+        };
+    }
+
+    private static string FallbackName(string primary, string fallback)
+    {
+        return !string.IsNullOrWhiteSpace(primary)
+            ? primary
+            : string.IsNullOrWhiteSpace(fallback) ? "(unnamed)" : fallback;
     }
 
     private Control BuildPictureContributionBrowser()
@@ -1134,6 +1290,11 @@ public sealed class MainWindow : Window
         (string PlatformTitle, string PlatformDetail) = PlatformPreviewLabels(status.ActivePlatformDescription);
         (string Key, string Title, string Detail, Func<Control> Create) preview = status.EditMode switch
         {
+            MapEditMode.Rail => (
+                $"rail:{status.ActiveRailName}",
+                status.ActiveRailName,
+                "Click and drag a rail line",
+                () => new RailPlacementPreviewControl()),
             MapEditMode.Road when mapViewport.ActiveRoadContribution is { } road => (
                 $"road:{road.Id}",
                 road.DisplayName,

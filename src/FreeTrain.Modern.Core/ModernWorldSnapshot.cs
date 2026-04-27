@@ -22,7 +22,12 @@ public sealed record ModernWorldSnapshot(
     public int Version { get; init; } = CurrentVersion;
 }
 
-public sealed record ModernRailSnapshot(int H, int V);
+public sealed record ModernRailSnapshot(
+    int H,
+    int V,
+    ModernSpecialRailKind SpecialKind = ModernSpecialRailKind.Normal,
+    IReadOnlyList<int>? TerrainFineHeights = null,
+    int? Z = null);
 
 public sealed record ModernRoadSnapshot(int H, int V, string RoadContributionId);
 
@@ -89,4 +94,6 @@ public sealed record ModernTrainSnapshot(
     int PassengerCount = 0,
     ModernVoxelKey? PassengerSourceLocation = null,
     string? CurrentStopPlatformId = null,
-    string? LastStoppedPlatformId = null);
+    string? LastStoppedPlatformId = null,
+    ModernVoxelKey? GarageLocation = null,
+    int? GarageDirectionIndex = null);

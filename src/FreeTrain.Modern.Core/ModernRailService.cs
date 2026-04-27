@@ -14,7 +14,8 @@ public enum ModernTrainState
     Unplaced,
     Moving,
     StoppingAtStation,
-    EmergencyStopping
+    EmergencyStopping,
+    InGarage
 }
 
 public sealed record ModernTransportLog(
@@ -347,9 +348,12 @@ public sealed record ModernTrain(
     int PassengerCount = 0,
     ModernVoxelKey? PassengerSourceLocation = null,
     string? CurrentStopPlatformId = null,
-    string? LastStoppedPlatformId = null)
+    string? LastStoppedPlatformId = null,
+    ModernVoxelKey? GarageLocation = null,
+    int? GarageDirectionIndex = null)
 {
     public bool IsPlaced => Cars.Count > 0;
+    public bool IsInGarage => State == ModernTrainState.InGarage && GarageLocation is not null;
     public ModernTrainCarPlacement? Head => Cars.Count == 0 ? null : Cars[0];
     public int Length => Math.Max(1, Cars.Count);
     public int EffectivePassengerCapacity => PassengerCapacity > 0 ? PassengerCapacity : Length * 100;

@@ -1,6 +1,21 @@
 namespace FreeTrain.Modern;
 
-public sealed record MapRailObject(int H, int V, RailPatternDefinition Pattern);
+public enum ModernSpecialRailKind
+{
+    Normal,
+    Bridge,
+    SteelSupported,
+    Tunnel,
+    Garage,
+    Unsupported
+}
+
+public sealed record MapRailObject(
+    int H,
+    int V,
+    int Z,
+    RailPatternDefinition Pattern,
+    ModernSpecialRailKind SpecialKind = ModernSpecialRailKind.Normal);
 
 public enum ModernRailRoadKind
 {

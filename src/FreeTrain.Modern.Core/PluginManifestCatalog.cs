@@ -7,6 +7,180 @@ namespace FreeTrain.Modern;
 
 public sealed record ContributionSummary(string Type, string Id, string Name);
 
+public sealed record PluginClassReference(
+    string Name,
+    string Codebase);
+
+public sealed record ContributionFactoryDefinition(
+    string PluginDirectoryName,
+    string PluginTitle,
+    string Id,
+    string Name,
+    PluginClassReference FactoryClass,
+    PluginClassReference Implementation);
+
+public sealed record MenuContribution(
+    string PluginDirectoryName,
+    string PluginTitle,
+    string Id,
+    string Name,
+    PluginClassReference Class);
+
+public sealed record DockingContribution(
+    string PluginDirectoryName,
+    string PluginTitle,
+    string Id,
+    string Name,
+    string MenuName,
+    string MenuLocation,
+    int? MenuPosition,
+    bool AllowsMultiple,
+    PluginClassReference Class);
+
+public sealed record AccountGenreContribution(
+    string PluginDirectoryName,
+    string PluginTitle,
+    string Id,
+    string Name);
+
+public sealed record SpecialRailContribution(
+    string PluginDirectoryName,
+    string PluginTitle,
+    string Id,
+    string Name,
+    string Description,
+    ModernSpecialRailKind Kind,
+    PluginClassReference Class);
+
+public sealed record SpecialStructureContribution(
+    string PluginDirectoryName,
+    string PluginTitle,
+    string Id,
+    string Name,
+    string Description,
+    PluginClassReference Class);
+
+public sealed record TrainControllerContribution(
+    string PluginDirectoryName,
+    string PluginTitle,
+    string Id,
+    string Name,
+    string Description,
+    PluginClassReference Class);
+
+public sealed record NewGameContribution(
+    string PluginDirectoryName,
+    string PluginTitle,
+    string Id,
+    string Name,
+    string Author,
+    string Description,
+    PluginClassReference Class);
+
+public sealed record SpriteFactoryContribution(
+    string PluginDirectoryName,
+    string PluginTitle,
+    string Id,
+    PluginClassReference Class);
+
+public sealed record SpriteLoaderContribution(
+    string PluginDirectoryName,
+    string PluginTitle,
+    string Id,
+    PluginClassReference Class);
+
+public sealed record ColorLibraryContribution(
+    string PluginDirectoryName,
+    string PluginTitle,
+    string Id,
+    string Name,
+    IReadOnlyList<string> Colors);
+
+public sealed record ColorMapTrainPictureContribution(
+    string PluginDirectoryName,
+    string PluginTitle,
+    string Id,
+    string Name,
+    string Author,
+    SpriteFrame? Frame,
+    string? Error)
+{
+    public bool IsLoadable => Frame?.IsLoadable == true;
+}
+
+public sealed record TrainDepartureBellContribution(
+    string PluginDirectoryName,
+    string PluginTitle,
+    string Id,
+    string Name,
+    string SoundSource,
+    string ResolvedPath,
+    string? Error)
+{
+    public bool IsLoadable => Error is null && File.Exists(ResolvedPath);
+}
+
+public sealed record RailSignalContribution(
+    string PluginDirectoryName,
+    string PluginTitle,
+    string Id,
+    string Name,
+    string Side,
+    SpriteFrame? Frame,
+    string? Error)
+{
+    public bool IsLoadable => Frame?.IsLoadable == true;
+}
+
+public sealed record DummyCarVariation(IReadOnlyList<ColorMapEntry> ColorMaps);
+
+public sealed record DummyCarContribution(
+    string PluginDirectoryName,
+    string PluginTitle,
+    string Id,
+    string Name,
+    SpriteFrame? EastWestFrame,
+    SpriteFrame? NorthSouthFrame,
+    IReadOnlyList<DummyCarVariation> Variations,
+    string? Error)
+{
+    public bool IsLoadable => EastWestFrame?.IsLoadable == true || NorthSouthFrame?.IsLoadable == true;
+}
+
+public sealed record HalfVoxelPattern(
+    string Direction,
+    string Side,
+    SpriteFrame Frame,
+    IReadOnlyList<SpriteFrame> Highlights);
+
+public sealed record HalfVoxelStructureContribution(
+    string PluginDirectoryName,
+    string PluginTitle,
+    string Id,
+    string Group,
+    string Subgroup,
+    string Name,
+    int Price,
+    int Height,
+    int PopulationBase,
+    string? ColorLibraryId,
+    IReadOnlyList<HalfVoxelPattern> Patterns,
+    string? Error)
+{
+    public bool IsLoadable => Patterns.Any(pattern => pattern.Frame.IsLoadable);
+    public string DisplayName => !string.IsNullOrWhiteSpace(Name)
+        ? Name
+        : !string.IsNullOrWhiteSpace(Subgroup)
+            ? Subgroup
+            : !string.IsNullOrWhiteSpace(Group)
+                ? Group
+                : string.IsNullOrWhiteSpace(PluginTitle)
+                    ? PluginDirectoryName
+                    : PluginTitle;
+}
+
+public sealed record ColorMapEntry(string From, string To);
+
 public sealed record PictureContribution(
     string PluginDirectoryName,
     string PluginTitle,
@@ -107,6 +281,22 @@ public sealed record PluginManifest(
     IReadOnlyList<StationContribution> Stations,
     IReadOnlyList<TrainCarContribution> TrainCars,
     IReadOnlyList<TrainContribution> Trains,
+    IReadOnlyList<ContributionFactoryDefinition> ContributionFactories,
+    IReadOnlyList<MenuContribution> Menus,
+    IReadOnlyList<DockingContribution> DockingContents,
+    IReadOnlyList<AccountGenreContribution> AccountGenres,
+    IReadOnlyList<SpecialRailContribution> SpecialRails,
+    IReadOnlyList<SpecialStructureContribution> SpecialStructures,
+    IReadOnlyList<TrainControllerContribution> TrainControllers,
+    IReadOnlyList<NewGameContribution> NewGames,
+    IReadOnlyList<SpriteFactoryContribution> SpriteFactories,
+    IReadOnlyList<SpriteLoaderContribution> SpriteLoaders,
+    IReadOnlyList<ColorLibraryContribution> ColorLibraries,
+    IReadOnlyList<ColorMapTrainPictureContribution> ColorMapTrainPictures,
+    IReadOnlyList<TrainDepartureBellContribution> TrainDepartureBells,
+    IReadOnlyList<RailSignalContribution> RailSignals,
+    IReadOnlyList<DummyCarContribution> DummyCars,
+    IReadOnlyList<HalfVoxelStructureContribution> HalfVoxelStructures,
     string? Error)
 {
     public bool IsLoaded => Error is null;
@@ -201,6 +391,40 @@ public sealed class PluginManifestCatalog
             .ThenBy(train => train.DisplayName, StringComparer.OrdinalIgnoreCase)
             .ToList()
             .AsReadOnly();
+        ContributionFactories = Plugins
+            .SelectMany(plugin => plugin.ContributionFactories)
+            .OrderBy(factory => factory.Name, StringComparer.OrdinalIgnoreCase)
+            .ThenBy(factory => factory.Id, StringComparer.OrdinalIgnoreCase)
+            .ToList()
+            .AsReadOnly();
+        Menus = SortByPluginAndName(Plugins.SelectMany(plugin => plugin.Menus), menu => menu.PluginDirectoryName, menu => menu.Name);
+        DockingContents = SortByPluginAndName(Plugins.SelectMany(plugin => plugin.DockingContents), docking => docking.PluginDirectoryName, docking => docking.Name);
+        AccountGenres = SortByPluginAndName(Plugins.SelectMany(plugin => plugin.AccountGenres), genre => genre.PluginDirectoryName, genre => genre.Name);
+        SpecialRails = Plugins
+            .SelectMany(plugin => plugin.SpecialRails)
+            .OrderBy(rail => rail.PluginDirectoryName, StringComparer.OrdinalIgnoreCase)
+            .ThenBy(rail => rail.Class.Name, StringComparer.OrdinalIgnoreCase)
+            .ToList()
+            .AsReadOnly();
+        SpecialStructures = SortByPluginAndName(Plugins.SelectMany(plugin => plugin.SpecialStructures), structure => structure.PluginDirectoryName, structure => structure.Name);
+        TrainControllers = SortByPluginAndName(Plugins.SelectMany(plugin => plugin.TrainControllers), controller => controller.PluginDirectoryName, controller => controller.Name);
+        NewGames = SortByPluginAndName(Plugins.SelectMany(plugin => plugin.NewGames), newGame => newGame.PluginDirectoryName, newGame => newGame.Name);
+        SpriteFactories = Plugins
+            .SelectMany(plugin => plugin.SpriteFactories)
+            .OrderBy(factory => factory.Id, StringComparer.OrdinalIgnoreCase)
+            .ToList()
+            .AsReadOnly();
+        SpriteLoaders = Plugins
+            .SelectMany(plugin => plugin.SpriteLoaders)
+            .OrderBy(loader => loader.Id, StringComparer.OrdinalIgnoreCase)
+            .ToList()
+            .AsReadOnly();
+        ColorLibraries = SortByPluginAndName(Plugins.SelectMany(plugin => plugin.ColorLibraries), library => library.PluginDirectoryName, library => library.Name);
+        ColorMapTrainPictures = SortByPluginAndName(Plugins.SelectMany(plugin => plugin.ColorMapTrainPictures), picture => picture.PluginDirectoryName, picture => picture.Name);
+        TrainDepartureBells = SortByPluginAndName(Plugins.SelectMany(plugin => plugin.TrainDepartureBells), bell => bell.PluginDirectoryName, bell => bell.Name);
+        RailSignals = SortByPluginAndName(Plugins.SelectMany(plugin => plugin.RailSignals), signal => signal.PluginDirectoryName, signal => signal.Name);
+        DummyCars = SortByPluginAndName(Plugins.SelectMany(plugin => plugin.DummyCars), car => car.PluginDirectoryName, car => car.Name);
+        HalfVoxelStructures = SortByPluginAndName(Plugins.SelectMany(plugin => plugin.HalfVoxelStructures), structure => structure.PluginDirectoryName, structure => structure.DisplayName);
     }
 
     public string PluginDirectory { get; }
@@ -220,6 +444,22 @@ public sealed class PluginManifestCatalog
     public IReadOnlyList<StationContribution> Stations { get; }
     public IReadOnlyList<TrainCarContribution> TrainCars { get; }
     public IReadOnlyList<TrainContribution> Trains { get; }
+    public IReadOnlyList<ContributionFactoryDefinition> ContributionFactories { get; }
+    public IReadOnlyList<MenuContribution> Menus { get; }
+    public IReadOnlyList<DockingContribution> DockingContents { get; }
+    public IReadOnlyList<AccountGenreContribution> AccountGenres { get; }
+    public IReadOnlyList<SpecialRailContribution> SpecialRails { get; }
+    public IReadOnlyList<SpecialStructureContribution> SpecialStructures { get; }
+    public IReadOnlyList<TrainControllerContribution> TrainControllers { get; }
+    public IReadOnlyList<NewGameContribution> NewGames { get; }
+    public IReadOnlyList<SpriteFactoryContribution> SpriteFactories { get; }
+    public IReadOnlyList<SpriteLoaderContribution> SpriteLoaders { get; }
+    public IReadOnlyList<ColorLibraryContribution> ColorLibraries { get; }
+    public IReadOnlyList<ColorMapTrainPictureContribution> ColorMapTrainPictures { get; }
+    public IReadOnlyList<TrainDepartureBellContribution> TrainDepartureBells { get; }
+    public IReadOnlyList<RailSignalContribution> RailSignals { get; }
+    public IReadOnlyList<DummyCarContribution> DummyCars { get; }
+    public IReadOnlyList<HalfVoxelStructureContribution> HalfVoxelStructures { get; }
 
     private static ReadOnlyCollection<PluginManifest> LoadPlugins(string pluginDirectory, PluginLocalizationCatalog localization)
     {
@@ -261,8 +501,9 @@ public sealed class PluginManifestCatalog
                 .Where(picture => !string.IsNullOrWhiteSpace(picture.Id))
                 .GroupBy(picture => picture.Id, StringComparer.OrdinalIgnoreCase)
                 .ToDictionary(group => group.Key, group => group.First(), StringComparer.OrdinalIgnoreCase);
-            IReadOnlyList<SpriteContribution> sprites = root.Elements("contribution")
-                .Where(element => !string.Equals(AttributeValue(element, "type"), "picture", StringComparison.OrdinalIgnoreCase))
+            IReadOnlyList<SpriteContribution> baseSprites = root.Elements("contribution")
+                .Where(element => !string.Equals(AttributeValue(element, "type"), "picture", StringComparison.OrdinalIgnoreCase)
+                    && !IsPromotedSpriteContributionType(AttributeValue(element, "type")))
                 .Select(element => ParseSpriteContribution(manifestPath, directoryName, ElementValue(root, "title"), element, pictureLookup))
                 .Where(sprite => sprite.Frames.Count > 0)
                 .ToList()
@@ -292,6 +533,93 @@ public sealed class PluginManifestCatalog
                 .Select(element => ParseTrainContribution(directoryName, ElementValue(root, "title"), element))
                 .ToList()
                 .AsReadOnly();
+            IReadOnlyList<ContributionFactoryDefinition> contributionFactories = root.Elements("contribution")
+                .Where(element => string.Equals(AttributeValue(element, "type"), "contribution", StringComparison.OrdinalIgnoreCase))
+                .Select(element => ParseContributionFactory(directoryName, ElementValue(root, "title"), element))
+                .ToList()
+                .AsReadOnly();
+            IReadOnlyList<MenuContribution> menus = root.Elements("contribution")
+                .Where(element => string.Equals(AttributeValue(element, "type"), "menu", StringComparison.OrdinalIgnoreCase))
+                .Select(element => ParseMenuContribution(directoryName, ElementValue(root, "title"), element))
+                .ToList()
+                .AsReadOnly();
+            IReadOnlyList<DockingContribution> dockingContents = root.Elements("contribution")
+                .Where(element => string.Equals(AttributeValue(element, "type"), "dockingContent", StringComparison.OrdinalIgnoreCase))
+                .Select(element => ParseDockingContribution(directoryName, ElementValue(root, "title"), element))
+                .ToList()
+                .AsReadOnly();
+            IReadOnlyList<AccountGenreContribution> accountGenres = root.Elements("contribution")
+                .Where(element => string.Equals(AttributeValue(element, "type"), "accountGenre", StringComparison.OrdinalIgnoreCase))
+                .Select(element => ParseAccountGenreContribution(directoryName, ElementValue(root, "title"), element))
+                .ToList()
+                .AsReadOnly();
+            IReadOnlyList<SpecialRailContribution> specialRails = root.Elements("contribution")
+                .Where(element => string.Equals(AttributeValue(element, "type"), "specialRail", StringComparison.OrdinalIgnoreCase))
+                .Select(element => ParseSpecialRailContribution(directoryName, ElementValue(root, "title"), element))
+                .ToList()
+                .AsReadOnly();
+            IReadOnlyList<SpecialStructureContribution> specialStructures = root.Elements("contribution")
+                .Where(element => string.Equals(AttributeValue(element, "type"), "specialStructure", StringComparison.OrdinalIgnoreCase))
+                .Select(element => ParseSpecialStructureContribution(directoryName, ElementValue(root, "title"), element))
+                .ToList()
+                .AsReadOnly();
+            IReadOnlyList<TrainControllerContribution> trainControllers = root.Elements("contribution")
+                .Where(element => string.Equals(AttributeValue(element, "type"), "trainController", StringComparison.OrdinalIgnoreCase))
+                .Select(element => ParseTrainControllerContribution(directoryName, ElementValue(root, "title"), element))
+                .ToList()
+                .AsReadOnly();
+            IReadOnlyList<NewGameContribution> newGames = root.Elements("contribution")
+                .Where(element => string.Equals(AttributeValue(element, "type"), "newGame", StringComparison.OrdinalIgnoreCase))
+                .Select(element => ParseNewGameContribution(directoryName, ElementValue(root, "title"), element))
+                .ToList()
+                .AsReadOnly();
+            IReadOnlyList<SpriteFactoryContribution> spriteFactories = root.Elements("contribution")
+                .Where(element => string.Equals(AttributeValue(element, "type"), "spriteFactory", StringComparison.OrdinalIgnoreCase))
+                .Select(element => ParseSpriteFactoryContribution(directoryName, ElementValue(root, "title"), element))
+                .ToList()
+                .AsReadOnly();
+            IReadOnlyList<SpriteLoaderContribution> spriteLoaders = root.Elements("contribution")
+                .Where(element => string.Equals(AttributeValue(element, "type"), "spriteLoader", StringComparison.OrdinalIgnoreCase))
+                .Select(element => ParseSpriteLoaderContribution(directoryName, ElementValue(root, "title"), element))
+                .ToList()
+                .AsReadOnly();
+            IReadOnlyList<ColorLibraryContribution> colorLibraries = root.Elements("contribution")
+                .Where(element => string.Equals(AttributeValue(element, "type"), "ColorLibrary", StringComparison.OrdinalIgnoreCase))
+                .Select(element => ParseColorLibraryContribution(directoryName, ElementValue(root, "title"), element))
+                .ToList()
+                .AsReadOnly();
+            IReadOnlyList<ColorMapTrainPictureContribution> colorMapTrainPictures = root.Elements("contribution")
+                .Where(element => string.Equals(AttributeValue(element, "type"), "colorMapTrainPicture", StringComparison.OrdinalIgnoreCase))
+                .Select(element => ParseColorMapTrainPictureContribution(manifestPath, directoryName, ElementValue(root, "title"), element, pictureLookup))
+                .ToList()
+                .AsReadOnly();
+            IReadOnlyList<TrainDepartureBellContribution> trainDepartureBells = root.Elements("contribution")
+                .Where(element => string.Equals(AttributeValue(element, "type"), "trainDepartureBell", StringComparison.OrdinalIgnoreCase))
+                .Select(element => ParseTrainDepartureBellContribution(manifestPath, directoryName, ElementValue(root, "title"), element))
+                .ToList()
+                .AsReadOnly();
+            IReadOnlyList<RailSignalContribution> railSignals = root.Elements("contribution")
+                .Where(element => string.Equals(AttributeValue(element, "type"), "railSignal", StringComparison.OrdinalIgnoreCase))
+                .Select(element => ParseRailSignalContribution(manifestPath, directoryName, ElementValue(root, "title"), element, pictureLookup))
+                .ToList()
+                .AsReadOnly();
+            IReadOnlyList<DummyCarContribution> dummyCars = root.Elements("contribution")
+                .Where(element => string.Equals(AttributeValue(element, "type"), "DummyCar", StringComparison.OrdinalIgnoreCase))
+                .Select(element => ParseDummyCarContribution(manifestPath, directoryName, ElementValue(root, "title"), element, pictureLookup))
+                .ToList()
+                .AsReadOnly();
+            IReadOnlyList<HalfVoxelStructureContribution> halfVoxelStructures = root.Elements("contribution")
+                .Where(element => string.Equals(AttributeValue(element, "type"), "HalfVoxelStructure", StringComparison.OrdinalIgnoreCase))
+                .Select(element => ParseHalfVoxelStructureContribution(manifestPath, directoryName, ElementValue(root, "title"), element, pictureLookup))
+                .ToList()
+                .AsReadOnly();
+            IReadOnlyList<SpriteContribution> sprites = baseSprites
+                .Concat(railSignals.Select(ToRailSignalSpriteContribution))
+                .Concat(dummyCars.Select(ToDummyCarSpriteContribution))
+                .Concat(halfVoxelStructures.Select(ToHalfVoxelSpriteContribution))
+                .Where(sprite => sprite.Frames.Count > 0)
+                .ToList()
+                .AsReadOnly();
 
             return new PluginManifest(
                 directoryName,
@@ -312,6 +640,22 @@ public sealed class PluginManifestCatalog
                 stations,
                 trainCars,
                 trains,
+                contributionFactories,
+                menus,
+                dockingContents,
+                accountGenres,
+                specialRails,
+                specialStructures,
+                trainControllers,
+                newGames,
+                spriteFactories,
+                spriteLoaders,
+                colorLibraries,
+                colorMapTrainPictures,
+                trainDepartureBells,
+                railSignals,
+                dummyCars,
+                halfVoxelStructures,
                 null);
         }
         catch (Exception ex)
@@ -335,6 +679,22 @@ public sealed class PluginManifestCatalog
                 Array.Empty<StationContribution>(),
                 Array.Empty<TrainCarContribution>(),
                 Array.Empty<TrainContribution>(),
+                Array.Empty<ContributionFactoryDefinition>(),
+                Array.Empty<MenuContribution>(),
+                Array.Empty<DockingContribution>(),
+                Array.Empty<AccountGenreContribution>(),
+                Array.Empty<SpecialRailContribution>(),
+                Array.Empty<SpecialStructureContribution>(),
+                Array.Empty<TrainControllerContribution>(),
+                Array.Empty<NewGameContribution>(),
+                Array.Empty<SpriteFactoryContribution>(),
+                Array.Empty<SpriteLoaderContribution>(),
+                Array.Empty<ColorLibraryContribution>(),
+                Array.Empty<ColorMapTrainPictureContribution>(),
+                Array.Empty<TrainDepartureBellContribution>(),
+                Array.Empty<RailSignalContribution>(),
+                Array.Empty<DummyCarContribution>(),
+                Array.Empty<HalfVoxelStructureContribution>(),
                 ex.Message);
         }
     }
@@ -697,6 +1057,490 @@ public sealed class PluginManifestCatalog
             error);
     }
 
+    private static SpriteContribution ToRailSignalSpriteContribution(RailSignalContribution signal)
+    {
+        return new SpriteContribution(
+            signal.PluginDirectoryName,
+            signal.PluginTitle,
+            signal.Id,
+            "railSignal",
+            "Rail signals",
+            signal.Side,
+            signal.Name,
+            "",
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            true,
+            SpriteContributionPlacementKind.RailStationary,
+            signal.Frame is null ? Array.Empty<SpriteFrame>() : new[] { signal.Frame },
+            null,
+            null,
+            signal.Error);
+    }
+
+    private static SpriteContribution ToDummyCarSpriteContribution(DummyCarContribution car)
+    {
+        List<SpriteFrame> frames = new();
+        if (car.EastWestFrame is { } eastWest)
+        {
+            frames.Add(eastWest);
+        }
+
+        if (car.NorthSouthFrame is { } northSouth)
+        {
+            frames.Add(northSouth);
+        }
+
+        return new SpriteContribution(
+            car.PluginDirectoryName,
+            car.PluginTitle,
+            car.Id,
+            "DummyCar",
+            "Road vehicles",
+            "",
+            car.Name,
+            "",
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            true,
+            SpriteContributionPlacementKind.RoadAccessory,
+            frames.AsReadOnly(),
+            null,
+            null,
+            car.Error);
+    }
+
+    private static SpriteContribution ToHalfVoxelSpriteContribution(HalfVoxelStructureContribution structure)
+    {
+        IReadOnlyList<SpriteFrame> frames = structure.Patterns
+            .Select(pattern => pattern.Frame)
+            .ToList()
+            .AsReadOnly();
+
+        return new SpriteContribution(
+            structure.PluginDirectoryName,
+            structure.PluginTitle,
+            structure.Id,
+            "HalfVoxelStructure",
+            structure.Group,
+            structure.Subgroup,
+            structure.Name,
+            "",
+            structure.Price,
+            1,
+            1,
+            Math.Max(1, structure.Height),
+            0,
+            0,
+            structure.PopulationBase,
+            true,
+            SpriteContributionPlacementKind.Structure,
+            frames,
+            null,
+            null,
+            structure.Error);
+    }
+
+    private static ContributionFactoryDefinition ParseContributionFactory(
+        string directoryName,
+        string pluginTitle,
+        XElement contribution)
+    {
+        return new ContributionFactoryDefinition(
+            directoryName,
+            pluginTitle,
+            AttributeValue(contribution, "id"),
+            ElementValue(contribution, "name"),
+            ParseClassReference(contribution.Element("class")),
+            ParseClassReference(contribution.Element("implementation")));
+    }
+
+    private static MenuContribution ParseMenuContribution(
+        string directoryName,
+        string pluginTitle,
+        XElement contribution)
+    {
+        return new MenuContribution(
+            directoryName,
+            pluginTitle,
+            AttributeValue(contribution, "id"),
+            ElementValue(contribution, "name"),
+            ParseClassReference(contribution.Element("class")));
+    }
+
+    private static DockingContribution ParseDockingContribution(
+        string directoryName,
+        string pluginTitle,
+        XElement contribution)
+    {
+        XElement? menu = contribution.Element("menu");
+        int? position = int.TryParse(OptionalAttributeValue(menu, "position"), out int parsedPosition)
+            ? parsedPosition
+            : null;
+
+        return new DockingContribution(
+            directoryName,
+            pluginTitle,
+            AttributeValue(contribution, "id"),
+            ElementValue(contribution, "name"),
+            OptionalAttributeValue(menu, "name"),
+            OptionalAttributeValue(menu, "location"),
+            position,
+            contribution.Element("multiple") is not null,
+            ParseClassReference(contribution.Element("class")));
+    }
+
+    private static AccountGenreContribution ParseAccountGenreContribution(
+        string directoryName,
+        string pluginTitle,
+        XElement contribution)
+    {
+        return new AccountGenreContribution(
+            directoryName,
+            pluginTitle,
+            AttributeValue(contribution, "id"),
+            ElementValue(contribution, "name"));
+    }
+
+    private static SpecialRailContribution ParseSpecialRailContribution(
+        string directoryName,
+        string pluginTitle,
+        XElement contribution)
+    {
+        return new SpecialRailContribution(
+            directoryName,
+            pluginTitle,
+            AttributeValue(contribution, "id"),
+            ElementValue(contribution, "name"),
+            ElementValue(contribution, "description"),
+            ClassifySpecialRail(ParseClassReference(contribution.Element("class")).Name),
+            ParseClassReference(contribution.Element("class")));
+    }
+
+    private static ModernSpecialRailKind ClassifySpecialRail(string className)
+    {
+        if (className.EndsWith(".BridgeRailContributionImpl", StringComparison.OrdinalIgnoreCase))
+        {
+            return ModernSpecialRailKind.Bridge;
+        }
+
+        if (className.EndsWith(".StealSupportedRailContributionImpl", StringComparison.OrdinalIgnoreCase))
+        {
+            return ModernSpecialRailKind.SteelSupported;
+        }
+
+        if (className.EndsWith(".TunnelRailContributionImpl", StringComparison.OrdinalIgnoreCase))
+        {
+            return ModernSpecialRailKind.Tunnel;
+        }
+
+        if (className.EndsWith(".TrainGarageContributionImpl", StringComparison.OrdinalIgnoreCase))
+        {
+            return ModernSpecialRailKind.Garage;
+        }
+
+        return ModernSpecialRailKind.Unsupported;
+    }
+
+    private static SpecialStructureContribution ParseSpecialStructureContribution(
+        string directoryName,
+        string pluginTitle,
+        XElement contribution)
+    {
+        return new SpecialStructureContribution(
+            directoryName,
+            pluginTitle,
+            AttributeValue(contribution, "id"),
+            ElementValue(contribution, "name"),
+            ElementValue(contribution, "description"),
+            ParseClassReference(contribution.Element("class")));
+    }
+
+    private static TrainControllerContribution ParseTrainControllerContribution(
+        string directoryName,
+        string pluginTitle,
+        XElement contribution)
+    {
+        return new TrainControllerContribution(
+            directoryName,
+            pluginTitle,
+            AttributeValue(contribution, "id"),
+            ElementValue(contribution, "name"),
+            ElementValue(contribution, "description"),
+            ParseClassReference(contribution.Element("class")));
+    }
+
+    private static NewGameContribution ParseNewGameContribution(
+        string directoryName,
+        string pluginTitle,
+        XElement contribution)
+    {
+        return new NewGameContribution(
+            directoryName,
+            pluginTitle,
+            AttributeValue(contribution, "id"),
+            ElementValue(contribution, "name"),
+            ElementValue(contribution, "author"),
+            ElementValue(contribution, "description"),
+            ParseClassReference(contribution.Element("class")));
+    }
+
+    private static SpriteFactoryContribution ParseSpriteFactoryContribution(
+        string directoryName,
+        string pluginTitle,
+        XElement contribution)
+    {
+        return new SpriteFactoryContribution(
+            directoryName,
+            pluginTitle,
+            AttributeValue(contribution, "id"),
+            ParseClassReference(contribution.Element("class")));
+    }
+
+    private static SpriteLoaderContribution ParseSpriteLoaderContribution(
+        string directoryName,
+        string pluginTitle,
+        XElement contribution)
+    {
+        return new SpriteLoaderContribution(
+            directoryName,
+            pluginTitle,
+            AttributeValue(contribution, "id"),
+            ParseClassReference(contribution.Element("class")));
+    }
+
+    private static ColorLibraryContribution ParseColorLibraryContribution(
+        string directoryName,
+        string pluginTitle,
+        XElement contribution)
+    {
+        List<string> colors = contribution.Elements("element")
+            .Select(element => AttributeValue(element, "color"))
+            .Where(color => !string.IsNullOrWhiteSpace(color))
+            .ToList();
+        if (string.Equals(AttributeValue(contribution, "id"), "{COLORLIB-NULL}", StringComparison.OrdinalIgnoreCase)
+            && colors.Count == 0)
+        {
+            colors.Add("Transparent");
+        }
+
+        return new ColorLibraryContribution(
+            directoryName,
+            pluginTitle,
+            AttributeValue(contribution, "id"),
+            ElementValue(contribution, "name"),
+            colors.AsReadOnly());
+    }
+
+    private static ColorMapTrainPictureContribution ParseColorMapTrainPictureContribution(
+        string manifestPath,
+        string directoryName,
+        string pluginTitle,
+        XElement contribution,
+        IReadOnlyDictionary<string, PictureContribution> pictures)
+    {
+        string pluginDirectory = Path.GetDirectoryName(manifestPath) ?? "";
+        SpriteFrame? frame = contribution.Element("picture") is { } pictureElement
+            ? CreateSpriteFrame(ResolvePictureElement(pluginDirectory, pictureElement, pictures), 0, 0, 32, 32, 0, 0)
+            : null;
+        string? error = frame is null
+            ? "Color-mapped train picture has no picture."
+            : frame.IsLoadable
+                ? null
+                : frame.Error;
+
+        return new ColorMapTrainPictureContribution(
+            directoryName,
+            pluginTitle,
+            AttributeValue(contribution, "id"),
+            ElementValue(contribution, "name"),
+            ElementValue(contribution, "author"),
+            frame,
+            string.IsNullOrWhiteSpace(error) ? null : error);
+    }
+
+    private static TrainDepartureBellContribution ParseTrainDepartureBellContribution(
+        string manifestPath,
+        string directoryName,
+        string pluginTitle,
+        XElement contribution)
+    {
+        string pluginDirectory = Path.GetDirectoryName(manifestPath) ?? "";
+        string source = OptionalAttributeValue(contribution.Element("sound"), "href");
+        string resolvedPath = ResolvePluginPath(pluginDirectory, source);
+        string? error = string.IsNullOrWhiteSpace(source)
+            ? "Departure bell has no sound href."
+            : File.Exists(resolvedPath)
+                ? null
+                : "Sound file not found.";
+
+        return new TrainDepartureBellContribution(
+            directoryName,
+            pluginTitle,
+            AttributeValue(contribution, "id"),
+            ElementValue(contribution, "name"),
+            source,
+            resolvedPath,
+            error);
+    }
+
+    private static RailSignalContribution ParseRailSignalContribution(
+        string manifestPath,
+        string directoryName,
+        string pluginTitle,
+        XElement contribution,
+        IReadOnlyDictionary<string, PictureContribution> pictures)
+    {
+        string pluginDirectory = Path.GetDirectoryName(manifestPath) ?? "";
+        SpriteFrame? frame = contribution.Element("picture") is { } pictureElement
+            ? CreateSpriteFrame(ResolvePictureElement(pluginDirectory, pictureElement, pictures), 0, 0, 32, 32, 0, 0)
+            : null;
+        string? error = frame is null
+            ? "Rail signal has no picture."
+            : frame.IsLoadable
+                ? null
+                : frame.Error;
+
+        return new RailSignalContribution(
+            directoryName,
+            pluginTitle,
+            AttributeValue(contribution, "id"),
+            ElementValue(contribution, "name"),
+            ElementValue(contribution, "side"),
+            frame,
+            string.IsNullOrWhiteSpace(error) ? null : error);
+    }
+
+    private static DummyCarContribution ParseDummyCarContribution(
+        string manifestPath,
+        string directoryName,
+        string pluginTitle,
+        XElement contribution,
+        IReadOnlyDictionary<string, PictureContribution> pictures)
+    {
+        string pluginDirectory = Path.GetDirectoryName(manifestPath) ?? "";
+        XElement? sprite = contribution.Element("sprite");
+        SpriteFrame? eastWest = null;
+        SpriteFrame? northSouth = null;
+        IReadOnlyList<DummyCarVariation> variations = Array.Empty<DummyCarVariation>();
+
+        if (sprite is not null)
+        {
+            ResolvedSpritePicture picture = ResolveSpritePicture(pluginDirectory, sprite, pictures);
+            (int originX, int originY) = ParsePoint(AttributeValue(sprite, "origin"));
+            int offsetY = ParseInt(AttributeValue(sprite, "offset"));
+            int height = Math.Max(16, 16 + offsetY);
+            eastWest = CreateSpriteFrame(picture, originX, originY, 32, height, 0, offsetY);
+            northSouth = CreateSpriteFrame(picture, originX + 32, originY, 32, height, 0, offsetY);
+            variations = sprite.Element("variations")?.Elements("colorVariation")
+                .Select(variation => new DummyCarVariation(ParseColorMaps(variation)))
+                .ToList()
+                .AsReadOnly() ?? Array.Empty<DummyCarVariation>().AsReadOnly();
+        }
+
+        string? error = eastWest is null && northSouth is null
+            ? "Dummy car has no sprite."
+            : eastWest?.IsLoadable == true || northSouth?.IsLoadable == true
+                ? null
+                : eastWest?.Error ?? northSouth?.Error;
+
+        return new DummyCarContribution(
+            directoryName,
+            pluginTitle,
+            AttributeValue(contribution, "id"),
+            ElementValue(contribution, "name"),
+            eastWest,
+            northSouth,
+            variations,
+            string.IsNullOrWhiteSpace(error) ? null : error);
+    }
+
+    private static HalfVoxelStructureContribution ParseHalfVoxelStructureContribution(
+        string manifestPath,
+        string directoryName,
+        string pluginTitle,
+        XElement contribution,
+        IReadOnlyDictionary<string, PictureContribution> pictures)
+    {
+        string pluginDirectory = Path.GetDirectoryName(manifestPath) ?? "";
+        XElement? sprite = contribution.Element("sprite");
+        int height = ParseInt(ElementValue(contribution, "height"));
+        string? colorLibraryId = OptionalAttributeValue(sprite?.Element("map"), "to");
+        List<HalfVoxelPattern> patterns = new();
+
+        if (sprite is not null)
+        {
+            ResolvedSpritePicture picture = ResolveSpritePicture(pluginDirectory, sprite, pictures);
+            ResolvedSpritePicture? highlightPicture = sprite.Element("highlight") is { } highlight
+                ? ResolvePictureElement(pluginDirectory, highlight, pictures)
+                : null;
+
+            foreach (XElement pattern in sprite.Elements("pattern"))
+            {
+                string direction = AttributeValue(pattern, "direction");
+                string side = AttributeValue(pattern, "side");
+                (int originX, int originY) = ParsePoint(AttributeValue(pattern, "origin"));
+                SpriteFrame frame = CreateSpriteFrame(
+                    picture,
+                    originX,
+                    originY,
+                    24,
+                    8 + Math.Max(0, height) * 16,
+                    HalfVoxelOffsetX(direction, side),
+                    HalfVoxelOffsetY(direction, side, height));
+                List<SpriteFrame> highlights = new();
+                if (highlightPicture is { } highlightResolved && pattern.Element("highlight") is not null)
+                {
+                    for (int i = 0; i < 6; i++)
+                    {
+                        highlights.Add(CreateSpriteFrame(
+                            highlightResolved,
+                            originX,
+                            originY,
+                            24,
+                            8 + Math.Max(0, height) * 16,
+                            HalfVoxelOffsetX(direction, side),
+                            HalfVoxelOffsetY(direction, side, height)));
+                    }
+                }
+
+                patterns.Add(new HalfVoxelPattern(direction, side, frame, highlights.AsReadOnly()));
+            }
+        }
+
+        string? error = sprite is null
+            ? "Half-voxel structure has no sprite."
+            : patterns.Count == 0
+                ? "Half-voxel structure has no directional patterns."
+                : patterns.Any(pattern => pattern.Frame.IsLoadable)
+                    ? null
+                    : string.Join("; ", patterns.Select(pattern => pattern.Frame.Error).Where(message => !string.IsNullOrWhiteSpace(message)).Distinct());
+
+        return new HalfVoxelStructureContribution(
+            directoryName,
+            pluginTitle,
+            AttributeValue(contribution, "id"),
+            ElementValue(contribution, "group"),
+            ElementValue(contribution, "subgroup"),
+            ElementValue(contribution, "name"),
+            ParseInt(ElementValue(contribution, "price")),
+            height,
+            ParsePopulationBase(contribution),
+            string.IsNullOrWhiteSpace(colorLibraryId) ? null : colorLibraryId,
+            patterns.AsReadOnly(),
+            string.IsNullOrWhiteSpace(error) ? null : error);
+    }
+
     private static IReadOnlyDictionary<byte, SpriteFrame> ParseStandardRoadFrames(
         string pluginDirectory,
         XElement contribution,
@@ -722,6 +1566,62 @@ public sealed class PluginManifestCatalog
         }
 
         return frames;
+    }
+
+    private static PluginClassReference ParseClassReference(XElement? element)
+    {
+        return new PluginClassReference(
+            OptionalAttributeValue(element, "name"),
+            OptionalAttributeValue(element, "codebase"));
+    }
+
+    private static IReadOnlyList<ColorMapEntry> ParseColorMaps(XElement element)
+    {
+        return element.Elements("map")
+            .Select(map => new ColorMapEntry(AttributeValue(map, "from"), AttributeValue(map, "to")))
+            .ToList()
+            .AsReadOnly();
+    }
+
+    private static int HalfVoxelOffsetX(string direction, string side)
+    {
+        int index = HalfVoxelDirectionIndex(direction) + HalfVoxelSideIndex(side) * 4;
+        return HalfVoxelOffsets[index].X;
+    }
+
+    private static int HalfVoxelOffsetY(string direction, string side, int height)
+    {
+        int index = HalfVoxelDirectionIndex(direction) + HalfVoxelSideIndex(side) * 4;
+        return HalfVoxelOffsets[index].Y + Math.Max(0, height) * 16;
+    }
+
+    private static int HalfVoxelDirectionIndex(string direction)
+    {
+        return direction.Trim().ToLowerInvariant() switch
+        {
+            "north" => 0,
+            "east" => 1,
+            "south" => 2,
+            "west" => 3,
+            _ => 0
+        };
+    }
+
+    private static int HalfVoxelSideIndex(string side)
+    {
+        return side.Trim().ToLowerInvariant() == "back" ? 1 : 0;
+    }
+
+    private static ReadOnlyCollection<T> SortByPluginAndName<T>(
+        IEnumerable<T> source,
+        Func<T, string> pluginSelector,
+        Func<T, string> nameSelector)
+    {
+        return source
+            .OrderBy(pluginSelector, StringComparer.OrdinalIgnoreCase)
+            .ThenBy(nameSelector, StringComparer.OrdinalIgnoreCase)
+            .ToList()
+            .AsReadOnly();
     }
 
     private static IReadOnlyDictionary<byte, SpriteFrame> ParseA3RoadFrames(
@@ -1222,6 +2122,13 @@ public sealed class PluginManifestCatalog
         return SpriteContributionPlacementKind.Generic;
     }
 
+    private static bool IsPromotedSpriteContributionType(string type)
+    {
+        return type.Equals("railSignal", StringComparison.OrdinalIgnoreCase)
+            || type.Equals("DummyCar", StringComparison.OrdinalIgnoreCase)
+            || type.Equals("HalfVoxelStructure", StringComparison.OrdinalIgnoreCase);
+    }
+
     private static int ParsePopulationBase(XElement contribution)
     {
         return contribution.Element("population") is { } population
@@ -1339,6 +2246,18 @@ public sealed class PluginManifestCatalog
         (2, 2),
         (1, 2),
         (0, 4)
+    };
+
+    private static readonly (int X, int Y)[] HalfVoxelOffsets =
+    {
+        (0, -8),
+        (-8, -8),
+        (0, -8),
+        (-8, -8),
+        (-8, -4),
+        (0, -4),
+        (-8, -4),
+        (0, -4)
     };
 
     private readonly record struct ResolvedSpritePicture(string PictureId, string Source, string ResolvedPath, string? Error);
