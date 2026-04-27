@@ -774,7 +774,10 @@ public sealed class MapViewport : Control, IDisposable
             };
             Pen previewPen = canBuildLine ? validPreviewPen : invalidPreviewPen;
             IBrush previewFill = canBuildLine ? validPreviewFill : invalidPreviewFill;
-            foreach (TileLocation location in PreviewLine(previewAnchor, previewHover))
+            IEnumerable<TileLocation> previewLine = EditMode == MapEditMode.Rail
+                ? world.PreviewRailLine(previewAnchor, previewHover)
+                : PreviewLine(previewAnchor, previewHover);
+            foreach (TileLocation location in previewLine)
             {
                 if (location.Z <= MaxVisibleLevel)
                 {
@@ -1795,6 +1798,21 @@ public sealed class MapViewport : Control, IDisposable
         }
     }
 
+    protected override void OnKeyDown(KeyEventArgs e)
+    {
+        base.OnKeyDown(e);
+        if (e.Key != Key.Escape || EditMode != MapEditMode.Rail || buildAnchorLocation is null)
+        {
+            return;
+        }
+
+        buildAnchorLocation = null;
+        lastMessage = "Rail construction canceled.";
+        PublishStatus();
+        InvalidateVisual();
+        e.Handled = true;
+    }
+
     protected override void OnPointerExited(PointerEventArgs e)
     {
         base.OnPointerExited(e);
@@ -2091,7 +2109,6 @@ public sealed class MapViewport : Control, IDisposable
             }
             else
             {
-                world.AddRailLine(location, location, ActiveRailKind);
                 buildAnchorLocation = location;
             }
         }

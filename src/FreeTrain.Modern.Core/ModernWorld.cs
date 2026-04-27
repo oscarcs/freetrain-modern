@@ -751,22 +751,35 @@ public sealed class ModernWorld
 
     public int AddRailLine(TileLocation from, TileLocation to, ModernSpecialRailKind specialKind)
     {
-        if (!CanBuildRailLine(from, to, specialKind))
+        if (!TryCreateRailRoute(from, to, out IReadOnlyList<TileLocation> route)
+            || !CanApplyRailRoute(route, specialKind, out IReadOnlyDictionary<(int H, int V), byte> railMasks))
         {
             return 0;
         }
 
-        ReclaimTransportLine(from, to);
-        foreach (TileLocation location in EnumerateLine(from, to))
+        ReclaimTransportRoute(route);
+        foreach (TileLocation location in route)
         {
             ApplySpecialRailBuildEffects(location, specialKind);
         }
 
-        int changed = Transport.AddRailLine((from.H, from.V), (to.H, to.V), from.Z, specialKind);
+        int changed = 0;
+        foreach (TileLocation location in route)
+        {
+            if (Transport.AddRailTile(location.H, location.V, location.Z, specialKind, railMasks[(location.H, location.V)]))
+            {
+                changed++;
+            }
+            else if (Transport.SetRailDirectionMask(location.H, location.V, railMasks[(location.H, location.V)]))
+            {
+                changed++;
+            }
+        }
+
         if (changed > 0)
         {
-            SynchronizeTrafficVoxelsAlong(from, to);
-            Spend(CalculateRailBuildCost(from, to, specialKind), ModernAccountGenre.Railway, $"Built {KindNameForCost(specialKind)}.");
+            SynchronizeTrafficVoxelsAlong(route);
+            Spend(CalculateRailBuildCost(route, specialKind), ModernAccountGenre.Railway, $"Built {KindNameForCost(specialKind)}.");
             string kindName = specialKind == ModernSpecialRailKind.Normal ? "Rail" : $"{specialKind} rail";
             Publish(ModernWorldChangeKind.Transport, ToVoxelKey(to), $"{kindName} line changed {changed} tile(s).");
         }
@@ -816,6 +829,7 @@ public sealed class ModernWorld
         if (hadRail)
         {
             ApplySpecialRailRemoveEffects(railLocation, removedRailKind);
+            DetachRailFromNeighbors(railLocation);
         }
 
         bool changed = Transport.RemoveAt(location.H, location.V);
@@ -833,6 +847,27 @@ public sealed class ModernWorld
         return changed;
     }
 
+    private void DetachRailFromNeighbors(TileLocation location)
+    {
+        ModernLocation railLocation = ToLocation(location.H, location.V, location.Z);
+        foreach (ModernDirection direction in ModernDirection.All)
+        {
+            ModernLocation neighborLocation = railLocation + direction;
+            (int h, int v) = ToHv(neighborLocation);
+            if (!IsInside(h, v) || !Transport.HasRail(h, v))
+            {
+                continue;
+            }
+
+            byte mask = GetRawRailMask(h, v);
+            byte next = (byte)(mask & ~(1 << direction.Opposite.Index));
+            if (next != mask)
+            {
+                Transport.SetRailDirectionMask(h, v, next);
+            }
+        }
+    }
+
     public bool CanBuildRailLine(TileLocation from, TileLocation to)
     {
         return CanBuildRailLine(from, to, ModernSpecialRailKind.Normal);
@@ -840,19 +875,204 @@ public sealed class ModernWorld
 
     public bool CanBuildRailLine(TileLocation from, TileLocation to, ModernSpecialRailKind specialKind)
     {
-        int deltaH = to.H - from.H;
-        int deltaV = to.V - from.V;
-        if (deltaH == 0 && deltaV == 0)
-        {
-            return CanBuildRailTile(to, specialKind);
-        }
+        return TryCreateRailRoute(from, to, out IReadOnlyList<TileLocation> route)
+            && CanApplyRailRoute(route, specialKind, out _);
+    }
 
-        if (deltaH != 0 && deltaV != 0 && Math.Abs(deltaH) != Math.Abs(deltaV))
+    public IReadOnlyList<TileLocation> PreviewRailLine(TileLocation from, TileLocation to)
+    {
+        return TryCreateRailRoute(from, to, out IReadOnlyList<TileLocation> route)
+            ? route
+            : Array.Empty<TileLocation>();
+    }
+
+    private bool TryCreateRailRoute(TileLocation from, TileLocation to, out IReadOnlyList<TileLocation> route)
+    {
+        List<TileLocation> locations = new();
+        route = locations;
+        if (!IsInside(from.H, from.V) || !IsInside(to.H, to.V) || from.Z < 0 || from.Z >= Depth)
         {
             return false;
         }
 
-        return EnumerateLine(from, to).All(location => CanBuildRailTile(location, specialKind));
+        ModernLocation current = ToLocation(from.H, from.V, from.Z);
+        ModernLocation target = ToLocation(to.H, to.V, from.Z);
+        int guard = Width * Height * 2;
+        while (true)
+        {
+            (int h, int v) = ToHv(current);
+            if (!IsInside(h, v))
+            {
+                return false;
+            }
+
+            locations.Add(new TileLocation(h, v, from.Z));
+            if (current == target)
+            {
+                return true;
+            }
+
+            if (guard-- <= 0)
+            {
+                locations.Clear();
+                return false;
+            }
+
+            current = current.Toward(target);
+        }
+    }
+
+    private bool CanApplyRailRoute(
+        IReadOnlyList<TileLocation> route,
+        ModernSpecialRailKind specialKind,
+        out IReadOnlyDictionary<(int H, int V), byte> railMasks)
+    {
+        Dictionary<(int H, int V), byte> masks = new();
+        railMasks = masks;
+        if (route.Count == 0)
+        {
+            return false;
+        }
+
+        foreach (TileLocation location in route)
+        {
+            if (!CanBuildRailTile(location, specialKind))
+            {
+                return false;
+            }
+        }
+
+        for (int i = 0; i < route.Count; i++)
+        {
+            TileLocation location = route[i];
+            byte routeMask = RouteDirectionMask(route, i);
+            byte existingMask = Transport.HasRail(location.H, location.V)
+                ? GetRawRailMask(location.H, location.V)
+                : (byte)0;
+            if (!TryMergeRailMask(location, existingMask, routeMask, out byte candidate))
+            {
+                return false;
+            }
+
+            if (candidate == 0)
+            {
+                candidate = ModernRailPattern.DirectionMask(0, 4);
+            }
+
+            byte renderMask = NormalizeRailMask(candidate);
+            if (CountBits(renderMask) > 3 || ModernRailPattern.FromDirectionMask(renderMask) is null)
+            {
+                return false;
+            }
+
+            masks[(location.H, location.V)] = candidate;
+        }
+
+        return true;
+    }
+
+    private bool TryMergeRailMask(TileLocation location, byte existingMask, byte routeMask, out byte candidate)
+    {
+        candidate = (byte)(existingMask | routeMask);
+        if (existingMask == 0 || routeMask == 0 || (routeMask & ~existingMask) == 0)
+        {
+            return true;
+        }
+
+        byte newBits = (byte)(routeMask & ~existingMask);
+        if (CountBits(routeMask) > 1)
+        {
+            return false;
+        }
+
+        if (CountBits(newBits) != 1)
+        {
+            return false;
+        }
+
+        int newDirection = FirstSetDirection(newBits);
+        if (CountBits(existingMask) == 2 && !IsRailWellConnected(location.H, location.V, existingMask))
+        {
+            foreach (ModernDirection existingDirection in ModernDirection.All)
+            {
+                if ((existingMask & (1 << existingDirection.Index)) == 0)
+                {
+                    continue;
+                }
+
+                ModernDirection addedDirection = ModernDirection.FromIndex(newDirection);
+                if (ModernDirection.Angle(existingDirection, addedDirection) >= 3)
+                {
+                    candidate = ModernRailPattern.DirectionMask(existingDirection.Index, addedDirection.Index);
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        return true;
+    }
+
+    private bool IsRailWellConnected(int h, int v, byte mask)
+    {
+        ModernLocation location = ToLocation(h, v, GetRailLevel(h, v));
+        int connected = 0;
+        foreach (ModernDirection direction in ModernDirection.All)
+        {
+            if ((mask & (1 << direction.Index)) == 0)
+            {
+                continue;
+            }
+
+            ModernLocation neighbor = location + direction;
+            (int neighborH, int neighborV) = ToHv(neighbor);
+            if (!IsInside(neighborH, neighborV) || !Transport.HasRail(neighborH, neighborV))
+            {
+                continue;
+            }
+
+            byte neighborMask = GetRawRailMask(neighborH, neighborV);
+            if ((neighborMask & (1 << direction.Opposite.Index)) != 0)
+            {
+                connected++;
+            }
+        }
+
+        return connected >= 2;
+    }
+
+    private byte RouteDirectionMask(IReadOnlyList<TileLocation> route, int index)
+    {
+        TileLocation location = route[index];
+        ModernLocation current = ToLocation(location.H, location.V, location.Z);
+        byte mask = 0;
+        if (index > 0)
+        {
+            TileLocation previous = route[index - 1];
+            ModernDirection direction = current.GetDirectionTo(ToLocation(previous.H, previous.V, location.Z));
+            mask |= (byte)(1 << direction.Index);
+        }
+
+        if (index < route.Count - 1)
+        {
+            TileLocation next = route[index + 1];
+            ModernDirection direction = current.GetDirectionTo(ToLocation(next.H, next.V, location.Z));
+            mask |= (byte)(1 << direction.Index);
+        }
+
+        if (mask == 0)
+        {
+            return ModernRailPattern.DirectionMask(0, 4);
+        }
+
+        if (CountBits(mask) == 1 && !Transport.HasRail(location.H, location.V))
+        {
+            int direction = FirstSetDirection(mask);
+            mask |= (byte)(1 << ((direction + 4) % 8));
+        }
+
+        return mask;
     }
 
     private bool CanBuildRailTile(TileLocation location, ModernSpecialRailKind specialKind)
@@ -1043,8 +1263,15 @@ public sealed class ModernWorld
 
     private long CalculateRailBuildCost(TileLocation from, TileLocation to, ModernSpecialRailKind specialKind)
     {
+        return TryCreateRailRoute(from, to, out IReadOnlyList<TileLocation> route)
+            ? CalculateRailBuildCost(route, specialKind)
+            : 0;
+    }
+
+    private long CalculateRailBuildCost(IEnumerable<TileLocation> route, ModernSpecialRailKind specialKind)
+    {
         long unit = specialKind == ModernSpecialRailKind.Garage ? 6_500_000L : 6_000_000L;
-        return EnumerateLine(from, to).Sum(location => unit * RailCostMultiplier(location, specialKind));
+        return route.Sum(location => unit * RailCostMultiplier(location, specialKind));
     }
 
     private long CalculateRailDestroyCost(TileLocation location, ModernSpecialRailKind specialKind)
@@ -1193,7 +1420,8 @@ public sealed class ModernWorld
                 tile.V,
                 Transport.SpecialRailTiles.GetValueOrDefault(tile, ModernSpecialRailKind.Normal),
                 tunnelTerrainBackups.TryGetValue(tile, out int[]? backup) ? backup : null,
-                GetRailLevel(tile.H, tile.V)))
+                GetRailLevel(tile.H, tile.V),
+                GetRawRailMask(tile.H, tile.V)))
             .ToArray();
 
         ModernEntitySnapshot[] entitySnapshots = entities.Values
@@ -1322,7 +1550,7 @@ public sealed class ModernWorld
         foreach (ModernRailSnapshot rail in snapshot.Rails)
         {
             int z = rail.Z ?? world.GetGroundLevel(rail.H, rail.V);
-            world.Transport.AddRailTile(rail.H, rail.V, z, rail.SpecialKind);
+            world.Transport.AddRailTile(rail.H, rail.V, z, rail.SpecialKind, rail.DirectionMask);
             if (rail.SpecialKind == ModernSpecialRailKind.Tunnel && rail.TerrainFineHeights is { Count: 4 })
             {
                 world.tunnelTerrainBackups[(rail.H, rail.V)] = rail.TerrainFineHeights.ToArray();
@@ -1987,7 +2215,15 @@ public sealed class ModernWorld
         ModernLocation nextLocation = current + direction;
         (int h, int v) = ToHv(nextLocation);
         next = new ModernVoxelKey(h, v, IsInside(h, v) ? GetRailLevel(h, v) : location.Z);
-        return IsInside(h, v) && Transport.HasRail(h, v);
+        if (!IsInside(h, v) || !Transport.HasRail(location.H, location.V) || !Transport.HasRail(h, v))
+        {
+            return false;
+        }
+
+        byte currentMask = GetRawRailMask(location.H, location.V);
+        byte nextMask = GetRawRailMask(h, v);
+        return (currentMask & (1 << direction.Index)) != 0
+            && (nextMask & (1 << direction.Opposite.Index)) != 0;
     }
 
     private byte GetLegacyRailMask(int h, int v)
@@ -1995,6 +2231,16 @@ public sealed class ModernWorld
         if (!IsInside(h, v) || !Transport.HasRail(h, v))
         {
             return 0;
+        }
+
+        return NormalizeRailMask(GetRawRailMask(h, v));
+    }
+
+    private byte GetRawRailMask(int h, int v)
+    {
+        if (Transport.RailDirectionMasks.TryGetValue((h, v), out byte explicitMask))
+        {
+            return explicitMask;
         }
 
         ModernLocation location = ToLocation(h, v, GetRailLevel(h, v));
@@ -2009,6 +2255,11 @@ public sealed class ModernWorld
             }
         }
 
+        return mask;
+    }
+
+    private static byte NormalizeRailMask(byte mask)
+    {
         if (mask == 0)
         {
             mask = ModernRailPattern.DirectionMask(0, 4);
@@ -2109,6 +2360,14 @@ public sealed class ModernWorld
     private void SynchronizeTrafficVoxelsAlong(TileLocation from, TileLocation to)
     {
         foreach (TileLocation location in EnumerateLine(from, to))
+        {
+            SynchronizeTrafficVoxelsAround(location.H, location.V);
+        }
+    }
+
+    private void SynchronizeTrafficVoxelsAlong(IEnumerable<TileLocation> route)
+    {
+        foreach (TileLocation location in route)
         {
             SynchronizeTrafficVoxelsAround(location.H, location.V);
         }
@@ -2273,6 +2532,14 @@ public sealed class ModernWorld
     private void ReclaimTransportLine(TileLocation from, TileLocation to)
     {
         foreach (TileLocation location in EnumerateLine(from, to))
+        {
+            RemoveReusableEntityAt(ToVoxelKey(location));
+        }
+    }
+
+    private void ReclaimTransportRoute(IEnumerable<TileLocation> route)
+    {
+        foreach (TileLocation location in route)
         {
             RemoveReusableEntityAt(ToVoxelKey(location));
         }

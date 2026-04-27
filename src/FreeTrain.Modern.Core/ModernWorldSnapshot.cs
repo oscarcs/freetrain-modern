@@ -18,7 +18,7 @@ public sealed record ModernWorldSnapshot(
     IReadOnlyList<ModernPlatformSnapshot> Platforms,
     IReadOnlyList<ModernTrainSnapshot> Trains)
 {
-    public const int CurrentVersion = 3;
+    public const int CurrentVersion = 4;
     public int Version { get; init; } = CurrentVersion;
 }
 
@@ -27,7 +27,8 @@ public sealed record ModernRailSnapshot(
     int V,
     ModernSpecialRailKind SpecialKind = ModernSpecialRailKind.Normal,
     IReadOnlyList<int>? TerrainFineHeights = null,
-    int? Z = null);
+    int? Z = null,
+    byte DirectionMask = 0);
 
 public sealed record ModernRoadSnapshot(int H, int V, string RoadContributionId);
 

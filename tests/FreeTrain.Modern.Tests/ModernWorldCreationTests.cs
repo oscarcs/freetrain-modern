@@ -100,7 +100,85 @@ public sealed class ModernWorldCreationTests
             new Dictionary<string, TrainContribution>());
 
         Assert.Equal(ModernSpecialRailKind.Garage, snapshot.Rails.Single(rail => rail.H == 3 && rail.V == 3).SpecialKind);
+        Assert.NotEqual(0, snapshot.Rails.Single(rail => rail.H == 3 && rail.V == 3).DirectionMask);
         Assert.Equal(ModernSpecialRailKind.Garage, restored.Transport.SpecialRailTiles[(3, 3)]);
+        Assert.Equal(
+            snapshot.Rails.Single(rail => rail.H == 3 && rail.V == 3).DirectionMask,
+            restored.Transport.RailDirectionMasks[(3, 3)]);
+    }
+
+    [Fact]
+    public void RailLinesStoreContiguousDirectionalConnections()
+    {
+        ModernWorld world = ModernWorld.CreateNew(new ModernWorldCreationOptions(
+            "Rail Mask World",
+            24,
+            24,
+            0,
+            100_000_000,
+            ModernWorldTerrainKind.Flat));
+
+        TileLocation from = new(3, 3, 0);
+        TileLocation to = new(7, 3, 0);
+        IReadOnlyList<TileLocation> route = world.PreviewRailLine(from, to);
+
+        Assert.True(world.AddRailLine(from, to) > 0);
+        Assert.Equal(route.Count, world.Transport.RailTiles.Count);
+        Assert.Equal(route.Count, world.CreateRailObjects().Count);
+
+        for (int i = 0; i < route.Count - 1; i++)
+        {
+            TileLocation current = route[i];
+            TileLocation next = route[i + 1];
+            ModernDirection direction = world.ToLocation(current.H, current.V, current.Z)
+                .GetDirectionTo(world.ToLocation(next.H, next.V, next.Z));
+            byte currentMask = world.Transport.RailDirectionMasks[(current.H, current.V)];
+            byte nextMask = world.Transport.RailDirectionMasks[(next.H, next.V)];
+
+            Assert.NotEqual(0, currentMask & (1 << direction.Index));
+            Assert.NotEqual(0, nextMask & (1 << direction.Opposite.Index));
+        }
+    }
+
+    [Fact]
+    public void ParallelRailLinesDoNotAccidentallyConnectToAdjacentTiles()
+    {
+        ModernWorld world = ModernWorld.CreateNew(new ModernWorldCreationOptions(
+            "Parallel Rail World",
+            24,
+            24,
+            0,
+            100_000_000,
+            ModernWorldTerrainKind.Flat));
+
+        Assert.True(world.AddRailLine(new TileLocation(3, 3, 0), new TileLocation(7, 3, 0)) > 0);
+        Assert.True(world.AddRailLine(new TileLocation(3, 4, 0), new TileLocation(7, 4, 0)) > 0);
+
+        ModernDirection adjacentDirection = world.ToLocation(3, 3, 0).GetDirectionTo(world.ToLocation(3, 4, 0));
+        byte mask = world.Transport.RailDirectionMasks[(3, 3)];
+
+        Assert.Equal(10, world.Transport.RailTiles.Count);
+        Assert.Equal(0, mask & (1 << adjacentDirection.Index));
+    }
+
+    [Fact]
+    public void ExtendingLooseRailEndpointReplacesTheStubDirection()
+    {
+        ModernWorld world = ModernWorld.CreateNew(new ModernWorldCreationOptions(
+            "Endpoint Rail World",
+            24,
+            24,
+            0,
+            100_000_000,
+            ModernWorldTerrainKind.Flat));
+
+        Assert.True(world.AddRailLine(new TileLocation(3, 3, 0), new TileLocation(7, 3, 0)) > 0);
+        Assert.True(world.AddRailLine(new TileLocation(7, 3, 0), new TileLocation(8, 2, 0)) > 0);
+
+        byte mask = world.Transport.RailDirectionMasks[(7, 3)];
+
+        Assert.Equal(2, CountBits(mask));
+        Assert.NotNull(ModernRailPattern.FromDirectionMask(mask));
     }
 
     [Fact]
@@ -247,5 +325,17 @@ public sealed class ModernWorldCreationTests
         {
             [car.Id] = car
         };
+    }
+
+    private static int CountBits(byte value)
+    {
+        int count = 0;
+        while (value != 0)
+        {
+            value &= (byte)(value - 1);
+            count++;
+        }
+
+        return count;
     }
 }

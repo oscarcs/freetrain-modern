@@ -4,6 +4,7 @@ public sealed class MapTransportState
 {
     private readonly HashSet<(int H, int V)> railTiles = new();
     private readonly Dictionary<(int H, int V), int> railTileLevels = new();
+    private readonly Dictionary<(int H, int V), byte> railDirectionMasks = new();
     private readonly Dictionary<(int H, int V), ModernSpecialRailKind> specialRailTiles = new();
     private readonly Dictionary<(int H, int V), RoadContribution> roadTiles = new();
 
@@ -13,6 +14,7 @@ public sealed class MapTransportState
 
     public IReadOnlyCollection<(int H, int V)> RailTiles => railTiles;
     public IReadOnlyDictionary<(int H, int V), int> RailTileLevels => railTileLevels;
+    public IReadOnlyDictionary<(int H, int V), byte> RailDirectionMasks => railDirectionMasks;
     public IReadOnlyDictionary<(int H, int V), ModernSpecialRailKind> SpecialRailTiles => specialRailTiles;
 
     public IReadOnlyCollection<KeyValuePair<(int H, int V), RoadContribution>> RoadTiles => roadTiles;
@@ -34,6 +36,11 @@ public sealed class MapTransportState
 
     public bool AddRailTile(int h, int v, int z, ModernSpecialRailKind specialKind)
     {
+        return AddRailTile(h, v, z, specialKind, 0);
+    }
+
+    public bool AddRailTile(int h, int v, int z, ModernSpecialRailKind specialKind, byte directionMask)
+    {
         (int H, int V) key = (h, v);
         bool changed = railTiles.Add(key);
         int normalizedLevel = Math.Max(0, z);
@@ -54,7 +61,35 @@ public sealed class MapTransportState
             changed = true;
         }
 
+        if (directionMask != 0 && (!railDirectionMasks.TryGetValue(key, out byte existingMask) || existingMask != directionMask))
+        {
+            railDirectionMasks[key] = directionMask;
+            changed = true;
+        }
+
         return changed;
+    }
+
+    public bool SetRailDirectionMask(int h, int v, byte directionMask)
+    {
+        (int H, int V) key = (h, v);
+        if (!railTiles.Contains(key))
+        {
+            return false;
+        }
+
+        if (directionMask == 0)
+        {
+            return railDirectionMasks.Remove(key);
+        }
+
+        if (railDirectionMasks.TryGetValue(key, out byte existing) && existing == directionMask)
+        {
+            return false;
+        }
+
+        railDirectionMasks[key] = directionMask;
+        return true;
     }
 
     public bool AddRoadTile(int h, int v, RoadContribution contribution)
@@ -72,9 +107,10 @@ public sealed class MapTransportState
     {
         bool removedRail = railTiles.Remove((h, v));
         bool removedRailLevel = railTileLevels.Remove((h, v));
+        bool removedRailMask = railDirectionMasks.Remove((h, v));
         bool removedSpecialRail = specialRailTiles.Remove((h, v));
         bool removedRoad = roadTiles.Remove((h, v));
-        return removedRail || removedRailLevel || removedSpecialRail || removedRoad;
+        return removedRail || removedRailLevel || removedRailMask || removedSpecialRail || removedRoad;
     }
 
     public int AddRailLine((int H, int V) from, (int H, int V) to)
@@ -189,6 +225,11 @@ public sealed class MapTransportState
 
     public byte GetRailMask(int h, int v)
     {
+        if (railDirectionMasks.TryGetValue((h, v), out byte explicitMask))
+        {
+            return explicitMask;
+        }
+
         byte mask = 0;
         foreach ((int dh, int dv) in EightWayNeighbors)
         {
