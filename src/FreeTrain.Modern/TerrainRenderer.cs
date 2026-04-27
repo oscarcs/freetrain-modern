@@ -15,14 +15,17 @@ public sealed class TerrainRenderer : IDisposable
     private const int LightZ = -80;
     private const int CliffTileWidth = 16;
     private const int CliffTileHeight = 24;
+    private const int GroundTileWidth = 32;
+    private const int GroundTileHeight = 16;
 
     private readonly Color[] mountainColors;
     private readonly Color[] waterColors;
+    private readonly Bitmap flatLandBitmap;
+    private readonly Bitmap waterSurfaceBitmap;
     private readonly Bitmap cliffBitmap;
     private readonly SKBitmap[] mountainMasks = CreateMountainMasks();
     private readonly Dictionary<MountainHalfKey, Bitmap> mountainHalfCache = new();
     private readonly Pen gridPen = new(new SolidColorBrush(Color.FromArgb(80, 48, 78, 92)), 1);
-    private readonly Pen coastPen = new(new SolidColorBrush(Color.FromArgb(130, 34, 83, 104)), 1.2);
 
     private readonly record struct MountainHalfKey(
         int TopBottomDifference,
@@ -32,20 +35,26 @@ public sealed class TerrainRenderer : IDisposable
         Color Fill,
         Color Outline);
 
-    public TerrainRenderer(string palettePath, string cliffPath)
+    public TerrainRenderer(string palettePath, string cliffPath, string groundPath)
     {
         XDocument document = XDocument.Load(palettePath);
         XElement root = document.Root ?? throw new InvalidDataException("Missing mountain palette root.");
         mountainColors = LoadColors(root.Element("summer") ?? throw new InvalidDataException("Missing summer palette."));
         waterColors = LoadColors(root.Element("water") ?? throw new InvalidDataException("Missing water palette."));
+        Color flatLandColor = mountainColors[Math.Clamp(5, 0, mountainColors.Length - 1)];
+        Color flatOutlineColor = mountainColors[0];
+        Color waterSurfaceColor = Color.FromRgb(0, 86, 145);
+        flatLandBitmap = CreateRecoloredGroundTile(groundPath, flatLandColor, flatOutlineColor);
+        waterSurfaceBitmap = CreateRecoloredGroundTile(groundPath, waterSurfaceColor, waterSurfaceColor);
         cliffBitmap = LegacyBitmap.LoadWithColorKey(cliffPath, includeTopLeftColor: false);
     }
 
     public Pen GridPen => gridPen;
-    public Pen CoastPen => coastPen;
 
     public void Dispose()
     {
+        flatLandBitmap.Dispose();
+        waterSurfaceBitmap.Dispose();
         cliffBitmap.Dispose();
         foreach (Bitmap bitmap in mountainHalfCache.Values)
         {
@@ -72,7 +81,7 @@ public sealed class TerrainRenderer : IDisposable
     {
         if (terrain.IsFlat)
         {
-            groundTiles.DrawTile(context, 0, p);
+            DrawFlatTerrainSurface(context, p);
             if (showGrid)
             {
                 DrawDiamond(context, p, GridPen);
@@ -81,10 +90,17 @@ public sealed class TerrainRenderer : IDisposable
             return;
         }
 
-        Color lit = SelectTerrainColor(terrain, terrain.BaseLevel < world.WaterLevel);
-        Color outline = terrain.BaseLevel < world.WaterLevel ? Colors.Navy : mountainColors[0];
+        bool fullyUnderwater = world.WaterLevel > 0
+            && (terrain.BaseLevel * 4 + terrain.MaxCornerHeight) <= world.WaterLevel * 4;
+        Color lit = SelectTerrainColor(terrain, fullyUnderwater);
+        Color outline = fullyUnderwater ? Colors.Navy : mountainColors[0];
         DrawLegacyMountainSurface(context, p, terrain, lit, outline);
         DrawNeighborCliffs(context, world, h, v, p, terrain);
+    }
+
+    public void DrawWaterSurfaceTile(DrawingContext context, Point p)
+    {
+        context.DrawImage(waterSurfaceBitmap, new Rect(p, waterSurfaceBitmap.Size));
     }
 
     public void DrawDiamond(DrawingContext context, Point p, Pen pen)
@@ -104,6 +120,11 @@ public sealed class TerrainRenderer : IDisposable
         TerrainTilePreview south = world.GetTerrainTile(southH, southV);
 
         DrawMountainCliffs(context, p, terrain, west, south);
+    }
+
+    private void DrawFlatTerrainSurface(DrawingContext context, Point p)
+    {
+        context.DrawImage(flatLandBitmap, new Rect(p, flatLandBitmap.Size));
     }
 
     private void DrawMountainCliffs(DrawingContext context, Point p, TerrainTilePreview terrain, TerrainTilePreview west, TerrainTilePreview south)
@@ -296,6 +317,62 @@ public sealed class TerrainRenderer : IDisposable
         return masks;
     }
 
+    private static Bitmap CreateRecoloredGroundTile(string groundPath, Color fill, Color outline)
+    {
+        using SKBitmap source = SKBitmap.Decode(groundPath)
+            ?? throw new InvalidDataException($"Could not load ground sprite sheet '{groundPath}'.");
+        WriteableBitmap bitmap = new(new PixelSize(GroundTileWidth, GroundTileHeight), new Vector(96, 96), PixelFormats.Bgra8888, AlphaFormat.Premul);
+
+        using (ILockedFramebuffer framebuffer = bitmap.Lock())
+        {
+            byte[] row = new byte[framebuffer.RowBytes];
+            for (int y = 0; y < GroundTileHeight; y++)
+            {
+                Array.Clear(row);
+                for (int x = 0; x < GroundTileWidth; x++)
+                {
+                    SKColor sourcePixel = source.GetPixel(x, y);
+                    if (sourcePixel.Alpha == 0 || sourcePixel.Red == 255 && sourcePixel.Green == 0 && sourcePixel.Blue == 255)
+                    {
+                        continue;
+                    }
+
+                    double luminance = (sourcePixel.Red * 0.2126 + sourcePixel.Green * 0.7152 + sourcePixel.Blue * 0.0722) / 255.0;
+                    double blend = SmoothStep((luminance - 0.42) / 0.42);
+                    byte blue = BlendColor(outline.B, fill.B, blend);
+                    byte green = BlendColor(outline.G, fill.G, blend);
+                    byte red = BlendColor(outline.R, fill.R, blend);
+                    double shade = 0.82 + luminance * 0.28;
+                    int index = x * 4;
+                    row[index] = ScaleColor(blue, shade);
+                    row[index + 1] = ScaleColor(green, shade);
+                    row[index + 2] = ScaleColor(red, shade);
+                    row[index + 3] = sourcePixel.Alpha;
+                }
+
+                Marshal.Copy(row, 0, IntPtr.Add(framebuffer.Address, y * framebuffer.RowBytes), framebuffer.RowBytes);
+            }
+        }
+
+        return bitmap;
+    }
+
+    private static byte ScaleColor(byte value, double shade)
+    {
+        return (byte)Math.Clamp((int)Math.Round(value * shade), 0, 255);
+    }
+
+    private static byte BlendColor(byte from, byte to, double amount)
+    {
+        return (byte)Math.Clamp((int)Math.Round(from + (to - from) * Math.Clamp(amount, 0, 1)), 0, 255);
+    }
+
+    private static double SmoothStep(double value)
+    {
+        double t = Math.Clamp(value, 0, 1);
+        return t * t * (3 - 2 * t);
+    }
+
     private static (int H, int V) OffsetLocation(int h, int v, int dx, int dy, int worldHeight)
     {
         int originX = (worldHeight - 1) / 2;
@@ -389,7 +466,7 @@ public sealed class TerrainRenderer : IDisposable
         context.DrawGeometry(brush, null, geometry);
     }
 
-    private static void FillPolygon(DrawingContext context, IBrush brush, Pen pen, params Point[] points)
+    private static void FillPolygon(DrawingContext context, IBrush brush, Pen? pen, params Point[] points)
     {
         if (points.Length < 3)
         {

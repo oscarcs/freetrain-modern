@@ -22,6 +22,7 @@ public enum MapEditMode
 public sealed class MapViewport : Control, IDisposable
 {
     private readonly record struct RenderQueueItem(int H, int V, int Z, int Layer, Action<DrawingContext> Draw);
+    private readonly record struct GeneratedTreeCandidate(int H, int V, int Z, double Score, int TieBreaker);
 
     private const int TileWidth = 32;
     private const int TileHeight = 16;
@@ -36,9 +37,7 @@ public sealed class MapViewport : Control, IDisposable
     private readonly Bitmap? garageRailBitmap;
     private readonly Bitmap thinPlatformBitmap;
     private readonly Bitmap fatPlatformBitmap;
-    private readonly IBrush background = new SolidColorBrush(Color.FromRgb(219, 232, 226));
-    private readonly IBrush waterBrush = new SolidColorBrush(Color.FromRgb(107, 156, 178));
-    private readonly IBrush waterTileBrush = new SolidColorBrush(Color.FromRgb(81, 148, 181));
+    private readonly IBrush background = Brushes.Black;
     private readonly IBrush nightBrush = new SolidColorBrush(Color.FromArgb(82, 15, 28, 54));
     private readonly Pen hoverPen = new(new SolidColorBrush(Color.FromRgb(255, 247, 153)), 2);
     private readonly Pen selectionPen = new(new SolidColorBrush(Color.FromRgb(255, 112, 88)), 2.4);
@@ -62,6 +61,7 @@ public sealed class MapViewport : Control, IDisposable
     private readonly IReadOnlyDictionary<string, TrainCarContribution> trainCarContributions;
     private readonly string? railRoadCrossingPath;
     private readonly Dictionary<string, Bitmap> pluginBitmaps = new(StringComparer.OrdinalIgnoreCase);
+    private readonly Dictionary<(string ForestId, int H, int V), IReadOnlyList<ForestTreePattern>> forestPatternCache = new();
     private readonly RenderOptions pixelArtRenderOptions = new()
     {
         BitmapInterpolationMode = BitmapInterpolationMode.None,
@@ -74,6 +74,7 @@ public sealed class MapViewport : Control, IDisposable
     private bool showGrid;
     private bool useNightView;
     private int maxVisibleLevel;
+    private int worldMaxGroundLevel;
     private MapEditMode editMode = MapEditMode.Select;
     private int activeRoadIndex;
     private int activeSpecialRailIndex = -1;
@@ -122,7 +123,7 @@ public sealed class MapViewport : Control, IDisposable
         garageRailBitmap = garageRailPath is null ? null : LegacyBitmap.LoadWithColorKey(garageRailPath);
         thinPlatformBitmap = LegacyBitmap.LoadWithColorKey(thinPlatformPath);
         fatPlatformBitmap = LegacyBitmap.LoadWithColorKey(fatPlatformPath);
-        terrainRenderer = new TerrainRenderer(palettePath, cliffPath);
+        terrainRenderer = new TerrainRenderer(palettePath, cliffPath, groundPath);
         roadContributions = plugins.Roads.Where(road => road.IsLoadable).ToList().AsReadOnly();
         landContributions = plugins.Lands.Where(land => land.IsLoadable).ToList().AsReadOnly();
         spriteContributions = plugins.Sprites.Where(sprite => sprite.IsLoadable).ToList().AsReadOnly();
@@ -151,6 +152,8 @@ public sealed class MapViewport : Control, IDisposable
         railRoadCrossingPath = FindRailRoadCrossingPath(assets, plugins);
         activeRoadIndex = SelectInitialRoadIndex(roadContributions);
         world = ModernWorld.CreateNew(ModernWorldCreationOptions.Default);
+        AddGeneratedTreeScatter(world, ModernWorldCreationOptions.Default.TerrainKind);
+        worldMaxGroundLevel = world.MaxGroundLevel;
         world.Changed += OnWorldChanged;
         maxVisibleLevel = world.MaxHeightCutLevel;
         Focusable = true;
@@ -228,7 +231,7 @@ public sealed class MapViewport : Control, IDisposable
         }
     }
 
-    public int WorldMaxGroundLevel => world.MaxGroundLevel;
+    public int WorldMaxGroundLevel => worldMaxGroundLevel;
     public int WorldMaxHeightCutLevel => world.MaxHeightCutLevel;
     public MapEditMode EditMode
     {
@@ -289,7 +292,10 @@ public sealed class MapViewport : Control, IDisposable
 
     public void CreateNewWorld(ModernWorldCreationOptions options)
     {
-        SetWorld(ModernWorld.CreateNew(options));
+        ModernWorldCreationOptions normalized = options.Normalize();
+        ModernWorld next = ModernWorld.CreateNew(normalized);
+        AddGeneratedTreeScatter(next, normalized.TerrainKind);
+        SetWorld(next);
     }
 
     public void LoadWorldSnapshot(ModernWorldSnapshot snapshot)
@@ -323,6 +329,7 @@ public sealed class MapViewport : Control, IDisposable
         world.Changed -= OnWorldChanged;
         world = nextWorld;
         world.Changed += OnWorldChanged;
+        worldMaxGroundLevel = world.MaxGroundLevel;
         selectedLocation = null;
         hoverLocation = null;
         buildAnchorLocation = null;
@@ -356,6 +363,12 @@ public sealed class MapViewport : Control, IDisposable
 
     private void OnWorldChanged(object? sender, ModernWorldChangedEventArgs e)
     {
+        if (e.Kind is ModernWorldChangeKind.Terrain or ModernWorldChangeKind.Reset)
+        {
+            worldMaxGroundLevel = world.MaxGroundLevel;
+            InvalidateMeasure();
+        }
+
         if (!string.IsNullOrWhiteSpace(e.Description))
         {
             lastMessage = e.Description;
@@ -366,7 +379,7 @@ public sealed class MapViewport : Control, IDisposable
     }
 
     private double MapOriginX => 64;
-    private double MapOriginY => 40 + world.MaxGroundLevel * 8;
+    private double MapOriginY => 40 + worldMaxGroundLevel * 8;
 
     public override void Render(DrawingContext context)
     {
@@ -398,8 +411,8 @@ public sealed class MapViewport : Control, IDisposable
 
     protected override Size MeasureOverride(Size availableSize)
     {
-        double width = (world.Width + world.Height) * 16 * Zoom + 160;
-        double height = (world.Width + world.Height + world.MaxGroundLevel * 2) * 8 * Zoom + 180;
+        double width = world.Width * TileWidth * Zoom + 160;
+        double height = (world.Height * (TileHeight / 2.0) + worldMaxGroundLevel * TileHeight) * Zoom + 180;
         return new Size(width, height);
     }
 
@@ -439,7 +452,6 @@ public sealed class MapViewport : Control, IDisposable
 
     private void RenderWater(DrawingContext context, Rect visibleMapRect)
     {
-        context.FillRectangle(waterBrush, visibleMapRect);
     }
 
     private void RenderGround(DrawingContext context, Rect visibleMapRect)
@@ -456,9 +468,18 @@ public sealed class MapViewport : Control, IDisposable
                 continue;
             }
 
-            if (terrain.BaseLevel < world.WaterLevel && MaxVisibleLevel >= world.WaterLevel)
+            if (IsWaterLevel(terrain.BaseLevel) && MaxVisibleLevel >= world.WaterLevel)
             {
-                DrawWaterTile(context, p);
+                if (!IsFullyUnderwater(terrain))
+                {
+                    Point shorePoint = FromHvzToScreen(h, v, terrain.BaseLevel);
+                    terrainRenderer.DrawTerrainTile(context, world, groundTiles, h, v, shorePoint, terrain, ShowGrid);
+                }
+                else
+                {
+                    terrainRenderer.DrawWaterSurfaceTile(context, p);
+                }
+
                 continue;
             }
 
@@ -828,21 +849,6 @@ public sealed class MapViewport : Control, IDisposable
         context.DrawGeometry(fill, outline, geometry);
     }
 
-    private void DrawWaterTile(DrawingContext context, Point p)
-    {
-        StreamGeometry geometry = new();
-        using (StreamGeometryContext path = geometry.Open())
-        {
-            path.BeginFigure(new Point(p.X + 16, p.Y), true);
-            path.LineTo(new Point(p.X + 32, p.Y + 8));
-            path.LineTo(new Point(p.X + 16, p.Y + 16));
-            path.LineTo(new Point(p.X, p.Y + 8));
-            path.EndFigure(true);
-        }
-
-        context.DrawGeometry(waterTileBrush, null, geometry);
-    }
-
     private void DrawCornerMarker(DrawingContext context, TileLocation location, IBrush fill, Pen outline)
     {
         Point p = GetTerrainCornerScreenPoint(location);
@@ -1188,12 +1194,136 @@ public sealed class MapViewport : Control, IDisposable
             DrawSpriteFrame(context, ground, tilePoint);
         }
 
-        IReadOnlyList<ForestTreePattern> patterns = CreateForestPatterns(forest, h, v);
+        IReadOnlyList<ForestTreePattern> patterns = GetForestPatterns(forest, h, v);
         foreach (ForestTreePattern pattern in patterns)
         {
             SpriteFrame sprite = forest.TreeSprites[pattern.SpriteIndex];
             DrawSpriteFrame(context, sprite, new Point(tilePoint.X + pattern.OffsetX, tilePoint.Y + pattern.OffsetY));
         }
+    }
+
+    private IReadOnlyList<ForestTreePattern> GetForestPatterns(ForestSpriteSet forest, int h, int v)
+    {
+        string forestId = forest.TreeSprites.FirstOrDefault()?.ResolvedPath ?? "";
+        (string ForestId, int H, int V) key = (forestId, h, v);
+        if (!forestPatternCache.TryGetValue(key, out IReadOnlyList<ForestTreePattern>? patterns))
+        {
+            patterns = CreateForestPatterns(forest, h, v);
+            forestPatternCache[key] = patterns;
+        }
+
+        return patterns;
+    }
+
+    private void AddGeneratedTreeScatter(ModernWorld target, ModernWorldTerrainKind terrainKind)
+    {
+        if (terrainKind == ModernWorldTerrainKind.Flat)
+        {
+            return;
+        }
+
+        LandContribution? forest = landContributions
+            .Where(land => land.Kind == LandContributionKind.Forest && land.IsLoadable)
+            .OrderByDescending(land => land.PluginDirectoryName.Contains("forest", StringComparison.OrdinalIgnoreCase))
+            .ThenByDescending(land => land.Forest?.Density ?? 0)
+            .FirstOrDefault();
+        if (forest is null)
+        {
+            return;
+        }
+
+        int maxTrees = Math.Clamp(target.Width * target.Height / 7, 32, 2_400);
+        List<GeneratedTreeCandidate> candidates = new();
+        for (int v = 0; v < target.Height; v++)
+        {
+            for (int h = 0; h < target.Width; h++)
+            {
+                TerrainTilePreview terrain = target.GetTerrainTile(h, v);
+                if (!terrain.IsFlat || !IsDryLevel(target, terrain.SurfaceLevel))
+                {
+                    continue;
+                }
+
+                double score = ForestSuitability(target.Name, h, v);
+                int tieBreaker = StableHash($"{target.Name}:generated-tree-order", h, v);
+                candidates.Add(new GeneratedTreeCandidate(h, v, terrain.SurfaceLevel, score, tieBreaker));
+            }
+        }
+
+        foreach (GeneratedTreeCandidate candidate in candidates
+            .OrderByDescending(candidate => candidate.Score)
+            .ThenBy(candidate => candidate.TieBreaker)
+            .Take(maxTrees))
+        {
+            target.AddEntity(ModernPlacedEntity.Land(candidate.H, candidate.V, candidate.Z, forest));
+        }
+    }
+
+    private static double ForestSuitability(string worldName, int h, int v)
+    {
+        int broadSeed = StableHash($"{worldName}:generated-tree-broad", 17, 43);
+        int midSeed = StableHash($"{worldName}:generated-tree-mid", 71, 29);
+        double broad = FractalForestNoise(h * 0.045 + 12.5, v * 0.045 - 8.75, broadSeed, 4, 0.54);
+        double mid = FractalForestNoise(h * 0.13 - 21.0, v * 0.13 + 35.0, midSeed, 3, 0.50);
+        double jitter = PositiveModulo(StableHash($"{worldName}:generated-tree-jitter", h, v), 10_000) / 10_000.0;
+        return broad * 0.62 + mid * 0.25 + jitter * 0.13;
+    }
+
+    private static double FractalForestNoise(double h, double v, int seed, int octaves, double persistence)
+    {
+        double total = 0;
+        double amplitude = 1;
+        double frequency = 1;
+        double amplitudeTotal = 0;
+
+        for (int octave = 0; octave < octaves; octave++)
+        {
+            total += ForestValueNoise(h * frequency, v * frequency, seed + octave * 1013) * amplitude;
+            amplitudeTotal += amplitude;
+            amplitude *= persistence;
+            frequency *= 2;
+        }
+
+        return amplitudeTotal <= 0 ? 0 : total / amplitudeTotal;
+    }
+
+    private static double ForestValueNoise(double h, double v, int seed)
+    {
+        int h0 = (int)Math.Floor(h);
+        int v0 = (int)Math.Floor(v);
+        double tx = SmoothStep(h - h0);
+        double ty = SmoothStep(v - v0);
+
+        double a = ForestRandomUnit(h0, v0, seed);
+        double b = ForestRandomUnit(h0 + 1, v0, seed);
+        double c = ForestRandomUnit(h0, v0 + 1, seed);
+        double d = ForestRandomUnit(h0 + 1, v0 + 1, seed);
+        return Lerp(Lerp(a, b, tx), Lerp(c, d, tx), ty);
+    }
+
+    private static double ForestRandomUnit(int h, int v, int seed)
+    {
+        unchecked
+        {
+            uint hash = 2166136261u;
+            hash = (hash ^ (uint)h) * 16777619u;
+            hash = (hash ^ (uint)v) * 16777619u;
+            hash = (hash ^ (uint)seed) * 16777619u;
+            hash ^= hash >> 13;
+            hash *= 1274126177u;
+            hash ^= hash >> 16;
+            return hash / (double)uint.MaxValue;
+        }
+    }
+
+    private static double Lerp(double a, double b, double amount)
+    {
+        return a + (b - a) * amount;
+    }
+
+    private static double SmoothStep(double value)
+    {
+        return value * value * (3 - 2 * value);
     }
 
     private Bitmap GetPluginBitmap(string path)
@@ -1364,7 +1494,7 @@ public sealed class MapViewport : Control, IDisposable
                 }
 
                 TerrainTilePreview terrain = world.GetTerrainTile(h, v);
-                if (!terrain.IsFlat || terrain.SurfaceLevel < world.WaterLevel)
+                if (!terrain.IsFlat || !IsDryLevel(terrain.SurfaceLevel))
                 {
                     continue;
                 }
@@ -1442,7 +1572,7 @@ public sealed class MapViewport : Control, IDisposable
                 }
 
                 TerrainTilePreview terrain = world.GetTerrainTile(h, v);
-                if (terrain.IsFlat && terrain.SurfaceLevel >= world.WaterLevel)
+                if (terrain.IsFlat && IsDryLevel(terrain.SurfaceLevel))
                 {
                     count++;
                 }
@@ -1567,7 +1697,7 @@ public sealed class MapViewport : Control, IDisposable
         out TerrainTilePreview baseTerrain)
     {
         baseTerrain = world.GetTerrainTile(h, v);
-        if (!baseTerrain.IsFlat || baseTerrain.SurfaceLevel < world.WaterLevel)
+        if (!baseTerrain.IsFlat || !IsDryLevel(baseTerrain.SurfaceLevel))
         {
             return false;
         }
@@ -1584,7 +1714,7 @@ public sealed class MapViewport : Control, IDisposable
                 }
 
                 TerrainTilePreview terrain = world.GetTerrainTile(tileH, tileV);
-                if (!terrain.IsFlat || terrain.SurfaceLevel != baseTerrain.SurfaceLevel || terrain.SurfaceLevel < world.WaterLevel)
+                if (!terrain.IsFlat || terrain.SurfaceLevel != baseTerrain.SurfaceLevel || !IsDryLevel(terrain.SurfaceLevel))
                 {
                     return false;
                 }
@@ -1687,6 +1817,12 @@ public sealed class MapViewport : Control, IDisposable
         }
     }
 
+    private static int PositiveModulo(int value, int divisor)
+    {
+        int result = value % divisor;
+        return result < 0 ? result + divisor : result;
+    }
+
     private Point FromHvzToScreen(int h, int v, int z)
     {
         int projectedV = v - z * 2;
@@ -1700,12 +1836,38 @@ public sealed class MapViewport : Control, IDisposable
             return MaxVisibleLevel;
         }
 
-        if (terrain.BaseLevel < world.WaterLevel && MaxVisibleLevel >= world.WaterLevel)
+        if (IsWaterLevel(terrain.BaseLevel) && MaxVisibleLevel >= world.WaterLevel)
         {
             return world.WaterLevel;
         }
 
         return terrain.BaseLevel;
+    }
+
+    private bool IsFullyUnderwater(TerrainTilePreview terrain)
+    {
+        return world.WaterLevel > 0
+            && (terrain.BaseLevel * 4 + terrain.MaxCornerHeight) <= world.WaterLevel * 4;
+    }
+
+    private bool IsWaterLevel(int surfaceLevel)
+    {
+        return IsWaterLevel(world, surfaceLevel);
+    }
+
+    private static bool IsWaterLevel(ModernWorld target, int surfaceLevel)
+    {
+        return target.WaterLevel > 0 && surfaceLevel <= target.WaterLevel;
+    }
+
+    private bool IsDryLevel(int surfaceLevel)
+    {
+        return IsDryLevel(world, surfaceLevel);
+    }
+
+    private static bool IsDryLevel(ModernWorld target, int surfaceLevel)
+    {
+        return target.WaterLevel <= 0 || surfaceLevel > target.WaterLevel;
     }
 
     private IEnumerable<(int H, int V)> EnumerateVisibleTiles(Rect visibleMapRect, double horizontalMargin, double verticalMargin)
@@ -1913,7 +2075,7 @@ public sealed class MapViewport : Control, IDisposable
         TerrainTilePreview terrain = world.GetTerrainTile(location.H, location.V);
         int visualLevel = GetTerrainVisualLevel(terrain);
         Point p = FromHvzToScreen(location.H, location.V, visualLevel);
-        bool usesTerrainProfile = visualLevel == terrain.BaseLevel && terrain.BaseLevel >= world.WaterLevel;
+        bool usesTerrainProfile = visualLevel == terrain.BaseLevel && IsDryLevel(terrain.BaseLevel);
         int cornerHeight = usesTerrainProfile ? GetCornerHeight(terrain, location.Corner) : 0;
 
         Point basePoint = location.Corner switch

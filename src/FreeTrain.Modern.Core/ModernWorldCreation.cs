@@ -3,7 +3,7 @@ namespace FreeTrain.Modern;
 public enum ModernWorldTerrainKind
 {
     Flat,
-    Island
+    Heightmap
 }
 
 public sealed record ModernWorldCreationOptions(
@@ -20,11 +20,11 @@ public sealed record ModernWorldCreationOptions(
 
     public static ModernWorldCreationOptions Default { get; } = new(
         "New FreeTrain World",
-        48,
-        48,
-        0,
+        56,
+        224,
+        1,
         ModernAccountState.Default.Cash,
-        ModernWorldTerrainKind.Island);
+        ModernWorldTerrainKind.Heightmap);
 
     public ModernWorldCreationOptions Normalize()
     {

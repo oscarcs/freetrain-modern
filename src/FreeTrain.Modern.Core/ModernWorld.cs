@@ -267,7 +267,7 @@ public sealed class ModernWorld
         TerrainTilePreview terrain = GetTerrainTile(location.H, location.V);
         return terrain.IsFlat
             && terrain.SurfaceLevel == location.Z
-            && terrain.SurfaceLevel >= WaterLevel;
+            && IsDrySurfaceLevel(terrain.SurfaceLevel);
     }
 
     public bool IsTransportBuildableSurface(TileLocation location)
@@ -292,7 +292,7 @@ public sealed class ModernWorld
             }
 
             TerrainTilePreview terrain = GetTerrainTile(voxel.H, voxel.V);
-            if (!terrain.IsFlat || terrain.SurfaceLevel != entity.Z || terrain.SurfaceLevel < WaterLevel)
+            if (!terrain.IsFlat || terrain.SurfaceLevel != entity.Z || !IsDrySurfaceLevel(terrain.SurfaceLevel))
             {
                 return false;
             }
@@ -314,7 +314,7 @@ public sealed class ModernWorld
                 || platformVoxels.ContainsKey(voxel)
                 || !terrain.IsFlat
                 || terrain.SurfaceLevel != station.Z
-                || terrain.SurfaceLevel < WaterLevel)
+                || !IsDrySurfaceLevel(terrain.SurfaceLevel))
             {
                 return false;
             }
@@ -1095,14 +1095,14 @@ public sealed class ModernWorld
         bool onSurface = terrain.IsFlat && terrain.SurfaceLevel == location.Z;
         bool overWaterBridge = specialKind == ModernSpecialRailKind.Bridge
             && terrain.IsFlat
-            && terrain.SurfaceLevel < WaterLevel
-            && location.Z >= WaterLevel;
+            && IsWaterSurfaceLevel(terrain.SurfaceLevel)
+            && location.Z > WaterLevel;
         bool elevatedSpecialRail = specialKind is ModernSpecialRailKind.Bridge or ModernSpecialRailKind.SteelSupported
             && terrain.IsFlat
             && location.Z > terrain.SurfaceLevel;
         bool tunnelCut = specialKind == ModernSpecialRailKind.Tunnel
             && terrain.SurfaceLevel == location.Z
-            && terrain.SurfaceLevel >= WaterLevel;
+            && IsDrySurfaceLevel(terrain.SurfaceLevel);
         if (!onSurface && !overWaterBridge && !elevatedSpecialRail && !tunnelCut)
         {
             return false;
@@ -1110,14 +1110,14 @@ public sealed class ModernWorld
 
         return specialKind switch
         {
-            ModernSpecialRailKind.Bridge => (terrain.SurfaceLevel <= WaterLevel || location.Z > terrain.SurfaceLevel)
+            ModernSpecialRailKind.Bridge => (IsWaterSurfaceLevel(terrain.SurfaceLevel) || location.Z > terrain.SurfaceLevel)
                 && CanBuildBridgePiers(location, everyOtherTile: true),
             ModernSpecialRailKind.SteelSupported => location.Z > terrain.SurfaceLevel
                 && CanBuildBridgePiers(location, everyOtherTile: false),
-            ModernSpecialRailKind.Tunnel => terrain.SurfaceLevel >= WaterLevel,
+            ModernSpecialRailKind.Tunnel => IsDrySurfaceLevel(terrain.SurfaceLevel),
             ModernSpecialRailKind.Garage => terrain.IsFlat && terrain.SurfaceLevel == location.Z,
             ModernSpecialRailKind.Unsupported => false,
-            _ => terrain.SurfaceLevel >= WaterLevel
+            _ => IsDrySurfaceLevel(terrain.SurfaceLevel)
         };
     }
 
@@ -1684,7 +1684,10 @@ public sealed class ModernWorld
         ModernWorldCreationOptions normalized = options.Normalize();
         int[,] heights = normalized.TerrainKind switch
         {
-            ModernWorldTerrainKind.Flat => BuildFlatFineHeights(normalized.Width, normalized.Height),
+            ModernWorldTerrainKind.Flat => BuildFlatFineHeights(
+                normalized.Width,
+                normalized.Height,
+                normalized.WaterLevel <= 0 ? 0 : normalized.WaterLevel + 1),
             _ => BuildRepresentableFineHeights(normalized.Width, normalized.Height, normalized.WaterLevel)
         };
 
@@ -2521,6 +2524,16 @@ public sealed class ModernWorld
         };
     }
 
+    private bool IsDrySurfaceLevel(int surfaceLevel)
+    {
+        return WaterLevel <= 0 || surfaceLevel > WaterLevel;
+    }
+
+    private bool IsWaterSurfaceLevel(int surfaceLevel)
+    {
+        return WaterLevel > 0 && surfaceLevel <= WaterLevel;
+    }
+
     private void RemoveCarFromTraffic(ModernCar car)
     {
         if (car.State.Location is { } location && trafficCars.TryGetValue(location, out string? carId) && carId == car.CarId)
@@ -2611,9 +2624,21 @@ public sealed class ModernWorld
         return x == replacementX && y == replacementY ? replacementValue : fineHeights[x, y];
     }
 
-    private static int[,] BuildFlatFineHeights(int width, int height)
+    private static int[,] BuildFlatFineHeights(int width, int height, int level = 0)
     {
-        return new int[width * 2 + 2, height + 2];
+        int fineWidth = width * 2 + 2;
+        int fineHeight = height + 2;
+        int[,] fineHeights = new int[fineWidth, fineHeight];
+        int fineLevel = Math.Clamp(level * 4, 0, MaxFineHeight);
+        for (int y = 0; y < fineHeight; y++)
+        {
+            for (int x = 0; x < fineWidth; x++)
+            {
+                fineHeights[x, y] = fineLevel;
+            }
+        }
+
+        return fineHeights;
     }
 
     private static int[,] BuildRepresentableFineHeights(int width, int height, int waterLevel)
@@ -2674,11 +2699,93 @@ public sealed class ModernWorld
     {
         double h = x / 2.0;
         double v = y;
-        double distance = Math.Sqrt(Math.Pow((x - centerX) / width * 1.35, 2) + Math.Pow((y - centerY) / height * 2.2, 2));
-        double ridge = Math.Sin(h * 0.22) * 0.28 + Math.Cos(v * 0.16) * 0.24;
-        double island = Math.Max(0, 1.16 - distance) * 3.35;
-        double level = waterLevel - 1 + island + ridge;
-        return Math.Clamp((int)Math.Round(level * 4), 0, MaxFineHeight);
+        double nx = width <= 0 ? 0 : h / width;
+        double ny = height <= 0 ? 0 : v / height;
+        double continent = FractalValueNoise(nx * 1.55 + 31.7, ny * 1.55 - 12.4, 4, 0.55);
+        double hills = FractalValueNoise(nx * 4.8 - 10.3, ny * 4.8 + 44.1, 5, 0.5);
+        double ridges = 1.0 - Math.Abs(FractalValueNoise(nx * 8.0 + 8.7, ny * 8.0 - 5.6, 3, 0.55));
+        double basins = FractalValueNoise(nx * 2.8 - 71.0, ny * 2.8 + 18.5, 3, 0.5);
+        double level = waterLevel + 1.15
+            + continent * 2.35
+            + hills * 1.15
+            + ridges * 0.55
+            + basins * 0.65;
+        double terraced = TerraceLevel(Math.Clamp(level, 0, 7));
+        return Math.Clamp((int)Math.Round(terraced * 4), 0, MaxFineHeight);
+    }
+
+    private static double TerraceLevel(double level)
+    {
+        double lower = Math.Floor(level);
+        double fraction = level - lower;
+        const double flatBand = 0.36;
+        if (fraction <= flatBand)
+        {
+            return lower;
+        }
+
+        if (fraction >= 1 - flatBand)
+        {
+            return lower + 1;
+        }
+
+        double t = (fraction - flatBand) / (1 - flatBand * 2);
+        return lower + SmoothStep(t);
+    }
+
+    private static double SmoothStep(double value)
+    {
+        double t = Math.Clamp(value, 0, 1);
+        return t * t * (3 - 2 * t);
+    }
+
+    private static double FractalValueNoise(double x, double y, int octaves, double persistence)
+    {
+        double sum = 0;
+        double amplitude = 1;
+        double frequency = 1;
+        double amplitudeSum = 0;
+        for (int octave = 0; octave < octaves; octave++)
+        {
+            sum += ValueNoise(x * frequency, y * frequency, octave * 1013 + 97) * amplitude;
+            amplitudeSum += amplitude;
+            amplitude *= persistence;
+            frequency *= 2;
+        }
+
+        return amplitudeSum <= 0 ? 0 : sum / amplitudeSum;
+    }
+
+    private static double ValueNoise(double x, double y, int seed)
+    {
+        int x0 = (int)Math.Floor(x);
+        int y0 = (int)Math.Floor(y);
+        double tx = SmoothStep(x - x0);
+        double ty = SmoothStep(y - y0);
+        double a = RandomUnit(x0, y0, seed);
+        double b = RandomUnit(x0 + 1, y0, seed);
+        double c = RandomUnit(x0, y0 + 1, seed);
+        double d = RandomUnit(x0 + 1, y0 + 1, seed);
+        return Lerp(Lerp(a, b, tx), Lerp(c, d, tx), ty);
+    }
+
+    private static double RandomUnit(int x, int y, int seed)
+    {
+        unchecked
+        {
+            uint hash = (uint)seed;
+            hash ^= (uint)x * 0x9E3779B9u;
+            hash = (hash << 13) | (hash >> 19);
+            hash ^= (uint)y * 0x85EBCA6Bu;
+            hash *= 0xC2B2AE35u;
+            hash ^= hash >> 16;
+            return hash / (double)uint.MaxValue * 2.0 - 1.0;
+        }
+    }
+
+    private static double Lerp(double a, double b, double t)
+    {
+        return a + (b - a) * t;
     }
 
     private static IEnumerable<TileLocation> EnumerateLine(TileLocation from, TileLocation to)

@@ -19,6 +19,8 @@ public sealed class ModernWorldCreationTests
         Assert.Equal(32, world.Width);
         Assert.Equal(28, world.Height);
         Assert.Equal(1, world.WaterLevel);
+        Assert.Equal(2, world.GetGroundLevel(0, 0));
+        Assert.True(world.IsBuildableSurface(new TileLocation(0, 0, 2)));
         Assert.Equal(123_456_789, world.Account.Cash);
         Assert.Empty(world.Transport.RailTiles);
         Assert.Empty(world.Transport.RoadTiles);
@@ -44,6 +46,53 @@ public sealed class ModernWorldCreationTests
         Assert.Equal(ModernWorldCreationOptions.MaxSize, world.Height);
         Assert.Equal(7, world.WaterLevel);
         Assert.Equal(0, world.Account.Cash);
+    }
+
+    [Fact]
+    public void HeightmapGenerationCreatesTerracedBuildableLandAndWater()
+    {
+        ModernWorld world = ModernWorld.CreateNew(new ModernWorldCreationOptions(
+            "Terraced Heightmap",
+            64,
+            64,
+            1,
+            100_000_000,
+            ModernWorldTerrainKind.Heightmap));
+
+        int waterTiles = 0;
+        int dryFlatTiles = 0;
+        int shoreTransitionTiles = 0;
+        HashSet<int> levels = new();
+        for (int v = 0; v < world.Height; v++)
+        {
+            for (int h = 0; h < world.Width; h++)
+            {
+                TerrainTilePreview terrain = world.GetTerrainTile(h, v);
+                levels.Add(terrain.SurfaceLevel);
+                if (terrain.SurfaceLevel <= world.WaterLevel)
+                {
+                    waterTiles++;
+                }
+
+                if (terrain.IsFlat && terrain.SurfaceLevel > world.WaterLevel)
+                {
+                    dryFlatTiles++;
+                }
+
+                if (terrain.BaseLevel <= world.WaterLevel
+                    && terrain.BaseLevel * 4 + terrain.MaxCornerHeight > world.WaterLevel * 4)
+                {
+                    shoreTransitionTiles++;
+                }
+            }
+        }
+
+        int tileCount = world.Width * world.Height;
+        Assert.True(waterTiles > tileCount / 12);
+        Assert.True(dryFlatTiles > tileCount / 5);
+        Assert.True(shoreTransitionTiles > 0);
+        Assert.True(levels.Count >= 4);
+        Assert.True(world.MaxGroundLevel >= world.WaterLevel + 2);
     }
 
     [Fact]
