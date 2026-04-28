@@ -123,7 +123,7 @@ internal abstract class PlacementPreviewControl : Control, IDisposable
         string key = BitmapCacheKey(frame, colorVariantIndex);
         if (!bitmaps.TryGetValue(key, out Bitmap? bitmap))
         {
-            bitmap = LegacyBitmap.LoadWithColorKey(frame.ResolvedPath, frame.ColorMaps, colorVariantIndex);
+            bitmap = LegacyBitmap.LoadWithColorKey(frame.ResolvedPath, frame.ColorMapsForVariant(colorVariantIndex), colorVariantIndex);
             bitmaps[key] = bitmap;
         }
 
@@ -132,9 +132,10 @@ internal abstract class PlacementPreviewControl : Control, IDisposable
 
     private static string BitmapCacheKey(SpriteFrame frame, int colorVariantIndex)
     {
-        return frame.ColorMaps.Count == 0
+        IReadOnlyList<ColorMapEntry> colorMaps = frame.ColorMapsForVariant(colorVariantIndex);
+        return colorMaps.Count == 0
             ? frame.ResolvedPath
-            : $"{frame.ResolvedPath}|{colorVariantIndex}|{string.Join(";", frame.ColorMaps.Select(map => $"{map.From}>{map.To}"))}";
+            : $"{frame.ResolvedPath}|{colorVariantIndex}|{string.Join(";", colorMaps.Select(map => $"{map.From}>{map.To}"))}";
     }
 
     protected static Rect GetClampedSource(Bitmap bitmap, SpriteFrame frame)
@@ -283,11 +284,13 @@ internal sealed class StructurePlacementPreviewControl : PlacementPreviewControl
 {
     private readonly SpriteContribution structure;
     private readonly int colorVariantIndex;
+    private readonly int frameVariantIndex;
 
-    public StructurePlacementPreviewControl(SpriteContribution structure, int colorVariantIndex = 0)
+    public StructurePlacementPreviewControl(SpriteContribution structure, int colorVariantIndex = 0, int frameVariantIndex = 0)
     {
         this.structure = structure;
         this.colorVariantIndex = colorVariantIndex;
+        this.frameVariantIndex = frameVariantIndex;
     }
 
     public override void Render(DrawingContext context)
@@ -299,8 +302,10 @@ internal sealed class StructurePlacementPreviewControl : PlacementPreviewControl
             return;
         }
 
-        if (structure.Frames.FirstOrDefault(frame => frame.IsLoadable) is { } frame)
+        SpriteFrame[] frames = structure.Frames.Where(frame => frame.IsLoadable).ToArray();
+        if (frames.Length > 0)
         {
+            SpriteFrame frame = frames[Math.Clamp(frameVariantIndex, 0, frames.Length - 1)];
             DrawSpriteFrame(context, frame, new Point(62, 44), Bounds.Width - 12, Bounds.Height - 10, colorVariantIndex);
         }
     }

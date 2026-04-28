@@ -1,5 +1,6 @@
 using System.Runtime.InteropServices;
 using Avalonia;
+using Avalonia.Media;
 using Avalonia.Media.Imaging;
 using Avalonia.Platform;
 
@@ -46,6 +47,169 @@ public static class LegacyBitmap
         return DefaultColorLibraryColors.TryGetValue(colorLibraryId.Trim(), out (byte R, byte G, byte B)[]? colors)
             ? colors.Length
             : 0;
+    }
+
+    public static bool TryResolveColor(string text, int colorLibraryVariantIndex, out Color color)
+    {
+        color = Colors.Transparent;
+        if (DefaultColorLibraryColors.TryGetValue(text.Trim(), out (byte R, byte G, byte B)[]? colors)
+            && colors.Length > 0)
+        {
+            (byte R, byte G, byte B) resolved = colors[(int)((uint)colorLibraryVariantIndex % colors.Length)];
+            color = Color.FromRgb(resolved.R, resolved.G, resolved.B);
+            return true;
+        }
+
+        if (text.Equals("Transparent", StringComparison.OrdinalIgnoreCase))
+        {
+            return false;
+        }
+
+        string[] parts = text.Split(',', StringSplitOptions.TrimEntries);
+        if (parts.Length != 3
+            || !byte.TryParse(parts[0], out byte r)
+            || !byte.TryParse(parts[1], out byte g)
+            || !byte.TryParse(parts[2], out byte b))
+        {
+            return false;
+        }
+
+        color = Color.FromRgb(r, g, b);
+        return true;
+    }
+
+    public static IReadOnlyList<Color> SampleMappedColorsWithColorKey(
+        string path,
+        IReadOnlyList<ColorMapEntry> colorMaps,
+        int colorLibraryVariantIndex,
+        PixelRect sourceRect,
+        int maxColors = 4,
+        bool includeTopLeftColor = true,
+        bool includeMagenta = true)
+    {
+        if (colorMaps.Count == 0 || maxColors <= 0)
+        {
+            return Array.Empty<Color>();
+        }
+
+        ColorTransform[] transforms = CreateColorTransforms(colorMaps, colorLibraryVariantIndex);
+        if (transforms.Length == 0)
+        {
+            return Array.Empty<Color>();
+        }
+
+        using Bitmap source = new(path);
+        WriteableBitmap target = new(source.PixelSize, source.Dpi, PixelFormats.Bgra8888, AlphaFormat.Premul);
+        using ILockedFramebuffer framebuffer = target.Lock();
+        source.CopyPixels(framebuffer);
+        ApplyColorKey(framebuffer, includeTopLeftColor, includeMagenta);
+
+        Dictionary<Color, int> counts = new();
+        int left = Math.Clamp(sourceRect.X, 0, Math.Max(0, framebuffer.Size.Width - 1));
+        int top = Math.Clamp(sourceRect.Y, 0, Math.Max(0, framebuffer.Size.Height - 1));
+        int right = Math.Clamp(sourceRect.Right, left, framebuffer.Size.Width);
+        int bottom = Math.Clamp(sourceRect.Bottom, top, framebuffer.Size.Height);
+        byte[] row = new byte[framebuffer.RowBytes];
+
+        for (int y = top; y < bottom; y++)
+        {
+            IntPtr rowAddress = IntPtr.Add(framebuffer.Address, y * framebuffer.RowBytes);
+            Marshal.Copy(rowAddress, row, 0, framebuffer.RowBytes);
+
+            for (int x = left; x < right; x++)
+            {
+                int index = x * 4;
+                if (row[index + 3] == 0)
+                {
+                    continue;
+                }
+
+                byte b = row[index];
+                byte g = row[index + 1];
+                byte r = row[index + 2];
+                foreach (ColorTransform transform in transforms)
+                {
+                    if (!transform.TryMap(r, g, b, out byte mappedR, out byte mappedG, out byte mappedB))
+                    {
+                        continue;
+                    }
+
+                    Color color = QuantizeColor(mappedR, mappedG, mappedB);
+                    counts[color] = counts.GetValueOrDefault(color) + 1;
+                    break;
+                }
+            }
+        }
+
+        return counts
+            .OrderByDescending(pair => pair.Value)
+            .Select(pair => pair.Key)
+            .Take(maxColors)
+            .ToList()
+            .AsReadOnly();
+    }
+
+    public static IReadOnlyList<Color> SampleDominantColorsWithColorKey(
+        string path,
+        PixelRect sourceRect,
+        IReadOnlyList<ColorMapEntry>? colorMaps = null,
+        int colorLibraryVariantIndex = 0,
+        int maxColors = 4,
+        bool includeTopLeftColor = true,
+        bool includeMagenta = true)
+    {
+        if (maxColors <= 0)
+        {
+            return Array.Empty<Color>();
+        }
+
+        using Bitmap source = new(path);
+        WriteableBitmap target = new(source.PixelSize, source.Dpi, PixelFormats.Bgra8888, AlphaFormat.Premul);
+        using ILockedFramebuffer framebuffer = target.Lock();
+        source.CopyPixels(framebuffer);
+        ApplyColorKey(framebuffer, includeTopLeftColor, includeMagenta);
+        if (colorMaps is { Count: > 0 })
+        {
+            ApplyColorMaps(framebuffer, colorMaps, colorLibraryVariantIndex);
+        }
+
+        Dictionary<Color, int> informativeCounts = new();
+        Dictionary<Color, int> fallbackCounts = new();
+        int left = Math.Clamp(sourceRect.X, 0, Math.Max(0, framebuffer.Size.Width - 1));
+        int top = Math.Clamp(sourceRect.Y, 0, Math.Max(0, framebuffer.Size.Height - 1));
+        int right = Math.Clamp(sourceRect.Right, left, framebuffer.Size.Width);
+        int bottom = Math.Clamp(sourceRect.Bottom, top, framebuffer.Size.Height);
+        byte[] row = new byte[framebuffer.RowBytes];
+
+        for (int y = top; y < bottom; y++)
+        {
+            IntPtr rowAddress = IntPtr.Add(framebuffer.Address, y * framebuffer.RowBytes);
+            Marshal.Copy(rowAddress, row, 0, framebuffer.RowBytes);
+
+            for (int x = left; x < right; x++)
+            {
+                int index = x * 4;
+                if (row[index + 3] == 0)
+                {
+                    continue;
+                }
+
+                Color color = QuantizeColor(row[index + 2], row[index + 1], row[index]);
+                fallbackCounts[color] = fallbackCounts.GetValueOrDefault(color) + 1;
+                if (IsInformativeSwatchColor(color))
+                {
+                    informativeCounts[color] = informativeCounts.GetValueOrDefault(color) + 1;
+                }
+            }
+        }
+
+        Dictionary<Color, int> counts = informativeCounts.Count > 0 ? informativeCounts : fallbackCounts;
+        return counts
+            .OrderByDescending(pair => pair.Value)
+            .Select(pair => pair.Key)
+            .Take(maxColors)
+            .ToList()
+            .AsReadOnly();
     }
 
     private static void ApplyColorKey(ILockedFramebuffer framebuffer, bool includeTopLeftColor, bool includeMagenta)
@@ -101,11 +265,7 @@ public static class LegacyBitmap
             return;
         }
 
-        ColorTransform[] transforms = colorMaps
-            .Select(map => ColorTransform.TryCreate(map, colorLibraryVariantIndex))
-            .Where(transform => transform is not null)
-            .Cast<ColorTransform>()
-            .ToArray();
+        ColorTransform[] transforms = CreateColorTransforms(colorMaps, colorLibraryVariantIndex);
         if (transforms.Length == 0)
         {
             return;
@@ -148,6 +308,30 @@ public static class LegacyBitmap
 
             Marshal.Copy(row, 0, rowAddress, rowBytes);
         }
+    }
+
+    private static ColorTransform[] CreateColorTransforms(IReadOnlyList<ColorMapEntry> colorMaps, int colorLibraryVariantIndex)
+    {
+        return colorMaps
+            .Select(map => ColorTransform.TryCreate(map, colorLibraryVariantIndex))
+            .Where(transform => transform is not null)
+            .Cast<ColorTransform>()
+            .ToArray();
+    }
+
+    private static Color QuantizeColor(byte r, byte g, byte b)
+    {
+        return Color.FromRgb(
+            (byte)(r / 16 * 16),
+            (byte)(g / 16 * 16),
+            (byte)(b / 16 * 16));
+    }
+
+    private static bool IsInformativeSwatchColor(Color color)
+    {
+        byte max = Math.Max(color.R, Math.Max(color.G, color.B));
+        byte min = Math.Min(color.R, Math.Min(color.G, color.B));
+        return max >= 48 && max - min >= 24;
     }
 
     private sealed class ColorTransform
@@ -313,7 +497,7 @@ public static class LegacyBitmap
                 return false;
             }
 
-            (byte R, byte G, byte B) color = colors[Math.Abs(colorLibraryVariantIndex) % colors.Length];
+            (byte R, byte G, byte B) color = colors[(int)((uint)colorLibraryVariantIndex % colors.Length)];
             r = color.R;
             g = color.G;
             b = color.B;

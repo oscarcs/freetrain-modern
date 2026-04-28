@@ -131,11 +131,11 @@ public sealed class MapViewport : Control, IDisposable
         roadContributions = plugins.Roads.Where(road => road.IsLoadable).ToList().AsReadOnly();
         landContributions = plugins.Lands.Where(land => land.IsLoadable).ToList().AsReadOnly();
         spriteContributions = plugins.Sprites.Where(sprite => sprite.IsLoadable).ToList().AsReadOnly();
-        structureContributions = plugins.Structures
+        structureContributions = PreferCanonicalStructureContributions(plugins.Structures
             .Concat(plugins.RailStationaries)
             .Concat(plugins.RoadAccessories)
             .Concat(plugins.ElectricPoles)
-            .Where(sprite => sprite.IsLoadable)
+            .Where(sprite => sprite.IsLoadable))
             .OrderBy(sprite => StructurePlacementPriority(sprite.PlacementKind))
             .ThenBy(sprite => sprite.Group, StringComparer.OrdinalIgnoreCase)
             .ThenBy(sprite => sprite.DisplayName, StringComparer.OrdinalIgnoreCase)
@@ -268,6 +268,7 @@ public sealed class MapViewport : Control, IDisposable
     public string ActiveTrainName => ActiveTrainContribution?.DisplayName ?? "No train plugins loaded";
     public string ActivePlatformDescription => $"{ModernDirection.FromIndex(activePlatformDirectionIndex).EnglishName}, {activePlatformLength} tile(s), {FormatPlatformStyle(activePlatformStyle)}";
     public int ActiveStructureColorVariantIndex => activeStructureColorVariantIndex;
+    public int ActiveStructureFrameVariantIndex => activeStructureFrameIndex;
     public int ActiveStructureColorVariantCount => ActiveStructureContribution is { } structure
         ? GetColorVariantCount(structure)
         : 1;
@@ -1123,6 +1124,24 @@ public sealed class MapViewport : Control, IDisposable
         PublishStatus();
     }
 
+    public void SelectStructureFrameVariant(int frameIndex)
+    {
+        if (ActiveStructureContribution is not { } structure || structure.Frames.Count == 0)
+        {
+            return;
+        }
+
+        int next = Math.Clamp(frameIndex, 0, structure.Frames.Count - 1);
+        if (activeStructureFrameIndex == next)
+        {
+            return;
+        }
+
+        activeStructureFrameIndex = next;
+        PublishStatus();
+        InvalidateVisual();
+    }
+
     public void ChangeStructureColorVariant(int delta)
     {
         int count = ActiveStructureColorVariantCount;
@@ -1139,6 +1158,30 @@ public sealed class MapViewport : Control, IDisposable
 
         PublishStatus();
         InvalidateVisual();
+    }
+
+    public void SelectStructureColorVariant(int colorIndex)
+    {
+        int count = ActiveStructureColorVariantCount;
+        if (count <= 1)
+        {
+            return;
+        }
+
+        int next = Math.Clamp(colorIndex, 0, count - 1);
+        if (activeStructureColorVariantIndex == next)
+        {
+            return;
+        }
+
+        activeStructureColorVariantIndex = next;
+        PublishStatus();
+        InvalidateVisual();
+    }
+
+    public int GetStructureColorVariantCount(SpriteContribution structure)
+    {
+        return GetColorVariantCount(structure);
     }
 
     public void SelectNextTrain()
@@ -1523,7 +1566,7 @@ public sealed class MapViewport : Control, IDisposable
         string key = BitmapCacheKey(frame, colorVariantIndex);
         if (!pluginBitmaps.TryGetValue(key, out Bitmap? bitmap))
         {
-            bitmap = LegacyBitmap.LoadWithColorKey(frame.ResolvedPath, frame.ColorMaps, colorVariantIndex);
+            bitmap = LegacyBitmap.LoadWithColorKey(frame.ResolvedPath, frame.ColorMapsForVariant(colorVariantIndex), colorVariantIndex);
             pluginBitmaps[key] = bitmap;
         }
 
@@ -1532,9 +1575,10 @@ public sealed class MapViewport : Control, IDisposable
 
     private static string BitmapCacheKey(SpriteFrame frame, int colorVariantIndex)
     {
-        return frame.ColorMaps.Count == 0
+        IReadOnlyList<ColorMapEntry> colorMaps = frame.ColorMapsForVariant(colorVariantIndex);
+        return colorMaps.Count == 0
             ? frame.ResolvedPath
-            : $"{frame.ResolvedPath}|{colorVariantIndex}|{string.Join(";", frame.ColorMaps.Select(map => $"{map.From}>{map.To}"))}";
+            : $"{frame.ResolvedPath}|{colorVariantIndex}|{string.Join(";", colorMaps.Select(map => $"{map.From}>{map.To}"))}";
     }
 
     private HashSet<(int H, int V)> CreateInitialOccupiedTiles()
@@ -2689,6 +2733,39 @@ public sealed class MapViewport : Control, IDisposable
         };
     }
 
+    private static IEnumerable<SpriteContribution> PreferCanonicalStructureContributions(IEnumerable<SpriteContribution> contributions)
+    {
+        List<SpriteContribution> loadable = contributions.ToList();
+        HashSet<string> pluginDirectories = loadable
+            .Select(contribution => contribution.PluginDirectoryName)
+            .ToHashSet(StringComparer.OrdinalIgnoreCase);
+
+        foreach (SpriteContribution contribution in loadable)
+        {
+            if (TryGetConvertedSourcePlugin(contribution.PluginDirectoryName, out string sourcePlugin)
+                && pluginDirectories.Contains(sourcePlugin))
+            {
+                continue;
+            }
+
+            yield return contribution;
+        }
+    }
+
+    private static bool TryGetConvertedSourcePlugin(string pluginDirectoryName, out string sourcePlugin)
+    {
+        const string prefix = "gs.convert.";
+        if (pluginDirectoryName.StartsWith(prefix, StringComparison.OrdinalIgnoreCase)
+            && pluginDirectoryName.Length > prefix.Length)
+        {
+            sourcePlugin = pluginDirectoryName[prefix.Length..];
+            return true;
+        }
+
+        sourcePlugin = "";
+        return false;
+    }
+
     private static int SpecialRailPriority(ModernSpecialRailKind kind)
     {
         return kind switch
@@ -2706,10 +2783,21 @@ public sealed class MapViewport : Control, IDisposable
         return structure.Frames
             .Concat(structure.SpriteSet2D?.InVoxelDrawOrder().Select(voxel => voxel.Frame) ?? Enumerable.Empty<SpriteFrame>())
             .Concat(structure.SpriteSet3D?.InVoxelDrawOrder().Select(voxel => voxel.Frame) ?? Enumerable.Empty<SpriteFrame>())
-            .SelectMany(frame => frame.ColorMaps)
-            .Select(map => LegacyBitmap.GetColorLibrarySize(map.To))
+            .Select(GetFrameColorVariantCount)
             .DefaultIfEmpty(1)
             .Max();
+    }
+
+    private static int GetFrameColorVariantCount(SpriteFrame frame)
+    {
+        int explicitVariantCount = frame.ColorMapVariants.Count;
+        int libraryVariantCount = frame.ColorMapVariants
+            .SelectMany(variant => variant)
+            .Concat(frame.ColorMaps)
+            .Select(map => LegacyBitmap.GetColorLibrarySize(map.To))
+            .DefaultIfEmpty(0)
+            .Max();
+        return Math.Max(1, Math.Max(explicitVariantCount, libraryVariantCount));
     }
 
     private static string SpecialRailDisplayName(SpecialRailContribution rail)

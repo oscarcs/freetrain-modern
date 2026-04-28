@@ -164,7 +164,7 @@ public sealed class SpriteContributionPreview : Control, IDisposable
         string key = BitmapCacheKey(frame);
         if (!bitmaps.TryGetValue(key, out Bitmap? bitmap))
         {
-            bitmap = LegacyBitmap.LoadWithColorKey(frame.ResolvedPath, frame.ColorMaps);
+            bitmap = LegacyBitmap.LoadWithColorKey(frame.ResolvedPath, frame.ColorMapsForVariant(0));
             bitmaps[key] = bitmap;
         }
 
@@ -173,9 +173,10 @@ public sealed class SpriteContributionPreview : Control, IDisposable
 
     private static string BitmapCacheKey(SpriteFrame frame)
     {
-        return frame.ColorMaps.Count == 0
+        IReadOnlyList<ColorMapEntry> colorMaps = frame.ColorMapsForVariant(0);
+        return colorMaps.Count == 0
             ? frame.ResolvedPath
-            : $"{frame.ResolvedPath}|{string.Join(";", frame.ColorMaps.Select(map => $"{map.From}>{map.To}"))}";
+            : $"{frame.ResolvedPath}|{string.Join(";", colorMaps.Select(map => $"{map.From}>{map.To}"))}";
     }
 
     private static FormattedText Text(string value, double size, IBrush brush, FontWeight weight, double maxWidth)

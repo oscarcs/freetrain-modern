@@ -24,6 +24,7 @@ public sealed class MainWindow : Window
     private readonly DispatcherTimer simulationTimer;
     private readonly Bitmap? toolbarIconStrip;
     private readonly Dictionary<MapEditMode, ToggleButton> modeButtons = new();
+    private readonly Dictionary<string, IReadOnlyList<Color>> buildCatalogSwatchCache = new(StringComparer.Ordinal);
     private readonly int[] simulationSpeeds = { 10, 30, 60, 180, 360 };
 
     private ColumnDefinition developerColumn = null!;
@@ -38,7 +39,8 @@ public sealed class MainWindow : Window
     private TextBlock buildCatalogTitle = null!;
     private TextBlock buildCatalogSummary = null!;
     private TextBox buildCatalogSearch = null!;
-    private ListBox buildCatalogList = null!;
+    private ItemsControl buildCatalogList = null!;
+    private ScrollViewer buildCatalogScrollViewer = null!;
     private Border selectContextPanel = null!;
     private Border railContextPanel = null!;
     private Border roadContextPanel = null!;
@@ -60,7 +62,6 @@ public sealed class MainWindow : Window
 
     private bool developerModeVisible;
     private bool simulationRunning;
-    private bool updatingBuildCatalog;
     private int simulationSpeedIndex;
     private string placementPreviewKey = "";
     private string buildCatalogQuery = "";
@@ -601,20 +602,9 @@ public sealed class MainWindow : Window
             UpdateBuildCatalog(mapViewport.CurrentStatus);
         };
 
-        buildCatalogList = new ListBox
+        buildCatalogList = new ItemsControl
         {
-            Background = Brushes.Transparent,
-            BorderThickness = new Thickness(0),
             ItemTemplate = new FuncDataTemplate<BuildCatalogItem>((item, _) => BuildCatalogItemRow(item))
-        };
-        buildCatalogList.SelectionChanged += (_, _) =>
-        {
-            if (updatingBuildCatalog || buildCatalogList.SelectedItem is not BuildCatalogItem item)
-            {
-                return;
-            }
-
-            item.Select();
         };
 
         DockPanel content = new()
@@ -630,12 +620,13 @@ public sealed class MainWindow : Window
         header.Children.Add(buildCatalogSearch);
         DockPanel.SetDock(header, Dock.Top);
         content.Children.Add(header);
-        content.Children.Add(new ScrollViewer
+        buildCatalogScrollViewer = new ScrollViewer
         {
             Content = buildCatalogList,
             HorizontalScrollBarVisibility = ScrollBarVisibility.Disabled,
             VerticalScrollBarVisibility = ScrollBarVisibility.Auto
-        });
+        };
+        content.Children.Add(buildCatalogScrollViewer);
 
         buildCatalogPanel = new Border
         {
@@ -671,7 +662,7 @@ public sealed class MainWindow : Window
             MinHeight = 70
         };
         Control preview = item.CreatePreview();
-        grid.Children.Add(new Border
+        Border previewContainer = new()
         {
             Width = 66,
             Height = 48,
@@ -685,11 +676,22 @@ public sealed class MainWindow : Window
                 Stretch = Stretch.Uniform,
                 Child = preview
             }
-        });
+        };
+        previewContainer.PointerPressed += (_, e) =>
+        {
+            item.Select();
+            e.Handled = true;
+        };
+        grid.Children.Add(previewContainer);
 
         StackPanel copy = new()
         {
             Spacing = 2
+        };
+        copy.PointerPressed += (_, e) =>
+        {
+            item.Select();
+            e.Handled = true;
         };
         copy.Children.Add(new TextBlock
         {
@@ -718,18 +720,122 @@ public sealed class MainWindow : Window
         Grid.SetColumn(copy, 1);
         grid.Children.Add(copy);
 
+        StackPanel content = new()
+        {
+            Spacing = 6
+        };
+        content.Children.Add(grid);
+        if (item.OptionGroups.Count > 0)
+        {
+            content.Children.Add(BuildCatalogOptionGroups(item));
+        }
+
         return new Border
         {
             Background = item.IsActive ? ActiveToolBrush : Brushes.White,
             BorderBrush = item.IsActive
                 ? AccentBrush
                 : new SolidColorBrush(Color.FromRgb(226, 231, 234)),
-            BorderThickness = new Thickness(item.IsActive ? 2 : 1),
+            BorderThickness = new Thickness(1),
             CornerRadius = new CornerRadius(4),
             Padding = new Thickness(7),
             Margin = new Thickness(0, 0, 0, 6),
-            Child = grid
+            Child = content
         };
+    }
+
+    private static Control BuildCatalogOptionGroups(BuildCatalogItem item)
+    {
+        StackPanel groups = new()
+        {
+            Margin = new Thickness(74, 0, 0, 0),
+            Spacing = 4
+        };
+
+        foreach (BuildCatalogOptionGroup group in item.OptionGroups)
+        {
+            Grid row = new()
+            {
+                ColumnDefinitions = new ColumnDefinitions("54,*")
+            };
+            row.Children.Add(new TextBlock
+            {
+                Text = group.Title,
+                Foreground = DarkMutedTextBrush,
+                FontSize = 10,
+                VerticalAlignment = VerticalAlignment.Center
+            });
+
+            WrapPanel options = new()
+            {
+                ItemHeight = 26
+            };
+            foreach (BuildCatalogOption option in group.Options)
+            {
+                Button button = new()
+                {
+                    MinWidth = option.Swatches.Count == 0 ? 34 : 30,
+                    Width = option.Swatches.Count == 0 ? double.NaN : 30,
+                    Height = 22,
+                    Padding = option.Swatches.Count == 0 ? new Thickness(8, 1) : new Thickness(2),
+                    Margin = new Thickness(0, 0, 4, 4),
+                    Background = option.IsActive ? ActiveToolBrush : Brushes.White,
+                    BorderBrush = option.IsActive
+                        ? AccentBrush
+                        : new SolidColorBrush(Color.FromRgb(220, 226, 230)),
+                    BorderThickness = new Thickness(1),
+                    Content = option.Swatches.Count > 0
+                        ? BuildColorSwatch(option.Swatches)
+                        : new TextBlock
+                        {
+                            Text = option.Label,
+                            FontSize = 10,
+                            Foreground = DarkTextBrush,
+                            HorizontalAlignment = HorizontalAlignment.Center,
+                            VerticalAlignment = VerticalAlignment.Center
+                        }
+                };
+                button.Click += (_, e) =>
+                {
+                    e.Handled = true;
+                    option.Select();
+                };
+                ToolTip.SetTip(button, option.ToolTip);
+                options.Children.Add(button);
+            }
+
+            Grid.SetColumn(options, 1);
+            row.Children.Add(options);
+            groups.Children.Add(row);
+        }
+
+        return groups;
+    }
+
+    private static Control BuildColorSwatch(IReadOnlyList<Color> colors)
+    {
+        Grid swatch = new()
+        {
+            Width = 20,
+            Height = 14,
+            ClipToBounds = true
+        };
+
+        int count = Math.Clamp(colors.Count, 1, 4);
+        swatch.ColumnDefinitions = new ColumnDefinitions(string.Join(",", Enumerable.Repeat("*", count)));
+        for (int i = 0; i < count; i++)
+        {
+            Border stripe = new()
+            {
+                Background = new SolidColorBrush(colors[i]),
+                BorderBrush = i == 0 ? new SolidColorBrush(Color.FromRgb(92, 98, 104)) : null,
+                BorderThickness = i == 0 ? new Thickness(1, 1, 0, 1) : new Thickness(0, 1, i == count - 1 ? 1 : 0, 1)
+            };
+            Grid.SetColumn(stripe, i);
+            swatch.Children.Add(stripe);
+        }
+
+        return swatch;
     }
 
     private ToggleButton ModeButton(object content, MapEditMode mode, string tip)
@@ -1504,10 +1610,10 @@ public sealed class MainWindow : Window
                 $"{station.SizeH}x{station.SizeV} | {FormatMoney(station.OperationCost)} upkeep",
                 () => new StationPlacementPreviewControl(station)),
             MapEditMode.Structure when mapViewport.ActiveStructureContribution is { } structure => (
-                $"structure:{structure.Id}:{mapViewport.ActiveStructureColorVariantIndex}",
+                $"structure:{structure.Id}:{mapViewport.ActiveStructureFrameVariantIndex}:{mapViewport.ActiveStructureColorVariantIndex}",
                 structure.DisplayName,
                 $"{StructureDetail(structure)} | {mapViewport.ActiveStructureColorVariantDescription}",
-                () => new StructurePlacementPreviewControl(structure, mapViewport.ActiveStructureColorVariantIndex)),
+                () => new StructurePlacementPreviewControl(structure, mapViewport.ActiveStructureColorVariantIndex, mapViewport.ActiveStructureFrameVariantIndex)),
             MapEditMode.Platform => (
                 $"platform:{status.ActivePlatformDescription}",
                 PlatformTitle,
@@ -1583,7 +1689,7 @@ public sealed class MainWindow : Window
         }
 
         string activeKey = ActiveCatalogKey(status.EditMode);
-        string nextStateKey = $"{status.EditMode}|{buildCatalogQuery}|{activeKey}|{mapViewport.ActiveStructureColorVariantIndex}";
+        string nextStateKey = $"{status.EditMode}|{buildCatalogQuery}|{activeKey}|{mapViewport.ActiveStructureFrameVariantIndex}|{mapViewport.ActiveStructureColorVariantIndex}";
         if (nextStateKey == buildCatalogStateKey)
         {
             return;
@@ -1603,10 +1709,10 @@ public sealed class MainWindow : Window
             ? "1 matching item"
             : $"{items.Count:N0} matching items";
 
-        updatingBuildCatalog = true;
+        Vector scrollOffset = buildCatalogScrollViewer.Offset;
         buildCatalogList.ItemsSource = items;
-        buildCatalogList.SelectedItem = items.FirstOrDefault(item => item.IsActive);
-        updatingBuildCatalog = false;
+        buildCatalogScrollViewer.Offset = scrollOffset;
+        Dispatcher.UIThread.Post(() => buildCatalogScrollViewer.Offset = scrollOffset, DispatcherPriority.Loaded);
         buildCatalogStateKey = nextStateKey;
     }
 
@@ -1638,8 +1744,8 @@ public sealed class MainWindow : Window
         {
             MapEditMode.Rail => CreateRailCatalogItems(activeKey),
             MapEditMode.Road => mapViewport.RoadContributions.Select(road => CreateRoadCatalogItem(road, activeKey)),
-            MapEditMode.Station => mapViewport.StationContributions.Select(station => CreateStationCatalogItem(station, activeKey)),
-            MapEditMode.Structure => mapViewport.StructureContributions.Select(structure => CreateStructureCatalogItem(structure, activeKey)),
+            MapEditMode.Station => CreateStationCatalogItems(activeKey),
+            MapEditMode.Structure => CreateStructureCatalogItems(activeKey),
             MapEditMode.Train => mapViewport.TrainContributions.Select(train => CreateTrainCatalogItem(train, activeKey)),
             _ => Enumerable.Empty<BuildCatalogItem>()
         };
@@ -1698,39 +1804,681 @@ public sealed class MainWindow : Window
             () => mapViewport.SelectRoad(road));
     }
 
-    private BuildCatalogItem CreateStationCatalogItem(StationContribution station, string activeKey)
+    private IEnumerable<BuildCatalogItem> CreateStationCatalogItems(string activeKey)
     {
-        string key = $"station:{station.Id}:{station.PluginDirectoryName}";
-        string size = $"{station.SizeH}x{station.SizeV}";
-        return new BuildCatalogItem(
-            key,
-            station.DisplayName,
-            $"{size} | upkeep {FormatMoney(station.OperationCost)}",
-            station.PluginDirectoryName,
-            $"{station.DisplayName} {station.Group} {station.PluginDirectoryName} {station.Id} {size}",
-            activeKey == key,
-            () => new StationPlacementPreviewControl(station),
-            () => mapViewport.SelectStation(station));
+        foreach (IGrouping<string, StationContribution> group in mapViewport.StationContributions.GroupBy(StationCatalogGroupKey))
+        {
+            yield return CreateStationCatalogItem(group.ToList(), activeKey);
+        }
     }
 
-    private BuildCatalogItem CreateStructureCatalogItem(SpriteContribution structure, string activeKey)
+    private BuildCatalogItem CreateStationCatalogItem(IReadOnlyList<StationContribution> stations, string activeKey)
     {
-        string key = $"structure:{structure.Id}:{structure.PluginDirectoryName}";
-        bool active = activeKey == key;
+        StationContribution station = stations.First();
+        StationContribution displayStation = stations.FirstOrDefault(candidate => activeKey == StationCatalogItemKey(candidate))
+            ?? station;
+        bool active = stations.Any(candidate => activeKey == StationCatalogItemKey(candidate));
+        IReadOnlyList<BuildCatalogOptionGroup> optionGroups = CreateStationCatalogOptionGroups(stations, displayStation, activeKey);
+        string size = $"{displayStation.SizeH}x{displayStation.SizeV}";
+        string optionDetail = StationOptionDetail(stations);
+        string searchText = string.Join(" ", stations.Select(candidate =>
+            $"{candidate.DisplayName} {candidate.Group} {candidate.PluginDirectoryName} {candidate.Id} {candidate.SizeH}x{candidate.SizeV}"));
+
+        return new BuildCatalogItem(
+            StationCatalogGroupKey(station),
+            StationCatalogTitle(stations),
+            $"{size} | upkeep {FormatMoney(displayStation.OperationCost)}{optionDetail}",
+            station.PluginDirectoryName,
+            searchText,
+            active,
+            () => new StationPlacementPreviewControl(displayStation),
+            () => mapViewport.SelectStation(displayStation),
+            optionGroups);
+    }
+
+    private IReadOnlyList<BuildCatalogOptionGroup> CreateStationCatalogOptionGroups(
+        IReadOnlyList<StationContribution> stations,
+        StationContribution displayStation,
+        string activeKey)
+    {
+        StationVariantLayout layout = CreateStationVariantLayout(stations, displayStation);
+        List<BuildCatalogOptionGroup> groups = new();
+        if (layout.Palettes.Count > 1)
+        {
+            groups.Add(new BuildCatalogOptionGroup(
+                "Color",
+                layout.Palettes.Select(palette =>
+                {
+                    StationVariantItem target = FindStationVariant(layout, palette.Key, layout.Active.DirectionKey, layout.Active.StyleKey)
+                        ?? palette.FirstItem;
+                    return new BuildCatalogOption(
+                        palette.Label,
+                        $"{palette.Label} | {target.Station.SizeH}x{target.Station.SizeV}",
+                        palette.Key == layout.Active.PaletteKey,
+                        () => mapViewport.SelectStation(target.Station),
+                        StationColorSwatches(target.Station, palette.Label));
+                }).ToList().AsReadOnly()));
+        }
+
+        if (layout.Directions.Count > 1)
+        {
+            groups.Add(new BuildCatalogOptionGroup(
+                "Direction",
+                layout.Directions.Select(direction =>
+                {
+                    StationVariantItem target = FindStationVariant(layout, layout.Active.PaletteKey, direction.Key, layout.Active.StyleKey)
+                        ?? direction.FirstItem;
+                    return new BuildCatalogOption(
+                        direction.Label,
+                        $"{direction.Label} | {target.Station.SizeH}x{target.Station.SizeV}",
+                        direction.Key == layout.Active.DirectionKey,
+                        () => mapViewport.SelectStation(target.Station));
+                }).ToList().AsReadOnly()));
+        }
+
+        if (layout.Styles.Count > 1)
+        {
+            groups.Add(new BuildCatalogOptionGroup(
+                "Style",
+                layout.Styles.Select(style =>
+                {
+                    StationVariantItem target = FindStationVariant(layout, layout.Active.PaletteKey, layout.Active.DirectionKey, style.Key)
+                        ?? style.FirstItem;
+                    return new BuildCatalogOption(
+                        style.Label,
+                        $"{style.Label} | {target.Station.SizeH}x{target.Station.SizeV}",
+                        style.Key == layout.Active.StyleKey,
+                        () => mapViewport.SelectStation(target.Station));
+                }).ToList().AsReadOnly()));
+        }
+
+        return groups.AsReadOnly();
+    }
+
+    private static string StationCatalogItemKey(StationContribution station)
+    {
+        return $"station:{station.Id}:{station.PluginDirectoryName}";
+    }
+
+    private static string StationCatalogGroupKey(StationContribution station)
+    {
+        string family = !string.IsNullOrWhiteSpace(station.Group)
+            ? station.Group
+            : StripTrailingVariantLabel(station.DisplayName);
+        int shortSide = Math.Min(Math.Max(1, station.SizeH), Math.Max(1, station.SizeV));
+        int longSide = Math.Max(Math.Max(1, station.SizeH), Math.Max(1, station.SizeV));
+        return string.Join("|",
+            station.PluginDirectoryName,
+            NormalizeCatalogText(family),
+            shortSide,
+            longSide,
+            station.OperationCost);
+    }
+
+    private static string StationCatalogTitle(IReadOnlyList<StationContribution> stations)
+    {
+        string title = stations
+            .Select(station => station.Group)
+            .FirstOrDefault(value => !string.IsNullOrWhiteSpace(value)) ?? StripTrailingVariantLabel(stations[0].DisplayName);
+        return string.IsNullOrWhiteSpace(title) ? stations[0].DisplayName : title;
+    }
+
+    private static string StationVariantTitle(StationContribution station, int index)
+    {
+        string family = !string.IsNullOrWhiteSpace(station.Group)
+            ? station.Group
+            : "";
+        string title = !string.IsNullOrWhiteSpace(family) && station.DisplayName.StartsWith(family, StringComparison.OrdinalIgnoreCase)
+            ? station.DisplayName[family.Length..].Trim()
+            : station.DisplayName;
+        return string.IsNullOrWhiteSpace(title)
+            ? $"Variant {index + 1}"
+            : title;
+    }
+
+    private static string StationOptionDetail(IReadOnlyList<StationContribution> stations)
+    {
+        StationVariantLayout layout = CreateStationVariantLayout(stations, stations[0]);
+        List<string> details = new();
+        if (layout.Palettes.Count > 1)
+        {
+            details.Add($"{layout.Palettes.Count} colors");
+        }
+
+        if (layout.Directions.Count > 1)
+        {
+            details.Add($"{layout.Directions.Count} directions");
+        }
+
+        if (layout.Styles.Count > 1)
+        {
+            details.Add($"{layout.Styles.Count} styles");
+        }
+
+        return details.Count == 0 ? "" : $" | {string.Join(" | ", details)}";
+    }
+
+    private static string StationColorLabel(StationContribution station)
+    {
+        string name = station.DisplayName.Trim();
+        int open = name.LastIndexOf('(');
+        if (open >= 0 && name.EndsWith(')') && open < name.Length - 2)
+        {
+            return name[(open + 1)..^1].Trim();
+        }
+
+        return "Default";
+    }
+
+    private static StationVariantLayout CreateStationVariantLayout(IReadOnlyList<StationContribution> stations, StationContribution activeStation)
+    {
+        bool hasColorMapAxis = stations
+            .Select(StationColorMapSignature)
+            .Where(signature => signature.Length > 0)
+            .Distinct(StringComparer.OrdinalIgnoreCase)
+            .Skip(1)
+            .Any();
+        bool hasNamedColorAxis = !hasColorMapAxis
+            && stations.Select(StationNameColorLabel)
+                .Where(label => label.Length > 0)
+                .Distinct(StringComparer.OrdinalIgnoreCase)
+                .Skip(1)
+                .Any();
+
+        List<StationVariantItem> items = stations
+            .Select((station, index) =>
+            {
+                string paletteKey = hasColorMapAxis
+                    ? StationColorMapSignature(station)
+                    : hasNamedColorAxis
+                        ? StationNameColorLabel(station)
+                        : "default";
+                string directionKey = hasColorMapAxis
+                    ? StationGeometrySignature(station)
+                    : StationNameDirectionLabel(station) is { Length: > 0 } direction
+                        ? direction
+                        : StationGeometrySignature(station);
+                string styleKey = hasColorMapAxis
+                    ? "default"
+                    : StationNameStyleLabel(station);
+                if (string.IsNullOrWhiteSpace(styleKey))
+                {
+                    styleKey = "default";
+                }
+
+                return new StationVariantItem(station, index, paletteKey, directionKey, styleKey);
+            })
+            .ToList();
+
+        StationVariantItem active = items.FirstOrDefault(item => StationCatalogItemKey(item.Station) == StationCatalogItemKey(activeStation))
+            ?? items[0];
+
+        return new StationVariantLayout(
+            items.AsReadOnly(),
+            CreateStationVariantAxis(items, item => item.PaletteKey, (item, ordinal) => PaletteAxisLabel(item, ordinal, hasColorMapAxis || hasNamedColorAxis)),
+            CreateStationVariantAxis(items, item => item.DirectionKey, DirectionAxisLabel),
+            CreateStationVariantAxis(items, item => item.StyleKey, StyleAxisLabel),
+            active);
+    }
+
+    private static IReadOnlyList<StationVariantAxisValue> CreateStationVariantAxis(
+        IReadOnlyList<StationVariantItem> items,
+        Func<StationVariantItem, string> keySelector,
+        Func<StationVariantItem, int, string> labelSelector)
+    {
+        List<StationVariantAxisValue> values = new();
+        foreach (IGrouping<string, StationVariantItem> group in items.GroupBy(keySelector, StringComparer.OrdinalIgnoreCase))
+        {
+            StationVariantItem first = group.First();
+            values.Add(new StationVariantAxisValue(group.Key, labelSelector(first, values.Count), first));
+        }
+
+        return values.AsReadOnly();
+    }
+
+    private static StationVariantItem? FindStationVariant(StationVariantLayout layout, string paletteKey, string directionKey, string styleKey)
+    {
+        return layout.Items.FirstOrDefault(item =>
+                item.PaletteKey.Equals(paletteKey, StringComparison.OrdinalIgnoreCase)
+                && item.DirectionKey.Equals(directionKey, StringComparison.OrdinalIgnoreCase)
+                && item.StyleKey.Equals(styleKey, StringComparison.OrdinalIgnoreCase))
+            ?? layout.Items.FirstOrDefault(item =>
+                item.PaletteKey.Equals(paletteKey, StringComparison.OrdinalIgnoreCase)
+                && item.DirectionKey.Equals(directionKey, StringComparison.OrdinalIgnoreCase))
+            ?? layout.Items.FirstOrDefault(item =>
+                item.PaletteKey.Equals(paletteKey, StringComparison.OrdinalIgnoreCase))
+            ?? layout.Items.FirstOrDefault(item =>
+                item.DirectionKey.Equals(directionKey, StringComparison.OrdinalIgnoreCase))
+            ?? layout.Items.FirstOrDefault(item =>
+                item.StyleKey.Equals(styleKey, StringComparison.OrdinalIgnoreCase));
+    }
+
+    private static string PaletteAxisLabel(StationVariantItem item, int ordinal, bool hasPaletteAxis)
+    {
+        string label = StationNameColorLabel(item.Station);
+        if (label.Length > 0 && hasPaletteAxis)
+        {
+            return label;
+        }
+
+        return $"Color {ordinal + 1}";
+    }
+
+    private static string DirectionAxisLabel(StationVariantItem item, int ordinal)
+    {
+        string label = StationNameDirectionLabel(item.Station);
+        return label.Length > 0 && label.Length <= 3
+            ? label
+            : $"{ordinal + 1}";
+    }
+
+    private static string StyleAxisLabel(StationVariantItem item, int ordinal)
+    {
+        string label = StationNameStyleLabel(item.Station);
+        return label.Length > 0 && !label.Equals("default", StringComparison.OrdinalIgnoreCase)
+            ? label
+            : $"{ordinal + 1}";
+    }
+
+    private static string StationColorMapSignature(StationContribution station)
+    {
+        return string.Join(";", StationFrames(station)
+            .SelectMany(frame => frame.ColorMapVariants.Count > 0
+                ? frame.ColorMapVariants.SelectMany(variant => variant)
+                : frame.ColorMaps)
+            .Select(map => $"{map.From}>{map.To}"));
+    }
+
+    private static string StationGeometrySignature(StationContribution station)
+    {
+        SpriteFrame? frame = StationFrames(station).FirstOrDefault();
+        return frame is null
+            ? $"{station.SizeH}x{station.SizeV}"
+            : $"{station.SizeH}x{station.SizeV}:{Path.GetFileName(frame.ResolvedPath)}:{frame.SourceX},{frame.SourceY},{frame.SourceWidth},{frame.SourceHeight}:{frame.OffsetX},{frame.OffsetY}";
+    }
+
+    private static string StationNameColorLabel(StationContribution station)
+    {
+        string label = StationColorLabel(station);
+        return IsDirectionToken(label) || label.Equals("Default", StringComparison.OrdinalIgnoreCase)
+            ? ""
+            : label;
+    }
+
+    private static string StationNameDirectionLabel(StationContribution station)
+    {
+        string name = station.DisplayName.Trim();
+        string parenthetical = LastParenthetical(name);
+        if (IsDirectionToken(parenthetical))
+        {
+            return parenthetical;
+        }
+
+        char last = name.Length > 0 ? name[^1] : '\0';
+        return IsDirectionToken(last.ToString()) ? last.ToString().ToUpperInvariant() : "";
+    }
+
+    private static string StationNameStyleLabel(StationContribution station)
+    {
+        string name = station.DisplayName.Trim();
+        string family = station.Group.Trim();
+        if (family.Length > 0 && name.StartsWith(family, StringComparison.OrdinalIgnoreCase))
+        {
+            name = name[family.Length..].Trim();
+        }
+
+        string color = StationNameColorLabel(station);
+        if (color.Length > 0 && name.EndsWith($"({color})", StringComparison.OrdinalIgnoreCase))
+        {
+            name = name[..^(color.Length + 2)].Trim();
+        }
+
+        string direction = StationNameDirectionLabel(station);
+        if (direction.Length > 0)
+        {
+            if (name.EndsWith($"({direction})", StringComparison.OrdinalIgnoreCase))
+            {
+                name = name[..^(direction.Length + 2)].Trim();
+            }
+            else if (name.EndsWith(direction, StringComparison.OrdinalIgnoreCase))
+            {
+                name = name[..^direction.Length].Trim();
+            }
+        }
+
+        return string.IsNullOrWhiteSpace(name) ? "default" : name;
+    }
+
+    private static string LastParenthetical(string value)
+    {
+        int open = value.LastIndexOf('(');
+        return open >= 0 && value.EndsWith(')') && open < value.Length - 2
+            ? value[(open + 1)..^1].Trim()
+            : "";
+    }
+
+    private static bool IsDirectionToken(string value)
+    {
+        return value.Equals("L", StringComparison.OrdinalIgnoreCase)
+            || value.Equals("R", StringComparison.OrdinalIgnoreCase)
+            || value.Equals("N", StringComparison.OrdinalIgnoreCase)
+            || value.Equals("S", StringComparison.OrdinalIgnoreCase)
+            || value.Equals("E", StringComparison.OrdinalIgnoreCase)
+            || value.Equals("W", StringComparison.OrdinalIgnoreCase);
+    }
+
+    private IEnumerable<BuildCatalogItem> CreateStructureCatalogItems(string activeKey)
+    {
+        foreach (IGrouping<string, SpriteContribution> group in mapViewport.StructureContributions.GroupBy(StructureCatalogGroupKey))
+        {
+            yield return CreateStructureCatalogItem(group.ToList(), activeKey);
+        }
+    }
+
+    private BuildCatalogItem CreateStructureCatalogItem(IReadOnlyList<SpriteContribution> structures, string activeKey)
+    {
+        SpriteContribution structure = structures.First();
+        SpriteContribution displayStructure = structures.FirstOrDefault(candidate => activeKey == StructureCatalogItemKey(candidate))
+            ?? structure;
+        bool active = structures.Any(candidate => activeKey == StructureCatalogItemKey(candidate));
         int colorVariantIndex = active ? mapViewport.ActiveStructureColorVariantIndex : 0;
+        int frameVariantIndex = active ? mapViewport.ActiveStructureFrameVariantIndex : 0;
+        IReadOnlyList<BuildCatalogOptionGroup> optionGroups = CreateStructureCatalogOptionGroups(structures, displayStructure, activeKey);
+        string variantDetail = structures.Count > 1
+            ? $" | {structures.Count} variants"
+            : "";
+        string frameDetail = displayStructure.Frames.Count > 1
+            ? $" | {displayStructure.Frames.Count} directions"
+            : "";
         string colorDetail = active && mapViewport.ActiveStructureColorVariantCount > 1
             ? $" | {mapViewport.ActiveStructureColorVariantDescription}"
-            : "";
-        string detail = $"{StructureDetail(structure)}{colorDetail}";
+            : mapViewport.GetStructureColorVariantCount(displayStructure) > 1
+                ? $" | {mapViewport.GetStructureColorVariantCount(displayStructure)} colors"
+                : "";
+        string detail = $"{StructureDetail(displayStructure)}{variantDetail}{frameDetail}{colorDetail}";
+        string searchText = string.Join(" ", structures.Select(candidate =>
+            $"{candidate.DisplayName} {candidate.Group} {candidate.Subgroup} {candidate.Description} {candidate.Type} {candidate.PlacementKind} {candidate.PluginDirectoryName} {candidate.Id}"));
+
         return new BuildCatalogItem(
-            key,
-            structure.DisplayName,
+            StructureCatalogGroupKey(structure),
+            StructureCatalogTitle(structures),
             detail,
             structure.PluginDirectoryName,
-            $"{structure.DisplayName} {structure.Group} {structure.Subgroup} {structure.Description} {structure.Type} {structure.PlacementKind} {structure.PluginDirectoryName} {structure.Id}",
+            searchText,
             active,
-            () => new StructurePlacementPreviewControl(structure, colorVariantIndex),
-            () => mapViewport.SelectStructure(structure));
+            () => new StructurePlacementPreviewControl(displayStructure, colorVariantIndex, frameVariantIndex),
+            () => mapViewport.SelectStructure(displayStructure),
+            optionGroups);
+    }
+
+    private IReadOnlyList<BuildCatalogOptionGroup> CreateStructureCatalogOptionGroups(
+        IReadOnlyList<SpriteContribution> structures,
+        SpriteContribution displayStructure,
+        string activeKey)
+    {
+        List<BuildCatalogOptionGroup> groups = new();
+        if (structures.Count > 1)
+        {
+            groups.Add(new BuildCatalogOptionGroup(
+                "Variant",
+                structures.Select((structure, index) => new BuildCatalogOption(
+                    $"{index + 1}",
+                    $"{structure.DisplayName} | {StructureDetail(structure)}",
+                    activeKey == StructureCatalogItemKey(structure),
+                    () => mapViewport.SelectStructure(structure)))
+                .ToList()
+                .AsReadOnly()));
+        }
+
+        if (displayStructure.Frames.Count > 1)
+        {
+            groups.Add(new BuildCatalogOptionGroup(
+                "Direction",
+                Enumerable.Range(0, displayStructure.Frames.Count)
+                    .Select(frame =>
+                    {
+                        int capturedFrame = frame;
+                        return new BuildCatalogOption(
+                            $"{frame + 1}",
+                            $"Direction {frame + 1}",
+                            mapViewport.ActiveStructureFrameVariantIndex == frame && activeKey == StructureCatalogItemKey(displayStructure),
+                            () =>
+                            {
+                                mapViewport.SelectStructure(displayStructure);
+                                mapViewport.SelectStructureFrameVariant(capturedFrame);
+                            });
+                    })
+                    .ToList()
+                    .AsReadOnly()));
+        }
+
+        int colorVariantCount = mapViewport.GetStructureColorVariantCount(displayStructure);
+        if (colorVariantCount > 1)
+        {
+            groups.Add(new BuildCatalogOptionGroup(
+                "Color",
+                Enumerable.Range(0, colorVariantCount)
+                    .Select(color =>
+                    {
+                        int capturedColor = color;
+                        return new BuildCatalogOption(
+                            $"{color + 1}",
+                            $"Color {color + 1}",
+                            mapViewport.ActiveStructureColorVariantIndex == color && activeKey == StructureCatalogItemKey(displayStructure),
+                            () =>
+                            {
+                                mapViewport.SelectStructure(displayStructure);
+                                mapViewport.SelectStructureColorVariant(capturedColor);
+                            },
+                            StructureColorSwatches(displayStructure, color));
+                    })
+                    .ToList()
+                    .AsReadOnly()));
+        }
+
+        return groups.AsReadOnly();
+    }
+
+    private static string StructureCatalogItemKey(SpriteContribution structure)
+    {
+        string key = $"structure:{structure.Id}:{structure.PluginDirectoryName}";
+        return key;
+    }
+
+    private static string StructureCatalogGroupKey(SpriteContribution structure)
+    {
+        string family = !string.IsNullOrWhiteSpace(structure.Name)
+            ? structure.Name
+            : !string.IsNullOrWhiteSpace(structure.Subgroup)
+                ? structure.Subgroup
+                : structure.DisplayName;
+        int shortSide = Math.Min(Math.Max(1, structure.SizeX), Math.Max(1, structure.SizeY));
+        int longSide = Math.Max(Math.Max(1, structure.SizeX), Math.Max(1, structure.SizeY));
+        int height = Math.Max(structure.Height, structure.MaxHeight);
+        return string.Join("|",
+            structure.PluginDirectoryName,
+            structure.PlacementKind,
+            structure.Type,
+            NormalizeCatalogText(family),
+            shortSide,
+            longSide,
+            height,
+            structure.Price,
+            structure.PopulationBase);
+    }
+
+    private static string StructureCatalogTitle(IReadOnlyList<SpriteContribution> structures)
+    {
+        if (structures.Select(structure => structure.DisplayName).Distinct(StringComparer.OrdinalIgnoreCase).Take(2).Count() == 1)
+        {
+            return structures[0].DisplayName;
+        }
+
+        string title = structures
+            .Select(structure => structure.Name)
+            .Concat(structures.Select(structure => structure.Subgroup))
+            .Concat(structures.Select(structure => structure.Group))
+            .FirstOrDefault(value => !string.IsNullOrWhiteSpace(value)) ?? structures[0].DisplayName;
+        return title;
+    }
+
+    private static string NormalizeCatalogText(string value)
+    {
+        return string.Join(" ", value.Split((char[]?)null, StringSplitOptions.RemoveEmptyEntries)).Trim().ToUpperInvariant();
+    }
+
+    private static string StripTrailingVariantLabel(string value)
+    {
+        string trimmed = value.Trim();
+        int open = trimmed.LastIndexOf('(');
+        return open > 0 && trimmed.EndsWith(')')
+            ? trimmed[..open].Trim()
+            : trimmed;
+    }
+
+    private static Color SwatchForColorIndex(int index)
+    {
+        Color[] colors =
+        {
+            Color.FromRgb(63, 129, 183),
+            Color.FromRgb(159, 55, 58),
+            Color.FromRgb(64, 143, 85),
+            Color.FromRgb(180, 145, 50),
+            Color.FromRgb(123, 83, 159),
+            Color.FromRgb(42, 145, 151),
+            Color.FromRgb(198, 106, 47),
+            Color.FromRgb(112, 112, 112)
+        };
+        return colors[(int)((uint)index % colors.Length)];
+    }
+
+    private IReadOnlyList<Color> StructureColorSwatches(SpriteContribution structure, int colorVariantIndex)
+    {
+        string key = $"{structure.PluginDirectoryName}|{structure.Id}|{colorVariantIndex}";
+        if (buildCatalogSwatchCache.TryGetValue(key, out IReadOnlyList<Color>? cached))
+        {
+            return cached;
+        }
+
+        List<Color> colors = StructureFrames(structure)
+            .Select(frame => (Frame: frame, ColorMaps: frame.ColorMapsForVariant(colorVariantIndex)))
+            .Where(item => item.Frame.IsLoadable && item.ColorMaps.Count > 0)
+            .SelectMany(frame => LegacyBitmap.SampleMappedColorsWithColorKey(
+                frame.Frame.ResolvedPath,
+                frame.ColorMaps,
+                colorVariantIndex,
+                new PixelRect(frame.Frame.SourceX, frame.Frame.SourceY, frame.Frame.SourceWidth, frame.Frame.SourceHeight)))
+            .Distinct()
+            .Take(4)
+            .ToList();
+
+        if (colors.Count == 0)
+        {
+            colors.Add(SwatchForColorIndex(colorVariantIndex));
+        }
+
+        IReadOnlyList<Color> swatches = colors.AsReadOnly();
+        buildCatalogSwatchCache[key] = swatches;
+        return swatches;
+    }
+
+    private IReadOnlyList<Color> StationColorSwatches(StationContribution station, string colorLabel)
+    {
+        string key = $"{station.PluginDirectoryName}|{station.Id}|station";
+        if (buildCatalogSwatchCache.TryGetValue(key, out IReadOnlyList<Color>? cached))
+        {
+            return cached;
+        }
+
+        List<Color> colors = StationFrames(station)
+            .Where(frame => frame.IsLoadable)
+            .SelectMany(frame => LegacyBitmap.SampleDominantColorsWithColorKey(
+                frame.ResolvedPath,
+                new PixelRect(frame.SourceX, frame.SourceY, frame.SourceWidth, frame.SourceHeight),
+                frame.ColorMapsForVariant(0)))
+            .Distinct()
+            .Take(4)
+            .ToList();
+
+        if (colors.Count == 0)
+        {
+            colors.Add(SwatchForColorLabel(colorLabel));
+        }
+
+        IReadOnlyList<Color> swatches = colors.AsReadOnly();
+        buildCatalogSwatchCache[key] = swatches;
+        return swatches;
+    }
+
+    private static IEnumerable<SpriteFrame> StationFrames(StationContribution station)
+    {
+        if (station.Frame is { } frame)
+        {
+            yield return frame;
+        }
+
+        if (station.SpriteSet2D is { } spriteSet)
+        {
+            foreach (ModernSpriteVoxel2D voxel in spriteSet.InVoxelDrawOrder())
+            {
+                yield return voxel.Frame;
+            }
+        }
+    }
+
+    private static IEnumerable<SpriteFrame> StructureFrames(SpriteContribution structure)
+    {
+        foreach (SpriteFrame frame in structure.Frames)
+        {
+            yield return frame;
+        }
+
+        if (structure.SpriteSet2D is { } spriteSet2D)
+        {
+            foreach (ModernSpriteVoxel2D voxel in spriteSet2D.InVoxelDrawOrder())
+            {
+                yield return voxel.Frame;
+            }
+        }
+
+        if (structure.SpriteSet3D is { } spriteSet3D)
+        {
+            foreach (ModernSpriteVoxel3D voxel in spriteSet3D.InVoxelDrawOrder())
+            {
+                yield return voxel.Frame;
+            }
+        }
+    }
+
+    private static Color SwatchForColorLabel(string label)
+    {
+        string normalized = label.Replace("-", " ", StringComparison.Ordinal).ToUpperInvariant();
+        if (normalized.Contains("WINE", StringComparison.Ordinal) || normalized.Contains("RED", StringComparison.Ordinal))
+        {
+            return Color.FromRgb(144, 48, 62);
+        }
+
+        if (normalized.Contains("TEAL", StringComparison.Ordinal) || normalized.Contains("GREEN", StringComparison.Ordinal) || normalized.Contains("OLIVE", StringComparison.Ordinal))
+        {
+            return Color.FromRgb(57, 132, 96);
+        }
+
+        if (normalized.Contains("BLUE", StringComparison.Ordinal) || normalized.Contains("PEACOCK", StringComparison.Ordinal) || normalized.Contains("MINT", StringComparison.Ordinal))
+        {
+            return Color.FromRgb(53, 131, 170);
+        }
+
+        if (normalized.Contains("SEPIA", StringComparison.Ordinal) || normalized.Contains("BROWN", StringComparison.Ordinal))
+        {
+            return Color.FromRgb(137, 97, 63);
+        }
+
+        if (normalized.Contains("YELLOW", StringComparison.Ordinal) || normalized.Contains("OCHER", StringComparison.Ordinal) || normalized.Contains("OCHRE", StringComparison.Ordinal))
+        {
+            return Color.FromRgb(190, 151, 54);
+        }
+
+        return SwatchForColorIndex(StringComparer.OrdinalIgnoreCase.GetHashCode(label));
     }
 
     private BuildCatalogItem CreateTrainCatalogItem(TrainContribution train, string activeKey)
@@ -2030,7 +2778,8 @@ public sealed class MainWindow : Window
             string searchText,
             bool isActive,
             Func<Control> createPreview,
-            Action select)
+            Action select,
+            IReadOnlyList<BuildCatalogOptionGroup>? optionGroups = null)
         {
             Key = key;
             Title = string.IsNullOrWhiteSpace(title) ? "(unnamed)" : title;
@@ -2040,6 +2789,7 @@ public sealed class MainWindow : Window
             IsActive = isActive;
             CreatePreview = createPreview;
             Select = select;
+            OptionGroups = optionGroups ?? Array.Empty<BuildCatalogOptionGroup>();
         }
 
         public string Key { get; }
@@ -2050,12 +2800,68 @@ public sealed class MainWindow : Window
         public bool IsActive { get; }
         public Func<Control> CreatePreview { get; }
         public Action Select { get; }
+        public IReadOnlyList<BuildCatalogOptionGroup> OptionGroups { get; }
 
         public bool Matches(string query)
         {
             return SearchText.Contains(query, StringComparison.OrdinalIgnoreCase);
         }
     }
+
+    private sealed class BuildCatalogOptionGroup
+    {
+        public BuildCatalogOptionGroup(string title, IReadOnlyList<BuildCatalogOption> options)
+        {
+            Title = title;
+            Options = options;
+        }
+
+        public string Title { get; }
+        public IReadOnlyList<BuildCatalogOption> Options { get; }
+    }
+
+    private sealed class BuildCatalogOption
+    {
+        public BuildCatalogOption(
+            string title,
+            string detail,
+            bool isActive,
+            Action select,
+            IReadOnlyList<Color>? swatches = null)
+        {
+            Label = title;
+            Detail = detail;
+            IsActive = isActive;
+            Select = select;
+            Swatches = swatches ?? Array.Empty<Color>();
+        }
+
+        public string Label { get; }
+        public string Detail { get; }
+        public bool IsActive { get; }
+        public Action Select { get; }
+        public IReadOnlyList<Color> Swatches { get; }
+        public string ToolTip => string.IsNullOrWhiteSpace(Detail) ? Label : $"{Label}\n{Detail}";
+    }
+
+    private sealed record StationVariantLayout(
+        IReadOnlyList<StationVariantItem> Items,
+        IReadOnlyList<StationVariantAxisValue> Palettes,
+        IReadOnlyList<StationVariantAxisValue> Directions,
+        IReadOnlyList<StationVariantAxisValue> Styles,
+        StationVariantItem Active);
+
+    private sealed record StationVariantItem(
+        StationContribution Station,
+        int OriginalIndex,
+        string PaletteKey,
+        string DirectionKey,
+        string StyleKey);
+
+    private sealed record StationVariantAxisValue(
+        string Key,
+        string Label,
+        StationVariantItem FirstItem);
 
     private enum ToolGlyphKind
     {

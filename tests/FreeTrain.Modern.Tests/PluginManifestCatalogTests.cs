@@ -93,6 +93,51 @@ public sealed class PluginManifestCatalogTests : IDisposable
     }
 
     [Fact]
+    public void CatalogParsesContributionLevelSpriteTypesAsColorVariants()
+    {
+        string pluginDirectory = Path.Combine(pluginRoot, "structure-palettes");
+        Directory.CreateDirectory(pluginDirectory);
+        File.WriteAllBytes(Path.Combine(pluginDirectory, "sprites.bmp"), new byte[] { 0, 1, 2, 3 });
+        File.WriteAllText(Path.Combine(pluginDirectory, "plugin.xml"), """
+            <?xml version="1.0" encoding="utf-8"?>
+            <plug-in>
+              <title>Palette plugin</title>
+              <contribution type="GenericStructure" id="town-building">
+                <name>Town Building</name>
+                <size>1,1</size>
+                <height>1</height>
+                <sprite origin="0,0" offset="16">
+                  <picture src="sprites.bmp"/>
+                </sprite>
+                <sprite origin="32,0" offset="16">
+                  <picture src="sprites.bmp"/>
+                </sprite>
+                <spriteType name="hueTransform">
+                  <map from="*,0,0" to="255,255,255"/>
+                  <map from="0,0,*" to="192,136,126"/>
+                </spriteType>
+                <spriteType name="hueTransform">
+                  <map from="*,0,0" to="154,159,180"/>
+                  <map from="0,0,*" to="201,195,141"/>
+                </spriteType>
+              </contribution>
+            </plug-in>
+            """);
+
+        PluginManifestCatalog catalog = new(pluginRoot, "ja");
+
+        SpriteContribution structure = Assert.Single(catalog.Structures);
+        Assert.Equal(2, structure.Frames.Count);
+        Assert.All(structure.Frames, frame =>
+        {
+            Assert.Equal(2, frame.ColorMapVariants.Count);
+            Assert.Equal("255,255,255", frame.ColorMapVariants[0][0].To);
+            Assert.Equal("154,159,180", frame.ColorMapVariants[1][0].To);
+            Assert.Equal("255,255,255", frame.ColorMaps[0].To);
+        });
+    }
+
+    [Fact]
     public void CatalogParsesNonBgmRuntimeContributionTypes()
     {
         string pluginDirectory = Path.Combine(pluginRoot, "runtime");
