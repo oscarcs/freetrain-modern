@@ -31,13 +31,21 @@ public sealed class PluginManifestCatalogTests : IDisposable
                 <size>2,3</size>
                 <height>4</height>
                 <population><base>42</base></population>
-                <sprite origin="0,0" offset="80"><picture ref="pic"/></sprite>
+                <sprite origin="0,0" offset="80">
+                  <spriteType name="colorMapped">
+                    <map from="220,110,0" to="0,102,102"/>
+                  </spriteType>
+                  <picture ref="pic"/>
+                </sprite>
               </contribution>
               <contribution type="railStationary" id="rail-static">
                 <group>Rail Bits</group>
                 <size>1,1</size>
                 <height>1</height>
                 <sprite origin="0,0" offset="16"><picture ref="pic"/></sprite>
+                <spriteType name="hueTransform">
+                  <map from="0,*,0" to="94,94,94"/>
+                </spriteType>
               </contribution>
               <contribution type="roadAccessory" id="road-sign">
                 <name>Road Sign</name>
@@ -75,6 +83,8 @@ public sealed class PluginManifestCatalogTests : IDisposable
         Assert.Equal(1200, generic.Price);
         Assert.Equal(42, generic.PopulationBase);
         Assert.Equal(SpriteContributionPlacementKind.Structure, generic.PlacementKind);
+        Assert.Contains(generic.Frames[0].ColorMaps, map => map.From == "220,110,0" && map.To == "0,102,102");
+        Assert.Contains(catalog.RailStationaries[0].Frames[0].ColorMaps, map => map.From == "0,*,0" && map.To == "94,94,94");
 
         SpriteContribution variableHeight = catalog.Structures.Single(item => item.Id == "tower");
         Assert.Equal(SpriteContributionPlacementKind.VariableHeightBuilding, variableHeight.PlacementKind);

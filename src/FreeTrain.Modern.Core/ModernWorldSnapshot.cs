@@ -54,7 +54,8 @@ public sealed record ModernEntitySnapshot(
     string? ResolvedContributionId,
     bool IsOwned,
     bool IsSilentlyReclaimable,
-    long EntityValue);
+    long EntityValue,
+    int StructureColorVariantIndex = 0);
 
 public sealed record ModernStationSnapshot(
     string StationId,

@@ -24,7 +24,7 @@ public sealed class SpriteContributionPreview : Control, IDisposable
         {
             foreach (SpriteFrame loadableFrame in EnumeratePreviewFrames().Where(candidate => candidate.IsLoadable))
             {
-                GetBitmap(loadableFrame.ResolvedPath);
+                GetBitmap(loadableFrame);
             }
         }
         catch (Exception ex)
@@ -69,7 +69,7 @@ public sealed class SpriteContributionPreview : Control, IDisposable
 
     private void DrawSingleFrame(DrawingContext context, SpriteFrame spriteFrame)
     {
-        Bitmap bitmap = GetBitmap(spriteFrame.ResolvedPath);
+        Bitmap bitmap = GetBitmap(spriteFrame);
         Rect sourceRect = GetClampedSource(bitmap, spriteFrame);
         if (sourceRect.Width <= 0 || sourceRect.Height <= 0)
         {
@@ -108,7 +108,7 @@ public sealed class SpriteContributionPreview : Control, IDisposable
                 continue;
             }
 
-            Bitmap bitmap = GetBitmap(voxel.Frame.ResolvedPath);
+            Bitmap bitmap = GetBitmap(voxel.Frame);
             Rect sourceRect = GetClampedSource(bitmap, voxel.Frame);
             if (sourceRect.Width <= 0 || sourceRect.Height <= 0)
             {
@@ -159,15 +159,23 @@ public sealed class SpriteContributionPreview : Control, IDisposable
         return frame is null ? Array.Empty<SpriteFrame>() : new[] { frame };
     }
 
-    private Bitmap GetBitmap(string path)
+    private Bitmap GetBitmap(SpriteFrame frame)
     {
-        if (!bitmaps.TryGetValue(path, out Bitmap? bitmap))
+        string key = BitmapCacheKey(frame);
+        if (!bitmaps.TryGetValue(key, out Bitmap? bitmap))
         {
-            bitmap = LegacyBitmap.LoadWithColorKey(path);
-            bitmaps[path] = bitmap;
+            bitmap = LegacyBitmap.LoadWithColorKey(frame.ResolvedPath, frame.ColorMaps);
+            bitmaps[key] = bitmap;
         }
 
         return bitmap;
+    }
+
+    private static string BitmapCacheKey(SpriteFrame frame)
+    {
+        return frame.ColorMaps.Count == 0
+            ? frame.ResolvedPath
+            : $"{frame.ResolvedPath}|{string.Join(";", frame.ColorMaps.Select(map => $"{map.From}>{map.To}"))}";
     }
 
     private static FormattedText Text(string value, double size, IBrush brush, FontWeight weight, double maxWidth)

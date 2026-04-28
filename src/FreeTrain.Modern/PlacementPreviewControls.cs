@@ -24,14 +24,20 @@ internal abstract class PlacementPreviewControl : Control, IDisposable
         context.FillRectangle(new SolidColorBrush(Color.FromRgb(248, 250, 251)), new Rect(Bounds.Size));
     }
 
-    protected void DrawSpriteFrame(DrawingContext context, SpriteFrame frame, Point origin, double maxWidth, double maxHeight)
+    protected void DrawSpriteFrame(
+        DrawingContext context,
+        SpriteFrame frame,
+        Point origin,
+        double maxWidth,
+        double maxHeight,
+        int colorVariantIndex = 0)
     {
         if (!frame.IsLoadable)
         {
             return;
         }
 
-        Bitmap bitmap = GetBitmap(frame.ResolvedPath);
+        Bitmap bitmap = GetBitmap(frame, colorVariantIndex);
         Rect source = GetClampedSource(bitmap, frame);
         if (source.Width <= 0 || source.Height <= 0)
         {
@@ -44,7 +50,7 @@ internal abstract class PlacementPreviewControl : Control, IDisposable
         context.DrawImage(bitmap, source, new Rect(target, targetSize));
     }
 
-    protected void DrawSpriteSet2D(DrawingContext context, ModernSpriteSet2D spriteSet)
+    protected void DrawSpriteSet2D(DrawingContext context, ModernSpriteSet2D spriteSet, int colorVariantIndex = 0)
     {
         Rect? sourceBounds = null;
         foreach (ModernSpriteVoxel2D voxel in spriteSet.InVoxelDrawOrder())
@@ -73,12 +79,12 @@ internal abstract class PlacementPreviewControl : Control, IDisposable
                 }
 
                 Point voxelPoint = GetVoxelPoint(voxel.X, voxel.Y);
-                DrawSpriteFrame(context, voxel.Frame, new Point(origin.X / scale + voxelPoint.X, origin.Y / scale + voxelPoint.Y), Bounds.Width / scale, Bounds.Height / scale);
+                DrawSpriteFrame(context, voxel.Frame, new Point(origin.X / scale + voxelPoint.X, origin.Y / scale + voxelPoint.Y), Bounds.Width / scale, Bounds.Height / scale, colorVariantIndex);
             }
         }
     }
 
-    protected void DrawSpriteSet3D(DrawingContext context, ModernSpriteSet3D spriteSet)
+    protected void DrawSpriteSet3D(DrawingContext context, ModernSpriteSet3D spriteSet, int colorVariantIndex = 0)
     {
         Rect? sourceBounds = null;
         foreach (ModernSpriteVoxel3D voxel in spriteSet.InVoxelDrawOrder())
@@ -107,20 +113,28 @@ internal abstract class PlacementPreviewControl : Control, IDisposable
                 }
 
                 Point voxelPoint = GetVoxelPoint(voxel.X, voxel.Y, voxel.Z);
-                DrawSpriteFrame(context, voxel.Frame, new Point(origin.X / scale + voxelPoint.X, origin.Y / scale + voxelPoint.Y), Bounds.Width / scale, Bounds.Height / scale);
+                DrawSpriteFrame(context, voxel.Frame, new Point(origin.X / scale + voxelPoint.X, origin.Y / scale + voxelPoint.Y), Bounds.Width / scale, Bounds.Height / scale, colorVariantIndex);
             }
         }
     }
 
-    protected Bitmap GetBitmap(string path)
+    protected Bitmap GetBitmap(SpriteFrame frame, int colorVariantIndex = 0)
     {
-        if (!bitmaps.TryGetValue(path, out Bitmap? bitmap))
+        string key = BitmapCacheKey(frame, colorVariantIndex);
+        if (!bitmaps.TryGetValue(key, out Bitmap? bitmap))
         {
-            bitmap = LegacyBitmap.LoadWithColorKey(path);
-            bitmaps[path] = bitmap;
+            bitmap = LegacyBitmap.LoadWithColorKey(frame.ResolvedPath, frame.ColorMaps, colorVariantIndex);
+            bitmaps[key] = bitmap;
         }
 
         return bitmap;
+    }
+
+    private static string BitmapCacheKey(SpriteFrame frame, int colorVariantIndex)
+    {
+        return frame.ColorMaps.Count == 0
+            ? frame.ResolvedPath
+            : $"{frame.ResolvedPath}|{colorVariantIndex}|{string.Join(";", frame.ColorMaps.Select(map => $"{map.From}>{map.To}"))}";
     }
 
     protected static Rect GetClampedSource(Bitmap bitmap, SpriteFrame frame)
@@ -224,7 +238,7 @@ internal sealed class RoadPlacementPreviewControl : PlacementPreviewControl
                 continue;
             }
 
-            Bitmap bitmap = GetBitmap(frame.ResolvedPath);
+            Bitmap bitmap = GetBitmap(frame);
             Rect source = GetClampedSource(bitmap, frame);
             if (source.Width <= 0 || source.Height <= 0)
             {
@@ -268,10 +282,12 @@ internal sealed class StationPlacementPreviewControl : PlacementPreviewControl
 internal sealed class StructurePlacementPreviewControl : PlacementPreviewControl
 {
     private readonly SpriteContribution structure;
+    private readonly int colorVariantIndex;
 
-    public StructurePlacementPreviewControl(SpriteContribution structure)
+    public StructurePlacementPreviewControl(SpriteContribution structure, int colorVariantIndex = 0)
     {
         this.structure = structure;
+        this.colorVariantIndex = colorVariantIndex;
     }
 
     public override void Render(DrawingContext context)
@@ -279,13 +295,13 @@ internal sealed class StructurePlacementPreviewControl : PlacementPreviewControl
         base.Render(context);
         if (structure.SpriteSet3D is { IsLoadable: true } spriteSet)
         {
-            DrawSpriteSet3D(context, spriteSet);
+            DrawSpriteSet3D(context, spriteSet, colorVariantIndex);
             return;
         }
 
         if (structure.Frames.FirstOrDefault(frame => frame.IsLoadable) is { } frame)
         {
-            DrawSpriteFrame(context, frame, new Point(62, 44), Bounds.Width - 12, Bounds.Height - 10);
+            DrawSpriteFrame(context, frame, new Point(62, 44), Bounds.Width - 12, Bounds.Height - 10, colorVariantIndex);
         }
     }
 }
@@ -355,7 +371,7 @@ internal sealed class TrainPlacementPreviewControl : PlacementPreviewControl
                 continue;
             }
 
-            Bitmap bitmap = GetBitmap(frame.ResolvedPath);
+            Bitmap bitmap = GetBitmap(frame);
             Rect source = GetClampedSource(bitmap, frame);
             if (source.Width > 0 && source.Height > 0)
             {

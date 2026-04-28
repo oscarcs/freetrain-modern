@@ -34,6 +34,7 @@ public sealed record ModernPlacedEntity(
     LandContribution? ResolvedStaticLand,
     SpriteContribution? StructureContribution,
     SpriteFrame? StructureFrame,
+    int StructureColorVariantIndex,
     bool IsOwned,
     bool IsSilentlyReclaimable,
     long EntityValue)
@@ -79,6 +80,7 @@ public sealed record ModernPlacedEntity(
             resolvedStaticLand,
             null,
             null,
+            0,
             false,
             true,
             0);
@@ -89,7 +91,8 @@ public sealed record ModernPlacedEntity(
         int v,
         int z,
         SpriteContribution contribution,
-        SpriteFrame frame)
+        SpriteFrame frame,
+        int colorVariantIndex = 0)
     {
         int footprintH = Math.Max(1, contribution.SpriteSet3D?.SizeX ?? contribution.SizeX);
         int footprintV = Math.Max(1, contribution.SpriteSet3D?.SizeY ?? contribution.SizeY);
@@ -110,6 +113,7 @@ public sealed record ModernPlacedEntity(
             null,
             contribution,
             frame,
+            Math.Max(0, colorVariantIndex),
             true,
             false,
             contribution.Price > 0 ? contribution.Price : EstimateStructureValue(contribution));

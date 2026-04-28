@@ -43,7 +43,8 @@ public sealed partial class ModernWorld
                 entity.ResolvedContributionId,
                 entity.IsOwned,
                 entity.IsSilentlyReclaimable,
-                entity.EntityValue))
+                entity.EntityValue,
+                entity.StructureColorVariantIndex))
             .ToArray();
 
         ModernCarSnapshot[] carSnapshots = cars.Values
@@ -295,7 +296,9 @@ public sealed partial class ModernWorld
         }
 
         SpriteFrame? frame = contribution.Frames.FirstOrDefault(candidate => candidate.IsLoadable);
-        return frame is null ? null : ModernPlacedEntity.Structure(snapshot.H, snapshot.V, snapshot.Z, contribution, frame);
+        return frame is null
+            ? null
+            : ModernPlacedEntity.Structure(snapshot.H, snapshot.V, snapshot.Z, contribution, frame, snapshot.StructureColorVariantIndex);
     }
 
 }

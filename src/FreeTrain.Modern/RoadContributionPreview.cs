@@ -22,7 +22,7 @@ public sealed class RoadContributionPreview : Control, IDisposable
         {
             foreach (SpriteFrame frame in road.FramesByMask.Values.Where(frame => frame.IsLoadable).DistinctBy(frame => (frame.ResolvedPath, frame.SourceX, frame.SourceY)))
             {
-                GetBitmap(frame.ResolvedPath);
+                GetBitmap(frame);
             }
         }
         catch (Exception ex)
@@ -71,7 +71,7 @@ public sealed class RoadContributionPreview : Control, IDisposable
                 continue;
             }
 
-            Bitmap bitmap = GetBitmap(frame.ResolvedPath);
+            Bitmap bitmap = GetBitmap(frame);
             Rect source = GetClampedSource(bitmap, frame);
             if (source.Width <= 0 || source.Height <= 0)
             {
@@ -89,15 +89,23 @@ public sealed class RoadContributionPreview : Control, IDisposable
         }
     }
 
-    private Bitmap GetBitmap(string path)
+    private Bitmap GetBitmap(SpriteFrame frame)
     {
-        if (!bitmaps.TryGetValue(path, out Bitmap? bitmap))
+        string key = BitmapCacheKey(frame);
+        if (!bitmaps.TryGetValue(key, out Bitmap? bitmap))
         {
-            bitmap = LegacyBitmap.LoadWithColorKey(path);
-            bitmaps[path] = bitmap;
+            bitmap = LegacyBitmap.LoadWithColorKey(frame.ResolvedPath, frame.ColorMaps);
+            bitmaps[key] = bitmap;
         }
 
         return bitmap;
+    }
+
+    private static string BitmapCacheKey(SpriteFrame frame)
+    {
+        return frame.ColorMaps.Count == 0
+            ? frame.ResolvedPath
+            : $"{frame.ResolvedPath}|{string.Join(";", frame.ColorMaps.Select(map => $"{map.From}>{map.To}"))}";
     }
 
     private static Rect GetClampedSource(Bitmap bitmap, SpriteFrame frame)

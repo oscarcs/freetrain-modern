@@ -423,15 +423,15 @@ public sealed class MainWindow : Window
 
     private static Border ContextPanel(string title, params Control[] controls)
     {
-        StackPanel row = new()
+        WrapPanel row = new()
         {
             Orientation = Orientation.Horizontal,
-            Spacing = 4,
             VerticalAlignment = VerticalAlignment.Top
         };
 
         foreach (Control control in controls)
         {
+            control.Margin = new Thickness(0, 0, 4, 4);
             row.Children.Add(control);
         }
 
@@ -505,7 +505,9 @@ public sealed class MainWindow : Window
         structureContextPanel = ContextPanel("Structure",
             ToolButton("<", (_, _) => mapViewport.SelectPreviousStructure(), "Previous structure contribution"),
             ToolButton(">", (_, _) => mapViewport.SelectNextStructure(), "Next structure contribution"),
-            ToolButton("Dir", (_, _) => mapViewport.CycleStructureVariant(), "Cycle structure/accessory variant"));
+            ToolButton("Dir", (_, _) => mapViewport.CycleStructureVariant(), "Cycle structure/accessory variant"),
+            ToolButton("C-", (_, _) => mapViewport.ChangeStructureColorVariant(-1), "Previous color palette variant"),
+            ToolButton("C+", (_, _) => mapViewport.ChangeStructureColorVariant(1), "Next color palette variant"));
         platformContextPanel = ContextPanel("Platform",
             ToolButton("-", (_, _) => mapViewport.ChangePlatformLength(-1), "Shorter platform"),
             ToolButton("+", (_, _) => mapViewport.ChangePlatformLength(1), "Longer platform"),
@@ -1477,10 +1479,10 @@ public sealed class MainWindow : Window
                 $"{station.SizeH}x{station.SizeV} | {FormatMoney(station.OperationCost)} upkeep",
                 () => new StationPlacementPreviewControl(station)),
             MapEditMode.Structure when mapViewport.ActiveStructureContribution is { } structure => (
-                $"structure:{structure.Id}",
+                $"structure:{structure.Id}:{mapViewport.ActiveStructureColorVariantIndex}",
                 structure.DisplayName,
-                StructureDetail(structure),
-                () => new StructurePlacementPreviewControl(structure)),
+                $"{StructureDetail(structure)} | {mapViewport.ActiveStructureColorVariantDescription}",
+                () => new StructurePlacementPreviewControl(structure, mapViewport.ActiveStructureColorVariantIndex)),
             MapEditMode.Platform => (
                 $"platform:{status.ActivePlatformDescription}",
                 PlatformTitle,
@@ -1553,7 +1555,7 @@ public sealed class MainWindow : Window
         }
 
         string activeKey = ActiveCatalogKey(status.EditMode);
-        string nextStateKey = $"{status.EditMode}|{buildCatalogQuery}|{activeKey}";
+        string nextStateKey = $"{status.EditMode}|{buildCatalogQuery}|{activeKey}|{mapViewport.ActiveStructureColorVariantIndex}";
         if (nextStateKey == buildCatalogStateKey)
         {
             return;
@@ -1686,15 +1688,20 @@ public sealed class MainWindow : Window
     private BuildCatalogItem CreateStructureCatalogItem(SpriteContribution structure, string activeKey)
     {
         string key = $"structure:{structure.Id}:{structure.PluginDirectoryName}";
-        string detail = StructureDetail(structure);
+        bool active = activeKey == key;
+        int colorVariantIndex = active ? mapViewport.ActiveStructureColorVariantIndex : 0;
+        string colorDetail = active && mapViewport.ActiveStructureColorVariantCount > 1
+            ? $" | {mapViewport.ActiveStructureColorVariantDescription}"
+            : "";
+        string detail = $"{StructureDetail(structure)}{colorDetail}";
         return new BuildCatalogItem(
             key,
             structure.DisplayName,
             detail,
             structure.PluginDirectoryName,
             $"{structure.DisplayName} {structure.Group} {structure.Subgroup} {structure.Description} {structure.Type} {structure.PlacementKind} {structure.PluginDirectoryName} {structure.Id}",
-            activeKey == key,
-            () => new StructurePlacementPreviewControl(structure),
+            active,
+            () => new StructurePlacementPreviewControl(structure, colorVariantIndex),
             () => mapViewport.SelectStructure(structure));
     }
 

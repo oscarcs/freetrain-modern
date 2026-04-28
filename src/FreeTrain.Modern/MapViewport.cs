@@ -81,6 +81,7 @@ public sealed class MapViewport : Control, IDisposable
     private int activeStationIndex;
     private int activeStructureIndex;
     private int activeStructureFrameIndex;
+    private int activeStructureColorVariantIndex;
     private int activeTrainIndex;
     private int activePlatformDirectionIndex = 2;
     private int activePlatformLength = 4;
@@ -263,6 +264,13 @@ public sealed class MapViewport : Control, IDisposable
         : "No structure plugins loaded";
     public string ActiveTrainName => ActiveTrainContribution?.DisplayName ?? "No train plugins loaded";
     public string ActivePlatformDescription => $"{ModernDirection.FromIndex(activePlatformDirectionIndex).EnglishName}, {activePlatformLength} tile(s), {FormatPlatformStyle(activePlatformStyle)}";
+    public int ActiveStructureColorVariantIndex => activeStructureColorVariantIndex;
+    public int ActiveStructureColorVariantCount => ActiveStructureContribution is { } structure
+        ? GetColorVariantCount(structure)
+        : 1;
+    public string ActiveStructureColorVariantDescription => ActiveStructureColorVariantCount > 1
+        ? $"Color {Math.Clamp(activeStructureColorVariantIndex, 0, ActiveStructureColorVariantCount - 1) + 1}/{ActiveStructureColorVariantCount}"
+        : "Default color";
 
     public MapViewportStatus CurrentStatus => CreateStatus();
 
@@ -590,11 +598,11 @@ public sealed class MapViewport : Control, IDisposable
                 Point tilePoint = FromHvzToScreen(mapObject.H, mapObject.V, z);
                 if (mapObject.StructureContribution?.SpriteSet3D is { IsLoadable: true } spriteSet)
                 {
-                    DrawSpriteSet3D(drawContext, spriteSet, tilePoint);
+                    DrawSpriteSet3D(drawContext, spriteSet, tilePoint, mapObject.StructureColorVariantIndex);
                 }
                 else if (mapObject.StructureFrame is { } frame)
                 {
-                    DrawSpriteFrame(drawContext, frame, tilePoint);
+                    DrawSpriteFrame(drawContext, frame, tilePoint, mapObject.StructureColorVariantIndex);
                 }
             }));
         }
@@ -1023,6 +1031,7 @@ public sealed class MapViewport : Control, IDisposable
 
         activeStructureIndex = (activeStructureIndex + 1) % structureContributions.Count;
         activeStructureFrameIndex = 0;
+        activeStructureColorVariantIndex = 0;
         PublishStatus();
     }
 
@@ -1036,6 +1045,7 @@ public sealed class MapViewport : Control, IDisposable
 
         activeStructureIndex = index;
         activeStructureFrameIndex = 0;
+        activeStructureColorVariantIndex = 0;
         PublishStatus();
     }
 
@@ -1048,6 +1058,7 @@ public sealed class MapViewport : Control, IDisposable
 
         activeStructureIndex = (activeStructureIndex + structureContributions.Count - 1) % structureContributions.Count;
         activeStructureFrameIndex = 0;
+        activeStructureColorVariantIndex = 0;
         PublishStatus();
     }
 
@@ -1060,6 +1071,24 @@ public sealed class MapViewport : Control, IDisposable
 
         activeStructureFrameIndex = (activeStructureFrameIndex + 1) % structure.Frames.Count;
         PublishStatus();
+    }
+
+    public void ChangeStructureColorVariant(int delta)
+    {
+        int count = ActiveStructureColorVariantCount;
+        if (count <= 1)
+        {
+            return;
+        }
+
+        activeStructureColorVariantIndex = (activeStructureColorVariantIndex + delta) % count;
+        if (activeStructureColorVariantIndex < 0)
+        {
+            activeStructureColorVariantIndex += count;
+        }
+
+        PublishStatus();
+        InvalidateVisual();
     }
 
     public void SelectNextTrain()
@@ -1125,14 +1154,14 @@ public sealed class MapViewport : Control, IDisposable
         PublishStatus();
     }
 
-    private void DrawSpriteFrame(DrawingContext context, SpriteFrame frame, Point tilePoint)
+    private void DrawSpriteFrame(DrawingContext context, SpriteFrame frame, Point tilePoint, int colorVariantIndex = 0)
     {
         if (!frame.IsLoadable)
         {
             return;
         }
 
-        Bitmap bitmap = GetPluginBitmap(frame.ResolvedPath);
+        Bitmap bitmap = GetPluginBitmap(frame, colorVariantIndex);
         Size imageSize = bitmap.Size;
         double sourceX = Math.Clamp(frame.SourceX, 0, Math.Max(0, imageSize.Width - 1));
         double sourceY = Math.Clamp(frame.SourceY, 0, Math.Max(0, imageSize.Height - 1));
@@ -1164,28 +1193,29 @@ public sealed class MapViewport : Control, IDisposable
             32,
             0,
             16,
+            Array.Empty<ColorMapEntry>(),
             null);
     }
 
-    private void DrawSpriteSet3D(DrawingContext context, ModernSpriteSet3D spriteSet, Point basePoint)
+    private void DrawSpriteSet3D(DrawingContext context, ModernSpriteSet3D spriteSet, Point basePoint, int colorVariantIndex = 0)
     {
         foreach (ModernSpriteVoxel3D voxel in spriteSet.InVoxelDrawOrder())
         {
             Point voxelPoint = new(
                 basePoint.X + (voxel.X + voxel.Y) * 16,
                 basePoint.Y + (-voxel.X + voxel.Y) * 8 - voxel.Z * 16);
-            DrawSpriteFrame(context, voxel.Frame, voxelPoint);
+            DrawSpriteFrame(context, voxel.Frame, voxelPoint, colorVariantIndex);
         }
     }
 
-    private void DrawSpriteSet2D(DrawingContext context, ModernSpriteSet2D spriteSet, Point basePoint)
+    private void DrawSpriteSet2D(DrawingContext context, ModernSpriteSet2D spriteSet, Point basePoint, int colorVariantIndex = 0)
     {
         foreach (ModernSpriteVoxel2D voxel in spriteSet.InVoxelDrawOrder())
         {
             Point voxelPoint = new(
                 basePoint.X + (voxel.X + voxel.Y) * 16,
                 basePoint.Y + (-voxel.X + voxel.Y) * 8);
-            DrawSpriteFrame(context, voxel.Frame, voxelPoint);
+            DrawSpriteFrame(context, voxel.Frame, voxelPoint, colorVariantIndex);
         }
     }
 
@@ -1399,15 +1429,23 @@ public sealed class MapViewport : Control, IDisposable
         return value * value * (3 - 2 * value);
     }
 
-    private Bitmap GetPluginBitmap(string path)
+    private Bitmap GetPluginBitmap(SpriteFrame frame, int colorVariantIndex = 0)
     {
-        if (!pluginBitmaps.TryGetValue(path, out Bitmap? bitmap))
+        string key = BitmapCacheKey(frame, colorVariantIndex);
+        if (!pluginBitmaps.TryGetValue(key, out Bitmap? bitmap))
         {
-            bitmap = LegacyBitmap.LoadWithColorKey(path);
-            pluginBitmaps[path] = bitmap;
+            bitmap = LegacyBitmap.LoadWithColorKey(frame.ResolvedPath, frame.ColorMaps, colorVariantIndex);
+            pluginBitmaps[key] = bitmap;
         }
 
         return bitmap;
+    }
+
+    private static string BitmapCacheKey(SpriteFrame frame, int colorVariantIndex)
+    {
+        return frame.ColorMaps.Count == 0
+            ? frame.ResolvedPath
+            : $"{frame.ResolvedPath}|{colorVariantIndex}|{string.Join(";", frame.ColorMaps.Select(map => $"{map.From}>{map.To}"))}";
     }
 
     private HashSet<(int H, int V)> CreateInitialOccupiedTiles()
@@ -2298,7 +2336,8 @@ public sealed class MapViewport : Control, IDisposable
                 location.V,
                 location.Z,
                 structure,
-                structureFrame);
+                structureFrame,
+                activeStructureColorVariantIndex);
             if (world.AddEntity(entity, allowTransportOverlap) && entity.EntityValue > 0)
             {
                 world.Spend(entity.EntityValue, ModernAccountGenre.Construction, $"Built {structure.DisplayName}.");
@@ -2465,6 +2504,17 @@ public sealed class MapViewport : Control, IDisposable
             ModernSpecialRailKind.Garage => 3,
             _ => 9
         };
+    }
+
+    private static int GetColorVariantCount(SpriteContribution structure)
+    {
+        return structure.Frames
+            .Concat(structure.SpriteSet2D?.InVoxelDrawOrder().Select(voxel => voxel.Frame) ?? Enumerable.Empty<SpriteFrame>())
+            .Concat(structure.SpriteSet3D?.InVoxelDrawOrder().Select(voxel => voxel.Frame) ?? Enumerable.Empty<SpriteFrame>())
+            .SelectMany(frame => frame.ColorMaps)
+            .Select(map => LegacyBitmap.GetColorLibrarySize(map.To))
+            .DefaultIfEmpty(1)
+            .Max();
     }
 
     private static string SpecialRailDisplayName(SpecialRailContribution rail)

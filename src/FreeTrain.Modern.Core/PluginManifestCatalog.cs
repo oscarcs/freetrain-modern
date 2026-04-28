@@ -205,6 +205,7 @@ public sealed record SpriteFrame(
     int SourceHeight,
     int OffsetX,
     int OffsetY,
+    IReadOnlyList<ColorMapEntry> ColorMaps,
     string? Error)
 {
     public bool IsLoadable => Error is null && File.Exists(ResolvedPath);
@@ -1583,6 +1584,22 @@ public sealed class PluginManifestCatalog
             .AsReadOnly();
     }
 
+    private static IReadOnlyList<ColorMapEntry> ParseSpriteColorMaps(XElement sprite)
+    {
+        IEnumerable<XElement> spriteTypes = sprite.Elements("spriteType");
+        XElement? nextElement = sprite.ElementsAfterSelf().FirstOrDefault();
+        if (nextElement is not null && string.Equals(nextElement.Name.LocalName, "spriteType", StringComparison.OrdinalIgnoreCase))
+        {
+            spriteTypes = spriteTypes.Append(nextElement);
+        }
+
+        return spriteTypes
+            .SelectMany(ParseColorMaps)
+            .Where(map => !string.IsNullOrWhiteSpace(map.From) && !string.IsNullOrWhiteSpace(map.To))
+            .ToList()
+            .AsReadOnly();
+    }
+
     private static int HalfVoxelOffsetX(string direction, string side)
     {
         int index = HalfVoxelDirectionIndex(direction) + HalfVoxelSideIndex(side) * 4;
@@ -1802,7 +1819,18 @@ public sealed class PluginManifestCatalog
             ? (0, DefaultOffsetY(contribution))
             : ParseOffset(offset);
         (int sourceWidth, int sourceHeight) = InferSpriteSize(contribution, sprite, offsetY);
-        return new SpriteFrame(pictureId, source, resolvedPath, sourceX, sourceY, sourceWidth, sourceHeight, offsetX, offsetY, error);
+        return new SpriteFrame(
+            pictureId,
+            source,
+            resolvedPath,
+            sourceX,
+            sourceY,
+            sourceWidth,
+            sourceHeight,
+            offsetX,
+            offsetY,
+            ParseSpriteColorMaps(sprite),
+            error);
     }
 
     private static ModernSpriteSet2D Load2DSpriteSet(
@@ -1991,6 +2019,7 @@ public sealed class PluginManifestCatalog
             sourceHeight,
             offsetX,
             offsetY,
+            picture.ColorMaps,
             error);
     }
 
@@ -2002,10 +2031,11 @@ public sealed class PluginManifestCatalog
         XElement? picture = sprite.Element("picture");
         if (picture is null)
         {
-            return new ResolvedSpritePicture("", "", "", "Missing <picture> element.");
+            return new ResolvedSpritePicture("", "", "", Array.Empty<ColorMapEntry>(), "Missing <picture> element.");
         }
 
-        return ResolvePictureElement(pluginDirectory, picture, pictures);
+        ResolvedSpritePicture resolved = ResolvePictureElement(pluginDirectory, picture, pictures);
+        return resolved with { ColorMaps = ParseSpriteColorMaps(sprite) };
     }
 
     private static ResolvedSpritePicture ResolvePictureElement(
@@ -2037,7 +2067,7 @@ public sealed class PluginManifestCatalog
             error = "Sprite picture is missing src or ref.";
         }
 
-        return new ResolvedSpritePicture(pictureId, source, resolvedPath, error);
+        return new ResolvedSpritePicture(pictureId, source, resolvedPath, Array.Empty<ColorMapEntry>(), error);
     }
 
     private static int DefaultOffsetY(XElement contribution)
@@ -2260,5 +2290,10 @@ public sealed class PluginManifestCatalog
         (0, -4)
     };
 
-    private readonly record struct ResolvedSpritePicture(string PictureId, string Source, string ResolvedPath, string? Error);
+    private readonly record struct ResolvedSpritePicture(
+        string PictureId,
+        string Source,
+        string ResolvedPath,
+        IReadOnlyList<ColorMapEntry> ColorMaps,
+        string? Error);
 }
