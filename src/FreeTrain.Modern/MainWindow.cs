@@ -34,6 +34,11 @@ public sealed class MainWindow : Window
     private ContentControl placementPreviewContent = null!;
     private TextBlock placementPreviewTitle = null!;
     private TextBlock placementPreviewDetail = null!;
+    private Border buildCatalogPanel = null!;
+    private TextBlock buildCatalogTitle = null!;
+    private TextBlock buildCatalogSummary = null!;
+    private TextBox buildCatalogSearch = null!;
+    private ListBox buildCatalogList = null!;
     private Border selectContextPanel = null!;
     private Border railContextPanel = null!;
     private Border roadContextPanel = null!;
@@ -52,8 +57,11 @@ public sealed class MainWindow : Window
 
     private bool developerModeVisible;
     private bool simulationRunning;
+    private bool updatingBuildCatalog;
     private int simulationSpeedIndex;
     private string placementPreviewKey = "";
+    private string buildCatalogQuery = "";
+    private string buildCatalogStateKey = "";
 
     public MainWindow(LegacyAssetCatalog assets)
     {
@@ -549,6 +557,167 @@ public sealed class MainWindow : Window
         return placementPreviewPanel;
     }
 
+    private Border BuildBuildCatalogPanel()
+    {
+        buildCatalogTitle = new TextBlock
+        {
+            Text = "Build Catalog",
+            Foreground = DarkTextBrush,
+            FontSize = 14,
+            FontWeight = FontWeight.Bold,
+            TextTrimming = TextTrimming.CharacterEllipsis
+        };
+        buildCatalogSummary = new TextBlock
+        {
+            Foreground = DarkMutedTextBrush,
+            FontSize = 11,
+            TextTrimming = TextTrimming.CharacterEllipsis
+        };
+        buildCatalogSearch = new TextBox
+        {
+            PlaceholderText = "Search",
+            MinHeight = 30,
+            FontSize = 12,
+            Margin = new Thickness(0, 8, 0, 8)
+        };
+        buildCatalogSearch.TextChanged += (_, _) =>
+        {
+            buildCatalogQuery = buildCatalogSearch.Text ?? "";
+            buildCatalogStateKey = "";
+            UpdateBuildCatalog(mapViewport.CurrentStatus);
+        };
+
+        buildCatalogList = new ListBox
+        {
+            Background = Brushes.Transparent,
+            BorderThickness = new Thickness(0),
+            ItemTemplate = new FuncDataTemplate<BuildCatalogItem>((item, _) => BuildCatalogItemRow(item))
+        };
+        buildCatalogList.SelectionChanged += (_, _) =>
+        {
+            if (updatingBuildCatalog || buildCatalogList.SelectedItem is not BuildCatalogItem item)
+            {
+                return;
+            }
+
+            item.Select();
+        };
+
+        DockPanel content = new()
+        {
+            Margin = new Thickness(10)
+        };
+        StackPanel header = new()
+        {
+            Spacing = 1
+        };
+        header.Children.Add(buildCatalogTitle);
+        header.Children.Add(buildCatalogSummary);
+        header.Children.Add(buildCatalogSearch);
+        DockPanel.SetDock(header, Dock.Top);
+        content.Children.Add(header);
+        content.Children.Add(new ScrollViewer
+        {
+            Content = buildCatalogList,
+            HorizontalScrollBarVisibility = ScrollBarVisibility.Disabled,
+            VerticalScrollBarVisibility = ScrollBarVisibility.Auto
+        });
+
+        buildCatalogPanel = new Border
+        {
+            Background = new SolidColorBrush(Color.FromArgb(246, 255, 255, 255)),
+            BorderBrush = new SolidColorBrush(Color.FromRgb(210, 217, 221)),
+            BorderThickness = new Thickness(1),
+            CornerRadius = new CornerRadius(4),
+            BoxShadow = new BoxShadows(new BoxShadow
+            {
+                Color = Color.FromArgb(46, 0, 0, 0),
+                Blur = 14,
+                OffsetY = 4
+            }),
+            HorizontalAlignment = HorizontalAlignment.Right,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Width = 336,
+            Margin = new Thickness(0, 8, 8, 8),
+            Child = content
+        };
+        return buildCatalogPanel;
+    }
+
+    private static Control BuildCatalogItemRow(BuildCatalogItem? item)
+    {
+        if (item is null)
+        {
+            return new Border();
+        }
+
+        Grid grid = new()
+        {
+            ColumnDefinitions = new ColumnDefinitions("74,*"),
+            MinHeight = 70
+        };
+        Control preview = item.CreatePreview();
+        grid.Children.Add(new Border
+        {
+            Width = 66,
+            Height = 48,
+            Background = new SolidColorBrush(Color.FromRgb(248, 250, 251)),
+            BorderBrush = new SolidColorBrush(Color.FromRgb(220, 226, 230)),
+            BorderThickness = new Thickness(1),
+            ClipToBounds = true,
+            VerticalAlignment = VerticalAlignment.Top,
+            Child = new Viewbox
+            {
+                Stretch = Stretch.Uniform,
+                Child = preview
+            }
+        });
+
+        StackPanel copy = new()
+        {
+            Spacing = 2
+        };
+        copy.Children.Add(new TextBlock
+        {
+            Text = item.Title,
+            Foreground = DarkTextBrush,
+            FontSize = 12,
+            FontWeight = FontWeight.SemiBold,
+            TextWrapping = TextWrapping.Wrap,
+            MaxLines = 2
+        });
+        copy.Children.Add(new TextBlock
+        {
+            Text = item.Detail,
+            Foreground = DarkMutedTextBrush,
+            FontSize = 11,
+            TextWrapping = TextWrapping.Wrap,
+            MaxLines = 2
+        });
+        copy.Children.Add(new TextBlock
+        {
+            Text = item.Source,
+            Foreground = DarkMutedTextBrush,
+            FontSize = 10,
+            TextTrimming = TextTrimming.CharacterEllipsis
+        });
+        Grid.SetColumn(copy, 1);
+        grid.Children.Add(copy);
+
+        return new Border
+        {
+            Background = item.IsActive ? ActiveToolBrush : Brushes.White,
+            BorderBrush = item.IsActive
+                ? AccentBrush
+                : new SolidColorBrush(Color.FromRgb(226, 231, 234)),
+            BorderThickness = new Thickness(item.IsActive ? 2 : 1),
+            CornerRadius = new CornerRadius(4),
+            Padding = new Thickness(7),
+            Margin = new Thickness(0, 0, 0, 6),
+            Child = grid
+        };
+    }
+
     private ToggleButton ModeButton(object content, MapEditMode mode, string tip)
     {
         ToggleButton button = new()
@@ -635,6 +804,7 @@ public sealed class MainWindow : Window
             Child = scroller
         });
         surface.Children.Add(BuildPlacementOverlay());
+        surface.Children.Add(BuildBuildCatalogPanel());
         return surface;
     }
 
@@ -1279,6 +1449,7 @@ public sealed class MainWindow : Window
         bottomStatusText.Text = $"{status.InteractionHint} {status.LastMessage}";
         bottomDetailText.Text = CreateStatusDetails(status);
         UpdatePlacementPreview(status);
+        UpdateBuildCatalog(status);
 
         UpdateModeButtons(status.EditMode);
         UpdateContextPanels(status.EditMode);
@@ -1369,6 +1540,183 @@ public sealed class MainWindow : Window
 
         placementPreviewKey = preview.Key;
         placementPreviewContent.Content = preview.Create();
+    }
+
+    private void UpdateBuildCatalog(MapViewportStatus status)
+    {
+        bool visible = IsBuildCatalogMode(status.EditMode);
+        buildCatalogPanel.IsVisible = visible;
+        if (!visible)
+        {
+            buildCatalogStateKey = "";
+            return;
+        }
+
+        string activeKey = ActiveCatalogKey(status.EditMode);
+        string nextStateKey = $"{status.EditMode}|{buildCatalogQuery}|{activeKey}";
+        if (nextStateKey == buildCatalogStateKey)
+        {
+            return;
+        }
+
+        IReadOnlyList<BuildCatalogItem> items = CreateBuildCatalogItems(status.EditMode, buildCatalogQuery, activeKey);
+        buildCatalogTitle.Text = status.EditMode switch
+        {
+            MapEditMode.Rail => "Rail Catalog",
+            MapEditMode.Road => "Road Catalog",
+            MapEditMode.Station => "Station Catalog",
+            MapEditMode.Structure => "Structure Catalog",
+            MapEditMode.Train => "Train Catalog",
+            _ => "Build Catalog"
+        };
+        buildCatalogSummary.Text = items.Count == 1
+            ? "1 matching item"
+            : $"{items.Count:N0} matching items";
+
+        updatingBuildCatalog = true;
+        buildCatalogList.ItemsSource = items;
+        buildCatalogList.SelectedItem = items.FirstOrDefault(item => item.IsActive);
+        updatingBuildCatalog = false;
+        buildCatalogStateKey = nextStateKey;
+    }
+
+    private static bool IsBuildCatalogMode(MapEditMode mode)
+    {
+        return mode is MapEditMode.Rail
+            or MapEditMode.Road
+            or MapEditMode.Station
+            or MapEditMode.Structure
+            or MapEditMode.Train;
+    }
+
+    private string ActiveCatalogKey(MapEditMode mode)
+    {
+        return mode switch
+        {
+            MapEditMode.Rail => mapViewport.ActiveSpecialRailContribution is { } rail ? $"rail:{rail.Id}:{rail.Kind}" : "rail:standard",
+            MapEditMode.Road when mapViewport.ActiveRoadContribution is { } road => $"road:{road.Id}:{road.PluginDirectoryName}",
+            MapEditMode.Station when mapViewport.ActiveStationContribution is { } station => $"station:{station.Id}:{station.PluginDirectoryName}",
+            MapEditMode.Structure when mapViewport.ActiveStructureContribution is { } structure => $"structure:{structure.Id}:{structure.PluginDirectoryName}",
+            MapEditMode.Train when mapViewport.ActiveTrainContribution is { } train => $"train:{train.Id}:{train.PluginDirectoryName}",
+            _ => ""
+        };
+    }
+
+    private IReadOnlyList<BuildCatalogItem> CreateBuildCatalogItems(MapEditMode mode, string query, string activeKey)
+    {
+        IEnumerable<BuildCatalogItem> items = mode switch
+        {
+            MapEditMode.Rail => CreateRailCatalogItems(activeKey),
+            MapEditMode.Road => mapViewport.RoadContributions.Select(road => CreateRoadCatalogItem(road, activeKey)),
+            MapEditMode.Station => mapViewport.StationContributions.Select(station => CreateStationCatalogItem(station, activeKey)),
+            MapEditMode.Structure => mapViewport.StructureContributions.Select(structure => CreateStructureCatalogItem(structure, activeKey)),
+            MapEditMode.Train => mapViewport.TrainContributions.Select(train => CreateTrainCatalogItem(train, activeKey)),
+            _ => Enumerable.Empty<BuildCatalogItem>()
+        };
+
+        string normalized = query.Trim();
+        if (normalized.Length > 0)
+        {
+            items = items.Where(item => item.Matches(normalized));
+        }
+
+        return items.Take(700).ToList().AsReadOnly();
+    }
+
+    private IEnumerable<BuildCatalogItem> CreateRailCatalogItems(string activeKey)
+    {
+        yield return new BuildCatalogItem(
+            "rail:standard",
+            "Standard rail",
+            "Basic surface track",
+            "Core",
+            "rail standard track core",
+            activeKey == "rail:standard",
+            () => new RailPlacementPreviewControl(),
+            () => mapViewport.SelectSpecialRail(null));
+
+        foreach (SpecialRailContribution rail in mapViewport.SpecialRailContributions)
+        {
+            string title = MapViewport.FormatSpecialRailDisplayName(rail);
+            string key = $"rail:{rail.Id}:{rail.Kind}";
+            yield return new BuildCatalogItem(
+                key,
+                title,
+                string.IsNullOrWhiteSpace(rail.Description) ? $"{rail.Kind} rail" : rail.Description,
+                rail.PluginDirectoryName,
+                $"{title} {rail.Description} {rail.PluginDirectoryName} {rail.Id} {rail.Class.Name}",
+                activeKey == key,
+                () => new RailPlacementPreviewControl(),
+                () => mapViewport.SelectSpecialRail(rail));
+        }
+    }
+
+    private BuildCatalogItem CreateRoadCatalogItem(RoadContribution road, string activeKey)
+    {
+        string key = $"road:{road.Id}:{road.PluginDirectoryName}";
+        string style = road.Style.Lanes > 0
+            ? $"{road.Style.MajorType} {road.Style.Lanes} lane(s)"
+            : road.Kind.ToString();
+        return new BuildCatalogItem(
+            key,
+            road.DisplayName,
+            $"{style} | {RoadDetail(road)}",
+            road.PluginDirectoryName,
+            $"{road.DisplayName} {road.Description} {road.PluginDirectoryName} {road.Id} {road.Kind} {style}",
+            activeKey == key,
+            () => new RoadPlacementPreviewControl(road),
+            () => mapViewport.SelectRoad(road));
+    }
+
+    private BuildCatalogItem CreateStationCatalogItem(StationContribution station, string activeKey)
+    {
+        string key = $"station:{station.Id}:{station.PluginDirectoryName}";
+        string size = $"{station.SizeH}x{station.SizeV}";
+        return new BuildCatalogItem(
+            key,
+            station.DisplayName,
+            $"{size} | upkeep {FormatMoney(station.OperationCost)}",
+            station.PluginDirectoryName,
+            $"{station.DisplayName} {station.Group} {station.PluginDirectoryName} {station.Id} {size}",
+            activeKey == key,
+            () => new StationPlacementPreviewControl(station),
+            () => mapViewport.SelectStation(station));
+    }
+
+    private BuildCatalogItem CreateStructureCatalogItem(SpriteContribution structure, string activeKey)
+    {
+        string key = $"structure:{structure.Id}:{structure.PluginDirectoryName}";
+        string detail = StructureDetail(structure);
+        return new BuildCatalogItem(
+            key,
+            structure.DisplayName,
+            detail,
+            structure.PluginDirectoryName,
+            $"{structure.DisplayName} {structure.Group} {structure.Subgroup} {structure.Description} {structure.Type} {structure.PlacementKind} {structure.PluginDirectoryName} {structure.Id}",
+            activeKey == key,
+            () => new StructurePlacementPreviewControl(structure),
+            () => mapViewport.SelectStructure(structure));
+    }
+
+    private BuildCatalogItem CreateTrainCatalogItem(TrainContribution train, string activeKey)
+    {
+        string key = $"train:{train.Id}:{train.PluginDirectoryName}";
+        string company = string.IsNullOrWhiteSpace(train.Company) ? train.PluginTitle : train.Company;
+        string detail = $"{FormatMoney(train.Price)} | fare {FormatMoney(train.Fare)}";
+        if (!string.IsNullOrWhiteSpace(company))
+        {
+            detail = $"{company} | {detail}";
+        }
+
+        return new BuildCatalogItem(
+            key,
+            train.DisplayName,
+            detail,
+            train.PluginDirectoryName,
+            $"{train.DisplayName} {train.TypeName} {train.Company} {train.Description} {train.Author} {train.PluginDirectoryName} {train.Id}",
+            activeKey == key,
+            () => new TrainPlacementPreviewControl(train, mapViewport.TrainCarContributions),
+            () => mapViewport.SelectTrain(train));
     }
 
     private static string RoadDetail(RoadContribution road)
@@ -1634,6 +1982,43 @@ public sealed class MainWindow : Window
         mapViewport.Dispose();
         toolbarIconStrip?.Dispose();
         base.OnClosed(e);
+    }
+
+    private sealed class BuildCatalogItem
+    {
+        public BuildCatalogItem(
+            string key,
+            string title,
+            string detail,
+            string source,
+            string searchText,
+            bool isActive,
+            Func<Control> createPreview,
+            Action select)
+        {
+            Key = key;
+            Title = string.IsNullOrWhiteSpace(title) ? "(unnamed)" : title;
+            Detail = detail;
+            Source = source;
+            SearchText = searchText;
+            IsActive = isActive;
+            CreatePreview = createPreview;
+            Select = select;
+        }
+
+        public string Key { get; }
+        public string Title { get; }
+        public string Detail { get; }
+        public string Source { get; }
+        public string SearchText { get; }
+        public bool IsActive { get; }
+        public Func<Control> CreatePreview { get; }
+        public Action Select { get; }
+
+        public bool Matches(string query)
+        {
+            return SearchText.Contains(query, StringComparison.OrdinalIgnoreCase);
+        }
     }
 
     private enum ToolGlyphKind

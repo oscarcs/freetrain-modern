@@ -360,6 +360,11 @@ public sealed class MapViewport : Control, IDisposable
         ? null
         : trainContributions[Math.Clamp(activeTrainIndex, 0, trainContributions.Count - 1)];
     public IReadOnlyDictionary<string, TrainCarContribution> TrainCarContributions => trainCarContributions;
+    public IReadOnlyList<RoadContribution> RoadContributions => roadContributions;
+    public IReadOnlyList<SpecialRailContribution> SpecialRailContributions => specialRailContributions;
+    public IReadOnlyList<StationContribution> StationContributions => stationContributions;
+    public IReadOnlyList<SpriteContribution> StructureContributions => structureContributions;
+    public IReadOnlyList<TrainContribution> TrainContributions => trainContributions;
 
     private void OnWorldChanged(object? sender, ModernWorldChangedEventArgs e)
     {
@@ -901,6 +906,18 @@ public sealed class MapViewport : Control, IDisposable
         PublishStatus();
     }
 
+    public void SelectRoad(RoadContribution road)
+    {
+        int index = IndexOfReferenceOrValue(roadContributions, road);
+        if (index < 0)
+        {
+            return;
+        }
+
+        activeRoadIndex = index;
+        PublishStatus();
+    }
+
     public void SelectPreviousRoad()
     {
         if (roadContributions.Count == 0)
@@ -925,6 +942,25 @@ public sealed class MapViewport : Control, IDisposable
             activeSpecialRailIndex = -1;
         }
 
+        PublishStatus();
+    }
+
+    public void SelectSpecialRail(SpecialRailContribution? rail)
+    {
+        if (rail is null)
+        {
+            activeSpecialRailIndex = -1;
+            PublishStatus();
+            return;
+        }
+
+        int index = IndexOfReferenceOrValue(specialRailContributions, rail);
+        if (index < 0)
+        {
+            return;
+        }
+
+        activeSpecialRailIndex = index;
         PublishStatus();
     }
 
@@ -955,6 +991,18 @@ public sealed class MapViewport : Control, IDisposable
         PublishStatus();
     }
 
+    public void SelectStation(StationContribution station)
+    {
+        int index = IndexOfReferenceOrValue(stationContributions, station);
+        if (index < 0)
+        {
+            return;
+        }
+
+        activeStationIndex = index;
+        PublishStatus();
+    }
+
     public void SelectPreviousStation()
     {
         if (stationContributions.Count == 0)
@@ -974,6 +1022,19 @@ public sealed class MapViewport : Control, IDisposable
         }
 
         activeStructureIndex = (activeStructureIndex + 1) % structureContributions.Count;
+        activeStructureFrameIndex = 0;
+        PublishStatus();
+    }
+
+    public void SelectStructure(SpriteContribution structure)
+    {
+        int index = IndexOfReferenceOrValue(structureContributions, structure);
+        if (index < 0)
+        {
+            return;
+        }
+
+        activeStructureIndex = index;
         activeStructureFrameIndex = 0;
         PublishStatus();
     }
@@ -1009,6 +1070,18 @@ public sealed class MapViewport : Control, IDisposable
         }
 
         activeTrainIndex = (activeTrainIndex + 1) % trainContributions.Count;
+        PublishStatus();
+    }
+
+    public void SelectTrain(TrainContribution train)
+    {
+        int index = IndexOfReferenceOrValue(trainContributions, train);
+        if (index < 0)
+        {
+            return;
+        }
+
+        activeTrainIndex = index;
         PublishStatus();
     }
 
@@ -2409,6 +2482,25 @@ public sealed class MapViewport : Control, IDisposable
             ModernSpecialRailKind.Garage => "Train garage rail",
             _ => rail.Class.Name
         };
+    }
+
+    public static string FormatSpecialRailDisplayName(SpecialRailContribution rail)
+    {
+        return SpecialRailDisplayName(rail);
+    }
+
+    private static int IndexOfReferenceOrValue<T>(IReadOnlyList<T> items, T item)
+        where T : class
+    {
+        for (int i = 0; i < items.Count; i++)
+        {
+            if (ReferenceEquals(items[i], item) || EqualityComparer<T>.Default.Equals(items[i], item))
+            {
+                return i;
+            }
+        }
+
+        return -1;
     }
 
     private static string? FindRailRoadCrossingPath(LegacyAssetCatalog assets, PluginManifestCatalog plugins)
