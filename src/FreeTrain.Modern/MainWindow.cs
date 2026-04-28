@@ -48,6 +48,9 @@ public sealed class MainWindow : Window
     private Border trainContextPanel = null!;
     private Border terrainContextPanel = null!;
     private Border eraseContextPanel = null!;
+    private Button storeTrainButton = null!;
+    private Button dispatchTrainButton = null!;
+    private Button removeTrainButton = null!;
     private TextBlock hudCashValue = null!;
     private TextBlock hudWorldValue = null!;
     private TextBlock hudDateValue = null!;
@@ -483,7 +486,7 @@ public sealed class MainWindow : Window
         {
             Foreground = DarkMutedTextBrush,
             FontSize = 10,
-            TextTrimming = TextTrimming.CharacterEllipsis,
+            TextWrapping = TextWrapping.Wrap,
             Margin = new Thickness(8, 3, 8, 6)
         };
 
@@ -492,10 +495,18 @@ public sealed class MainWindow : Window
             Margin = new Thickness(8, 0, 8, 8),
             VerticalAlignment = VerticalAlignment.Top
         };
-        selectContextPanel = ContextPanel("Selection");
+        storeTrainButton = ToolButton("Store", (_, _) => mapViewport.StoreSelectedTrainInGarage(), "Store the selected train when every car is inside garage rail");
+        dispatchTrainButton = ToolButton("Dispatch", (_, _) => mapViewport.DispatchSelectedTrainFromGarage(), "Dispatch the selected train from its garage track");
+        removeTrainButton = ToolButton("Remove", (_, _) => mapViewport.RemoveSelectedTrain(), "Remove the selected train from the world");
+        selectContextPanel = ContextPanel("Selection",
+            storeTrainButton,
+            dispatchTrainButton,
+            removeTrainButton);
         railContextPanel = ContextPanel("Rail",
             ToolButton("<", (_, _) => mapViewport.SelectPreviousSpecialRail(), "Previous rail type"),
-            ToolButton(">", (_, _) => mapViewport.SelectNextSpecialRail(), "Next rail type"));
+            ToolButton(">", (_, _) => mapViewport.SelectNextSpecialRail(), "Next rail type"),
+            ToolButton("Z-", (_, _) => mapViewport.ChangeRailBuildLevel(-1), "Lower elevated rail target level"),
+            ToolButton("Z+", (_, _) => mapViewport.ChangeRailBuildLevel(1), "Raise elevated rail target level"));
         roadContextPanel = ContextPanel("Road",
             ToolButton("<", (_, _) => mapViewport.SelectPreviousRoad(), "Previous road contribution"),
             ToolButton(">", (_, _) => mapViewport.SelectNextRoad(), "Next road contribution"));
@@ -553,7 +564,8 @@ public sealed class MainWindow : Window
             }),
             HorizontalAlignment = HorizontalAlignment.Left,
             VerticalAlignment = VerticalAlignment.Top,
-            Width = 148,
+            MinWidth = 148,
+            MaxWidth = 360,
             Child = previewStack
         };
         return placementPreviewPanel;
@@ -1455,7 +1467,15 @@ public sealed class MainWindow : Window
 
         UpdateModeButtons(status.EditMode);
         UpdateContextPanels(status.EditMode);
+        UpdateRailwayOperationButtons(status);
         UpdateSimulationText();
+    }
+
+    private void UpdateRailwayOperationButtons(MapViewportStatus status)
+    {
+        storeTrainButton.IsEnabled = status.CanStoreSelectedTrain;
+        dispatchTrainButton.IsEnabled = status.CanDispatchSelectedTrain;
+        removeTrainButton.IsEnabled = status.CanRemoveSelectedTrain;
     }
 
     private void UpdatePlacementPreview(MapViewportStatus status)
@@ -1463,6 +1483,11 @@ public sealed class MainWindow : Window
         (string PlatformTitle, string PlatformDetail) = PlatformPreviewLabels(status.ActivePlatformDescription);
         (string Key, string Title, string Detail, Func<Control> Create) preview = status.EditMode switch
         {
+            MapEditMode.Select when status.SelectedLocation is not null => (
+                $"select:{status.SelectionTitle}:{status.SelectionDetail}",
+                status.SelectionTitle,
+                status.SelectionDetail,
+                () => new EmptyPlacementPreviewControl()),
             MapEditMode.Rail => (
                 $"rail:{status.ActiveRailName}",
                 status.ActiveRailName,
@@ -1505,7 +1530,9 @@ public sealed class MainWindow : Window
                 () => new EmptyPlacementPreviewControl())
         };
 
-        bool hasPreview = status.EditMode is MapEditMode.Road
+        bool hasPreview = status.EditMode == MapEditMode.Select && status.SelectedLocation is not null
+            || status.EditMode is MapEditMode.Rail
+            or MapEditMode.Road
             or MapEditMode.Station
             or MapEditMode.Structure
             or MapEditMode.Platform
@@ -1513,6 +1540,7 @@ public sealed class MainWindow : Window
             or MapEditMode.Terrain;
         placementPreviewPanel.IsVisible = hasPreview;
         placementPreviewPanel.Margin = new Thickness(8, ToolOverlayTop(status.EditMode), 0, 0);
+        placementPreviewPanel.Width = status.EditMode == MapEditMode.Select ? 340 : 148;
         if (!hasPreview)
         {
             if (placementPreviewContent.Content is IDisposable oldPreview)
@@ -1529,7 +1557,7 @@ public sealed class MainWindow : Window
 
         placementPreviewTitle.Text = preview.Title;
         placementPreviewDetail.Text = preview.Detail;
-        placementPreviewContent.IsVisible = status.EditMode != MapEditMode.Terrain;
+        placementPreviewContent.IsVisible = status.EditMode is not (MapEditMode.Select or MapEditMode.Terrain);
         if (placementPreviewKey == preview.Key)
         {
             return;
@@ -1871,7 +1899,8 @@ public sealed class MainWindow : Window
         string anchor = status.BuildAnchorLocation is null
             ? ""
             : $" | Anchor {FormatCompactLocation(status.BuildAnchorLocation)}";
-        return $"Hover {FormatCompactLocation(status.HoverLocation)} | Selected {FormatCompactLocation(status.SelectedLocation)}{anchor} | {status.EditMode} | Road {status.ActiveRoadName} | Station {status.ActiveStationName} | Platform {status.ActivePlatformDescription} | Train {status.ActiveTrainName} | Zoom {status.Zoom:0.##}x | Cut {status.MaxVisibleLevel}/{status.WorldMaxHeightCutLevel} | Rail {status.RailTileCount:N0} Road {status.RoadTileCount:N0} Stations {status.StationCount:N0} Platforms {status.PlatformCount:N0} Trains {status.TrainCount:N0} | Pop {status.StationPopulation:N0} Waiting {status.WaitingPassengers:N0} Loaded {status.LoadedPassengersToday:N0} Unloaded {status.UnloadedPassengersToday:N0} Stops {status.TrainStopsToday:N0}";
+        string selection = status.SelectedLocation is null ? "" : $" | {status.SelectionDetail}";
+        return $"Hover {FormatCompactLocation(status.HoverLocation)} | Selected {FormatCompactLocation(status.SelectedLocation)}{anchor}{selection} | {status.EditMode} | Road {status.ActiveRoadName} | Station {status.ActiveStationName} | Platform {status.ActivePlatformDescription} | Train {status.ActiveTrainName} | Zoom {status.Zoom:0.##}x | Cut {status.MaxVisibleLevel}/{status.WorldMaxHeightCutLevel} | Rail {status.RailTileCount:N0} Road {status.RoadTileCount:N0} Stations {status.StationCount:N0} Platforms {status.PlatformCount:N0} Trains {status.TrainCount:N0} | Pop {status.StationPopulation:N0} Waiting {status.WaitingPassengers:N0} Loaded {status.LoadedPassengersToday:N0} Unloaded {status.UnloadedPassengersToday:N0} Stops {status.TrainStopsToday:N0}";
     }
 
     private static string FormatMoney(long amount)

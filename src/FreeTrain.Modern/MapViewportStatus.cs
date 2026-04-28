@@ -33,5 +33,10 @@ public sealed record MapViewportStatus(
     int WorldMaxHeightCutLevel,
     bool ShowGrid,
     bool UseNightView,
+    string SelectionTitle,
+    string SelectionDetail,
+    bool CanStoreSelectedTrain,
+    bool CanDispatchSelectedTrain,
+    bool CanRemoveSelectedTrain,
     string InteractionHint,
     string LastMessage);

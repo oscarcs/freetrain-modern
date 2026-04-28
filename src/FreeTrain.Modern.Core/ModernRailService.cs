@@ -325,6 +325,19 @@ public sealed record ModernPlatform(
     }
 }
 
+public sealed record ModernRailwayTileInspection(
+    ModernVoxelKey Location,
+    ModernStation? Station,
+    ModernPlatform? Platform,
+    ModernTrain? Train,
+    ModernRailRoad? RailRoad,
+    ModernSpecialRailKind SpecialRailKind,
+    int RailLevel)
+{
+    public bool HasRail => RailRoad is not null;
+    public bool HasRailService => Station is not null || Platform is not null || Train is not null || RailRoad is not null;
+}
+
 public sealed record ModernTrainCarPlacement(
     string CarContributionId,
     ModernVoxelKey Location,

@@ -245,7 +245,7 @@ public sealed class ModernWorldCreationTests
 
         Assert.True(world.AddRailLine(
             new TileLocation(5, 5, world.GetGroundLevel(5, 5)),
-            new TileLocation(5, 5, world.GetGroundLevel(5, 5)),
+            new TileLocation(5, 6, world.GetGroundLevel(5, 5)),
             ModernSpecialRailKind.Tunnel) > 0);
 
         Assert.True(world.GetTerrainTile(5, 5).IsFlat);
@@ -310,6 +310,39 @@ public sealed class ModernWorldCreationTests
     }
 
     [Fact]
+    public void RailwayInspectionFindsGarageTrainAndRemoveTrainClearsIt()
+    {
+        ModernWorld world = ModernWorld.CreateNew(new ModernWorldCreationOptions(
+            "Rail Ops World",
+            24,
+            24,
+            0,
+            100_000_000,
+            ModernWorldTerrainKind.Flat));
+        Assert.True(world.AddRailLine(
+            new TileLocation(3, 3, 0),
+            new TileLocation(12, 3, 0),
+            ModernSpecialRailKind.Garage) > 0);
+
+        TrainContribution trainContribution = TestTrainContribution();
+        Dictionary<string, TrainCarContribution> cars = TestTrainCars();
+        ModernTrain train = new("train:ops", trainContribution, Array.Empty<ModernTrainCarPlacement>(), 0);
+        Assert.True(world.AddTrain(train));
+        Assert.True(world.PlaceTrain(train.TrainId, new ModernVoxelKey(3, 3, 0), ModernDirection.East, cars));
+        Assert.True(world.StoreTrainInGarage(train.TrainId));
+        ModernTrain stored = Assert.Single(world.Trains);
+        Assert.NotNull(stored.GarageLocation);
+
+        ModernRailwayTileInspection inspection = world.InspectRailwayAt(new TileLocation(stored.GarageLocation!.Value.H, stored.GarageLocation.Value.V, stored.GarageLocation.Value.Z));
+
+        Assert.Equal(ModernSpecialRailKind.Garage, inspection.SpecialRailKind);
+        Assert.Equal("train:ops", inspection.Train?.TrainId);
+        Assert.True(world.CanDispatchTrainFromGarage(train.TrainId, cars));
+        Assert.True(world.RemoveTrain(train.TrainId));
+        Assert.Null(world.InspectRailwayAt(new TileLocation(stored.GarageLocation.Value.H, stored.GarageLocation.Value.V, stored.GarageLocation.Value.Z)).Train);
+    }
+
+    [Fact]
     public void BridgeRailsElectAndRemovePierColumns()
     {
         ModernWorld world = ModernWorld.CreateNew(new ModernWorldCreationOptions(
@@ -334,6 +367,43 @@ public sealed class ModernWorldCreationTests
         Assert.True(world.RemoveTransportAt(new TileLocation(4, 4, 2)));
         Assert.DoesNotContain(new ModernVoxelKey(4, 4, 0), world.BridgePierVoxels);
         Assert.DoesNotContain(new ModernVoxelKey(4, 4, 1), world.BridgePierVoxels);
+    }
+
+    [Fact]
+    public void SpecialRailsFollowLegacyLineAndSupportRules()
+    {
+        ModernWorld world = ModernWorld.CreateNew(new ModernWorldCreationOptions(
+            "Special Rail Rule World",
+            24,
+            24,
+            0,
+            100_000_000,
+            ModernWorldTerrainKind.Flat));
+
+        Assert.Equal(0, world.AddRailLine(
+            new TileLocation(3, 3, 0),
+            new TileLocation(3, 3, 0),
+            ModernSpecialRailKind.Garage));
+        Assert.Equal(0, world.AddRailLine(
+            new TileLocation(3, 3, 0),
+            new TileLocation(5, 3, 0),
+            ModernSpecialRailKind.Tunnel));
+
+        Assert.True(world.AddRailLine(
+            new TileLocation(3, 4, 2),
+            new TileLocation(5, 4, 2),
+            ModernSpecialRailKind.Bridge) > 0);
+        Assert.Contains(new ModernVoxelKey(3, 4, 0), world.BridgePierVoxels);
+        Assert.DoesNotContain(new ModernVoxelKey(4, 4, 0), world.BridgePierVoxels);
+        Assert.Contains(new ModernVoxelKey(5, 4, 0), world.BridgePierVoxels);
+
+        Assert.True(world.AddRailLine(
+            new TileLocation(8, 4, 2),
+            new TileLocation(10, 4, 2),
+            ModernSpecialRailKind.SteelSupported) > 0);
+        Assert.Contains(new ModernVoxelKey(8, 4, 0), world.BridgePierVoxels);
+        Assert.Contains(new ModernVoxelKey(9, 4, 0), world.BridgePierVoxels);
+        Assert.Contains(new ModernVoxelKey(10, 4, 0), world.BridgePierVoxels);
     }
 
     private static TrainContribution TestTrainContribution()

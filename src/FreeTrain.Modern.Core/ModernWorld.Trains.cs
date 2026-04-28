@@ -26,6 +26,17 @@ public sealed partial class ModernWorld
         return true;
     }
 
+    public bool RemoveTrain(string trainId)
+    {
+        if (!trains.Remove(trainId, out ModernTrain? train))
+        {
+            return false;
+        }
+
+        Publish(ModernWorldChangeKind.Entity, train.Head?.Location ?? train.GarageLocation, "Train removed.");
+        return true;
+    }
+
     public bool PlaceTrain(string trainId, ModernVoxelKey location, ModernDirection direction, IReadOnlyDictionary<string, TrainCarContribution> trainCars)
     {
         if (!trains.TryGetValue(trainId, out ModernTrain? train) || !Transport.HasRail(location.H, location.V))
@@ -44,12 +55,12 @@ public sealed partial class ModernWorld
             ModernRailRoad? railRoad = CreateRailRoad(current.H, current.V);
             if (!trainCars.ContainsKey(carIds[index])
                 || railRoad is null
-                || IsTrainOccupying(current))
+                || IsTrainOccupying(current, trainId))
             {
                 return false;
             }
 
-            currentDirection ??= railRoad.Dir1;
+            currentDirection ??= SelectInitialTrainPlacementDirection(railRoad, direction);
             locations[index] = current;
             directions[index] = currentDirection;
             currentDirection = railRoad.Guide(currentDirection);
@@ -96,12 +107,19 @@ public sealed partial class ModernWorld
         return true;
     }
 
+    public bool CanStoreTrainInGarage(string trainId)
+    {
+        return trains.TryGetValue(trainId, out ModernTrain? train)
+            && train.Head is { } head
+            && IsGarageRail(head.Location.H, head.Location.V)
+            && train.Cars.All(car => IsGarageRail(car.Location.H, car.Location.V));
+    }
+
     public bool StoreTrainInGarage(string trainId)
     {
-        if (!trains.TryGetValue(trainId, out ModernTrain? train)
-            || train.Head is not { } head
-            || !IsGarageRail(head.Location.H, head.Location.V)
-            || !train.Cars.All(car => IsGarageRail(car.Location.H, car.Location.V)))
+        if (!CanStoreTrainInGarage(trainId)
+            || !trains.TryGetValue(trainId, out ModernTrain? train)
+            || train.Head is not { } head)
         {
             return false;
         }
@@ -120,8 +138,52 @@ public sealed partial class ModernWorld
         return true;
     }
 
+    public bool CanDispatchTrainFromGarage(string trainId, IReadOnlyDictionary<string, TrainCarContribution> trainCars)
+    {
+        if (!trains.TryGetValue(trainId, out ModernTrain? train)
+            || train.State != ModernTrainState.InGarage
+            || train.GarageLocation is not { } garageLocation)
+        {
+            return false;
+        }
+
+        IReadOnlyList<string> carIds = train.Contribution.CreateCarIds(3);
+        if (carIds.Any(carId => !trainCars.ContainsKey(carId)))
+        {
+            return false;
+        }
+
+        ModernVoxelKey current = garageLocation;
+        ModernDirection? currentDirection = null;
+        ModernDirection requestedDirection = ModernDirection.FromIndex(train.GarageDirectionIndex ?? 2);
+        HashSet<ModernVoxelKey> occupied = new();
+        for (int index = carIds.Count - 1; index >= 0; index--)
+        {
+            ModernRailRoad? railRoad = CreateRailRoad(current.H, current.V);
+            if (railRoad is null || IsTrainOccupying(current, trainId) || !occupied.Add(current))
+            {
+                return false;
+            }
+
+            currentDirection ??= SelectInitialTrainPlacementDirection(railRoad, requestedDirection);
+            currentDirection = railRoad.Guide(currentDirection);
+
+            if (index > 0 && !TryStepOnRail(current, currentDirection, out current))
+            {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
     public bool DispatchTrainFromGarage(string trainId, IReadOnlyDictionary<string, TrainCarContribution> trainCars)
     {
+        if (!CanDispatchTrainFromGarage(trainId, trainCars))
+        {
+            return false;
+        }
+
         if (!trains.TryGetValue(trainId, out ModernTrain? train)
             || train.State != ModernTrainState.InGarage
             || train.GarageLocation is not { } garageLocation)
@@ -134,6 +196,21 @@ public sealed partial class ModernWorld
             garageLocation,
             ModernDirection.FromIndex(train.GarageDirectionIndex ?? 2),
             trainCars);
+    }
+
+    private static ModernDirection SelectInitialTrainPlacementDirection(ModernRailRoad railRoad, ModernDirection requestedDirection)
+    {
+        if (railRoad.HasRail(requestedDirection))
+        {
+            return requestedDirection;
+        }
+
+        if (railRoad.HasRail(requestedDirection.Opposite))
+        {
+            return requestedDirection.Opposite;
+        }
+
+        return railRoad.Dir1;
     }
 
     public bool PlaceCar(string carId, ModernVoxelKey location, ModernDirection direction)
@@ -473,17 +550,16 @@ public sealed partial class ModernWorld
 
     private bool IsTrainOccupying(ModernVoxelKey key)
     {
-        return trains.Values
-            .SelectMany(train => train.Cars)
-            .Any(car => car.Location == key);
+        return trains.Values.Any(train =>
+            train.Cars.Any(car => car.Location == key)
+            || train.GarageLocation == key);
     }
 
     private bool IsTrainOccupying(ModernVoxelKey key, string exceptTrainId)
     {
         return trains.Values
             .Where(train => !string.Equals(train.TrainId, exceptTrainId, StringComparison.OrdinalIgnoreCase))
-            .SelectMany(train => train.Cars)
-            .Any(car => car.Location == key);
+            .Any(train => train.Cars.Any(car => car.Location == key) || train.GarageLocation == key);
     }
 
     private bool IsTrainOccupyingRailTile(int h, int v)

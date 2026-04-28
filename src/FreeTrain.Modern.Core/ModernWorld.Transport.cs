@@ -55,9 +55,9 @@ public sealed partial class ModernWorld
         }
 
         ReclaimTransportRoute(route);
-        foreach (TileLocation location in route)
+        for (int i = 0; i < route.Count; i++)
         {
-            ApplySpecialRailBuildEffects(location, specialKind);
+            ApplySpecialRailBuildEffects(route[i], specialKind, i);
         }
 
         int changed = 0;
@@ -231,6 +231,11 @@ public sealed partial class ModernWorld
             return false;
         }
 
+        if (!CanApplySpecialRailRoute(route, specialKind))
+        {
+            return false;
+        }
+
         foreach (TileLocation location in route)
         {
             if (!CanBuildRailTile(location, specialKind))
@@ -266,6 +271,54 @@ public sealed partial class ModernWorld
         }
 
         return true;
+    }
+
+    private bool CanApplySpecialRailRoute(IReadOnlyList<TileLocation> route, ModernSpecialRailKind specialKind)
+    {
+        if (specialKind == ModernSpecialRailKind.Normal)
+        {
+            return true;
+        }
+
+        if (route.Count < 2)
+        {
+            return false;
+        }
+
+        ModernLocation first = ToLocation(route[0].H, route[0].V, route[0].Z);
+        ModernLocation second = ToLocation(route[1].H, route[1].V, route[1].Z);
+        ModernDirection direction = first.GetDirectionTo(second);
+        bool hasMountainCut = false;
+        for (int i = 0; i < route.Count; i++)
+        {
+            TileLocation location = route[i];
+            if (specialKind == ModernSpecialRailKind.Tunnel && !GetTerrainTile(location.H, location.V).IsFlat)
+            {
+                hasMountainCut = true;
+            }
+
+            if (specialKind == ModernSpecialRailKind.Bridge && !CanBuildBridgePiers(location, everyOtherTile: true, routeIndex: i))
+            {
+                return false;
+            }
+
+            if (specialKind == ModernSpecialRailKind.SteelSupported && !CanBuildBridgePiers(location, everyOtherTile: false, routeIndex: i))
+            {
+                return false;
+            }
+
+            if (Transport.HasRail(location.H, location.V))
+            {
+                byte existingMask = GetRawRailMask(location.H, location.V);
+                if ((existingMask & (1 << direction.Index)) == 0
+                    || (existingMask & (1 << direction.Opposite.Index)) == 0)
+                {
+                    return false;
+                }
+            }
+        }
+
+        return specialKind != ModernSpecialRailKind.Tunnel || hasMountainCut;
     }
 
     private bool TryMergeRailMask(TileLocation location, byte existingMask, byte routeMask, out byte candidate)
@@ -407,10 +460,9 @@ public sealed partial class ModernWorld
 
         return specialKind switch
         {
-            ModernSpecialRailKind.Bridge => (IsWaterSurfaceLevel(terrain.SurfaceLevel) || location.Z > terrain.SurfaceLevel)
-                && CanBuildBridgePiers(location, everyOtherTile: true),
+            ModernSpecialRailKind.Bridge => IsWaterSurfaceLevel(terrain.SurfaceLevel) || location.Z > terrain.SurfaceLevel,
             ModernSpecialRailKind.SteelSupported => location.Z > terrain.SurfaceLevel
-                && CanBuildBridgePiers(location, everyOtherTile: false),
+                && IsDrySurfaceLevel(terrain.SurfaceLevel),
             ModernSpecialRailKind.Tunnel => IsDrySurfaceLevel(terrain.SurfaceLevel),
             ModernSpecialRailKind.Garage => terrain.IsFlat && terrain.SurfaceLevel == location.Z,
             ModernSpecialRailKind.Unsupported => false,
@@ -418,7 +470,7 @@ public sealed partial class ModernWorld
         };
     }
 
-    private void ApplySpecialRailBuildEffects(TileLocation location, ModernSpecialRailKind specialKind)
+    private void ApplySpecialRailBuildEffects(TileLocation location, ModernSpecialRailKind specialKind, int routeIndex)
     {
         ModernSpecialRailKind existingKind = Transport.SpecialRailTiles.GetValueOrDefault((location.H, location.V), ModernSpecialRailKind.Normal);
         if (existingKind == ModernSpecialRailKind.Tunnel && specialKind != ModernSpecialRailKind.Tunnel)
@@ -433,7 +485,7 @@ public sealed partial class ModernWorld
 
         if (specialKind is ModernSpecialRailKind.Bridge or ModernSpecialRailKind.SteelSupported)
         {
-            BuildBridgePiers(location, specialKind == ModernSpecialRailKind.Bridge);
+            BuildBridgePiers(location, specialKind == ModernSpecialRailKind.Bridge, routeIndex);
             return;
         }
 
@@ -475,9 +527,9 @@ public sealed partial class ModernWorld
         RebuildTrafficVoxels();
     }
 
-    private bool CanBuildBridgePiers(TileLocation location, bool everyOtherTile)
+    private bool CanBuildBridgePiers(TileLocation location, bool everyOtherTile, int routeIndex = 0)
     {
-        if (everyOtherTile && ((location.H + location.V) & 1) != 0)
+        if (everyOtherTile && (routeIndex & 1) != 0)
         {
             return true;
         }
@@ -501,9 +553,9 @@ public sealed partial class ModernWorld
         return true;
     }
 
-    private void BuildBridgePiers(TileLocation location, bool everyOtherTile)
+    private void BuildBridgePiers(TileLocation location, bool everyOtherTile, int routeIndex = 0)
     {
-        if (!CanBuildBridgePiers(location, everyOtherTile) || everyOtherTile && ((location.H + location.V) & 1) != 0)
+        if (!CanBuildBridgePiers(location, everyOtherTile, routeIndex) || everyOtherTile && (routeIndex & 1) != 0)
         {
             return;
         }

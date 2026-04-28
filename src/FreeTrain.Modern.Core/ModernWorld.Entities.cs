@@ -151,6 +151,51 @@ public sealed partial class ModernWorld
         return false;
     }
 
+    public ModernStation? GetStationAt(TileLocation location)
+    {
+        ModernVoxelKey key = ToVoxelKey(location);
+        return stationVoxels.TryGetValue(key, out string? stationId)
+            && stations.TryGetValue(stationId, out ModernStation? station)
+                ? station
+                : null;
+    }
+
+    public ModernPlatform? GetPlatformAt(TileLocation location)
+    {
+        ModernVoxelKey key = ToVoxelKey(location);
+        return platformVoxels.TryGetValue(key, out string? platformId)
+            && platforms.TryGetValue(platformId, out ModernPlatform? platform)
+                ? platform
+                : null;
+    }
+
+    public ModernTrain? GetTrainAt(TileLocation location)
+    {
+        ModernVoxelKey key = ToVoxelKey(location);
+        return trains.Values.FirstOrDefault(train =>
+            train.Cars.Any(car => car.Location == key)
+            || train.GarageLocation == key);
+    }
+
+    public ModernRailwayTileInspection InspectRailwayAt(TileLocation location)
+    {
+        ModernVoxelKey key = ToVoxelKey(location);
+        ModernRailRoad? railRoad = Transport.HasRail(location.H, location.V)
+            ? CreateRailRoad(location.H, location.V)
+            : null;
+        ModernSpecialRailKind specialKind = Transport.SpecialRailTiles.GetValueOrDefault((location.H, location.V), ModernSpecialRailKind.Normal);
+        int railLevel = Transport.HasRail(location.H, location.V) ? GetRailLevel(location.H, location.V) : location.Z;
+
+        return new ModernRailwayTileInspection(
+            key,
+            GetStationAt(location),
+            GetPlatformAt(location),
+            GetTrainAt(location),
+            railRoad,
+            specialKind,
+            railLevel);
+    }
+
     public bool AddEntity(ModernPlacedEntity entity, bool allowTransportOverlap = false)
     {
         if (entities.ContainsKey(entity.EntityId) || !CanPlaceEntity(entity, allowTransportOverlap))

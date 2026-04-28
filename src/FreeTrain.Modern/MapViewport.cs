@@ -32,6 +32,7 @@ public sealed class MapViewport : Control, IDisposable
     private readonly Bitmap railBitmap;
     private readonly Bitmap? bridgeRailBitmap;
     private readonly Bitmap? bridgePierBitmap;
+    private readonly Bitmap? defaultBridgePierBitmap;
     private readonly Bitmap? steelSupportedRailBitmap;
     private readonly Bitmap? tunnelRailBitmap;
     private readonly Bitmap? garageRailBitmap;
@@ -78,6 +79,7 @@ public sealed class MapViewport : Control, IDisposable
     private MapEditMode editMode = MapEditMode.Select;
     private int activeRoadIndex;
     private int activeSpecialRailIndex = -1;
+    private int activeRailBuildLevel = 1;
     private int activeStationIndex;
     private int activeStructureIndex;
     private int activeStructureFrameIndex;
@@ -101,8 +103,8 @@ public sealed class MapViewport : Control, IDisposable
         string railPath = assets.FindResource("RailRoads.bmp")
             ?? throw new FileNotFoundException("Missing legacy rail sprite sheet.", "RailRoads.bmp");
         string? bridgeRailPath = FindPluginAsset(assets, "org.kohsuke.freetrain.rail", "BridgeRail.bmp");
-        string? bridgePierPath = FindPluginAsset(assets, "org.kohsuke.freetrain.rail", "BridgePier.bmp")
-            ?? assets.FindResource("BridgePier.bmp");
+        string? bridgePierPath = FindPluginAsset(assets, "org.kohsuke.freetrain.rail", "BridgePier.bmp");
+        string? defaultBridgePierPath = assets.FindResource("BridgePier.bmp");
         string? steelSupportedRailPath = FindPluginAsset(assets, "org.kohsuke.freetrain.rail", "StealSupportedRail.bmp");
         string? tunnelRailPath = FindPluginAsset(assets, "org.kohsuke.freetrain.rail", "TunnelRail.bmp");
         string? garageRailPath = FindPluginAsset(assets, "org.kohsuke.freetrain.rail.garage", "garage.bmp");
@@ -119,6 +121,7 @@ public sealed class MapViewport : Control, IDisposable
         railBitmap = LegacyBitmap.LoadWithColorKey(railPath);
         bridgeRailBitmap = bridgeRailPath is null ? null : LegacyBitmap.LoadWithColorKey(bridgeRailPath);
         bridgePierBitmap = bridgePierPath is null ? null : LegacyBitmap.LoadWithColorKey(bridgePierPath);
+        defaultBridgePierBitmap = defaultBridgePierPath is null ? null : LegacyBitmap.LoadWithColorKey(defaultBridgePierPath);
         steelSupportedRailBitmap = steelSupportedRailPath is null ? null : LegacyBitmap.LoadWithColorKey(steelSupportedRailPath);
         tunnelRailBitmap = tunnelRailPath is null ? null : LegacyBitmap.LoadWithColorKey(tunnelRailPath);
         garageRailBitmap = garageRailPath is null ? null : LegacyBitmap.LoadWithColorKey(garageRailPath);
@@ -342,6 +345,7 @@ public sealed class MapViewport : Control, IDisposable
         hoverLocation = null;
         buildAnchorLocation = null;
         maxVisibleLevel = world.MaxHeightCutLevel;
+        activeRailBuildLevel = Math.Clamp(activeRailBuildLevel, 0, world.MaxHeightCutLevel);
         lastMessage = $"World ready: {world.Name}.";
         InvalidateMeasure();
         InvalidateVisual();
@@ -356,7 +360,7 @@ public sealed class MapViewport : Control, IDisposable
         : specialRailContributions[Math.Clamp(activeSpecialRailIndex, 0, specialRailContributions.Count - 1)];
     public ModernSpecialRailKind ActiveRailKind => ActiveSpecialRailContribution?.Kind ?? ModernSpecialRailKind.Normal;
     public string ActiveRailName => ActiveSpecialRailContribution is { } rail
-        ? SpecialRailDisplayName(rail)
+        ? $"{SpecialRailDisplayName(rail)}{RailTargetLevelSuffix(rail.Kind)}"
         : "Standard rail";
     public StationContribution? ActiveStationContribution => stationContributions.Count == 0
         ? null
@@ -389,6 +393,18 @@ public sealed class MapViewport : Control, IDisposable
 
         InvalidateVisual();
         PublishStatus();
+    }
+
+    private bool ActiveRailKindUsesTargetLevel()
+    {
+        return ActiveRailKind is ModernSpecialRailKind.Bridge or ModernSpecialRailKind.SteelSupported;
+    }
+
+    private string RailTargetLevelSuffix(ModernSpecialRailKind kind)
+    {
+        return kind is ModernSpecialRailKind.Bridge or ModernSpecialRailKind.SteelSupported
+            ? $" @ level {activeRailBuildLevel}"
+            : "";
     }
 
     private double MapOriginX => 64;
@@ -690,7 +706,7 @@ public sealed class MapViewport : Control, IDisposable
 
     private void RenderBridgePierVoxels(DrawingContext context, Rect visibleMapRect)
     {
-        if (bridgePierBitmap is null)
+        if (bridgePierBitmap is null && defaultBridgePierBitmap is null)
         {
             return;
         }
@@ -707,13 +723,28 @@ public sealed class MapViewport : Control, IDisposable
                 continue;
             }
 
-            ModernDirection direction = DirectionFromRailMask(rail.Pattern.DirectionMask);
-            int column = direction.IsParallelToX ? 0 : 1;
-            int row = pier.Z == rail.Z - 1 ? 0 : 1;
-            Rect source = new(column * 32, row * 32, 32, 32);
+            Bitmap? bitmap = rail.SpecialKind == ModernSpecialRailKind.SteelSupported
+                ? defaultBridgePierBitmap ?? bridgePierBitmap
+                : bridgePierBitmap ?? defaultBridgePierBitmap;
+            if (bitmap is null)
+            {
+                continue;
+            }
+
+            Rect source = rail.SpecialKind == ModernSpecialRailKind.SteelSupported
+                ? new Rect(0, 0, 32, 32)
+                : BridgePierSourceRect(rail, pier);
             Point tilePoint = FromHvzToScreen(pier.H, pier.V, pier.Z);
-            context.DrawImage(bridgePierBitmap, source, new Rect(new Point(tilePoint.X, tilePoint.Y - 16), source.Size));
+            context.DrawImage(bitmap, source, new Rect(new Point(tilePoint.X, tilePoint.Y - 16), source.Size));
         }
+    }
+
+    private static Rect BridgePierSourceRect(MapRailObject rail, ModernVoxelKey pier)
+    {
+        ModernDirection direction = DirectionFromRailMask(rail.Pattern.DirectionMask);
+        int orientationRow = direction.IsParallelToX ? 0 : 1;
+        int topOrBodyColumn = pier.Z == rail.Z - 1 ? 0 : 1;
+        return new Rect(topOrBodyColumn * 32, orientationRow * 32, 32, 32);
     }
 
     private bool DrawSpecialRailObject(DrawingContext context, MapRailObject railObject, Point tilePoint)
@@ -798,8 +829,9 @@ public sealed class MapViewport : Control, IDisposable
 
     private void RenderMapMarkers(DrawingContext context)
     {
-        if (buildAnchorLocation is { } previewAnchor && hoverLocation is { } previewHover && ToolUsesAnchor)
+        if (buildAnchorLocation is { } previewAnchor && hoverLocation is { } rawPreviewHover && ToolUsesAnchor)
         {
+            TileLocation previewHover = GetTransportPlacementLocation(rawPreviewHover);
             bool canBuildLine = EditMode switch
             {
                 MapEditMode.Rail => CanBuildRailLine(previewAnchor, previewHover),
@@ -988,6 +1020,24 @@ public sealed class MapViewport : Control, IDisposable
         PublishStatus();
     }
 
+    public void ChangeRailBuildLevel(int delta)
+    {
+        int next = Math.Clamp(activeRailBuildLevel + delta, 0, world.MaxHeightCutLevel);
+        if (activeRailBuildLevel == next)
+        {
+            return;
+        }
+
+        activeRailBuildLevel = next;
+        if (buildAnchorLocation is { } anchor && ActiveRailKindUsesTargetLevel())
+        {
+            buildAnchorLocation = anchor with { Z = activeRailBuildLevel };
+        }
+
+        PublishStatus();
+        InvalidateVisual();
+    }
+
     public void SelectNextStation()
     {
         if (stationContributions.Count == 0)
@@ -1122,6 +1172,45 @@ public sealed class MapViewport : Control, IDisposable
         }
 
         activeTrainIndex = (activeTrainIndex + trainContributions.Count - 1) % trainContributions.Count;
+        PublishStatus();
+    }
+
+    public void StoreSelectedTrainInGarage()
+    {
+        if (selectedLocation is not { } selected
+            || world.GetTrainAt(selected) is not { } train
+            || !world.StoreTrainInGarage(train.TrainId))
+        {
+            return;
+        }
+
+        InvalidateVisual();
+        PublishStatus();
+    }
+
+    public void DispatchSelectedTrainFromGarage()
+    {
+        if (selectedLocation is not { } selected
+            || world.GetTrainAt(selected) is not { } train
+            || !world.DispatchTrainFromGarage(train.TrainId, trainCarContributions))
+        {
+            return;
+        }
+
+        InvalidateVisual();
+        PublishStatus();
+    }
+
+    public void RemoveSelectedTrain()
+    {
+        if (selectedLocation is not { } selected
+            || world.GetTrainAt(selected) is not { } train
+            || !world.RemoveTrain(train.TrainId))
+        {
+            return;
+        }
+
+        InvalidateVisual();
         PublishStatus();
     }
 
@@ -2074,6 +2163,14 @@ public sealed class MapViewport : Control, IDisposable
     protected override void OnKeyDown(KeyEventArgs e)
     {
         base.OnKeyDown(e);
+
+        if (EditMode == MapEditMode.Rail && e.Key is Key.PageUp or Key.PageDown)
+        {
+            ChangeRailBuildLevel(e.Key == Key.PageUp ? 1 : -1);
+            e.Handled = true;
+            return;
+        }
+
         if (e.Key != Key.Escape || EditMode != MapEditMode.Rail || buildAnchorLocation is null)
         {
             return;
@@ -2221,6 +2318,11 @@ public sealed class MapViewport : Control, IDisposable
     private MapViewportStatus CreateStatus()
     {
         string hint = CreateInteractionHint();
+        ModernRailwayTileInspection? selection = selectedLocation is { } selected
+            ? world.InspectRailwayAt(selected)
+            : null;
+        (string selectionTitle, string selectionDetail) = CreateSelectionSummary(selection);
+        ModernTrain? selectedTrain = selection?.Train;
         return new MapViewportStatus(
             world.Name,
             hoverLocation,
@@ -2254,19 +2356,82 @@ public sealed class MapViewport : Control, IDisposable
             world.MaxHeightCutLevel,
             ShowGrid,
             UseNightView,
+            selectionTitle,
+            selectionDetail,
+            selectedTrain is not null && world.CanStoreTrainInGarage(selectedTrain.TrainId),
+            selectedTrain is not null && world.CanDispatchTrainFromGarage(selectedTrain.TrainId, trainCarContributions),
+            selectedTrain is not null,
             hint,
             lastMessage);
     }
 
+    private static (string Title, string Detail) CreateSelectionSummary(ModernRailwayTileInspection? selection)
+    {
+        if (selection is null)
+        {
+            return ("Selection", "No tile selected.");
+        }
+
+        List<string> details = new();
+        if (selection.Train is { } train)
+        {
+            details.Add($"Train: {train.Contribution.DisplayName}\nState: {FormatTrainState(train.State)}\nPassengers: {train.PassengerCount:N0}/{train.EffectivePassengerCapacity:N0}");
+        }
+
+        if (selection.Station is { } station)
+        {
+            details.Add($"Station: {station.Name}\nBuilding: {station.Contribution.DisplayName}\nTrains today: {station.Stats.TrainsToday:N0}\nLoaded/unloaded: {station.Stats.LoadedToday:N0}/{station.Stats.UnloadedToday:N0}");
+        }
+
+        if (selection.Platform is { } platform)
+        {
+            string stationLink = string.IsNullOrWhiteSpace(platform.StationId) ? "unassigned" : "linked";
+            details.Add($"Platform: {platform.Direction.EnglishName}, {platform.Length} tile(s)\nStyle: {FormatPlatformStyle(platform.Style)}\nStation link: {stationLink}");
+        }
+
+        if (selection.RailRoad is { } railRoad)
+        {
+            string railKind = selection.SpecialRailKind == ModernSpecialRailKind.Normal
+                ? "standard rail"
+                : $"{selection.SpecialRailKind} rail";
+            details.Add($"Rail: {railKind}\nShape: {railRoad.Kind}\nDirections: {string.Join("/", railRoad.Directions.Select(direction => direction.EnglishName))}");
+        }
+
+        if (details.Count == 0)
+        {
+            return ("Selection", $"Tile {selection.Location.H},{selection.Location.V},{selection.Location.Z}");
+        }
+
+        string title = selection.Train?.Contribution.DisplayName
+            ?? selection.Station?.Name
+            ?? (selection.Platform is not null ? "Platform" : "Railway");
+        return (title, string.Join("\n\n", details));
+    }
+
+    private static string FormatTrainState(ModernTrainState state)
+    {
+        return state switch
+        {
+            ModernTrainState.Unplaced => "unplaced",
+            ModernTrainState.Moving => "moving",
+            ModernTrainState.StoppingAtStation => "stopping",
+            ModernTrainState.EmergencyStopping => "emergency stop",
+            ModernTrainState.InGarage => "in garage",
+            _ => state.ToString()
+        };
+    }
+
     private string CreateInteractionHint()
     {
-        if (hoverLocation is { } hover && ToolUsesAnchor && !world.IsBuildableSurface(hover))
+        if (hoverLocation is { } hover && ToolUsesAnchor && EditMode != MapEditMode.Rail && !world.IsBuildableSurface(hover))
         {
             return "This tile is not buildable. Pick flat dry land or erase an obstruction first.";
         }
 
         return EditMode switch
         {
+            MapEditMode.Rail when buildAnchorLocation is null && ActiveRailKindUsesTargetLevel() => $"Rail: PageUp/PageDown or Z buttons set target level {activeRailBuildLevel}; click to start {ActiveRailName}.",
+            MapEditMode.Rail when ActiveRailKindUsesTargetLevel() => $"Rail: PageUp/PageDown or Z buttons set target level {activeRailBuildLevel}; click a destination to place {ActiveRailName}.",
             MapEditMode.Rail when buildAnchorLocation is null => $"Rail: click a buildable tile to set the start point for {ActiveRailName}.",
             MapEditMode.Rail => $"Rail: click a straight or diagonal destination to place {ActiveRailName}.",
             MapEditMode.Road when buildAnchorLocation is null => "Road: click a buildable tile to set the start point.",
@@ -2285,6 +2450,7 @@ public sealed class MapViewport : Control, IDisposable
 
     private void ApplyEdit(TileLocation location)
     {
+        TileLocation transportLocation = GetTransportPlacementLocation(location);
         if (EditMode is MapEditMode.Select or MapEditMode.Terrain)
         {
             buildAnchorLocation = null;
@@ -2369,37 +2535,54 @@ public sealed class MapViewport : Control, IDisposable
             return;
         }
 
-        if (!CanBuildTransportAt(location))
+        if (EditMode == MapEditMode.Rail && buildAnchorLocation is null)
         {
+            if (CanStartRailLineAt(transportLocation))
+            {
+                buildAnchorLocation = transportLocation;
+            }
+
             return;
         }
 
         if (EditMode == MapEditMode.Rail)
         {
-            if (buildAnchorLocation is { } start && CanBuildRailLine(start, location))
+            if (buildAnchorLocation is { } start && CanBuildRailLine(start, transportLocation))
             {
-                world.AddRailLine(start, location, ActiveRailKind);
-                buildAnchorLocation = location;
+                world.AddRailLine(start, transportLocation, ActiveRailKind);
+                buildAnchorLocation = transportLocation;
             }
             else
             {
-                buildAnchorLocation = location;
+                buildAnchorLocation = transportLocation;
             }
+        }
+
+        if (!CanBuildTransportAt(transportLocation))
+        {
+            return;
         }
 
         if (EditMode == MapEditMode.Road && ActiveRoadContribution is { } road)
         {
-            if (buildAnchorLocation is { } start && CanBuildRoadLine(start, location))
+            if (buildAnchorLocation is { } start && CanBuildRoadLine(start, transportLocation))
             {
-                world.AddRoadLine(start, location, road);
-                buildAnchorLocation = location;
+                world.AddRoadLine(start, transportLocation, road);
+                buildAnchorLocation = transportLocation;
             }
             else
             {
-                world.AddRoadTile(location, road);
-                buildAnchorLocation = location;
+                world.AddRoadTile(transportLocation, road);
+                buildAnchorLocation = transportLocation;
             }
         }
+    }
+
+    private TileLocation GetTransportPlacementLocation(TileLocation location)
+    {
+        return EditMode == MapEditMode.Rail && ActiveRailKindUsesTargetLevel()
+            ? location with { Z = activeRailBuildLevel }
+            : location;
     }
 
     private bool CanBuildTransportAt(TileLocation location)
@@ -2410,6 +2593,18 @@ public sealed class MapViewport : Control, IDisposable
         }
 
         return world.IsBuildableSurface(location);
+    }
+
+    private bool CanStartRailLineAt(TileLocation location)
+    {
+        if (location.Z < 0 || location.Z > world.MaxHeightCutLevel)
+        {
+            return false;
+        }
+
+        return ActiveRailKind == ModernSpecialRailKind.Normal
+            ? world.CanBuildRailLine(location, location, ActiveRailKind)
+            : world.IsInside(location.H, location.V);
     }
 
     private SpriteFrame? SelectStructureFrameForLocation(SpriteContribution structure, TileLocation location)
@@ -2602,6 +2797,7 @@ public sealed class MapViewport : Control, IDisposable
         railBitmap.Dispose();
         bridgeRailBitmap?.Dispose();
         bridgePierBitmap?.Dispose();
+        defaultBridgePierBitmap?.Dispose();
         steelSupportedRailBitmap?.Dispose();
         tunnelRailBitmap?.Dispose();
         garageRailBitmap?.Dispose();
