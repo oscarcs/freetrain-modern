@@ -1539,7 +1539,7 @@ public sealed class MapViewport : Control, IDisposable
 
     private HashSet<(int H, int V)> CreateInitialOccupiedTiles()
     {
-        HashSet<(int H, int V)> occupied = new(world.Transport.RailTiles);
+        HashSet<(int H, int V)> occupied = new(world.Transport.RailTiles.Select(tile => (tile.H, tile.V)));
         foreach (KeyValuePair<(int H, int V), RoadContribution> road in world.Transport.RoadTiles)
         {
             occupied.Add(road.Key);
@@ -2486,7 +2486,7 @@ public sealed class MapViewport : Control, IDisposable
             bool allowTransportOverlap = structure.PlacementKind is SpriteContributionPlacementKind.RailStationary
                 or SpriteContributionPlacementKind.RoadAccessory;
             if (structure.PlacementKind == SpriteContributionPlacementKind.RailStationary
-                && !world.Transport.HasRail(location.H, location.V))
+                && !world.Transport.HasRail(location.H, location.V, location.Z))
             {
                 return;
             }

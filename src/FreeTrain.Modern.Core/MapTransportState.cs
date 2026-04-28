@@ -2,20 +2,20 @@ namespace FreeTrain.Modern;
 
 public sealed class MapTransportState
 {
-    private readonly HashSet<(int H, int V)> railTiles = new();
-    private readonly Dictionary<(int H, int V), int> railTileLevels = new();
-    private readonly Dictionary<(int H, int V), byte> railDirectionMasks = new();
-    private readonly Dictionary<(int H, int V), ModernSpecialRailKind> specialRailTiles = new();
+    private readonly HashSet<(int H, int V, int Z)> railTiles = new();
+    private readonly Dictionary<(int H, int V, int Z), byte> railDirectionMasks = new();
+    private readonly Dictionary<(int H, int V, int Z), ModernSpecialRailKind> specialRailTiles = new();
     private readonly Dictionary<(int H, int V), RoadContribution> roadTiles = new();
 
-    public bool HasRail(int h, int v) => railTiles.Contains((h, v));
+    public bool HasRail(int h, int v) => railTiles.Any(tile => tile.H == h && tile.V == v);
+
+    public bool HasRail(int h, int v, int z) => railTiles.Contains((h, v, Math.Max(0, z)));
 
     public bool HasRoad(int h, int v) => roadTiles.ContainsKey((h, v));
 
-    public IReadOnlyCollection<(int H, int V)> RailTiles => railTiles;
-    public IReadOnlyDictionary<(int H, int V), int> RailTileLevels => railTileLevels;
-    public IReadOnlyDictionary<(int H, int V), byte> RailDirectionMasks => railDirectionMasks;
-    public IReadOnlyDictionary<(int H, int V), ModernSpecialRailKind> SpecialRailTiles => specialRailTiles;
+    public IReadOnlyCollection<(int H, int V, int Z)> RailTiles => railTiles;
+    public IReadOnlyDictionary<(int H, int V, int Z), byte> RailDirectionMasks => railDirectionMasks;
+    public IReadOnlyDictionary<(int H, int V, int Z), ModernSpecialRailKind> SpecialRailTiles => specialRailTiles;
 
     public IReadOnlyCollection<KeyValuePair<(int H, int V), RoadContribution>> RoadTiles => roadTiles;
 
@@ -41,14 +41,8 @@ public sealed class MapTransportState
 
     public bool AddRailTile(int h, int v, int z, ModernSpecialRailKind specialKind, byte directionMask)
     {
-        (int H, int V) key = (h, v);
+        (int H, int V, int Z) key = (h, v, Math.Max(0, z));
         bool changed = railTiles.Add(key);
-        int normalizedLevel = Math.Max(0, z);
-        if (!railTileLevels.TryGetValue(key, out int existingLevel) || existingLevel != normalizedLevel)
-        {
-            railTileLevels[key] = normalizedLevel;
-            changed = true;
-        }
 
         ModernSpecialRailKind normalizedKind = NormalizeSpecialKind(specialKind);
         if (normalizedKind == ModernSpecialRailKind.Normal)
@@ -70,9 +64,9 @@ public sealed class MapTransportState
         return changed;
     }
 
-    public bool SetRailDirectionMask(int h, int v, byte directionMask)
+    public bool SetRailDirectionMask(int h, int v, int z, byte directionMask)
     {
-        (int H, int V) key = (h, v);
+        (int H, int V, int Z) key = (h, v, Math.Max(0, z));
         if (!railTiles.Contains(key))
         {
             return false;
@@ -92,6 +86,12 @@ public sealed class MapTransportState
         return true;
     }
 
+    public bool SetRailDirectionMask(int h, int v, byte directionMask)
+    {
+        return TryGetPrimaryRailKey(h, v, out (int H, int V, int Z) key)
+            && SetRailDirectionMask(key.H, key.V, key.Z, directionMask);
+    }
+
     public bool AddRoadTile(int h, int v, RoadContribution contribution)
     {
         if (roadTiles.TryGetValue((h, v), out RoadContribution? existing) && existing == contribution)
@@ -105,12 +105,28 @@ public sealed class MapTransportState
 
     public bool RemoveAt(int h, int v)
     {
-        bool removedRail = railTiles.Remove((h, v));
-        bool removedRailLevel = railTileLevels.Remove((h, v));
-        bool removedRailMask = railDirectionMasks.Remove((h, v));
-        bool removedSpecialRail = specialRailTiles.Remove((h, v));
+        bool removedRail = false;
+        foreach ((int H, int V, int Z) key in railTiles.Where(tile => tile.H == h && tile.V == v).ToArray())
+        {
+            removedRail |= RemoveRailAt(key.H, key.V, key.Z);
+        }
+
         bool removedRoad = roadTiles.Remove((h, v));
-        return removedRail || removedRailLevel || removedRailMask || removedSpecialRail || removedRoad;
+        return removedRail || removedRoad;
+    }
+
+    public bool RemoveRailAt(int h, int v, int z)
+    {
+        (int H, int V, int Z) key = (h, v, Math.Max(0, z));
+        bool removedRail = railTiles.Remove(key);
+        bool removedRailMask = railDirectionMasks.Remove(key);
+        bool removedSpecialRail = specialRailTiles.Remove(key);
+        return removedRail || removedRailMask || removedSpecialRail;
+    }
+
+    public bool RemoveRoadAt(int h, int v)
+    {
+        return roadTiles.Remove((h, v));
     }
 
     public int AddRailLine((int H, int V) from, (int H, int V) to)
@@ -146,7 +162,7 @@ public sealed class MapTransportState
     public IReadOnlyList<MapRailObject> CreateRailObjects(Func<int, int, int> getGroundLevel)
     {
         return railTiles
-            .Select(tile => CreateRailObject(tile.H, tile.V, GetRailLevel(tile.H, tile.V, getGroundLevel)))
+            .Select(tile => CreateRailObject(tile.H, tile.V, tile.Z))
             .Where(rail => rail is not null)
             .Cast<MapRailObject>()
             .ToArray();
@@ -155,7 +171,7 @@ public sealed class MapTransportState
     public IReadOnlyList<ModernRailRoad> CreateRailRoads(Func<int, int, int> getGroundLevel)
     {
         return railTiles
-            .Select(tile => CreateRailRoad(tile.H, tile.V, GetRailLevel(tile.H, tile.V, getGroundLevel)))
+            .Select(tile => CreateRailRoad(tile.H, tile.V, tile.Z))
             .Where(rail => rail is not null)
             .Cast<ModernRailRoad>()
             .ToArray();
@@ -181,20 +197,38 @@ public sealed class MapTransportState
 
     public int GetRailLevel(int h, int v, Func<int, int, int> getGroundLevel)
     {
-        return railTileLevels.TryGetValue((h, v), out int z) ? z : getGroundLevel(h, v);
+        return railTiles
+            .Where(tile => tile.H == h && tile.V == v)
+            .Select(tile => tile.Z)
+            .DefaultIfEmpty(getGroundLevel(h, v))
+            .MinBy(z => Math.Abs(z - getGroundLevel(h, v)));
+    }
+
+    public IReadOnlyList<int> GetRailLevels(int h, int v)
+    {
+        return railTiles
+            .Where(tile => tile.H == h && tile.V == v)
+            .Select(tile => tile.Z)
+            .Order()
+            .ToArray();
+    }
+
+    public ModernSpecialRailKind GetSpecialRailKind(int h, int v, int z)
+    {
+        return specialRailTiles.GetValueOrDefault((h, v, Math.Max(0, z)), ModernSpecialRailKind.Normal);
     }
 
     private MapRailObject? CreateRailObject(int h, int v, int z)
     {
-        byte mask = GetNormalizedRailMask(h, v);
+        byte mask = GetNormalizedRailMask(h, v, z);
         return ModernRailPattern.FromDirectionMask(mask) is { } pattern
-            ? new MapRailObject(h, v, z, pattern, specialRailTiles.GetValueOrDefault((h, v), ModernSpecialRailKind.Normal))
+            ? new MapRailObject(h, v, z, pattern, GetSpecialRailKind(h, v, z))
             : null;
     }
 
     private ModernRailRoad? CreateRailRoad(int h, int v, int z)
     {
-        byte mask = GetNormalizedRailMask(h, v);
+        byte mask = GetNormalizedRailMask(h, v, z);
         RailPatternDefinition? pattern = ModernRailPattern.FromDirectionMask(mask);
         ModernRailRoadKind kind = ModernRailPattern.KindFromDirectionMask(mask);
         return kind == ModernRailRoadKind.Unsupported
@@ -202,9 +236,9 @@ public sealed class MapTransportState
             : new ModernRailRoad(new ModernVoxelKey(h, v, z), mask, kind, pattern);
     }
 
-    private byte GetNormalizedRailMask(int h, int v)
+    private byte GetNormalizedRailMask(int h, int v, int z)
     {
-        byte mask = GetRailMask(h, v);
+        byte mask = GetRailMask(h, v, z);
         if (mask == 0)
         {
             mask = ModernRailPattern.DirectionMask(0, 4);
@@ -225,7 +259,15 @@ public sealed class MapTransportState
 
     public byte GetRailMask(int h, int v)
     {
-        if (railDirectionMasks.TryGetValue((h, v), out byte explicitMask))
+        return TryGetPrimaryRailKey(h, v, out (int H, int V, int Z) key)
+            ? GetRailMask(key.H, key.V, key.Z)
+            : (byte)0;
+    }
+
+    public byte GetRailMask(int h, int v, int z)
+    {
+        int normalizedZ = Math.Max(0, z);
+        if (railDirectionMasks.TryGetValue((h, v, normalizedZ), out byte explicitMask))
         {
             return explicitMask;
         }
@@ -233,7 +275,7 @@ public sealed class MapTransportState
         byte mask = 0;
         foreach ((int dh, int dv) in EightWayNeighbors)
         {
-            if (!railTiles.Contains((h + dh, v + dv)))
+            if (!railTiles.Contains((h + dh, v + dv, normalizedZ)))
             {
                 continue;
             }
@@ -243,6 +285,20 @@ public sealed class MapTransportState
         }
 
         return mask;
+    }
+
+    private bool TryGetPrimaryRailKey(int h, int v, out (int H, int V, int Z) key)
+    {
+        foreach ((int H, int V, int Z) candidate in railTiles
+            .Where(tile => tile.H == h && tile.V == v)
+            .OrderBy(tile => tile.Z))
+        {
+            key = candidate;
+            return true;
+        }
+
+        key = default;
+        return false;
     }
 
     public byte GetRoadMask(int h, int v)

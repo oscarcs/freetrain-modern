@@ -12,7 +12,7 @@ public sealed partial class ModernWorld
                 || allowTransportOverlap && occupancy.IsTraffic;
             if (!IsInside(voxel)
                 || !canReuseVoxel
-                || (!allowTransportOverlap && Transport.HasRail(voxel.H, voxel.V))
+                || (!allowTransportOverlap && Transport.HasRail(voxel.H, voxel.V, voxel.Z))
                 || (!allowTransportOverlap && Transport.HasRoad(voxel.H, voxel.V)))
             {
                 return false;
@@ -35,7 +35,7 @@ public sealed partial class ModernWorld
             TerrainTilePreview terrain = GetTerrainTile(voxel.H, voxel.V);
             if (!IsInside(voxel)
                 || !IsReusable(voxel)
-                || Transport.HasRail(voxel.H, voxel.V)
+                || Transport.HasRail(voxel.H, voxel.V, voxel.Z)
                 || Transport.HasRoad(voxel.H, voxel.V)
                 || stationVoxels.ContainsKey(voxel)
                 || platformVoxels.ContainsKey(voxel)
@@ -81,7 +81,7 @@ public sealed partial class ModernWorld
             if (!IsInside(voxel)
                 || platformVoxels.ContainsKey(voxel)
                 || stationVoxels.ContainsKey(voxel)
-                || !Transport.HasRail(voxel.H, voxel.V)
+                || !Transport.HasRail(voxel.H, voxel.V, voxel.Z)
                 || GetGroundLevel(voxel.H, voxel.V) != platform.Z
                 || !IsStraightRailAlong(voxel.H, voxel.V, platform.Direction))
             {
@@ -180,11 +180,11 @@ public sealed partial class ModernWorld
     public ModernRailwayTileInspection InspectRailwayAt(TileLocation location)
     {
         ModernVoxelKey key = ToVoxelKey(location);
-        ModernRailRoad? railRoad = Transport.HasRail(location.H, location.V)
-            ? CreateRailRoad(location.H, location.V)
+        ModernRailRoad? railRoad = Transport.HasRail(location.H, location.V, location.Z)
+            ? CreateRailRoad(location.H, location.V, location.Z)
             : null;
-        ModernSpecialRailKind specialKind = Transport.SpecialRailTiles.GetValueOrDefault((location.H, location.V), ModernSpecialRailKind.Normal);
-        int railLevel = Transport.HasRail(location.H, location.V) ? GetRailLevel(location.H, location.V) : location.Z;
+        ModernSpecialRailKind specialKind = Transport.GetSpecialRailKind(location.H, location.V, location.Z);
+        int railLevel = Transport.HasRail(location.H, location.V, location.Z) ? location.Z : GetRailLevel(location.H, location.V);
 
         return new ModernRailwayTileInspection(
             key,
@@ -329,7 +329,7 @@ public sealed partial class ModernWorld
 
     private bool IsStraightRailAlong(int h, int v, ModernDirection direction)
     {
-        ModernRailRoad? railRoad = CreateRailRoad(h, v);
+        ModernRailRoad? railRoad = CreateRailRoad(h, v, GetGroundLevel(h, v));
         return railRoad is not null
             && railRoad.Kind == ModernRailRoadKind.Single
             && railRoad.HasRail(direction)

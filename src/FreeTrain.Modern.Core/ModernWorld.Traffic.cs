@@ -6,7 +6,7 @@ public sealed partial class ModernWorld
     {
         ClearTrafficVoxelOccupancy();
         trafficVoxels.Clear();
-        HashSet<(int H, int V)> touched = new(Transport.RailTiles);
+        HashSet<(int H, int V)> touched = new(Transport.RailTiles.Select(tile => (tile.H, tile.V)));
         foreach (KeyValuePair<(int H, int V), RoadContribution> road in Transport.RoadTiles)
         {
             touched.Add(road.Key);
@@ -50,29 +50,46 @@ public sealed partial class ModernWorld
             return;
         }
 
-        ModernVoxelKey key = new(h, v, Transport.HasRail(h, v) ? GetRailLevel(h, v) : GetGroundLevel(h, v));
-        byte railMask = GetLegacyRailMask(h, v);
+        RemoveTrafficVoxelsAt(h, v);
+
+        int ground = GetGroundLevel(h, v);
+        byte surfaceRailMask = Transport.HasRail(h, v, ground) ? GetLegacyRailMask(h, v, ground) : (byte)0;
         byte roadMask = Transport.GetRoadMask(h, v);
         string? roadId = Transport.RoadTiles
             .FirstOrDefault(entry => entry.Key == (h, v))
             .Value?
             .Id;
 
-        if (railMask == 0 && roadMask == 0)
+        if (surfaceRailMask != 0 || roadMask != 0)
+        {
+            SynchronizeTrafficVoxelAt(new ModernVoxelKey(h, v, ground), surfaceRailMask, roadMask, roadId);
+        }
+
+        foreach (int z in Transport.GetRailLevels(h, v).Where(z => z != ground))
+        {
+            SynchronizeTrafficVoxelAt(new ModernVoxelKey(h, v, z), GetLegacyRailMask(h, v, z), 0, null);
+        }
+    }
+
+    private void SynchronizeTrafficVoxelAt(ModernVoxelKey key, byte railMask, byte roadMask, string? roadId)
+    {
+        trafficCars.TryGetValue(key, out string? carId);
+        ModernTrafficVoxel trafficVoxel = new(key, railMask, roadMask, roadId, carId, CreateTrafficAccessory(railMask, roadMask));
+        trafficVoxels[key] = trafficVoxel;
+        voxels[key] = new ModernVoxelOccupancy(key, ModernVoxelKind.Traffic, null, trafficVoxel);
+        Publish(ModernWorldChangeKind.Voxel, key, "Traffic voxel synchronized.");
+    }
+
+    private void RemoveTrafficVoxelsAt(int h, int v)
+    {
+        foreach (ModernVoxelKey key in trafficVoxels.Keys.Where(key => key.H == h && key.V == v).ToArray())
         {
             trafficVoxels.Remove(key);
             if (voxels[key]?.IsTraffic == true)
             {
                 voxels.Remove(key);
             }
-            return;
         }
-
-        trafficCars.TryGetValue(key, out string? carId);
-        ModernTrafficVoxel trafficVoxel = new(key, railMask, roadMask, roadId, carId, CreateTrafficAccessory(railMask, roadMask));
-        trafficVoxels[key] = trafficVoxel;
-        voxels[key] = new ModernVoxelOccupancy(key, ModernVoxelKind.Traffic, null, trafficVoxel);
-        Publish(ModernWorldChangeKind.Voxel, key, "Traffic voxel synchronized.");
     }
 
     private static ModernTrafficAccessory? CreateTrafficAccessory(byte railMask, byte roadMask)

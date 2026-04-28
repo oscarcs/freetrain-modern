@@ -39,7 +39,7 @@ public sealed partial class ModernWorld
 
     public bool PlaceTrain(string trainId, ModernVoxelKey location, ModernDirection direction, IReadOnlyDictionary<string, TrainCarContribution> trainCars)
     {
-        if (!trains.TryGetValue(trainId, out ModernTrain? train) || !Transport.HasRail(location.H, location.V))
+        if (!trains.TryGetValue(trainId, out ModernTrain? train) || !Transport.HasRail(location.H, location.V, location.Z))
         {
             return false;
         }
@@ -52,7 +52,7 @@ public sealed partial class ModernWorld
 
         for (int index = carIds.Count - 1; index >= 0; index--)
         {
-            ModernRailRoad? railRoad = CreateRailRoad(current.H, current.V);
+            ModernRailRoad? railRoad = CreateRailRoad(current.H, current.V, current.Z);
             if (!trainCars.ContainsKey(carIds[index])
                 || railRoad is null
                 || IsTrainOccupying(current, trainId))
@@ -111,8 +111,8 @@ public sealed partial class ModernWorld
     {
         return trains.TryGetValue(trainId, out ModernTrain? train)
             && train.Head is { } head
-            && IsGarageRail(head.Location.H, head.Location.V)
-            && train.Cars.All(car => IsGarageRail(car.Location.H, car.Location.V));
+            && IsGarageRail(head.Location.H, head.Location.V, head.Location.Z)
+            && train.Cars.All(car => IsGarageRail(car.Location.H, car.Location.V, car.Location.Z));
     }
 
     public bool StoreTrainInGarage(string trainId)
@@ -159,7 +159,7 @@ public sealed partial class ModernWorld
         HashSet<ModernVoxelKey> occupied = new();
         for (int index = carIds.Count - 1; index >= 0; index--)
         {
-            ModernRailRoad? railRoad = CreateRailRoad(current.H, current.V);
+            ModernRailRoad? railRoad = CreateRailRoad(current.H, current.V, current.Z);
             if (railRoad is null || IsTrainOccupying(current, trainId) || !occupied.Add(current))
             {
                 return false;
@@ -255,7 +255,7 @@ public sealed partial class ModernWorld
 
     public ModernTrainCarRenderPose GetTrainCarRenderPose(ModernTrainCarPlacement car)
     {
-        ModernRailRoad? railRoad = CreateRailRoad(car.Location.H, car.Location.V);
+        ModernRailRoad? railRoad = CreateRailRoad(car.Location.H, car.Location.V, car.Location.Z);
         if (railRoad is null)
         {
             return new ModernTrainCarRenderPose((car.DirectionIndex * 2) & 15, 0, 0);
@@ -342,7 +342,7 @@ public sealed partial class ModernWorld
             return train;
         }
 
-        ModernRailRoad? railRoad = CreateRailRoad(head.Location.H, head.Location.V);
+        ModernRailRoad? railRoad = CreateRailRoad(head.Location.H, head.Location.V, head.Location.Z);
         if (railRoad is null)
         {
             return train with { State = ModernTrainState.EmergencyStopping };
@@ -382,7 +382,7 @@ public sealed partial class ModernWorld
             ? train.LastStoppedPlatformId
             : null;
 
-        if (moved.All(car => IsGarageRail(car.Location.H, car.Location.V)))
+        if (moved.All(car => IsGarageRail(car.Location.H, car.Location.V, car.Location.Z)))
         {
             return train with
             {
@@ -562,16 +562,16 @@ public sealed partial class ModernWorld
             .Any(train => train.Cars.Any(car => car.Location == key) || train.GarageLocation == key);
     }
 
-    private bool IsTrainOccupyingRailTile(int h, int v)
+    private bool IsTrainOccupyingRailTile(int h, int v, int z)
     {
         return trains.Values.Any(train =>
-            train.Cars.Any(car => car.Location.H == h && car.Location.V == v)
-            || train.GarageLocation is { } garageLocation && garageLocation.H == h && garageLocation.V == v);
+            train.Cars.Any(car => car.Location.H == h && car.Location.V == v && car.Location.Z == z)
+            || train.GarageLocation is { } garageLocation && garageLocation.H == h && garageLocation.V == v && garageLocation.Z == z);
     }
 
-    private bool IsGarageRail(int h, int v)
+    private bool IsGarageRail(int h, int v, int z)
     {
-        return Transport.SpecialRailTiles.GetValueOrDefault((h, v), ModernSpecialRailKind.Normal) == ModernSpecialRailKind.Garage;
+        return Transport.GetSpecialRailKind(h, v, z) == ModernSpecialRailKind.Garage;
     }
 
     private void RemoveCarFromTraffic(ModernCar car)

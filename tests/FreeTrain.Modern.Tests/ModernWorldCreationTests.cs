@@ -150,10 +150,10 @@ public sealed class ModernWorldCreationTests
 
         Assert.Equal(ModernSpecialRailKind.Garage, snapshot.Rails.Single(rail => rail.H == 3 && rail.V == 3).SpecialKind);
         Assert.NotEqual(0, snapshot.Rails.Single(rail => rail.H == 3 && rail.V == 3).DirectionMask);
-        Assert.Equal(ModernSpecialRailKind.Garage, restored.Transport.SpecialRailTiles[(3, 3)]);
+        Assert.Equal(ModernSpecialRailKind.Garage, restored.Transport.SpecialRailTiles[(3, 3, 0)]);
         Assert.Equal(
             snapshot.Rails.Single(rail => rail.H == 3 && rail.V == 3).DirectionMask,
-            restored.Transport.RailDirectionMasks[(3, 3)]);
+            restored.Transport.RailDirectionMasks[(3, 3, 0)]);
     }
 
     [Fact]
@@ -181,8 +181,8 @@ public sealed class ModernWorldCreationTests
             TileLocation next = route[i + 1];
             ModernDirection direction = world.ToLocation(current.H, current.V, current.Z)
                 .GetDirectionTo(world.ToLocation(next.H, next.V, next.Z));
-            byte currentMask = world.Transport.RailDirectionMasks[(current.H, current.V)];
-            byte nextMask = world.Transport.RailDirectionMasks[(next.H, next.V)];
+            byte currentMask = world.Transport.RailDirectionMasks[(current.H, current.V, current.Z)];
+            byte nextMask = world.Transport.RailDirectionMasks[(next.H, next.V, next.Z)];
 
             Assert.NotEqual(0, currentMask & (1 << direction.Index));
             Assert.NotEqual(0, nextMask & (1 << direction.Opposite.Index));
@@ -204,7 +204,7 @@ public sealed class ModernWorldCreationTests
         Assert.True(world.AddRailLine(new TileLocation(3, 4, 0), new TileLocation(7, 4, 0)) > 0);
 
         ModernDirection adjacentDirection = world.ToLocation(3, 3, 0).GetDirectionTo(world.ToLocation(3, 4, 0));
-        byte mask = world.Transport.RailDirectionMasks[(3, 3)];
+        byte mask = world.Transport.RailDirectionMasks[(3, 3, 0)];
 
         Assert.Equal(10, world.Transport.RailTiles.Count);
         Assert.Equal(0, mask & (1 << adjacentDirection.Index));
@@ -224,7 +224,7 @@ public sealed class ModernWorldCreationTests
         Assert.True(world.AddRailLine(new TileLocation(3, 3, 0), new TileLocation(7, 3, 0)) > 0);
         Assert.True(world.AddRailLine(new TileLocation(7, 3, 0), new TileLocation(8, 2, 0)) > 0);
 
-        byte mask = world.Transport.RailDirectionMasks[(7, 3)];
+        byte mask = world.Transport.RailDirectionMasks[(7, 3, 0)];
 
         Assert.Equal(2, CountBits(mask));
         Assert.NotNull(ModernRailPattern.FromDirectionMask(mask));
@@ -367,6 +367,57 @@ public sealed class ModernWorldCreationTests
         Assert.True(world.RemoveTransportAt(new TileLocation(4, 4, 2)));
         Assert.DoesNotContain(new ModernVoxelKey(4, 4, 0), world.BridgePierVoxels);
         Assert.DoesNotContain(new ModernVoxelKey(4, 4, 1), world.BridgePierVoxels);
+    }
+
+    [Fact]
+    public void RailStorageAllowsSurfaceAndElevatedRailInTheSameColumn()
+    {
+        ModernWorld world = ModernWorld.CreateNew(new ModernWorldCreationOptions(
+            "Stacked Rail World",
+            24,
+            24,
+            0,
+            100_000_000,
+            ModernWorldTerrainKind.Flat));
+
+        Assert.True(world.AddRailLine(new TileLocation(4, 4, 0), new TileLocation(6, 4, 0)) > 0);
+        Assert.True(world.AddRailLine(
+            new TileLocation(4, 4, 2),
+            new TileLocation(6, 4, 2),
+            ModernSpecialRailKind.SteelSupported) > 0);
+
+        Assert.True(world.Transport.HasRail(5, 4, 0));
+        Assert.True(world.Transport.HasRail(5, 4, 2));
+        Assert.Contains((5, 4, 0), world.Transport.RailTiles);
+        Assert.Contains((5, 4, 2), world.Transport.RailTiles);
+        Assert.Equal(6, world.Transport.RailTiles.Count);
+        Assert.Equal(6, world.CreateRailObjects().Count);
+    }
+
+    [Fact]
+    public void SteelSupportedRailSkipsPierColumnWhenLowerVoxelIsOccupied()
+    {
+        ModernWorld world = ModernWorld.CreateNew(new ModernWorldCreationOptions(
+            "Pier Skip World",
+            24,
+            24,
+            0,
+            100_000_000,
+            ModernWorldTerrainKind.Flat));
+
+        Assert.True(world.AddRailTile(new TileLocation(4, 4, 0)));
+        Assert.True(world.AddRailLine(
+            new TileLocation(4, 4, 2),
+            new TileLocation(6, 4, 2),
+            ModernSpecialRailKind.SteelSupported) > 0);
+
+        Assert.True(world.Transport.HasRail(4, 4, 0));
+        Assert.True(world.Transport.HasRail(4, 4, 2));
+        Assert.DoesNotContain(new ModernVoxelKey(4, 4, 0), world.BridgePierVoxels);
+        Assert.DoesNotContain(new ModernVoxelKey(4, 4, 1), world.BridgePierVoxels);
+        Assert.Contains(new ModernVoxelKey(5, 4, 0), world.BridgePierVoxels);
+        Assert.Contains(new ModernVoxelKey(5, 4, 1), world.BridgePierVoxels);
+        Assert.Contains(new ModernVoxelKey(6, 4, 0), world.BridgePierVoxels);
     }
 
     [Fact]

@@ -7,6 +7,7 @@ public sealed partial class ModernWorld
         ModernVoxelKey key = ToVoxelKey(location);
         if (!IsBuildableSurface(location)
             || !IsReusable(key)
+            || Transport.HasRail(location.H, location.V, location.Z)
             || Transport.HasRoad(location.H, location.V))
         {
             return false;
@@ -49,7 +50,7 @@ public sealed partial class ModernWorld
     public int AddRailLine(TileLocation from, TileLocation to, ModernSpecialRailKind specialKind)
     {
         if (!TryCreateRailRoute(from, to, out IReadOnlyList<TileLocation> route)
-            || !CanApplyRailRoute(route, specialKind, out IReadOnlyDictionary<(int H, int V), byte> railMasks))
+            || !CanApplyRailRoute(route, specialKind, out IReadOnlyDictionary<(int H, int V, int Z), byte> railMasks))
         {
             return 0;
         }
@@ -63,11 +64,12 @@ public sealed partial class ModernWorld
         int changed = 0;
         foreach (TileLocation location in route)
         {
-            if (Transport.AddRailTile(location.H, location.V, location.Z, specialKind, railMasks[(location.H, location.V)]))
+            (int H, int V, int Z) railKey = (location.H, location.V, location.Z);
+            if (Transport.AddRailTile(location.H, location.V, location.Z, specialKind, railMasks[railKey]))
             {
                 changed++;
             }
-            else if (Transport.SetRailDirectionMask(location.H, location.V, railMasks[(location.H, location.V)]))
+            else if (Transport.SetRailDirectionMask(location.H, location.V, location.Z, railMasks[railKey]))
             {
                 changed++;
             }
@@ -115,10 +117,10 @@ public sealed partial class ModernWorld
             return true;
         }
 
-        bool hadRail = Transport.HasRail(location.H, location.V);
-        TileLocation railLocation = hadRail ? location with { Z = GetRailLevel(location.H, location.V) } : location;
-        ModernSpecialRailKind removedRailKind = Transport.SpecialRailTiles.GetValueOrDefault((location.H, location.V), ModernSpecialRailKind.Normal);
-        if (hadRail && IsTrainOccupyingRailTile(location.H, location.V))
+        bool hadRail = Transport.HasRail(location.H, location.V, location.Z);
+        TileLocation railLocation = location;
+        ModernSpecialRailKind removedRailKind = Transport.GetSpecialRailKind(location.H, location.V, location.Z);
+        if (hadRail && IsTrainOccupyingRailTile(location.H, location.V, location.Z))
         {
             return false;
         }
@@ -129,7 +131,9 @@ public sealed partial class ModernWorld
             DetachRailFromNeighbors(railLocation);
         }
 
-        bool changed = Transport.RemoveAt(location.H, location.V);
+        bool changed = hadRail
+            ? Transport.RemoveRailAt(location.H, location.V, location.Z)
+            : Transport.RemoveRoadAt(location.H, location.V);
         if (changed)
         {
             SynchronizeTrafficVoxelsAround(location.H, location.V);
@@ -151,16 +155,16 @@ public sealed partial class ModernWorld
         {
             ModernLocation neighborLocation = railLocation + direction;
             (int h, int v) = ToHv(neighborLocation);
-            if (!IsInside(h, v) || !Transport.HasRail(h, v))
+            if (!IsInside(h, v) || !Transport.HasRail(h, v, neighborLocation.Z))
             {
                 continue;
             }
 
-            byte mask = GetRawRailMask(h, v);
+            byte mask = GetRawRailMask(h, v, neighborLocation.Z);
             byte next = (byte)(mask & ~(1 << direction.Opposite.Index));
             if (next != mask)
             {
-                Transport.SetRailDirectionMask(h, v, next);
+                Transport.SetRailDirectionMask(h, v, neighborLocation.Z, next);
             }
         }
     }
@@ -222,9 +226,9 @@ public sealed partial class ModernWorld
     private bool CanApplyRailRoute(
         IReadOnlyList<TileLocation> route,
         ModernSpecialRailKind specialKind,
-        out IReadOnlyDictionary<(int H, int V), byte> railMasks)
+        out IReadOnlyDictionary<(int H, int V, int Z), byte> railMasks)
     {
-        Dictionary<(int H, int V), byte> masks = new();
+        Dictionary<(int H, int V, int Z), byte> masks = new();
         railMasks = masks;
         if (route.Count == 0)
         {
@@ -248,8 +252,8 @@ public sealed partial class ModernWorld
         {
             TileLocation location = route[i];
             byte routeMask = RouteDirectionMask(route, i);
-            byte existingMask = Transport.HasRail(location.H, location.V)
-                ? GetRawRailMask(location.H, location.V)
+            byte existingMask = Transport.HasRail(location.H, location.V, location.Z)
+                ? GetRawRailMask(location.H, location.V, location.Z)
                 : (byte)0;
             if (!TryMergeRailMask(location, existingMask, routeMask, out byte candidate))
             {
@@ -267,7 +271,7 @@ public sealed partial class ModernWorld
                 return false;
             }
 
-            masks[(location.H, location.V)] = candidate;
+            masks[(location.H, location.V, location.Z)] = candidate;
         }
 
         return true;
@@ -307,9 +311,9 @@ public sealed partial class ModernWorld
                 return false;
             }
 
-            if (Transport.HasRail(location.H, location.V))
+            if (Transport.HasRail(location.H, location.V, location.Z))
             {
-                byte existingMask = GetRawRailMask(location.H, location.V);
+                byte existingMask = GetRawRailMask(location.H, location.V, location.Z);
                 if ((existingMask & (1 << direction.Index)) == 0
                     || (existingMask & (1 << direction.Opposite.Index)) == 0)
                 {
@@ -341,7 +345,7 @@ public sealed partial class ModernWorld
         }
 
         int newDirection = FirstSetDirection(newBits);
-        if (CountBits(existingMask) == 2 && !IsRailWellConnected(location.H, location.V, existingMask))
+        if (CountBits(existingMask) == 2 && !IsRailWellConnected(location.H, location.V, location.Z, existingMask))
         {
             foreach (ModernDirection existingDirection in ModernDirection.All)
             {
@@ -364,9 +368,9 @@ public sealed partial class ModernWorld
         return true;
     }
 
-    private bool IsRailWellConnected(int h, int v, byte mask)
+    private bool IsRailWellConnected(int h, int v, int z, byte mask)
     {
-        ModernLocation location = ToLocation(h, v, GetRailLevel(h, v));
+        ModernLocation location = ToLocation(h, v, z);
         int connected = 0;
         foreach (ModernDirection direction in ModernDirection.All)
         {
@@ -377,12 +381,12 @@ public sealed partial class ModernWorld
 
             ModernLocation neighbor = location + direction;
             (int neighborH, int neighborV) = ToHv(neighbor);
-            if (!IsInside(neighborH, neighborV) || !Transport.HasRail(neighborH, neighborV))
+            if (!IsInside(neighborH, neighborV) || !Transport.HasRail(neighborH, neighborV, neighbor.Z))
             {
                 continue;
             }
 
-            byte neighborMask = GetRawRailMask(neighborH, neighborV);
+            byte neighborMask = GetRawRailMask(neighborH, neighborV, neighbor.Z);
             if ((neighborMask & (1 << direction.Opposite.Index)) != 0)
             {
                 connected++;
@@ -416,7 +420,7 @@ public sealed partial class ModernWorld
             return ModernRailPattern.DirectionMask(0, 4);
         }
 
-        if (CountBits(mask) == 1 && !Transport.HasRail(location.H, location.V))
+        if (CountBits(mask) == 1 && !Transport.HasRail(location.H, location.V, location.Z))
         {
             int direction = FirstSetDirection(mask);
             mask |= (byte)(1 << ((direction + 4) % 8));
@@ -428,28 +432,29 @@ public sealed partial class ModernWorld
     private bool CanBuildRailTile(TileLocation location, ModernSpecialRailKind specialKind)
     {
         ModernVoxelKey key = ToVoxelKey(location);
-        bool canReuseVoxel = IsReusable(key) || Transport.HasRail(location.H, location.V);
-        ModernSpecialRailKind existingKind = Transport.SpecialRailTiles.GetValueOrDefault((location.H, location.V), ModernSpecialRailKind.Normal);
+        bool canReuseVoxel = IsReusable(key) || Transport.HasRail(location.H, location.V, location.Z);
+        ModernSpecialRailKind existingKind = Transport.GetSpecialRailKind(location.H, location.V, location.Z);
         bool specialPurposeConflict = existingKind != ModernSpecialRailKind.Normal && existingKind != specialKind;
+        TerrainTilePreview terrain = GetTerrainTile(location.H, location.V);
+        bool elevatedSpecialRail = specialKind is ModernSpecialRailKind.Bridge or ModernSpecialRailKind.SteelSupported
+            && terrain.IsFlat
+            && location.Z > terrain.SurfaceLevel;
+        bool roadConflict = Transport.HasRoad(location.H, location.V) && !elevatedSpecialRail;
         if (!IsInside(location.H, location.V)
             || location.Z < 0
             || location.Z >= Depth
             || !canReuseVoxel
-            || Transport.HasRoad(location.H, location.V)
+            || roadConflict
             || specialPurposeConflict)
         {
             return false;
         }
 
-        TerrainTilePreview terrain = GetTerrainTile(location.H, location.V);
         bool onSurface = terrain.IsFlat && terrain.SurfaceLevel == location.Z;
         bool overWaterBridge = specialKind == ModernSpecialRailKind.Bridge
             && terrain.IsFlat
             && IsWaterSurfaceLevel(terrain.SurfaceLevel)
             && location.Z > WaterLevel;
-        bool elevatedSpecialRail = specialKind is ModernSpecialRailKind.Bridge or ModernSpecialRailKind.SteelSupported
-            && terrain.IsFlat
-            && location.Z > terrain.SurfaceLevel;
         bool tunnelCut = specialKind == ModernSpecialRailKind.Tunnel
             && terrain.SurfaceLevel == location.Z
             && IsDrySurfaceLevel(terrain.SurfaceLevel);
@@ -472,7 +477,7 @@ public sealed partial class ModernWorld
 
     private void ApplySpecialRailBuildEffects(TileLocation location, ModernSpecialRailKind specialKind, int routeIndex)
     {
-        ModernSpecialRailKind existingKind = Transport.SpecialRailTiles.GetValueOrDefault((location.H, location.V), ModernSpecialRailKind.Normal);
+        ModernSpecialRailKind existingKind = Transport.GetSpecialRailKind(location.H, location.V, location.Z);
         if (existingKind == ModernSpecialRailKind.Tunnel && specialKind != ModernSpecialRailKind.Tunnel)
         {
             ApplySpecialRailRemoveEffects(location, existingKind);
@@ -540,22 +545,14 @@ public sealed partial class ModernWorld
             return true;
         }
 
-        for (int z = ground; z < location.Z; z++)
-        {
-            ModernVoxelKey key = new(location.H, location.V, z);
-            ModernVoxelOccupancy? occupancy = GetVoxel(key);
-            if (occupancy is not null && !bridgePierVoxels.Contains(key))
-            {
-                return false;
-            }
-        }
-
         return true;
     }
 
     private void BuildBridgePiers(TileLocation location, bool everyOtherTile, int routeIndex = 0)
     {
-        if (!CanBuildBridgePiers(location, everyOtherTile, routeIndex) || everyOtherTile && (routeIndex & 1) != 0)
+        if (!CanBuildBridgePiers(location, everyOtherTile, routeIndex)
+            || everyOtherTile && (routeIndex & 1) != 0
+            || BridgePierColumnIsBlocked(location))
         {
             return;
         }
@@ -567,6 +564,22 @@ public sealed partial class ModernWorld
             bridgePierVoxels.Add(key);
             voxels[key] = new ModernVoxelOccupancy(key, ModernVoxelKind.Structure, $"BridgePier:{location.H}:{location.V}:{z}", null);
         }
+    }
+
+    private bool BridgePierColumnIsBlocked(TileLocation location)
+    {
+        int ground = GetGroundLevel(location.H, location.V);
+        for (int z = ground; z < location.Z; z++)
+        {
+            ModernVoxelKey key = new(location.H, location.V, z);
+            ModernVoxelOccupancy? occupancy = GetVoxel(key);
+            if (occupancy is not null && !bridgePierVoxels.Contains(key))
+            {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     private void RemoveBridgePiers(TileLocation location)
@@ -665,7 +678,7 @@ public sealed partial class ModernWorld
     public IReadOnlyList<MapRailObject> CreateRailObjects()
     {
         return Transport.RailTiles
-            .Select(tile => CreateRailObject(tile.H, tile.V))
+            .Select(tile => CreateRailObject(tile.H, tile.V, tile.Z))
             .Where(rail => rail is not null)
             .Cast<MapRailObject>()
             .ToArray();
@@ -674,7 +687,7 @@ public sealed partial class ModernWorld
     public IReadOnlyList<ModernRailRoad> CreateRailRoads()
     {
         return Transport.RailTiles
-            .Select(tile => CreateRailRoad(tile.H, tile.V))
+            .Select(tile => CreateRailRoad(tile.H, tile.V, tile.Z))
             .Where(rail => rail is not null)
             .Cast<ModernRailRoad>()
             .ToArray();
@@ -682,25 +695,37 @@ public sealed partial class ModernWorld
 
     private MapRailObject? CreateRailObject(int h, int v)
     {
-        byte mask = GetLegacyRailMask(h, v);
+        int z = GetRailLevel(h, v);
+        return CreateRailObject(h, v, z);
+    }
+
+    private MapRailObject? CreateRailObject(int h, int v, int z)
+    {
+        byte mask = GetLegacyRailMask(h, v, z);
         return ModernRailPattern.FromDirectionMask(mask) is { } pattern
             ? new MapRailObject(
                 h,
                 v,
-                GetRailLevel(h, v),
+                z,
                 pattern,
-                Transport.SpecialRailTiles.GetValueOrDefault((h, v), ModernSpecialRailKind.Normal))
+                Transport.GetSpecialRailKind(h, v, z))
             : null;
     }
 
     private ModernRailRoad? CreateRailRoad(int h, int v)
     {
-        byte mask = GetLegacyRailMask(h, v);
+        int z = GetRailLevel(h, v);
+        return CreateRailRoad(h, v, z);
+    }
+
+    private ModernRailRoad? CreateRailRoad(int h, int v, int z)
+    {
+        byte mask = GetLegacyRailMask(h, v, z);
         RailPatternDefinition? pattern = ModernRailPattern.FromDirectionMask(mask);
         ModernRailRoadKind kind = ModernRailPattern.KindFromDirectionMask(mask);
         return kind == ModernRailRoadKind.Unsupported
             ? null
-            : new ModernRailRoad(new ModernVoxelKey(h, v, GetRailLevel(h, v)), mask, kind, pattern);
+            : new ModernRailRoad(new ModernVoxelKey(h, v, z), mask, kind, pattern);
     }
 
     public IReadOnlyList<MapRoadObject> CreateRoadObjects()
@@ -718,42 +743,54 @@ public sealed partial class ModernWorld
         ModernLocation current = ToLocation(location);
         ModernLocation nextLocation = current + direction;
         (int h, int v) = ToHv(nextLocation);
-        next = new ModernVoxelKey(h, v, IsInside(h, v) ? GetRailLevel(h, v) : location.Z);
-        if (!IsInside(h, v) || !Transport.HasRail(location.H, location.V) || !Transport.HasRail(h, v))
+        next = new ModernVoxelKey(h, v, nextLocation.Z);
+        if (!IsInside(h, v) || !Transport.HasRail(location.H, location.V, location.Z) || !Transport.HasRail(h, v, nextLocation.Z))
         {
             return false;
         }
 
-        byte currentMask = GetRawRailMask(location.H, location.V);
-        byte nextMask = GetRawRailMask(h, v);
+        byte currentMask = GetRawRailMask(location.H, location.V, location.Z);
+        byte nextMask = GetRawRailMask(h, v, nextLocation.Z);
         return (currentMask & (1 << direction.Index)) != 0
             && (nextMask & (1 << direction.Opposite.Index)) != 0;
     }
 
     private byte GetLegacyRailMask(int h, int v)
     {
-        if (!IsInside(h, v) || !Transport.HasRail(h, v))
+        int z = GetRailLevel(h, v);
+        return GetLegacyRailMask(h, v, z);
+    }
+
+    private byte GetLegacyRailMask(int h, int v, int z)
+    {
+        if (!IsInside(h, v) || !Transport.HasRail(h, v, z))
         {
             return 0;
         }
 
-        return NormalizeRailMask(GetRawRailMask(h, v));
+        return NormalizeRailMask(GetRawRailMask(h, v, z));
     }
 
     private byte GetRawRailMask(int h, int v)
     {
-        if (Transport.RailDirectionMasks.TryGetValue((h, v), out byte explicitMask))
+        int z = GetRailLevel(h, v);
+        return GetRawRailMask(h, v, z);
+    }
+
+    private byte GetRawRailMask(int h, int v, int z)
+    {
+        if (Transport.RailDirectionMasks.TryGetValue((h, v, z), out byte explicitMask))
         {
             return explicitMask;
         }
 
-        ModernLocation location = ToLocation(h, v, GetRailLevel(h, v));
+        ModernLocation location = ToLocation(h, v, z);
         byte mask = 0;
         foreach (ModernDirection direction in ModernDirection.All)
         {
             ModernLocation neighbor = location + direction;
             (int neighborH, int neighborV) = ToHv(neighbor);
-            if (IsInside(neighborH, neighborV) && Transport.HasRail(neighborH, neighborV))
+            if (IsInside(neighborH, neighborV) && Transport.HasRail(neighborH, neighborV, neighbor.Z))
             {
                 mask |= (byte)(1 << direction.Index);
             }

@@ -196,7 +196,7 @@ public sealed partial class ModernWorld
     private bool TileHasSurfaceOccupancy((int H, int V) tile)
     {
         int z = GetGroundLevel(tile.H, tile.V);
-        return Transport.HasRail(tile.H, tile.V)
+        return Transport.HasRail(tile.H, tile.V, z)
             || Transport.HasRoad(tile.H, tile.V)
             || entityVoxels.ContainsKey(new ModernVoxelKey(tile.H, tile.V, z))
             || stationVoxels.ContainsKey(new ModernVoxelKey(tile.H, tile.V, z))

@@ -23,10 +23,10 @@ public sealed partial class ModernWorld
             .Select(tile => new ModernRailSnapshot(
                 tile.H,
                 tile.V,
-                Transport.SpecialRailTiles.GetValueOrDefault(tile, ModernSpecialRailKind.Normal),
-                tunnelTerrainBackups.TryGetValue(tile, out int[]? backup) ? backup : null,
-                GetRailLevel(tile.H, tile.V),
-                GetRawRailMask(tile.H, tile.V)))
+                Transport.GetSpecialRailKind(tile.H, tile.V, tile.Z),
+                tunnelTerrainBackups.TryGetValue((tile.H, tile.V), out int[]? backup) ? backup : null,
+                tile.Z,
+                GetRawRailMask(tile.H, tile.V, tile.Z)))
             .ToArray();
 
         ModernEntitySnapshot[] entitySnapshots = entities.Values
