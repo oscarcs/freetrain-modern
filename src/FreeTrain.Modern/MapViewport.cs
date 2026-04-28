@@ -1100,6 +1100,60 @@ public sealed class MapViewport : Control, IDisposable
         PublishStatus();
     }
 
+    public void SelectStructureFrameVariant(SpriteContribution structure, int frameIndex)
+    {
+        int index = IndexOfReferenceOrValue(structureContributions, structure);
+        if (index < 0)
+        {
+            return;
+        }
+
+        int nextFrame = structure.Frames.Count == 0
+            ? 0
+            : Math.Clamp(frameIndex, 0, structure.Frames.Count - 1);
+        if (activeStructureIndex == index
+            && activeStructureFrameIndex == nextFrame
+            && activeStructureColorVariantIndex == 0)
+        {
+            return;
+        }
+
+        activeStructureIndex = index;
+        activeStructureFrameIndex = nextFrame;
+        activeStructureColorVariantIndex = 0;
+        PublishStatus();
+        InvalidateVisual();
+    }
+
+    public void SelectStructureColorVariant(SpriteContribution structure, int colorIndex)
+    {
+        int index = IndexOfReferenceOrValue(structureContributions, structure);
+        if (index < 0)
+        {
+            return;
+        }
+
+        int count = GetColorVariantCount(structure);
+        if (count <= 1)
+        {
+            return;
+        }
+
+        int nextColor = Math.Clamp(colorIndex, 0, count - 1);
+        if (activeStructureIndex == index
+            && activeStructureFrameIndex == 0
+            && activeStructureColorVariantIndex == nextColor)
+        {
+            return;
+        }
+
+        activeStructureIndex = index;
+        activeStructureFrameIndex = 0;
+        activeStructureColorVariantIndex = nextColor;
+        PublishStatus();
+        InvalidateVisual();
+    }
+
     public void SelectPreviousStructure()
     {
         if (structureContributions.Count == 0)
