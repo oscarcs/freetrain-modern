@@ -13,6 +13,28 @@ public sealed class PluginManifestCatalogTests : IDisposable
     }
 
     [Fact]
+    public void FootprintVoxelsFollowRenderedIsometricAxes()
+    {
+        Assert.Equal(
+            new[]
+            {
+                new ModernVoxelKey(4, 5, 1),
+                new ModernVoxelKey(5, 4, 1),
+                new ModernVoxelKey(5, 3, 1)
+            },
+            ModernFootprint.EnumerateVoxels(4, 5, 1, 3, 1, 1).ToArray());
+
+        Assert.Equal(
+            new[]
+            {
+                new ModernVoxelKey(4, 5, 1),
+                new ModernVoxelKey(5, 6, 1),
+                new ModernVoxelKey(5, 7, 1)
+            },
+            ModernFootprint.EnumerateVoxels(4, 5, 1, 1, 3, 1).ToArray());
+    }
+
+    [Fact]
     public void CatalogClassifiesStructureAndAccessoryContributionTypes()
     {
         string pluginDirectory = Path.Combine(pluginRoot, "mixed");
@@ -135,6 +157,51 @@ public sealed class PluginManifestCatalogTests : IDisposable
             Assert.Equal("154,159,180", frame.ColorMapVariants[1][0].To);
             Assert.Equal("255,255,255", frame.ColorMaps[0].To);
         });
+    }
+
+    [Fact]
+    public void OppositeStructureFramesUseTransposedFootprintForPlacement()
+    {
+        string pluginDirectory = Path.Combine(pluginRoot, "opposite-structure");
+        Directory.CreateDirectory(pluginDirectory);
+        File.WriteAllBytes(Path.Combine(pluginDirectory, "sprites.bmp"), new byte[] { 0, 1, 2, 3 });
+        File.WriteAllText(Path.Combine(pluginDirectory, "plugin.xml"), """
+            <?xml version="1.0" encoding="utf-8"?>
+            <plug-in>
+              <title>Opposite plugin</title>
+              <contribution type="picture" id="pic">
+                <picture src="sprites.bmp"/>
+              </contribution>
+              <contribution type="GenericStructure" id="wide-building">
+                <name>Wide Building</name>
+                <size>2,1</size>
+                <height>1</height>
+                <sprite origin="0,0" offset="24">
+                  <picture ref="pic"/>
+                </sprite>
+                <sprite origin="48,0" offset="16" opposite="true">
+                  <picture ref="pic"/>
+                </sprite>
+              </contribution>
+            </plug-in>
+            """);
+
+        PluginManifestCatalog catalog = new(pluginRoot, "ja");
+        SpriteContribution structure = Assert.Single(catalog.Structures);
+
+        Assert.Equal((2, 1), (structure.Frames[0].FootprintH, structure.Frames[0].FootprintV));
+        Assert.Equal((1, 2), (structure.Frames[1].FootprintH, structure.Frames[1].FootprintV));
+        Assert.Equal(2, structure.SpriteSet3DVariants.Count);
+        Assert.Equal((2, 1), (structure.SpriteSet3DVariants[0].SizeX, structure.SpriteSet3DVariants[0].SizeY));
+        Assert.Equal((1, 2), (structure.SpriteSet3DVariants[1].SizeX, structure.SpriteSet3DVariants[1].SizeY));
+
+        ModernPlacedEntity placed = ModernPlacedEntity.Structure(4, 5, 1, structure, structure.Frames[1]);
+
+        Assert.Equal(1, placed.FootprintH);
+        Assert.Equal(2, placed.FootprintV);
+        Assert.Equal(
+            new[] { new ModernVoxelKey(4, 5, 1), new ModernVoxelKey(5, 6, 1) },
+            placed.OccupiedVoxels.ToArray());
     }
 
     [Fact]

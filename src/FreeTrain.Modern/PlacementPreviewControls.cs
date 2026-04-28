@@ -296,6 +296,13 @@ internal sealed class StructurePlacementPreviewControl : PlacementPreviewControl
     public override void Render(DrawingContext context)
     {
         base.Render(context);
+        if (structure.SpriteSet3DVariants.Count > 0)
+        {
+            ModernSpriteSet3D variantSpriteSet = structure.SpriteSet3DVariants[Math.Clamp(frameVariantIndex, 0, structure.SpriteSet3DVariants.Count - 1)];
+            DrawSpriteSet3D(context, variantSpriteSet, colorVariantIndex);
+            return;
+        }
+
         if (structure.SpriteSet3D is { IsLoadable: true } spriteSet)
         {
             DrawSpriteSet3D(context, spriteSet, colorVariantIndex);

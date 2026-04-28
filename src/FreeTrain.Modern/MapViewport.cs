@@ -23,6 +23,13 @@ public sealed class MapViewport : Control, IDisposable
 {
     private readonly record struct RenderQueueItem(int H, int V, int Z, int Layer, Action<DrawingContext> Draw);
     private readonly record struct GeneratedTreeCandidate(int H, int V, int Z, double Score, int TieBreaker);
+    private readonly record struct PlacementFootprintPreview(IReadOnlyList<ModernVoxelKey> Voxels, bool CanPlace);
+    private readonly record struct ScreenPoint(int X, int Y)
+    {
+        public Point ToPoint() => new(X, Y);
+    }
+
+    private readonly record struct ScreenEdge(ScreenPoint A, ScreenPoint B);
 
     private const int TileWidth = 32;
     private const int TileHeight = 16;
@@ -582,20 +589,18 @@ public sealed class MapViewport : Control, IDisposable
                 foreach (ModernSpriteVoxel2D voxel in spriteSet.InVoxelDrawOrder())
                 {
                     ModernSpriteVoxel2D stationVoxel = voxel;
-                    int sortH = station.H + stationVoxel.X;
-                    int sortV = station.V + stationVoxel.Y;
+                    ModernVoxelKey sortVoxel = ModernFootprint.ToVoxelKey(station.H, station.V, station.Z, stationVoxel.X, stationVoxel.Y);
                     Point voxelPoint = new(
                         tilePoint.X + (stationVoxel.X + stationVoxel.Y) * 16,
                         tilePoint.Y + (-stationVoxel.X + stationVoxel.Y) * 8);
-                    items.Add(new RenderQueueItem(sortH, sortV, station.Z, 30, drawContext =>
+                    items.Add(new RenderQueueItem(sortVoxel.H, sortVoxel.V, station.Z, 30, drawContext =>
                         DrawSpriteFrame(drawContext, stationVoxel.Frame, voxelPoint)));
                 }
             }
             else if (station.Contribution.Frame is { } frame)
             {
-                int sortH = station.H + station.FootprintH - 1;
-                int sortV = station.V + station.FootprintV - 1;
-                items.Add(new RenderQueueItem(sortH, sortV, station.Z, 30, drawContext =>
+                ModernVoxelKey sortVoxel = GetFootprintSortVoxel(station.OccupiedVoxels);
+                items.Add(new RenderQueueItem(sortVoxel.H, sortVoxel.V, station.Z, 30, drawContext =>
                     DrawSpriteFrame(drawContext, frame, FromHvzToScreen(station.H, station.V, station.Z))));
             }
         }
@@ -608,12 +613,11 @@ public sealed class MapViewport : Control, IDisposable
                 continue;
             }
 
-            int sortH = mapObject.H + Math.Max(1, mapObject.FootprintH) - 1;
-            int sortV = mapObject.V + Math.Max(1, mapObject.FootprintV) - 1;
-            items.Add(new RenderQueueItem(sortH, sortV, z, 30, drawContext =>
+            ModernVoxelKey sortVoxel = GetFootprintSortVoxel(mapObject.OccupiedVoxels);
+            items.Add(new RenderQueueItem(sortVoxel.H, sortVoxel.V, z, 30, drawContext =>
             {
                 Point tilePoint = FromHvzToScreen(mapObject.H, mapObject.V, z);
-                if (mapObject.StructureContribution?.SpriteSet3D is { IsLoadable: true } spriteSet)
+                if (ShouldDrawStructureAsSpriteSet3D(mapObject, out ModernSpriteSet3D? spriteSet) && spriteSet is not null)
                 {
                     DrawSpriteSet3D(drawContext, spriteSet, tilePoint, mapObject.StructureColorVariantIndex);
                 }
@@ -865,7 +869,18 @@ public sealed class MapViewport : Control, IDisposable
 
         if (hoverLocation is { } hover && hover.Z <= MaxVisibleLevel)
         {
-            DrawLocationMarker(context, hover, hoverFill, hoverPen);
+            if (TryCreatePlacementFootprintPreview(hover, out PlacementFootprintPreview footprintPreview))
+            {
+                DrawFootprintMarker(
+                    context,
+                    footprintPreview.Voxels,
+                    footprintPreview.CanPlace ? validPreviewFill : invalidPreviewFill,
+                    footprintPreview.CanPlace ? validPreviewPen : invalidPreviewPen);
+            }
+            else
+            {
+                DrawLocationMarker(context, hover, hoverFill, hoverPen);
+            }
         }
     }
 
@@ -880,7 +895,102 @@ public sealed class MapViewport : Control, IDisposable
         DrawDiamondFill(context, FromHvzToScreen(location.H, location.V, location.Z), fill, outline);
     }
 
-    private static void DrawDiamondFill(DrawingContext context, Point p, IBrush fill, Pen outline)
+    private void DrawFootprintMarker(
+        DrawingContext context,
+        IReadOnlyList<ModernVoxelKey> voxels,
+        IBrush fill,
+        Pen outline)
+    {
+        Dictionary<ScreenEdge, int> edges = new();
+        foreach (ModernVoxelKey voxel in voxels)
+        {
+            Point p = FromHvzToScreen(voxel.H, voxel.V, voxel.Z);
+            DrawDiamondFill(context, p, fill, null);
+            AddDiamondEdges(edges, p);
+        }
+
+        foreach (KeyValuePair<ScreenEdge, int> boundary in edges)
+        {
+            if (boundary.Value == 1)
+            {
+                ScreenEdge edge = boundary.Key;
+                context.DrawLine(outline, edge.A.ToPoint(), edge.B.ToPoint());
+            }
+        }
+    }
+
+    private bool TryCreatePlacementFootprintPreview(TileLocation location, out PlacementFootprintPreview preview)
+    {
+        preview = default;
+        if (EditMode == MapEditMode.Station && ActiveStationContribution is { } station)
+        {
+            ModernStation candidate = new(
+                $"station:preview:{location.H}:{location.V}:{station.Id}",
+                location.H,
+                location.V,
+                location.Z,
+                station);
+            preview = new PlacementFootprintPreview(
+                candidate.OccupiedVoxels.ToArray(),
+                world.CanPlaceStation(candidate));
+            return true;
+        }
+
+        if (EditMode == MapEditMode.Structure
+            && ActiveStructureContribution is { } structure
+            && SelectStructureFrameForLocation(structure, location) is { } structureFrame)
+        {
+            bool allowTransportOverlap = structure.PlacementKind is SpriteContributionPlacementKind.RailStationary
+                or SpriteContributionPlacementKind.RoadAccessory;
+            bool hasRequiredTransport = structure.PlacementKind switch
+            {
+                SpriteContributionPlacementKind.RailStationary => world.Transport.HasRail(location.H, location.V, location.Z),
+                SpriteContributionPlacementKind.RoadAccessory => world.Transport.HasRoad(location.H, location.V),
+                _ => true
+            };
+            ModernPlacedEntity entity = ModernPlacedEntity.Structure(
+                location.H,
+                location.V,
+                location.Z,
+                structure,
+                structureFrame,
+                activeStructureColorVariantIndex);
+            preview = new PlacementFootprintPreview(
+                ModernFootprint.EnumerateVoxels(entity.H, entity.V, entity.Z, entity.FootprintH, entity.FootprintV, 1).ToArray(),
+                hasRequiredTransport && world.CanPlaceEntity(entity, allowTransportOverlap));
+            return true;
+        }
+
+        return false;
+    }
+
+    private static void AddDiamondEdges(IDictionary<ScreenEdge, int> edges, Point p)
+    {
+        ScreenPoint top = new((int)Math.Round(p.X + 16), (int)Math.Round(p.Y));
+        ScreenPoint right = new((int)Math.Round(p.X + 32), (int)Math.Round(p.Y + 8));
+        ScreenPoint bottom = new((int)Math.Round(p.X + 16), (int)Math.Round(p.Y + 16));
+        ScreenPoint left = new((int)Math.Round(p.X), (int)Math.Round(p.Y + 8));
+        AddEdge(edges, top, right);
+        AddEdge(edges, right, bottom);
+        AddEdge(edges, bottom, left);
+        AddEdge(edges, left, top);
+    }
+
+    private static void AddEdge(IDictionary<ScreenEdge, int> edges, ScreenPoint first, ScreenPoint second)
+    {
+        ScreenEdge edge = CompareScreenPoints(first, second) <= 0
+            ? new ScreenEdge(first, second)
+            : new ScreenEdge(second, first);
+        edges[edge] = edges.TryGetValue(edge, out int count) ? count + 1 : 1;
+    }
+
+    private static int CompareScreenPoints(ScreenPoint first, ScreenPoint second)
+    {
+        int x = first.X.CompareTo(second.X);
+        return x != 0 ? x : first.Y.CompareTo(second.Y);
+    }
+
+    private static void DrawDiamondFill(DrawingContext context, Point p, IBrush fill, Pen? outline)
     {
         StreamGeometry geometry = new();
         using (StreamGeometryContext path = geometry.Open())
@@ -1340,6 +1450,44 @@ public sealed class MapViewport : Control, IDisposable
         PublishStatus();
     }
 
+    private static bool ShouldDrawStructureAsSpriteSet3D(ModernPlacedEntity mapObject, out ModernSpriteSet3D? spriteSet)
+    {
+        spriteSet = null;
+        if (mapObject.StructureContribution is not { } contribution)
+        {
+            return false;
+        }
+
+        if (mapObject.StructureFrame is { } frame && contribution.SpriteSet3DVariants.Count > 0)
+        {
+            int variantIndex = IndexOfReferenceOrValue(contribution.Frames, frame);
+            if (variantIndex >= 0
+                && variantIndex < contribution.SpriteSet3DVariants.Count
+                && contribution.SpriteSet3DVariants[variantIndex] is { IsLoadable: true } variant)
+            {
+                spriteSet = variant;
+                return true;
+            }
+        }
+
+        if (contribution.SpriteSet3D is { IsLoadable: true } candidate)
+        {
+            spriteSet = candidate;
+            return true;
+        }
+
+        return false;
+    }
+
+    private static ModernVoxelKey GetFootprintSortVoxel(IEnumerable<ModernVoxelKey> voxels)
+    {
+        return voxels
+            .OrderByDescending(voxel => voxel.H + voxel.V)
+            .ThenByDescending(voxel => voxel.V)
+            .ThenByDescending(voxel => voxel.Z)
+            .FirstOrDefault();
+    }
+
     private void DrawSpriteFrame(DrawingContext context, SpriteFrame frame, Point tilePoint, int colorVariantIndex = 0)
     {
         if (!frame.IsLoadable)
@@ -1686,7 +1834,7 @@ public sealed class MapViewport : Control, IDisposable
                 ModernPlacedEntity entity = ModernPlacedEntity.Structure(placed.H, placed.V, placed.Z, candidates[i], frame);
                 if (world.AddEntity(entity))
                 {
-                    MarkOccupied(placed.H, placed.V, candidates[i], occupied);
+                    MarkOccupied(entity, occupied);
                 }
             }
         }
@@ -1956,8 +2104,12 @@ public sealed class MapViewport : Control, IDisposable
     {
         TileLocation? best = null;
         int bestDistance = int.MaxValue;
-        int footprintX = Math.Max(1, contribution.SpriteSet3D?.SizeX ?? contribution.SizeX);
-        int footprintY = Math.Max(1, contribution.SpriteSet3D?.SizeY ?? contribution.SizeY);
+        int footprintX = Math.Max(1, frame.FootprintH > 0
+            ? frame.FootprintH
+            : (contribution.SpriteSet3D?.SizeX ?? contribution.SizeX));
+        int footprintY = Math.Max(1, frame.FootprintV > 0
+            ? frame.FootprintV
+            : (contribution.SpriteSet3D?.SizeY ?? contribution.SizeY));
 
         for (int v = 0; v < world.Height; v++)
         {
@@ -2000,38 +2152,32 @@ public sealed class MapViewport : Control, IDisposable
             return false;
         }
 
-        for (int y = 0; y < footprintY; y++)
+        foreach (ModernVoxelKey voxel in ModernFootprint.EnumerateVoxels(h, v, baseTerrain.SurfaceLevel, footprintX, footprintY, 1))
         {
-            for (int x = 0; x < footprintX; x++)
+            if (voxel.H < 0
+                || voxel.H >= world.Width
+                || voxel.V < 0
+                || voxel.V >= world.Height
+                || occupied.Contains((voxel.H, voxel.V)))
             {
-                int tileH = h + x;
-                int tileV = v + y;
-                if (tileH < 0 || tileH >= world.Width || tileV < 0 || tileV >= world.Height || occupied.Contains((tileH, tileV)))
-                {
-                    return false;
-                }
+                return false;
+            }
 
-                TerrainTilePreview terrain = world.GetTerrainTile(tileH, tileV);
-                if (!terrain.IsFlat || terrain.SurfaceLevel != baseTerrain.SurfaceLevel || !IsDryLevel(terrain.SurfaceLevel))
-                {
-                    return false;
-                }
+            TerrainTilePreview terrain = world.GetTerrainTile(voxel.H, voxel.V);
+            if (!terrain.IsFlat || terrain.SurfaceLevel != baseTerrain.SurfaceLevel || !IsDryLevel(terrain.SurfaceLevel))
+            {
+                return false;
             }
         }
 
         return true;
     }
 
-    private static void MarkOccupied(int h, int v, SpriteContribution contribution, HashSet<(int H, int V)> occupied)
+    private static void MarkOccupied(ModernPlacedEntity entity, HashSet<(int H, int V)> occupied)
     {
-        int footprintX = Math.Max(1, contribution.SpriteSet3D?.SizeX ?? contribution.SizeX);
-        int footprintY = Math.Max(1, contribution.SpriteSet3D?.SizeY ?? contribution.SizeY);
-        for (int y = 0; y < footprintY; y++)
+        foreach (ModernVoxelKey voxel in entity.OccupiedVoxels)
         {
-            for (int x = 0; x < footprintX; x++)
-            {
-                occupied.Add((h + x, v + y));
-            }
+            occupied.Add((voxel.H, voxel.V));
         }
     }
 
@@ -2837,6 +2983,7 @@ public sealed class MapViewport : Control, IDisposable
         return structure.Frames
             .Concat(structure.SpriteSet2D?.InVoxelDrawOrder().Select(voxel => voxel.Frame) ?? Enumerable.Empty<SpriteFrame>())
             .Concat(structure.SpriteSet3D?.InVoxelDrawOrder().Select(voxel => voxel.Frame) ?? Enumerable.Empty<SpriteFrame>())
+            .Concat(structure.SpriteSet3DVariants.SelectMany(spriteSet => spriteSet.InVoxelDrawOrder()).Select(voxel => voxel.Frame))
             .Select(GetFrameColorVariantCount)
             .DefaultIfEmpty(1)
             .Max();

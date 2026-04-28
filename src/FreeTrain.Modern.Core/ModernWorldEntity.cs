@@ -45,16 +45,7 @@ public sealed record ModernPlacedEntity(
     {
         get
         {
-            for (int z = 0; z < Math.Max(1, FootprintZ); z++)
-            {
-                for (int v = 0; v < Math.Max(1, FootprintV); v++)
-                {
-                    for (int h = 0; h < Math.Max(1, FootprintH); h++)
-                    {
-                        yield return new ModernVoxelKey(H + h, V + v, Z + z);
-                    }
-                }
-            }
+            return ModernFootprint.EnumerateVoxels(H, V, Z, FootprintH, FootprintV, FootprintZ);
         }
     }
 
@@ -94,8 +85,12 @@ public sealed record ModernPlacedEntity(
         SpriteFrame frame,
         int colorVariantIndex = 0)
     {
-        int footprintH = Math.Max(1, contribution.SpriteSet3D?.SizeX ?? contribution.SizeX);
-        int footprintV = Math.Max(1, contribution.SpriteSet3D?.SizeY ?? contribution.SizeY);
+        int footprintH = Math.Max(1, frame.FootprintH > 0
+            ? frame.FootprintH
+            : (contribution.SpriteSet3D?.SizeX ?? contribution.SizeX));
+        int footprintV = Math.Max(1, frame.FootprintV > 0
+            ? frame.FootprintV
+            : (contribution.SpriteSet3D?.SizeY ?? contribution.SizeY));
         int footprintZ = Math.Max(1, contribution.SpriteSet3D?.SizeZ ?? contribution.Height);
 
         return new ModernPlacedEntity(

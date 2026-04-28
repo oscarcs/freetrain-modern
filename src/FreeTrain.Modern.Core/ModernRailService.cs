@@ -267,13 +267,7 @@ public sealed record ModernStation(
     {
         get
         {
-            for (int v = 0; v < FootprintV; v++)
-            {
-                for (int h = 0; h < FootprintH; h++)
-                {
-                    yield return new ModernVoxelKey(H + h, V + v, Z);
-                }
-            }
+            return ModernFootprint.EnumerateVoxels(H, V, Z, FootprintH, FootprintV, 1);
         }
     }
 

@@ -212,6 +212,8 @@ public sealed record SpriteFrame(
     public IReadOnlyList<IReadOnlyList<ColorMapEntry>> ColorMapVariants { get; init; } = ColorMaps.Count == 0
         ? Array.Empty<IReadOnlyList<ColorMapEntry>>()
         : new[] { ColorMaps };
+    public int FootprintH { get; init; }
+    public int FootprintV { get; init; }
 
     public IReadOnlyList<ColorMapEntry> ColorMapsForVariant(int variantIndex)
     {
@@ -271,6 +273,7 @@ public sealed record SpriteContribution(
         or SpriteContributionPlacementKind.RoadAccessory
         or SpriteContributionPlacementKind.ElectricPole
         or SpriteContributionPlacementKind.VariableHeightBuilding;
+    public IReadOnlyList<ModernSpriteSet3D> SpriteSet3DVariants { get; init; } = Array.Empty<ModernSpriteSet3D>();
 }
 
 public sealed record PluginManifest(
@@ -747,7 +750,8 @@ public sealed class PluginManifestCatalog
         int height = int.TryParse(ElementValue(contribution, "height"), out int parsedHeight)
             ? parsedHeight
             : 0;
-        IReadOnlyList<SpriteFrame> regularFrames = contribution.Descendants("sprite")
+        XElement[] spriteElements = contribution.Descendants("sprite").ToArray();
+        IReadOnlyList<SpriteFrame> regularFrames = spriteElements
             .Select(sprite => ParseSpriteFrame(pluginDirectory, contribution, sprite, pictures))
             .Where(frame => frame is not null)
             .Cast<SpriteFrame>()
@@ -757,13 +761,21 @@ public sealed class PluginManifestCatalog
             ? regularFrames
             : ParseVariableHeightBuildingFrames(pluginDirectory, contribution, pictures);
         XElement? firstSprite = contribution.Elements("sprite").FirstOrDefault()
-            ?? contribution.Descendants("sprite").FirstOrDefault();
+            ?? spriteElements.FirstOrDefault();
         ModernSpriteSet2D? spriteSet2D = firstSprite is not null && sizeX > 0 && sizeY > 0
             ? Load2DSpriteSet(pluginDirectory, contribution, firstSprite, pictures, sizeX, sizeY, Math.Max(0, height))
             : null;
-        ModernSpriteSet3D? spriteSet3D = firstSprite is not null && IsFixedSizeStructure(contribution) && sizeX > 0 && sizeY > 0 && height > 0
-            ? Load3DSpriteSet(pluginDirectory, contribution, firstSprite, pictures, sizeX, sizeY, height)
-            : null;
+        IReadOnlyList<ModernSpriteSet3D> spriteSet3DVariants = IsFixedSizeStructure(contribution) && sizeX > 0 && sizeY > 0 && height > 0
+            ? spriteElements
+                .Select(sprite =>
+                {
+                    (int footprintH, int footprintV) = EffectiveSpriteFootprint(sizeX, sizeY, sprite);
+                    return Load3DSpriteSet(pluginDirectory, contribution, sprite, pictures, footprintH, footprintV, height);
+                })
+                .ToList()
+                .AsReadOnly()
+            : Array.Empty<ModernSpriteSet3D>();
+        ModernSpriteSet3D? spriteSet3D = spriteSet3DVariants.FirstOrDefault();
         string? error = frames.Count == 0
             ? "No sprite frames found."
             : frames.Any(frame => frame.IsLoadable)
@@ -791,7 +803,10 @@ public sealed class PluginManifestCatalog
             frames,
             spriteSet2D,
             spriteSet3D,
-            string.IsNullOrWhiteSpace(error) ? null : error);
+            string.IsNullOrWhiteSpace(error) ? null : error)
+        {
+            SpriteSet3DVariants = spriteSet3DVariants
+        };
     }
 
     private static LandContribution ParseLandContribution(
@@ -1788,7 +1803,12 @@ public sealed class PluginManifestCatalog
         (int sizeX, int sizeY) = ParseSize(ElementValue(contribution, "size"));
         int sourceWidth = Math.Max(32, (Math.Max(1, sizeX) + Math.Max(1, sizeY)) * 16);
         int sourceHeight = Math.Max(16, offsetY + 16);
-        return CreateSpriteFrame(picture, sourceX, sourceY, sourceWidth, sourceHeight, offsetX, offsetY);
+        bool opposite = HasOppositeOrientation(part);
+        return CreateSpriteFrame(picture, sourceX, sourceY, sourceWidth, sourceHeight, offsetX, offsetY) with
+        {
+            FootprintH = opposite ? Math.Max(1, sizeY) : Math.Max(1, sizeX),
+            FootprintV = opposite ? Math.Max(1, sizeX) : Math.Max(1, sizeY)
+        };
     }
 
     private static SpriteFrame? ParseSpriteFrame(
@@ -1847,6 +1867,8 @@ public sealed class PluginManifestCatalog
             ? (0, DefaultOffsetY(contribution))
             : ParseOffset(offset);
         (int sourceWidth, int sourceHeight) = InferSpriteSize(contribution, sprite, offsetY);
+        (int sizeX, int sizeY) = ParseSize(ElementValue(contribution, "size"));
+        (int footprintH, int footprintV) = EffectiveSpriteFootprint(sizeX, sizeY, sprite);
         IReadOnlyList<IReadOnlyList<ColorMapEntry>> colorMapVariants = ParseSpriteColorMapVariants(contribution, sprite);
         IReadOnlyList<ColorMapEntry> colorMaps = colorMapVariants.FirstOrDefault() ?? Array.Empty<ColorMapEntry>();
         return new SpriteFrame(
@@ -1862,7 +1884,9 @@ public sealed class PluginManifestCatalog
             colorMaps,
             error)
         {
-            ColorMapVariants = colorMapVariants
+            ColorMapVariants = colorMapVariants,
+            FootprintH = footprintH,
+            FootprintV = footprintV
         };
     }
 
@@ -2125,6 +2149,38 @@ public sealed class PluginManifestCatalog
         return 0;
     }
 
+    private static (int FootprintH, int FootprintV) EffectiveSpriteFootprint(int sizeX, int sizeY, XElement sprite)
+    {
+        int footprintH = Math.Max(1, sizeX);
+        int footprintV = Math.Max(1, sizeY);
+        return HasOppositeOrientation(sprite)
+            ? (footprintV, footprintH)
+            : (footprintH, footprintV);
+    }
+
+    private static bool HasOppositeOrientation(XElement element)
+    {
+        if (ParseBool(AttributeValue(element, "opposite")))
+        {
+            return true;
+        }
+
+        foreach (XElement ancestor in element.Ancestors())
+        {
+            if (ancestor.Name.LocalName.Equals("contribution", StringComparison.OrdinalIgnoreCase))
+            {
+                return false;
+            }
+
+            if (ParseBool(AttributeValue(ancestor, "opposite")))
+            {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
     private static (int Width, int Height) InferSpriteSize(XElement contribution, XElement sprite, int offsetY)
     {
         (int sourceWidth, int sourceHeight) = ParseSize(AttributeValue(sprite, "size"));
@@ -2244,6 +2300,13 @@ public sealed class PluginManifestCatalog
         string first = value.Split(',', StringSplitOptions.TrimEntries | StringSplitOptions.RemoveEmptyEntries)
             .FirstOrDefault() ?? "";
         return int.TryParse(first, out int parsed) ? parsed : 0;
+    }
+
+    private static bool ParseBool(string value)
+    {
+        return value.Equals("true", StringComparison.OrdinalIgnoreCase)
+            || value.Equals("yes", StringComparison.OrdinalIgnoreCase)
+            || value == "1";
     }
 
     private static (int Width, int Height) ParseSize(string value)

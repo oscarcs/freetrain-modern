@@ -10,6 +10,66 @@ public readonly record struct ModernDistance(int X, int Y, int Z)
     }
 }
 
+public static class ModernFootprint
+{
+    public static ModernVoxelKey ToVoxelKey(int h, int v, int z, int localX, int localY, int localZ = 0)
+    {
+        (int isoX, int isoY) = ToIso(h, v);
+        return FromIso(isoX + localX, isoY + localY, z + localZ);
+    }
+
+    public static IEnumerable<ModernVoxelKey> EnumerateVoxels(
+        int h,
+        int v,
+        int z,
+        int footprintH,
+        int footprintV,
+        int footprintZ)
+    {
+        int sizeH = Math.Max(1, footprintH);
+        int sizeV = Math.Max(1, footprintV);
+        int sizeZ = Math.Max(1, footprintZ);
+        for (int localZ = 0; localZ < sizeZ; localZ++)
+        {
+            for (int localV = 0; localV < sizeV; localV++)
+            {
+                for (int localH = 0; localH < sizeH; localH++)
+                {
+                    yield return ToVoxelKey(h, v, z, localH, localV, localZ);
+                }
+            }
+        }
+    }
+
+    private static (int X, int Y) ToIso(int h, int v)
+    {
+        return (h - FloorDiv(v, 2), h + FloorDiv(v + 1, 2));
+    }
+
+    private static ModernVoxelKey FromIso(int isoX, int isoY, int z)
+    {
+        int v = isoY - isoX;
+        int parity = PositiveModulo(v, 2);
+        int h = (isoX + isoY - parity) / 2;
+        return new ModernVoxelKey(h, v, z);
+    }
+
+    private static int FloorDiv(int value, int divisor)
+    {
+        int quotient = value / divisor;
+        int remainder = value % divisor;
+        return remainder != 0 && (remainder < 0) != (divisor < 0)
+            ? quotient - 1
+            : quotient;
+    }
+
+    private static int PositiveModulo(int value, int divisor)
+    {
+        int result = value % divisor;
+        return result < 0 ? result + divisor : result;
+    }
+}
+
 public readonly record struct ModernLocation(int X, int Y, int Z)
 {
     public static ModernLocation Unplaced => new(int.MinValue, int.MinValue, int.MinValue);

@@ -848,6 +848,14 @@ public sealed partial class MainWindow : Window
                 yield return voxel.Frame;
             }
         }
+
+        foreach (ModernSpriteSet3D variantSpriteSet3D in structure.SpriteSet3DVariants)
+        {
+            foreach (ModernSpriteVoxel3D voxel in variantSpriteSet3D.InVoxelDrawOrder())
+            {
+                yield return voxel.Frame;
+            }
+        }
     }
 
     private static Color SwatchForColorLabel(string label)
